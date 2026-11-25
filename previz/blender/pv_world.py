@@ -240,3 +240,4 @@ def build_water(coll):
     ob.scale = (235, 295, 1)
     ob.location = (-325, 125, 0.0)
     m = C.mat_flat("water", "#06090b", 0.04, 0.0)
+    b = m.node_tree.nodes["Principled BSDF"]
