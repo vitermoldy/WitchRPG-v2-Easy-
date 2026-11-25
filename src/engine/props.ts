@@ -112,3 +112,4 @@ export class Props {
       this.mesh.setMatrixAt(i, this.m)
     })
     this.mesh.instanceMatrix.needsUpdate = true
+  }
