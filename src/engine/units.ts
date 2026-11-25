@@ -400,3 +400,4 @@ export class UnitSystem {
   }
 
   /**
+   * Nearest living unit of the other side within range. Looked up in the 3 m grid, or straight from
