@@ -388,3 +388,4 @@ export class UnitSystem {
   private rebuildGrid() {
     this.grid.clear()
     this.living.enemy.length = 0
+    this.living.shadow.length = 0
