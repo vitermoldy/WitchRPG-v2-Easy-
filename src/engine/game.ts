@@ -716,3 +716,4 @@ export class Game implements UnitHost {
     p.poisonT = 0
     this.applyDerived(true)
     // she rises at the last altar she stood at
+    const a = this.altars.byKey(this.profile.world.last)
