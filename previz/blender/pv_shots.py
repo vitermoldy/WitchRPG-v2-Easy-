@@ -579,3 +579,4 @@ def build_board(lib_colls, stats):
     card = C.mat_flat("kartu", "#1d1a1f", 1.0)
     well = C.mat_flat("sumur_blokout", "#2a2d36", 1.0)
     C.text(coll, "Papan makhluk WitchRPG v2", (0.4, 0, -0.85), size=0.62, color="#f4efe9", rot=(90, 0, 0))
+    C.text(coll, "Kiri: gambar referensi pemilik. Kanan: block-out 3D previz yang mengikuti warna, anatomi, dan atribut khasnya, dibangun sendiri dari bentuk sederhana. Ilyra tanpa referensi.", (0.4, 0, -1.45), size=0.26, color="#b9b2ad", rot=(90, 0, 0))
