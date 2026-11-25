@@ -55,3 +55,4 @@ describe('over-the-shoulder camera', () => {
     rig.firstPerson = false
     for (let i = 0; i < 240; i++) pose = rig.update(1 / 60, pivot, false, null, null, flat)
     expect(rig.fp).toBe(0)
+    expect(pose.pos.z).toBeCloseTo(CAMERA.normal.dist, 2)
