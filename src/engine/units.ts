@@ -291,3 +291,4 @@ export class UnitSystem {
 
   spawn(kind: UnitKind, team: Team, level: number, at: { x: number; z: number }, rising = false): Unit {
     const u = new Unit(kind, team, level)
+    u.pos.set(at.x, this.host.height(at.x, at.z), at.z)
