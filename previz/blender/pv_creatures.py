@@ -557,3 +557,4 @@ def b_centaur(r):
     for s, side in SIDES:
         r.parts["upperarm_" + side].torus(lerp(J["sh_" + side], J["el_" + side], 0.6), 0.055, 0.014, normal=J["arm_dir_" + side], mat="gold", seg=12, rseg=4)
         r.parts["forearm_" + side].torus(lerp(J["el_" + side], J["wr_" + side], 0.7), 0.045, 0.012, normal=J["hand_dir_" + side], mat="gold", seg=12, rseg=4)
+    r.parts["torso"].torus(V(J["waist"]) + Vector((0, 0, -0.02)), 0.2, 0.03, mat="gold", seg=16)
