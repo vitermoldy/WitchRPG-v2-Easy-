@@ -11,3 +11,5 @@ export type SkillId =
   | 'general'
   | 'marshal'
 
+export type Branch = 'chaos' | 'umbra'
+
