@@ -75,3 +75,4 @@ body {
 
 kbd {
   display: inline-block;
+  min-width: 1.9em;
