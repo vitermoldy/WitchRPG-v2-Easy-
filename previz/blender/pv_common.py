@@ -136,3 +136,4 @@ def mat_tone(name, top, bottom=None, rough=0.7, metal=0.0, emit=None, emit_stren
     m = _new_mat(name)
     nt = m.node_tree
     N, L = nt.nodes, nt.links
+    b = N["Principled BSDF"]
