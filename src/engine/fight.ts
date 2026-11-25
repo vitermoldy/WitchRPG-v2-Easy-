@@ -252,3 +252,4 @@ export class Fight {
     return this.g.spells.damageMult
   }
 
+  /** Nothing can hurt her during an execution. */
