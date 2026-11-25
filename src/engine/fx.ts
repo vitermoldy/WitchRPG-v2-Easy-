@@ -141,3 +141,4 @@ export class Particles {
       this.vel[i * 3 + 2] = Math.sin(t) * r + (e.vel?.z ?? 0)
       this.baseCol[i * 3] = this.c.r
       this.baseCol[i * 3 + 1] = this.c.g
+      this.baseCol[i * 3 + 2] = this.c.b
