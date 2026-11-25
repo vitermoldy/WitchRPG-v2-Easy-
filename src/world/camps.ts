@@ -86,3 +86,5 @@ export const CAMP_DEFS: CampDef[] = [
   { c: [40, 300], pack: { atlas: 1 }, levels: [17, 17], boss: true },
   { c: [-60, 440], pack: { typhon: 1 }, levels: [18, 18], boss: true },
   { c: [360, 350], pack: { samael: 1 }, levels: [19, 19], boss: true },
+]
+
