@@ -88,3 +88,4 @@ export class Game implements UnitHost {
   telegraphs!: Telegraphs
   rigs!: Rigs
   camps!: Camps
+  fauna!: Fauna
