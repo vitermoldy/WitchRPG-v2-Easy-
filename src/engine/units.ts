@@ -496,3 +496,4 @@ export class UnitSystem {
         if (u.t > 0.8) this.remove(u)
         continue
       }
+      if (u.state === 'diving') {
