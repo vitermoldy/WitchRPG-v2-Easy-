@@ -378,3 +378,4 @@ export class WorldMap {
       ctx.fillStyle = live ? 'rgba(255, 165, 61, 0.92)' : 'rgba(120, 112, 108, 0.9)'
       ctx.strokeStyle = 'rgba(12, 8, 9, 0.9)'
       ctx.lineWidth = 2
+      ctx.fill()
