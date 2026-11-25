@@ -647,3 +647,4 @@ export class Spells {
     }
   }
 
+  /** Reality Warp: a field where creatures hang in the air, helpless, for as long as it lasts. */
