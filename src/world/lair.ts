@@ -163,3 +163,4 @@ export class Lair {
       h.controlled = true
       h.aggro = false
       h.owner = body
+      h.pos.y = WATER_LEVEL + 9
