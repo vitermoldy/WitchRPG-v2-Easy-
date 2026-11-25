@@ -11,3 +11,4 @@ interface Shot {
   gravity: number
   radius: number
   source: Unit
+  atk: AttackSpec
