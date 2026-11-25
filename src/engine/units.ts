@@ -546,3 +546,4 @@ export class UnitSystem {
       this.steer(u, u.pos.x + (dx / d) * 6, u.pos.z + (dz / d) * 6, u.speed, dt, 0.5)
       this.face(u, u.pos.x + dx, u.pos.z + dz, dt, 5)
     } else {
+      // a new spot near home every few seconds; aimAt holds it, fauna never aims
