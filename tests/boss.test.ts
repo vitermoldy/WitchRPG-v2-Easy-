@@ -83,3 +83,4 @@ describe('the Hydra', () => {
     expect(riteChance('marsekal', 10, 12, 5)).toBeCloseTo(0.16, 3)
     addShadow(p, 'hydra', 12)
     expect(riteBlock(p, 'hydra')).not.toBeNull()
+  })
