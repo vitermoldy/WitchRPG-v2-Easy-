@@ -617,3 +617,4 @@ def build_board(lib_colls, stats):
 
 # ---------------------------------------------------------------- 07 readability test in Lembah Bara
 
+def build_bara(dunia):
