@@ -133,3 +133,4 @@ export function createApi(getPool, database) {
       xp: w.xp,
       statPoints: w.stat_points,
       skillPoints: w.skill_points,
+      stats: { hex: w.hex, spr: w.spr, vit: w.vit, agi: w.agi, umb: w.umb },
