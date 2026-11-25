@@ -737,3 +737,4 @@ export class Game implements UnitHost {
     for (const u of this.umbra.field()) {
       const spot = this.umbra.spot(u.slot)
       u.pos.copy(spot)
+      u.vel.set(0, 0, 0)
