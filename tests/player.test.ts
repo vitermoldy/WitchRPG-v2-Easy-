@@ -33,3 +33,4 @@ describe('Ilyra in the air (B)', () => {
     run(p, { ...idle, y: 1 }, 2)
     expect(p.speed).toBeCloseTo(MOVE.fly.speed, 0)
     run(p, { ...idle, y: 1, sprint: true }, 2)
+    expect(p.speed).toBeCloseTo(MOVE.fly.boost, 0)
