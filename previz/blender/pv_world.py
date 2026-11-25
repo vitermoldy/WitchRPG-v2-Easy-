@@ -441,3 +441,4 @@ def build_forest(coll, P, size=1260.0, step=4.0, seed=3):
     X = (X + rng.uniform(-step * 0.45, step * 0.45, X.shape)).ravel()
     Y = (Y + rng.uniform(-step * 0.45, step * 0.45, Y.shape)).ravel()
     Z = height(X, Y)
+    e = 1.5
