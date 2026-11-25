@@ -102,3 +102,4 @@ describe('over-the-shoulder camera', () => {
         if (Math.hypot(x, z) < 0.9) continue
         if (r() < 0.75) {
           const s = 0.7 + r() * 0.7
+          obs.add({ kind: CYL, x, y: 0, z, r: 0.3 * s, h: 14 * s, camOnly: false })
