@@ -19,3 +19,4 @@ const PATH = hex('#4a3b2c')
 
 interface Chunk {
   ix: number
+  iz: number
