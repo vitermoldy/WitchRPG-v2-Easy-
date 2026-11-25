@@ -86,3 +86,4 @@ class Staff {
     if (this.obj) this.obj.visible = false
   }
 
+  /** First living enemy the segment prev to pos passes through, and how far along (0 to 1). */
