@@ -5,3 +5,5 @@
 import type { Profile } from '../game/progression'
 
 const CODE_KEY = 'witchrpg-v2-easy:client'
+const ALPHABET = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789'
+
