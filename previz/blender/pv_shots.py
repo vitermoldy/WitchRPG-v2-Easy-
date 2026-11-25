@@ -589,3 +589,4 @@ def build_board(lib_colls, stats):
         bg.finalize()
         if k == "ilyra":
             C.text(coll, "Tanpa referensi:", (x0 + 2.3, 0, z0 - 2.0), size=0.26, color="#8f8a86", align="CENTER", rot=(90, 0, 0))
+            C.text(coll, "desain dari v1", (x0 + 2.3, 0, z0 - 2.4), size=0.26, color="#8f8a86", align="CENTER", rot=(90, 0, 0))
