@@ -150,3 +150,4 @@ async function boot() {
     if (ledger.isOpen || travel.isOpen || map.isOpen) return
     const locked = await game.input.lock()
     if (!locked && !debug) {
+      game.pause()
