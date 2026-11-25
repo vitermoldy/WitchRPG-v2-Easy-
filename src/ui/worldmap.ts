@@ -128,3 +128,4 @@ export class WorldMap {
       return ZONES[best].name
     }
     const lair = g.lair
+    list.push({
