@@ -81,3 +81,5 @@ export class Combo {
 
   get busy() {
     return this.current !== null || this.charging >= 0
+  }
+
