@@ -44,3 +44,4 @@ export class Fauna {
   update() {
     const g = this.g
     const p = g.player.pos
+    for (const s of this.spots) {
