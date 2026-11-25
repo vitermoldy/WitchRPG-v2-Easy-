@@ -374,3 +374,4 @@ export class WorldMap {
       const [x, y] = at(b.x, b.z)
       const live = b.status !== 'down'
       ctx.beginPath()
+      ctx.arc(x, y, br, 0, Math.PI * 2)
