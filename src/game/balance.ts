@@ -240,3 +240,4 @@ export interface UnitSpec {
   shot?: { speed: number; gravity: number; radius: number; keepAway: number; blast?: number }
   /** Flies: hovers this high over the ground and dives at its target instead of walking. */
   fly?: { height: number }
+  /** Share of damage a raised shield stops when hit from the front. */
