@@ -287,3 +287,4 @@ def _faces_of(verts):
 def catmull(pts, n):
     P = [V(p) for p in pts]
     if len(P) == 2:
+        return [P[0].lerp(P[1], i / n) for i in range(n + 1)], [i / n for i in range(n + 1)]
