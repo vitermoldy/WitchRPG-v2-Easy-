@@ -473,3 +473,4 @@ export class Lair {
           if (!g.blocked(x, z) && this.inside(x, z)) spot = { x, z }
         }
         if (!spot) break
+        const imp = g.units.spawn('imp', 'enemy', 10, spot, true)
