@@ -50,3 +50,4 @@ const legacy = new WeakMap<UnitSpec, AttackSpec[]>()
 export function attacksOf(spec: UnitSpec): AttackSpec[] {
   if (spec.attacks) return spec.attacks
   let list = legacy.get(spec)
+  if (!list) {
