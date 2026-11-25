@@ -69,3 +69,4 @@ async function boot() {
   const profileLine = () => {
     $('profile-line').textContent = pr.level > 1 || pr.shadows.length ? `Ilyra Lv ${pr.level}, ${pr.shadows.length} bayangan di Ruang Bayangan` : ''
   }
+  profileLine()
