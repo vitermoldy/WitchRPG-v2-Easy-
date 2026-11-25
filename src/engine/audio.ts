@@ -365,3 +365,4 @@ export class Sfx {
   blink() {
     if (!this.ok()) return
     const t = this.ctx!.currentTime
+    this.noise(t, 0.25, 'bandpass', 2200, 0.12, 2, 420)
