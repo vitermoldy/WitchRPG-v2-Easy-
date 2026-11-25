@@ -272,3 +272,4 @@ def build_valley(dunia):
         ("Rawa Berkabut", "Tier III, Lv 7-9", (-290, 0), 25),
         ("Danau Hitam", "sarang Hydra", (-330, 300), 30),
         ("Reruntuhan Kuil", "Tier IV, Lv 10-12", (40, 330), 45),
+        ("Lembah Bara", "Tier V, Lv 13-15", (330, 330), 70),
