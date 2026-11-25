@@ -539,3 +539,4 @@ export class UnitSystem {
   private faunaBrain(u: Unit, dt: number) {
     const p = this.host.foe
     const home = u.home ?? u.pos
+    const dx = u.pos.x - p.pos.x
