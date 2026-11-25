@@ -73,3 +73,4 @@ export const LOCKON = {
   /** Target point sits at 2/3 of the width and 1/3 of the height from the top. */
   thirdX: 1 / 3,
   thirdY: 1 / 3,
+  /** Targets taller than this pull the camera back and widen the view a little. */
