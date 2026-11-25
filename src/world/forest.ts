@@ -255,3 +255,4 @@ export class Forest {
       q.setFromAxisAngle(up, t.rot)
       m.compose(new THREE.Vector3(t.x, t.y, t.z), q, new THREE.Vector3(t.scale, t.scale, t.scale))
       this.mesh.setMatrixAt(id, m)
+    }
