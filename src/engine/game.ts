@@ -1214,3 +1214,4 @@ export class Game implements UnitHost {
   }
 
   /** ?debug: an elite with a trait (or a random one) near her. */
+  debugElite(kind: V2Kind, trait: EliteTrait | null = null, level = 10, dist = 10) {
