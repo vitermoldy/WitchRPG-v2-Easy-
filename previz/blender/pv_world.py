@@ -254,3 +254,4 @@ def build_water(coll):
     me.materials.append(m)
     coll.objects.link(ob)
     # Screen-space reflections break into a hard diagonal edge when rays leave the frame; a planar probe
+    # mirrors the far shore properly and keeps Danau Hitam black.
