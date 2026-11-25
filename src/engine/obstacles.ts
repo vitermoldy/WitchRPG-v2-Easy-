@@ -193,3 +193,4 @@ function segSphere(ax: number, ay: number, az: number, dx: number, dy: number, d
   const ox = ax - s.x
   const oy = ay - s.y
   const oz = az - s.z
+  const c = ox * ox + oy * oy + oz * oz - R * R
