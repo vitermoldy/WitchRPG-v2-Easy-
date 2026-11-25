@@ -25,3 +25,4 @@ interface BossEntry {
   x: number
   z: number
   status: 'waiting' | 'down' | 'sealed' | 'locked'
+  note: string
