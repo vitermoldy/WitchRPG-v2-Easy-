@@ -211,3 +211,4 @@ export class Spells {
   }
 
   addChaos(amount: number) {
+    if (this.overloaded) return
