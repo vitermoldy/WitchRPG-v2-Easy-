@@ -18,3 +18,4 @@ FRAMES = int(T_END * FPS)
 
 
 def ease(t):
+    t = min(1.0, max(0.0, t))
