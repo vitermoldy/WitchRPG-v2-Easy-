@@ -211,3 +211,4 @@ def build_hero(dunia, name="01-hero-bahu", mode="normal", cam_over=None, res=(19
     return sc, cam
 
 
+def shaft_fog(coll, centre, size, z0, density=0.018):
