@@ -470,3 +470,5 @@ export class Spells {
     }
     this.tendril.geometry.setFromPoints(this.tendrilPts)
     this.tendrilLight?.position.copy(to)
+  }
+
