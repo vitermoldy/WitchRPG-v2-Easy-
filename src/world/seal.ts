@@ -53,3 +53,4 @@ export class Seal {
     const uv: number[] = []
     const H = 16
     const wall = (ax: number, ay: number, bx: number, by: number) => {
+      const ha = heightMap(ax, ay) - 1
