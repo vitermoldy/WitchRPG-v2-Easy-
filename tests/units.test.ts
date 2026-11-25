@@ -177,3 +177,4 @@ describe('phase 4 creatures', () => {
     const w = world()
     const n = w.sys.spawn('naga', 'enemy', 7, { x: 0, z: 10 })
     n.aggro = false
+    n.home = n.pos.clone()
