@@ -17,3 +17,5 @@ export interface FightInput {
   /** Steering this frame in world space (for which way a swing goes), zero when none is held. */
   dirX: number
   dirZ: number
+}
+
