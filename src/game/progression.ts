@@ -237,3 +237,4 @@ export function gainXp(p: Profile, amount: number, skills: SkillId[]): XpResult 
     }
     if (s.level >= p.level) s.xp = Math.min(s.xp, xpToNext(s.level) - 1)
   }
+  return result
