@@ -1348,3 +1348,4 @@ dialog::backdrop {
 }
 
 .ledger-xp i {
+  display: block;
