@@ -283,3 +283,4 @@ export class Umbra {
         if (u.deadT > 1.1) g.units.remove(u)
         continue
       }
+      const window = open && !u.riteTried ? RITE.window : RITE.plainCorpseTime
