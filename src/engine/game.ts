@@ -1067,3 +1067,4 @@ export class Game implements UnitHost {
       // ?debug: look at her from a fixed angle around her facing (the animation sheet)
       const a = p.facing + this.debugCam.angle
       c.position.set(p.pos.x - Math.sin(a) * this.debugCam.dist, p.pos.y + 1.1, p.pos.z - Math.cos(a) * this.debugCam.dist)
+      c.lookAt(p.pos.x, p.pos.y + 0.95, p.pos.z)
