@@ -115,3 +115,4 @@ export const signUp = (username: string, password: string): Promise<void> => ent
 export async function signOut(): Promise<void> {
   await call('auth/logout', { method: 'POST', body: '{}' }).catch(() => undefined)
   try {
+    localStorage.removeItem(CODE_KEY)
