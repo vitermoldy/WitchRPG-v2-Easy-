@@ -88,3 +88,4 @@ const SWINGS = [
  * staff swings, block, parry, execution, throw and catch, bolt, Telekinesis, Umbra Rite, hurt and fall.
  */
 export class IlyraModel {
+  readonly root = new THREE.Group()
