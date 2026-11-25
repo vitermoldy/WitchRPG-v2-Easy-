@@ -118,3 +118,4 @@ describe('over-the-shoulder camera', () => {
       rig.yaw = r() * Math.PI * 2
       rig.pitch = rad(CAMERA.pitchMin + r() * (CAMERA.pitchMax - CAMERA.pitchMin))
       const pose = rig.update(1 / 60, head, r() < 0.3, null, obs, ground)
+      worst = Math.min(worst, obs.clearance(pose.pos.x, pose.pos.y, pose.pos.z))
