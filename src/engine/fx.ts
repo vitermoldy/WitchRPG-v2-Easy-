@@ -423,3 +423,4 @@ interface Pool {
 export class ShadowPools {
   private readonly pools: Pool[] = []
 
+  constructor(scene: THREE.Object3D, count = 140) {
