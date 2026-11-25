@@ -507,3 +507,4 @@ def b_hellhound(r):
         nk = r.P(f"neck{k}", nb, "body")
         nk.limb(nb + Vector((dx * 0.3, 0, 0)), hp, 0.15 * sc, 0.12 * sc)
         hd = r.P(f"head{k}", hp, f"neck{k}")
+        dog_head(hd, hp + Vector((0, -0.06, 0.02)), fwd=(dx * 1.6, -1, -0.12), s=1.15 * sc, jaw_open=34)
