@@ -899,3 +899,4 @@ class Rig implements Poser {
     if (u.parts) {
       u.parts.forEach((h, k) => {
         const node = this.named.get('head' + k)
+        if (!h || !node) return
