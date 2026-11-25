@@ -1032,3 +1032,4 @@ export class Rigs {
       this.crowd.set(kind, b)
     }
     if (need > b.cap) {
+      let cap = Math.max(64, b.cap)
