@@ -197,3 +197,4 @@ export class Umbra {
     g.hud.message(later ? `${n} bayangan dipanggil. ${later} lainnya menyusul setelah terbentuk kembali.` : `${n} bayangan dipanggil, seluruh Ruang Bayangan.`, 'umbra')
   }
 
+  /** T again: every shadow on the field sinks into a pool and the darkness pulls back under her. */
