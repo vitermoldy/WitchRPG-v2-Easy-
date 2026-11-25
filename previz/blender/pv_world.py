@@ -713,3 +713,6 @@ def build_embers(coll, centre, radius, count, seed=5, z_range=(0.5, 30)):
         r.finalize()
         ember = r.objs["m"]
     pts = np.stack([X, Y, Z], axis=1)
+    return scatter_object(f"embers_{seed}", coll, ember, pts, np.zeros((count, 3)), rng.uniform(0.5, 1.6, count))
+
+
