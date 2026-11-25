@@ -64,3 +64,4 @@ export class WorldMap {
       this.changed()
     })
     $('map-none').addEventListener('click', () => {
+      this.chosen.clear()
