@@ -588,3 +588,4 @@ def camera(sc, name, loc, look_at=None, rot=None, lens_vfov=None, ortho=None, cl
         cd.type = "ORTHO"
         cd.ortho_scale = ortho
     elif lens_vfov:
+        cd.sensor_fit = "VERTICAL"
