@@ -107,3 +107,4 @@ export class Particles {
     geo.boundingSphere = new THREE.Sphere(new THREE.Vector3(), 1e6)
     this.material = new THREE.ShaderMaterial({
       uniforms: { uScale: { value: 400 } },
+      vertexShader: VERT,
