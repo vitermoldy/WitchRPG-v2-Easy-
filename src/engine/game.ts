@@ -274,3 +274,4 @@ export class Game implements UnitHost {
     else this.fight.stats.hitLine++
     this.hurtPlayer(u.damage * (atk.damage ?? 1), u.pos)
     if (!p.alive) return
+    if (atk.effect === 'petrify' && this.spells.barrierT <= 0) {
