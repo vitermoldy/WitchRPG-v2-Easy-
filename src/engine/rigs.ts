@@ -225,3 +225,4 @@ const poseHound: PoseFn = (p, u, t) => {
     p.rot('leg_FR', -10 * Math.sin(t * 5))
     p.rot('leg_HL', 15)
     p.rot('leg_HR', 15)
+    return
