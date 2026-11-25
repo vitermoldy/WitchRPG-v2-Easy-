@@ -153,3 +153,5 @@ export class Hud {
   /** A violet breath across the screen when the army is called. */
   umbraPulse() {
     this.pulse('umbra-veil')
+  }
+
