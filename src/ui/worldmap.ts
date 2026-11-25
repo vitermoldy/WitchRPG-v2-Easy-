@@ -330,3 +330,4 @@ export class WorldMap {
       ctx.strokeStyle = '#9ff2e0'
       ctx.fillStyle = g.altars.isLit(a.key) ? '#9ff2e0' : 'rgba(12, 8, 9, 0.6)'
       ctx.fill()
+      ctx.stroke()
