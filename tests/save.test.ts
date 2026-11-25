@@ -12,3 +12,4 @@ describe('the save', () => {
     expect(p.world.last).toBe('pembuka')
   })
 
+  it('keeps lit altars and the rise point, without doubles or junk', () => {
