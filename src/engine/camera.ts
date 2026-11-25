@@ -152,3 +152,4 @@ export class CameraRig {
   place(dt: number, pivot: Vec, p: CamParams, obstacles: Obstacles | null, height: HeightFn): CamPose {
     const want = wanted(pivot, this.yaw, this.pitch, p)
     const clear = clearFraction(pivot, want, obstacles, height)
+    // Snap in at once so nothing is ever clipped; ease back out so the view does not jump.
