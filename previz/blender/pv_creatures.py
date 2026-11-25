@@ -881,3 +881,4 @@ def hydra_neck_joints(base, top, bend, k=8):
         d = cum[-1] * n / k
         while i < len(pts) - 2 and cum[i + 1] < d:
             i += 1
+        seg = cum[i + 1] - cum[i]
