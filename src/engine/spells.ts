@@ -339,3 +339,4 @@ export class Spells {
         this.killBolt(b)
         this.bolts.splice(i, 1)
       }
+    }
