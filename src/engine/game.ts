@@ -668,3 +668,4 @@ export class Game implements UnitHost {
     const died = this.units.hurt(body, dmg, from, u === body ? stun : 0, 0)
     if (source === 'player') {
       this.spells.addChaos(chaosFromDamage(dmg, 0))
+      this.hud.hit(died)
