@@ -240,3 +240,4 @@ const HARPY_LIMBS = ['upperarm_L', 'upperarm_R', 'thigh_L', 'thigh_R']
 
 /** Harpy: wing-arms. Hovers on slow beats, rears back to scream, then dives talons first. */
 const poseHarpy: PoseFn = (p, u, t) => {
+  if (common(p, u, t, HARPY_LIMBS)) return
