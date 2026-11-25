@@ -433,3 +433,4 @@ export class Fight {
     if (target) yaw = yawTo(p.pos.x, p.pos.z, target.pos.x, target.pos.z)
     this.swingYaw = yaw
     p.facing = yaw - wrap(yaw - p.facing) * 0.4
+    // step into the swing, but not through the creature
