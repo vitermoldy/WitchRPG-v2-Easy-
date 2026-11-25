@@ -139,3 +139,4 @@ async function boot() {
   const map = new WorldMap(game)
   if (debug) Object.assign(window as unknown as Record<string, unknown>, { __ledger: ledger, __travel: travel, __map: map })
 
+  /** A menu opens: the game waits and the mouse is freed for the buttons. */
