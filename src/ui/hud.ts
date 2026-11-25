@@ -90,3 +90,4 @@ export class Hud {
   zone(z: Zone) {
     if (z.key === this.zoneKey) return
     this.zoneKey = z.key
+    this.bannerName.textContent = z.name
