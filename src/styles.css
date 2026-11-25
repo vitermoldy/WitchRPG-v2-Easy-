@@ -1043,3 +1043,4 @@ button {
 }
 
 .army-slot {
+  display: grid;
