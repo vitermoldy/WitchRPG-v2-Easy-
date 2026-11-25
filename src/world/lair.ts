@@ -49,3 +49,4 @@ interface Island {
   x: number
   z: number
   r: number
+  mesh: THREE.Mesh
