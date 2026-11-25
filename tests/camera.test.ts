@@ -142,3 +142,4 @@ describe('over-the-shoulder camera', () => {
     expect(sx).toBeGreaterThan(0.2)
     expect(sx).toBeLessThan(0.45)
     expect(sy).toBeGreaterThan(0.15)
+    expect(sy).toBeLessThan(0.45)
