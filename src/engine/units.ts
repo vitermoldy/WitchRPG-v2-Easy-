@@ -719,3 +719,4 @@ export class UnitSystem {
           const side = Math.atan2(u.pos.x - tgt.pos.x, u.pos.z - tgt.pos.z) + u.flank * 0.9 * dt
           const r = Math.max(3, spec.attackRange - 1.5)
           this.steer(u, tgt.pos.x + Math.sin(side) * r, tgt.pos.z + Math.cos(side) * r, speed, dt)
+        } else if (slot || u.cd > 0) {
