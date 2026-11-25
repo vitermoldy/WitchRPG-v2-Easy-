@@ -375,3 +375,4 @@ def build_protos(lib_coll):
 
 # ---------------------------------------------------------------- instancing
 
+def scatter_group():
