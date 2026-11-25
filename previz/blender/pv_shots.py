@@ -34,3 +34,6 @@ def actor(name, key, pose=None, kind=None, lights=True):
     coll = C.collection(name, actors_coll())
     r = K.build(key, coll, kind=kind, pose=pose, lights=lights) if key == "ilyra" else K.build(key, coll, kind=kind, pose=pose)
     K.ground_rig(r)
+    return r
+
+
