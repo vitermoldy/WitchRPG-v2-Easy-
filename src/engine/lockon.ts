@@ -72,3 +72,4 @@ export class LockOn {
       if (a < bestA) {
         bestA = a
         best = t
+      }
