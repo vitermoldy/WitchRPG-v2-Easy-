@@ -84,3 +84,4 @@ const RIFT_FRAG = /* glsl */ `
     float a = clamp(inside * 0.96 + rim + glow, 0.0, 1.0) * uFade;
     gl_FragColor = vec4(col / max(a, 0.001) * uFade, a);
   }
+`
