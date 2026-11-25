@@ -162,3 +162,4 @@ export class Lair {
       const h = g.units.spawn('hydraHead', 'enemy', LEVEL, { x: at.x, z: at.z })
       h.controlled = true
       h.aggro = false
+      h.owner = body
