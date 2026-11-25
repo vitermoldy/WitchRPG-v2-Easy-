@@ -298,3 +298,4 @@ def catmull(pts, n):
             out.append(0.5 * ((2 * p1) + (-p0 + p2) * t + (2 * p0 - 5 * p1 + 4 * p2 - p3) * t2 + (-p0 + 3 * p1 - 3 * p2 + p3) * t3))
             ts.append((i - 1) + t)
     out.append(P[-1])
+    ts.append(len(P) - 1)
