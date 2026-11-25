@@ -557,3 +557,4 @@ def fog_material(z):
     m2.operation = "MULTIPLY"
     m2.inputs[1].default_value = z["dens"]
     L.new(m1.outputs[0], m2.inputs[0])
+    L.new(m2.outputs[0], vol.inputs["Density"])
