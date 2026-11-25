@@ -71,3 +71,4 @@ describe('staff combo', () => {
   function play(c: Combo, script: [number, boolean, boolean][]) {
     const events: ComboEvent[] = []
     for (const [dt, pressed, held] of script) c.update(dt, pressed, held, events)
+    return events
