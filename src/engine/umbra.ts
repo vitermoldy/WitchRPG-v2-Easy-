@@ -448,3 +448,4 @@ export class Umbra {
       if (Math.random() >= this.chance(u)) {
         this.turnToAsh(u)
         faded++
+        continue
