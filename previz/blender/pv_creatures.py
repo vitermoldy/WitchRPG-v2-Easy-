@@ -206,3 +206,4 @@ def bat_wing(part, root, s, span, chord, raise_deg=30, sweep_deg=15, bone="horn"
     }
     P = {k: f(u * S, v * Cc) for k, (u, v) in pts.items()}
     # explicit fans keep the scallops between the fingers (an n-gon here triangulated as its hull)
+    fans = [("wrist", "t1", "s1"), ("wrist", "s1", "t2"), ("wrist", "t2", "s2"), ("wrist", "s2", "t3"), ("wrist", "t3", "s3"),
