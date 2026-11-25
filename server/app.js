@@ -129,3 +129,4 @@ export function createApi(getPool, database) {
     const altars = al.length ? al.map((a) => a.altar) : ['pembuka']
     return {
       version: 1,
+      level: w.level,
