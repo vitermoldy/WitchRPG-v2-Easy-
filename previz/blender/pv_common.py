@@ -460,3 +460,4 @@ class Rig:
         coll.objects.link(self.root)
         self.objs = {}
 
+    def P(self, name, pivot=(0, 0, 0), parent=None):
