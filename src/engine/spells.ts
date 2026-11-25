@@ -363,3 +363,4 @@ export class Spells {
       for (const u of g.units.units) {
         if (!this.grippable(u)) continue
         const to = u.center().sub(o)
+        if (to.length() > SPELL.grip.range + 4) continue
