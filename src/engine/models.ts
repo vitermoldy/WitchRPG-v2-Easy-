@@ -38,3 +38,4 @@ export function bakeByMaterial(root: THREE.Object3D): { geometry: THREE.BufferGe
   return [...groups].map(([material, geos]) => ({ geometry: mergeGeometries(geos), material }))
 }
 
+const rad = (d: number) => (d * Math.PI) / 180
