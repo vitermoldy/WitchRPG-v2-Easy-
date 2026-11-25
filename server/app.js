@@ -78,3 +78,4 @@ export function cleanProfile(p, now = Date.now()) {
     const lv = int(s?.level, 1, MAX_LEVEL)
     const sxp = int(s?.xp, 0, 10_000_000)
     if (id === null || lv === null || sxp === null || seen.has(id)) return { error: 'Data bayangan tidak sah.' }
+    if (!KINDS.has(s.kind) || !RANKS.has(s.rank) || typeof s.name !== 'string' || !/^[A-Za-z]{2,24}$/.test(s.name)) return { error: 'Data bayangan tidak sah.' }
