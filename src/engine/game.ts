@@ -1062,3 +1062,4 @@ export class Game implements UnitHost {
     const pose: CamPose = this.rig.update(dt, pivot, aiming, target ? { point: lockPoint(target), height: target.height } : null, this.obstacles, heightAt)
     const c = this.camera
     c.position.set(pose.pos.x, pose.pos.y, pose.pos.z)
+    c.lookAt(pose.pos.x + pose.dir.x, pose.pos.y + pose.dir.y, pose.pos.z + pose.dir.z)
