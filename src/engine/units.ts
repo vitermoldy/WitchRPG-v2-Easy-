@@ -358,3 +358,4 @@ export class UnitSystem {
     this.host.clearTelegraph(u)
     u.token = false
     u.set('stagger')
+    u.vel.multiplyScalar(0.2)
