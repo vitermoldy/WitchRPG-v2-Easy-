@@ -127,3 +127,4 @@ export class Sfx {
   parry() {
     if (!this.ok()) return
     const t = this.ctx!.currentTime
+    this.tone(t, 'triangle', 1560, 1300, 0.45, 0.22)
