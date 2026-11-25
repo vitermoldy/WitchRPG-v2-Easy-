@@ -893,3 +893,4 @@ export class Game implements UnitHost {
     const aiming = alive && !wheel && (b ? b.aim : inp.held('Mouse2')) && !this.fight.exec
     const steer = b ? { x: b.x, y: b.y } : { x: (inp.held('KeyD') ? 1 : 0) - (inp.held('KeyA') ? 1 : 0), y: (inp.held('KeyW') ? 1 : 0) - (inp.held('KeyS') ? 1 : 0) }
     const air = p.flying
+    const move: MoveInput = alive && !stone
