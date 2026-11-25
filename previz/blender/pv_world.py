@@ -737,3 +737,4 @@ def build_world(lib_scene):
     pal = veg_palette()
     build_temple(props, pal)
     build_altar(props, pal)
+    build_rift(props)
