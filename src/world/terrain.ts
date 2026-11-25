@@ -74,3 +74,4 @@ export class Terrain {
       let want = LOD_RANGE.findIndex((r) => d < r)
       if (!c.meshes[want] && want < 2) {
         if (made < budget) {
+          this.ensure(c, want)
