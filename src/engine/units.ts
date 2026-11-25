@@ -777,3 +777,4 @@ export class UnitSystem {
               const inside = Math.hypot(tgt.pos.x - u.aimAt.x, tgt.pos.z - u.aimAt.z) < ringOf(atk) + tgt.radius && Math.abs(tgt.pos.y - u.pos.y) < 2.5
               if (inside) {
                 if (onPlayer) host.strikePlayer(u, atk)
+                else host.strikeUnit(u, tgt as Unit, atk)
