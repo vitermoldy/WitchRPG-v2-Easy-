@@ -269,3 +269,5 @@ export class WorldMap {
       return [px(mx), py(my)] as const
     }
     ctx.imageSmoothingEnabled = true
+    ctx.drawImage(this.baseLayer(), 0, 0, size, size)
+
