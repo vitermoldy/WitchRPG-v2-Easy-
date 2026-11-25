@@ -137,3 +137,4 @@ button {
 .screen {
   position: absolute;
   inset: 0;
+  z-index: 20;
