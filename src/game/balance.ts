@@ -77,3 +77,4 @@ export const LOCKON = {
   bigHeight: 6,
   pullback: 1.6,
   fovBoost: 6,
+  turn: 7,
