@@ -122,3 +122,4 @@ export class Unit implements Foe {
   /** Flyers: height above the ground. A downed flyer crawls for `downed` seconds. */
   alt = 0
   downed = 0
+  readonly flank: number = Math.random() < 0.5 ? -1 : 1
