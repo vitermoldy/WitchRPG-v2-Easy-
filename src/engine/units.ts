@@ -654,3 +654,4 @@ export class UnitSystem {
       return
     }
     const host = this.host
+    const p = host.foe
