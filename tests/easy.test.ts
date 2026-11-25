@@ -6,3 +6,4 @@ import { riteOdds } from '../src/engine/umbra'
 describe('WitchRPG v2 (Easy)', () => {
   it('raises every body: the Rite succeeds for every rank, at any level, executed or not', () => {
     expect(EASY.riteChance).toBe(1)
+    for (const rank of Object.keys(RANKS) as (keyof typeof RANKS)[]) {
