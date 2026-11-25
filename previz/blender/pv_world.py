@@ -183,3 +183,4 @@ def build_terrain(coll, size=1300.0, step=2.5):
     ba.data.foreach_set("value", W[4].ravel().astype(np.float32))
     me.shade_smooth()
     me.materials.append(terrain_material())
+    ob = bpy.data.objects.new("terrain", me)
