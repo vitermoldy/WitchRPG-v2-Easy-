@@ -31,3 +31,4 @@ interface BossEntry {
 /**
  * The map of the valley (M): zones, paths, the lake, altars, where she stands, every boss with how it
  * stands, and the camps of the creatures she chooses to look for, sorted by level or by name. The game
+ * waits while it is open, like the Ledger.
