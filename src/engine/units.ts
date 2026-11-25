@@ -445,3 +445,4 @@ export class UnitSystem {
     const d = Math.hypot(dx, dz)
     let tx = 0
     let tz = 0
+    if (d > stopAt + 0.05) {
