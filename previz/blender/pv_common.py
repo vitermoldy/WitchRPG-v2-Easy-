@@ -679,3 +679,4 @@ def sky_world(name, zenith, horizon, ground, strength=1.0, haze=None, haze_densi
         dot.inputs[1].default_value = d
         L.new(tc.outputs["Generated"], dot.inputs[0])
         clamp = N.new("ShaderNodeClamp")
+        L.new(dot.outputs["Value"], clamp.inputs["Value"])
