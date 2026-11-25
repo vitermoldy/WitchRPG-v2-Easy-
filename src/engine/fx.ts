@@ -277,3 +277,4 @@ export class Rings {
   private readonly group = new THREE.Group()
 
   constructor(scene: THREE.Object3D, count = 10) {
+    const geo = new THREE.RingGeometry(0.86, 1, 64)
