@@ -217,3 +217,4 @@ export class Spells {
     if (before < CHAOS.max && this.chaos >= CHAOS.max) this.g.hud.message('Meter Chaos penuh. Tekan G untuk Crimson Overload.', 'chaos')
   }
 
+  update(dt: number, canAct: boolean, inp: SpellInput) {
