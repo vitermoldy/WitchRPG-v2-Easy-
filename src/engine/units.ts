@@ -413,3 +413,4 @@ export class UnitSystem {
       for (const o of other) {
         if (!o.targetable) continue
         const d = (o.pos.x - u.pos.x) ** 2 + (o.pos.z - u.pos.z) ** 2
+        if (d < bd) {
