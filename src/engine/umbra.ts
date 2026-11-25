@@ -511,3 +511,4 @@ export class Umbra {
       for (const s of shadows) {
         s.command = 'hold'
         s.holdPos.copy(s.pos)
+        s.focus = null
