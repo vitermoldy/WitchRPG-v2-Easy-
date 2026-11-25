@@ -30,3 +30,4 @@ if (found) {
 try {
   const [free] = await pool.query('SELECT c.id FROM clients c LEFT JOIN users u ON u.device_id = c.id WHERE u.id IS NULL ORDER BY c.last_seen DESC LIMIT 1')
   const client = free[0]?.id ?? Array.from({ length: 12 }, () => ALPHABET[randomInt(ALPHABET.length)]).join('')
+  await pool.query('INSERT INTO users (username, password_hash, device_id, created_at) VALUES (?, ?, ?, UTC_TIMESTAMP())', [username, hash, client])
