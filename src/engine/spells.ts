@@ -442,3 +442,4 @@ export class Spells {
       return
     }
     this.grabbed.forEach((u, i) => {
+      const heavy = u.mass > 200
