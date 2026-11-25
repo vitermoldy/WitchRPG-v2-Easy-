@@ -82,3 +82,4 @@ export class Ledger {
         const id = Number(t.dataset.release)
         const rec = p.shadows.find((s) => s.id === id)
         if (!rec) return
+        const group = `${rec.rank}:${rec.kind}`
