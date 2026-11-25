@@ -255,3 +255,5 @@ export class IlyraModel {
     let armLY = 0
     let armLZ = 10 * aim
     let foreL = -12 * aim
+    let crouch = 0
+
