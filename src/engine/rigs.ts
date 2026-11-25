@@ -293,3 +293,4 @@ const poseHarpy: PoseFn = (p, u, t) => {
   const weak = u.downed > 0 ? 18 * Math.sin(t * 14) : 0
   p.body(-0.05, 18)
   p.rot('upperarm_L', 20, 0, 30 + weak)
+  p.rot('upperarm_R', 20, 0, -30 - weak)
