@@ -99,3 +99,4 @@ export class Combo {
     this.chainLeft = Math.max(0, this.chainLeft - dt)
     if (this.chainLeft === 0 && !this.current) this.nextIndex = 0
     const s = this.current
+    if (s) {
