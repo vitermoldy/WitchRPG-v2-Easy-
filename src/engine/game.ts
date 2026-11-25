@@ -401,3 +401,4 @@ export class Game implements UnitHost {
       floor: (x, z) => {
         let y = this.height(x, z)
         const [mx, my] = toMap(x, z)
+        if (inWaterRect(mx, my)) y = Math.max(y, WATER_LEVEL + 0.3)
