@@ -591,3 +591,4 @@ def b_naga(r):
             b.limb(a0, a0 + Vector((0.22 * s, -0.2, -0.3)), 0.06, 0.04)
             for k in (-1, 0, 1):
                 b.cone(a0 + Vector((0.22 * s, -0.2, -0.3)), a0 + Vector((0.3 * s + 0.04 * k, -0.35, -0.36)), 0.02, mat="horn", seg=4)
+    hp = V(pts[-1]) + Vector((0, -0.05, 0.05))
