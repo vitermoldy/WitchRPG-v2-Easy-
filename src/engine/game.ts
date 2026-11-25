@@ -906,3 +906,4 @@ export class Game implements UnitHost {
     if (this.state === 'playing' && inp.pressed('KeyP')) this.toggleView()
     this.botDodge = false
     // the wheel takes the mouse while it is open
+    if (!wheel) {
