@@ -751,3 +751,4 @@ def _demon(r, H, bulk, female, span, horn_kind, arm_pose):
         if horn_kind == "back":
             h.tube([hc + Vector((0.06 * s, -0.02, 0.09)), hc + Vector((0.13 * s, 0.1, 0.26)), hc + Vector((0.2 * s, 0.32, 0.34)), hc + Vector((0.2 * s, 0.5, 0.22))], [0.038, 0.03, 0.017, 0.0], mat="horn", seg=6, n=4)
         else:
+            h.tube([hc + Vector((0.08 * s, 0.0, 0.08)), hc + Vector((0.25 * s, 0.05, 0.2)), hc + Vector((0.32 * s, -0.12, 0.38)), hc + Vector((0.24 * s, -0.25, 0.48))], [0.05, 0.04, 0.022, 0.0], mat="horn", seg=6, n=4)
