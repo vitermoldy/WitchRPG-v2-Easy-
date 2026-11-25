@@ -506,3 +506,4 @@ button {
   background: var(--plate);
   color: var(--ink-2);
   font-size: 0.85rem;
+  opacity: 0;
