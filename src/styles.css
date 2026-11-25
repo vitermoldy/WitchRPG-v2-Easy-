@@ -1979,3 +1979,4 @@ dialog::backdrop {
     font-size: 0.68rem;
   }
   .bossbar {
+    width: min(34rem, 100% - 2 * (17rem + 2 * var(--gutter)));
