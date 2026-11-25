@@ -32,3 +32,4 @@ export class Obstacles {
   }
 
   add(s: Shape) {
+    const id = this.shapes.length
