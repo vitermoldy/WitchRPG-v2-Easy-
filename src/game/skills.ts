@@ -22,3 +22,4 @@ export interface SkillDef {
   effect: string
   upgrade: string
   /** False for skills the GDD lists that this prototype does not play yet. */
+  built: boolean
