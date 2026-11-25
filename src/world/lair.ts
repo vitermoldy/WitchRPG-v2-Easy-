@@ -314,3 +314,4 @@ export class Lair {
     this.time += dt
     this.curtainMat.uniforms.uTime.value = this.time
     // water and islands follow the flood
+    this.flood += (this.floodTo - this.flood) * Math.min(1, dt * 0.5)
