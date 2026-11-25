@@ -156,3 +156,4 @@ export class Particles {
   update(dt: number) {
     for (let i = 0; i < this.max; i++) {
       if (this.life[i] <= 0) {
+        if (this.alpha[i] !== 0) {
