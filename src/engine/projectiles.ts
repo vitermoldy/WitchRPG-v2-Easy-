@@ -118,3 +118,4 @@ export class Projectiles {
         let hit = false
         if (p.alive) {
           const y = Math.min(Math.max(s.pos.y, p.pos.y + 0.2), p.pos.y + 1.7)
+          if (Math.hypot(s.pos.x - p.pos.x, s.pos.y - y, s.pos.z - p.pos.z) < s.radius + 0.45) {
