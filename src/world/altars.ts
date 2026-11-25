@@ -119,3 +119,4 @@ export class Altars {
     for (const a of this.list) {
       if (Math.hypot(p.pos.x - a.pos.x, p.pos.z - a.pos.z) >= ALTAR_REACH) continue
       if (!w.altars.includes(a.key)) {
+        w.altars.push(a.key)
