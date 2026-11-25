@@ -107,3 +107,4 @@ class Staff {
     const g = this.g
     if (this.state === 'hand') return
     const obj = this.ensure()
+    this.t += dt
