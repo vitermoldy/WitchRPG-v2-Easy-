@@ -516,3 +516,4 @@ export class UnitSystem {
         u.lifted = Math.max(0, u.lifted - dt)
         u.token = false
         if (u.state === 'windup' || u.state === 'strike') {
+          this.host.clearTelegraph(u)
