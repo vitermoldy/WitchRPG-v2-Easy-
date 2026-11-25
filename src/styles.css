@@ -553,3 +553,4 @@ button {
 
 @keyframes veil {
   to {
+    opacity: 0.65;
