@@ -174,3 +174,5 @@ export class Ambient {
     this.tint[i * 3 + 1] = c.g
     this.tint[i * 3 + 2] = c.b
     this.size[i] = kind.size * (0.7 + Math.random() * 0.6)
+  }
+
