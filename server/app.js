@@ -21,3 +21,4 @@ const SKILLS = new Set(['hexBolt', 'grip', 'burst', 'snare', 'barrier', 'warp', 
 // fauna (pegasus, unicorn) is never raised, so it is not here
 const KINDS = new Set(['imp', 'hellhound', 'harpy', 'centaur', 'naga', 'minotaur', 'medusa', 'chimera', 'cyclops', 'succubus', 'incubus', 'phoenix', 'hydra', 'griffin', 'hippogriff', 'cerberus', 'lilith', 'dragon', 'typhon', 'samael', 'atlas'])
 const RANKS = new Set(['prajurit', 'ksatria', 'jenderal', 'marsekal'])
+const STATS = ['hex', 'spr', 'vit', 'agi', 'umb']
