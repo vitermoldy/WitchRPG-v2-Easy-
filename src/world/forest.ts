@@ -35,3 +35,4 @@ const MIX: Record<string, [Partial<Record<Kind, number>>, number]> = {
 
 const C = (h: string) => new THREE.Color(h)
 const PAL = {
+  bark: C('#2a211c'), needle: C('#1a2d22'), needle2: C('#2a3524'), birch: C('#cfcac0'), leaf: C('#56703a'),
