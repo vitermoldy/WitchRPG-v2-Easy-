@@ -28,3 +28,4 @@ export class Props {
   readonly mesh: THREE.InstancedMesh
   private readonly g: Game
   private readonly m = new THREE.Matrix4()
+  private readonly q = new THREE.Quaternion()
