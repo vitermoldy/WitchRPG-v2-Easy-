@@ -265,3 +265,4 @@ export function shadowName(id: number): string {
   let h = Math.imul(id, 2654435761) >>> 0
   const next = () => {
     h = Math.imul(h ^ (h >>> 13), 1274126177)
+    h = (h ^ (h >>> 16)) >>> 0
