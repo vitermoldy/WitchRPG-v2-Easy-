@@ -705,3 +705,4 @@ export class Spells {
         g.scene.remove(w.group)
         for (const m of w.mats) m.dispose()
         this.warps.splice(i, 1)
+      }
