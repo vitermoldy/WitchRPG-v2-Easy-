@@ -59,3 +59,4 @@ export class Sfx {
     const f = ctx.createBiquadFilter()
     f.type = type
     f.frequency.setValueAtTime(freq, t)
+    if (freqEnd) f.frequency.exponentialRampToValueAtTime(freqEnd, t + dur)
