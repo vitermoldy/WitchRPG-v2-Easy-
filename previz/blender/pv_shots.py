@@ -391,3 +391,4 @@ def build_army(dunia):
         p = fr(fw, rt)
         place(built[key], local, p.x, p.y, -f, dz=dz, name=f"bayangan.{i}")
         disc(local, f"kolam.{i}", (p.x, p.y), pr, dark, z_off=0.02)
+        disc(local, f"kolam_cincin.{i}", (p.x, p.y), pr * 1.2, pool, z_off=0.04)
