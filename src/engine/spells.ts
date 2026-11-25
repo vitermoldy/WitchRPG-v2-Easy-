@@ -751,3 +751,4 @@ export class Spells {
   }
 
   /** True while `at` is inside a Reality Warp field: creature shots turn back there. */
+  inWarp(at: { x: number; y: number; z: number }): boolean {
