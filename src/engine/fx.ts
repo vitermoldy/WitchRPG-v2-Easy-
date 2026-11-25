@@ -67,3 +67,4 @@ const FRAG_SMOKE = /* glsl */ `
 export class Particles {
   readonly points: THREE.Points
   private readonly max: number
+  private readonly pos: Float32Array
