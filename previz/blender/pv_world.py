@@ -13,3 +13,4 @@ import pv_common as C
 ZONES = [
     dict(key="pembuka", name="Hutan Pembuka", tier="I", lv="1-3", c=(0, -280), r=230, fog="#cddbea", dens=0.014, hs=10, ground="#2a3322"),
     dict(key="tebing", name="Tebing Berangin", tier="II", lv="4-6", c=(320, -40), r=190, fog="#e9c79c", dens=0.006, hs=30, ground="#5b5141"),
+    dict(key="rawa", name="Rawa Berkabut", tier="III", lv="7-9", c=(-300, 40), r=200, fog="#a9c491", dens=0.03, hs=9, ground="#283224"),
