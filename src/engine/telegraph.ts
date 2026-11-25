@@ -80,3 +80,4 @@ export class Telegraphs {
   private time = 0
   private readonly color = new THREE.Color(COLOR.rift).multiplyScalar(2.4)
 
+  constructor(scene: THREE.Object3D, height: HeightFn, count = 24) {
