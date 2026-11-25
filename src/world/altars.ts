@@ -129,3 +129,4 @@ export class Altars {
         w.last = a.key
         g.saveSoon()
       }
+      // a lit altar heals her while she stands at it
