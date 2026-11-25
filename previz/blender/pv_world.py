@@ -561,3 +561,4 @@ def fog_material(z):
     # a faint glow in the fog's own colour keeps each zone readable in shade and from far away
     vol.inputs["Emission Color"].default_value = C.rgb(z["fog"])
     em = N.new("ShaderNodeMath")
+    em.operation = "MULTIPLY"
