@@ -10,3 +10,4 @@ import { heightMap, inClearing, lakeDist, LAKE, pathDist, smooth, ZONES, zoneWei
  */
 type Kind = 'pine' | 'pine_tall' | 'pine_warm' | 'birch' | 'swamp' | 'dead' | 'burnt' | 'rock' | 'rock_big'
 
+/** Shape of each kind at scale 1, for the colliders: trunk radius and height, crown base, radius and top. */
