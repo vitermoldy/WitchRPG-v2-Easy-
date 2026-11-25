@@ -227,3 +227,4 @@ describe('phase 4 creatures', () => {
     const w = world()
     const c = w.sys.spawn('chimera', 'enemy', 9, { x: 0, z: 30 })
     c.skillCd = 0
+    w.step(60)
