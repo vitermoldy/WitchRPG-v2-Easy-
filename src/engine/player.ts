@@ -49,3 +49,4 @@ export class Player {
   stride = 0
   /** Every roll started, for the debug readout and the bot. */
   dodges = 0
+  hp = 100
