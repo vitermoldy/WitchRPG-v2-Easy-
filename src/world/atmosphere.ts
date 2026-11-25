@@ -83,3 +83,4 @@ export class Atmosphere {
     s.shadow.camera.left = -box
     s.shadow.camera.right = box
     s.shadow.camera.top = box
+    s.shadow.camera.bottom = -box
