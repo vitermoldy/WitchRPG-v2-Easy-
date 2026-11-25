@@ -583,3 +583,4 @@ export class UnitSystem {
     this.host.fx(u, 'blink', start)
   }
 
+  /** A diving Naga comes up a few metres away, rising out of the ground. */
