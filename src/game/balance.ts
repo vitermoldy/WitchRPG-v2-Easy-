@@ -35,3 +35,4 @@ export const MOVE = {
     cooldown: 0.25,
   },
   dodgePerAgi: 0.05,
+  interactRange: 3,
