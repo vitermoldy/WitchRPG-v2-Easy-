@@ -102,3 +102,4 @@ export class Input {
   endFrame() {
     this.pressedSet.clear()
     this.releasedSet.clear()
+    this.dx = 0
