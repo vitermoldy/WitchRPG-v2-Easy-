@@ -1081,3 +1081,4 @@ export class Rigs {
     }
     for (const r of this.rigs.values()) r.begin()
     const counts = new Map<UnitKind, number>()
+    for (const u of units) {
