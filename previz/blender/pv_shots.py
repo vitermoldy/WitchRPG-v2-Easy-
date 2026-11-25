@@ -618,3 +618,4 @@ def build_board(lib_colls, stats):
 # ---------------------------------------------------------------- 07 readability test in Lembah Bara
 
 def build_bara(dunia):
+    """Amber creatures and the red Chaos hand inside the orange fog of zone V."""
