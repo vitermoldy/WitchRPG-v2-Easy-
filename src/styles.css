@@ -1761,3 +1761,4 @@ dialog::backdrop {
   border-color: var(--ink-3);
 }
 
+.gate-field input[aria-invalid='true'] {
