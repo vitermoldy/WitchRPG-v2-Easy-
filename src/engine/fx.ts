@@ -266,3 +266,4 @@ export class LightPool {
 interface Ring {
   mesh: THREE.Mesh
   t: number
+  dur: number
