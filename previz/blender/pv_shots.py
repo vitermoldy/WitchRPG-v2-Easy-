@@ -237,3 +237,6 @@ def shaft_fog(coll, centre, size, z0, density=0.018):
     ob.location = (centre[0], centre[1], z0 + 12)
     ob.display_type = "WIRE"
     coll.objects.link(ob)
+    return ob
+
+
