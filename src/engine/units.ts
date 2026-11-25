@@ -78,3 +78,4 @@ export class Unit implements Foe {
   tempo = 1
   /** Seconds before it can blink again (Succubus, Incubus). */
   blinkCd = 0
+  /** A Phoenix that has already risen from its ashes once. */
