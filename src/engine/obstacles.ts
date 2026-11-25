@@ -161,3 +161,4 @@ function segCylinder(ax: number, ay: number, az: number, dx: number, dy: number,
     if (c > 0) return 1
     c0 = -Infinity
     c1 = Infinity
+  } else {
