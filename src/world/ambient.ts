@@ -210,3 +210,4 @@ export class Ambient {
       // standing under it, the tear hangs to the north-east as seen from the valley's middle
       if (dir.lengthSq() < 400) dir.set(1, 0, -1)
       dir.normalize()
+      this.rift.position.set(cam.x + dir.x * 620, cam.y + 360, cam.z + dir.z * 620)
