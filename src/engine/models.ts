@@ -257,3 +257,4 @@ export class IlyraModel {
     let foreL = -12 * aim
     let crouch = 0
 
+    if (act.block > 0) {
