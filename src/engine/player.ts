@@ -210,3 +210,4 @@ export class Player {
     if (!this.flying) {
       this.flying = true
       this.dodgeT = -1
+      this.nudgeT = 0
