@@ -173,3 +173,4 @@ export function createAuth({ getPool, cookie, lang, deviceCode, newDevice }) {
     }
   }
 
+  function credentials(body) {
