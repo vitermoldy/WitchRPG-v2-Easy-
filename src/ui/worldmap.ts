@@ -126,3 +126,4 @@ export class WorldMap {
       let best = 0
       for (let i = 1; i < w.length; i++) if (w[i] > w[best]) best = i
       return ZONES[best].name
+    }
