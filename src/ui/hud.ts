@@ -37,3 +37,4 @@ export class Hud {
   private readonly g: Game
   private readonly root = $('hud')
   private readonly banner_ = $('zone-banner')
+  private readonly bannerName = $('zone-name')
