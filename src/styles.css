@@ -1940,3 +1940,4 @@ dialog::backdrop {
 }
 
 .map-sort select {
+  min-height: 44px;
