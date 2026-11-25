@@ -230,3 +230,4 @@ export class WorldMap {
         } else {
           zoneWeights(mx, my, w)
           for (let k = 0; k < w.length; k++) {
+            r += tones[k][0] * w[k]
