@@ -105,3 +105,5 @@ export class Input {
     this.dx = 0
     this.dy = 0
   }
+}
+
