@@ -314,3 +314,4 @@ export class IlyraModel {
         crouch = 0.16 * slam
       } else torsoX += 8 * weight
     }
+    if (act.execute >= 0) {
