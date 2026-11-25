@@ -504,3 +504,4 @@ export class Game implements UnitHost {
   }
 
   pause() {
+    if (this.state !== 'playing') return
