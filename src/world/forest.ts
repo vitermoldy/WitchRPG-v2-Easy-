@@ -177,3 +177,4 @@ export function scatter(size = 1260, step = 4, seed = 3): Tree[] {
       const pd = pathDist(x, y)
       // rocks: small ones anywhere, big ones on the cliffs; none on or beside a path
       const rs = 0.6 + sc * 0.7
+      if (!nearLake && h > -1 && !inClearing(x, y)) {
