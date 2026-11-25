@@ -142,3 +142,4 @@ export class Altars {
   /** Where she stands when she arrives at an altar (beside it, not inside the stones). */
   standAt(a: Altar): { x: number; z: number } {
     return { x: a.pos.x + 3.2, z: a.pos.z + 1.2 }
+  }
