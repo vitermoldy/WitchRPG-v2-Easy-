@@ -182,3 +182,4 @@ export class Telegraphs {
   private layLine(it: Item) {
     const geo = it.mesh.geometry
     const pos = geo.attributes.position as THREE.BufferAttribute
+    const base = geo.userData.base as Float32Array
