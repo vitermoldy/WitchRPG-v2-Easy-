@@ -1236,3 +1236,4 @@ export class Game implements UnitHost {
     this.saveSoon()
   }
 
+  private debugText() {
