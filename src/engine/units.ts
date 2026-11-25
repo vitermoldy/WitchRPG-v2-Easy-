@@ -44,3 +44,5 @@ export interface UnitHost {
   clearTelegraph(u: Unit): void
 }
 
+const legacy = new WeakMap<UnitSpec, AttackSpec[]>()
+
