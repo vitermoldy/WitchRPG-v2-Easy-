@@ -18,3 +18,5 @@ export function resolveDefense(now: number, strike: 'ring' | 'line', invulnerabl
   if (since >= 0 && since <= COMBAT.parry.window) return 'parry'
   if (blocking) return 'block'
   return 'hit'
+}
+
