@@ -235,3 +235,4 @@ export class Fight {
 
   constructor(g: Game) {
     this.g = g
+    this.staff = new Staff(g)
