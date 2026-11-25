@@ -153,3 +153,4 @@ export function createApi(getPool, database) {
     const p = cleanProfile(req.body?.profile)
     if (p.error) return res.status(400).json({ error: p.error })
     const conn = await getPool().getConnection()
+    try {
