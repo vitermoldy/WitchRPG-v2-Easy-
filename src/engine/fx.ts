@@ -396,3 +396,4 @@ const POOL_FRAG = /* glsl */ `
     float edge = 0.84 + 0.07 * sin(a * 5.0 + uTime * 2.6 + uSeed) + 0.05 * sin(a * 11.0 - uTime * 4.3 + uSeed * 2.0);
     float R = edge * uOpen;
     float inside = smoothstep(R, R - 0.1, r);
+    float rim = smoothstep(0.07, 0.0, abs(r - R)) * step(0.02, uOpen);
