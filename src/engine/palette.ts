@@ -4,3 +4,4 @@ export const COLOR = {
   chaosHot: 0xff7a5c,
   chaosDeep: 0x7a0c1c,
   umbra: 0x8f55ff,
+  umbraHot: 0xc7a6ff,
