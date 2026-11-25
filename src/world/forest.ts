@@ -73,3 +73,4 @@ function birch(): THREE.BufferGeometry {
     const g = new THREE.IcosahedronGeometry(r, 0)
     g.scale(1, 0.85, 1)
     parts.push(part(g, PAL.leaf, at(x, y, z)))
+  }
