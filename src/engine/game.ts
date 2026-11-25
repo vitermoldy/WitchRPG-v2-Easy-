@@ -709,3 +709,4 @@ export class Game implements UnitHost {
     this.camps.sleepAll()
     if (this.lair.state === 'fight') this.lair.reset()
     this.umbra.dismiss(true)
+    this.spells.reset()
