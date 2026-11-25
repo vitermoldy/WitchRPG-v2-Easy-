@@ -485,3 +485,4 @@ def stack_png(paths, out, pad=0, bg=(0, 0, 0)):
     W = max(i.size[0] for i in ims)
     H = sum(i.size[1] for i in ims) + pad * (len(ims) + 1)
     canvas = np.zeros((H, W, 4), np.float32)
+    canvas[..., :3] = bg
