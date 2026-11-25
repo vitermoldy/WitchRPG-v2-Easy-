@@ -84,3 +84,5 @@ export class Altars {
     const p = this.g.player.pos
     for (const a of this.list) if (this.isLit(a.key) && Math.hypot(p.x - a.pos.x, p.z - a.pos.z) < ALTAR_REACH) return a
     return null
+  }
+
