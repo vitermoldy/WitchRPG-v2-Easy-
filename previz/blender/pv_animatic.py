@@ -104,3 +104,4 @@ def build(dunia, res=(1280, 720), samples=24):
         c, s = math.cos(hydra_yaw), math.sin(hydra_yaw)
         return Vector((H.x + p.x * c - p.y * s, H.y + p.x * s + p.y * c, hydra_z(t) + p.z))
 
+    def il_pos(t):
