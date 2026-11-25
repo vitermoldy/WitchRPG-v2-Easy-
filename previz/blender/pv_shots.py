@@ -505,3 +505,4 @@ def stack_png(paths, out, pad=0, bg=(0, 0, 0)):
     bpy.data.images.remove(img)
 
 
+def tile_png(paths, out, cols=2, pad=12, bg=(0.07, 0.07, 0.08)):
