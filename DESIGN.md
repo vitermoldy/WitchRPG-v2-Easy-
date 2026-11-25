@@ -284,3 +284,4 @@ Permintaan pemilik: "itu ada WitchRPG-v2 (Easy), tinggal copy ini, data + akun +
 | Data dan akun | Database sendiri `witch_rpg_v2_easy`, diisi salinan `witch_rpg_v2` (akun, witch, upgrade, bayangan, altar). Sesi login tidak disalin | Permintaan pemilik. Cookie Easy bernama lain, jadi pemain masuk sekali lagi. |
 | Berdampingan | Port 5301 / 4301 / 8915 (tes 8916 / 5302), cookie `witch_rpg_v2_easy_session`, kunci simpanan browser `witchrpg-v2-easy:*`, judul "Crimson Sovereign: Hutan (Easy)" | Di localhost cookie tidak dibedakan per port; dengan nama cookie yang sama, masuk di satu versi akan memakai sesi versi lain. |
 
+Pemeriksaan: tes 112 dari 112 lulus (2 baru di `tests/easy.test.ts`), build bersih. Salinan database: 1 akun, 1 witch (Lv 15), 125 bayangan, 7 altar, sama dengan `witch_rpg_v2`. Di game (witch Lv 10, tanpa server): 6 dari 6 Imp Lv 14, 4 dari 4 Minotaur Lv 16, Medusa Lv 18, dan Cerberus Lv 19 bangkit semua; HUD menulis 100% untuk setiap tubuh.
