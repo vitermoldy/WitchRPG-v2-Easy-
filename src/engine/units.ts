@@ -99,3 +99,4 @@ export class Unit implements Foe {
   t = 0
   /** Seconds until it may attack again. */
   cd = 0
+  /** The attack it is winding up or last used. */
