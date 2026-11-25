@@ -477,3 +477,4 @@ export class Umbra {
         g.hud.banner(`${raised.length} bayangan`, 'bangkit dari bayangan dan berdiri di sisimu')
       }
       g.saveSoon()
+    } else {
