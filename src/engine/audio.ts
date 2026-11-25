@@ -212,3 +212,4 @@ export class Sfx {
 
   impact(strength: number) {
     if (!this.ok()) return
+    const t = this.ctx!.currentTime
