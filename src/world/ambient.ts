@@ -102,3 +102,4 @@ export class Ambient {
   private readonly colors = KINDS.map((k) => new THREE.Color(k.color))
   private readonly riftMat: THREE.ShaderMaterial
   private readonly bara: THREE.Vector3
+  private time = 0
