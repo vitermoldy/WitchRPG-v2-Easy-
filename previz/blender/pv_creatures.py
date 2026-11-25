@@ -87,3 +87,4 @@ def humanoid(r, H, bulk=1.0, legs="human", female=False, off=(0, 0, 0), arm_pose
         W = E + d2 * (0.16 * H)
         T = W + d2 * (0.085 * H)
         J["sh_" + side], J["el_" + side], J["wr_" + side], J["tip_" + side] = S, E, W, T
+        J["hand_dir_" + side] = d2
