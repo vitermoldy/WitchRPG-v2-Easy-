@@ -35,3 +35,4 @@ export const rightOf = (yaw: number): Vec => ({ x: Math.cos(yaw), y: 0, z: -Math
 /** Yaw that looks from a toward b. */
 export const yawTo = (ax: number, az: number, bx: number, bz: number) => Math.atan2(-(bx - ax), -(bz - az))
 
+const lerp = (a: number, b: number, t: number) => a + (b - a) * t
