@@ -201,3 +201,4 @@ def terrain_material():
     # embers glowing in the burnt valley floor
     bara = N.new("ShaderNodeAttribute")
     bara.attribute_name = "bara"
+    tc = N.new("ShaderNodeTexCoord")
