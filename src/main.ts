@@ -30,3 +30,4 @@ async function boot() {
   if (!canvas.getContext('webgl2')) {
     fail('Browser ini tidak menyediakan WebGL 2.')
     return
+  }
