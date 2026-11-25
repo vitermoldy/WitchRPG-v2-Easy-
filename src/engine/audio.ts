@@ -66,3 +66,5 @@ export class Sfx {
     src.connect(f).connect(g).connect(this.master!)
     src.start(t, Math.random())
     src.stop(t + attack + dur + 0.05)
+  }
+
