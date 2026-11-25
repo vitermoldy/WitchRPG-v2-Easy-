@@ -77,3 +77,4 @@ export class Terrain {
           this.ensure(c, want)
           made++
         } else {
+          // use the closest detail already built until this one is made
