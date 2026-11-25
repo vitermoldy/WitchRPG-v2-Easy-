@@ -408,3 +408,4 @@ const poseMinotaur: PoseFn = (p, u, t) => {
   if (u.state === 'strike') {
     if (charge) {
       const run = Math.sin(t * 18)
+      p.body(0.05 * Math.abs(run), 25)
