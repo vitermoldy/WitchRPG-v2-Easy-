@@ -938,3 +938,4 @@ class Rig implements Poser {
     return steering
   }
 
+  end() {
