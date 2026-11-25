@@ -835,3 +835,4 @@ def b_phoenix(r):
         feather_wing(b, (0.18 * s, 0.0, 1.45), s, 2.9, 1.5, raise_deg=48, sweep_deg=10, feathers=10, tip_mat="accent", arm="body")
         lg = r.P("leg_" + ("L" if s > 0 else "R"), (0.12 * s, 0.05, 0.8), "body")
         lg.limb((0.12 * s, 0.05, 0.85), (0.14 * s, 0.0, 0.4), 0.05, 0.03)
+        lg.limb((0.14 * s, 0.0, 0.4), (0.14 * s, -0.02, 0.05), 0.03, 0.025, mat="horn")
