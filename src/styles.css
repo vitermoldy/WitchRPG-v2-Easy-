@@ -1114,3 +1114,4 @@ button {
 }
 
 .wheel-opt.on {
+  border-color: var(--umbra);
