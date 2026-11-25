@@ -480,3 +480,5 @@ export class Lair {
         g.summoned(imp)
       }
     }
+  }
+
