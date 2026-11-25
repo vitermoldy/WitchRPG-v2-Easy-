@@ -15,3 +15,4 @@ export type Branch = 'chaos' | 'umbra'
 
 export interface SkillDef {
   id: SkillId
+  branch: Branch
