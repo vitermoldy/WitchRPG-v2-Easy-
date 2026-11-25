@@ -187,3 +187,4 @@ def mat_globe(name, ocean="#2a6aa8", land="#4f8a3a"):
     noi.inputs["Detail"].default_value = 5.0
     L.new(tc.outputs["Object"], noi.inputs["Vector"])
     ramp = N.new("ShaderNodeValToRGB")
+    cr = ramp.color_ramp
