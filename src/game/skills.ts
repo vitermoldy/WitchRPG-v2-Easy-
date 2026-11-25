@@ -34,3 +34,4 @@ export const SKILLS: SkillDef[] = [
     name: 'Hex Bolt',
     key: 'Bidik, LMB',
     unlock: 1,
+    effect: 'Proyektil merah lurus, 12 damage, mengisi meter Chaos dan meter stun, menjatuhkan Harpy.',
