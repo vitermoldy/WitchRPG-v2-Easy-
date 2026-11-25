@@ -308,3 +308,4 @@ class Part:
     def __init__(self, rig, name, pivot, parent):
         self.rig, self.name, self.pivot, self.parent = rig, name, V(pivot), parent
         self.bm = bmesh.new()
+        self.mats = []
