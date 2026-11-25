@@ -176,3 +176,4 @@ const poseImp: PoseFn = (p, u, t) => {
     return
   }
   p.body(0.03 * Math.abs(s) * amp, 10 * amp)
+  p.rot('thigh_L', -32 * s * amp)
