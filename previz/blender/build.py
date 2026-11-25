@@ -30,3 +30,4 @@ def arg(name, default=None):
 ONLY = set(arg("--only", "variants,hero,valley,lineup,minotaur,hydra,army,bara,board").split(","))
 PCT = int(arg("--pct", "100"))
 OUT = C.PREVIZ
+RENDERS = os.path.join(OUT, "renders")
