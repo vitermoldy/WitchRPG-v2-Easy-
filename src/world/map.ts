@@ -128,3 +128,4 @@ function segDist(x: number, y: number, a: [number, number], b: [number, number])
   const dx = b[0] - a[0]
   const dy = b[1] - a[1]
   const t = Math.min(1, Math.max(0, ((x - a[0]) * dx + (y - a[1]) * dy) / (dx * dx + dy * dy)))
+  return Math.hypot(x - (a[0] + t * dx), y - (a[1] + t * dy))
