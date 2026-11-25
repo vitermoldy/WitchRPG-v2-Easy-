@@ -94,3 +94,4 @@ export class WorldMap {
 
   open() {
     if (!this.dlg.open) this.dlg.showModal()
+    this.renderBosses()
