@@ -984,3 +984,4 @@ export class Game implements UnitHost {
     this.shots.update(sdt)
     this.updateBlasts(sdt)
     this.prof('units', t0)
+    this.camps.update(dt)
