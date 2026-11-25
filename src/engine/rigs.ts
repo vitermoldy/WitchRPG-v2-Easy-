@@ -99,3 +99,4 @@ function common(p: Poser, u: Unit, t: number, limbs: string[]): boolean {
     return true
   }
   if (u.lifted > 0) {
+    p.body(0, 25 * Math.sin(t * 1.3 + u.id), 18 * Math.sin(t * 1.1))
