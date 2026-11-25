@@ -142,3 +142,4 @@ export class Spells {
       new THREE.SphereGeometry(1.25, 32, 16),
       new THREE.ShaderMaterial({
         uniforms: { uHit: { value: 0 }, uFade: { value: 0 } },
+        vertexShader: SHIELD_VERT,
