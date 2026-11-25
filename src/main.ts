@@ -156,3 +156,4 @@ async function boot() {
       $('btn-resume').focus()
       return
     }
+    game.resume()
