@@ -114,3 +114,4 @@ async function boot() {
   mountAccount(game, { onProfileChanged: () => refreshers.forEach((fn) => fn()) })
 
   game.onPause = () => {
+    $('lock-note').hidden = true
