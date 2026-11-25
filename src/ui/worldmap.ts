@@ -104,3 +104,4 @@ export class WorldMap {
     if (this.dlg.open) this.dlg.close()
   }
 
+  private changed(rerender = true) {
