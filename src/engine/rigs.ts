@@ -140,3 +140,4 @@ const poseImp: PoseFn = (p, u, t) => {
     const k = Math.min(1, u.t / (u.spec.lungeTime ?? 0.3))
     p.body(0.55 * Math.sin(Math.PI * k), 35 * Math.sin(Math.PI * k))
     const arm = -150 + 190 * ease(k)
+    p.rot('upperarm_L', arm, 0, 20)
