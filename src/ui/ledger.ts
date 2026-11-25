@@ -81,3 +81,4 @@ export class Ledger {
       } else if (t.dataset.release) {
         const id = Number(t.dataset.release)
         const rec = p.shadows.find((s) => s.id === id)
+        if (!rec) return
