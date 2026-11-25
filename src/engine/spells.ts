@@ -675,3 +675,4 @@ export class Spells {
     group.add(wall)
     g.scene.add(group)
     this.warps.push({ pos: at, radius: s.radius, t: 0, duration: s.duration + (this.upgraded('warp') ? s.durationUpgrade : 0), group, mats: [ruleMat, wallMat] })
+    g.rings.spawn(at, COLOR.umbra, 0.5, s.radius, 0.6)
