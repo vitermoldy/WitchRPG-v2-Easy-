@@ -120,3 +120,4 @@ def mat_cracked(name, color, crack, strength=5.0, scale=2.2, rough=0.75, coverag
     L.new(mask.outputs["Result"], mul.inputs[1])
     mul2 = N.new("ShaderNodeMath")
     mul2.operation = "MULTIPLY"
+    mul2.inputs[1].default_value = strength
