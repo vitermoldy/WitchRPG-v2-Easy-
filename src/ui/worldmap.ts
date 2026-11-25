@@ -300,3 +300,4 @@ export class WorldMap {
       ctx.fillStyle = color
       ctx.fillText(text, cx, cy)
     }
+    const bosses = this.bosses()
