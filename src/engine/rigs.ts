@@ -891,3 +891,4 @@ class Rig implements Poser {
       if (anyHidden && part.chain.some((n) => this.hidden.has(n))) part.mesh.setMatrixAt(i, this.zero)
       else {
         this.m.multiplyMatrices(this.unitM, part.src.matrixWorld)
+        part.mesh.setMatrixAt(i, this.m)
