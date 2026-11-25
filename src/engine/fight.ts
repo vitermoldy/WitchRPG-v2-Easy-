@@ -480,3 +480,4 @@ export class Fight {
   private startExecution(u: Unit) {
     const g = this.g
     const p = g.player
+    this.exec = { u, t: 0, struck: false }
