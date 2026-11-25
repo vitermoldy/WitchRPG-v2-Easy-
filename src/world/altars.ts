@@ -38,3 +38,4 @@ export class Altars {
     const stoneGeo = new THREE.BoxGeometry(0.5, 2.2, 0.35)
     const crystalGeo = new THREE.OctahedronGeometry(0.42, 0)
     crystalGeo.scale(1, 1.7, 1)
+    const runeGeo = new THREE.RingGeometry(2.3, 2.55, 48)
