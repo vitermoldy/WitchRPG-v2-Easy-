@@ -1104,3 +1104,5 @@ export class Game implements UnitHost {
     this.smoke?.setViewport(this.renderer.domElement.height, this.camera.fov)
   }
 
+  // ------------------------------------------------------------ measurements for ?debug and the bot
+
