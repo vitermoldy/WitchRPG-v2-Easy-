@@ -644,3 +644,4 @@ export class Spells {
         for (const m of s.mats) m.dispose()
         this.snares.splice(i, 1)
       }
+    }
