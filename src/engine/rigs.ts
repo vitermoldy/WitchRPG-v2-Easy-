@@ -827,3 +827,4 @@ class Rig implements Poser {
     mesh.count = 0
     mesh.visible = false
     this.group.add(mesh)
+    const chain: string[] = []
