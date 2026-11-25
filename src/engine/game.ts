@@ -797,3 +797,4 @@ export class Game implements UnitHost {
     let prev = 0
     for (let d = 1; d <= best; d += 1.5) {
       const x = o.x + dir.x * d
+      const z = o.z + dir.z * d
