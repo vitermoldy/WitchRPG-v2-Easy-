@@ -15,3 +15,4 @@ const SLEEP = 160
 interface Spot {
   kind: 'unicorn' | 'pegasus'
   x: number
+  z: number
