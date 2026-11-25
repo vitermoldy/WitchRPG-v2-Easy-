@@ -540,3 +540,6 @@ def world_matrix(ob):
     while p is not None:
         m = p.matrix_basis @ m
         p = p.parent
+    return m
+
+
