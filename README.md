@@ -25,3 +25,4 @@ Butuh Node 22 atau lebih baru dan browser dengan WebGL 2.
 ```bash
 npm install
 npm run dev      # http://localhost:5301
+npm run server   # server akun dan simpanan, port 8915 (butuh MySQL dan .env)
