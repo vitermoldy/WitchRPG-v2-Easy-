@@ -457,3 +457,4 @@ export class Spells {
 
   /** The red tendril from her left palm to what she holds. */
   private drawTendril(to: THREE.Vector3) {
+    const g = this.g
