@@ -113,3 +113,4 @@ describe('staff combo', () => {
     expect(inSwing(0, 0, 0, s, 0, 2)).toBe(false)
     expect(inSwing(0, 0, 0, s, 0, -3.5)).toBe(false)
   })
+})
