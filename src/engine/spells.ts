@@ -622,3 +622,4 @@ export class Spells {
       s.t += dt
       const fade = Math.min(1, s.t * 4) * Math.min(1, (s.duration - s.t) * 2)
       for (const m of s.mats) {
+        m.uniforms.uTime.value = s.t
