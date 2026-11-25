@@ -231,3 +231,4 @@ export class IlyraModel {
       this.rot('pelvis', 0)
       this.rot('cloak', 14 + lean * 0.5)
       this.rot('head', -2 - lean * 0.6)
+    } else {
