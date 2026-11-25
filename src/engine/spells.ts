@@ -511,3 +511,4 @@ export class Spells {
     const dmg = impactDamage(u.mass, speed, SPELL.impact.coefficient, SPELL.impact.exponent) * this.damageMult
     g.hurtUnit(u, dmg, u.pos, 12, 0, 'player', 'impact')
     if (other) g.hurtUnit(other, dmg, u.pos, 12, 5, 'player', 'impact')
+    g.sfx.impact(Math.min(1.5, speed / 20))
