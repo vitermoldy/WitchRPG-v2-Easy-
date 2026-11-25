@@ -143,3 +143,4 @@ class Staff {
       }
       if (this.state === 'flying') this.orient(this.vel, true)
     } else if (this.state === 'returning') {
+      const hand = g.ilyra.hand('R', this.tmp.set(0, 0, 0)).clone()
