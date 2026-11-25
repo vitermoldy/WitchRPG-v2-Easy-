@@ -100,3 +100,4 @@ function attemptLimit(limit, message) {
   const hits = new Map()
   return (req, res, next) => {
     const now = Date.now()
+    const key = req.ip ?? 'unknown'
