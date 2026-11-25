@@ -662,3 +662,4 @@ export class Spells {
     group.add(disc)
     const wallMat = new THREE.ShaderMaterial({
       uniforms: { uTime: { value: 0 }, uFade: { value: 0 } },
+      vertexShader: PLAIN_VERT,
