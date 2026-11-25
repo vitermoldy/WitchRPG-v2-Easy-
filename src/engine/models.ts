@@ -156,3 +156,4 @@ export class IlyraModel {
     return h.getWorldPosition(out)
   }
 
+  /** A copy of the staff for the throw (shares its geometry and materials). */
