@@ -1156,3 +1156,4 @@ def ilyra_palette():
         "hair": C.mat_flat("ilyra_hair", "#c9c4cf", 0.5),
         "belt": C.mat_flat("ilyra_belt", "#3a2a22", 0.6),
         "chaos": C.mat_emit("ilyra_chaos", HEX["chaos"], 14.0),
+        "umbra": C.mat_emit("ilyra_umbra", HEX["umbra"], 14.0),
