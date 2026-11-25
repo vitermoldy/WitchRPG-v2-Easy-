@@ -173,3 +173,4 @@ export class Lair {
     this.bodyAttackIn = 2.5
   }
 
+  /** Back to the start: her fall during the fight, or the Hydra standing again later. */
