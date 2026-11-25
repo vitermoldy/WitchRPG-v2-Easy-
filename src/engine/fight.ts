@@ -109,3 +109,4 @@ class Staff {
     const obj = this.ensure()
     this.t += dt
     this.spin += dt * 22
+    if (this.state === 'flying') {
