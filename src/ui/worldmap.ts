@@ -185,3 +185,4 @@ export class WorldMap {
   }
 
   private renderMonsters() {
+    $('map-monsters').innerHTML = this.monsters()
