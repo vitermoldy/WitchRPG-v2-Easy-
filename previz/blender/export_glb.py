@@ -141,3 +141,4 @@ def lod_tris(coll):
     n = 0
     for o in coll.objects:
         if o.type != "MESH":
+            continue
