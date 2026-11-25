@@ -121,3 +121,4 @@ describe('phase 5 creatures', () => {
     expect(ph.state).toBe('dead')
   })
 
+  it('a Succubus blinks a dozen metres away when she comes close', () => {
