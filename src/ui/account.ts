@@ -52,3 +52,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
     pass.removeAttribute('aria-invalid')
   }
 
+  /** The gate only covers the start screen; she is never stopped in the forest by it. */
