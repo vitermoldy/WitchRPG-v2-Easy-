@@ -586,3 +586,4 @@ export class Umbra {
         pick = s
       }
     }
+    const p = g.player
