@@ -181,3 +181,4 @@ export class WorldMap {
           `<span class="map-boss-name">${b.name} <span class="num">Lv ${b.level}</span></span>` +
           `<span class="map-boss-where">${b.zone}, ${b.note}</span></button></li>`,
       )
+      .join('')
