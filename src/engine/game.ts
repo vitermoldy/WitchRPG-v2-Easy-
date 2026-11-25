@@ -1125,3 +1125,4 @@ export class Game implements UnitHost {
     const p = this.player
     return {
       ...this.frameStats(),
+      minClearance: this.minClearance,
