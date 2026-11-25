@@ -519,3 +519,4 @@ export class UnitSystem {
           this.host.clearTelegraph(u)
           u.set('move')
         }
+        u.vel.multiplyScalar(Math.max(0, 1 - dt * 4))
