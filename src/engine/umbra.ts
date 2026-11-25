@@ -141,3 +141,4 @@ export class Umbra {
 
   /** T: call the whole army out of the Shadow Room, or send all of it back. */
   toggle() {
+    if (this.summonCd > 0) return
