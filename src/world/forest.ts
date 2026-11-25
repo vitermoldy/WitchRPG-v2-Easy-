@@ -136,3 +136,4 @@ function geometries(): Record<Kind, THREE.BufferGeometry> {
 
 function mulberry32(seed: number) {
   let a = seed >>> 0
+  return () => {
