@@ -248,3 +248,4 @@ export class WorldMap {
       }
     }
     ctx.putImageData(img, 0, 0)
+    this.base = c
