@@ -14,3 +14,4 @@
     "start": "node server/index.js",
     "users": "node server/users.js",
     "set-user": "node server/set-user.js",
+    "models": "node previz/blender/models.mjs"
