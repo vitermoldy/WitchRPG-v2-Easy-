@@ -120,3 +120,4 @@ export class Ambient {
       vertexShader: MOTE_VERT,
       fragmentShader: MOTE_FRAG,
       transparent: true,
+      depthWrite: false,
