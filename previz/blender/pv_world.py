@@ -394,3 +394,4 @@ def scatter_group():
     nr = N.new("GeometryNodeInputNamedAttribute")
     nr.data_type = "FLOAT_VECTOR"
     nr.inputs["Name"].default_value = "rot"
+    e2r = N.new("FunctionNodeEulerToRotation")
