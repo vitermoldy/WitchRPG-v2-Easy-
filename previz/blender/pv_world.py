@@ -632,3 +632,4 @@ def build_temple(coll, pal):
     p.box((cx, cy + 6.0, top + 7.9), (9, 1.6, 0.9), rot=(0, 3, 0), mat="stone_moss")
     for k, (dx, dy, ang) in enumerate(((10, -9, 70), (-11, -6, 20), (14, 4, 110))):
         x, y = cx + dx, cy + dy
+        zz = ground_z(x, y)
