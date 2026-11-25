@@ -184,3 +184,4 @@ export class Sfx {
     f.type = 'lowpass'
     f.frequency.value = 600
     const gain = ctx.createGain()
+    gain.gain.value = 0.0001
