@@ -405,3 +405,4 @@ export class Game implements UnitHost {
         if (this.lair.flood > 0.05 && this.lair.inside(x, z)) y = Math.max(y, this.lair.waterY + 0.3)
         return y
       },
+    }
