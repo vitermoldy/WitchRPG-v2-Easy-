@@ -1000,3 +1000,4 @@ export class Game implements UnitHost {
       if (p.hp <= 0) this.fall()
     }
     if (p.alive) {
+      if (this.spells.backlashT <= 0) p.mana = Math.min(p.maxMana, p.mana + this.derived.manaRegen * dt)
