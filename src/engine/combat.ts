@@ -152,3 +152,4 @@ export function inSwing(fromX: number, fromZ: number, yaw: number, swing: Swing,
   if (d > swing.reach + radius) return false
   if (d < 0.4) return true
   const fx = -Math.sin(yaw)
+  const fz = -Math.cos(yaw)
