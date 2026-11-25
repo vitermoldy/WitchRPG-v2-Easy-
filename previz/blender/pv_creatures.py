@@ -149,3 +149,4 @@ def quad(r, H, L, W, D, leg_r, front="paw", hind="paw", body_mat="body", foot_ma
         FS = (s * W * 0.3, -L * 0.36, H - D * 0.55)
         FE = (s * W * 0.33, -L * 0.33, H * 0.5)
         FW = (s * W * 0.33, -L * 0.37, H * 0.15)
+        FF = (s * W * 0.33, -L * 0.4, 0.0)
