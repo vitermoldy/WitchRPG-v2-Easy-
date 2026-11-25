@@ -130,3 +130,5 @@ function geometries(): Record<Kind, THREE.BufferGeometry> {
     rock: rock(1, [1.4, 1.1, 0.9], PAL.rock),
     rock_big: rock(2, [4.5, 3.6, 5.0], PAL.rock2),
   }
+}
+
