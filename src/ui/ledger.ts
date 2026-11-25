@@ -164,3 +164,4 @@ export class Ledger {
               canUpgrade(p, s.id) ? '' : 'disabled'
             }>Pakai 1 poin</button></p>`
           return `<li class="node ${open ? 'open' : 'locked'}">
+            <p class="node-name">${s.name}<kbd>${s.key}</kbd></p>
