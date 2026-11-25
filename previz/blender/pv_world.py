@@ -184,3 +184,4 @@ def build_terrain(coll, size=1300.0, step=2.5):
     me.shade_smooth()
     me.materials.append(terrain_material())
     ob = bpy.data.objects.new("terrain", me)
+    coll.objects.link(ob)
