@@ -138,3 +138,4 @@ export class IlyraModel {
         if (m?.emissive) {
           m.userData.glow ??= m.emissiveIntensity
           m.emissiveIntensity = on ? m.userData.glow * 0.2 : m.userData.glow
+        }
