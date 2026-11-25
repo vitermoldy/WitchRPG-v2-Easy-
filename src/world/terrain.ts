@@ -10,3 +10,4 @@ const LOD_RANGE = [190, 420, Infinity]
 /** Skirts hang below every chunk edge so neighbours at different detail never show a gap. */
 const SKIRT = 5
 
+const hex = (h: string) => new THREE.Color(h)
