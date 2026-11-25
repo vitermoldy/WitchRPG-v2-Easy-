@@ -545,3 +545,4 @@ def fog_material(z):
     L.new(sep.outputs["X"], comb.inputs["X"])
     L.new(sep.outputs["Y"], comb.inputs["Y"])
     L.new(comb.outputs[0], lenv.inputs[0])
+    rad = N.new("ShaderNodeMapRange")
