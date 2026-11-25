@@ -66,3 +66,4 @@ def fbm(x, y, octaves=4, seed=0.0):
     return s / norm
 
 
+def smooth(e0, e1, x):
