@@ -34,3 +34,4 @@ export const ALTARS: { key: string; name: string; c: [number, number] }[] = [
   { key: 'pembuka', name: 'Altar Hutan Pembuka', c: ALTAR },
   { key: 'simpang', name: 'Altar Persimpangan', c: [28, -114] },
   { key: 'tebing', name: 'Altar Tebing Berangin', c: [242, -30] },
+  { key: 'rawa', name: 'Altar Rawa Berkabut', c: [-184, -10] },
