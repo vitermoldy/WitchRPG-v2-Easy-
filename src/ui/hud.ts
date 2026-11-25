@@ -136,3 +136,4 @@ export class Hud {
     this.manaFlash = 0.6
   }
 
+  hurtFlash(k: number) {
