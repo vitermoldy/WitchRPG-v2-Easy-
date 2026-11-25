@@ -563,3 +563,4 @@ def fog_material(z):
     em = N.new("ShaderNodeMath")
     em.operation = "MULTIPLY"
     em.inputs[1].default_value = z.get("glow", 0.5)
+    L.new(m2.outputs[0], em.inputs[0])
