@@ -1176,3 +1176,4 @@ def creature_palette(key, kind=None):
 
 
 def build(key, coll, kind=None, pose=None, lights=True):
+    """Build one creature into `coll`. kind='shadow' gives the violet Umbra version."""
