@@ -49,3 +49,4 @@ export class Atmosphere {
   private readonly uniforms: Record<string, THREE.IUniform>
   /** How much of each zone (ZONES order) is around her now; the sound mixes by it too. */
   readonly w = new Float32Array(ZONES.length)
+  private readonly fogTarget = new THREE.Color()
