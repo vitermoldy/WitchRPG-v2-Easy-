@@ -36,3 +36,4 @@ function world(groundHeight = 0) {
       sys.update(dt)
     }
   }
+  return { foe, log, sys, step, now: () => time }
