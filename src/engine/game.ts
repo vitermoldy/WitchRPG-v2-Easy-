@@ -383,3 +383,4 @@ export class Game implements UnitHost {
     progress('Membentuk lembah')
     await frame()
     this.terrain = new Terrain()
+    this.scene.add(this.terrain.group)
