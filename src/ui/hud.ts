@@ -265,3 +265,4 @@ export class Hud {
       else html = `<kbd>Tahan R</kbd> Bangkitkan ${many} tubuh <span class="chance">${lo === hi ? `${lo}%` : `${lo} sampai ${hi}%`}</span> <span class="num">mana ${g.umbra.cost(many)}</span>`
     } else if (c) {
       const why = g.umbra.blocker(c)
+      const name = `${UNITS[c.kind].name} Lv ${c.level}`
