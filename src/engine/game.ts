@@ -952,3 +952,4 @@ export class Game implements UnitHost {
     }
     this.sfx.wind(p.flying ? Math.min(1, Math.hypot(p.vx, p.vy, p.vz) / MOVE.fly.boost) : 0)
     // flying: wisps trail from both palms, red from the Chaos hand and violet from the Umbra hand
+    if (p.flying && Math.random() < 0.7) {
