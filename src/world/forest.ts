@@ -178,3 +178,4 @@ export function scatter(size = 1260, step = 4, seed = 3): Tree[] {
       // rocks: small ones anywhere, big ones on the cliffs; none on or beside a path
       const rs = 0.6 + sc * 0.7
       if (!nearLake && h > -1 && !inClearing(x, y)) {
+        if (rockRoll < 0.012 && pd > 4 + SHAPE.rock.trunk * rs) out.push({ kind: 'rock', x, y: h - 0.3, z: -y, rot, scale: rs })
