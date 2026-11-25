@@ -119,3 +119,4 @@ export class Terrain {
         const wz = z0 + (j - 1) * step
         hs[j * g + i] = heightMap(wx, -wz)
       }
+    }
