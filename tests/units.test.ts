@@ -59,3 +59,4 @@ describe('creature attacks', () => {
     let moved = false
     w.step(1.2, () => {
       // as soon as it crouches she walks out of the circle
+      if (imp.state === 'windup' && !moved) {
