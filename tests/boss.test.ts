@@ -155,3 +155,5 @@ describe('the open world (phase 7)', () => {
     expect(uni.state).toBe('move')
     for (const kind of FAUNA) expect(UNITS[kind].passive, kind).toBe(true)
   })
+})
+
