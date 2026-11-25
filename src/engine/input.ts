@@ -50,3 +50,4 @@ export class Input {
   }
 
   get active() {
+    return this.locked || this.virtualLock
