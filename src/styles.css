@@ -1361,3 +1361,4 @@ dialog::backdrop {
 
 .ledger-body {
   display: grid;
+  grid-template-columns: minmax(15rem, 0.8fr) minmax(0, 2fr);
