@@ -347,3 +347,5 @@ class Part:
         if joints:
             self.ell(a, ra, mat=mat, seg=seg, rings=6)
             self.ell(b, rb, mat=mat, seg=seg, rings=6)
+        return self
+
