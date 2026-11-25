@@ -157,3 +157,4 @@ export interface Tree {
 /** Every tree and rock of the map, in world coordinates. Deterministic: the same forest every load. */
 export function scatter(size = 1260, step = 4, seed = 3): Tree[] {
   const rnd = mulberry32(seed)
+  const n = Math.floor(size / step)
