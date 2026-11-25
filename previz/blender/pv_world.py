@@ -510,3 +510,4 @@ def build_ground_cover(coll, P, centre, radius, seed=11, grass=0.5, fern=0.05, b
         ids = np.nonzero(sel)[0]
         if len(ids) == 0:
             continue
+        pts = np.stack([X[ids], Y[ids], Z[ids] - 0.03], axis=1)
