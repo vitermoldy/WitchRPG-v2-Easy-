@@ -86,3 +86,5 @@ export class Seal {
     this.mesh.frustumCulled = false
     this.mesh.renderOrder = 7
     this.mesh.visible = !open
+  }
+
