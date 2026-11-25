@@ -695,3 +695,4 @@ def b_medusa(r):
     p.torus(hp + Vector((0, 0, 0.18)), 0.2, 0.02, mat="gold", seg=16)
     t = r.parts["torso"]
     t.ell(V(J["chest"]) + Vector((0, -0.01, 0.03)), (0.2, 0.15, 0.13), mat="cloth")
+    t.tube([V(J["sh_R"]) + Vector((0, 0, 0.04)), V(J["chest"]) + Vector((0.02, -0.15, 0.02)), V(J["waist"]) + Vector((0.18, -0.08, 0.0))], 0.06, mat="cloth", seg=6, n=3, squash=0.4)
