@@ -389,3 +389,4 @@ class Part:
             if Nn.length < 1e-6:
                 Nn = T[i].orthogonal()
             Nn.normalize()
+            B = T[i].cross(Nn)
