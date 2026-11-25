@@ -42,3 +42,4 @@ def yaw_to(f):
 
 
 def place(r, coll, x, y, face, dz=0.0, scale=1.0, tilt=0.0, name=None):
+    z = Wd.ground_z(x, y) + dz
