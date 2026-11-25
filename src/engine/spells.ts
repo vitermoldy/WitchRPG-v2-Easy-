@@ -520,3 +520,4 @@ export class Spells {
   private target(range: number, aiming: boolean): THREE.Vector3 {
     const g = this.g
     let at: THREE.Vector3
+    const locked = g.lockon.current as Unit | null
