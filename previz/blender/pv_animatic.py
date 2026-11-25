@@ -133,3 +133,4 @@ def build(dunia, res=(1280, 720), samples=24):
             "cloak": (5 + 3 * math.sin(phase * 2) * amp, 0, 0), "head": (-2, 0, -3 * sw),
         }
         for part, rot in poses.items():
+            ob = il.objs.get(part)
