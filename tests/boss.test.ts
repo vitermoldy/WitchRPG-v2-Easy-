@@ -21,3 +21,4 @@ function world() {
     fire: () => {},
     impact: () => {},
     died: () => {},
+    summoned: () => {},
