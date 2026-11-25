@@ -288,3 +288,4 @@ export class Sfx {
   }
 
   slam(big = false) {
+    if (!this.ok()) return
