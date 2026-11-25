@@ -197,3 +197,4 @@ def terrain_material():
     att = N.new("ShaderNodeAttribute")
     att.attribute_name = "Col"
     b.inputs["Roughness"].default_value = 0.95
+    L.new(att.outputs["Color"], b.inputs["Base Color"])
