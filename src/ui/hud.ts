@@ -338,3 +338,4 @@ export class Hud {
     const g = this.g
     const cam = g.camera
     const w = window.innerWidth
+    const h = window.innerHeight
