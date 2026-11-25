@@ -1138,3 +1138,4 @@ export class Game implements UnitHost {
       level: this.profile.level,
       xp: this.profile.xp,
       alive: p.alive,
+      dodges: p.dodges,
