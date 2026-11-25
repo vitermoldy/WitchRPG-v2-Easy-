@@ -264,3 +264,4 @@ export class TravelPanel {
     $('travel-here').textContent = here ? here.name : 'Altar'
     $('travel-list').innerHTML = list
       .map((a) => `<li><button class="btn ${a.here ? '' : 'btn-umbra'}" type="button" data-altar="${a.key}" ${a.here ? 'disabled' : ''}>${a.here ? `${a.name} (di sini)` : `Pergi ke ${a.name}`}</button></li>`)
+      .join('')
