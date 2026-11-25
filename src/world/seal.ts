@@ -97,3 +97,4 @@ export class Seal {
     const [mx, my] = toMap(wx, wz)
     const i = Math.floor((mx + PLAY_HALF) / CELL)
     const j = Math.floor((my + PLAY_HALF) / CELL)
+    if (i < 0 || j < 0 || i >= this.n || j >= this.n) return false
