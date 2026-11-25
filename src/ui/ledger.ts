@@ -199,3 +199,4 @@ export class Ledger {
         const [rank, kind] = key.split(':') as [keyof typeof RANKS, keyof typeof UNITS]
         const fighting = list.filter((s) => live.has(s.id)).length
         const shown = list.slice(0, ROOM_SHOWN)
+        return `<li class="room-group">
