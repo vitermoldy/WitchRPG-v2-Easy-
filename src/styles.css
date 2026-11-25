@@ -1082,3 +1082,4 @@ button {
 .wheel-opt {
   position: absolute;
   display: grid;
+  place-items: center;
