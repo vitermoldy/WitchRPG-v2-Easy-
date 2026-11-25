@@ -27,3 +27,4 @@ const amber = new THREE.MeshBasicMaterial({ color: new THREE.Color(COLOR.rift).m
 const red = new THREE.MeshBasicMaterial({ color: new THREE.Color(COLOR.chaos).multiplyScalar(3) })
 
 /**
+ * Creature projectiles: Centaur arrows fly along the flashing line (only a roll avoids them), Naga globs
