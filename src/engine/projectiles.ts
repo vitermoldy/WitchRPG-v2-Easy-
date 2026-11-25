@@ -106,3 +106,4 @@ export class Projectiles {
         continue
       }
       if (s.reflected) {
+        if (s.source.targetable && s.source.center(this.c).distanceTo(s.pos) < s.source.radius + 0.6) {
