@@ -40,3 +40,4 @@ export function bakeByMaterial(root: THREE.Object3D): { geometry: THREE.BufferGe
 
 const rad = (d: number) => (d * Math.PI) / 180
 const ease = (k: number) => {
+  const c = Math.min(1, Math.max(0, k))
