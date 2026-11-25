@@ -165,3 +165,4 @@ class Staff {
         g.sfx.hit(true)
         g.hitstop(COMBAT.hitstop.light)
       }
+      this.orient(this.vel, true)
