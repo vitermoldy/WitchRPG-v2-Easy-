@@ -949,3 +949,4 @@ button {
 .skill > kbd,
 .skill > span {
   position: relative;
+  z-index: 1;
