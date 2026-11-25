@@ -12,3 +12,5 @@ function run(p: Player, input: MoveInput, seconds: number, g = flat, camYaw = 0)
     p.update(dt, input, camYaw, null, false, g)
     input = { ...input, dodge: false }
   }
+}
+
