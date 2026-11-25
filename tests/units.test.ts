@@ -20,3 +20,4 @@ function world(groundHeight = 0) {
       sys.hurt(target, u.damage, u.pos)
     },
     impact: () => {},
+    fire: (_u, atk) => log.fired.push(atk.name),
