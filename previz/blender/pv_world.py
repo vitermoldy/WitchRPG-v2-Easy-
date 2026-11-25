@@ -624,3 +624,4 @@ def build_temple(coll, pal):
     for k in range(12):
         a = 2 * math.pi * k / 12
         x, y = cx + math.cos(a) * 7.5, cy + math.sin(a) * 6.0
+        hgt = (7.5, 3.0, 6.2, 7.5, 1.6, 7.5, 4.4, 7.5, 2.3, 6.8, 7.5, 3.6)[k]
