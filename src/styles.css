@@ -1295,3 +1295,4 @@ dialog::backdrop {
 
 .ledger {
   width: min(70rem, calc(100vw - 32px));
+  max-height: calc(100vh - 32px);
