@@ -74,3 +74,4 @@ export class Umbra {
   /** Fallen shadows and when they can be called again. */
   readonly downUntil = new Map<number, number>()
   private calls: Call[] = []
+  private readonly glowColor = new THREE.Color()
