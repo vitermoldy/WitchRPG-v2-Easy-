@@ -21,3 +21,5 @@ const FRAG = /* glsl */ `
     float a = k * k * (0.18 + 0.35 * bands) * uFade;
     gl_FragColor = vec4(col * a, a);
   }
+`
+
