@@ -63,3 +63,4 @@ export class Umbra {
   wheelOpen = false
   wheelChoice: WheelChoice | null = null
   /** The army has been called and not sent back: shadows that reform rise again by themselves. */
+  armyOut = false
