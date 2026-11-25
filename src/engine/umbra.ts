@@ -75,3 +75,5 @@ export class Umbra {
   readonly downUntil = new Map<number, number>()
   private calls: Call[] = []
   private readonly glowColor = new THREE.Color()
+  private readonly spotV = new THREE.Vector3()
+
