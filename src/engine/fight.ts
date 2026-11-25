@@ -7,3 +7,4 @@ import type { IlyraPose } from './models'
 import { COLOR } from './palette'
 import type { Unit } from './units'
 
+export interface FightInput {
