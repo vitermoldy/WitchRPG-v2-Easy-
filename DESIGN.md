@@ -202,3 +202,5 @@ Hasil gerbang (bot `?debug`, waktu game 3× dipercepat, `scratchpad` gate5):
 
 Pemeriksaan UI di 1024 × 768, 1280 × 720, dan 1920 × 1080 (geometri DOM, bukan hanya mata): bar boss, kotak kamp, feed, banner tengah, petunjuk kontrol, bar skill, panel HP, dan panel bayangan tidak saling menutupi, tanpa luapan horizontal. Di 390 px HUD dalam game masih bertumpuk (bar skill keluar layar dan menempel panel HP), seperti sejak fase 2: game ini butuh mouse dan keyboard. Layar mulai dan Ledger tetap mengalir di 390 px.
 
+Tes: 97 dari 97 lulus (14 baru di `tests/boss.test.ts`: bagian damage Hydra per fase, batu, ambang fase, Marsekal, elit, Phoenix, Succubus, Cyclops, segel, dan bug proyektil). Waktu frame tidak diukur ulang di fase ini.
+
