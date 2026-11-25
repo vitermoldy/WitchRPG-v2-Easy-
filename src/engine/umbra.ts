@@ -470,3 +470,4 @@ export class Umbra {
       g.sfx.riteResult(true)
       if (raised.length === 1 && !faded) {
         const rec = raised[0]
+        g.hud.message(`Bayangan baru: ${rec.name}, ${RANKS[rec.rank].label} dari ${UNITS[rec.kind].name} Lv ${rec.level}.`, 'umbra')
