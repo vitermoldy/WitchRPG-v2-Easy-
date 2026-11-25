@@ -99,3 +99,4 @@ export class Obstacles {
         const d = Math.sqrt(d2) || 1e-4
         const push = min - d
         pos.x += (dx / d) * push
+        pos.z += (dz / d) * push
