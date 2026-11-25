@@ -831,3 +831,4 @@ export class UnitSystem {
     const p = host.foe
     if (u.focus && !u.focus.targetable) {
       if (!u.focus.alive) {
+        u.focus = null
