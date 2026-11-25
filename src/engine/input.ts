@@ -17,3 +17,4 @@ export class Input {
   constructor(target: HTMLElement) {
     this.target = target
     window.addEventListener('keydown', (e) => {
+      if (!this.active || !this.capture) return
