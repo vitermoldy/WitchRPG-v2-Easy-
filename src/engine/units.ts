@@ -685,3 +685,4 @@ export class UnitSystem {
     }
     const onPlayer = tgt === p
     const dist = Math.hypot(tgt.pos.x - u.pos.x, tgt.pos.z - u.pos.z)
+    const spec = u.spec
