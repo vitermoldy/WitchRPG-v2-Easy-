@@ -330,3 +330,4 @@ def _dead(p, mat="dead"):
         p.tube([(0, 0, z), (math.cos(a) * l * 0.6, math.sin(a) * l * 0.6, z + 0.6), (math.cos(a) * l, math.sin(a) * l, z + 1.5)], [0.09, 0.06, 0.0], mat=mat, seg=5, n=2)
 
 
+def _rock(p, seed, r=(1.4, 1.1, 0.9), mat="rock"):
