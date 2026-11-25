@@ -206,3 +206,4 @@ export class Spells {
       this.g.hud.flashMana()
       return false
     }
+    p.mana -= cost
