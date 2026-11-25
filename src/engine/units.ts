@@ -21,3 +21,4 @@ export interface Foe {
 export interface UnitHost {
   readonly obstacles: Obstacles
   readonly height: HeightFn
+  /** Her feet, her size, and whether she can be targeted. */
