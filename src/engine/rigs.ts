@@ -1105,3 +1105,4 @@ export class Rigs {
       this.s.setScalar(u.scale)
       this.m.compose(this.p, this.q, this.s)
       const i = b.used++
+      for (const part of b.parts) part.mesh.setMatrixAt(i, this.m)
