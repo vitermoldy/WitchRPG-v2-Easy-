@@ -226,3 +226,4 @@ export class Lair {
           g.units.remove(h)
         }
         this.heads[i] = null
+      }
