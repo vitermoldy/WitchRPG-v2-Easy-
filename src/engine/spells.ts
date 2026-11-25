@@ -517,3 +517,4 @@ export class Spells {
   }
 
   /** Where a skill lands: the aim point while aiming, else the locked creature, else a little ahead of her. */
+  private target(range: number, aiming: boolean): THREE.Vector3 {
