@@ -451,3 +451,4 @@ const poseMedusa: PoseFn = (p, u, t) => {
   p.rot('tail', 0, 14 * Math.sin(u.walk * 0.8 + t))
   const gaze = u.atk.effect === 'petrify'
   if (u.state === 'windup') {
+    const k = ease(u.t / u.atk.windup)
