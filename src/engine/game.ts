@@ -689,3 +689,4 @@ export class Game implements UnitHost {
   private fall() {
     const p = this.player
     p.hp = 0
+    p.alive = false
