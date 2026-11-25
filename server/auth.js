@@ -72,3 +72,4 @@ const scrypt = (password, salt, keylen, options) =>
 
 /** "scrypt$N$r$p$salt$hash": everything needed to check the password again later. */
 export async function hashPassword(password) {
+  const salt = randomBytes(16)
