@@ -9,3 +9,4 @@ describe('the save', () => {
     delete old.world
     const p = normalizeProfile(old)!
     expect(p.world.altars).toEqual(['pembuka'])
+    expect(p.world.last).toBe('pembuka')
