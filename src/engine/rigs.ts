@@ -623,3 +623,4 @@ const posePhoenix: PoseFn = (p, u, t) => {
  * bends down toward its circle; a severed head hangs; a swallowed one is gone. The shadow Hydra, without
  * heads of its own, slams with the middle head when it strikes.
  */
+const poseHydra: PoseFn = (p, u, t) => {
