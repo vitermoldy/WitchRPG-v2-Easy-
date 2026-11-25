@@ -2,3 +2,4 @@ import { DEFAULT_SETTINGS, newProfile, STAT_KEYS, type Profile } from './progres
 
 const KEY = 'witchrpg-v2-easy:profile:v1'
 
+/** Reads the saved witch. Storage can be blocked or hold junk; both give a fresh profile. */
