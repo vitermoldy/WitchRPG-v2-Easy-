@@ -13,3 +13,4 @@ const num = (key, fallback) => {
   return Number.isFinite(value) && value > 0 ? value : fallback
 }
 
+export const config = {
