@@ -4,3 +4,4 @@ import { config } from './config.js'
 import { connect } from './db.js'
 
 /**
+ * `npm run set-user -- <username> <kata sandi>`: makes an account, or gives an existing one a
