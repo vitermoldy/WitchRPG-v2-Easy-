@@ -114,3 +114,4 @@ export class Umbra {
     for (const [, at] of this.downUntil) {
       if (at > this.time) {
         count++
+        next = Math.min(next, at - this.time)
