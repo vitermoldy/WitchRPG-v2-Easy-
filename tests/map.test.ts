@@ -77,3 +77,5 @@ describe('the forest valley', () => {
       if (inWaterRect(x, y)) expect(WATER_LEVEL - heightMap(x, y), name).toBeLessThanOrEqual(MOVE.maxWade)
       expect(steepest(x, y), name).toBeLessThan(MOVE.maxSlope)
     }
+  })
+
