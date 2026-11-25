@@ -32,3 +32,4 @@ npm start        # setelah build: server sekaligus melayani dist/ di http://loca
 npm run users    # daftar akun
 npm run set-user -- <username> <kata sandi>   # buat akun atau ganti kata sandinya
 npm run models   # buat ulang model GLB dari block-out Blender (butuh Blender 5.1)
+npm run models -- imp hellhound harpy --lod 0.22   # versi sederhana untuk kerumunan bayangan
