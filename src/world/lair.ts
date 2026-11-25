@@ -122,3 +122,4 @@ export class Lair {
       vertexShader: VERT,
       fragmentShader: CURTAIN_FRAG,
       transparent: true,
+      depthWrite: false,
