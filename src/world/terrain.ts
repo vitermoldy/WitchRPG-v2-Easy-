@@ -68,3 +68,4 @@ export class Terrain {
 
   /** Picks each chunk's detail for the camera position; builds at most `budget` new meshes. */
   update(at: THREE.Vector3, budget = 1) {
+    let made = 0
