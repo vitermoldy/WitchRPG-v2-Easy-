@@ -676,3 +676,4 @@ export class Game implements UnitHost {
   private immuneAt = -9
   private landMsgAt = -99
 
+  /** P: first person (her eyes, as in v1) or third person (over her shoulder). Kept in her settings. */
