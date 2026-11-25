@@ -169,3 +169,4 @@ export class Lair {
     body.parts = this.heads
     this.body = body
     this.phase = 1
+    this.attackIn = 2
