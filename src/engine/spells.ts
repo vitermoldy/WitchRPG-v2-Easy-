@@ -509,3 +509,4 @@ export class Spells {
   impact(u: Unit, other: Unit | null, speed: number) {
     const g = this.g
     const dmg = impactDamage(u.mass, speed, SPELL.impact.coefficient, SPELL.impact.exponent) * this.damageMult
+    g.hurtUnit(u, dmg, u.pos, 12, 0, 'player', 'impact')
