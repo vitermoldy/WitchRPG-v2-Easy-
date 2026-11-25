@@ -408,3 +408,4 @@ export class UnitSystem {
     let best: Unit | null = null
     let bd = range * range
     const r = Math.ceil(range / CELL)
+    const other = this.living[u.team === 'enemy' ? 'shadow' : 'enemy']
