@@ -81,3 +81,4 @@ const RIFT_FRAG = /* glsl */ `
     float pulse = 0.5 + 0.5 * sin(uTime * 1.6 + y * 18.0);
     vec3 voidCol = vec3(0.07, 0.01, 0.06) + vec3(0.45, 0.04, 0.22) * pulse * 0.25;
     vec3 col = voidCol * inside + vec3(1.0, 0.78, 0.72) * rim * (1.0 - inside) + vec3(0.95, 0.16, 0.3) * glow * (1.0 - inside);
+    float a = clamp(inside * 0.96 + rim + glow, 0.0, 1.0) * uFade;
