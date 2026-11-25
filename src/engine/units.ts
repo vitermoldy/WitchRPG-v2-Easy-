@@ -633,3 +633,4 @@ export class UnitSystem {
       if (dist > a.range + tgt.radius || dist < (a.minRange ?? 0)) continue
       if ((u.atkCd.get(a.name) ?? 0) > 0) continue
       if (a.behind) {
+        if (behind) return a
