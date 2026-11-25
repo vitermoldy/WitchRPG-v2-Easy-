@@ -53,3 +53,4 @@ def frame_of(p, f):
     return lambda fw, rt: Vector((p[0], p[1], 0)) + f * fw + right * rt
 
 
+def shot_scene(name, dunia, world, sun_travel, sun_color="#fff1dc", sun_energy=4.0, res=(1920, 1080), vol_end=500.0, exposure=0.0, samples=64, look="AgX - Punchy", vol_tile="4"):
