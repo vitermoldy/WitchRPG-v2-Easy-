@@ -7,3 +7,4 @@ describe('the save', () => {
   it('gives a witch saved before phase 4 the start altar', () => {
     const old = JSON.parse(JSON.stringify(newProfile()))
     delete old.world
+    const p = normalizeProfile(old)!
