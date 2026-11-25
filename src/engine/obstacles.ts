@@ -96,3 +96,4 @@ export class Obstacles {
         const min = rr + radius
         const d2 = dx * dx + dz * dz
         if (d2 >= min * min) return
+        const d = Math.sqrt(d2) || 1e-4
