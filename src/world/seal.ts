@@ -76,3 +76,4 @@ export class Seal {
     this.mat = new THREE.ShaderMaterial({
       uniforms: { uTime: { value: 0 }, uFade: { value: this.fade } },
       vertexShader: VERT,
+      fragmentShader: FRAG,
