@@ -63,3 +63,4 @@ export class Lair {
   phase: 1 | 2 | 3 = 1
   body: Unit | null = null
   heads: (Unit | null)[] = []
+  /** Middle of the shore the fight happens on (world), and the way to the lake. */
