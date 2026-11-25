@@ -241,3 +241,4 @@ Pemeriksaan:
 - **Model:** setiap primitif membawa `COLOR_0`; warna Imp (linear) dari 0,57 di perut sampai 0,83 di punggung. Jumlah segitiga sama seperti sebelumnya, semuanya di dalam anggaran (mob 8.000, boss 30.000, Ilyra 20.000). Total unduhan build 4,5 MB, model 3,5 MB (batas PROMPT 40 MB).
 - **Suara dan partikel:** di tiap zona 512 sampai 520 dari 520 partikel memakai jenis zona itu; dalam 12 dtk terdengar 6 kicau burung di Hutan Pembuka dan 4 katak di Rawa Berkabut, 2 lonceng dalam 40 dtk di Reruntuhan Kuil; Rift di langit hanya tampak di Lembah Bara.
 - **UI:** gerbang akun di 390 dan 1280 px tanpa luapan atau elemen terpotong, semua kontrol 44 px atau lebih, semua input berlabel, cincin fokus terlihat. HUD dalam game di 1024, 1280, dan 1920 px tanpa tumpukan.
+- **Server produksi:** `npm start` melayani `dist/` dan API di 8913 dengan database `witch_rpg_v2`. Akun pemilik `vmk` ada di sana.
