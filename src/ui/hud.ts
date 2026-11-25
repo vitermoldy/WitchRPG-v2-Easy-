@@ -300,3 +300,4 @@ export class Hud {
     const g = this.g
     const field = g.umbra.field()
     const total = g.profile.shadows.length
+    const reform = g.umbra.reforming()
