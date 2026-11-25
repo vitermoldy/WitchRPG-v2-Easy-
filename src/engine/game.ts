@@ -1241,3 +1241,4 @@ export class Game implements UnitHost {
     const i = this.renderer.info.render
     const [mx, my] = toMap(this.player.pos.x, this.player.pos.z)
     return [
+      `frame ${s.median.toFixed(1)} ms (p95 ${s.p95.toFixed(1)})`,
