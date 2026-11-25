@@ -7,3 +7,4 @@ export interface Altar {
   key: string
   name: string
   pos: THREE.Vector3
+  crystal: THREE.Mesh
