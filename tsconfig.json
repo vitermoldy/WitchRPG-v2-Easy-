@@ -10,3 +10,4 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true,
+    "isolatedModules": true,
