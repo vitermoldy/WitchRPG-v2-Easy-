@@ -392,3 +392,4 @@ export class WorldMap {
       if (this.focus === b.kind) {
         ctx.beginPath()
         ctx.arc(x, y, br * 2, 0, Math.PI * 2)
+        ctx.strokeStyle = '#efe6df'
