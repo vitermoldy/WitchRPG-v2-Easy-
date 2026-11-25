@@ -26,3 +26,4 @@ _ACTORS = None
 def actors_coll():
     global _ACTORS
     if _ACTORS is None or _ACTORS.name not in bpy.data.collections:
+        _ACTORS = C.collection("Aktor", bpy.data.scenes["Pustaka"].collection)
