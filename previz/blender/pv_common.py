@@ -551,3 +551,4 @@ def bounds(coll, skip=()):
         if ob.type != "MESH" or any(s in ob.name for s in skip):
             continue
         mw = world_matrix(ob)
+        for v in ob.data.vertices:
