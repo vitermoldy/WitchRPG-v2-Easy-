@@ -124,3 +124,4 @@ export class Umbra {
   spot(i: number, out = new THREE.Vector3()): THREE.Vector3 {
     const p = this.g.player
     let ring = 0
+    let index = i
