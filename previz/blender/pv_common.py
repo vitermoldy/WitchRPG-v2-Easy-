@@ -378,3 +378,4 @@ class Part:
         for i in range(len(P)):
             a = P[max(i - 1, 0)]
             b = P[min(i + 1, len(P) - 1)]
+            T.append((b - a).normalized())
