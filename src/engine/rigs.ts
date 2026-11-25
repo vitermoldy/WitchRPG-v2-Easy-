@@ -1103,3 +1103,4 @@ export class Rigs {
       this.p.y += Math.abs(Math.sin(t * 9 + u.id)) * 0.06 * pace
       this.q.setFromAxisAngle(UP, u.yaw)
       this.s.setScalar(u.scale)
+      this.m.compose(this.p, this.q, this.s)
