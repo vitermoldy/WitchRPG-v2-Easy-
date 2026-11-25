@@ -501,3 +501,4 @@ def b_hellhound(r):
     Q = quad(r, 1.0, 1.5, 0.48, 0.5, 0.055)
     b = r.parts["body"]
     b.ell(V(Q["chest"]) + Vector((0, -0.12, 0.05)), (0.3, 0.32, 0.32))
+    nb = V(Q["neck_base"])
