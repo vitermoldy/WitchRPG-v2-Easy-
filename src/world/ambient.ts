@@ -58,3 +58,5 @@ const MOTE_FRAG = /* glsl */ `
     if (a < 0.01) discard;
     gl_FragColor = vec4(vTint * a, a);
   }
+`
+
