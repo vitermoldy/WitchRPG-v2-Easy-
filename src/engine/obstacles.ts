@@ -47,3 +47,5 @@ export class Obstacles {
       }
     }
     return id
+  }
+
