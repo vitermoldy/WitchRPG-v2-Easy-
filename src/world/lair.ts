@@ -411,3 +411,4 @@ export class Lair {
             h.set('recover')
           } else h.set('strike')
         }
+      } else if (h.state === 'strike' && h.t >= (atk.lungeTime ?? 0.25)) {
