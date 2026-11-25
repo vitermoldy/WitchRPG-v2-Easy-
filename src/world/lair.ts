@@ -8,3 +8,4 @@ import { heightAt, LAKE, SPOTS, toWorld, WATER_LEVEL } from './map'
 export type LairState = 'calm' | 'fight' | 'won'
 
 /**
+ * How much of a blow on the Hydra lands. Phase 1: everything. Phase 2: its slimy skin lets bolts and
