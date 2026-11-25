@@ -1958,3 +1958,4 @@ dialog::backdrop {
 
 @media (max-width: 860px) {
   .worldmap[open] {
+    grid-template-columns: 1fr;
