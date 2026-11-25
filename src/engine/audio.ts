@@ -152,3 +152,4 @@ export class Sfx {
     if (!this.ok()) return
     const t = this.ctx!.currentTime
     if (up) {
+      this.tone(t, 'sine', 300, 600, 0.35, 0.2, 0.04)
