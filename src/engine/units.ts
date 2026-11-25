@@ -331,3 +331,4 @@ export class UnitSystem {
     if (u.hp <= 0) {
       this.kill(u)
       return true
+    }
