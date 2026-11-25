@@ -94,3 +94,4 @@ describe('creature attacks', () => {
       // she side-steps the moment the line appears (what a roll does)
       if (hound.state === 'windup' && !stepped) {
         stepped = true
+        const across = new THREE.Vector3(hound.lungeDir.z, 0, -hound.lungeDir.x).multiplyScalar(2.5)
