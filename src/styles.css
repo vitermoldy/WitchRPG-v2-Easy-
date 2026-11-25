@@ -613,3 +613,4 @@ button {
 
 @keyframes parry {
   0% {
+    opacity: 0.9;
