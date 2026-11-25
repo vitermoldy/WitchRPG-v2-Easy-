@@ -174,3 +174,5 @@ export type UnitKind =
   | 'husk' | 'hound' | 'spitter' | 'warden' | 'riftlord' | 'hollow' | 'harrier' | 'bombard'
   | 'imp' | 'hellhound' | 'harpy' | 'centaur' | 'naga' | 'minotaur' | 'medusa' | 'chimera'
   | 'cyclops' | 'succubus' | 'incubus' | 'phoenix' | 'hydra' | 'hydraHead'
+  | 'griffin' | 'hippogriff' | 'pegasus' | 'unicorn' | 'cerberus' | 'lilith' | 'dragon' | 'typhon' | 'samael' | 'atlas'
+
