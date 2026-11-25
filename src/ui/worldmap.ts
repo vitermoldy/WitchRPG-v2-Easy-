@@ -111,3 +111,4 @@ export class WorldMap {
       /* the choice lasts until the page reloads */
     }
     if (rerender) this.renderMonsters()
+    this.draw()
