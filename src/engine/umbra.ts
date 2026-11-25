@@ -581,3 +581,4 @@ export class Umbra {
     let ba = Infinity
     for (const s of shadows) {
       const a = fwd.angleTo(s.center().sub(cam))
+      if (a < ba) {
