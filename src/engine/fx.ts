@@ -250,3 +250,4 @@ export class LightPool {
       if (s.held || s.ttl <= 0) continue
       s.ttl -= dt
       const k = Math.max(0, s.ttl / s.maxTtl)
+      s.light.intensity = s.peak * k * k
