@@ -322,3 +322,4 @@ export class UnitSystem {
     u.hp -= dmg * (1 + u.vulnerable)
     u.flash = 0.16
     u.barShown = 6
+    if (stun > 0 && u.stun.add(stun)) this.stagger(u)
