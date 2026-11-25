@@ -617,3 +617,5 @@ export class UnitSystem {
       u.helpers++
       this.host.summoned(h)
     }
+  }
+
