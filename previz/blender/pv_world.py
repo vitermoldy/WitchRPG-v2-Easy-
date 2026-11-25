@@ -549,3 +549,4 @@ def fog_material(z):
     rad.inputs["From Min"].default_value = z["r"] * 1.25
     rad.inputs["From Max"].default_value = z["r"] * 0.6
     L.new(lenv.outputs["Value"], rad.inputs["Value"])
+    m1 = N.new("ShaderNodeMath")
