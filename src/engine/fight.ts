@@ -80,3 +80,4 @@ class Staff {
     this.g.sfx.gripStart()
   }
 
+  /** Back in her hand at once (a fall, a respawn). */
