@@ -160,3 +160,4 @@ def mat_ring(name, color, strength, inner=0.82, alpha=0.9, fill=0.08):
     e.color = (1, 1, 1, 1)
     e2 = cr.elements.new(0.999)
     e2.color = (0, 0, 0, 1)
+    L.new(rr.outputs[0], ramp.inputs["Fac"])
