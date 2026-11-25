@@ -300,3 +300,4 @@ button {
 }
 
 .controls div:first-child h2 {
+  color: var(--chaos-ink);
