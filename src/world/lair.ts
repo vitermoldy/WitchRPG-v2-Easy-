@@ -211,3 +211,4 @@ export class Lair {
     p.hp = Math.min(p.maxHp, p.hp + p.maxHp * HYDRA.phaseHeal)
     p.mana = Math.min(p.maxMana, p.mana + HYDRA.phaseMana)
     g.sfx.roar()
+    g.addTrauma(0.5)
