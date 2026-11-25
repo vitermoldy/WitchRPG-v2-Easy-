@@ -1313,3 +1313,4 @@ dialog::backdrop {
 
 .ledger-title {
   margin: 0;
+  font-family: var(--font-display);
