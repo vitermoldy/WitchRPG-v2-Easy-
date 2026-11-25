@@ -140,3 +140,4 @@ export class Ambient {
       side: THREE.DoubleSide,
     })
     this.rift = new THREE.Mesh(new THREE.PlaneGeometry(90, 320), this.riftMat)
+    this.rift.name = 'sky-rift'
