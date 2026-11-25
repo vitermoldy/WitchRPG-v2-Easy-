@@ -583,3 +583,4 @@ def build_board(lib_colls, stats):
     for i, k in enumerate(keys):
         r_, c_ = divmod(i, cols)
         x0, z0 = c_ * cw, -(head + r_ * ch)
+        bg = C.Rig(f"kartu.{k}", {"c": card, "w": well}, coll)
