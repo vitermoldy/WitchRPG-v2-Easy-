@@ -269,3 +269,5 @@ export class Lair {
     return hydraShare(this.phase, kind, inWarp && u === body)
   }
 
+  // ------------------------------------------------------------ ground, water and the lair's edge
+
