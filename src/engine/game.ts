@@ -936,3 +936,4 @@ export class Game implements UnitHost {
       execute: canAct && inp.pressed('KeyF'),
       throwStaff: canAct && inp.pressed('KeyH'),
       dirX: f.x * steer.y + r.x * steer.x,
+      dirZ: f.z * steer.y + r.z * steer.x,
