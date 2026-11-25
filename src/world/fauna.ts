@@ -42,3 +42,4 @@ export class Fauna {
   }
 
   update() {
+    const g = this.g
