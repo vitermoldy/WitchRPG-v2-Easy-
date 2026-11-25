@@ -160,3 +160,4 @@ export class Lair {
     this.heads = []
     for (let i = 0; i < HYDRA.heads; i++) {
       const h = g.units.spawn('hydraHead', 'enemy', LEVEL, { x: at.x, z: at.z })
+      h.controlled = true
