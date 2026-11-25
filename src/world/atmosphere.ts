@@ -92,3 +92,4 @@ export class Atmosphere {
 
   /** Where she stands (world). Snap jumps straight to the zone's look (first frame, teleports). */
   update(dt: number, at: THREE.Vector3, camPos: THREE.Vector3, snap = false) {
+    const [mx, my] = toMap(at.x, at.z)
