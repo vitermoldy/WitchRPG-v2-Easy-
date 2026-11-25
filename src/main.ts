@@ -111,3 +111,5 @@ async function boot() {
     game.saveNow()
   })
 
+  mountAccount(game, { onProfileChanged: () => refreshers.forEach((fn) => fn()) })
+
