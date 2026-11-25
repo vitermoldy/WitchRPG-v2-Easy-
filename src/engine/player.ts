@@ -63,3 +63,4 @@ export class Player {
   moveScale = 1
   /** In the air (B, as in v1). */
   flying = false
+  /** B over deep water this frame: there is nowhere to land. */
