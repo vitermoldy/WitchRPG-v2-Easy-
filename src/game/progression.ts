@@ -216,3 +216,4 @@ export interface XpResult {
 }
 
 /** Adds XP, levels up as often as it covers, and passes 30% to every shadow (capped at your level). */
+export function gainXp(p: Profile, amount: number, skills: SkillId[]): XpResult {
