@@ -102,3 +102,4 @@ export class Sfx {
 
   /** v2: the staff cutting the air; the heavy blow is lower and longer. */
   swing(heavy = false) {
+    if (!this.ok()) return
