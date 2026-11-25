@@ -515,3 +515,4 @@ def b_hellhound(r):
     snake_head(tl, pts[-1], (0.1, -0.7, 0.4), s=0.7, jaw=40, mat="snake")
 
 
+def b_harpy(r):
