@@ -143,3 +143,4 @@ export class Particles {
       this.baseCol[i * 3 + 1] = this.c.g
       this.baseCol[i * 3 + 2] = this.c.b
       const life = e.life * (1 + (Math.random() - 0.5) * 2 * (e.lifeJitter ?? 0.3))
+      this.life[i] = life
