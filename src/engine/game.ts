@@ -149,3 +149,4 @@ export class Game implements UnitHost {
   private readonly ray = new THREE.Ray()
   private readonly sphere = new THREE.Sphere()
 
+  constructor(canvas: HTMLCanvasElement, debug: boolean) {
