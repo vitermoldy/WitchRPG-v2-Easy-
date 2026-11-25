@@ -114,3 +114,4 @@ export class Seal {
   update(dt: number) {
     this.mat.uniforms.uTime.value += dt
     if (this.open && this.fade > 0) {
+      this.fade = Math.max(0, this.fade - dt * 0.4)
