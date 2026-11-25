@@ -305,3 +305,4 @@ export class WorldMap {
     // boss marks claim their room first, so a label never covers one
     for (const b of bosses) {
       const [x, y] = at(b.x, b.z)
+      placed.push([x - br, y - br, x + br, y + br])
