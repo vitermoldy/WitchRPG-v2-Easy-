@@ -22,3 +22,4 @@ interface Kind {
   wander: number
   /** Twinkle: 0 steady, 1 fireflies blinking. */
   blink: number
+  alpha: number
