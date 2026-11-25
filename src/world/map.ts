@@ -159,3 +159,4 @@ export function heightMap(x: number, y: number): number {
   // Danau Hitam, with a steep bank so the shore is a line, not a marsh
   const lake = smooth(LAKE.r * 1.05, LAKE.r * 0.85, dist(x, y, LAKE.c))
   h = h * (1 - lake) + lake * -7
+  // Lembah Bara: a burnt bowl with a rim
