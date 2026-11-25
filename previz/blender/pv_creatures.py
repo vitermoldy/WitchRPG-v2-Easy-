@@ -496,3 +496,4 @@ def b_imp(r):
     tl.poly([tip + Vector((0, 0.0, -0.02)), tip + Vector((0.06, -0.03, 0.05)), tip + Vector((0, -0.02, 0.15)), tip + Vector((-0.06, -0.03, 0.05))], mat="claw")
 
 
+def b_hellhound(r):
