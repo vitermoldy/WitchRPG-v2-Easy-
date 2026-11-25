@@ -706,3 +706,4 @@ def b_medusa(r):
         a = 2 * math.pi * i / 13
         d = Vector((math.cos(a), math.sin(a) * 0.8 + 0.25, 0.6)).normalized()
         base = hc + d * 0.08
+        mid = base + d * 0.18 + Vector((0, 0, 0.1))
