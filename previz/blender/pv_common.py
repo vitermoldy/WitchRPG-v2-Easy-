@@ -466,3 +466,4 @@ class Rig:
             self.order.append(name)
         return self.parts[name]
 
+    def finalize(self):
