@@ -441,3 +441,4 @@ def b_ilyra(r, pose="idle"):
             cl.poly([sheet[i][j], sheet[i][j + 1], sheet[i + 1][j + 1], sheet[i + 1][j]], mat="cloth2")
     for s, side, m in ((1, "L", "chaos"), (-1, "R", "umbra")):
         hd = r.parts["hand_" + side]
+        W, T = J["wr_" + side], J["tip_" + side]
