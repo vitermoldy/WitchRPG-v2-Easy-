@@ -672,3 +672,4 @@ export class Spells {
     const wall = new THREE.Mesh(new THREE.CylinderGeometry(s.radius, s.radius, 7, 48, 1, true), wallMat)
     wall.position.y = 3.5
     wall.renderOrder = 7
+    group.add(wall)
