@@ -29,3 +29,4 @@ export interface Ground {
 const wrap = (a: number) => Math.atan2(Math.sin(a), Math.cos(a))
 
 /**
+ * Ilyra on foot: weighty acceleration, turning toward where she goes, and a roll on Space with a short
