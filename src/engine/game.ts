@@ -1243,3 +1243,4 @@ export class Game implements UnitHost {
     return [
       `frame ${s.median.toFixed(1)} ms (p95 ${s.p95.toFixed(1)})`,
       `draw ${i.calls}, segitiga ${(i.triangles / 1000).toFixed(0)}k`,
+      `peta ${mx.toFixed(0)}, ${my.toFixed(0)}  ${ZONES[this.atmosphere.zone].name}`,
