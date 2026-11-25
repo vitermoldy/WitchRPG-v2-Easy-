@@ -513,3 +513,5 @@ export class Fight {
       g.lights.flash(this.v, COLOR.chaos, 18, 9, 0.35)
     }
     if (ex.t >= 1) this.exec = null
+  }
+
