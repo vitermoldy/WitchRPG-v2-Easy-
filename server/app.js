@@ -29,3 +29,4 @@ const MAX_SHADOWS = 2000
 /** Writes come as JSON from this site only: no form posts, no other origin. */
 function sameOriginWrites(req, res, next) {
   if (req.method === 'GET' || req.method === 'HEAD') return next()
+  if (!req.is('application/json')) return res.status(415).json({ error: 'Kirim data sebagai JSON.' })
