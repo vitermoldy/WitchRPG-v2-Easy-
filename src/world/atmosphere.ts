@@ -119,3 +119,4 @@ export class Atmosphere {
     this.densityTarget = 1.8 * inv
     const k = snap ? 1 : Math.min(1, dt * 0.8)
     this.fog.color.lerp(this.fogTarget, k)
+    this.fog.density += (this.densityTarget - this.fog.density) * k
