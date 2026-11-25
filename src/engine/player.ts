@@ -240,3 +240,4 @@ export class Player {
     this.vx += gx * k
     this.vy += gy * k
     this.vz += gz * k
+    this.moveAxis(this.vx * dt, 0, g, true)
