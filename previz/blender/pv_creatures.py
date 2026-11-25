@@ -190,3 +190,4 @@ def wing_frame(root, s, raise_deg, sweep_deg, tilt=60):
     """u: out along the leading edge; v: down the chord. tilt 0 lays the chord back (flight), 90 hangs it down,
     so display wings (tilt about 60) face the camera from the front and from behind."""
     ra, sw = math.radians(raise_deg), math.radians(sweep_deg)
+    U = Vector((s * math.cos(ra) * math.cos(sw), math.sin(sw) * math.cos(ra), math.sin(ra)))
