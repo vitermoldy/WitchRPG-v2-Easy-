@@ -205,3 +205,4 @@ export class Camps {
     const g = this.g
     const p = g.player
     this.time += dt
+    let colors = false
