@@ -113,3 +113,4 @@ function rock(seed: number, r: [number, number, number], color: THREE.Color): TH
   for (let i = 0; i < p.count; i++) {
     s = (s * 16807) % 2147483647
     const k = 0.8 + 0.35 * (s / 2147483647)
+    p.setXYZ(i, p.getX(i) * r[0] * k, p.getY(i) * r[2] * k + r[2] * 0.35, p.getZ(i) * r[1] * k)
