@@ -234,3 +234,5 @@ Pengukuran (pola v1: 20 makhluk bertarung, hutan penuh, 1920 × 1080, GPU NVIDIA
 
 Anggaran PROMPT (median 16,7 ms dengan 20 musuh dan 200 bayangan) terpenuhi: 9,0 ms. Biaya pasukannya sendiri tetap di bawah v1: dari 0 ke 1.000 bayangan +4,9 ms, v1 +7,2 ms. Dasar adegan sekitar 0,4 ms lebih berat dari fase 4 karena isi baru (tiga altar, segel, partikel: sekitar 15 draw call lebih banyak). Sebelum Hydra dibatasi jaraknya, angkanya 7,6 sampai 7,9 / 9,7 sampai 9,8 / 10,7 sampai 11,1 / 12,3 sampai 12,4 ms.
 
+Pemeriksaan:
+
