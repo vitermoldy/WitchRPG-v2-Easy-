@@ -130,3 +130,4 @@ class Staff {
         this.stick()
       } else if (wall < 1) {
         this.pos.lerpVectors(this.prev, this.pos, wall)
+        this.stick()
