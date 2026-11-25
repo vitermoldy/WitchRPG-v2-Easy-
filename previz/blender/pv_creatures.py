@@ -895,3 +895,4 @@ def b_hydra(r, heads=5):
     for s in (1, -1):
         for y in (-2.2, 2.4):
             leg = (2.6 * s, y, 1.4)
+            b.limb(leg, (3.3 * s, y - 0.3, 0.4), 0.9, 0.6)
