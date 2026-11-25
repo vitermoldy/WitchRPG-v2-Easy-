@@ -1003,3 +1003,4 @@ def b_typhon(r):
     sp = r.P("serpents", J["hip"], "pelvis")
     hp = V(J["hip"])
     for k in range(10):
+        a = 2 * math.pi * k / 10 + 0.3
