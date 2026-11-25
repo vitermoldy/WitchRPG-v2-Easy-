@@ -127,3 +127,4 @@ export class Altars {
       }
       if (w.last !== a.key) {
         w.last = a.key
+        g.saveSoon()
