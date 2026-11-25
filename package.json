@@ -5,3 +5,4 @@
   "type": "module",
   "description": "WitchRPG v2 (Easy): salinan Crimson Sovereign: Hutan di mana Umbra Rite selalu berhasil (100%). action-RPG third-person di hutan terbuka. Ilyra bertarung dengan tongkat dan sihir Chaos, dan membangkitkan musuh yang kalah menjadi pasukan bayangan.",
   "scripts": {
+    "dev": "vite",
