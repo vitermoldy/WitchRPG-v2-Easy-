@@ -22,3 +22,4 @@ app.use('/api', createApi(() => pool, config.db.database))
 const dist = ROOT + 'dist'
 if (existsSync(dist)) app.use(express.static(dist))
 
+/** MySQL may start after this server; keep trying every few seconds. */
