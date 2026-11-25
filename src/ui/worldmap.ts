@@ -40,3 +40,5 @@ export class WorldMap {
   private base: HTMLCanvasElement | null = null
   private chosen = new Set<UnitKind>()
   private focus: UnitKind | null = null
+  onClose: (() => void) | null = null
+
