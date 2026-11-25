@@ -1133,3 +1133,4 @@ export const BOSS = {
   /** Phase 3: slower volleys, and the husks it swallows heal it a little. */
   volleyEvery3: 4.2,
   /** Damage taken while caught in Reality Warp in phase 3. */
+  warpDamage: 1.5,
