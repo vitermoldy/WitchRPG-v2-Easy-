@@ -204,3 +204,4 @@ export class Lair {
   }
 
   private enterPhase(n: 2 | 3) {
+    const g = this.g
