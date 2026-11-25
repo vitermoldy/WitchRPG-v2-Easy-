@@ -30,3 +30,4 @@ function clientCode(): string {
 
 /** A failed call; `status` 0 means nothing answered. */
 export class ApiError extends Error {
+  readonly status: number
