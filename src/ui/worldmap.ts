@@ -42,3 +42,4 @@ export class WorldMap {
   private focus: UnitKind | null = null
   onClose: (() => void) | null = null
 
+  constructor(g: Game) {
