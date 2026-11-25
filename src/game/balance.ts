@@ -679,3 +679,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     height: 1.9,
     mass: 220,
     attackRange: 17,
+    windup: 0.8,
