@@ -312,3 +312,4 @@ export class Rings {
     for (const r of this.pool) {
       if (!r.mesh.visible) continue
       r.t += dt
+      const k = Math.min(1, r.t / r.dur)
