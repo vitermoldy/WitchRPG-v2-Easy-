@@ -223,3 +223,4 @@ def palette_ref(key, spec):
     pal = Pal()
 
     def tone(slot, v):
+        top, bottom = (v if isinstance(v, tuple) else (v, None))
