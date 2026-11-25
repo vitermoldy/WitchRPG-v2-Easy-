@@ -226,3 +226,4 @@ export function inClearing(x: number, y: number, pad = 0): boolean {
   return false
 }
 
+export const lakeDist = (x: number, y: number) => dist(x, y, LAKE.c)
