@@ -8,3 +8,4 @@ import { createAuth } from './auth.js'
  *   /api/auth/...                     register, login, logout, me (see auth.js)
  *   GET  /api/profile                 the account's witch, or { profile: null } before the first save
  *   PUT  /api/profile  { profile }    save the witch; an older copy than the stored one is refused
+ * Everything but health and auth needs a signed-in account. Each account files its data under one
