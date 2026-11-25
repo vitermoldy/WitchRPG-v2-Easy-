@@ -130,3 +130,4 @@ export class CameraRig {
     return { yaw, pitch: Math.min(rad(CAMERA.pitchMax), Math.max(rad(CAMERA.pitchMin), pitch)) }
   }
 
+  update(dt: number, pivot: Vec, aiming: boolean, target: LockView | null, obstacles: Obstacles | null, height: HeightFn): CamPose {
