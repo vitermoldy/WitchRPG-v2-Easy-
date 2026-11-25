@@ -387,3 +387,4 @@ def scatter_group():
     gi, go = N.new("NodeGroupInput"), N.new("NodeGroupOutput")
     oi = N.new("GeometryNodeObjectInfo")
     oi.inputs["As Instance"].default_value = True
+    L.new(gi.outputs["Proto"], oi.inputs["Object"])
