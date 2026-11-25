@@ -216,3 +216,4 @@ export class Ledger {
               .join('')}${list.length > shown.length ? `<li class="room-empty">dan ${list.length - shown.length} lainnya, yang levelnya paling rendah</li>` : ''}</ul>
           </details>
         </li>`
+      })
