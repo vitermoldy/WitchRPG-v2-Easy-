@@ -226,3 +226,4 @@ export class Spells {
     this.warpCd = Math.max(0, this.warpCd - dt)
 
     // Overload, then Backlash
+    if (this.overloadT > 0) {
