@@ -256,3 +256,4 @@ export class Hud {
     else if (ex) html = `<kbd>F</kbd> Eksekusi ${UNITS[ex.kind].name}`
     else if (g.altars.near() && !g.umbra.candidate) html = '<kbd>F</kbd> Altar: perjalanan cepat dan Ledger'
     else if (c && many >= 2) {
+      const why = g.umbra.blocker(undefined, many)
