@@ -406,3 +406,4 @@ export class Lair {
         if (her) h.aimAt.lerp(her, Math.min(1, dt * 1.5))
         if (!atk.shot) this.inReach(h.aimAt)
         if (h.t >= atk.windup) {
+          if (atk.shot) {
