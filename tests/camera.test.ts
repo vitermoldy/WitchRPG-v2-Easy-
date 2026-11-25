@@ -131,3 +131,4 @@ describe('over-the-shoulder camera', () => {
     for (let i = 0; i < 240; i++) pose = rig.update(1 / 60, pivot, false, target, null, flat)
     // project the target into the camera's view
     const f = pose.dir
+    const right = rightOf(rig.yaw)
