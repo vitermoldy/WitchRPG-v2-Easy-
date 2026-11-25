@@ -208,3 +208,4 @@ export class Lair {
     const p = g.player
     this.phase = n
     // each new phase gives her a breath (v1)
+    p.hp = Math.min(p.maxHp, p.hp + p.maxHp * HYDRA.phaseHeal)
