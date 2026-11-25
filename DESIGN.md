@@ -45,3 +45,4 @@ Action-RPG third-person dengan rasa God of War di hutan terbuka, memakai sistem 
 
 | Bagian | Keputusan | Alasan |
 | --- | --- | --- |
+| Yang disalin dari v1 | `src/game/*` (balance, progression, skills, save), `engine/input.ts`, `engine/palette.ts`, `tests/progression.test.ts`, konfigurasi Vite dan TypeScript. Modul v1 lain (units, umbra, spells, crowd, collide, server) disalin di fasenya | Modul itu bergantung pada kelas `Game` first-person v1. Menyalin sekarang berarti kode mati yang tidak bisa dikompilasi. |
