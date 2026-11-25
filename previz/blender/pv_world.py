@@ -351,3 +351,6 @@ def _fern(p):
 
 def _bush(p):
     for (x, y, z, r) in ((0, 0, 0.5, 0.8), (0.6, 0.3, 0.4, 0.6), (-0.5, 0.4, 0.4, 0.55)):
+        p.ell((x, y, z), (r, r, r * 0.8), mat="needle2", seg=7, rings=5, smooth=False)
+
+
