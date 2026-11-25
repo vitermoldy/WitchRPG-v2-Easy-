@@ -88,3 +88,4 @@ export class Input {
   }
 
   held(code: string) {
+    return this.down.has(code)
