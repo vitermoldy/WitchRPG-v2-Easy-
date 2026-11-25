@@ -275,3 +275,4 @@ def dog_head(part, at, fwd=(0, -1, 0), s=1.0, jaw_open=25, ears=True, mane=False
         part.ell(a - F * 0.2 * s - UP * 0.05 * s, (0.3 * s, 0.25 * s, 0.32 * s), mat=mane_mat, seg=10, rings=7)
 
 
+def eagle_head(part, at, fwd=(0, -1, 0), s=1.0, mat="body2"):
