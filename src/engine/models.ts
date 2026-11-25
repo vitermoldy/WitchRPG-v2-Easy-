@@ -387,3 +387,4 @@ export class IlyraModel {
     // lower it to point forward and down by her right side, and dim the sigil.
     this.rot('staff', staffX, 0, staffZ)
     for (const m of this.sigils) m.emissiveIntensity = 1.4 - 0.9 * aim
+  }
