@@ -707,3 +707,4 @@ export class UnitSystem {
           this.face(u, tgt.pos.x, tgt.pos.z, dt)
           break
         } else if (spec.keepAway) {
+          // shooters hold their distance: back off when she closes in, come closer when out of range
