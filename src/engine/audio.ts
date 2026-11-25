@@ -313,3 +313,5 @@ export class Sfx {
     if (!this.ok()) return
     const t = this.ctx!.currentTime
     this.tone(t, 'triangle', 500, 1300, 0.15, 0.1)
+  }
+
