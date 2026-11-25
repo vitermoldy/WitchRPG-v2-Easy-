@@ -372,3 +372,4 @@ export class Lair {
   }
 
   private target(): THREE.Vector3 | null {
+    const p = this.g.player
