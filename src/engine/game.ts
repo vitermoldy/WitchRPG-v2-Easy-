@@ -359,3 +359,4 @@ export class Game implements UnitHost {
     this.counts.kills++
     this.reward(u)
     if (u.elite === 'meledak') this.blastLater(u.pos.clone(), ELITE.burst.radius, u.damage * ELITE.burst.damage, ELITE.burst.delay)
+    const rb = u.spec.rebirth
