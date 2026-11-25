@@ -589,3 +589,4 @@ export class Game implements UnitHost {
     } else if (this.t - this.lair.refusedAt < 0.1) {
       this.refusedMsgAt = this.t
       this.sfx.refused()
+      this.hud.message('Sarang Hydra hanya terbuka untuk witch Lv 10: fase terakhirnya hanya bisa dimenangkan di dalam Reality Warp.', 'info')
