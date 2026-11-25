@@ -220,3 +220,5 @@ def palette_ref(key, spec):
     eye = spec.pop("eye", HEX["rift"])
     glow = spec.pop("glow", HEX["rift"])
     emissive = spec.pop("emissive", {})
+    pal = Pal()
+
