@@ -138,3 +138,4 @@ export class Ambient {
       depthWrite: false,
       fog: false,
       side: THREE.DoubleSide,
+    })
