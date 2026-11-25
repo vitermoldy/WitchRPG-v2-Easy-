@@ -585,3 +585,4 @@ export class Spells {
         g.units.toss(u, { x: dir.x, y: lift * k, z: dir.z }, false)
       }
     }
+    const up = at.clone().setY(at.y + 0.6)
