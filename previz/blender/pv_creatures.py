@@ -640,3 +640,4 @@ def b_minotaur(r, pose="idle"):
     for s, side in SIDES:
         r.parts["forearm_" + side].torus(lerp(J["el_" + side], J["wr_" + side], 0.75), 0.08, 0.025, normal=J["hand_dir_" + side], mat="metal", seg=12, rseg=4)
         hd = r.parts["hand_" + side]
+        W = J["wr_" + side] + J["hand_dir_" + side] * 0.1
