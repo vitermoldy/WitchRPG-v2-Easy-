@@ -481,3 +481,4 @@ def b_imp(r):
     for s in (1, -1):
         h.cone(hc + Vector((0.07 * s, 0.01, 0.02)), hc + Vector((0.26 * s, 0.08, 0.12)), 0.03, mat="body", seg=5)
         h.ell(hc + Vector((0.04 * s, -0.085, 0.02)), (0.022, 0.018, 0.015), mat="eye", seg=8, rings=5)
+    for s, side in SIDES:
