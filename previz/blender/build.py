@@ -70,3 +70,4 @@ with open(os.path.join(TMP, "makhluk.json"), "w", encoding="utf-8") as fh:
 
 dunia, protos = Wd.build_world(lib)
 log("dunia")
+world_stats = {
