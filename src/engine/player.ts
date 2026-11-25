@@ -15,3 +15,4 @@ export interface MoveInput {
 }
 
 export interface Ground {
+  height: HeightFn
