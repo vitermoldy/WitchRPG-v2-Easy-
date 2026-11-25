@@ -262,3 +262,6 @@ def palette(kind, body="#1f1a1c", body2=None, horn="#4a3f38", tag=""):
     })
     for k in ("skin", "hair", "gold", "accent", "snake", "goat", "collar", "globe"):
         sh[k] = sh["body2"] if k in ("hair", "accent", "snake") else sh["body"] if k in ("skin", "goat", "globe") else sh["metal"]
+    return sh
+
+
