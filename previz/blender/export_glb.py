@@ -80,3 +80,4 @@ def bake_tones(ob):
     rot = ob.matrix_world.to_3x3()
     normals = me.corner_normals
     for poly in me.polygons:
+        t = tones[poly.material_index] if poly.material_index < len(tones) else None
