@@ -102,3 +102,4 @@ export class Obstacles {
         pos.z += (dz / d) * push
         moved = true
       })
+    }
