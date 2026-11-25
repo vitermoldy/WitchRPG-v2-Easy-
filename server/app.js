@@ -120,3 +120,4 @@ export function createApi(getPool, database) {
   const touch = (db, client) => db.query('INSERT INTO clients (id) VALUES (?) ON DUPLICATE KEY UPDATE last_seen = CURRENT_TIMESTAMP', [client])
 
   /** The stored witch in the same shape as the browser's Profile, or null. */
+  async function readProfile(db, client) {
