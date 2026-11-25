@@ -160,3 +160,4 @@ export class Particles {
           this.alpha[i] = 0
           this.size[i] = 0
         }
+        continue
