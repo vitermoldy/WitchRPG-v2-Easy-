@@ -36,3 +36,4 @@ export class LockOn {
       if (!t.alive) continue
       const d = Math.hypot(t.x - player.x, t.z - player.z)
       if (d > LOCKON.range) continue
+      const a = Math.abs(this.angleOf(t, player, camYaw))
