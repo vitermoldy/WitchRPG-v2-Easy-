@@ -18,3 +18,4 @@ const HEAL = 0.12
 
 const stoneMat = new THREE.MeshStandardMaterial({ color: 0x4a4448, roughness: 0.95 })
 
+/**
