@@ -625,3 +625,4 @@ def b_minotaur(r, pose="idle"):
         h.ell(hc + Vector((0.08 * s, -0.17, 0.05)), (0.03, 0.02, 0.018), mat="eye", seg=8, rings=5)
         h.cone(hc + Vector((0.15 * s, 0.02, 0.06)), hc + Vector((0.3 * s, 0.06, 0.0)), 0.045, mat="skin", seg=5)
     p = r.parts["pelvis"]
+    hp = V(J["hip"])
