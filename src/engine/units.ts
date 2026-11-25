@@ -450,3 +450,4 @@ export class UnitSystem {
       const k = Math.min(1, d - stopAt)
       tx = (dx / d) * speed * k
       tz = (dz / d) * speed * k
+    }
