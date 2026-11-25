@@ -46,3 +46,5 @@ const LINE_FRAG = /* glsl */ `
     // dimmer than the ring: it is long and close to the camera, and bloom would turn it into a wall
     gl_FragColor = vec4(uColor * a * 0.55, a);
   }
+`
+
