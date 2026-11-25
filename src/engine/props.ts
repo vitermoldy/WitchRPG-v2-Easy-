@@ -35,3 +35,4 @@ export class Props {
 
   constructor(g: Game) {
     this.g = g
+    const geo = new THREE.DodecahedronGeometry(1, 0)
