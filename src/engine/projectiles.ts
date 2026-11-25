@@ -52,3 +52,4 @@ export class Projectiles {
     this.shots.length = 0
   }
 
+  fire(u: Unit, atk: AttackSpec) {
