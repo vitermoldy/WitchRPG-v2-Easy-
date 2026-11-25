@@ -134,3 +134,4 @@ Makhluk memakai warna dari gambar referensinya (keputusan pemilik setelah previz
 | Zona | Tier, level | Kabut | Kepadatan di tanah, skala tinggi | Tanah | Vegetasi, kepadatan pohon per 100 m² |
 | --- | --- | --- | --- | --- | --- |
 | Hutan Pembuka | I, 1-3 | `#cddbea` putih kebiruan | 0,014, 10 m | `#2a3322` | pinus 45%, pinus tinggi 20%, birch 35%; 2,4 |
+| Tebing Berangin | II, 4-6 | `#e9c79c` tipis hangat | 0,006, 30 m | `#5b5141` | pinus hangat 70%, pinus 30%; 0,32; batu besar di lereng |
