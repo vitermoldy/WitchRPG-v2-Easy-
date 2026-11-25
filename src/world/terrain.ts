@@ -106,3 +106,4 @@ export class Terrain {
     this.built++
   }
 
+  private geometry(ix: number, iz: number, step: number): THREE.BufferGeometry {
