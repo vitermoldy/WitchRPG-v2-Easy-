@@ -371,3 +371,4 @@ class Part:
             radii = [radii] * len(pts)
         R = []
         for t in ts:
+            i = min(int(t), len(radii) - 2)
