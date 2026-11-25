@@ -88,3 +88,4 @@ def build(dunia, res=(1280, 720), samples=24):
     for name, ob in hy.objs.items():
         if name.startswith("head"):
             head_rest[name] = C.world_matrix(ob).translation.copy()
+    hydra_yaw = math.radians(S.yaw_to(-f))
