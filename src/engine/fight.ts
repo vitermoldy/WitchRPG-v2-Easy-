@@ -72,3 +72,4 @@ class Staff {
     this.t = 0
   }
 
+  recall() {
