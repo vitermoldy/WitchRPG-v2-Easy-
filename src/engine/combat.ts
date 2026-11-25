@@ -29,3 +29,4 @@ export class StunMeter {
   constructor(readonly max: number) {}
 
   /** Adds stun; returns true when this fills the meter and starts a stagger. */
+  add(amount: number): boolean {
