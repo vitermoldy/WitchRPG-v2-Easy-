@@ -85,3 +85,4 @@ export function cleanProfile(p, now = Date.now()) {
   // Altars she has lit: unknown keys are dropped; the start altar is always lit.
   const lit = Array.isArray(p.world?.altars) ? p.world.altars.filter((a) => ALTARS.has(a)) : []
   const altars = [...new Set(['pembuka', ...lit])]
+  const last = altars.includes(p.world?.last) ? p.world.last : 'pembuka'
