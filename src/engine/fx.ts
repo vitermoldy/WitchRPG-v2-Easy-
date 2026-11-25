@@ -276,3 +276,4 @@ export class Rings {
   private readonly pool: Ring[] = []
   private readonly group = new THREE.Group()
 
+  constructor(scene: THREE.Object3D, count = 10) {
