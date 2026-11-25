@@ -111,3 +111,4 @@ export class Umbra {
   reforming(): { count: number; next: number } {
     let count = 0
     let next = Infinity
+    for (const [, at] of this.downUntil) {
