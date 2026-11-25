@@ -647,3 +647,4 @@ def b_minotaur(r, pose="idle"):
             axe(hd, W, Vector((s * 0.15, -0.35, -1.0)) if pose == "idle" else Vector((s * 0.3, -0.6, -0.8)), length=1.25, blade=0.5)
 
 
+def b_cyclops(r):
