@@ -380,3 +380,4 @@ export class Game implements UnitHost {
 
   /** Builds the valley, loads the models and warms the shaders. */
   async init(progress: (step: string) => void) {
+    progress('Membentuk lembah')
