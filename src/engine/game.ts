@@ -887,3 +887,4 @@ export class Game implements UnitHost {
     this.hitstopT = Math.max(0, this.hitstopT - dt)
     this.hurtGrace = Math.max(0, this.hurtGrace - dt)
     const alive = p.alive
+    p.petrified = Math.max(0, p.petrified - dt)
