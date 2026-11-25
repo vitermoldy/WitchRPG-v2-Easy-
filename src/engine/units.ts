@@ -98,3 +98,4 @@ export class Unit implements Foe {
   /** Seconds in the current state. */
   t = 0
   /** Seconds until it may attack again. */
+  cd = 0
