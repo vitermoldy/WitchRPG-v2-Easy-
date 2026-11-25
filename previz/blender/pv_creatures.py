@@ -339,3 +339,6 @@ def snake_head(part, at, fwd, s=1.0, jaw=35, mat="body"):
     part.limb(a + F * 0.08 * s - up * 0.06 * s, a + F * 0.08 * s - up * 0.06 * s + jd * 0.24 * s, 0.07 * s, 0.035 * s, mat=mat)
     for k in (-1, 1):
         part.ell(a + F * 0.18 * s + up * 0.07 * s + side * 0.08 * s * k, 0.025 * s, mat="eye", seg=8, rings=5)
+        part.cone(a + F * 0.26 * s + side * 0.04 * s * k, a + F * 0.27 * s + side * 0.04 * s * k - up * 0.11 * s, 0.014 * s, mat="horn", seg=4)
+
+
