@@ -581,3 +581,4 @@ def text(coll, body, loc, size=0.3, color="#efe6df", strength=1.0, align="LEFT",
     return ob
 
 
+def camera(sc, name, loc, look_at=None, rot=None, lens_vfov=None, ortho=None, clip=(0.05, 3000)):
