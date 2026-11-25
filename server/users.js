@@ -22,3 +22,4 @@ if (rows.length === 0) {
       username: r.username,
       daftar: when(r.created_at),
       'terakhir masuk': when(r.last_login_at),
+      'terakhir aktif': when(r.last_seen_at),
