@@ -794,3 +794,4 @@ class Rig implements Poser {
     const scene = model.clone(true)
     this.holder.add(scene)
     const mats = new Map<THREE.Material, THREE.MeshStandardMaterial>()
+    scene.traverse((o) => {
