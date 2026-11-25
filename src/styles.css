@@ -1704,3 +1704,4 @@ dialog::backdrop {
   background: var(--surface);
 }
 
+.gate::backdrop {
