@@ -150,3 +150,4 @@ describe('over-the-shoulder camera', () => {
     expect(clearFraction(pivot, w, null, flat)).toBe(1)
     const f = forward(0.3, -0.1)
     expect(Math.hypot(f.x, f.y, f.z)).toBeCloseTo(1, 6)
+  })
