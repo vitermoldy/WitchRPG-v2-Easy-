@@ -290,3 +290,4 @@ export class Fight {
     if (locked && can(locked) && reach(locked) < COMBAT.execute.range) return locked
     let best: Unit | null = null
     let bd: number = COMBAT.execute.range
+    for (const u of g.units.units) {
