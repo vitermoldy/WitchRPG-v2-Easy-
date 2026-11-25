@@ -42,3 +42,4 @@ export class Altars {
     runeGeo.rotateX(-Math.PI / 2)
     this.list = ALTARS.map((a) => {
       const [x, z] = toWorld(a.c[0], a.c[1])
+      const y = g.height(x, z)
