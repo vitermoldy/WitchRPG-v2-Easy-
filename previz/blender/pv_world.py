@@ -62,3 +62,4 @@ def fbm(x, y, octaves=4, seed=0.0):
         s = s + amp * vnoise(x * f + 37.1 * k + seed, y * f - 11.7 * k + seed)
         norm += amp
         amp *= 0.5
+        f *= 2.0
