@@ -136,3 +136,4 @@ button {
 /* Screens over the 3D scene */
 .screen {
   position: absolute;
+  inset: 0;
