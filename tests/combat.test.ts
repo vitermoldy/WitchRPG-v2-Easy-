@@ -61,3 +61,4 @@ describe('stun meter and execution', () => {
     expect(riteChance('prajurit', 1, 1, 5)).toBeCloseTo(0.65, 3)
     expect(riteChance('prajurit', 1, 1, 5, true)).toBeCloseTo(0.8, 3)
     expect(riteChance('prajurit', 10, 1, 20, true)).toBe(RITE.maxChance)
+    expect(riteChance('marsekal', 1, 10, 5, true)).toBeCloseTo(0.15 - 0.18 + 0.05 + 0.15, 3)
