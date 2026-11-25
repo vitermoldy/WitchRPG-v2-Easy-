@@ -20,3 +20,4 @@ describe('Ilyra in the air (B)', () => {
     const p = new Player()
     run(p, B, 1 / 120)
     expect(p.flying).toBe(true)
+    run(p, { ...idle, rise: 1 }, 2)
