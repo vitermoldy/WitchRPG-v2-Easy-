@@ -163,3 +163,4 @@ def build(dunia, res=(1280, 720), samples=24):
             s = 1.0 * seg(t, T_NAGA + 0.2, T_NAGA + 1.5) if "tubuh" not in ob.name else 1.5 * seg(t, T_NAGA, T_NAGA + 2.5)
             ob.scale = (s + 1e-3, s + 1e-3, 1)
             ob.keyframe_insert("scale", frame=fr)
+        eye.location = hydra_head(t) + Vector((0, 0, -1))
