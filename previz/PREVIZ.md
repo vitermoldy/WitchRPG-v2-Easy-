@@ -69,3 +69,4 @@ Tinggi total diukur dari block-out (termasuk tanduk dan sayap yang terangkat; Il
 | Hippogriff | 2,93 m | bahu 1,9 m | 4,14 m | 3,05 m | 1,10 m | 5.464 | 8.000 | II |
 | Phoenix | 3,97 m | 2,1 m | 3,70 m | 5,15 m | 0,90 m | 3.006 | 8.000 | V |
 | Dragon | 10,43 m | bahu 3,8 m | 20,69 m | 18,73 m | 3,50 m | 6.844 | 30.000 | V |
+| Hydra | 14,34 m | tubuh 7 × 9 m | 18,82 m | 12,04 m | 5,0 m tubuh | 15.482 | 30.000 | Danau Hitam |
