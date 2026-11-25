@@ -174,3 +174,4 @@ describe('phase 4 creatures', () => {
   })
 
   it('Naga slips under when hurt: out of reach for its dive, then up a few metres away', () => {
+    const w = world()
