@@ -76,3 +76,5 @@ Salin `.env.example` menjadi `.env` dan isi akun MySQL. Server membuat database 
 | --- | --- |
 | Tahan R | Umbra Rite pada tubuh yang bersinar ungu (Lv 2); dua tubuh atau lebih dalam 12 m dibangkitkan sekaligus |
 | T | Panggil atau kembalikan seluruh pasukan |
+| Tahan Z | Roda perintah: gerakkan mouse ke Ikuti, Serang, Tahan, atau Tukar Tempat (Lv 4), lalu lepas Z. Perintah Fokus (Lv 6) membuat semua bayangan menyerang satu target |
+
