@@ -16,3 +16,5 @@ export interface Prop {
   spin: number
 }
 
+const CAP = 16
+
