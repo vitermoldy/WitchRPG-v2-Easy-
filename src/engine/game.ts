@@ -854,3 +854,4 @@ export class Game implements UnitHost {
     const th = performance.now()
     this.hud.update(dt)
     this.prof('hud', th)
+    this.renderer.info.reset()
