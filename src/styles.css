@@ -736,3 +736,5 @@ button {
 .feed-item.level::before {
   content: 'Level';
   color: var(--rift);
+}
+
