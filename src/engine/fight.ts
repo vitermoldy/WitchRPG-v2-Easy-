@@ -168,3 +168,4 @@ class Staff {
       this.orient(this.vel, true)
       if (Math.random() < 0.6) g.glow.emit({ pos: this.pos, count: 1, color: COLOR.umbra, intensity: 2.2, life: 0.3, size: 0.12, speed: 0.4 })
     }
+    obj.position.copy(this.pos)
