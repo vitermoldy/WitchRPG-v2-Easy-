@@ -70,3 +70,4 @@ export interface Poser {
   /** Whole body: lift (m), pitch forward and roll to its left (degrees). */
   body(lift: number, pitch?: number, roll?: number): void
   /** Leaves a part, and everything hanging from it, out of this unit's drawing. */
+  hide(name: string): void
