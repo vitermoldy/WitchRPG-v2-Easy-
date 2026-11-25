@@ -45,3 +45,4 @@ export class Obstacles {
         if (!list) this.grid.set(k, (list = []))
         list.push(id)
       }
+    }
