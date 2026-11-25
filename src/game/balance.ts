@@ -785,3 +785,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     summon: { every: 20, count: 1, max: 2 },
     summonKind: 'succubus',
     keepAway: 9,
+    attacks: [
