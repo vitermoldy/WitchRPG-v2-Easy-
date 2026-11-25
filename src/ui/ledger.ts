@@ -64,3 +64,4 @@ export class Ledger {
       'toggle',
       (e) => {
         const d = e.target as HTMLDetailsElement
+        if (!d.dataset?.group) return
