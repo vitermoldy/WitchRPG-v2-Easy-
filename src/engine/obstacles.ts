@@ -17,3 +17,5 @@ export interface Shape {
   h: number
   /** Crowns block the camera but not her feet. */
   camOnly: boolean
+}
+
