@@ -949,3 +949,4 @@ export class Game implements UnitHost {
     if (p.landRefused && this.t - this.landMsgAt > 3) {
       this.landMsgAt = this.t
       this.hud.message('Tidak bisa mendarat di air dalam. Terbang ke tepi dulu.', 'info')
+    }
