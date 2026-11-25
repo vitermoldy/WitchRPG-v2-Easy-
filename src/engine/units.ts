@@ -847,3 +847,4 @@ export class UnitSystem {
     if (u.state === 'windup' || u.state === 'strike' || u.state === 'recover') {
       u.vel.multiplyScalar(Math.max(0, 1 - dt * 8))
       if (u.state === 'windup' && u.t >= u.spec.windup * 0.6) {
+        u.set('strike')
