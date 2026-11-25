@@ -96,3 +96,4 @@ describe('phase 5 creatures', () => {
     expect(u.maxHp).toBeCloseTo(hp * ELITE.hp)
     expect(u.damage).toBeCloseTo(dmg * ELITE.damage)
     expect(u.scale).toBeCloseTo(ELITE.scale)
+    expect(u.tempo).toBe(ELITE.swift.tempo)
