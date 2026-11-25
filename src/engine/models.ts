@@ -131,3 +131,4 @@ export class IlyraModel {
       o.layers.set(on ? IlyraModel.HIDDEN_LAYER : 0)
       for (const c of o.children) walk(c)
     }
+    walk(this.root)
