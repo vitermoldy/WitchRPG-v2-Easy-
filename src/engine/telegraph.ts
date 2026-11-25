@@ -137,3 +137,4 @@ export class Telegraphs {
       it.width = atk.shot ? 0.9 : Math.max(1.1, u.radius * 2.2)
       it.total = atk.windup * u.tempo
       this.layLine(it)
+    } else {
