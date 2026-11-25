@@ -171,3 +171,4 @@ export class Telegraphs {
     const geo = it.mesh.geometry
     const pos = geo.attributes.position as THREE.BufferAttribute
     const base = geo.userData.base as Float32Array
+    for (let i = 0; i < pos.count; i++) {
