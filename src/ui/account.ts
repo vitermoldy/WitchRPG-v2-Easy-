@@ -225,3 +225,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
     location.reload()
   })
 
+  onAuth((state) => render(state))
