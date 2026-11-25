@@ -484,3 +484,4 @@ export class Spells {
         prop.vel.copy(aimAt).sub(prop.pos).normalize().multiplyScalar(SPELL.grip.throwSpeed)
         prop.thrown = true
         prop.flight = SPELL.grip.flight
+      }
