@@ -134,3 +134,4 @@ export const SKILLS: SkillDef[] = [
     branch: 'umbra',
     name: 'Kebangkitan Marsekal',
     key: 'Tahan R',
+    unlock: 9,
