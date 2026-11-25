@@ -950,3 +950,4 @@ def b_cerberus(r):
 
 
 def b_lilith(r):
+    """Dark-haired woman in a violet gown with bat wings, a red serpent-dragon coiled around her."""
