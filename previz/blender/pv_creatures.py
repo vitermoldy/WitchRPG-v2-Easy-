@@ -748,3 +748,4 @@ def _demon(r, H, bulk, female, span, horn_kind, arm_pose):
     face(h, hc, H)
     long_hair(h, hc, H, 0.75 if female else 0.55, 0.09)
     for s in (1, -1):
+        if horn_kind == "back":
