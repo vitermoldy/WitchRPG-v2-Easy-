@@ -84,3 +84,4 @@ async function boot() {
     refreshers.push(show)
     input.addEventListener('input', () => {
       const v = Number(input.value)
+      out.textContent = fmt(v)
