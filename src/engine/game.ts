@@ -608,3 +608,4 @@ export class Game implements UnitHost {
     this.spells.addChaos(chaosFromDamage(0, d))
     this.hud.hurtFlash(Math.min(0.7, (d / p.maxHp) * 3 + 0.15))
     this.sfx.hurt()
+    this.addTrauma(0.28)
