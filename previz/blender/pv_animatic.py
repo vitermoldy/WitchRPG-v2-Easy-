@@ -157,3 +157,4 @@ def build(dunia, res=(1280, 720), samples=24):
                 i, j = (int(v) for v in name[4:].split("_"))
                 a = (2.5 + 2.0 * rise) * math.sin(t * 1.3 + i * 1.1 + j * 0.45)
                 b = (2.0 + 1.5 * rise) * math.sin(t * 0.9 + i * 0.7 - j * 0.3)
+                ob.rotation_euler = (math.radians(a), math.radians(b), 0)
