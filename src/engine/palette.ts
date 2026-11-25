@@ -11,3 +11,4 @@ export const COLOR = {
   bone: 0xefe6df,
   ash: 0x5d5557,
   skin: 0xd9cdc7,
+  cloth: 0x161013,
