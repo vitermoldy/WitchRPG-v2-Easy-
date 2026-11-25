@@ -187,3 +187,4 @@ describe('creature shots', () => {
     const naga = w.sys.spawn('naga', 'enemy', 8, { x: 0, z: 6 })
     const glob = UNITS.naga.attacks!.find((a) => a.shot && a.strike === 'ring')!
     const noop = () => {}
+    let falls = 0
