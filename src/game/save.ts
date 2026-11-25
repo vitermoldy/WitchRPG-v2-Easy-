@@ -10,3 +10,4 @@ export function loadProfile(): { profile: Profile; error: string | null } {
   } catch {
     return { profile: newProfile(), error: 'Penyimpanan browser diblokir, progres tidak akan tersimpan.' }
   }
+  if (!raw) return { profile: newProfile(), error: null }
