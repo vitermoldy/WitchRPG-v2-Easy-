@@ -260,3 +260,4 @@ export interface UnitSpec {
   keepAway?: number
   /** v2: dives out of reach for this many seconds when hurt, and comes up a few metres away. */
   dive?: number
+  /** v2: the helpers its summons call. */
