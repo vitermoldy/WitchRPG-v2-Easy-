@@ -347,3 +347,4 @@ export class IlyraModel {
       armRX = mix(armRX, -95, e)
       foreR = mix(foreR, -10, e)
       torsoY += -12 * e
+    }
