@@ -556,3 +556,4 @@ def ref_plane(coll, name, file, crop, centre, box):
     out = nt.nodes.new("ShaderNodeOutputMaterial")
     tex = nt.nodes.new("ShaderNodeTexImage")
     tex.image = img
+    em = nt.nodes.new("ShaderNodeEmission")
