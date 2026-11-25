@@ -417,3 +417,4 @@ export class Spells {
       g.player.mana -= SPELL.grip.manaPerSec * dt
       if (g.player.mana <= 0) {
         g.player.mana = 0
+        g.hud.message('Mana habis, cengkeraman lepas.', 'chaos')
