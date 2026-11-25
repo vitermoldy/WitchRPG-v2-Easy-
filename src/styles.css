@@ -1877,3 +1877,4 @@ dialog::backdrop {
 }
 
 .map-boss.focus {
+  border-color: var(--ink-2);
