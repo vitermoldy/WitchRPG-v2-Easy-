@@ -58,3 +58,4 @@ describe('the Hydra', () => {
     expect(hit * hydraShare(2, 'impact', false)).toBeCloseTo(111.4, 0)
   })
 
+  it('phase 3: nothing outside Reality Warp, +50% inside it', () => {
