@@ -115,3 +115,4 @@ describe('upgrades and shadows', () => {
   })
   it('shares 30% of XP with shadows and keeps them at or below your level', () => {
     const p = newProfile()
+    p.level = 3
