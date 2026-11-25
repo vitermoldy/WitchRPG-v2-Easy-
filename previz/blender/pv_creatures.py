@@ -818,3 +818,4 @@ def b_hippogriff(r):
 
 
 def b_phoenix(r):
+    """Fire bird: red body, wings fading from red to orange and gold, long flaming tail streamers."""
