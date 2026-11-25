@@ -227,3 +227,4 @@ export class Lair {
         }
         this.heads[i] = null
       }
+      if (this.body) this.body.parts = this.heads
