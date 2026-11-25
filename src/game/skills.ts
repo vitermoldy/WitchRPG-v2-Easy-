@@ -56,3 +56,4 @@ export const SKILLS: SkillDef[] = [
     unlock: 3,
     effect: 'Ledakan radius 8 m di titik bidik atau target lock-on, melempar makhluk ke udara.',
     upgrade: 'Radius +2 m.',
+    built: true,
