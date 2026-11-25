@@ -845,3 +845,4 @@ export class Game implements UnitHost {
       }
       this.prof('sim', ts)
     } else if (this.state === 'title') {
+      // a slow drift around her while the title is up
