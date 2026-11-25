@@ -259,3 +259,4 @@ export class Hud {
       const why = g.umbra.blocker(undefined, many)
       const chances = g.umbra.targets.map((u) => Math.round(g.umbra.chance(u) * 100))
       const lo = Math.min(...chances)
+      const hi = Math.max(...chances)
