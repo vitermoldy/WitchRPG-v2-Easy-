@@ -167,3 +167,4 @@ export class Particles {
       const damp = Math.exp(-this.drag[i] * dt)
       this.vel[i * 3] *= damp
       this.vel[i * 3 + 1] = this.vel[i * 3 + 1] * damp - this.grav[i] * dt
+      this.vel[i * 3 + 2] *= damp
