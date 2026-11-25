@@ -240,3 +240,4 @@ def shaft_fog(coll, centre, size, z0, density=0.018):
     return ob
 
 
+VARIANTS = [
