@@ -268,3 +268,5 @@ export class TravelPanel {
     $('travel-note').textContent = list.length > 1 ? 'Pasukan yang sedang di medan ikut pindah.' : 'Belum ada altar lain yang menyala. Altar menyala saat Ilyra mendekatinya.'
     if (!this.dlg.open) this.dlg.showModal()
     ;(this.dlg.querySelector<HTMLButtonElement>('[data-altar]:not([disabled])') ?? $('btn-travel-ledger')).focus()
+  }
+
