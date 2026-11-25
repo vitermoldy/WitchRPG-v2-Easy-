@@ -184,3 +184,4 @@ export class Terrain {
     geo.computeBoundingSphere()
     geo.computeBoundingBox()
     return geo
+  }
