@@ -282,3 +282,4 @@ export class Lair {
       const k = Math.min(1, Math.max(0, (isl.r + 2 - d) / 2))
       return base + (top - base) * k * k * (3 - 2 * k)
     }
+    return base
