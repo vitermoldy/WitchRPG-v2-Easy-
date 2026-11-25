@@ -961,3 +961,4 @@ button {
 .skill .cd {
   position: absolute;
   inset: 0;
+  background: rgba(12, 8, 9, 0.72);
