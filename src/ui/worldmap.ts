@@ -208,3 +208,4 @@ export class WorldMap {
     const img = ctx.createImageData(BASE, BASE)
     const tones = ZONES.map((z) => {
       const g = parseInt(z.ground.slice(1), 16)
+      const f = parseInt(z.fog.slice(1), 16)
