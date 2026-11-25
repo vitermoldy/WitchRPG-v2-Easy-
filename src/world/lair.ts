@@ -365,3 +365,4 @@ export class Lair {
     // boulders come back on the islands while the flood is up
     if (this.phase >= 2 && Math.random() < dt * 0.3) {
       for (const isl of this.islands) {
+        if (g.props.list.length >= HYDRA.rocks) break
