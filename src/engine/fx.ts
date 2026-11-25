@@ -65,3 +65,4 @@ const FRAG_SMOKE = /* glsl */ `
 
 /** A fixed pool of point sprites simulated on the CPU. One draw call per system. */
 export class Particles {
+  readonly points: THREE.Points
