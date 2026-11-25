@@ -92,3 +92,4 @@ export class Obstacles {
           rr = Math.sqrt(s.r * s.r - dy * dy)
         }
         const dx = pos.x - s.x
+        const dz = pos.z - s.z
