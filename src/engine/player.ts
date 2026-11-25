@@ -71,3 +71,4 @@ export class Player {
   private nudgeT = 0
   private nudgeTime = 1
 
+  /** Moves her `dist` metres along (dx, dz) over `time` seconds, easing out. */
