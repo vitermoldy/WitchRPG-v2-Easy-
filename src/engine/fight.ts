@@ -452,3 +452,4 @@ export class Fight {
       if (u.team !== 'enemy' || !u.targetable) continue
       // flyers out of reach overhead are safe from the staff
       const mid = u.pos.y + u.height * 0.5
+      if (Math.abs(mid - (p.pos.y + 1)) > u.height * 0.5 + 1.1) continue
