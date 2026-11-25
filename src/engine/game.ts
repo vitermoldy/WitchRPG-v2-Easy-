@@ -1191,3 +1191,4 @@ export class Game implements UnitHost {
         stun: u.stun.share,
         alt: u.alt,
         aggro: u.aggro,
+        camp: u.camp,
