@@ -136,3 +136,4 @@ export function xpForKill(enemyLevel: number, boss = false): number {
   return enemyLevel * (boss ? XP.perBossLevel : XP.perEnemyLevel)
 }
 
+/** Bigger ranks are worth more: a Rift Lord five husks, the boss ten ("XP besar" in the GDD). */
