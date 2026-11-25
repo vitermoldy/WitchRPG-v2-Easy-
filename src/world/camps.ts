@@ -177,3 +177,4 @@ export class Camps {
           at.z = camp.pos.z
         }
         const u = g.units.spawn(kind, 'enemy', lo + Math.floor(Math.random() * (hi - lo + 1)), at)
+        u.camp = index
