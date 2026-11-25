@@ -40,3 +40,4 @@ export const ALTARS: { key: string; name: string; c: [number, number] }[] = [
   { key: 'bara', name: 'Altar Lembah Bara', c: [268, 286] },
 ]
 export const TEMPLE: [number, number] = [40, 318]
+/** Where the previz shots stood; the start point is the hero clearing of render 01. */
