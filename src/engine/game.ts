@@ -194,3 +194,4 @@ export class Game implements UnitHost {
           'bool bad(float v) { return (floatBitsToUint(v) & 0x7f800000u) == 0x7f800000u; }',
           'void main() {',
           '  vec4 c = texture2D(tDiffuse, vUv);',
+          '  if (bad(c.r) || bad(c.g) || bad(c.b) || bad(c.a)) c = vec4(0.0);',
