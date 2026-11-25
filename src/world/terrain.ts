@@ -155,3 +155,4 @@ export class Terrain {
     for (let k = 0; k <= n; k++) {
       edges[0].push(k)
       edges[1].push(n * (n + 1) + k)
+      edges[2].push(k * (n + 1))
