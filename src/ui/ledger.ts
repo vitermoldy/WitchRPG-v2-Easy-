@@ -233,3 +233,4 @@ export class TravelPanel {
   private readonly dlg = $<HTMLDialogElement>('travel')
   private readonly host: TravelHost
   onClose: (() => void) | null = null
+  /** Set when a choice was made, so closing knows whether to hand over to the Ledger. */
