@@ -89,3 +89,4 @@ export class Props {
             if (u.center(this.c).distanceTo(p.pos) > r) continue
             const dmg = impactDamage(p.mass, speed, SPELL.impact.coefficient, SPELL.impact.exponent) * g.spells.damageMult
             g.hurtUnit(u, dmg, p.pos, 14, 4, 'player', 'impact')
+            g.sfx.impact(Math.min(1.5, speed / 20))
