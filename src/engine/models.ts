@@ -261,3 +261,4 @@ export class IlyraModel {
       // staff across the chest, both hands on it
       const b = ease(act.block)
       const push = act.parry
+      armRX = mix(armRX, -70 - 15 * push, b)
