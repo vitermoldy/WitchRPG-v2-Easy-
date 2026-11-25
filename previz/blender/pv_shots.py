@@ -491,3 +491,4 @@ def stack_png(paths, out, pad=0, bg=(0, 0, 0)):
     for im in ims:
         w, h = im.size
         px = np.empty(w * h * 4, np.float32)
+        im.pixels.foreach_get(px)
