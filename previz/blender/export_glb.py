@@ -114,3 +114,4 @@ def flat(m):
         return _flat[m.name]
     f = bpy.data.materials.new(f"g_{m.name}")
     f.use_nodes = True
+    b = f.node_tree.nodes["Principled BSDF"]
