@@ -470,3 +470,4 @@ export class Sfx {
 
   private chime(t: number) {
     const f = [392, 440, 523.25][Math.floor(Math.random() * 3)]
+    this.tone(t, 'sine', f, f * 0.995, 2.4, 0.02, 0.01)
