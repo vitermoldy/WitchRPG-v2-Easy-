@@ -468,3 +468,4 @@ export class UnitSystem {
       const u = this.units[i]
       if (!u) continue
       u.t += dt
+      u.flash = Math.max(0, u.flash - dt)
