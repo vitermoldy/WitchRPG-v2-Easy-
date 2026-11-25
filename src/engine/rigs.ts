@@ -468,3 +468,4 @@ const poseMedusa: PoseFn = (p, u, t) => {
   }
   if (u.state === 'strike') {
     p.body(0, 20)
+    p.rot('torso', 30)
