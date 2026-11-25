@@ -235,3 +235,4 @@ button {
   line-height: 0.95;
   letter-spacing: -0.055em;
   background: linear-gradient(90deg, var(--chaos-ink) 0%, var(--ink) 48%, var(--umbra-ink) 100%);
+  -webkit-background-clip: text;
