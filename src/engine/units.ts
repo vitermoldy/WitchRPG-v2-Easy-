@@ -363,3 +363,4 @@ export class UnitSystem {
 
   kill(u: Unit, executed = false) {
     if (u.state === 'dead') return
+    if (u.spec.rebirth && !u.reborn && !executed && u.team === 'enemy') {
