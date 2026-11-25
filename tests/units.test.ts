@@ -6,3 +6,4 @@ import { RING_RADIUS, shieldShare, Unit, UnitSystem, type Foe, type UnitHost } f
 
 /** A flat empty clearing with her standing still at the origin. */
 function world(groundHeight = 0) {
+  const foe: Foe = { pos: new THREE.Vector3(0, 0, 0), radius: 0.38, alive: true }
