@@ -66,3 +66,4 @@ describe('the Hydra', () => {
   })
 
   it('changes phase at two thirds and one third of its life, with five heads', () => {
+    expect(HYDRA.phase2At).toBeCloseTo(0.66)
