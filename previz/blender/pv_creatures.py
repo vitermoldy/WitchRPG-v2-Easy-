@@ -596,3 +596,4 @@ def b_naga(r):
     dragon_head(h, hp, fwd=(0, -1, -0.25), s=1.05, jaw_open=38, horns=True)
     for s in (1, -1):
         root = hp + Vector((0.12 * s, 0.12, 0.0))
+        tips = [root + Vector((s * (0.45 - 0.05 * i), 0.15 + 0.08 * i, 0.4 - 0.18 * i)) for i in range(5)]
