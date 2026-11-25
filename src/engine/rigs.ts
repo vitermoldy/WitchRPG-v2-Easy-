@@ -716,3 +716,4 @@ const poseBeast: PoseFn = (p, u, t) => {
     p.rot('head', 4 * Math.sin(t * 2))
     return
   }
+  const ph = u.walk * 1.2
