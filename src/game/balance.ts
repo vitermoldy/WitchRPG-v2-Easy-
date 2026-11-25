@@ -855,3 +855,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     summon: { every: 22, count: 3, max: 6 },
     summonKind: 'harpy',
     attacks: [
+      { name: 'hantam badai', strike: 'ring', windup: 1.3, recover: 1.2, range: 7, ring: 4.6 },
