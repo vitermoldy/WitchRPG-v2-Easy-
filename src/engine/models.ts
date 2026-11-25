@@ -356,3 +356,4 @@ export class IlyraModel {
     } else if (act.cast > 0) {
       foreL += -25 * act.cast
       armLX += -10 * act.cast
+    }
