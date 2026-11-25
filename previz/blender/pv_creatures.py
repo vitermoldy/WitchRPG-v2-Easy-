@@ -1119,3 +1119,4 @@ COLORS = {
 ROSTER = [
     # key, name, builder, role, rank, zone, reference (file, crop x0 y0 x1 y1)
     ("imp", "Imp", b_imp, "Kerumunan (Husk)", "Prajurit", "I Hutan Pembuka", ("167518dd7ed83f5f910603744479.jpg", (38, 475, 262, 722))),
+    ("hellhound", "Hellhound", b_hellhound, "Penerjang samping (Rift Hound)", "Prajurit", "I Hutan Pembuka", ("images (2).jpg", (60, 0, 330, 225))),
