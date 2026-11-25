@@ -203,3 +203,4 @@ export class Ledger {
           <details data-group="${key}" ${this.openGroups.has(key) ? 'open' : ''}>
             <summary>
               <span class="room-name">${RANKS[rank].label} ${UNITS[kind].name}</span>
+              <span class="room-meta num">${list.length} bayangan, Lv ${list[list.length - 1].level} sampai ${list[0].level}${fighting ? `, ${fighting} di medan` : ''}</span>
