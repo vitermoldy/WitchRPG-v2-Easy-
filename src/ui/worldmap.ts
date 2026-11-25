@@ -43,3 +43,4 @@ export class WorldMap {
   onClose: (() => void) | null = null
 
   constructor(g: Game) {
+    this.g = g
