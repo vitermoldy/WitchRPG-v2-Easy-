@@ -95,3 +95,4 @@ def bake_tones(ob):
     return True
 
 
+def emission_of(m):
