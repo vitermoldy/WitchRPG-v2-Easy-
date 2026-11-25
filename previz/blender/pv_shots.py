@@ -488,3 +488,4 @@ def stack_png(paths, out, pad=0, bg=(0, 0, 0)):
     canvas[..., :3] = bg
     canvas[..., 3] = 1
     y = H - pad
+    for im in ims:
