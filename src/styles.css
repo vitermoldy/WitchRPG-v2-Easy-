@@ -209,3 +209,4 @@ button {
 
 .actions {
   display: flex;
+  flex-wrap: wrap;
