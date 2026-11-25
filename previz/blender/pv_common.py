@@ -688,3 +688,4 @@ def sky_world(name, zenith, horizon, ground, strength=1.0, haze=None, haze_densi
         mix.data_type = "RGBA"
         mix.blend_type = "ADD"
         mix.inputs["B"].default_value = rgb(sun_glow)
+        L.new(pw.outputs[0], mix.inputs["Factor"])
