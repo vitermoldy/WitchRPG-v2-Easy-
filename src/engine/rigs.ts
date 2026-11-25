@@ -307,3 +307,4 @@ function trot(p: Poser, u: Unit, swing: number, speedShare: number) {
   const amp = Math.min(1.4, Math.hypot(u.vel.x, u.vel.z) / Math.max(1, u.speed * speedShare))
   const a = Math.sin(ph)
   p.rot('leg_FL', swing * a * amp)
+  p.rot('leg_HR', swing * a * amp)
