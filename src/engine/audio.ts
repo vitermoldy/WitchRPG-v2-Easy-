@@ -105,3 +105,5 @@ export class Sfx {
     if (!this.ok()) return
     const t = this.ctx!.currentTime
     this.noise(t, heavy ? 0.28 : 0.14, 'bandpass', heavy ? 700 : 1400, heavy ? 0.16 : 0.1, 1.4, heavy ? 260 : 600)
+  }
+
