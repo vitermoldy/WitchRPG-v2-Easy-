@@ -7,3 +7,4 @@ export interface Zone {
   name: string
   tier: string
   levels: [number, number]
+  c: [number, number]
