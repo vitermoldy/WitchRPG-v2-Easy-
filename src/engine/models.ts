@@ -99,3 +99,4 @@ export class IlyraModel {
     // the roll turns about her hips, not her feet
     this.pivot.position.y = 0.9
     model.position.y -= 0.9
+    this.pivot.add(model)
