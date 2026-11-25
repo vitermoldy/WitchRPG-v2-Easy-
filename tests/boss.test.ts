@@ -192,3 +192,4 @@ describe('creature shots', () => {
       height: () => 0,
       player: { alive: true, pos: { x: 0, y: 0, z: 0 } },
       spells: { inWarp: () => false },
+      glow: { emit: noop },
