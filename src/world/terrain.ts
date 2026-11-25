@@ -172,3 +172,4 @@ export class Terrain {
         const c = start + k
         const d = start + k + 1
         // wind so the skirt faces outward on every side
+        if (e === 0 || e === 3) idx.push(a, b, c, b, d, c)
