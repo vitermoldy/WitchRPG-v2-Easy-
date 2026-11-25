@@ -501,3 +501,4 @@ export class Spells {
     g.sfx.gripStop(throwIt)
     if (throwIt) {
       g.fight.cast()
+      g.addTrauma(0.12)
