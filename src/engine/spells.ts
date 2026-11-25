@@ -166,3 +166,4 @@ export class Spells {
   reset() {
     for (const b of this.bolts) this.killBolt(b)
     this.bolts.length = 0
+    for (const f of [...this.snares, ...this.warps]) this.g.scene.remove(f.group)
