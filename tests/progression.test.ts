@@ -77,3 +77,4 @@ describe('stats and the shadow army', () => {
     expect(shadowPower(15)).toBeCloseTo(1.2)
   })
   it('derives HP and mana from VIT and SPR', () => {
+    const d = derive(newProfile().stats)
