@@ -201,3 +201,4 @@ describe('Tier IV and V', () => {
     const p = newProfile()
     p.level = 12
     expect(tierUnlocked(p, 4)).toBe(false)
+    expect(tierLock(p, 4)).toMatch(/Hollow Warden/)
