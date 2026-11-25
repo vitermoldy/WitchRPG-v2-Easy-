@@ -23,3 +23,4 @@ export const config = {
     password: str('DB_PASSWORD', ''),
     database: str('DB_NAME', 'witch_rpg_v2_easy'),
   },
+}
