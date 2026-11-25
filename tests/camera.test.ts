@@ -68,3 +68,4 @@ describe('over-the-shoulder camera', () => {
     expect(obs.clearance(pose.pos.x, pose.pos.y, pose.pos.z)).toBeGreaterThanOrEqual(CAMERA.radius - 1e-6)
   })
 
+  it('stays above a hill behind her', () => {
