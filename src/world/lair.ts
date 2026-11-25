@@ -151,3 +151,4 @@ export class Lair {
   private spawn() {
     const g = this.g
     const at = this.bodyAt(1)
+    const body = g.units.spawn('hydra', 'enemy', LEVEL, { x: at.x, z: at.z })
