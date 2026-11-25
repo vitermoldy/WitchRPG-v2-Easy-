@@ -155,3 +155,4 @@ export function riteChance(rank: RankId, playerLevel: number, enemyLevel: number
   return Math.round(clamp(p, RITE.minChance, RITE.maxChance) * 1000) / 1000
 }
 
+/** How much stronger every shadow is for this witch's UMB. */
