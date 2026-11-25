@@ -231,3 +231,4 @@ export class Umbra {
     u.maxHp *= power
     u.hp = u.maxHp
     u.damage *= power
+    return u
