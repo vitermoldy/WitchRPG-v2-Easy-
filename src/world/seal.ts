@@ -83,3 +83,4 @@ export class Seal {
       blending: THREE.AdditiveBlending,
     })
     this.mesh = new THREE.Mesh(geo, this.mat)
+    this.mesh.frustumCulled = false
