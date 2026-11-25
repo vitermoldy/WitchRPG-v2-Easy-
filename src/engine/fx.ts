@@ -297,3 +297,4 @@ export class Rings {
     scene.add(this.group)
   }
 
+  spawn(pos: Vec, color: THREE.ColorRepresentation, r0: number, r1: number, dur: number) {
