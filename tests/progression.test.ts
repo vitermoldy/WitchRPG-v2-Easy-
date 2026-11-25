@@ -133,3 +133,4 @@ describe('upgrades and shadows', () => {
   })
 })
 
+describe('thrown bodies', () => {
