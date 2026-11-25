@@ -1409,3 +1409,4 @@ dialog::backdrop {
 
 .stat {
   display: grid;
+  grid-template-columns: 1fr auto 44px;
