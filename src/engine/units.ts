@@ -785,3 +785,4 @@ export class UnitSystem {
             const near = Math.hypot(tgt.pos.x - u.pos.x, tgt.pos.z - u.pos.z) < reach && Math.abs(tgt.pos.y - (u.pos.y - u.alt)) < 2.2
             if (near && (!spec.fly || u.alt < 2.2)) {
               u.hitDone = true
+              if (onPlayer) host.strikePlayer(u, atk)
