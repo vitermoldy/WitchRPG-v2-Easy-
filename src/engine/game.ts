@@ -830,3 +830,4 @@ export class Game implements UnitHost {
 
   // ------------------------------------------------------------ the loop
 
+  private tick() {
