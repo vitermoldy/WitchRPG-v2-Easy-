@@ -206,3 +206,4 @@ def build_hero(dunia, name="01-hero-bahu", mode="normal", cam_over=None, res=(19
         face = Vector((face.x + rng.normal(0, 0.15), face.y + rng.normal(0, 0.15), 0)).normalized()
         place(imp, local, p.x, p.y, face, dz=dz, tilt=tilt, scale=rng.uniform(0.92, 1.08), name=f"imp.{i}")
     shaft_fog(local, P, 70, Wd.ground_z(P[0], P[1]))
+    c = dict(cam_over or {})
