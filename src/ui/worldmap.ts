@@ -167,3 +167,4 @@ export class WorldMap {
       out.set(kind, { kind, name: UNITS[kind].name, lo: 0, hi: 0, camps: n, fauna: true })
     }
     const list = [...out.values()]
+    const byName = ($<HTMLSelectElement>('map-sort').value ?? 'level') === 'name'
