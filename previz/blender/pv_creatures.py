@@ -367,3 +367,6 @@ def face(part, hc, H, eyes=True, nose=True, mat="skin"):
 
 def beard(part, chin, length, r, mat="hair"):
     c = V(chin)
+    part.cone(c + Vector((0, 0, 0.02)), c + Vector((0, -length * 0.25, -length)), r, mat=mat, seg=8)
+
+
