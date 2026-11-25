@@ -56,3 +56,4 @@ def build(dunia, res=(1280, 720), samples=24):
     naga = S.actor("aktor.naga.anim", "naga")
     Np = Sp + f * 9.0 + left * 6.5
     naga_i = C.instance(naga.coll, local, loc=(Np.x, Np.y, -3.4), rot_z=S.yaw_to((Sp - Np).normalized()), name="naga.anim")
+    hy = S.actor("aktor.hydra.anim", "hydra")
