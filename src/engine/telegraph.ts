@@ -204,3 +204,4 @@ export class Telegraphs {
       it.mat.uniforms.uTime.value = this.time
       const k = Math.min(1, (this.time - it.t0) / Math.max(0.05, it.total))
       if (it.kind === 'ring') {
+        // full when the blow lands
