@@ -153,3 +153,4 @@ export class Game implements UnitHost {
     this.debug = debug
     this.renderer = new THREE.WebGLRenderer({ canvas, antialias: false, powerPreference: 'high-performance' })
     this.renderer.setPixelRatio(Math.min(window.devicePixelRatio, 1.25))
+    this.renderer.shadowMap.enabled = true
