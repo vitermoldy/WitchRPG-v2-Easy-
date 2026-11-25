@@ -475,3 +475,4 @@ def build_forest(coll, P, size=1260.0, step=4.0, seed=3):
         sc = rng.uniform(0.7, 1.35, len(ids))
         obs[kind] = scatter_object(f"forest_{kind}", coll, P[kind], pts, rots, sc)
     # rocks everywhere, big rocks on the cliffs
+    for kind, prob, slope_min in (("rock", 0.012, 0.0), ("rock_big", 0.015, 0.55)):
