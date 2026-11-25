@@ -140,3 +140,4 @@ export class Obstacles {
         d = Math.hypot(x - s.x, y - s.y, z - s.z) - s.r
       }
       if (d < best) best = d
+    })
