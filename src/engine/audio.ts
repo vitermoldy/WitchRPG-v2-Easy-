@@ -290,3 +290,4 @@ export class Sfx {
   slam(big = false) {
     if (!this.ok()) return
     const t = this.ctx!.currentTime
+    this.tone(t, 'sine', big ? 70 : 95, 28, big ? 1.1 : 0.7, big ? 0.8 : 0.55)
