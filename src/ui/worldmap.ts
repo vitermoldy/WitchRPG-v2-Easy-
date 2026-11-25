@@ -67,3 +67,4 @@ export class WorldMap {
       this.chosen.clear()
       this.changed()
     })
+    $('map-monsters').addEventListener('change', (e) => {
