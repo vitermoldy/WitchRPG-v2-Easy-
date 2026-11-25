@@ -708,3 +708,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     strike: 'line',
     stun: 40,
   },
+  // v2 fauna (PROMPT: not enemies). A Pegasus drifts over the meadows; a Unicorn guards each altar.
