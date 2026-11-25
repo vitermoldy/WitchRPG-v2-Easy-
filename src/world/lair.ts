@@ -257,3 +257,4 @@ export class Lair {
     this.floodTo = 0
     g.profile.bossKills += 1
     g.seal.unlock()
+    g.hud.banner('Hydra tumbang', 'Reruntuhan Kuil dan Lembah Bara terbuka')
