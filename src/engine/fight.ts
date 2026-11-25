@@ -180,3 +180,4 @@ class Staff {
     this.g.glow.emit({ pos: this.pos, count: 12, color: COLOR.umbraHot, intensity: 2.2, life: 0.35, size: 0.12, speed: 2.5 })
   }
 
+  private orient(dir: THREE.Vector3, spinning: boolean) {
