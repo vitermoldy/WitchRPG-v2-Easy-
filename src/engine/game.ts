@@ -136,3 +136,4 @@ export class Game implements UnitHost {
   private minClearance = Infinity
   private readonly v = new THREE.Vector3()
   private gpu = ''
+  private readonly pixel = new Uint8Array(4)
