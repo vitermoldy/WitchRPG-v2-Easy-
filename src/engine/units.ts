@@ -590,3 +590,4 @@ export class UnitSystem {
       const r = 4 + Math.random() * 3
       const x = u.pos.x + Math.cos(a) * r
       const z = u.pos.z + Math.sin(a) * r
+      if (this.host.blocked(x, z)) continue
