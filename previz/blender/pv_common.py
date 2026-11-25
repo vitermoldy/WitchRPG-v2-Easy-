@@ -610,3 +610,4 @@ def game_camera(pos, yaw_dir, dist=3.4, shoulder=0.85, height=1.65, pitch=-8.0):
     pivot = V(pos) + up * height
     pr = math.radians(pitch)
     look = (f * math.cos(pr) + up * math.sin(pr)).normalized()
+    cam = pivot - look * dist + right * shoulder
