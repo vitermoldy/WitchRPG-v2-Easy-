@@ -42,3 +42,4 @@ function ringRadius(count: number) {
 interface Call {
   at: number
   rec: ShadowRecord
+  pos: THREE.Vector3
