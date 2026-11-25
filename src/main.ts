@@ -78,3 +78,4 @@ async function boot() {
     const out = $(`out-${id}`) as HTMLOutputElement
     const show = () => {
       input.value = String(value())
+      out.textContent = fmt(value())
