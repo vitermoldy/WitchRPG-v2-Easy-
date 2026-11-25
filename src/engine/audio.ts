@@ -9,3 +9,4 @@ export class Sfx {
   private gripNodes: { osc: OscillatorNode; osc2: OscillatorNode; gain: GainNode } | null = null
   private volume = 0.7
 
+  start() {
