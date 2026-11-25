@@ -141,3 +141,4 @@ def mat_tone(name, top, bottom=None, rough=0.7, metal=0.0, emit=None, emit_stren
     b.inputs["Metallic"].default_value = metal
     b.inputs["Sheen Weight"].default_value = 0.25
     geo = N.new("ShaderNodeNewGeometry")
+    sep = N.new("ShaderNodeSeparateXYZ")
