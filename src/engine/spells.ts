@@ -538,3 +538,4 @@ export class Spells {
     if (!this.unlocked(id)) {
       const def = skillById(id)
       g.hud.message(`${def.name} terbuka di Lv ${def.unlock}.`, 'info')
+      return
