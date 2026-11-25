@@ -134,3 +134,4 @@ describe('Ilyra on foot', () => {
   })
 
   it('is pushed out of a trunk instead of walking through it', () => {
+    const obs = new Obstacles()
