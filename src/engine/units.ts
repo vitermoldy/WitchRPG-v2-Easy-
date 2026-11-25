@@ -842,3 +842,4 @@ export class UnitSystem {
     else {
       const e = this.nearestFoe(u, SHADOW.engageRange)
       if (e && e.pos.distanceTo(p.pos) < SHADOW.leash) tgt = e
+    }
