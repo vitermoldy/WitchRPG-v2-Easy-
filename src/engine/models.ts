@@ -325,3 +325,4 @@ export class IlyraModel {
       armLX = armRX + 8
       armRY = 0
       armLY = -15
+      foreR = -15 * (1 - back)
