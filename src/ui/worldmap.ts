@@ -353,3 +353,4 @@ export class WorldMap {
         } else {
           ctx.fill()
           ctx.stroke()
+        }
