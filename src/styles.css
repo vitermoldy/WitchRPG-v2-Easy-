@@ -42,3 +42,4 @@ body {
   height: 100%;
   background: var(--bg);
   color: var(--ink);
+  font-family: var(--font-text);
