@@ -63,3 +63,4 @@ const RUNE_FRAG = /* glsl */ `
 const WARP_FRAG = /* glsl */ `
   varying vec2 vUv;
   uniform float uTime;
+  uniform float uFade;
