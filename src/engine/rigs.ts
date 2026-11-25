@@ -499,3 +499,4 @@ const poseChimera: PoseFn = (p, u, t) => {
   if (u.state === 'windup') {
     const k = ease(u.t / u.atk.windup)
     if (name === 'napas api') {
+      p.body(-0.15 * k, -6 * k)
