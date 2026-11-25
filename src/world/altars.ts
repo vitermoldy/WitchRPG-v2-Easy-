@@ -56,3 +56,4 @@ export class Altars {
         s.position.set(Math.cos(ang) * 1.35, 1.3, Math.sin(ang) * 1.35)
         s.rotation.set(Math.sin(ang) * 0.12, -ang, Math.cos(ang) * 0.12)
         s.castShadow = true
+        root.add(s)
