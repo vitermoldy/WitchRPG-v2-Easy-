@@ -14,3 +14,5 @@ void main() {
   vec4 p = modelViewMatrix * vec4(position, 1.0);
   gl_Position = projectionMatrix * p;
   gl_Position.z = gl_Position.w;
+}`
+
