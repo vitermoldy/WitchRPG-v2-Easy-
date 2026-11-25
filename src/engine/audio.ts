@@ -214,3 +214,4 @@ export class Sfx {
     if (!this.ok()) return
     const t = this.ctx!.currentTime
     const s = Math.min(1, strength)
+    this.tone(t, 'sine', 90, 30, 0.3 + s * 0.3, 0.25 + s * 0.4)
