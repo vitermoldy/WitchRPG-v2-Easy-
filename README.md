@@ -66,3 +66,4 @@ Salin `.env.example` menjadi `.env` dan isi akun MySQL. Server membuat database 
 
 | Sihir Chaos (tangan kiri) | |
 | --- | --- |
+| Tahan klik kanan | Bidik |
