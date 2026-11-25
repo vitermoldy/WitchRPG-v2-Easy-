@@ -455,3 +455,4 @@ export class ShadowPools {
     p.t = -delay
     p.hold = hold
     p.open = 0
+    p.state = 'opening'
