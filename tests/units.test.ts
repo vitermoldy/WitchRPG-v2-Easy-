@@ -133,3 +133,4 @@ describe('ground', () => {
     const shadow = w.sys.spawn('hellhound', 'shadow', 1, { x: 3, z: -3 })
     w.step(1.5)
     expect(imp.pos.y).toBeCloseTo(5, 1)
+    expect(shadow.pos.y).toBeCloseTo(5, 1)
