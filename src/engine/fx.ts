@@ -369,3 +369,4 @@ export class Warnings {
       const k = Math.min(1, w.t / w.dur)
       w.fill.scale.setScalar(Math.max(0.01, (w.fill.userData.r as number) * k))
       ;(w.fill.material as THREE.MeshBasicMaterial).opacity = 0.18 + 0.12 * k
+      ;(w.edge.material as THREE.MeshBasicMaterial).opacity = 0.55 + 0.35 * Math.sin(w.t * 20)
