@@ -202,3 +202,4 @@ export class Telegraphs {
       const u = it.unit
       if (!u) continue
       it.mat.uniforms.uTime.value = this.time
+      const k = Math.min(1, (this.time - it.t0) / Math.max(0.05, it.total))
