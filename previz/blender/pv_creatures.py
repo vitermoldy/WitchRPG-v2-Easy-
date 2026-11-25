@@ -1002,3 +1002,4 @@ def b_typhon(r):
             snake_head(hd, pts[-1], pts[-1] - pts[-2], s=2.0, jaw=40, mat="snake")
     sp = r.P("serpents", J["hip"], "pelvis")
     hp = V(J["hip"])
+    for k in range(10):
