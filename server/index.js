@@ -9,3 +9,4 @@ import { connect } from './db.js'
  * (this also serves dist/). The game works with the server off: the witch stays in the browser and
  * goes out once someone signs in while the server answers.
  */
+let pool = null
