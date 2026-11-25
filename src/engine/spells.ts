@@ -665,3 +665,4 @@ export class Spells {
       vertexShader: PLAIN_VERT,
       fragmentShader: WARP_FRAG,
       transparent: true,
+      depthWrite: false,
