@@ -145,3 +145,4 @@ export class CameraRig {
       const k = Math.min(1, LOCKON.turn * dt)
       this.yaw = wrap(this.yaw + wrap(want.yaw - this.yaw) * k)
       this.pitch += (want.pitch - this.pitch) * k
+    }
