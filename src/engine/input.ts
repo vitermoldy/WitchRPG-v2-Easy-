@@ -104,3 +104,4 @@ export class Input {
     this.releasedSet.clear()
     this.dx = 0
     this.dy = 0
+  }
