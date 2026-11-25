@@ -12,3 +12,4 @@ export interface Zone {
   /** Fog colour and how far one can see in it (metres to about 4% visibility). */
   fog: string
   sight: number
+  ground: string
