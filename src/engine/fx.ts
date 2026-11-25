@@ -37,3 +37,4 @@ const VERT = /* glsl */ `
     // Capped so an ember drifting past the lens never fills the screen.
     gl_PointSize = min(aSize * uScale / max(0.001, -mv.z), 90.0);
     gl_Position = projectionMatrix * mv;
+  }
