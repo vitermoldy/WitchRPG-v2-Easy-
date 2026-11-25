@@ -56,3 +56,4 @@ const MESSAGES = {
     signedOut: 'Kamu belum masuk.',
     tooMany: 'Terlalu banyak percobaan masuk. Tunggu satu menit, lalu coba lagi.',
   },
+  en: {
