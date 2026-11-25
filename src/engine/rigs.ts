@@ -686,3 +686,4 @@ const poseBeast: PoseFn = (p, u, t) => {
     p.rot('neck', -25 * k)
     p.rot('head', -20 * k)
     if (!flying) {
+      p.rot('leg_FL', -30 * k)
