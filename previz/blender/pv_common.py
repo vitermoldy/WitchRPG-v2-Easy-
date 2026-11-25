@@ -397,3 +397,4 @@ class Part:
                 continue
             ring = []
             for k in range(seg):
+                a = 2 * math.pi * k / seg
