@@ -482,3 +482,4 @@ export class ShadowPools {
       } else if (p.state === 'closing') {
         p.open = Math.max(0, 1 - p.t / 0.45)
         if (p.open <= 0) {
+          p.state = 'off'
