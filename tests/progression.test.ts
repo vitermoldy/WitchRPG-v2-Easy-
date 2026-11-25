@@ -73,3 +73,4 @@ describe('Umbra Rite chance', () => {
 
 describe('stats and the shadow army', () => {
   it('makes shadows 2% stronger per UMB point above 5', () => {
+    expect(shadowPower(5)).toBe(1)
