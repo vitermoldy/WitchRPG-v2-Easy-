@@ -246,3 +246,4 @@ export class Game implements UnitHost {
     const mid = this.v.set((p.pos.x + u.pos.x) / 2, p.pos.y + 1.1, (p.pos.z + u.pos.z) / 2)
     if (res === 'dodge') {
       this.fight.stats.dodged++
+      return
