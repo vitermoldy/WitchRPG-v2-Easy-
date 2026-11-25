@@ -126,3 +126,4 @@ export class Lair {
       side: THREE.DoubleSide,
       blending: THREE.AdditiveBlending,
     })
+    this.curtain = new THREE.Mesh(new THREE.CylinderGeometry(LAIR_RADIUS, LAIR_RADIUS, 16, 72, 1, true), this.curtainMat)
