@@ -195,3 +195,4 @@ def build(dunia, res=(1280, 720), samples=24):
             d = (tgt - Vector((P.x, P.y, 0)))
             d.z = 0
             loc, look = game_cam(P, f.lerp(d.normalized(), u).normalized())
+            q = look_quat(look).slerp(lock_quat(loc, tgt, cn["vfov"]), u)
