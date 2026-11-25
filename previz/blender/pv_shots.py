@@ -385,3 +385,4 @@ def build_army(dunia):
         ("harpy", 11.0, 0.2, -0.9, 1.4), ("cyclops", 13.5, -4.6, -2.0, 2.6), ("hellhound", 9.4, 5.6, -0.15, 1.3),
     ]
     built = {}
+    for i, (key, fw, rt, dz, pr) in enumerate(troops):
