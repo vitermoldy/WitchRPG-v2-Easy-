@@ -63,3 +63,4 @@ export const CAMERA = {
 
 export const LOCKON = {
   range: 30,
+  /** A locked target further than this, or hidden this long, lets go. */
