@@ -770,3 +770,4 @@ def compositor(sc, strength=0.6, threshold=1.2, vignette=True):
 def render(sc, path, percent=100):
     sc.render.filepath = path
     sc.render.resolution_percentage = percent
+    bpy.ops.render.render(write_still=True, scene=sc.name)
