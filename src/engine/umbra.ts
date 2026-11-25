@@ -328,3 +328,4 @@ export class Umbra {
         if (Math.random() < 0.5) g.smoke.emit({ pos: c, count: 1, color: 0x170a28, life: 1, size: 0.8, sizeEnd: 1.4, vel: { x: 0, y: 1, z: 0 }, jitter: 0.5, alpha: 0.7 })
       }
       this.chargeTick -= dt
+      if (this.chargeTick <= 0) {
