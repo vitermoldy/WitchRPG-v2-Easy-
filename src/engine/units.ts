@@ -962,3 +962,4 @@ export class UnitSystem {
       this.land(u, 0.1)
       return
     }
+    const ground = host.height(u.pos.x, u.pos.z)
