@@ -494,3 +494,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     hp: 48,
     damage: 14,
     speed: 3.4,
+    radius: 0.6,
