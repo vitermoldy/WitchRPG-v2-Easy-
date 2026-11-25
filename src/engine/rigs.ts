@@ -149,3 +149,4 @@ const poseImp: PoseFn = (p, u, t) => {
     p.rot('torso', 25)
     return
   }
+  if (u.state === 'recover') {
