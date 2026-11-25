@@ -95,3 +95,4 @@ if "--no-save" not in argv:
     bpy.ops.wm.save_as_mainfile(filepath=os.path.join(OUT, "witchrpg-v2-previz.blend"), compress=True)
     log("disimpan")
 
+FILES = {"hero": "01-hero-bahu.png", "valley": "02-lembah-hutan.png", "minotaur": "04-tempur-minotaur.png", "hydra": "05-boss-hydra.png", "army": "06-pasukan-bangkit.png", "bara": "07-uji-lembah-bara.png"}
