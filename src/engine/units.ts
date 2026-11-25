@@ -480,3 +480,4 @@ export class UnitSystem {
         u.vel.multiplyScalar(Math.max(0, 1 - dt * 5))
         this.move(u, dt, true)
         continue
+      }
