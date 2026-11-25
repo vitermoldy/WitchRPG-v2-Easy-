@@ -116,3 +116,4 @@ export class Combo {
         if (this.queued) {
           this.queued = false
           this.begin(false, out)
+        }
