@@ -86,3 +86,4 @@ const RIFT_FRAG = /* glsl */ `
   }
 `
 const RIFT_VERT = /* glsl */ `
+  varying vec2 vUv;
