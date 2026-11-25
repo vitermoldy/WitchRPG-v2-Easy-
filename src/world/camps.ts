@@ -68,3 +68,4 @@ export const CAMP_DEFS: CampDef[] = [
   { c: [400, 384], pack: { phoenix: 3 }, levels: [15, 15], elites: 2 },
   { c: [330, 330], pack: { cyclops: 1, succubus: 1, incubus: 1 }, levels: [15, 15], elites: 2 },
   // more of them (owner: "banyakin monster yang spawn"): Griffins and Hippogriffs on Tebing, and one or two more packs per zone
+  { c: [-60, -220], pack: { imp: 4, hellhound: 1 }, levels: [2, 3] },
