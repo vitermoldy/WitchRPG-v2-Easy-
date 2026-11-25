@@ -90,3 +90,4 @@ export class Player {
   }
 
   get invulnerable() {
+    return this.dodgeT >= MOVE.dodge.iframeStart && this.dodgeT <= MOVE.dodge.iframeEnd
