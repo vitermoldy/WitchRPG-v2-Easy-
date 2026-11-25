@@ -54,3 +54,4 @@ const LIFT = 0.1
 
 interface Item {
   mesh: THREE.Mesh
+  mat: THREE.ShaderMaterial
