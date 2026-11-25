@@ -64,3 +64,4 @@ export interface IlyraPose {
   grip: boolean
   rite: number
   /** Flinch after a hit (fades from 1), and her fall (0 to 1, or -1). */
+  hurt: number
