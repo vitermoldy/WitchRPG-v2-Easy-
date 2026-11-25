@@ -511,3 +511,4 @@ export class UnitSystem {
         }
         continue
       }
+      if (u.controlled) continue
