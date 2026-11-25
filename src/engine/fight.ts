@@ -125,3 +125,4 @@ class Staff {
         g.fight.stats.throwHits++
         g.sfx.impact(0.8)
         g.hitstop(COMBAT.hitstop.light)
+        // it bites in and drops into the ground at the creature's feet
