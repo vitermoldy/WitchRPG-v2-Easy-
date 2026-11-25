@@ -15,3 +15,4 @@ export class Sfx {
       return
     }
     try {
+      this.ctx = new AudioContext()
