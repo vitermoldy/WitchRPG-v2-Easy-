@@ -128,3 +128,4 @@ def build(dunia, res=(1280, 720), samples=24):
         breath = 0.0 if walking else math.sin(t * 2.2) * 1.2
         poses = {
             "thigh_L": (-24 * sw, 0, 0), "thigh_R": (24 * sw, 0, 0),
+            "shin_L": (max(0, 30 * math.sin(phase + 1.2)) * amp, 0, 0), "shin_R": (max(0, 30 * math.sin(phase + 1.2 + math.pi)) * amp, 0, 0),
