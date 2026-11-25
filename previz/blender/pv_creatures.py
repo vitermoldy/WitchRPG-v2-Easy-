@@ -532,3 +532,4 @@ def b_harpy(r):
         ua = r.parts["upperarm_" + side]
         feather_wing(ua, J["sh_" + side] + Vector((0, 0.03, 0)), s, 1.7, 1.0, raise_deg=12, sweep_deg=8, tilt=60, tip_mat="accent", arm="skin")
         hd = r.parts["hand_" + side]
+        W, d = J["wr_" + side], J["hand_dir_" + side]
