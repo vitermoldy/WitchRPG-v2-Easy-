@@ -49,3 +49,4 @@ export class Altars {
       base.position.y = 0.2
       base.castShadow = base.receiveShadow = true
       root.add(base)
+      // three leaning standing stones around the crystal
