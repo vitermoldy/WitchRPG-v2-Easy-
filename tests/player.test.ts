@@ -40,3 +40,4 @@ describe('Ilyra in the air (B)', () => {
     const lake: Ground = { height: () => -6, floor: () => 0.3, obstacles: null, blocked: (_x, _z, _fx, _fz, air) => !air }
     const p = new Player()
     run(p, B, 1 / 120, lake)
+    run(p, { ...idle, rise: 1 }, 1, lake)
