@@ -424,3 +424,4 @@ export class UnitSystem {
     const cz = Math.floor(u.pos.z / CELL)
     for (let dx = -r; dx <= r; dx++) {
       for (let dz = -r; dz <= r; dz++) {
+        const list = this.grid.get(cellKey(cx + dx, cz + dz))
