@@ -711,3 +711,4 @@ def render_settings(sc, res=(1920, 1080), samples=64, vol_end=600.0, vol_tile="4
     ee = sc.eevee
     ee.taa_render_samples = samples
     ee.volumetric_start = 0.5
+    ee.volumetric_end = vol_end
