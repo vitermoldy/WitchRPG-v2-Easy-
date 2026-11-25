@@ -66,3 +66,4 @@ export const LOCKON = {
   /** A locked target further than this, or hidden this long, lets go. */
   keepRange: 40,
   lostTime: 1.5,
+  /** Half-angle in front of the camera a new target is picked from (radians). */
