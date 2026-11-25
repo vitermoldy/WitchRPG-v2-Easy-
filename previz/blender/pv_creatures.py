@@ -13,3 +13,4 @@ def X(p, s):
     return (p[0] * s, p[1], p[2])
 
 
+def add(a, b):
