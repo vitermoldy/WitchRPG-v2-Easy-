@@ -132,3 +132,4 @@ def mat_tone(name, top, bottom=None, rough=0.7, metal=0.0, emit=None, emit_stren
     """Flat colour that shifts from `top` (facing up) to `bottom` (facing down), with a little noise
     so large areas do not look like plastic. Gives backs and bellies, manes and muzzles their own tone."""
     if name in _MATS:
+        return _MATS[name]
