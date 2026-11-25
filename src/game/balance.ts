@@ -234,3 +234,4 @@ export interface UnitSpec {
   windup: number
   recover: number
   cooldown: number
+  lungeSpeed?: number
