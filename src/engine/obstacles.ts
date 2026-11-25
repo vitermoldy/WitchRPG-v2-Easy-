@@ -170,3 +170,4 @@ function segCylinder(ax: number, ay: number, az: number, dx: number, dy: number,
     c1 = (-b + sq) / (2 * a)
   }
   // time inside the height band
+  let h0: number
