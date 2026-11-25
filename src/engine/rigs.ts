@@ -313,3 +313,5 @@ function trot(p: Poser, u: Unit, swing: number, speedShare: number) {
   return { ph, amp }
 }
 
+const CENTAUR_LIMBS = ['leg_FL', 'leg_FR', 'leg_HL', 'leg_HR', 'upperarm_L', 'upperarm_R']
+
