@@ -512,3 +512,4 @@ export class Fight {
       g.rings.spawn(u.pos, COLOR.chaos, 0.3, 3, 0.4)
       g.lights.flash(this.v, COLOR.chaos, 18, 9, 0.35)
     }
+    if (ex.t >= 1) this.exec = null
