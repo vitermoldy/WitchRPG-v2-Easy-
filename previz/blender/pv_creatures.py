@@ -314,3 +314,4 @@ def dragon_head(part, at, fwd=(0, -1, 0), s=1.0, jaw_open=30, horns=True, crest=
     for k in (-1, 1):
         part.ell(a + F * 0.2 * s + UP * 0.1 * s + side * 0.13 * s * k, (0.035 * s, 0.05 * s, 0.025 * s), mat="eye", seg=8, rings=5)
         part.cone(a + F * 0.26 * s + UP * 0.15 * s + side * 0.12 * s * k, a + UP * 0.22 * s + side * 0.16 * s * k, 0.05 * s, mat=mat, seg=5)
+        for i in range(3):
