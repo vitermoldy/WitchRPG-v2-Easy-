@@ -593,3 +593,4 @@ export class Game implements UnitHost {
     }
   }
 
+  /** Damage to her after the barrier. */
