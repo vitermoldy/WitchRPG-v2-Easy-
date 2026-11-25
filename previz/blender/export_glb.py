@@ -157,3 +157,4 @@ def export(key):
     K.ground_rig(r)
     r.root.name = key
     for name, ob in r.objs.items():
+        ob.name = name
