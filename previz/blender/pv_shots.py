@@ -452,3 +452,4 @@ def build_lineup(lib_colls, stats):
             r.P("m").box((ox + width / 2 + 1.0, 20, mtr), (width, 0.01, thick), mat="g")
             r.parts["m"].box((ox + 1.1, -6, mtr), (0.5 if mtr % step == 0 else 0.25, 0.01, thick * 2), mat="l")
             r.finalize()
+            if mtr % step == 0:
