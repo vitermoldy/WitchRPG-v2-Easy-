@@ -191,3 +191,4 @@ export const isUnlocked = (p: Profile, id: SkillId) => p.level >= skillById(id).
 export const hasUpgrade = (p: Profile, id: SkillId) => !!p.upgrades[id] && isUnlocked(p, id)
 
 export function canUpgrade(p: Profile, id: SkillId): boolean {
+  const def = skillById(id)
