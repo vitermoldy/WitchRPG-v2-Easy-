@@ -848,3 +848,4 @@ def b_phoenix(r):
 def b_dragon(r):
     """Red winged dragon: cream belly and wing membranes, horned head, spined back, spade tail."""
     Q = quad(r, 3.8, 7.2, 2.3, 2.4, 0.28)
+    nb = V(Q["neck_base"])
