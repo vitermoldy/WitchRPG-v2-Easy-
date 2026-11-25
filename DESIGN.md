@@ -5,3 +5,4 @@ Action-RPG third-person dengan rasa God of War di hutan terbuka, memakai sistem 
 ## Keputusan pemilik (24 Nov 2026)
 
 | Pertanyaan | Jawaban |
+| --- | --- |
