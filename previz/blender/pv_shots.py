@@ -84,3 +84,4 @@ def lock_on(cam, target, third=(1 / 3, 1 / 3)):
     """Turn the camera so the target sits on the upper-right third point of the frame."""
     cd = cam.data
     sc_aspect = 16 / 9
+    tv = math.tan(cd.angle_y / 2)
