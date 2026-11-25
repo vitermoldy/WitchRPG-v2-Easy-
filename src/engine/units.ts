@@ -112,3 +112,4 @@ export class Unit implements Foe {
   /** Seconds the health bar stays up after a hit. */
   barShown = 0
   /** Hex Snare: speed multiplier and extra damage taken. */
+  slow = 1
