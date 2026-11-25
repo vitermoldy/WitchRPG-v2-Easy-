@@ -561,3 +561,4 @@ export class Spells {
     })
   }
 
+  private burst(at: THREE.Vector3) {
