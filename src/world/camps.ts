@@ -281,3 +281,5 @@ export class Camps {
       if (!best || d < best.dist) best = { camp, dist: d }
     }
     return best
+  }
+
