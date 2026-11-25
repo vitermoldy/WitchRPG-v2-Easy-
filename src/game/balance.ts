@@ -1167,3 +1167,4 @@ export const COMBAT = {
     { damage: 16, windup: 0.16, active: 0.14, recover: 0.36, reach: 2.6, arc: 2.4, stun: 9, lunge: 1.4 },
   ] as Swing[],
   /** A tap within this long after a swing's hit chains the next swing. */
+  comboWindow: 0.5,
