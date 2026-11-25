@@ -172,3 +172,4 @@ export class WorldMap {
     return list
   }
 
+  private renderBosses() {
