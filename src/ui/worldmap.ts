@@ -346,3 +346,4 @@ export class WorldMap {
         ctx.lineWidth = 1.5
         ctx.strokeStyle = 'rgba(12, 8, 9, 0.85)'
         ctx.fillStyle = KIND_COLOR[k] ?? '#ccc'
+        if (camp.state === 'cleared') {
