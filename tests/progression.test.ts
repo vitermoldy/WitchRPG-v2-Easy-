@@ -143,3 +143,4 @@ describe('thrown bodies', () => {
   })
 })
 
+describe('version 1: tiers, ranks and growth', () => {
