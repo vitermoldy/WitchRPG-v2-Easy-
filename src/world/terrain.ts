@@ -76,3 +76,4 @@ export class Terrain {
         if (made < budget) {
           this.ensure(c, want)
           made++
+        } else {
