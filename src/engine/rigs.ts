@@ -488,3 +488,4 @@ const poseMedusa: PoseFn = (p, u, t) => {
 
 const CHIMERA_LIMBS = ['leg_FL', 'leg_FR', 'leg_HL', 'leg_HR', 'tail_snake']
 
+/** Chimera: the lion breathes fire, the goat lowers its horns to charge, the snake tail rears and stings. */
