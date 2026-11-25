@@ -437,3 +437,4 @@ export class ShadowPools {
         polygonOffsetFactor: -2,
         polygonOffsetUnits: -2,
       })
+      const mesh = new THREE.Mesh(geo, mat)
