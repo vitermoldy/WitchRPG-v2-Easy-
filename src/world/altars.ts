@@ -64,3 +64,4 @@ export class Altars {
       const rune = new THREE.Mesh(runeGeo, new THREE.MeshBasicMaterial({ color: this.dull.clone(), transparent: true, opacity: 0.9, depthWrite: false }))
       rune.position.y = 0.06
       rune.renderOrder = 6
+      root.add(rune)
