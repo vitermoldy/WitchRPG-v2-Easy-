@@ -95,3 +95,4 @@ export class Sfx {
 
   hit(strong = false) {
     if (!this.ok()) return
+    const t = this.ctx!.currentTime
