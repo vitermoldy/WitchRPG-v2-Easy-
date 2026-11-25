@@ -33,3 +33,4 @@ describe('the save', () => {
     expect(p.level).toBeGreaterThan(4)
     expect(p.xp).toBe(p0.xp)
     expect(p.stats).toEqual(p0.stats)
+    expect(p.statPoints).toBe(p0.statPoints)
