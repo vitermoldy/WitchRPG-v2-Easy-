@@ -82,3 +82,4 @@ def build(dunia, res=(1280, 720), samples=24):
 
     fly_pts = [Vector(p) for p in ((150, -680, 300), (60, -430, 240), (-70, -190, 180), (-170, 20, 120), (-215, 150, 60))]
     fly_curve, _ = C.catmull(fly_pts, 40)
+    fly_look = [Vector((-150, 120, 0)), Vector((-300, 280, 15))]
