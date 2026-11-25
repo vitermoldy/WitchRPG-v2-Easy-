@@ -327,3 +327,4 @@ export class Sfx {
     for (let i = 0; i < beats; i++) this.tone(t + 0.5 + i * 0.22, 'sine', 62, 38, 0.3, 0.35)
   }
 
+  /** The army sinking back: the chord falls and the darkness is drawn in. */
