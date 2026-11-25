@@ -353,3 +353,4 @@ export class Sfx {
       const gain = ctx.createGain()
       gain.gain.value = 0.0001
       src.connect(filter).connect(gain).connect(this.master!)
+      src.start()
