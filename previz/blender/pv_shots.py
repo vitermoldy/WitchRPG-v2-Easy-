@@ -429,3 +429,4 @@ def build_lineup(lib_colls, stats):
         for m in members:
             lc = lib_colls[m]
             lo, hi = C.bounds(lc)
+            rot = -35
