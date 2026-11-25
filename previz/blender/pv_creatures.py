@@ -1175,3 +1175,4 @@ def creature_palette(key, kind=None):
     return pal
 
 
+def build(key, coll, kind=None, pose=None, lights=True):
