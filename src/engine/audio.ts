@@ -418,3 +418,4 @@ export class Sfx {
     // the leaves breathe: a slow sweep of the wind band
     const lfo = ctx.createOscillator()
     lfo.frequency.value = 0.07
+    const lg = ctx.createGain()
