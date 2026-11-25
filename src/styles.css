@@ -1753,3 +1753,4 @@ dialog::backdrop {
   border-radius: var(--radius);
   background: var(--bg);
   color: var(--ink);
+  font: inherit;
