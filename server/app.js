@@ -162,3 +162,4 @@ export function createApi(getPool, database) {
         await conn.rollback()
         return res.json({ stale: true, profile: await readProfile(getPool(), client) })
       }
+      await conn.query(
