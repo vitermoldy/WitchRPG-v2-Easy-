@@ -181,3 +181,4 @@ export class Unit implements Foe {
     if (this.spec.summon) this.skillCd = this.spec.summon.every * 0.5
   }
 
+  get alive() {
