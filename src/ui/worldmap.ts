@@ -6,3 +6,4 @@ import { ALTARS, heightMap, inWaterRect, PATHS, PLAY_HALF, toMap, WATER_LEVEL, Z
 const $ = <T extends HTMLElement = HTMLElement>(id: string): T => document.getElementById(id) as T
 
 /** Half the width of the map drawn (m): a little past the playable edge. */
+const EXTENT = PLAY_HALF + 10
