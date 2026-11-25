@@ -34,3 +34,4 @@ function groundColour(x: number, y: number, h: number, slope: number, out: THREE
     out.g += GROUND[i].g * w[i]
     out.b += GROUND[i].b * w[i]
   }
+  out.lerp(ROCK, smooth(0.45, 0.9, slope))
