@@ -67,3 +67,4 @@ async function boot() {
   // what the start screen shows from the witch; read again when the server hands over another one
   const refreshers: (() => void)[] = []
   const profileLine = () => {
+    $('profile-line').textContent = pr.level > 1 || pr.shadows.length ? `Ilyra Lv ${pr.level}, ${pr.shadows.length} bayangan di Ruang Bayangan` : ''
