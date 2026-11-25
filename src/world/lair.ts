@@ -461,3 +461,4 @@ export class Lair {
     g.addTrauma(0.3)
     g.sfx.impact(1.2)
     const body = this.body
+    if (this.phase === 1 && body && u !== body) {
