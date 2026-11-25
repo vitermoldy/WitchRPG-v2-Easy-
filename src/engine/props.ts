@@ -10,3 +10,4 @@ export interface Prop {
   readonly mass: number
   readonly radius: number
   held: boolean
+  /** Thrown by Telekinesis: it hurts the first creature it meets. */
