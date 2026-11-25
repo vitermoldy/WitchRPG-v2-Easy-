@@ -15,3 +15,4 @@ if (!USERNAME.test(username) || password.length < PASSWORD_MIN || password.lengt
   process.exit(1)
 }
 
+const pool = await connect(config.db)
