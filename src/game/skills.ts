@@ -113,3 +113,4 @@ export const SKILLS: SkillDef[] = [
     branch: 'umbra',
     name: 'Perintah Fokus',
     key: 'Roda Z',
+    unlock: 6,
