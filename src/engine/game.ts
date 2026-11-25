@@ -683,3 +683,4 @@ export class Game implements UnitHost {
     this.profile.settings.firstPerson = first
     this.saveSoon()
     this.hud.message(first ? 'Pandangan orang pertama. Tekan P untuk kembali ke belakang bahu.' : 'Pandangan orang ketiga, dari belakang bahu.', 'info')
+  }
