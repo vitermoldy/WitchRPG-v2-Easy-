@@ -493,3 +493,4 @@ export class Spells {
       const v = aimAt ? aimAt.clone().sub(u.center()).normalize().multiplyScalar(speed) : new THREE.Vector3()
       g.units.toss(u, v, throwIt, throwIt ? SPELL.grip.flight : 0)
     }
+    this.grabbed = []
