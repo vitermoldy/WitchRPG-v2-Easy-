@@ -95,3 +95,4 @@ export const SKILLS: SkillDef[] = [
     key: 'Tahan R',
     unlock: 2,
     effect: 'Bangkitkan musuh yang kalah menjadi bayangan. Satu kali coba per tubuh.',
+    upgrade: 'Waktu cast jadi 1 detik.',
