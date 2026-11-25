@@ -650,3 +650,4 @@ export class UnitSystem {
 
   private enemyBrain(u: Unit, dt: number) {
     if (u.spec.passive) {
+      this.faunaBrain(u, dt)
