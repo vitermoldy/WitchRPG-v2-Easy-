@@ -571,3 +571,4 @@ export class Game implements UnitHost {
     this.saveSoon()
   }
 
+  /** Stats or upgrades changed in the Ledger: new derived numbers, kept in the save. */
