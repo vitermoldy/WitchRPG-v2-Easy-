@@ -78,3 +78,4 @@ describe('staff combo', () => {
     const c = new Combo()
     const starts: number[] = []
     for (let n = 0; n < 4; n++) {
+      const ev = play(c, [[1 / 60, true, true], [1 / 60, false, false]])
