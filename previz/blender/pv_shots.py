@@ -598,3 +598,4 @@ def build_board(lib_colls, stats):
         # block-out, fitted into the right-hand well
         lc = lib_colls[k]
         lo, hi = C.bounds(lc)
+        rot = BOARD_VIEW.get(k, -55)
