@@ -98,3 +98,4 @@ export function tierLock(p: Profile, tier: TierId): string | null {
 /** The lair at the end of Tier III opens once Reality Warp can break the boss's last shell. */
 export const bossUnlocked = (p: Profile) => p.level >= (TIERS[3].boss?.unlock ?? 10)
 
+/**
