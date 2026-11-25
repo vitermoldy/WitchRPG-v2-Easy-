@@ -17,3 +17,4 @@ import bpy  # noqa: E402
 import pv_animatic as A  # noqa: E402
 import pv_common as C  # noqa: E402
 import pv_creatures as K  # noqa: E402
+import pv_shots as S  # noqa: E402
