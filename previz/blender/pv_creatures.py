@@ -990,3 +990,4 @@ def b_typhon(r):
     long_hair(h, hc, 16.0, 3.5, 0.9)
     for s in (1, -1):
         h.tube([hc + Vector((0.6 * s, 0, 0.6)), hc + Vector((1.5 * s, 0.2, 1.3)), hc + Vector((1.7 * s, -0.4, 2.3))], [0.3, 0.2, 0.0], mat="horn", seg=7, n=3)
+    t = r.parts["torso"]
