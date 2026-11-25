@@ -14,3 +14,4 @@ export interface FightInput {
   blockPressed: boolean
   execute: boolean
   throwStaff: boolean
+  /** Steering this frame in world space (for which way a swing goes), zero when none is held. */
