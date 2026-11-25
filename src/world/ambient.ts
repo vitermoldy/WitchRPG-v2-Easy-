@@ -185,3 +185,4 @@ export class Ambient {
         this.respawn(i, cam, ground, w, true)
         continue
       }
+      const kind = KINDS[this.kind[i]]
