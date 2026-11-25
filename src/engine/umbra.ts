@@ -509,3 +509,4 @@ export class Umbra {
       g.hud.message('Perintah: ikuti aku.', 'umbra')
     } else if (choice === 'hold') {
       for (const s of shadows) {
+        s.command = 'hold'
