@@ -1094,3 +1094,4 @@ export class Game implements UnitHost {
 
   private resize() {
     const w = window.innerWidth
+    const h = window.innerHeight
