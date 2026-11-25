@@ -288,3 +288,4 @@ def catmull(pts, n):
     P = [V(p) for p in pts]
     if len(P) == 2:
         return [P[0].lerp(P[1], i / n) for i in range(n + 1)], [i / n for i in range(n + 1)]
+    ext = [P[0] + (P[0] - P[1])] + P + [P[-1] + (P[-1] - P[-2])]
