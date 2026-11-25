@@ -642,3 +642,4 @@ export class UnitSystem {
   }
 
   /** How close it wants to be: the reach of its closest attack, or its shooting distance. */
+  private wantRange(u: Unit): number {
