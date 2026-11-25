@@ -743,3 +743,4 @@ export class Spells {
     this.barrierT -= dt
     this.barrierHit = Math.max(0, this.barrierHit - dt * 4)
     const mat = this.shield.material as THREE.ShaderMaterial
+    mat.uniforms.uHit.value = this.barrierHit
