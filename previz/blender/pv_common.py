@@ -630,3 +630,4 @@ def sun(sc, name, rot_deg, color="#fff4e0", energy=4.0, angle=2.0, coll=None):
     return ob
 
 
+def point(coll, name, loc, color, energy=50.0, radius=0.1, parent=None):
