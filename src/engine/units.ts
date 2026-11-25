@@ -877,3 +877,4 @@ export class UnitSystem {
 
   // ------------------------------------------------------------ movement
 
+  private separate(u: Unit, dt: number) {
