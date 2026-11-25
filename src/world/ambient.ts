@@ -97,3 +97,4 @@ export class Ambient {
   private readonly tint: Float32Array
   private readonly size: Float32Array
   private readonly alpha: Float32Array
+  private readonly kind = new Uint8Array(COUNT)
