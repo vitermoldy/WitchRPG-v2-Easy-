@@ -279,3 +279,4 @@ export class Rings {
   constructor(scene: THREE.Object3D, count = 10) {
     const geo = new THREE.RingGeometry(0.86, 1, 64)
     geo.rotateX(-Math.PI / 2)
+    for (let i = 0; i < count; i++) {
