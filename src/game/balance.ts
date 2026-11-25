@@ -1191,3 +1191,4 @@ export const COMBAT = {
     riposte: 1.2,
   },
   /** Brief freeze on impact; heavier blows hold longer. */
+  hitstop: { light: 0.035, heavy: 0.08, parry: 0.11 },
