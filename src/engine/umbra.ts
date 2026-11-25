@@ -254,3 +254,5 @@ export class Umbra {
     const fwd = g.camera.getWorldDirection(new THREE.Vector3())
     let best: Unit | null = null
     let bestScore = Infinity
+    const near: Unit[] = []
+
