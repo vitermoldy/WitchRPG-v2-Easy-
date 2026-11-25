@@ -157,3 +157,4 @@ export function createAuth({ getPool, cookie, lang, deviceCode, newDevice }) {
     )
     const row = rows[0]
     if (!row) return null
+    await pool.query('UPDATE users SET last_seen_at = UTC_TIMESTAMP() WHERE id = ? AND (last_seen_at IS NULL OR last_seen_at < UTC_TIMESTAMP() - INTERVAL 1 MINUTE)', [row.id])
