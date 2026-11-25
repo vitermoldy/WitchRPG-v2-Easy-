@@ -726,3 +726,4 @@ def b_chimera(r):
     gh = V((0.0, -0.75, 3.35))
     gn = r.P("head_goat", g0, "body")
     gn.tube([g0, (0, -0.45, 2.8), gh], [0.24, 0.18, 0.15], mat="goat", seg=8, n=3)
+    gn.ell(gh, (0.15, 0.24, 0.15), mat="goat")
