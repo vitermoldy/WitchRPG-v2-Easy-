@@ -145,3 +145,4 @@ export class Camps {
         const y = g.ground.height(x, z)
         q.setFromEuler(new THREE.Euler(Math.random(), a, Math.random()))
         s.setScalar(0.7 + Math.random() * 0.5)
+        m.compose(new THREE.Vector3(x, y + 0.1, z), q, s)
