@@ -183,3 +183,6 @@ def _foot(part, wrist, ground, r, kind, mat="body", foot_mat="horn"):
         part.limb(w, g + Vector((0, -r * 0.6, r * 0.8)), r * 0.8, r * 0.85, mat=mat)
         part.ell(g + Vector((0, -r * 0.9, r * 0.6)), (r * 1.15, r * 1.5, r * 0.7), mat=mat)
         for a in (-25, 0, 25):
+            part.cone(g + _rz(Vector((0, -r * 1.8, r * 0.4)), a), g + _rz(Vector((0, -r * 2.7, 0.0)), a), r * 0.22, mat="claw" if "claw" in part.rig.pal else "horn", seg=5)
+
+
