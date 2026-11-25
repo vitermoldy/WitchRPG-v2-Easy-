@@ -183,3 +183,4 @@ export class Ledger {
       }</li>`
       return
     }
+    // one group per kind and rank, strongest first, so three hundred shadows still read at a glance
