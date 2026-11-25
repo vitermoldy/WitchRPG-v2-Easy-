@@ -481,3 +481,4 @@ const poseMedusa: PoseFn = (p, u, t) => {
     return
   }
   p.body(0.05 * Math.sin(t * 2 + u.id), 4 * sway)
+  p.rot('torso', 4 * sway, 6 * sway)
