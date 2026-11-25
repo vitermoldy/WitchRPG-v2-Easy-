@@ -349,3 +349,4 @@ export class Warnings {
       group.visible = false
       scene.add(group)
       this.pool.push({ group, fill, edge, t: 0, dur: 1 })
+    }
