@@ -5,3 +5,5 @@ import { defineConfig } from 'vite'
 // spelling. Pin the root to one spelling.
 const root = fileURLToPath(new URL('.', import.meta.url)).replace(/^[a-z]:/, (d) => d.toUpperCase())
 // The account and save server (npm run server, port 8915 in Easy); dev and preview forward /api to it.
+const api = { '/api': { target: `http://localhost:${process.env.PORT ?? 8915}` } }
+
