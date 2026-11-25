@@ -466,3 +466,4 @@ export class Lair {
       for (let k = 0; k < n; k++) {
         // only onto ground she can reach: an Imp in deep water could never come out, nor be struck
         let spot: { x: number; z: number } | null = null
+        for (let tries = 0; tries < 8 && !spot; tries++) {
