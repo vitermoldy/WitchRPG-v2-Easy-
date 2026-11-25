@@ -974,3 +974,4 @@ export class Game implements UnitHost {
       ritePressed: inp.pressed('KeyR'),
       toggle: inp.pressed('KeyT'),
       wheelHeld: inp.held('KeyZ'),
+      wheelPressed: inp.pressed('KeyZ'),
