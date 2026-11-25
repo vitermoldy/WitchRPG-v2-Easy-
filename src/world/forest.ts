@@ -120,3 +120,4 @@ function rock(seed: number, r: [number, number, number], color: THREE.Color): TH
 
 function geometries(): Record<Kind, THREE.BufferGeometry> {
   return {
+    pine: pine(13, 6, 3.0, PAL.needle),
