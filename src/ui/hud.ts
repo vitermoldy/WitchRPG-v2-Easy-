@@ -87,3 +87,4 @@ export class Hud {
     el.innerHTML = value
   }
 
+  zone(z: Zone) {
