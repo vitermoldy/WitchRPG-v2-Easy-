@@ -960,3 +960,4 @@ button {
 
 .skill .cd {
   position: absolute;
+  inset: 0;
