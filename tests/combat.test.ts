@@ -32,3 +32,4 @@ describe('block and parry', () => {
   it('is hit from behind even while blocking', () => {
     expect(resolveDefense(10, 'ring', false, true, 9.95, Math.PI)).toBe('hit')
     expect(resolveDefense(10, 'ring', false, true, 5, COMBAT.block.arc / 2 - 0.01)).toBe('block')
+    expect(resolveDefense(10, 'ring', false, true, 5, COMBAT.block.arc / 2 + 0.01)).toBe('hit')
