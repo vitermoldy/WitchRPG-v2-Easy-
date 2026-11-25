@@ -53,3 +53,6 @@ def vnoise(x, y):
     x0, y0 = xi & 255, yi & 255
     x1, y1 = (x0 + 1) & 255, (y0 + 1) & 255
     a, b, c, d = _LAT[x0, y0], _LAT[x1, y0], _LAT[x0, y1], _LAT[x1, y1]
+    return a + (b - a) * u + (c - a) * v + (a - b - c + d) * u * v
+
+
