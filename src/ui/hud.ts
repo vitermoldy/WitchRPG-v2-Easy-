@@ -210,3 +210,4 @@ export class Hud {
     this.root.classList.toggle('overloaded', g.spells.overloaded)
 
     // skills: locked ones show the level that opens them
+    const cds = g.spells.cooldowns()
