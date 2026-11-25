@@ -100,3 +100,4 @@ class Staff {
       const d = this.tmp.distanceTo(this.prev)
       if (d <= len && (!best || d / len < best.f)) best = { u, f: d / len }
     }
+    return best
