@@ -68,3 +68,4 @@ export const LOCKON = {
   lostTime: 1.5,
   /** Half-angle in front of the camera a new target is picked from (radians). */
   cone: 0.95,
+  /** Mouse travel (px) in one frame that switches to the next target on that side. */
