@@ -71,3 +71,4 @@ def sun_dir(f, left_deg, elev_deg):
     return Vector((math.cos(a) * math.cos(e), math.sin(a) * math.cos(e), math.sin(e)))
 
 
+def place_game_camera(sc, P, f, mode="normal", name="kamera", **over):
