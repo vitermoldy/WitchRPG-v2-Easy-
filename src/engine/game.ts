@@ -789,3 +789,4 @@ export class Game implements UnitHost {
   aim(maxDist: number): AimHit {
     const o = this.camera.position
     const dir = this.camera.getWorldDirection(new THREE.Vector3())
+    // skip the stretch between the camera and her, so a creature behind her shoulder is not picked
