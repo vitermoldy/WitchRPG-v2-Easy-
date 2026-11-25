@@ -433,3 +433,4 @@ export class ShadowPools {
         fragmentShader: POOL_FRAG,
         transparent: true,
         depthWrite: false,
+        polygonOffset: true,
