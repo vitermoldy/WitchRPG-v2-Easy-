@@ -222,3 +222,4 @@ def terrain_material():
     L.new(mul2.outputs[0], b.inputs["Emission Strength"])
     bump = N.new("ShaderNodeBump")
     bump.inputs["Strength"].default_value = 0.25
+    n2 = N.new("ShaderNodeTexNoise")
