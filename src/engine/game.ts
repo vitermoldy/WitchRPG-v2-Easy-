@@ -835,3 +835,4 @@ export class Game implements UnitHost {
     // delta can come out negative (v1's black-screen bug). Never let time run backwards.
     const dt = Math.min(1 / 30, Math.max(0, this.timer.getDelta()))
     const now = performance.now()
+    if (this.state === 'playing') {
