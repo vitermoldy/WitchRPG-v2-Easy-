@@ -121,3 +121,4 @@ def zone_weights(x, y):
 
 
 def path_dist(x, y):
+    best = np.full(np.shape(x), 1e9)
