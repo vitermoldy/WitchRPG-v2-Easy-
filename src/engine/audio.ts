@@ -423,3 +423,4 @@ export class Sfx {
     lfo.connect(lg).connect(wind.f.frequency)
     lfo.start()
     const insects = loop('bandpass', 4600, 6)
+    const drone = ctx.createGain()
