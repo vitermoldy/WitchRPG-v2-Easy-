@@ -1101,3 +1101,4 @@ export class Game implements UnitHost {
     this.camera.aspect = w / h
     this.camera.updateProjectionMatrix()
     this.glow?.setViewport(this.renderer.domElement.height, this.camera.fov)
+    this.smoke?.setViewport(this.renderer.domElement.height, this.camera.fov)
