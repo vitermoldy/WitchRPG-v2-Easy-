@@ -164,3 +164,5 @@ Ukur ulang pasukan setelah perbaikan tinggi tanah (pola v1, 20 makhluk, 3 run, b
 | 500 | 9,1 sampai 9,4 ms | 11,5 sampai 12,4 ms | 9,9 ms |
 | 1.000 | 10,6 sampai 10,9 ms | 13,6 sampai 14,7 ms | 12,8 ms |
 
+Angka fase 3 sebelumnya (7,9 sampai 8,2 ms untuk 200 dan 8,9 sampai 9,2 ms untuk 500) diambil saat makhluk berdiri di ketinggian 0 karena bug di atas, sebagian terbenam, jadi tidak berlaku lagi. Tes: 83 dari 83 lulus (29 progresi v1, 8 kamera, 8 gerak, 7 peta, 13 tempur, 15 AI makhluk, 3 simpanan).
+
