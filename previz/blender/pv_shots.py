@@ -196,3 +196,4 @@ def build_hero(dunia, name="01-hero-bahu", mode="normal", cam_over=None, res=(19
     sc, local = shot_scene(name, dunia, world, -sd, "#ffe9cc", 7.0, res=res, vol_end=300, samples=samples, exposure=0.1)
     il = actor("aktor.ilyra.hero", "ilyra", "idle")
     place(il, local, P[0], P[1], f)
+    imp = actor("aktor.imp", "imp")
