@@ -165,3 +165,4 @@ export class Unit implements Foe {
   groundZ = NaN
 
   constructor(kind: UnitKind, team: Team, level: number) {
+    this.kind = kind
