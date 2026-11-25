@@ -40,3 +40,5 @@ export class Props {
     this.mesh.castShadow = true
     this.mesh.frustumCulled = false
     this.mesh.count = 0
+  }
+
