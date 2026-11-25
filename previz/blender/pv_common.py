@@ -521,3 +521,6 @@ def instance(coll, sc_coll, loc=(0, 0, 0), rot_z=0.0, scale=1.0, name=None, rot=
     ob.rotation_euler = Euler([math.radians(a) for a in rot]) if rot else Euler((0, 0, math.radians(rot_z)))
     ob.scale = (scale, scale, scale)
     sc_coll.objects.link(ob)
+    return ob
+
+
