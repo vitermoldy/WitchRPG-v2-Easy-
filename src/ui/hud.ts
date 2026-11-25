@@ -176,3 +176,4 @@ export class Hud {
       if (this.bannerTime <= 0) this.banner_.classList.remove('show')
     }
     if (this.bigBannerTime > 0) {
+      this.bigBannerTime -= dt
