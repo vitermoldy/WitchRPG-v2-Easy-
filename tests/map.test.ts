@@ -37,3 +37,5 @@ describe('the forest valley', () => {
     for (const [name, [x, y]] of Object.entries(SPOTS)) {
       expect(heightMap(x, y), name).toBeGreaterThan(WATER_LEVEL + 0.3)
     }
+  })
+
