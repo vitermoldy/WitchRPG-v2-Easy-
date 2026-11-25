@@ -160,3 +160,4 @@ export class WorldMap {
         m.hi = Math.max(m.hi, def.levels[1])
         m.camps++
         out.set(kind, m)
+      }
