@@ -120,3 +120,4 @@ describe('over-the-shoulder camera', () => {
       const pose = rig.update(1 / 60, head, r() < 0.3, null, obs, ground)
       worst = Math.min(worst, obs.clearance(pose.pos.x, pose.pos.y, pose.pos.z))
       expect(pose.pos.y).toBeGreaterThan(ground(pose.pos.x, pose.pos.z) + CAMERA.near)
+    }
