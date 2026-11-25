@@ -436,3 +436,4 @@ export class Fight {
     // step into the swing, but not through the creature
     let step = s.swing.lunge
     if (target) step = Math.max(0, Math.min(step, Math.hypot(target.pos.x - p.pos.x, target.pos.z - p.pos.z) - target.radius - s.swing.reach * 0.55))
+    if (step > 0.05) p.nudge(-Math.sin(yaw), -Math.cos(yaw), step, Math.max(0.12, s.swing.windup + s.swing.active))
