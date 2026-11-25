@@ -117,3 +117,4 @@ export class Camps {
   /** The camps' own clock (s), for the map: a cleared camp stands again at its respawnAt. */
   get clock() {
     return this.time
+  }
