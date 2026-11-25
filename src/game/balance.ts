@@ -72,3 +72,4 @@ export const LOCKON = {
   flick: 38,
   /** Target point sits at 2/3 of the width and 1/3 of the height from the top. */
   thirdX: 1 / 3,
+  thirdY: 1 / 3,
