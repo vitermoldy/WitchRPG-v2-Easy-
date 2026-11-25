@@ -357,3 +357,4 @@ class Part:
         self._tag(g["verts"], mat, smooth)
         return self
 
+    def box(self, c, size, rot=(0, 0, 0), mat="body", smooth=False):
