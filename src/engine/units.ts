@@ -716,3 +716,4 @@ export class UnitSystem {
           }
         } else if (spec.flank) {
           // swing round to her side before lunging
+          const side = Math.atan2(u.pos.x - tgt.pos.x, u.pos.z - tgt.pos.z) + u.flank * 0.9 * dt
