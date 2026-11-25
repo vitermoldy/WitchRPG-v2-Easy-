@@ -270,3 +270,5 @@ export class Fight {
   /** May she roll now: not during an execution, nor during a swing's windup and blow. */
   get canDodge() {
     return !this.exec && this.combo.cancellable
+  }
+
