@@ -791,3 +791,4 @@ def b_griffin(r):
     n.tube([nb, nb + Vector((0, -0.2, 0.35)), hp], [0.34, 0.28, 0.21], mat="body2", seg=8, n=3)
     eagle_head(n, hp + Vector((0, -0.05, 0.08)), fwd=(0, -1, -0.15), s=1.9)
     b = r.parts["body"]
+    b.ell(V(Q["chest"]) + Vector((0, -0.25, 0.1)), (0.48, 0.45, 0.58), mat="body2")
