@@ -95,3 +95,4 @@ export class Unit implements Foe {
   /** Facing; 0 looks along +z, the way the models face. */
   yaw = 0
   state: UnitState = 'move'
+  /** Seconds in the current state. */
