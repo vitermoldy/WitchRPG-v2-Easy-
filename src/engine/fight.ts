@@ -5,3 +5,5 @@ import { Combo, inSwing, type ComboEvent, type SwingState } from './combat'
 import type { Game } from './game'
 import type { IlyraPose } from './models'
 import { COLOR } from './palette'
+import type { Unit } from './units'
+
