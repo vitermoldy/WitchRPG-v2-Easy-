@@ -53,3 +53,4 @@ def mat_flat(name, color, rough=0.8, metal=0.0, emit=None, emit_strength=0.0):
     if name in _MATS:
         return _MATS[name]
     m = _new_mat(name)
+    b = m.node_tree.nodes["Principled BSDF"]
