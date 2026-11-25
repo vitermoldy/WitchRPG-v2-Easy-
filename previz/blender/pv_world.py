@@ -736,3 +736,4 @@ def build_world(lib_scene):
     props = C.collection("Dunia_bangunan", dunia)
     pal = veg_palette()
     build_temple(props, pal)
+    build_altar(props, pal)
