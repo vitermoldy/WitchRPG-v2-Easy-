@@ -1101,3 +1101,4 @@ COLORS = {
     "griffin": {"body": ("#c39256", "#d8b080"), "body2": ("#8a5a34", "#e2d2b4"), "membrane": ("#6e4a2c", "#d6c2a0"), "accent": "#3a2a1e", "horn": "#e0b040", "beakleg": "#e0b040", "claw": "#2a2420"},
     "hippogriff": {"body": ("#9a7a52", "#b89a72"), "body2": ("#a07a48", "#e0cca8"), "membrane": ("#8a6438", "#d8c4a0"), "accent": "#4a3420", "hair": "#5a4028", "horn": "#e0b040", "beakleg": "#e0b040", "claw": "#2a2420", "hoof": "#3a3028"},
     "phoenix": {"body": ("#d0381c", "#ff7a2a"), "membrane": "#e8501c", "accent": "#ffb030", "horn": "#f0c040", "glow": "#ffd060",
+                "emissive": {"body": ("#ff4a1a", 1.2), "membrane": ("#ff5a1a", 2.0), "accent": ("#ffa020", 3.5)}},
