@@ -331,3 +331,4 @@ export class Sfx {
   dismiss() {
     if (!this.ok()) return
     const t = this.ctx!.currentTime
+    this.noise(t, 0.9, 'bandpass', 200, 0.25, 1.2, 2400)
