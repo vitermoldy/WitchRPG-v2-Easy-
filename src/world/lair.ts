@@ -457,3 +457,4 @@ export class Lair {
     const at = u.aimAt.clone()
     at.y = g.height(at.x, at.z)
     g.rings.spawn(at, COLOR.rift, 0.5, r + 1, 0.4)
+    g.smoke.emit({ pos: at, count: 14, color: 0x2a2a20, life: 1.2, size: 1, sizeEnd: 2, speed: 2, alpha: 0.6 })
