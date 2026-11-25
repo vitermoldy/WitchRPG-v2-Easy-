@@ -270,3 +270,4 @@ def build_valley(dunia):
         ("Hutan Pembuka", "Tier I, Lv 1-3", (-60, -300), 25),
         ("Tebing Berangin", "Tier II, Lv 4-6", (330, -40), 60),
         ("Rawa Berkabut", "Tier III, Lv 7-9", (-290, 0), 25),
+        ("Danau Hitam", "sarang Hydra", (-330, 300), 30),
