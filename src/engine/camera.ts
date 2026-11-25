@@ -77,3 +77,4 @@ export interface LockView {
 
 export class CameraRig {
   yaw = 0
+  pitch = rad(CAMERA.pitch)
