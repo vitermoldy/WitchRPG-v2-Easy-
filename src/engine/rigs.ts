@@ -721,3 +721,4 @@ const poseBeast: PoseFn = (p, u, t) => {
   const a = Math.sin(ph)
   p.body(0.05 * Math.abs(Math.sin(ph * 2)) * amp, 3 * Math.sin(ph * 2) * amp)
   p.rot('leg_FL', 34 * a * amp)
+  p.rot('leg_HR', 34 * a * amp)
