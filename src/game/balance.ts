@@ -952,3 +952,4 @@ export const HYDRA = {
   /** Phase 2 skin: bolts and blasts do this share, thrown things this much. */
   boltShare: 0.1,
   thrownShare: 1.5,
+  /** Phase 3: damage inside Reality Warp, and nothing outside it. */
