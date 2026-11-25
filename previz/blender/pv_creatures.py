@@ -1047,3 +1047,6 @@ def b_atlas(r):
     t.ell((0, 0.9, J["H"] + 2.0), 2.7, mat="globe", seg=32, rings=20)
     p = r.parts["pelvis"]
     p.tube([V(J["hip"]) + Vector((0, 0, 0.3)), V(J["hip"]) + Vector((0, 0, -0.5)), V(J["hip"]) + Vector((0, -0.1, -1.3))], [1.0, 1.05, 0.9], mat="cloth", seg=12, n=2)
+    t.tube([V(J["sh_L"]) + Vector((0, -0.1, 0.1)), V(J["chest"]) + Vector((0, -0.75, 0.0)), V(J["waist"]) + Vector((-0.9, -0.4, 0))], 0.22, mat="cloth", seg=6, n=3, squash=0.4)
+
+
