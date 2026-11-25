@@ -39,3 +39,4 @@ function sameOriginWrites(req, res, next) {
 function rateLimit(limit) {
   const hits = new Map()
   return (req, res, next) => {
+    if (req.method === 'GET') return next()
