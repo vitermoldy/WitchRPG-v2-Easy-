@@ -87,3 +87,4 @@ export class Obstacles {
         } else {
           // the sphere's slice at the capsule point closest to its centre
           const yc = Math.min(pos.y + height, Math.max(pos.y, s.y))
+          const dy = s.y - yc
