@@ -104,3 +104,4 @@ export class Game implements UnitHost {
   bot: BotInput | null = null
   /** ?debug: called at the start of every simulation step, so a bot can react on the exact frame. */
   botThink: ((g: Game, dt: number) => void) | null = null
+  /** ?debug: holds her in a pose for the animation check sheet. */
