@@ -77,3 +77,4 @@ export async function hashPassword(password) {
   return ['scrypt', SCRYPT.N, SCRYPT.r, SCRYPT.p, salt.toString('base64'), hash.toString('base64')].join('$')
 }
 
+export async function verifyPassword(password, stored) {
