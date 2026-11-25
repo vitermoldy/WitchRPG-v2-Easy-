@@ -93,3 +93,4 @@ export class Lair {
     this.center = new THREE.Vector3(lx, 0, lz).addScaledVector(this.dir, 4)
     this.groundY = heightAt(this.center.x, this.center.z)
     this.center.y = this.groundY
+    this.waterY = this.groundY - 3
