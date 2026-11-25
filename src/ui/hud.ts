@@ -311,3 +311,4 @@ export class Hud {
       rows.push(`<li class="army-slot"><span class="pip"></span><span>${u.record!.name} <span class="num">Lv ${u.level}</span></span><span class="hp"><i style="transform:scaleX(${hp.toFixed(2)})"></i></span></li>`)
     }
     if (field.length > 3) rows.push(`<li class="army-row dim"><span>dan ${field.length - 3} lainnya</span><b></b></li>`)
+    if (!total) rows.push(`<li class="army-row dim"><span>${g.umbra.riteOpen ? 'Bangkitkan makhluk yang kalah dengan Tahan R' : 'Umbra Rite terbuka di Lv 2'}</span><b></b></li>`)
