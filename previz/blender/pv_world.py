@@ -541,3 +541,4 @@ def fog_material(z):
     L.new(dv.outputs[0], ex.inputs[0])
     lenv = N.new("ShaderNodeVectorMath")
     lenv.operation = "LENGTH"
+    comb = N.new("ShaderNodeCombineXYZ")
