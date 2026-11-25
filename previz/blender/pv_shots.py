@@ -362,3 +362,4 @@ def foam_rings(local, hy, inst, mat=None):
         if name.endswith("_0") and name.startswith("neck"):
             ob = hy.objs[name]
             w = M @ C.world_matrix(ob).translation
+            disc(local, f"busa.{name}", (w.x, w.y), 1.8, mat, z_off=0.0).location.z = 0.04
