@@ -130,3 +130,4 @@ export class Player {
       this.nudgeT = 0
       // roll the way she is steering; with no direction held, step back from where she faces
       let dx = wx
+      let dz = wz
