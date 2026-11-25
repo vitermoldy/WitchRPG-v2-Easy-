@@ -1149,3 +1149,4 @@ export class Game implements UnitHost {
       game: { ...this.counts },
       width: this.renderer.domElement.width,
       height: this.renderer.domElement.height,
+    }
