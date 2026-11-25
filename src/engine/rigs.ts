@@ -200,3 +200,4 @@ const poseHound: PoseFn = (p, u, t) => {
   if (u.state === 'windup') {
     const k = ease(u.t / u.spec.windup)
     p.body(-0.2 * k, -6 * k)
+    p.rot('leg_FL', -25 * k)
