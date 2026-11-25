@@ -145,3 +145,4 @@ export const RITE = {
   plainCorpseTime: 6,
 } as const
 
+export const XP = {
