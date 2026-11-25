@@ -85,3 +85,4 @@ export class Projectiles {
     for (let i = this.shots.length - 1; i >= 0; i--) {
       // a blow that fells her clears every shot (her fall) while this loop still runs
       const s = this.shots[i]
+      if (!s) continue
