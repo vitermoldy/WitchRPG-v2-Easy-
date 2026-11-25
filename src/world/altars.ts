@@ -51,3 +51,4 @@ export class Altars {
       root.add(base)
       // three leaning standing stones around the crystal
       for (let k = 0; k < 3; k++) {
+        const s = new THREE.Mesh(stoneGeo, stoneMat)
