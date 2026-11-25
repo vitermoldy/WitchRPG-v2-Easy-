@@ -255,3 +255,4 @@ export class Lair {
     this.state = 'won'
     this.wonAt = this.time
     this.floodTo = 0
+    g.profile.bossKills += 1
