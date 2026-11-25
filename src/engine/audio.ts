@@ -31,3 +31,5 @@ export class Sfx {
     const d = this.noiseBuf.getChannelData(0)
     for (let i = 0; i < len; i++) d[i] = Math.random() * 2 - 1
     this.startAmbience()
+  }
+
