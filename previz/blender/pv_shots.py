@@ -456,3 +456,4 @@ def build_lineup(lib_colls, stats):
                 C.text(coll, str(mtr), (ox + 0.75, -6, mtr - ts * 0.3), size=ts * 0.85, color="#aab0bd", align="RIGHT", rot=(90, 0, 0))
         pole = C.Rig(f"tiang.{key}", {"l": line_mat}, coll)
         pole.P("m").box((ox + 1.1, -6, top / 2), (0.03 * (1 if key == "A" else 2 if key == "B" else 4.5), 0.01, top), mat="l")
+        pole.finalize()
