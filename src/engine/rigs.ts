@@ -684,3 +684,4 @@ const poseBeast: PoseFn = (p, u, t) => {
     const k = ease(u.t / (u.atk.windup * u.tempo))
     p.body(0.2 * k, -18 * k)
     p.rot('neck', -25 * k)
+    p.rot('head', -20 * k)
