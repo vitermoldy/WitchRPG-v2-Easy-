@@ -308,3 +308,4 @@ button {
 }
 
 .controls dl {
+  display: grid;
