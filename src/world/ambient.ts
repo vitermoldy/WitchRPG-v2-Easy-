@@ -198,3 +198,5 @@ export class Ambient {
       this.alpha[i] = kind.alpha * twinkle
     }
     const geo = this.points.geometry
+    for (const name of ['position', 'tint', 'size', 'alpha']) (geo.getAttribute(name) as THREE.BufferAttribute).needsUpdate = true
+
