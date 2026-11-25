@@ -12,3 +12,4 @@ describe('the server checks a witch before it keeps her', () => {
   it('takes a fresh witch as she is', () => {
     const p = cleanProfile({ ...newProfile(), updatedAt: '2026-11-25T10:00:00Z' }, NOW)
     expect(p.error).toBeUndefined()
+    expect(p.level).toBe(1)
