@@ -262,3 +262,4 @@ export class Hud {
       const hi = Math.max(...chances)
       if (why) html = `<span class="blocked">${why}</span>`
       else if (g.umbra.casting.length) html = `Membangkitkan ${g.umbra.casting.length} tubuh`
+      else html = `<kbd>Tahan R</kbd> Bangkitkan ${many} tubuh <span class="chance">${lo === hi ? `${lo}%` : `${lo} sampai ${hi}%`}</span> <span class="num">mana ${g.umbra.cost(many)}</span>`
