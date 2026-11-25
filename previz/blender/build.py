@@ -61,3 +61,4 @@ for key in ["ilyra"] + [r[0] for r in K.ROSTER]:
         "lebar": round(hi2.x - lo2.x, 2),
         "panjang": round(hi2.y - lo2.y, 2),
         "segitiga": C.tri_count(coll),
+        "bagian": sum(1 for o in coll.objects if o.type == "MESH"),
