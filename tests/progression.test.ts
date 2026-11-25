@@ -150,3 +150,4 @@ describe('version 1: tiers, ranks and growth', () => {
     expect(tierUnlocked(p, 2)).toBe(false)
     p.level = 4
     expect(tierUnlocked(p, 2)).toBe(true)
+    expect(tierUnlocked(p, 3)).toBe(false)
