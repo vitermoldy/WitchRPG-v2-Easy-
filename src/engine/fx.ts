@@ -135,3 +135,4 @@ export class Particles {
       // Uniform direction on a sphere.
       const u = Math.random() * 2 - 1
       const t = Math.random() * Math.PI * 2
+      const r = Math.sqrt(1 - u * u) * s * (0.4 + Math.random() * 0.6)
