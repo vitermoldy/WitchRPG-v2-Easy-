@@ -128,3 +128,5 @@ Semua di bawah anggaran 16,7 ms, dan tidak ada yang lebih lambat dari v1. Draw c
 
 Tur di game (`?debug`, Lv 6): empat Imp dikalahkan dengan pukulan dan satu dieksekusi; kelimanya bersinar dan prompt menulis "Bangkitkan 5 tubuh, 75 sampai 90%, mana 72"; satu cast membangkitkan 3 dan memudarkan 2 (run lain 3 dari 4, dan 1 dari 5); T mengembalikan pasukan (0 di medan) lalu memanggilnya lagi; Serang dengan Perintah Fokus membuat ketiga bayangan menyerang Hellhound yang di-lock; Tukar Tempat memindahkan Ilyra 4,5 m dengan jeda 10 dtk; Ikuti dan Tahan berlaku untuk semua bayangan. 0 error di konsol. Tes: 70 dari 70 lulus (29 progresi v1, 8 kamera, 8 gerak, 4 peta, 13 tempur, 8 AI makhluk dan bayangan).
 
+## Fase 4: dunia dan progresi (24 Nov 2026)
+
