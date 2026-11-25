@@ -260,3 +260,4 @@ export class TravelPanel {
   open() {
     this.next = null
     const list = this.host.altars()
+    const here = list.find((a) => a.here)
