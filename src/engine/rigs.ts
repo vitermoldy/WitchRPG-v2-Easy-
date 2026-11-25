@@ -291,3 +291,4 @@ const poseHarpy: PoseFn = (p, u, t) => {
   const s = Math.sin(u.walk * 1.4)
   const amp = Math.min(1, Math.hypot(u.vel.x, u.vel.z) / Math.max(1, u.speed * 0.35))
   const weak = u.downed > 0 ? 18 * Math.sin(t * 14) : 0
+  p.body(-0.05, 18)
