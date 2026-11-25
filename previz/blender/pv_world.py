@@ -674,3 +674,4 @@ def build_rift(coll):
     m_out = C.mat_emit("rift_edge", "#ff5a2a", 12.0)
     m_in = C.mat_emit("rift_core", "#ffd2a0", 30.0)
     bc = ZONES[4]["c"]
+    r = C.Rig("rift_sky", {"edge": m_out, "core": m_in}, coll)
