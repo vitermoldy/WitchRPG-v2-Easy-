@@ -244,3 +244,4 @@ const poseHarpy: PoseFn = (p, u, t) => {
   const flying = u.flyer && u.alt > 0.8
   if (u.state === 'windup') {
     const k = ease(u.t / u.spec.windup)
+    p.body(0, -22 * k)
