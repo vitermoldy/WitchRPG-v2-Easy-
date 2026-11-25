@@ -99,3 +99,4 @@ export const CHAOS = {
   max: 100,
   perDamageDealt: 0.05,
   perDamageTaken: 0.45,
+  overloadTime: 12,
