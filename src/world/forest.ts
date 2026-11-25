@@ -257,3 +257,4 @@ export class Forest {
       this.mesh.setMatrixAt(id, m)
     }
     this.mesh.perObjectFrustumCulled = true
+    this.mesh.sortObjects = false
