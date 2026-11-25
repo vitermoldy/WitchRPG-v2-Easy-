@@ -842,3 +842,6 @@ def b_phoenix(r):
     for k in range(7):
         dx = (k - 3) * 0.14
         tl.tube([(0, 0.35, 0.95), (dx * 0.6, 0.9, 0.6), (dx * 1.3, 1.6, 0.3), (dx * 2.0, 2.4, 0.4), (dx * 2.4, 3.1, 0.7)], [0.07, 0.06, 0.05, 0.035, 0.0],
+                mat="accent" if k % 2 else "glow", seg=5, n=3, squash=0.35)
+
+
