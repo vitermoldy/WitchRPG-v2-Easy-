@@ -800,3 +800,4 @@ class Rig implements Poser {
       const mesh = o as THREE.Mesh
       if (!mesh.isMesh) return
       const src = mesh.material as THREE.MeshStandardMaterial
+      let mat = mats.get(src)
