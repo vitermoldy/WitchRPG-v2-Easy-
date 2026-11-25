@@ -46,3 +46,4 @@ Action-RPG third-person dengan rasa God of War di hutan terbuka, memakai sistem 
 | Bagian | Keputusan | Alasan |
 | --- | --- | --- |
 | Yang disalin dari v1 | `src/game/*` (balance, progression, skills, save), `engine/input.ts`, `engine/palette.ts`, `tests/progression.test.ts`, konfigurasi Vite dan TypeScript. Modul v1 lain (units, umbra, spells, crowd, collide, server) disalin di fasenya | Modul itu bergantung pada kelas `Game` first-person v1. Menyalin sekarang berarti kode mati yang tidak bisa dikompilasi. |
+| Satu-satunya perubahan pada tes v1 | `derive().floatTime` (melayang first-person) diganti `dodgeDistance` (4,2 m di nilai awal). Semua rumus lain tetap | v2 tidak punya lompat dan melayang. AGI kini memperpanjang dodge, bukan waktu melayang. |
