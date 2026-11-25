@@ -1146,3 +1146,4 @@ export const WORLD = { maxPhysicsProps: 20, arenaHalf: 38 } as const
 // ------------------------------------------------------------ v2 melee and the forest camps
 
 /** One swing of the staff. Times in seconds from the button: windup, then the hit lands for `active`, then recovery. */
+export interface Swing {
