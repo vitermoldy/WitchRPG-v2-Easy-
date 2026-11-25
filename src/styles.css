@@ -1489,3 +1489,4 @@ dialog::backdrop {
 
 .node {
   display: grid;
+  grid-template-columns: 1fr auto;
