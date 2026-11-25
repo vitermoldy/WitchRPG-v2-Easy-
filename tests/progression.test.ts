@@ -91,3 +91,5 @@ describe('stats and the shadow army', () => {
     expect(p.stats.hex).toBe(6)
     expect(derive(p.stats).damageMult).toBeCloseTo(1.02)
   })
+})
+
