@@ -368,3 +368,4 @@ export class Spells {
         if (a < bestA) {
           bestA = a
           first = u
+        }
