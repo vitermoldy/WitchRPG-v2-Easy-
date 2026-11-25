@@ -711,3 +711,4 @@ export class Game implements UnitHost {
     this.umbra.dismiss(true)
     this.spells.reset()
     this.spells.chaos = 0
+    p.alive = true
