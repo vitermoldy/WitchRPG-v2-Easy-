@@ -227,3 +227,4 @@ def shaft_fog(coll, centre, size, z0, density=0.018):
         vol.inputs["Anisotropy"].default_value = 0.7
         nt.links.new(vol.outputs[0], out.inputs["Volume"])
     bm = bmesh.new()
+    bmesh.ops.create_cube(bm, size=1.0)
