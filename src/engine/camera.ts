@@ -16,3 +16,4 @@ export type HeightFn = (x: number, z: number) => number
 export interface CamParams {
   dist: number
   shoulder: number
+  height: number
