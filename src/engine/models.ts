@@ -125,3 +125,4 @@ export class IlyraModel {
    * dark and their glow dims: a swing brings them right past the eye, where they would light the
    * ground next to the camera and the bloom would flood the screen.
    */
+  firstPerson(on: boolean) {
