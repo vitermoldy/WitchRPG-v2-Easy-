@@ -940,3 +940,4 @@ export class UnitSystem {
     u.yaw += dt * 6
     const speed = u.vel.length()
     const cx = Math.floor(u.pos.x / CELL)
+    const cz = Math.floor(u.pos.z / CELL)
