@@ -577,3 +577,4 @@ export class Umbra {
     }
     const cam = g.camera.position
     const fwd = g.camera.getWorldDirection(new THREE.Vector3())
+    let pick = shadows[0]
