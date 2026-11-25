@@ -387,3 +387,4 @@ export class Lair {
     for (const h of this.heads) if (h && h.alive && (h.state === 'windup' || h.state === 'strike')) busy++
     this.attackIn -= dt
     if (her && this.attackIn <= 0 && busy < 2) {
+      const idle = this.heads.filter((h): h is Unit => !!h && h.alive && h.state === 'move')
