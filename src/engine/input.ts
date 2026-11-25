@@ -58,3 +58,4 @@ export class Input {
     try {
       const req = this.target.requestPointerLock as unknown as (o?: { unadjustedMovement?: boolean }) => Promise<void> | void
       try {
+        await req.call(this.target, { unadjustedMovement: true })
