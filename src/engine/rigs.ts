@@ -768,3 +768,4 @@ const POSES: Partial<Record<UnitKind, PoseFn>> = {
  * InstancedMesh, and each unit writes the posed matrix of every part. However many Imps fight, they
  * cost as many draws as one Imp has primitives.
  */
+class Rig implements Poser {
