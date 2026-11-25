@@ -132,3 +132,4 @@ export class Sfx {
     this.noise(t, 0.08, 'highpass', 3500, 0.25)
   }
 
+  burst() {
