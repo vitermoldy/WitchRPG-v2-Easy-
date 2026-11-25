@@ -38,3 +38,4 @@ export class Fauna {
       return { kind, x, z, unit: null }
     }
     // the Unicorn stands a few metres off the altar, out of the way of the stone
+    this.spots = [...ALTARS.map((a) => spot('unicorn', a.c[0] + 7, a.c[1] + 5)), ...MEADOWS.map(([x, y]) => spot('pegasus', x, y))]
