@@ -52,3 +52,4 @@ export const CAMERA = {
   pitchMax: 62,
   /** Rate the camera blends between normal and aim (1/s). */
   blend: 9,
+  /** Radius of the sphere swept from the pivot to the camera; nothing may come closer. */
