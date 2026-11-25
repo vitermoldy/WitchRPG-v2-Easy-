@@ -30,3 +30,4 @@ const TABLES = [
     next_shadow_id INT UNSIGNED NOT NULL,
     boss_kills INT UNSIGNED NOT NULL DEFAULT 0,
     settings JSON NOT NULL,
+    updated_at DATETIME(3) NOT NULL,
