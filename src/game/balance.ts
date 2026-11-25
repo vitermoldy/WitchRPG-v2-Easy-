@@ -781,3 +781,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     cooldown: 1.8,
     stun: 200,
     boss: true,
+    blink: { range: 13, every: 8 },
