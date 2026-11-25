@@ -182,3 +182,4 @@ const poseImp: PoseFn = (p, u, t) => {
   p.rot('shin_R', Math.max(0, 45 * Math.sin(u.walk * 1.4 + 1.2 + Math.PI)) * amp)
   p.rot('upperarm_L', 28 * s * amp - 10, 0, 8)
   p.rot('upperarm_R', -28 * s * amp - 10, 0, -8)
+  p.rot('forearm_L', -20)
