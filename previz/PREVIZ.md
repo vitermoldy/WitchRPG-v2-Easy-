@@ -138,3 +138,5 @@ Makhluk memakai warna dari gambar referensinya (keputusan pemilik setelah previz
 | Rawa Berkabut | III, 7-9 | `#a9c491` hijau pucat | 0,030, 9 m | `#283224` | pohon rawa berakar tinggi 55%, pohon mati 30%, pinus 15%; 0,95 |
 | Danau Hitam | III, sarang Hydra | `#a3b996` rendah di atas air | 0,012, 5 m | air `#06090b` | pohon rawa di tepi |
 | Reruntuhan Kuil | IV, 10-12 | `#8f9096` abu | 0,020, 14 m | `#373a33` | pinus 50%, pinus tinggi 35%, birch 15%; 1,3; kuil batu di tengah |
+| Lembah Bara | V, 13-15 | `#d8622c` oranye kemerahan | 0,018, 28 m | `#1d1917` dengan bara `#ff5a1f` | pohon terbakar 85%, pohon mati 15%; 0,85; Rift di langit, 2.500 bara melayang |
+
