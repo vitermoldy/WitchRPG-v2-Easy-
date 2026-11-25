@@ -71,3 +71,4 @@ export class Hud {
     if (on && this.hintTime === 0) this.hintTime = 16
   }
 
+  private set(id: string, key: 'text' | 'transform' | 'class', value: string) {
