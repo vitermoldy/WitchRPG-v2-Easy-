@@ -27,3 +27,4 @@ export class Obstacles {
   private stamp = 1
   private seen = new Uint32Array(0)
 
+  private key(ix: number, iz: number) {
