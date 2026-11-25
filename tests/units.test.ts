@@ -73,3 +73,4 @@ describe('creature attacks', () => {
     for (let i = 0; i < 8; i++) w.sys.spawn('imp', 'enemy', 1, { x: Math.cos(i) * 3, z: Math.sin(i) * 3 })
     let most = 0
     w.step(6, () => {
+      const busy = w.sys.units.filter((u) => u.state === 'windup' || u.state === 'strike').length
