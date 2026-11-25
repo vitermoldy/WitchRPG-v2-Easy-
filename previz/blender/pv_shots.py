@@ -467,3 +467,4 @@ def build_lineup(lib_colls, stats):
     return sc, bands
 
 
+def render_lineup(sc, bands, path, tmpdir, pct=100):
