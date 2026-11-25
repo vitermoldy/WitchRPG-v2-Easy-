@@ -283,3 +283,4 @@ export class WorldMap {
 
     // labels never sit on each other: each tries above its mark, then below, right and left
     ctx.textAlign = 'center'
+    ctx.textBaseline = 'middle'
