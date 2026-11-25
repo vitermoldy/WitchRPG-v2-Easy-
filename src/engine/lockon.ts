@@ -34,3 +34,4 @@ export class LockOn {
     let score = Infinity
     for (const t of targets) {
       if (!t.alive) continue
+      const d = Math.hypot(t.x - player.x, t.z - player.z)
