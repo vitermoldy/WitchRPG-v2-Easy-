@@ -577,3 +577,4 @@ export class UnitSystem {
     u.groundX = NaN
     u.vel.set(0, 0, 0)
     u.blinkCd = spec.every
+    this.host.clearTelegraph(u)
