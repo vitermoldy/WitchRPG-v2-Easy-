@@ -204,3 +204,4 @@ def terrain_material():
     tc = N.new("ShaderNodeTexCoord")
     noi = N.new("ShaderNodeTexNoise")
     noi.inputs["Scale"].default_value = 0.6
+    noi.inputs["Detail"].default_value = 4.0
