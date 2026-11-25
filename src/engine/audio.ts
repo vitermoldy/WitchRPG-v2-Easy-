@@ -222,3 +222,5 @@ export class Sfx {
     if (!this.ok()) return
     const t = this.ctx!.currentTime
     this.noise(t, 0.5, 'bandpass', 220 + Math.random() * 120, 0.12, 4, 140)
+  }
+
