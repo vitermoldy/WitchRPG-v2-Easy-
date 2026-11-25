@@ -496,3 +496,4 @@ class Rig:
 
 # ---------------------------------------------------------------- scene helpers
 
+def collection(name, parent):
