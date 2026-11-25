@@ -64,3 +64,4 @@ Tinggi total diukur dari block-out (termasuk tanduk dan sayap yang terangkat; Il
 | Medusa | 2,48 m | 2,2 m | 1,89 m | 2,11 m | 0,80 m | 15.928 | 30.000 (mini-boss) | III |
 | Chimera | 4,47 m | bahu 2,3 m | 4,98 m | 1,94 m | 1,30 m | 8.394 | 30.000 (mini-boss) | III |
 | Succubus | 2,66 m | 1,95 m | 2,01 m | 3,15 m | 0,50 m | 5.892 | 8.000 | IV |
+| Incubus | 3,05 m | 2,25 m | 2,30 m | 3,54 m | 0,60 m | 6.732 | 8.000 | IV |
