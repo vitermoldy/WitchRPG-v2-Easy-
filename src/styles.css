@@ -745,3 +745,4 @@ button {
 @keyframes feed-in {
   from {
     opacity: 0;
+    transform: translateX(-8px);
