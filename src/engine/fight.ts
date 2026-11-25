@@ -194,3 +194,5 @@ class Staff {
       this.q.premultiply(this.q2)
     }
     obj.quaternion.copy(this.q)
+  }
+
