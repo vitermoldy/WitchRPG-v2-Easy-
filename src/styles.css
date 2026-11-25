@@ -345,3 +345,4 @@ button {
 
 .setting input[type='range'] {
   width: 100%;
+  accent-color: var(--chaos);
