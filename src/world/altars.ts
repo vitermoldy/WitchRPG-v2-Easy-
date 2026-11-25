@@ -121,3 +121,4 @@ export class Altars {
       if (!w.altars.includes(a.key)) {
         w.altars.push(a.key)
         this.paint()
+        g.hud.banner(a.name, 'menyala: Ilyra akan bangkit di sini, dan bisa kembali ke sini dari altar lain')
