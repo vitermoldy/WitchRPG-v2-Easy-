@@ -185,3 +185,4 @@ describe('version 1: tiers, ranks and growth', () => {
   })
   it('keeps Tier III enemies within reach of a Tier III witch', () => {
     // Husk HP at Lv 9 divided by the witch's damage at Lv 9 (no HEX spent) stays under 2.5x a Lv 1 husk.
+    const tough = unitStats('husk', 9, false).hp / derive(newProfile().stats, 9).damageMult
