@@ -251,3 +251,4 @@ export interface UnitSpec {
   /** v2: how its attack is announced. ring: slow amber pulse, can be blocked or parried. line: fast amber flash, must be dodged. */
   strike?: 'ring' | 'line'
   /** v2: stun meter size; heavy blows, parries, bolts and the thrown staff fill it. */
+  stun?: number
