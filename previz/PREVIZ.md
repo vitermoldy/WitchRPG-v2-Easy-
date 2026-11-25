@@ -108,3 +108,4 @@ Makhluk memakai warna dari gambar referensinya (keputusan pemilik setelah previz
 
 | Makhluk | Warna utama | Warna lain dan atribut |
 | --- | --- | --- |
+| Imp | kulit pucat `#e8d2c8` | sayap selaput merah muda `#e6a0c4`, ekor cambuk berujung sekop |
