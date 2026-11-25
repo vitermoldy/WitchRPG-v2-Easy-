@@ -179,3 +179,4 @@ export class Terrain {
     const geo = new THREE.BufferGeometry()
     geo.setAttribute('position', new THREE.BufferAttribute(pos, 3))
     geo.setAttribute('normal', new THREE.BufferAttribute(nor, 3))
+    geo.setAttribute('color', new THREE.BufferAttribute(col, 3))
