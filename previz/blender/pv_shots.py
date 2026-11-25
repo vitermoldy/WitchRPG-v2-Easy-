@@ -222,3 +222,4 @@ def shaft_fog(coll, centre, size, z0, density=0.018):
         nt.nodes.clear()
         out = nt.nodes.new("ShaderNodeOutputMaterial")
         vol = nt.nodes.new("ShaderNodeVolumePrincipled")
+        vol.inputs["Color"].default_value = C.rgb("#f2ede4")
