@@ -122,3 +122,4 @@ export class Ledger {
   }
 
   render() {
+    const p = this.host.profile
