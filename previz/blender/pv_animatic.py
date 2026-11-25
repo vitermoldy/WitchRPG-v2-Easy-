@@ -213,3 +213,4 @@ def build(dunia, res=(1280, 720), samples=24):
             loc = loc + Vector(rng.normal(0, shake, 3))
         cam.location = loc
         cam.rotation_quaternion = q
+        cam.data.angle_y = math.radians(vfov)
