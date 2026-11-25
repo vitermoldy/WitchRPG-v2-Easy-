@@ -102,3 +102,4 @@ export class Game implements UnitHost {
   syncFrames = false
   /** ?debug: when set, the bot drives her instead of the keyboard. */
   bot: BotInput | null = null
+  /** ?debug: called at the start of every simulation step, so a bot can react on the exact frame. */
