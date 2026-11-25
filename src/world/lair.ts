@@ -149,3 +149,4 @@ export class Lair {
   // ------------------------------------------------------------ the Hydra comes and goes
 
   private spawn() {
+    const g = this.g
