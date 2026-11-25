@@ -14,3 +14,4 @@ export class Input {
   onLockChange: ((locked: boolean) => void) | null = null
   private readonly target: HTMLElement
 
+  constructor(target: HTMLElement) {
