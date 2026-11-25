@@ -75,3 +75,4 @@ describe('Ilyra on foot', () => {
     expect(q.pos.z).toBeLessThan(-3.5)
   })
 
+  it('jogs at 4.4 m/s and sprints at 7 m/s', () => {
