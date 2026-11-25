@@ -812,3 +812,4 @@ export class Game implements UnitHost {
       prev = d
     }
     let unit: Unit | null = null
+    this.ray.set(o, dir)
