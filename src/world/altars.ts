@@ -106,3 +106,4 @@ export class Altars {
     }
   }
 
+  update(dt: number) {
