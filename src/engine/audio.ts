@@ -381,3 +381,4 @@ export class Sfx {
   refused() {
     if (!this.ok()) return
     const t = this.ctx!.currentTime
+    this.tone(t, 'sine', 92, 78, 0.5, 0.16, 0.02)
