@@ -769,3 +769,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   lilith: {
     name: 'Lilith',
     rank: 'marsekal',
+    hp: 1300,
