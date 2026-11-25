@@ -507,3 +507,4 @@ def collection(name, parent):
 
 def new_scene(name):
     sc = bpy.data.scenes.get(name)
+    if sc:
