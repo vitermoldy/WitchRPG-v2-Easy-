@@ -76,3 +76,4 @@ def place_game_camera(sc, P, f, mode="normal", name="kamera", **over):
     c.update(over)
     z = Wd.ground_z(P[0], P[1])
     loc, look = C.game_camera((P[0], P[1], z), f, c["dist"], c["shoulder"], c["height"], c["pitch"])
+    cam = C.camera(sc, name, loc, look_at=loc + look, lens_vfov=c["vfov"], clip=(0.05, 3000))
