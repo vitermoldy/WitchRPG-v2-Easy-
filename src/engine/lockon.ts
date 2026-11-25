@@ -71,3 +71,4 @@ export class LockOn {
       if (a <= 0.02 || a > Math.PI * 0.8) continue
       if (a < bestA) {
         bestA = a
+        best = t
