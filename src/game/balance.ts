@@ -621,3 +621,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     attacks: [
       { name: 'api hijau', strike: 'line', windup: 0.7, recover: 0.7, range: 22, minRange: 4, shot: { speed: 24, gravity: 0, radius: 0.22 } },
       { name: 'cakar', strike: 'ring', windup: 0.6, recover: 0.7, range: 2.8, lungeSpeed: 7, lungeTime: 0.3 },
+    ],
