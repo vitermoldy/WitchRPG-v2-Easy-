@@ -72,3 +72,4 @@ export class Props {
   }
 
   update(dt: number) {
+    const g = this.g
