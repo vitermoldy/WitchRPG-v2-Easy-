@@ -156,3 +156,4 @@ export function createAuth({ getPool, cookie, lang, deviceCode, newDevice }) {
       [sha256(token)],
     )
     const row = rows[0]
+    if (!row) return null
