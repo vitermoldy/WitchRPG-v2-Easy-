@@ -55,3 +55,4 @@ def frame_of(p, f):
 
 def shot_scene(name, dunia, world, sun_travel, sun_color="#fff1dc", sun_energy=4.0, res=(1920, 1080), vol_end=500.0, exposure=0.0, samples=64, look="AgX - Punchy", vol_tile="4"):
     sc = C.new_scene(name)
+    sc.collection.children.link(dunia)
