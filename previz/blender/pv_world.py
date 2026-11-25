@@ -307,3 +307,6 @@ def _birch(p):
     for a, z, l in ((0.5, 6.5, 2.0), (2.4, 7.5, 1.8), (4.2, 8.2, 1.5)):
         p.limb((0.1, 0.05, z), (math.cos(a) * l, math.sin(a) * l, z + 1.2), 0.06, 0.03, mat="birch", seg=5, joints=False)
     for (x, y, z, r) in ((0, 0, 9.3, 2.0), (1.2, 0.4, 8.0, 1.5), (-1.0, 0.8, 8.4, 1.6), (0.3, -1.1, 7.6, 1.4), (0.2, 0.2, 10.8, 1.3)):
+        p.ell((x, y, z), (r, r, r * 0.85), mat="leaf", seg=8, rings=6, smooth=False)
+
+
