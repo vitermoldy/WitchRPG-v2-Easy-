@@ -82,3 +82,4 @@ export class Props {
         p.pos.addScaledVector(p.vel, dt)
         p.spin += dt * 6
         if (p.thrown) {
+          const speed = p.vel.length()
