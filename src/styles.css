@@ -1860,3 +1860,4 @@ dialog::backdrop {
 .map-boss {
   display: grid;
   gap: 0.1rem;
+  width: 100%;
