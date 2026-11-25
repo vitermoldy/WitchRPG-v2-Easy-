@@ -1711,3 +1711,4 @@ dialog::backdrop {
 .gate-title {
   margin: 0 0 0.5rem;
   font-family: var(--font-display);
+  font-weight: 500;
