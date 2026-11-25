@@ -351,3 +351,5 @@ export class Fight {
     const canBlock = !p.dodging && this.combo.cancellable
     this.blocking = inp.blockHeld && canBlock
     if (this.blocking && this.combo.current) this.combo.cancel()
+    this.blockBlend += ((this.blocking ? 1 : 0) - this.blockBlend) * Math.min(1, dt * 18)
+
