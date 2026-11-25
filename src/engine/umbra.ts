@@ -603,3 +603,4 @@ export class Umbra {
     g.addTrauma(0.2)
     g.hud.message(`Tukar Tempat dengan ${pick.record?.name ?? 'bayangan'}.`, 'umbra')
   }
+}
