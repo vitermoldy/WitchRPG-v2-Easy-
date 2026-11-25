@@ -258,3 +258,4 @@ export const ringOf = (atk: AttackSpec) => atk.ring ?? RING_RADIUS
  * Share of a blow that gets through a front shield (the Minotaur's 85%): blows, bolts and blasts from
  * within about 70 degrees of where it faces are cut down. A thrown staff, a thrown body, or a creature
  * knocked off balance takes the full blow.
+ */
