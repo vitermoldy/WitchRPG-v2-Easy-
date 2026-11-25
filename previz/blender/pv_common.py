@@ -294,3 +294,4 @@ def catmull(pts, n):
         p0, p1, p2, p3 = ext[i - 1], ext[i], ext[i + 1], ext[i + 2]
         for k in range(n):
             t = k / n
+            t2, t3 = t * t, t * t * t
