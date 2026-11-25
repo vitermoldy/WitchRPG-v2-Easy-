@@ -104,3 +104,5 @@ Total 13.647 pohon dan sekitar 4,0 juta segitiga pohon untuk seluruh peta. Itu t
 
 Warna identitas dari v1 tetap: Chaos `#ff2a3d` (tangan kiri, sigil tongkat, jejak ayunan), Umbra `#8f55ff` (tangan kanan, bayangan, kolam), amber musuh `#ffa53d` (mata musuh, cincin telegraf). Tambahan v2: cahaya altar teal `#9ff2e0`, retakan Rift di langit `#ff5a2a` dengan inti `#ffd2a0`.
 
+Makhluk memakai warna dari gambar referensinya (keputusan pemilik setelah previz pertama), dua nada: warna atas untuk punggung, warna bawah untuk perut dan sisi yang menghadap tanah.
+
