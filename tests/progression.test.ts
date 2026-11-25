@@ -192,3 +192,4 @@ describe('version 1: tiers, ranks and growth', () => {
     const p = newProfile()
     expect(isFresh(p)).toBe(true)
     p.bossKills = 1
+    expect(isFresh(p)).toBe(false)
