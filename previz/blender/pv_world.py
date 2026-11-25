@@ -418,3 +418,4 @@ def scatter_object(name, coll, proto_ob, pts, rots, scales):
     ng = scatter_group()
     mod.node_group = ng
     ident = [i for i in ng.interface.items_tree if getattr(i, "in_out", "") == "INPUT" and i.socket_type == "NodeSocketObject"][0].identifier
+    mod[ident] = proto_ob
