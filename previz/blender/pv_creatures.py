@@ -677,3 +677,4 @@ def b_cyclops(r):
             sh.torus(lerp(J["knee_" + side], J["ankle_" + side], 0.4 + 0.25 * k), 0.1 - 0.01 * k, 0.025, mat="strap", seg=12, rseg=4)
     hd = r.parts["hand_L"]
     W = J["wr_L"] + J["hand_dir_L"] * 0.15
+    n = Vector((1, -0.35, 0)).normalized()
