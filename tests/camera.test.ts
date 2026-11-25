@@ -76,3 +76,4 @@ describe('over-the-shoulder camera', () => {
     expect(pose.pos.y).toBeGreaterThan(hill(pose.pos.x, pose.pos.z) + CAMERA.radius)
   })
 
+  it('snaps in at once, then eases back out instead of jumping', () => {
