@@ -1078,3 +1078,4 @@ export class Game implements UnitHost {
       c.rotateY(Math.sin(t * 1.7 + 1) * k)
       c.rotateZ(Math.sin(t * 1.1 + 2) * k * 0.6)
     }
+    if (Math.abs(c.fov - pose.fov) > 1e-3) {
