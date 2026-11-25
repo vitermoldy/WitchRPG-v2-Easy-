@@ -477,3 +477,4 @@ export class UnitSystem {
       for (const [k, v] of u.atkCd) if (v > 0) u.atkCd.set(k, Math.max(0, v - dt))
       if (u.state === 'dead') {
         u.deadT += dt
+        u.vel.multiplyScalar(Math.max(0, 1 - dt * 5))
