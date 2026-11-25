@@ -481,3 +481,4 @@ export class UnitSystem {
         this.move(u, dt, true)
         continue
       }
+      u.stun.update(dt)
