@@ -449,3 +449,4 @@ export class UnitSystem {
       // ease in over the last metre so they settle instead of jittering on the spot
       const k = Math.min(1, d - stopAt)
       tx = (dx / d) * speed * k
+      tz = (dz / d) * speed * k
