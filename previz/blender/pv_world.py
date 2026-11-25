@@ -176,3 +176,4 @@ def build_terrain(coll, size=1300.0, step=2.5):
     me.polygons.foreach_set("loop_total", np.full(len(quads), 4, np.int32))
     me.update(calc_edges=True)
     me.validate()
+    ca = me.color_attributes.new("Col", "FLOAT_COLOR", "POINT")
