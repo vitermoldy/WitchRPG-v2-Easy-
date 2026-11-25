@@ -799,3 +799,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     speed: 6,
     radius: 2.2,
     height: 3.6,
+    mass: 4000,
