@@ -1157,3 +1157,4 @@ button {
 .hpbar i {
   display: block;
   transform-origin: left;
+  outline: 1px solid rgba(0, 0, 0, 0.6);
