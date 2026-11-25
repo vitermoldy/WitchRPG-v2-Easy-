@@ -233,3 +233,4 @@ describe('Tier IV and V', () => {
   it('pays elites three times the XP', () => {
     expect(xpForUnit('husk', 12, true)).toBe(xpForUnit('husk', 12) * ELITE.xp)
     expect(xpForUnit('harrier', 10)).toBe(100)
+  })
