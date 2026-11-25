@@ -214,3 +214,4 @@ export class Ambient {
       this.rift.lookAt(cam)
       this.rift.rotateZ(0.35)
     }
+  }
