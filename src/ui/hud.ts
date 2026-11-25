@@ -193,3 +193,4 @@ export class Hud {
     if (this.root.hidden || !g.camps) return
 
     // vitals
+    this.set('hp-fill', 'transform', `scaleX(${Math.max(0, p.hp / p.maxHp).toFixed(3)})`)
