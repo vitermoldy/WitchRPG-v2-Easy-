@@ -17,3 +17,4 @@ const SHAPE: Record<Kind, { trunk: number; h: number; crown: [number, number, nu
   pine_warm: { trunk: 0.3, h: 11, crown: [3.1, 2.7, 11.5] },
   birch: { trunk: 0.2, h: 11, crown: [6.4, 2.2, 11.5] },
   swamp: { trunk: 0.45, h: 9, crown: [6.2, 2.8, 10.6] },
+  dead: { trunk: 0.35, h: 8, crown: null },
