@@ -79,3 +79,4 @@ describe('the forest valley', () => {
     }
   })
 
+  it('puts the Tebing camps and altar up on the plateau, reached by the ramp', () => {
