@@ -78,3 +78,4 @@ export async function hashPassword(password) {
 }
 
 export async function verifyPassword(password, stored) {
+  const [kind, n, r, p, salt, hash] = String(stored).split('$')
