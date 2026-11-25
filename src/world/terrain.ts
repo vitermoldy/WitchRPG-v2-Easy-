@@ -89,3 +89,4 @@ export class Terrain {
     }
   }
 
+  /** Builds the detail levels near a point right away (used before the first frame). */
