@@ -993,3 +993,4 @@ export class Game implements UnitHost {
     this.refusals()
 
     // vitals
+    if (alive && p.poisonT > 0) {
