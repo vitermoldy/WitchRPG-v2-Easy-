@@ -1162,3 +1162,4 @@ export class Game implements UnitHost {
 
   /** ?debug: the bot's stand-in for a quick sideways mouse flick while locked on. */
   flick(side: number) {
+    return this.lockon.switchSide(this.units.enemies(), this.player.pos, side)
