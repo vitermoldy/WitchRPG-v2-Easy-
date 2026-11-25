@@ -122,3 +122,4 @@ def flat(m):
     metal = 0.0
     for n in m.node_tree.nodes if m.node_tree else []:
         if n.bl_idname == "ShaderNodeBsdfPrincipled" and not n.inputs["Metallic"].is_linked:
+            metal = n.inputs["Metallic"].default_value
