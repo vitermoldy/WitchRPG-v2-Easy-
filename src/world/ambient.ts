@@ -18,3 +18,4 @@ interface Kind {
   color: number
   size: number
   /** Drift (m/s) and how much it wanders. */
+  vel: [number, number, number]
