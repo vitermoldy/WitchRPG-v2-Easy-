@@ -49,3 +49,4 @@ export class Props {
     return p
   }
 
+  clear() {
