@@ -42,3 +42,4 @@ const PAL = {
 /** Non-indexed, flat-shaded, vertex-coloured; every part of the BatchedMesh must share this layout. */
 function part(geo: THREE.BufferGeometry, color: THREE.Color, m?: THREE.Matrix4): THREE.BufferGeometry {
   let g = geo.index ? geo.toNonIndexed() : geo
+  if (m) g.applyMatrix4(m)
