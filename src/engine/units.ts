@@ -464,3 +464,4 @@ export class UnitSystem {
 
   update(dt: number) {
     this.rebuildGrid()
+    for (let i = this.units.length - 1; i >= 0; i--) {
