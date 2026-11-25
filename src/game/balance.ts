@@ -465,3 +465,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     fly: { height: 6 },
     strike: 'line',
     stun: 25,
+  },
