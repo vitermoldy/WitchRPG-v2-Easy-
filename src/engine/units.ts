@@ -550,3 +550,4 @@ export class UnitSystem {
       if (u.cd <= 0) {
         const a = Math.random() * Math.PI * 2
         const r = 2 + Math.random() * 9
+        u.aimAt.set(home.x + Math.cos(a) * r, 0, home.z + Math.sin(a) * r)
