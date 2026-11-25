@@ -453,3 +453,4 @@ def build_lineup(lib_colls, stats):
             r.parts["m"].box((ox + 1.1, -6, mtr), (0.5 if mtr % step == 0 else 0.25, 0.01, thick * 2), mat="l")
             r.finalize()
             if mtr % step == 0:
+                C.text(coll, str(mtr), (ox + 0.75, -6, mtr - ts * 0.3), size=ts * 0.85, color="#aab0bd", align="RIGHT", rot=(90, 0, 0))
