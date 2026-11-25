@@ -138,3 +138,4 @@ export const RITE = {
   detail: { default: 20, min: 10, max: 120 },
   shadowXpShare: 0.3,
   minChance: 0.1,
+  maxChance: 0.9,
