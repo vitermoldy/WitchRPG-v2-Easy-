@@ -5,3 +5,4 @@ import { fbm, HALF, heightMap, pathDist, smooth, ZONES, zoneWeights } from './ma
 export const CHUNK = 130
 export const CHUNKS = Math.round((HALF * 2) / CHUNK)
 /** Vertex spacing per level of detail (metres) and the distance up to which each is used. */
+const LOD_STEP = [2, 5, 10]
