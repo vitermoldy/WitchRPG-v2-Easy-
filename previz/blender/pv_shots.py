@@ -169,3 +169,4 @@ def mat_ring(name, color, strength, inner=0.82, alpha=0.9, fill=0.08):
     L.new(ramp.outputs["Color"], sm.inputs[0])
     L.new(sm.outputs[0], em.inputs["Strength"])
     tr = N.new("ShaderNodeBsdfTransparent")
+    mix = N.new("ShaderNodeMixShader")
