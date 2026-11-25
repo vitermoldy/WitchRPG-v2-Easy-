@@ -624,3 +624,4 @@ button {
 
 .camp-status {
   position: absolute;
+  top: var(--gutter);
