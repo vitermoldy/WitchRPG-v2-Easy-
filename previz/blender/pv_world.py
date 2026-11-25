@@ -94,3 +94,4 @@ def height(x, y):
     swamp = smooth(r["r"] * 1.15, r["r"] * 0.75, _dist(x, y, r["c"]))
     swamp_h = 0.35 + 0.9 * fbm(x / 28, y / 28, 3, 3.0)
     h = h * (1 - swamp) + swamp * swamp_h
+    # Danau Hitam
