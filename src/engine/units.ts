@@ -933,3 +933,4 @@ export class UnitSystem {
 
   /** A body thrown by Telekinesis: nearly straight for a moment, then it falls. It hurts what it hits. */
   private fly(u: Unit, dt: number) {
+    const host = this.host
