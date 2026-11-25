@@ -650,3 +650,4 @@ export class Game implements UnitHost {
   private hurtHydra(u: Unit, dmg: number, from: { x: number; z: number }, stun: number, source: 'player' | 'shadow' | 'enemy', kind: DamageKind): boolean {
     const share = this.lair.share(u, kind)
     const body = this.lair.body!
+    if (share <= 0) {
