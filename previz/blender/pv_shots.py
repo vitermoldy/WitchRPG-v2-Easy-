@@ -46,3 +46,4 @@ def place(r, coll, x, y, face, dz=0.0, scale=1.0, tilt=0.0, name=None):
     return C.instance(r.coll, coll, loc=(x, y, z), rot=(tilt, 0, yaw_to(face)), scale=scale, name=name)
 
 
+def frame_of(p, f):
