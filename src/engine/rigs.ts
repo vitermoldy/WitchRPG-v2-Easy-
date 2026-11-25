@@ -571,3 +571,4 @@ function biped(opts: { heavy: number; reach: number; sway: number }): PoseFn {
       return
     }
     if (u.state === 'stagger') {
+      p.body(-0.08, 8, 7 * Math.sin(t * 3))
