@@ -94,3 +94,4 @@ export const SKILLS: SkillDef[] = [
     name: 'Umbra Rite',
     key: 'Tahan R',
     unlock: 2,
+    effect: 'Bangkitkan musuh yang kalah menjadi bayangan. Satu kali coba per tubuh.',
