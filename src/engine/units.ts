@@ -205,3 +205,4 @@ export class Unit implements Foe {
   /** v1 elite: tougher, harder hitting, bigger, and one trait. */
   makeElite(trait: EliteTrait) {
     this.elite = trait
+    this.maxHp *= ELITE.hp
