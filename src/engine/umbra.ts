@@ -318,3 +318,4 @@ export class Umbra {
     if (this.casting.length && !holding) this.cancel()
     if (canAct && inp.ritePressed) this.begin()
     if (this.casting.length) {
+      const castTime = hasUpgrade(g.profile, 'rite') ? RITE.castTimeUpgraded : RITE.castTime
