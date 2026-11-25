@@ -133,3 +133,4 @@ export class Particles {
       this.pos[i * 3 + 2] = e.pos.z + (Math.random() - 0.5) * 2 * j
       const s = e.speed ?? 0
       // Uniform direction on a sphere.
+      const u = Math.random() * 2 - 1
