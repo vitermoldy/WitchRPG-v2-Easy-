@@ -94,3 +94,4 @@ export class Obstacles {
         const dx = pos.x - s.x
         const dz = pos.z - s.z
         const min = rr + radius
+        const d2 = dx * dx + dz * dz
