@@ -580,3 +580,4 @@ export class UnitSystem {
     this.host.clearTelegraph(u)
     u.token = false
     u.set('move')
+    this.host.fx(u, 'blink', start)
