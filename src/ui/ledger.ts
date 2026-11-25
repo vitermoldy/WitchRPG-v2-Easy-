@@ -83,3 +83,4 @@ export class Ledger {
         const rec = p.shadows.find((s) => s.id === id)
         if (!rec) return
         const group = `${rec.rank}:${rec.kind}`
+        void confirmDialog(`Lepas ${rec.name}?`, `${rec.name} kembali menjadi debu. Bayangan yang dilepas tidak bisa dipanggil lagi.`, 'Lepas bayangan').then((ok) => {
