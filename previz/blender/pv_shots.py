@@ -65,3 +65,4 @@ def shot_scene(name, dunia, world, sun_travel, sun_color="#fff1dc", sun_energy=4
 
 
 def sun_dir(f, left_deg, elev_deg):
+    """Direction towards the sun: the facing f turned left by left_deg, raised by elev_deg."""
