@@ -94,3 +94,4 @@ describe('Ilyra on foot', () => {
     }
     expect(p.pos.x).toBeGreaterThan(MOVE.dodge.distance * 0.95)
     expect(p.pos.x).toBeLessThan(MOVE.dodge.distance * 1.08)
+    for (const [t, inv] of seen) {
