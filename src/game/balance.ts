@@ -544,3 +544,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     windup: 0.6,
     recover: 0.8,
     cooldown: 1.8,
+    stun: 140,
