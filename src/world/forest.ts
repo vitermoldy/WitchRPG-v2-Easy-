@@ -126,3 +126,4 @@ function geometries(): Record<Kind, THREE.BufferGeometry> {
     birch: birch(),
     swamp: swampTree(),
     dead: snag(PAL.dead),
+    burnt: snag(PAL.burnt),
