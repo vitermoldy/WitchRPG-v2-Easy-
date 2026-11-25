@@ -115,3 +115,4 @@ export class Unit implements Foe {
   slow = 1
   vulnerable = 0
   /** Where a ring blow lands, fixed at the start of the windup and following her a little. */
+  readonly aimAt = new THREE.Vector3()
