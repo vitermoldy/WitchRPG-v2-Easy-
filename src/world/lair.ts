@@ -70,3 +70,4 @@ export class Lair {
   /** Water of the flood in phase 2 (world height), and how far the flood has come (0 to 1). */
   waterY: number
   flood = 0
+  private floodTo = 0
