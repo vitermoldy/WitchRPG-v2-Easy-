@@ -447,3 +447,4 @@ def build_lineup(lib_colls, stats):
         step = label_every
         ts = {"A": 0.46, "B": 0.62, "C": 1.3}[key]
         for mtr in range(0, top + 1):
+            thick = 0.012 * (1 if key == "A" else 2.2 if key == "B" else 5)
