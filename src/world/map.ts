@@ -53,3 +53,4 @@ export const PATHS: [number, number][][] = [
   [[30, 0], [140, -20], [230, -40]],
   [[45, 120], [180, 200], [280, 290]],
 ]
+export const CLEARINGS: [[number, number], number][] = [
