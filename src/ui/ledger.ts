@@ -4,3 +4,4 @@ import { SKILLS, type SkillId } from '../game/skills'
 
 const $ = <T extends HTMLElement = HTMLElement>(id: string) => document.getElementById(id) as T
 
+const STAT_INFO: Record<StatKey, { name: string; effect: string }> = {
