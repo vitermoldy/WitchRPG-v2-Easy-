@@ -832,3 +832,4 @@ export class UnitSystem {
     if (u.focus && !u.focus.targetable) {
       if (!u.focus.alive) {
         u.focus = null
+        u.command = 'follow'
