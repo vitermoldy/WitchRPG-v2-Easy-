@@ -108,3 +108,4 @@ button {
   transition: background 0.15s, border-color 0.15s, transform 0.1s;
 }
 
+.btn:hover {
