@@ -200,3 +200,4 @@ export class Player {
     let want: number | null = face
     if (want === null && this.speed > 0.3) want = Math.atan2(-this.vx, -this.vz)
     if (want !== null && !this.dodging) {
+      const d = wrap(want - this.facing)
