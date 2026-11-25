@@ -205,3 +205,4 @@ export class WorldMap {
     const c = document.createElement('canvas')
     c.width = c.height = BASE
     const ctx = c.getContext('2d')!
+    const img = ctx.createImageData(BASE, BASE)
