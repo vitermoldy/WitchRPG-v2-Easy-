@@ -208,3 +208,4 @@ def terrain_material():
     L.new(tc.outputs["Object"], noi.inputs["Vector"])
     mr = N.new("ShaderNodeMapRange")
     mr.inputs["From Min"].default_value = 0.66
+    mr.inputs["From Max"].default_value = 0.74
