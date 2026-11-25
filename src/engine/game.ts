@@ -865,3 +865,5 @@ export class Game implements UnitHost {
       this.prof('gpuWait', tw)
     }
     this.input.endFrame()
+  }
+
