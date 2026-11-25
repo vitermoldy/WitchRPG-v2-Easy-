@@ -93,3 +93,4 @@ describe('creature attacks', () => {
     side.step(1.4, () => {
       // she side-steps the moment the line appears (what a roll does)
       if (hound.state === 'windup' && !stepped) {
+        stepped = true
