@@ -553,3 +553,4 @@ def bounds(coll, skip=()):
         mw = world_matrix(ob)
         for v in ob.data.vertices:
             w = mw @ v.co
+            lo = Vector((min(lo.x, w.x), min(lo.y, w.y), min(lo.z, w.z)))
