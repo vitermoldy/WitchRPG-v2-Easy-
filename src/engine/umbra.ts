@@ -592,3 +592,4 @@ export class Umbra {
     p.pos.x = theirs.x
     p.pos.z = theirs.z
     p.pos.y = g.ground.height(theirs.x, theirs.z)
+    p.vx = p.vz = 0
