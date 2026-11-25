@@ -167,3 +167,4 @@ def export(key):
             mod.ratio = SHRINK
     for ob in scene.objects:
         ob.select_set(False)
+    for ob in coll.objects:
