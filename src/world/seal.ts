@@ -37,3 +37,4 @@ export class Seal {
   private readonly mat: THREE.ShaderMaterial
 
   constructor(open: boolean) {
+    this.open = open
