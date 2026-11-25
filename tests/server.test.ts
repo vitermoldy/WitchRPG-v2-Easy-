@@ -15,3 +15,5 @@ describe('the server checks a witch before it keeps her', () => {
     expect(p.level).toBe(1)
     expect(p.world).toEqual({ altars: ['pembuka'], last: 'pembuka' })
     expect(p.settings.detail).toBe(20)
+  })
+
