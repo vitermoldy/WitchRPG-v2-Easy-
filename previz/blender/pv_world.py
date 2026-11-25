@@ -265,3 +265,4 @@ def build_water(coll):
 
 # ---------------------------------------------------------------- vegetation prototypes
 
+def veg_palette():
