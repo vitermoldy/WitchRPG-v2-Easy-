@@ -57,3 +57,4 @@ interface Item {
   mat: THREE.ShaderMaterial
   kind: 'ring' | 'line'
   unit: Unit | null
+  /** Line: where it starts on the ground, its direction and length. */
