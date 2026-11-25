@@ -344,3 +344,4 @@ export class Lair {
       if (this.body && near > HYDRA.sleep) {
         this.reset()
         return
+      }
