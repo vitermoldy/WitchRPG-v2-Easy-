@@ -408,3 +408,4 @@ export class WorldMap {
     ctx.rotate(-p.facing)
     ctx.beginPath()
     ctx.moveTo(0, -s)
+    ctx.lineTo(s * 0.62, s * 0.7)
