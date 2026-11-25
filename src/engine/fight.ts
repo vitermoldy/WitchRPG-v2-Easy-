@@ -133,3 +133,4 @@ class Staff {
         this.stick()
         g.sfx.clank()
       } else if (this.pos.y < ground + 0.1) {
+        this.pos.y = ground + 0.25
