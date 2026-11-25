@@ -544,3 +544,4 @@ def b_harpy(r):
         p.cone(top, top + Vector((math.sin(a) * 0.1, -math.cos(a) * 0.08, -0.32)), 0.05, mat="accent" if i % 2 else "membrane", seg=5)
 
 
+def b_centaur(r):
