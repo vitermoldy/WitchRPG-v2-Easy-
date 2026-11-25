@@ -114,3 +114,5 @@ export class WorldMap {
     this.draw()
   }
 
+  // ------------------------------------------------------------ what the lists hold
+
