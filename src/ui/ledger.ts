@@ -262,3 +262,4 @@ export class TravelPanel {
     const list = this.host.altars()
     const here = list.find((a) => a.here)
     $('travel-here').textContent = here ? here.name : 'Altar'
+    $('travel-list').innerHTML = list
