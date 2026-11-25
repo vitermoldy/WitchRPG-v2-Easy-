@@ -33,3 +33,4 @@ export class Fauna {
 
   constructor(g: Game) {
     this.g = g
+    const spot = (kind: Spot['kind'], mx: number, my: number): Spot => {
