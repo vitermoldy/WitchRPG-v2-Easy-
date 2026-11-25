@@ -617,3 +617,4 @@ export class Game implements UnitHost {
   hurtUnit(u: Unit, dmg: number, from: { x: number; z: number }, stun: number, knock: number, source: 'player' | 'shadow' | 'enemy', kind: DamageKind = 'melee'): boolean {
     if (!u.targetable) return false
     if ((u.kind === 'hydra' || u.kind === 'hydraHead') && u.team === 'enemy' && this.lair.body) return this.hurtHydra(u, dmg, from, stun, source, kind)
+    let share = shieldShare(u, from.x, from.z, kind)
