@@ -143,3 +143,4 @@ export class Sfx {
   snare() {
     if (!this.ok()) return
     const t = this.ctx!.currentTime
+    this.tone(t, 'triangle', 220, 110, 0.7, 0.18, 0.05)
