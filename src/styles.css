@@ -1590,3 +1590,4 @@ dialog::backdrop {
   border-radius: var(--radius);
 }
 
+.room-item p {
