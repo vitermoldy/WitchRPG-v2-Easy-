@@ -531,3 +531,4 @@ export class UnitSystem {
         } else this.shadowBrain(u, dt)
       } else u.vel.multiplyScalar(Math.max(0, 1 - dt * 6))
       this.separate(u, dt)
+      this.move(u, dt, false)
