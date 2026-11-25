@@ -731,3 +731,4 @@ def render_settings(sc, res=(1920, 1080), samples=64, vol_end=600.0, vol_tile="4
         compositor(sc, bloom, bloom_threshold, vignette)
 
 
+def compositor(sc, strength=0.6, threshold=1.2, vignette=True):
