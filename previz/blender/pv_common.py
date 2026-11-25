@@ -422,3 +422,4 @@ class Part:
         self._tag(allv, mat, smooth)
         return self
 
+    def poly(self, pts, mat="membrane", smooth=False):
