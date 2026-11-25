@@ -137,3 +137,4 @@ export class Lair {
     return this.center.clone().addScaledVector(this.dir, phase === 3 ? HYDRA.crawls : HYDRA.lies)
   }
 
+  inside(x: number, z: number) {
