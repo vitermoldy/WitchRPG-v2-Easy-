@@ -294,3 +294,4 @@ export class Lair {
     const inFrom = fx === undefined || fz === undefined ? null : this.inside(fx, fz)
     if (this.state === 'calm' && this.g.profile.level < HYDRA.lairLevel && inTo && inFrom !== true) {
       if (player) this.refusedAt = this.time
+      return true
