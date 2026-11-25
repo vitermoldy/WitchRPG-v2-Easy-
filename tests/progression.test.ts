@@ -106,3 +106,4 @@ describe('upgrades and shadows', () => {
     p.skillPoints = 1
     expect(buyUpgrade(p, 'general')).toBe(false)
     expect(buyUpgrade(p, 'marshal')).toBe(false)
+  })
