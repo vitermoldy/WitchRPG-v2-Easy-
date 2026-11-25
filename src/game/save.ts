@@ -16,3 +16,4 @@ export function loadProfile(): { profile: Profile; error: string | null } {
     if (!profile) throw new Error('shape')
     return { profile, error: null }
   } catch {
+    return { profile: newProfile(), error: 'Data simpanan rusak, jadi witch dimulai dari Lv 1.' }
