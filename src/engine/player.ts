@@ -271,3 +271,4 @@ export class Player {
     const h0 = g.height(this.pos.x, this.pos.z)
     const h1 = g.height(nx, nz)
     const run = Math.hypot(dx, dz)
+    if (h1 - h0 > MOVE.maxSlope * run && this.pos.y <= h0 + 0.05) return
