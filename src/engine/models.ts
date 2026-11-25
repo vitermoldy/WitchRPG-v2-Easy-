@@ -161,3 +161,4 @@ export class IlyraModel {
     const s = this.parts['staff']
     if (!s) return null
     const c = s.clone(true)
+    c.position.set(0, 0, 0)
