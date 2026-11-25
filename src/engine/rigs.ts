@@ -693,3 +693,4 @@ const poseBeast: PoseFn = (p, u, t) => {
   }
   if (u.state === 'strike') {
     const k = Math.min(1, u.t / (u.atk.lungeTime ?? 0.4))
+    p.body(0, 20 * Math.sin(Math.PI * k))
