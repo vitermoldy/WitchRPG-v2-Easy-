@@ -237,3 +237,4 @@ describe('phase 4 creatures', () => {
     const w = world()
     const m = w.sys.spawn('medusa', 'enemy', 9, { x: 0, z: 10 })
     let gaze = false
+    w.step(4, () => {
