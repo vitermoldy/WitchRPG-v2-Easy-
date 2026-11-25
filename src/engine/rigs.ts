@@ -925,3 +925,4 @@ class Rig implements Poser {
       if (!node) return
       const at = this.hv.setFromMatrixPosition(node.matrixWorld).applyMatrix4(this.unitM)
       const reach = Math.hypot(at.x - u.pos.x, at.z - u.pos.z)
+      const short = Math.hypot(h.aimAt.x - u.pos.x, h.aimAt.z - u.pos.z) - reach
