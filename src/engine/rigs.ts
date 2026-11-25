@@ -776,3 +776,4 @@ class Rig implements Poser {
   private cap: number
   private used = 0
   private readonly pose: PoseFn
+  private readonly group: THREE.Group
