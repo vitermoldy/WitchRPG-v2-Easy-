@@ -18,3 +18,4 @@ export interface Emit {
   vel?: Vec
   /** Random offset around pos. */
   jitter?: number
+  gravity?: number
