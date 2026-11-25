@@ -29,3 +29,4 @@ interface Chunk {
 function groundColour(x: number, y: number, h: number, slope: number, out: THREE.Color, w: Float32Array) {
   zoneWeights(x, y, w)
   out.setRGB(0, 0, 0)
+  for (let i = 0; i < GROUND.length; i++) {
