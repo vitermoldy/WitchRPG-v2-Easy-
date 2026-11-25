@@ -50,3 +50,6 @@ def frame_of(p, f):
     """Point helper in a frame: forward f, right = f x up."""
     f = Vector((f[0], f[1], 0)).normalized()
     right = f.cross(Vector((0, 0, 1)))
+    return lambda fw, rt: Vector((p[0], p[1], 0)) + f * fw + right * rt
+
+
