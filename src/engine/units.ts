@@ -659,3 +659,4 @@ export class UnitSystem {
     const shadow = this.nearestFoe(u, 6)
     if (!u.aggro && !shadow && u.home) {
       // at rest in its camp: drift back home, then stand and look about
+      u.token = false
