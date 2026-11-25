@@ -225,3 +225,4 @@ export interface TravelHost {
   /** Lit altars: key, name, and whether she stands at it now. */
   altars(): { key: string; name: string; here: boolean }[]
   travel(key: string): void
+  openLedger(): void
