@@ -458,3 +458,4 @@ export class Fight {
       if (u.spec.fly) g.units.down(u, 1.5)
       this.stats.hits++
       any = true
+      u.center(this.v)
