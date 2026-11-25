@@ -1485,3 +1485,5 @@ dialog::backdrop {
 .tree-umbra::before {
   content: 'Umbra';
   color: var(--umbra-ink);
+}
+
