@@ -125,3 +125,4 @@ def humanoid(r, H, bulk=1.0, legs="human", female=False, off=(0, 0, 0), arm_pose
             ft = r.P("foot_" + side, A, "shin_" + side)
             if legs == "bird":
                 for a in (-25, 0, 25):
+                    tip = V(A) + _rz(Vector((0, -H * 0.09, -A.z + 0.01)), a)
