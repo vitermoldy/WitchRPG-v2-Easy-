@@ -104,3 +104,5 @@ export class Terrain {
     this.group.add(mesh)
     c.meshes[lod] = mesh
     this.built++
+  }
+
