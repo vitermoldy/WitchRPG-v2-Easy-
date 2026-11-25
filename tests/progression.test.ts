@@ -218,3 +218,4 @@ describe('Tier IV and V', () => {
     expect(Math.max(...levels(5))).toBe(15)
   })
   it('brings one new creature per tier, each raisable at its own rank', () => {
+    expect(TIERS[4].waves.some((w) => w.harrier)).toBe(true)
