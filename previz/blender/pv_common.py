@@ -225,3 +225,4 @@ def palette_ref(key, spec):
     def tone(slot, v):
         top, bottom = (v if isinstance(v, tuple) else (v, None))
         rough = 0.35 if slot in ("metal", "gold") else 0.75
+        metal = 0.85 if slot in ("metal", "gold") else 0.0
