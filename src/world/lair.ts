@@ -476,3 +476,4 @@ export class Lair {
         const imp = g.units.spawn('imp', 'enemy', 10, spot, true)
         imp.owner = body
         imp.aggro = true
+        body.helpers++
