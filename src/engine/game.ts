@@ -185,3 +185,4 @@ export class Game implements UnitHost {
     // One NaN pixel blurred by bloom turns the whole screen black (v1). Zero any that slip through.
     this.composer.addPass(
       new ShaderPass({
+        uniforms: { tDiffuse: { value: null } },
