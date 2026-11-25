@@ -17,3 +17,4 @@ if (!USERNAME.test(username) || password.length < PASSWORD_MIN || password.lengt
 
 const pool = await connect(config.db)
 const hash = await hashPassword(password)
+const [[found]] = await pool.query('SELECT id, username FROM users WHERE username = ?', [username])
