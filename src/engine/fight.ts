@@ -228,3 +228,4 @@ export class Fight {
   private blockBlend = 0
   private parryFx = 0
   private hurtFx = 0
+  private throwT = -1
