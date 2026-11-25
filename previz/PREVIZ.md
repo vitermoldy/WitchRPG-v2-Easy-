@@ -116,3 +116,4 @@ Makhluk memakai warna dari gambar referensinya (keputusan pemilik setelah previz
 | Minotaur | merah cokelat `#9c4c30` | tanduk `#ece2c8`, bulu kaki `#4a2418`, rok kulit `#3a2a20`, dua kapak perak |
 | Cyclops | kulit `#d49a6a` | cawat bulu `#6a4a30`, tali `#4a3020`, perisai kayu, sabuk tengkorak |
 | Medusa | kulit hijau `#86bb62` | rambut ular tembaga `#c47a3a`, ekor `#8aa040`, gaun putih `#f2efe6`, emas |
+| Chimera | singa `#b8843c` | surai krem `#e8dcc0`, kepala kambing `#8a7c6c`, ekor ular biru `#2b4a8c` perut emas |
