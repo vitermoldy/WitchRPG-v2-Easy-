@@ -1195,3 +1195,4 @@ export class Game implements UnitHost {
         executed: u.executed,
         riteTried: u.riteTried,
         deadT: u.deadT,
+      }))
