@@ -68,3 +68,4 @@ export class Sfx {
     src.stop(t + attack + dur + 0.05)
   }
 
+  private tone(t: number, type: OscillatorType, f0: number, f1: number, dur: number, peak: number, attack = 0.005) {
