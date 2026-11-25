@@ -966,3 +966,4 @@ export const HYDRA = {
   /** Seconds after it falls before it stands in the lake again (owner: every 45 seconds, like every boss). */
   respawn: 45,
   /** It rises into the lake when she comes within `wake` of the lair, and sinks away again past `sleep` (m). */
+  wake: 150,
