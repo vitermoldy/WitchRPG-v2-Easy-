@@ -11,3 +11,4 @@ PREVIZ = ROOT + r"\previz"
 ASSETS = ROOT + r"\assets"
 FONT_PATH = r"C:\Windows\Fonts\bahnschrift.ttf"
 
+# Colours from v1 (src/engine/palette.ts) plus the v2 zone fogs.
