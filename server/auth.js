@@ -95,3 +95,4 @@ function readCookie(req, name) {
   return undefined
 }
 
+/** At most `limit` attempts per minute per address: slows down password guessing. */
