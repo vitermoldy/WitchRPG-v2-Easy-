@@ -155,3 +155,4 @@ export function inSwing(fromX: number, fromZ: number, yaw: number, swing: Swing,
   const fz = -Math.cos(yaw)
   const cos = (dx * fx + dz * fz) / d
   return Math.acos(Math.max(-1, Math.min(1, cos))) <= swing.arc / 2 + Math.atan2(radius, d)
+}
