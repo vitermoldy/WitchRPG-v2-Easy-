@@ -262,3 +262,4 @@ export class WorldMap {
     cv.width = cv.height = Math.round(size * dpr)
     const ctx = cv.getContext('2d')!
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0)
+    const px = (mx: number) => ((mx + EXTENT) / (EXTENT * 2)) * size
