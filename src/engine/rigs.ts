@@ -325,3 +325,4 @@ const poseCentaur: PoseFn = (p, u, t) => {
   const draw = u.state === 'windup' && u.atk.shot ? ease(u.t / u.atk.windup) : u.state === 'recover' && u.atk.shot ? 1 - ease(u.t / 0.25) : 0
   if (u.state === 'windup' && !u.atk.shot) {
     const k = ease(u.t / u.atk.windup)
+    p.body(0.25 * k, -22 * k)
