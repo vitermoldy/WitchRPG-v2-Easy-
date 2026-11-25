@@ -36,3 +36,5 @@ SPOTS = {
     "hydra": (-330 + 0.673 * 100, 300 - 0.740 * 100),
     "army": (128, -258),
 }
+CLEARINGS = [(SPOTS["hero"], 22), (SPOTS["army"], 16), (ALTAR, 16), (TEMPLE, 30), (SPOTS["minotaur"], 18), (SPOTS["hydra"], 20)]
+
