@@ -246,3 +246,4 @@ def build_water(coll):
     tc = nt.nodes.new("ShaderNodeTexCoord")
     noi = nt.nodes.new("ShaderNodeTexNoise")
     noi.inputs["Scale"].default_value = 0.15
+    nt.links.new(tc.outputs["Object"], noi.inputs["Vector"])
