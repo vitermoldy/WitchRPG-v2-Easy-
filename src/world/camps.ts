@@ -239,3 +239,4 @@ export class Camps {
           const close = (u: Unit) => {
             if (p.alive && Math.hypot(u.pos.x - p.pos.x, u.pos.z - p.pos.z) < CAMP.aggro) return true
             if (u.hp < u.maxHp - 0.01) return true
+            const s = g.units.nearestFoe(u, CAMP.aggro * 0.6)
