@@ -767,3 +767,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     ],
   },
   lilith: {
+    name: 'Lilith',
