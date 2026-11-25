@@ -50,3 +50,4 @@ export class Player {
   /** Every roll started, for the debug readout and the bot. */
   dodges = 0
   hp = 100
+  maxHp = 100
