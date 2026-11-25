@@ -176,3 +176,4 @@ def export(key):
         export_vertex_color="ACTIVE",
     )
     tris = C.tri_count(coll)
+    if SHRINK:
