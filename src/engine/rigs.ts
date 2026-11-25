@@ -707,3 +707,4 @@ const poseBeast: PoseFn = (p, u, t) => {
     p.rot('head', 25 + 8 * Math.sin(t * 4))
     return
   }
+  if (flying) {
