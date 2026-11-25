@@ -239,3 +239,4 @@ export class WorldMap {
           r *= shade
           gg *= shade
           b *= shade
+        }
