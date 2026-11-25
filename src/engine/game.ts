@@ -171,3 +171,4 @@ export class Game implements UnitHost {
     }
     this.sensitivity = this.profile.settings.sensitivity
     this.derived = derive(this.profile.stats, this.profile.level)
+    this.applyDerived(true)
