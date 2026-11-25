@@ -724,3 +724,4 @@ export class Game implements UnitHost {
   }
 
   /** Fast travel from one lit altar to another; the shadows on the field come along. */
+  travel(key: string) {
