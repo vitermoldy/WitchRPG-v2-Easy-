@@ -97,3 +97,4 @@ export class Lair {
     // the flood: a dark disc that rises over the shore in phase 2
     const water = new THREE.Mesh(
       new THREE.CircleGeometry(LAIR_RADIUS, 48).rotateX(-Math.PI / 2),
+      new THREE.MeshStandardMaterial({ color: 0x0b1512, roughness: 0.12, metalness: 0.35, transparent: true, opacity: 0.88 }),
