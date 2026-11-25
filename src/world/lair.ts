@@ -254,3 +254,4 @@ export class Lair {
     const g = this.g
     this.state = 'won'
     this.wonAt = this.time
+    this.floodTo = 0
