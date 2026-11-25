@@ -90,3 +90,4 @@ describe('staff combo', () => {
     const c = new Combo()
     const ev = play(c, Array.from({ length: 30 }, (_, i) => [1 / 60, i === 0, true] as [number, boolean, boolean]))
     const start = ev.find((e) => e.type === 'start')
+    expect(start && start.s.heavy).toBe(true)
