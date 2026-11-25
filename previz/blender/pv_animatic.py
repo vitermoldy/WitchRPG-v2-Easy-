@@ -10,3 +10,5 @@ import pv_common as C
 import pv_creatures as K
 import pv_shots as S
 import pv_world as Wd
+from pv_common import HEX, V
+
