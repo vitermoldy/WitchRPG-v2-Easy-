@@ -129,3 +129,4 @@ def path_dist(x, y):
             dx, dy = bx - ax, by - ay
             L2 = dx * dx + dy * dy
             t = np.clip(((x - ax) * dx + (y - ay) * dy) / L2, 0, 1)
+            best = np.minimum(best, np.hypot(x - (ax + t * dx), y - (ay + t * dy)))
