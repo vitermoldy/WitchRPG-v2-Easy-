@@ -427,3 +427,4 @@ export class ShadowPools {
     const geo = new THREE.PlaneGeometry(2, 2)
     geo.rotateX(-Math.PI / 2)
     for (let i = 0; i < count; i++) {
+      const mat = new THREE.ShaderMaterial({
