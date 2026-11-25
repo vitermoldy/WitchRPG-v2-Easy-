@@ -1181,3 +1181,4 @@ export const COMBAT = {
     /** Her pace while holding block. */
     speed: 0.45,
   },
+  parry: {
