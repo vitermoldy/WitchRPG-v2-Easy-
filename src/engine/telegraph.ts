@@ -40,3 +40,4 @@ const LINE_FRAG = /* glsl */ `
     float side = min(vUv.x, 1.0 - vUv.x);
     float border = smoothstep(0.12, 0.0, side);
     float blink = step(0.5, fract(uTime * 7.0));
+    float fill = step(vUv.y, uFill) * 0.3;
