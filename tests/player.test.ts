@@ -103,3 +103,4 @@ describe('Ilyra on foot', () => {
   it('steps back when she rolls with no direction held', () => {
     const p = new Player()
     p.facing = 0
+    run(p, { ...idle, dodge: true }, 0.6)
