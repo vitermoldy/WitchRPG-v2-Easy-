@@ -296,3 +296,4 @@ export class Game implements UnitHost {
   }
 
   fx(u: Unit, what: 'blink' | 'ashes' | 'reborn', from?: THREE.Vector3) {
+    if (what === 'blink') {
