@@ -576,3 +576,4 @@ export class Umbra {
       return
     }
     const cam = g.camera.position
+    const fwd = g.camera.getWorldDirection(new THREE.Vector3())
