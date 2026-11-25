@@ -12,3 +12,4 @@ export interface Vec {
   y: number
   z: number
 }
+export type HeightFn = (x: number, z: number) => number
