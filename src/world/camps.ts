@@ -57,3 +57,4 @@ export const CAMP_DEFS: CampDef[] = [
   { c: [100, 300], pack: { succubus: 1, imp: 2 }, levels: [10, 11] },
   { c: [-20, 330], pack: { cyclops: 1, minotaur: 1 }, levels: [11, 11] },
   { c: [92, 382], pack: { incubus: 1, minotaur: 1 }, levels: [11, 12] },
+  { c: [40, 330], pack: { incubus: 1, succubus: 1 }, levels: [12, 12], elites: 1 },
