@@ -1158,3 +1158,4 @@ def ilyra_palette():
         "chaos": C.mat_emit("ilyra_chaos", HEX["chaos"], 14.0),
         "umbra": C.mat_emit("ilyra_umbra", HEX["umbra"], 14.0),
         "sigil_l": C.mat_emit("ilyra_sigil_l", HEX["chaos_hot"], 6.0),
+        "sigil_r": C.mat_emit("ilyra_sigil_r", HEX["umbra_hot"], 6.0),
