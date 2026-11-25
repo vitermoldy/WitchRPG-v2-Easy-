@@ -792,3 +792,4 @@ export class Game implements UnitHost {
     // skip the stretch between the camera and her, so a creature behind her shoulder is not picked
     const skip = Math.max(0, this.v.set(this.player.pos.x, this.player.pos.y + 1.4, this.player.pos.z).sub(o).dot(dir) - 0.3)
     const end = o.clone().addScaledVector(dir, maxDist)
+    let best = this.obstacles.sweep(o.x, o.y, o.z, end.x, end.y, end.z, 0) * maxDist
