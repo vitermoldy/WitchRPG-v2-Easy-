@@ -207,3 +207,4 @@ const poseHound: PoseFn = (p, u, t) => {
     for (let i = 0; i < 3; i++) p.rot('neck' + i, 28 * k + Math.sin(t * 40 + i) * 2 * k, (i === 1 ? 14 : i === 2 ? -14 : 0) * k)
     p.rot('tail', -35 * k)
     return
+  }
