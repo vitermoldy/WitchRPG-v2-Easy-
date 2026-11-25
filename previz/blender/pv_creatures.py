@@ -771,3 +771,6 @@ def _demon(r, H, bulk, female, span, horn_kind, arm_pose):
         for a in (-0.025, 0.0, 0.025):
             hd.cone(W + d * 0.07, W + d * 0.2 + Vector((a, -0.02, 0)), 0.007, mat="horn", seg=4)
     r.parts["hand_L"].ell(J["tip_L"] + J["hand_dir_L"] * 0.06, 0.06, mat="glow", seg=10, rings=6)
+    return J
+
+
