@@ -5,3 +5,4 @@ import type { Game } from './game'
 import { COLOR } from './palette'
 
 export interface Prop {
+  readonly pos: THREE.Vector3
