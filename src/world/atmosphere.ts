@@ -42,3 +42,4 @@ void main() {
  * blend by the zone weights, and the blend eases over time so walking between zones never pops.
  */
 export class Atmosphere {
+  readonly fog = new THREE.FogExp2('#cddbea', 0.007)
