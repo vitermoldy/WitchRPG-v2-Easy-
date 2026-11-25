@@ -258,3 +258,5 @@ export function impactDamage(mass: number, speed: number, coefficient: number, e
   return coefficient * mass ** exponent * speed
 }
 
+const SYLLABLES = ['ve', 'mor', 'ska', 'thal', 'ri', 'on', 'du', 'kar', 'nyx', 'el', 'sor', 'ath', 'gru', 'vel', 'om', 'zir']
+
