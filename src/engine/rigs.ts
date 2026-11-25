@@ -497,3 +497,4 @@ const poseChimera: PoseFn = (p, u, t) => {
   p.rot('head_goat', 3 * Math.sin(t * 2.6 + 1))
   const name = u.atk.name
   if (u.state === 'windup') {
+    const k = ease(u.t / u.atk.windup)
