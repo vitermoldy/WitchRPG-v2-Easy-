@@ -37,3 +37,4 @@ export class Fauna {
       const [x, z] = toWorld(mx, my)
       return { kind, x, z, unit: null }
     }
+    // the Unicorn stands a few metres off the altar, out of the way of the stone
