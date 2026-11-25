@@ -112,3 +112,4 @@ export class Terrain {
     const z0 = -HALF + iz * CHUNK
     // heights on a grid one step wider on every side, so normals match across chunk edges
     const g = n + 3
+    const hs = new Float32Array(g * g)
