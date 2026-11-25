@@ -71,3 +71,4 @@ export class Particles {
   private readonly col: Float32Array
   private readonly size: Float32Array
   private readonly alpha: Float32Array
+  private readonly vel: Float32Array
