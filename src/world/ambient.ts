@@ -184,3 +184,4 @@ export class Ambient {
       if (first) {
         this.respawn(i, cam, ground, w, true)
         continue
+      }
