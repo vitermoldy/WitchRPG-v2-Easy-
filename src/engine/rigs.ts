@@ -892,3 +892,4 @@ class Rig implements Poser {
       else {
         this.m.multiplyMatrices(this.unitM, part.src.matrixWorld)
         part.mesh.setMatrixAt(i, this.m)
+      }
