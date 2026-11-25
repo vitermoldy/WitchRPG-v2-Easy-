@@ -159,3 +159,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
     user.toggleAttribute('aria-invalid', !name)
     pass.toggleAttribute('aria-invalid', !password)
     if (!name || !password) {
+      showError(!name ? 'Isi username dulu.' : 'Isi kata sandi dulu.')
