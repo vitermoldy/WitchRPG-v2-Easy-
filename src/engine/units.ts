@@ -499,3 +499,4 @@ export class UnitSystem {
       if (u.state === 'diving') {
         if (u.t >= (u.spec.dive ?? 3)) this.surface(u)
         continue
+      }
