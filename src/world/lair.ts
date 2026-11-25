@@ -5,3 +5,5 @@ import { COLOR } from '../engine/palette'
 import { ringOf, type DamageKind, type Unit } from '../engine/units'
 import { heightAt, LAKE, SPOTS, toWorld, WATER_LEVEL } from './map'
 
+export type LairState = 'calm' | 'fight' | 'won'
+
