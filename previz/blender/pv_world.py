@@ -180,3 +180,4 @@ def build_terrain(coll, size=1300.0, step=2.5):
     rgba = np.concatenate([col.reshape(-1, 3), np.ones((n * n, 1))], axis=1).astype(np.float32)
     ca.data.foreach_set("color", rgba.ravel())
     ba = me.attributes.new("bara", "FLOAT", "POINT")
+    ba.data.foreach_set("value", W[4].ravel().astype(np.float32))
