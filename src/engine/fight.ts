@@ -214,3 +214,4 @@ class Staff {
  */
 export class Fight {
   readonly combo = new Combo()
+  readonly staff: Staff
