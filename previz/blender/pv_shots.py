@@ -381,3 +381,4 @@ def build_army(dunia):
     dark = C.mat_flat("kolam_gelap", "#07030d", 0.15)
     troops = [
         ("imp", 4.6, -3.0, -0.25, 1.0), ("imp", 5.2, 3.2, 0.0, 1.0), ("imp", 6.2, 0.6, -0.55, 1.0),
+        ("hellhound", 4.4, -0.8, -0.35, 1.3), ("minotaur", 8.2, -2.4, -1.2, 2.0), ("centaur", 9.2, 2.6, -0.7, 1.9),
