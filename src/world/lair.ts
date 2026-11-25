@@ -390,3 +390,4 @@ export class Lair {
       const idle = this.heads.filter((h): h is Unit => !!h && h.alive && h.state === 'move')
       if (idle.length) {
         // a head only comes down where its neck reaches; past that it spits
+        const reach = Math.hypot(her.x - body.pos.x, her.z - body.pos.z)
