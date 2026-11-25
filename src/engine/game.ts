@@ -537,3 +537,5 @@ export class Game implements UnitHost {
     })
   }
 
+  // ------------------------------------------------------------ her vitals, levels and falls
+
