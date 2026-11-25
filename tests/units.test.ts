@@ -82,3 +82,4 @@ describe('creature attacks', () => {
   })
 
   it('sends a Hellhound along its line: in the line she is hit, beside it she is not', () => {
+    const hit = world()
