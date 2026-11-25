@@ -787,3 +787,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     keepAway: 9,
     attacks: [
       { name: 'lilitan ular', strike: 'ring', windup: 0.8, recover: 0.9, range: 4, ring: 3.2 },
+      { name: 'tombak gelap', strike: 'line', windup: 0.8, recover: 0.8, range: 26, minRange: 5, shot: { speed: 26, gravity: 0, radius: 0.3 } },
