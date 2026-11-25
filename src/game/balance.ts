@@ -336,3 +336,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     recover: 1,
     cooldown: 2,
     shield: 0.85,
+  },
