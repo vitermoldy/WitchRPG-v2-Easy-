@@ -1185,3 +1185,4 @@ export class Game implements UnitHost {
         aimX: u.aimAt.x,
         aimZ: u.aimAt.z,
         dirX: u.lungeDir.x,
+        dirZ: u.lungeDir.z,
