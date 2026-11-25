@@ -221,3 +221,4 @@ button {
 .screen-start {
   display: grid;
   grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.25fr);
+  gap: clamp(24px, 4vw, 64px);
