@@ -88,3 +88,4 @@ export const CAMP_DEFS: CampDef[] = [
   { c: [360, 350], pack: { samael: 1 }, levels: [19, 19], boss: true },
 ]
 
+export interface Camp {
