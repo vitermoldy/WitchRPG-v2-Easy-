@@ -6,3 +6,4 @@ export const COLOR = {
   umbra: 0x8f55ff,
   umbraHot: 0xc7a6ff,
   umbraDeep: 0x2c1052,
+  /** Rift creatures: amber eyes and cracks, so they never read as the witch's red or violet. */
