@@ -96,3 +96,4 @@ export class Terrain {
 
   private ensure(c: Chunk, lod: number) {
     if (c.meshes[lod]) return
+    const mesh = new THREE.Mesh(this.geometry(c.ix, c.iz, LOD_STEP[lod]), this.material)
