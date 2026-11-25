@@ -300,3 +300,4 @@ export class IlyraModel {
       torsoY = pose.torso
       armRX = pose.armX
       armRY = pose.armY
+      foreR = pose.fore
