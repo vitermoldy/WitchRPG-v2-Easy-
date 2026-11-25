@@ -33,3 +33,4 @@ export class Props {
   private readonly s = new THREE.Vector3()
   private readonly c = new THREE.Vector3()
 
+  constructor(g: Game) {
