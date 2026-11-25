@@ -484,3 +484,4 @@ class Rig:
             parent_pivot = self.parts[p.parent].pivot if par else Vector()
             ob.parent = par or self.root
             ob.location = p.pivot - parent_pivot
+            self.objs[name] = ob
