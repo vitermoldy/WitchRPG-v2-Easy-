@@ -110,3 +110,4 @@ class Staff {
     this.t += dt
     this.spin += dt * 22
     if (this.state === 'flying') {
+      this.prev.copy(this.pos)
