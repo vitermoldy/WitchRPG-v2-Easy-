@@ -697,3 +697,4 @@ button {
 
 .feed {
   position: absolute;
+  left: var(--gutter);
