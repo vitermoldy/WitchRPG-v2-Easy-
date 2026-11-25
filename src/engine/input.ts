@@ -29,3 +29,4 @@ export class Input {
     })
     window.addEventListener('blur', () => this.releaseAll())
     target.addEventListener('mousedown', (e) => {
+      if (!this.active) return
