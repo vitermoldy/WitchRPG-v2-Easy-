@@ -23,3 +23,4 @@ describe('the forest valley', () => {
         for (let d = step; d <= len; d += step) {
           const x = ax + ((bx - ax) * d) / len
           const y = ay + ((by - ay) * d) / len
+          const h = heightMap(x, y)
