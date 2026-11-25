@@ -1143,3 +1143,4 @@ export class Game implements UnitHost {
       enemies: this.units.enemies().length,
       shadowsField: this.umbra.field().length,
       shadowsRoom: this.profile.shadows.length,
+      staff: this.fight.staff.state,
