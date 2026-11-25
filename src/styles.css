@@ -744,3 +744,4 @@ button {
 
 @keyframes feed-in {
   from {
+    opacity: 0;
