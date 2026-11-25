@@ -475,3 +475,4 @@ export class UnitSystem {
       u.diveCd = Math.max(0, u.diveCd - dt)
       u.blinkCd = Math.max(0, u.blinkCd - dt)
       for (const [k, v] of u.atkCd) if (v > 0) u.atkCd.set(k, Math.max(0, v - dt))
+      if (u.state === 'dead') {
