@@ -114,3 +114,4 @@ export class Lair {
       mesh.position.set(x, this.groundY - 5, z)
       mesh.castShadow = mesh.receiveShadow = true
       mesh.visible = false
+      this.group.add(mesh)
