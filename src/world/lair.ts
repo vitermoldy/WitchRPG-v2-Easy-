@@ -143,3 +143,4 @@ export class Lair {
 
   /** The Hydra's level, for the HUD and the tests. */
   get level() {
+    return LEVEL
