@@ -243,3 +243,4 @@ const poseHarpy: PoseFn = (p, u, t) => {
   if (common(p, u, t, HARPY_LIMBS)) return
   const flying = u.flyer && u.alt > 0.8
   if (u.state === 'windup') {
+    const k = ease(u.t / u.spec.windup)
