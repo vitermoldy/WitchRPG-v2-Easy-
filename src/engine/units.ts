@@ -708,3 +708,4 @@ export class UnitSystem {
           break
         } else if (spec.keepAway) {
           // shooters hold their distance: back off when she closes in, come closer when out of range
+          if (dist < spec.keepAway * 0.8) this.steer(u, u.pos.x - (tgt.pos.x - u.pos.x), u.pos.z - (tgt.pos.z - u.pos.z), speed, dt)
