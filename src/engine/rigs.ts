@@ -65,3 +65,4 @@ interface Part {
 }
 
 /** What a pose function may move: named parts (degrees, added to the rest pose) and the whole body. */
+export interface Poser {
