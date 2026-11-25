@@ -740,3 +740,4 @@ export class Game implements UnitHost {
       u.vel.set(0, 0, 0)
       u.groundX = NaN
       u.command = 'follow'
+      u.focus = null
