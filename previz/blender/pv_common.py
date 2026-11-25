@@ -178,3 +178,4 @@ def mat_globe(name, ocean="#2a6aa8", land="#4f8a3a"):
         return _MATS[name]
     m = _new_mat(name)
     nt = m.node_tree
+    N, L = nt.nodes, nt.links
