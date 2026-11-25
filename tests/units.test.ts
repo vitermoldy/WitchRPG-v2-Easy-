@@ -231,3 +231,5 @@ describe('phase 4 creatures', () => {
     const imps = w.sys.units.filter((u) => u.kind === 'imp' && u.owner === c && u.alive)
     expect(w.log.summoned).toBeGreaterThan(0)
     expect(imps.length).toBeLessThanOrEqual(UNITS.chimera.summon!.max)
+  })
+
