@@ -153,3 +153,4 @@ export class Ledger {
 
     for (const branch of ['chaos', 'umbra'] as const) {
       $(`tree-${branch}`).innerHTML = SKILLS.filter((s) => s.branch === branch)
+        .map((s) => {
