@@ -451,3 +451,4 @@ export class UnitSystem {
       tx = (dx / d) * speed * k
       tz = (dz / d) * speed * k
     }
+    const a = Math.min(1, dt * 8)
