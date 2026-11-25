@@ -592,3 +592,4 @@ def build_fog(coll):
     bm.free()
     m = bpy.data.materials.get("atmosphere") or bpy.data.materials.new("atmosphere")
     m.use_nodes = True
+    nt = m.node_tree
