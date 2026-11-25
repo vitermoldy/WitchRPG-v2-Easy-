@@ -19,3 +19,4 @@ export interface Prop {
 const CAP = 16
 
 /**
+ * Boulders she can lift with Telekinesis and throw (the Hydra's islands keep a few). A thrown boulder
