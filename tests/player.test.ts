@@ -145,3 +145,4 @@ describe('Ilyra on foot', () => {
   it('walks through a crown, which only blocks the camera', () => {
     const obs = new Obstacles()
     obs.add({ kind: CYL, x: 0, y: 0, z: -3, r: 2, h: 10, camOnly: true })
+    const p = new Player()
