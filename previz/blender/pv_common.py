@@ -763,3 +763,4 @@ def compositor(sc, strength=0.6, threshold=1.2, vignette=True):
         last = mix.outputs["Result"]
     out = N.new("NodeGroupOutput")
     L.new(last, out.inputs[0])
+    sc.compositing_node_group = ng
