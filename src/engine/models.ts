@@ -26,3 +26,4 @@ export function bakeByMaterial(root: THREE.Object3D): { geometry: THREE.BufferGe
   root.updateMatrixWorld(true)
   const groups = new Map<THREE.Material, THREE.BufferGeometry[]>()
   root.traverse((o) => {
+    const m = o as THREE.Mesh
