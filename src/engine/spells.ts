@@ -521,3 +521,4 @@ export class Spells {
     const g = this.g
     let at: THREE.Vector3
     const locked = g.lockon.current as Unit | null
+    if (aiming) {
