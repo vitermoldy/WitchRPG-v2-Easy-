@@ -124,3 +124,4 @@ export const SKILLS: SkillDef[] = [
     name: 'Kebangkitan Jenderal',
     key: 'Tahan R',
     unlock: 8,
+    effect: 'Bisa membangkitkan makhluk berpangkat Jenderal: Medusa dan Chimera.',
