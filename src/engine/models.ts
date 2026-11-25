@@ -65,3 +65,4 @@ export interface IlyraPose {
   rite: number
   /** Flinch after a hit (fades from 1), and her fall (0 to 1, or -1). */
   hurt: number
+  dead: number
