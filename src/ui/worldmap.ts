@@ -294,3 +294,4 @@ export class WorldMap {
       // nowhere free: the first spot that stays on the map
       const [cx, cy] = tries.find(free) ?? tries.find(inside) ?? tries[0]
       placed.push([cx - w / 2, cy - h / 2, cx + w / 2, cy + h / 2])
+      ctx.lineWidth = 3
