@@ -183,3 +183,4 @@ describe('the seal on zones IV and V', () => {
 describe('creature shots', () => {
   it('a volley whose first glob fells her does not trip over the shots her fall cleared', async () => {
     const { Projectiles } = await import('../src/engine/projectiles')
+    const w = world()
