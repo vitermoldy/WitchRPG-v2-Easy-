@@ -570,3 +570,4 @@ def text(coll, body, loc, size=0.3, color="#efe6df", strength=1.0, align="LEFT",
     cu = bpy.data.curves.new(name or "txt", "FONT")
     cu.body = body
     cu.font = font()
+    cu.size = size
