@@ -344,3 +344,4 @@ button {
 }
 
 .setting input[type='range'] {
+  width: 100%;
