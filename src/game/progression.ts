@@ -59,3 +59,4 @@ export interface Profile {
   bossKills: number
   settings: Settings
   /** Altars she has lit, and the one she rises at after a fall. */
+  world: { altars: string[]; last: string }
