@@ -273,3 +273,4 @@ export class Hud {
     this.html(this.prompt, 'prompt', html)
   }
 
+  /** The big bar while a mini-boss fights her. */
