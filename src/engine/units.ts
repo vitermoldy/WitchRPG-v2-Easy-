@@ -301,3 +301,4 @@ export class UnitSystem {
   remove(u: Unit) {
     const i = this.units.indexOf(u)
     if (i >= 0) this.units.splice(i, 1)
+    u.token = false
