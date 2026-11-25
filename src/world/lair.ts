@@ -431,3 +431,4 @@ export class Lair {
     if (k === 1) return
     at.x = b.pos.x + dx * k
     at.z = b.pos.z + dz * k
+    at.y = this.g.height(at.x, at.z)
