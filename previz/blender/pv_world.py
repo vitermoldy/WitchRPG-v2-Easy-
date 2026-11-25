@@ -558,3 +558,4 @@ def fog_material(z):
     m2.inputs[1].default_value = z["dens"]
     L.new(m1.outputs[0], m2.inputs[0])
     L.new(m2.outputs[0], vol.inputs["Density"])
+    # a faint glow in the fog's own colour keeps each zone readable in shade and from far away
