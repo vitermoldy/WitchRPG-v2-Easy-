@@ -1027,3 +1027,4 @@ export interface TierSpec {
   needsBoss?: boolean
 }
 
+export const TIERS: Record<TierId, TierSpec> = {
