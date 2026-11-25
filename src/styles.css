@@ -1595,3 +1595,4 @@ dialog::backdrop {
 }
 
 .room-name {
+  color: var(--umbra-ink);
