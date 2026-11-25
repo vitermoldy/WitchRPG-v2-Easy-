@@ -265,3 +265,5 @@ export class Fight {
     if (this.blocking) return COMBAT.block.speed
     if (s) return 0.5
     return 1
+  }
+
