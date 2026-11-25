@@ -68,3 +68,4 @@ export class LockOn {
       if (Math.hypot(t.x - player.x, t.z - player.z) > LOCKON.range) continue
       // yaw grows to the left, so a target on the right has a negative difference
       const a = wrap(yawTo(player.x, player.z, t.x, t.z) - base) * -side
+      if (a <= 0.02 || a > Math.PI * 0.8) continue
