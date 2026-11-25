@@ -177,3 +177,4 @@ def build_terrain(coll, size=1300.0, step=2.5):
     me.update(calc_edges=True)
     me.validate()
     ca = me.color_attributes.new("Col", "FLOAT_COLOR", "POINT")
+    rgba = np.concatenate([col.reshape(-1, 3), np.ones((n * n, 1))], axis=1).astype(np.float32)
