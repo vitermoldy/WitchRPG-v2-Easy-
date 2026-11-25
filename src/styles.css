@@ -1901,3 +1901,4 @@ dialog::backdrop {
 }
 
 .map-monsters li {
+  display: flex;
