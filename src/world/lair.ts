@@ -253,3 +253,4 @@ export class Lair {
   bossDied() {
     const g = this.g
     this.state = 'won'
+    this.wonAt = this.time
