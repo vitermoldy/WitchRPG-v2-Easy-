@@ -640,3 +640,6 @@ def point(coll, name, loc, color, energy=50.0, radius=0.1, parent=None):
     if parent:
         ob.parent = parent
     coll.objects.link(ob)
+    return ob
+
+
