@@ -795,3 +795,4 @@ def b_griffin(r):
     for s in (1, -1):
         feather_wing(b, (0.3 * s, -0.55, Q["H"] + 0.05), s, 3.3, 1.7, raise_deg=42, sweep_deg=22, feathers=10, tip_mat="accent")
     tl = r.P("tail", Q["tail_base"], "body")
+    pts = [Q["tail_base"], (0, 1.75, 1.5), (0, 2.15, 1.0), (0, 2.45, 0.7)]
