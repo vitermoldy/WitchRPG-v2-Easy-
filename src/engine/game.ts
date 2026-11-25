@@ -1175,3 +1175,4 @@ export class Game implements UnitHost {
         kind: u.kind,
         x: u.pos.x,
         y: u.pos.y,
+        z: u.pos.z,
