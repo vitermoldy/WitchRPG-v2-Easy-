@@ -48,3 +48,4 @@ def place(r, coll, x, y, face, dz=0.0, scale=1.0, tilt=0.0, name=None):
 
 def frame_of(p, f):
     """Point helper in a frame: forward f, right = f x up."""
+    f = Vector((f[0], f[1], 0)).normalized()
