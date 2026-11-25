@@ -90,3 +90,4 @@ export class Lair {
     const [lx, lz] = toWorld(SPOTS.hydra[0], SPOTS.hydra[1])
     const [kx, kz] = toWorld(LAKE.c[0], LAKE.c[1])
     this.dir = new THREE.Vector3(kx - lx, 0, kz - lz).normalize()
+    this.center = new THREE.Vector3(lx, 0, lz).addScaledVector(this.dir, 4)
