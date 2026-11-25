@@ -160,3 +160,4 @@ export class Hud {
     this.pulse('fade')
   }
 
+  private pulse(id: string) {
