@@ -786,3 +786,4 @@ export class UnitSystem {
             if (near && (!spec.fly || u.alt < 2.2)) {
               u.hitDone = true
               if (onPlayer) host.strikePlayer(u, atk)
+              else host.strikeUnit(u, tgt as Unit, atk)
