@@ -48,3 +48,4 @@ async function boot() {
     fail(`Hutan gagal dimuat: ${(e as Error).message}`)
     return
   }
+  show('start')
