@@ -338,3 +338,4 @@ def _grass(p):
     for k in range(8):
         a = k * 2.4
         b = Vector((math.cos(a) * 0.08, math.sin(a) * 0.08, 0))
+        tip = b + Vector((math.cos(a) * 0.18, math.sin(a) * 0.18, 0.45 + 0.15 * (k % 3)))
