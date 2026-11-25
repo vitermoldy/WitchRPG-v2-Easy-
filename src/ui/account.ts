@@ -146,3 +146,5 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
         /* the browser keeps the save; the next one tries again */
       }
     }, 1200)
+  }
+
