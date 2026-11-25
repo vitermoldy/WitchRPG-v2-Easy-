@@ -262,3 +262,4 @@ export interface UnitSpec {
   dive?: number
   /** v2: the helpers its summons call. */
   summonKind?: UnitKind
+  /** v2: a mini-boss, with the big health bar at the top of the screen. */
