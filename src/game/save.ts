@@ -43,3 +43,4 @@ export function normalizeProfile(data: Partial<Profile> | null | undefined): Pro
 
 /** `stamp` marks the witch as changed now; a copy just taken from the server keeps its own time. */
 export function saveProfile(p: Profile, stamp = true): boolean {
+  if (stamp) p.updatedAt = new Date().toISOString()
