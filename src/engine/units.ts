@@ -560,3 +560,4 @@ export class UnitSystem {
   }
 
   /** Succubus and Incubus: gone in a puff, back a dozen metres away from her. */
+  private blink(u: Unit, from: Foe) {
