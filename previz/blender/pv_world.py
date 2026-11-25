@@ -290,3 +290,4 @@ def proto(name, coll, pal, fn, flat=False):
     p = r.P("m")
     p.flat = flat
     fn(p)
+    r.finalize()
