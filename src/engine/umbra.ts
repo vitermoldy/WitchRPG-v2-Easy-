@@ -41,3 +41,4 @@ function ringRadius(count: number) {
 
 interface Call {
   at: number
+  rec: ShadowRecord
