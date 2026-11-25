@@ -372,3 +372,4 @@ export class Game implements UnitHost {
     if (near) this.sfx.warn(u.spec.strike ?? 'ring')
   }
 
+  clearTelegraph(u: Unit) {
