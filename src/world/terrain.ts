@@ -143,3 +143,4 @@ export class Terrain {
         v++
       }
     }
+    const idx: number[] = []
