@@ -157,3 +157,4 @@ export class Unit implements Foe {
   /** Camp creatures stay near home until the pack is roused, and walk back when she gets away. */
   home: THREE.Vector3 | null = null
   aggro = true
+  /** Thrown by Telekinesis: hurts what it hits until it lands. */
