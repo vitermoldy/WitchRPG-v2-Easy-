@@ -401,3 +401,4 @@ def b_ilyra(r, pose="idle"):
     """Ilyra, 1.7 m: dark hooded robe and cloak, staff in the right hand, Chaos left, Umbra right."""
     poses = {
         "idle": {"L": (22, 18, 35), "R": (14, 22, 45)},
+        "cast": {"L": (35, 70, 10), "R": (14, 22, 45)},
