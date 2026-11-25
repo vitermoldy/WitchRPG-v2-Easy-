@@ -67,3 +67,4 @@ export class Lair {
   readonly center: THREE.Vector3
   private readonly dir: THREE.Vector3
   private readonly groundY: number
+  /** Water of the flood in phase 2 (world height), and how far the flood has come (0 to 1). */
