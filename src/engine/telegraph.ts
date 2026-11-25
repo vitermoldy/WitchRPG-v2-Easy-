@@ -177,3 +177,5 @@ export class Telegraphs {
       pos.setXYZ(i, x, this.height(x, z) + LIFT, z)
     }
     pos.needsUpdate = true
+  }
+
