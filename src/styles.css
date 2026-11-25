@@ -1967,3 +1967,4 @@ dialog::backdrop {
 @media (max-width: 1180px) {
   .vitals {
     width: min(17rem, 30vw);
+  }
