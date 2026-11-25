@@ -170,3 +170,4 @@ describe('the seal on zones IV and V', () => {
     expect(seal.blocks(kuil[0], kuil[1], kuil[0] + 1, kuil[1])).toBe(false)
   })
 
+  it('seals Lembah Bara too, and opens both once broken', () => {
