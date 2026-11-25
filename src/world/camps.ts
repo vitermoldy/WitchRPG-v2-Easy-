@@ -64,3 +64,4 @@ export const CAMP_DEFS: CampDef[] = [
   { c: [312, 258], pack: { phoenix: 2 }, levels: [13, 13] },
   { c: [384, 300], pack: { phoenix: 1, hellhound: 3 }, levels: [13, 14], elites: 1 },
   { c: [262, 350], pack: { incubus: 2 }, levels: [14, 14], elites: 1 },
+  { c: [330, 384], pack: { cyclops: 2, phoenix: 1 }, levels: [14, 14], elites: 1 },
