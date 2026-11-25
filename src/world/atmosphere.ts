@@ -43,3 +43,4 @@ void main() {
  */
 export class Atmosphere {
   readonly fog = new THREE.FogExp2('#cddbea', 0.007)
+  readonly hemi = new THREE.HemisphereLight('#c6d4e6', '#4a4636', 1.9)
