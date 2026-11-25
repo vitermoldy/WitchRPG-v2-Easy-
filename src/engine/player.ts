@@ -14,3 +14,4 @@ export interface MoveInput {
   rise?: number
 }
 
+export interface Ground {
