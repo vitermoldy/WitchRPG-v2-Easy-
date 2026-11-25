@@ -708,3 +708,4 @@ const poseBeast: PoseFn = (p, u, t) => {
     return
   }
   if (flying) {
+    p.body(0.3 * Math.sin(t * 2.2 + u.id), 6, 10 * Math.sin(t * 1.1 + u.id))
