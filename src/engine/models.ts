@@ -59,3 +59,4 @@ export interface IlyraPose {
   catchK: number
   /** The staff is in her hand (not thrown). */
   staff: boolean
+  /** Left hand kick of a bolt (fades from 1), Telekinesis held, Umbra Rite gathering (0 to 1, or -1). */
