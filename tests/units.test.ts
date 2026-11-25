@@ -140,3 +140,4 @@ describe('ground', () => {
 describe('shadows', () => {
   it('fight creatures near her and leave her alone', () => {
     const w = world()
+    const enemy = w.sys.spawn('imp', 'enemy', 1, { x: 4, z: 0 })
