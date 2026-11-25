@@ -279,3 +279,4 @@ export class Lair {
       if (d > isl.r + 2) continue
       const top = this.groundY + 1 - (1 - this.flood) * 4
       if (top <= base) continue
+      const k = Math.min(1, Math.max(0, (isl.r + 2 - d) / 2))
