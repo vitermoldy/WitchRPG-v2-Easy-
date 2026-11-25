@@ -65,3 +65,4 @@ def tone_of(m):
     return tuple(mix.inputs["B"].default_value[:3]), tuple(mix.inputs["A"].default_value[:3]), vary
 
 
+def bake_tones(ob):
