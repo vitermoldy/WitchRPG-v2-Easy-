@@ -417,3 +417,4 @@ export class Lair {
       } else if (h.state === 'recover' && h.t >= atk.recover) {
         if (!atk.shot) g.clearTelegraph(h)
         h.set('move')
+      }
