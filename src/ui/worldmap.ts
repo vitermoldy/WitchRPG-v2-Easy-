@@ -382,3 +382,4 @@ export class WorldMap {
       ctx.stroke()
       if (!live) {
         ctx.beginPath()
+        ctx.moveTo(x - br * 0.55, y - br * 0.55)
