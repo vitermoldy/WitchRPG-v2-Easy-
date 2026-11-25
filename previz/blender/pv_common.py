@@ -77,3 +77,6 @@ def mat_emit(name, color, strength=8.0):
     nt.links.new(e.outputs[0], nt.nodes["Material Output"].inputs["Surface"])
     m.diffuse_color = rgb(color)
     _MATS[name] = m
+    return m
+
+
