@@ -81,3 +81,4 @@ export class CameraRig {
   /** 0 normal, 1 aim. */
   aim = 0
   /** 0 free, 1 fully locked. */
+  lock = 0
