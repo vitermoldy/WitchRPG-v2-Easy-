@@ -140,3 +140,4 @@ export class Spells {
     this.g = g
     this.shield = new THREE.Mesh(
       new THREE.SphereGeometry(1.25, 32, 16),
+      new THREE.ShaderMaterial({
