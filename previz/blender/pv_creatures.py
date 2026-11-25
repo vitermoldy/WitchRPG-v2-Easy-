@@ -323,3 +323,4 @@ def dragon_head(part, at, fwd=(0, -1, 0), s=1.0, jaw_open=30, horns=True, crest=
             for i in range(3):
                 base = a - F * (0.05 + 0.1 * i) * s + side * 0.16 * s * k
                 tip = base + side * (0.55 - 0.1 * i) * s * k - F * 0.25 * s + UP * (0.25 - 0.12 * i) * s
+                tip2 = base - F * 0.18 * s + UP * 0.05 * s
