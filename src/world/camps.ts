@@ -17,3 +17,4 @@ export interface CampDef {
 }
 
 /**
+ * Hutan Pembuka (Tier I, Lv 1 to 3): Imps and Hellhounds, the first camps along the path north of the
