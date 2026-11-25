@@ -34,3 +34,4 @@ export const MOVE = {
     iframeEnd: 0.32,
     cooldown: 0.25,
   },
+  dodgePerAgi: 0.05,
