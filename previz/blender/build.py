@@ -72,3 +72,4 @@ dunia, protos = Wd.build_world(lib)
 log("dunia")
 world_stats = {
     "instance": {ob.name: len(ob.data.vertices) for ob in bpy.data.objects if ob.name.startswith(("forest_", "cover_", "embers_"))},
+    "segitiga_prototipe": {k: sum(len(p.vertices) - 2 for p in ob.data.polygons) for k, ob in protos.items()},
