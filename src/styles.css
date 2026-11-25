@@ -1919,3 +1919,4 @@ dialog::backdrop {
   min-height: 44px;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
