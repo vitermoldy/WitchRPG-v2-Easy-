@@ -104,3 +104,4 @@ export function vnoise(x: number, y: number): number {
 }
 
 export function fbm(x: number, y: number, octaves = 4, seed = 0): number {
+  let s = 0
