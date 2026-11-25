@@ -73,3 +73,4 @@ export class Sfx {
     const o = ctx.createOscillator()
     o.type = type
     o.frequency.setValueAtTime(f0, t)
+    o.frequency.exponentialRampToValueAtTime(Math.max(20, f1), t + dur)
