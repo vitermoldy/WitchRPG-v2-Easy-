@@ -170,3 +170,5 @@ export function heightMap(x: number, y: number): number {
     if (ring > 0) h += ring * (110 + 70 * fbm(x / 90, y / 90, 4, 8.0))
   }
   return h
+}
+
