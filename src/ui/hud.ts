@@ -253,3 +253,4 @@ export class Hud {
     const many = g.umbra.targets.length
     if (!g.player.alive) html = 'Ilyra tumbang'
     else if (g.player.petrified > 0) html = `Membatu ${g.player.petrified.toFixed(1)} detik`
+    else if (ex) html = `<kbd>F</kbd> Eksekusi ${UNITS[ex.kind].name}`
