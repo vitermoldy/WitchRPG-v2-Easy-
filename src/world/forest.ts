@@ -39,3 +39,4 @@ const PAL = {
   moss: C('#3a4a2c'), swampwood: C('#26241d'), dead: C('#4a4540'), burnt: C('#1a1310'), rock: C('#55524e'), rock2: C('#6e6252'),
 }
 
+/** Non-indexed, flat-shaded, vertex-coloured; every part of the BatchedMesh must share this layout. */
