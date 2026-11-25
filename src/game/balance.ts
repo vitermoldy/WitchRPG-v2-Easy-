@@ -1114,3 +1114,4 @@ export const RIFT = {
   straggle: 20,
 } as const
 
+export const BOSS = {
