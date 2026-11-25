@@ -204,3 +204,4 @@ export class WorldMap {
     if (this.base) return this.base
     const c = document.createElement('canvas')
     c.width = c.height = BASE
+    const ctx = c.getContext('2d')!
