@@ -1030,3 +1030,4 @@ def b_samael(r):
     hd = r.parts["hand_R"]
     W, d = J["wr_R"], J["hand_dir_R"]
     top = W + d * 1.4
+    hd.limb(W - d * 0.6, top, 0.03, 0.03, mat="metal", seg=6, joints=False)
