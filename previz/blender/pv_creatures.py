@@ -939,3 +939,4 @@ def b_cerberus(r):
         dn = (hp - nb).normalized()
         sdir = dn.cross(UP).normalized()
         for a in range(8):
+            ang = 2 * math.pi * a / 8
