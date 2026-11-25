@@ -745,3 +745,4 @@ export class UnitSystem {
         }
         if (atk.ahead === undefined) this.face(u, u.aimAt.x, u.aimAt.z, dt, 12)
         if (spec.fly) u.alt += (spec.fly.height + 1 - u.alt) * Math.min(1, dt * 3)
+        if (u.t >= atk.windup * u.tempo) {
