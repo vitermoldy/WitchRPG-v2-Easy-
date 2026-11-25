@@ -419,3 +419,4 @@ export class Sfx {
     const lfo = ctx.createOscillator()
     lfo.frequency.value = 0.07
     const lg = ctx.createGain()
+    lg.gain.value = 220
