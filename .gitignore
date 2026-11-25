@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.env
+*.log
+
+# Blender: backups and the animatic's intermediate frames (rebuilt by previz/blender/build.py)
+*.blend1
+previz/frames/
+__pycache__/
