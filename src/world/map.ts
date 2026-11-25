@@ -180,3 +180,4 @@ export const WATER_LEVEL = 0
 /** The water plane covers this map rectangle (x0, y0, x1, y1). */
 export const WATER_RECT: [number, number, number, number] = [-560, -170, -90, 420]
 
+export function inWaterRect(x: number, y: number) {
