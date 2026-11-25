@@ -80,3 +80,5 @@ Tinggi total diukur dari block-out (termasuk tanduk dan sayap yang terangkat; Il
 
 Tiga block-out melewati anggaran mob (dicetak tebal): Hellhound, Centaur, dan Cyclops, karena kepala bergigi, gelang, tali, perisai, dan ekor ular yang ditambahkan supaya mirip referensi. Penyebab utamanya bola penuh di setiap sendi dan cincin aksesori; model akhir di Fase 6 harus memangkasnya ke bawah 8.000. Semua boss dan Ilyra di bawah anggaran.
 
+## Anggaran poligon dunia
+
