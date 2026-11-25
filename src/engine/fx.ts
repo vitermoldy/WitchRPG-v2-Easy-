@@ -232,3 +232,4 @@ export class LightPool {
     if (!slot) return null
     slot.held = true
     slot.light.color.set(color)
+    slot.light.intensity = intensity
