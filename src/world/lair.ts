@@ -331,3 +331,4 @@ export class Lair {
     this.curtain.visible = this.curtainMat.uniforms.uFade.value > 0.01
 
     if (this.state === 'won') {
+      if (this.time - this.wonAt > HYDRA.respawn) {
