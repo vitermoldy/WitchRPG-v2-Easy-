@@ -416,3 +416,4 @@ def build_lineup(lib_colls, stats):
     sc = C.new_scene("03-barisan-makhluk")
     sc.world = C.sky_world("latar_barisan", "#262a33", "#20232b", "#181a20", 1.0)
     C.sun(sc, "kunci", (55, 0, -35), energy=3.6).data.use_shadow = False
+    C.sun(sc, "tepi", (60, 0, 150), "#b6c8ff", energy=2.4).data.use_shadow = False
