@@ -201,3 +201,4 @@ class Staff {
     this.state = 'hand'
     if (this.obj) this.obj.visible = false
     g.fight.caught()
+    g.sfx.clank()
