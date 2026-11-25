@@ -375,3 +375,4 @@ export class WorldMap {
       const live = b.status !== 'down'
       ctx.beginPath()
       ctx.arc(x, y, br, 0, Math.PI * 2)
+      ctx.fillStyle = live ? 'rgba(255, 165, 61, 0.92)' : 'rgba(120, 112, 108, 0.9)'
