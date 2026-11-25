@@ -1205,3 +1205,4 @@ button {
 
 /* Mini-boss bar: under the camp line, only while Medusa or the Chimera fights her. */
 .bossbar {
+  position: absolute;
