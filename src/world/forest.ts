@@ -124,3 +124,4 @@ function geometries(): Record<Kind, THREE.BufferGeometry> {
     pine_tall: pine(20, 8, 3.2, PAL.needle),
     pine_warm: pine(11, 5, 3.4, PAL.needle2),
     birch: birch(),
+    swamp: swampTree(),
