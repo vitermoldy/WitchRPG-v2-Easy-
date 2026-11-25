@@ -1026,3 +1026,4 @@ export class Game implements UnitHost {
     this.warnings.update(dt)
     this.pools.update(dt)
     this.telegraphs.update(sdt)
+    const t1 = performance.now()
