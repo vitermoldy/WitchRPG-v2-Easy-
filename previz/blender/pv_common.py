@@ -396,3 +396,4 @@ class Part:
                 allv.append(v)
                 continue
             ring = []
+            for k in range(seg):
