@@ -339,3 +339,4 @@ export class Warnings {
     disc.rotateX(-Math.PI / 2)
     const ring = new THREE.RingGeometry(0.95, 1, 64)
     ring.rotateX(-Math.PI / 2)
+    for (let i = 0; i < count; i++) {
