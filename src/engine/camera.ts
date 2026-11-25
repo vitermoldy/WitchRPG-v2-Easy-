@@ -105,3 +105,4 @@ export class CameraRig {
       shoulder: lerp(lerp(n.shoulder, a.shoulder, this.aim), 0, this.fp),
       height: lerp(n.height, a.height, this.aim),
       fov: lerp(lerp(n.fov, a.fov, this.aim), lerp(f.fov, f.aimFov, this.aim), this.fp),
+    }
