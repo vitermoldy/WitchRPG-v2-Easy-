@@ -379,3 +379,4 @@ def scatter_group():
     ng = bpy.data.node_groups.get("PV_Scatter")
     if ng:
         return ng
+    ng = bpy.data.node_groups.new("PV_Scatter", "GeometryNodeTree")
