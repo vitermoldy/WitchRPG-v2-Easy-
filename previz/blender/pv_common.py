@@ -232,3 +232,4 @@ def palette_ref(key, spec):
     vals = {}
     for slot, default in SLOT_DEFAULTS.items():
         vals[slot] = spec.get(slot, default)
+    vals["body2"] = vals["body2"] or vals["body"]
