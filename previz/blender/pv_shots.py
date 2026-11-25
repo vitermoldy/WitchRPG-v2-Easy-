@@ -427,3 +427,4 @@ def build_lineup(lib_colls, stats):
         x = ox + 2.6
         tallest = 0.0
         for m in members:
+            lc = lib_colls[m]
