@@ -355,3 +355,4 @@ export class Lair {
     if (!body.alive) return
     // heads go where the rig drew them, so the head she sees is the head she hits
     for (const h of this.heads) {
+      if (!h || !h.alive || h.state === 'finishing' || !Number.isFinite(h.visual.x)) continue
