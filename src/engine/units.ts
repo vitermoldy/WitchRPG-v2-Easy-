@@ -848,3 +848,4 @@ export class UnitSystem {
       u.vel.multiplyScalar(Math.max(0, 1 - dt * 8))
       if (u.state === 'windup' && u.t >= u.spec.windup * 0.6) {
         u.set('strike')
+        if (tgt && Math.hypot(tgt.pos.x - u.pos.x, tgt.pos.z - u.pos.z) < Math.min(u.spec.attackRange, 2.2) + u.radius + tgt.radius + 0.6) host.strikeUnit(u, tgt)
