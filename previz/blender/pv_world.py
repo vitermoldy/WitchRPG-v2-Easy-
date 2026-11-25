@@ -587,3 +587,4 @@ def build_fog(coll):
     # thin aerial haze over the whole valley (a world volume would hide the sky in EEVEE)
     bm = bmesh.new()
     bmesh.ops.create_cube(bm, size=1.0)
+    me = bpy.data.meshes.new("atmosphere")
