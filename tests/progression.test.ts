@@ -174,3 +174,4 @@ describe('version 1: tiers, ranks and growth', () => {
   it('pays more XP for bigger ranks', () => {
     expect(xpForUnit('husk', 5)).toBe(50)
     expect(xpForUnit('warden', 8)).toBe(160)
+    expect(xpForUnit('riftlord', 9)).toBe(450)
