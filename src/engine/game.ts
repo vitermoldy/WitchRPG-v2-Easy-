@@ -596,3 +596,4 @@ export class Game implements UnitHost {
   /** Damage to her after the barrier. */
   hurtPlayer(dmg: number, from: { x: number; z: number }) {
     const p = this.player
+    if (!p.alive) return
