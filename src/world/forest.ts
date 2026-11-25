@@ -209,3 +209,4 @@ export function scatter(size = 1260, step = 4, seed = 3): Tree[] {
       out.push({ kind, x, y: h - 0.15, z: -y, rot, scale: sc })
     }
   }
+  return out
