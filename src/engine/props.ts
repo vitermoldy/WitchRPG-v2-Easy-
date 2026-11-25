@@ -85,3 +85,4 @@ export class Props {
           const speed = p.vel.length()
           for (const u of g.units.units) {
             if (u.team !== 'enemy' || !u.targetable) continue
+            const r = Math.max(u.radius, u.height * 0.42) + p.radius
