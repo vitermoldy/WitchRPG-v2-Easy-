@@ -1032,3 +1032,4 @@ export class Game implements UnitHost {
 
     // her pose: the fight, the spells and the rite
     this.fight.pose(this.pose)
+    this.pose.grip = this.spells.gripping
