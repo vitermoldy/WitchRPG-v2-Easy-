@@ -766,3 +766,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
       { name: 'terjang', strike: 'line', windup: 0.9, recover: 1.4, range: 20, minRange: 8, damage: 1.3, lungeSpeed: 17, lungeTime: 0.85, cooldown: 7 },
     ],
   },
+  lilith: {
