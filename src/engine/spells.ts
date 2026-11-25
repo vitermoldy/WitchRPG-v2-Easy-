@@ -550,3 +550,4 @@ export class Spells {
     else this.raiseBarrier()
   }
 
+  private rune(color: number): THREE.ShaderMaterial {
