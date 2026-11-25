@@ -223,3 +223,4 @@ export class Lair {
         const h = this.heads[i]
         if (h) {
           g.clearTelegraph(h)
+          g.units.remove(h)
