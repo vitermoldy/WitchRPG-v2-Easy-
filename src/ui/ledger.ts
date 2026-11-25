@@ -91,3 +91,4 @@ export class Ledger {
           ;(back && back.isConnected ? back : $('btn-ledger-close')).focus()
         })
       }
+    })
