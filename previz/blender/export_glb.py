@@ -156,3 +156,4 @@ def export(key):
     r = K.build(key, coll, pose=POSE.get(key), lights=False) if key == "ilyra" else K.build(key, coll, pose=POSE.get(key))
     K.ground_rig(r)
     r.root.name = key
+    for name, ob in r.objs.items():
