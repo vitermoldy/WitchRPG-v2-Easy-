@@ -1087,3 +1087,4 @@ def b_unicorn(r):
 # Hex or (top, bottom): the second colour is the underside. Eyes of enemies glow amber (v1 enemy marker).
 
 COLORS = {
+    "imp": {"body": ("#e8d2c8", "#cfb0a4"), "membrane": "#e6a0c4", "claw": "#7c5c5c"},
