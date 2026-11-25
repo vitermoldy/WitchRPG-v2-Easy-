@@ -326,3 +326,4 @@ export class WorldMap {
       ctx.lineTo(x, y + r)
       ctx.lineTo(x - r, y)
       ctx.closePath()
+      ctx.lineWidth = 1.5
