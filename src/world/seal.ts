@@ -28,3 +28,4 @@ const FRAG = /* glsl */ `
  * sealed zone; while the seal holds, a step from open ground into sealed ground is refused (stepping
  * out is always allowed), and a curtain of light stands on every edge between the two.
  */
+export class Seal {
