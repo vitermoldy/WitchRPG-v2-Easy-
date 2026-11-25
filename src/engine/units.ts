@@ -89,3 +89,4 @@ export class Unit implements Foe {
   /** A head coming down: its neck's pitch at the root, curl along it and turn (degrees), steered by the rig onto its circle. */
   neckLean = 20
   neckCurl = 6
+  neckYaw = 0
