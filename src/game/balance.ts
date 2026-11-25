@@ -1115,3 +1115,4 @@ export const RIFT = {
 } as const
 
 export const BOSS = {
+  /** HP shares where the fight moves to phase 2 and phase 3. */
