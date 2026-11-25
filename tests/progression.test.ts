@@ -164,3 +164,4 @@ describe('version 1: tiers, ranks and growth', () => {
     expect(riteBlock(p, 'warden')).toBeNull()
     expect(riteBlock(p, 'riftlord')).toMatch(/Jenderal/)
     p.level = 8
+    expect(riteBlock(p, 'riftlord')).toBeNull()
