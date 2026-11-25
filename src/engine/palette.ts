@@ -12,3 +12,4 @@ export const COLOR = {
   ash: 0x5d5557,
   skin: 0xd9cdc7,
   cloth: 0x161013,
+} as const
