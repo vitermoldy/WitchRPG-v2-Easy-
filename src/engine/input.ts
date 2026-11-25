@@ -38,3 +38,4 @@ export class Input {
     })
     target.addEventListener('contextmenu', (e) => e.preventDefault())
     window.addEventListener('mousemove', (e) => {
+      if (!this.locked) return
