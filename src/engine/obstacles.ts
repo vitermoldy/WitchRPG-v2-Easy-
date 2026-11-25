@@ -41,3 +41,4 @@ export class Obstacles {
     for (let ix = x0; ix <= x1; ix++) {
       for (let iz = z0; iz <= z1; iz++) {
         const k = this.key(ix, iz)
+        let list = this.grid.get(k)
