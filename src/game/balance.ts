@@ -1216,3 +1216,4 @@ export const COMBAT = {
     /** She catches it when it comes within this distance of her hand. */
     catch: 1.0,
   },
+  /** Seconds of invulnerability after a hit, so one swarm does not empty her in a frame. */
