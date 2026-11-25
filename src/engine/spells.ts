@@ -32,3 +32,4 @@ export interface SpellInput {
   held: boolean
   aiming: boolean
   overload: boolean
+  burst: boolean
