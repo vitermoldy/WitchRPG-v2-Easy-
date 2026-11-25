@@ -182,3 +182,5 @@ export function createAuth({ getPool, cookie, lang, deviceCode, newDevice }) {
     return { username, password }
   }
 
+  const limited = attemptLimit(10, t.tooMany)
+
