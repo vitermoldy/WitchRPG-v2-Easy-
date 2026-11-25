@@ -236,3 +236,4 @@ Anggaran PROMPT (median 16,7 ms dengan 20 musuh dan 200 bayangan) terpenuhi: 9,0
 
 Pemeriksaan:
 
+- **Akun dan simpanan server** (database buangan `witch_rpg_v2_test`, dihapus sesudahnya): 30 dari 30 cek di halaman sungguhan. Gerbang terbuka saat belum masuk dan Escape tidak menutupnya; form kosong, kata sandi pendek, dan kata sandi salah ditolak dengan pesan; daftar lalu simpan: level, bayangan, altar, titik bangkit, upgrade, kemenangan atas Hydra, dan pengaturan tersimpan di server; witch di luar batas, bayangan jenis asing, salinan yang lebih tua, dan kiriman bukan JSON ditolak; masuk dari browser lain memuat witch Lv 7 dengan pengaturannya, segel sudah terbuka, dan ia masuk hutan 3 m dari Altar Rawa Berkabut; keluar memuat ulang ke gerbang, browser melupakan witch, sesi hilang (401); server mati: gerbang menawarkan "Coba lagi" dan "Main tanpa akun", Escape berarti main tanpa akun, fokus kembali ke "Masuk ke hutan", dan game bisa dimainkan.
