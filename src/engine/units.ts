@@ -104,3 +104,4 @@ export class Unit implements Foe {
   /** Attacks with their own cooldown, and the seconds left on each. */
   readonly atkCd = new Map<string, number>()
   target: Foe | null = null
+  /** Holds one of the attack slots against her. */
