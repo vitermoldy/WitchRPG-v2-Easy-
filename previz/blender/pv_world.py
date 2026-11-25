@@ -483,3 +483,6 @@ def build_forest(coll, P, size=1260.0, step=4.0, seed=3):
         pts = np.stack([X[ids], Y[ids], Z[ids] - 0.3], axis=1)
         rots = np.stack([rng.normal(0, 0.2, len(ids)), rng.normal(0, 0.2, len(ids)), rng.uniform(0, 6.28, len(ids))], axis=1)
         obs[kind] = scatter_object(f"forest_{kind}", coll, P[kind], pts, rots, rng.uniform(0.6, 1.6, len(ids)))
+    return obs
+
+
