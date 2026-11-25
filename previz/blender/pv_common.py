@@ -291,3 +291,4 @@ def catmull(pts, n):
     ext = [P[0] + (P[0] - P[1])] + P + [P[-1] + (P[-1] - P[-2])]
     out, ts = [], []
     for i in range(1, len(ext) - 2):
+        p0, p1, p2, p3 = ext[i - 1], ext[i], ext[i + 1], ext[i + 2]
