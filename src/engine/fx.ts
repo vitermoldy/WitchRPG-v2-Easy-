@@ -230,3 +230,4 @@ export class LightPool {
   acquire(color: THREE.ColorRepresentation, intensity: number, distance: number): THREE.PointLight | null {
     const slot = this.slots.find((s) => !s.held && s.ttl <= 0)
     if (!slot) return null
+    slot.held = true
