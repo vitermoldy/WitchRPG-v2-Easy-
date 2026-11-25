@@ -215,3 +215,4 @@ describe('Tier IV and V', () => {
     expect(Math.min(...levels(4))).toBe(10)
     expect(Math.max(...levels(4))).toBe(12)
     expect(Math.min(...levels(5))).toBe(13)
+    expect(Math.max(...levels(5))).toBe(15)
