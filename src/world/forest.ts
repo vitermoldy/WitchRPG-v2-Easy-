@@ -225,3 +225,4 @@ export function addColliders(trees: Tree[], obs: Obstacles) {
     if (s.crown) {
       const [base, r, top] = s.crown
       obs.add({ kind: CYL, x: t.x, y: t.y + base * t.scale, z: t.z, r: r * t.scale, h: (top - base) * t.scale, camOnly: true })
+    }
