@@ -517,3 +517,4 @@ def instance(coll, sc_coll, loc=(0, 0, 0), rot_z=0.0, scale=1.0, name=None, rot=
     ob = bpy.data.objects.new(name or f"i.{coll.name}", None)
     ob.instance_type = "COLLECTION"
     ob.instance_collection = coll
+    ob.location = loc
