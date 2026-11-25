@@ -243,3 +243,4 @@ export class Fight {
     this.combo.cancel()
     this.exec = null
     this.blocking = false
+    this.riposte = 0
