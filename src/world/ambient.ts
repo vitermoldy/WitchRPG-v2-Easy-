@@ -170,3 +170,4 @@ export class Ambient {
     const band = anywhere ? Math.random() : kind.vel[1] > 0.5 ? Math.random() * 0.2 : kind.vel[1] < -0.2 ? 0.8 + Math.random() * 0.2 : Math.random()
     p[i * 3 + 1] = ground + LOW + band * (HIGH - LOW)
     const c = this.colors[k]
+    this.tint[i * 3] = c.r
