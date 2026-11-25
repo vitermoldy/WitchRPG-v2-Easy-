@@ -722,3 +722,4 @@ export class UnitSystem {
         } else if (slot || u.cd > 0) {
           this.steer(u, tgt.pos.x, tgt.pos.z, speed, dt, this.wantRange(u) * 0.75)
         } else {
+          // no free slot: circle her at a wary distance
