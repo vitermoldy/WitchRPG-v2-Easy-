@@ -435,3 +435,5 @@ class Part:
         pts = [V(c) + M.to_3x3() @ Vector((math.cos(2 * math.pi * k / seg) * R, math.sin(2 * math.pi * k / seg) * R, 0)) for k in range(seg + 1)]
         # closed sweep: overlap the first segment so the seam closes visually
         self.tube(pts, r, mat=mat, seg=rseg, n=2, cap=False)
+        return self
+
