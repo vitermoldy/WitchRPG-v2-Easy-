@@ -162,3 +162,4 @@ describe('version 1: tiers, ranks and growth', () => {
     p.level = 7
     expect(riteBlock(p, 'husk')).toBeNull()
     expect(riteBlock(p, 'warden')).toBeNull()
+    expect(riteBlock(p, 'riftlord')).toMatch(/Jenderal/)
