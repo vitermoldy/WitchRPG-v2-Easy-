@@ -82,3 +82,4 @@ def humanoid(r, H, bulk=1.0, legs="human", female=False, off=(0, 0, 0), arm_pose
         S = V(P(s * sw, 0.004 * H, z["sh"]))
         d1 = Vector((s * math.sin(math.radians(ab)), 0, -math.cos(math.radians(ab))))
         d1 = _rx(d1, -fw)
+        d2 = _rx(d1, -el)
