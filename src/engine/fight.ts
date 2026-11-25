@@ -137,3 +137,4 @@ class Staff {
         this.stick()
         g.sfx.impact(0.3)
       } else if (this.travelled > COMBAT.staff.range) {
+        // out of reach: it falls short
