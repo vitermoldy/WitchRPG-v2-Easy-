@@ -65,3 +65,4 @@ export class Obstacles {
           if (this.seen[id] === st) continue
           this.seen[id] = st
           fn(this.shapes[id])
+        }
