@@ -96,3 +96,4 @@ export async function checkAccount(): Promise<void> {
 }
 
 async function enter(path: string, payload: unknown): Promise<void> {
+  try {
