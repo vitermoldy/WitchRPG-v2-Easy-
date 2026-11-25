@@ -101,3 +101,4 @@ export class Unit implements Foe {
   cd = 0
   /** The attack it is winding up or last used. */
   atk: AttackSpec
+  /** Attacks with their own cooldown, and the seconds left on each. */
