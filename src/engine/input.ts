@@ -12,3 +12,5 @@ export class Input {
   capture = false
   onKey: ((code: string) => void) | null = null
   onLockChange: ((locked: boolean) => void) | null = null
+  private readonly target: HTMLElement
+
