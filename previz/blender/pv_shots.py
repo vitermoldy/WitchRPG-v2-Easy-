@@ -12,3 +12,4 @@ import pv_creatures as K
 import pv_world as Wd
 from pv_common import HEX, V
 
+# Camera numbers. vfov is the vertical field of view, the way Three.js PerspectiveCamera.fov counts it.
