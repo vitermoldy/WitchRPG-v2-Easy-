@@ -1005,3 +1005,4 @@ def b_typhon(r):
     for k in range(10):
         a = 2 * math.pi * k / 10 + 0.3
         d = Vector((math.cos(a), math.sin(a), 0))
+        pts = [hp + d * 0.8 + Vector((0, 0, 0.3)), hp + d * 2.5 + Vector((0, 0, -3.0)), hp + d * 4.6 + Vector((0, 0, -6.5)), hp + d * 6.6 + Vector((0, 0, -7.6)), hp + d * 7.8 + Vector((0.6 * d.y, -0.6 * d.x, -6.8))]
