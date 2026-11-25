@@ -389,3 +389,4 @@ export class Game implements UnitHost {
     this.scene.add(water())
     this.ground = {
       height: (x, z) => this.height(x, z),
+      obstacles: this.obstacles,
