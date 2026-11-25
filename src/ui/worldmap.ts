@@ -141,3 +141,4 @@ export class WorldMap {
       const down = camp.state === 'cleared'
       list.push({
         kind, name: UNITS[kind].name, level: camp.def.levels[1], zone: zoneName(camp.pos.x, camp.pos.z), x: camp.pos.x, z: camp.pos.z,
+        status: down ? 'down' : sealed ? 'sealed' : 'waiting',
