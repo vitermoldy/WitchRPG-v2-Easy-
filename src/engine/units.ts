@@ -766,3 +766,4 @@ export class UnitSystem {
         }
         break
       }
+      case 'strike': {
