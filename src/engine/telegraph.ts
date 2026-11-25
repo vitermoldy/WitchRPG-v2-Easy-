@@ -56,3 +56,4 @@ interface Item {
   mesh: THREE.Mesh
   mat: THREE.ShaderMaterial
   kind: 'ring' | 'line'
+  unit: Unit | null
