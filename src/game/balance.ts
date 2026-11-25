@@ -18,3 +18,4 @@ export const MOVE = {
   /** How fast she turns toward the way she moves (radians per second). */
   turn: 11,
   radius: 0.38,
+  height: 1.7,
