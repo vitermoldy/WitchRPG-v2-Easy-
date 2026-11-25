@@ -671,3 +671,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   // v2, Tebing Berangin (PROMPT: Griffin liar): eagle head and wings on a lion's body; circles high, dives along a line.
   griffin: {
     name: 'Griffin',
+    rank: 'ksatria',
