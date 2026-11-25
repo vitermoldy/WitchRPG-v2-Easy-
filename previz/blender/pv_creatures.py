@@ -943,3 +943,4 @@ def b_cerberus(r):
             rv = sdir * math.cos(ang) + dn.cross(sdir).normalized() * math.sin(ang)
             base = cpos + rv * 0.85 * sc
             nk.cone(base, base + rv * 0.4, 0.09, mat="metal", seg=5)
+        hd = r.P(f"head{k}", hp, f"neck{k}")
