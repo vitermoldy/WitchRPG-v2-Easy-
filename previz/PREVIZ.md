@@ -124,3 +124,4 @@ Makhluk memakai warna dari gambar referensinya (keputusan pemilik setelah previz
 | Dragon | merah `#9a2618`, perut `#d8a878` | selaput sayap `#d89a6a`, duri `#6a160e` |
 | Hydra | hijau abu `#56664c`, perut `#a0a884` | sirip kepala `#a0aca0`, duri `#3e4a38` |
 | Cerberus besar | ungu keabuan `#9a92ae` | kalung hitam `#1c1c20` berduri perak, mulut merah |
+| Lilith | kulit `#e2b9a2` | gaun ungu `#4b3b7c`, naga ular merah `#b02a20`, sayap `#3a1a20` |
