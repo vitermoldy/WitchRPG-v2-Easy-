@@ -24,3 +24,4 @@ _ACTORS = None
 
 
 def actors_coll():
+    global _ACTORS
