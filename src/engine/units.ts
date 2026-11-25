@@ -753,3 +753,4 @@ export class UnitSystem {
             u.set('recover')
             break
           }
+          u.set('strike')
