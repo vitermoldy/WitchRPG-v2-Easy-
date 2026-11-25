@@ -104,3 +104,4 @@ function common(p: Poser, u: Unit, t: number, limbs: string[]): boolean {
     return true
   }
   if (u.state === 'finishing') {
+    p.body(0, -14, 6 * u.fallSide)
