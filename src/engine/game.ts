@@ -806,3 +806,4 @@ export class Game implements UnitHost {
           if (o.y + dir.y * m < heightAt(o.x + dir.x * m, o.z + dir.z * m)) hi = m
           else lo = m
         }
+        best = hi
