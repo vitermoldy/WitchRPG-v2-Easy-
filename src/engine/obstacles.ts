@@ -21,3 +21,4 @@ export interface Shape {
 
 const CELL = 8
 
+export class Obstacles {
