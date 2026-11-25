@@ -142,3 +142,4 @@ describe('shadows', () => {
     const w = world()
     const enemy = w.sys.spawn('imp', 'enemy', 1, { x: 4, z: 0 })
     enemy.aggro = false
+    enemy.home = new THREE.Vector3(4, 0, 0)
