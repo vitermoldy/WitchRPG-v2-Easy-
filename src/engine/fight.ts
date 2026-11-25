@@ -456,3 +456,4 @@ export class Fight {
       if (!inSwing(p.pos.x, p.pos.z, p.facing, sw, u.pos.x, u.pos.z, u.radius)) continue
       g.hurtUnit(u, sw.damage * mult, p.pos, sw.stun, s.heavy ? COMBAT.heavyKnock : 1.5, 'player')
       if (u.spec.fly) g.units.down(u, 1.5)
+      this.stats.hits++
