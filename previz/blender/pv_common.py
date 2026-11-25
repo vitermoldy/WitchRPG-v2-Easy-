@@ -380,3 +380,4 @@ class Part:
             b = P[min(i + 1, len(P) - 1)]
             T.append((b - a).normalized())
         up = Vector((0, 0, 1)) if abs(T[0].z) < 0.95 else Vector((1, 0, 0))
+        Nn = (up - T[0] * up.dot(T[0])).normalized()
