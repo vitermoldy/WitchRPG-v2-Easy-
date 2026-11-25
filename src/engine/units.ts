@@ -822,3 +822,5 @@ export class UnitSystem {
     if (tmp.lengthSq() < 1e-6) tmp.set(Math.sin(u.yaw), 0, Math.cos(u.yaw))
     u.lungeDir.copy(tmp.normalize())
     this.host.telegraph(u)
+  }
+
