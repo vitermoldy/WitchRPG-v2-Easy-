@@ -343,3 +343,4 @@ export class IlyraModel {
       torsoY = mix(mix(torsoY, -30, wind), 25, fling)
     }
     if (act.catchK >= 0) {
+      const e = 1 - act.catchK
