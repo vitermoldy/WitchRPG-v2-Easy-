@@ -36,3 +36,4 @@ describe('Ilyra in the air (B)', () => {
     expect(p.speed).toBeCloseTo(MOVE.fly.boost, 0)
   })
 
+  it('crosses deep water, refuses to land on it, and lands when she sinks onto ground she can stand on', () => {
