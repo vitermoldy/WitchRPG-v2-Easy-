@@ -869,3 +869,4 @@ def b_dragon(r):
 
 def hydra_neck_joints(base, top, bend, k=8):
     """Joint positions along an S-curve from a base on the body to the head."""
+    b, t = V(base), V(top)
