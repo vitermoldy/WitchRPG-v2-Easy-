@@ -817,3 +817,4 @@ class Rig implements Poser {
     for (const name of Object.keys(g.attributes)) geo.setAttribute(name, g.attributes[name])
     const glow = new THREE.InstancedBufferAttribute(new Float32Array(this.cap * 3), 3).setUsage(THREE.DynamicDrawUsage)
     geo.setAttribute('aGlow', glow)
+    const mesh = new THREE.InstancedMesh(geo, mat, this.cap)
