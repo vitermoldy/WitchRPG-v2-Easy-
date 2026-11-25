@@ -470,3 +470,4 @@ def build_forest(coll, P, size=1260.0, step=4.0, seed=3):
     obs = {}
     for kind, ids in out.items():
         ids = np.array(ids)
+        pts = np.stack([X[ids], Y[ids], Z[ids] - 0.15], axis=1)
