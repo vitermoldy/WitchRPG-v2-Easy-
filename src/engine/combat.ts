@@ -60,3 +60,4 @@ export interface SwingState {
   swing: Swing
   heavy: boolean
   /** 0, 1, 2 for the light chain. */
+  index: number
