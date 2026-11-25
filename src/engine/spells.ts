@@ -171,3 +171,4 @@ export class Spells {
     this.warps.length = 0
     this.drop(false)
     this.boltCd = this.burstCd = this.snareCd = this.barrierCd = this.warpCd = 0
+    this.overloadT = this.backlashT = this.barrierT = 0
