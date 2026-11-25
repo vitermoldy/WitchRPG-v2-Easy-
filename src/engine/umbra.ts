@@ -23,3 +23,4 @@ export interface UmbraInput {
   dy: number
 }
 
+/** Soldiers of one call that each get their own pool; the rest rise out of the wide spill. */
