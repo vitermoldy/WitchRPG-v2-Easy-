@@ -565,3 +565,4 @@ export class Umbra {
     const g = this.g
     if (!isUnlocked(g.profile, 'swap')) {
       g.hud.message('Tukar Tempat terbuka di Lv 4.', 'umbra')
+      return
