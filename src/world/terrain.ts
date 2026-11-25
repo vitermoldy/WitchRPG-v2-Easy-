@@ -53,3 +53,4 @@ export class Terrain {
   /** Chunk meshes built so far, for the debug readout. */
   built = 0
 
+  constructor() {
