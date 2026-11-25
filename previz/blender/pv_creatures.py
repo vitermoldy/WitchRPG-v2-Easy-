@@ -1135,3 +1135,4 @@ ROSTER = [
     ("dragon", "Dragon", b_dragon, "Set-piece Tier V", "Marsekal", "V Lembah Bara", ("167518dd7ed83f5f910603744479.jpg", (290, 457, 666, 667))),
     ("hydra", "Hydra", b_hydra, "Boss 1, tiga fase", "Marsekal", "III Danau Hitam", ("images (1).jpg", (0, 0, 431, 464))),
     ("cerberus", "Cerberus besar", b_cerberus, "Boss Tier V", "Marsekal", "V Lembah Bara", ("z0jfasz4aizd1.jpeg", (395, 285, 665, 652))),
+    ("lilith", "Lilith", b_lilith, "Boss Tier V", "Marsekal", "V Lembah Bara", ("167518dd7ed83f5f910603744479.jpg", (85, 1525, 491, 1830))),
