@@ -59,3 +59,4 @@ describe('stun meter and execution', () => {
     // v1 example from the GDD stays exact
     expect(riteChance('ksatria', 5, 5, 13)).toBeCloseTo(0.58, 3)
     expect(riteChance('prajurit', 1, 1, 5)).toBeCloseTo(0.65, 3)
+    expect(riteChance('prajurit', 1, 1, 5, true)).toBeCloseTo(0.8, 3)
