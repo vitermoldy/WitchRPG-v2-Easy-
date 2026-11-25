@@ -78,3 +78,4 @@ export class LockOn {
       this.current = best
       this.lost = 0
     }
+    return !!best
