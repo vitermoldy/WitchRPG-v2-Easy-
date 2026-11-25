@@ -25,3 +25,4 @@ describe('the forest valley', () => {
           const y = ay + ((by - ay) * d) / len
           const h = heightMap(x, y)
           const rise = h - prev
+          expect(rise, `path ${line[0]} at ${x.toFixed(0)}, ${y.toFixed(0)}`).toBeLessThanOrEqual(MOVE.maxSlope * step)
