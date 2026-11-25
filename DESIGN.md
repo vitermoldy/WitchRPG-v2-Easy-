@@ -39,3 +39,5 @@ Action-RPG third-person dengan rasa God of War di hutan terbuka, memakai sistem 
 | Anggaran mini-boss | Medusa dan Chimera memakai anggaran boss (30.000), bukan mob (8.000) | Medusa block-out sudah 15.928 segitiga karena tiga belas kepala ular di rambutnya. |
 | Pantulan air | Danau dan rawa memakai probe pantulan planar, bukan pantulan raytracing layar saja | Pantulan layar EEVEE patah menjadi tepi diagonal tajam saat sinarnya keluar layar (terlihat di animatic versi pertama). Probe planar memantulkan tepi seberang dengan benar dan membuat Danau Hitam benar-benar hitam. Di Three.js padanannya `Reflector` planar di permukaan danau. |
 | Uji Lembah Bara | Render tambahan `07-uji-lembah-bara.png`. Kabut oranye zona V tetap dipakai | Mengecek apakah makhluk zona V (Phoenix merah-oranye, Cerberus ungu keabuan) dan tangan merah Chaos tetap terbaca di kabut oranye. Hasilnya di PREVIZ.md. |
+| Gambar referensi | Hanya muncul di `previz/papan-makhluk.png` sebagai pembanding. Tidak ada model yang memakai gambar itu sebagai tekstur, dan tidak ada yang masuk `public/` atau `dist/` | Aturan prompt. |
+
