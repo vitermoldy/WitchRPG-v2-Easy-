@@ -337,3 +337,4 @@ export class WorldMap {
     const dot = Math.max(3.5, size / 150)
     for (const camp of g.camps.camps) {
       if (camp.def.boss) continue
+      const kinds = (Object.keys(camp.def.pack) as UnitKind[]).filter((k) => this.chosen.has(k))
