@@ -59,3 +59,4 @@ const RUNE_FRAG = /* glsl */ `
     gl_FragColor = vec4(uColor * v * 2.2, v * uFade);
   }
 `
+/** The wall of the Reality Warp field: bands that run upward and fade toward the top. */
