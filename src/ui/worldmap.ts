@@ -127,3 +127,4 @@ export class WorldMap {
       for (let i = 1; i < w.length; i++) if (w[i] > w[best]) best = i
       return ZONES[best].name
     }
+    const lair = g.lair
