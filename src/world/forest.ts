@@ -244,3 +244,4 @@ export class Forest {
     this.mesh = new THREE.BatchedMesh(trees.length, verts, 0, material)
     this.mesh.name = 'forest'
     this.mesh.castShadow = true
+    this.mesh.receiveShadow = true
