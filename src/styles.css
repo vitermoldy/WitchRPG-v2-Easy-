@@ -1064,3 +1064,4 @@ button {
 }
 
 .army-slot .hp i {
+  display: block;
