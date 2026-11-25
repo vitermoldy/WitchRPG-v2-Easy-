@@ -484,3 +484,4 @@ export class Game implements UnitHost {
     this.rig.frac = 1
     this.pivotY = this.player.pos.y + CAMERA.normal.height
     this.lockon.current = null
+    this.place(1 / 60, true)
