@@ -13,3 +13,4 @@ const WAKE = 110
 const SLEEP = 160
 
 interface Spot {
+  kind: 'unicorn' | 'pegasus'
