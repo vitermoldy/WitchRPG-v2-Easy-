@@ -111,3 +111,4 @@ describe('creature attacks', () => {
     expect(imp.pos.distanceTo(new THREE.Vector3(0, 0, 10))).toBeLessThan(3)
     expect(w.log.strikes.length).toBe(0)
     imp.aggro = true
+    w.step(4)
