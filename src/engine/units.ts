@@ -326,3 +326,4 @@ export class UnitSystem {
     if (knock > 0 && u.state !== 'held' && u.state !== 'thrown') {
       tmp.set(u.pos.x - from.x, 0, u.pos.z - from.z)
       if (tmp.lengthSq() < 1e-6) tmp.set(Math.random() - 0.5, 0, Math.random() - 0.5)
+      u.vel.add(tmp.normalize().multiplyScalar(knock * Math.min(1.5, 60 / Math.max(20, u.mass))))
