@@ -311,3 +311,4 @@ export class Rings {
   update(dt: number) {
     for (const r of this.pool) {
       if (!r.mesh.visible) continue
+      r.t += dt
