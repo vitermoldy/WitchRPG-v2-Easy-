@@ -918,3 +918,4 @@ export class Game implements UnitHost {
     let visible = true
     if (cur) {
       const lp = lockPoint(cur)
+      const c = this.camera.position
