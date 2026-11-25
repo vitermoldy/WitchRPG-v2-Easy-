@@ -823,3 +823,4 @@ export class Game implements UnitHost {
       if (d >= skip && d < best) {
         best = d
         unit = u
+      }
