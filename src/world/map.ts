@@ -13,3 +13,4 @@ export interface Zone {
   fog: string
   sight: number
   ground: string
+  sky: string
