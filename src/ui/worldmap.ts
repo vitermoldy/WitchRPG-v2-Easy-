@@ -327,3 +327,4 @@ export class WorldMap {
       ctx.lineTo(x - r, y)
       ctx.closePath()
       ctx.lineWidth = 1.5
+      ctx.strokeStyle = '#9ff2e0'
