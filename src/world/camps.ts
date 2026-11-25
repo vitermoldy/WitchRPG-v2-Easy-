@@ -137,3 +137,4 @@ export class Camps {
     const q = new THREE.Quaternion()
     const s = new THREE.Vector3()
     let i = 0
+    for (const camp of this.camps) {
