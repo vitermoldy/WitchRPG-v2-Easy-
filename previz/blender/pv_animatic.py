@@ -93,3 +93,4 @@ def build(dunia, res=(1280, 720), samples=24):
 
     def game_cam(P, face, dist=None, height=None):
         z = Wd.ground_z(P.x, P.y)
+        loc, look = C.game_camera((P.x, P.y, z), face, dist or cn["dist"], cn["shoulder"], height or cn["height"], cn["pitch"])
