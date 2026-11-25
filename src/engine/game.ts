@@ -920,3 +920,4 @@ export class Game implements UnitHost {
       const lp = lockPoint(cur)
       const c = this.camera.position
       visible = this.obstacles.sweep(c.x, c.y, c.z, lp.x, lp.y, lp.z, 0) > 0.97
+    }
