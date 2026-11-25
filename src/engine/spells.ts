@@ -443,3 +443,4 @@ export class Spells {
     }
     this.grabbed.forEach((u, i) => {
       const heavy = u.mass > 200
+      const dist = 4.6 + (heavy ? 1.5 : 0)
