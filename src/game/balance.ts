@@ -992,3 +992,4 @@ export const SHADOW_SKILL = {
  */
 export type EliteTrait = 'berlapis' | 'gesit' | 'meledak' | 'penjaga'
 
+export const ELITE = {
