@@ -436,3 +436,4 @@ def build_lineup(lib_colls, stats):
             w = max(rx) - min(rx)
             C.instance(lc, coll, loc=(x - min(rx), 0, 0), rot_z=rot)
             h = stats[m]["tinggi"]
+            tallest = max(tallest, hi.z)
