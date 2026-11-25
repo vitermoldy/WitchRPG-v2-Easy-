@@ -52,3 +52,5 @@ function shadowMaterial(src: THREE.MeshStandardMaterial, geo?: THREE.BufferGeome
   m.roughness = 0.55
   m.metalness = 0
   return m
+}
+
