@@ -54,3 +54,4 @@ class Staff {
   }
 
   private ensure() {
+    if (this.obj) return this.obj
