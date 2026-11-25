@@ -1815,3 +1815,4 @@ dialog::backdrop {
 
 .map-view {
   display: grid;
+  place-items: center;
