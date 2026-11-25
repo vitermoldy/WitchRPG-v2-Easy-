@@ -372,3 +372,4 @@ export class Fight {
         this.throwT = 0
         this.combo.cancel()
         // face where it will go
+        const at = this.throwTarget()
