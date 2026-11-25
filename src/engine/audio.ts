@@ -166,3 +166,4 @@ export class Sfx {
     if (on) {
       for (const f of [110, 165, 220]) this.tone(t, 'sawtooth', f, f * 1.5, 1.2, 0.12, 0.2)
       this.noise(t, 1.2, 'bandpass', 600, 0.3, 1.5, 4000)
+    } else {
