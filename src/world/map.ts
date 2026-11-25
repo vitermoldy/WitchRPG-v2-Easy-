@@ -91,3 +91,4 @@ export function vnoise(x: number, y: number): number {
   const fx = x - xi
   const fy = y - yi
   const u = fx * fx * (3 - 2 * fx)
+  const v = fy * fy * (3 - 2 * fy)
