@@ -138,3 +138,4 @@ def mat_tone(name, top, bottom=None, rough=0.7, metal=0.0, emit=None, emit_stren
     N, L = nt.nodes, nt.links
     b = N["Principled BSDF"]
     b.inputs["Roughness"].default_value = rough
+    b.inputs["Metallic"].default_value = metal
