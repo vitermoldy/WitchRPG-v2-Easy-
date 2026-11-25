@@ -719,3 +719,4 @@ def b_chimera(r):
     nb = V(Q["neck_base"])
     hp = nb + Vector((0, -0.3, 0.25))
     hd = r.P("head_lion", hp, "body")
+    hd.limb(nb, hp, 0.36, 0.3)
