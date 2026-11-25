@@ -46,3 +46,4 @@ export const CAMERA = {
   normal: { dist: 3.4, shoulder: 0.8, height: 1.6, fov: 50 },
   aim: { dist: 2.0, shoulder: 0.65, height: 1.6, fov: 40 },
   /** First person (P): the eye a little in front of her head, and a wider view like v1 (vertical degrees). */
+  first: { ahead: 0.16, fov: 68, aimFov: 54 },
