@@ -570,3 +570,4 @@ def fog_material(z):
 
 
 def build_fog(coll):
+    obs = []
