@@ -70,3 +70,4 @@ export class Ledger {
       },
       true,
     )
+    this.dlg.addEventListener('click', (e) => {
