@@ -135,3 +135,4 @@ def flat(m):
     return f
 
 
+def lod_tris(coll):
