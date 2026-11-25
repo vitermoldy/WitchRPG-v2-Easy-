@@ -236,3 +236,4 @@ export function createAuth({ getPool, cookie, lang, deviceCode, newDevice }) {
     res.json({ user: { username: user.username, createdAt: user.createdAt }, device: user.device })
   })
 
+  return { router, requireUser }
