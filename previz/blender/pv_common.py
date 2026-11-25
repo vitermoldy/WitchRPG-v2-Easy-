@@ -84,3 +84,4 @@ def mat_cracked(name, color, crack, strength=5.0, scale=2.2, rough=0.75, coverag
     """Dark body with glowing cracks: Voronoi edges masked by noise so the cracks come in patches."""
     if name in _MATS:
         return _MATS[name]
+    m = _new_mat(name)
