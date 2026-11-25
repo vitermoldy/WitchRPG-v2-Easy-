@@ -840,3 +840,4 @@ export class UnitSystem {
     if (u.command === 'attack' && u.focus && u.focus.targetable) tgt = u.focus
     else if (u.command === 'hold') tgt = this.nearestFoe(u, 4)
     else {
+      const e = this.nearestFoe(u, SHADOW.engageRange)
