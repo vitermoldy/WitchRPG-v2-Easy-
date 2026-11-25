@@ -1010,3 +1010,4 @@ def b_typhon(r):
         snake_head(sp, pts[-1], pts[-1] - pts[-2] + Vector((0, 0, 0.6)), s=3.2, jaw=35, mat="snake")
 
 
+def b_samael(r):
