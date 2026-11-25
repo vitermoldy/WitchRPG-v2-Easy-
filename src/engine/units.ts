@@ -670,3 +670,4 @@ export class UnitSystem {
         u.set('move')
       }
       u.hp = Math.min(u.maxHp, u.hp + u.maxHp * 0.1 * dt)
+      return
