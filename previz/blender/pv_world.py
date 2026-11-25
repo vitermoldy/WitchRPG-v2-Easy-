@@ -250,3 +250,4 @@ def build_water(coll):
     bump = nt.nodes.new("ShaderNodeBump")
     bump.inputs["Strength"].default_value = 0.08
     nt.links.new(noi.outputs["Fac"], bump.inputs["Height"])
+    nt.links.new(bump.outputs["Normal"], b.inputs["Normal"])
