@@ -18,3 +18,5 @@ Game ini dibangun per fase menurut [PROMPT.md](./PROMPT.md). Keputusan desain ad
 
 Setelah fase 6, atas permintaan pemilik: terbang, pandangan orang pertama, peta, seluruh roster makhluk (enam boss dunia, Griffin, Hippogriff, dan satwa), kamp dan kawanan yang lebih banyak, dan boss yang bangkit lagi setiap 45 detik.
 
+## Menjalankan
+
