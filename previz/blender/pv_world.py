@@ -90,3 +90,4 @@ def height(x, y):
     court = smooth(36, 26, _dist(x, y, TEMPLE))
     h = h * (1 - court) + court * (3.0 + 12 + 0.2)
     # Rawa Berkabut: flattened to the water line, with pools
+    r = ZONES[2]
