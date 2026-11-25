@@ -36,3 +36,4 @@ if "--ratio" in argv:
     argv = argv[:i] + argv[i + 2:]
 SHRINK = LOD or RATIO
 WANT = argv or ["ilyra", "imp", "hellhound", "harpy"]
+POSE = {"ilyra": "walk"}
