@@ -137,3 +137,4 @@ export class Terrain {
         nv.set(-dx, 1, -dz).normalize()
         pos.set([wx, h, wz], v * 3)
         nor.set([nv.x, nv.y, nv.z], v * 3)
+        const slope = Math.hypot(dx, dz)
