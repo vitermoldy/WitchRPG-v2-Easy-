@@ -323,3 +323,4 @@ export class Lair {
       isl.mesh.position.y = this.groundY + 1 - 2 - (1 - this.flood) * 4
     }
     // the edge: amber while it is shut to her, violet while the fight holds her in
+    const shut = this.state === 'calm' && g.profile.level < HYDRA.lairLevel
