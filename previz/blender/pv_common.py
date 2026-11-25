@@ -746,3 +746,4 @@ def compositor(sc, strength=0.6, threshold=1.2, vignette=True):
     last = gl.outputs["Image"]
     if vignette:
         em = N.new("CompositorNodeEllipseMask")
+        em.inputs["Size"].default_value = (1.35, 1.25)
