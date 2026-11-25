@@ -109,3 +109,5 @@ export class Seal {
 
   unlock() {
     this.open = true
+  }
+
