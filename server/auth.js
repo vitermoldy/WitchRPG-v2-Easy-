@@ -53,3 +53,4 @@ const MESSAGES = {
     passwordLong: `Kata sandi paling panjang ${PASSWORD_MAX} karakter.`,
     taken: 'Username itu sudah dipakai. Pilih yang lain.',
     wrong: 'Username atau kata sandi salah.',
+    signedOut: 'Kamu belum masuk.',
