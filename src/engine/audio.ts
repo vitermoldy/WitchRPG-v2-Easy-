@@ -274,3 +274,4 @@ export class Sfx {
 
   spit() {
     if (!this.ok()) return
+    const t = this.ctx!.currentTime
