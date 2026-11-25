@@ -992,3 +992,4 @@ def b_typhon(r):
         h.tube([hc + Vector((0.6 * s, 0, 0.6)), hc + Vector((1.5 * s, 0.2, 1.3)), hc + Vector((1.7 * s, -0.4, 2.3))], [0.3, 0.2, 0.0], mat="horn", seg=7, n=3)
     t = r.parts["torso"]
     for s in (1, -1):
+        bat_wing(t, (0.8 * s, J["back"][1], J["z"]["sh"]), s, 9.0, 5.8, raise_deg=28, sweep_deg=22, bone="horn", arm="horn")
