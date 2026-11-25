@@ -146,3 +146,4 @@ class Staff {
       const hand = g.ilyra.hand('R', this.tmp.set(0, 0, 0)).clone()
       this.prev.copy(this.pos)
       const to = hand.sub(this.pos)
+      const d = to.length()
