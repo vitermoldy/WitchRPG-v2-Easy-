@@ -68,3 +68,5 @@ describe('the forest valley', () => {
       expect(['kuil', 'bara'], kind).toContain(z.key)
       expect(camp.levels[0], kind).toBeGreaterThanOrEqual(z.levels[1])
     }
+  })
+
