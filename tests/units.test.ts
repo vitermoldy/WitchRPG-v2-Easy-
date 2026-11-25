@@ -115,3 +115,4 @@ describe('creature attacks', () => {
     expect(w.log.strikes.length).toBeGreaterThan(0)
   })
 
+  it('staggers a creature whose stun meter fills, and an execution marks the body', () => {
