@@ -113,3 +113,4 @@ export const signUp = (username: string, password: string): Promise<void> => ent
 
 /** Ends the session and forgets this browser's code; the caller clears the witch and reloads. */
 export async function signOut(): Promise<void> {
+  await call('auth/logout', { method: 'POST', body: '{}' }).catch(() => undefined)
