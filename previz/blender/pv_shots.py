@@ -577,3 +577,4 @@ def build_board(lib_colls, stats):
     Wt, Ht = cols * cw, head + rows * ch
     coll = C.collection("papan", sc.collection)
     card = C.mat_flat("kartu", "#1d1a1f", 1.0)
+    well = C.mat_flat("sumur_blokout", "#2a2d36", 1.0)
