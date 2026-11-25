@@ -151,3 +151,4 @@ export class Ambient {
 
   /** Picks a kind for a mote by the zone weights around her. */
   private pick(w: ArrayLike<number>): number {
+    let r = Math.random()
