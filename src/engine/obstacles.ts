@@ -25,3 +25,5 @@ export class Obstacles {
   readonly shapes: Shape[] = []
   private readonly grid = new Map<number, number[]>()
   private stamp = 1
+  private seen = new Uint32Array(0)
+
