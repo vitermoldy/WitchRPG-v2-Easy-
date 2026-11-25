@@ -26,3 +26,4 @@ const ALTARS = new Set(['pembuka', 'simpang', 'tebing', 'rawa', 'danau', 'kuil',
 const MAX_LEVEL = 30
 const MAX_SHADOWS = 2000
 
+/** Writes come as JSON from this site only: no form posts, no other origin. */
