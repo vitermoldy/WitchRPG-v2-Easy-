@@ -119,3 +119,4 @@ export class Particles {
   }
 
   setViewport(heightPx: number, fovDeg: number) {
+    this.material.uniforms.uScale.value = heightPx / (2 * Math.tan((fovDeg * Math.PI) / 360))
