@@ -326,3 +326,4 @@ export class Spells {
         }
       }
       const ground = g.ground.height(b.pos.x, b.pos.z)
+      const hitGround = b.pos.y < ground
