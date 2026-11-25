@@ -527,3 +527,4 @@ export class Spells {
     } else if (locked && locked.alive) at = locked.pos.clone()
     else {
       const p = g.player
+      at = new THREE.Vector3(p.pos.x - Math.sin(p.facing) * 7, 0, p.pos.z - Math.cos(p.facing) * 7)
