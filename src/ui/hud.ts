@@ -187,3 +187,4 @@ export class Hud {
       this.hitTime -= dt
       if (this.hitTime <= 0) this.hitmark.className = 'hitmark'
     }
+    this.hurt = Math.max(0, this.hurt - dt * 1.4)
