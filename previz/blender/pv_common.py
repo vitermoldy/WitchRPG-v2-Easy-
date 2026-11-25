@@ -643,3 +643,4 @@ def point(coll, name, loc, color, energy=50.0, radius=0.1, parent=None):
     return ob
 
 
+def sky_world(name, zenith, horizon, ground, strength=1.0, haze=None, haze_density=0.0, sun_dir=None, sun_glow="#ffd8a0", glow_power=8.0):
