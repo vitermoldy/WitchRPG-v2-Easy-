@@ -1046,3 +1046,4 @@ export class Rigs {
       }
       b.cap = cap
     }
+    return b
