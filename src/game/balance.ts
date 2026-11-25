@@ -1176,3 +1176,4 @@ export const COMBAT = {
   /** Share of swing damage while the staff is thrown and she strikes bare-handed. */
   unarmed: 0.5,
   block: {
+    /** Attacks from within this angle in front (radians, total) are blocked. */
