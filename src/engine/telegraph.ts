@@ -70,3 +70,5 @@ interface Item {
   total: number
   /** The circle follows the creature's aim while it winds up. */
   follow: boolean
+}
+
