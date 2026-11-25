@@ -60,3 +60,4 @@ export class Projectiles {
     let vel: THREE.Vector3
     const aim = u.aimAt.clone()
     if (atk.strike === 'ring') {
+      aim.y = this.g.height(aim.x, aim.z)
