@@ -640,3 +640,4 @@ def build_temple(coll, pal):
         p.box((x, y, ground_z(x, y) + 2.0 - abs(dx) * 0.05), (3.6, 1.2, 4.0 - abs(dx) * 0.1), mat="stone")
     gx, gy = cx, cy - 15
     gz = ground_z(gx, gy)
+    for s in (-1, 1):
