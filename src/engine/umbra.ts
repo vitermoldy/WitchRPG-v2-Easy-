@@ -245,3 +245,4 @@ export class Umbra {
 
   update(dt: number, canAct: boolean, inp: UmbraInput) {
     const g = this.g
+    this.time += dt
