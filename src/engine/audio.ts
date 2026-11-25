@@ -412,3 +412,4 @@ export class Sfx {
       g.gain.value = 0.0001
       src.connect(f).connect(g).connect(this.master!)
       src.start(0, Math.random())
+      return { f, g }
