@@ -263,3 +263,4 @@ export class Lair {
   }
 
   /** Share of a blow that lands on a Hydra part (see hydraShare). */
+  share(u: Unit, kind: DamageKind): number {
