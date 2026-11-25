@@ -240,3 +240,4 @@ export class Sfx {
   riteResult(success: boolean) {
     if (!this.ok()) return
     const t = this.ctx!.currentTime
+    if (success) {
