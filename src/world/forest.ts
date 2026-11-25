@@ -200,3 +200,4 @@ export function scatter(size = 1260, step = 4, seed = 3): Tree[] {
       let kind: Kind = entries[0][0]
       for (const [k, v] of entries) {
         r2 -= v / total
+        if (r2 <= 0) {
