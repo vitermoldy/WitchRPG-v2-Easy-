@@ -191,3 +191,4 @@ export class WorldMap {
         const meta = m.fauna ? `satwa, ${m.camps} tempat` : `Lv ${m.lo === m.hi ? m.lo : `${m.lo} sampai ${m.hi}`}, ${m.camps} kamp`
         return (
           `<li><input type="checkbox" id="${id}" data-kind="${m.kind}" ${this.chosen.has(m.kind) ? 'checked' : ''} />` +
+          `<label for="${id}"><span class="map-swatch" style="background:${KIND_COLOR[m.kind] ?? '#ccc'}"></span>${m.name} <span class="map-meta">${meta}</span></label></li>`
