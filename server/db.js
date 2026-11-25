@@ -20,3 +20,4 @@ const TABLES = [
     client_id CHAR(12) PRIMARY KEY,
     level TINYINT UNSIGNED NOT NULL,
     xp INT UNSIGNED NOT NULL,
+    stat_points SMALLINT UNSIGNED NOT NULL,
