@@ -429,3 +429,4 @@ class Part:
         self._tag(vs, mat, smooth)
         return self
 
+    def torus(self, c, R, r, normal=(0, 0, 1), mat="metal", seg=20, rseg=6):
