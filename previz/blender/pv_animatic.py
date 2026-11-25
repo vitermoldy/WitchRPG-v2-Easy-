@@ -182,3 +182,4 @@ def build(dunia, res=(1280, 720), samples=24):
             a_loc = fly_curve[-1]
             loc = a_loc.lerp(g_loc, u)
             loc.z += math.sin(u * math.pi) * 6.0
+            q0 = look_quat(fly_look[1] - a_loc)
