@@ -49,3 +49,4 @@ Salin `.env.example` menjadi `.env` dan isi akun MySQL. Server membuat database 
 | Spasi | Dodge ke arah gerak; tanpa arah, mundur. Satu-satunya jawaban untuk garis amber yang berkedip |
 | Mouse | Putar kamera |
 | Klik tengah | Lock-on ke makhluk terdekat di depan; klik lagi untuk lepas |
+| Sentak mouse ke samping | Pindah lock-on ke makhluk di sisi itu |
