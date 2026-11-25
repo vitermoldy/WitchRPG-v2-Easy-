@@ -164,3 +164,4 @@ export function scatter(size = 1260, step = 4, seed = 3): Tree[] {
     for (let i = 0; i < n; i++) {
       const x = (i - n / 2 + 0.5) * step + (rnd() - 0.5) * step * 0.9
       const y = (j - n / 2 + 0.5) * step + (rnd() - 0.5) * step * 0.9
+      const pick = rnd()
