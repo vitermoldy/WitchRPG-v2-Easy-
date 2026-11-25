@@ -413,3 +413,4 @@ def fmt_m(v):
 
 
 def build_lineup(lib_colls, stats):
+    sc = C.new_scene("03-barisan-makhluk")
