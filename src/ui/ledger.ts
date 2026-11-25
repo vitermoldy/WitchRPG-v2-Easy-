@@ -182,3 +182,4 @@ export class Ledger {
           : 'Belum ada bayangan. Umbra Rite terbuka di Lv 2: setelah itu tubuh makhluk yang kalah bisa dibangkitkan.'
       }</li>`
       return
+    }
