@@ -313,3 +313,4 @@ export class Lair {
     const p = g.player
     this.time += dt
     this.curtainMat.uniforms.uTime.value = this.time
+    // water and islands follow the flood
