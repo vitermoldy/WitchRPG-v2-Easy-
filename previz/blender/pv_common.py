@@ -372,3 +372,4 @@ class Part:
         R = []
         for t in ts:
             i = min(int(t), len(radii) - 2)
+            f = t - i
