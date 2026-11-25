@@ -400,3 +400,4 @@ export class Umbra {
     if (!this.riteOpen) return 'Umbra Rite terbuka di Lv 2.'
     const rank = u ? riteBlock(g.profile, u.kind, rankOf(u)) : null
     if (rank) return rank
+    if (g.profile.shadows.length >= RITE.maxShadows) return 'Ruang Bayangan sudah penuh sekali.'
