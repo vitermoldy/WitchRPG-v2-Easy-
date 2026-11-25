@@ -254,3 +254,4 @@ export class WorldMap {
 
   draw() {
     const g = this.g
+    const cv = this.canvas
