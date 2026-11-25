@@ -676,3 +676,4 @@ def build_rift(coll):
     bc = ZONES[4]["c"]
     r = C.Rig("rift_sky", {"edge": m_out, "core": m_in}, coll)
     p = r.P("m")
+    rng = np.random.default_rng(4)
