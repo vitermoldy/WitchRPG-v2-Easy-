@@ -63,3 +63,4 @@ interface Item {
   dx: number
   dz: number
   len: number
+  width: number
