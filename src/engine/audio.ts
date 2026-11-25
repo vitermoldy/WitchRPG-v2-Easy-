@@ -79,3 +79,5 @@ export class Sfx {
     o.connect(g).connect(this.master!)
     o.start(t)
     o.stop(t + attack + dur + 0.05)
+  }
+
