@@ -54,3 +54,4 @@ export interface Profile {
   nextShadowId: number
   /** Rifts closed in total, and per tier. */
   clears: number
+  tierClears: Record<TierId, number>
