@@ -796,3 +796,4 @@ export class Game implements UnitHost {
     // the ground: march, then refine
     let prev = 0
     for (let d = 1; d <= best; d += 1.5) {
+      const x = o.x + dir.x * d
