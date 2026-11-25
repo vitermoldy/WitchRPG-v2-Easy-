@@ -808,3 +808,5 @@ class Rig implements Poser {
       }
       this.parts.push(this.makePart(mesh, mat))
     })
+  }
+
