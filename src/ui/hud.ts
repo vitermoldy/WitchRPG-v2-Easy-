@@ -112,3 +112,4 @@ export class Hud {
 
   debug(text: string | null) {
     this.debugEl.hidden = text === null
+    if (text !== null) this.debugEl.textContent = text
