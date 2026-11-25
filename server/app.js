@@ -174,3 +174,4 @@ export function createApi(getPool, database) {
       if (p.upgrades.length) await conn.query('INSERT INTO witch_upgrades (client_id, skill) VALUES ?', [p.upgrades.map((s) => [client, s])])
       await conn.query('DELETE FROM shadows WHERE client_id = ?', [client])
       if (p.shadows.length) {
+        await conn.query('INSERT INTO shadows (client_id, shadow_id, name, kind, `rank`, level, xp, slot) VALUES ?', [
