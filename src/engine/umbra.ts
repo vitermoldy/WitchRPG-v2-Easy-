@@ -87,3 +87,4 @@ export class Umbra {
     this.targets = []
     this.casting = []
     this.progress = 0
+    this.wheelOpen = false
