@@ -771,3 +771,4 @@ export class UnitSystem {
         if (spec.fly) u.alt = Math.max(0.5, u.alt - dt * 16)
         if (!u.hitDone) {
           if (atk.strike === 'ring') {
+            if (u.t >= lt) {
