@@ -355,3 +355,4 @@ export class Warnings {
   show(at: { x: number; y: number; z: number }, radius: number, seconds: number) {
     const w = this.pool.find((p) => !p.group.visible) ?? this.pool[0]
     w.group.visible = true
+    w.group.position.set(at.x, at.y + 0.07, at.z)
