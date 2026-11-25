@@ -12,3 +12,4 @@ export interface FightInput {
   attackHeld: boolean
   blockHeld: boolean
   blockPressed: boolean
+  execute: boolean
