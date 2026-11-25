@@ -711,3 +711,4 @@ button {
   border-radius: var(--radius-sm);
   background: var(--plate);
   color: var(--ink);
+  font-size: 0.88rem;
