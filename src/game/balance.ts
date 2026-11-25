@@ -582,3 +582,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     name: 'Cyclops',
     rank: 'ksatria',
     eliteRank: 'jenderal',
+    hp: 220,
