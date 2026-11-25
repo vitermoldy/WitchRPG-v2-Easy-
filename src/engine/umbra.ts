@@ -279,3 +279,4 @@ export class Umbra {
 
     for (const u of [...g.units.units]) {
       if (u.alive) continue
+      if (u.team === 'shadow') {
