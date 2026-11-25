@@ -170,3 +170,4 @@ export const RANKS: Record<RankId, { label: string; base: number }> = {
   marsekal: { label: 'Marsekal', base: 0.15 },
 }
 
+export type UnitKind =
