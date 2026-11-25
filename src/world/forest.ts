@@ -99,3 +99,4 @@ function swampTree(): THREE.BufferGeometry {
 
 function snag(color: THREE.Color): THREE.BufferGeometry {
   const parts = [part(new THREE.CylinderGeometry(0.05, 0.35, 8, 6, 1, true), color, at(0, 4, 0, 0.03, 0.02))]
+  for (const [a, y, l] of [[0.4, 3.6, 2.4], [2.6, 4.8, 2.0], [4.4, 5.8, 1.7], [1.5, 6.6, 1.2]]) {
