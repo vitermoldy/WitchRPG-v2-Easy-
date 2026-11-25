@@ -148,3 +148,4 @@ export function createAuth({ getPool, cookie, lang, deviceCode, newDevice }) {
 
   /** The signed-in user, or null. Also notes when the account was last active. */
   async function userFor(req) {
+    const token = readCookie(req, cookie)
