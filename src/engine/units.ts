@@ -347,3 +347,4 @@ export class UnitSystem {
   down(u: Unit, seconds: number) {
     if (!u.spec.fly || !u.alive) return
     u.downed = Math.max(u.downed, seconds)
+    if (u.state === 'windup' || u.state === 'strike') {
