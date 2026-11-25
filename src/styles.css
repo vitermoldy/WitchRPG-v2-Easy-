@@ -710,3 +710,4 @@ button {
   padding: 0.35rem 0.7rem;
   border-radius: var(--radius-sm);
   background: var(--plate);
+  color: var(--ink);
