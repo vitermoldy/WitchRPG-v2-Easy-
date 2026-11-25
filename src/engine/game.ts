@@ -521,3 +521,4 @@ export class Game implements UnitHost {
     this.saveNow()
   }
 
+  resume() {
