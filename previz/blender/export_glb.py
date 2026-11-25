@@ -173,3 +173,4 @@ def export(key):
     bpy.ops.export_scene.gltf(
         filepath=path, export_format="GLB", use_selection=True, export_yup=True, export_apply=bool(SHRINK),
         export_lights=False, export_cameras=False, export_materials="EXPORT", export_animations=False,
+        export_vertex_color="ACTIVE",
