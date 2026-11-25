@@ -6,3 +6,4 @@ import bmesh
 import bpy
 from mathutils import Euler, Matrix, Vector
 
+ROOT = r"C:\MyRepo\WitchRPG-v2"
