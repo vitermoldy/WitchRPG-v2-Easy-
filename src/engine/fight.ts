@@ -463,3 +463,4 @@ export class Fight {
       g.glow.emit({ pos: this.v, count: s.heavy ? 22 : 12, color: COLOR.rift, intensity: 2.6, life: 0.3, size: 0.12, sizeEnd: 0.02, speed: s.heavy ? 6 : 4, gravity: 6 })
     }
     if (any) {
+      if (this.riposte > 0) this.riposte = 0
