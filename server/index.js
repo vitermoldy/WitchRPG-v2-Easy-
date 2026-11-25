@@ -26,3 +26,4 @@ if (existsSync(dist)) app.use(express.static(dist))
 async function connectLoop() {
   try {
     pool = await connect(config.db)
+    console.log(`${config.name}: database ${config.db.database} terhubung`)
