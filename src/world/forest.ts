@@ -134,3 +134,4 @@ function geometries(): Record<Kind, THREE.BufferGeometry> {
 
 // ------------------------------------------------------------ scatter
 
+function mulberry32(seed: number) {
