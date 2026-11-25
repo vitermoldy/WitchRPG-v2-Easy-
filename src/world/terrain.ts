@@ -169,3 +169,4 @@ export class Terrain {
       for (let k = 0; k < n; k++) {
         const a = edge[k]
         const b = edge[k + 1]
+        const c = start + k
