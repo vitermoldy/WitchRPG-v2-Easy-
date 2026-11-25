@@ -157,3 +157,4 @@ export class Particles {
     for (let i = 0; i < this.max; i++) {
       if (this.life[i] <= 0) {
         if (this.alpha[i] !== 0) {
+          this.alpha[i] = 0
