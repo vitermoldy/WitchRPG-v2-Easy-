@@ -38,3 +38,4 @@ export const SKILLS: SkillDef[] = [
     upgrade: 'Menembak 3 peluru menyebar.',
     built: true,
   },
+  {
