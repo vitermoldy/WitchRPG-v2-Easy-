@@ -213,3 +213,5 @@ export class LightPool {
       scene.add(light)
       this.slots.push({ light, ttl: 0, maxTtl: 1, peak: 0, held: false })
     }
+  }
+
