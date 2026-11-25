@@ -82,3 +82,4 @@ export class LockOn {
   }
 
   /** visible: whether the target can be seen from the camera this frame. */
+  update(dt: number, targets: Target[], player: Vec, mouseDx: number, visible: boolean) {
