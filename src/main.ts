@@ -109,3 +109,5 @@ async function boot() {
   shake.addEventListener('change', () => {
     pr.settings.shake = shake.checked
     game.saveNow()
+  })
+
