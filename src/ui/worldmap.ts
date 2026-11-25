@@ -22,3 +22,4 @@ interface BossEntry {
   name: string
   level: number
   zone: string
+  x: number
