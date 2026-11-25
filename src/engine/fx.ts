@@ -231,3 +231,4 @@ export class LightPool {
     const slot = this.slots.find((s) => !s.held && s.ttl <= 0)
     if (!slot) return null
     slot.held = true
+    slot.light.color.set(color)
