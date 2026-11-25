@@ -341,3 +341,4 @@ const poseCentaur: PoseFn = (p, u, t) => {
     p.rot('torso', 25)
     p.rot('head', 25 + 8 * Math.sin(t * 4))
     return
+  }
