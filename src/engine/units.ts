@@ -156,3 +156,4 @@ export class Unit implements Foe {
   camp = -1
   /** Camp creatures stay near home until the pack is roused, and walk back when she gets away. */
   home: THREE.Vector3 | null = null
+  aggro = true
