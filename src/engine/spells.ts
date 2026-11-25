@@ -514,3 +514,5 @@ export class Spells {
     g.sfx.impact(Math.min(1.5, speed / 20))
     g.glow.emit({ pos: u.center(), count: 16, color: COLOR.chaosHot, intensity: 2.6, life: 0.4, size: 0.16, speed: 4, gravity: 5 })
     g.smoke.emit({ pos: u.pos, count: 5, color: 0x2a2420, life: 0.8, size: 0.6, sizeEnd: 1.3, speed: 1.4, alpha: 0.5 })
+  }
+
