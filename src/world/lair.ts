@@ -216,3 +216,4 @@ export class Lair {
       this.floodTo = 1
       g.hud.banner('Air naik', 'kulitnya berlendir: bolt hanya 10%, batu yang dilempar 150%')
       g.hud.message('Fase 2: pulau batu muncul dari air, dan batunya bisa diangkat dengan Telekinesis (bidik, tahan klik kiri).', 'chaos')
+      for (const isl of this.islands) g.props.add(isl.x, isl.z)
