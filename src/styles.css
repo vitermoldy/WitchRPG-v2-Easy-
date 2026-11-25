@@ -1804,3 +1804,4 @@ dialog::backdrop {
 }
 
 .worldmap[open] {
+  display: grid;
