@@ -61,3 +61,5 @@ const FRAG_SMOKE = /* glsl */ `
     if (a < 0.01) discard;
     gl_FragColor = vec4(vColor, a);
   }
+`
+
