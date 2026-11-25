@@ -16,3 +16,4 @@ function world() {
     height: () => 0,
     foe,
     blocked: () => false,
+    strikePlayer: () => {},
