@@ -25,3 +25,4 @@ export function normalizeProfile(data: Partial<Profile> | null | undefined): Pro
   if (!data || data.version !== 1 || typeof data.level !== 'number' || !data.stats) return null
   const base = newProfile()
   const profile: Profile = {
+    ...base,
