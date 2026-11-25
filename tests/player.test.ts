@@ -130,3 +130,4 @@ describe('Ilyra on foot', () => {
     const lake: Ground = { height: () => 0, obstacles: null, blocked: (_x, z) => z < -3 }
     const q = new Player()
     run(q, { ...idle, y: 1 }, 2, lake)
+    expect(q.pos.z).toBeGreaterThan(-3.01)
