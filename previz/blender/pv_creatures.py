@@ -438,3 +438,4 @@ def b_ilyra(r, pose="idle"):
     cl = r.P("cloak", (0, 0.05, z["sh"]), "torso")
     for i in range(rows - 1):
         for j in range(cols - 1):
+            cl.poly([sheet[i][j], sheet[i][j + 1], sheet[i + 1][j + 1], sheet[i + 1][j]], mat="cloth2")
