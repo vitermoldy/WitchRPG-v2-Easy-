@@ -985,3 +985,4 @@ def b_typhon(r):
     h = r.parts["head"]
     hc = V(J["head_c"])
     h.ell(hc, (0.85, 0.95, 1.05), mat="skin")
+    face(h, hc, 16.0)
