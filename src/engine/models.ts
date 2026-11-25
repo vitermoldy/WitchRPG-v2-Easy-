@@ -91,3 +91,4 @@ export class IlyraModel {
   readonly root = new THREE.Group()
   private readonly pivot = new THREE.Group()
   private readonly parts: Record<string, THREE.Object3D> = {}
+  private readonly sigils: THREE.MeshStandardMaterial[] = []
