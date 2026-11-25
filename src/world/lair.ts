@@ -104,3 +104,4 @@ export class Lair {
     this.water = water
     this.group.add(water)
     // the islands left standing in the flood: boulders wait on them
+    const rock = new THREE.MeshStandardMaterial({ color: 0x3e3a36, roughness: 0.95, flatShading: true })
