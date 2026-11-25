@@ -399,3 +399,4 @@ export class Sfx {
   private amb: { wind: GainNode; windF: BiquadFilterNode; drone: GainNode; insects: GainNode } | null = null
 
   private startAmbience() {
+    const ctx = this.ctx!
