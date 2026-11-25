@@ -32,3 +32,4 @@ def look_quat(d):
 
 def lock_quat(cam_loc, target, vfov, third=(1 / 3, 1 / 3)):
     tv = math.tan(math.radians(vfov) / 2)
+    th = tv * 16 / 9
