@@ -733,3 +733,4 @@ button {
   color: var(--umbra-ink);
 }
 
+.feed-item.level::before {
