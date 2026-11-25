@@ -102,3 +102,5 @@ export class Player {
     this.dodgeT = -1
     this.nudgeT = 0
     this.flying = false
+  }
+
