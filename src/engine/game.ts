@@ -900,3 +900,4 @@ export class Game implements UnitHost {
           sprint: b ? b.sprint : inp.held('ShiftLeft') || inp.held('ShiftRight'),
           dodge: !air && (b ? this.botDodge : inp.pressed('Space')) && this.fight.canDodge,
           fly: this.state === 'playing' && inp.pressed('KeyB') && !this.fight.exec,
+          rise: (inp.held('Space') ? 1 : 0) - (inp.held('KeyC') ? 1 : 0) + (b?.rise ?? 0),
