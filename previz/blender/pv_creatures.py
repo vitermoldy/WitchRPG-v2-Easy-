@@ -960,3 +960,4 @@ def b_lilith(r):
     hc = V(J["head_c"])
     h.ell(hc, (0.1, 0.11, 0.13), mat="skin")
     face(h, hc, 2.5)
+    long_hair(h, hc, 2.5, 1.0, 0.13)
