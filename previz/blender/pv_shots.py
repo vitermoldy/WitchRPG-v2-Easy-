@@ -626,3 +626,4 @@ def build_bara(dunia):
     world = C.sky_world("langit_bara", "#3a2a3a", "#e08a5a", "#1a1414", 0.7, sun_dir=sd, sun_glow="#ffb07a", glow_power=10)
     sc, local = shot_scene("07-uji-lembah-bara", dunia, world, -sd, "#ffc49a", 4.0, vol_end=400)
     il = actor("aktor.ilyra.bara", "ilyra", "idle")
+    place(il, local, P[0], P[1], f)
