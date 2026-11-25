@@ -46,3 +46,4 @@ export class Sfx {
     void this.ctx?.resume()
   }
 
+  private env(gain: GainNode, t: number, a: number, peak: number, dec: number) {
