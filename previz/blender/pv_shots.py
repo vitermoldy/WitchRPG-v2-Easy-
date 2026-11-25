@@ -578,3 +578,4 @@ def build_board(lib_colls, stats):
     coll = C.collection("papan", sc.collection)
     card = C.mat_flat("kartu", "#1d1a1f", 1.0)
     well = C.mat_flat("sumur_blokout", "#2a2d36", 1.0)
+    C.text(coll, "Papan makhluk WitchRPG v2", (0.4, 0, -0.85), size=0.62, color="#f4efe9", rot=(90, 0, 0))
