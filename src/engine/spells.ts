@@ -574,3 +574,4 @@ export class Spells {
     const g = this.g
     for (const u of [...g.units.units]) {
       if (u.team !== 'enemy' || !u.targetable) continue
+      const d = u.pos.distanceTo(at)
