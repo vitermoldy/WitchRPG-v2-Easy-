@@ -988,3 +988,4 @@ export class Game implements UnitHost {
     this.fauna.update()
     this.altars.update(dt)
     this.lair.update(sdt)
+    this.seal.update(dt)
