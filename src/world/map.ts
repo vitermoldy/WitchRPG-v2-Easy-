@@ -90,3 +90,4 @@ export function vnoise(x: number, y: number): number {
   const yi = Math.floor(y)
   const fx = x - xi
   const fy = y - yi
+  const u = fx * fx * (3 - 2 * fx)
