@@ -93,3 +93,4 @@ export class Player {
     return this.dodgeT >= MOVE.dodge.iframeStart && this.dodgeT <= MOVE.dodge.iframeEnd
   }
 
+  place(x: number, z: number, g: Ground, facing = 0) {
