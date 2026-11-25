@@ -656,3 +656,4 @@ const poseHydra: PoseFn = (p, u, t) => {
       yaw = Math.max(-1.1, Math.min(1.1, Math.atan2(Math.sin(want - u.yaw), Math.cos(want - u.yaw)))) / D
     }
     // coming down, the rig steers the turn as well; until then the turn it would start from follows the aim
+    if (h && mode === 'down') yaw = h.neckYaw
