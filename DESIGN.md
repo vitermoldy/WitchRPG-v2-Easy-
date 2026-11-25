@@ -124,3 +124,5 @@ Hasil ukur (pola v1: 20 makhluk yang terus bertarung ditambah N bayangan di meda
 | 500 | 8,9 sampai 9,2 ms | 11,1 sampai 11,9 ms | 9,9 ms |
 | 1.000 | 10,3 sampai 10,7 ms | 13,8 sampai 14,7 ms | 12,8 ms |
 
+Semua di bawah anggaran 16,7 ms, dan tidak ada yang lebih lambat dari v1. Draw call sekitar 330 dan 1,1 juta segitiga di 200 bayangan, 1,6 juta di 500. Sebelum perbaikan biaya simulasi, kerumunan sederhana, dan bayangan tanpa bayangan jatuh, angkanya 11,1 ms (200) dan 13,8 ms (500) dengan 42 makhluk; satu run bisa meleset sekitar 1 ms, jadi angka di atas dari beberapa run di mesin yang tidak sedang mengerjakan hal lain.
+
