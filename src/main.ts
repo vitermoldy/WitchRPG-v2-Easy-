@@ -46,3 +46,4 @@ async function boot() {
     })
   } catch (e) {
     fail(`Hutan gagal dimuat: ${(e as Error).message}`)
+    return
