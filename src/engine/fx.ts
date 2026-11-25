@@ -320,3 +320,5 @@ export class Rings {
       if (k >= 1) r.mesh.visible = false
     }
   }
+}
+
