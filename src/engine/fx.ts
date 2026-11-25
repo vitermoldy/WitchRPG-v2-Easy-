@@ -470,3 +470,4 @@ export class ShadowPools {
       if (p.state === 'opening') {
         // Spills out fast, eases at the edge.
         p.open = Math.min(1, p.t / 0.35)
+        if (p.open >= 1) {
