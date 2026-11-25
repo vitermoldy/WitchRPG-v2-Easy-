@@ -602,3 +602,4 @@ def build_fog(coll):
     nt.links.new(vol.outputs[0], out.inputs["Volume"])
     me.materials.append(m)
     ob = bpy.data.objects.new("atmosphere", me)
+    ob.scale = (1500, 1500, 500)
