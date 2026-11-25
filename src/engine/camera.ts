@@ -150,3 +150,4 @@ export class CameraRig {
   }
 
   place(dt: number, pivot: Vec, p: CamParams, obstacles: Obstacles | null, height: HeightFn): CamPose {
+    const want = wanted(pivot, this.yaw, this.pitch, p)
