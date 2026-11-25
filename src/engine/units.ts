@@ -81,3 +81,4 @@ export class Unit implements Foe {
   /** A Phoenix that has already risen from its ashes once. */
   reborn = false
   /** Driven from outside (the Hydra's heads): no brain, no walking. */
+  controlled = false
