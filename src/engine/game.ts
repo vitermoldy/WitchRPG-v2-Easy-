@@ -700,3 +700,4 @@ export class Game implements UnitHost {
     this.blasts.length = 0
     this.warnings.clear()
     for (const u of this.units.units) u.token = false
+    this.sfx.collapse()
