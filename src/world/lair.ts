@@ -460,3 +460,4 @@ export class Lair {
     g.smoke.emit({ pos: at, count: 14, color: 0x2a2a20, life: 1.2, size: 1, sizeEnd: 2, speed: 2, alpha: 0.6 })
     g.addTrauma(0.3)
     g.sfx.impact(1.2)
+    const body = this.body
