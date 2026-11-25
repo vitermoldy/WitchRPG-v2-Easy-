@@ -352,3 +352,4 @@ export class WorldMap {
           ctx.stroke()
         } else {
           ctx.fill()
+          ctx.stroke()
