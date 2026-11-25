@@ -165,3 +165,4 @@ def export(key):
         if SHRINK and ob.type == "MESH" and len(ob.data.polygons) >= 60:
             mod = ob.modifiers.new("lod", "DECIMATE")
             mod.ratio = SHRINK
+    for ob in scene.objects:
