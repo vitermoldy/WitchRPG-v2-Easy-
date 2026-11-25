@@ -261,3 +261,4 @@ export class Hud {
       const lo = Math.min(...chances)
       const hi = Math.max(...chances)
       if (why) html = `<span class="blocked">${why}</span>`
+      else if (g.umbra.casting.length) html = `Membangkitkan ${g.umbra.casting.length} tubuh`
