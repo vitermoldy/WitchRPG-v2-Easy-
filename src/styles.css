@@ -1350,3 +1350,4 @@ dialog::backdrop {
 .ledger-xp i {
   display: block;
   height: 100%;
+  background: var(--rift);
