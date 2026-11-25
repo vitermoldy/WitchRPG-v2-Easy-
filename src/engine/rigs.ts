@@ -102,3 +102,4 @@ function common(p: Poser, u: Unit, t: number, limbs: string[]): boolean {
     p.body(0, 25 * Math.sin(t * 1.3 + u.id), 18 * Math.sin(t * 1.1))
     for (let i = 0; i < limbs.length; i++) p.rot(limbs[i], 30 * Math.sin(t * 2 + i), 0, 15)
     return true
+  }
