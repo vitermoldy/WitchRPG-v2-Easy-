@@ -251,3 +251,4 @@ export class Camps {
               g.hud.message('Minotaur menahan pukulan dan bolt dari depan. Lempar tongkat (H), Telekinesis, atau serang dari samping.', 'info')
             }
           }
+        } else if (!p.alive || d > CAMP.leash) {
