@@ -45,3 +45,4 @@ function rateLimit(limit) {
     const recent = (hits.get(key) ?? []).filter((t) => now - t < 60_000)
     recent.push(now)
     hits.set(key, recent)
+    if (hits.size > 5000) hits.clear()
