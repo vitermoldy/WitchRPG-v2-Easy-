@@ -363,3 +363,4 @@ export class Sfx {
 
   /** A Succubus or Incubus gone in a puff and back elsewhere. */
   blink() {
+    if (!this.ok()) return
