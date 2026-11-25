@@ -14,3 +14,4 @@ export class Sfx {
       void this.ctx.resume()
       return
     }
+    try {
