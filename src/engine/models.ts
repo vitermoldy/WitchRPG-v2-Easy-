@@ -313,3 +313,4 @@ export class IlyraModel {
         torsoX += 30 * slam
         crouch = 0.16 * slam
       } else torsoX += 8 * weight
+    }
