@@ -27,3 +27,4 @@ export const AUTH_TABLES = [
     login_count INT UNSIGNED NOT NULL DEFAULT 0,
     UNIQUE KEY users_username (username),
     UNIQUE KEY users_device (device_id)
+  ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci`,
