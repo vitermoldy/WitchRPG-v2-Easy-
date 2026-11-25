@@ -74,3 +74,4 @@ export function cleanProfile(p, now = Date.now()) {
   const seen = new Set()
   const shadows = []
   for (const s of p.shadows) {
+    const id = int(s?.id, 1, 1_000_000)
