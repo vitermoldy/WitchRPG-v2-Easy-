@@ -70,3 +70,4 @@ export class Umbra {
   private chargeTick = 0
   private leashT = 0
   /** Game seconds; fallen shadows reform against this clock. */
+  private time = 0
