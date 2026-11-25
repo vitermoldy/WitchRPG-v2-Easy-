@@ -479,3 +479,4 @@ export class Lair {
         body.helpers++
         g.summoned(imp)
       }
+    }
