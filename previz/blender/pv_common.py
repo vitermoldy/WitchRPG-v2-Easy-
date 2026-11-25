@@ -369,3 +369,4 @@ class Part:
         P, ts = catmull(pts, n)
         if isinstance(radii, (int, float)):
             radii = [radii] * len(pts)
+        R = []
