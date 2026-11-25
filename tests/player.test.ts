@@ -131,3 +131,5 @@ describe('Ilyra on foot', () => {
     const q = new Player()
     run(q, { ...idle, y: 1 }, 2, lake)
     expect(q.pos.z).toBeGreaterThan(-3.01)
+  })
+
