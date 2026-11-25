@@ -25,3 +25,5 @@ if (found) {
   console.log(`${config.name}: kata sandi ${found.username} diganti. Semua sesinya dikeluarkan.`)
   await pool.end()
   process.exit(0)
+}
+
