@@ -168,3 +168,4 @@ def mat_tone(name, top, bottom=None, rough=0.7, metal=0.0, emit=None, emit_stren
         b.inputs["Emission Color"].default_value = rgb(emit)
         b.inputs["Emission Strength"].default_value = emit_strength
     m.diffuse_color = rgb(top)
+    _MATS[name] = m
