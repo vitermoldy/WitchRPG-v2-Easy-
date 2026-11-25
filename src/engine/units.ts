@@ -916,3 +916,4 @@ export class UnitSystem {
     if (!loose || u.state === 'dead') host.obstacles.pushOut(u.pos, u.radius, u.height)
     // written so a reset (NaN) always samples again: any comparison with NaN is false
     if (!(Math.abs(u.pos.x - u.groundX) + Math.abs(u.pos.z - u.groundZ) <= 0.04)) {
+      u.ground = host.height(u.pos.x, u.pos.z)
