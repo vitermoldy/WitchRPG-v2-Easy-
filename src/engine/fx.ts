@@ -44,3 +44,4 @@ const FRAG_GLOW = /* glsl */ `
   varying vec3 vColor;
   varying float vAlpha;
   void main() {
+    float d = length(gl_PointCoord - 0.5);
