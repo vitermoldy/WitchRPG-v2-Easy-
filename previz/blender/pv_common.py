@@ -524,3 +524,4 @@ def instance(coll, sc_coll, loc=(0, 0, 0), rot_z=0.0, scale=1.0, name=None, rot=
     return ob
 
 
+def tri_count(coll):
