@@ -121,3 +121,4 @@ Makhluk memakai warna dari gambar referensinya (keputusan pemilik setelah previz
 | Griffin | singa `#c39256` | kepala dan sayap elang `#8a5a34`, `#6e4a2c`, paruh `#e0b040` |
 | Hippogriff | kuda `#9a7a52` | kepala dan sayap elang `#a07a48`, sayap terlipat |
 | Phoenix | merah api `#d0381c` | sayap ke jingga `#ffb030`, ekor menyala `#ffd060` (beremisi) |
+| Dragon | merah `#9a2618`, perut `#d8a878` | selaput sayap `#d89a6a`, duri `#6a160e` |
