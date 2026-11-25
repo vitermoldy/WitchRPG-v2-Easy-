@@ -732,3 +732,4 @@ const poseBeast: PoseFn = (p, u, t) => {
 /** A biped whose lower body is one or more serpents (Lilith, Typhon): the coils sway as it moves. */
 function serpentine(base: PoseFn, part: string): PoseFn {
   return (p, u, t) => {
+    base(p, u, t)
