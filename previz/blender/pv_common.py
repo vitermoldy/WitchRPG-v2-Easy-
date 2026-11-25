@@ -651,3 +651,4 @@ def sky_world(name, zenith, horizon, ground, strength=1.0, haze=None, haze_densi
     nt.nodes.clear()
     N, L = nt.nodes, nt.links
     out = N.new("ShaderNodeOutputWorld")
+    bg = N.new("ShaderNodeBackground")
