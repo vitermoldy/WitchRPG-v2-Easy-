@@ -260,3 +260,4 @@ export const ringOf = (atk: AttackSpec) => atk.ring ?? RING_RADIUS
  * knocked off balance takes the full blow.
  */
 export function shieldShare(u: Unit, fromX: number, fromZ: number, kind: DamageKind): number {
+  const s = u.spec.shield
