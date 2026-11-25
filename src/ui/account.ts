@@ -207,3 +207,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
       skipped = false
       void checkAccount()
       return
+    }
