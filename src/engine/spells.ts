@@ -729,3 +729,4 @@ export class Spells {
   }
 
   private endBarrier() {
+    const g = this.g
