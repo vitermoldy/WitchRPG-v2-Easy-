@@ -132,3 +132,4 @@ export const RITE = {
   summonCooldown: 2.5,
   /** Each UMB point above 5 makes every shadow 2% tougher and stronger. */
   powerPerUmb: 0.02,
+  /** How many shadows stand on the field at once. A setting: more costs frame rate. */
