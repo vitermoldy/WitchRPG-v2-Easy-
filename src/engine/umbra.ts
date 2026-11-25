@@ -538,3 +538,4 @@ export class Umbra {
         s.command = 'attack'
         // before Perintah Fokus each shadow takes the enemy nearest the mark; after, all hit one target
         let mine: Unit = target
+        if (!focusOn) {
