@@ -58,3 +58,4 @@ interface Island {
  * opens at Lv 10. Once the fight starts the lair closes until the Hydra or she falls.
  */
 export class Lair {
+  readonly group = new THREE.Group()
