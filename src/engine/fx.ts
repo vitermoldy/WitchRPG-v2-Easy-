@@ -8,3 +8,4 @@ export interface Emit {
   color: THREE.ColorRepresentation
   /** Multiplies the colour; above 1 it feeds the bloom pass. */
   intensity?: number
+  life: number
