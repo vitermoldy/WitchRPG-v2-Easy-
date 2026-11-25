@@ -653,3 +653,4 @@ def sky_world(name, zenith, horizon, ground, strength=1.0, haze=None, haze_densi
     out = N.new("ShaderNodeOutputWorld")
     bg = N.new("ShaderNodeBackground")
     bg.inputs["Strength"].default_value = strength
+    tc = N.new("ShaderNodeTexCoord")
