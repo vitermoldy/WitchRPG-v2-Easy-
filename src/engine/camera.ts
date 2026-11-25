@@ -43,3 +43,4 @@ export function wanted(pivot: Vec, yaw: number, pitch: number, p: CamParams): Ve
   const f = forward(yaw, pitch)
   const r = rightOf(yaw)
   return {
+    x: pivot.x - f.x * p.dist + r.x * p.shoulder,
