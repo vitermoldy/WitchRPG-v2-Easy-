@@ -497,3 +497,4 @@ def b_imp(r):
 
 
 def b_hellhound(r):
+    """Black three-headed hound with glowing cyan veins and a snake for a tail."""
