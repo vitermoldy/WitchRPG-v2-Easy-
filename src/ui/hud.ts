@@ -150,3 +150,4 @@ export class Hud {
     this.pulse('parry-flash')
   }
 
+  /** A violet breath across the screen when the army is called. */
