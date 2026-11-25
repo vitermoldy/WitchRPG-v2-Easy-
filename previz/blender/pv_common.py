@@ -437,3 +437,4 @@ class Part:
         self.tube(pts, r, mat=mat, seg=rseg, n=2, cap=False)
         return self
 
+    def rock(self, c, r, seed=0, mat="horn", sub=1):
