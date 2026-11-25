@@ -759,3 +759,4 @@ export class UnitSystem {
           if (atk.strike === 'ring') {
             tmp.subVectors(u.aimAt, u.pos).setY(0)
             const d = tmp.length()
+            u.lungeDir.copy(tmp.normalize())
