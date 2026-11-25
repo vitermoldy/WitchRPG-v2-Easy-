@@ -87,3 +87,4 @@ export class Props {
             if (u.team !== 'enemy' || !u.targetable) continue
             const r = Math.max(u.radius, u.height * 0.42) + p.radius
             if (u.center(this.c).distanceTo(p.pos) > r) continue
+            const dmg = impactDamage(p.mass, speed, SPELL.impact.coefficient, SPELL.impact.exponent) * g.spells.damageMult
