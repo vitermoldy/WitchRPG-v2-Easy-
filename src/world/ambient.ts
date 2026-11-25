@@ -176,3 +176,4 @@ export class Ambient {
     this.size[i] = kind.size * (0.7 + Math.random() * 0.6)
   }
 
+  /** `w`: zone weights in ZONES order; `ground`: the ground height under the camera. */
