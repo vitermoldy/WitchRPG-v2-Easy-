@@ -147,3 +147,4 @@ export class Unit implements Foe {
   record: ShadowRecord | null = null
   command: Command = 'follow'
   readonly holdPos = new THREE.Vector3()
+  slot = 0
