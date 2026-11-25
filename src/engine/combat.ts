@@ -100,3 +100,4 @@ export class Combo {
     if (this.chainLeft === 0 && !this.current) this.nextIndex = 0
     const s = this.current
     if (s) {
+      if (pressed) this.queued = true
