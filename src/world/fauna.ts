@@ -41,3 +41,4 @@ export class Fauna {
     this.spots = [...ALTARS.map((a) => spot('unicorn', a.c[0] + 7, a.c[1] + 5)), ...MEADOWS.map(([x, y]) => spot('pegasus', x, y))]
   }
 
+  update() {
