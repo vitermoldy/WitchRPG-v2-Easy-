@@ -1097,3 +1097,4 @@ export class Rigs {
       if (u.team !== 'shadow' || u.detailed || u.state === 'dead') continue
       const b = this.crowd.get(u.kind)
       if (!b) continue
+      this.p.set(u.pos.x, u.pos.y - this.sink(u), u.pos.z)
