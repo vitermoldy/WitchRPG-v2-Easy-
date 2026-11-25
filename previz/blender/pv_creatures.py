@@ -916,3 +916,4 @@ def b_hydra(r, heads=5):
             rb = nr * (1 - 0.45 * (j + 1) / (len(js) - 1))
             pr.limb(js[j], js[j + 1], ra, rb, seg=10)
             if j % 2 == 1:
+                pr.cone(js[j] + Vector((0, 0.5 * ra, 0.8 * ra)), js[j] + Vector((0, 1.6 * ra, 1.6 * ra)), 0.18 * ra, mat="accent", seg=5)
