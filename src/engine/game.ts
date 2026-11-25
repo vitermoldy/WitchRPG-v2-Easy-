@@ -817,3 +817,4 @@ export class Game implements UnitHost {
       if (u.team !== 'enemy' || !u.targetable) continue
       u.center(this.sphere.center)
       this.sphere.radius = Math.max(u.radius, u.height * 0.42)
+      const hit = this.ray.intersectSphere(this.sphere, this.v)
