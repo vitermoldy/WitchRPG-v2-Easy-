@@ -30,3 +30,4 @@ export const forward = (yaw: number, pitch: number): Vec => ({
   x: -Math.sin(yaw) * Math.cos(pitch),
   y: Math.sin(pitch),
   z: -Math.cos(yaw) * Math.cos(pitch),
+})
