@@ -714,3 +714,4 @@ def b_medusa(r):
 
 
 def b_chimera(r):
+    """Tawny lion with a pale shaggy mane, a grey goat head with long dark horns, and a blue snake tail."""
