@@ -443,3 +443,4 @@ export class Game implements UnitHost {
     V2_KINDS.forEach((k, i) => {
       models[k] = creatures[i]
       lods[k] = creatures[V2_KINDS.length + i]
+    })
