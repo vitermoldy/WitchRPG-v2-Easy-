@@ -371,3 +371,4 @@ export class IlyraModel {
       armRZ -= 20 * act.hurt
     }
 
+    this.pivot.position.y -= crouch
