@@ -27,3 +27,5 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
   let shown: AuthState['status'] | null = null
   let last: AuthState['status'] = authState().status
   let pushTimer = 0
+  let note = ''
+
