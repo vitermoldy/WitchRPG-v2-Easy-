@@ -19,3 +19,4 @@ const TABLES = [
   `CREATE TABLE IF NOT EXISTS witches (
     client_id CHAR(12) PRIMARY KEY,
     level TINYINT UNSIGNED NOT NULL,
+    xp INT UNSIGNED NOT NULL,
