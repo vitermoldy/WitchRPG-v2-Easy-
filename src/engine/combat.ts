@@ -14,3 +14,4 @@ export function resolveDefense(now: number, strike: 'ring' | 'line', invulnerabl
   if (invulnerable) return 'dodge'
   if (strike === 'line') return 'hit'
   if (Math.abs(angle) > COMBAT.block.arc / 2) return 'hit'
+  const since = now - blockPressedAt
