@@ -229,3 +229,4 @@ def feather_wing(part, root, s, span, chord, raise_deg=30, sweep_deg=15, feather
     def feather(base, ang, length, width, m):
         d = Vector((math.cos(math.radians(ang)), math.sin(math.radians(ang))))
         n = Vector((-d.y, d.x))
+        tip = base + d * length
