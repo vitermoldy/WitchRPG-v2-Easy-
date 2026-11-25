@@ -118,3 +118,4 @@ export class Particles {
     this.points.renderOrder = mode === 'glow' ? 10 : 9
   }
 
+  setViewport(heightPx: number, fovDeg: number) {
