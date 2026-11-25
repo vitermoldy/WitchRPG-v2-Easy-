@@ -54,3 +54,4 @@ const TABLES = [
   `CREATE TABLE IF NOT EXISTS witch_altars (
     client_id CHAR(12) NOT NULL,
     altar VARCHAR(16) NOT NULL,
+    last TINYINT UNSIGNED NOT NULL DEFAULT 0,
