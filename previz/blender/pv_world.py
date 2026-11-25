@@ -444,3 +444,4 @@ def build_forest(coll, P, size=1260.0, step=4.0, seed=3):
     e = 1.5
     slope = np.hypot(height(X + e, Y) - height(X - e, Y), height(X, Y + e) - height(X, Y - e)) / (2 * e)
     W = zone_weights(X, Y)
+    cum = np.cumsum(W, axis=0)
