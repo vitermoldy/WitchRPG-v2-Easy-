@@ -421,3 +421,4 @@ export class Game implements UnitHost {
     await frame()
     const trees = scatter()
     addColliders(trees, this.obstacles)
+    this.forest = new Forest(trees)
