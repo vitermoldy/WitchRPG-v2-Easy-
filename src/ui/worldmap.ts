@@ -15,3 +15,5 @@ const KIND_COLOR: Partial<Record<UnitKind, string>> = {
   imp: '#ff8a5c', hellhound: '#5ce0ff', harpy: '#9fd0ff', centaur: '#e8c070', griffin: '#ffd34d', hippogriff: '#f0a8ff',
   naga: '#6dff9a', minotaur: '#ff5c7a', cyclops: '#c9a27a', succubus: '#7dffcf', incubus: '#b6ff5c', phoenix: '#ffb04d',
   pegasus: '#ffffff', unicorn: '#d8f6ff',
+}
+
