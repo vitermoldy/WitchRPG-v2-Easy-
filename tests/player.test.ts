@@ -96,3 +96,4 @@ describe('Ilyra on foot', () => {
     expect(p.pos.x).toBeLessThan(MOVE.dodge.distance * 1.08)
     for (const [t, inv] of seen) {
       expect(inv).toBe(t >= MOVE.dodge.iframeStart && t <= MOVE.dodge.iframeEnd)
+    }
