@@ -80,3 +80,4 @@ export class Obstacles {
     for (let pass = 0; pass < 2; pass++) {
       this.near(pos.x, pos.z, radius + 0.01, (s) => {
         if (s.camOnly) return
+        let rr: number
