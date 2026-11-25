@@ -43,3 +43,4 @@ export const MOVE = {
  * fov is vertical, as PerspectiveCamera.fov counts it. height is the pivot above her feet.
  */
 export const CAMERA = {
+  normal: { dist: 3.4, shoulder: 0.8, height: 1.6, fov: 50 },
