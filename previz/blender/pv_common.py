@@ -383,3 +383,4 @@ class Part:
         Nn = (up - T[0] * up.dot(T[0])).normalized()
         rings = []
         allv = []
+        off = self.pivot
