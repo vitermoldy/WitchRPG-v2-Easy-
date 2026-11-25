@@ -233,3 +233,4 @@ export class Camps {
           camp.units = []
           camp.state = 'idle'
           return
+        }
