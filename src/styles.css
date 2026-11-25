@@ -1344,3 +1344,4 @@ dialog::backdrop {
   height: 6px;
   border-radius: 2px;
   background: rgba(239, 230, 223, 0.1);
+  overflow: hidden;
