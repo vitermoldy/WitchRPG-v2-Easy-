@@ -79,3 +79,4 @@ def humanoid(r, H, bulk=1.0, legs="human", female=False, off=(0, 0, 0), arm_pose
     r.P("head", J["neck"], "torso")
     for s, side in SIDES:
         ab, fw, el = arm_pose.get(side, (12, 4, 12))
+        S = V(P(s * sw, 0.004 * H, z["sh"]))
