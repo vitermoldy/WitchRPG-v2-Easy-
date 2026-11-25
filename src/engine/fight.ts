@@ -272,3 +272,4 @@ export class Fight {
     return !this.exec && this.combo.cancellable
   }
 
+  /** Where she should face this frame, or null to leave it to steering and the camera. */
