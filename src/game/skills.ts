@@ -82,3 +82,4 @@ export const SKILLS: SkillDef[] = [
     id: 'warp',
     branch: 'chaos',
     name: 'Reality Warp',
+    key: 'V',
