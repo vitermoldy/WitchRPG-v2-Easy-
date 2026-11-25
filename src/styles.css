@@ -1213,3 +1213,4 @@ button {
   padding: 0.5rem 0.8rem 0.6rem;
   border-radius: var(--radius);
   background: var(--plate);
+  text-align: center;
