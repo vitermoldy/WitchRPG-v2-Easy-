@@ -17,3 +17,5 @@ app.use((_req, res, next) => {
   res.setHeader('Referrer-Policy', 'same-origin')
   next()
 })
+app.use('/api', createApi(() => pool, config.db.database))
+
