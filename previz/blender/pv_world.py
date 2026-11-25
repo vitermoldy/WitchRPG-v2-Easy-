@@ -693,3 +693,4 @@ def build_rift(coll):
         p.poly([a - up * w0 * 0.3, b - up * w1 * 0.3, b + up * w1 * 0.2, a + up * w0 * 0.2], mat="core")
     r.finalize()
     for ob in r.coll.objects:
+        if ob.type == "MESH":
