@@ -160,3 +160,4 @@ class Staff {
         if (!h) break
         this.hit.add(h.u)
         g.hurtUnit(h.u, COMBAT.staff.recallDamage * g.fight.damageMult, this.prev, COMBAT.staff.recallStun, 3, 'player', 'staff')
+        g.units.down(h.u, 2.5)
