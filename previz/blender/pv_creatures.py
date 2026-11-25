@@ -810,3 +810,4 @@ def b_hippogriff(r):
     eagle_head(n, hp + Vector((0, -0.05, 0.08)), fwd=(0, -1, -0.2), s=1.75)
     b = r.parts["body"]
     b.ell(V(Q["chest"]) + Vector((0, -0.2, 0.08)), (0.42, 0.42, 0.52), mat="body2")
+    for s in (1, -1):
