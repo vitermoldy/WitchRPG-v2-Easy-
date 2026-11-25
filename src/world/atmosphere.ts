@@ -109,3 +109,4 @@ export class Atmosphere {
       this.skyTarget.b += this.zoneSky[i].b * w
       this.zenithTarget.r += this.zoneZenith[i].r * w
       this.zenithTarget.g += this.zoneZenith[i].g * w
+      this.zenithTarget.b += this.zoneZenith[i].b * w
