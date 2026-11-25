@@ -29,3 +29,4 @@ export interface UnitHost {
   strikePlayer(u: Unit, atk?: AttackSpec): void
   /** A unit struck a unit of the other side. */
   strikeUnit(u: Unit, target: Unit, atk?: AttackSpec): void
+  /** A ranged attack leaves the creature: an arrow along its line or a glob onto its circle. */
