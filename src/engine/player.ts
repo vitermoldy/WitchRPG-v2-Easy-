@@ -168,3 +168,4 @@ export class Player {
       const tz = wz * top
       // exponential approach: at a jog she reaches speed in about 0.14 s and stops in about 0.1 s
       const rate = wl > 0.05 ? MOVE.accel : MOVE.decel
+      const k = 1 - Math.exp(-(rate / Math.max(top, 1)) * 2 * dt)
