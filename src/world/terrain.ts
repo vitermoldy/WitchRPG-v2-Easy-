@@ -100,3 +100,4 @@ export class Terrain {
     mesh.receiveShadow = true
     mesh.visible = false
     mesh.matrixAutoUpdate = false
+    mesh.name = `chunk ${c.ix},${c.iz} lod${lod}`
