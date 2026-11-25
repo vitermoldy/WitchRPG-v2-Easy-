@@ -30,3 +30,4 @@ def look_quat(d):
     return Vector(d).normalized().to_track_quat("-Z", "Y")
 
 
+def lock_quat(cam_loc, target, vfov, third=(1 / 3, 1 / 3)):
