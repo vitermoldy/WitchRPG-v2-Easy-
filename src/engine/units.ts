@@ -348,3 +348,4 @@ export class UnitSystem {
     if (!u.spec.fly || !u.alive) return
     u.downed = Math.max(u.downed, seconds)
     if (u.state === 'windup' || u.state === 'strike') {
+      this.host.clearTelegraph(u)
