@@ -124,3 +124,4 @@ def disc(coll, name, centre, radius, mat, z_off=0.03, seg=40):
 def mat_ring(name, color, strength, inner=0.82, alpha=0.9, fill=0.08):
     """Glowing ring with a faint fill, drawn on a disc with radial UVs from object coordinates."""
     m = bpy.data.materials.get(name) or bpy.data.materials.new(name)
+    m.use_nodes = True
