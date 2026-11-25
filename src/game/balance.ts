@@ -861,3 +861,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     ],
   },
   samael: {
+    name: 'Samael',
