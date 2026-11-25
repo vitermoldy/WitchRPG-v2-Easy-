@@ -33,3 +33,4 @@ export class StunMeter {
     if (this.staggered > 0 || amount <= 0) return false
     this.value += amount
     this.since = 0
+    if (this.value >= this.max) {
