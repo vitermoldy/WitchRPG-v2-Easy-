@@ -342,3 +342,4 @@ def snake_head(part, at, fwd, s=1.0, jaw=35, mat="body"):
         part.cone(a + F * 0.26 * s + side * 0.04 * s * k, a + F * 0.27 * s + side * 0.04 * s * k - up * 0.11 * s, 0.014 * s, mat="horn", seg=4)
 
 
+def spikes(part, pts, h, r, mat="horn", tilt=(0, 0.4, 1)):
