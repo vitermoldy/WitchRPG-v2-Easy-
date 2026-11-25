@@ -214,3 +214,4 @@ export class Lair {
     g.addTrauma(0.5)
     if (n === 2) {
       this.floodTo = 1
+      g.hud.banner('Air naik', 'kulitnya berlendir: bolt hanya 10%, batu yang dilempar 150%')
