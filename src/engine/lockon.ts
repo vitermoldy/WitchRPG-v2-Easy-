@@ -53,3 +53,4 @@ export class LockOn {
       return
     }
     this.current = this.pick(targets, player, camYaw)
+    this.lost = 0
