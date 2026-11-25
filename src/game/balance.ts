@@ -57,3 +57,4 @@ export const CAMERA = {
   /** Rate the camera eases back out after an obstacle stops blocking it (1/s). */
   release: 4,
   near: 0.1,
+  far: 1200,
