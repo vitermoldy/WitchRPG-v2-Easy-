@@ -805,3 +805,4 @@ export class Game implements UnitHost {
           const m = (lo + hi) / 2
           if (o.y + dir.y * m < heightAt(o.x + dir.x * m, o.z + dir.z * m)) hi = m
           else lo = m
+        }
