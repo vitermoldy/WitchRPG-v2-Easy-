@@ -733,3 +733,4 @@ def build_world(lib_scene):
     build_ground_cover(cover, P, SPOTS["minotaur"], 30, seed=13, grass=0.25, fern=0.02, keep_clear=[(TEMPLE, 16)], open_r=9)
     build_ground_cover(cover, P, SPOTS["hydra"], 30, seed=14, grass=0.22, fern=0.02, open_r=10)
     build_ground_cover(cover, P, ALTAR, 20, seed=15, keep_clear=[(ALTAR, 8)])
+    props = C.collection("Dunia_bangunan", dunia)
