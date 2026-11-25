@@ -225,3 +225,4 @@ describe('Tier IV and V', () => {
     expect(UNITS.harrier.rank).toBe('prajurit')
     expect(UNITS.bombard.rank).toBe('ksatria')
   })
+  it('keeps the GDD curve to Lv 9 and makes each later level steeper', () => {
