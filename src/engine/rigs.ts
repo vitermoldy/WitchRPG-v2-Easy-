@@ -961,3 +961,4 @@ class Rig implements Poser {
 interface CrowdBatch {
   parts: { geometry: THREE.BufferGeometry; material: THREE.Material; mesh: THREE.InstancedMesh }[]
   cap: number
+  used: number
