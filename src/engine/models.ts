@@ -318,3 +318,4 @@ export class IlyraModel {
       // raise the staff high in both hands, drive it down, hold, then stand
       const e = act.execute
       const up = ease(e / 0.35)
+      const down = ease((e - 0.35) / 0.2)
