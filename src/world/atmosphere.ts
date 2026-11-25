@@ -25,3 +25,4 @@ uniform vec3 sunDir;
 uniform vec3 sunColor;
 varying vec3 vDir;
 void main() {
+  vec3 d = normalize(vDir);
