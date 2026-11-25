@@ -82,3 +82,4 @@ export class Telegraphs {
 
   constructor(scene: THREE.Object3D, height: HeightFn, count = 24) {
     this.height = height
+    for (let i = 0; i < count; i++) {
