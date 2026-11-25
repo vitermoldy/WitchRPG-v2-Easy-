@@ -68,3 +68,4 @@ interface Item {
   /** When it started and how long until the blow lands (game seconds). */
   t0: number
   total: number
+  /** The circle follows the creature's aim while it winds up. */
