@@ -52,3 +52,4 @@ export class Fauna {
         u.aggro = false
         s.unit = u
       } else if (s.unit && d > SLEEP) {
+        g.units.remove(s.unit)
