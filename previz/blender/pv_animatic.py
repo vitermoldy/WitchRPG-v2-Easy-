@@ -69,3 +69,4 @@ def build(dunia, res=(1280, 720), samples=24):
         a = math.pi / 4 + k * math.pi / 2
         c = Vector((math.cos(a), math.sin(a), 0)) * 0.55
         rp.box(c, (0.32, 0.06, 0.02), rot=(0, 0, math.degrees(a) + 90), mat="r")
+    reticle.finalize()
