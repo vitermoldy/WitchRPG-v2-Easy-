@@ -563,3 +563,4 @@ export class Umbra {
   /** Tukar Tempat: she trades places with the shadow nearest the middle of the view. */
   private swap(shadows: Unit[]) {
     const g = this.g
+    if (!isUnlocked(g.profile, 'swap')) {
