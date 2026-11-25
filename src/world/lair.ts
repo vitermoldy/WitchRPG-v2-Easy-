@@ -200,3 +200,4 @@ export class Lair {
     for (const h of this.heads) if (h) h.aggro = true
     g.hud.banner('Hydra', 'bangkit dari Danau Hitam. Sarang tertutup sampai salah satu dari kalian tumbang')
     g.sfx.roar()
+    g.addTrauma(0.4)
