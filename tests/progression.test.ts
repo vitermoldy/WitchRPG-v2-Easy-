@@ -227,3 +227,4 @@ describe('Tier IV and V', () => {
   })
   it('keeps the GDD curve to Lv 9 and makes each later level steeper', () => {
     expect(xpToNext(9)).toBe(2160)
+    expect(xpToNext(10)).toBe(3790)
