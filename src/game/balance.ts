@@ -926,3 +926,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
 }
 
 /**
+ * The Hydra, built on the three-phase plan of v1's Hollow Warden. Phase 1: heads slam under amber
