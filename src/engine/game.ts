@@ -367,3 +367,4 @@ export class Game implements UnitHost {
   telegraph(u: Unit) {
     if (u.team !== 'enemy') return
     this.telegraphs.show(u)
+    // both kinds have their own sound too, so the warning does not depend on sight alone
