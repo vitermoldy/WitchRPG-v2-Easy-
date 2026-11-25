@@ -5,3 +5,4 @@ export interface Target {
   /** Feet position (world). */
   x: number
   y: number
+  z: number
