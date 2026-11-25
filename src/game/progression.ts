@@ -7,3 +7,4 @@ import {
   PLAYER,
   RANKS,
   RITE,
+  SHADOW,
