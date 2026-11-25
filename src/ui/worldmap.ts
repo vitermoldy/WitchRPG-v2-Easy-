@@ -155,3 +155,4 @@ export class WorldMap {
       if (def.boss) continue
       for (const kind of Object.keys(def.pack) as V2Kind[]) {
         if (UNITS[kind].boss) continue
+        const m = out.get(kind) ?? { kind, name: UNITS[kind].name, lo: 99, hi: 0, camps: 0, fauna: false }
