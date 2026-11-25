@@ -92,3 +92,4 @@ export class Combo {
   cancel() {
     this.current = null
     this.charging = -1
+    this.queued = false
