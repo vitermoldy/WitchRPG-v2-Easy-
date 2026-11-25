@@ -66,3 +66,4 @@ export async function connect(db) {
   await boot.query(`CREATE DATABASE IF NOT EXISTS \`${db.database.replace(/`/g, '')}\` CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci`)
   await boot.end()
   const pool = mysql.createPool({ ...db, connectionLimit: 8, timezone: 'Z' })
+  // Auth first: nothing else refers to users, and clients must exist before the game tables.
