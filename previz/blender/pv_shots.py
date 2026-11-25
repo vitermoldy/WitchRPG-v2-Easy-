@@ -333,3 +333,5 @@ def build_minotaur(dunia):
     return sc
 
 
+# ---------------------------------------------------------------- 05 Hydra at dusk
+
