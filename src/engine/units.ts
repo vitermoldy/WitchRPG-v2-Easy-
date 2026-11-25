@@ -196,3 +196,4 @@ export class Unit implements Foe {
     return this.alive && this.state !== 'finishing' && !this.hidden && !this.spec.passive
   }
 
+  /** Size change (elites, the shadow Hydra): body radius follows. */
