@@ -622,3 +622,4 @@ def build_bara(dunia):
     bc = Wd.ZONES[4]["c"]
     P = (bc[0] - 30, bc[1] - 40)
     f = Vector((0.6, 0.8, 0)).normalized()
+    sd = sun_dir(f, 40, 18)
