@@ -665,3 +665,4 @@ def build_altar(coll, pal):
         h = (3.4, 2.6, 3.8, 2.2, 3.2, 2.8, 3.6)[k]
         p.box((x, y, zz + h / 2 - 0.2), (0.9, 0.6, h), rot=(0, 0, math.degrees(a)), mat="stone")
     r.finalize()
+    C.point(coll, "altar_light", (ax, ay, z0 + 1.6), "#9ff2e0", energy=800, radius=1.0)
