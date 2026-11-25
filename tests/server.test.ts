@@ -56,3 +56,4 @@ describe('the server checks a witch before it keeps her', () => {
     const p = { ...newProfile(), settings: { sensitivity: 9, volume: -1, headBob: true, shake: false, detail: 500, firstPerson: true }, updatedAt: '2030-01-01T00:00:00Z' }
     const c = cleanProfile(p, NOW)
     expect(c.settings).toEqual({ sensitivity: 2.5, volume: 0, headBob: true, shake: false, detail: 120, firstPerson: true })
+    expect(c.updatedAt.getTime()).toBe(NOW + 60_000)
