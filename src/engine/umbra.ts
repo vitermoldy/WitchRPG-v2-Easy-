@@ -421,3 +421,4 @@ export class Umbra {
   }
 
   cancel() {
+    if (!this.casting.length) return
