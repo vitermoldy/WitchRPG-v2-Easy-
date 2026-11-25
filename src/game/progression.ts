@@ -3,3 +3,4 @@ import {
   COMBAT,
   ELITE,
   GROWTH,
+  MOVE,
