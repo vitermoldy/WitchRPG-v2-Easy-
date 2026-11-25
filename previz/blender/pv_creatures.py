@@ -1050,3 +1050,4 @@ def b_atlas(r):
     t.tube([V(J["sh_L"]) + Vector((0, -0.1, 0.1)), V(J["chest"]) + Vector((0, -0.75, 0.0)), V(J["waist"]) + Vector((-0.9, -0.4, 0))], 0.22, mat="cloth", seg=6, n=3, squash=0.4)
 
 
+def _horse(r, wings, horn):
