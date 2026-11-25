@@ -71,3 +71,4 @@ export class Props {
     return best
   }
 
+  update(dt: number) {
