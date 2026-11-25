@@ -22,3 +22,4 @@ export const MOVE = {
   gravity: 22,
   /** Steepest slope she can walk up, as rise over run; the cliffs of Tebing Berangin are steeper. */
   maxSlope: 1.0,
+  /** Deepest water she wades into; Danau Hitam and the swamp pools are deeper. */
