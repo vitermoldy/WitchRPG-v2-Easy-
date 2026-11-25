@@ -26,3 +26,4 @@ export function confirmDialog(title: string, text: string, yes: string): Promise
       $('confirm-no').onclick = null
       dlg.onclose = null
       if (dlg.open) dlg.close()
+      resolve(v)
