@@ -124,3 +124,4 @@ export class Game implements UnitHost {
   private readonly timer = new THREE.Timer()
   private terrain!: Terrain
   private forest!: Forest
+  private atmosphere!: Atmosphere
