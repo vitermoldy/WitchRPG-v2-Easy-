@@ -72,3 +72,4 @@ export class Game implements UnitHost {
   readonly obstacles = new Obstacles()
   readonly profile = loadProfile().profile
   readonly sfx = new Sfx()
+  readonly units: UnitSystem
