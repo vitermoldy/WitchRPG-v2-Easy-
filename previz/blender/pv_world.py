@@ -100,3 +100,4 @@ def height(x, y):
     # Lembah Bara: a burnt bowl with a rim
     b = ZONES[4]
     db = _dist(x, y, b["c"])
+    h = h - 7 * smooth(b["r"] * 0.9, b["r"] * 0.2, db) + 6 * smooth(b["r"] * 0.7, b["r"] * 1.0, db) * smooth(b["r"] * 1.4, b["r"] * 1.0, db)
