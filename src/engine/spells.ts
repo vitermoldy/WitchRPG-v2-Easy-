@@ -195,3 +195,4 @@ export class Spells {
   }
 
   private upgraded(id: SkillId) {
+    return hasUpgrade(this.g.profile, id)
