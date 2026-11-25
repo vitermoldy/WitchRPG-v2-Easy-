@@ -4,3 +4,4 @@
  */
 export class Sfx {
   private ctx: AudioContext | null = null
+  private master: GainNode | null = null
