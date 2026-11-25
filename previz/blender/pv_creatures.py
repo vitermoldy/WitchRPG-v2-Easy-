@@ -483,3 +483,4 @@ def b_imp(r):
         h.ell(hc + Vector((0.04 * s, -0.085, 0.02)), (0.022, 0.018, 0.015), mat="eye", seg=8, rings=5)
     for s, side in SIDES:
         hd = r.parts["hand_" + side]
+        W, d = J["wr_" + side], J["hand_dir_" + side]
