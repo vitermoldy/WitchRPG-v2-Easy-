@@ -151,3 +151,4 @@ export function createAuth({ getPool, cookie, lang, deviceCode, newDevice }) {
     const token = readCookie(req, cookie)
     if (!token) return null
     const pool = getPool()
+    const [rows] = await pool.query(
