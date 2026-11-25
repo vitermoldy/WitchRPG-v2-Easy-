@@ -72,3 +72,4 @@ async function call<T>(path: string, init?: RequestInit): Promise<T> {
   } catch {
     throw new ApiError('Server tidak menjawab.', 0)
   }
+  const body = await res.json().catch(() => ({}))
