@@ -10,3 +10,4 @@ export const SUN_DIR = new THREE.Vector3(0.78, 0.42, 0.46).normalize()
 const SKY_VERT = /* glsl */ `
 varying vec3 vDir;
 void main() {
+  vDir = normalize(position);
