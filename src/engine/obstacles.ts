@@ -110,3 +110,4 @@ export class Obstacles {
    * Sweeps a sphere of radius `cr` from a to b. Returns the fraction of the way it travels before
    * touching a shape (1 when the path is clear, 0 when it starts inside one).
    */
+  sweep(ax: number, ay: number, az: number, bx: number, by: number, bz: number, cr: number): number {
