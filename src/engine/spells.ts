@@ -633,3 +633,4 @@ export class Spells {
         }
       }
       if (Math.random() < dt * 30) {
+        const a = Math.random() * Math.PI * 2
