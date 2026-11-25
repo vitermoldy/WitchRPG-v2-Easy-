@@ -525,3 +525,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     cooldown: 2.2,
     shield: 0.85,
     stun: 85,
+    attacks: [
