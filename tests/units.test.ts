@@ -157,3 +157,4 @@ describe('shadows', () => {
     const shadow = w.sys.spawn('hellhound', 'shadow', 1, { x: 2, z: 0 })
     w.step(0.3)
     expect(enemy.target).toBe(shadow)
+  })
