@@ -1135,3 +1135,4 @@ export const BOSS = {
   /** Damage taken while caught in Reality Warp in phase 3. */
   warpDamage: 1.5,
   swallowHeal: 0.015,
+  feedEvery: 22,
