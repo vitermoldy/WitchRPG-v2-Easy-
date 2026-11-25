@@ -1025,3 +1025,4 @@ export class Rigs {
       const baked = bakeByMaterial(lod ? lod.clone(true) : rig.standing())
       b = { parts: [], cap: 0, used: 0 }
       for (const piece of baked) {
+        // plain shadow materials: the crowd has no per-instance glow
