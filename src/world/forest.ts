@@ -63,3 +63,4 @@ function pine(h: number, tiers: number, rad: number, needle: THREE.Color): THREE
     const r = rad * (1 - i / (tiers + 0.6))
     const ch = h * 0.3
     parts.push(part(new THREE.ConeGeometry(r, ch, 8, 1), needle, at(0.1 * Math.sin(i * 2.1), z0 + ch / 2, 0.1 * Math.cos(i * 1.7))))
+  }
