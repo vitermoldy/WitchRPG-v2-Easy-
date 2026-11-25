@@ -79,3 +79,4 @@ const SHIELD_VERT = /* glsl */ `
   void main() {
     vUv = uv;
     vec4 mv = modelViewMatrix * vec4(position, 1.0);
+    vNormal = normalMatrix * normal;
