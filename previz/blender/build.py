@@ -45,3 +45,5 @@ bpy.context.preferences.filepaths.save_version = 0
 lib = bpy.context.scene
 lib.name = "Pustaka"
 for ob in list(bpy.data.objects):
+    bpy.data.objects.remove(ob)
+
