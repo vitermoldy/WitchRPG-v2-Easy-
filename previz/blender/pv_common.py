@@ -87,3 +87,4 @@ def mat_cracked(name, color, crack, strength=5.0, scale=2.2, rough=0.75, coverag
     m = _new_mat(name)
     nt = m.node_tree
     N, L = nt.nodes, nt.links
+    b = N["Principled BSDF"]
