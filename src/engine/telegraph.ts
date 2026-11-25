@@ -88,3 +88,4 @@ export class Telegraphs {
     }
   }
 
+  private make(scene: THREE.Object3D, kind: 'ring' | 'line'): Item {
