@@ -877,3 +877,4 @@ def hydra_neck_joints(base, top, bend, k=8):
         cum.append(cum[-1] + (pts[i + 1] - pts[i]).length)
     out = []
     i = 0
+    for n in range(k + 1):
