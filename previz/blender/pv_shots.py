@@ -514,3 +514,4 @@ def tile_png(paths, out, cols=2, pad=12, bg=(0.07, 0.07, 0.08)):
     canvas[..., :3] = bg
     canvas[..., 3] = 1
     for i, im in enumerate(ims):
+        px = np.empty(w * h * 4, np.float32)
