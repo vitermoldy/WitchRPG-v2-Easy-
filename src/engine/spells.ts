@@ -402,3 +402,4 @@ export class Spells {
       g.telegraphs.clear(u)
       u.token = false
       u.set('held')
+      u.vel.set(0, 0, 0)
