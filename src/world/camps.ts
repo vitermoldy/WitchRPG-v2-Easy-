@@ -174,3 +174,4 @@ export class Camps {
         g.obstacles.pushOut(at, 0.6, 1.5)
         if (g.ground.blocked(at.x, at.z)) {
           at.x = camp.pos.x
+          at.z = camp.pos.z
