@@ -40,3 +40,4 @@ export class Projectiles {
 
   constructor(g: Game) {
     this.g = g
+    this.group.name = 'shots'
