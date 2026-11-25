@@ -534,3 +534,4 @@ export class Lair {
       rocks: this.g.props.list.length,
     }
   }
+}
