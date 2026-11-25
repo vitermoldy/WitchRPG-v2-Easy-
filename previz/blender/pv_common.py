@@ -299,3 +299,6 @@ def catmull(pts, n):
             ts.append((i - 1) + t)
     out.append(P[-1])
     ts.append(len(P) - 1)
+    return out, ts
+
+
