@@ -873,3 +873,4 @@ class Rig implements Poser {
   }
 
   add(u: Unit, t: number, glow: THREE.Color | null, sink: number) {
+    if (this.used >= this.cap) this.grow(this.used + 1)
