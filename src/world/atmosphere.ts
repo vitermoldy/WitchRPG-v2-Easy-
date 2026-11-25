@@ -79,3 +79,4 @@ export class Atmosphere {
     const s = this.sun
     s.castShadow = true
     s.shadow.mapSize.set(2048, 2048)
+    const box = 60
