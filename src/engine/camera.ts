@@ -25,3 +25,4 @@ export interface CamPose {
   fov: number
 }
 
+export const rad = (d: number) => (d * Math.PI) / 180
