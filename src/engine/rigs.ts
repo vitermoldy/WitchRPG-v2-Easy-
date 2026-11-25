@@ -897,3 +897,4 @@ class Rig implements Poser {
     }
     // the Hydra's heads: where they were drawn is where they can be struck
     if (u.parts) {
+      u.parts.forEach((h, k) => {
