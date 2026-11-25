@@ -103,3 +103,4 @@ describe('staff combo', () => {
   it('lands each blow exactly once, at the end of its windup', () => {
     const c = new Combo()
     const ev = play(c, [[1 / 60, true, false]])
+    for (let i = 0; i < 60; i++) c.update(1 / 60, false, false, ev)
