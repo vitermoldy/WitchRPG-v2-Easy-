@@ -122,3 +122,4 @@ const poseImp: PoseFn = (p, u, t) => {
   p.rot('tail', 10 * Math.sin(t * 2 + u.id), 25 * Math.sin(t * 3 + u.id))
   if (u.state === 'windup') {
     const k = ease(u.t / u.spec.windup)
+    const shake = k > 0.7 ? Math.sin(t * 60) * 3 : 0
