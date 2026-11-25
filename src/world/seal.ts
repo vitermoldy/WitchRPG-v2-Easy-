@@ -24,3 +24,4 @@ const FRAG = /* glsl */ `
 `
 
 /**
+ * The seal on Reruntuhan Kuil and Lembah Bara. A grid of 8 m cells marks which ground belongs to a
