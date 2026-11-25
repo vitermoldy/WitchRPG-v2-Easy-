@@ -203,3 +203,4 @@ export interface AttackSpec {
   /** Multiplier on the creature's damage. */
   damage?: number
   lungeSpeed?: number
+  lungeTime?: number
