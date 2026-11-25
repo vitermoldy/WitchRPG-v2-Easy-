@@ -85,3 +85,4 @@ describe('Ilyra on foot', () => {
 
   it('rolls 4.2 m in 0.42 s, untouchable from 0.04 s to 0.32 s', () => {
     const p = new Player()
+    const dt = 1 / 240
