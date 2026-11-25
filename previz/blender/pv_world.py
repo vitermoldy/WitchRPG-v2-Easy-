@@ -259,3 +259,4 @@ def build_water(coll):
     po = bpy.data.objects.new("pantulan_air", pr)
     po.location = (ob.location.x, ob.location.y, 0.02)
     po.scale = ob.scale
+    coll.objects.link(po)
