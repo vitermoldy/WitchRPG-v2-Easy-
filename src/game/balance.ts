@@ -692,3 +692,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   hippogriff: {
     name: 'Hippogriff',
     rank: 'ksatria',
+    hp: 58,
