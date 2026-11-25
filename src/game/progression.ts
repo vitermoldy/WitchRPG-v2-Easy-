@@ -227,3 +227,4 @@ export function gainXp(p: Profile, amount: number, skills: SkillId[]): XpResult 
     result.levelsGained += 1
     for (const id of skills) if (skillById(id).unlock === p.level) result.unlocked.push(id)
   }
+  const share = Math.round(amount * RITE.shadowXpShare)
