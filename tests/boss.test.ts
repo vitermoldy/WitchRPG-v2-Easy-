@@ -123,3 +123,4 @@ describe('phase 5 creatures', () => {
 
   it('a Succubus blinks a dozen metres away when she comes close', () => {
     const w = world()
+    const s = w.sys.spawn('succubus', 'enemy', 10, { x: 0, z: 2.5 })
