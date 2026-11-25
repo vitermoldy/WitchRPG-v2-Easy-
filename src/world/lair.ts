@@ -326,3 +326,4 @@ export class Lair {
     const shut = this.state === 'calm' && g.profile.level < HYDRA.lairLevel
     const want = this.state === 'fight' ? 1 : shut ? 0.7 : 0
     const fade = this.curtainMat.uniforms.uFade.value as number
+    this.curtainMat.uniforms.uFade.value = fade + (want - fade) * Math.min(1, dt * 2)
