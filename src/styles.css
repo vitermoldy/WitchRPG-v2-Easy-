@@ -363,3 +363,4 @@ button {
   height: 22px;
   margin: 0;
   accent-color: var(--chaos);
+  cursor: pointer;
