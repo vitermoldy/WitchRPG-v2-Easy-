@@ -1995,3 +1995,4 @@ dialog::backdrop {
 }
 
 @media (max-width: 860px) {
+  .ledger-body {
