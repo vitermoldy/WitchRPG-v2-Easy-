@@ -137,3 +137,4 @@ export class Ambient {
       transparent: true,
       depthWrite: false,
       fog: false,
+      side: THREE.DoubleSide,
