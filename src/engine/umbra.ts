@@ -195,3 +195,5 @@ export class Umbra {
     g.sfx.summon(n)
     const later = this.reforming().count
     g.hud.message(later ? `${n} bayangan dipanggil. ${later} lainnya menyusul setelah terbentuk kembali.` : `${n} bayangan dipanggil, seluruh Ruang Bayangan.`, 'umbra')
+  }
+
