@@ -705,3 +705,4 @@ export class UnitSystem {
           this.steer(u, tgt.pos.x, tgt.pos.z, speed * 0.35, dt, 2)
           u.alt += (0 - u.alt) * Math.min(1, dt * 6)
           this.face(u, tgt.pos.x, tgt.pos.z, dt)
+          break
