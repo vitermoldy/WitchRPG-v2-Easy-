@@ -213,3 +213,4 @@ export class Spells {
   addChaos(amount: number) {
     if (this.overloaded) return
     const before = this.chaos
+    this.chaos = Math.min(CHAOS.max, this.chaos + amount)
