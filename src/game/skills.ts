@@ -25,3 +25,5 @@ export interface SkillDef {
   built: boolean
   /** The GDD gives this skill no upgrade, so no point can be spent on it. */
   noUpgrade?: boolean
+}
+
