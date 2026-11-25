@@ -106,3 +106,4 @@ export class Obstacles {
     return moved
   }
 
+  /**
