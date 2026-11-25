@@ -981,3 +981,4 @@ export class Game implements UnitHost {
     this.prof('umbra', t2)
     const t0 = performance.now()
     this.units.update(sdt)
+    this.shots.update(sdt)
