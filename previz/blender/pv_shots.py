@@ -576,3 +576,4 @@ def build_board(lib_colls, stats):
     rows = math.ceil(len(keys) / cols)
     Wt, Ht = cols * cw, head + rows * ch
     coll = C.collection("papan", sc.collection)
+    card = C.mat_flat("kartu", "#1d1a1f", 1.0)
