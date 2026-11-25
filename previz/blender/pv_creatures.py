@@ -1018,3 +1018,4 @@ def b_samael(r):
     h.ell(hc, (0.13, 0.15, 0.17), mat="skin")
     face(h, hc, 3.2)
     long_hair(h, hc, 3.2, 0.6, 0.14)
+    arc = [hc + Vector((math.cos(a) * 0.42, 0.22, 0.34 + math.sin(a) * 0.42)) for a in [math.radians(40 + 22 * i) for i in range(14)]]
