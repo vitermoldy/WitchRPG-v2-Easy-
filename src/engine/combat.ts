@@ -133,3 +133,4 @@ export class Combo {
         this.begin(false, out)
       }
     }
+    return out
