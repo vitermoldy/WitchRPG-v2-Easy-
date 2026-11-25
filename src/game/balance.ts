@@ -556,3 +556,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     name: 'Chimera',
     rank: 'jenderal',
     hp: 720,
+    damage: 22,
