@@ -324,3 +324,4 @@ export class WorldMap {
       ctx.moveTo(x, y - r)
       ctx.lineTo(x + r, y)
       ctx.lineTo(x, y + r)
+      ctx.lineTo(x - r, y)
