@@ -138,3 +138,4 @@ export class CameraRig {
     if (target) this.lastLock = target
     const p = this.params()
     if (target) {
+      // the camera spot depends on the angles it is solving for; two passes settle it
