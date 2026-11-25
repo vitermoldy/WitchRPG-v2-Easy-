@@ -326,3 +326,4 @@ const poseCentaur: PoseFn = (p, u, t) => {
   if (u.state === 'windup' && !u.atk.shot) {
     const k = ease(u.t / u.atk.windup)
     p.body(0.25 * k, -22 * k)
+    p.rot('leg_FL', -70 * k)
