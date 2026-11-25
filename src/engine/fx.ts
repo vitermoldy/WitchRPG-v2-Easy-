@@ -49,3 +49,4 @@ const FRAG_GLOW = /* glsl */ `
     a *= a * vAlpha;
     if (a < 0.003) discard;
     gl_FragColor = vec4(vColor * a, a);
+  }
