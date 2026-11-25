@@ -143,3 +143,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
         // Another browser saved a newer witch; take it only before she enters the forest.
         if (r.stale && r.profile && onTitle()) adopt(r.profile)
       } catch {
+        /* the browser keeps the save; the next one tries again */
