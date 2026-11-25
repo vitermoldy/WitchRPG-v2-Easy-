@@ -42,3 +42,4 @@ def log(*a):
 
 
 bpy.context.preferences.filepaths.save_version = 0
+lib = bpy.context.scene
