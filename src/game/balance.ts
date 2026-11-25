@@ -353,3 +353,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     slam: 5,
     summon: { every: 14, count: 3, max: 6 },
     anchored: true,
+  },
