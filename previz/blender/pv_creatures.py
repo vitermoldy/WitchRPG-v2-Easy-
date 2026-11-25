@@ -829,3 +829,4 @@ def b_phoenix(r):
     for s in (1, -1):
         h.ell(hc + Vector((0.065 * s, -0.05, 0.03)), 0.022, mat="eye", seg=8, rings=5)
     for i in range(5):
+        a = math.radians(-30 + 15 * i)
