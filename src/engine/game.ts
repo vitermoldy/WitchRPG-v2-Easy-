@@ -456,3 +456,4 @@ export class Game implements UnitHost {
     this.props = new Props(this)
     this.scene.add(this.props.mesh)
     this.lair = new Lair(this)
+    this.scene.add(this.lair.group)
