@@ -83,3 +83,4 @@ export class Combo {
     return this.current !== null || this.charging >= 0
   }
 
+  /** Recovery can be cancelled into a roll; the windup and the blow cannot. */
