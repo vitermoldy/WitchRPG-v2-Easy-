@@ -398,3 +398,4 @@ def scatter_group():
     L.new(nr.outputs["Attribute"], e2r.inputs["Euler"])
     L.new(e2r.outputs["Rotation"], iop.inputs["Rotation"])
     ns = N.new("GeometryNodeInputNamedAttribute")
+    ns.data_type = "FLOAT"
