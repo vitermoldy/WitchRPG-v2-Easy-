@@ -77,3 +77,4 @@ export class Ledger {
       if (t.dataset.stat) {
         if (spendStat(p, t.dataset.stat as StatKey)) this.after(t.dataset.stat)
       } else if (t.dataset.upgrade) {
+        if (buyUpgrade(p, t.dataset.upgrade as SkillId)) this.after('up-' + t.dataset.upgrade)
