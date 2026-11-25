@@ -82,3 +82,4 @@ scenes = {}
 scenes["variants"] = S.build_variants(dunia)
 scenes["hero"], _ = S.build_hero(dunia)
 scenes["valley"] = S.build_valley(dunia)
+scenes["minotaur"] = S.build_minotaur(dunia)
