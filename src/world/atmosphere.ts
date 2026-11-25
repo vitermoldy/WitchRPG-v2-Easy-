@@ -113,3 +113,4 @@ export class Atmosphere {
       // blend sight in inverse so a thick-fog zone pulls the distance down quickly
       inv += w / ZONES[i].sight
       if (w > this.w[best]) best = i
+    }
