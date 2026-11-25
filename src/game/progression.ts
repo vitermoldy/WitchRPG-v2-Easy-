@@ -130,3 +130,5 @@ export function isFresh(p: Profile): boolean {
 export function xpToNext(level: number): number {
   const late = level > 9 ? 1 + XP.lateSteep * (level - 9) : 1
   return Math.round((XP.base * level ** XP.exponent * late) / 10) * 10
+}
+
