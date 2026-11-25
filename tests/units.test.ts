@@ -147,3 +147,4 @@ describe('shadows', () => {
     w.sys.spawn('imp', 'shadow', 1, { x: 0, z: -2 })
     w.step(8)
     expect(w.log.unitStrikes).toBeGreaterThan(0)
+    expect(enemy.alive).toBe(false)
