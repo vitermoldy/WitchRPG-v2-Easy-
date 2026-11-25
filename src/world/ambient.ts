@@ -132,3 +132,4 @@ export class Ambient {
 
     this.riftMat = new THREE.ShaderMaterial({
       uniforms: { uTime: { value: 0 }, uFade: { value: 0 } },
+      vertexShader: RIFT_VERT,
