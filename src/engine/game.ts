@@ -466,3 +466,4 @@ export class Game implements UnitHost {
     this.state = 'title'
   }
 
+  /** Puts her at a map point facing a map direction, with the camera behind her. */
