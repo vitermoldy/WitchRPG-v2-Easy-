@@ -889,3 +889,4 @@ class Rig implements Poser {
     const anyHidden = this.hidden.size > 0
     for (const part of this.parts) {
       if (anyHidden && part.chain.some((n) => this.hidden.has(n))) part.mesh.setMatrixAt(i, this.zero)
+      else {
