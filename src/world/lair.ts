@@ -21,3 +21,5 @@ export function hydraShare(phase: 1 | 2 | 3, kind: DamageKind, inWarp: boolean):
     if (kind === 'impact' || kind === 'staff') return HYDRA.thrownShare
   }
   return army
+}
+
