@@ -50,3 +50,4 @@ Action-RPG third-person dengan rasa God of War di hutan terbuka, memakai sistem 
 | Paket | Nama `witch-rpg-v2`. Express, mysql2, dan skrip server belum dipasang | Server baru dikerjakan di fase 6. |
 | Simpanan | Kunci localStorage `witchrpg-v2:profile:v1` | Tidak bercampur dengan simpanan v1. |
 | Gerak | Jog 4,4 m/dtk, lari (Shift) 7 m/dtk; mencapai kecepatan dalam sekitar 0,14 dtk dan berhenti dalam sekitar 0,1 dtk; berbelok 11 rad/dtk ke arah gerak | Terasa berbobot tanpa licin. Semua angka di `MOVE` di `balance.ts`. |
+| Dodge | Roll 4,2 m dalam 0,42 dtk, kecepatan 1,5 × (1 − u²) (dorongan keras lalu reda), tak tersentuh dari 0,04 sampai 0,32 dtk, jeda 0,25 dtk. Tanpa arah ditekan, ia mundur | Dikunci `tests/player.test.ts`. Jendela i-frame dan parry akan dipakai musuh di fase 2. |
