@@ -41,3 +41,5 @@ Kalau game terasa berat di laptop dengan dua GPU, atur Chrome ke "High performan
 
 Salin `.env.example` menjadi `.env` dan isi akun MySQL. Server membuat database `witch_rpg_v2_easy` beserta tabelnya saat pertama jalan. Selama server jalan, layar mulai meminta masuk dengan username dan kata sandi; level, stat, skill, Ruang Bayangan, dan altar yang sudah menyala tersimpan di akun, jadi bisa dilanjutkan dari browser lain. Kalau server mati, pilih "Main tanpa akun": witch tersimpan di browser itu, dan ikut ke akun saat kamu masuk nanti.
 
+## Kontrol
+
