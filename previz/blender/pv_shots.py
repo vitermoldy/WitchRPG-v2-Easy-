@@ -636,3 +636,4 @@ def build_bara(dunia):
         q = fr(fw, rt)
         place(imp, local, q.x, q.y, -f, name=f"imp.bara.{i}")
     ph = actor("aktor.phoenix.bara", "phoenix")
+    q = fr(14, -6)
