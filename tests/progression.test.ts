@@ -202,3 +202,4 @@ describe('Tier IV and V', () => {
     p.level = 12
     expect(tierUnlocked(p, 4)).toBe(false)
     expect(tierLock(p, 4)).toMatch(/Hollow Warden/)
+    p.bossKills = 1
