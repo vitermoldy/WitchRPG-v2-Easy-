@@ -836,3 +836,4 @@ button {
 .bar {
   position: relative;
   height: 9px;
+  border-radius: 2px;
