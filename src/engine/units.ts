@@ -370,3 +370,4 @@ export class UnitSystem {
       u.hp = 1
       u.set('ashes')
       u.vel.set(0, 0, 0)
+      u.downed = 999
