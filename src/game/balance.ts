@@ -967,3 +967,4 @@ export const HYDRA = {
   respawn: 45,
   /** It rises into the lake when she comes within `wake` of the lair, and sinks away again past `sleep` (m). */
   wake: 150,
+  sleep: 220,
