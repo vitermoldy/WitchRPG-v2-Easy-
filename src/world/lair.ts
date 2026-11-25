@@ -111,3 +111,4 @@ export class Lair {
       const x = this.center.x + Math.sin(a) * 9
       const z = this.center.z + Math.cos(a) * 9
       const mesh = new THREE.Mesh(new THREE.CylinderGeometry(3.6, 4.4, 4, 9), rock)
+      mesh.position.set(x, this.groundY - 5, z)
