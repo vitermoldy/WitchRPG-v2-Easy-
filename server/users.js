@@ -14,3 +14,4 @@ const [rows] = await pool.query(
 await pool.end()
 
 if (rows.length === 0) {
+  console.log(`${config.name}: belum ada akun di database ${config.db.database}.`)
