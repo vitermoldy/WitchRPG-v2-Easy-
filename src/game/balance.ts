@@ -51,3 +51,4 @@ export const CAMERA = {
   pitchMin: -55,
   pitchMax: 62,
   /** Rate the camera blends between normal and aim (1/s). */
+  blend: 9,
