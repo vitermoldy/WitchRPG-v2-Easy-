@@ -80,3 +80,4 @@ export class WorldMap {
       if (!b) return
       const kind = b.dataset.boss as UnitKind
       this.focus = this.focus === kind ? null : kind
+      this.renderBosses()
