@@ -71,3 +71,4 @@ describe('creature attacks', () => {
   it('lets at most two creatures attack her at once; the rest circle', () => {
     const w = world()
     for (let i = 0; i < 8; i++) w.sys.spawn('imp', 'enemy', 1, { x: Math.cos(i) * 3, z: Math.sin(i) * 3 })
+    let most = 0
