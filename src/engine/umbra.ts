@@ -178,3 +178,4 @@ export class Umbra {
     // the darkness spreads as far as the outer rank stands; a big army rises within about 2.5 seconds
     const spill = Math.min(60, Math.max(5 + Math.sqrt(n) * 2.4, ringRadius(base + n) + 3))
     const stagger = Math.min(0.06, 2.2 / Math.max(1, n))
+    g.pools.open(feet, spill, 1.4 + n * stagger)
