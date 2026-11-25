@@ -64,3 +64,5 @@ export class Terrain {
     }
     // the far detail of every chunk exists from the start, so nothing is ever missing on screen
     for (const c of this.chunks) this.ensure(c, 2)
+  }
+
