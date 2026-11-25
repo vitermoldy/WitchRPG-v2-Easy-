@@ -108,3 +108,4 @@ export function createApi(getPool, database) {
   // A full Shadow Room (2000 records) is about 200 KB of JSON.
   api.use(express.json({ limit: '1mb' }))
   api.use(sameOriginWrites)
+  api.use(rateLimit(120))
