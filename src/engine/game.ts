@@ -1131,3 +1131,4 @@ export class Game implements UnitHost {
       t: this.t,
       zone: ZONES[this.atmosphere.zone].name,
       pos: toMap(p.pos.x, p.pos.z).map((v) => Math.round(v)),
+      hp: Math.round(p.hp),
