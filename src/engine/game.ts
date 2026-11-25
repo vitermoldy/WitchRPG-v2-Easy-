@@ -452,3 +452,4 @@ export class Game implements UnitHost {
     this.fauna = new Fauna(this)
     this.scene.add(this.camps.group)
     this.altars = new Altars(this)
+    this.scene.add(this.altars.group)
