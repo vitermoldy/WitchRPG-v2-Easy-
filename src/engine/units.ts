@@ -552,3 +552,4 @@ export class UnitSystem {
         const r = 2 + Math.random() * 9
         u.aimAt.set(home.x + Math.cos(a) * r, 0, home.z + Math.sin(a) * r)
         u.cd = 4 + Math.random() * 6
+      }
