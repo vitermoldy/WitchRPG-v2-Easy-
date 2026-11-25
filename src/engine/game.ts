@@ -423,3 +423,4 @@ export class Game implements UnitHost {
     addColliders(trees, this.obstacles)
     this.forest = new Forest(trees)
     this.scene.add(this.forest.mesh)
+    progress('Memanggil Ilyra dan makhluk hutan')
