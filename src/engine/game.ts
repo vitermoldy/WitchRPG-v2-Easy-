@@ -67,3 +67,4 @@ export class Game implements UnitHost {
   readonly camera = new THREE.PerspectiveCamera(CAMERA.normal.fov, 16 / 9, CAMERA.near, CAMERA.far)
   readonly input: Input
   readonly rig = new CameraRig()
+  readonly player = new Player()
