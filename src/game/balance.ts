@@ -941,3 +941,4 @@ export const HYDRA = {
   crawls: 6,
   /** Nearest and farthest a head comes down from the body (m); the circle stays in that band, and past it the heads spit. */
   slamNear: 10,
+  slamReach: 14,
