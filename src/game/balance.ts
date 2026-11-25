@@ -214,3 +214,4 @@ export interface AttackSpec {
   effect?: 'petrify' | 'poison'
   /** Used only when she is behind the creature (the Chimera's snake tail). */
   behind?: boolean
+  /** Seconds before this attack can be used again. */
