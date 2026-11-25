@@ -130,3 +130,4 @@ export class Spells {
   private holdT = 0
   private readonly shield: THREE.Mesh
   private readonly tendril: THREE.Line
+  private readonly tendrilPts: THREE.Vector3[] = []
