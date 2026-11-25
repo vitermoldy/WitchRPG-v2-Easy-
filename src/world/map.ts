@@ -223,3 +223,4 @@ export function pathDist(x: number, y: number): number {
 
 export function inClearing(x: number, y: number, pad = 0): boolean {
   for (const [c, r] of CLEARINGS) if (dist(x, y, c) < r + pad) return true
+  return false
