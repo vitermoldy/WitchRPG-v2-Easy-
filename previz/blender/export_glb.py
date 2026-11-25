@@ -139,3 +139,4 @@ def lod_tris(coll):
     """Triangles after the decimate modifiers, as exported."""
     deps = bpy.context.evaluated_depsgraph_get()
     n = 0
+    for o in coll.objects:
