@@ -520,3 +520,4 @@ export class Fight {
     out.swing = s ? { index: s.index, heavy: s.heavy, t: s.t, windup: s.swing.windup, active: s.swing.active, recover: s.swing.recover } : null
     out.block = this.blockBlend
     out.parry = this.parryFx
+    out.execute = this.exec ? Math.min(1, this.exec.t) : -1
