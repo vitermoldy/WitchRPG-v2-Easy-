@@ -369,3 +369,4 @@ export class UnitSystem {
       u.token = false
       u.hp = 1
       u.set('ashes')
+      u.vel.set(0, 0, 0)
