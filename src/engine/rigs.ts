@@ -71,3 +71,5 @@ export interface Poser {
   body(lift: number, pitch?: number, roll?: number): void
   /** Leaves a part, and everything hanging from it, out of this unit's drawing. */
   hide(name: string): void
+}
+
