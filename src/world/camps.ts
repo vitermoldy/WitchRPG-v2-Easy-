@@ -215,3 +215,4 @@ export class Camps {
         const alive = camp.units.filter((u) => u.alive)
         if (!alive.length) {
           camp.state = 'cleared'
+          camp.respawnAt = this.time + (camp.def.boss ? CAMP.bossRespawn : CAMP.respawn)
