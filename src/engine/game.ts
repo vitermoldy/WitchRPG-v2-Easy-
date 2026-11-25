@@ -634,3 +634,4 @@ export class Game implements UnitHost {
       dmg *= share
       stun *= 0.3
       if (source === 'player') {
+        this.sfx.clank()
