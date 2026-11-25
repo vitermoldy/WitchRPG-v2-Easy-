@@ -173,3 +173,4 @@ export class Hud {
     const pr = g.profile
     if (this.bannerTime > 0) {
       this.bannerTime -= dt
+      if (this.bannerTime <= 0) this.banner_.classList.remove('show')
