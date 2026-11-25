@@ -731,3 +731,4 @@ export class Game implements UnitHost {
     this.fight.reset()
     this.umbra.cancel()
     this.telegraphs.clearAll()
+    this.shots.clear()
