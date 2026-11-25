@@ -1194,3 +1194,4 @@ export const COMBAT = {
   hitstop: { light: 0.035, heavy: 0.08, parry: 0.11 },
   /** A full stun meter staggers the creature this long; F executes it. */
   stagger: 3.2,
+  /** The meter drains this fast after this long without new stun. */
