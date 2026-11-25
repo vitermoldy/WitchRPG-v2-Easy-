@@ -1075,3 +1075,6 @@ def _horse(r, wings, horn):
 
 def b_pegasus(r):
     """White winged horse with a white mane."""
+    _horse(r, True, False)
+
+
