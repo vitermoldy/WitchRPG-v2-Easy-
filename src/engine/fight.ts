@@ -157,3 +157,4 @@ class Staff {
       // every creature on the way home is struck once
       for (;;) {
         const h = this.sweepUnits(this.pos.distanceTo(this.prev))
+        if (!h) break
