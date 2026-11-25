@@ -558,3 +558,4 @@ def ref_plane(coll, name, file, crop, centre, box):
     tex.image = img
     em = nt.nodes.new("ShaderNodeEmission")
     nt.links.new(tex.outputs["Color"], em.inputs["Color"])
+    nt.links.new(em.outputs[0], out.inputs["Surface"])
