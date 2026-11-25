@@ -34,3 +34,4 @@ const wrap = (a: number) => Math.atan2(Math.sin(a), Math.cos(a))
  */
 export class Player {
   readonly pos = { x: 0, y: 0, z: 0 }
+  vx = 0
