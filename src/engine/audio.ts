@@ -414,3 +414,4 @@ export class Sfx {
       src.start(0, Math.random())
       return { f, g }
     }
+    const wind = loop('bandpass', 700, 0.6)
