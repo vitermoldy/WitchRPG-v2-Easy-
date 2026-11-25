@@ -95,3 +95,4 @@ describe('over-the-shoulder camera', () => {
     const r = rng(7)
     let worst = Infinity
     for (let n = 0; n < 5000; n++) {
+      const obs = new Obstacles()
