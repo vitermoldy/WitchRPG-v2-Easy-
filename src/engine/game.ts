@@ -112,3 +112,4 @@ export class Game implements UnitHost {
   t = 0
   sensitivity = 1
   onPause: (() => void) | null = null
+  readonly counts = { kills: 0, campsCleared: 0, falls: 0, damageTaken: 0, levelUps: 0 }
