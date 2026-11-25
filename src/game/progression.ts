@@ -229,3 +229,4 @@ export function gainXp(p: Profile, amount: number, skills: SkillId[]): XpResult 
   }
   const share = Math.round(amount * RITE.shadowXpShare)
   for (const s of p.shadows) {
+    s.xp += share
