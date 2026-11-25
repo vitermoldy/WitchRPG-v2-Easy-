@@ -909,3 +909,4 @@ export class UnitSystem {
     if (!host.blocked(nx, nz, u.pos.x, u.pos.z)) {
       u.pos.x = nx
       u.pos.z = nz
+    } else {
