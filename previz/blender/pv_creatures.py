@@ -52,3 +52,4 @@ def humanoid(r, H, bulk=1.0, legs="human", female=False, off=(0, 0, 0), arm_pose
     shin_mat = shin_mat or leg_mat
     sw = H * 0.125 * bulk * (0.84 if female else 1.0)
     hw = H * 0.06 * (1 + 0.25 * (bulk - 1)) * (1.12 if female else 1.0)
+    hh = H * 0.13
