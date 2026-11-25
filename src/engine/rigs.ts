@@ -695,3 +695,4 @@ const poseBeast: PoseFn = (p, u, t) => {
     const k = Math.min(1, u.t / (u.atk.lungeTime ?? 0.4))
     p.body(0, 20 * Math.sin(Math.PI * k))
     p.rot('neck', 25)
+    p.rot('head', 18)
