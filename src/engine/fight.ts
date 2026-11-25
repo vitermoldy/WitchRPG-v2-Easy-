@@ -77,3 +77,4 @@ class Staff {
     this.state = 'returning'
     this.hit.clear()
     this.t = 0
+    this.g.sfx.gripStart()
