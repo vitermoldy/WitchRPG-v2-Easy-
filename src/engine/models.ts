@@ -128,3 +128,4 @@ export class IlyraModel {
   firstPerson(on: boolean) {
     const walk = (o: THREE.Object3D) => {
       if (IlyraModel.SEEN.has(o.name)) return
+      o.layers.set(on ? IlyraModel.HIDDEN_LAYER : 0)
