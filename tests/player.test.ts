@@ -117,3 +117,4 @@ describe('Ilyra on foot', () => {
       t += 1 / 120
     }
     p.update(1 / 120, { ...idle, dodge: true }, 0, null, false, flat)
+    expect(p.dodging).toBe(false)
