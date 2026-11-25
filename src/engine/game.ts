@@ -545,3 +545,4 @@ export class Game implements UnitHost {
     const d = (this.derived = derive(this.profile.stats, this.profile.level))
     const hpShare = fill ? 1 : p.hp / p.maxHp
     const manaShare = fill ? 1 : p.mana / p.maxMana
+    p.maxHp = d.maxHp
