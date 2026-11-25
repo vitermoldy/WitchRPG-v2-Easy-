@@ -315,3 +315,4 @@ export class WorldMap {
       label(sealed ? `${z.name} (tersegel)` : z.name, px(z.c[0]), py(z.c[1]), 0, sealed ? '#ffbe73' : 'rgba(239, 230, 223, 0.92)')
     }
 
+    // altars: teal diamonds, filled once lit
