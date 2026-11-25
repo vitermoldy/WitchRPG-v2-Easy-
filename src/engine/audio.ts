@@ -445,3 +445,4 @@ export class Sfx {
     const [pembuka = 0, tebing = 0, rawa = 0, kuil = 0, bara = 0] = Array.from(w)
     const t = this.ctx!.currentTime
     const a = this.amb
+    a.wind.gain.setTargetAtTime(0.05 + tebing * 0.1 + kuil * 0.03 + pembuka * 0.02, t, 0.8)
