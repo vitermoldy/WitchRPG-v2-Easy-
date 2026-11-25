@@ -127,3 +127,4 @@ export class Player {
       return
     }
     if (input.dodge && this.dodgeT < 0 && this.dodgeCd <= 0) {
+      this.nudgeT = 0
