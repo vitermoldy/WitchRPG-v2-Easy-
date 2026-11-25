@@ -22,3 +22,4 @@ export interface CampDef {
  * Berkabut (Tier III, Lv 7 to 9): Naga, Minotaurs, and the lairs of Medusa and the Chimera. Levels rise
  * with the distance from the start, inside each zone's band.
  */
+export const CAMP_DEFS: CampDef[] = [
