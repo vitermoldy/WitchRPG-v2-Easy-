@@ -896,3 +896,4 @@ export class Game implements UnitHost {
     const move: MoveInput = alive && !stone
       ? {
           x: steer.x,
+          y: steer.y,
