@@ -398,3 +398,4 @@ export class Lair {
         this.windup(h, useSpit ? spit : slam, her)
         this.attackIn = this.phase === 1 ? 1.6 : 1.3
       }
+    }
