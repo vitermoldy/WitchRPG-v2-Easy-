@@ -25,3 +25,4 @@ interface Chunk {
   lod: number
 }
 
+/** Ground colour at a map point, from the zone blend, slope, wetness, height and paths. */
