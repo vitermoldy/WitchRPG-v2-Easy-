@@ -845,3 +845,4 @@ export class UnitSystem {
     }
     u.target = tgt
     if (u.state === 'windup' || u.state === 'strike' || u.state === 'recover') {
+      u.vel.multiplyScalar(Math.max(0, 1 - dt * 8))
