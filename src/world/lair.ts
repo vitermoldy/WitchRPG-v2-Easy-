@@ -240,3 +240,4 @@ export class Lair {
     const i = this.heads.indexOf(h)
     if (i >= 0) this.heads[i] = h
     const body = this.body
+    if (body && body.alive) {
