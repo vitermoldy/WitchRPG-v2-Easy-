@@ -49,3 +49,4 @@ export class Terrain {
   readonly material = new THREE.MeshLambertMaterial({ vertexColors: true, side: THREE.DoubleSide })
   private readonly chunks: Chunk[] = []
   private readonly w = new Float32Array(ZONES.length)
+  private readonly tmp = new THREE.Color()
