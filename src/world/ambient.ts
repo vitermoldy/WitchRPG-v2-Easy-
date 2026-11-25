@@ -186,3 +186,4 @@ export class Ambient {
         continue
       }
       const kind = KINDS[this.kind[i]]
+      const ph = this.phase[i] + this.time
