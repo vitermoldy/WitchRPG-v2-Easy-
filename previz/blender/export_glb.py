@@ -89,3 +89,4 @@ def bake_tones(ob):
             nz = (rot @ Vector(normals[li].vector)).normalized().z
             f = min(1.0, max(0.0, (nz + 0.45) / 0.8))
             co = me.vertices[me.loops[li].vertex_index].co
+            fac = 0.5 + 0.5 * noise.noise(co * 4.0)
