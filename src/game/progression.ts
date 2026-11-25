@@ -219,3 +219,4 @@ export interface XpResult {
 export function gainXp(p: Profile, amount: number, skills: SkillId[]): XpResult {
   const result: XpResult = { levelsGained: 0, unlocked: [], shadowLevels: [] }
   p.xp += amount
+  while (p.level < XP.maxLevel && p.xp >= xpToNext(p.level)) {
