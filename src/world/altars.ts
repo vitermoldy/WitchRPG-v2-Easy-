@@ -11,3 +11,4 @@ export interface Altar {
   rune: THREE.Mesh
 }
 
+/** She lights an altar by walking within this distance; it heals her within the same reach. */
