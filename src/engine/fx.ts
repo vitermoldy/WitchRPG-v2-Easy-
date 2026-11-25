@@ -282,3 +282,4 @@ export class Rings {
     for (let i = 0; i < count; i++) {
       const mat = new THREE.MeshBasicMaterial({
         color: 0xffffff,
+        transparent: true,
