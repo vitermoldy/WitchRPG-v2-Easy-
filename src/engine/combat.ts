@@ -20,3 +20,4 @@ export function resolveDefense(now: number, strike: 'ring' | 'line', invulnerabl
   return 'hit'
 }
 
+/** Stun meter of one creature. Fills from heavy blows, parries, bolts and the staff; drains when left alone. */
