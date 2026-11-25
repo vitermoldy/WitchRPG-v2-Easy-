@@ -286,3 +286,6 @@ def build_valley(dunia):
         t2.rotation_euler = rot
         up_v = rot.to_matrix() @ Vector((0, 1, 0))
         t2.location = p - up_v * s * 0.03
+    return sc
+
+
