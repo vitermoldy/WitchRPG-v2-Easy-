@@ -167,3 +167,4 @@ export class Game implements UnitHost {
     this.input = new Input(canvas)
     this.input.virtualLock = debug
     this.input.onLockChange = (locked) => {
+      if (!locked && this.state === 'playing' && !this.debug) this.pause()
