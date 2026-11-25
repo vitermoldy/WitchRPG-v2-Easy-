@@ -569,3 +569,4 @@ def b_centaur(r):
     b = r.parts["body"]
     b.limb((0.22, 0.25, 1.5), (0.3, 0.65, 1.95), 0.08, 0.08, mat="cloth")
     for k in range(3):
+        b.cone((0.28 + 0.03 * k, 0.6 + 0.02 * k, 1.9), (0.3 + 0.03 * k, 0.66 + 0.02 * k, 2.05), 0.015, mat="horn", seg=4)
