@@ -238,3 +238,4 @@ const poseHound: PoseFn = (p, u, t) => {
 
 const HARPY_LIMBS = ['upperarm_L', 'upperarm_R', 'thigh_L', 'thigh_R']
 
+/** Harpy: wing-arms. Hovers on slow beats, rears back to scream, then dives talons first. */
