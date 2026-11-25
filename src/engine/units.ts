@@ -280,3 +280,4 @@ export class UnitSystem {
   readonly units: Unit[] = []
   private readonly host: UnitHost
   private readonly grid = new Map<number, Unit[]>()
+  /** Living units of each side, rebuilt with the grid every frame. */
