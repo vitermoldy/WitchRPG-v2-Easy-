@@ -11,3 +11,4 @@ export class Input {
   /** Game keys are only taken from the browser during a fight; menus keep Tab and Space. */
   capture = false
   onKey: ((code: string) => void) | null = null
+  onLockChange: ((locked: boolean) => void) | null = null
