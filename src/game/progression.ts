@@ -178,3 +178,4 @@ export function derive(stats: Stats, level = 1): Derived {
   const grown = Math.max(0, level - 1)
   return {
     maxHp: PLAYER.baseHp + PLAYER.hpPerVit * stats.vit + PLAYER.hpPerLevel * grown,
+    maxMana: PLAYER.baseMana + PLAYER.manaPerSpr * stats.spr,
