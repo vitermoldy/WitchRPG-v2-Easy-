@@ -24,3 +24,4 @@ export class Sfx {
     this.master.gain.value = this.volume
     const comp = ctx.createDynamicsCompressor()
     comp.threshold.value = -14
+    comp.ratio.value = 4
