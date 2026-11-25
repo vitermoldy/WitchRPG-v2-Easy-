@@ -50,3 +50,4 @@ for ob in list(bpy.data.objects):
 # creature library: every block-out once, at rest, for the lineup and the board
 lib_colls, stats = {}, {}
 root = C.collection("Makhluk", lib.collection)
+for key in ["ilyra"] + [r[0] for r in K.ROSTER]:
