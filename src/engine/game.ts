@@ -1228,3 +1228,4 @@ export class Game implements UnitHost {
     this.saveSoon()
   }
 
+  /** ?debug: a witch of this level (for trying the skills that open later). */
