@@ -544,3 +544,4 @@ def world_matrix(ob):
 
 
 def bounds(coll, skip=()):
+    """Bounds of a creature collection in its own space, at its current pose. skip: part names to leave out."""
