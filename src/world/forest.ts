@@ -217,3 +217,4 @@ export function addColliders(trees: Tree[], obs: Obstacles) {
   for (const t of trees) {
     const s = SHAPE[t.kind]
     if (t.kind === 'rock' || t.kind === 'rock_big') {
+      const r = s.trunk * t.scale
