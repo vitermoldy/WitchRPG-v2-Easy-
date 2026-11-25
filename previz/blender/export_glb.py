@@ -84,3 +84,4 @@ def bake_tones(ob):
         for li in poly.loop_indices:
             if not t:
                 attr.data[li].color = (1.0, 1.0, 1.0, 1.0)
+                continue
