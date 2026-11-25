@@ -1171,3 +1171,4 @@ export class Game implements UnitHost {
     return this.units.units
       .filter((u) => u.team === 'enemy' && Math.hypot(u.pos.x - p.x, u.pos.z - p.z) < range)
       .map((u) => ({
+        id: u.id,
