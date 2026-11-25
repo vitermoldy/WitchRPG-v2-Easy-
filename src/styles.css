@@ -382,3 +382,4 @@ button {
   transform: translate(-50%, -8px);
   padding: 0.7rem 2.6rem 0.8rem;
   border-radius: var(--radius);
+  /* a soft dark pool keeps the text readable over bright fog and snow */
