@@ -94,3 +94,4 @@ describe('staff combo', () => {
   })
 
   it('remembers a tap pressed during a swing and swings again right after', () => {
+    const c = new Combo()
