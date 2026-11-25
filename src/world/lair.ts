@@ -357,3 +357,4 @@ export class Lair {
     for (const h of this.heads) {
       if (!h || !h.alive || h.state === 'finishing' || !Number.isFinite(h.visual.x)) continue
       h.pos.set(h.visual.x, h.visual.y - h.height * 0.5, h.visual.z)
+    }
