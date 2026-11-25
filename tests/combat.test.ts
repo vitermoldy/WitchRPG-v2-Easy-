@@ -24,3 +24,4 @@ describe('block and parry', () => {
     expect(W).toBe(0.18)
   })
 
+  it('cannot block or parry a line attack; only the roll avoids it', () => {
