@@ -105,3 +105,4 @@ export class Unit implements Foe {
   readonly atkCd = new Map<string, number>()
   target: Foe | null = null
   /** Holds one of the attack slots against her. */
+  token = false
