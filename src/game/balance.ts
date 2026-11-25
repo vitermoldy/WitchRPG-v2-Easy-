@@ -489,3 +489,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   },
   // v2, Rawa Berkabut: spits a glob onto an amber circle from the swamp and dives when it is hurt.
   naga: {
+    name: 'Naga Rawa',
