@@ -213,3 +213,4 @@ class Pal(dict):
         return dict.__getitem__(self, "body")
 
 
+def palette_ref(key, spec):
