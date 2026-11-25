@@ -149,3 +149,4 @@ async function boot() {
   const backToFight = async () => {
     if (ledger.isOpen || travel.isOpen || map.isOpen) return
     const locked = await game.input.lock()
+    if (!locked && !debug) {
