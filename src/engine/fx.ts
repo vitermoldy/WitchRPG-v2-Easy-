@@ -390,3 +390,4 @@ const POOL_FRAG = /* glsl */ `
   uniform float uOpen;
   uniform float uSeed;
   void main() {
+    vec2 p = vUv * 2.0 - 1.0;
