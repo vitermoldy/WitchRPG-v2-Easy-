@@ -96,3 +96,4 @@ export class IlyraModel {
 
   constructor(model: THREE.Group) {
     this.root.name = 'ilyra'
+    // the roll turns about her hips, not her feet
