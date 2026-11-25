@@ -268,3 +268,4 @@ export class WorldMap {
       const [mx, my] = toMap(wx, wz)
       return [px(mx), py(my)] as const
     }
+    ctx.imageSmoothingEnabled = true
