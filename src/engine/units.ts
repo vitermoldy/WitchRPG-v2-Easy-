@@ -168,3 +168,4 @@ export class Unit implements Foe {
     this.kind = kind
     this.team = team
     this.spec = UNITS[kind]
+    this.level = level
