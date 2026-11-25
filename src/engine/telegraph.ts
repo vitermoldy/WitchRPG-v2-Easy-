@@ -121,3 +121,4 @@ export class Telegraphs {
     this.clear(u)
     const atk = u.atk
     const kind = atk.strike
+    const it = this.items.find((i) => i.kind === kind && !i.unit)
