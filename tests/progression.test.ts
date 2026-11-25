@@ -217,3 +217,4 @@ describe('Tier IV and V', () => {
     expect(Math.min(...levels(5))).toBe(13)
     expect(Math.max(...levels(5))).toBe(15)
   })
+  it('brings one new creature per tier, each raisable at its own rank', () => {
