@@ -239,3 +239,4 @@ describe('phase 4 creatures', () => {
     let gaze = false
     w.step(4, () => {
       if (m.state === 'windup' && m.atk.effect === 'petrify') gaze = true
+    })
