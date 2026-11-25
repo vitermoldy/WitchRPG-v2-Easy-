@@ -633,3 +633,4 @@ def b_minotaur(r, pose="idle"):
         p.ell(top - Vector((0, 0, 0.5)) + Vector((math.sin(a) * 0.03, -math.cos(a) * 0.03, 0)), 0.025, mat="metal", seg=6, rings=4)
     p.torus(hp + Vector((0, 0, 0.08)), 0.34, 0.05, mat="cloth", seg=16)
     p.box(hp + Vector((0, -0.34, 0.08)), (0.16, 0.04, 0.12), mat="metal")
+    tl = r.P("tail", hp, "pelvis")
