@@ -551,3 +551,4 @@ def b_centaur(r):
     h = r.parts["head"]
     hc = V(J["head_c"])
     h.ell(hc, (0.09, 0.105, 0.12), mat="skin")
+    face(h, hc, 1.8)
