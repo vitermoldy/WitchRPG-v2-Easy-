@@ -414,3 +414,4 @@ class Part:
             else:
                 for k in range(seg):
                     self.bm.faces.new((A[k], A[(k + 1) % seg], Bv[(k + 1) % seg], Bv[k]))
+        if cap:
