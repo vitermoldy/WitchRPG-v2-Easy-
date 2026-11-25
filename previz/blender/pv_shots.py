@@ -30,3 +30,4 @@ def actors_coll():
     return _ACTORS
 
 
+def actor(name, key, pose=None, kind=None, lights=True):
