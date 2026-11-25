@@ -13,3 +13,4 @@ export interface AccountHooks {
   onProfileChanged: () => void
 }
 
+export function mountAccount(game: Game, hooks: AccountHooks): void {
