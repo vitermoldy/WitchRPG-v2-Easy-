@@ -74,3 +74,4 @@ export class Ledger {
       const t = (e.target as HTMLElement).closest('button')
       if (!t) return
       const p = this.host.profile
+      if (t.dataset.stat) {
