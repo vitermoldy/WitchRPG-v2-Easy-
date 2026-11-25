@@ -382,3 +382,4 @@ export class Fight {
     const mayAttack = !aiming && !this.blocking && !p.dodging && this.throwT < 0
     this.combo.update(dt, mayAttack && inp.attackPressed, mayAttack && inp.attackHeld, this.events)
     for (const e of this.events) {
+      if (e.type === 'start') this.startSwing(e.s, inp)
