@@ -183,3 +183,4 @@ export class Terrain {
     geo.setIndex(idx)
     geo.computeBoundingSphere()
     geo.computeBoundingBox()
+    return geo
