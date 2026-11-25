@@ -110,3 +110,4 @@ export class Terrain {
     const n = Math.round(CHUNK / step)
     const x0 = -HALF + ix * CHUNK
     const z0 = -HALF + iz * CHUNK
+    // heights on a grid one step wider on every side, so normals match across chunk edges
