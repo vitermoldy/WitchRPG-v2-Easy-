@@ -599,3 +599,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
       { name: 'gada', strike: 'ring', windup: 1, recover: 1, range: 4, ring: 2.2, lungeSpeed: 4, lungeTime: 0.35, damage: 1.2 },
     ],
   },
+  // v2, Kuil and Bara: calls Imps, claws, throws green fire along a line, and blinks away when she closes in.
