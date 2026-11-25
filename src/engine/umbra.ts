@@ -277,3 +277,4 @@ export class Umbra {
       g.smoke.emit({ pos: c.pos, count: 6, color: 0x0c0614, life: 1.2, size: 1, sizeEnd: 1.8, vel: { x: 0, y: 1.6, z: 0 }, jitter: 0.4, alpha: 0.8 })
     }
 
+    for (const u of [...g.units.units]) {
