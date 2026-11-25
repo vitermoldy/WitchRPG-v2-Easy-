@@ -1149,3 +1149,4 @@ export const WORLD = { maxPhysicsProps: 20, arenaHalf: 38 } as const
 export interface Swing {
   damage: number
   windup: number
+  active: number
