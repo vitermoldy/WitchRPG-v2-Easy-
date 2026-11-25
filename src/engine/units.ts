@@ -767,3 +767,4 @@ export class UnitSystem {
         break
       }
       case 'strike': {
+        const lt = atk.lungeTime ?? 0.3
