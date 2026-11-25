@@ -95,3 +95,4 @@ export class Telegraphs {
     const pos = geo.attributes.position as THREE.BufferAttribute
     pos.setUsage(THREE.DynamicDrawUsage)
     geo.userData.base = Float32Array.from(pos.array as Float32Array)
+    const mat = new THREE.ShaderMaterial({
