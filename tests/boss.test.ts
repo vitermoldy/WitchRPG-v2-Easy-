@@ -171,3 +171,4 @@ describe('the seal on zones IV and V', () => {
   })
 
   it('seals Lembah Bara too, and opens both once broken', () => {
+    const [bx, bz] = toWorld(330, 330)
