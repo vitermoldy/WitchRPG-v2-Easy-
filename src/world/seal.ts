@@ -89,3 +89,4 @@ export class Seal {
   }
 
   get isOpen() {
+    return this.open
