@@ -671,3 +671,4 @@ def b_cyclops(r):
     p.torus(hp + Vector((0, 0, 0.12)), 0.52, 0.08, mat="strap", seg=16)
     p.ell(hp + Vector((0, -0.58, 0.12)), (0.12, 0.08, 0.13), mat="horn", seg=10, rings=7)
     for s, side in SIDES:
+        r.parts["forearm_" + side].torus(J["wr_" + side] - J["hand_dir_" + side] * 0.12, 0.13, 0.05, normal=J["hand_dir_" + side], mat="strap", seg=12)
