@@ -48,3 +48,4 @@ export const SKILLS: SkillDef[] = [
     upgrade: 'Mengangkat 2 target sekaligus.',
     built: true,
   },
+  {
