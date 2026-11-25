@@ -129,3 +129,4 @@ describe('phase 5 creatures', () => {
     expect(w.fx).toContain('blink')
   })
 
+  it('an elite Cyclops raises as a Jenderal', () => {
