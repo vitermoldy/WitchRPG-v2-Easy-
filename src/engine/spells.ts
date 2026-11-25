@@ -246,3 +246,4 @@ export class Spells {
       if (inp.aiming && inp.held) this.holdT += dt
       else this.holdT = 0
       if (this.holdT >= GRIP_HOLD && !this.gripping && this.holdT - dt < GRIP_HOLD) this.tryGrip()
+      if (inp.burst) this.cast('burst', inp.aiming)
