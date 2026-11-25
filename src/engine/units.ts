@@ -323,3 +323,4 @@ export class UnitSystem {
     u.flash = 0.16
     u.barShown = 6
     if (stun > 0 && u.stun.add(stun)) this.stagger(u)
+    if (knock > 0 && u.state !== 'held' && u.state !== 'thrown') {
