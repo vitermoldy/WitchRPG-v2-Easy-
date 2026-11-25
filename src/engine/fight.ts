@@ -377,3 +377,4 @@ export class Fight {
       } else this.staff.recall()
     }
 
+    // the staff combo; while aiming the left button belongs to the spells
