@@ -21,3 +21,4 @@ HEX = {
     "rift": "#ffa53d",
     "bone": "#efe6df",
     "ash": "#5d5557",
+    "skin": "#d9cdc7",
