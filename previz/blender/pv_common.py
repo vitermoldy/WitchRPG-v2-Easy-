@@ -315,3 +315,5 @@ class Part:
         m = self.rig.pal[mat] if isinstance(mat, str) else mat
         if m not in self.mats:
             self.mats.append(m)
+        return self.mats.index(m)
+
