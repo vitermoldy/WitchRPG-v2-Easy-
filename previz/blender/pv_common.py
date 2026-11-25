@@ -8,3 +8,4 @@ from mathutils import Euler, Matrix, Vector
 
 ROOT = r"C:\MyRepo\WitchRPG-v2"
 PREVIZ = ROOT + r"\previz"
+ASSETS = ROOT + r"\assets"
