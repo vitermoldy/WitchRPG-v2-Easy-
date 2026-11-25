@@ -337,3 +337,4 @@ export class IlyraModel {
       const wind = ease(e / 0.4)
       const fling = ease((e - 0.4) / 0.25)
       armRX = mix(mix(armRX, 30, wind), -130, fling)
+      armRY = 0
