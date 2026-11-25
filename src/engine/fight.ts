@@ -231,3 +231,5 @@ export class Fight {
   private throwT = -1
   private catchT = -1
   private castFx = 0
+  private readonly v = new THREE.Vector3()
+
