@@ -162,3 +162,4 @@ function segCylinder(ax: number, ay: number, az: number, dx: number, dy: number,
     c0 = -Infinity
     c1 = Infinity
   } else {
+    const b = 2 * (ox * dx + oz * dz)
