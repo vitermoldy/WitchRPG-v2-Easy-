@@ -24,3 +24,4 @@ export function confirmDialog(title: string, text: string, yes: string): Promise
     const done = (v: boolean) => {
       $('confirm-yes').onclick = null
       $('confirm-no').onclick = null
+      dlg.onclose = null
