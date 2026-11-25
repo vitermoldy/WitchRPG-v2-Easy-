@@ -650,3 +650,4 @@ const poseHydra: PoseFn = (p, u, t) => {
       mode = u.state === 'windup' ? 'rear' : 'down'
       target = u.aimAt
     }
+    let yaw = 0
