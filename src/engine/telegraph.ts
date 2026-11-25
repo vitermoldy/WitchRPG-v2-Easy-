@@ -104,3 +104,4 @@ export class Telegraphs {
       blending: THREE.AdditiveBlending,
       side: THREE.DoubleSide,
     })
+    const mesh = new THREE.Mesh(geo, mat)
