@@ -63,3 +63,4 @@ def build(dunia, res=(1280, 720), samples=24):
     foam_obs = list(foam.objects)
     eye = C.point(local, "cahaya.mata_hydra.anim", (H.x, H.y, -10), HEX["rift"], energy=1500, radius=3)
 
+    reticle = C.Rig("penanda_lockon", {"r": C.mat_emit("penanda", "#ff7a86", 6.0)}, local)
