@@ -373,3 +373,4 @@ class Part:
         for t in ts:
             i = min(int(t), len(radii) - 2)
             f = t - i
+            R.append(radii[i] * (1 - f) + radii[i + 1] * f)
