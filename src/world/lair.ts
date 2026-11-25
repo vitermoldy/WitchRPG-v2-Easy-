@@ -37,3 +37,4 @@ const CURTAIN_FRAG = /* glsl */ `
     float bands = 0.5 + 0.5 * sin(vUv.y * 16.0 - uTime * 3.0 + sin(vUv.x * 50.0) * 0.6);
     float k = (1.0 - vUv.y);
     float a = k * k * (0.2 + 0.4 * bands) * uFade;
+    gl_FragColor = vec4(uColor * a * 1.6, a);
