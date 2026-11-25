@@ -166,3 +166,4 @@ def export(key):
             mod = ob.modifiers.new("lod", "DECIMATE")
             mod.ratio = SHRINK
     for ob in scene.objects:
+        ob.select_set(False)
