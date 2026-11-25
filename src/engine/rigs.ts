@@ -806,3 +806,4 @@ class Rig implements Poser {
         patchGlow(mat)
         mats.set(src, mat)
       }
+      this.parts.push(this.makePart(mesh, mat))
