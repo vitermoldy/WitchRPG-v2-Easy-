@@ -361,3 +361,4 @@ export class UnitSystem {
     u.vel.multiplyScalar(0.2)
   }
 
+  kill(u: Unit, executed = false) {
