@@ -166,3 +166,4 @@ export function createApi(getPool, database) {
         `INSERT INTO witches (client_id, level, xp, stat_points, skill_points, hex, spr, vit, agi, umb, next_shadow_id, boss_kills, settings, updated_at)
          VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
          ON DUPLICATE KEY UPDATE level = VALUES(level), xp = VALUES(xp), stat_points = VALUES(stat_points), skill_points = VALUES(skill_points),
+           hex = VALUES(hex), spr = VALUES(spr), vit = VALUES(vit), agi = VALUES(agi), umb = VALUES(umb),
