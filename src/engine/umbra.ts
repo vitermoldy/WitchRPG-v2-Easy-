@@ -248,3 +248,4 @@ export class Umbra {
     this.time += dt
     this.swapCd = Math.max(0, this.swapCd - dt)
     this.summonCd = Math.max(0, this.summonCd - dt)
+    const open = this.riteOpen
