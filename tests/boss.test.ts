@@ -127,3 +127,5 @@ describe('phase 5 creatures', () => {
     w.step(0.2)
     expect(Math.hypot(s.pos.x, s.pos.z)).toBeGreaterThan(UNITS.succubus.blink!.range - 1)
     expect(w.fx).toContain('blink')
+  })
+
