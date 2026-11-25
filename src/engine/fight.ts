@@ -154,3 +154,4 @@ class Staff {
       }
       this.vel.copy(to).divideScalar(d).multiplyScalar(speed)
       this.pos.addScaledVector(this.vel, dt)
+      // every creature on the way home is struck once
