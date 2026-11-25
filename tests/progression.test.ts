@@ -126,3 +126,4 @@ describe('upgrades and shadows', () => {
     expect(shadowName(1)).toMatch(/^[A-Z][a-z]{3,}$/)
   })
   it('shadows are tougher than the enemy they came from', () => {
+    const e = unitStats('husk', 2, false)
