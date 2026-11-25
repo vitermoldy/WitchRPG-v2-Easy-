@@ -33,3 +33,4 @@ const HYDRA_HINT = [
  * the army on the right, creature bars over the creatures, prompts under the middle of the view.
  * Writes to the DOM only when a value changes.
  */
+export class Hud {
