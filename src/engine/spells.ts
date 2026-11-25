@@ -449,3 +449,4 @@ export class Spells {
       const c = u.center()
       const nc = c.clone().lerp(goal, Math.min(1, dt * (heavy ? 5 : 9)))
       u.pos.add(nc.sub(c))
+      u.yaw += dt * 2
