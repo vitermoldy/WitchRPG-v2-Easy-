@@ -972,3 +972,4 @@ def b_lilith(r):
         rad = 0.78 - 0.45 * t_
         pts.append((math.cos(a) * rad, math.sin(a) * rad, 0.15 + t_ * 2.0))
     pts.append((0.35, -0.15, 2.45))
+    pts.append((0.3, -0.45, 2.75))
