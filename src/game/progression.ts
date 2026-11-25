@@ -51,3 +51,4 @@ export interface Profile {
   stats: Stats
   upgrades: Partial<Record<SkillId, boolean>>
   shadows: ShadowRecord[]
+  nextShadowId: number
