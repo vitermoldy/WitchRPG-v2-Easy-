@@ -426,3 +426,4 @@ export class Lair {
     const b = this.body!
     const dx = at.x - b.pos.x
     const dz = at.z - b.pos.z
+    const d = Math.hypot(dx, dz) || 1
