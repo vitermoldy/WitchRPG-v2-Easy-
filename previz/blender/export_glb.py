@@ -127,3 +127,4 @@ def flat(m):
     b.inputs["Metallic"].default_value = metal
     e = emission_of(m)
     if e:
+        b.inputs["Emission Color"].default_value = (*e[0], 1.0)
