@@ -56,3 +56,5 @@ describe('XP curve from the GDD', () => {
     expect(r.levelsGained).toBe(3)
     expect(r.unlocked).toEqual(['rite', 'burst', 'swap'])
   })
+})
+
