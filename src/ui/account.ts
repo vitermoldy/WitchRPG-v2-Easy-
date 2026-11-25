@@ -178,3 +178,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
       busy = false
       submit.disabled = false
       submit.textContent = label()
+    }
