@@ -868,3 +868,4 @@ class Rig implements Poser {
     this.hidden.add(name)
   }
 
+  begin() {
