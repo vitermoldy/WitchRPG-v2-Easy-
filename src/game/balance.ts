@@ -100,3 +100,4 @@ export const CHAOS = {
   perDamageDealt: 0.05,
   perDamageTaken: 0.45,
   overloadTime: 12,
+  overloadDamage: 1.5,
