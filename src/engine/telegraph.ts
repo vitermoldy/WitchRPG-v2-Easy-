@@ -201,3 +201,4 @@ export class Telegraphs {
     for (const it of this.byUnit.values()) {
       const u = it.unit
       if (!u) continue
+      it.mat.uniforms.uTime.value = this.time
