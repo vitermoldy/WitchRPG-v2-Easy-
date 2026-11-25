@@ -125,3 +125,4 @@ export class Unit implements Foe {
   readonly flank: number = Math.random() < 0.5 ? -1 : 1
   /** Walk cycle phase for the animation. */
   walk = Math.random() * 6
+  /** Seconds a Telekinesis throw keeps it flying nearly straight. */
