@@ -463,3 +463,4 @@ export class ShadowPools {
       if (p.state === 'off') continue
       p.t += dt
       p.mat.uniforms.uTime.value += dt
+      if (p.t < 0) {
