@@ -997,3 +997,4 @@ export const ELITE = {
   label: { berlapis: 'Berlapis', gesit: 'Gesit', meledak: 'Meledak', penjaga: 'Penjaga' } as Record<EliteTrait, string>,
   hp: 2.4,
   damage: 1.25,
+  scale: 1.15,
