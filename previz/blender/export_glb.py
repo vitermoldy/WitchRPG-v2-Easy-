@@ -38,3 +38,5 @@ SHRINK = LOD or RATIO
 WANT = argv or ["ilyra", "imp", "hellhound", "harpy"]
 POSE = {"ilyra": "walk"}
 OUT = os.path.join(C.ROOT, "public", "models")
+os.makedirs(OUT, exist_ok=True)
+
