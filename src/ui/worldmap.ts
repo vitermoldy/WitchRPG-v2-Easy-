@@ -308,3 +308,4 @@ export class WorldMap {
       placed.push([x - br, y - br, x + br, y + br])
     }
 
+    // zone names, and the seal over Reruntuhan Kuil and Lembah Bara while it holds
