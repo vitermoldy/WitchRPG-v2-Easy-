@@ -322,3 +322,4 @@ export class Lair {
       isl.mesh.visible = this.flood > 0.02
       isl.mesh.position.y = this.groundY + 1 - 2 - (1 - this.flood) * 4
     }
+    // the edge: amber while it is shut to her, violet while the fight holds her in
