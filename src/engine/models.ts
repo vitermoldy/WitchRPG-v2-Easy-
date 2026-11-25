@@ -103,3 +103,4 @@ export class IlyraModel {
     this.root.add(this.pivot)
     model.traverse((o) => {
       this.parts[o.name] = o
+      const m = (o as THREE.Mesh).material as THREE.MeshStandardMaterial | undefined
