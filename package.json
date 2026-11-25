@@ -10,3 +10,4 @@
     "preview": "vite preview",
     "test": "vitest run",
     "typecheck": "tsc --noEmit",
+    "server": "node --watch server/index.js",
