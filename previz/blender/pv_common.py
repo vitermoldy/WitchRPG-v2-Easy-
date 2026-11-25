@@ -92,3 +92,4 @@ def mat_cracked(name, color, crack, strength=5.0, scale=2.2, rough=0.75, coverag
     b.inputs["Roughness"].default_value = rough
     b.inputs["Emission Color"].default_value = rgb(crack)
     # a soft sheen lets rim light trace dark silhouettes against dark forest
+    b.inputs["Sheen Weight"].default_value = 0.6
