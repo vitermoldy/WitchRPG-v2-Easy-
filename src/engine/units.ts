@@ -472,3 +472,4 @@ export class UnitSystem {
       u.barShown = Math.max(0, u.barShown - dt)
       u.cd = Math.max(0, u.cd - dt)
       u.downed = Math.max(0, u.downed - dt)
+      u.diveCd = Math.max(0, u.diveCd - dt)
