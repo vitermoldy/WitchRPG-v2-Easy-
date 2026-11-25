@@ -254,3 +254,4 @@ export class Camps {
         } else if (!p.alive || d > CAMP.leash) {
           camp.roused = false
           for (const u of alive) u.aggro = false
+        }
