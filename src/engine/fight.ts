@@ -301,3 +301,4 @@ export class Fight {
     return best
   }
 
+  hurt() {
