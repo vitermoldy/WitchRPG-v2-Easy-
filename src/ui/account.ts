@@ -62,3 +62,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
     form.hidden = state.status !== 'signed-out'
     $('gate-switch-line').hidden = state.status !== 'signed-out'
     $('gate-offline').hidden = !offline
+    $('gate-lead').hidden = state.status !== 'signed-out'
