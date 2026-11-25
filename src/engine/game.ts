@@ -1130,3 +1130,4 @@ export class Game implements UnitHost {
       triangles: info.render.triangles,
       t: this.t,
       zone: ZONES[this.atmosphere.zone].name,
+      pos: toMap(p.pos.x, p.pos.z).map((v) => Math.round(v)),
