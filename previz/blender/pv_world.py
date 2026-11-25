@@ -526,3 +526,4 @@ def fog_material(z):
     N, L = nt.nodes, nt.links
     out = N.new("ShaderNodeOutputMaterial")
     vol = N.new("ShaderNodeVolumePrincipled")
+    vol.inputs["Color"].default_value = C.rgb(z["fog"])
