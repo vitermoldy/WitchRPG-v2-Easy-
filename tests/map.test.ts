@@ -15,3 +15,4 @@ describe('the forest valley', () => {
   it('lets her walk every path end to end: no cliff steeper than she can climb, no deep water', () => {
     const step = 1
     for (const line of PATHS) {
+      for (let i = 0; i < line.length - 1; i++) {
