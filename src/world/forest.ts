@@ -232,3 +232,5 @@ export function addColliders(trees: Tree[], obs: Obstacles) {
 export class Forest {
   readonly mesh: THREE.BatchedMesh
   readonly trees: Tree[]
+  private readonly visibleRange: number
+
