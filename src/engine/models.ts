@@ -219,3 +219,4 @@ export class IlyraModel {
       return
     }
     if (p.flying) {
+      // flight: she leans into the way she flies, legs trailing, the cloak streaming behind
