@@ -54,3 +54,4 @@ interface Call {
 export class Umbra {
   private readonly g: Game
   candidate: Unit | null = null
+  /** Every body the next cast would raise: the one being looked at, or all glowing ones in reach. */
