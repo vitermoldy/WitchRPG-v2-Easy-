@@ -928,3 +928,4 @@ export class UnitSystem {
     const air = u.flyer && u.alive ? u.alt : 0
     u.pos.y += (ground + air - u.pos.y) * Math.min(1, dt * (air > 0 ? 4 : 14))
     if (u.pos.y < ground) u.pos.y = ground
+    u.walk += Math.hypot(u.vel.x, u.vel.z) * dt * 2.2
