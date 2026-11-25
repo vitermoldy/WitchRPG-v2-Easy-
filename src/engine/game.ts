@@ -533,3 +533,4 @@ export class Game implements UnitHost {
     this.timer.connect(document)
     this.renderer.setAnimationLoop((ts) => {
       this.timer.update(ts)
+      this.tick()
