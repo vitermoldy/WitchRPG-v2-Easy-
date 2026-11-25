@@ -49,3 +49,4 @@ export interface LedgerHost {
 const ROOM_SHOWN = 60
 
 /** The Ledger: level, stats, the skill tree and the Shadow Room. The game waits while it is open. */
+export class Ledger {
