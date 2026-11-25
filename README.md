@@ -105,3 +105,5 @@ Sarangnya di tepi Danau Hitam, dan hanya terbuka bagi witch Lv 10: fase terakhir
 
 Setiap fase baru memulihkan 25% HP dan 30 mana. Kemenangan memberi XP besar, membuka segel, dan sekali saja tubuhnya bisa dibangkitkan sebagai Marsekal dengan Kebangkitan Marsekal (di versi Easy selalu berhasil).
 
+## Struktur
+
