@@ -123,3 +123,4 @@ export class Spells {
   grabbed: Unit[] = []
   chaos = 0
   overloadT = 0
+  backlashT = 0
