@@ -958,3 +958,4 @@ class Rig implements Poser {
   }
 }
 
+interface CrowdBatch {
