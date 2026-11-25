@@ -179,3 +179,5 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
       submit.disabled = false
       submit.textContent = label()
     }
+  })
+
