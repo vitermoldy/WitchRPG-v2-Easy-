@@ -243,3 +243,4 @@ export function gainXp(p: Profile, amount: number, skills: SkillId[]): XpResult 
 export function unitStats(kind: UnitKind, level: number, shadow: boolean) {
   const spec = UNITS[kind]
   const lv = Math.max(0, level - 1)
+  const hp = spec.hp * (1 + GROWTH.hpPerLevel * lv) * (shadow ? SHADOW.hpMult : 1)
