@@ -55,3 +55,4 @@ export class Obstacles {
     const st = ++this.stamp
     const x0 = Math.floor((x - reach) / CELL)
     const x1 = Math.floor((x + reach) / CELL)
+    const z0 = Math.floor((z - reach) / CELL)
