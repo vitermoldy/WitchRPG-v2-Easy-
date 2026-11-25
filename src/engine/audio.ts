@@ -218,3 +218,4 @@ export class Sfx {
     this.noise(t, 0.25 + s * 0.2, 'lowpass', 900 + s * 1200, 0.25 + s * 0.3)
   }
 
+  growl() {
