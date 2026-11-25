@@ -479,3 +479,4 @@ def build_forest(coll, P, size=1260.0, step=4.0, seed=3):
         sel = (rng.random(len(X)) < prob) & (slope > slope_min) & (_dist(X, Y, LAKE["c"]) > LAKE["r"]) & (Z > -1)
         for c, rad in CLEARINGS:
             sel &= _dist(X, Y, c) > rad
+        ids = np.nonzero(sel)[0]
