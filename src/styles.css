@@ -493,3 +493,4 @@ button {
   bottom: calc(var(--gutter) + 5.2rem);
   left: 50%;
   display: flex;
+  flex-wrap: wrap;
