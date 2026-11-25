@@ -68,3 +68,4 @@ export class Particles {
   readonly points: THREE.Points
   private readonly max: number
   private readonly pos: Float32Array
+  private readonly col: Float32Array
