@@ -67,3 +67,4 @@ body {
 }
 
 .num {
+  font-family: var(--font-mono);
