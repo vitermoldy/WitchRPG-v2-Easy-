@@ -487,3 +487,4 @@ export class Spells {
       }
       this.heldProp = null
     }
+    for (const u of this.grabbed) {
