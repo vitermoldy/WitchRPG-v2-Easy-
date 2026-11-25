@@ -57,3 +57,4 @@ export class WorldMap {
         e.preventDefault()
         this.close()
       }
+    })
