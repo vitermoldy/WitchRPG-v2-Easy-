@@ -403,3 +403,4 @@ export class Spells {
       u.token = false
       u.set('held')
       u.vel.set(0, 0, 0)
+      // a Harpy pulled out of the air stays down for a while after the throw
