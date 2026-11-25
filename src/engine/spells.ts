@@ -582,3 +582,4 @@ export class Spells {
         const dir = new THREE.Vector3(u.pos.x - at.x, 0, u.pos.z - at.z)
         if (dir.lengthSq() < 1e-4) dir.set(Math.random() - 0.5, 0, Math.random() - 0.5)
         dir.normalize().multiplyScalar(push * k * Math.min(1, 80 / Math.max(30, u.mass)))
+        g.units.toss(u, { x: dir.x, y: lift * k, z: dir.z }, false)
