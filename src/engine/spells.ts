@@ -609,3 +609,5 @@ export class Spells {
     this.snares.push({ pos: at, radius: s.radius, t: 0, duration: s.duration + (this.upgraded('snare') ? s.durationUpgrade : 0), group: mesh, mats: [mat] })
     g.sfx.snare()
     g.rings.spawn(at, COLOR.chaos, s.radius * 0.2, s.radius, 0.4)
+  }
+
