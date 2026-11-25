@@ -88,3 +88,4 @@ export class Seal {
     this.mesh.visible = !open
   }
 
+  get isOpen() {
