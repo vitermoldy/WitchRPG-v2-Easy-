@@ -31,3 +31,4 @@ def srgb_to_lin(c):
 
 
 def rgb(h, a=1.0):
+    h = h.lstrip("#")
