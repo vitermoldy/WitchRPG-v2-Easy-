@@ -124,3 +124,4 @@ export class Ledger {
   render() {
     const p = this.host.profile
     const d = derive(p.stats, p.level)
+    const need = xpToNext(p.level)
