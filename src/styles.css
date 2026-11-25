@@ -1209,3 +1209,4 @@ button {
   top: calc(var(--gutter) + 0.4rem);
   left: 50%;
   transform: translateX(-50%);
+  width: min(34rem, 60vw);
