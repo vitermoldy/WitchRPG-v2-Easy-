@@ -791,3 +791,4 @@ export class UnitSystem {
           }
         }
         if (u.t >= lt) {
+          host.clearTelegraph(u)
