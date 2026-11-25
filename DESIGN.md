@@ -36,3 +36,4 @@ Action-RPG third-person dengan rasa God of War di hutan terbuka, memakai sistem 
 | Altar | Cahaya teal `#9ff2e0` | Bukan merah Chaos, ungu Umbra, atau amber musuh. |
 | Tongkat | Dipegang tangan kanan (tangan Umbra), sigil merah Chaos di kepala tongkat | Tangan kiri tetap bebas untuk Hex Bolt dan Telekinesis saat membidik. |
 | Model block-out | Dibangun dari bagian bernama yang punya pivot sendiri (pelvis, torso, kepala, lengan atas, lengan bawah, tangan, paha, betis, leher Hydra per ruas) | Bisa dianimasikan prosedural seperti `models.ts` v1 kalau rig per tulang terlalu mahal. Animatic sudah memakai cara ini untuk langkah Ilyra dan leher Hydra. |
+| Anggaran mini-boss | Medusa dan Chimera memakai anggaran boss (30.000), bukan mob (8.000) | Medusa block-out sudah 15.928 segitiga karena tiga belas kepala ular di rambutnya. |
