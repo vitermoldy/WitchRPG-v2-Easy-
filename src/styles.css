@@ -521,3 +521,4 @@ button {
   margin: 0;
   padding: 0.5rem 0.7rem;
   border-radius: var(--radius);
+  background: rgba(12, 8, 9, 0.7);
