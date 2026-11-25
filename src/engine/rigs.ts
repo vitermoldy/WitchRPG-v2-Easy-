@@ -273,3 +273,4 @@ const poseHarpy: PoseFn = (p, u, t) => {
     p.rot('torso', 20)
     return
   }
+  if (flying) {
