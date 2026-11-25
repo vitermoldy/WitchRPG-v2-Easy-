@@ -346,3 +346,4 @@ export class Umbra {
     if (this.wheelOpen) {
       this.wheelX += inp.dx
       this.wheelY += inp.dy
+      if (Math.hypot(this.wheelX, this.wheelY) > 24) {
