@@ -179,3 +179,4 @@ describe('version 1: tiers, ranks and growth', () => {
   })
   it('grows the witch with her level', () => {
     const lv1 = derive(newProfile().stats, 1)
+    const lv10 = derive(newProfile().stats, 10)
