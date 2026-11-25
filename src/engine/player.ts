@@ -255,3 +255,5 @@ export class Player {
       if (rise < 0 && !g.blocked(this.pos.x, this.pos.z)) this.flying = false
     }
     this.turn(face, dt)
+  }
+
