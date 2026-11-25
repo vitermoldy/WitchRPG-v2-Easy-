@@ -248,3 +248,4 @@ export class Game implements UnitHost {
       this.fight.stats.dodged++
       return
     }
+    if (res === 'parry') {
