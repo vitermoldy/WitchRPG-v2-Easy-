@@ -16,3 +16,4 @@ export interface CampDef {
   boss?: boolean
 }
 
+/**
