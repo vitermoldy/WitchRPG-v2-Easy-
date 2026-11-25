@@ -120,3 +120,4 @@ async function boot() {
   }
 
   // ------------------------------------------------------------ the Ledger and the altars
+  const ledger = new Ledger({
