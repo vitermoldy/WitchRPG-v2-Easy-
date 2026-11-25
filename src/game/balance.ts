@@ -526,3 +526,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     shield: 0.85,
     stun: 85,
     attacks: [
+      { name: 'kapak', strike: 'ring', windup: 0.9, recover: 1, range: 3.2, ring: 1.8, lungeSpeed: 5, lungeTime: 0.35 },
