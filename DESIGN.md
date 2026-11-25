@@ -143,3 +143,4 @@ Tur di game (`?debug`, Lv 6): empat Imp dikalahkan dengan pukulan dan satu dieks
 | Anggaran segitiga | Centaur (9.768) dan Hellhound fase 2 (9.398) melewati anggaran mob 8.000; keduanya disederhanakan saat ekspor (`--ratio 0.78`): 7.606 dan 7.324. Medusa 15.928 dan Chimera 8.394 memakai anggaran mini-boss 30.000 | Aturan prompt. Hellhound ternyata sudah melewati batas sejak fase 2; sekarang diperbaiki. |
 | Kamp | 24 kamp: 10 di Hutan Pembuka, 7 di Tebing Berangin (Harpy dan Centaur, semuanya di dataran tinggi), 7 di Rawa Berkabut (Naga, Minotaur, sarang Medusa dengan 2 Naga, sarang Chimera). Tes memastikan setiap kamp ada di pita level zonanya (tiga level per tier) dan berdiri di tanah yang bisa diinjak | Pita level dikunci tes seperti diminta prompt. |
 | Kamp elit di tepi zona | Belum ada | Sifat elit v1 masuk daftar fase 5. |
+| Griffin liar | Belum ada | Tidak ada di daftar fase 4, dan roster menyebutnya bisa tidak bermusuhan. |
