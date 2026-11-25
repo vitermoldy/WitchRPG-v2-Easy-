@@ -72,3 +72,4 @@ Hasil gerbang (bot `?debug`, input nyata, waktu game 3× dipercepat): 10,0 menit
 
 ## Fase 2: tempur (24 Nov 2026)
 
+| Bagian | Keputusan | Alasan |
