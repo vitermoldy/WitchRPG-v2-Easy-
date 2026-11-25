@@ -1020,3 +1020,4 @@ export class Game implements UnitHost {
       this.cullIn = 0.5
     }
     this.glow.update(dt)
+    this.smoke.update(dt)
