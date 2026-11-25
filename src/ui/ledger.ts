@@ -157,3 +157,4 @@ export class Ledger {
           const open = isUnlocked(p, s.id)
           const bought = !!p.upgrades[s.id]
           let up = ''
+          if (s.noUpgrade) up = ''
