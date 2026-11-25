@@ -243,3 +243,4 @@ export class Unit implements Foe {
     return out.set(this.pos.x, this.pos.y + this.height * 0.5, this.pos.z)
   }
 
+  set(state: UnitState) {
