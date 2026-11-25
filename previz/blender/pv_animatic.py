@@ -170,3 +170,4 @@ def build(dunia, res=(1280, 720), samples=24):
         if t < T_FLY:
             u = t / T_FLY
             u = u * 0.85 + ease(u) * 0.15
+            k = min(len(fly_curve) - 1.001, u * (len(fly_curve) - 1))
