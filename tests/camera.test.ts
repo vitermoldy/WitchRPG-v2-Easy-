@@ -22,3 +22,4 @@ describe('over-the-shoulder camera', () => {
     const rig = new CameraRig()
     rig.pitch = 0
     const pose = rig.update(1, pivot, false, null, null, flat)
+    // yaw 0 looks north (-z): behind is +z, right is +x
