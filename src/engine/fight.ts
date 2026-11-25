@@ -249,3 +249,4 @@ export class Fight {
   }
 
   get damageMult() {
+    return this.g.spells.damageMult
