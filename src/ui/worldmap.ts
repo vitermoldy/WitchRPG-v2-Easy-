@@ -356,3 +356,4 @@ export class WorldMap {
         }
       })
     }
+    for (const f of g.fauna.list()) {
