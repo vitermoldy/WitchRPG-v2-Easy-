@@ -34,3 +34,5 @@ export class Seal {
   private readonly mask: Uint8Array
   private open = false
   private fade = 1
+  private readonly mat: THREE.ShaderMaterial
+
