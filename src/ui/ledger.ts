@@ -104,3 +104,4 @@ export class Ledger {
     $('btn-ledger-close').focus()
   }
 
+  close() {
