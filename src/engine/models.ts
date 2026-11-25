@@ -275,3 +275,4 @@ export class IlyraModel {
       crouch = 0.06 * b
     }
     const sw = act.swing
+    if (sw) {
