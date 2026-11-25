@@ -194,3 +194,5 @@ describe('version 1: tiers, ranks and growth', () => {
     p.bossKills = 1
     expect(isFresh(p)).toBe(false)
   })
+})
+
