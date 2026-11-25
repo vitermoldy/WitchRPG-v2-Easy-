@@ -604,3 +604,4 @@ export class Game implements UnitHost {
     this.counts.damageTaken += d
     this.hurtGrace = COMBAT.hurtGrace
     this.fight.hurt()
+    this.umbra.interrupt()
