@@ -19,3 +19,4 @@ export interface Emit {
   /** Random offset around pos. */
   jitter?: number
   gravity?: number
+  drag?: number
