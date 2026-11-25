@@ -211,3 +211,4 @@ describe('phase 4 creatures', () => {
       // face her, or turn its back on her
       c.yaw = Math.atan2(-place[0], -place[1]) + (faceAway ? Math.PI : 0)
       c.skillCd = 99
+      let used = ''
