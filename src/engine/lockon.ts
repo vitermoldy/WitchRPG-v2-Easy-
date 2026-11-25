@@ -75,3 +75,4 @@ export class LockOn {
       }
     }
     if (best) {
+      this.current = best
