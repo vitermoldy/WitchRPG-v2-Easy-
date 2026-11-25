@@ -272,3 +272,4 @@ export interface UnitSpec {
   eliteRank?: RankId
   /** v2: drawn by the Hydra's rig (a head); has no model of its own. */
   part?: boolean
+  /** v2 fauna: never attacks, cannot be struck or raised, keeps away from her. */
