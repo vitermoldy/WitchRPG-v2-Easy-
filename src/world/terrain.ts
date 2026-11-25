@@ -175,3 +175,4 @@ export class Terrain {
         if (e === 0 || e === 3) idx.push(a, b, c, b, d, c)
         else idx.push(a, c, b, b, c, d)
       }
+    })
