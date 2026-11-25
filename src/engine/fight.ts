@@ -196,3 +196,4 @@ class Staff {
     obj.quaternion.copy(this.q)
   }
 
+  private catch() {
