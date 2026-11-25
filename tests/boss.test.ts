@@ -18,3 +18,4 @@ function world() {
     blocked: () => false,
     strikePlayer: () => {},
     strikeUnit: () => {},
+    fire: () => {},
