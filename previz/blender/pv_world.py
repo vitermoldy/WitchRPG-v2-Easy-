@@ -623,3 +623,4 @@ def build_temple(coll, pal):
     top = z0 + 1.8
     for k in range(12):
         a = 2 * math.pi * k / 12
+        x, y = cx + math.cos(a) * 7.5, cy + math.sin(a) * 6.0
