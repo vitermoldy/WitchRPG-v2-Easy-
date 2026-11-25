@@ -1034,3 +1034,4 @@ def b_samael(r):
     hd.tube([top, top + Vector((0.5, -0.1, 0.25)), top + Vector((1.05, -0.1, -0.05)), top + Vector((1.25, -0.05, -0.55))], [0.06, 0.07, 0.04, 0.0], mat="glow", seg=6, n=4, squash=0.25)
 
 
+def b_atlas(r):
