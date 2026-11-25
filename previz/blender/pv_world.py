@@ -685,3 +685,4 @@ def build_rift(coll):
     up = Vector((0.0, -0.25, 1.0)).normalized()
     for i in range(n - 1):
         w0 = 14 * math.sin(math.pi * i / (n - 1)) + 2
+        w1 = 14 * math.sin(math.pi * (i + 1) / (n - 1)) + 2
