@@ -753,3 +753,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     mass: 2500,
     attackRange: 8,
     windup: 0.9,
+    recover: 1,
