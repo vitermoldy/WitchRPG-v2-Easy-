@@ -237,3 +237,4 @@ export class Umbra {
   /** Violet pulse on a body that can still be raised, for the renderer. */
   glowOf(u: Unit): THREE.Color | null {
     if (u.team !== 'enemy' || u.alive || u.ash || u.riteTried || !this.riteOpen || u.deadT > RITE.window) return null
+    const pulse = 0.55 + Math.sin(this.time * 4 + u.id) * 0.25
