@@ -66,3 +66,4 @@ export function cleanProfile(p, now = Date.now()) {
   if ([level, xp, statPoints, skillPoints, nextShadowId, bossKills].includes(null)) return { error: 'Angka witch di luar batas.' }
   const stats = {}
   for (const k of STATS) {
+    stats[k] = int(p.stats?.[k], 1, 999)
