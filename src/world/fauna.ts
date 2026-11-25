@@ -12,3 +12,4 @@ import { ALTARS, toWorld } from './map'
 const WAKE = 110
 const SLEEP = 160
 
+interface Spot {
