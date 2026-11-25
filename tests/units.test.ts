@@ -190,3 +190,4 @@ describe('phase 4 creatures', () => {
     expect(n.pos.distanceTo(from)).toBeGreaterThan(3.5)
   })
 
+  it('Minotaur takes 15% of blows and bolts from in front, all of them from behind, and all of a thrown staff', () => {
