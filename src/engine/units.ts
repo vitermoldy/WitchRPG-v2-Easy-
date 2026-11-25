@@ -143,3 +143,4 @@ export class Unit implements Foe {
   riteTried = false
   ash = false
   ashAt = 0
+  // shadows
