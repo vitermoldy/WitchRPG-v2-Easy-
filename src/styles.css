@@ -819,3 +819,4 @@ button {
 .vital {
   display: grid;
   grid-template-columns: 3.6rem 1fr 4.4rem;
+  align-items: center;
