@@ -82,3 +82,4 @@ export class WorldMap {
       this.focus = this.focus === kind ? null : kind
       this.renderBosses()
       this.draw()
+    })
