@@ -480,3 +480,4 @@ def render_lineup(sc, bands, path, tmpdir, pct=100):
     stack_png(parts, path, pad=24, bg=(0.094, 0.102, 0.125))
 
 
+def stack_png(paths, out, pad=0, bg=(0, 0, 0)):
