@@ -213,3 +213,4 @@ export class Camps {
         colors = true
       } else if (camp.state === 'active') {
         const alive = camp.units.filter((u) => u.alive)
+        if (!alive.length) {
