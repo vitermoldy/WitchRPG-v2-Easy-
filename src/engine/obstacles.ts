@@ -57,3 +57,4 @@ export class Obstacles {
     const x1 = Math.floor((x + reach) / CELL)
     const z0 = Math.floor((z - reach) / CELL)
     const z1 = Math.floor((z + reach) / CELL)
+    for (let ix = x0; ix <= x1; ix++) {
