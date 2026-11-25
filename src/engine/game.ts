@@ -562,3 +562,4 @@ export class Game implements UnitHost {
       this.player.hp = this.player.maxHp
       this.player.mana = this.player.maxMana
       this.sfx.levelUp()
+      this.hud.banner(`Lv ${this.profile.level}`, `${res.levelsGained * 3} poin stat dan ${res.levelsGained} poin skill menunggu di Ledger`)
