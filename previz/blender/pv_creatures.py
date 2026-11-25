@@ -546,3 +546,4 @@ def b_harpy(r):
 
 def b_centaur(r):
     """Old archer: white hair and beard, gold bands, chestnut horse body with a pale tail, bow drawn."""
+    Q = quad(r, 1.5, 1.85, 0.58, 0.72, 0.055, front="hoof", hind="hoof", foot_mat="hoof")
