@@ -111,3 +111,4 @@ export class Hud {
   }
 
   debug(text: string | null) {
+    this.debugEl.hidden = text === null
