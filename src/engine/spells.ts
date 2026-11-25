@@ -379,3 +379,4 @@ export class Spells {
       prop.thrown = false
       prop.vel.set(0, 0, 0)
       this.heldProp = prop
+      g.sfx.gripStart()
