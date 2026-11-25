@@ -506,3 +506,4 @@ export class Lair {
             body.aimAt.set(her.x + (Math.random() - 0.5) * 6, her.y, her.z + (Math.random() - 0.5) * 6)
             body.lungeDir.set(body.aimAt.x - body.pos.x, 0, body.aimAt.z - body.pos.z).normalize()
             body.atk = spit
+            g.fire(body, spit)
