@@ -172,3 +172,4 @@ export function scatter(size = 1260, step = 4, seed = 3): Tree[] {
       const sc = 0.7 + rnd() * 0.65
       const h = heightMap(x, y)
       const e = 1.5
+      const slope = Math.hypot(heightMap(x + e, y) - heightMap(x - e, y), heightMap(x, y + e) - heightMap(x, y - e)) / (2 * e)
