@@ -564,3 +564,4 @@ def fog_material(z):
     em.operation = "MULTIPLY"
     em.inputs[1].default_value = z.get("glow", 0.5)
     L.new(m2.outputs[0], em.inputs[0])
+    L.new(em.outputs[0], vol.inputs["Emission Strength"])
