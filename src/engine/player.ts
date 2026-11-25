@@ -185,3 +185,4 @@ export class Player {
       if (this.pos.y <= ground) {
         this.pos.y = ground
         this.vy = 0
+      }
