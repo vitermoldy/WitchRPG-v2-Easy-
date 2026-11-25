@@ -712,3 +712,4 @@ export class Spells {
   private raiseBarrier() {
     const s = SPELL.barrier
     this.barrierCd = s.cooldown
+    this.barrierT = s.duration
