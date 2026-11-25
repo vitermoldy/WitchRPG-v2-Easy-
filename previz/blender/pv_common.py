@@ -229,3 +229,4 @@ def palette_ref(key, spec):
         e = emissive.get(slot)
         return mat_tone(f"{key}.{slot}", top, bottom, rough=rough, metal=metal, emit=e[0] if e else None, emit_strength=e[1] if e else 0.0)
 
+    vals = {}
