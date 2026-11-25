@@ -535,3 +535,4 @@ export class UnitSystem {
     }
   }
 
+  /** Fauna: wander about home, step away from her when she comes close, never attack. */
