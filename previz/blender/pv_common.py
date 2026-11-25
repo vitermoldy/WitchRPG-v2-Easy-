@@ -472,3 +472,4 @@ class Rig:
             if not p.bm.verts:
                 p.bm.free()
                 continue
+            bmesh.ops.recalc_face_normals(p.bm, faces=p.bm.faces[:])
