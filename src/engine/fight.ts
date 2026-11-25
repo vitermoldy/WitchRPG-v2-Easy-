@@ -412,3 +412,4 @@ export class Fight {
     const p = g.player
     this.stats.swings++
     let yaw = p.facing
+    if (Math.hypot(inp.dirX, inp.dirZ) > 0.2) yaw = Math.atan2(-inp.dirX, -inp.dirZ)
