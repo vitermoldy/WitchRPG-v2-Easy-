@@ -30,3 +30,4 @@ if (rows.length === 0) {
       'boss tumbang': r.boss_kills ?? 0,
     })),
   )
+}
