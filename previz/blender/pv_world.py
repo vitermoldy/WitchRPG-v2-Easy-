@@ -727,3 +727,4 @@ def build_world(lib_scene):
     build_forest(forest, P)
     cover = C.collection("Dunia_semak", dunia)
     hero = SPOTS["hero"]
+    build_ground_cover(cover, P, hero, 40, seed=11, open_r=18)
