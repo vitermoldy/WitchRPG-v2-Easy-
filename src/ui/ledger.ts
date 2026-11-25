@@ -226,3 +226,5 @@ export interface TravelHost {
   altars(): { key: string; name: string; here: boolean }[]
   travel(key: string): void
   openLedger(): void
+}
+
