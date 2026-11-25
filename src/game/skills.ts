@@ -7,3 +7,4 @@ export type SkillId =
   | 'warp'
   | 'rite'
   | 'swap'
+  | 'focus'
