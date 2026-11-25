@@ -1556,3 +1556,4 @@ dialog::backdrop {
 
 .room-group details {
   border: 1px solid rgba(143, 85, 255, 0.4);
+  border-radius: var(--radius);
