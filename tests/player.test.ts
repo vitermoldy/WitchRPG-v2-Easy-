@@ -91,3 +91,4 @@ describe('Ilyra on foot', () => {
     while (p.dodging) {
       seen.push([p.dodgeT, p.invulnerable])
       p.update(dt, { ...idle, x: 1 }, 0, null, false, flat)
+    }
