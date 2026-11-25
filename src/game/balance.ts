@@ -92,3 +92,4 @@ export const PLAYER = {
   damagePerLevel: 0.05,
   hpPerLevel: 8,
   speedPerAgi: 0.01,
+  hurtInvuln: 0.25,
