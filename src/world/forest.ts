@@ -94,3 +94,4 @@ function swampTree(): THREE.BufferGeometry {
       parts.push(part(new THREE.ConeGeometry(0.12, 2.4, 4), PAL.moss, at(x + Math.cos(a) * r * 0.7, y - r * 0.3 - 1.2, z + Math.sin(a) * r * 0.7, Math.PI)))
     }
   }
+  return mergeGeometries(parts)
