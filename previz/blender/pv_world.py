@@ -633,3 +633,4 @@ def build_temple(coll, pal):
     for k, (dx, dy, ang) in enumerate(((10, -9, 70), (-11, -6, 20), (14, 4, 110))):
         x, y = cx + dx, cy + dy
         zz = ground_z(x, y)
+        p.limb((x - 3.2 * math.cos(math.radians(ang)), y - 3.2 * math.sin(math.radians(ang)), zz + 0.5), (x + 3.2 * math.cos(math.radians(ang)), y + 3.2 * math.sin(math.radians(ang)), zz + 0.5), 0.55, 0.5, mat="stone_moss", seg=10, joints=False)
