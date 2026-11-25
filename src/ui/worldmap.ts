@@ -390,3 +390,4 @@ export class WorldMap {
         ctx.stroke()
       }
       if (this.focus === b.kind) {
+        ctx.beginPath()
