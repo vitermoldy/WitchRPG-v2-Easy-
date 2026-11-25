@@ -457,3 +457,4 @@ export class UnitSystem {
   }
 
   face(u: Unit, x: number, z: number, dt: number, rate = 9) {
+    const want = Math.atan2(x - u.pos.x, z - u.pos.z)
