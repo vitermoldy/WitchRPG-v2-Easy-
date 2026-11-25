@@ -952,3 +952,4 @@ export class UnitSystem {
           if (u.hurled && d < u.radius + o.radius + 0.3 && dy < (o.height + u.height) * 0.5) {
             host.impact(u, o, speed)
             this.land(u, 0.2)
+            return
