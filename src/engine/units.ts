@@ -727,3 +727,4 @@ export class UnitSystem {
           const r = Math.max(4, u.radius + 3)
           this.steer(u, tgt.pos.x + Math.sin(side) * r, tgt.pos.z + Math.cos(side) * r, speed * 0.6, dt)
         }
+        this.face(u, tgt.pos.x, tgt.pos.z, dt)
