@@ -108,3 +108,4 @@ describe('phase 5 creatures', () => {
     expect(ph.targetable).toBe(false)
     w.step(UNITS.phoenix.rebirth!.ashes + 0.1)
     expect(ph.reborn).toBe(true)
+    expect(ph.hp).toBeCloseTo(ph.maxHp * UNITS.phoenix.rebirth!.hp)
