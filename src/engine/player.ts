@@ -79,3 +79,5 @@ export class Player {
     this.nudgeZ = ((dz / l) * dist * 2) / time
     this.nudgeT = time
     this.nudgeTime = time
+  }
+
