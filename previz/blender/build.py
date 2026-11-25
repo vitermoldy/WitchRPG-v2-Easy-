@@ -100,3 +100,4 @@ for key, fname in FILES.items():
     if key in ONLY:
         C.render(scenes[key], os.path.join(RENDERS, fname), PCT)
         log("render", fname)
+if "variants" in ONLY:
