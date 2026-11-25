@@ -244,3 +244,5 @@ Pemeriksaan:
 - **Server produksi:** `npm start` melayani `dist/` dan API di 8913 dengan database `witch_rpg_v2`. Akun pemilik `vmk` ada di sana.
 - **Tes:** 102 dari 102 lulus (5 baru di `tests/server.test.ts`). `npm run build` bersih: batas peringatan ukuran bundel dinaikkan dari 900 ke 1.000 kB karena game sengaja satu bundel (902 kB, 246 kB gzip).
 
+## Fase 7: dunia terbuka lengkap (26 Nov 2026)
+
