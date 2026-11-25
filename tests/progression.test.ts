@@ -49,3 +49,4 @@ describe('XP curve from the GDD', () => {
     expect(p.skillPoints).toBe(1)
   })
   it('levels several times from one large gain', () => {
+    const p = newProfile()
