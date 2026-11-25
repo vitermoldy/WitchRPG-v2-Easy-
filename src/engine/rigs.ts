@@ -1113,3 +1113,4 @@ export class Rigs {
         part.mesh.visible = b.used > 0
         if (b.used) part.mesh.instanceMatrix.needsUpdate = true
       }
+    }
