@@ -293,3 +293,4 @@ export class Fight {
     for (const u of g.units.units) {
       if (u.team !== 'enemy' || !can(u)) continue
       const d = reach(u)
+      if (d < bd) {
