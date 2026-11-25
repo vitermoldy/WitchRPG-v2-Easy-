@@ -99,3 +99,4 @@ export class Terrain {
     const mesh = new THREE.Mesh(this.geometry(c.ix, c.iz, LOD_STEP[lod]), this.material)
     mesh.receiveShadow = true
     mesh.visible = false
+    mesh.matrixAutoUpdate = false
