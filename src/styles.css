@@ -1797,3 +1797,4 @@ dialog::backdrop {
 .worldmap {
   width: min(78rem, calc(100vw - 32px));
   height: min(48rem, calc(100vh - 32px));
+  padding: 1rem;
