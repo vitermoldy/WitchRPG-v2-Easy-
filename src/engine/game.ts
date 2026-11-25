@@ -431,3 +431,4 @@ export class Game implements UnitHost {
     ])
     this.ilyra = new IlyraModel(ilyra)
     // in first person her body is hidden from the view but still casts its shadow
+    this.atmosphere.sun.shadow.camera.layers.enable(IlyraModel.HIDDEN_LAYER)
