@@ -50,3 +50,4 @@ Salin `.env.example` menjadi `.env` dan isi akun MySQL. Server membuat database 
 | Mouse | Putar kamera |
 | Klik tengah | Lock-on ke makhluk terdekat di depan; klik lagi untuk lepas |
 | Sentak mouse ke samping | Pindah lock-on ke makhluk di sisi itu |
+| B | Terbang atau mendarat. Di udara Spasi naik, C turun, Shift lebih cepat. Ilyra tidak bisa mendarat di air dalam |
