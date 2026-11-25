@@ -714,3 +714,4 @@ export class Spells {
     this.barrierCd = s.cooldown
     this.barrierT = s.duration
     this.barrierAbsorb = s.absorb + (this.upgraded('barrier') ? s.absorbUpgrade : 0)
+    this.shield.visible = true
