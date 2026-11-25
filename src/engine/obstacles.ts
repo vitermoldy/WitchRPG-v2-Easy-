@@ -16,3 +16,4 @@ export interface Shape {
   /** Cylinder height; unused for spheres. */
   h: number
   /** Crowns block the camera but not her feet. */
+  camOnly: boolean
