@@ -503,3 +503,4 @@ export class Fight {
       g.units.kill(u, true)
       this.stats.executions++
       g.spells.addChaos(10)
+      g.hitstop(COMBAT.hitstop.parry * 1.4)
