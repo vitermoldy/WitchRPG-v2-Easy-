@@ -19,3 +19,4 @@ const pool = await connect(config.db)
 const hash = await hashPassword(password)
 const [[found]] = await pool.query('SELECT id, username FROM users WHERE username = ?', [username])
 if (found) {
+  await pool.query('UPDATE users SET password_hash = ? WHERE id = ?', [hash, found.id])
