@@ -32,3 +32,4 @@ export function normalizeProfile(data: Partial<Profile> | null | undefined): Pro
     settings: { ...DEFAULT_SETTINGS, ...data.settings },
     upgrades: { ...data.upgrades },
     shadows: Array.isArray(data.shadows) ? data.shadows : [],
+    world: {
