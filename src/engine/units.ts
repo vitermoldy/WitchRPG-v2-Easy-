@@ -33,3 +33,4 @@ export interface UnitHost {
   fire(u: Unit, atk: AttackSpec): void
   /** A thrown body hit another body (other) or the ground or a tree (other null) at this speed. */
   impact(u: Unit, other: Unit | null, speed: number): void
+  /** A unit died, from any cause. */
