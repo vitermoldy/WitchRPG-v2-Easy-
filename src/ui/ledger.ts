@@ -180,3 +180,4 @@ export class Ledger {
         isUnlocked(p, 'rite')
           ? 'Belum ada bayangan. Kalahkan makhluk, hadapkan kamera ke tubuhnya yang bersinar ungu, lalu tahan R.'
           : 'Belum ada bayangan. Umbra Rite terbuka di Lv 2: setelah itu tubuh makhluk yang kalah bisa dibangkitkan.'
+      }</li>`
