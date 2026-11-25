@@ -401,3 +401,4 @@ class Part:
                 q = p + R[i] * (math.cos(a) * Nn + math.sin(a) * B * squash)
                 ring.append(self.bm.verts.new(q - off))
             rings.append(ring)
+            allv += ring
