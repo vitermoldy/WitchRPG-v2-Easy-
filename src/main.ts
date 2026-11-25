@@ -124,3 +124,4 @@ async function boot() {
     profile: pr,
     changed: () => {
       game.statsChanged()
+    },
