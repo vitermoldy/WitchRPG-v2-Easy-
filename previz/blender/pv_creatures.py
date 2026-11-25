@@ -516,3 +516,4 @@ def b_hellhound(r):
 
 
 def b_harpy(r):
+    """Woman with blue-and-white feathered wing arms, feather crest, feather wraps and bird legs."""
