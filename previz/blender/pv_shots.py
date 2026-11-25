@@ -483,3 +483,4 @@ def render_lineup(sc, bands, path, tmpdir, pct=100):
 def stack_png(paths, out, pad=0, bg=(0, 0, 0)):
     ims = [bpy.data.images.load(p, check_existing=False) for p in paths]
     W = max(i.size[0] for i in ims)
+    H = sum(i.size[1] for i in ims) + pad * (len(ims) + 1)
