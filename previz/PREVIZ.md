@@ -166,3 +166,4 @@ Jalan setapak: altar ke utara melewati Hutan Pembuka sampai kuil, bercabang ke b
 
 | Bagian | Prompt | Previz | Alasan |
 | --- | --- | --- | --- |
+| Kamera normal | FOV 68, 3,4 m, bahu 0,85 m, tinggi 1,65 m | FOV 50 vertikal, 3,4 m, bahu 0,8 m, tinggi 1,6 m, pitch -6° | Lihat tabel varian |
