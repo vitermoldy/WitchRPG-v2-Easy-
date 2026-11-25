@@ -422,3 +422,4 @@ def b_ilyra(r, pose="idle"):
     pel.ell((0.1, -0.12, z["waist"] - 0.05), (0.03, 0.02, 0.04), mat="sigil_l")
     rows, cols = 7, 11
     sheet = []
+    for i in range(rows):
