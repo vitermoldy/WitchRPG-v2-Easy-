@@ -197,3 +197,4 @@ describe('creature shots', () => {
       sfx: { bolt: noop },
       units: { units: [] },
       clearTelegraph: noop,
+      // the blow fells her, and her fall clears every shot in the air
