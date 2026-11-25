@@ -282,3 +282,4 @@ export class IlyraModel {
       let through: typeof back
       if (sw.heavy) {
         back = { torso: -18, armX: -175, armY: 0, fore: -25 }
+        through = { torso: 38, armX: -35, armY: 0, fore: 0 }
