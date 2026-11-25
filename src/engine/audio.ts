@@ -252,3 +252,4 @@ export class Sfx {
 
   levelUp() {
     if (!this.ok()) return
+    const t = this.ctx!.currentTime
