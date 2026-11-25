@@ -157,3 +157,4 @@ describe('version 1: tiers, ranks and growth', () => {
     p.level = 10
     expect(bossUnlocked(p)).toBe(true)
   })
+  it('needs Kebangkitan Jenderal for a Rift Lord and Marsekal for the boss, one boss only', () => {
