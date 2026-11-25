@@ -65,3 +65,4 @@ export class Umbra {
   /** The army has been called and not sent back: shadows that reform rise again by themselves. */
   armyOut = false
   readonly stats = { casts: 0, raised: 0, faded: 0 }
+  private wheelX = 0
