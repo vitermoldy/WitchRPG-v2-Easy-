@@ -23,3 +23,4 @@ const CAP = 16
  * hurts the first creature it meets by its weight and speed, as a thrown body does, and counts as a
  * thrown thing (it goes through the Minotaur's shield and does 150% to the Hydra's slimy skin).
  */
+export class Props {
