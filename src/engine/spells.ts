@@ -503,3 +503,5 @@ export class Spells {
       g.fight.cast()
       g.addTrauma(0.12)
     }
+  }
+
