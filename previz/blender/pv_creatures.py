@@ -253,3 +253,4 @@ def dog_head(part, at, fwd=(0, -1, 0), s=1.0, jaw_open=25, ears=True, mane=False
     sn0, sn1 = a + F * 0.12 * s + UP * 0.01 * s, a + F * 0.38 * s - UP * 0.03 * s
     part.limb(sn0, sn1, 0.1 * s, 0.065 * s, mat=mat)
     part.ell(sn1 + F * 0.04 * s + UP * 0.02 * s, 0.03 * s, mat="nose" if "nose" in part.rig.pal else "horn", seg=8, rings=5)
+    jd = (F * math.cos(math.radians(jaw_open)) - UP * math.sin(math.radians(jaw_open)))
