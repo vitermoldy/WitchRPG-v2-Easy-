@@ -129,3 +129,4 @@ class Staff {
         this.pos.set(u.pos.x - this.vel.x * 0.02, g.ground.height(u.pos.x, u.pos.z) + 0.3, u.pos.z - this.vel.z * 0.02)
         this.stick()
       } else if (wall < 1) {
+        this.pos.lerpVectors(this.prev, this.pos, wall)
