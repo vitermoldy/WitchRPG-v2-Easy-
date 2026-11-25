@@ -344,3 +344,4 @@ export class Warnings {
       const mat = () => new THREE.MeshBasicMaterial({ color: 0xffa53d, transparent: true, opacity: 0, depthWrite: false, blending: THREE.AdditiveBlending })
       const fill = new THREE.Mesh(disc, mat())
       const edge = new THREE.Mesh(ring, mat())
+      fill.renderOrder = edge.renderOrder = 8
