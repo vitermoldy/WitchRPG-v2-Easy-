@@ -244,3 +244,4 @@ export class Fight {
     this.exec = null
     this.blocking = false
     this.riposte = 0
+    this.throwT = this.catchT = -1
