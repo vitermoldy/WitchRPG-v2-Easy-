@@ -110,3 +110,4 @@ const GRIP_HOLD = 0.25
  * Reality Warp on their keys, the Chaos meter, Crimson Overload and its Backlash. Same rules and
  * numbers as v1; the aim comes from the shoulder camera instead of the eyes.
  */
+export class Spells {
