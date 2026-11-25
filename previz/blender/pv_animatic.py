@@ -75,3 +75,4 @@ def build(dunia, res=(1280, 720), samples=24):
 
     cam = C.camera(sc, "kamera.animatic", (0, 0, 0), lens_vfov=S.CAM["normal"]["vfov"], clip=(0.05, 4000))
     cam.rotation_mode = "QUATERNION"
+    tc = ret.constraints.new("TRACK_TO")
