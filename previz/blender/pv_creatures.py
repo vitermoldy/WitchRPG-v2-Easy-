@@ -588,3 +588,4 @@ def b_naga(r):
     for s in (1, -1):
         for idx in (8, 4):
             a0 = V(pts[idx]) + Vector((0.2 * s, -0.12, -0.1))
+            b.limb(a0, a0 + Vector((0.22 * s, -0.2, -0.3)), 0.06, 0.04)
