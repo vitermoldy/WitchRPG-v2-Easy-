@@ -870,3 +870,4 @@ export class UnitSystem {
     const far = Math.hypot(goal.x - u.pos.x, goal.z - u.pos.z)
     this.steer(u, goal.x, goal.z, far > 6 ? u.speed * 1.4 : u.speed, dt, 0.4)
     if (far > 0.8) this.face(u, goal.x, goal.z, dt, 6)
+    if (u.spec.fly) u.alt += (flyH - u.alt) * Math.min(1, dt * 2)
