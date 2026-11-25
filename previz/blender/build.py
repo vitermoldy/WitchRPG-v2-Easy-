@@ -27,3 +27,4 @@ def arg(name, default=None):
     return argv[argv.index(name) + 1] if name in argv else default
 
 
+ONLY = set(arg("--only", "variants,hero,valley,lineup,minotaur,hydra,army,bara,board").split(","))
