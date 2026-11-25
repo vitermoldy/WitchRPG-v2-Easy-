@@ -37,3 +37,5 @@ describe('over-the-shoulder camera', () => {
     expect(pose.pos.z).toBeCloseTo(CAMERA.aim.dist, 2)
     expect(pose.pos.x).toBeCloseTo(CAMERA.aim.shoulder, 2)
     expect(pose.fov).toBeCloseTo(CAMERA.aim.fov, 1)
+  })
+
