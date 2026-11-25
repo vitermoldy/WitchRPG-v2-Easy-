@@ -325,3 +325,4 @@ export class Umbra {
         const c = target.pos
         const pt = from.clone().lerp(c, Math.random())
         g.glow.emit({ pos: pt, count: 1, color: COLOR.umbra, intensity: 2.4, life: 0.3, size: 0.1, vel: { x: (c.x - from.x) * 0.8, y: (c.y - from.y) * 0.8, z: (c.z - from.z) * 0.8 } })
+        if (Math.random() < 0.5) g.smoke.emit({ pos: c, count: 1, color: 0x170a28, life: 1, size: 0.8, sizeEnd: 1.4, vel: { x: 0, y: 1, z: 0 }, jitter: 0.5, alpha: 0.7 })
