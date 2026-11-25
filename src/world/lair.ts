@@ -246,3 +246,4 @@ export class Lair {
     }
     g.hud.message('Kepala Hydra terpenggal. Tubuhnya kehilangan 8% HP.', 'chaos')
     g.sfx.roar()
+    if (this.phase < 3 && !this.heads.some((x) => x && x.alive)) this.enterPhase(3)
