@@ -263,3 +263,4 @@ Di luar enam fase PROMPT. Permintaan pemilik: "dalam mode open world, buat semua
 
 Pemeriksaan:
 
+- **Terbang:** naik 23 m dalam 3 dtk, 26 m/dtk dengan Shift; di atas Danau Hitam mendarat ditolak dengan pesan dan Ilyra berhenti di permukaan air; di tanah menahan C mendaratkannya. P mengganti ke orang pertama (sudut pandang 68) dan kembali. Tidak ada error.
