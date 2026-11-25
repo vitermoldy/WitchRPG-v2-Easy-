@@ -158,3 +158,4 @@ export interface Tree {
 export function scatter(size = 1260, step = 4, seed = 3): Tree[] {
   const rnd = mulberry32(seed)
   const n = Math.floor(size / step)
+  const w = new Float32Array(ZONES.length)
