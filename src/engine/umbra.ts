@@ -389,3 +389,4 @@ export class Umbra {
     return riteOdds(rankOf(u), g.profile.level, u.level, g.profile.stats.umb, u.executed)
   }
 
+  /** Mana for raising `n` bodies in one cast. */
