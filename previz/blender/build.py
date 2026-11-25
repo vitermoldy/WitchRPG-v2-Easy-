@@ -91,3 +91,4 @@ scenes["board"] = S.build_board(lib_colls, stats)
 scenes["animatic"] = A.build(dunia)
 log("adegan")
 
+if "--no-save" not in argv:
