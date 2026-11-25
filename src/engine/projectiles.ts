@@ -149,3 +149,4 @@ export class Projectiles {
           if (u.team !== 'shadow' || !u.targetable) continue
           if (Math.hypot(u.pos.x - s.aim.x, u.pos.z - s.aim.z) < r + u.radius) g.strikeUnit(s.source, u, s.atk)
         }
+        g.smoke.emit({ pos: s.aim, count: 8, color: 0x3a3a20, life: 0.9, size: 0.7, sizeEnd: 1.5, speed: 1.4, alpha: 0.55 })
