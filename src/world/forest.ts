@@ -60,3 +60,4 @@ function pine(h: number, tiers: number, rad: number, needle: THREE.Color): THREE
   const parts = [part(new THREE.CylinderGeometry(0.06, 0.3, h, 6, 1, true), PAL.bark, at(0, h / 2, 0))]
   for (let i = 0; i < tiers; i++) {
     const z0 = h * 0.28 + i * ((h * 0.66) / tiers)
+    const r = rad * (1 - i / (tiers + 0.6))
