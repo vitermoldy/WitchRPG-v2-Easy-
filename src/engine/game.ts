@@ -1058,3 +1058,4 @@ export class Game implements UnitHost {
     const wantY = p.pos.y + CAMERA.normal.height
     this.pivotY = snap ? wantY : this.pivotY + (wantY - this.pivotY) * Math.min(1, dt * 12)
     const pivot = { x: p.pos.x, y: this.pivotY, z: p.pos.z }
+    const target = this.lockon.current
