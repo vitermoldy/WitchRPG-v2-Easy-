@@ -576,3 +576,4 @@ export class Spells {
       if (u.team !== 'enemy' || !u.targetable) continue
       const d = u.pos.distanceTo(at)
       if (d > r) continue
+      const k = 1 - 0.5 * (d / r)
