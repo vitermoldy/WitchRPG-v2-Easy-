@@ -75,3 +75,4 @@ export const LOCKON = {
   thirdY: 1 / 3,
   /** Targets taller than this pull the camera back and widen the view a little. */
   bigHeight: 6,
+  pullback: 1.6,
