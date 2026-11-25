@@ -53,3 +53,4 @@ async function boot() {
 
   const enter = async () => {
     const locked = await game.input.lock()
+    show(null)
