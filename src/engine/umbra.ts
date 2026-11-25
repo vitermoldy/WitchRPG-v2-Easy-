@@ -168,3 +168,4 @@ export class Umbra {
       g.hud.message(r.count ? `Semua bayangan sedang terbentuk kembali. Yang pertama siap dalam ${r.next} detik.` : 'Tidak ada bayangan yang bisa dipanggil.', 'umbra')
       return
     }
+    // strongest first: Marsekal, Jenderal, Ksatria, then by level
