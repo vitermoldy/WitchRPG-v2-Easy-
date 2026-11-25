@@ -94,3 +94,4 @@ export class Player {
   }
 
   place(x: number, z: number, g: Ground, facing = 0) {
+    this.pos.x = x
