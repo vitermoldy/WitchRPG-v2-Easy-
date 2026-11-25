@@ -715,3 +715,4 @@ export class Game implements UnitHost {
     p.petrified = 0
     p.poisonT = 0
     this.applyDerived(true)
+    // she rises at the last altar she stood at
