@@ -265,3 +265,4 @@ export class TravelPanel {
     $('travel-list').innerHTML = list
       .map((a) => `<li><button class="btn ${a.here ? '' : 'btn-umbra'}" type="button" data-altar="${a.key}" ${a.here ? 'disabled' : ''}>${a.here ? `${a.name} (di sini)` : `Pergi ke ${a.name}`}</button></li>`)
       .join('')
+    $('travel-note').textContent = list.length > 1 ? 'Pasukan yang sedang di medan ikut pindah.' : 'Belum ada altar lain yang menyala. Altar menyala saat Ilyra mendekatinya.'
