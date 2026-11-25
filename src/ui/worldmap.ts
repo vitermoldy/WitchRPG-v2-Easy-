@@ -92,3 +92,4 @@ export class WorldMap {
     return this.dlg.open
   }
 
+  open() {
