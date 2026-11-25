@@ -177,3 +177,4 @@ describe('the seal on zones IV and V', () => {
     open.unlock()
     expect(open.blocks(kuil[0], kuil[1], pembuka[0], pembuka[1])).toBe(false)
     expect(open.blocks(bx, bz)).toBe(false)
+  })
