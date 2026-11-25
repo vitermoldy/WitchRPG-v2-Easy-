@@ -86,3 +86,4 @@ describe('staff combo', () => {
     expect(starts).toEqual([0, 1, 2, 0])
   })
 
+  it('turns a held button into the heavy blow', () => {
