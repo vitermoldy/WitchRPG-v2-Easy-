@@ -441,3 +441,5 @@ export class Lair {
     u.lungeDir.set(at.x - u.pos.x, 0, at.z - u.pos.z).normalize()
     u.set('windup')
     this.g.telegraph(u)
+  }
+
