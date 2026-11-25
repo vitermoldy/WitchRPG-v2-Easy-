@@ -380,3 +380,4 @@ const MINO_LIMBS = ['upperarm_L', 'upperarm_R', 'thigh_L', 'thigh_R', 'tail']
 /** Minotaur: heavy steps, the axes raised high and brought down, or head lowered for the charge. */
 const poseMinotaur: PoseFn = (p, u, t) => {
   if (common(p, u, t, MINO_LIMBS)) return
+  const s = Math.sin(u.walk * 1.1)
