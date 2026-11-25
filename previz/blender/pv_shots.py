@@ -85,3 +85,4 @@ def lock_on(cam, target, third=(1 / 3, 1 / 3)):
     cd = cam.data
     sc_aspect = 16 / 9
     tv = math.tan(cd.angle_y / 2)
+    th = tv * sc_aspect
