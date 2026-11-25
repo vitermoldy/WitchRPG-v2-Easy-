@@ -111,3 +111,4 @@ export class Combo {
       if (s.t >= s.swing.windup + s.swing.active + s.swing.recover) {
         out.push({ type: 'end', s })
         this.current = null
+        this.nextIndex = s.heavy ? 0 : (s.index + 1) % COMBAT.light.length
