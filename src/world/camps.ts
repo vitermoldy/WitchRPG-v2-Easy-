@@ -210,3 +210,4 @@ export class Camps {
       const d = Math.hypot(p.pos.x - camp.pos.x, p.pos.z - camp.pos.z)
       if (camp.state === 'idle' && d < CAMP.wake && p.alive) {
         this.wake(camp, index)
+        colors = true
