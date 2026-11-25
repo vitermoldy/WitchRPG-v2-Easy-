@@ -143,3 +143,4 @@ def build(dunia, res=(1280, 720), samples=24):
         naga_i.location.z = nz
         naga_i.keyframe_insert("location", frame=fr)
         nh = naga.objs.get("head")
+        if nh:
