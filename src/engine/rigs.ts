@@ -24,3 +24,4 @@ function patchGlow(mat: THREE.MeshStandardMaterial) {
   mat.customProgramCacheKey = () => 'unit-glow'
 }
 
+/** The shadow version of a creature's material: near-black violet, glowing eyes and veins in Umbra. */
