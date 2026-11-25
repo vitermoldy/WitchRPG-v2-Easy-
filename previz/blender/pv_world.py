@@ -139,3 +139,4 @@ def _hex(h):
     return np.array(C.rgb(h)[:3])
 
 
+def build_terrain(coll, size=1300.0, step=2.5):
