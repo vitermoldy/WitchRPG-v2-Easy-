@@ -454,3 +454,4 @@ export class ShadowPools {
     p.radius = radius
     p.t = -delay
     p.hold = hold
+    p.open = 0
