@@ -226,3 +226,4 @@ describe('phase 4 creatures', () => {
   it('Chimera calls Imps while it fights, never more than four standing', () => {
     const w = world()
     const c = w.sys.spawn('chimera', 'enemy', 9, { x: 0, z: 30 })
+    c.skillCd = 0
