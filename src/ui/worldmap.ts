@@ -158,3 +158,4 @@ export class WorldMap {
         const m = out.get(kind) ?? { kind, name: UNITS[kind].name, lo: 99, hi: 0, camps: 0, fauna: false }
         m.lo = Math.min(m.lo, def.levels[0])
         m.hi = Math.max(m.hi, def.levels[1])
+        m.camps++
