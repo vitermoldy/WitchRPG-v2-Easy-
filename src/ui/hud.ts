@@ -146,3 +146,4 @@ export class Hud {
   }
 
   /** A quick bright ring around the middle of the view: the parry landed. */
+  parry() {
