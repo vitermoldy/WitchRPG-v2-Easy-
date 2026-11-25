@@ -167,3 +167,4 @@ def build(dunia, res=(1280, 720), samples=24):
         eye.keyframe_insert("location", frame=fr)
 
         # camera
+        if t < T_FLY:
