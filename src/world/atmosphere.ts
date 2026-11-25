@@ -95,3 +95,4 @@ export class Atmosphere {
     const [mx, my] = toMap(at.x, at.z)
     zoneWeights(mx, my, this.w)
     this.fogTarget.setRGB(0, 0, 0)
+    this.skyTarget.setRGB(0, 0, 0)
