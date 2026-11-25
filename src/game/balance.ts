@@ -724,3 +724,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     cooldown: 9,
     fly: { height: 6 },
     passive: true,
+  },
