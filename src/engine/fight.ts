@@ -427,3 +427,4 @@ export class Fight {
         if (score < best) {
           best = score
           target = u
+        }
