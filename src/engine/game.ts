@@ -802,3 +802,4 @@ export class Game implements UnitHost {
         let lo = prev
         let hi = d
         for (let i = 0; i < 5; i++) {
+          const m = (lo + hi) / 2
