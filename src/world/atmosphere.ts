@@ -69,3 +69,4 @@ export class Atmosphere {
       sunDir: { value: SUN_DIR },
       sunColor: { value: new THREE.Color('#ffe2b0') },
     }
+    const mat = new THREE.ShaderMaterial({ vertexShader: SKY_VERT, fragmentShader: SKY_FRAG, uniforms: this.uniforms, side: THREE.BackSide, depthWrite: false, fog: false })
