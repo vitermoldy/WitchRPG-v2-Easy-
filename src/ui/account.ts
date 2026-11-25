@@ -105,3 +105,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
     renderRow()
   }
 
+  /** Puts a witch from the server in place of the one in this browser, before she enters the forest. */
