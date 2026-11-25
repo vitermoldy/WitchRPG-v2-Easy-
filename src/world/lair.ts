@@ -96,3 +96,4 @@ export class Lair {
     this.waterY = this.groundY - 3
     // the flood: a dark disc that rises over the shore in phase 2
     const water = new THREE.Mesh(
+      new THREE.CircleGeometry(LAIR_RADIUS, 48).rotateX(-Math.PI / 2),
