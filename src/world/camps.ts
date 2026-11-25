@@ -260,3 +260,4 @@ export class Camps {
         camp.state = 'idle'
         colors = true
       }
+    })
