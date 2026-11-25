@@ -1728,3 +1728,4 @@ dialog::backdrop {
   color: var(--ink);
 }
 
+.gate-state code {
