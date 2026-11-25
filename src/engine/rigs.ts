@@ -256,3 +256,4 @@ const poseHarpy: PoseFn = (p, u, t) => {
   }
   if (u.state === 'strike') {
     p.body(0, 62)
+    p.rot('upperarm_L', 55, 0, 55)
