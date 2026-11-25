@@ -71,3 +71,4 @@ export class Atmosphere {
     }
     const mat = new THREE.ShaderMaterial({ vertexShader: SKY_VERT, fragmentShader: SKY_FRAG, uniforms: this.uniforms, side: THREE.BackSide, depthWrite: false, fog: false })
     this.sky = new THREE.Mesh(new THREE.SphereGeometry(900, 32, 16), mat)
+    this.sky.name = 'sky'
