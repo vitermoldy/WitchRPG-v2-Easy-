@@ -524,3 +524,4 @@ button {
   background: rgba(12, 8, 9, 0.7);
   color: var(--ink-2);
   font-family: var(--font-mono);
+  font-size: 0.72rem;
