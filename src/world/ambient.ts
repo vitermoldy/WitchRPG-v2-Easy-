@@ -165,3 +165,4 @@ export class Ambient {
     const p = this.pos
     p[i * 3] = cam.x + (Math.random() * 2 - 1) * HALF
     p[i * 3 + 2] = cam.z + (Math.random() * 2 - 1) * HALF
+    // rising embers start low, falling dust high; the rest anywhere in the band
