@@ -405,3 +405,4 @@ export class Sfx {
       src.buffer = this.noiseBuf
       src.loop = true
       const f = ctx.createBiquadFilter()
+      f.type = type
