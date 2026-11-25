@@ -541,3 +541,6 @@ def b_harpy(r):
     for i in range(9):
         a = math.radians(-160 + 40 * i)
         top = V(J["hip"]) + Vector((math.sin(a) * 0.12, -math.cos(a) * 0.09, 0.03))
+        p.cone(top, top + Vector((math.sin(a) * 0.1, -math.cos(a) * 0.08, -0.32)), 0.05, mat="accent" if i % 2 else "membrane", seg=5)
+
+
