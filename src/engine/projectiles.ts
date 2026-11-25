@@ -92,3 +92,5 @@ export class Projectiles {
       s.life -= dt
       s.mesh.position.copy(s.pos)
       if (s.atk.strike === 'line') s.mesh.lookAt(this.c.copy(s.pos).add(s.vel))
+      if (Math.random() < 0.6) g.glow.emit({ pos: s.pos, count: 1, color: s.reflected ? COLOR.chaos : COLOR.rift, intensity: 2.2, life: 0.3, size: s.radius * 1.2 + 0.06, sizeEnd: 0.02, speed: 0.3 })
+
