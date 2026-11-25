@@ -66,3 +66,4 @@ class Staff {
     this.state = 'flying'
     this.pos.copy(from)
     this.prev.copy(from)
+    this.vel.subVectors(to, from).normalize().multiplyScalar(COMBAT.staff.throwSpeed)
