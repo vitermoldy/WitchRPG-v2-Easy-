@@ -119,3 +119,5 @@ export async function signOut(): Promise<void> {
   } catch {
     /* blocked storage: nothing was kept either */
   }
+}
+
