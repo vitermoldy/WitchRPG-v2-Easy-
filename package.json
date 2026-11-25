@@ -16,3 +16,4 @@
     "set-user": "node server/set-user.js",
     "models": "node previz/blender/models.mjs"
   },
+  "dependencies": {
