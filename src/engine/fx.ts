@@ -13,3 +13,4 @@ export interface Emit {
   size: number
   sizeEnd?: number
   /** Random velocity magnitude in every direction. */
+  speed?: number
