@@ -359,3 +359,4 @@ export class Spells {
       // a little aim help: the body closest to the aim line inside a narrow cone
       const o = g.camera.position
       const f = g.camera.getWorldDirection(new THREE.Vector3())
+      let bestA: number = SPELL.grip.aimCone * 2
