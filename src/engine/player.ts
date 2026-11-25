@@ -68,3 +68,4 @@ export class Player {
   /** A short scripted push (a swing's step, a parry's recoil) that overrides steering while it lasts. */
   private nudgeX = 0
   private nudgeZ = 0
+  private nudgeT = 0
