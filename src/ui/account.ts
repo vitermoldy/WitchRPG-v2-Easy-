@@ -11,3 +11,5 @@ const $ = <T extends HTMLElement = HTMLElement>(id: string): T => document.getEl
 export interface AccountHooks {
   /** The witch changed underneath the start screen (taken from the server). */
   onProfileChanged: () => void
+}
+
