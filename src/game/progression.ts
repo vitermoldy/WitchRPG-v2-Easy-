@@ -207,3 +207,5 @@ export function spendStat(p: Profile, key: StatKey): boolean {
   p.stats[key] += 1
   p.statPoints -= 1
   return true
+}
+
