@@ -124,3 +124,4 @@ export class Sfx {
   }
 
   /** v2: a parry, bright and ringing, so it reads apart from a plain block. */
+  parry() {
