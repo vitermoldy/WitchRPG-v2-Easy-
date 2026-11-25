@@ -100,3 +100,4 @@ export class IlyraModel {
     this.pivot.position.y = 0.9
     model.position.y -= 0.9
     this.pivot.add(model)
+    this.root.add(this.pivot)
