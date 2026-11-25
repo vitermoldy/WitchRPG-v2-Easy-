@@ -4,3 +4,4 @@ export class Input {
   private readonly pressedSet = new Set<string>()
   private readonly releasedSet = new Set<string>()
   dx = 0
+  dy = 0
