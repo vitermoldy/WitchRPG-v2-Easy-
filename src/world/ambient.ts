@@ -126,3 +126,4 @@ export class Ambient {
     this.points = new THREE.Points(geo, mat)
     this.points.name = 'ambient'
     this.points.frustumCulled = false
+    this.points.renderOrder = 6
