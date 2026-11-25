@@ -460,3 +460,4 @@ export class Sfx {
   private bird(t: number) {
     const f = 2400 + Math.random() * 1400
     const n = 2 + Math.floor(Math.random() * 3)
+    for (let i = 0; i < n; i++) this.tone(t + i * 0.11, 'sine', f, f * 1.25, 0.07, 0.018)
