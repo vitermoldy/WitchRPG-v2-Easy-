@@ -76,3 +76,4 @@ def humanoid(r, H, bulk=1.0, legs="human", female=False, off=(0, 0, 0), arm_pose
     J["back"] = P(0, H * 0.07 * bulk, z["chest"] + 0.03 * H)
     J["hip"] = P(0, 0, z["hip"])
     J["waist"] = P(0, 0, z["waist"])
+    r.P("head", J["neck"], "torso")
