@@ -89,3 +89,4 @@ def humanoid(r, H, bulk=1.0, legs="human", female=False, off=(0, 0, 0), arm_pose
         J["sh_" + side], J["el_" + side], J["wr_" + side], J["tip_" + side] = S, E, W, T
         J["hand_dir_" + side] = d2
         J["arm_dir_" + side] = d1
+        ua = r.P("upperarm_" + side, S, "torso")
