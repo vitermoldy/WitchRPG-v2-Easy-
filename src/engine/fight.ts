@@ -50,3 +50,4 @@ class Staff {
   private readonly sphere = new THREE.Sphere()
 
   constructor(g: Game) {
+    this.g = g
