@@ -266,3 +266,4 @@ export class Forest {
     for (let i = 0; i < this.trees.length; i++) {
       const t = this.trees[i]
       const dx = t.x - x
+      const dz = t.z - z
