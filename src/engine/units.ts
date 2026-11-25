@@ -729,3 +729,4 @@ export class UnitSystem {
         }
         this.face(u, tgt.pos.x, tgt.pos.z, dt)
         if (u.cd <= 0 && slot) {
+          const next = this.pickAttack(u, tgt, dist)
