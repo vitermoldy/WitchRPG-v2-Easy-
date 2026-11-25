@@ -108,3 +108,4 @@ export class Combo {
         s.hit = true
         out.push({ type: 'hit', s })
       }
+      if (s.t >= s.swing.windup + s.swing.active + s.swing.recover) {
