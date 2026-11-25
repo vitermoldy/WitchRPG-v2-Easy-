@@ -440,3 +440,4 @@ export class UnitSystem {
   }
 
   private steer(u: Unit, gx: number, gz: number, speed: number, dt: number, stopAt = 0) {
+    const dx = gx - u.pos.x
