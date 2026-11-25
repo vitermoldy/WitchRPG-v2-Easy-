@@ -183,3 +183,4 @@ export function scatter(size = 1260, step = 4, seed = 3): Tree[] {
       }
       if (slope > 0.75 || h > 165 || nearLake || pd < 3.5 || inClearing(x, y)) continue
       zoneWeights(x, y, w)
+      let zi = 0
