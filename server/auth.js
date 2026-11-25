@@ -103,3 +103,4 @@ function attemptLimit(limit, message) {
     const key = req.ip ?? 'unknown'
     const recent = (hits.get(key) ?? []).filter((t) => now - t < 60_000)
     recent.push(now)
+    hits.set(key, recent)
