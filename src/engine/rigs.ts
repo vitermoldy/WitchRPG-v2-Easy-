@@ -907,3 +907,4 @@ class Rig implements Poser {
 
   private posed(u: Unit, t: number) {
     for (const [o, r] of this.rest) o.rotation.copy(r)
+    this.body(0)
