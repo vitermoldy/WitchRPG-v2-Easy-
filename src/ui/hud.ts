@@ -18,3 +18,5 @@ const BOSS_HINT: Partial<Record<UnitKind, string>> = {
   atlas: 'Bola dunia jatuh di lingkaran besar di depannya: keluar sebelum penuh. Dari jauh ia melempar batu.',
   typhon: 'Hantaman badai di lingkaran lebar, petir dari jauh, lecutan ular di garis. Ia memanggil Harpy.',
   samael: 'Menghilang dan menebas di garis: roll ke samping. Penghakimannya jatuh di lingkaran lebar.',
+}
+
