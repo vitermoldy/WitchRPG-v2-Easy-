@@ -374,3 +374,4 @@ def build_army(dunia):
     sd = sun_dir(f, 150, 28)
     world = C.sky_world("langit_malam", "#070b18", "#1c2742", "#06060a", 0.35, sun_dir=sd, sun_glow="#7f95c8", glow_power=40)
     sc, local = shot_scene("06-pasukan-bangkit", dunia, world, -sd, "#9fb4ff", 0.7, vol_end=300, exposure=0.0)
+    il = actor("aktor.ilyra.raise", "ilyra", "raise")
