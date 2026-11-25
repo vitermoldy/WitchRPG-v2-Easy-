@@ -174,3 +174,4 @@ describe('the seal on zones IV and V', () => {
     const [bx, bz] = toWorld(330, 330)
     expect(seal.blocks(bx, bz)).toBe(true)
     const open = new Seal(false)
+    open.unlock()
