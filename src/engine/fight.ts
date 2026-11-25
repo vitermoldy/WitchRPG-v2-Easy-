@@ -35,3 +35,4 @@ class Staff {
   state: 'hand' | 'flying' | 'stuck' | 'returning' = 'hand'
   readonly pos = new THREE.Vector3()
   readonly prev = new THREE.Vector3()
+  readonly vel = new THREE.Vector3()
