@@ -466,3 +466,5 @@ export class Sfx {
   private frog(t: number) {
     const f = 150 + Math.random() * 60
     for (let i = 0; i < 2; i++) this.tone(t + i * 0.2, 'triangle', f, f * 0.7, 0.12, 0.04)
+  }
+
