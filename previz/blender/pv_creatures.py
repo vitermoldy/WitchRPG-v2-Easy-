@@ -613,3 +613,4 @@ def b_minotaur(r, pose="idle"):
     J = humanoid(r, 2.75, bulk=1.55, legs="goat", arm_pose=arms, leg_pose={"L": (10, 15), "R": (-8, 10)}, neck_scale=0.6,
                  body_mat="skin", leg_mat="skin", shin_mat="hair", foot_mat="hoof")
     h = r.parts["head"]
+    hc = V(J["head_c"]) + Vector((0, -0.05, -0.04))
