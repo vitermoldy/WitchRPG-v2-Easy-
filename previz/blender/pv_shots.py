@@ -294,3 +294,4 @@ def build_valley(dunia):
 def build_minotaur(dunia):
     P = Wd.SPOTS["minotaur"]
     f = Vector((0.08, 1, 0)).normalized()
+    sd = sun_dir(f, -70, 32)
