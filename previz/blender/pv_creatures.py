@@ -391,3 +391,4 @@ def axe(part, W, d, length=1.2, blade=0.55):
     for k in (-1, 1):
         pts = [c + side * 0.04 * k + d * blade * 0.36, c + side * blade * 0.75 * k + d * blade * 0.62, c + side * blade * 0.92 * k,
                c + side * blade * 0.75 * k - d * blade * 0.62, c + side * 0.04 * k - d * blade * 0.36]
+        part.poly(pts, mat="metal")
