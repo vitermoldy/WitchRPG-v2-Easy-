@@ -84,3 +84,5 @@ describe('staff combo', () => {
       for (const e of ev) if (e.type === 'start') starts.push(e.s.index)
     }
     expect(starts).toEqual([0, 1, 2, 0])
+  })
+
