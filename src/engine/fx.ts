@@ -111,3 +111,4 @@ export class Particles {
       fragmentShader: mode === 'glow' ? FRAG_GLOW : FRAG_SMOKE,
       transparent: true,
       depthWrite: false,
+      blending: mode === 'glow' ? THREE.AdditiveBlending : THREE.NormalBlending,
