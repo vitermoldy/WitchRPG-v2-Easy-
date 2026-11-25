@@ -210,3 +210,4 @@ export function pathDist(x: number, y: number): number {
   let best = 1e9
   for (const line of PATHS) {
     for (let i = 0; i < line.length - 1; i++) {
+      const [ax, ay] = line[i]
