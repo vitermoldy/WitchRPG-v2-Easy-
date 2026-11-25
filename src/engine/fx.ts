@@ -100,3 +100,4 @@ export class Particles {
     this.grav = new Float32Array(max)
     this.drag = new Float32Array(max)
     const geo = new THREE.BufferGeometry()
+    geo.setAttribute('position', new THREE.BufferAttribute(this.pos, 3).setUsage(THREE.DynamicDrawUsage))
