@@ -1667,3 +1667,4 @@ dialog::backdrop {
   padding: 0.4em 0;
   border: 0;
   background: none;
+  color: var(--ink-3);
