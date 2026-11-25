@@ -125,3 +125,4 @@ export class Telegraphs {
     if (!it) return
     it.unit = u
     it.mesh.visible = true
+    it.mat.uniforms.uFill.value = 0
