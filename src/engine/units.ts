@@ -680,3 +680,4 @@ export class UnitSystem {
         host.clearTelegraph(u)
         u.set('recover')
       }
+      this.steer(u, u.pos.x, u.pos.z, 0, dt)
