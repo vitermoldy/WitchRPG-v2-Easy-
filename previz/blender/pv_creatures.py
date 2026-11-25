@@ -61,3 +61,4 @@ def humanoid(r, H, bulk=1.0, legs="human", female=False, off=(0, 0, 0), arm_pose
 
     J = {"H": H, "sw": sw, "hw": hw, "hh": hh, "z": z, "off": off}
     pel = r.P("pelvis", P(0, 0, z["hip"]))
+    tor = r.P("torso", P(0, 0, z["waist"]), "pelvis")
