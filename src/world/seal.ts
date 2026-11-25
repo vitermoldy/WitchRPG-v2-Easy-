@@ -52,3 +52,4 @@ export class Seal {
     const pos: number[] = []
     const uv: number[] = []
     const H = 16
+    const wall = (ax: number, ay: number, bx: number, by: number) => {
