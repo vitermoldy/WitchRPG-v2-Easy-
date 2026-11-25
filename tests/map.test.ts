@@ -58,3 +58,4 @@ describe('the forest valley', () => {
     for (const key of ['pembuka', 'tebing', 'rawa', 'kuil', 'bara']) expect(CAMP_DEFS.some((c) => zoneAt(c.c[0], c.c[1]).key === key), key).toBe(true)
   })
 
+  it('gives every boss of the open world a camp of its own behind the seal, above its zone band', () => {
