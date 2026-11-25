@@ -104,3 +104,4 @@ describe('Ilyra on foot', () => {
     const p = new Player()
     p.facing = 0
     run(p, { ...idle, dodge: true }, 0.6)
+    // facing north, a backstep goes south (+z)
