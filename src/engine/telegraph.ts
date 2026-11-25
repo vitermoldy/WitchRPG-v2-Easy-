@@ -50,3 +50,5 @@ const LINE_FRAG = /* glsl */ `
 
 const RING_SEG = 40
 const LINE_SEG = 16
+const LIFT = 0.1
+
