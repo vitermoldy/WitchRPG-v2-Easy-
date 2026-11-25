@@ -72,3 +72,4 @@ Tinggi total diukur dari block-out (termasuk tanduk dan sayap yang terangkat; Il
 | Hydra | 14,34 m | tubuh 7 × 9 m | 18,82 m | 12,04 m | 5,0 m tubuh | 15.482 | 30.000 | Danau Hitam |
 | Cerberus besar | 7,62 m | bahu 5,0 m | 13,06 m | 5,74 m | 2,50 m | 9.926 | 30.000 | V |
 | Lilith | 3,15 m | 2,5 m | 2,59 m | 3,85 m | 0,80 m | 6.096 | 30.000 | V |
+| Typhon | 17,25 m | 16 m | 17,70 m | 24,47 m | 6,0 m | 20.040 | 30.000 | cadangan |
