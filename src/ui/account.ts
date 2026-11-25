@@ -203,3 +203,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
 
   $('btn-account').addEventListener('click', async () => {
     const button = $<HTMLButtonElement>('btn-account')
+    if (authState().status !== 'signed-in') {
