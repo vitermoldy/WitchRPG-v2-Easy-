@@ -346,3 +346,6 @@ def spikes(part, pts, h, r, mat="horn", tilt=(0, 0.4, 1)):
     d = Vector(tilt).normalized()
     for i, p in enumerate(pts):
         k = 0.6 + 0.4 * math.sin(i * 1.7) ** 2
+        part.cone(p, V(p) + d * h * k, r * k, mat=mat, seg=5)
+
+
