@@ -126,3 +126,4 @@ export class Projectiles {
         if (!hit) {
           for (const u of g.units.units) {
             if (u.team !== 'shadow' || !u.targetable) continue
+            if (u.center(this.c).distanceTo(s.pos) < s.radius + Math.max(u.radius, u.height * 0.42)) {
