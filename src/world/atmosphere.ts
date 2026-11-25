@@ -126,3 +126,4 @@ export class Atmosphere {
     this.sky.position.copy(camPos)
     // the shadow box follows her
     this.sun.position.copy(at).addScaledVector(SUN_DIR, 150)
+    this.sun.target.position.copy(at)
