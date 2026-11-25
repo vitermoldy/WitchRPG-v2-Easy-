@@ -96,3 +96,4 @@ describe('staff combo', () => {
   it('remembers a tap pressed during a swing and swings again right after', () => {
     const c = new Combo()
     const ev = play(c, [[1 / 60, true, true], [1 / 60, false, false], [0.05, true, true], [0.05, false, false]])
+    for (let i = 0; i < 40; i++) c.update(1 / 60, false, false, ev)
