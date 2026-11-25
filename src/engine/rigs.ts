@@ -19,3 +19,4 @@ function patchGlow(mat: THREE.MeshStandardMaterial) {
       .replace('#include <begin_vertex>', '#include <begin_vertex>\nvGlow = aGlow;')
     s.fragmentShader = s.fragmentShader
       .replace('#include <common>', '#include <common>\nvarying vec3 vGlow;')
+      .replace('#include <emissivemap_fragment>', '#include <emissivemap_fragment>\ntotalEmissiveRadiance += vGlow;')
