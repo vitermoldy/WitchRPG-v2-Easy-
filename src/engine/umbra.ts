@@ -440,3 +440,4 @@ export class Umbra {
     this.casting = []
     this.progress = 0
     this.stats.casts++
+    if (!g.spells.overloaded) g.player.mana -= this.cost(list.length)
