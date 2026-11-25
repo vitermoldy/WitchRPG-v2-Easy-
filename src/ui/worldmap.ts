@@ -288,3 +288,4 @@ export class WorldMap {
     const label = (text: string, x: number, y: number, gap: number, color: string) => {
       const w = ctx.measureText(text).width + 6
       const h = parseFloat(ctx.font.split('px')[0].split(' ').pop() ?? '12') + 4
+      const tries: [number, number][] = [[x, y - gap - h / 2], [x, y + gap + h / 2], [x + gap + w / 2, y], [x - gap - w / 2, y]]
