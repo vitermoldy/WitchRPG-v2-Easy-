@@ -84,3 +84,4 @@ kbd {
   color: var(--ink);
   font-family: var(--font-mono);
   font-size: 0.72em;
+  text-align: center;
