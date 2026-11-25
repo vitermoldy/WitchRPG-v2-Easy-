@@ -311,3 +311,4 @@ def build_minotaur(dunia):
     # staff swing trail sweeping from her right towards the Minotaur
     z0 = Wd.ground_z(P[0], P[1])
     up = Vector((0, 0, 1))
+    right = f.cross(up)
