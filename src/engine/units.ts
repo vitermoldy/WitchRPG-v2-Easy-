@@ -36,3 +36,4 @@ export interface UnitHost {
   /** A unit died, from any cause. */
   died(u: Unit): void
   /** A summoner called up a helper. */
+  summoned(helper: Unit): void
