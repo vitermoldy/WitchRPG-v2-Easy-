@@ -632,3 +632,4 @@ export class Game implements UnitHost {
     if (share < 1) {
       // turned aside by the shield: a spark and a clank, a little stun gets through
       dmg *= share
+      stun *= 0.3
