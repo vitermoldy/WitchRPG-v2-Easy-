@@ -1055,3 +1055,4 @@ def _horse(r, wings, horn):
     nb = V(Q["neck_base"])
     hp = nb + Vector((0, -0.3, 0.75))
     n = r.P("head", nb, "body")
+    n.tube([nb, nb + Vector((0, -0.12, 0.4)), hp], [0.22, 0.17, 0.13], seg=8, n=3)
