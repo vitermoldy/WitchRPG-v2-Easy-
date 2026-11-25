@@ -112,3 +112,4 @@ def disc(coll, name, centre, radius, mat, z_off=0.03, seg=40):
     bm = bmesh.new()
     bmesh.ops.create_circle(bm, cap_ends=True, segments=seg, radius=radius)
     me = bpy.data.meshes.new(name)
+    bm.to_mesh(me)
