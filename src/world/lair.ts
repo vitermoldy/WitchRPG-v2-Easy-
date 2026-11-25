@@ -266,3 +266,4 @@ export class Lair {
   share(u: Unit, kind: DamageKind): number {
     const body = this.body
     const inWarp = !!body && this.g.spells.inWarp(body.center(this.tmp))
+    return hydraShare(this.phase, kind, inWarp && u === body)
