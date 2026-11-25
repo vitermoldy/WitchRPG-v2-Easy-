@@ -458,3 +458,4 @@ def b_ilyra(r, pose="idle"):
     st.limb(bot, top, 0.018, 0.022, mat="wood", seg=8, joints=False)
     st.cone(bot, bot - sd * 0.08, 0.02, mat="metal", seg=6)
     head_c = top + sd * 0.12
+    side = sd.cross(Vector((0, 1, 0))).normalized()
