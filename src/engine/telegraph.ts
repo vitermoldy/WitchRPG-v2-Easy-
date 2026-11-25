@@ -62,3 +62,4 @@ interface Item {
   oz: number
   dx: number
   dz: number
+  len: number
