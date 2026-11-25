@@ -468,3 +468,4 @@ def build_forest(coll, P, size=1260.0, step=4.0, seed=3):
             continue
         out.setdefault(kind, []).append(idx)
     obs = {}
+    for kind, ids in out.items():
