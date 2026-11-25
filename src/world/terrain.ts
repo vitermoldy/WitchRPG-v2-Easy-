@@ -164,3 +164,4 @@ export class Terrain {
         pos.set([pos[src * 3], pos[src * 3 + 1] - SKIRT, pos[src * 3 + 2]], v * 3)
         nor.set([nor[src * 3], nor[src * 3 + 1], nor[src * 3 + 2]], v * 3)
         col.set([col[src * 3] * 0.6, col[src * 3 + 1] * 0.6, col[src * 3 + 2] * 0.6], v * 3)
+        v++
