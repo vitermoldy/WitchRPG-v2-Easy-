@@ -273,3 +273,6 @@ def V(p):
 
 def rot_to(d):
     """Rotation matrix taking +Z onto direction d."""
+    return d.normalized().to_track_quat("Z", "Y").to_matrix().to_4x4()
+
+
