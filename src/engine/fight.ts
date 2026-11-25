@@ -478,3 +478,4 @@ export class Fight {
   }
 
   private startExecution(u: Unit) {
+    const g = this.g
