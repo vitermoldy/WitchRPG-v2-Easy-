@@ -9,3 +9,4 @@ describe('block and parry', () => {
   it('parries a ring attack when block was pressed within the parry window before the blow', () => {
     const impact = 10
     expect(resolveDefense(impact, 'ring', false, true, impact - 0.01, 0)).toBe('parry')
+    expect(resolveDefense(impact, 'ring', false, true, impact - W, 0)).toBe('parry')
