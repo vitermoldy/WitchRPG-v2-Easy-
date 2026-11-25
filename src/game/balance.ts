@@ -425,3 +425,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     lungeTime: 0.3,
     strike: 'ring',
     stun: 30,
+  },
