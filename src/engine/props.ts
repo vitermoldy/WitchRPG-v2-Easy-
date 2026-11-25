@@ -97,3 +97,4 @@ export class Props {
           }
         }
         if (g.obstacles.pushOut(p.pos, p.radius, p.radius * 2)) p.vel.multiplyScalar(0.3)
+        if (p.pos.y <= ground) {
