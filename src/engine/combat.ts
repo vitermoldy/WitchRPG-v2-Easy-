@@ -137,3 +137,4 @@ export class Combo {
   }
 
   private begin(heavy: boolean, out: ComboEvent[]) {
+    const index = heavy ? 0 : this.nextIndex
