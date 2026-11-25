@@ -69,3 +69,4 @@ export const toMap = (wx: number, wz: number): [number, number] => [wx, -wz]
 
 function mulberry32(seed: number) {
   let a = seed >>> 0
+  return () => {
