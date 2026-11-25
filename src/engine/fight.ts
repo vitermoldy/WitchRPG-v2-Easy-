@@ -409,3 +409,4 @@ export class Fight {
   /** Which way a swing goes: toward the locked creature, else the nearest one in front, else where she steers. */
   private startSwing(s: SwingState, inp: FightInput) {
     const g = this.g
+    const p = g.player
