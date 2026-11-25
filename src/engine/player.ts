@@ -144,3 +144,4 @@ export class Player {
 
     if (this.dodgeT >= 0) {
       const T = MOVE.dodge.time
+      const u = Math.min(1, this.dodgeT / T)
