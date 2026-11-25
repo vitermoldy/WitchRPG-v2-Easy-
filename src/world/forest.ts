@@ -243,3 +243,4 @@ export class Forest {
     const material = new THREE.MeshLambertMaterial({ vertexColors: true })
     this.mesh = new THREE.BatchedMesh(trees.length, verts, 0, material)
     this.mesh.name = 'forest'
+    this.mesh.castShadow = true
