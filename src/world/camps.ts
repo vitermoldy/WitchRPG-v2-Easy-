@@ -144,3 +144,4 @@ export class Camps {
         const z = camp.pos.z + Math.sin(a) * 2.2
         const y = g.ground.height(x, z)
         q.setFromEuler(new THREE.Euler(Math.random(), a, Math.random()))
+        s.setScalar(0.7 + Math.random() * 0.5)
