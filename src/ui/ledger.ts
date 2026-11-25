@@ -46,3 +46,5 @@ export interface LedgerHost {
 }
 
 /** Members listed per Shadow Room group; the rest are summed up in one line. */
+const ROOM_SHOWN = 60
+
