@@ -380,3 +380,4 @@ def long_hair(part, hc, H, length, width, mat="hair"):
 
 def axe(part, W, d, length=1.2, blade=0.55):
     """Double-bitted axe held at W along direction d."""
+    d = Vector(d).normalized()
