@@ -726,3 +726,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     passive: true,
   },
   unicorn: {
+    name: 'Unicorn',
