@@ -159,3 +159,4 @@ export class Particles {
         if (this.alpha[i] !== 0) {
           this.alpha[i] = 0
           this.size[i] = 0
+        }
