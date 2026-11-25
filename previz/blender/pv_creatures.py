@@ -1011,3 +1011,4 @@ def b_typhon(r):
 
 
 def b_samael(r):
+    """Pale angel with white hair, great white-gold wings, a red sash and robe, a glowing curved blade raised."""
