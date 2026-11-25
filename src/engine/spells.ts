@@ -433,3 +433,4 @@ export class Spells {
       prop.pos.lerp(goal, Math.min(1, dt * 6))
       prop.spin += dt * 2
       this.drawTendril(prop.pos)
+      g.glow.emit({ pos: prop.pos, count: 2, color: COLOR.chaos, intensity: 2.4, life: 0.4, size: 0.22, sizeEnd: 0.04, speed: 1.2, jitter: 0.6 })
