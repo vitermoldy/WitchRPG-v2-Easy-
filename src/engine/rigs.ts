@@ -396,3 +396,4 @@ const poseMinotaur: PoseFn = (p, u, t) => {
       p.rot('shin_L', 50 * k)
       p.rot('thigh_R', 20 * k)
     } else {
+      p.body(-0.05 * k, -10 * k)
