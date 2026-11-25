@@ -13,3 +13,4 @@ export class Sfx {
     if (this.ctx) {
       void this.ctx.resume()
       return
+    }
