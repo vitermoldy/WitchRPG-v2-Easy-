@@ -15,3 +15,4 @@ const STAT_INFO: Record<StatKey, { name: string; effect: string }> = {
 const fmt = (n: number, d = 0) => n.toLocaleString('id-ID', { maximumFractionDigits: d, minimumFractionDigits: d })
 
 /** Ask once before something that cannot be undone. */
+export function confirmDialog(title: string, text: string, yes: string): Promise<boolean> {
