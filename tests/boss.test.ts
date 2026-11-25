@@ -185,3 +185,4 @@ describe('creature shots', () => {
     const { Projectiles } = await import('../src/engine/projectiles')
     const w = world()
     const naga = w.sys.spawn('naga', 'enemy', 8, { x: 0, z: 6 })
+    const glob = UNITS.naga.attacks!.find((a) => a.shot && a.strike === 'ring')!
