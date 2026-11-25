@@ -1126,3 +1126,4 @@ export const BOSS = {
   volleyDamage: 0.28,
   volleySpread: 3.2,
   /** The globs of its volleys (kept off the unit spec so phase 1 stays a melee fight). */
+  shot: { speed: 15, gravity: 6, radius: 0.45, keepAway: 0 },
