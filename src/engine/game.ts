@@ -95,3 +95,4 @@ export class Game implements UnitHost {
   props!: Props
   ilyra!: IlyraModel
   ground!: Ground
+  state: State = 'loading'
