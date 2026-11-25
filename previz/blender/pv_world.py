@@ -51,3 +51,4 @@ def vnoise(x, y):
     u = fx * fx * (3 - 2 * fx)
     v = fy * fy * (3 - 2 * fy)
     x0, y0 = xi & 255, yi & 255
+    x1, y1 = (x0 + 1) & 255, (y0 + 1) & 255
