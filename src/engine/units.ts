@@ -154,3 +154,4 @@ export class Unit implements Foe {
   detailed = true
   /** The camp it belongs to (enemies), for wake, sleep and respawn. */
   camp = -1
+  /** Camp creatures stay near home until the pack is roused, and walk back when she gets away. */
