@@ -1141,3 +1141,5 @@ export const BOSS = {
   hoverHeight: 6.5,
 } as const
 
+export const WORLD = { maxPhysicsProps: 20, arenaHalf: 38 } as const
+
