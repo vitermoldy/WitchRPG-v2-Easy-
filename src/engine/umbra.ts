@@ -112,3 +112,4 @@ export class Umbra {
     let count = 0
     let next = Infinity
     for (const [, at] of this.downUntil) {
+      if (at > this.time) {
