@@ -342,3 +342,4 @@ export class Game implements UnitHost {
     this.glow.emit({ pos: h.center(), count: 18, color: COLOR.rift, intensity: 2.2, life: 0.6, size: 0.18, speed: 2.5 })
   }
 
+  impact(u: Unit, other: Unit | null, speed: number) {
