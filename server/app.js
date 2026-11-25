@@ -23,3 +23,4 @@ const KINDS = new Set(['imp', 'hellhound', 'harpy', 'centaur', 'naga', 'minotaur
 const RANKS = new Set(['prajurit', 'ksatria', 'jenderal', 'marsekal'])
 const STATS = ['hex', 'spr', 'vit', 'agi', 'umb']
 const ALTARS = new Set(['pembuka', 'simpang', 'tebing', 'rawa', 'danau', 'kuil', 'bara'])
+const MAX_LEVEL = 30
