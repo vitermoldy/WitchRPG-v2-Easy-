@@ -104,3 +104,5 @@ export class Altars {
       ;(a.crystal.material as THREE.MeshBasicMaterial).color.copy(on ? this.lit : this.dull)
       ;(a.rune.material as THREE.MeshBasicMaterial).color.copy(on ? this.lit : this.dull).multiplyScalar(on ? 0.7 : 1)
     }
+  }
+
