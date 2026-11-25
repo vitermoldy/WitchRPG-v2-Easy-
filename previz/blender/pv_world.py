@@ -435,3 +435,4 @@ MIX = {
 
 def build_forest(coll, P, size=1260.0, step=4.0, seed=3):
     rng = np.random.default_rng(seed)
+    n = int(size / step)
