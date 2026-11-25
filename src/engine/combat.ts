@@ -80,3 +80,4 @@ export class Combo {
   private chainLeft = 0
 
   get busy() {
+    return this.current !== null || this.charging >= 0
