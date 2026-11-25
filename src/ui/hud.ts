@@ -333,3 +333,4 @@ export class Hud {
     }
   }
 
+  /** Health and stun over creatures that were hit or are close and roused; a staggered one says so. */
