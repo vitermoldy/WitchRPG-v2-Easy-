@@ -293,3 +293,4 @@ export class Spells {
   }
 
   private killBolt(b: Bolt) {
+    this.g.scene.remove(b.mesh)
