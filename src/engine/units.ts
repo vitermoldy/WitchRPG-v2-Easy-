@@ -563,3 +563,4 @@ export class UnitSystem {
   private blink(u: Unit, from: Foe) {
     const spec = u.spec.blink!
     const start = u.pos.clone()
+    const away = Math.atan2(u.pos.x - from.pos.x, u.pos.z - from.pos.z)
