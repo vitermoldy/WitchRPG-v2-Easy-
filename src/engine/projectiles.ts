@@ -82,3 +82,4 @@ export class Projectiles {
   update(dt: number) {
     const g = this.g
     const p = g.player
+    for (let i = this.shots.length - 1; i >= 0; i--) {
