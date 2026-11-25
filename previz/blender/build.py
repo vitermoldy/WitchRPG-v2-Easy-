@@ -5,3 +5,4 @@
 Targets: variants, hero, valley, lineup, minotaur, hydra, army, board. --anim also renders the animatic frames and
 encodes previz/animatic.mp4 with ffmpeg. Without --only every still is rendered."""
 import json
+import os
