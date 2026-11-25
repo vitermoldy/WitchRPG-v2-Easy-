@@ -156,3 +156,4 @@ export class Ambient {
       r -= w[k] ?? 0
       if (r <= 0) return k
     }
+    return 0
