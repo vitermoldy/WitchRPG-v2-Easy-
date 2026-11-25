@@ -74,3 +74,4 @@ body {
 }
 
 kbd {
+  display: inline-block;
