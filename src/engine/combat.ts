@@ -36,3 +36,4 @@ export class StunMeter {
     if (this.value >= this.max) {
       this.value = this.max
       this.staggered = COMBAT.stagger
+      return true
