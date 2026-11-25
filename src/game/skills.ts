@@ -54,3 +54,4 @@ export const SKILLS: SkillDef[] = [
     name: 'Chaos Burst',
     key: 'Q',
     unlock: 3,
+    effect: 'Ledakan radius 8 m di titik bidik atau target lock-on, melempar makhluk ke udara.',
