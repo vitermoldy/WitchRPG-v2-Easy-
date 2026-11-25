@@ -191,3 +191,4 @@ export class Player {
       this.vy = 0
     }
 
+    this.turn(face, dt)
