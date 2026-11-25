@@ -911,3 +911,4 @@ export class UnitSystem {
       u.pos.z = nz
     } else {
       u.vel.x *= -0.2
+      u.vel.z *= -0.2
