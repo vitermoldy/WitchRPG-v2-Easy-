@@ -275,3 +275,4 @@ def build_valley(dunia):
         ("Lembah Bara", "Tier V, Lv 13-15", (330, 330), 70),
     ]
     for title, sub, (x, y), up in labels:
+        q = Vector((x, y, Wd.ground_z(x, y) + up))
