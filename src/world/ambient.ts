@@ -62,3 +62,4 @@ const MOTE_FRAG = /* glsl */ `
 
 // a tear in the sky: a jagged opening onto a dark, slowly pulsing void, its rim white-hot, a crimson
 // glow around it. Normal blending, so the void can be darker than the sky behind it.
+const RIFT_FRAG = /* glsl */ `
