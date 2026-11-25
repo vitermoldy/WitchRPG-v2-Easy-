@@ -91,3 +91,4 @@ export class Game implements UnitHost {
   fauna!: Fauna
   altars!: Altars
   lair!: Lair
+  seal!: Seal
