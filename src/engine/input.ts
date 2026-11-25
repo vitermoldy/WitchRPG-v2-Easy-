@@ -82,3 +82,4 @@ export class Input {
     this.down.delete(code)
   }
 
+  releaseAll() {
