@@ -789,3 +789,4 @@ class Rig implements Poser {
     this.group = group
     this.team = team
     this.passive = !!UNITS[kind]?.passive
+    this.cap = cap
