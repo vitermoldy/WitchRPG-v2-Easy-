@@ -113,3 +113,4 @@ Makhluk memakai warna dari gambar referensinya (keputusan pemilik setelah previz
 | Harpy | kulit `#dcae94` | bulu putih `#f3f6fa` berujung biru `#3d6fb6`, kaki burung `#a8703c` |
 | Centaur | badan kuda `#7a3e22` | manusia tua kulit `#d9a37a`, rambut dan janggut putih, ekor `#e8a878`, gelang emas |
 | Naga rawa | hijau `#2f6b55`, perut emas `#d9c06a` | jengger oranye `#d0803a`, duri `#c8502a`, sungut |
+| Minotaur | merah cokelat `#9c4c30` | tanduk `#ece2c8`, bulu kaki `#4a2418`, rok kulit `#3a2a20`, dua kapak perak |
