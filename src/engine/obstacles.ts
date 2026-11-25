@@ -107,3 +107,4 @@ export class Obstacles {
   }
 
   /**
+   * Sweeps a sphere of radius `cr` from a to b. Returns the fraction of the way it travels before
