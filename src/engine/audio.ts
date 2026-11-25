@@ -442,3 +442,4 @@ export class Sfx {
   /** Each frame, with the zone weights in ZONES order (pembuka, tebing, rawa, kuil, bara). */
   ambience(dt: number, w: ArrayLike<number>) {
     if (!this.ok() || !this.amb) return
+    const [pembuka = 0, tebing = 0, rawa = 0, kuil = 0, bara = 0] = Array.from(w)
