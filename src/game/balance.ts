@@ -133,3 +133,4 @@ export const RITE = {
   /** Each UMB point above 5 makes every shadow 2% tougher and stronger. */
   powerPerUmb: 0.02,
   /** How many shadows stand on the field at once. A setting: more costs frame rate. */
+  /** Shadows nearest the camera drawn with their own animated model; the rest are drawn as one crowd. */
