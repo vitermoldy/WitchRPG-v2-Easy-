@@ -139,3 +139,4 @@ export class Telegraphs {
       this.layLine(it)
     } else {
       it.radius = ringOf(atk)
+      it.follow = atk.ahead === undefined
