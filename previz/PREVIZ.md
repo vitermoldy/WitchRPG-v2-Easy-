@@ -49,3 +49,5 @@ Kamera tidak pernah memotong: animatic membuktikan transisi dari udara ke bahu s
 
 ## Skala makhluk
 
+Tinggi total diukur dari block-out (termasuk tanduk dan sayap yang terangkat; Ilyra tanpa tongkat). Badan adalah tinggi bahu untuk makhluk berkaki empat dan tinggi sampai puncak kepala untuk makhluk tegak. Lebar sudah termasuk bentang sayap. Radius tabrakan adalah usulan untuk kapsul di Fase 1 (v1 memakai 0,38 m untuk Ilyra).
+
