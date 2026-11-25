@@ -193,3 +193,4 @@ describe('phase 4 creatures', () => {
   it('Minotaur takes 15% of blows and bolts from in front, all of them from behind, and all of a thrown staff', () => {
     const w = world()
     const m = w.sys.spawn('minotaur', 'enemy', 8, { x: 0, z: 0 })
+    m.yaw = 0 // faces +z
