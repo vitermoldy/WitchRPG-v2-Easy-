@@ -128,3 +128,4 @@ describe('upgrades and shadows', () => {
   it('shadows are tougher than the enemy they came from', () => {
     const e = unitStats('husk', 2, false)
     const s = unitStats('husk', 2, true)
+    expect(s.hp).toBeGreaterThan(e.hp)
