@@ -155,3 +155,4 @@ export function heightMap(x: number, y: number): number {
   // Rawa Berkabut: flattened to the water line, with pools
   const r = ZONES[2]
   const swamp = smooth(r.r * 1.15, r.r * 0.75, dist(x, y, r.c))
+  if (swamp > 0) h = h * (1 - swamp) + swamp * (0.35 + 0.9 * fbm(x / 28, y / 28, 3, 3.0))
