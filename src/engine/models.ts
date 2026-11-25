@@ -186,3 +186,4 @@ export class IlyraModel {
       const k = ease(act.dead / 0.8)
       this.pivot.rotation.x = -rad(78) * k
       this.pivot.position.y = 0.9 - 0.62 * k
+      this.rot('thigh_L', -60 * k)
