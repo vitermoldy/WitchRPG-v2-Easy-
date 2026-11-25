@@ -125,3 +125,4 @@ export class Player {
     if (this.flying) {
       this.fly(dt, input, wx, wz, wl, face, g)
       return
+    }
