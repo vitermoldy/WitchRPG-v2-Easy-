@@ -969,3 +969,4 @@ def b_lilith(r):
     for i in range(15):
         t_ = i / 14
         a = t_ * 3.3 * 2 * math.pi
+        rad = 0.78 - 0.45 * t_
