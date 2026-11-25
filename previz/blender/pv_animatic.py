@@ -177,3 +177,4 @@ def build(dunia, res=(1280, 720), samples=24):
             q = look_quat(tgt - loc)
             vfov = 50.0
         elif t < T_DROP:
+            u = seg(t, T_FLY, T_DROP)
