@@ -218,3 +218,4 @@ export class Lair {
       g.hud.message('Fase 2: pulau batu muncul dari air, dan batunya bisa diangkat dengan Telekinesis (bidik, tahan klik kiri).', 'chaos')
       for (const isl of this.islands) g.props.add(isl.x, isl.z)
     } else {
+      // it swallows what is left of its heads and crawls up to the shore
