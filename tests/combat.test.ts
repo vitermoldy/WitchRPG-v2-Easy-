@@ -109,3 +109,4 @@ describe('staff combo', () => {
 
   it('reaches creatures in front, not behind', () => {
     const s = COMBAT.light[0]
+    expect(inSwing(0, 0, 0, s, 0, -2)).toBe(true)
