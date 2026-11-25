@@ -91,3 +91,4 @@ export class Combo {
 
   cancel() {
     this.current = null
+    this.charging = -1
