@@ -1981,3 +1981,4 @@ dialog::backdrop {
   .bossbar {
     width: min(34rem, 100% - 2 * (17rem + 2 * var(--gutter)));
   }
+  /* no room beside the banner: the feed starts under it and keeps its three newest lines */
