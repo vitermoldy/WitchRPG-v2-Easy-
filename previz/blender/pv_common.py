@@ -56,3 +56,4 @@ def mat_flat(name, color, rough=0.8, metal=0.0, emit=None, emit_strength=0.0):
     b = m.node_tree.nodes["Principled BSDF"]
     b.inputs["Base Color"].default_value = rgb(color)
     b.inputs["Roughness"].default_value = rough
+    b.inputs["Metallic"].default_value = metal
