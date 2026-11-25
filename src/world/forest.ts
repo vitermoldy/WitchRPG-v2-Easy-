@@ -31,3 +31,5 @@ const MIX: Record<string, [Partial<Record<Kind, number>>, number]> = {
   bara: [{ burnt: 0.85, dead: 0.15 }, 0.85],
 }
 
+// ------------------------------------------------------------ geometry
+
