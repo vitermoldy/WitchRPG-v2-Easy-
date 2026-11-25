@@ -1074,3 +1074,4 @@ export class Rigs {
       if (shadows.length <= this.detail) for (const u of shadows) u.detailed = true
       else {
         const d = new Map<Unit, number>()
+        for (const u of shadows) d.set(u, u.pos.distanceToSquared(cam))
