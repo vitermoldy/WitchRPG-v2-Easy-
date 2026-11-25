@@ -621,3 +621,4 @@ const posePhoenix: PoseFn = (p, u, t) => {
 /**
  * Hydra: each neck reads its head. A head winding up rears back; a striking or resting-after-strike head
  * bends down toward its circle; a severed head hangs; a swallowed one is gone. The shadow Hydra, without
+ * heads of its own, slams with the middle head when it strikes.
