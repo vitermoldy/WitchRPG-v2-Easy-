@@ -215,3 +215,4 @@ describe('phase 4 creatures', () => {
       w.step(0.6, () => {
         if (!used && c.state === 'windup') used = c.atk.name
         if (faceAway) c.yaw = Math.atan2(-c.pos.x, -c.pos.z) + Math.PI
+      })
