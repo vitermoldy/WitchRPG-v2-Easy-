@@ -1252,3 +1252,4 @@ export class Game implements UnitHost {
   }
 }
 
+const frame = () => new Promise<void>((r) => requestAnimationFrame(() => r()))
