@@ -652,3 +652,4 @@ export class Game implements UnitHost {
     const body = this.lair.body!
     if (share <= 0) {
       // phase 3 outside Reality Warp: nothing gets through
+      if (source === 'player' && this.t - this.immuneAt > 0.4) {
