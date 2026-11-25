@@ -279,3 +279,4 @@ def build_valley(dunia):
         d = (q - loc).normalized()
         p = loc + d * 80
         s = 80 * math.tan(math.radians(23)) * 2
+        rot = cam.rotation_euler
