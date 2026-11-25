@@ -270,3 +270,5 @@ Pemeriksaan:
 - **Gerbang Hydra diulang** dengan kawanan lebih besar: witch Lv 9 ditolak, witch Lv 10 dengan 69 bayangan menang tanpa tumbang (fase 3: 4 Reality Warp, 2.266 damage di dalam medan), lalu masuk Reruntuhan Kuil dan menaklukkan kamp tanpa tumbang.
 - **Akun:** 30 dari 30 cek lagi di database buangan (dihapus sesudahnya).
 - **Performa,** diukur berdampingan dengan kode fase 6 di jam yang sama (mesin hari itu lebih sibuk: Figma dan Steam terbuka), median 0 / 200 / 500 bayangan: fase 6 9,5 sampai 9,9 / 12,3 sampai 12,4 / 13,4 sampai 13,7 ms, fase 7 10,5 sampai 10,8 / 13,1 sampai 13,2 / 14,0 sampai 14,6 ms. Sekitar 0,8 ms lebih berat, terutama dua satwa yang berdiri di dekat titik awal. Anggaran PROMPT (16,7 ms dengan 200 bayangan) tetap terpenuhi.
+- **Tes:** 110 dari 110 lulus (7 baru: terbang, orang pertama, boss dunia, satwa; tes peta memeriksa kamp boss).
+
