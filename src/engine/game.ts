@@ -337,3 +337,4 @@ export class Game implements UnitHost {
     }
   }
 
+  summoned(h: Unit) {
