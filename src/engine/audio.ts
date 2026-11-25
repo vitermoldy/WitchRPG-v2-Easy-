@@ -164,3 +164,4 @@ export class Sfx {
     if (!this.ok()) return
     const t = this.ctx!.currentTime
     if (on) {
+      for (const f of [110, 165, 220]) this.tone(t, 'sawtooth', f, f * 1.5, 1.2, 0.12, 0.2)
