@@ -364,3 +364,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     height: 4.6,
     mass: 3000,
     attackRange: 4.8,
+    // A long windup and a circle that fits on a pillar: the slam is there to be stepped out of.
