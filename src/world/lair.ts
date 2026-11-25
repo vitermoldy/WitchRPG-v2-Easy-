@@ -193,3 +193,4 @@ export class Lair {
   }
 
   private start() {
+    const g = this.g
