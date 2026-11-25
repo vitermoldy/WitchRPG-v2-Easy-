@@ -404,3 +404,4 @@ export class UnitSystem {
    * the list of the other side when that list is shorter than the grid cells the range would cover
    * (500 shadows looking 14 m for 40 creatures check 40 units each instead of 121 cells).
    */
+  nearestFoe(u: Unit, range: number): Unit | null {
