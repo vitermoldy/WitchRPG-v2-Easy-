@@ -28,3 +28,4 @@ export function confirmDialog(title: string, text: string, yes: string): Promise
       if (dlg.open) dlg.close()
       resolve(v)
     }
+    $('confirm-yes').onclick = () => done(true)
