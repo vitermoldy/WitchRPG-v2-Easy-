@@ -271,3 +271,4 @@ def build_valley(dunia):
         ("Tebing Berangin", "Tier II, Lv 4-6", (330, -40), 60),
         ("Rawa Berkabut", "Tier III, Lv 7-9", (-290, 0), 25),
         ("Danau Hitam", "sarang Hydra", (-330, 300), 30),
+        ("Reruntuhan Kuil", "Tier IV, Lv 10-12", (40, 330), 45),
