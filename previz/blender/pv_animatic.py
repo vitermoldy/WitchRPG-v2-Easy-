@@ -119,3 +119,4 @@ def build(dunia, res=(1280, 720), samples=24):
             face = f.lerp((Np - Sp).normalized(), 0.4 * seg(t, T_WALK, T_WALK + 0.8) * (1 - seg(t, T_NAGA + 1.0, T_NAGA + 2.5))).normalized()
         z = Wd.ground_z(P.x, P.y)
         bob = 0.025 * abs(math.sin(phase)) if walking else 0.0
+        il_i.location = (P.x, P.y, z + bob)
