@@ -817,3 +817,4 @@ button {
 }
 
 .vital {
+  display: grid;
