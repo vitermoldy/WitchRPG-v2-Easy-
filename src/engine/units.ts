@@ -830,3 +830,4 @@ export class UnitSystem {
     const host = this.host
     const p = host.foe
     if (u.focus && !u.focus.targetable) {
+      if (!u.focus.alive) {
