@@ -120,3 +120,4 @@ function attemptLimit(limit, message) {
  */
 export function createAuth({ getPool, cookie, lang, deviceCode, newDevice }) {
   const t = MESSAGES[lang]
+  const router = express.Router()
