@@ -401,3 +401,4 @@ def scatter_group():
     ns.data_type = "FLOAT"
     ns.inputs["Name"].default_value = "scale"
     L.new(ns.outputs["Attribute"], iop.inputs["Scale"])
+    L.new(iop.outputs["Instances"], go.inputs["Geometry"])
