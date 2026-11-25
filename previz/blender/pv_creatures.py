@@ -945,3 +945,4 @@ def b_cerberus(r):
             nk.cone(base, base + rv * 0.4, 0.09, mat="metal", seg=5)
         hd = r.P(f"head{k}", hp, f"neck{k}")
         dog_head(hd, hp + Vector((0, -0.3, 0.1)), fwd=(dx * 0.35, -1, -0.12), s=4.2 * sc, jaw_open=34)
+    tl = r.P("tail", Q["tail_base"], "body")
