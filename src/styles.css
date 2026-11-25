@@ -188,3 +188,4 @@ button {
   width: 9rem;
   height: 2px;
   margin: 0.8rem auto 0;
+  background: linear-gradient(90deg, var(--chaos) 0 50%, var(--umbra) 50% 100%);
