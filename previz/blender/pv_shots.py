@@ -121,3 +121,4 @@ def disc(coll, name, centre, radius, mat, z_off=0.03, seg=40):
     return ob
 
 
+def mat_ring(name, color, strength, inner=0.82, alpha=0.9, fill=0.08):
