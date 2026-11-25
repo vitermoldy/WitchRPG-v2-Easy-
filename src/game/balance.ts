@@ -714,3 +714,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     rank: 'prajurit',
     hp: 1,
     damage: 0,
+    speed: 6,
