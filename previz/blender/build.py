@@ -115,3 +115,4 @@ if "lineup" in ONLY:
 if "board" in ONLY:
     C.render(scenes["board"], os.path.join(OUT, "papan-makhluk.png"), PCT)
     log("render papan")
+if "--frame-list" in argv:
