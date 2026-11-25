@@ -95,3 +95,4 @@ export interface Camp {
   state: 'idle' | 'active' | 'cleared'
   units: Unit[]
   respawnAt: number
+  roused: boolean
