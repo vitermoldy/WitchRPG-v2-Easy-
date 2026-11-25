@@ -100,3 +100,4 @@ describe('staff combo', () => {
     expect(ev.filter((e) => e.type === 'start').map((e) => e.s.index)).toEqual([0, 1])
   })
 
+  it('lands each blow exactly once, at the end of its windup', () => {
