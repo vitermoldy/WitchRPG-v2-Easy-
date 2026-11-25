@@ -223,3 +223,4 @@ export class WorldMap {
         let r = 0
         let gg = 0
         let b = 0
+        if (inWaterRect(mx, my) && h < WATER_LEVEL - 0.3) {
