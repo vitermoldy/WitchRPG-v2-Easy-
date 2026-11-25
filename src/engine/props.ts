@@ -95,3 +95,4 @@ export class Props {
             p.vel.multiplyScalar(-0.15)
             break
           }
+        }
