@@ -64,3 +64,4 @@ Salin `.env.example` menjadi `.env` dan isi akun MySQL. Server membuat database 
 | F | Eksekusi makhluk yang limbung; tubuhnya lebih mudah dibangkitkan (+15%) |
 | H | Lempar tongkat ke titik bidik atau target lock-on; tekan lagi untuk memanggilnya, mengenai makhluk di jalur pulang |
 
+| Sihir Chaos (tangan kiri) | |
