@@ -62,3 +62,4 @@ const RUNE_FRAG = /* glsl */ `
 /** The wall of the Reality Warp field: bands that run upward and fade toward the top. */
 const WARP_FRAG = /* glsl */ `
   varying vec2 vUv;
+  uniform float uTime;
