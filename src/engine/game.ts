@@ -904,3 +904,4 @@ export class Game implements UnitHost {
         }
       : { x: 0, y: 0, sprint: false, dodge: false }
     if (this.state === 'playing' && inp.pressed('KeyP')) this.toggleView()
+    this.botDodge = false
