@@ -177,3 +177,4 @@ export function createAuth({ getPool, cookie, lang, deviceCode, newDevice }) {
     const username = typeof body?.username === 'string' ? body.username.trim() : ''
     const password = typeof body?.password === 'string' ? body.password : ''
     if (!USERNAME.test(username)) return { error: t.username }
+    if (password.length < PASSWORD_MIN) return { error: t.password }
