@@ -186,3 +186,4 @@ export class Player {
         this.pos.y = ground
         this.vy = 0
       }
+    } else {
