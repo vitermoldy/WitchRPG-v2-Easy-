@@ -48,3 +48,4 @@ describe('XP curve from the GDD', () => {
     expect(p.statPoints).toBe(3)
     expect(p.skillPoints).toBe(1)
   })
+  it('levels several times from one large gain', () => {
