@@ -137,3 +137,4 @@ export class Hud {
   }
 
   hurtFlash(k: number) {
+    this.hurt = Math.min(1, this.hurt + k)
