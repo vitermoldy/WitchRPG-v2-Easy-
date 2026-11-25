@@ -158,3 +158,4 @@ export class Game implements UnitHost {
     this.renderer.toneMapping = THREE.ACESFilmicToneMapping
     this.renderer.toneMappingExposure = 1.2
     // counted over every pass of a frame (shadows, scene, bloom), reset by hand in tick()
+    this.renderer.info.autoReset = false
