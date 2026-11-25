@@ -1127,3 +1127,4 @@ export class Game implements UnitHost {
       ...this.frameStats(),
       minClearance: this.minClearance,
       calls: info.render.calls,
+      triangles: info.render.triangles,
