@@ -466,3 +466,4 @@ def build_forest(coll, P, size=1260.0, step=4.0, seed=3):
         kind = kinds[rng.choice(len(kinds), p=w / w.sum())]
         if swampy[idx] and kind not in ("swamp", "dead"):
             continue
+        out.setdefault(kind, []).append(idx)
