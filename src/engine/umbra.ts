@@ -71,3 +71,4 @@ export class Umbra {
   private leashT = 0
   /** Game seconds; fallen shadows reform against this clock. */
   private time = 0
+  /** Fallen shadows and when they can be called again. */
