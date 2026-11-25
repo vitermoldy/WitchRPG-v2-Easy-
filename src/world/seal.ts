@@ -17,3 +17,4 @@ const FRAG = /* glsl */ `
   void main() {
     float bands = 0.5 + 0.5 * sin(vUv.y * 18.0 - uTime * 2.4 + sin(vUv.x * 6.2832 + uTime) * 0.8);
     float k = (1.0 - vUv.y);
+    vec3 col = mix(vec3(1.0, 0.65, 0.24), vec3(0.56, 0.33, 1.0), vUv.y) * 1.5;
