@@ -586,3 +586,4 @@ def b_naga(r):
     b.tube(pts, radii, seg=10, n=4)
     spikes(b, [pts[i] for i in range(2, 11)], 0.3, 0.06, mat="accent", tilt=(0, 0.5, 1))
     for s in (1, -1):
+        for idx in (8, 4):
