@@ -115,3 +115,4 @@ describe('phase 5 creatures', () => {
   })
 
   it('an executed Phoenix does not rise again', () => {
+    const w = world()
