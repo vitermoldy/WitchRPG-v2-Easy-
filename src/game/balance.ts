@@ -1226,3 +1226,4 @@ export const COMBAT = {
  * comes within `aggro` m of any of its creatures, or one is hurt; past `leash` m from the camp it
  * walks home and heals.
  */
+/**
