@@ -1025,3 +1025,4 @@ def b_samael(r):
     t = r.parts["torso"]
     t.tube([V(J["sh_L"]) + Vector((0, -0.02, 0.05)), V(J["chest"]) + Vector((0, -0.2, 0)), V(J["waist"]) + Vector((-0.25, -0.1, 0))], 0.07, mat="cloth", seg=6, n=3, squash=0.4)
     for s in (1, -1):
+        feather_wing(t, (0.12 * s, J["back"][1], J["z"]["sh"] + 0.05), s, 4.4, 2.2, raise_deg=58, sweep_deg=18, feathers=11, tip_mat="accent", arm="membrane")
