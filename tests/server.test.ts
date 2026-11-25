@@ -54,3 +54,4 @@ describe('the server checks a witch before it keeps her', () => {
 
   it('keeps settings in range and a clock far ahead from locking later saves out', () => {
     const p = { ...newProfile(), settings: { sensitivity: 9, volume: -1, headBob: true, shake: false, detail: 500, firstPerson: true }, updatedAt: '2030-01-01T00:00:00Z' }
+    const c = cleanProfile(p, NOW)
