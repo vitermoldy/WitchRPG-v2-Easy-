@@ -623,3 +623,4 @@ def build_bara(dunia):
     P = (bc[0] - 30, bc[1] - 40)
     f = Vector((0.6, 0.8, 0)).normalized()
     sd = sun_dir(f, 40, 18)
+    world = C.sky_world("langit_bara", "#3a2a3a", "#e08a5a", "#1a1414", 0.7, sun_dir=sd, sun_glow="#ffb07a", glow_power=10)
