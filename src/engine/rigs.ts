@@ -638,3 +638,4 @@ const poseHydra: PoseFn = (p, u, t) => {
       // swallowed: the whole neck is gone
       p.hide(`neck${i}_0`)
       continue
+    }
