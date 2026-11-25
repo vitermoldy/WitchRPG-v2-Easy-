@@ -24,3 +24,4 @@ const BOSS_HINT: Partial<Record<UnitKind, string>> = {
 const HYDRA_HINT = [
   '',
   'Kepala menghantam di lingkaran amber. Kepala yang limbung bisa dieksekusi.',
+  'Kulit berlendir: bolt hanya 10%. Angkat batu di pulau dengan Telekinesis dan lempar (150%).',
