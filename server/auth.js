@@ -131,3 +131,4 @@ export function createAuth({ getPool, cookie, lang, deviceCode, newDevice }) {
     res.setHeader('Set-Cookie', `${cookie}=${token}; HttpOnly; SameSite=Lax; Path=/; Max-Age=${maxAge}${secure}`)
   }
 
+  async function startSession(req, res, userId) {
