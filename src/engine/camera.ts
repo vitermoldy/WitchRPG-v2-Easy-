@@ -36,3 +36,5 @@ export const rightOf = (yaw: number): Vec => ({ x: Math.cos(yaw), y: 0, z: -Math
 export const yawTo = (ax: number, az: number, bx: number, bz: number) => Math.atan2(-(bx - ax), -(bz - az))
 
 const lerp = (a: number, b: number, t: number) => a + (b - a) * t
+const wrap = (a: number) => Math.atan2(Math.sin(a), Math.cos(a))
+
