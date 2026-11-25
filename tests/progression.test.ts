@@ -14,3 +14,4 @@ import {
   newProfile,
   riteChance,
   shadowName,
+  shadowPower,
