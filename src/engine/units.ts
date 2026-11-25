@@ -271,3 +271,5 @@ export function shieldShare(u: Unit, fromX: number, fromZ: number, kind: DamageK
 }
 
 const tmp = new THREE.Vector3()
+const CELL = 3
+
