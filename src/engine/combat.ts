@@ -86,3 +86,4 @@ export class Combo {
   /** Recovery can be cancelled into a roll; the windup and the blow cannot. */
   get cancellable() {
     const s = this.current
+    return !s || s.t >= s.swing.windup + s.swing.active
