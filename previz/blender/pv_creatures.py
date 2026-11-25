@@ -851,3 +851,4 @@ def b_dragon(r):
     nb = V(Q["neck_base"])
     pts = [nb, nb + Vector((0, -1.0, 0.9)), nb + Vector((0, -1.5, 2.0)), nb + Vector((0, -2.3, 2.7))]
     n = r.P("neck", nb, "body")
+    n.tube(pts, [0.8, 0.62, 0.5, 0.42], seg=10, n=4)
