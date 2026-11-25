@@ -211,3 +211,4 @@ class Staff {
 /**
  * Her side of melee: the staff combo, block and parry, executions of staggered creatures, and the
  * thrown staff. Blows from creatures are resolved in Game.strikePlayer with these states.
+ */
