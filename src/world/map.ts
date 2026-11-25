@@ -96,3 +96,4 @@ export function vnoise(x: number, y: number): number {
   const y0 = yi & 255
   const x1 = (x0 + 1) & 255
   const y1 = (y0 + 1) & 255
+  const a = LAT[x0 * 256 + y0]
