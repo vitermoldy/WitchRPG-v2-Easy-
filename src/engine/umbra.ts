@@ -137,3 +137,5 @@ export class Umbra {
     out.set(p.pos.x + Math.sin(a) * d, 0, p.pos.z + Math.cos(a) * d)
     out.y = this.g.ground.height(out.x, out.z)
     return out
+  }
+
