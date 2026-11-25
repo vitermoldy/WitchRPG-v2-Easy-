@@ -153,3 +153,4 @@ export class Umbra {
   }
 
   /**
+   * The call: darkness spills out from under her, a pool opens at every soldier's place in the
