@@ -39,3 +39,4 @@ export const AUTH_TABLES = [
   ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci`,
 ]
 
+export const USERNAME = /^[A-Za-z0-9_.-]{3,24}$/
