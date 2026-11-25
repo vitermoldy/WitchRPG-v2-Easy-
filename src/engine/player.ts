@@ -171,3 +171,5 @@ export class Player {
       const k = 1 - Math.exp(-(rate / Math.max(top, 1)) * 2 * dt)
       this.vx += (tx - this.vx) * k
       this.vz += (tz - this.vz) * k
+    }
+
