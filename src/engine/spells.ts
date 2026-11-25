@@ -697,3 +697,4 @@ export class Spells {
         if (Math.hypot(u.pos.x - w.pos.x, u.pos.z - w.pos.z) < w.radius) u.lifted = Math.max(u.lifted, Math.min(left, 0.3))
       }
       if (Math.random() < dt * 40) {
+        const a = Math.random() * Math.PI * 2
