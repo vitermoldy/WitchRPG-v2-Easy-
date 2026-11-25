@@ -1102,3 +1102,4 @@ COLORS = {
     "hippogriff": {"body": ("#9a7a52", "#b89a72"), "body2": ("#a07a48", "#e0cca8"), "membrane": ("#8a6438", "#d8c4a0"), "accent": "#4a3420", "hair": "#5a4028", "horn": "#e0b040", "beakleg": "#e0b040", "claw": "#2a2420", "hoof": "#3a3028"},
     "phoenix": {"body": ("#d0381c", "#ff7a2a"), "membrane": "#e8501c", "accent": "#ffb030", "horn": "#f0c040", "glow": "#ffd060",
                 "emissive": {"body": ("#ff4a1a", 1.2), "membrane": ("#ff5a1a", 2.0), "accent": ("#ffa020", 3.5)}},
+    "dragon": {"body": ("#9a2618", "#d8a878"), "membrane": "#d89a6a", "accent": "#6a160e", "horn": "#e8dcc0", "mouth": "#5a0e0a"},
