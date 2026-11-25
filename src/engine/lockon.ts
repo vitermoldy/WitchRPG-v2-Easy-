@@ -7,3 +7,4 @@ export interface Target {
   y: number
   z: number
   height: number
+  alive: boolean
