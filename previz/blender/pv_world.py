@@ -629,3 +629,4 @@ def build_temple(coll, pal):
         p.box((x, y, top + 0.2), (1.4, 1.4, 0.4), mat="stone")
         if hgt > 7:
             p.box((x, y, top + hgt + 0.25), (1.5, 1.5, 0.5), mat="stone")
+    p.box((cx, cy + 6.0, top + 7.9), (9, 1.6, 0.9), rot=(0, 3, 0), mat="stone_moss")
