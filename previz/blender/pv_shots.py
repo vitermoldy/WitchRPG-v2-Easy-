@@ -265,3 +265,4 @@ def build_valley(dunia):
     sc, local = shot_scene("02-lembah-hutan", dunia, world, -sd, "#fff0dc", 4.2, vol_end=2200, vol_tile="8", exposure=0.1)
     loc = Vector((260, -720, 470))
     target = Vector((-80, 140, 0))
+    cam = C.camera(sc, "kamera.02", loc, look_at=target, lens_vfov=46, clip=(1, 5000))
