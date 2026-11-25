@@ -850,3 +850,4 @@ export class Game implements UnitHost {
       this.place(dt, false)
       this.ilyra.update(dt, this.player, 0, this.pose)
     }
+    this.lastFrame = now
