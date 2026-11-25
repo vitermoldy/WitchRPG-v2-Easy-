@@ -111,3 +111,4 @@ def emission_of(m):
 def flat(m):
     """One plain Principled material per source material: base colour, roughness, emission."""
     if m.name in _flat:
+        return _flat[m.name]
