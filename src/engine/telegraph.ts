@@ -13,3 +13,4 @@ const VERT = /* glsl */ `
  * fill reaches the edge the blow lands. This one can be blocked or parried.
  */
 const RING_FRAG = /* glsl */ `
+  varying vec2 vUv;
