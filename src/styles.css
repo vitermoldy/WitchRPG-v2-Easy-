@@ -23,3 +23,4 @@
   --font-text: 'Figtree Variable', 'Figtree', system-ui, sans-serif;
   --font-mono: 'Martian Mono Variable', 'Martian Mono', ui-monospace, monospace;
   --radius: 4px;
+  /* HUD plates: dark enough that every text colour stays at 4.5:1 or more over the brightest fog */
