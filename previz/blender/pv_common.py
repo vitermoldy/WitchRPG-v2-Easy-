@@ -418,3 +418,4 @@ class Part:
             if len(rings[0]) > 2:
                 self.bm.faces.new(list(reversed(rings[0])))
             if len(rings[-1]) > 2:
+                self.bm.faces.new(rings[-1])
