@@ -23,3 +23,4 @@ export async function loadModel(url: string): Promise<THREE.Group> {
 
 /** Bakes a static model into one geometry per material, for instanced crowds. */
 export function bakeByMaterial(root: THREE.Object3D): { geometry: THREE.BufferGeometry; material: THREE.Material }[] {
+  root.updateMatrixWorld(true)
