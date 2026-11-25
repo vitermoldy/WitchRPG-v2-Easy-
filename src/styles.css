@@ -219,3 +219,4 @@ button {
 
 /* Title: the name, one line of story, what this build plays, one way in. Controls to the side. */
 .screen-start {
+  display: grid;
