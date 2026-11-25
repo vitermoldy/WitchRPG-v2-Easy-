@@ -476,3 +476,4 @@ class Rig:
             me = bpy.data.meshes.new(f"{self.key}.{name}")
             p.bm.to_mesh(me)
             p.bm.free()
+            for m in p.mats:
