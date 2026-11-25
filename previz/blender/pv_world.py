@@ -690,3 +690,4 @@ def build_rift(coll):
         j1 = rng.uniform(0.6, 1.3)
         a, b = pts[i], pts[i + 1]
         p.poly([a - up * w0 * j0, b - up * w1 * j1, b + up * w1 * j1 * 0.6, a + up * w0 * j0 * 0.6], mat="edge")
+        p.poly([a - up * w0 * 0.3, b - up * w1 * 0.3, b + up * w1 * 0.2, a + up * w0 * 0.2], mat="core")
