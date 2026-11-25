@@ -814,3 +814,6 @@ def b_hippogriff(r):
         feather_wing(b, (0.3 * s, -0.5, Q["H"] - 0.05), s, 2.3, 1.4, raise_deg=8, sweep_deg=62, feathers=8, tilt=20, tip_mat="accent")
     tl = r.P("tail", Q["tail_base"], "body")
     for k in (-0.05, 0.0, 0.05):
+        tail_tube(tl, [Q["tail_base"], (k, 1.6, 1.4), (k * 2, 1.75, 0.9), (k * 3, 1.7, 0.45)], 0.07, 0.0, mat="hair")
+
+
