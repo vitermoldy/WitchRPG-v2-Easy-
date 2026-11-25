@@ -207,3 +207,4 @@ export class WorldMap {
     const ctx = c.getContext('2d')!
     const img = ctx.createImageData(BASE, BASE)
     const tones = ZONES.map((z) => {
+      const g = parseInt(z.ground.slice(1), 16)
