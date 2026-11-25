@@ -612,3 +612,4 @@ export class Spells {
   }
 
   private updateSnares(dt: number) {
+    const g = this.g
