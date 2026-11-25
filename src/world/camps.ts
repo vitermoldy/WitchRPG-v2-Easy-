@@ -9,3 +9,4 @@ export interface CampDef {
   /** Map point (x east, y north). */
   c: [number, number]
   pack: Partial<Record<V2Kind, number>>
+  levels: [number, number]
