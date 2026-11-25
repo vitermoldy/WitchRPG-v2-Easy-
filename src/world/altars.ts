@@ -131,3 +131,4 @@ export class Altars {
       }
       // a lit altar heals her while she stands at it
       p.hp = Math.min(p.maxHp, p.hp + p.maxHp * HEAL * dt)
+      p.mana = Math.min(p.maxMana, p.mana + p.maxMana * HEAL * dt)
