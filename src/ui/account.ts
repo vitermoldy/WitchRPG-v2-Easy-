@@ -128,3 +128,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
         if (r.stale && r.profile && onTitle()) adopt(r.profile)
         setNote(remote ? 'Progres di browser ini lebih baru dan sudah dikirim' : 'Witch di browser ini sekarang milik akunmu')
       }
+    } catch (e) {
