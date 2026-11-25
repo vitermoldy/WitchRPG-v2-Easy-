@@ -553,3 +553,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   },
   // v2 mini-boss, Rawa Berkabut: lion's fire in front, goat's charge from afar, snake's sting behind. Calls Imps.
   chimera: {
+    name: 'Chimera',
