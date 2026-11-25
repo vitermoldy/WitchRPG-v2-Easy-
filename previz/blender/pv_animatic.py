@@ -216,3 +216,4 @@ def build(dunia, res=(1280, 720), samples=24):
         cam.data.angle_y = math.radians(vfov)
         cam.keyframe_insert("location", frame=fr)
         cam.keyframe_insert("rotation_quaternion", frame=fr)
+        cam.data.keyframe_insert("lens", frame=fr)
