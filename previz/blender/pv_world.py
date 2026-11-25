@@ -87,3 +87,4 @@ def height(x, y):
     # Reruntuhan Kuil: a gentle rise with a flat temple court
     k = ZONES[3]
     h = h + 12 * smooth(k["r"] * 1.1, k["r"] * 0.5, _dist(x, y, k["c"]))
+    court = smooth(36, 26, _dist(x, y, TEMPLE))
