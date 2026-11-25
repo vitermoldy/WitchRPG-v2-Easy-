@@ -14,3 +14,5 @@ import { createAuth } from './auth.js'
 
 const CODE = /^[A-HJ-NP-Z2-9]{12}$/
 const ALPHABET = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789'
+const newCode = () => Array.from({ length: 12 }, () => ALPHABET[randomInt(ALPHABET.length)]).join('')
+
