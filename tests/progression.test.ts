@@ -53,3 +53,4 @@ describe('XP curve from the GDD', () => {
     const r = gainXp(p, 80 + 230 + 420 + 5, ALL)
     expect(p.level).toBe(4)
     expect(p.xp).toBe(5)
+    expect(r.levelsGained).toBe(3)
