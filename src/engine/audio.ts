@@ -88,3 +88,4 @@ export class Sfx {
   bolt() {
     if (!this.ok()) return
     const t = this.ctx!.currentTime
+    this.tone(t, 'sawtooth', 900 + Math.random() * 120, 180, 0.16, 0.12)
