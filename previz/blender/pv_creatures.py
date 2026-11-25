@@ -213,3 +213,4 @@ def bat_wing(part, root, s, span, chord, raise_deg=30, sweep_deg=15, bone="horn"
     part.tube([P["root"], P["elbow"], P["wrist"]], [S * 0.035, S * 0.028, S * 0.02], mat=arm, seg=6, n=3)
     for t in ("t1", "t2", "t3"):
         part.tube([P["wrist"], (P["wrist"] + P[t]) / 2, P[t]], [S * 0.014, S * 0.01, 0.0], mat=bone, seg=5, n=2)
+    part.cone(P["wrist"], P["wrist"] + (P["wrist"] - P["elbow"]).normalized() * S * 0.1 + Vector((0, 0, S * 0.05)), S * 0.015, mat="horn", seg=5)
