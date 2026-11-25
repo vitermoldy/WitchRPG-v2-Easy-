@@ -93,3 +93,5 @@ export class Combo {
     this.current = null
     this.charging = -1
     this.queued = false
+  }
+
