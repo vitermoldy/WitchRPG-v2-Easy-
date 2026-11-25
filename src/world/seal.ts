@@ -77,3 +77,4 @@ export class Seal {
       uniforms: { uTime: { value: 0 }, uFade: { value: this.fade } },
       vertexShader: VERT,
       fragmentShader: FRAG,
+      transparent: true,
