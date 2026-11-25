@@ -507,3 +507,4 @@ export class UnitSystem {
           u.hp = u.maxHp * r.hp
           u.downed = 0
           u.set('rising')
+          this.host.fx(u, 'reborn')
