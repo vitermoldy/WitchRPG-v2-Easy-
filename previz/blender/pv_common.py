@@ -715,3 +715,4 @@ def render_settings(sc, res=(1920, 1080), samples=64, vol_end=600.0, vol_tile="4
     ee.volumetric_tile_size = vol_tile
     ee.volumetric_samples = vol_samples
     ee.use_volumetric_shadows = True
+    ee.volumetric_shadow_samples = 32
