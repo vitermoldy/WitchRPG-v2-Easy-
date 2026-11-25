@@ -113,3 +113,4 @@ export function fbm(x: number, y: number, octaves = 4, seed = 0): number {
     norm += amp
     amp *= 0.5
     f *= 2
+  }
