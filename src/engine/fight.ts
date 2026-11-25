@@ -10,3 +10,4 @@ import type { Unit } from './units'
 export interface FightInput {
   attackPressed: boolean
   attackHeld: boolean
+  blockHeld: boolean
