@@ -177,3 +177,4 @@ export class Lair {
   reset() {
     const g = this.g
     for (const u of [...g.units.units]) {
+      if (u === this.body || this.heads.includes(u) || (u.owner && u.owner === this.body)) g.units.remove(u)
