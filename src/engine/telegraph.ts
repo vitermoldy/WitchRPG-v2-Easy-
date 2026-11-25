@@ -60,3 +60,4 @@ interface Item {
   /** Line: where it starts on the ground, its direction and length. */
   ox: number
   oz: number
+  dx: number
