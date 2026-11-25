@@ -129,3 +129,4 @@ async function boot() {
     liveShadows: () => new Set(game.umbra.field().map((u) => u.record!.id)),
   })
   const travel = new TravelPanel({
+    altars: () => {
