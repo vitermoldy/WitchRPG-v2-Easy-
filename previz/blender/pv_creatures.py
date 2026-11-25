@@ -197,3 +197,4 @@ def wing_frame(root, s, raise_deg, sweep_deg, tilt=60):
     return lambda u, v: R + U * u + Vv * v
 
 
+def bat_wing(part, root, s, span, chord, raise_deg=30, sweep_deg=15, bone="horn", tilt=62, arm="body"):
