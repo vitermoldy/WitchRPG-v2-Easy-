@@ -307,3 +307,4 @@ export class Umbra {
     // two or more glowing bodies in reach: one cast raises them all; otherwise the one being looked at
     if (this.casting.length) {
       this.candidate = this.casting[0]
+      this.targets = this.casting
