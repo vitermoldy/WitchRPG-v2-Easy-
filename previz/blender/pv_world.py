@@ -604,3 +604,4 @@ def build_fog(coll):
     ob = bpy.data.objects.new("atmosphere", me)
     ob.scale = (1500, 1500, 500)
     ob.location = (0, 0, 220)
+    ob.display_type = "WIRE"
