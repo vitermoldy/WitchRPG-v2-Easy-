@@ -449,3 +449,4 @@ export class Lair {
     const p = g.player
     const r = ringOf(atk)
     g.clearTelegraph(u)
+    const low = p.pos.y - g.height(p.pos.x, p.pos.z) < 2.5
