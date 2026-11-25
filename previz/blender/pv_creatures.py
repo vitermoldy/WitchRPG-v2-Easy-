@@ -1200,3 +1200,4 @@ def ground_rig(r):
     """Lift or drop the rig so its lowest point touches z = 0."""
     lo, hi = C.bounds(r.coll)
     r.root.location.z -= lo.z
+    return lo, hi
