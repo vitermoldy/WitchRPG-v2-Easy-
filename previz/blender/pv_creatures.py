@@ -472,3 +472,4 @@ def b_ilyra(r, pose="idle"):
 
 def b_imp(r):
     """Skinny pale imp: bald head, long pointed ears, big pink bat wings, whip tail with a spade."""
+    J = humanoid(r, 1.05, bulk=0.55, legs="bird", arm_pose={"L": (30, 50, 35), "R": (25, 40, 30)}, leg_pose={"L": (40, 45), "R": (30, 40)}, foot_mat="claw")
