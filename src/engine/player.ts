@@ -209,3 +209,4 @@ export class Player {
   private toggleFlight(g: Ground) {
     if (!this.flying) {
       this.flying = true
+      this.dodgeT = -1
