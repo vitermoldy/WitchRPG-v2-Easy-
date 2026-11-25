@@ -202,3 +202,4 @@ export class Camps {
   }
 
   update(dt: number) {
+    const g = this.g
