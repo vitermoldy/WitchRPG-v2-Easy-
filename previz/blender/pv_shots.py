@@ -97,3 +97,4 @@ def lock_on(cam, target, third=(1 / 3, 1 / 3)):
     cam.rotation_euler = look.to_track_quat("-Z", "Y").to_euler()
 
 
+def cam_label(cam, body, size=0.035, corner=(-0.95, 0.88)):
