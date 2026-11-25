@@ -90,3 +90,4 @@ export function cleanProfile(p, now = Date.now()) {
   const settings = {
     sensitivity: num(st.sensitivity, 0.3, 2.5, 1),
     volume: num(st.volume, 0, 1, 0.7),
+    headBob: st.headBob !== false,
