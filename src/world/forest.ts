@@ -44,3 +44,4 @@ function part(geo: THREE.BufferGeometry, color: THREE.Color, m?: THREE.Matrix4):
   let g = geo.index ? geo.toNonIndexed() : geo
   if (m) g.applyMatrix4(m)
   g.deleteAttribute('uv')
+  g.computeVertexNormals()
