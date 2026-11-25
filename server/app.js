@@ -185,3 +185,4 @@ export function createApi(getPool, database) {
     } catch (err) {
       await conn.rollback()
       throw err
+    } finally {
