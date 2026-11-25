@@ -110,3 +110,4 @@ export class Props {
       this.q.setFromEuler(this.e.set(p.spin * 0.7, p.spin, 0))
       this.m.compose(p.pos, this.q, this.s.setScalar(p.radius))
       this.mesh.setMatrixAt(i, this.m)
+    })
