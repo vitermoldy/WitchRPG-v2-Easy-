@@ -21,3 +21,4 @@ interface Kind {
   vel: [number, number, number]
   wander: number
   /** Twinkle: 0 steady, 1 fireflies blinking. */
+  blink: number
