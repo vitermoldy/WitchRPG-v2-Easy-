@@ -405,3 +405,4 @@ button {
   font-family: var(--font-display);
   font-weight: 500;
   font-size: clamp(1.6rem, 3.4vw, 2.6rem);
+  letter-spacing: -0.04em;
