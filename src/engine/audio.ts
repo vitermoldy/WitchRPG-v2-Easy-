@@ -189,3 +189,4 @@ export class Sfx {
     osc.connect(f)
     osc2.connect(f)
     f.connect(gain).connect(this.master!)
+    osc.start()
