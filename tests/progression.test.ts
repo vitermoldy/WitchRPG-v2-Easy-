@@ -7,3 +7,4 @@ import {
   isFresh,
   riteBlock,
   tierLock,
+  tierUnlocked,
