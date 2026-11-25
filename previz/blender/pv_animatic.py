@@ -85,3 +85,4 @@ def build(dunia, res=(1280, 720), samples=24):
     fly_look = [Vector((-150, 120, 0)), Vector((-300, 280, 15))]
     cn = S.CAM["normal"]
     head_rest = {}
+    for name, ob in hy.objs.items():
