@@ -673,3 +673,4 @@ def sky_world(name, zenith, horizon, ground, strength=1.0, haze=None, haze_densi
     L.new(mr.outputs["Result"], ramp.inputs["Fac"])
     col = ramp.outputs["Color"]
     if sun_dir is not None:
+        d = V(sun_dir).normalized()
