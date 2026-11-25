@@ -741,3 +741,4 @@ export class Spells {
   private updateBarrier(dt: number) {
     if (this.barrierT <= 0) return
     this.barrierT -= dt
+    this.barrierHit = Math.max(0, this.barrierHit - dt * 4)
