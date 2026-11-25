@@ -161,3 +161,4 @@ export function scatter(size = 1260, step = 4, seed = 3): Tree[] {
   const w = new Float32Array(ZONES.length)
   const out: Tree[] = []
   for (let j = 0; j < n; j++) {
+    for (let i = 0; i < n; i++) {
