@@ -338,3 +338,5 @@ export class Fight {
       this.blocking = false
       this.exec = null
       return
+    }
+
