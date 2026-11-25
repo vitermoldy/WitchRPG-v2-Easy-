@@ -770,3 +770,4 @@ export class Game implements UnitHost {
   /** After every save of the witch; the account layer sends it to the server. */
   onSaved: (() => void) | null = null
 
+  /** A witch from the server takes this one's place, on the start screen before she enters the forest. */
