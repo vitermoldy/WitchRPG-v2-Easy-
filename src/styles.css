@@ -767,3 +767,4 @@ button {
   background: var(--plate);
   color: var(--ink);
   font-size: 0.95rem;
+  text-align: center;
