@@ -235,3 +235,4 @@ export class Spells {
         g.player.hp = Math.max(1, g.player.hp - loss)
         g.hud.message(`Backlash: ${loss} HP hilang dan mana berhenti pulih selama 3 detik.`, 'chaos')
         g.hud.hurtFlash(0.5)
+        g.sfx.overload(false)
