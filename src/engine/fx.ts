@@ -240,3 +240,4 @@ export class LightPool {
   release(light: THREE.PointLight | null) {
     const slot = this.slots.find((s) => s.light === light)
     if (!slot) return
+    slot.held = false
