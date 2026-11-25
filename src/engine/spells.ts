@@ -50,3 +50,4 @@ const RUNE_FRAG = /* glsl */ `
   void main() {
     vec2 p = vUv * 2.0 - 1.0;
     float r = length(p);
+    float a = atan(p.y, p.x);
