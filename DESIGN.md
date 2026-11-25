@@ -64,3 +64,4 @@ Action-RPG third-person dengan rasa God of War di hutan terbuka, memakai sistem 
 | Kabut | Satu `FogExp2` yang warna dan kepadatannya dicampur dari kelima zona menurut posisi Ilyra, berubah perlahan (0,8/dtk). Jarak pandang: Pembuka 260 m, Tebing 430 m, Rawa 150 m, Kuil 210 m, Bara 230 m | Padanan kabut volume per zona di previz, tanpa biaya volume. |
 | Makhluk fase 1 | 41 Imp di 10 kamp di Hutan Pembuka, diam dan menoleh ke Ilyra dalam 18 m. Digambar sebagai satu InstancedMesh per material | Gerbang butuh target lock-on. Pertarungan dan AI dibuat di fase 2. |
 | Model | GLB diekspor dari block-out previz (`npm run models`), satu warna per bagian plus emisi. Ilyra 6.806 segitiga, Imp 5.384 | Warna dua nada previz belum terbawa ke glTF; model akhir di fase 6. |
+| Cahaya | Matahari pagi dari timur-tenggara dengan bayangan 120 m mengikuti Ilyra, langit hemisfer 1,9, eksposur 1,2 | Versi pertama terlalu gelap; jubah Ilyra dan tanah tidak terbaca. |
