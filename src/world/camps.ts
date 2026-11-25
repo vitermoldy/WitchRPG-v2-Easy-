@@ -236,3 +236,4 @@ export class Camps {
         }
         // rouse the whole pack when she or a shadow comes close, or one of them is hurt
         if (!camp.roused) {
+          const close = (u: Unit) => {
