@@ -202,3 +202,4 @@ interface LightSlot {
 /**
  * Point lights are created once and reused. Changing the number of lights in a scene recompiles
  * every material, which shows up as a visible hitch, so the count never changes.
+ */
