@@ -600,3 +600,4 @@ def build_fog(coll):
     vol.inputs["Density"].default_value = 0.00025
     vol.inputs["Anisotropy"].default_value = 0.5
     nt.links.new(vol.outputs[0], out.inputs["Volume"])
+    me.materials.append(m)
