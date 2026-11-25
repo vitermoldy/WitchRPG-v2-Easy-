@@ -288,3 +288,4 @@ export class Rings {
         depthWrite: false,
         side: THREE.DoubleSide,
       })
+      const mesh = new THREE.Mesh(geo, mat)
