@@ -202,3 +202,4 @@ export function scatter(size = 1260, step = 4, seed = 3): Tree[] {
         r2 -= v / total
         if (r2 <= 0) {
           kind = k
+          break
