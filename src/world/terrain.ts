@@ -138,3 +138,4 @@ export class Terrain {
         pos.set([wx, h, wz], v * 3)
         nor.set([nv.x, nv.y, nv.z], v * 3)
         const slope = Math.hypot(dx, dz)
+        groundColour(wx, -wz, h, slope, this.tmp, this.w)
