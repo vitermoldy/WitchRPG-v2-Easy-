@@ -62,3 +62,4 @@ export class Ledger {
     this.dlg.addEventListener('close', () => this.onClose?.())
     this.dlg.addEventListener(
       'toggle',
+      (e) => {
