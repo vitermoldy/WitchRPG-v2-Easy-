@@ -60,3 +60,4 @@ async function boot() {
       game.pause()
       $('lock-note').hidden = false
     }
+  }
