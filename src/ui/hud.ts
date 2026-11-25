@@ -102,3 +102,4 @@ export class Hud {
       this.lockMark.classList.remove('show')
       return
     }
+    this.lockMark.classList.add('show')
