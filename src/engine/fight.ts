@@ -94,3 +94,4 @@ class Staff {
     let best: { u: Unit; f: number } | null = null
     for (const u of this.g.units.units) {
       if (u.team !== 'enemy' || !u.targetable || this.hit.has(u)) continue
+      u.center(this.sphere.center)
