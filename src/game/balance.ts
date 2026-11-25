@@ -491,3 +491,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   naga: {
     name: 'Naga Rawa',
     rank: 'prajurit',
+    hp: 48,
