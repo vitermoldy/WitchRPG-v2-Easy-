@@ -973,3 +973,4 @@ export const SINK_TIME = 0.8
  * as one standing model per kind and material (the v1 crowd), placed by position, facing and a step bob.
  */
 export class Rigs {
+  readonly group = new THREE.Group()
