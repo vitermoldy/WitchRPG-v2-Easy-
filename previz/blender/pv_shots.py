@@ -457,3 +457,4 @@ def build_lineup(lib_colls, stats):
         pole = C.Rig(f"tiang.{key}", {"l": line_mat}, coll)
         pole.P("m").box((ox + 1.1, -6, top / 2), (0.03 * (1 if key == "A" else 2 if key == "B" else 4.5), 0.01, top), mat="l")
         pole.finalize()
+        height = top + ts * 4.2
