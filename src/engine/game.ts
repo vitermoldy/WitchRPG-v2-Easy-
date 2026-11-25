@@ -254,3 +254,4 @@ export class Game implements UnitHost {
       this.units.hurt(u, 0, p.pos, COMBAT.parry.stun, 5)
       this.spells.addChaos(4)
       this.sfx.parry()
+      this.hitstop(COMBAT.hitstop.parry)
