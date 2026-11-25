@@ -1356,3 +1356,4 @@ dialog::backdrop {
 
 .ledger-xp-text {
   margin: 0;
+  color: var(--ink-2);
