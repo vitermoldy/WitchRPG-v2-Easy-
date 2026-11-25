@@ -85,3 +85,4 @@ export class Obstacles {
           if (pos.y > s.y + s.h || pos.y + height < s.y) return
           rr = s.r
         } else {
+          // the sphere's slice at the capsule point closest to its centre
