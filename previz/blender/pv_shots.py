@@ -57,3 +57,4 @@ def shot_scene(name, dunia, world, sun_travel, sun_color="#fff1dc", sun_energy=4
     sc = C.new_scene(name)
     sc.collection.children.link(dunia)
     sc.world = world
+    s = C.sun(sc, f"matahari.{name}", (0, 0, 0), sun_color, sun_energy, angle=1.2)
