@@ -661,3 +661,4 @@ export class Spells {
     disc.renderOrder = 7
     group.add(disc)
     const wallMat = new THREE.ShaderMaterial({
+      uniforms: { uTime: { value: 0 }, uFade: { value: 0 } },
