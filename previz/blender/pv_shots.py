@@ -435,3 +435,4 @@ def build_lineup(lib_colls, stats):
             rx = [c.x * math.cos(a) - c.y * math.sin(a) for c in corners]
             w = max(rx) - min(rx)
             C.instance(lc, coll, loc=(x - min(rx), 0, 0), rot_z=rot)
+            h = stats[m]["tinggi"]
