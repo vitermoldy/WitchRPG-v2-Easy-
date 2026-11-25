@@ -87,3 +87,4 @@ function swampTree(): THREE.BufferGeometry {
   }
   for (const [x, y, z, r] of [[0.3, 9.0, 0.2, 2.6], [1.6, 7.6, 0.5, 1.8], [-1.4, 7.9, 0.7, 1.9]]) {
     const g = new THREE.IcosahedronGeometry(r, 0)
+    g.scale(1, 0.6, 1)
