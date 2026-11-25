@@ -111,3 +111,4 @@ describe('over-the-shoulder camera', () => {
       const tilt = (r() - 0.5) * 0.8
       const ground = (x: number, z: number) => tilt * z + 0.6 * Math.sin(x * 0.7) * Math.cos(z * 0.5)
       const feet = { x: 0, y: ground(0, 0), z: 0 }
+      obs.pushOut(feet, 0.38, 1.7)
