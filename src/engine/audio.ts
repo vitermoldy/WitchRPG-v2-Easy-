@@ -304,3 +304,4 @@ export class Sfx {
 
   collapse() {
     if (!this.ok()) return
+    const t = this.ctx!.currentTime
