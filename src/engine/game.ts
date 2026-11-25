@@ -1178,3 +1178,4 @@ export class Game implements UnitHost {
         z: u.pos.z,
         alive: u.alive,
         state: u.state,
+        t: u.t,
