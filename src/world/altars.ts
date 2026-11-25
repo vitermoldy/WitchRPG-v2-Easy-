@@ -19,3 +19,4 @@ const HEAL = 0.12
 const stoneMat = new THREE.MeshStandardMaterial({ color: 0x4a4448, roughness: 0.95 })
 
 /**
+ * Altars of the valley. Walking up to one lights it: from then on she rises there after a fall, it
