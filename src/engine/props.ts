@@ -29,3 +29,4 @@ export class Props {
   private readonly g: Game
   private readonly m = new THREE.Matrix4()
   private readonly q = new THREE.Quaternion()
+  private readonly e = new THREE.Euler()
