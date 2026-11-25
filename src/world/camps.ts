@@ -118,3 +118,4 @@ export class Camps {
   get clock() {
     return this.time
   }
+  /** The Minotaur's shield is explained once, the first time a pack with one is roused. */
