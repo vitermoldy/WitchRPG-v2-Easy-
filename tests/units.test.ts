@@ -10,3 +10,4 @@ function world(groundHeight = 0) {
   const log = { strikes: [] as { u: Unit; t: number }[], unitStrikes: 0, telegraphs: 0, died: [] as Unit[], fired: [] as string[], summoned: 0 }
   let time = 0
   const host: UnitHost = {
+    obstacles: new Obstacles(),
