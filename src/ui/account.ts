@@ -74,3 +74,5 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
     renderRow(state)
     if (state.status === 'signed-in' && last !== 'signed-in') void sync()
     last = state.status
+  }
+
