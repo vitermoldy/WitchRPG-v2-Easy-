@@ -26,3 +26,4 @@ const RING_FRAG = /* glsl */ `
     float fill = step(r, uFill) * 0.22;
     float front = smoothstep(0.06, 0.0, abs(r - uFill)) * 0.7 * step(0.03, uFill);
     float a = edge + fill + front;
+    gl_FragColor = vec4(uColor * a, a);
