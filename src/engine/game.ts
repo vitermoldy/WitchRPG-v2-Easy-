@@ -665,3 +665,4 @@ export class Game implements UnitHost {
     }
     dmg *= share
     if (u !== body) this.units.hurt(u, 0, from, stun, 0)
+    const died = this.units.hurt(body, dmg, from, u === body ? stun : 0, 0)
