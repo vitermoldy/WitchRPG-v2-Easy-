@@ -692,3 +692,4 @@ export class Game implements UnitHost {
     p.alive = false
     this.deadT = 0
     this.counts.falls++
+    this.fight.reset()
