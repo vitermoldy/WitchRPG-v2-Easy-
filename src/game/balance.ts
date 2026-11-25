@@ -276,3 +276,4 @@ export interface UnitSpec {
   passive?: boolean
 }
 
+export const UNITS: Record<UnitKind, UnitSpec> = {
