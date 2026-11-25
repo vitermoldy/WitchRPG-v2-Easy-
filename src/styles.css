@@ -708,3 +708,4 @@ button {
 .feed-item {
   margin: 0;
   padding: 0.35rem 0.7rem;
+  border-radius: var(--radius-sm);
