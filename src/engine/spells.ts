@@ -377,3 +377,4 @@ export class Spells {
       if (!prop) return
       prop.held = true
       prop.thrown = false
+      prop.vel.set(0, 0, 0)
