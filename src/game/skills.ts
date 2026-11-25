@@ -92,3 +92,4 @@ export const SKILLS: SkillDef[] = [
     id: 'rite',
     branch: 'umbra',
     name: 'Umbra Rite',
+    key: 'Tahan R',
