@@ -124,3 +124,4 @@ export class Telegraphs {
     const it = this.items.find((i) => i.kind === kind && !i.unit)
     if (!it) return
     it.unit = u
+    it.mesh.visible = true
