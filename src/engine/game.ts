@@ -1019,3 +1019,4 @@ export class Game implements UnitHost {
       this.forest.cull(p.pos.x, p.pos.z)
       this.cullIn = 0.5
     }
+    this.glow.update(dt)
