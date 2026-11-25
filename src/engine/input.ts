@@ -41,3 +41,4 @@ export class Input {
       if (!this.locked) return
       this.dx += e.movementX
       this.dy += e.movementY
+    })
