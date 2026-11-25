@@ -334,3 +334,4 @@ export class UnitSystem {
     }
     // a Naga that is hurt slips under and comes up somewhere else
     if (u.spec.dive && u.diveCd <= 0 && (u.state === 'move' || u.state === 'recover' || u.state === 'windup')) {
+      this.host.clearTelegraph(u)
