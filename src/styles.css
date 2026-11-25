@@ -1912,3 +1912,4 @@ dialog::backdrop {
   height: 20px;
   margin: 0;
   accent-color: var(--umbra);
+  cursor: pointer;
