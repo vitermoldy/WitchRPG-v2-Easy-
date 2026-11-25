@@ -1305,3 +1305,4 @@ dialog::backdrop {
 
 .ledger-head {
   display: flex;
+  justify-content: space-between;
