@@ -566,3 +566,6 @@ def fog_material(z):
     L.new(m2.outputs[0], em.inputs[0])
     L.new(em.outputs[0], vol.inputs["Emission Strength"])
     L.new(vol.outputs[0], out.inputs["Volume"])
+    return m
+
+
