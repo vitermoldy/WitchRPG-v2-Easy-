@@ -79,3 +79,4 @@ describe('stats and the shadow army', () => {
   it('derives HP and mana from VIT and SPR', () => {
     const d = derive(newProfile().stats)
     expect(d.maxHp).toBe(150)
+    expect(d.maxMana).toBe(125)
