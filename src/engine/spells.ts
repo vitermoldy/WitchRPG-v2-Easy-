@@ -307,3 +307,4 @@ export class Spells {
       b.life -= dt
       b.mesh.position.copy(b.pos)
       b.light?.position.copy(b.pos)
+      g.glow.emit({ pos: b.pos, count: 2, color: COLOR.chaos, intensity: 2.6, life: 0.22, size: 0.16, sizeEnd: 0.02, speed: 0.4, jitter: 0.04 })
