@@ -419,3 +419,5 @@ export class Lair {
         h.set('move')
       }
     }
+  }
+
