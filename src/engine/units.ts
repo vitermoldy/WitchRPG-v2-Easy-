@@ -454,3 +454,5 @@ export class UnitSystem {
     const a = Math.min(1, dt * 8)
     u.vel.x += (tx - u.vel.x) * a
     u.vel.z += (tz - u.vel.z) * a
+  }
+
