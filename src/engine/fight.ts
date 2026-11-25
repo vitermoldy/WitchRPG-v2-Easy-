@@ -415,3 +415,4 @@ export class Fight {
     if (Math.hypot(inp.dirX, inp.dirZ) > 0.2) yaw = Math.atan2(-inp.dirX, -inp.dirZ)
     const locked = g.lockon.current as Unit | null
     let target: Unit | null = locked && locked.alive ? locked : null
+    if (!target) {
