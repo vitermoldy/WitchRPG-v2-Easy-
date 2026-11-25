@@ -143,3 +143,4 @@ describe('Ilyra on foot', () => {
   })
 
   it('walks through a crown, which only blocks the camera', () => {
+    const obs = new Obstacles()
