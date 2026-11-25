@@ -362,3 +362,4 @@ export class IlyraModel {
       armRX = -55 - 20 * act.rite + tremble
       armRY = 15
       foreR = -30
+      staffX = 60
