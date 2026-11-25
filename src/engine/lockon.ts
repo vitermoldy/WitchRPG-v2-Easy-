@@ -6,3 +6,4 @@ export interface Target {
   x: number
   y: number
   z: number
+  height: number
