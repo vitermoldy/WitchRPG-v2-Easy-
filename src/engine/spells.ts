@@ -736,3 +736,5 @@ export class Spells {
     g.sfx.barrier(false)
     const p = g.player.pos
     this.explode(new THREE.Vector3(p.x, p.y, p.z), s.blastRadius, s.blastDamage * this.damageMult, s.push, 4)
+  }
+
