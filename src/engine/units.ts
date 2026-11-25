@@ -35,3 +35,4 @@ export interface UnitHost {
   impact(u: Unit, other: Unit | null, speed: number): void
   /** A unit died, from any cause. */
   died(u: Unit): void
+  /** A summoner called up a helper. */
