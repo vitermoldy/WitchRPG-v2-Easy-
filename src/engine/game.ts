@@ -690,3 +690,4 @@ export class Game implements UnitHost {
     const p = this.player
     p.hp = 0
     p.alive = false
+    this.deadT = 0
