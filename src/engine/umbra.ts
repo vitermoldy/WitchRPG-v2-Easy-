@@ -60,3 +60,4 @@ export class Umbra {
   progress = 0
   swapCd = 0
   summonCd = 0
+  wheelOpen = false
