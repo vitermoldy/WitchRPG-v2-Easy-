@@ -421,3 +421,5 @@ interface Pool {
  * witch, and one under each shadow that rises out of it or sinks back into it.
  */
 export class ShadowPools {
+  private readonly pools: Pool[] = []
+
