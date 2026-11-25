@@ -107,3 +107,4 @@ export class WorldMap {
   private changed(rerender = true) {
     try {
       localStorage.setItem(SAVE_KEY, JSON.stringify([...this.chosen]))
+    } catch {
