@@ -276,3 +276,4 @@ export class Game implements UnitHost {
     if (!p.alive) return
     if (atk.effect === 'petrify' && this.spells.barrierT <= 0) {
       p.petrified = EFFECTS.petrify
+      this.fight.reset(true)
