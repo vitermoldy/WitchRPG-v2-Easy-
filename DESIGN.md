@@ -200,3 +200,5 @@ Hasil gerbang (bot `?debug`, waktu game 3× dipercepat, `scratchpad` gate5):
 - **Zona IV dan V bisa dimainkan.** Setelah menang, segel pecah dan bot berjalan dari Danau Hitam ke Reruntuhan Kuil (1,9 menit, Lv 11) lalu Lembah Bara (4,9 menit, Lv 11): 4 kamp Kuil dan 3 kamp Bara ditaklukkan dalam 6,1 menit, 0 kali tumbang, altar Kuil dan Bara menyala, dan Cyclops dan Phoenix bergabung ke pasukan. Run tanpa pasukan: 21 kamp ditaklukkan dalam 14 menit, sampai Lv 16. Pukulan yang mengenai bot di zona baru: Incubus 2 dan Minotaur 1 (run dengan pasukan); Incubus 10, Naga 4, Cyclops 2, dan Minotaur 1 (tanpa pasukan).
 - 0 error konsol setelah perbaikan proyektil.
 
+Pemeriksaan UI di 1024 × 768, 1280 × 720, dan 1920 × 1080 (geometri DOM, bukan hanya mata): bar boss, kotak kamp, feed, banner tengah, petunjuk kontrol, bar skill, panel HP, dan panel bayangan tidak saling menutupi, tanpa luapan horizontal. Di 390 px HUD dalam game masih bertumpuk (bar skill keluar layar dan menempel panel HP), seperti sejak fase 2: game ini butuh mouse dan keyboard. Layar mulai dan Ledger tetap mengalir di 390 px.
+
