@@ -990,3 +990,5 @@ export const SHADOW_SKILL = {
  * berlapis: hard to hurt except by a throw. gesit: quick. meledak: bursts when it falls.
  * penjaga: other creatures near it take less damage while it stands.
  */
+export type EliteTrait = 'berlapis' | 'gesit' | 'meledak' | 'penjaga'
+
