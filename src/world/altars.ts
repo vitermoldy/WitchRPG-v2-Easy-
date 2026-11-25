@@ -6,3 +6,4 @@ import { ALTARS, toWorld } from './map'
 export interface Altar {
   key: string
   name: string
+  pos: THREE.Vector3
