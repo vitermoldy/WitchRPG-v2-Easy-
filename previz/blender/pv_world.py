@@ -740,3 +740,4 @@ def build_world(lib_scene):
     build_rift(props)
     build_embers(props, ZONES[4]["c"], 150, 2500)
     fog = C.collection("Dunia_kabut", dunia)
+    build_fog(fog)
