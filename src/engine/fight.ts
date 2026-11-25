@@ -411,3 +411,4 @@ export class Fight {
     const g = this.g
     const p = g.player
     this.stats.swings++
+    let yaw = p.facing
