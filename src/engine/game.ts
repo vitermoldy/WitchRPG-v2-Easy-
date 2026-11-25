@@ -109,3 +109,4 @@ export class Game implements UnitHost {
   /** ?debug: a fixed camera around her (angle from her facing, radians; distance in metres). */
   debugCam: { angle: number; dist: number } | null = null
   /** Game seconds played (simulation time, includes debugSpeed). */
+  t = 0
