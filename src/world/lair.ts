@@ -332,3 +332,4 @@ export class Lair {
 
     if (this.state === 'won') {
       if (this.time - this.wonAt > HYDRA.respawn) {
+        this.reset()
