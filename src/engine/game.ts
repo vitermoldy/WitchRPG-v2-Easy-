@@ -605,3 +605,4 @@ export class Game implements UnitHost {
     this.hurtGrace = COMBAT.hurtGrace
     this.fight.hurt()
     this.umbra.interrupt()
+    this.spells.addChaos(chaosFromDamage(0, d))
