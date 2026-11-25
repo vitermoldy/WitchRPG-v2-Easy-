@@ -204,3 +204,5 @@ interface LightSlot {
  * every material, which shows up as a visible hitch, so the count never changes.
  */
 export class LightPool {
+  private readonly slots: LightSlot[] = []
+
