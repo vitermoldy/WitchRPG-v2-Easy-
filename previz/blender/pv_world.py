@@ -663,3 +663,4 @@ def build_altar(coll, pal):
         x, y = ax + math.cos(a) * 6.5, ay + math.sin(a) * 6.5
         zz = ground_z(x, y)
         h = (3.4, 2.6, 3.8, 2.2, 3.2, 2.8, 3.6)[k]
+        p.box((x, y, zz + h / 2 - 0.2), (0.9, 0.6, h), rot=(0, 0, math.degrees(a)), mat="stone")
