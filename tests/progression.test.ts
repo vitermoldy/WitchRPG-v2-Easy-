@@ -207,3 +207,4 @@ describe('Tier IV and V', () => {
     expect(tierLock(p, 4)).toBeNull()
     expect(tierUnlocked(p, 5)).toBe(false)
     expect(tierLock(p, 5)).toBe('Lv 13')
+    p.level = 13
