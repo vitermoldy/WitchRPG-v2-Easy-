@@ -763,3 +763,4 @@ export class UnitSystem {
             // leap so it lands on the circle as the lunge ends
             u.vel.copy(u.lungeDir).multiplyScalar(atk.ahead !== undefined ? 0 : Math.min(atk.lungeSpeed ?? 0, Math.max(0, d - u.radius) / lt))
           } else u.vel.copy(u.lungeDir).multiplyScalar(atk.lungeSpeed ?? 12)
+        }
