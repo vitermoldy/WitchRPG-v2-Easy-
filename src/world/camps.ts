@@ -171,3 +171,4 @@ export class Camps {
         const a = n * 2.39996 + Math.random() * 0.4
         const r = 3 + Math.random() * 3.5
         const at = { x: camp.pos.x + Math.cos(a) * r, y: 0, z: camp.pos.z + Math.sin(a) * r }
+        g.obstacles.pushOut(at, 0.6, 1.5)
