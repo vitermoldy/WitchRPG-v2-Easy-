@@ -167,3 +167,4 @@ describe('phase 4 creatures', () => {
     w.step(3)
     expect(w.log.fired).toContain('panah')
     expect(Math.hypot(c.pos.x, c.pos.z)).toBeGreaterThan(7)
+    const far = world()
