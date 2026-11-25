@@ -1858,3 +1858,4 @@ dialog::backdrop {
 }
 
 .map-boss {
+  display: grid;
