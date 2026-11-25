@@ -23,3 +23,4 @@ export type Stats = Record<StatKey, number>
 export const STAT_KEYS: StatKey[] = ['hex', 'spr', 'vit', 'agi', 'umb']
 
 export interface ShadowRecord {
+  id: number
