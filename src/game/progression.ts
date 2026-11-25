@@ -264,3 +264,4 @@ const SYLLABLES = ['ve', 'mor', 'ska', 'thal', 'ri', 'on', 'du', 'kar', 'nyx', '
 export function shadowName(id: number): string {
   let h = Math.imul(id, 2654435761) >>> 0
   const next = () => {
+    h = Math.imul(h ^ (h >>> 13), 1274126177)
