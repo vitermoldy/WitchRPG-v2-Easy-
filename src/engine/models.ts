@@ -105,3 +105,4 @@ export class IlyraModel {
       this.parts[o.name] = o
       const m = (o as THREE.Mesh).material as THREE.MeshStandardMaterial | undefined
       if (m && m.name.includes('sigil_staff') && !this.sigils.includes(m)) this.sigils.push(m)
+    })
