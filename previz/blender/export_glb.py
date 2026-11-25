@@ -29,3 +29,4 @@ RATIO = None
 if "--lod" in argv:
     i = argv.index("--lod")
     LOD = float(argv[i + 1])
+    argv = argv[:i] + argv[i + 2:]
