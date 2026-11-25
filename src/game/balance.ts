@@ -771,3 +771,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     rank: 'marsekal',
     hp: 1300,
     damage: 24,
+    speed: 4.6,
