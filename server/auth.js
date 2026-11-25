@@ -50,3 +50,4 @@ const MESSAGES = {
   id: {
     username: 'Username 3 sampai 24 karakter: huruf, angka, titik, garis bawah, atau tanda minus.',
     password: `Kata sandi minimal ${PASSWORD_MIN} karakter.`,
+    passwordLong: `Kata sandi paling panjang ${PASSWORD_MAX} karakter.`,
