@@ -1138,3 +1138,4 @@ ROSTER = [
     ("lilith", "Lilith", b_lilith, "Boss Tier V", "Marsekal", "V Lembah Bara", ("167518dd7ed83f5f910603744479.jpg", (85, 1525, 491, 1830))),
     ("typhon", "Typhon", b_typhon, "Boss akhir (di luar v1)", "Marsekal", "Cadangan", ("z0jfasz4aizd1.jpeg", (665, 1145, 960, 1495))),
     ("samael", "Samael", b_samael, "Boss akhir (di luar v1)", "Marsekal", "Cadangan", ("167518dd7ed83f5f910603744479.jpg", (590, 1535, 980, 1827))),
+    ("atlas", "Atlas", b_atlas, "Cadangan (di luar v1)", "Marsekal", "Cadangan", ("z0jfasz4aizd1.jpeg", (385, 1145, 650, 1495))),
