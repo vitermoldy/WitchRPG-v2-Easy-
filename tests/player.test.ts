@@ -139,3 +139,4 @@ describe('Ilyra on foot', () => {
     const g: Ground = { ...flat, obstacles: obs }
     const p = new Player()
     run(p, { ...idle, y: 1 }, 3, g)
+    expect(Math.hypot(p.pos.x, p.pos.z + 3)).toBeGreaterThanOrEqual(0.4 + MOVE.radius - 1e-6)
