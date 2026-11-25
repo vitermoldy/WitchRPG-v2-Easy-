@@ -655,3 +655,4 @@ export class Game implements UnitHost {
       if (source === 'player' && this.t - this.immuneAt > 0.4) {
         this.immuneAt = this.t
         this.sfx.clank()
+        this.glow.emit({ pos: u.center(this.v), count: 10, color: 0xfff2e0, intensity: 2.2, life: 0.25, size: 0.1, speed: 4 })
