@@ -94,3 +94,4 @@ export class Seal {
 
   /** True where the world point lies in a sealed zone. */
   sealedAt(wx: number, wz: number): boolean {
+    const [mx, my] = toMap(wx, wz)
