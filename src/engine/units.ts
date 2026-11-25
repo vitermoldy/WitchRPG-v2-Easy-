@@ -547,3 +547,4 @@ export class UnitSystem {
       this.face(u, u.pos.x + dx, u.pos.z + dz, dt, 5)
     } else {
       // a new spot near home every few seconds; aimAt holds it, fauna never aims
+      if (u.cd <= 0) {
