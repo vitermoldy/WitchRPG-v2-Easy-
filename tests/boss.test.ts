@@ -132,3 +132,4 @@ describe('phase 5 creatures', () => {
   it('an elite Cyclops raises as a Jenderal', () => {
     expect(UNITS.cyclops.eliteRank).toBe('jenderal')
     expect(UNITS.cyclops.anchored).toBe(true)
+    expect(UNITS.cyclops.mass).toBeGreaterThan(500)
