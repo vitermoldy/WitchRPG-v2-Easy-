@@ -158,3 +158,4 @@ export class Camps {
     this.group.add(stones, this.shards)
   }
 
+  private wake(camp: Camp, index: number) {
