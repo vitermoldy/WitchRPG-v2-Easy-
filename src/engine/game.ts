@@ -407,3 +407,4 @@ export class Game implements UnitHost {
       },
     }
     this.seal = new Seal(this.profile.bossKills > 0)
+    this.scene.add(this.seal.mesh)
