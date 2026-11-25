@@ -403,3 +403,4 @@ export class Umbra {
     if (g.profile.shadows.length >= RITE.maxShadows) return 'Ruang Bayangan sudah penuh sekali.'
     const need = this.cost(n)
     if (!g.spells.overloaded && g.player.mana < need) return `Mana kurang: butuh ${need}.`
+    return null
