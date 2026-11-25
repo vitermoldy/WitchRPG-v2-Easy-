@@ -488,3 +488,4 @@ export class Game implements UnitHost {
     this.ilyra.update(0, this.player, 0, this.pose)
   }
 
+  start() {
