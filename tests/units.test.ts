@@ -233,3 +233,4 @@ describe('phase 4 creatures', () => {
     expect(imps.length).toBeLessThanOrEqual(UNITS.chimera.summon!.max)
   })
 
+  it('Medusa turns her gaze on her from a distance, and it petrifies', () => {
