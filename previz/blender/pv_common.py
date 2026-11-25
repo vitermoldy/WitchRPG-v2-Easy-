@@ -591,3 +591,4 @@ def camera(sc, name, loc, look_at=None, rot=None, lens_vfov=None, ortho=None, cl
         cd.sensor_fit = "VERTICAL"
         cd.angle_y = math.radians(lens_vfov)
     ob = bpy.data.objects.new(name, cd)
+    ob.location = loc
