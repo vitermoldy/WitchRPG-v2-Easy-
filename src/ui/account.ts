@@ -101,3 +101,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
   }
 
   function setNote(text: string): void {
+    note = text
