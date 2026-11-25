@@ -46,3 +46,4 @@ function part(geo: THREE.BufferGeometry, color: THREE.Color, m?: THREE.Matrix4):
   g.deleteAttribute('uv')
   g.computeVertexNormals()
   const n = g.attributes.position.count
+  const col = new Float32Array(n * 3)
