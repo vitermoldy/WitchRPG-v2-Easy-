@@ -423,3 +423,4 @@ def b_ilyra(r, pose="idle"):
     rows, cols = 7, 11
     sheet = []
     for i in range(rows):
+        t = i / (rows - 1)
