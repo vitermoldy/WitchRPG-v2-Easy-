@@ -533,3 +533,4 @@ const poseChimera: PoseFn = (p, u, t) => {
 }
 
 /** A two-legged body with arms: a raise-and-bring-down blow, a walk, a stagger. Cyclops, Succubus, Incubus. */
+function biped(opts: { heavy: number; reach: number; sway: number }): PoseFn {
