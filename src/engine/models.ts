@@ -334,3 +334,4 @@ export class IlyraModel {
     }
     if (act.throwK >= 0) {
       const e = act.throwK
+      const wind = ease(e / 0.4)
