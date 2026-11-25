@@ -52,3 +52,4 @@ export class Altars {
       // three leaning standing stones around the crystal
       for (let k = 0; k < 3; k++) {
         const s = new THREE.Mesh(stoneGeo, stoneMat)
+        const ang = (k / 3) * Math.PI * 2 + 0.4
