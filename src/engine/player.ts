@@ -268,3 +268,4 @@ export class Player {
       this.pos.z = nz
       return
     }
+    const h0 = g.height(this.pos.x, this.pos.z)
