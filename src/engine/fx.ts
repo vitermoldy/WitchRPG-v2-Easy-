@@ -284,3 +284,4 @@ export class Rings {
         color: 0xffffff,
         transparent: true,
         opacity: 0,
+        blending: THREE.AdditiveBlending,
