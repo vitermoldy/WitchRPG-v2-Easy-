@@ -129,3 +129,4 @@ export class Combo {
           this.begin(true, out)
         }
       } else {
+        this.charging = -1
