@@ -278,3 +278,4 @@ Permintaan pemilik: "itu ada WitchRPG-v2 (Easy), tinggal copy ini, data + akun +
 
 | Bagian | Keputusan | Alasan |
 | --- | --- | --- |
+| Salinan | Seluruh WitchRPG v2 setelah fase 7 disalin ke `C:\MyRepo\WitchRPG-v2-Easy-` (repo milik pemilik), tanpa `.git`, `node_modules`, dan `dist` | Permintaan pemilik. |
