@@ -184,3 +184,4 @@ export class Ledger {
       return
     }
     // one group per kind and rank, strongest first, so three hundred shadows still read at a glance
+    const order: Record<string, number> = { marsekal: 0, jenderal: 1, ksatria: 2, prajurit: 3 }
