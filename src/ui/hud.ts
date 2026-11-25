@@ -229,3 +229,4 @@ export class Hud {
     this.set('sk-staff', 'class', staff === 'hand' ? 'skill' : 'skill skill-out')
 
     // where the nearest camp is
+    const near = g.camps.nearest()
