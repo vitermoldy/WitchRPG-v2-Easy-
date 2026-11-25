@@ -80,3 +80,4 @@ export class Game implements UnitHost {
   readonly shots: Projectiles
   derived: Derived
   glow!: Particles
+  smoke!: Particles
