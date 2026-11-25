@@ -257,3 +257,4 @@ export class Sfx {
   }
 
   swap() {
+    if (!this.ok()) return
