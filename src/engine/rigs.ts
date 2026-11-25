@@ -647,3 +647,4 @@ const poseHydra: PoseFn = (p, u, t) => {
       else if (h.state === 'strike' || h.state === 'recover' || h.state === 'stagger') mode = 'down'
       target = h.aimAt
     } else if (i === 2 && (u.state === 'windup' || u.state === 'strike' || u.state === 'recover')) {
+      mode = u.state === 'windup' ? 'rear' : 'down'
