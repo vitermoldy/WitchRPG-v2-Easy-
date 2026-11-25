@@ -133,3 +133,4 @@ export class Obstacles {
       if (s.kind === CYL) {
         // signed distances outside the side and outside the caps; both negative means inside
         const rad = Math.hypot(x - s.x, z - s.z) - s.r
+        const top = s.y + s.h
