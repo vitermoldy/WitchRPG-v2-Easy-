@@ -153,3 +153,4 @@ export class Camps {
         this.shards.setColorAt(i, this.lit)
       }
     }
+    stones.castShadow = true
