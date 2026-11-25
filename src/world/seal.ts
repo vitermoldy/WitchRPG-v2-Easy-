@@ -59,3 +59,4 @@ export class Seal {
       pos.push(ax, ha, -ay, bx, hb, -by, bx, hb + H, -by, ax, ha, -ay, bx, hb + H, -by, ax, ha + H, -ay)
       uv.push(0, 0, 1, 0, 1, 1, 0, 0, 1, 1, 0, 1)
     }
+    for (let i = 0; i < this.n; i++) {
