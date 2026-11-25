@@ -424,3 +424,4 @@ def scatter_object(name, coll, proto_ob, pts, rots, scales):
 
 
 # tree mix per zone: kind -> weight; density in trees per 100 m2
+MIX = {
