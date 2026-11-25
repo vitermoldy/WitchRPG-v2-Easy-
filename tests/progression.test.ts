@@ -196,3 +196,4 @@ describe('version 1: tiers, ranks and growth', () => {
   })
 })
 
+describe('Tier IV and V', () => {
