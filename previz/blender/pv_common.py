@@ -698,3 +698,4 @@ def sky_world(name, zenith, horizon, ground, strength=1.0, haze=None, haze_densi
         vol.inputs["Color"].default_value = rgb(haze)
         vol.inputs["Density"].default_value = haze_density
         vol.inputs["Anisotropy"].default_value = 0.3
+        L.new(vol.outputs[0], out.inputs["Volume"])
