@@ -628,3 +628,4 @@ def b_minotaur(r, pose="idle"):
     hp = V(J["hip"])
     for i in range(9):
         a = math.radians(-80 + i * 20)
+        top = hp + Vector((math.sin(a) * 0.3, -math.cos(a) * 0.22, 0.05))
