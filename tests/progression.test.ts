@@ -64,3 +64,4 @@ describe('Umbra Rite chance', () => {
   })
   it('clamps between 10% and 90%', () => {
     expect(riteChance('marsekal', 1, 20, 5)).toBe(0.1)
+    expect(riteChance('prajurit', 30, 1, 60)).toBe(0.9)
