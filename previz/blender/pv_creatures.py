@@ -1027,3 +1027,4 @@ def b_samael(r):
     for s in (1, -1):
         feather_wing(t, (0.12 * s, J["back"][1], J["z"]["sh"] + 0.05), s, 4.4, 2.2, raise_deg=58, sweep_deg=18, feathers=11, tip_mat="accent", arm="membrane")
         feather_wing(t, (0.1 * s, J["back"][1], J["z"]["chest"] - 0.2), s, 2.6, 1.3, raise_deg=-20, sweep_deg=30, feathers=8, tip_mat="accent", arm="membrane")
+    hd = r.parts["hand_R"]
