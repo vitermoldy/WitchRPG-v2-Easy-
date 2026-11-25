@@ -713,3 +713,4 @@ export class Game implements UnitHost {
     this.spells.chaos = 0
     p.alive = true
     p.petrified = 0
+    p.poisonT = 0
