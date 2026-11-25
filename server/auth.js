@@ -212,3 +212,4 @@ export function createAuth({ getPool, cookie, lang, deviceCode, newDevice }) {
     res.status(201).json({ user: publicUser(rows[0]), device })
   })
 
+  router.post('/login', limited, async (req, res) => {
