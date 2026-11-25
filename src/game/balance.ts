@@ -948,3 +948,4 @@ export const HYDRA = {
   severShare: 0.08,
   /** Imps spewed by each slam in phase 1, and the most that stand at once. */
   impsPerSlam: 2,
+  maxImps: 6,
