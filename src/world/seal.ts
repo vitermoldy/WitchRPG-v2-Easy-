@@ -105,3 +105,5 @@ export class Seal {
   blocks(x: number, z: number, fx?: number, fz?: number): boolean {
     if (this.open || !this.sealedAt(x, z)) return false
     return fx === undefined || fz === undefined || !this.sealedAt(fx, fz)
+  }
+
