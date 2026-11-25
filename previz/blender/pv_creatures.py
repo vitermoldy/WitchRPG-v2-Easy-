@@ -831,3 +831,4 @@ def b_phoenix(r):
     for i in range(5):
         a = math.radians(-30 + 15 * i)
         h.tube([hc + Vector((math.sin(a) * 0.04, 0.05, 0.06)), hc + Vector((math.sin(a) * 0.15, 0.3, 0.35)), hc + Vector((math.sin(a) * 0.22, 0.6, 0.45))], [0.03, 0.02, 0.0], mat="glow", seg=5, n=3)
+    for s in (1, -1):
