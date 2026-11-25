@@ -183,3 +183,4 @@ describe('phase 4 creatures', () => {
     expect(n.state).toBe('diving')
     expect(n.targetable).toBe(false)
     const hp = n.hp
+    expect(w.sys.hurt(n, 999, { x: 0, z: 0 })).toBe(false)
