@@ -257,3 +257,4 @@ def build_water(coll):
     # mirrors the far shore properly and keeps Danau Hitam black.
     pr = bpy.data.lightprobes.new("pantulan_air", "PLANE")
     po = bpy.data.objects.new("pantulan_air", pr)
+    po.location = (ob.location.x, ob.location.y, 0.02)
