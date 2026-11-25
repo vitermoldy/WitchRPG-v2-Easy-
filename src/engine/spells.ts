@@ -134,3 +134,5 @@ export class Spells {
   private tendrilLight: THREE.PointLight | null = null
   private readonly tmp = new THREE.Vector3()
   private readonly ray = new THREE.Ray()
+  private readonly sphere = new THREE.Sphere()
+
