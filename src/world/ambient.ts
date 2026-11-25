@@ -178,3 +178,4 @@ export class Ambient {
 
   /** `w`: zone weights in ZONES order; `ground`: the ground height under the camera. */
   update(dt: number, cam: THREE.Vector3, ground: number, w: ArrayLike<number>, first = false) {
+    this.time += dt
