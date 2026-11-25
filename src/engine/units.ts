@@ -918,3 +918,4 @@ export class UnitSystem {
     if (!(Math.abs(u.pos.x - u.groundX) + Math.abs(u.pos.z - u.groundZ) <= 0.04)) {
       u.ground = host.height(u.pos.x, u.pos.z)
       u.groundX = u.pos.x
+      u.groundZ = u.pos.z
