@@ -68,3 +68,4 @@ Salin `.env.example` menjadi `.env` dan isi akun MySQL. Server membuat database 
 | --- | --- |
 | Tahan klik kanan | Bidik |
 | Saat membidik: klik kiri | Hex Bolt; menjatuhkan Harpy dari udara |
+| Saat membidik: tahan klik kiri | Telekinesis pada makhluk, atau pada batu di pulau sarang Hydra; lepas untuk melempar ke titik bidik |
