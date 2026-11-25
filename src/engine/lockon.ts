@@ -8,3 +8,5 @@ export interface Target {
   z: number
   height: number
   alive: boolean
+}
+
