@@ -163,3 +163,4 @@ function segCylinder(ax: number, ay: number, az: number, dx: number, dy: number,
     c1 = Infinity
   } else {
     const b = 2 * (ox * dx + oz * dz)
+    const disc = b * b - 4 * a * c
