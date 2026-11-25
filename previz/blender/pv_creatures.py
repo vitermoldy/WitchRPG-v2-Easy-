@@ -270,3 +270,4 @@ def dog_head(part, at, fwd=(0, -1, 0), s=1.0, jaw_open=25, ears=True, mane=False
         for i in range(16):
             ang = 2 * math.pi * i / 16
             d = (side * math.cos(ang) + UP * math.sin(ang))
+            base = a - F * 0.08 * s + d * 0.15 * s
