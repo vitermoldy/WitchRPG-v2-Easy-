@@ -114,3 +114,4 @@ describe('phase 5 creatures', () => {
     expect(ph.state).toBe('dead')
   })
 
+  it('an executed Phoenix does not rise again', () => {
