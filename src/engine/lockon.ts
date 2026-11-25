@@ -89,3 +89,4 @@ export class LockOn {
       this.current = null
       return
     }
+    this.lost = visible ? 0 : this.lost + dt
