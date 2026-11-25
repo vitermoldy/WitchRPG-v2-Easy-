@@ -608,3 +608,4 @@ button {
 }
 
 .parry-flash.on {
+  animation: parry 0.35s ease-out;
