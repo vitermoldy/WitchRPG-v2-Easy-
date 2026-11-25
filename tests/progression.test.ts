@@ -112,3 +112,4 @@ describe('upgrades and shadows', () => {
     for (let i = 0; i < 250; i++) expect(addShadow(p, i % 2 ? 'husk' : 'hound', 1)).not.toBeNull()
     expect(p.shadows.length).toBe(250)
     expect(new Set(p.shadows.map((s) => s.id)).size).toBe(250)
+  })
