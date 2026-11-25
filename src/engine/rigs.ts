@@ -653,3 +653,4 @@ const poseHydra: PoseFn = (p, u, t) => {
     let yaw = 0
     if (target && mode !== 'limp') {
       const want = Math.atan2(target.x - u.pos.x, target.z - u.pos.z)
+      yaw = Math.max(-1.1, Math.min(1.1, Math.atan2(Math.sin(want - u.yaw), Math.cos(want - u.yaw)))) / D
