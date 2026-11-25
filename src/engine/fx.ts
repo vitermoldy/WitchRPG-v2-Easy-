@@ -286,3 +286,4 @@ export class Rings {
         opacity: 0,
         blending: THREE.AdditiveBlending,
         depthWrite: false,
+        side: THREE.DoubleSide,
