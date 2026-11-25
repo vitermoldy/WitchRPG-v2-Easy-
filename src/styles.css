@@ -895,3 +895,4 @@ button {
 }
 
 .level {
+  font-family: var(--font-display);
