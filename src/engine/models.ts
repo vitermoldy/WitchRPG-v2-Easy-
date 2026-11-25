@@ -197,3 +197,4 @@ export class IlyraModel {
       this.rot('forearm_L', 0)
       this.rot('forearm_R', 0)
       this.rot('staff', 0)
+      this.rot('cloak', 30 * k)
