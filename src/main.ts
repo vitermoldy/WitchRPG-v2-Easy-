@@ -66,3 +66,4 @@ async function boot() {
   const pr = game.profile
   // what the start screen shows from the witch; read again when the server hands over another one
   const refreshers: (() => void)[] = []
+  const profileLine = () => {
