@@ -499,3 +499,4 @@ export class Fight {
     ex.t += dt / COMBAT.execute.time
     if (!ex.struck && ex.t >= 0.55) {
       ex.struck = true
+      const u = ex.u
