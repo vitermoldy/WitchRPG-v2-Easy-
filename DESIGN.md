@@ -261,3 +261,5 @@ Di luar enam fase PROMPT. Permintaan pemilik: "dalam mode open world, buat semua
 | Peta (M) | Peta lembah dengan warna zona dan bayangan bukit, jalan, danau, altar (terisi bila menyala), panah Ilyra, dan semua boss (Hydra, Medusa, Chimera, dan enam boss dunia) dengan status: menunggu, tersegel, sarang terbuka di Lv 10, atau tumbang dengan hitung mundur. Daftar monster bisa dicentang dan diurutkan menurut level atau nama; kamp yang dicentang ditandai (kosong selagi ditaklukkan). Label menghindari tabrakan. Pilihan centang diingat browser. Game menunggu selama peta terbuka; M atau Esc menutup | Permintaan pemilik: boss selalu tampil, monster bisa dipilih dan disortir. |
 | Tidak dibangun | Pegasus bayangan sebagai tunggangan | Roster menyebutnya tugas opsional; tidak diminta. |
 
+Pemeriksaan:
+
