@@ -187,3 +187,4 @@ export const WORLD_BOSSES = ['cerberus', 'lilith', 'dragon', 'atlas', 'typhon', 
 export const FAUNA = ['pegasus', 'unicorn'] as const
 export type V2Kind = (typeof V2_KINDS)[number]
 
+/**
