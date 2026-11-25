@@ -35,3 +35,4 @@ Action-RPG third-person dengan rasa God of War di hutan terbuka, memakai sistem 
 | Telegraf amber | Cincin yang bisa ditahan atau di-parry: cincin dalam terang plus cincin luar redup penanda area | Render 04. Garis tebal berkedip untuk serangan yang harus di-dodge belum dibuat di previz. |
 | Altar | Cahaya teal `#9ff2e0` | Bukan merah Chaos, ungu Umbra, atau amber musuh. |
 | Tongkat | Dipegang tangan kanan (tangan Umbra), sigil merah Chaos di kepala tongkat | Tangan kiri tetap bebas untuk Hex Bolt dan Telekinesis saat membidik. |
+| Model block-out | Dibangun dari bagian bernama yang punya pivot sendiri (pelvis, torso, kepala, lengan atas, lengan bawah, tangan, paha, betis, leher Hydra per ruas) | Bisa dianimasikan prosedural seperti `models.ts` v1 kalau rig per tulang terlalu mahal. Animatic sudah memakai cara ini untuk langkah Ilyra dan leher Hydra. |
