@@ -36,3 +36,5 @@ FOV di bawah ini selalu vertikal, sama dengan `PerspectiveCamera.fov` di Three.j
 | Bidik (tahan RMB) | 2,0 m | 0,65 m | 1,6 m | 40° | 66° | -4° |
 | Lock-on | sama dengan normal, mundur sampai +1,6 m untuk target di atas 6 m | 0,8 m | 1,6 m, turun 0,3 m saat mundur | 50°, naik sampai 56° | | target di 2/3 lebar, 1/3 tinggi dari atas |
 
+Varian yang dibandingkan di `00-kamera-varian.png`:
+
