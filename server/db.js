@@ -68,3 +68,4 @@ export async function connect(db) {
   const pool = mysql.createPool({ ...db, connectionLimit: 8, timezone: 'Z' })
   // Auth first: nothing else refers to users, and clients must exist before the game tables.
   for (const sql of [...AUTH_TABLES, ...TABLES]) await pool.query(sql)
+  return pool
