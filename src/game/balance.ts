@@ -856,3 +856,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     summonKind: 'harpy',
     attacks: [
       { name: 'hantam badai', strike: 'ring', windup: 1.3, recover: 1.2, range: 7, ring: 4.6 },
+      { name: 'lecut ular', strike: 'line', windup: 0.9, recover: 1.2, range: 15, minRange: 4, lungeSpeed: 10, lungeTime: 0.6, cooldown: 5 },
