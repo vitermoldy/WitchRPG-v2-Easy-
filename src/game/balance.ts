@@ -979,3 +979,4 @@ export const SHADOW = { hpMult: 2.2, damageMult: 1.2, speedMult: 1.15, followDis
 
 /** What raised shadows of the bigger ranks can do on their own. */
 export const SHADOW_SKILL = {
+  /** Rift Lord (Jenderal): calls two short-lived shadow husks. */
