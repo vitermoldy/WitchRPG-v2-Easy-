@@ -626,3 +626,4 @@ def build_temple(coll, pal):
         x, y = cx + math.cos(a) * 7.5, cy + math.sin(a) * 6.0
         hgt = (7.5, 3.0, 6.2, 7.5, 1.6, 7.5, 4.4, 7.5, 2.3, 6.8, 7.5, 3.6)[k]
         p.limb((x, y, top), (x, y, top + hgt), 0.55, 0.48, mat="stone", seg=10, joints=False)
+        p.box((x, y, top + 0.2), (1.4, 1.4, 0.4), mat="stone")
