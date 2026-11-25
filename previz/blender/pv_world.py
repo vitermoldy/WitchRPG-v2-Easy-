@@ -143,3 +143,4 @@ def build_terrain(coll, size=1300.0, step=2.5):
     n = int(size / step) + 1
     xs = np.linspace(-size / 2, size / 2, n)
     X, Y = np.meshgrid(xs, xs, indexing="xy")
+    Z = height(X, Y)
