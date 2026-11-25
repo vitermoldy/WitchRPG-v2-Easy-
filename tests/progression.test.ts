@@ -139,3 +139,4 @@ describe('thrown bodies', () => {
     const crate = impactDamage(30, SPELL.grip.throwSpeed, c.coefficient, c.exponent)
     const car = impactDamage(450, SPELL.grip.heavyThrowSpeed, c.coefficient, c.exponent)
     expect(crate).toBeGreaterThan(20)
+    expect(car).toBeGreaterThan(crate * 2)
