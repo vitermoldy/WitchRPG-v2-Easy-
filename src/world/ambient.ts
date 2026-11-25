@@ -160,3 +160,4 @@ export class Ambient {
   }
 
   private respawn(i: number, cam: THREE.Vector3, ground: number, w: ArrayLike<number>, anywhere: boolean) {
+    const k = this.pick(w)
