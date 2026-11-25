@@ -452,3 +452,4 @@ export class ShadowPools {
     p.mesh.scale.setScalar(radius)
     p.mesh.visible = true
     p.radius = radius
+    p.t = -delay
