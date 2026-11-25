@@ -493,3 +493,4 @@ def stack_png(paths, out, pad=0, bg=(0, 0, 0)):
         px = np.empty(w * h * 4, np.float32)
         im.pixels.foreach_get(px)
         y -= h
+        canvas[y:y + h, 0:w] = px.reshape(h, w, 4)
