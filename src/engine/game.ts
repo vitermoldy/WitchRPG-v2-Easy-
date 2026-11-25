@@ -1179,3 +1179,4 @@ export class Game implements UnitHost {
         alive: u.alive,
         state: u.state,
         t: u.t,
+        strike: u.spec.strike ?? 'ring',
