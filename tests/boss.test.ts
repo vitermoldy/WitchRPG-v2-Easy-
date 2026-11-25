@@ -52,3 +52,4 @@ describe('the Hydra', () => {
     expect(hydraShare(2, 'melee', false)).toBe(1)
   })
 
+  it('a boulder from the islands hits for about 74 before her Hex, 111 on the slimy skin', () => {
