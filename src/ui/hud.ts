@@ -344,3 +344,4 @@ export class Hud {
     for (const u of g.units.units) {
       if (u.team !== 'enemy' || !u.targetable || u.spec.boss) continue
       const d2 = (u.pos.x - p.x) ** 2 + (u.pos.z - p.z) ** 2
+      if (u.barShown <= 0 && !(u.aggro && d2 < 18 * 18) && !(u.elite && d2 < 35 * 35) && u !== g.lockon.current) continue
