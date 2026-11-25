@@ -171,3 +171,4 @@ def build_terrain(coll, size=1300.0, step=2.5):
     quads = np.stack([a, a + 1, a + n + 1, a + n], axis=1).astype(np.int32)
     me.loops.add(len(quads) * 4)
     me.loops.foreach_set("vertex_index", quads.ravel())
+    me.polygons.add(len(quads))
