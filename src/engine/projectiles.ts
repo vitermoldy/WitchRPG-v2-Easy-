@@ -9,3 +9,4 @@ interface Shot {
   prev: THREE.Vector3
   vel: THREE.Vector3
   gravity: number
+  radius: number
