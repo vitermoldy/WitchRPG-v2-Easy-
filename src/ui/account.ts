@@ -117,3 +117,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
   async function sync(): Promise<void> {
     try {
       const remote = await fetchProfile()
+      const local = game.profile
