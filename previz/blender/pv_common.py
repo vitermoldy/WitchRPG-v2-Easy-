@@ -554,3 +554,4 @@ def bounds(coll, skip=()):
         for v in ob.data.vertices:
             w = mw @ v.co
             lo = Vector((min(lo.x, w.x), min(lo.y, w.y), min(lo.z, w.z)))
+            hi = Vector((max(hi.x, w.x), max(hi.y, w.y), max(hi.z, w.z)))
