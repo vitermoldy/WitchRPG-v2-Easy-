@@ -805,3 +805,4 @@ def b_hippogriff(r):
     Q = quad(r, 1.9, 2.5, 0.75, 0.9, 0.08, front="talon", hind="hoof", foot_mat="hoof")
     nb = V(Q["neck_base"])
     hp = nb + Vector((0, -0.3, 0.7))
+    n = r.P("head", nb, "body")
