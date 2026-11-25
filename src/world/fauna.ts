@@ -9,3 +9,4 @@ import { ALTARS, toWorld } from './map'
  * like a camp, so the far ones cost nothing.
  */
 
+const WAKE = 110
