@@ -164,3 +164,4 @@ export class Telegraphs {
 
   /** Active telegraphs, for the debug readout and the test bot. */
   get active() {
+    return this.byUnit.size
