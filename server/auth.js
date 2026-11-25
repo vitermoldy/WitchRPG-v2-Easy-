@@ -169,3 +169,4 @@ export function createAuth({ getPool, cookie, lang, deviceCode, newDevice }) {
       req.user = user
       next()
     } catch (err) {
+      next(err)
