@@ -692,3 +692,4 @@ export class Spells {
         m.uniforms.uFade.value = fade
       }
       const left = w.duration - w.t
+      for (const u of g.units.units) {
