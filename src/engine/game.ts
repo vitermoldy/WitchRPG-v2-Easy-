@@ -935,3 +935,4 @@ export class Game implements UnitHost {
       blockPressed: canAct && !air && inp.pressed('KeyC'),
       execute: canAct && inp.pressed('KeyF'),
       throwStaff: canAct && inp.pressed('KeyH'),
+      dirX: f.x * steer.y + r.x * steer.x,
