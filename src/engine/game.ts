@@ -738,3 +738,4 @@ export class Game implements UnitHost {
       const spot = this.umbra.spot(u.slot)
       u.pos.copy(spot)
       u.vel.set(0, 0, 0)
+      u.groundX = NaN
