@@ -124,3 +124,4 @@ export class Combo {
     if (this.charging >= 0) {
       if (held) {
         this.charging += dt
+        if (this.charging >= COMBAT.heavyHold) {
