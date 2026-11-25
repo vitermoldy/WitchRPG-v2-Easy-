@@ -273,3 +273,4 @@ export class WorldMap {
 
     // paths
     ctx.strokeStyle = 'rgba(232, 214, 176, 0.75)'
+    ctx.lineWidth = Math.max(1.5, size / 380)
