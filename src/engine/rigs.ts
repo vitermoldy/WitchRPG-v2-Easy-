@@ -1038,3 +1038,4 @@ export class Rigs {
         this.group.remove(part.mesh)
         part.mesh.dispose()
         part.mesh = new THREE.InstancedMesh(part.geometry, part.material, cap)
+        part.mesh.instanceMatrix.setUsage(THREE.DynamicDrawUsage)
