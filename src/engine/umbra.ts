@@ -478,3 +478,4 @@ export class Umbra {
       }
       g.saveSoon()
     } else {
+      g.sfx.riteResult(false)
