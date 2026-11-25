@@ -1165,3 +1165,4 @@ export class Game implements UnitHost {
     return this.lockon.switchSide(this.units.enemies(), this.player.pos, side)
   }
 
+  /** ?debug: what the bot may know about each creature near her (the same things a player sees). */
