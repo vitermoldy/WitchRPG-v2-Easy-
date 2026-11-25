@@ -519,3 +519,5 @@ export class Lair {
       this.land(body, slam)
       body.set('recover')
     } else if (body.state === 'recover' && body.t >= slam.recover) body.set('move')
+  }
+
