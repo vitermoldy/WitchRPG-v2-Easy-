@@ -54,3 +54,4 @@ export interface IlyraPose {
   parry: number
   /** Execution progress 0 to 1, or -1. */
   execute: number
+  /** Staff throw and catch, 0 to 1 while they play, else -1. */
