@@ -662,3 +662,4 @@ export class UnitSystem {
       u.token = false
       const far = Math.hypot(u.home.x - u.pos.x, u.home.z - u.pos.z)
       this.steer(u, u.home.x, u.home.z, u.speed * (far > 6 ? 1 : 0.4), dt, 2.5)
+      if (far > 2.5) this.face(u, u.home.x, u.home.z, dt, 4)
