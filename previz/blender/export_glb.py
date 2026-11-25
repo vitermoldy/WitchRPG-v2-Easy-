@@ -34,3 +34,4 @@ if "--ratio" in argv:
     i = argv.index("--ratio")
     RATIO = float(argv[i + 1])
     argv = argv[:i] + argv[i + 2:]
+SHRINK = LOD or RATIO
