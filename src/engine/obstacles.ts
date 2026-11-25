@@ -180,3 +180,4 @@ function segCylinder(ax: number, ay: number, az: number, dx: number, dy: number,
     const ta = (y0 - ay) / dy
     const tb = (y1 - ay) / dy
     h0 = Math.min(ta, tb)
+    h1 = Math.max(ta, tb)
