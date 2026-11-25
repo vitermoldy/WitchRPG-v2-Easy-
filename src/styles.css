@@ -1423,3 +1423,4 @@ dialog::backdrop {
 }
 
 .stat-name small {
+  color: var(--ink-3);
