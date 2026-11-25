@@ -366,3 +366,5 @@ def foam_rings(local, hy, inst, mat=None):
     disc(local, "busa.tubuh", (inst.location.x, inst.location.y), 6.5, mat_ring("busa_lebar", "#cfe0d8", 1.2, inner=0.8, alpha=0.6, fill=0.03)).location.z = 0.03
 
 
+# ---------------------------------------------------------------- 06 army rising
+
