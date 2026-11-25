@@ -1213,3 +1213,4 @@ export const COMBAT = {
     recallSpeed: 34,
     recallDamage: 12,
     recallStun: 16,
+    /** She catches it when it comes within this distance of her hand. */
