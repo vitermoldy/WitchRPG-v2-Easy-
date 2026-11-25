@@ -654,3 +654,4 @@ def b_cyclops(r):
     hc = V(J["head_c"]) + Vector((0, -0.04, -0.06))
     h.ell(hc, (0.27, 0.29, 0.31), mat="skin")
     h.ell(hc + Vector((0, -0.22, 0.06)), (0.12, 0.07, 0.11), mat="sclera", seg=12, rings=8)
+    h.ell(hc + Vector((0, -0.28, 0.06)), (0.055, 0.03, 0.055), mat="eye", seg=10, rings=6)
