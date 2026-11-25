@@ -68,3 +68,4 @@ log("makhluk", len(lib_colls))
 with open(os.path.join(TMP, "makhluk.json"), "w", encoding="utf-8") as fh:
     json.dump(stats, fh, indent=1)
 
+dunia, protos = Wd.build_world(lib)
