@@ -549,3 +549,4 @@ def ref_plane(coll, name, file, crop, centre, box):
     v0, v1 = 1 - y1 / H, 1 - y0 / H
     for li, (u, v) in enumerate(((u0, v0), (u1, v0), (u1, v1), (u0, v1))):
         uv.data[li].uv = (u, v)
+    m = bpy.data.materials.new(f"ref.{name}")
