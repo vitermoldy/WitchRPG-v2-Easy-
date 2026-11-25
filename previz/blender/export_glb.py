@@ -108,3 +108,4 @@ def emission_of(m):
     return None
 
 
+def flat(m):
