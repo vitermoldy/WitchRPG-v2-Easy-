@@ -1070,3 +1070,6 @@ def _horse(r, wings, horn):
     if wings:
         b = r.parts["body"]
         for s in (1, -1):
+            feather_wing(b, (0.22 * s, -0.35, Q["H"] + 0.05), s, 2.5, 1.3, raise_deg=50, sweep_deg=15, feathers=9, mat="membrane", tip_mat="accent", arm="membrane")
+
+
