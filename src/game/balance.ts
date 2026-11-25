@@ -185,3 +185,5 @@ export const V2_KINDS = [
 export const WORLD_BOSSES = ['cerberus', 'lilith', 'dragon', 'atlas', 'typhon', 'samael'] as const
 /** Wild creatures that never fight: Unicorns guard the altars, Pegasi drift over the meadows. */
 export const FAUNA = ['pegasus', 'unicorn'] as const
+export type V2Kind = (typeof V2_KINDS)[number]
+
