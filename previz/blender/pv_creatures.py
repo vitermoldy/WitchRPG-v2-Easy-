@@ -708,3 +708,4 @@ def b_medusa(r):
         base = hc + d * 0.08
         mid = base + d * 0.18 + Vector((0, 0, 0.1))
         tip = mid + Vector((d.x * 0.15, d.y * 0.12, 0.05 - 0.08 * (i % 3)))
+        m = "hair" if i % 3 else "snake"
