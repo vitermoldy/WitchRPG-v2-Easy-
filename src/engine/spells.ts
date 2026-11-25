@@ -562,3 +562,4 @@ export class Spells {
   }
 
   private burst(at: THREE.Vector3) {
+    const s = SPELL.burst
