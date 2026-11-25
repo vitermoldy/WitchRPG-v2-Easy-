@@ -13,3 +13,5 @@ With --ratio R the game model itself is decimated to about R (for block-outs ove
 With --lod R it writes <name>_lod.glb instead: every part decimated to about R of its triangles, for
 the far shadow army drawn as a crowd (parts under 60 triangles are left alone so eyes do not vanish)."""
 import os
+import sys
+
