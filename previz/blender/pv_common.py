@@ -166,3 +166,4 @@ def mat_tone(name, top, bottom=None, rough=0.7, metal=0.0, emit=None, emit_stren
     L.new(hsv.outputs["Color"], b.inputs["Base Color"])
     if emit:
         b.inputs["Emission Color"].default_value = rgb(emit)
+        b.inputs["Emission Strength"].default_value = emit_strength
