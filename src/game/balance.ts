@@ -270,3 +270,4 @@ export interface UnitSpec {
   rebirth?: { ashes: number; hp: number; burst: number; delay: number }
   /** v2: its rank for the Umbra Rite when it comes out elite (an elite Cyclops is a Jenderal). */
   eliteRank?: RankId
+  /** v2: drawn by the Hydra's rig (a head); has no model of its own. */
