@@ -135,3 +135,4 @@ export class Game implements UnitHost {
   private frameCount = 0
   private minClearance = Infinity
   private readonly v = new THREE.Vector3()
+  private gpu = ''
