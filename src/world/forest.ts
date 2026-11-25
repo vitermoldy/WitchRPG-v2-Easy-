@@ -265,3 +265,4 @@ export class Forest {
     const r2 = this.visibleRange * this.visibleRange
     for (let i = 0; i < this.trees.length; i++) {
       const t = this.trees[i]
+      const dx = t.x - x
