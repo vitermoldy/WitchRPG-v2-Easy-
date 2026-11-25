@@ -227,3 +227,4 @@ export class Player {
    * over the ground below, never lower than the ground or the water. Sinking onto ground she can stand
    * on lands her.
    */
+  private fly(dt: number, input: MoveInput, wx: number, wz: number, wl: number, face: number | null, g: Ground) {
