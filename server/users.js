@@ -24,3 +24,4 @@ if (rows.length === 0) {
       'terakhir masuk': when(r.last_login_at),
       'terakhir aktif': when(r.last_seen_at),
       'kali masuk': r.login_count,
+      level: r.level ?? 1,
