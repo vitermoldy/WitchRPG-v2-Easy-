@@ -1506,3 +1506,4 @@ dialog::backdrop {
 }
 
 .node.locked .node-name,
+.node.locked .node-effect {
