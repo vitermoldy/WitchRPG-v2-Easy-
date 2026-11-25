@@ -35,3 +35,4 @@ export interface Settings {
   sensitivity: number
   volume: number
   headBob: boolean
+  shake: boolean
