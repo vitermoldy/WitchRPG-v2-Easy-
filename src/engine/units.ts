@@ -893,3 +893,4 @@ export class UnitSystem {
           if (d2 >= min * min || d2 < 1e-6) continue
           const d = Math.sqrt(d2)
           // the heavier one gives way less
+          const share = o.mass / (o.mass + u.mass)
