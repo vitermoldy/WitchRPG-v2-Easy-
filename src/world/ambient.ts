@@ -205,3 +205,4 @@ export class Ambient {
     this.riftMat.uniforms.uFade.value = fade
     this.riftMat.uniforms.uTime.value = this.time
     this.rift.visible = fade > 0.02
+    if (this.rift.visible) {
