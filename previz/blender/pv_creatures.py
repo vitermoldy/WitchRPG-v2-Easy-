@@ -717,3 +717,4 @@ def b_chimera(r):
     """Tawny lion with a pale shaggy mane, a grey goat head with long dark horns, and a blue snake tail."""
     Q = quad(r, 2.3, 3.0, 1.0, 1.15, 0.12)
     nb = V(Q["neck_base"])
+    hp = nb + Vector((0, -0.3, 0.25))
