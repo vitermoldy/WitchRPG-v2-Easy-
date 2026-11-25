@@ -20,3 +20,4 @@ describe('the save', () => {
     expect(p.world.last).toBe('tebing')
   })
 
+  it('brings back level, stats, upgrades and the Shadow Room through JSON', () => {
