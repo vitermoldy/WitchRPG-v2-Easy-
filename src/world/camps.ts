@@ -14,3 +14,5 @@ export interface CampDef {
   elites?: number
   /** A boss of the open world: one creature, its own level, stands again after `CAMP.bossRespawn`. */
   boss?: boolean
+}
+
