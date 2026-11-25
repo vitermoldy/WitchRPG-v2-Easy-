@@ -468,3 +468,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   },
   // v2, Tebing Berangin: shoots from range and backs away. The arrow flies along a flashing line: roll aside.
   centaur: {
+    name: 'Centaur',
