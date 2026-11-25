@@ -117,3 +117,4 @@ Tur fitur (setiap skill sekali di game, `?debug`, Lv 10): Hex Bolt melukai Imp d
 
 Hasil ukur (pola v1: 20 makhluk yang terus bertarung ditambah N bayangan di medan, hutan penuh, 1920 × 1080, RTX 5070 Ti Laptop lewat ANGLE D3D11, setiap frame menunggu GPU, median 900 frame; kisaran dari 4 run):
 
+| Bayangan di medan | Median v2 | p95 v2 | Median v1 (kota, laptop yang sama) |
