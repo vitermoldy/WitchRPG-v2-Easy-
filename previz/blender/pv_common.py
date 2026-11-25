@@ -342,3 +342,4 @@ class Part:
         if d.length < 1e-5:
             return self
         M = self._M((a + b) / 2) @ rot_to(d)
+        g = bmesh.ops.create_cone(self.bm, cap_ends=True, cap_tris=False, segments=seg, radius1=ra, radius2=rb, depth=d.length, matrix=M)
