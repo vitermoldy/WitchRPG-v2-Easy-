@@ -9,3 +9,4 @@ export type Defense = 'parry' | 'block' | 'dodge' | 'hit'
  * - A ring (slow pulse) attack from in front is parried when block was pressed within the parry window
  *   before the blow, blocked when block is held, and hits otherwise. From behind it always hits.
  * angle: direction to the attacker relative to where she faces (radians, 0 = straight ahead).
+ */
