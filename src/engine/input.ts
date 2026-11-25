@@ -5,3 +5,4 @@ export class Input {
   private readonly releasedSet = new Set<string>()
   dx = 0
   dy = 0
+  locked = false
