@@ -98,3 +98,4 @@ export const SKILLS: SkillDef[] = [
     upgrade: 'Waktu cast jadi 1 detik.',
     built: true,
   },
+  {
