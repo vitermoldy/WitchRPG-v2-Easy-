@@ -481,3 +481,5 @@ button {
 .hitmark.on {
   border-color: var(--ink);
   transform: scale(1);
+}
+
