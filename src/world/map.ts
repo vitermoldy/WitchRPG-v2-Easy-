@@ -79,3 +79,4 @@ function mulberry32(seed: number) {
 }
 
 const LAT = (() => {
+  const rnd = mulberry32(20261124)
