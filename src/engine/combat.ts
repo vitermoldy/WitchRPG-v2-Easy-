@@ -30,3 +30,4 @@ export class StunMeter {
 
   /** Adds stun; returns true when this fills the meter and starts a stagger. */
   add(amount: number): boolean {
+    if (this.staggered > 0 || amount <= 0) return false
