@@ -271,3 +271,4 @@ interface Ring {
   r1: number
 }
 
+/** Flat shockwave rings on the ground. */
