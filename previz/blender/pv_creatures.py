@@ -1198,3 +1198,4 @@ def build(key, coll, kind=None, pose=None, lights=True):
 
 def ground_rig(r):
     """Lift or drop the rig so its lowest point touches z = 0."""
+    lo, hi = C.bounds(r.coll)
