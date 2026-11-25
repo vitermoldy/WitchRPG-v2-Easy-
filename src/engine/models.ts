@@ -292,3 +292,4 @@ export class IlyraModel {
       } else if (sw.t < k) {
         w = ease((sw.t - sw.windup) / sw.active)
         pose = { torso: mix(back.torso, through.torso, w), armX: mix(back.armX, through.armX, w), armY: mix(back.armY, through.armY, w), fore: mix(back.fore, through.fore, w) }
+      } else {
