@@ -275,3 +275,4 @@ export class Spells {
     const g = this.g
     this.boltCd = SPELL.bolt.cooldown
     const from = g.ilyra.hand('L')
+    const target = g.aim(80).point
