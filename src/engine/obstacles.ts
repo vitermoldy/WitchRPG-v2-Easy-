@@ -134,3 +134,4 @@ export class Obstacles {
         // signed distances outside the side and outside the caps; both negative means inside
         const rad = Math.hypot(x - s.x, z - s.z) - s.r
         const top = s.y + s.h
+        const vert = y < s.y ? s.y - y : y > top ? y - top : -Math.min(y - s.y, top - y)
