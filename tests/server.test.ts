@@ -4,3 +4,5 @@ import { cleanProfile } from '../server/app.js'
 import { FAUNA, V2_KINDS } from '../src/game/balance'
 import { ALTARS } from '../src/world/map'
 import { SKILLS } from '../src/game/skills'
+import { addShadow, newProfile } from '../src/game/progression'
+
