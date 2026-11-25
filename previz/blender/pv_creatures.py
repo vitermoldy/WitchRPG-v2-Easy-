@@ -792,3 +792,4 @@ def b_griffin(r):
     eagle_head(n, hp + Vector((0, -0.05, 0.08)), fwd=(0, -1, -0.15), s=1.9)
     b = r.parts["body"]
     b.ell(V(Q["chest"]) + Vector((0, -0.25, 0.1)), (0.48, 0.45, 0.58), mat="body2")
+    for s in (1, -1):
