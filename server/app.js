@@ -3,3 +3,4 @@ import express from 'express'
 import { createAuth } from './auth.js'
 
 /**
+ * The API:
