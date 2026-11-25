@@ -510,3 +510,4 @@ export function glowTexture(): THREE.Texture {
   grad.addColorStop(0.6, 'rgba(255,255,255,0.12)')
   grad.addColorStop(1, 'rgba(255,255,255,0)')
   g.fillStyle = grad
+  g.fillRect(0, 0, 128, 128)
