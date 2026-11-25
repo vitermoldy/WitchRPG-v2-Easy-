@@ -46,3 +46,4 @@ export class Input {
       this.locked = document.pointerLockElement === this.target
       if (!this.locked) this.releaseAll()
       this.onLockChange?.(this.locked)
+    })
