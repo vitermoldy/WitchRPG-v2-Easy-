@@ -147,3 +147,4 @@ export class Ledger {
       ['Damage', `${fmt(d.damageMult * 100)}%`],
       ['Jarak dodge', `${fmt(d.dodgeDistance, 2)} m`],
       ['Kekuatan bayangan', `${fmt(d.shadowPower * 100)}%`],
+    ]
