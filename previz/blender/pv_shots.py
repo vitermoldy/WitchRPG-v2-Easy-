@@ -346,3 +346,4 @@ def build_hydra(dunia, name="05-boss-hydra", res=(1920, 1080), samples=64):
     place(il, local, S[0], S[1], f)
     hy = actor("aktor.hydra", "hydra")
     hi = C.instance(hy.coll, local, loc=(H.x, H.y, -2.6), rot=(0, 0, yaw_to(-f)), name="hydra")
+    foam_rings(local, hy, hi)
