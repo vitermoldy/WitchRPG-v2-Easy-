@@ -421,3 +421,4 @@ export class Lair {
     }
   }
 
+  /** Keeps a head's slam circle where its neck can lay the head: between slamNear and slamReach from the body. */
