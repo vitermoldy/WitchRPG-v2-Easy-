@@ -629,3 +629,4 @@ def build_bara(dunia):
     place(il, local, P[0], P[1], f)
     fr = frame_of(P, f)
     cer = actor("aktor.cerberus.bara", "cerberus")
+    p = fr(22, 2)
