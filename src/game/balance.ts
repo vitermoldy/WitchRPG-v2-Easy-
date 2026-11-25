@@ -305,3 +305,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     recover: 0.9,
     cooldown: 1.8,
     lungeSpeed: 15,
+    lungeTime: 0.45,
