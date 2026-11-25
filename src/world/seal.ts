@@ -61,3 +61,4 @@ export class Seal {
     }
     for (let i = 0; i < this.n; i++) {
       for (let j = 0; j < this.n; j++) {
+        if (!this.mask[i * this.n + j]) continue
