@@ -48,3 +48,4 @@ const mix = (a: number, b: number, k: number) => a + (b - a) * k
 /** What she is doing with her hands this frame, from the fight, the spells and the Umbra layer. */
 export interface IlyraPose {
   /** A staff swing: which one, and how far into windup, active and recovery (seconds). */
+  swing: { index: number; heavy: boolean; t: number; windup: number; active: number; recover: number } | null
