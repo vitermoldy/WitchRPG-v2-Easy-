@@ -62,3 +62,4 @@ export class Obstacles {
         const list = this.grid.get(this.key(ix, iz))
         if (!list) continue
         for (const id of list) {
+          if (this.seen[id] === st) continue
