@@ -514,3 +514,4 @@ const poseChimera: PoseFn = (p, u, t) => {
   if (u.state === 'strike' || (u.state === 'recover' && u.t < 0.25)) {
     if (name === 'napas api') {
       p.body(0, 8)
+      p.rot('head_lion', 20)
