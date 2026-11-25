@@ -923,3 +923,4 @@ class Rig implements Poser {
       if (!h || !h.alive || (h.state !== 'strike' && h.state !== 'recover' && h.state !== 'stagger')) return
       const node = this.named.get('head' + k)
       if (!node) return
+      const at = this.hv.setFromMatrixPosition(node.matrixWorld).applyMatrix4(this.unitM)
