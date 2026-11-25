@@ -39,3 +39,4 @@ export class Obstacles {
     const z0 = Math.floor((s.z - s.r) / CELL)
     const z1 = Math.floor((s.z + s.r) / CELL)
     for (let ix = x0; ix <= x1; ix++) {
+      for (let iz = z0; iz <= z1; iz++) {
