@@ -12,3 +12,4 @@ import pv_shots as S
 import pv_world as Wd
 from pv_common import HEX, V
 
+FPS = 24
