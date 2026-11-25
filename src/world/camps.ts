@@ -129,3 +129,4 @@ export class Camps {
       return { def, pos: new THREE.Vector3(x, heightMap(def.c[0], def.c[1]), z), state: 'idle', units: [], respawnAt: 0, roused: false }
     })
     const stoneGeo = new THREE.DodecahedronGeometry(0.45, 0)
+    const stones = new THREE.InstancedMesh(stoneGeo, new THREE.MeshStandardMaterial({ color: 0x3b3633, roughness: 0.95 }), this.camps.length * STONES)
