@@ -25,3 +25,4 @@ export class Sfx {
     const comp = ctx.createDynamicsCompressor()
     comp.threshold.value = -14
     comp.ratio.value = 4
+    this.master.connect(comp).connect(ctx.destination)
