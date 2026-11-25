@@ -352,3 +352,4 @@ class Part:
     def cone(self, base, tip, r, mat="horn", seg=8, r2=0.0, smooth=True):
         a, b = V(base), V(tip)
         d = b - a
+        M = self._M((a + b) / 2) @ rot_to(d)
