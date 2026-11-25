@@ -137,3 +137,4 @@ export class CameraRig {
     this.lock += ((target ? 1 : 0) - this.lock) * Math.min(1, LOCKON.turn * dt)
     if (target) this.lastLock = target
     const p = this.params()
+    if (target) {
