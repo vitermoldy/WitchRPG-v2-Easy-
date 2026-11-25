@@ -1207,3 +1207,4 @@ button {
 .bossbar {
   position: absolute;
   top: calc(var(--gutter) + 0.4rem);
+  left: 50%;
