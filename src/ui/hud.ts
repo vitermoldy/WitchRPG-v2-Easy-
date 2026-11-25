@@ -276,3 +276,4 @@ export class Hud {
   /** The big bar while a mini-boss fights her. */
   private updateBoss() {
     const g = this.g
+    const p = g.player.pos
