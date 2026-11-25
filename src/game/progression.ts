@@ -148,3 +148,4 @@ const clamp = (v: number, lo: number, hi: number) => Math.min(hi, Math.max(lo, v
 
 /**
  * Chance that one Umbra Rite cast succeeds. Raw UMB counts, as in the GDD example. v2: a body she
+ * finished with an execution adds COMBAT.execute.riteBonus before the clamp.
