@@ -551,3 +551,4 @@ def ref_plane(coll, name, file, crop, centre, box):
         uv.data[li].uv = (u, v)
     m = bpy.data.materials.new(f"ref.{name}")
     m.use_nodes = True
+    nt = m.node_tree
