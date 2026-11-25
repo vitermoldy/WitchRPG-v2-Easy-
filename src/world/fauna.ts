@@ -28,3 +28,4 @@ const MEADOWS: [number, number][] = [
 ]
 
 export class Fauna {
+  readonly spots: Spot[]
