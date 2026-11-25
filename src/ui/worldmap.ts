@@ -400,3 +400,4 @@ export class WorldMap {
     }
 
     // where she stands, pointing the way she faces (yaw 0 is north)
+    const p = g.player
