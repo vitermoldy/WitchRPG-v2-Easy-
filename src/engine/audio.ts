@@ -345,3 +345,4 @@ export class Sfx {
     if (!this.windNodes) {
       if (level <= 0) return
       const src = ctx.createBufferSource()
+      src.buffer = this.noiseBuf
