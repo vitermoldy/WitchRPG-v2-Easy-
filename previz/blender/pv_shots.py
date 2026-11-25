@@ -262,3 +262,4 @@ def build_variants(dunia):
 def build_valley(dunia):
     sd = Vector((0.75, -0.42, 0.5)).normalized()
     world = C.sky_world("langit_lembah", "#3d659c", "#e6e2da", "#30302c", 1.1, sun_dir=sd, sun_glow="#fff0d0", glow_power=30)
+    sc, local = shot_scene("02-lembah-hutan", dunia, world, -sd, "#fff0dc", 4.2, vol_end=2200, vol_tile="8", exposure=0.1)
