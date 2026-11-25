@@ -23,3 +23,4 @@ Setelah fase 6, atas permintaan pemilik: terbang, pandangan orang pertama, peta,
 Butuh Node 22 atau lebih baru dan browser dengan WebGL 2.
 
 ```bash
+npm install
