@@ -922,3 +922,6 @@ def b_hydra(r, heads=5):
         h = r.P(f"head{i}", hp, parent)
         dragon_head(h, hp + Vector((0, -0.4, 0.1)), fwd=(0, -1, -0.35), s=2.4 if i == 2 else 2.0, jaw_open=34, horns=False, crest=True)
         necks.append(js)
+    return necks
+
+
