@@ -434,3 +434,4 @@ def build_lineup(lib_colls, stats):
             corners = [Vector((xx, yy, 0)) for xx in (lo.x, hi.x) for yy in (lo.y, hi.y)]
             rx = [c.x * math.cos(a) - c.y * math.sin(a) for c in corners]
             w = max(rx) - min(rx)
+            C.instance(lc, coll, loc=(x - min(rx), 0, 0), rot_z=rot)
