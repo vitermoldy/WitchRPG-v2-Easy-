@@ -57,3 +57,4 @@ describe('stun meter and execution', () => {
   it('adds 0.15 to the Umbra Rite chance of an executed body, inside the v1 clamp', () => {
     expect(COMBAT.execute.riteBonus).toBe(0.15)
     // v1 example from the GDD stays exact
+    expect(riteChance('ksatria', 5, 5, 13)).toBeCloseTo(0.58, 3)
