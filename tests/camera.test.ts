@@ -59,3 +59,4 @@ describe('over-the-shoulder camera', () => {
   })
 
   it('stops in front of a trunk standing between her and the camera', () => {
+    const obs = new Obstacles()
