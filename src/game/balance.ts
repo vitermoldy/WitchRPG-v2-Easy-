@@ -431,3 +431,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     name: 'Hellhound',
     rank: 'prajurit',
     hp: 30,
+    damage: 12,
