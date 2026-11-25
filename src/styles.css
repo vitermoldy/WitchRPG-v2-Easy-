@@ -1522,3 +1522,4 @@ dialog::backdrop {
 .node-meta {
   margin: 0;
   color: var(--ink-3);
+  font-size: 0.78rem;
