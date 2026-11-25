@@ -313,3 +313,4 @@ export class Spells {
       const dir = this.tmp.subVectors(b.pos, b.prev).divideScalar(len || 1).clone()
       let best = g.obstacles.sweep(b.prev.x, b.prev.y, b.prev.z, b.pos.x, b.pos.y, b.pos.z, 0.05) * len
       let hitUnit: Unit | null = null
+      this.ray.set(b.prev, dir)
