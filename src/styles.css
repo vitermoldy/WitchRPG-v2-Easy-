@@ -222,3 +222,4 @@ button {
   display: grid;
   grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.25fr);
   gap: clamp(24px, 4vw, 64px);
+  /* safe: when the content is taller than the window it starts at the top instead of being cut off */
