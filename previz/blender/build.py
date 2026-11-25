@@ -104,3 +104,4 @@ if "variants" in ONLY:
     paths = []
     for sc in scenes["variants"]:
         p = os.path.join(TMP, f"{sc.name}.png")
+        C.render(sc, p, PCT)
