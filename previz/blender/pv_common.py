@@ -534,3 +534,4 @@ def tri_count(coll):
 
 
 def world_matrix(ob):
+    """matrix_world without a depsgraph update (parents use identity parent-inverse here)."""
