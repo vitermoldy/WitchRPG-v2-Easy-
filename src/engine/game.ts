@@ -58,3 +58,4 @@ export interface AimHit {
   unit: Unit | null
 }
 
+const FRAME_SAMPLES = 900
