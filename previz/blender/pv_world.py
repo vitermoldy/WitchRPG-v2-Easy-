@@ -157,3 +157,4 @@ def build_terrain(coll, size=1300.0, step=2.5):
     col = col * (1 - 0.6 * mud) + 0.6 * mud * _hex("#1a1d14")
     snow = smooth(150, 190, Z)[..., None]
     col = col * (1 - snow) + snow * _hex("#c9ced6")
+    pd = path_dist(X, Y)
