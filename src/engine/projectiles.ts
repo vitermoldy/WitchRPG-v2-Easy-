@@ -20,3 +20,4 @@ interface Shot {
   reflected: boolean
 }
 
+const globGeo = new THREE.IcosahedronGeometry(1, 1)
