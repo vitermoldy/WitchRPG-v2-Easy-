@@ -109,3 +109,4 @@ export class Ambient {
     const geo = new THREE.BufferGeometry()
     this.pos = new Float32Array(COUNT * 3)
     this.tint = new Float32Array(COUNT * 3)
+    this.size = new Float32Array(COUNT)
