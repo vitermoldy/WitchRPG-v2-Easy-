@@ -480,3 +480,4 @@ export class Game implements UnitHost {
     this.rig.yaw = yaw
     this.rig.pitch = (CAMERA.pitch * Math.PI) / 180
     this.rig.aim = 0
+    this.rig.lock = 0
