@@ -127,3 +127,4 @@ def build(dunia, res=(1280, 720), samples=24):
         sw = math.sin(phase) * amp
         breath = 0.0 if walking else math.sin(t * 2.2) * 1.2
         poses = {
+            "thigh_L": (-24 * sw, 0, 0), "thigh_R": (24 * sw, 0, 0),
