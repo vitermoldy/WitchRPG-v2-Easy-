@@ -126,3 +126,4 @@ export class Ledger {
     const d = derive(p.stats, p.level)
     const need = xpToNext(p.level)
     $('ledger-lv').textContent = `Lv ${p.level}`
+    $('ledger-xp-fill').style.transform = `scaleX(${Math.min(1, p.xp / need).toFixed(3)})`
