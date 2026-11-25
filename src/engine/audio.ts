@@ -245,3 +245,4 @@ export class Sfx {
       for (const [f, d] of [[146.8, 0], [174.6, 0.05], [220, 0.1], [293.7, 0.16]] as const) this.tone(t + d, 'triangle', f, f, 1.4, 0.14, 0.08)
       this.tone(t + 0.3, 'sine', 70, 40, 1, 0.4)
     } else {
+      this.tone(t, 'triangle', 330, 110, 0.8, 0.15)
