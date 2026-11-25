@@ -30,3 +30,4 @@ export const MOVE = {
     distance: 4.2,
     time: 0.42,
     /** She cannot be hit between these two moments of the roll (seconds from its start). */
+    iframeStart: 0.04,
