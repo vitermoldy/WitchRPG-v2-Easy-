@@ -66,3 +66,4 @@ export class Obstacles {
           this.seen[id] = st
           fn(this.shapes[id])
         }
+      }
