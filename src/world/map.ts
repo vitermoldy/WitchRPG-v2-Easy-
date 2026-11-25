@@ -217,3 +217,4 @@ export function pathDist(x: number, y: number): number {
       const t = Math.min(1, Math.max(0, ((x - ax) * dx + (y - ay) * dy) / (dx * dx + dy * dy)))
       best = Math.min(best, Math.hypot(x - (ax + t * dx), y - (ay + t * dy)))
     }
+  }
