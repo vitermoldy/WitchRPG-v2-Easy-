@@ -482,3 +482,4 @@ export class Fight {
     const p = g.player
     this.exec = { u, t: 0, struck: false }
     this.combo.cancel()
+    u.set('finishing')
