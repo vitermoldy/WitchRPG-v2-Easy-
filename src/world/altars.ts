@@ -54,3 +54,4 @@ export class Altars {
         const s = new THREE.Mesh(stoneGeo, stoneMat)
         const ang = (k / 3) * Math.PI * 2 + 0.4
         s.position.set(Math.cos(ang) * 1.35, 1.3, Math.sin(ang) * 1.35)
+        s.rotation.set(Math.sin(ang) * 0.12, -ang, Math.cos(ang) * 0.12)
