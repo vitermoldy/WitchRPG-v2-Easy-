@@ -167,3 +167,4 @@ export class Umbra {
       const r = this.reforming()
       g.hud.message(r.count ? `Semua bayangan sedang terbentuk kembali. Yang pertama siap dalam ${r.next} detik.` : 'Tidak ada bayangan yang bisa dipanggil.', 'umbra')
       return
+    }
