@@ -603,3 +603,4 @@ export class Game implements UnitHost {
     p.hp -= d
     this.counts.damageTaken += d
     this.hurtGrace = COMBAT.hurtGrace
+    this.fight.hurt()
