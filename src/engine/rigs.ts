@@ -982,3 +982,4 @@ export class Rigs {
   /** Shadows drawn in full detail; the rest join the crowd. */
   detail = 20
   private readonly ember = new THREE.Color()
+  private sortIn = 0
