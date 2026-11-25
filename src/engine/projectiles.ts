@@ -96,3 +96,4 @@ export class Projectiles {
 
       // Reality Warp turns it back on the creature that shot it
       if (!s.reflected && g.spells.inWarp(s.pos)) {
+        s.reflected = true
