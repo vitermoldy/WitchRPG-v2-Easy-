@@ -22,3 +22,5 @@ Tanpa `--anim` hanya still yang dirender (sekitar 1 menit). `--only hero,valley`
 | `renders/07-uji-lembah-bara.png` | Tambahan: uji keterbacaan Imp, Cerberus besar, Phoenix, dan tangan Ilyra di kabut oranye Lembah Bara |
 | `animatic.mp4` | 26 detik, 1280 × 720, 24 fps, satu kamera tanpa potongan |
 | `papan-makhluk.png` | Per makhluk: referensi pemilik di kiri, block-out di kanan, peran, rank Umbra Rite, zona, tinggi |
+| `witchrpg-v2-previz.blend` | Semua adegan: `Pustaka` (makhluk, dunia, prototipe), satu adegan per render, `animatic`, `papan-makhluk` |
+
