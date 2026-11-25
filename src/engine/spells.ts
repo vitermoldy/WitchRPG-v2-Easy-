@@ -407,3 +407,4 @@ export class Spells {
       if (u.spec.fly) u.downed = Math.max(u.downed, 3)
     }
     g.sfx.gripStart()
+    this.tendril.visible = true
