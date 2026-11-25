@@ -279,3 +279,4 @@ Permintaan pemilik: "itu ada WitchRPG-v2 (Easy), tinggal copy ini, data + akun +
 | Bagian | Keputusan | Alasan |
 | --- | --- | --- |
 | Salinan | Seluruh WitchRPG v2 setelah fase 7 disalin ke `C:\MyRepo\WitchRPG-v2-Easy-` (repo milik pemilik), tanpa `.git`, `node_modules`, dan `dist` | Permintaan pemilik. |
+| Umbra Rite | Selalu berhasil: peluang 100% untuk setiap rank, level, dieksekusi atau tidak (`EASY.riteChance`). Rumus v1 tetap di `progression.ts` dan tesnya tetap; Easy hanya tidak pernah di bawah 100%. Syarat rank tetap (Kebangkitan Jenderal di Lv 8, Kebangkitan Marsekal di Lv 10), begitu juga mana dan satu percobaan per tubuh | "Arise dengan persentase 100%" menyangkut peluangnya; syarat skill bukan persentase. |
