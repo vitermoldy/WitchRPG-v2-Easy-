@@ -842,3 +842,4 @@ class Rig implements Poser {
       part.mesh.dispose()
       const fresh = this.makePart(part.src, part.mat)
       part.chain = fresh.chain
+      part.geo = fresh.geo
