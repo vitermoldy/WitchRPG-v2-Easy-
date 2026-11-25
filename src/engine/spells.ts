@@ -276,3 +276,4 @@ export class Spells {
     this.boltCd = SPELL.bolt.cooldown
     const from = g.ilyra.hand('L')
     const target = g.aim(80).point
+    const base = target.clone().sub(from).normalize()
