@@ -21,3 +21,4 @@ export const lockPoint = (t: Target): Vec => ({ x: t.x, y: t.y + t.height * 0.62
  * out of range, or stays hidden behind trees for too long.
  */
 export class LockOn {
+  current: Target | null = null
