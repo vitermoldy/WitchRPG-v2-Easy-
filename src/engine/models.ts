@@ -333,3 +333,4 @@ export class IlyraModel {
       crouch = 0.22 * down * (1 - back)
     }
     if (act.throwK >= 0) {
+      const e = act.throwK
