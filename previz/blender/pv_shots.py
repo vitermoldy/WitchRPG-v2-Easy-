@@ -543,3 +543,4 @@ def ref_plane(coll, name, file, crop, centre, box):
     bw, bh = (box, box / aspect) if aspect >= 1 else (box * aspect, box)
     me = bpy.data.meshes.new(name)
     hw, hh = bw / 2, bh / 2
+    me.from_pydata([(-hw, 0, -hh), (hw, 0, -hh), (hw, 0, hh), (-hw, 0, hh)], [], [(0, 1, 2, 3)])
