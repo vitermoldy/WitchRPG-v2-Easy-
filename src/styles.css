@@ -234,3 +234,4 @@ button {
   font-size: clamp(2.6rem, 7.5vw, 6rem);
   line-height: 0.95;
   letter-spacing: -0.055em;
+  background: linear-gradient(90deg, var(--chaos-ink) 0%, var(--ink) 48%, var(--umbra-ink) 100%);
