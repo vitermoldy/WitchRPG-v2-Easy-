@@ -174,3 +174,4 @@ export class Umbra {
     const n = pick.length
     this.armyOut = true
     const feet = this.feet()
+    const base = this.field().length
