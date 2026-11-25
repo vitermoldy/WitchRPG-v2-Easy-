@@ -224,3 +224,4 @@ describe('phase 4 creatures', () => {
   })
 
   it('Chimera calls Imps while it fights, never more than four standing', () => {
+    const w = world()
