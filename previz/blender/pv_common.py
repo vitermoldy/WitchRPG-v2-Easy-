@@ -388,3 +388,4 @@ class Part:
             Nn = (Nn - T[i] * Nn.dot(T[i]))
             if Nn.length < 1e-6:
                 Nn = T[i].orthogonal()
+            Nn.normalize()
