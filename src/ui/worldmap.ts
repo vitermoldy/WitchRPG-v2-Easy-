@@ -49,3 +49,4 @@ export class WorldMap {
       if (Array.isArray(saved)) this.chosen = new Set(saved.filter((k) => k in UNITS))
     } catch {
       /* no saved choice: nothing is marked */
+    }
