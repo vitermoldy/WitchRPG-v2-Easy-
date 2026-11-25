@@ -158,3 +158,4 @@ class Staff {
       for (;;) {
         const h = this.sweepUnits(this.pos.distanceTo(this.prev))
         if (!h) break
+        this.hit.add(h.u)
