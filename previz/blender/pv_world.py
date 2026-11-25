@@ -40,3 +40,4 @@ CLEARINGS = [(SPOTS["hero"], 22), (SPOTS["army"], 16), (ALTAR, 16), (TEMPLE, 30)
 
 # ---------------------------------------------------------------- noise and height
 
+_rng = np.random.default_rng(20261124)
