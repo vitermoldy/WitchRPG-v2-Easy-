@@ -211,3 +211,4 @@ export class Player {
       this.flying = true
       this.dodgeT = -1
       this.nudgeT = 0
+      this.vy = Math.max(this.vy, 3)
