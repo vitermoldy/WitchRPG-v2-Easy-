@@ -246,3 +246,4 @@ export class LightPool {
   }
 
   update(dt: number) {
+    for (const s of this.slots) {
