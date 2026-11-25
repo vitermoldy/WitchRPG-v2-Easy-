@@ -450,3 +450,4 @@ export class Lair {
     const r = ringOf(atk)
     g.clearTelegraph(u)
     const low = p.pos.y - g.height(p.pos.x, p.pos.z) < 2.5
+    if (p.alive && low && Math.hypot(p.pos.x - u.aimAt.x, p.pos.z - u.aimAt.z) < r + MOVE.radius) g.strikePlayer(u, atk)
