@@ -79,3 +79,4 @@ const RIFT_FRAG = /* glsl */ `
     float rim = exp(-abs(d - w) * 140.0) * taper;
     float glow = exp(-max(0.0, d - w) * 11.0) * taper * 0.55;
     float pulse = 0.5 + 0.5 * sin(uTime * 1.6 + y * 18.0);
+    vec3 voidCol = vec3(0.07, 0.01, 0.06) + vec3(0.45, 0.04, 0.22) * pulse * 0.25;
