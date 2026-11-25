@@ -199,3 +199,4 @@ export function scatter(size = 1260, step = 4, seed = 3): Tree[] {
       let r2 = kindRoll
       let kind: Kind = entries[0][0]
       for (const [k, v] of entries) {
+        r2 -= v / total
