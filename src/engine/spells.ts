@@ -497,3 +497,4 @@ export class Spells {
     this.holdT = 0
     this.tendril.visible = false
     g.lights.release(this.tendrilLight)
+    this.tendrilLight = null
