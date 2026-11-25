@@ -720,3 +720,4 @@ def b_chimera(r):
     hp = nb + Vector((0, -0.3, 0.25))
     hd = r.P("head_lion", hp, "body")
     hd.limb(nb, hp, 0.36, 0.3)
+    dog_head(hd, hp + Vector((0, -0.12, 0.0)), fwd=(0, -1, -0.1), s=1.9, jaw_open=32, ears=True, mane=True)
