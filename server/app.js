@@ -117,3 +117,5 @@ export function createApi(getPool, database) {
   api.use('/auth', auth.router)
   api.use(auth.requireUser)
 
+  const touch = (db, client) => db.query('INSERT INTO clients (id) VALUES (?) ON DUPLICATE KEY UPDATE last_seen = CURRENT_TIMESTAMP', [client])
+
