@@ -343,3 +343,4 @@ def _grass(p):
 
 
 def _fern(p):
+    for k in range(7):
