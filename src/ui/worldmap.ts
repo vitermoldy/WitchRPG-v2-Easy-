@@ -285,3 +285,4 @@ export class WorldMap {
     ctx.textAlign = 'center'
     ctx.textBaseline = 'middle'
     const placed: [number, number, number, number][] = []
+    const label = (text: string, x: number, y: number, gap: number, color: string) => {
