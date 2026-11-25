@@ -42,3 +42,4 @@ describe('the forest valley', () => {
   it('blends zones that add up to one and name the zone at its own centre', () => {
     for (const z of ZONES) {
       const w = zoneWeights(z.c[0], z.c[1])
+      expect(w.reduce((s, v) => s + v, 0)).toBeCloseTo(1, 5)
