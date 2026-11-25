@@ -202,3 +202,4 @@ export class Ledger {
         return `<li class="room-group">
           <details data-group="${key}" ${this.openGroups.has(key) ? 'open' : ''}>
             <summary>
+              <span class="room-name">${RANKS[rank].label} ${UNITS[kind].name}</span>
