@@ -31,3 +31,4 @@ export interface UnitHost {
   strikeUnit(u: Unit, target: Unit, atk?: AttackSpec): void
   /** A ranged attack leaves the creature: an arrow along its line or a glob onto its circle. */
   fire(u: Unit, atk: AttackSpec): void
+  /** A thrown body hit another body (other) or the ground or a tree (other null) at this speed. */
