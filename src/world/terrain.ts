@@ -113,3 +113,4 @@ export class Terrain {
     // heights on a grid one step wider on every side, so normals match across chunk edges
     const g = n + 3
     const hs = new Float32Array(g * g)
+    for (let j = 0; j < g; j++) {
