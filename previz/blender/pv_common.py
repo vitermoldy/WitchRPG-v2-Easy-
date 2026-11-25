@@ -660,3 +660,4 @@ def sky_world(name, zenith, horizon, ground, strength=1.0, haze=None, haze_densi
     cr = ramp.color_ramp
     cr.elements[0].position = 0.0
     cr.elements[0].color = rgb(ground)
+    cr.elements[1].position = 1.0
