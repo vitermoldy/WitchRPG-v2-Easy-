@@ -559,3 +559,4 @@ export class UnitSystem {
     if (u.spec.fly) u.alt += (u.spec.fly.height * (0.7 + 0.3 * Math.sin(u.t * 0.4 + u.id)) - u.alt) * Math.min(1, dt)
   }
 
+  /** Succubus and Incubus: gone in a puff, back a dozen metres away from her. */
