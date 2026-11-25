@@ -806,3 +806,4 @@ button {
 
 .vitals {
   position: absolute;
+  left: var(--gutter);
