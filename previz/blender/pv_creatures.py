@@ -9,3 +9,4 @@ import pv_common as C
 from pv_common import HEX, V
 
 
+def X(p, s):
