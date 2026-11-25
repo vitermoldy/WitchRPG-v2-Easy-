@@ -166,3 +166,4 @@ export class Lair {
       h.pos.y = WATER_LEVEL + 9
       this.heads.push(h)
     }
+    body.parts = this.heads
