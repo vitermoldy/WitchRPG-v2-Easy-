@@ -17,3 +17,4 @@ const TABLES = [
     last_seen DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
   ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci`,
   `CREATE TABLE IF NOT EXISTS witches (
+    client_id CHAR(12) PRIMARY KEY,
