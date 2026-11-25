@@ -120,3 +120,4 @@ describe('upgrades and shadows', () => {
     gainXp(p, 300, ALL)
     expect(s.level).toBe(2)
     expect(s.level).toBeLessThanOrEqual(p.level)
+  })
