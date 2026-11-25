@@ -365,3 +365,4 @@ export class Warnings {
   update(dt: number) {
     for (const w of this.pool) {
       if (!w.group.visible) continue
+      w.t += dt
