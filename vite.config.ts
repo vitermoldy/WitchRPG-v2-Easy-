@@ -13,3 +13,4 @@ export default defineConfig({
   base: './',
   server: { port: Number(process.env.VITE_PORT ?? 5301), proxy: api },
   preview: { port: 4301, proxy: api },
+  // three.js alone is ~600 kB minified; the whole game is one bundle on purpose (about 900 kB, 250 kB gzipped).
