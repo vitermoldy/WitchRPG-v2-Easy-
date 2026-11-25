@@ -27,3 +27,4 @@ varying vec3 vDir;
 void main() {
   vec3 d = normalize(vDir);
   float h = d.y;
+  vec3 c = mix(horizon, zenith, smoothstep(0.02, 0.55, h));
