@@ -59,3 +59,4 @@ export class Atmosphere {
   /** Index of the zone with the largest share where she stands. */
   zone = 0
 
+  constructor(scene: THREE.Scene) {
