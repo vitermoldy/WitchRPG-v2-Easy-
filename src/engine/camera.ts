@@ -158,3 +158,4 @@ export class CameraRig {
     const t = this.frac
     return {
       pos: { x: pivot.x + (want.x - pivot.x) * t, y: pivot.y + (want.y - pivot.y) * t, z: pivot.z + (want.z - pivot.z) * t },
+      dir: forward(this.yaw, this.pitch),
