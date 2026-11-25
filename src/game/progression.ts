@@ -183,3 +183,4 @@ export function derive(stats: Stats, level = 1): Derived {
     damageMult: 1 + PLAYER.damagePerHex * above('hex') + PLAYER.damagePerLevel * grown,
     speedMult: 1 + PLAYER.speedPerAgi * above('agi'),
     dodgeDistance: MOVE.dodge.distance + MOVE.dodgePerAgi * above('agi'),
+    shadowPower: shadowPower(stats.umb),
