@@ -358,3 +358,4 @@ export class Spells {
     if (!first) {
       // a little aim help: the body closest to the aim line inside a narrow cone
       const o = g.camera.position
+      const f = g.camera.getWorldDirection(new THREE.Vector3())
