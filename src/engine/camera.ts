@@ -153,3 +153,4 @@ export class CameraRig {
     const want = wanted(pivot, this.yaw, this.pitch, p)
     const clear = clearFraction(pivot, want, obstacles, height)
     // Snap in at once so nothing is ever clipped; ease back out so the view does not jump.
+    if (clear < this.frac) this.frac = clear
