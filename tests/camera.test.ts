@@ -151,3 +151,4 @@ describe('over-the-shoulder camera', () => {
     const f = forward(0.3, -0.1)
     expect(Math.hypot(f.x, f.y, f.z)).toBeCloseTo(1, 6)
   })
+})
