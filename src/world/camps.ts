@@ -93,3 +93,4 @@ export interface Camp {
   /** Centre on the ground (world). */
   pos: THREE.Vector3
   state: 'idle' | 'active' | 'cleared'
+  units: Unit[]
