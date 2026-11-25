@@ -706,3 +706,4 @@ export class UnitSystem {
           u.alt += (0 - u.alt) * Math.min(1, dt * 6)
           this.face(u, tgt.pos.x, tgt.pos.z, dt)
           break
+        } else if (spec.keepAway) {
