@@ -874,3 +874,4 @@ def hydra_neck_joints(base, top, bend, k=8):
     pts, _ = C.catmull(ctrl, 8)
     cum = [0.0]
     for i in range(len(pts) - 1):
+        cum.append(cum[-1] + (pts[i + 1] - pts[i]).length)
