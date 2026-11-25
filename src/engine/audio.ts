@@ -178,3 +178,4 @@ export class Sfx {
     const osc2 = ctx.createOscillator()
     osc.type = 'sawtooth'
     osc2.type = 'sine'
+    osc.frequency.value = 74
