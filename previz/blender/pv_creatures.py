@@ -1148,3 +1148,4 @@ ROLE, RANK, ZONE, REF = 3, 4, 5, 6
 
 
 def ilyra_palette():
+    return {
