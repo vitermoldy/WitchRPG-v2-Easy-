@@ -146,3 +146,4 @@ export function createAuth({ getPool, cookie, lang, deviceCode, newDevice }) {
     setCookie(req, res, token, SESSION_DAYS * 86_400)
   }
 
+  /** The signed-in user, or null. Also notes when the account was last active. */
