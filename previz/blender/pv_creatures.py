@@ -568,3 +568,4 @@ def b_centaur(r):
     hd.limb(R + Vector((0, 0.05, 0)), W + Vector((0, -0.5, 0)), 0.006, 0.006, mat="wood", seg=4, joints=False)
     b = r.parts["body"]
     b.limb((0.22, 0.25, 1.5), (0.3, 0.65, 1.95), 0.08, 0.08, mat="cloth")
+    for k in range(3):
