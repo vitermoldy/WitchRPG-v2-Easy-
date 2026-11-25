@@ -29,3 +29,5 @@ export class Altars {
   private readonly g: Game
   private readonly lit = new THREE.Color(COLOR.umbra).multiplyScalar(2.4)
   private readonly dull = new THREE.Color(0x2a2430)
+  private spin = 0
+
