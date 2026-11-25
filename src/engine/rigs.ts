@@ -786,3 +786,4 @@ class Rig implements Poser {
   private readonly s = new THREE.Vector3()
 
   constructor(model: THREE.Group, kind: UnitKind, team: Team, group: THREE.Group, cap: number) {
+    this.group = group
