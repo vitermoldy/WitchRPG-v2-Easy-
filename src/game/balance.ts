@@ -1102,3 +1102,4 @@ export const TIERS: Record<TierId, TierSpec> = {
       { husk: 7, hound: 3, warden: 3, harrier: 4, bombard: 2, levels: [15, 15], elites: 4 },
       { riftlord: 2, husk: 5, warden: 2, bombard: 2, levels: [15, 15], elites: 2, eliteLords: true },
     ],
+  },
