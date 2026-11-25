@@ -48,3 +48,4 @@ export class Terrain {
   // double-sided so the skirts show whichever way they face
   readonly material = new THREE.MeshLambertMaterial({ vertexColors: true, side: THREE.DoubleSide })
   private readonly chunks: Chunk[] = []
+  private readonly w = new Float32Array(ZONES.length)
