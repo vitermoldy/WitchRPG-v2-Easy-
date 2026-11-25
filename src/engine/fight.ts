@@ -163,3 +163,4 @@ class Staff {
         g.units.down(h.u, 2.5)
         g.fight.stats.recallHits++
         g.sfx.hit(true)
+        g.hitstop(COMBAT.hitstop.light)
