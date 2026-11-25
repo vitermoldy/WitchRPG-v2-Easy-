@@ -220,3 +220,4 @@ def terrain_material():
     L.new(mul.outputs[0], mul2.inputs[0])
     b.inputs["Emission Color"].default_value = C.rgb("#ff5a1f")
     L.new(mul2.outputs[0], b.inputs["Emission Strength"])
+    bump = N.new("ShaderNodeBump")
