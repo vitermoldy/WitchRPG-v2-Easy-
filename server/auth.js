@@ -62,3 +62,4 @@ const MESSAGES = {
     passwordLong: `A password has at most ${PASSWORD_MAX} characters.`,
     taken: 'That username is taken. Pick another one.',
     wrong: 'Wrong username or password.',
+    signedOut: 'You are not signed in.',
