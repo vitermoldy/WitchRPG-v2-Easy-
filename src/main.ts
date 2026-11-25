@@ -176,3 +176,4 @@ async function boot() {
       $('lock-note').hidden = false
       return
     }
+    show(null)
