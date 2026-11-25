@@ -81,3 +81,4 @@ export class Terrain {
           want = c.meshes[1] && want === 0 ? 1 : 2
         }
       }
+      if (want !== c.lod) {
