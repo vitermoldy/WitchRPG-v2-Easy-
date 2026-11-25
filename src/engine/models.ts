@@ -316,3 +316,4 @@ export class IlyraModel {
     }
     if (act.execute >= 0) {
       // raise the staff high in both hands, drive it down, hold, then stand
+      const e = act.execute
