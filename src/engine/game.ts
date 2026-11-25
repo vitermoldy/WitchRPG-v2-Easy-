@@ -546,3 +546,4 @@ export class Game implements UnitHost {
     const hpShare = fill ? 1 : p.hp / p.maxHp
     const manaShare = fill ? 1 : p.mana / p.maxMana
     p.maxHp = d.maxHp
+    p.maxMana = d.maxMana
