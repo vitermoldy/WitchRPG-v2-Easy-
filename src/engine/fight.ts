@@ -114,3 +114,4 @@ class Staff {
       this.pos.addScaledVector(this.vel, dt)
       const step = this.pos.distanceTo(this.prev)
       this.travelled += step
+      const hitU = this.sweepUnits(step)
