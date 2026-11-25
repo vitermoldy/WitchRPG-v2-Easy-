@@ -338,3 +338,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     shield: 0.85,
   },
   riftlord: {
+    name: 'Rift Lord',
