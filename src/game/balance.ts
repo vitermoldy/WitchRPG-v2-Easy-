@@ -674,3 +674,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     rank: 'ksatria',
     hp: 70,
     damage: 17,
+    speed: 7,
