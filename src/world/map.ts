@@ -208,3 +208,4 @@ export function zoneAt(x: number, y: number): Zone {
 
 export function pathDist(x: number, y: number): number {
   let best = 1e9
+  for (const line of PATHS) {
