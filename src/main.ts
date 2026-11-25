@@ -141,3 +141,4 @@ async function boot() {
 
   /** A menu opens: the game waits and the mouse is freed for the buttons. */
   const openMenu = (menu: { open(): void }) => {
+    game.openMenu()
