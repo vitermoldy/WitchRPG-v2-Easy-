@@ -167,3 +167,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
     submit.disabled = true
     submit.textContent = mode === 'in' ? 'Memeriksa...' : 'Membuat akun...'
     try {
+      if (mode === 'in') await signIn(name, password)
