@@ -121,3 +121,4 @@ Hasil ukur (pola v1: 20 makhluk yang terus bertarung ditambah N bayangan di meda
 | --- | --- | --- | --- |
 | 0 | 5,5 sampai 5,8 ms | 6,5 sampai 7,3 ms | 5,6 ms |
 | 200 | 7,9 sampai 8,2 ms | 10,3 sampai 11,8 ms | 8,3 ms |
+| 500 | 8,9 sampai 9,2 ms | 11,1 sampai 11,9 ms | 9,9 ms |
