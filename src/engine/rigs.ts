@@ -836,3 +836,4 @@ class Rig implements Poser {
   private grow(need: number) {
     let cap = this.cap
     while (cap < need) cap *= 2
+    this.cap = cap
