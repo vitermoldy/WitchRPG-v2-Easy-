@@ -42,3 +42,4 @@ export class Hud {
   private readonly lockMark = $('lock-mark')
   private readonly aimEl = $('aim')
   private readonly hitmark = $('hitmark')
+  private readonly hint = $('hint')
