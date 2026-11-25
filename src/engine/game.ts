@@ -449,3 +449,4 @@ export class Game implements UnitHost {
     this.rigs.prepare([...V2_KINDS])
     this.scene.add(this.rigs.group)
     this.camps = new Camps(this)
+    this.fauna = new Fauna(this)
