@@ -63,3 +63,4 @@ export class Atmosphere {
     scene.fog = this.fog
     this.uniforms = {
       zenith: { value: new THREE.Color('#47689a') },
+      horizon: { value: new THREE.Color('#e9d7c0') },
