@@ -157,3 +157,4 @@ export class Telegraphs {
   clearAll() {
     for (const it of this.items) {
       it.unit = null
+      it.mesh.visible = false
