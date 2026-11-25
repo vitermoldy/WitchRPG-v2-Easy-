@@ -66,3 +66,4 @@ describe('Umbra Rite chance', () => {
     expect(riteChance('marsekal', 1, 20, 5)).toBe(0.1)
     expect(riteChance('prajurit', 30, 1, 60)).toBe(0.9)
   })
+  it('a new witch at Lv 2 against a Lv 1 Husk has 67%', () => {
