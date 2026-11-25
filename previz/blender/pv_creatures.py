@@ -755,3 +755,4 @@ def _demon(r, H, bulk, female, span, horn_kind, arm_pose):
     t = r.parts["torso"]
     t.ell(V(J["chest"]) + Vector((0, -0.005, 0.0)), (J["sw"] * 1.0, H * 0.085 * bulk, H * 0.1), mat="armor")
     t.ell(V(J["chest"]) + Vector((0, -H * 0.08, -0.02)), (0.03, 0.02, 0.03), mat="glow", seg=8, rings=5)
+    for s in (1, -1):
