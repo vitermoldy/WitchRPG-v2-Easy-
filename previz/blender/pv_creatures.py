@@ -335,3 +335,4 @@ def snake_head(part, at, fwd, s=1.0, jaw=35, mat="body"):
     up = side.cross(F).normalized()
     part.ell(a + F * 0.1 * s, (0.13 * s, 0.13 * s, 0.13 * s), mat=mat)
     part.limb(a + F * 0.1 * s, a + F * 0.3 * s + up * 0.03 * s, 0.11 * s, 0.06 * s, mat=mat)
+    jd = F * math.cos(math.radians(jaw)) - up * math.sin(math.radians(jaw))
