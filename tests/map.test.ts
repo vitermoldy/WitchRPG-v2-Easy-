@@ -45,3 +45,5 @@ describe('the forest valley', () => {
       expect(w.reduce((s, v) => s + v, 0)).toBeCloseTo(1, 5)
       expect(zoneAt(z.c[0], z.c[1]).key).toBe(z.key)
     }
+  })
+
