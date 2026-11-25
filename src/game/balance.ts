@@ -8,3 +8,4 @@
  */
 export const EASY = { riteChance: 1 } as const
 
+export const MOVE = {
