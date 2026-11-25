@@ -150,3 +150,4 @@ export interface Tree {
   x: number
   y: number
   z: number
+  rot: number
