@@ -279,3 +279,4 @@ def veg_palette():
         "rock": C.mat_flat("rock", "#55524e", 0.9),
         "rock2": C.mat_flat("rock_warm", "#6e6252", 0.9),
         "grass": C.mat_flat("grass", "#3c5230", 0.9),
+        "fern": C.mat_flat("fern", "#2c4a2a", 0.85),
