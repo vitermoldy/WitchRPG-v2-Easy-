@@ -571,3 +571,4 @@ export class UnitSystem {
       if (this.host.blocked(x, z)) continue
       u.pos.x = x
       u.pos.z = z
+      break
