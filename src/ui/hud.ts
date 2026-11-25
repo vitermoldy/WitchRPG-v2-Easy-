@@ -368,3 +368,4 @@ export class Hud {
     }
     for (let i = n; i < this.pool.length; i++) this.pool[i].hidden = true
   }
+}
