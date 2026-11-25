@@ -57,3 +57,4 @@ for key in ["ilyra"] + [r[0] for r in K.ROSTER]:
     lo, hi = C.bounds(coll, skip=("staff",))
     lo2, hi2 = C.bounds(coll)
     stats[key] = {
+        "tinggi": round(hi.z - lo.z, 2),
