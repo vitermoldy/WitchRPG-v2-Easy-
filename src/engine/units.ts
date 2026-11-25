@@ -96,3 +96,4 @@ export class Unit implements Foe {
   yaw = 0
   state: UnitState = 'move'
   /** Seconds in the current state. */
+  t = 0
