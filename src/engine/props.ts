@@ -22,3 +22,4 @@ const CAP = 16
  * Boulders she can lift with Telekinesis and throw (the Hydra's islands keep a few). A thrown boulder
  * hurts the first creature it meets by its weight and speed, as a thrown body does, and counts as a
  * thrown thing (it goes through the Minotaur's shield and does 150% to the Hydra's slimy skin).
+ */
