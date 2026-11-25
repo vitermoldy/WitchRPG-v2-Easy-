@@ -155,3 +155,5 @@ Hasil gerbang (bot `?debug`, witch baru, waktu game 4× dipercepat): **Lv 1 samp
 
 Tur di game (`?debug`, Lv 8 sampai 9): Centaur memanah di garis; Naga menyembur ke lingkaran lalu menyelam saat terluka; Minotaur memakai kapak dan seruduk; perisainya meloloskan 15 dari 100 damage pukulan dari depan, 100 dari belakang, dan 100 dari tongkat yang dilempar; Medusa memakai tatapan dan gigitan; Chimera menyemburkan api dan memanggil 2 Imp. Tab membuka Ledger, klik "+" menaikkan Vitality dan HP maksimum, upgrade terbeli, Tutup melanjutkan game. F di altar membuka perjalanan cepat, dan Ilyra pindah ke Altar Persimpangan. Pemeriksaan UI: Ledger tanpa luapan horizontal di 390 dan 1280 px, fokus mulai di Tutup, Enter pada "+" memakai poin, Esc menutup dan game lanjut.
 
+Ukur ulang pasukan setelah perbaikan tinggi tanah (pola v1, 20 makhluk, 3 run, bawaan 20 bayangan detail):
+
