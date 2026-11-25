@@ -22,3 +22,4 @@ interface Spot {
 // meadows (map coordinates) checked like the camps: dry, gentle ground
 const MEADOWS: [number, number][] = [
   [-100, -360],
+  [120, -300],
