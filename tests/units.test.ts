@@ -112,3 +112,4 @@ describe('creature attacks', () => {
     expect(w.log.strikes.length).toBe(0)
     imp.aggro = true
     w.step(4)
+    expect(w.log.strikes.length).toBeGreaterThan(0)
