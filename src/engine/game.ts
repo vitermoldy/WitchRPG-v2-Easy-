@@ -535,3 +535,5 @@ export class Game implements UnitHost {
       this.timer.update(ts)
       this.tick()
     })
+  }
+
