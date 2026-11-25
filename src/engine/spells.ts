@@ -464,3 +464,4 @@ export class Spells {
       const s = i / (this.tendrilPts.length - 1)
       const a = from.clone().lerp(mid, s)
       const pt = a.lerp(mid.clone().lerp(to, s), s)
+      pt.x += Math.sin(g.t * 23 + i * 1.7) * 0.06 * Math.sin(s * Math.PI)
