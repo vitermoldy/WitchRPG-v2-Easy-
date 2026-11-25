@@ -96,3 +96,4 @@ export class Input {
   }
 
   released(code: string) {
+    return this.releasedSet.has(code)
