@@ -328,3 +328,4 @@ export class Game implements UnitHost {
       this.blasts.splice(i, 1)
       const at = new THREE.Vector3(b.x, b.y, b.z)
       const low = p.pos.y - this.height(p.pos.x, p.pos.z) < 2.5
+      if (p.alive && low && Math.hypot(p.pos.x - b.x, p.pos.z - b.z) < b.radius + MOVE.radius && !p.invulnerable) this.hurtPlayer(b.damage, at)
