@@ -122,3 +122,4 @@ export class CameraRig {
     const th = tv * (16 / 9)
     const dx = target.point.x - from.x
     const dz = target.point.z - from.z
+    const dy = target.point.y - from.y
