@@ -1159,3 +1159,4 @@ export interface Swing {
   lunge: number
 }
 
+export const COMBAT = {
