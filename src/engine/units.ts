@@ -505,3 +505,4 @@ export class UnitSystem {
         if (u.t >= r.ashes) {
           u.reborn = true
           u.hp = u.maxHp * r.hp
+          u.downed = 0
