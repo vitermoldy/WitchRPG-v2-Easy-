@@ -107,3 +107,4 @@ describe('staff combo', () => {
     expect(ev.filter((e) => e.type === 'hit').length).toBe(1)
   })
 
+  it('reaches creatures in front, not behind', () => {
