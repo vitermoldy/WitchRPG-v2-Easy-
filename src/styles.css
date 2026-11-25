@@ -377,3 +377,4 @@ button {
 
 .zone-banner {
   position: absolute;
+  top: clamp(24px, 9vh, 96px);
