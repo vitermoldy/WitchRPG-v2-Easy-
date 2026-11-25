@@ -407,3 +407,4 @@ export class Lair {
         if (!atk.shot) this.inReach(h.aimAt)
         if (h.t >= atk.windup) {
           if (atk.shot) {
+            g.fire(h, atk)
