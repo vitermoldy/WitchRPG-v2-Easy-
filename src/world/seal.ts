@@ -92,3 +92,4 @@ export class Seal {
     return this.open
   }
 
+  /** True where the world point lies in a sealed zone. */
