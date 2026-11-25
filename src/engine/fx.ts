@@ -149,3 +149,4 @@ export class Particles {
       this.size1[i] = e.sizeEnd ?? e.size * 0.2
       this.alpha0[i] = e.alpha ?? 1
       this.grav[i] = e.gravity ?? 0
+      this.drag[i] = e.drag ?? 1.5
