@@ -17,3 +17,4 @@ export interface Emit {
   /** Base velocity added to every particle. */
   vel?: Vec
   /** Random offset around pos. */
+  jitter?: number
