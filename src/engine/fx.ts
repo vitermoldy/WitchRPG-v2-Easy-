@@ -486,3 +486,4 @@ export class ShadowPools {
           p.mesh.visible = false
         }
       }
+      const e = p.state === 'opening' ? 1 - (1 - p.open) ** 3 : p.open
