@@ -146,3 +146,5 @@ export class Lair {
     return LEVEL
   }
 
+  // ------------------------------------------------------------ the Hydra comes and goes
+
