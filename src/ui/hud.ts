@@ -132,3 +132,4 @@ export class Hud {
     this.bigBannerTime = 3.2
   }
 
+  flashMana() {
