@@ -749,3 +749,4 @@ export class Game implements UnitHost {
     this.saveNow()
   }
 
+  hitstop(s: number) {
