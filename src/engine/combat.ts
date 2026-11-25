@@ -115,3 +115,4 @@ export class Combo {
         this.chainLeft = COMBAT.comboWindow
         if (this.queued) {
           this.queued = false
+          this.begin(false, out)
