@@ -506,3 +506,4 @@ export class Fight {
       g.hitstop(COMBAT.hitstop.parry * 1.4)
       g.addTrauma(0.35)
       g.sfx.impact(1.2)
+      u.center(this.v)
