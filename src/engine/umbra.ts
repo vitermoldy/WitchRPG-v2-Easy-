@@ -426,3 +426,4 @@ export class Umbra {
     this.progress = 0
   }
 
+  /** Taking damage breaks the cast. */
