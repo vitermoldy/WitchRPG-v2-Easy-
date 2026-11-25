@@ -885,3 +885,4 @@ class Rig implements Poser {
     const flash = u.flash > 0 ? (u.flash / 0.16) * 1.6 : 0
     const gr = (glow ? glow.r : 0) + flash
     const gg = (glow ? glow.g : 0) + flash * 0.85
+    const gb = (glow ? glow.b : 0) + flash * 0.75
