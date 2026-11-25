@@ -715,3 +715,4 @@ export class UnitSystem {
             this.steer(u, tgt.pos.x + Math.sin(side) * dist, tgt.pos.z + Math.cos(side) * dist, speed * 0.5, dt)
           }
         } else if (spec.flank) {
+          // swing round to her side before lunging
