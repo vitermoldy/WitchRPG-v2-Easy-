@@ -160,3 +160,4 @@ def export(key):
         ob.name = name
         bake_tones(ob)
         for slot in ob.material_slots:
+            if slot.material:
