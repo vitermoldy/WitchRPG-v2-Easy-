@@ -613,3 +613,4 @@ export class Game implements UnitHost {
     if (p.hp <= 0) this.fall()
   }
 
+  /** Damage to a creature or shadow; her blows fill the Chaos meter and flash the hit mark. */
