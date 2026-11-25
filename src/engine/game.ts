@@ -275,3 +275,4 @@ export class Game implements UnitHost {
     this.hurtPlayer(u.damage * (atk.damage ?? 1), u.pos)
     if (!p.alive) return
     if (atk.effect === 'petrify' && this.spells.barrierT <= 0) {
+      p.petrified = EFFECTS.petrify
