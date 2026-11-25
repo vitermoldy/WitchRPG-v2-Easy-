@@ -75,3 +75,4 @@ export class Obstacles {
    * overlaps, along the ground plane. Returns true when it moved.
    */
   pushOut(pos: { x: number; y: number; z: number }, radius: number, height: number): boolean {
+    let moved = false
