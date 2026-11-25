@@ -74,3 +74,4 @@ const RIFT_FRAG = /* glsl */ `
     float y = vUv.y;
     float taper = smoothstep(0.0, 0.3, y) * smoothstep(1.0, 0.62, y);
     float w = 0.012 + 0.07 * taper;
+    float d = abs(vUv.x - zig(y));
