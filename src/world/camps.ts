@@ -110,3 +110,4 @@ export class Camps {
   readonly group = new THREE.Group()
   private readonly g: Game
   private readonly shards: THREE.InstancedMesh
+  private readonly lit = new THREE.Color(COLOR.rift).multiplyScalar(2.2)
