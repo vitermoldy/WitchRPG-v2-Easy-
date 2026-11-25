@@ -272,3 +272,4 @@ export class Sfx {
     this.noise(t, 1.2, 'bandpass', 300, 0.22, 2, 3200)
   }
 
+  spit() {
