@@ -83,3 +83,4 @@ export class WorldMap {
       this.renderBosses()
       this.draw()
     })
+    window.addEventListener('resize', () => {
