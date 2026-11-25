@@ -176,3 +176,4 @@ export function heightMap(x: number, y: number): number {
 export const heightAt = (wx: number, wz: number) => heightMap(wx, -wz)
 
 /** Water surface level over the swamp and Danau Hitam. */
+export const WATER_LEVEL = 0
