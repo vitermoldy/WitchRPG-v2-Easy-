@@ -130,3 +130,4 @@ export class Terrain {
       for (let i = 0; i <= n; i++) {
         const gi = (j + 1) * g + (i + 1)
         const wx = x0 + i * step
+        const wz = z0 + j * step
