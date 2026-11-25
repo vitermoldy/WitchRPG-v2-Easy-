@@ -741,3 +741,4 @@ const POSES: Partial<Record<UnitKind, PoseFn>> = {
   griffin: poseBeast,
   hippogriff: poseBeast,
   pegasus: poseBeast,
+  unicorn: poseBeast,
