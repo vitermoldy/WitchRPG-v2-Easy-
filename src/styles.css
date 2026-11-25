@@ -945,3 +945,4 @@ button {
   font-size: 0.8rem;
 }
 
+/* labels stay above the cooldown shade so they read at every moment of the cooldown */
