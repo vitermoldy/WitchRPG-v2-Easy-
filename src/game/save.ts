@@ -45,3 +45,4 @@ export function normalizeProfile(data: Partial<Profile> | null | undefined): Pro
 export function saveProfile(p: Profile, stamp = true): boolean {
   if (stamp) p.updatedAt = new Date().toISOString()
   try {
+    localStorage.setItem(KEY, JSON.stringify(p))
