@@ -97,3 +97,4 @@ export class Player {
     this.pos.x = x
     this.pos.z = z
     this.pos.y = g.height(x, z)
+    this.vx = this.vz = this.vy = 0
