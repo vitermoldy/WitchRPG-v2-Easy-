@@ -474,3 +474,4 @@ def render_lineup(sc, bands, path, tmpdir, pct=100):
         sc.camera = b["cam"]
         h = int(round(W * b["height"] / b["width"]))
         sc.render.resolution_x, sc.render.resolution_y = W, h
+        p = os.path.join(tmpdir, f"barisan_{b['key']}.png")
