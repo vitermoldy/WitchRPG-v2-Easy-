@@ -767,3 +767,4 @@ const POSES: Partial<Record<UnitKind, PoseFn>> = {
  * One creature kind for one side, drawn part by part: every mesh primitive of the model is one
  * InstancedMesh, and each unit writes the posed matrix of every part. However many Imps fight, they
  * cost as many draws as one Imp has primitives.
+ */
