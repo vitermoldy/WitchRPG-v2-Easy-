@@ -619,3 +619,4 @@ def build_temple(coll, pal):
     cx, cy = TEMPLE
     z0 = ground_z(cx, cy)
     for i, (w, h) in enumerate(((30, 0.6), (24, 0.6), (18, 0.6))):
+        p.box((cx, cy, z0 + 0.3 + i * 0.6), (w, w * 0.8, h + 0.02), mat="stone")
