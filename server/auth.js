@@ -165,3 +165,4 @@ export function createAuth({ getPool, cookie, lang, deviceCode, newDevice }) {
   async function requireUser(req, res, next) {
     try {
       const user = await userFor(req)
+      if (!user) return res.status(401).json({ error: t.signedOut })
