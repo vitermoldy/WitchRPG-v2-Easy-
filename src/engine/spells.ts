@@ -552,3 +552,4 @@ export class Spells {
 
   private rune(color: number): THREE.ShaderMaterial {
     return new THREE.ShaderMaterial({
+      uniforms: { uTime: { value: 0 }, uFade: { value: 0 }, uColor: { value: new THREE.Color(color) } },
