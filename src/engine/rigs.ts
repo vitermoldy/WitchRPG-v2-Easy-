@@ -1068,3 +1068,4 @@ export class Rigs {
   update(units: Unit[], t: number, dt: number, cam: THREE.Vector3, glowOf: (u: Unit) => THREE.Color | null) {
     // pick the shadows nearest the camera for full detail, a few times a second
     this.sortIn -= dt
+    if (this.sortIn <= 0) {
