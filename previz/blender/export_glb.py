@@ -177,3 +177,4 @@ def export(key):
     )
     tris = C.tri_count(coll)
     if SHRINK:
+        tris = lod_tris(coll)
