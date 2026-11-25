@@ -1441,3 +1441,4 @@ dialog::backdrop {
 .derived {
   display: grid;
   grid-template-columns: 1fr auto;
+  gap: 0.25rem 1rem;
