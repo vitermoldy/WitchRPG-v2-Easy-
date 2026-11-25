@@ -115,3 +115,4 @@ export class Particles {
     })
     this.points = new THREE.Points(geo, this.material)
     this.points.frustumCulled = false
+    this.points.renderOrder = mode === 'glow' ? 10 : 9
