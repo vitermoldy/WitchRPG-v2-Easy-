@@ -520,3 +520,4 @@ def tile_png(paths, out, cols=2, pad=12, bg=(0.07, 0.07, 0.08)):
         y = H - pad - (r + 1) * h - r * pad
         x = pad + c * (w + pad)
         canvas[y:y + h, x:x + w] = px.reshape(h, w, 4)
+    img = bpy.data.images.new("tile", W, H, alpha=False)
