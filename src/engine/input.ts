@@ -75,3 +75,5 @@ export class Input {
   press(code: string) {
     if (!this.down.has(code)) this.pressedSet.add(code)
     this.down.add(code)
+  }
+
