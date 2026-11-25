@@ -725,3 +725,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     fly: { height: 6 },
     passive: true,
   },
+  unicorn: {
