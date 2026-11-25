@@ -124,3 +124,4 @@ def flat(m):
         if n.bl_idname == "ShaderNodeBsdfPrincipled" and not n.inputs["Metallic"].is_linked:
             metal = n.inputs["Metallic"].default_value
             b.inputs["Roughness"].default_value = n.inputs["Roughness"].default_value if not n.inputs["Roughness"].is_linked else 0.75
+    b.inputs["Metallic"].default_value = metal
