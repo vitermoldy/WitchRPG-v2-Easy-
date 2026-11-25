@@ -99,3 +99,4 @@ export class Particles {
     this.alpha0 = new Float32Array(max)
     this.grav = new Float32Array(max)
     this.drag = new Float32Array(max)
+    const geo = new THREE.BufferGeometry()
