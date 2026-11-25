@@ -168,3 +168,4 @@ def build(dunia, res=(1280, 720), samples=24):
 
         # camera
         if t < T_FLY:
+            u = t / T_FLY
