@@ -140,3 +140,4 @@ export function createApi(getPool, database) {
       bossKills: w.boss_kills,
       settings: typeof w.settings === 'string' ? JSON.parse(w.settings) : w.settings,
       world: { altars, last: al.find((a) => a.last)?.altar ?? 'pembuka' },
+      updatedAt: new Date(w.updated_at).toISOString(),
