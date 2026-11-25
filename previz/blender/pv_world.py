@@ -655,3 +655,4 @@ def build_altar(coll, pal):
     p.flat = True
     ax, ay = ALTAR
     z0 = ground_z(ax, ay)
+    p.limb((ax, ay, z0 - 0.2), (ax, ay, z0 + 0.5), 2.4, 2.2, mat="stone", seg=12, joints=False)
