@@ -135,3 +135,4 @@ def build(dunia, res=(1280, 720), samples=24):
         for part, rot in poses.items():
             ob = il.objs.get(part)
             if ob:
+                ob.rotation_euler = [math.radians(a) for a in rot]
