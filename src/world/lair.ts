@@ -328,3 +328,5 @@ export class Lair {
     const fade = this.curtainMat.uniforms.uFade.value as number
     this.curtainMat.uniforms.uFade.value = fade + (want - fade) * Math.min(1, dt * 2)
     ;(this.curtainMat.uniforms.uColor.value as THREE.Color).set(this.state === 'fight' ? COLOR.umbra : COLOR.rift)
+    this.curtain.visible = this.curtainMat.uniforms.uFade.value > 0.01
+
