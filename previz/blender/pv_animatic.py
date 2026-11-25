@@ -160,3 +160,4 @@ def build(dunia, res=(1280, 720), samples=24):
                 ob.rotation_euler = (math.radians(a), math.radians(b), 0)
                 ob.keyframe_insert("rotation_euler", frame=fr)
         for ob in foam_obs:
+            s = 1.0 * seg(t, T_NAGA + 0.2, T_NAGA + 1.5) if "tubuh" not in ob.name else 1.5 * seg(t, T_NAGA, T_NAGA + 2.5)
