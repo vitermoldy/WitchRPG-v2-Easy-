@@ -232,3 +232,4 @@ export interface TravelHost {
 export class TravelPanel {
   private readonly dlg = $<HTMLDialogElement>('travel')
   private readonly host: TravelHost
+  onClose: (() => void) | null = null
