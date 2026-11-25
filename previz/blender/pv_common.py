@@ -634,3 +634,4 @@ def point(coll, name, loc, color, energy=50.0, radius=0.1, parent=None):
     ld = bpy.data.lights.new(name, "POINT")
     ld.energy = energy
     ld.color = rgb(color)[:3]
+    ld.shadow_soft_size = radius
