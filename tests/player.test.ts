@@ -125,3 +125,4 @@ describe('Ilyra on foot', () => {
     const cliff: Ground = { height: (_x, z) => (z < -2 ? 30 : 0), obstacles: null, blocked: () => false }
     const p = new Player()
     run(p, { ...idle, y: 1 }, 2, cliff)
+    expect(p.pos.z).toBeGreaterThan(-2.1)
