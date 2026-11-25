@@ -1040,3 +1040,4 @@ def b_atlas(r):
     h = r.parts["head"]
     hc = V(J["head_c"])
     h.ell(hc, (0.5, 0.55, 0.6), mat="skin")
+    face(h, hc, 9.0)
