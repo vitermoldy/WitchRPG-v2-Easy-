@@ -702,3 +702,4 @@ def b_medusa(r):
     hc = V(J["head_c"])
     h.ell(hc, (0.09, 0.1, 0.115), mat="skin")
     face(h, hc, 2.2)
+    for i in range(13):
