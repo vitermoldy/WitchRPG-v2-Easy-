@@ -14,3 +14,4 @@ export type DamageKind = 'melee' | 'bolt' | 'blast' | 'staff' | 'impact' | 'shad
 /** Something a unit can go for: her, or a unit of the other side. */
 export interface Foe {
   pos: THREE.Vector3
+  radius: number
