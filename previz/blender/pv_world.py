@@ -679,3 +679,4 @@ def build_rift(coll):
     rng = np.random.default_rng(4)
     pts = []
     n = 22
+    for i in range(n):
