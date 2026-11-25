@@ -455,3 +455,4 @@ export class Game implements UnitHost {
     this.scene.add(this.altars.group)
     this.props = new Props(this)
     this.scene.add(this.props.mesh)
+    this.lair = new Lair(this)
