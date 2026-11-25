@@ -6,3 +6,4 @@ export class Sfx {
   private ctx: AudioContext | null = null
   private master: GainNode | null = null
   private noiseBuf: AudioBuffer | null = null
+  private gripNodes: { osc: OscillatorNode; osc2: OscillatorNode; gain: GainNode } | null = null
