@@ -524,3 +524,4 @@ def tile_png(paths, out, cols=2, pad=12, bg=(0.07, 0.07, 0.08)):
     img.pixels.foreach_set(canvas.ravel())
     img.filepath_raw = out
     img.file_format = "PNG"
+    img.save()
