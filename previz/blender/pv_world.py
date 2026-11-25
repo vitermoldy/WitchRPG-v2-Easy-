@@ -150,3 +150,4 @@ def build_terrain(coll, size=1300.0, step=2.5):
     W = zone_weights(X, Y)
     col = np.zeros(X.shape + (3,))
     for i, z in enumerate(ZONES):
+        col += W[i][..., None] * _hex(z["ground"])[None, None, :]
