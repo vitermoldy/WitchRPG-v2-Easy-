@@ -448,3 +448,4 @@ export class Fight {
     const sw: Swing = armed ? s.swing : { ...s.swing, reach: s.swing.reach * 0.75, arc: s.swing.arc * 0.8 }
     const mult = this.damageMult * (armed ? 1 : COMBAT.unarmed) * (this.riposte > 0 ? COMBAT.parry.counter : 1)
     let any = false
+    for (const u of g.units.units) {
