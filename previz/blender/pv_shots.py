@@ -220,3 +220,4 @@ def shaft_fog(coll, centre, size, z0, density=0.018):
         m.use_nodes = True
         nt = m.node_tree
         nt.nodes.clear()
+        out = nt.nodes.new("ShaderNodeOutputMaterial")
