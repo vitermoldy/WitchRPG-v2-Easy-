@@ -672,3 +672,4 @@ export class UnitSystem {
       u.hp = Math.min(u.maxHp, u.hp + u.maxHp * 0.1 * dt)
       return
     }
+    const tgt: Foe | null = shadow && (!p.alive || shadow.pos.distanceTo(u.pos) < p.pos.distanceTo(u.pos) * 0.6) ? shadow : p.alive ? p : shadow
