@@ -301,3 +301,4 @@ const poseHarpy: PoseFn = (p, u, t) => {
   p.rot('head', -10)
 }
 
+/** Diagonal-pair trot of a four-legged body; shared by the Centaur's horse half and the Chimera. */
