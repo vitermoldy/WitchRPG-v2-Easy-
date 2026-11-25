@@ -575,3 +575,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
       { name: 'seruduk kambing', strike: 'line', windup: 0.8, recover: 1.3, range: 16, minRange: 7, damage: 1.2, lungeSpeed: 15, lungeTime: 0.8, cooldown: 6 },
       { name: 'napas api', strike: 'ring', windup: 1, recover: 1, range: 7, ring: 3, ahead: 4 },
     ],
+  },
