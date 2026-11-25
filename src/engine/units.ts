@@ -139,3 +139,4 @@ export class Unit implements Foe {
   readonly fallSide: number = Math.random() < 0.5 ? -1 : 1
   deadT = 0
   /** Finished by an execution: raises the Umbra Rite chance of the body. */
+  executed = false
