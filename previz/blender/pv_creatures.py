@@ -937,3 +937,4 @@ def b_cerberus(r):
         cpos = nb.lerp(hp, 0.5) + Vector((dx * 0.1, 0, 0))
         nk.torus(cpos, 0.8 * sc, 0.16, normal=(hp - nb), mat="collar", seg=16)
         dn = (hp - nb).normalized()
+        sdir = dn.cross(UP).normalized()
