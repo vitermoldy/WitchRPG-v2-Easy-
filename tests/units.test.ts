@@ -14,3 +14,4 @@ function world(groundHeight = 0) {
     height: () => groundHeight,
     foe,
     blocked: () => false,
+    strikePlayer: (u) => log.strikes.push({ u, t: time }),
