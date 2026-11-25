@@ -454,3 +454,4 @@ const poseMedusa: PoseFn = (p, u, t) => {
     const k = ease(u.t / u.atk.windup)
     if (gaze) {
       p.body(0.3 * k, -10 * k)
+      p.rot('torso', -12 * k)
