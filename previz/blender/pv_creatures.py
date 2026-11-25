@@ -179,3 +179,4 @@ def _foot(part, wrist, ground, r, kind, mat="body", foot_mat="horn"):
         for a in (-30, 0, 30):
             tip = g + _rz(Vector((0, -r * 3.2, 0.02)), a)
             part.cone(g + Vector((0, -r, r)), tip, r * 0.35, mat="claw" if "claw" in part.rig.pal else "horn", seg=6)
+    else:
