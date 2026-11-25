@@ -36,3 +36,4 @@ export class Seal {
   private fade = 1
   private readonly mat: THREE.ShaderMaterial
 
+  constructor(open: boolean) {
