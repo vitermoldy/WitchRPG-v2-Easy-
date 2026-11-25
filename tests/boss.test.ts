@@ -163,3 +163,4 @@ describe('the seal on zones IV and V', () => {
   const pembuka = toWorld(0, -250)
 
   it('refuses a step from open ground into Reruntuhan Kuil, but never a step out', () => {
+    expect(seal.sealedAt(kuil[0], kuil[1])).toBe(true)
