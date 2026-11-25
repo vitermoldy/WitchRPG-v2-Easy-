@@ -41,3 +41,4 @@ const MOTE_VERT = /* glsl */ `
   varying vec3 vTint;
   varying float vAlpha;
   uniform float uScale;
+  void main() {
