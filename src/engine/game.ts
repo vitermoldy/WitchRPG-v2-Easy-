@@ -1120,3 +1120,4 @@ export class Game implements UnitHost {
     this.minClearance = Infinity
   }
 
+  stats() {
