@@ -108,3 +108,4 @@ if "variants" in ONLY:
         paths.append(p)
     S.tile_png(paths, os.path.join(RENDERS, "00-kamera-varian.png"))
     log("render varian")
+if "lineup" in ONLY:
