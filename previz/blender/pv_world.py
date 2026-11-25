@@ -206,3 +206,4 @@ def terrain_material():
     noi.inputs["Scale"].default_value = 0.6
     noi.inputs["Detail"].default_value = 4.0
     L.new(tc.outputs["Object"], noi.inputs["Vector"])
+    mr = N.new("ShaderNodeMapRange")
