@@ -336,3 +336,5 @@ export class Sfx {
     this.tone(t + 0.6, 'sine', 70, 30, 0.6, 0.45)
   }
 
+  private windNodes: { gain: GainNode; filter: BiquadFilterNode } | null = null
+
