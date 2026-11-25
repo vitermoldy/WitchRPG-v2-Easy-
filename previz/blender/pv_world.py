@@ -278,3 +278,4 @@ def veg_palette():
         "burnt": C.mat_cracked("burnt_wood", "#0f0c0b", "#ff6a24", 4.0, scale=1.4, coverage=0.45, width=0.03),
         "rock": C.mat_flat("rock", "#55524e", 0.9),
         "rock2": C.mat_flat("rock_warm", "#6e6252", 0.9),
+        "grass": C.mat_flat("grass", "#3c5230", 0.9),
