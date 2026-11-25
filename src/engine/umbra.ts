@@ -454,3 +454,4 @@ export class Umbra {
       if (!rec) {
         this.turnToAsh(u)
         continue
+      }
