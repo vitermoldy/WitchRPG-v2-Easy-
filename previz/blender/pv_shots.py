@@ -359,3 +359,4 @@ def foam_rings(local, hy, inst, mat=None):
     mat = mat or mat_ring("busa", "#e8f0ea", 2.5, inner=0.7, alpha=0.8, fill=0.05)
     M = inst.matrix_basis
     for name in hy.objs:
+        if name.endswith("_0") and name.startswith("neck"):
