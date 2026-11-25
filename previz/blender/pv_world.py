@@ -416,3 +416,4 @@ def scatter_object(name, coll, proto_ob, pts, rots, scales):
     ob = bpy.data.objects.new(name, me)
     mod = ob.modifiers.new("scatter", "NODES")
     ng = scatter_group()
+    mod.node_group = ng
