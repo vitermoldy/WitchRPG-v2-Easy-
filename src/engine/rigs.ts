@@ -536,3 +536,4 @@ const poseChimera: PoseFn = (p, u, t) => {
 function biped(opts: { heavy: number; reach: number; sway: number }): PoseFn {
   const limbs = ['upperarm_L', 'upperarm_R', 'thigh_L', 'thigh_R']
   return (p, u, t) => {
+    if (common(p, u, t, limbs)) return
