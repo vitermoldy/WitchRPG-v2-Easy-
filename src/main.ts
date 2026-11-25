@@ -128,3 +128,4 @@ async function boot() {
     sfxUi: () => game.sfx.ui(),
     liveShadows: () => new Set(game.umbra.field().map((u) => u.record!.id)),
   })
+  const travel = new TravelPanel({
