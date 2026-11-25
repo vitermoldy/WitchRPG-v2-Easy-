@@ -53,3 +53,4 @@ function part(geo: THREE.BufferGeometry, color: THREE.Color, m?: THREE.Matrix4):
 }
 
 const M = new THREE.Matrix4()
+const at = (x: number, y: number, z: number, rx = 0, rz = 0) =>
