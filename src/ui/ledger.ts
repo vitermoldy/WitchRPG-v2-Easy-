@@ -43,3 +43,5 @@ export interface LedgerHost {
   sfxUi(): void
   /** Shadows standing on the field, by record id. */
   liveShadows(): Set<number>
+}
+
