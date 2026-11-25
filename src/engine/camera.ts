@@ -114,3 +114,4 @@ export class CameraRig {
   }
 
   /**
+   * Yaw and pitch that put the lock point on the upper-right third of the frame, measured from where
