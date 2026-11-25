@@ -213,3 +213,4 @@ export function createAuth({ getPool, cookie, lang, deviceCode, newDevice }) {
   })
 
   router.post('/login', limited, async (req, res) => {
+    const username = typeof req.body?.username === 'string' ? req.body.username.trim() : ''
