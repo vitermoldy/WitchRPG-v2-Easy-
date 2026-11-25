@@ -132,3 +132,4 @@ export function xpToNext(level: number): number {
   return Math.round((XP.base * level ** XP.exponent * late) / 10) * 10
 }
 
+export function xpForKill(enemyLevel: number, boss = false): number {
