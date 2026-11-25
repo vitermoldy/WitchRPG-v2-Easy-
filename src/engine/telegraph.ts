@@ -53,3 +53,4 @@ const LINE_SEG = 16
 const LIFT = 0.1
 
 interface Item {
+  mesh: THREE.Mesh
