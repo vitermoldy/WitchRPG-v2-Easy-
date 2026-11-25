@@ -26,3 +26,4 @@ HEX = {
 }
 
 
+def srgb_to_lin(c):
