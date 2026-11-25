@@ -205,3 +205,4 @@ class Staff {
     g.addTrauma(0.12)
     g.hitstop(0.03)
     g.glow.emit({ pos: g.ilyra.hand('R'), count: 16, color: COLOR.umbraHot, intensity: 2.4, life: 0.3, size: 0.1, speed: 3 })
+  }
