@@ -13,3 +13,5 @@ Action-RPG third-person dengan rasa God of War di hutan terbuka, memakai sistem 
 | Urutan kerja | Gambaran game dibuat dulu di Blender sebelum game dibuat |
 | Rupa makhluk (setelah melihat previz pertama) | "Bentuk dan rupa musuh, boss, dan monsternya mirip seperti yang aku kirim." Warna, anatomi, proporsi, dan atribut khas tiap makhluk mengikuti gambar referensi; aturan prompt "badan gelap dengan mata dan retakan amber untuk semua musuh" tidak dipakai lagi |
 
+## Fase 0: previz di Blender (24 Nov 2026)
+
