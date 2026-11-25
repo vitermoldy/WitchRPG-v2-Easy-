@@ -116,3 +116,4 @@ describe('over-the-shoulder camera', () => {
       if (obs.clearance(head.x, head.y, head.z) < CAMERA.radius) continue
       const rig = new CameraRig()
       rig.yaw = r() * Math.PI * 2
+      rig.pitch = rad(CAMERA.pitchMin + r() * (CAMERA.pitchMax - CAMERA.pitchMin))
