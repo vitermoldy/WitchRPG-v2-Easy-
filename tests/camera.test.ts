@@ -48,3 +48,4 @@ describe('over-the-shoulder camera', () => {
     expect(rig.fp).toBe(1)
     // a little in front of her head (north is -z), no shoulder offset
     expect(pose.pos.z).toBeCloseTo(-CAMERA.first.ahead, 5)
+    expect(pose.pos.x).toBeCloseTo(0, 5)
