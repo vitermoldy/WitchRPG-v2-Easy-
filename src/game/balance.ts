@@ -1005,3 +1005,5 @@ export const ELITE = {
   burst: { radius: 4.5, delay: 1.6, damage: 2 },
   /** Share of damage that lands on creatures near a penjaga elite. */
   ward: { radius: 9, share: 0.65 },
+} as const
+
