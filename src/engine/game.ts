@@ -733,3 +733,4 @@ export class Game implements UnitHost {
     this.telegraphs.clearAll()
     this.shots.clear()
     this.placeAt(at.x, at.z, yawTo(at.x, at.z, a.pos.x, a.pos.z) + Math.PI)
+    this.profile.world.last = key
