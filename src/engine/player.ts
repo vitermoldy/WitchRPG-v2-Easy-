@@ -246,3 +246,4 @@ export class Player {
     const floor = (g.floor ?? g.height)(this.pos.x, this.pos.z)
     this.pos.y += this.vy * dt
     if (this.pos.y > floor + F.ceiling) {
+      this.pos.y = floor + F.ceiling
