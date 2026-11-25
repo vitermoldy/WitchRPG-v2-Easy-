@@ -114,3 +114,4 @@ export class Altars {
       a.crystal.rotation.y = this.spin * 0.8
       a.crystal.position.y = 2.2 + Math.sin(this.spin * 1.6 + a.pos.x) * 0.08
     }
+    if (!p.alive) return
