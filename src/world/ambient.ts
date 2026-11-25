@@ -46,3 +46,4 @@ const MOTE_VERT = /* glsl */ `
     gl_Position = projectionMatrix * mv;
     gl_PointSize = clamp(size * uScale / max(0.5, -mv.z), 1.0, 24.0);
     vTint = tint;
+    vAlpha = alpha;
