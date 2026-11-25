@@ -86,3 +86,4 @@ export class Props {
           for (const u of g.units.units) {
             if (u.team !== 'enemy' || !u.targetable) continue
             const r = Math.max(u.radius, u.height * 0.42) + p.radius
+            if (u.center(this.c).distanceTo(p.pos) > r) continue
