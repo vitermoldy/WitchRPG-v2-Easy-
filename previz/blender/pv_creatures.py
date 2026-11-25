@@ -241,3 +241,4 @@ def feather_wing(part, root, s, span, chord, raise_deg=30, sweep_deg=15, feather
     ns = max(4, feathers - np_ + 2)
     for i in range(ns):
         t = (i + 0.5) / ns
+        base = Wr.lerp(R0, t)
