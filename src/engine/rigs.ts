@@ -860,3 +860,4 @@ class Rig implements Poser {
     this.holder.rotation.set(pitch * D, 0, roll * D)
   }
 
+  private readonly hidden = new Set<string>()
