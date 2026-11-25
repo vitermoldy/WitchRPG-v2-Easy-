@@ -108,3 +108,4 @@ describe('over-the-shoulder camera', () => {
           obs.add({ kind: SPHERE, x, y: r() * 0.6, z, r: 0.5 + r() * 2.5, h: 0, camOnly: false })
         }
       }
+      const tilt = (r() - 0.5) * 0.8
