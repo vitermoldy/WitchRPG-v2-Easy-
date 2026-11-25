@@ -149,3 +149,4 @@ export class Player {
       const v = ((1.5 * this.dodgeDistance) / T) * (1 - u * u)
       this.vx = this.dodgeX * v
       this.vz = this.dodgeZ * v
+      this.dodgeT += dt
