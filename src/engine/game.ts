@@ -780,3 +780,4 @@ export class Game implements UnitHost {
     this.rigs.detail = p.settings.detail
     this.sfx.setVolume(p.settings.volume)
     if (p.bossKills > 0) this.seal.unlock()
+    this.applyDerived(true)
