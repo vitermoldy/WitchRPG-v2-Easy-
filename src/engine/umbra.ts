@@ -441,3 +441,4 @@ export class Umbra {
     this.progress = 0
     this.stats.casts++
     if (!g.spells.overloaded) g.player.mana -= this.cost(list.length)
+    const raised: ShadowRecord[] = []
