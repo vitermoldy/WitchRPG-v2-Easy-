@@ -378,3 +378,4 @@ def build_protos(lib_coll):
 def scatter_group():
     ng = bpy.data.node_groups.get("PV_Scatter")
     if ng:
+        return ng
