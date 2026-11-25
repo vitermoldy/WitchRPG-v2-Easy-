@@ -269,3 +269,5 @@ interface Ring {
   dur: number
   r0: number
   r1: number
+}
+
