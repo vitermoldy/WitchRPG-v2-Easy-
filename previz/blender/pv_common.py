@@ -693,3 +693,4 @@ def sky_world(name, zenith, horizon, ground, strength=1.0, haze=None, haze_densi
         col = mix.outputs["Result"]
     L.new(col, bg.inputs["Color"])
     L.new(bg.outputs[0], out.inputs["Surface"])
+    if haze and haze_density > 0:
