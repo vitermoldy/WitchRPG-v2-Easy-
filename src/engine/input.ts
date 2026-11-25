@@ -66,3 +66,5 @@ export class Input {
     } catch {
       return false
     }
+  }
+
