@@ -458,3 +458,4 @@ export class ShadowPools {
     p.state = 'opening'
   }
 
+  update(dt: number) {
