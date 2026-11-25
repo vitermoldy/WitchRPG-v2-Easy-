@@ -373,3 +373,5 @@ const poseNaga: PoseFn = (p, u, t) => {
   }
   p.body(0.05 * Math.sin(t * 2.2 + u.id), 3 * sway)
   p.rot('head', 6 * Math.sin(t * 2.6 + u.id), -8 * sway)
+}
+
