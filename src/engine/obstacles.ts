@@ -179,3 +179,4 @@ function segCylinder(ax: number, ay: number, az: number, dx: number, dy: number,
   } else {
     const ta = (y0 - ay) / dy
     const tb = (y1 - ay) / dy
+    h0 = Math.min(ta, tb)
