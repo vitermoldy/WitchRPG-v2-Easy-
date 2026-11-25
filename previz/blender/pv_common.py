@@ -16,3 +16,4 @@ HEX = {
     "chaos": "#ff2a3d",
     "chaos_hot": "#ff7a5c",
     "umbra": "#8f55ff",
+    "umbra_hot": "#c7a6ff",
