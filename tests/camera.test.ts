@@ -107,3 +107,4 @@ describe('over-the-shoulder camera', () => {
         } else {
           obs.add({ kind: SPHERE, x, y: r() * 0.6, z, r: 0.5 + r() * 2.5, h: 0, camOnly: false })
         }
+      }
