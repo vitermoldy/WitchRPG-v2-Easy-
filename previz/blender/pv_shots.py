@@ -537,3 +537,4 @@ BOARD_VIEW = {"ilyra": -20, "imp": -30, "harpy": -15, "minotaur": -25, "cyclops"
 
 def ref_plane(coll, name, file, crop, centre, box):
     img = bpy.data.images.load(os.path.join(C.ASSETS, file), check_existing=True)
+    W, H = img.size
