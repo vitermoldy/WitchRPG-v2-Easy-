@@ -25,3 +25,4 @@ export function hydraShare(phase: 1 | 2 | 3, kind: DamageKind, inWarp: boolean):
 
 /** The radius of the lair: the shore the fight happens on. */
 export const LAIR_RADIUS = 24
+const LEVEL = 12
