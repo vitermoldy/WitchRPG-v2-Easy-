@@ -123,3 +123,4 @@ export class Combo {
     if (pressed && this.charging < 0) this.charging = 0
     if (this.charging >= 0) {
       if (held) {
+        this.charging += dt
