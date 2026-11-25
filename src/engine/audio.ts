@@ -307,3 +307,5 @@ export class Sfx {
     const t = this.ctx!.currentTime
     for (let i = 0; i < 6; i++) this.noise(t + i * 0.18, 0.7, 'lowpass', 500 + i * 80, 0.35, 0.7, 90)
     this.tone(t, 'sine', 50, 25, 2.4, 0.6, 0.3)
+  }
+
