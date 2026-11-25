@@ -346,3 +346,4 @@ export class IlyraModel {
       const e = 1 - act.catchK
       armRX = mix(armRX, -95, e)
       foreR = mix(foreR, -10, e)
+      torsoY += -12 * e
