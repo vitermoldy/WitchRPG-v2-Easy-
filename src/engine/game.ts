@@ -940,3 +940,4 @@ export class Game implements UnitHost {
     }, aiming)
 
     const target = this.lockon.current
+    // in first person she faces where the view looks, like v1
