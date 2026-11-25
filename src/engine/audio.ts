@@ -273,3 +273,4 @@ export class Sfx {
   }
 
   spit() {
+    if (!this.ok()) return
