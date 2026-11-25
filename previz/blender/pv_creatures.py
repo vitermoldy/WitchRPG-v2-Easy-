@@ -505,3 +505,4 @@ def b_hellhound(r):
     for k, (dx, sc, up) in enumerate(((0, 1.1, 0.14), (0.36, 0.92, -0.02), (-0.36, 0.92, -0.02))):
         hp = nb + Vector((dx, -0.42 * sc, 0.32 * sc + up))
         nk = r.P(f"neck{k}", nb, "body")
+        nk.limb(nb + Vector((dx * 0.3, 0, 0)), hp, 0.15 * sc, 0.12 * sc)
