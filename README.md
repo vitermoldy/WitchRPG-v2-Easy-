@@ -93,3 +93,5 @@ Di balik segel, setiap boss menunggu sendirian di kampnya, dengan bar boss dan s
 | Dragon | 17 | Lembah Bara | Ekor, napas api, bola api, terkaman |
 | Atlas | 17 | Reruntuhan Kuil, di kuil | Hentakan, bola dunia, lempar batu |
 | Typhon | 18 | Reruntuhan Kuil, tepi utara | Hantaman badai, lecutan ular, petir; memanggil Harpy |
+| Samael | 19 | Lembah Bara, di bawah Rift | Pedang, tebasan maut, penghakiman; menghilang |
+
