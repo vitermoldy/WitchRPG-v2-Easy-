@@ -8,3 +8,4 @@ import express from 'express'
  *
  *   POST /api/auth/register  { username, password, device? }  new account, signed in
  *   POST /api/auth/login     { username, password }           signed in
+ *   POST /api/auth/logout
