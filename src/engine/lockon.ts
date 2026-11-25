@@ -42,3 +42,4 @@ export class LockOn {
       if (s < score) {
         score = s
         best = t
+      }
