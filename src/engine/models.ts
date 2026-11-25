@@ -301,3 +301,4 @@ export class IlyraModel {
       armRX = pose.armX
       armRY = pose.armY
       foreR = pose.fore
+      // the staff points out along the arm while it swings, head first
