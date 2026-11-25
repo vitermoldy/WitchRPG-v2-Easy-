@@ -134,3 +134,4 @@ describe('ground', () => {
     w.step(1.5)
     expect(imp.pos.y).toBeCloseTo(5, 1)
     expect(shadow.pos.y).toBeCloseTo(5, 1)
+  })
