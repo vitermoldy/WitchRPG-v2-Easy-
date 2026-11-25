@@ -181,3 +181,4 @@ describe('version 1: tiers, ranks and growth', () => {
     const lv1 = derive(newProfile().stats, 1)
     const lv10 = derive(newProfile().stats, 10)
     expect(lv10.maxHp).toBe(lv1.maxHp + 72)
+    expect(lv10.damageMult).toBeCloseTo(1.45)
