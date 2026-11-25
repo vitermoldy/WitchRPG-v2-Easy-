@@ -112,3 +112,4 @@ def flat(m):
     """One plain Principled material per source material: base colour, roughness, emission."""
     if m.name in _flat:
         return _flat[m.name]
+    f = bpy.data.materials.new(f"g_{m.name}")
