@@ -108,3 +108,4 @@ export class IlyraModel {
     })
     for (const [side, col] of [['L', COLOR.chaos], ['R', COLOR.umbra]] as const) {
       const hand = this.parts['hand_' + side]
+      if (!hand) continue
