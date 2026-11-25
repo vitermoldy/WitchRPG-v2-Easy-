@@ -722,3 +722,4 @@ def render_settings(sc, res=(1920, 1080), samples=64, vol_end=600.0, vol_tile="4
     except TypeError:
         pass
     ee.use_raytracing = True
+    ee.use_fast_gi = True
