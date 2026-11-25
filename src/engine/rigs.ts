@@ -288,3 +288,4 @@ const poseHarpy: PoseFn = (p, u, t) => {
     return
   }
   // on the ground (downed): wings dragging and beating weakly
+  const s = Math.sin(u.walk * 1.4)
