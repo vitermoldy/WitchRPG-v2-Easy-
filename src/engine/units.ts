@@ -604,3 +604,4 @@ export class UnitSystem {
   /** Summoners (the Chimera) call helpers every few seconds while they fight. */
   private summon(u: Unit, dt: number) {
     const s = u.spec.summon
+    if (!s || !u.aggro) return
