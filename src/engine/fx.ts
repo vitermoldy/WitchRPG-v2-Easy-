@@ -137,3 +137,4 @@ export class Particles {
       const t = Math.random() * Math.PI * 2
       const r = Math.sqrt(1 - u * u) * s * (0.4 + Math.random() * 0.6)
       this.vel[i * 3] = Math.cos(t) * r + (e.vel?.x ?? 0)
+      this.vel[i * 3 + 1] = u * s * (0.4 + Math.random() * 0.6) + (e.vel?.y ?? 0)
