@@ -50,3 +50,4 @@ describe('stun meter and execution', () => {
   })
 
   it('fills from one parry on an Imp', () => {
+    const m = new StunMeter(30)
