@@ -438,3 +438,4 @@ def build_forest(coll, P, size=1260.0, step=4.0, seed=3):
     n = int(size / step)
     g = (np.arange(n) - n / 2 + 0.5) * step
     X, Y = np.meshgrid(g, g, indexing="xy")
+    X = (X + rng.uniform(-step * 0.45, step * 0.45, X.shape)).ravel()
