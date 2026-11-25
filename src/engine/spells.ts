@@ -542,3 +542,4 @@ export class Spells {
     }
     const cd = { burst: this.burstCd, snare: this.snareCd, barrier: this.barrierCd, warp: this.warpCd }[id]
     if (cd > 0) return
+    if (!this.pay(SPELL[id].mana)) return
