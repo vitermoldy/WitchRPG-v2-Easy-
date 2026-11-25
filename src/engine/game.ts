@@ -138,3 +138,4 @@ export class Game implements UnitHost {
   private gpu = ''
   private readonly pixel = new Uint8Array(4)
   private hitstopT = 0
+  private trauma = 0
