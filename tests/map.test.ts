@@ -51,3 +51,4 @@ describe('the forest valley', () => {
     for (const camp of CAMP_DEFS.filter((c) => !c.boss)) {
       const z = zoneAt(camp.c[0], camp.c[1])
       expect(camp.levels[0], `camp at ${camp.c} in ${z.name}`).toBeGreaterThanOrEqual(z.levels[0])
+      expect(camp.levels[1], `camp at ${camp.c} in ${z.name}`).toBeLessThanOrEqual(z.levels[1])
