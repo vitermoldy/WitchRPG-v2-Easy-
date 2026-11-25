@@ -298,3 +298,4 @@ export class Lair {
     }
     if (this.state === 'fight' && inFrom === true && !inTo) return true
     if (!air && this.flood > 0.3 && inTo && this.waterY - this.height(x, z, heightAt(x, z)) > MOVE.maxWade) return true
+    return false
