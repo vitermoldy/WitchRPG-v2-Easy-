@@ -173,3 +173,4 @@ export class Particles {
       this.pos[i * 3 + 2] += this.vel[i * 3 + 2] * dt
       this.size[i] = this.size1[i] + (this.size0[i] - this.size1[i]) * k
       // Fade in over the first 10% of life, then out.
+      const fade = Math.min(1, (1 - k) * 10) * k
