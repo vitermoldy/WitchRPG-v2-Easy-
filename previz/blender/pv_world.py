@@ -486,3 +486,4 @@ def build_forest(coll, P, size=1260.0, step=4.0, seed=3):
     return obs
 
 
+def build_ground_cover(coll, P, centre, radius, seed=11, grass=0.5, fern=0.05, bush=0.0, step=0.7, keep_clear=None, open_r=12.0):
