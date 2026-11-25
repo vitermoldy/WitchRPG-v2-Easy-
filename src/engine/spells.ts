@@ -629,3 +629,4 @@ export class Spells {
         if (u.team !== 'enemy' || !u.alive) continue
         if (Math.hypot(u.pos.x - s.pos.x, u.pos.z - s.pos.z) < s.radius) {
           u.slow = 1 - SPELL.snare.slow
+          u.vulnerable = SPELL.snare.vulnerability
