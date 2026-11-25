@@ -241,3 +241,4 @@ export class LightPool {
     const slot = this.slots.find((s) => s.light === light)
     if (!slot) return
     slot.held = false
+    slot.ttl = 0
