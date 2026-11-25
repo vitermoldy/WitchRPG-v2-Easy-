@@ -883,3 +883,4 @@ def hydra_neck_joints(base, top, bend, k=8):
             i += 1
         seg = cum[i + 1] - cum[i]
         f = 0.0 if seg < 1e-9 else (d - cum[i]) / seg
+        out.append(pts[i].lerp(pts[i + 1], min(1.0, max(0.0, f))))
