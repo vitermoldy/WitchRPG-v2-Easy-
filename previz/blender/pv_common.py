@@ -230,3 +230,4 @@ def palette_ref(key, spec):
         return mat_tone(f"{key}.{slot}", top, bottom, rough=rough, metal=metal, emit=e[0] if e else None, emit_strength=e[1] if e else 0.0)
 
     vals = {}
+    for slot, default in SLOT_DEFAULTS.items():
