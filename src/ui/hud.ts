@@ -310,3 +310,4 @@ export class Hud {
       const hp = Math.max(0, u.hp / u.maxHp)
       rows.push(`<li class="army-slot"><span class="pip"></span><span>${u.record!.name} <span class="num">Lv ${u.level}</span></span><span class="hp"><i style="transform:scaleX(${hp.toFixed(2)})"></i></span></li>`)
     }
+    if (field.length > 3) rows.push(`<li class="army-row dim"><span>dan ${field.length - 3} lainnya</span><b></b></li>`)
