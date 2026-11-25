@@ -248,3 +248,4 @@ Pemeriksaan:
 
 Di luar enam fase PROMPT. Permintaan pemilik: "dalam mode open world, buat semua monster ada, dalam bentuk boss (bagi yang memang dibuat utk boss), dan saya mau ada map, nanti mapnya menunjukkan letak bosnya, juga monster yang ingin dicari, bisa disortir; utk boss tampilkan semua", "saya mau bisa terbang dan mode pandangan orang pertama ditambahkan", lalu "banyakin monster yang spawn" dan "boss respawn setiap 45 detik".
 
+| Bagian | Keputusan | Alasan |
