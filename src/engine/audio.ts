@@ -115,3 +115,4 @@ export class Sfx {
     if (!this.ok()) return
     const t = this.ctx!.currentTime
     if (kind === 'ring') {
+      this.tone(t, 'triangle', 150, 110, 0.4, 0.14, 0.08)
