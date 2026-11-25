@@ -12,3 +12,4 @@ const SAVE_KEY = 'witchrpg-v2-easy:map-kinds'
 
 // one colour per creature kind on the map; chosen to stay apart from each other and readable on the ground tones
 const KIND_COLOR: Partial<Record<UnitKind, string>> = {
+  imp: '#ff8a5c', hellhound: '#5ce0ff', harpy: '#9fd0ff', centaur: '#e8c070', griffin: '#ffd34d', hippogriff: '#f0a8ff',
