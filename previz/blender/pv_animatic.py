@@ -39,3 +39,4 @@ def lock_quat(cam_loc, target, vfov, third=(1 / 3, 1 / 3)):
     return look_quat((math.cos(yaw) * math.cos(pitch), math.sin(yaw) * math.cos(pitch), math.sin(pitch)))
 
 
+def build(dunia, res=(1280, 720), samples=24):
