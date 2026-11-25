@@ -21,3 +21,4 @@ interface Field {
   pos: THREE.Vector3
   radius: number
   t: number
+  duration: number
