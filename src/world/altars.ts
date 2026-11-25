@@ -92,3 +92,4 @@ export class Altars {
     let best: { altar: Altar; dist: number } | null = null
     for (const a of this.list) {
       if (this.isLit(a.key)) continue
+      const d = Math.hypot(p.x - a.pos.x, p.z - a.pos.z)
