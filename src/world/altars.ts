@@ -125,3 +125,4 @@ export class Altars {
         g.sfx.riteResult(true)
         g.rings.spawn(a.pos, COLOR.umbra, 0.5, 6, 0.7)
       }
+      if (w.last !== a.key) {
