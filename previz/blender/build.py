@@ -32,3 +32,4 @@ PCT = int(arg("--pct", "100"))
 OUT = C.PREVIZ
 RENDERS = os.path.join(OUT, "renders")
 TMP = os.path.join(OUT, "frames")
+os.makedirs(RENDERS, exist_ok=True)
