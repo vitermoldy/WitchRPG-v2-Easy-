@@ -228,3 +228,4 @@ export class Player {
    * on lands her.
    */
   private fly(dt: number, input: MoveInput, wx: number, wz: number, wl: number, face: number | null, g: Ground) {
+    const F = MOVE.fly
