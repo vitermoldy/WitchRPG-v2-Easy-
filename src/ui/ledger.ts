@@ -94,3 +94,4 @@ export class Ledger {
     })
   }
 
+  get isOpen() {
