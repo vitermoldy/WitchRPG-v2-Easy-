@@ -692,3 +692,4 @@ export class UnitSystem {
       return
     }
     const speed = u.speed * u.slow
+    switch (u.state) {
