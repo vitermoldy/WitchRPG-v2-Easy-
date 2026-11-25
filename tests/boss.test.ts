@@ -20,3 +20,4 @@ function world() {
     strikeUnit: () => {},
     fire: () => {},
     impact: () => {},
+    died: () => {},
