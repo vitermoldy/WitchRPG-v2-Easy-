@@ -117,3 +117,4 @@ export const SPELL = {
 } as const
 
 export const RITE = {
+  window: 20,
