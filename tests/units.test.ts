@@ -54,3 +54,4 @@ describe('creature attacks', () => {
   })
 
   it('misses when she leaves the amber circle before it fills', () => {
+    const w = world()
