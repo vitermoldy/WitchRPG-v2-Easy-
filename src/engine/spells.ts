@@ -169,3 +169,4 @@ export class Spells {
     for (const f of [...this.snares, ...this.warps]) this.g.scene.remove(f.group)
     this.snares.length = 0
     this.warps.length = 0
+    this.drop(false)
