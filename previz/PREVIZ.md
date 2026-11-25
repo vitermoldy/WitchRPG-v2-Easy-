@@ -122,3 +122,4 @@ Makhluk memakai warna dari gambar referensinya (keputusan pemilik setelah previz
 | Hippogriff | kuda `#9a7a52` | kepala dan sayap elang `#a07a48`, sayap terlipat |
 | Phoenix | merah api `#d0381c` | sayap ke jingga `#ffb030`, ekor menyala `#ffd060` (beremisi) |
 | Dragon | merah `#9a2618`, perut `#d8a878` | selaput sayap `#d89a6a`, duri `#6a160e` |
+| Hydra | hijau abu `#56664c`, perut `#a0a884` | sirip kepala `#a0aca0`, duri `#3e4a38` |
