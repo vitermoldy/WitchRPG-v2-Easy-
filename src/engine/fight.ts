@@ -172,3 +172,4 @@ class Staff {
   }
 
   private stick() {
+    this.state = 'stuck'
