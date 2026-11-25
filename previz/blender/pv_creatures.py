@@ -1053,3 +1053,4 @@ def b_atlas(r):
 def _horse(r, wings, horn):
     Q = quad(r, 1.65, 1.9, 0.55, 0.7, 0.055, front="hoof", hind="hoof", foot_mat="hoof")
     nb = V(Q["neck_base"])
+    hp = nb + Vector((0, -0.3, 0.75))
