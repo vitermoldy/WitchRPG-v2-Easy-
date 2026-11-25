@@ -63,3 +63,4 @@ describe('over-the-shoulder camera', () => {
     obs.add({ kind: CYL, x: 0.4, y: 0, z: 2, r: 0.3, h: 12, camOnly: false })
     const rig = new CameraRig()
     rig.pitch = 0
+    const pose = rig.update(1 / 60, pivot, false, null, obs, flat)
