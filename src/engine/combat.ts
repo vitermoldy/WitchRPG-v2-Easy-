@@ -101,3 +101,4 @@ export class Combo {
     const s = this.current
     if (s) {
       if (pressed) this.queued = true
+      const before = s.t
