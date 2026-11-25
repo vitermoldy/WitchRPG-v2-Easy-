@@ -129,3 +129,4 @@ export class Particles {
       this.cursor = (this.cursor + 1) % this.max
       const j = e.jitter ?? 0
       this.pos[i * 3] = e.pos.x + (Math.random() - 0.5) * 2 * j
+      this.pos[i * 3 + 1] = e.pos.y + (Math.random() - 0.5) * 2 * j
