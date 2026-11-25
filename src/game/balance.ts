@@ -1238,3 +1238,4 @@ export const REVIVE = {
   /** Seconds on the ground before she rises again at the start point (at the last altar from phase 4). */
   delay: 3,
   /** HP comes back by this share of max HP per second once nothing has hurt her for `calm` seconds. */
+  calmRegen: 0.03,
