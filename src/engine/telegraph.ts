@@ -196,3 +196,4 @@ export class Telegraphs {
     pos.needsUpdate = true
   }
 
+  update(dt: number) {
