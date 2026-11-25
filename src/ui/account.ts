@@ -129,3 +129,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
         setNote(remote ? 'Progres di browser ini lebih baru dan sudah dikirim' : 'Witch di browser ini sekarang milik akunmu')
       }
     } catch (e) {
+      setNote(e instanceof ApiError ? `Sinkron gagal: ${e.message}` : 'Sinkron gagal')
