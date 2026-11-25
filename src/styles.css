@@ -1825,3 +1825,4 @@ dialog::backdrop {
 }
 
 .map-side {
+  display: flex;
