@@ -171,3 +171,4 @@ def mat_ring(name, color, strength, inner=0.82, alpha=0.9, fill=0.08):
     tr = N.new("ShaderNodeBsdfTransparent")
     mix = N.new("ShaderNodeMixShader")
     al = N.new("ShaderNodeMath")
+    al.operation = "MULTIPLY"
