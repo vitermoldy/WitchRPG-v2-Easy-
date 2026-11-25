@@ -208,3 +208,4 @@ export class Telegraphs {
         it.mat.uniforms.uFill.value = k * 0.93
         if (it.follow && u.state === 'windup') this.layRing(it, u.aimAt.x, u.aimAt.z)
       } else it.mat.uniforms.uFill.value = k
+    }
