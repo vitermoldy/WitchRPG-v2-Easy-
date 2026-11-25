@@ -60,3 +60,4 @@ export class Seal {
       uv.push(0, 0, 1, 0, 1, 1, 0, 0, 1, 1, 0, 1)
     }
     for (let i = 0; i < this.n; i++) {
+      for (let j = 0; j < this.n; j++) {
