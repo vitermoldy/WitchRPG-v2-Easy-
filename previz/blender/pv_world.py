@@ -209,3 +209,4 @@ def terrain_material():
     mr = N.new("ShaderNodeMapRange")
     mr.inputs["From Min"].default_value = 0.66
     mr.inputs["From Max"].default_value = 0.74
+    L.new(noi.outputs["Fac"], mr.inputs["Value"])
