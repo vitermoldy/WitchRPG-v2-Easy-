@@ -1147,3 +1147,4 @@ export const WORLD = { maxPhysicsProps: 20, arenaHalf: 38 } as const
 
 /** One swing of the staff. Times in seconds from the button: windup, then the hit lands for `active`, then recovery. */
 export interface Swing {
+  damage: number
