@@ -230,3 +230,4 @@ export class Player {
   private fly(dt: number, input: MoveInput, wx: number, wz: number, wl: number, face: number | null, g: Ground) {
     const F = MOVE.fly
     const boost = input.sprint && wl > 0.05
+    const speed = (boost ? F.boost : F.speed) * this.speedMult
