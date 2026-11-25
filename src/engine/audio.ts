@@ -64,3 +64,4 @@ export class Sfx {
     const g = ctx.createGain()
     this.env(g, t, attack, peak, dur)
     src.connect(f).connect(g).connect(this.master!)
+    src.start(t, Math.random())
