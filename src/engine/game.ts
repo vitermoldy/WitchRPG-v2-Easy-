@@ -334,3 +334,4 @@ export class Game implements UnitHost {
       this.rings.spawn(at, 0xff7a2a, 0.4, b.radius, 0.4)
       this.sfx.burst()
       this.addTrauma(0.3)
+    }
