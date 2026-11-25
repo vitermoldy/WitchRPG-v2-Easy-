@@ -33,3 +33,4 @@ const CURTAIN_FRAG = /* glsl */ `
   uniform float uTime;
   uniform float uFade;
   uniform vec3 uColor;
+  void main() {
