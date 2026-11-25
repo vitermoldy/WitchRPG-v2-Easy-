@@ -115,3 +115,4 @@ export class Obstacles {
     const dy = by - ay
     const dz = bz - az
     const len = Math.hypot(dx, dz)
+    const mx = (ax + bx) / 2
