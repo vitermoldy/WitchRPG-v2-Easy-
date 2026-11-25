@@ -313,3 +313,4 @@ export class Rings {
       if (!r.mesh.visible) continue
       r.t += dt
       const k = Math.min(1, r.t / r.dur)
+      const e = 1 - (1 - k) ** 3
