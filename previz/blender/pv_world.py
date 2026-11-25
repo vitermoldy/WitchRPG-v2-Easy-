@@ -456,3 +456,4 @@ def build_forest(coll, P, size=1260.0, step=4.0, seed=3):
     keep &= _dist(X, Y, LAKE["c"]) > LAKE["r"] * 1.02
     keep &= path_dist(X, Y) > 3.5
     for c, rad in CLEARINGS:
+        keep &= _dist(X, Y, c) > rad
