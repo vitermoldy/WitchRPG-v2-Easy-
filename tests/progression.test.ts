@@ -148,3 +148,4 @@ describe('version 1: tiers, ranks and growth', () => {
     const p = newProfile()
     expect(tierUnlocked(p, 1)).toBe(true)
     expect(tierUnlocked(p, 2)).toBe(false)
+    p.level = 4
