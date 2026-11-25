@@ -5,3 +5,4 @@ import { COLOR } from './palette'
 import { ringOf, type Unit } from './units'
 
 interface Shot {
+  pos: THREE.Vector3
