@@ -157,3 +157,4 @@ X ke timur, Y ke utara, meter, pusat peta (0, 0).
 | Danau Hitam | (-330, 300) | 95 | dalam 7 m, tepi curam di sekitar 93 m dari pusat |
 | Sarang Hydra | (-275, 239) | | 18 m dari titik tepi tempat Ilyra berdiri (-263, 226) |
 | Reruntuhan Kuil | (40, 330) | 170 | naik 12 m, pelataran kuil rata di (40, 318) |
+| Lembah Bara | (330, 330) | 165 | cekungan turun 7 m dengan bibir |
