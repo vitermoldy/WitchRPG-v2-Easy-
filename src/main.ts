@@ -12,3 +12,4 @@ const debug = new URLSearchParams(location.search).has('debug')
 
 const screens = {
   loading: $('screen-loading'),
+  error: $('screen-error'),
