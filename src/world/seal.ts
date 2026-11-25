@@ -39,3 +39,4 @@ export class Seal {
   constructor(open: boolean) {
     this.open = open
     this.fade = open ? 0 : 1
+    this.n = Math.ceil((PLAY_HALF * 2) / CELL)
