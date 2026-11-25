@@ -242,3 +242,4 @@ const HARPY_LIMBS = ['upperarm_L', 'upperarm_R', 'thigh_L', 'thigh_R']
 const poseHarpy: PoseFn = (p, u, t) => {
   if (common(p, u, t, HARPY_LIMBS)) return
   const flying = u.flyer && u.alt > 0.8
+  if (u.state === 'windup') {
