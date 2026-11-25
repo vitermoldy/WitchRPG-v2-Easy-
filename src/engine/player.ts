@@ -257,3 +257,4 @@ export class Player {
     this.turn(face, dt)
   }
 
+  /** Moves along one axis unless that would climb a cliff or wade into deep water (in the air: only walls). */
