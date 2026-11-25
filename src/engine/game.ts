@@ -249,3 +249,4 @@ export class Game implements UnitHost {
       return
     }
     if (res === 'parry') {
+      this.fight.stats.parries++
