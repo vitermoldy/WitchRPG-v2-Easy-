@@ -114,3 +114,4 @@ export const SKILLS: SkillDef[] = [
     name: 'Perintah Fokus',
     key: 'Roda Z',
     unlock: 6,
+    effect: 'Perintah Serang membuat semua bayangan memukul target yang sama.',
