@@ -590,3 +590,4 @@ def build_fog(coll):
     me = bpy.data.meshes.new("atmosphere")
     bm.to_mesh(me)
     bm.free()
+    m = bpy.data.materials.get("atmosphere") or bpy.data.materials.new("atmosphere")
