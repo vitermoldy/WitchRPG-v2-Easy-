@@ -405,3 +405,6 @@ LINEUP_BANDS = [
     ("A", "Kecil dan sedang, sampai 3,2 m", ["ilyra", "imp", "hellhound", "harpy", "naga", "medusa", "centaur", "succubus", "incubus", "minotaur", "lilith", "unicorn", "hippogriff"], 0.7, 1),
     ("B", "Besar, 3,2 sampai 7,5 m", ["ilyra", "cyclops", "pegasus", "chimera", "phoenix", "griffin", "samael", "cerberus"], 1.4, 1),
     ("C", "Raksasa, di atas 7,5 m", ["ilyra", "atlas", "dragon", "hydra", "typhon"], 3.0, 2),
+]
+
+
