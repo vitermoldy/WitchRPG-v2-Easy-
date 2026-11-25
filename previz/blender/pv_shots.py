@@ -458,3 +458,4 @@ def build_lineup(lib_colls, stats):
         pole.P("m").box((ox + 1.1, -6, top / 2), (0.03 * (1 if key == "A" else 2 if key == "B" else 4.5), 0.01, top), mat="l")
         pole.finalize()
         height = top + ts * 4.2
+        bands.append(dict(key=key, title=title, x0=ox, width=width + 1.2, z0=-ts * 3.8, height=height + ts * 1.5, ts=ts))
