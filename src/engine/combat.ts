@@ -25,3 +25,4 @@ export class StunMeter {
   value = 0
   /** Seconds left staggered (and open to an execution). */
   staggered = 0
+  private since = 0
