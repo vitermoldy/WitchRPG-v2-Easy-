@@ -84,3 +84,5 @@ class Staff {
   reset() {
     this.state = 'hand'
     if (this.obj) this.obj.visible = false
+  }
+
