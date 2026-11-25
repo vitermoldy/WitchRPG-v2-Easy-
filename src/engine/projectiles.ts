@@ -56,3 +56,4 @@ export class Projectiles {
     const spec = atk.shot
     if (!spec) return
     const from = u.center().addScaledVector(u.lungeDir, u.radius * 0.8)
+    from.y = u.pos.y + u.height * 0.72
