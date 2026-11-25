@@ -178,3 +178,4 @@ async function boot() {
     }
     show(null)
     game.resume()
+  })
