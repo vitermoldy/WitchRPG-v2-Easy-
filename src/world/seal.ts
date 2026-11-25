@@ -20,3 +20,4 @@ const FRAG = /* glsl */ `
     vec3 col = mix(vec3(1.0, 0.65, 0.24), vec3(0.56, 0.33, 1.0), vUv.y) * 1.5;
     float a = k * k * (0.18 + 0.35 * bands) * uFade;
     gl_FragColor = vec4(col * a, a);
+  }
