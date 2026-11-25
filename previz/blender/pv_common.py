@@ -510,3 +510,6 @@ def new_scene(name):
     if sc:
         bpy.data.scenes.remove(sc)
     sc = bpy.data.scenes.new(name)
+    return sc
+
+
