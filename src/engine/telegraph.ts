@@ -132,3 +132,4 @@ export class Telegraphs {
       it.ox = u.pos.x
       it.oz = u.pos.z
       it.dx = u.lungeDir.x
+      it.dz = u.lungeDir.z
