@@ -526,3 +526,4 @@ export class Lair {
     const b = this.body
     return {
       state: this.state,
+      phase: this.phase,
