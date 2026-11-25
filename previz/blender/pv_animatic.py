@@ -41,3 +41,4 @@ def lock_quat(cam_loc, target, vfov, third=(1 / 3, 1 / 3)):
 
 def build(dunia, res=(1280, 720), samples=24):
     Sp = Vector((*Wd.SPOTS["hydra"], 0))
+    H = Vector((*Wd.HYDRA_POS, 0))
