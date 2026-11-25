@@ -933,3 +933,4 @@ export class Game implements UnitHost {
       // in the air C sinks her: no block up there
       blockHeld: canAct && !air && inp.held('KeyC'),
       blockPressed: canAct && !air && inp.pressed('KeyC'),
+      execute: canAct && inp.pressed('KeyF'),
