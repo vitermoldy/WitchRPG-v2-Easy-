@@ -335,3 +335,4 @@ export class Lair {
         this.reset()
         this.state = 'calm'
       }
+      return
