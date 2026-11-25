@@ -119,3 +119,4 @@ export class Obstacles {
     const mz = (az + bz) / 2
     let best = 1
     this.near(mx, mz, len / 2 + cr + 0.01, (s) => {
+      const t = s.kind === CYL ? segCylinder(ax, ay, az, dx, dy, dz, s, cr) : segSphere(ax, ay, az, dx, dy, dz, s, cr)
