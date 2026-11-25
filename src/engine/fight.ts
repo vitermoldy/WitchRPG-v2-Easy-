@@ -67,3 +67,4 @@ class Staff {
     this.pos.copy(from)
     this.prev.copy(from)
     this.vel.subVectors(to, from).normalize().multiplyScalar(COMBAT.staff.throwSpeed)
+    this.travelled = 0
