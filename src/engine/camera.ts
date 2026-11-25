@@ -66,3 +66,5 @@ export function clearFraction(pivot: Vec, want: Vec, obstacles: Obstacles | null
     last = t
   }
   return f
+}
+
