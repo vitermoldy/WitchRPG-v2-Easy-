@@ -162,3 +162,4 @@ export class WorldMap {
         out.set(kind, m)
       }
     }
+    for (const kind of FAUNA) {
