@@ -421,3 +421,4 @@ export class Fight {
         if (u.team !== 'enemy' || !u.targetable) continue
         const d = Math.hypot(u.pos.x - p.pos.x, u.pos.z - p.pos.z) - u.radius
         if (d > s.swing.reach + 1.6) continue
+        const off = Math.abs(wrap(yawTo(p.pos.x, p.pos.z, u.pos.x, u.pos.z) - yaw))
