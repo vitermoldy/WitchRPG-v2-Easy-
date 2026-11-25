@@ -238,3 +238,4 @@ export class TravelPanel {
 
   constructor(host: TravelHost) {
     this.host = host
+    $('btn-travel-close').addEventListener('click', () => this.close())
