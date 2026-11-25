@@ -1142,3 +1142,4 @@ export class Game implements UnitHost {
       locked: !!this.lockon.current,
       enemies: this.units.enemies().length,
       shadowsField: this.umbra.field().length,
+      shadowsRoom: this.profile.shadows.length,
