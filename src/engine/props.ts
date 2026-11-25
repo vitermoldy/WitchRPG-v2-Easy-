@@ -76,3 +76,4 @@ export class Props {
     for (const p of this.list) {
       if (p.held) continue
       const ground = g.height(p.pos.x, p.pos.z) + p.radius * 0.8
+      if (p.thrown || p.pos.y > ground + 0.05 || p.vel.lengthSq() > 0.01) {
