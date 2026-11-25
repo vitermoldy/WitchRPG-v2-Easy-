@@ -419,3 +419,4 @@ export class Fight {
       let best = Infinity
       for (const u of g.units.units) {
         if (u.team !== 'enemy' || !u.targetable) continue
+        const d = Math.hypot(u.pos.x - p.pos.x, u.pos.z - p.pos.z) - u.radius
