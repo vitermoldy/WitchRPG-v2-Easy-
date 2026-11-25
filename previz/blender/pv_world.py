@@ -569,3 +569,4 @@ def fog_material(z):
     return m
 
 
+def build_fog(coll):
