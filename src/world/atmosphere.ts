@@ -46,3 +46,4 @@ export class Atmosphere {
   readonly hemi = new THREE.HemisphereLight('#c6d4e6', '#4a4636', 1.9)
   readonly sun = new THREE.DirectionalLight('#ffe9cc', 3.6)
   readonly sky: THREE.Mesh
+  private readonly uniforms: Record<string, THREE.IUniform>
