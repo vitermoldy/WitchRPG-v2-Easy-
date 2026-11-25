@@ -127,3 +127,4 @@ describe('over-the-shoulder camera', () => {
   it('frames a locked target on the upper-right third of the screen', () => {
     const rig = new CameraRig()
     const target = { point: { x: 0, y: 1.2, z: -8 }, height: 1.3 }
+    let pose = rig.update(1 / 60, pivot, false, target, null, flat)
