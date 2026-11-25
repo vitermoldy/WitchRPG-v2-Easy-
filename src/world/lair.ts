@@ -256,3 +256,4 @@ export class Lair {
     this.wonAt = this.time
     this.floodTo = 0
     g.profile.bossKills += 1
+    g.seal.unlock()
