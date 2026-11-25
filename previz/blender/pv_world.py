@@ -339,3 +339,6 @@ def _grass(p):
         a = k * 2.4
         b = Vector((math.cos(a) * 0.08, math.sin(a) * 0.08, 0))
         tip = b + Vector((math.cos(a) * 0.18, math.sin(a) * 0.18, 0.45 + 0.15 * (k % 3)))
+        p.cone(b, tip, 0.025, mat="grass", seg=3, smooth=False)
+
+
