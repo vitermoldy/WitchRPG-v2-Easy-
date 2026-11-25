@@ -21,3 +21,5 @@ export interface UmbraInput {
   wheelPressed: boolean
   dx: number
   dy: number
+}
+
