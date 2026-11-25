@@ -997,3 +997,4 @@ def b_typhon(r):
         hd = r.parts["hand_" + side]
         W, d = J["wr_" + side], J["hand_dir_" + side]
         for k in range(3):
+            pts = [W + d * 0.5, W + d * 1.6 + Vector((0.6 * (k - 1), 0, 0.4)), W + d * 2.5 + Vector((1.2 * (k - 1), -0.5, 1.0))]
