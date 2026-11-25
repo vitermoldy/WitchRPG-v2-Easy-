@@ -405,3 +405,4 @@ export class UnitSystem {
    * (500 shadows looking 14 m for 40 creatures check 40 units each instead of 121 cells).
    */
   nearestFoe(u: Unit, range: number): Unit | null {
+    let best: Unit | null = null
