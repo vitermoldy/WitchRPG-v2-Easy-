@@ -102,3 +102,4 @@ async function enter(path: string, payload: unknown): Promise<void> {
   } catch (err) {
     if (err instanceof ApiError && err.status >= 400 && err.status < 500) throw err
     setAuth({ status: 'unavailable', account: null })
+    throw new ApiError('Server tidak terhubung. Jalankan npm run server, lalu coba lagi.', 0)
