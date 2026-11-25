@@ -337,3 +337,4 @@ def _rock(p, seed, r=(1.4, 1.1, 0.9), mat="rock"):
 def _grass(p):
     for k in range(8):
         a = k * 2.4
+        b = Vector((math.cos(a) * 0.08, math.sin(a) * 0.08, 0))
