@@ -234,3 +234,4 @@ export class Forest {
   readonly trees: Tree[]
   private readonly visibleRange: number
 
+  constructor(trees: Tree[], visibleRange = 330) {
