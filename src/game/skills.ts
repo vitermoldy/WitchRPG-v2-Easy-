@@ -68,3 +68,4 @@ export const SKILLS: SkillDef[] = [
     upgrade: 'Durasi +2 detik.',
     built: true,
   },
+  {
