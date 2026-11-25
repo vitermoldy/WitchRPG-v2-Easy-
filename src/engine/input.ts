@@ -99,3 +99,4 @@ export class Input {
     return this.releasedSet.has(code)
   }
 
+  endFrame() {
