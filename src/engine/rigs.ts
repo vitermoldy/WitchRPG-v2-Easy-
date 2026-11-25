@@ -563,3 +563,4 @@ function biped(opts: { heavy: number; reach: number; sway: number }): PoseFn {
         p.rot('torso', 10, -20)
       } else {
         const k = ease(u.t / (u.atk.lungeTime ?? 0.3))
+        p.body(0, 16 * k * opts.reach)
