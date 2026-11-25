@@ -68,3 +68,4 @@ export class Game implements UnitHost {
   readonly input: Input
   readonly rig = new CameraRig()
   readonly player = new Player()
+  readonly lockon = new LockOn()
