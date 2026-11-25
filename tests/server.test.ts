@@ -52,3 +52,4 @@ describe('the server checks a witch before it keeps her', () => {
     expect(c.world.last).toBe('pembuka')
   })
 
+  it('keeps settings in range and a clock far ahead from locking later saves out', () => {
