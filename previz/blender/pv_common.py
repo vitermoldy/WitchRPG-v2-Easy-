@@ -549,3 +549,4 @@ def bounds(coll, skip=()):
     hi = Vector((-1e9, -1e9, -1e9))
     for ob in coll.all_objects:
         if ob.type != "MESH" or any(s in ob.name for s in skip):
+            continue
