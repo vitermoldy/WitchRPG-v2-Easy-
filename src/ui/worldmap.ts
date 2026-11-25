@@ -108,3 +108,4 @@ export class WorldMap {
     try {
       localStorage.setItem(SAVE_KEY, JSON.stringify([...this.chosen]))
     } catch {
+      /* the choice lasts until the page reloads */
