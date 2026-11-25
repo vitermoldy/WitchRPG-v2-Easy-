@@ -202,3 +202,4 @@ export class Hud {
     this.root.classList.toggle('stone', p.petrified > 0)
     const chaos = g.spells.overloaded ? (g.spells.overloadT / CHAOS.overloadTime) * 100 : g.spells.chaos
     this.set('chaos-fill', 'transform', `scaleX(${(chaos / 100).toFixed(3)})`)
+    this.set('chaos-text', 'text', g.spells.overloaded ? `${Math.ceil(g.spells.overloadT)} dtk` : g.spells.chaos >= CHAOS.max ? 'G siap' : `${Math.floor(g.spells.chaos)}`)
