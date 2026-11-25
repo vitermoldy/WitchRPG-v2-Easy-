@@ -109,3 +109,4 @@ export class Projectiles {
         if (s.source.targetable && s.source.center(this.c).distanceTo(s.pos) < s.source.radius + 0.6) {
           g.hurtUnit(s.source, s.source.damage * (s.atk.damage ?? 1) * SPELL.warp.reflectDamage, s.pos, 12, 2, 'player', 'impact')
           this.end(i, true)
+        } else if (s.life <= 0) this.end(i, false)
