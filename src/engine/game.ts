@@ -849,3 +849,4 @@ export class Game implements UnitHost {
       this.rig.yaw += dt * 0.05
       this.place(dt, false)
       this.ilyra.update(dt, this.player, 0, this.pose)
+    }
