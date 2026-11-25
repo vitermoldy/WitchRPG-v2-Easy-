@@ -200,3 +200,5 @@ export function buyUpgrade(p: Profile, id: SkillId): boolean {
   p.upgrades[id] = true
   p.skillPoints -= 1
   return true
+}
+
