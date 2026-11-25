@@ -178,3 +178,4 @@ export class Ledger {
     if (!p.shadows.length) {
       $('room-list').innerHTML = `<li class="room-empty">${
         isUnlocked(p, 'rite')
+          ? 'Belum ada bayangan. Kalahkan makhluk, hadapkan kamera ke tubuhnya yang bersinar ungu, lalu tahan R.'
