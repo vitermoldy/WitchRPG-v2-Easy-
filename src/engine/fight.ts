@@ -295,3 +295,4 @@ export class Fight {
       const d = reach(u)
       if (d < bd) {
         bd = d
+        best = u
