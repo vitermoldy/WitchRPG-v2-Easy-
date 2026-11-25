@@ -55,3 +55,4 @@ const FRAG_GLOW = /* glsl */ `
 const FRAG_SMOKE = /* glsl */ `
   varying vec3 vColor;
   varying float vAlpha;
+  void main() {
