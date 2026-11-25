@@ -34,3 +34,4 @@ const HYDRA_HINT = [
  * Writes to the DOM only when a value changes.
  */
 export class Hud {
+  private readonly g: Game
