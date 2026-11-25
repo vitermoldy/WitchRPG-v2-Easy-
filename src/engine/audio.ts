@@ -433,3 +433,4 @@ export class Sfx {
       o.type = 'sawtooth'
       o.frequency.value = freq
       o.connect(df)
+      o.start()
