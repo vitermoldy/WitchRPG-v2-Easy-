@@ -8,3 +8,4 @@ describe('the save', () => {
     const old = JSON.parse(JSON.stringify(newProfile()))
     delete old.world
     const p = normalizeProfile(old)!
+    expect(p.world.altars).toEqual(['pembuka'])
