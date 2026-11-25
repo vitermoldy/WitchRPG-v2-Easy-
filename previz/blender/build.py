@@ -96,3 +96,4 @@ if "--no-save" not in argv:
     log("disimpan")
 
 FILES = {"hero": "01-hero-bahu.png", "valley": "02-lembah-hutan.png", "minotaur": "04-tempur-minotaur.png", "hydra": "05-boss-hydra.png", "army": "06-pasukan-bangkit.png", "bara": "07-uji-lembah-bara.png"}
+for key, fname in FILES.items():
