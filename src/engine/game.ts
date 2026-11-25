@@ -728,3 +728,4 @@ export class Game implements UnitHost {
     if (!this.profile.world.altars.includes(key) || !this.player.alive) return
     const a = this.altars.byKey(key)
     const at = this.altars.standAt(a)
+    this.fight.reset()
