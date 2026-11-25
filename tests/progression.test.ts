@@ -4,3 +4,4 @@ import {
   bossUnlocked,
   buyUpgrade,
   derive,
+  isFresh,
