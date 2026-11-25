@@ -257,3 +257,4 @@ export class TravelPanel {
     return this.dlg.open
   }
 
+  open() {
