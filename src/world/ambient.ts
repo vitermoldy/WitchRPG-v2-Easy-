@@ -32,3 +32,5 @@ const KINDS: Kind[] = [
   { color: 0xc8ff6a, size: 0.12, vel: [0, 0.05, 0], wander: 0.7, blink: 1, alpha: 0.95 },
   { color: 0xb8b4ac, size: 0.07, vel: [0.1, -0.35, 0.05], wander: 0.15, blink: 0, alpha: 0.35 },
   { color: 0xffc070, size: 0.16, vel: [0.3, 1.4, 0.2], wander: 0.8, blink: 0.6, alpha: 1 },
+]
+
