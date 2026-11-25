@@ -237,3 +237,4 @@ export class Player {
     const gz = wz * speed - this.vz
     const len = Math.hypot(gx, gy, gz)
     const k = len > F.accel * dt ? (F.accel * dt) / len : 1
+    this.vx += gx * k
