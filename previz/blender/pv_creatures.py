@@ -1130,3 +1130,4 @@ ROSTER = [
     ("succubus", "Succubus", b_succubus, "Elit penyumon", "Ksatria elit", "IV Reruntuhan Kuil", ("167518dd7ed83f5f910603744479.jpg", (255, 1178, 476, 1422))),
     ("incubus", "Incubus", b_incubus, "Elit penyumon", "Ksatria elit", "IV Reruntuhan Kuil", ("167518dd7ed83f5f910603744479.jpg", (38, 1178, 258, 1422))),
     ("griffin", "Griffin", b_griffin, "Penukik elit udara", "Ksatria", "II Tebing Berangin", ("167518dd7ed83f5f910603744479.jpg", (550, 725, 1005, 1048))),
+    ("hippogriff", "Hippogriff", b_hippogriff, "Penukik elit udara", "Ksatria", "II Tebing Berangin", ("167518dd7ed83f5f910603744479.jpg", (535, 1145, 1015, 1414))),
