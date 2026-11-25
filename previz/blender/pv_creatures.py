@@ -578,3 +578,4 @@ def b_centaur(r):
         tail_tube(tl, [Q["tail_base"], (k, 1.2, 1.2), (k * 2, 1.4, 0.75), (k * 3, 1.36, 0.3)], 0.08, 0.0, mat="body2")
 
 
+def b_naga(r):
