@@ -503,3 +503,4 @@ export class Game implements UnitHost {
     this.lastFrame = performance.now()
   }
 
+  pause() {
