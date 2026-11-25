@@ -59,3 +59,4 @@ describe('the forest valley', () => {
   })
 
   it('gives every boss of the open world a camp of its own behind the seal, above its zone band', () => {
+    for (const kind of WORLD_BOSSES) {
