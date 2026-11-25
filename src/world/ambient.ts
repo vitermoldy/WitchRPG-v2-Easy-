@@ -127,3 +127,4 @@ export class Ambient {
     this.points.name = 'ambient'
     this.points.frustumCulled = false
     this.points.renderOrder = 6
+    for (let i = 0; i < COUNT; i++) this.phase[i] = Math.random() * 100
