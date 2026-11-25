@@ -249,3 +249,4 @@ export class LightPool {
     for (const s of this.slots) {
       if (s.held || s.ttl <= 0) continue
       s.ttl -= dt
+      const k = Math.max(0, s.ttl / s.maxTtl)
