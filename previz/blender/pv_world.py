@@ -481,3 +481,4 @@ def build_forest(coll, P, size=1260.0, step=4.0, seed=3):
             sel &= _dist(X, Y, c) > rad
         ids = np.nonzero(sel)[0]
         pts = np.stack([X[ids], Y[ids], Z[ids] - 0.3], axis=1)
+        rots = np.stack([rng.normal(0, 0.2, len(ids)), rng.normal(0, 0.2, len(ids)), rng.uniform(0, 6.28, len(ids))], axis=1)
