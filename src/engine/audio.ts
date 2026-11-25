@@ -81,3 +81,4 @@ export class Sfx {
     o.stop(t + attack + dur + 0.05)
   }
 
+  private ok() {
