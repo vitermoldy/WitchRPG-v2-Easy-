@@ -138,3 +138,4 @@ describe('ground', () => {
 })
 
 describe('shadows', () => {
+  it('fight creatures near her and leave her alone', () => {
