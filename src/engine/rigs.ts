@@ -444,3 +444,4 @@ const poseMinotaur: PoseFn = (p, u, t) => {
 
 const MEDUSA_LIMBS = ['upperarm_L', 'upperarm_R', 'tail']
 
+/** Medusa: glides on her snake tail. Rises and spreads her arms for the gaze; strikes low for the bite. */
