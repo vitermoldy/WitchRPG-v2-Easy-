@@ -84,3 +84,4 @@ export class WorldMap {
       this.draw()
     })
     window.addEventListener('resize', () => {
+      if (this.dlg.open) this.draw()
