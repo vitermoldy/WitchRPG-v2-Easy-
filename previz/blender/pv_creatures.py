@@ -508,3 +508,4 @@ def b_hellhound(r):
         nk.limb(nb + Vector((dx * 0.3, 0, 0)), hp, 0.15 * sc, 0.12 * sc)
         hd = r.P(f"head{k}", hp, f"neck{k}")
         dog_head(hd, hp + Vector((0, -0.06, 0.02)), fwd=(dx * 1.6, -1, -0.12), s=1.15 * sc, jaw_open=34)
+    spikes(b, [lerp(Q["withers"], (0, Q["L"] * 0.45, Q["H"] * 0.95), i / 7) for i in range(8)], 0.16, 0.035, mat="body", tilt=(0, 0.6, 1))
