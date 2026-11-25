@@ -471,3 +471,4 @@ def render_lineup(sc, bands, path, tmpdir, pct=100):
     parts = []
     W = 3840
     for b in bands:
+        sc.camera = b["cam"]
