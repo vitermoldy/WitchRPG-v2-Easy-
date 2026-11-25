@@ -512,3 +512,4 @@ export class Spells {
     g.hurtUnit(u, dmg, u.pos, 12, 0, 'player', 'impact')
     if (other) g.hurtUnit(other, dmg, u.pos, 12, 5, 'player', 'impact')
     g.sfx.impact(Math.min(1.5, speed / 20))
+    g.glow.emit({ pos: u.center(), count: 16, color: COLOR.chaosHot, intensity: 2.6, life: 0.4, size: 0.16, speed: 4, gravity: 5 })
