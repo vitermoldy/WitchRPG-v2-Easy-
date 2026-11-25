@@ -154,3 +154,4 @@ X ke timur, Y ke utara, meter, pusat peta (0, 0).
 | Altar awal | (-10, -395) | | lingkar tujuh batu tegak |
 | Tebing Berangin | (320, -40) | 190 | dataran tinggi naik 36 sampai 42 m, tepi tebing patah |
 | Rawa Berkabut | (-300, 40) | 200 | rata di garis air, kolam di bawah 0 m |
+| Danau Hitam | (-330, 300) | 95 | dalam 7 m, tepi curam di sekitar 93 m dari pusat |
