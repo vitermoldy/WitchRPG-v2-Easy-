@@ -730,3 +730,4 @@ def b_chimera(r):
     gn.limb(gh + Vector((0, -0.15, -0.04)), gh + Vector((0, -0.38, -0.14)), 0.1, 0.06, mat="goat")
     gn.cone(gh + Vector((0, -0.3, -0.16)), gh + Vector((0, -0.32, -0.42)), 0.05, mat="goat", seg=5)
     for s in (1, -1):
+        gn.tube([gh + Vector((0.08 * s, 0.02, 0.12)), gh + Vector((0.18 * s, 0.45, 0.6)), gh + Vector((0.28 * s, 1.1, 0.68)), gh + Vector((0.3 * s, 1.5, 0.35))], [0.08, 0.06, 0.035, 0.0], mat="horn", seg=7, n=4)
