@@ -657,3 +657,4 @@ def sky_world(name, zenith, horizon, ground, strength=1.0, haze=None, haze_densi
     sep = N.new("ShaderNodeSeparateXYZ")
     L.new(tc.outputs["Generated"], sep.inputs[0])
     ramp = N.new("ShaderNodeValToRGB")
+    cr = ramp.color_ramp
