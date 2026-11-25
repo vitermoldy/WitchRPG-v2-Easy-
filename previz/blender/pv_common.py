@@ -533,3 +533,4 @@ def tri_count(coll):
     return n
 
 
+def world_matrix(ob):
