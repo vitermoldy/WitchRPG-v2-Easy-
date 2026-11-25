@@ -65,3 +65,5 @@ describe('stun meter and execution', () => {
     expect(riteChance('marsekal', 1, 20, 5, true)).toBe(RITE.minChance)
     expect(riteChance('jenderal', 8, 8, 10, true)).toBeCloseTo(0.3 + 0.1 + 0.15, 3)
   })
+})
+
