@@ -126,3 +126,4 @@ def mat_ring(name, color, strength, inner=0.82, alpha=0.9, fill=0.08):
     m = bpy.data.materials.get(name) or bpy.data.materials.new(name)
     m.use_nodes = True
     m.surface_render_method = "BLENDED"
+    nt = m.node_tree
