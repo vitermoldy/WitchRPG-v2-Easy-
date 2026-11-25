@@ -861,3 +861,4 @@ def b_dragon(r):
     spikes(b, [lerp(Q["withers"], (0, 3.5, Q["H"] * 0.95), i / 7) + Vector((0, 0, 0.1)) for i in range(8)], 0.7, 0.14, mat="accent", tilt=(0, 0.7, 1))
     tl = r.P("tail", Q["tail_base"], "body")
     tp = [Q["tail_base"], (0, 5.6, 2.4), (0.8, 7.6, 1.3), (1.8, 9.6, 0.7), (1.4, 11.6, 0.5)]
+    tail_tube(tl, tp, 0.75, 0.08, seg=9)
