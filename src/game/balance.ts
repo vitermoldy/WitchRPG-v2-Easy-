@@ -116,3 +116,4 @@ export const SPELL = {
   warp: { mana: 60, cooldown: 30, radius: 10, duration: 5, durationUpgrade: 2, range: 26, liftHeight: 3.6, reflectDamage: 1.6 },
 } as const
 
+export const RITE = {
