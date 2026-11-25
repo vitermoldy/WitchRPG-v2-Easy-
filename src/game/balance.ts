@@ -446,3 +446,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     stun: 30,
     flank: true,
   },
+  // v2, Tebing Berangin: hovers, screams for 0.7 s, then dives along a flashing line. A Hex Bolt or Telekinesis brings it down.
