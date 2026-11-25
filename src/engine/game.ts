@@ -50,3 +50,5 @@ export interface BotInput {
   turn: number
   /** While flying: 1 climbs, -1 sinks. */
   rise?: number
+}
+
