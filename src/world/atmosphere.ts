@@ -64,3 +64,4 @@ export class Atmosphere {
     this.uniforms = {
       zenith: { value: new THREE.Color('#47689a') },
       horizon: { value: new THREE.Color('#e9d7c0') },
+      ground: { value: new THREE.Color('#2a2a26') },
