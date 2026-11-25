@@ -1021,3 +1021,4 @@ export interface TierSpec {
   unlock: number
   waves: WaveSpec[]
   maxAlive: number
+  /** Tier III ends in the Hollow Warden's lair. */
