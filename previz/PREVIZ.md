@@ -118,3 +118,4 @@ Makhluk memakai warna dari gambar referensinya (keputusan pemilik setelah previz
 | Medusa | kulit hijau `#86bb62` | rambut ular tembaga `#c47a3a`, ekor `#8aa040`, gaun putih `#f2efe6`, emas |
 | Chimera | singa `#b8843c` | surai krem `#e8dcc0`, kepala kambing `#8a7c6c`, ekor ular biru `#2b4a8c` perut emas |
 | Succubus, Incubus | kulit abu pucat `#cfc9d2`, `#a9a1aa` | rambut putih, zirah `#2b2731`, sayap `#8a3e52`, permata hijau `#5fe0a0` |
+| Griffin | singa `#c39256` | kepala dan sayap elang `#8a5a34`, `#6e4a2c`, paruh `#e0b040` |
