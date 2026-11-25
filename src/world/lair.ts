@@ -23,3 +23,4 @@ export function hydraShare(phase: 1 | 2 | 3, kind: DamageKind, inWarp: boolean):
   return army
 }
 
+/** The radius of the lair: the shore the fight happens on. */
