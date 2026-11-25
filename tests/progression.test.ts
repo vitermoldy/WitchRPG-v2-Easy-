@@ -39,3 +39,4 @@ describe('XP curve from the GDD', () => {
     expect(xpForKill(4, true)).toBe(60)
   })
   it('8 level-1 kills reach Lv 2', () => {
+    const p = newProfile()
