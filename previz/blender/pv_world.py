@@ -154,3 +154,4 @@ def build_terrain(coll, size=1300.0, step=2.5):
     rock = smooth(0.45, 0.9, slope)[..., None]
     col = col * (1 - rock) + rock * _hex("#4a4642")
     mud = smooth(0.9, 0.2, Z)[..., None] * smooth(-3, 0, Z)[..., None]
+    col = col * (1 - 0.6 * mud) + 0.6 * mud * _hex("#1a1d14")
