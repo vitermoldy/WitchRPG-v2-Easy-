@@ -237,3 +237,4 @@ export interface UnitSpec {
   lungeSpeed?: number
   lungeTime?: number
   /** Fires globs instead of hitting in melee. `blast`: the glob bursts over this radius where it lands. */
+  shot?: { speed: number; gravity: number; radius: number; keepAway: number; blast?: number }
