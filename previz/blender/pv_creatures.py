@@ -863,3 +863,4 @@ def b_dragon(r):
     tp = [Q["tail_base"], (0, 5.6, 2.4), (0.8, 7.6, 1.3), (1.8, 9.6, 0.7), (1.4, 11.6, 0.5)]
     tail_tube(tl, tp, 0.75, 0.08, seg=9)
     tip = V(tp[-1])
+    tl.poly([tip, tip + Vector((0.5, 0.6, 0.0)), tip + Vector((0.0, 1.2, 0.05)), tip + Vector((-0.5, 0.6, 0.0))], mat="accent")
