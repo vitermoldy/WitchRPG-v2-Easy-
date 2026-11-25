@@ -572,3 +572,4 @@ export class Game implements UnitHost {
   }
 
   /** Stats or upgrades changed in the Ledger: new derived numbers, kept in the save. */
+  statsChanged() {
