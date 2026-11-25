@@ -563,3 +563,6 @@ def font():
     if f is None:
         f = bpy.data.fonts.load(FONT_PATH)
         f.name = "bahnschrift"
+    return f
+
+
