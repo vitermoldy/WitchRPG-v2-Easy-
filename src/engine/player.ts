@@ -223,3 +223,4 @@ export class Player {
   }
 
   /**
+   * v1's flight: she eases toward the wanted velocity in all three axes, never higher than the ceiling
