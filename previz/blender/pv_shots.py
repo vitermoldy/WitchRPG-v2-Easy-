@@ -197,3 +197,4 @@ def build_hero(dunia, name="01-hero-bahu", mode="normal", cam_over=None, res=(19
     il = actor("aktor.ilyra.hero", "ilyra", "idle")
     place(il, local, P[0], P[1], f)
     imp = actor("aktor.imp", "imp")
+    fr = frame_of(P, f)
