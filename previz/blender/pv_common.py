@@ -148,3 +148,4 @@ def mat_tone(name, top, bottom=None, rough=0.7, metal=0.0, emit=None, emit_stren
     mr.inputs["From Max"].default_value = 0.35
     L.new(sep.outputs["Z"], mr.inputs["Value"])
     mix = N.new("ShaderNodeMix")
+    mix.data_type = "RGBA"
