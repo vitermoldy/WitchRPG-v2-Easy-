@@ -20,3 +20,4 @@ import {
   xpForKill,
   xpToNext,
 } from '../src/game/progression'
+import { SKILLS } from '../src/game/skills'
