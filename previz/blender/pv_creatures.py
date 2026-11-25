@@ -265,3 +265,4 @@ def dog_head(part, at, fwd=(0, -1, 0), s=1.0, jaw_open=25, ears=True, mane=False
     for k in (-1, 1):
         part.ell(a + F * 0.14 * s + UP * 0.07 * s + side * 0.075 * s * k, (0.028 * s, 0.03 * s, 0.022 * s), mat="eye", seg=8, rings=5)
         if ears:
+            part.cone(a + UP * 0.1 * s + side * 0.09 * s * k - F * 0.04 * s, a + UP * 0.33 * s + side * 0.14 * s * k, 0.06 * s, mat=mat, seg=6)
