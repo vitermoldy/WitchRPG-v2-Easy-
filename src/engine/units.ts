@@ -312,3 +312,4 @@ export class UnitSystem {
   /** Attack slots in use against her. */
   tokens() {
     let n = 0
+    for (const u of this.units) if (u.token) n++
