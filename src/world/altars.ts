@@ -81,3 +81,4 @@ export class Altars {
 
   /** The lit altar she stands at, if any. */
   near(): Altar | null {
+    const p = this.g.player.pos
