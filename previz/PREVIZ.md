@@ -47,3 +47,5 @@ Varian yang dibandingkan di `00-kamera-varian.png`:
 
 Kamera tidak pernah memotong: animatic membuktikan transisi dari udara ke bahu sebagai satu gerakan. Tabrakan kamera dengan pohon belum diuji di previz; itu gerbang Fase 1.
 
+## Skala makhluk
+
