@@ -10,3 +10,6 @@ from pv_common import HEX, V
 
 
 def X(p, s):
+    return (p[0] * s, p[1], p[2])
+
+
