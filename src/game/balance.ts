@@ -219,3 +219,5 @@ export interface AttackSpec {
 }
 
 /** What petrifying and poison do to her. */
+export const EFFECTS = { petrify: 2.2, poisonTime: 4, poisonShare: 0.15 } as const
+
