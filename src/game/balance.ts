@@ -547,3 +547,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     stun: 140,
     boss: true,
     attacks: [
+      { name: 'tatapan', strike: 'ring', windup: 1.3, recover: 1.2, range: 20, minRange: 4, ring: 2.2, damage: 0.6, effect: 'petrify', cooldown: 7 },
