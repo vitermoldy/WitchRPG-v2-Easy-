@@ -971,3 +971,4 @@ export class Game implements UnitHost {
     const t2 = performance.now()
     this.umbra.update(sdt, canAct && !this.fight.exec, {
       riteHeld: inp.held('KeyR'),
+      ritePressed: inp.pressed('KeyR'),
