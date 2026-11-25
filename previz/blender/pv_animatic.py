@@ -120,3 +120,4 @@ def build(dunia, res=(1280, 720), samples=24):
         z = Wd.ground_z(P.x, P.y)
         bob = 0.025 * abs(math.sin(phase)) if walking else 0.0
         il_i.location = (P.x, P.y, z + bob)
+        il_i.rotation_euler = (0, 0, math.radians(S.yaw_to(face)))
