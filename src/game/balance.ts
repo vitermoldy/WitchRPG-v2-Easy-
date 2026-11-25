@@ -358,3 +358,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     name: 'The Hollow Warden',
     rank: 'marsekal',
     hp: 2400,
+    damage: 22,
