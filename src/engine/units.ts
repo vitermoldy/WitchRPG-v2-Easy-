@@ -228,3 +228,4 @@ export class Unit implements Foe {
   }
 
   // lock-on reads the feet position as x, y, z
+  get x() {
