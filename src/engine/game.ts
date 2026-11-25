@@ -1189,3 +1189,4 @@ export class Game implements UnitHost {
         hp: u.hp,
         maxHp: u.maxHp,
         stun: u.stun.share,
+        alt: u.alt,
