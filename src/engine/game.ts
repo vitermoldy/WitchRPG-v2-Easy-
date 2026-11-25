@@ -414,3 +414,4 @@ export class Game implements UnitHost {
     // every point light is paid for by every lit pixel of the forest, every frame: keep the pool small
     this.lights = new LightPool(this.scene, 4)
     this.rings = new Rings(this.scene, 12)
+    this.warnings = new Warnings(this.scene, 12)
