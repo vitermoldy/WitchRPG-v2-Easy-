@@ -934,3 +934,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
  */
 export const HYDRA = {
   heads: 5,
+  /** Drawn this much larger than its block-out, so its necks reach the shore. */
