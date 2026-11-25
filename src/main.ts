@@ -11,3 +11,4 @@ const $ = <T extends HTMLElement>(id: string) => document.getElementById(id) as 
 const debug = new URLSearchParams(location.search).has('debug')
 
 const screens = {
+  loading: $('screen-loading'),
