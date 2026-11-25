@@ -302,3 +302,4 @@ export class Game implements UnitHost {
         this.smoke.emit({ pos: at, count: 10, color: 0x1a1020, life: 0.8, size: 0.8, sizeEnd: 1.5, speed: 1.4, jitter: 0.4, alpha: 0.75 })
         this.glow.emit({ pos: { x: at.x, y: at.y + 1.2, z: at.z }, count: 16, color: 0x5fe0a0, intensity: 2.4, life: 0.5, size: 0.14, speed: 3 })
       }
+    } else if (what === 'ashes') {
