@@ -80,3 +80,4 @@ export class Lair {
   private bodyAttackIn = 2.5
   private wonAt = -1
   private time = 0
+  /** Game time a step into the lair was refused, for the HUD. */
