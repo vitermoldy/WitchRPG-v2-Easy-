@@ -116,3 +116,4 @@ export class Lair {
       mesh.visible = false
       this.group.add(mesh)
       this.islands.push({ x, z, r: 3.6, mesh })
+    }
