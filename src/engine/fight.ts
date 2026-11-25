@@ -525,3 +525,4 @@ export class Fight {
     out.catchK = this.catchT
     out.staff = this.staff.state === 'hand' && (this.throwT < 0 || this.throwT < THROW_RELEASE / THROW_TIME)
     out.cast = this.castFx
+    out.hurt = this.hurtFx
