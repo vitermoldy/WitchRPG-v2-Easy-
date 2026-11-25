@@ -428,3 +428,4 @@ def b_ilyra(r, pose="idle"):
         rad = 0.17 + t * 0.26
         row = []
         for j in range(cols):
+            u = j / (cols - 1)
