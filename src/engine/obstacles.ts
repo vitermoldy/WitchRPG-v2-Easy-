@@ -4,3 +4,5 @@
  * World coordinates (three.js: y up, north is -z).
  */
 export const CYL = 0
+export const SPHERE = 1
+
