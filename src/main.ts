@@ -85,3 +85,4 @@ async function boot() {
     input.addEventListener('input', () => {
       const v = Number(input.value)
       out.textContent = fmt(v)
+      apply(v)
