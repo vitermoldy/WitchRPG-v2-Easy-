@@ -428,3 +428,4 @@ export class ShadowPools {
     geo.rotateX(-Math.PI / 2)
     for (let i = 0; i < count; i++) {
       const mat = new THREE.ShaderMaterial({
+        uniforms: { uTime: { value: 0 }, uOpen: { value: 0 }, uSeed: { value: Math.random() * 10 } },
