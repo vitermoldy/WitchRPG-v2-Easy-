@@ -56,3 +56,4 @@ const RUNE_FRAG = /* glsl */ `
     float inner = smoothstep(0.02, 0.0, abs(r - 0.45 - 0.03 * sin(a * 3.0 - uTime * 2.0)));
     float fill = (1.0 - smoothstep(0.0, 0.95, r)) * 0.12;
     float v = (ring + spokes * 0.8 + inner * 0.6 + fill) * step(r, 1.0);
+    gl_FragColor = vec4(uColor * v * 2.2, v * uFade);
