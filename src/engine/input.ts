@@ -21,3 +21,4 @@ export class Input {
       if (GAME_KEYS.has(e.code)) e.preventDefault()
       if (e.repeat) return
       this.press(e.code)
+      this.onKey?.(e.code)
