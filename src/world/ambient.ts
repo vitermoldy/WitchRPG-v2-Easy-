@@ -67,3 +67,4 @@ const RIFT_FRAG = /* glsl */ `
   uniform float uTime;
   uniform float uFade;
   float zig(float y) {
+    // a triangle wave gives the sharp turns of a tear, a slow sine its overall lean
