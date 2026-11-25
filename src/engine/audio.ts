@@ -468,3 +468,4 @@ export class Sfx {
     for (let i = 0; i < 2; i++) this.tone(t + i * 0.2, 'triangle', f, f * 0.7, 0.12, 0.04)
   }
 
+  private chime(t: number) {
