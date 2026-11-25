@@ -284,3 +284,4 @@ def _faces_of(verts):
     return fs
 
 
+def catmull(pts, n):
