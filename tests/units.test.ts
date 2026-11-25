@@ -187,3 +187,4 @@ describe('phase 4 creatures', () => {
     expect(n.hp).toBe(hp)
     w.step(UNITS.naga.dive! + 0.1)
     expect(n.state).toBe('rising')
+    expect(n.pos.distanceTo(from)).toBeGreaterThan(3.5)
