@@ -248,3 +248,4 @@ export class Camps {
             g.sfx.growl()
             if (!this.toldShield && alive.some((u) => u.spec.shield)) {
               this.toldShield = true
+              g.hud.message('Minotaur menahan pukulan dan bolt dari depan. Lempar tongkat (H), Telekinesis, atau serang dari samping.', 'info')
