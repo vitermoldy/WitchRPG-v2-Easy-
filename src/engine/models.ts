@@ -177,3 +177,4 @@ export class IlyraModel {
     // her yaw faces -z at 0; the model faces +z
     this.root.rotation.y = p.facing + Math.PI
     const staff = this.parts['staff']
+    if (staff) staff.visible = act.staff
