@@ -611,3 +611,4 @@ export class UnitSystem {
     const n = Math.min(s.count, s.max - u.helpers)
     for (let k = 0; k < n; k++) {
       const a = u.yaw + Math.PI + (k - (n - 1) / 2) * 0.9
+      const h = this.spawn(u.spec.summonKind ?? 'imp', u.team, u.level, { x: u.pos.x + Math.sin(a) * (u.radius + 1.6), z: u.pos.z + Math.cos(a) * (u.radius + 1.6) }, true)
