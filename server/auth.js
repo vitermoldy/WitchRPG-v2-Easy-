@@ -132,3 +132,4 @@ export function createAuth({ getPool, cookie, lang, deviceCode, newDevice }) {
   }
 
   async function startSession(req, res, userId) {
+    const token = randomBytes(32).toString('base64url')
