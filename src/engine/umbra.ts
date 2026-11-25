@@ -256,3 +256,4 @@ export class Umbra {
     let bestScore = Infinity
     const near: Unit[] = []
 
+    // while the army is out, a shadow that has reformed rises again beside her
