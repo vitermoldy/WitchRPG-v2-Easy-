@@ -154,3 +154,4 @@ export class Player {
         this.dodgeT = -1
         this.dodgeCd = MOVE.dodge.cooldown
         this.vx *= 0.3
+        this.vz *= 0.3
