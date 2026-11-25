@@ -391,3 +391,4 @@ class Part:
             Nn.normalize()
             B = T[i].cross(Nn)
             if R[i] < 1e-4:
+                v = self.bm.verts.new(p - off)
