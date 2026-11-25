@@ -764,3 +764,4 @@ export class UnitSystem {
             u.vel.copy(u.lungeDir).multiplyScalar(atk.ahead !== undefined ? 0 : Math.min(atk.lungeSpeed ?? 0, Math.max(0, d - u.radius) / lt))
           } else u.vel.copy(u.lungeDir).multiplyScalar(atk.lungeSpeed ?? 12)
         }
+        break
