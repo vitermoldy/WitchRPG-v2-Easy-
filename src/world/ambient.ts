@@ -155,3 +155,4 @@ export class Ambient {
     for (let k = 0; k < KINDS.length; k++) {
       r -= w[k] ?? 0
       if (r <= 0) return k
+    }
