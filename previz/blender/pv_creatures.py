@@ -1182,3 +1182,4 @@ def build(key, coll, kind=None, pose=None, lights=True):
         J = b_ilyra(r, pose or "idle")
         r.finalize()
         if lights:
+            for side, col in (("L", HEX["chaos"]), ("R", HEX["umbra"])):
