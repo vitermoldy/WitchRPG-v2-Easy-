@@ -122,3 +122,4 @@ export class Umbra {
 
   /** Formation spot for slot `i`: rings behind her, 8 in the first, 4 more per ring. */
   spot(i: number, out = new THREE.Vector3()): THREE.Vector3 {
+    const p = this.g.player
