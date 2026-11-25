@@ -207,3 +207,5 @@ export class Hud {
     this.set('level-text', 'text', `Lv ${pr.level}`)
     this.set('xp-text', 'text', `${pr.xp} / ${xpToNext(pr.level)} XP`)
     this.set('xp-fill', 'transform', `scaleX(${Math.min(1, pr.xp / xpToNext(pr.level)).toFixed(3)})`)
+    this.root.classList.toggle('overloaded', g.spells.overloaded)
+
