@@ -240,3 +240,4 @@ export class WorldMap {
           gg *= shade
           b *= shade
         }
+        const o = (j * BASE + i) * 4
