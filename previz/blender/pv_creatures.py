@@ -1039,3 +1039,4 @@ def b_atlas(r):
     J = humanoid(r, 9.0, bulk=1.5, legs="human", arm_pose={"L": (150, 20, 50), "R": (150, 20, 50)}, leg_pose={"L": (25, 30), "R": (-15, 10)}, neck_scale=0.6, body_mat="skin")
     h = r.parts["head"]
     hc = V(J["head_c"])
+    h.ell(hc, (0.5, 0.55, 0.6), mat="skin")
