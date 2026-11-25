@@ -83,3 +83,4 @@ def place_game_camera(sc, P, f, mode="normal", name="kamera", **over):
 def lock_on(cam, target, third=(1 / 3, 1 / 3)):
     """Turn the camera so the target sits on the upper-right third point of the frame."""
     cd = cam.data
+    sc_aspect = 16 / 9
