@@ -160,3 +160,5 @@ export class Telegraphs {
       it.mesh.visible = false
     }
     this.byUnit.clear()
+  }
+
