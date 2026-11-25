@@ -64,3 +64,4 @@ export class Obstacles {
         for (const id of list) {
           if (this.seen[id] === st) continue
           this.seen[id] = st
+          fn(this.shapes[id])
