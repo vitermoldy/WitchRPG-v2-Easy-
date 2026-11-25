@@ -394,3 +394,4 @@ class Part:
                 v = self.bm.verts.new(p - off)
                 rings.append([v])
                 allv.append(v)
+                continue
