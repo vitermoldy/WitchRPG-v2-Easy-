@@ -822,3 +822,4 @@ export class Game implements UnitHost {
       const d = hit.distanceTo(o)
       if (d >= skip && d < best) {
         best = d
+        unit = u
