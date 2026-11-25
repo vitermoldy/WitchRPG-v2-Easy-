@@ -22,3 +22,4 @@ def ease(t):
     return t * t * (3 - 2 * t)
 
 
+def seg(t, a, b):
