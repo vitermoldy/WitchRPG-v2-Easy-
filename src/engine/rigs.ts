@@ -1073,3 +1073,4 @@ export class Rigs {
       const shadows = units.filter((u) => u.team === 'shadow')
       if (shadows.length <= this.detail) for (const u of shadows) u.detailed = true
       else {
+        const d = new Map<Unit, number>()
