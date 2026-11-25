@@ -485,3 +485,4 @@ export class Fight {
     u.set('finishing')
     u.vel.set(0, 0, 0)
     u.token = false
+    g.telegraphs.clear(u)
