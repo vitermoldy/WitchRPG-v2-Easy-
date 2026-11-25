@@ -316,3 +316,4 @@ function trot(p: Poser, u: Unit, swing: number, speedShare: number) {
 const CENTAUR_LIMBS = ['leg_FL', 'leg_FR', 'leg_HL', 'leg_HR', 'upperarm_L', 'upperarm_R']
 
 /** Centaur: an old archer on a horse's body. Draws, holds, looses; rears to kick when she is close. */
+const poseCentaur: PoseFn = (p, u, t) => {
