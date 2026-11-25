@@ -157,3 +157,4 @@ export class Projectiles {
 
   private end(i: number, burst: boolean) {
     const s = this.shots[i]
+    if (!s) return
