@@ -84,3 +84,4 @@ export class Game implements UnitHost {
   lights!: LightPool
   rings!: Rings
   warnings!: Warnings
+  pools!: ShadowPools
