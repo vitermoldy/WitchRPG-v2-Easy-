@@ -89,3 +89,4 @@ export class Altars {
   /** The closest altar she has not lit yet, for the HUD. */
   nearestUnlit(): { altar: Altar; dist: number } | null {
     const p = this.g.player.pos
+    let best: { altar: Altar; dist: number } | null = null
