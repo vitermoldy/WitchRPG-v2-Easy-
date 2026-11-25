@@ -166,3 +166,4 @@ export class WorldMap {
       const n = this.g.fauna.list().filter((f) => f.kind === kind).length
       out.set(kind, { kind, name: UNITS[kind].name, lo: 0, hi: 0, camps: n, fauna: true })
     }
+    const list = [...out.values()]
