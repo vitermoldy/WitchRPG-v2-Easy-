@@ -187,3 +187,4 @@ export class Telegraphs {
     const rx = it.dz
     const rz = -it.dx
     for (let i = 0; i < pos.count; i++) {
+      const across = base[i * 3] * it.width
