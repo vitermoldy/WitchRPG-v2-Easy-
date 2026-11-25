@@ -173,3 +173,4 @@ def build(dunia, res=(1280, 720), samples=24):
             k = min(len(fly_curve) - 1.001, u * (len(fly_curve) - 1))
             i0 = int(k)
             loc = fly_curve[i0].lerp(fly_curve[i0 + 1], k - i0)
+            tgt = fly_look[0].lerp(fly_look[1], ease(u))
