@@ -212,3 +212,4 @@ def terrain_material():
     L.new(noi.outputs["Fac"], mr.inputs["Value"])
     mul = N.new("ShaderNodeMath")
     mul.operation = "MULTIPLY"
+    L.new(mr.outputs["Result"], mul.inputs[0])
