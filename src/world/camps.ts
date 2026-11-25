@@ -90,3 +90,4 @@ export const CAMP_DEFS: CampDef[] = [
 
 export interface Camp {
   def: CampDef
+  /** Centre on the ground (world). */
