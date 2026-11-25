@@ -58,3 +58,4 @@ export class Hud {
   private bigBannerTime = 0
   private hintTime = 0
   private hitTime = 0
+  private hurt = 0
