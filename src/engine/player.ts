@@ -148,3 +148,4 @@ export class Player {
       // 1.5 (1 - u^2) integrates to 1 over the roll: a hard push off, then it settles
       const v = ((1.5 * this.dodgeDistance) / T) * (1 - u * u)
       this.vx = this.dodgeX * v
+      this.vz = this.dodgeZ * v
