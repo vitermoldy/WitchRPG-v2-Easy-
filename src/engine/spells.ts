@@ -205,3 +205,4 @@ export class Spells {
     if (p.mana < cost) {
       this.g.hud.flashMana()
       return false
+    }
