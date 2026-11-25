@@ -439,3 +439,4 @@ export class Game implements UnitHost {
     }
     this.scene.add(this.ilyra.root)
     const models: Partial<Record<UnitKind, THREE.Group>> = {}
+    const lods: Partial<Record<UnitKind, THREE.Group>> = {}
