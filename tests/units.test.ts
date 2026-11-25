@@ -15,3 +15,4 @@ function world(groundHeight = 0) {
     foe,
     blocked: () => false,
     strikePlayer: (u) => log.strikes.push({ u, t: time }),
+    strikeUnit: (u, target) => {
