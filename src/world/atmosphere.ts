@@ -60,3 +60,4 @@ export class Atmosphere {
   zone = 0
 
   constructor(scene: THREE.Scene) {
+    scene.fog = this.fog
