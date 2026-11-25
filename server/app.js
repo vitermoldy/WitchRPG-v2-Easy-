@@ -109,3 +109,4 @@ export function createApi(getPool, database) {
   api.use(express.json({ limit: '1mb' }))
   api.use(sameOriginWrites)
   api.use(rateLimit(120))
+  api.get('/health', (_req, res) => res.status(getPool() ? 200 : 503).json({ ok: !!getPool(), database }))
