@@ -142,3 +142,4 @@ export const SKILLS: SkillDef[] = [
   },
 ]
 
+export const skillById = (id: SkillId): SkillDef => SKILLS.find((s) => s.id === id)!
