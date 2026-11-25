@@ -720,3 +720,4 @@ def build_world(lib_scene):
     """Everything shared by the shot scenes, under one 'Dunia' collection."""
     dunia = C.collection("Dunia", lib_scene.collection)
     terr = C.collection("Dunia_medan", dunia)
+    build_terrain(terr)
