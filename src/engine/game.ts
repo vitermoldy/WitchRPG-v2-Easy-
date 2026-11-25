@@ -994,3 +994,4 @@ export class Game implements UnitHost {
 
     // vitals
     if (alive && p.poisonT > 0) {
+      p.poisonT -= dt
