@@ -88,3 +88,4 @@ describe('over-the-shoulder camera', () => {
     expect(rig.frac).toBeGreaterThan(blocked)
     expect(rig.frac).toBeLessThan(0.9)
     for (let i = 0; i < 180; i++) rig.update(1 / 60, pivot, false, null, empty, flat)
+    expect(rig.frac).toBeCloseTo(1, 3)
