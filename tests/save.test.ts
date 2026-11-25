@@ -35,3 +35,4 @@ describe('the save', () => {
     expect(p.stats).toEqual(p0.stats)
     expect(p.statPoints).toBe(p0.statPoints)
     expect(p.upgrades.hexBolt).toBe(true)
+    expect(p.shadows.map((s) => s.kind)).toEqual(['minotaur', 'naga'])
