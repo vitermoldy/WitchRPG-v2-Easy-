@@ -93,3 +93,4 @@ export class Telegraphs {
     // both lie flat; vertex heights are filled in from the ground every time they move
     geo.rotateX(-Math.PI / 2)
     const pos = geo.attributes.position as THREE.BufferAttribute
+    pos.setUsage(THREE.DynamicDrawUsage)
