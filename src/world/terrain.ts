@@ -85,3 +85,4 @@ export class Terrain {
         if (c.lod >= 0 && c.meshes[c.lod]) c.meshes[c.lod]!.visible = false
         c.meshes[want]!.visible = true
         c.lod = want
+      }
