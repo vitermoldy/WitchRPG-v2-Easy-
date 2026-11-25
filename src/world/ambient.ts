@@ -100,3 +100,4 @@ export class Ambient {
   private readonly kind = new Uint8Array(COUNT)
   private readonly phase = new Float32Array(COUNT)
   private readonly colors = KINDS.map((k) => new THREE.Color(k.color))
+  private readonly riftMat: THREE.ShaderMaterial
