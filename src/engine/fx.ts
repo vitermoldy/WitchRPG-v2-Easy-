@@ -298,3 +298,4 @@ export class Rings {
   }
 
   spawn(pos: Vec, color: THREE.ColorRepresentation, r0: number, r1: number, dur: number) {
+    const ring = this.pool.find((r) => !r.mesh.visible) ?? this.pool[0]
