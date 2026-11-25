@@ -283,3 +283,5 @@ export class UnitSystem {
   /** Living units of each side, rebuilt with the grid every frame. */
   private readonly living: Record<Team, Unit[]> = { enemy: [], shadow: [] }
   /** Formation spot for each shadow, filled in by the Umbra layer. */
+  spotOf: ((u: Unit) => THREE.Vector3) | null = null
+
