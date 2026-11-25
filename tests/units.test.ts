@@ -29,3 +29,4 @@ function world(groundHeight = 0) {
   }
   const sys = new UnitSystem(host)
   const step = (seconds: number, each?: () => void) => {
+    const dt = 1 / 120
