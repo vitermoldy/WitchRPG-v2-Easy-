@@ -48,3 +48,4 @@ def humanoid(r, H, bulk=1.0, legs="human", female=False, off=(0, 0, 0), arm_pose
     arm_pose = arm_pose or {}
     leg_pose = leg_pose or {}
     pelvis_mat = pelvis_mat or body_mat
+    leg_mat = leg_mat or body_mat
