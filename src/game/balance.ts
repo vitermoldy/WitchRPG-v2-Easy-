@@ -1223,3 +1223,4 @@ export const COMBAT = {
 /**
  * Camps wake (their creatures appear) when she comes within `wake` m, sleep past `sleep` m, and stand
  * again `respawn` s after they fall, once she is out of sight. A pack is roused when she or a shadow
+ * comes within `aggro` m of any of its creatures, or one is hurt; past `leash` m from the camp it
