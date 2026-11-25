@@ -444,3 +444,4 @@ def build_lineup(lib_colls, stats):
             x += w + gap
         width = x - ox + 0.6
         top = math.ceil(tallest) + (1 if key != "C" else 2)
+        step = label_every
