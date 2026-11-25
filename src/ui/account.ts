@@ -220,3 +220,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
       button.textContent = 'Keluar'
       return
     }
+    await signOut()
