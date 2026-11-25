@@ -111,3 +111,5 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
     if (!p) return
     game.adoptProfile(p)
     hooks.onProfileChanged()
+  }
+
