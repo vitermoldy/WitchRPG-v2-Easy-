@@ -38,3 +38,4 @@ function shadowMaterial(src: THREE.MeshStandardMaterial, geo?: THREE.BufferGeome
   const m = src.clone()
   // a shadow is one purple body: the creature's two tones only set how light it is
   m.vertexColors = false
+  const c = src.vertexColors ? (meanColor(geo) ?? src.color) : src.color
