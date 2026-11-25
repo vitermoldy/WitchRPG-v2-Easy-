@@ -1198,3 +1198,4 @@ export class Game implements UnitHost {
       }))
   }
 
+  /** ?debug: creatures around her, for tests. */
