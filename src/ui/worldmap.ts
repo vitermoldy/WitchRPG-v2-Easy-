@@ -383,3 +383,4 @@ export class WorldMap {
       if (!live) {
         ctx.beginPath()
         ctx.moveTo(x - br * 0.55, y - br * 0.55)
+        ctx.lineTo(x + br * 0.55, y + br * 0.55)
