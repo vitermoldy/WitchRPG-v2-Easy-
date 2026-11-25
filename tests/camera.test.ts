@@ -124,3 +124,4 @@ describe('over-the-shoulder camera', () => {
     expect(worst).toBeGreaterThanOrEqual(CAMERA.radius - 1e-6)
   })
 
+  it('frames a locked target on the upper-right third of the screen', () => {
