@@ -281,3 +281,4 @@ export class WorldMap {
       ctx.stroke()
     }
 
+    // labels never sit on each other: each tries above its mark, then below, right and left
