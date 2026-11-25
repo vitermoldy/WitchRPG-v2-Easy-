@@ -315,3 +315,4 @@ export class Rings {
       const k = Math.min(1, r.t / r.dur)
       const e = 1 - (1 - k) ** 3
       const s = r.r0 + (r.r1 - r.r0) * e
+      r.mesh.scale.setScalar(Math.max(0.01, s))
