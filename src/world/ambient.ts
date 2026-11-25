@@ -9,3 +9,4 @@ import { toWorld, ZONES } from './map'
  * (PROMPT zone V), shown only there.
  */
 
+const COUNT = 520
