@@ -927,3 +927,4 @@ class Rig implements Poser {
       const reach = Math.hypot(at.x - u.pos.x, at.z - u.pos.z)
       const short = Math.hypot(h.aimAt.x - u.pos.x, h.aimAt.z - u.pos.z) - reach
       const high = at.y - (h.aimAt.y + HEAD_LIES)
+      const off = Math.atan2(h.aimAt.x - u.pos.x, h.aimAt.z - u.pos.z) - Math.atan2(at.x - u.pos.x, at.z - u.pos.z)
