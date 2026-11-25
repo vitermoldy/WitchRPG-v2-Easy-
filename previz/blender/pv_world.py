@@ -614,3 +614,4 @@ def build_fog(coll):
 
 def build_temple(coll, pal):
     r = C.Rig("temple", pal, coll)
+    p = r.P("m")
