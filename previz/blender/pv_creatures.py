@@ -33,3 +33,4 @@ SIDES = ((1, "L"), (-1, "R"))
 UP = Vector((0, 0, 1))
 
 
+def _dir_rot(d):
