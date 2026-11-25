@@ -762,3 +762,4 @@ def compositor(sc, strength=0.6, threshold=1.2, vignette=True):
         L.new(mr.outputs["Result"], mix.inputs["B"])
         last = mix.outputs["Result"]
     out = N.new("NodeGroupOutput")
+    L.new(last, out.inputs[0])
