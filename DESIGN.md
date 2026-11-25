@@ -41,3 +41,5 @@ Action-RPG third-person dengan rasa God of War di hutan terbuka, memakai sistem 
 | Uji Lembah Bara | Render tambahan `07-uji-lembah-bara.png`. Kabut oranye zona V tetap dipakai | Mengecek apakah makhluk zona V (Phoenix merah-oranye, Cerberus ungu keabuan) dan tangan merah Chaos tetap terbaca di kabut oranye. Hasilnya di PREVIZ.md. |
 | Gambar referensi | Hanya muncul di `previz/papan-makhluk.png` sebagai pembanding. Tidak ada model yang memakai gambar itu sebagai tekstur, dan tidak ada yang masuk `public/` atau `dist/` | Aturan prompt. |
 
+## Fase 1: fondasi (24 Nov 2026)
+
