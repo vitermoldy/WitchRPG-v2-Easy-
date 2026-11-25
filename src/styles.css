@@ -230,3 +230,4 @@ button {
 .title {
   margin: 0;
   font-family: var(--font-display);
+  font-weight: 500;
