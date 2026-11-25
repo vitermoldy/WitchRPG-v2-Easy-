@@ -12,3 +12,4 @@ const VERT = /* glsl */ `
 /** A curtain of amber light that runs upward and fades toward the top. */
 const FRAG = /* glsl */ `
   varying vec2 vUv;
+  uniform float uTime;
