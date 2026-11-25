@@ -150,3 +150,4 @@ export class Lair {
 
   private spawn() {
     const g = this.g
+    const at = this.bodyAt(1)
