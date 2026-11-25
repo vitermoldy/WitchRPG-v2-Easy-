@@ -115,3 +115,4 @@ export class IlyraModel {
     }
   }
 
+  /** Layer the main camera does not draw; the sun's shadow camera does, so her shadow stays. */
