@@ -69,3 +69,4 @@ export type ComboEvent = { type: 'start'; s: SwingState } | { type: 'hit'; s: Sw
 
 /**
  * The staff combo. Tap the left button for the light chain (three swings, then it starts over), hold it
+ * for the heavy blow. A tap pressed during a swing is remembered and starts the next swing as soon as
