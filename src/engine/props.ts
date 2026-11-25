@@ -111,3 +111,4 @@ export class Props {
       this.m.compose(p.pos, this.q, this.s.setScalar(p.radius))
       this.mesh.setMatrixAt(i, this.m)
     })
+    this.mesh.instanceMatrix.needsUpdate = true
