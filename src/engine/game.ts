@@ -1031,3 +1031,4 @@ export class Game implements UnitHost {
     this.prof('rigs', t1)
 
     // her pose: the fight, the spells and the rite
+    this.fight.pose(this.pose)
