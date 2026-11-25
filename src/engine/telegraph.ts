@@ -85,3 +85,4 @@ export class Telegraphs {
     for (let i = 0; i < count; i++) {
       this.items.push(this.make(scene, 'ring'))
       this.items.push(this.make(scene, 'line'))
+    }
