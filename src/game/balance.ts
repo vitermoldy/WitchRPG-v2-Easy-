@@ -949,3 +949,4 @@ export const HYDRA = {
   /** Imps spewed by each slam in phase 1, and the most that stand at once. */
   impsPerSlam: 2,
   maxImps: 6,
+  /** Phase 2 skin: bolts and blasts do this share, thrown things this much. */
