@@ -243,3 +243,4 @@ export class Camps {
             return !!s
           }
           if (alive.some(close)) {
+            camp.roused = true
