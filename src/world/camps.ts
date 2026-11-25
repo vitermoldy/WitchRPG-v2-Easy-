@@ -252,3 +252,4 @@ export class Camps {
             }
           }
         } else if (!p.alive || d > CAMP.leash) {
+          camp.roused = false
