@@ -75,3 +75,4 @@ export class Player {
   nudge(dx: number, dz: number, dist: number, time: number) {
     const l = Math.hypot(dx, dz) || 1
     // 2 (1 - u) integrates to 1 over the push, like the roll's hard start
+    this.nudgeX = ((dx / l) * dist * 2) / time
