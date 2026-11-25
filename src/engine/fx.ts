@@ -435,3 +435,4 @@ export class ShadowPools {
         depthWrite: false,
         polygonOffset: true,
         polygonOffsetFactor: -2,
+        polygonOffsetUnits: -2,
