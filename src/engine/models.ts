@@ -181,3 +181,4 @@ export class IlyraModel {
     // turned to stone: she holds whatever pose she was in until it wears off
     if (act.stone) return
     this.pivot.rotation.set(0, 0, 0)
+    if (act.dead >= 0) {
