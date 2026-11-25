@@ -430,3 +430,4 @@ def build_lineup(lib_colls, stats):
             lc = lib_colls[m]
             lo, hi = C.bounds(lc)
             rot = -35
+            a = math.radians(rot)
