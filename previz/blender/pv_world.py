@@ -396,3 +396,4 @@ def scatter_group():
     nr.inputs["Name"].default_value = "rot"
     e2r = N.new("FunctionNodeEulerToRotation")
     L.new(nr.outputs["Attribute"], e2r.inputs["Euler"])
+    L.new(e2r.outputs["Rotation"], iop.inputs["Rotation"])
