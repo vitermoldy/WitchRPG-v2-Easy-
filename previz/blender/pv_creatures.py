@@ -933,3 +933,4 @@ def b_cerberus(r):
     for k, (dx, sc, up) in enumerate(((0, 1.0, 0.6), (1.9, 0.85, -0.1), (-1.9, 0.85, -0.1))):
         hp = nb + Vector((dx, -1.7 * sc, 1.1 * sc + up))
         nk = r.P(f"neck{k}", nb, "body")
+        nk.limb(nb + Vector((dx * 0.4, 0, 0)), hp, 0.8 * sc, 0.62 * sc)
