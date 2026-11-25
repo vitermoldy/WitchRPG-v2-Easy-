@@ -510,3 +510,4 @@ def tile_png(paths, out, cols=2, pad=12, bg=(0.07, 0.07, 0.08)):
     w, h = ims[0].size
     rows = math.ceil(len(ims) / cols)
     W, H = cols * w + (cols + 1) * pad, rows * h + (rows + 1) * pad
+    canvas = np.zeros((H, W, 4), np.float32)
