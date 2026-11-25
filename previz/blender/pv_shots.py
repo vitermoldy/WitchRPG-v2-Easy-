@@ -194,3 +194,4 @@ def build_hero(dunia, name="01-hero-bahu", mode="normal", cam_over=None, res=(19
     sd = sun_dir(f, 50, 22)
     world = C.sky_world("langit_pagi", "#47689a", "#f0d8b8", "#2a2a26", 0.55, sun_dir=sd, sun_glow="#ffe2b0", glow_power=24)
     sc, local = shot_scene(name, dunia, world, -sd, "#ffe9cc", 7.0, res=res, vol_end=300, samples=samples, exposure=0.1)
+    il = actor("aktor.ilyra.hero", "ilyra", "idle")
