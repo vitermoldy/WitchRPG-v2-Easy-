@@ -426,3 +426,4 @@ export class Sfx {
     const drone = ctx.createGain()
     drone.gain.value = 0.0001
     const df = ctx.createBiquadFilter()
+    df.type = 'lowpass'
