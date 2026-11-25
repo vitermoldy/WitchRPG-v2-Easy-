@@ -238,3 +238,4 @@ export class Lair {
     const g = this.g
     h.riteTried = true
     const i = this.heads.indexOf(h)
+    if (i >= 0) this.heads[i] = h
