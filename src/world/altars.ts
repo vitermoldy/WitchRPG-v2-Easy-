@@ -58,3 +58,4 @@ export class Altars {
         s.castShadow = true
         root.add(s)
       }
+      const crystal = new THREE.Mesh(crystalGeo, new THREE.MeshBasicMaterial({ color: this.dull.clone() }))
