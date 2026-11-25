@@ -1154,3 +1154,5 @@ export class Game implements UnitHost {
 
   dodge() {
     this.botDodge = true
+  }
+
