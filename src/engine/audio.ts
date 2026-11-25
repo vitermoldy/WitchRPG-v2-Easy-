@@ -409,3 +409,4 @@ export class Sfx {
       f.frequency.value = freq
       f.Q.value = q
       const g = ctx.createGain()
+      g.gain.value = 0.0001
