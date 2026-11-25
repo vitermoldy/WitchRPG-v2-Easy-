@@ -217,3 +217,4 @@ describe('phase 4 creatures', () => {
         if (faceAway) c.yaw = Math.atan2(-c.pos.x, -c.pos.z) + Math.PI
       })
       return used
+    }
