@@ -383,3 +383,4 @@ button {
   padding: 0.7rem 2.6rem 0.8rem;
   border-radius: var(--radius);
   /* a soft dark pool keeps the text readable over bright fog and snow */
+  background: radial-gradient(ellipse at center, rgba(12, 8, 9, 0.78) 0%, rgba(12, 8, 9, 0.5) 55%, rgba(12, 8, 9, 0) 78%);
