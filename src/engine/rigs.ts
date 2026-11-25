@@ -1110,3 +1110,4 @@ export class Rigs {
     for (const b of this.crowd.values()) {
       for (const part of b.parts) {
         part.mesh.count = b.used
+        part.mesh.visible = b.used > 0
