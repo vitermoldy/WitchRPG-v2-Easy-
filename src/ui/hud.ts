@@ -96,3 +96,4 @@ export class Hud {
     this.bannerTime = 3.6
   }
 
+  /** Screen position of the locked target in pixels, or null when nothing is locked. */
