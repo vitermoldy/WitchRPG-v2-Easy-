@@ -91,3 +91,4 @@ describe('phase 5 creatures', () => {
     const w = world()
     const u = w.sys.spawn('minotaur', 'enemy', 10, { x: 0, z: 5 })
     const hp = u.maxHp
+    const dmg = u.damage
