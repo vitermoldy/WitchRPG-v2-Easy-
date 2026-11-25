@@ -532,3 +532,4 @@ export class Game implements UnitHost {
   run() {
     this.timer.connect(document)
     this.renderer.setAnimationLoop((ts) => {
+      this.timer.update(ts)
