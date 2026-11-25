@@ -405,3 +405,4 @@ export class WorldMap {
     const s = Math.max(7, size / 60)
     ctx.save()
     ctx.translate(x, y)
+    ctx.rotate(-p.facing)
