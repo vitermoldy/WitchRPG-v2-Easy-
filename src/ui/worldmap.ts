@@ -74,3 +74,4 @@ export class WorldMap {
       if (box.checked) this.chosen.add(kind)
       else this.chosen.delete(kind)
       this.changed(false)
+    })
