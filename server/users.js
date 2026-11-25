@@ -25,3 +25,4 @@ if (rows.length === 0) {
       'terakhir aktif': when(r.last_seen_at),
       'kali masuk': r.login_count,
       level: r.level ?? 1,
+      bayangan: Number(r.shadows),
