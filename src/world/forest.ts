@@ -245,3 +245,4 @@ export class Forest {
     this.mesh.name = 'forest'
     this.mesh.castShadow = true
     this.mesh.receiveShadow = true
+    const ids = {} as Record<Kind, number>
