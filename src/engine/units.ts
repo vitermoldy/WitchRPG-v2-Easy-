@@ -780,3 +780,4 @@ export class UnitSystem {
                 else host.strikeUnit(u, tgt as Unit, atk)
               }
             }
+          } else {
