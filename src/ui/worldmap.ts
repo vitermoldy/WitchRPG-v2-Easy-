@@ -44,3 +44,4 @@ export class WorldMap {
 
   constructor(g: Game) {
     this.g = g
+    try {
