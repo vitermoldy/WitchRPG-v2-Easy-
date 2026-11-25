@@ -45,3 +45,4 @@ _LAT = _rng.random((256, 256)) * 2 - 1
 
 
 def vnoise(x, y):
+    xi = np.floor(x).astype(np.int64)
