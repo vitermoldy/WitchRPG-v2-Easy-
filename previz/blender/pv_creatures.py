@@ -954,3 +954,4 @@ def b_lilith(r):
     J = humanoid(r, 2.5, bulk=0.85, legs=None, female=True, arm_pose={"L": (45, 40, 20), "R": (30, 60, 45)}, body_mat="skin")
     p = r.parts["pelvis"]
     hp = V(J["hip"])
+    p.tube([hp + Vector((0, 0, 0.25)), hp, (0, 0.02, 0.6), (0, 0.06, 0.05)], [0.22, 0.27, 0.45, 0.72], mat="cloth", seg=16, n=3, cap=False)
