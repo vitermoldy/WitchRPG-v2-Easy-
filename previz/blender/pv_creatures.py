@@ -699,3 +699,4 @@ def b_medusa(r):
     for s, side in SIDES:
         r.parts["upperarm_" + side].torus(lerp(J["sh_" + side], J["el_" + side], 0.55), 0.05, 0.012, normal=J["arm_dir_" + side], mat="gold", seg=12, rseg=4)
     h = r.parts["head"]
+    hc = V(J["head_c"])
