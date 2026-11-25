@@ -91,3 +91,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
       text.textContent = 'Memeriksa akun...'
       button.hidden = true
     } else {
+      text.textContent =
