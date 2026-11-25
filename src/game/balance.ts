@@ -534,3 +534,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   medusa: {
     name: 'Medusa',
     rank: 'jenderal',
+    hp: 620,
