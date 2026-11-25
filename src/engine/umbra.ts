@@ -265,3 +265,4 @@ export class Umbra {
         if (!rec || g.units.units.some((u) => u.record === rec && u.alive)) continue
         const slot = this.field().length
         const pos = this.spot(slot)
+        g.pools.open(pos, 0.9 + UNITS[rec.kind].radius * 1.6, 1.4)
