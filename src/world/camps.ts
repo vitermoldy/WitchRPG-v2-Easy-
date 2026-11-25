@@ -134,3 +134,4 @@ export class Camps {
     shardGeo.scale(1, 2.4, 1)
     this.shards = new THREE.InstancedMesh(shardGeo, new THREE.MeshBasicMaterial({ color: 0xffffff }), this.camps.length * STONES)
     const m = new THREE.Matrix4()
+    const q = new THREE.Quaternion()
