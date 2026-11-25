@@ -15,3 +15,4 @@ export class Input {
   private readonly target: HTMLElement
 
   constructor(target: HTMLElement) {
+    this.target = target
