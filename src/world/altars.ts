@@ -65,3 +65,4 @@ export class Altars {
       rune.position.y = 0.06
       rune.renderOrder = 6
       root.add(rune)
+      this.group.add(root)
