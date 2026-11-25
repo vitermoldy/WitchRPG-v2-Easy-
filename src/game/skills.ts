@@ -46,3 +46,4 @@ export const SKILLS: SkillDef[] = [
     unlock: 1,
     effect: 'Angkat makhluk hingga 500 kg, lepas untuk melempar; lemparan menembus perisai Minotaur.',
     upgrade: 'Mengangkat 2 target sekaligus.',
+    built: true,
