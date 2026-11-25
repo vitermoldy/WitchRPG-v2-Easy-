@@ -460,3 +460,4 @@ def b_ilyra(r, pose="idle"):
     head_c = top + sd * 0.12
     side = sd.cross(Vector((0, 1, 0))).normalized()
     st.torus(head_c, 0.11, 0.014, normal=side.cross(sd), mat="metal", seg=18, rseg=5)
+    st.torus(head_c, 0.075, 0.008, normal=side.cross(sd), mat="sigil_staff", seg=16, rseg=4)
