@@ -229,3 +229,4 @@ export class WorldMap {
           b = 52
         } else {
           zoneWeights(mx, my, w)
+          for (let k = 0; k < w.length; k++) {
