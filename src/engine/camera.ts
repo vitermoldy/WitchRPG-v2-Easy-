@@ -20,3 +20,4 @@ export interface CamParams {
   fov: number
 }
 export interface CamPose {
+  pos: Vec
