@@ -291,3 +291,4 @@ export class Rings {
       const mesh = new THREE.Mesh(geo, mat)
       mesh.visible = false
       mesh.renderOrder = 8
+      this.group.add(mesh)
