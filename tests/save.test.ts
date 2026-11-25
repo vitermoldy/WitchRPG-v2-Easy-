@@ -4,3 +4,4 @@ import { normalizeProfile } from '../src/game/save'
 import { SKILLS } from '../src/game/skills'
 
 describe('the save', () => {
+  it('gives a witch saved before phase 4 the start altar', () => {
