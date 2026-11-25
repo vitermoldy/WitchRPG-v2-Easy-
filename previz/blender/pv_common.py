@@ -250,3 +250,4 @@ def palette_ref(key, spec):
 def palette(kind, body="#1f1a1c", body2=None, horn="#4a3f38", tag=""):
     """Violet material set for raised shadows: same models as the creatures, Umbra colours."""
     sh = Pal({
+        "body": mat_cracked("body_shadow", "#140b22", HEX["umbra"], 6.0, coverage=0.55),
