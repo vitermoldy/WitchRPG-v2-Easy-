@@ -342,3 +342,4 @@ export class Warnings {
     for (let i = 0; i < count; i++) {
       const group = new THREE.Group()
       const mat = () => new THREE.MeshBasicMaterial({ color: 0xffa53d, transparent: true, opacity: 0, depthWrite: false, blending: THREE.AdditiveBlending })
+      const fill = new THREE.Mesh(disc, mat())
