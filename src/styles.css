@@ -278,3 +278,4 @@ button {
 
 @media (pointer: coarse) {
   .touch-note {
+    display: block;
