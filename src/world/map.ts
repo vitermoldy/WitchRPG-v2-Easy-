@@ -85,3 +85,4 @@ const LAT = (() => {
   return a
 })()
 
+export function vnoise(x: number, y: number): number {
