@@ -905,3 +905,4 @@ export class UnitSystem {
   private move(u: Unit, dt: number, loose: boolean) {
     const host = this.host
     const nx = u.pos.x + u.vel.x * dt
+    const nz = u.pos.z + u.vel.z * dt
