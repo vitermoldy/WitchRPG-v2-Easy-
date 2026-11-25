@@ -483,3 +483,4 @@ export class Fight {
     this.exec = { u, t: 0, struck: false }
     this.combo.cancel()
     u.set('finishing')
+    u.vel.set(0, 0, 0)
