@@ -78,3 +78,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
 
   function renderRow(state: AuthState = authState()): void {
     const text = $('account-text')
+    const button = $<HTMLButtonElement>('btn-account')
