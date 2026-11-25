@@ -155,3 +155,4 @@ export class Lair {
     body.controlled = true
     body.aggro = false
     body.setScale(HYDRA.scale)
+    body.pos.y = WATER_LEVEL - 1
