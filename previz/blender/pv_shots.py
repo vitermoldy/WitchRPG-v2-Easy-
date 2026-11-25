@@ -597,3 +597,4 @@ def build_board(lib_colls, stats):
             ref_plane(coll, f"ref.{k}", row[K.REF][0], row[K.REF][1], (x0 + 2.4, 0, z0 - 2.25), 3.95)
         # block-out, fitted into the right-hand well
         lc = lib_colls[k]
+        lo, hi = C.bounds(lc)
