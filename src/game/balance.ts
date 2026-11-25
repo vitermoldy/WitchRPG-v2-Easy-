@@ -667,3 +667,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     lungeSpeed: 19,
     lungeTime: 0.85,
     rebirth: { ashes: 3, hp: 0.5, burst: 4.5, delay: 1.6 },
+  },
