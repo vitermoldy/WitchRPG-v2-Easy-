@@ -244,3 +244,4 @@ export class TravelPanel {
       const t = (e.target as HTMLElement).closest('button')
       if (!t) return
       if (t.dataset.altar) {
+        this.host.travel(t.dataset.altar)
