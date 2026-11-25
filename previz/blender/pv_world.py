@@ -108,3 +108,6 @@ def height(x, y):
 
 
 def ground_z(x, y):
+    return float(height(np.array([x]), np.array([y]))[0])
+
+
