@@ -170,3 +170,5 @@ export class WorldMap {
     const byName = ($<HTMLSelectElement>('map-sort').value ?? 'level') === 'name'
     list.sort((a, b) => (byName ? a.name.localeCompare(b.name, 'id') : (a.fauna ? 99 : a.lo) - (b.fauna ? 99 : b.lo) || a.name.localeCompare(b.name, 'id')))
     return list
+  }
+
