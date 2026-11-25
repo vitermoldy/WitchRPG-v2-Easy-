@@ -37,3 +37,4 @@ describe('XP curve from the GDD', () => {
     expect(xpForKill(1)).toBe(10)
     expect(xpForKill(3)).toBe(30)
     expect(xpForKill(4, true)).toBe(60)
+  })
