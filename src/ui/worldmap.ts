@@ -45,3 +45,4 @@ export class WorldMap {
   constructor(g: Game) {
     this.g = g
     try {
+      const saved = JSON.parse(localStorage.getItem(SAVE_KEY) ?? '[]') as UnitKind[]
