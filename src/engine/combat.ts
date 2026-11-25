@@ -112,3 +112,4 @@ export class Combo {
         out.push({ type: 'end', s })
         this.current = null
         this.nextIndex = s.heavy ? 0 : (s.index + 1) % COMBAT.light.length
+        this.chainLeft = COMBAT.comboWindow
