@@ -599,3 +599,4 @@ export class Umbra {
       g.smoke.emit({ pos: at, count: 14, color: 0x170a28, life: 0.9, size: 1, sizeEnd: 1.6, speed: 1.5, jitter: 0.4, alpha: 0.8 })
       g.glow.emit({ pos: at.clone().setY(at.y + 1), count: 24, color: COLOR.umbra, intensity: 2.6, life: 0.5, size: 0.12, speed: 3 })
     }
+    g.sfx.swap()
