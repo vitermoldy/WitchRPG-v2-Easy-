@@ -224,3 +224,4 @@ export function createAuth({ getPool, cookie, lang, deviceCode, newDevice }) {
   })
 
   router.post('/logout', async (req, res) => {
+    const token = readCookie(req, cookie)
