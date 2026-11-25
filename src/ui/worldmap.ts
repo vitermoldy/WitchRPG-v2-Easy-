@@ -24,3 +24,4 @@ interface BossEntry {
   zone: string
   x: number
   z: number
+  status: 'waiting' | 'down' | 'sealed' | 'locked'
