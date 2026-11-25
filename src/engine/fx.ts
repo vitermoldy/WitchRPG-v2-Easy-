@@ -14,3 +14,4 @@ export interface Emit {
   sizeEnd?: number
   /** Random velocity magnitude in every direction. */
   speed?: number
+  /** Base velocity added to every particle. */
