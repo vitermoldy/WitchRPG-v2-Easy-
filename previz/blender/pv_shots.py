@@ -418,3 +418,4 @@ def build_lineup(lib_colls, stats):
     C.sun(sc, "kunci", (55, 0, -35), energy=3.6).data.use_shadow = False
     C.sun(sc, "tepi", (60, 0, 150), "#b6c8ff", energy=2.4).data.use_shadow = False
     C.render_settings(sc, res=(3840, 800), samples=48, bloom=0.35, vignette=False, exposure=0.2)
+    line_mat = C.mat_emit("garis_penggaris", "#8a8f9c", 1.0)
