@@ -159,3 +159,4 @@ export class Player {
     } else if (this.nudgeT > 0) {
       const u = 1 - this.nudgeT / this.nudgeTime
       this.vx = this.nudgeX * (1 - u)
+      this.vz = this.nudgeZ * (1 - u)
