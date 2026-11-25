@@ -48,3 +48,4 @@ export class Altars {
       const base = new THREE.Mesh(baseGeo, stoneMat)
       base.position.y = 0.2
       base.castShadow = base.receiveShadow = true
+      root.add(base)
