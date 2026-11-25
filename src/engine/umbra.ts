@@ -301,3 +301,4 @@ export class Umbra {
           }
         }
       } else if (!u.ash && u.deadT >= (u.riteTried ? 0 : window)) this.turnToAsh(u)
+      if (u.ash && u.deadT - u.ashAt > 2) g.units.remove(u)
