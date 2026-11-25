@@ -984,3 +984,4 @@ export class Rigs {
   private readonly ember = new THREE.Color()
   private sortIn = 0
   private readonly m = new THREE.Matrix4()
+  private readonly q = new THREE.Quaternion()
