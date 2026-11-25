@@ -971,3 +971,4 @@ export class UnitSystem {
   }
 
   /** Sends a body flying (a Telekinesis throw when `hurled`, else a blast that tosses it). */
+  toss(u: Unit, vel: { x: number; y: number; z: number }, hurled: boolean, flight = 0) {
