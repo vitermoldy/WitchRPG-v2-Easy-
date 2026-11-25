@@ -61,3 +61,4 @@ export class Player {
   poisonDps = 0
   /** Share of her pace she keeps this frame (block, swings); set by the fight each frame. */
   moveScale = 1
+  /** In the air (B, as in v1). */
