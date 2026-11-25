@@ -90,3 +90,4 @@ export class Atmosphere {
     s.shadow.normalBias = 0.04
   }
 
+  /** Where she stands (world). Snap jumps straight to the zone's look (first frame, teleports). */
