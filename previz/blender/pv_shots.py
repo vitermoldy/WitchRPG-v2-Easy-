@@ -295,3 +295,4 @@ def build_minotaur(dunia):
     P = Wd.SPOTS["minotaur"]
     f = Vector((0.08, 1, 0)).normalized()
     sd = sun_dir(f, -70, 32)
+    world = C.sky_world("langit_kuil", "#59636f", "#b9b8b4", "#2a2a2a", 1.3, sun_dir=sd, sun_glow="#f4ecdc", glow_power=12)
