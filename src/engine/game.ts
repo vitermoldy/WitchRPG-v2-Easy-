@@ -999,3 +999,4 @@ export class Game implements UnitHost {
       this.counts.damageTaken += p.poisonDps * dt
       if (p.hp <= 0) this.fall()
     }
+    if (p.alive) {
