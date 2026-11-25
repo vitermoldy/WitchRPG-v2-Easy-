@@ -333,3 +333,4 @@ def snake_head(part, at, fwd, s=1.0, jaw=35, mat="body"):
     up = UP if abs(F.z) < 0.9 else Vector((0, 1, 0))
     side = F.cross(up).normalized()
     up = side.cross(F).normalized()
+    part.ell(a + F * 0.1 * s, (0.13 * s, 0.13 * s, 0.13 * s), mat=mat)
