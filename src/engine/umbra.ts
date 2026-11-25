@@ -72,3 +72,4 @@ export class Umbra {
   /** Game seconds; fallen shadows reform against this clock. */
   private time = 0
   /** Fallen shadows and when they can be called again. */
+  readonly downUntil = new Map<number, number>()
