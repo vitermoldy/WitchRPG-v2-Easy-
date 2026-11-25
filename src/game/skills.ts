@@ -90,3 +90,4 @@ export const SKILLS: SkillDef[] = [
   },
   {
     id: 'rite',
+    branch: 'umbra',
