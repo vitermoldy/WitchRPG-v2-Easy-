@@ -102,3 +102,4 @@ export class Combo {
     if (s) {
       if (pressed) this.queued = true
       const before = s.t
+      s.t += dt
