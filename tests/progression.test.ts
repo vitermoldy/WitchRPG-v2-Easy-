@@ -121,3 +121,4 @@ describe('upgrades and shadows', () => {
     expect(s.level).toBe(2)
     expect(s.level).toBeLessThanOrEqual(p.level)
   })
+  it('names are stable per id and readable', () => {
