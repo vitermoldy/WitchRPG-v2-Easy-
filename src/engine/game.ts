@@ -1194,3 +1194,4 @@ export class Game implements UnitHost {
         camp: u.camp,
         executed: u.executed,
         riteTried: u.riteTried,
+        deadT: u.deadT,
