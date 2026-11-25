@@ -360,3 +360,4 @@ export class Umbra {
       }
     }
 
+    // shadows left far behind are pulled back to her side
