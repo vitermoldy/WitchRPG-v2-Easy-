@@ -94,3 +94,4 @@ export class Props {
             p.thrown = false
             p.vel.multiplyScalar(-0.15)
             break
+          }
