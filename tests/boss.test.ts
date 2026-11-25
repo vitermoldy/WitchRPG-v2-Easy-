@@ -4,3 +4,4 @@ import { ELITE, FAUNA, HYDRA, SPELL, UNITS, WORLD_BOSSES } from '../src/game/bal
 import { riteBlock, riteChance, addShadow, newProfile, impactDamage } from '../src/game/progression'
 import { Obstacles } from '../src/engine/obstacles'
 import { UnitSystem, type Foe, type UnitHost } from '../src/engine/units'
+import { hydraShare } from '../src/world/lair'
