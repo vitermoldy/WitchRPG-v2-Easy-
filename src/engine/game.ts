@@ -43,3 +43,4 @@ export type State = 'loading' | 'title' | 'playing' | 'paused'
 /** Inputs a ?debug bot can hold instead of the keyboard and mouse; buttons go through `input.press`. */
 export interface BotInput {
   x: number
+  y: number
