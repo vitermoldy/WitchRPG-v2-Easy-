@@ -43,3 +43,4 @@ def build(dunia, res=(1280, 720), samples=24):
     Sp = Vector((*Wd.SPOTS["hydra"], 0))
     H = Vector((*Wd.HYDRA_POS, 0))
     f = (H - Sp).normalized()
+    left = Vector((0, 0, 1)).cross(f)
