@@ -112,3 +112,4 @@ export class Particles {
       transparent: true,
       depthWrite: false,
       blending: mode === 'glow' ? THREE.AdditiveBlending : THREE.NormalBlending,
+    })
