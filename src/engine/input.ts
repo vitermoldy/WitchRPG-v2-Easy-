@@ -91,3 +91,4 @@ export class Input {
     return this.down.has(code)
   }
 
+  pressed(code: string) {
