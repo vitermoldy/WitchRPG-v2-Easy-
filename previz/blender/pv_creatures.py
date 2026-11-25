@@ -113,3 +113,4 @@ def humanoid(r, H, bulk=1.0, legs="human", female=False, off=(0, 0, 0), arm_pose
             ft = r.P("foot_" + side, A, "shin_" + side)
             ft.ell(add(A, (0, -0.04 * H, -0.015 * H)), (H * 0.026 * bulk, H * 0.065, H * 0.022), mat=foot_mat or shin_mat)
         else:
+            # digitigrade: knee forward, hock back, standing on toes
