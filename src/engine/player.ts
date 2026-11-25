@@ -53,3 +53,4 @@ export class Player {
   maxHp = 100
   mana = 100
   maxMana = 100
+  alive = true
