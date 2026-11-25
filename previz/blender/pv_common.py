@@ -311,3 +311,4 @@ class Part:
         self.mats = []
         self.flat = False
 
+    def _mi(self, mat):
