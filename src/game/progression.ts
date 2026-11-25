@@ -92,3 +92,4 @@ export function tierLock(p: Profile, tier: TierId): string | null {
   const t = TIERS[tier]
   if (t.needsBoss && p.bossKills === 0) return p.level >= t.unlock ? 'Kalahkan The Hollow Warden dulu' : `Lv ${t.unlock} dan The Hollow Warden kalah`
   if (p.level < t.unlock) return `Lv ${t.unlock}`
+  return null
