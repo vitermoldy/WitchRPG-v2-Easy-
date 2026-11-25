@@ -153,3 +153,4 @@ describe('shadows', () => {
   it('a creature turns on a shadow that is much closer than her', () => {
     const w = world()
     w.foe.pos.set(0, 0, 12)
+    const enemy = w.sys.spawn('imp', 'enemy', 1, { x: 0, z: 0 })
