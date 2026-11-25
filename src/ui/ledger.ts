@@ -54,3 +54,5 @@ export class Ledger {
   private readonly host: LedgerHost
   onClose: (() => void) | null = null
   /** Shadow Room groups the player has opened, kept open across re-renders. */
+  private readonly openGroups = new Set<string>()
+
