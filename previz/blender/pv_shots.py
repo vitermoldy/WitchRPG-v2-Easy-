@@ -344,3 +344,4 @@ def build_hydra(dunia, name="05-boss-hydra", res=(1920, 1080), samples=64):
     sc, local = shot_scene(name, dunia, world, -sd, "#ff9a5a", 3.6, res=res, vol_end=400, exposure=0.1, samples=samples)
     il = actor("aktor.ilyra.hydra", "ilyra", "cast")
     place(il, local, S[0], S[1], f)
+    hy = actor("aktor.hydra", "hydra")
