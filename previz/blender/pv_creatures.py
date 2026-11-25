@@ -465,3 +465,6 @@ def b_ilyra(r, pose="idle"):
     for k in (-1, 1):
         st.cone(top, head_c + side * 0.12 * k + sd * 0.12, 0.012, mat="metal", seg=5)
     J["staff_head"] = head_c
+    return J
+
+
