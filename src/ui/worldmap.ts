@@ -34,3 +34,4 @@ interface BossEntry {
  * waits while it is open, like the Ledger.
  */
 export class WorldMap {
+  private readonly dlg = $<HTMLDialogElement>('worldmap')
