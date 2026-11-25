@@ -1117,3 +1117,4 @@ export class Game implements UnitHost {
   resetStats() {
     this.frameCount = 0
     this.frames.fill(0)
+    this.minClearance = Infinity
