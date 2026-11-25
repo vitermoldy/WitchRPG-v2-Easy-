@@ -393,3 +393,4 @@ export class WorldMap {
         ctx.beginPath()
         ctx.arc(x, y, br * 2, 0, Math.PI * 2)
         ctx.strokeStyle = '#efe6df'
+        ctx.lineWidth = 2
