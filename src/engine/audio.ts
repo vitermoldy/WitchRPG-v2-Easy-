@@ -185,3 +185,4 @@ export class Sfx {
     f.frequency.value = 600
     const gain = ctx.createGain()
     gain.gain.value = 0.0001
+    gain.gain.exponentialRampToValueAtTime(0.13, ctx.currentTime + 0.12)
