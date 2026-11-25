@@ -725,3 +725,4 @@ export class Spells {
     this.barrierAbsorb -= taken
     this.barrierHit = 1
     if (this.barrierAbsorb <= 0) this.endBarrier()
+    return dmg - taken
