@@ -43,3 +43,4 @@ export class Projectiles {
     this.group.name = 'shots'
   }
 
+  get count() {
