@@ -271,3 +271,4 @@ export class Game implements UnitHost {
       return
     }
     if (strike === 'ring') this.fight.stats.hitRing++
+    else this.fight.stats.hitLine++
