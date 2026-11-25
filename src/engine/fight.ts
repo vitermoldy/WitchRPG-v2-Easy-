@@ -173,3 +173,4 @@ class Staff {
 
   private stick() {
     this.state = 'stuck'
+    this.vel.setY(0)
