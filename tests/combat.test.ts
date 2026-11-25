@@ -79,3 +79,4 @@ describe('staff combo', () => {
     const starts: number[] = []
     for (let n = 0; n < 4; n++) {
       const ev = play(c, [[1 / 60, true, true], [1 / 60, false, false]])
+      // press again as soon as the swing is over, inside the chain window
