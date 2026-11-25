@@ -183,3 +183,4 @@ describe('version 1: tiers, ranks and growth', () => {
     expect(lv10.maxHp).toBe(lv1.maxHp + 72)
     expect(lv10.damageMult).toBeCloseTo(1.45)
   })
+  it('keeps Tier III enemies within reach of a Tier III witch', () => {
