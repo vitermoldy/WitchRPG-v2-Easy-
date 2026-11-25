@@ -47,3 +47,4 @@ describe('the Hydra', () => {
   it('phase 2: slimy skin lets bolts do 10% and thrown things 150%', () => {
     expect(hydraShare(2, 'bolt', false)).toBe(HYDRA.boltShare)
     expect(HYDRA.boltShare).toBe(0.1)
+    expect(hydraShare(2, 'impact', false)).toBe(1.5)
