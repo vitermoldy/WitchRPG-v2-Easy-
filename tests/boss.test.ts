@@ -196,3 +196,4 @@ describe('creature shots', () => {
       smoke: { emit: noop },
       sfx: { bolt: noop },
       units: { units: [] },
+      clearTelegraph: noop,
