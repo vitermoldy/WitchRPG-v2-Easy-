@@ -141,3 +141,4 @@ export function createAuth({ getPool, cookie, lang, deviceCode, newDevice }) {
       expires,
       String(req.headers['user-agent'] ?? '').slice(0, 255) || null,
     ])
+    await pool.query('UPDATE users SET last_login_at = UTC_TIMESTAMP(), last_seen_at = UTC_TIMESTAMP(), login_count = login_count + 1 WHERE id = ?', [userId])
