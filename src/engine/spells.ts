@@ -428,3 +428,4 @@ export class Spells {
     const right = new THREE.Vector3(-f.z, 0, f.x).normalize()
     if (this.heldProp) {
       const prop = this.heldProp
+      const goal = new THREE.Vector3(p.x, p.y + 1.6, p.z).addScaledVector(f, 5.4).addScaledVector(right, -0.4)
