@@ -354,3 +354,4 @@ export class IlyraModel {
       armLZ = 8
       foreL = -5 + 4 * Math.sin(this.t * 30)
     } else if (act.cast > 0) {
+      foreL += -25 * act.cast
