@@ -60,3 +60,4 @@ describe('XP curve from the GDD', () => {
 
 describe('Umbra Rite chance', () => {
   it('reproduces the GDD example: Lv 5, UMB 15 against a Lv 6 Ksatria is 58%', () => {
+    expect(riteChance('ksatria', 5, 6, 15)).toBe(0.58)
