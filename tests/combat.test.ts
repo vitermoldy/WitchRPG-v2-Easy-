@@ -77,3 +77,4 @@ describe('staff combo', () => {
   it('chains three light swings, then starts over', () => {
     const c = new Combo()
     const starts: number[] = []
+    for (let n = 0; n < 4; n++) {
