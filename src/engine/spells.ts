@@ -707,3 +707,5 @@ export class Spells {
         this.warps.splice(i, 1)
       }
     }
+  }
+
