@@ -123,3 +123,4 @@ export class Projectiles {
             hit = true
           }
         }
+        if (!hit) {
