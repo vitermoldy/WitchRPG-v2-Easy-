@@ -69,3 +69,4 @@ def mat_emit(name, color, strength=8.0):
     if name in _MATS:
         return _MATS[name]
     m = _new_mat(name)
+    nt = m.node_tree
