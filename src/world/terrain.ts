@@ -182,3 +182,4 @@ export class Terrain {
     geo.setAttribute('color', new THREE.BufferAttribute(col, 3))
     geo.setIndex(idx)
     geo.computeBoundingSphere()
+    geo.computeBoundingBox()
