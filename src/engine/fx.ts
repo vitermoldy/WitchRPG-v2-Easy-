@@ -211,3 +211,4 @@ export class LightPool {
       const light = new THREE.PointLight(0xffffff, 0, 10, 2)
       light.castShadow = false
       scene.add(light)
+      this.slots.push({ light, ttl: 0, maxTtl: 1, peak: 0, held: false })
