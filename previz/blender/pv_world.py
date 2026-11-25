@@ -534,3 +534,4 @@ def fog_material(z):
     # density = d0 * exp(-z / hs) * radial falloff
     dv = N.new("ShaderNodeMath")
     dv.operation = "MULTIPLY"
+    dv.inputs[1].default_value = -1.0 / z["hs"]
