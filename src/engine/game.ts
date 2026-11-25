@@ -223,3 +223,4 @@ export class Game implements UnitHost {
   }
 
   /** Past the edge of the playable map. */
+  private offMap(x: number, z: number) {
