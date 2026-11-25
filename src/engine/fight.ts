@@ -502,3 +502,4 @@ export class Fight {
       const u = ex.u
       g.units.kill(u, true)
       this.stats.executions++
+      g.spells.addChaos(10)
