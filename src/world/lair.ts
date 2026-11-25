@@ -66,3 +66,4 @@ export class Lair {
   /** Middle of the shore the fight happens on (world), and the way to the lake. */
   readonly center: THREE.Vector3
   private readonly dir: THREE.Vector3
+  private readonly groundY: number
