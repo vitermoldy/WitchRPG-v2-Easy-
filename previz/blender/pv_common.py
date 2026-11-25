@@ -99,3 +99,4 @@ def mat_cracked(name, color, crack, strength=5.0, scale=2.2, rough=0.75, coverag
     vor = N.new("ShaderNodeTexVoronoi")
     vor.feature = "DISTANCE_TO_EDGE"
     vor.inputs["Scale"].default_value = scale
+    L.new(tc.outputs["Object"], vor.inputs["Vector"])
