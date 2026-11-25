@@ -261,3 +261,4 @@ export class Game implements UnitHost {
       this.hud.parry()
       return
     }
+    if (res === 'block') {
