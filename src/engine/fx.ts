@@ -220,3 +220,4 @@ export class LightPool {
     if (!slot) return
     slot.light.position.set(pos.x, pos.y, pos.z)
     slot.light.color.set(color)
+    slot.light.distance = distance
