@@ -107,3 +107,4 @@ def height(x, y):
     return h
 
 
+def ground_z(x, y):
