@@ -52,3 +52,4 @@ function part(geo: THREE.BufferGeometry, color: THREE.Color, m?: THREE.Matrix4):
   return g
 }
 
+const M = new THREE.Matrix4()
