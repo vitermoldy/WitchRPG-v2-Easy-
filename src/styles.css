@@ -435,3 +435,4 @@ button {
   fill: none;
   stroke: #fff6f2;
   stroke-width: 2.6;
+  stroke-linecap: round;
