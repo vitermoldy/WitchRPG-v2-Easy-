@@ -152,3 +152,4 @@ describe('the open world (phase 7)', () => {
     expect(uni.targetable).toBe(false)
     w.step(3)
     expect(Math.hypot(uni.pos.x, uni.pos.z)).toBeGreaterThan(8)
+    expect(uni.state).toBe('move')
