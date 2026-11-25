@@ -91,3 +91,4 @@ describe('over-the-shoulder camera', () => {
     expect(rig.frac).toBeCloseTo(1, 3)
   })
 
+  it('never ends inside a trunk, crown, rock or the ground (5,000 random forests)', () => {
