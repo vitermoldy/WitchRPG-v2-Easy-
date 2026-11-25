@@ -505,3 +505,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     keepAway: 8,
     dive: 3,
     attacks: [
+      { name: 'semburan', strike: 'ring', windup: 0.9, recover: 0.7, range: 20, minRange: 4, ring: 2, shot: { speed: 13, gravity: 12, radius: 0.35 } },
