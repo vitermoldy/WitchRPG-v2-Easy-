@@ -27,3 +27,4 @@ export class Input {
       if (GAME_KEYS.has(e.code) && this.active && this.capture) e.preventDefault()
       this.release(e.code)
     })
+    window.addEventListener('blur', () => this.releaseAll())
