@@ -329,3 +329,4 @@ export class Spells {
       const hitGround = b.pos.y < ground
       if (best < len || hitUnit || hitGround || b.life <= 0) {
         const at = b.prev.clone().addScaledVector(dir, Math.min(best, len))
+        if (hitUnit) {
