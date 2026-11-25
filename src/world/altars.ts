@@ -40,3 +40,4 @@ export class Altars {
     crystalGeo.scale(1, 1.7, 1)
     const runeGeo = new THREE.RingGeometry(2.3, 2.55, 48)
     runeGeo.rotateX(-Math.PI / 2)
+    this.list = ALTARS.map((a) => {
