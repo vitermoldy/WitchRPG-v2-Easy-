@@ -267,3 +267,4 @@ export class Fight {
     return 1
   }
 
+  /** May she roll now: not during an execution, nor during a swing's windup and blow. */
