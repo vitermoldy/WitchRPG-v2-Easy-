@@ -105,3 +105,4 @@ async function boot() {
   shake.checked = pr.settings.shake
   refreshers.push(() => {
     shake.checked = pr.settings.shake
+  })
