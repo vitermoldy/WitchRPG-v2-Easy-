@@ -888,3 +888,4 @@ class Rig implements Poser {
     const gb = (glow ? glow.b : 0) + flash * 0.75
     const anyHidden = this.hidden.size > 0
     for (const part of this.parts) {
+      if (anyHidden && part.chain.some((n) => this.hidden.has(n))) part.mesh.setMatrixAt(i, this.zero)
