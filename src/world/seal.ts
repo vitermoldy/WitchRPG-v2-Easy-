@@ -81,3 +81,4 @@ export class Seal {
       depthWrite: false,
       side: THREE.DoubleSide,
       blending: THREE.AdditiveBlending,
+    })
