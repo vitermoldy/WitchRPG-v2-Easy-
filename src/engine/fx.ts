@@ -163,3 +163,4 @@ export class Particles {
         continue
       }
       this.life[i] -= dt
+      const k = Math.max(0, this.life[i] / this.maxLife[i])
