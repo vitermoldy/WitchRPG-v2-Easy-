@@ -257,3 +257,4 @@ def dog_head(part, at, fwd=(0, -1, 0), s=1.0, jaw_open=25, ears=True, mane=False
     j0 = a + F * 0.06 * s - UP * 0.08 * s
     part.limb(j0, j0 + jd * 0.3 * s, 0.07 * s, 0.045 * s, mat=mat)
     if "mouth" in part.rig.pal:
+        part.ell((sn0 + j0 + jd * 0.2 * s) / 2 + F * 0.08 * s - UP * 0.03 * s, (0.06 * s, 0.12 * s, 0.03 * s), rot=_dir_rot(F), mat="mouth", seg=8, rings=5)
