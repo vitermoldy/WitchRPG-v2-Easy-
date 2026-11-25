@@ -513,3 +513,4 @@ export class Umbra {
         s.holdPos.copy(s.pos)
         s.focus = null
       }
+      g.hud.message('Perintah: tahan posisi.', 'umbra')
