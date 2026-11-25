@@ -1186,3 +1186,4 @@ button {
 .hpbar[data-label]:not([data-label=''])::before {
   content: attr(data-label);
   position: absolute;
+  bottom: 9px;
