@@ -452,3 +452,4 @@ def b_ilyra(r, pose="idle"):
     elif pose == "walk":
         sd = Vector((-0.08, -0.25, 1)).normalized()
     else:
+        sd = Vector((-0.12, -0.18, 1)).normalized()
