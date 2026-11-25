@@ -1233,3 +1233,4 @@ export class Game implements UnitHost {
     this.profile.level = Math.max(1, Math.min(30, level))
     this.profile.xp = 0
     this.applyDerived(true)
+    this.saveSoon()
