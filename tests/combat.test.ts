@@ -14,3 +14,4 @@ describe('block and parry', () => {
   })
 
   it('only blocks when block was pressed earlier than the window and is still held', () => {
+    const impact = 10
