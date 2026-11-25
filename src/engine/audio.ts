@@ -56,3 +56,4 @@ export class Sfx {
     const ctx = this.ctx!
     const src = ctx.createBufferSource()
     src.buffer = this.noiseBuf
+    const f = ctx.createBiquadFilter()
