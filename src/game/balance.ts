@@ -67,3 +67,4 @@ export const LOCKON = {
   keepRange: 40,
   lostTime: 1.5,
   /** Half-angle in front of the camera a new target is picked from (radians). */
+  cone: 0.95,
