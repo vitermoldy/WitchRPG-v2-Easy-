@@ -53,3 +53,4 @@ export class Input {
     return this.locked || this.virtualLock
   }
 
+  async lock(): Promise<boolean> {
