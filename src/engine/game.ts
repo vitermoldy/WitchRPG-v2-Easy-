@@ -820,3 +820,4 @@ export class Game implements UnitHost {
       const hit = this.ray.intersectSphere(this.sphere, this.v)
       if (!hit) continue
       const d = hit.distanceTo(o)
+      if (d >= skip && d < best) {
