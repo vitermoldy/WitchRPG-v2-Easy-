@@ -619,3 +619,4 @@ def aim_camera(ob, loc, look):
     ob.rotation_euler = V(look).to_track_quat("-Z", "Y").to_euler()
 
 
+def sun(sc, name, rot_deg, color="#fff4e0", energy=4.0, angle=2.0, coll=None):
