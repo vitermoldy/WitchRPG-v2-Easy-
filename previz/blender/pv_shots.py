@@ -401,3 +401,4 @@ def build_army(dunia):
 
 # ---------------------------------------------------------------- 03 lineup at true scale
 
+LINEUP_BANDS = [
