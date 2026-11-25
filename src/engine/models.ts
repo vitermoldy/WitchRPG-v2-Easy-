@@ -166,3 +166,4 @@ export class IlyraModel {
     return c
   }
 
+  private rot(name: string, x: number, y = 0, z = 0) {
