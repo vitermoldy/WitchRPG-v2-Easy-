@@ -207,3 +207,4 @@ export class IlyraModel {
     if (p.dodging) {
       const u = Math.min(1, p.dodgeT / MOVE.dodge.time)
       const e = u * u * (3 - 2 * u)
+      this.pivot.rotation.x = Math.PI * 2 * e
