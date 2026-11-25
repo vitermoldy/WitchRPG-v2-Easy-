@@ -350,3 +350,4 @@ export class WorldMap {
           ctx.strokeStyle = KIND_COLOR[k] ?? '#ccc'
           ctx.lineWidth = 2
           ctx.stroke()
+        } else {
