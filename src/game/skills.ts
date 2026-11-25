@@ -118,3 +118,4 @@ export const SKILLS: SkillDef[] = [
     upgrade: 'Damage bayangan pada target itu +20%.',
     built: true,
   },
+  {
