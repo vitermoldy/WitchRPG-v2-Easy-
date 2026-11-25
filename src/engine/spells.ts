@@ -498,3 +498,4 @@ export class Spells {
     this.tendril.visible = false
     g.lights.release(this.tendrilLight)
     this.tendrilLight = null
+    g.sfx.gripStop(throwIt)
