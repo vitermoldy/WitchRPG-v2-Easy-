@@ -213,3 +213,4 @@ describe('phase 4 creatures', () => {
       c.skillCd = 99
       let used = ''
       w.step(0.6, () => {
+        if (!used && c.state === 'windup') used = c.atk.name
