@@ -37,3 +37,4 @@ def actor(name, key, pose=None, kind=None, lights=True):
     return r
 
 
+def yaw_to(f):
