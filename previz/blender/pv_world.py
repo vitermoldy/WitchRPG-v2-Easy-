@@ -723,3 +723,4 @@ def build_world(lib_scene):
     build_terrain(terr)
     build_water(terr)
     P = build_protos(lib_scene.collection)
+    forest = C.collection("Dunia_hutan", dunia)
