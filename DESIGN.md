@@ -160,3 +160,4 @@ Ukur ulang pasukan setelah perbaikan tinggi tanah (pola v1, 20 makhluk, 3 run, b
 | Bayangan di medan | Median v2 | p95 v2 | Median v1 |
 | --- | --- | --- | --- |
 | 0 | 5,8 sampai 5,9 ms | 6,6 sampai 6,9 ms | 5,6 ms |
+| 200 | 7,9 sampai 8,4 ms | 10,7 sampai 12,1 ms | 8,3 ms |
