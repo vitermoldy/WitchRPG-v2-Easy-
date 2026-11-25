@@ -98,3 +98,4 @@ def height(x, y):
     lake = smooth(LAKE["r"] * 1.05, LAKE["r"] * 0.85, _dist(x, y, LAKE["c"]))
     h = h * (1 - lake) + lake * (-7.0)
     # Lembah Bara: a burnt bowl with a rim
+    b = ZONES[4]
