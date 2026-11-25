@@ -734,3 +734,4 @@ export class Spells {
     this.barrierT = 0
     this.shield.visible = false
     g.sfx.barrier(false)
+    const p = g.player.pos
