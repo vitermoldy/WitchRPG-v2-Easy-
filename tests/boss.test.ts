@@ -134,3 +134,5 @@ describe('phase 5 creatures', () => {
     expect(UNITS.cyclops.anchored).toBe(true)
     expect(UNITS.cyclops.mass).toBeGreaterThan(500)
   })
+})
+
