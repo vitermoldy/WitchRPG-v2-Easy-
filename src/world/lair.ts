@@ -301,3 +301,4 @@ export class Lair {
     return false
   }
 
+  /** How deep she stands in the flood (m), for wading. */
