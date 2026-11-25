@@ -976,3 +976,6 @@ def b_lilith(r):
     sp.tube(pts, [0.16 - 0.06 * i / (len(pts) - 1) for i in range(len(pts))], mat="snake", seg=8, n=3)
     dragon_head(sp, V(pts[-1]) + Vector((0, -0.1, 0.0)), fwd=(0, -1, -0.2), s=0.75, jaw_open=40, horns=True, mat="snake")
     for s in (1, -1):
+        bat_wing(sp, V(pts[-3]) + Vector((0.12 * s, 0.05, 0.0)), s, 0.6, 0.4, raise_deg=40, sweep_deg=20, bone="snake", arm="snake")
+
+
