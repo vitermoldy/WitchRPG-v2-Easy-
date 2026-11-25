@@ -336,3 +336,4 @@ export class Warnings {
 
   constructor(scene: THREE.Object3D, count = 6) {
     const disc = new THREE.CircleGeometry(1, 48)
+    disc.rotateX(-Math.PI / 2)
