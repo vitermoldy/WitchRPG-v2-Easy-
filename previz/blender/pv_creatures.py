@@ -949,3 +949,4 @@ def b_cerberus(r):
     tail_tube(tl, [Q["tail_base"], (0, 4.4, 3.8), (0.5, 5.4, 3.4), (0.9, 6.0, 2.4)], 0.4, 0.1)
 
 
+def b_lilith(r):
