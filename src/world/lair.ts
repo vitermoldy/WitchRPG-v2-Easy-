@@ -224,3 +224,4 @@ export class Lair {
         if (h) {
           g.clearTelegraph(h)
           g.units.remove(h)
+        }
