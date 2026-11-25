@@ -178,3 +178,4 @@ export class IlyraModel {
     this.root.rotation.y = p.facing + Math.PI
     const staff = this.parts['staff']
     if (staff) staff.visible = act.staff
+    // turned to stone: she holds whatever pose she was in until it wears off
