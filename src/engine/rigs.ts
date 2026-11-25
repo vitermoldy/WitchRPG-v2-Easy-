@@ -1056,3 +1056,4 @@ export class Rigs {
       return (1 - k) * (1 - k) * u.height * 1.1
     }
     if (u.state === 'sinking') {
+      const k = Math.min(1, u.t / SINK_TIME)
