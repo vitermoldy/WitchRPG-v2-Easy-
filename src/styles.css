@@ -225,3 +225,5 @@ button {
   /* safe: when the content is taller than the window it starts at the top instead of being cut off */
   align-items: safe center;
   padding: clamp(24px, 6vw, 88px);
+}
+
