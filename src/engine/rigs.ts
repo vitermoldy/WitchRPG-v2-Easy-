@@ -194,3 +194,4 @@ const HOUND_LIMBS = ['leg_FL', 'leg_FR', 'leg_HL', 'leg_HR', 'tail']
 const poseHound: PoseFn = (p, u, t) => {
   if (common(p, u, t, HOUND_LIMBS)) return
   const ph = u.walk * 1.1
+  const amp = Math.min(1.4, Math.hypot(u.vel.x, u.vel.z) / Math.max(1, u.speed * 0.6))
