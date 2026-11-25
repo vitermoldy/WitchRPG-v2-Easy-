@@ -358,3 +358,4 @@ class Part:
         return self
 
     def box(self, c, size, rot=(0, 0, 0), mat="body", smooth=False):
+        R = Euler([math.radians(a) for a in rot]).to_matrix().to_4x4()
