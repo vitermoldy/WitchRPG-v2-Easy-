@@ -142,3 +142,4 @@ export class WorldMap {
       list.push({
         kind, name: UNITS[kind].name, level: camp.def.levels[1], zone: zoneName(camp.pos.x, camp.pos.z), x: camp.pos.x, z: camp.pos.z,
         status: down ? 'down' : sealed ? 'sealed' : 'waiting',
+        note: down ? `tumbang, bangkit lagi dalam ${left < 90 ? `${Math.max(1, Math.ceil(left))} detik` : `${Math.ceil(left / 60)} menit`}` : sealed ? 'tersegel sampai Hydra kalah' : camp.def.boss ? 'menunggu' : 'mini-boss, menunggu',
