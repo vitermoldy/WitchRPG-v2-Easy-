@@ -206,3 +206,4 @@ export class Camps {
     const p = g.player
     this.time += dt
     let colors = false
+    this.camps.forEach((camp, index) => {
