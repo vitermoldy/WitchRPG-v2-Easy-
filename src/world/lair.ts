@@ -367,3 +367,4 @@ export class Lair {
       for (const isl of this.islands) {
         if (g.props.list.length >= HYDRA.rocks) break
         if (!g.props.list.some((r) => Math.hypot(r.pos.x - isl.x, r.pos.z - isl.z) < isl.r)) g.props.add(isl.x, isl.z)
+      }
