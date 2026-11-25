@@ -60,3 +60,4 @@ describe('the Hydra', () => {
 
   it('phase 3: nothing outside Reality Warp, +50% inside it', () => {
     for (const kind of ['melee', 'bolt', 'blast', 'staff', 'impact'] as const) {
+      expect(hydraShare(3, kind, false)).toBe(0)
