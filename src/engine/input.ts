@@ -72,3 +72,4 @@ export class Input {
     if (document.pointerLockElement) document.exitPointerLock()
   }
 
+  press(code: string) {
