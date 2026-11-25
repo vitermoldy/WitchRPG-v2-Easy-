@@ -342,3 +342,4 @@ def _grass(p):
         p.cone(b, tip, 0.025, mat="grass", seg=3, smooth=False)
 
 
+def _fern(p):
