@@ -372,3 +372,4 @@ def build_army(dunia):
     P = Wd.SPOTS["army"]
     f = Vector((0.15, 1, 0)).normalized()
     sd = sun_dir(f, 150, 28)
+    world = C.sky_world("langit_malam", "#070b18", "#1c2742", "#06060a", 0.35, sun_dir=sd, sun_glow="#7f95c8", glow_power=40)
