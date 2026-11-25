@@ -214,3 +214,5 @@ export class Umbra {
     if (quiet) return
     g.sfx.dismiss()
     g.hud.message(`${out.length} bayangan kembali ke Ruang Bayangan.`, 'umbra')
+  }
+
