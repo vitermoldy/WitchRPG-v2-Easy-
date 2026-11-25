@@ -62,3 +62,4 @@ export const HALF = 650
 /** The playable map is 1000 x 1000 m; the mountains past it are scenery. */
 export const PLAY_HALF = 470
 
+export const toWorld = (x: number, y: number): [number, number] => [x, -y]
