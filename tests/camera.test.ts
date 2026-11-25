@@ -122,3 +122,5 @@ describe('over-the-shoulder camera', () => {
       expect(pose.pos.y).toBeGreaterThan(ground(pose.pos.x, pose.pos.z) + CAMERA.near)
     }
     expect(worst).toBeGreaterThanOrEqual(CAMERA.radius - 1e-6)
+  })
+
