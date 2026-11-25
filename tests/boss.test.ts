@@ -19,3 +19,4 @@ function world() {
     strikePlayer: () => {},
     strikeUnit: () => {},
     fire: () => {},
+    impact: () => {},
