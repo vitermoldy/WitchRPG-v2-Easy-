@@ -342,3 +342,4 @@ const poseCentaur: PoseFn = (p, u, t) => {
     p.rot('head', 25 + 8 * Math.sin(t * 4))
     return
   }
+  p.rot('upperarm_L', -80 * draw - 10, -10 * draw, 0)
