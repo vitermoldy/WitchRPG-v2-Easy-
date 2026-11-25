@@ -85,3 +85,4 @@ export class Game implements UnitHost {
   rings!: Rings
   warnings!: Warnings
   pools!: ShadowPools
+  telegraphs!: Telegraphs
