@@ -41,3 +41,4 @@ _MATS = {}
 
 
 def _new_mat(name):
+    m = bpy.data.materials.get(name)
