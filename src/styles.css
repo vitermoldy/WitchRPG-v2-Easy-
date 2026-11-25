@@ -1988,3 +1988,4 @@ dialog::backdrop {
   .feed-item:nth-last-child(n + 4) {
     display: none;
   }
+  .hint {
