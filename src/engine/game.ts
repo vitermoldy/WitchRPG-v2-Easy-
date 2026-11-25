@@ -47,3 +47,4 @@ export interface BotInput {
   sprint: boolean
   aim: boolean
   /** Turn the camera by this much per second (radians). */
+  turn: number
