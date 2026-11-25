@@ -87,3 +87,4 @@ describe('creature attacks', () => {
     hit.step(4)
     expect(hit.log.strikes.length).toBeGreaterThan(0)
 
+    const side = world()
