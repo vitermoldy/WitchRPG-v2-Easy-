@@ -207,3 +207,4 @@ export function scatter(size = 1260, step = 4, seed = 3): Tree[] {
       }
       if (h < 0.15 && kind !== 'swamp' && kind !== 'dead') continue
       out.push({ kind, x, y: h - 0.15, z: -y, rot, scale: sc })
+    }
