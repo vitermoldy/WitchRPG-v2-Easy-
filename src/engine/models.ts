@@ -171,3 +171,4 @@ export class IlyraModel {
     if (p) p.rotation.set(rad(x), rad(y), rad(z))
   }
 
+  update(dt: number, p: Player, aim: number, act: IlyraPose = idlePose()) {
