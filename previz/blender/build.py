@@ -127,3 +127,4 @@ if "--frame-list" in argv:
 if "--anim" in argv:
     sc = scenes["animatic"]
     first, last = (int(v) for v in arg("--frames", f"1-{A.FRAMES}").split("-"))
+    sc.frame_start, sc.frame_end = first, last
