@@ -32,3 +32,4 @@ describe('the server checks a witch before it keeps her', () => {
     expect(c.world.last).toBe('bara')
   })
 
+  it('refuses numbers out of bounds, unknown shadows and duplicate ids', () => {
