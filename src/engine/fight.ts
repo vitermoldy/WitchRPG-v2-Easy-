@@ -327,3 +327,4 @@ export class Fight {
     this.parryFx = Math.max(0, this.parryFx - dt * 4)
     this.hurtFx = Math.max(0, this.hurtFx - dt * 3.5)
     this.castFx = Math.max(0, this.castFx - dt * 5)
+    if (this.catchT >= 0) {
