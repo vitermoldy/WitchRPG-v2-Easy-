@@ -7,3 +7,4 @@ import { createAuth } from './auth.js'
  *   GET  /api/health
  *   /api/auth/...                     register, login, logout, me (see auth.js)
  *   GET  /api/profile                 the account's witch, or { profile: null } before the first save
+ *   PUT  /api/profile  { profile }    save the witch; an older copy than the stored one is refused
