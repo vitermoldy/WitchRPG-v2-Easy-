@@ -45,3 +45,4 @@ class Staff {
   private readonly dir = new THREE.Vector3()
   private readonly tmp = new THREE.Vector3()
   private readonly q = new THREE.Quaternion()
+  private readonly q2 = new THREE.Quaternion()
