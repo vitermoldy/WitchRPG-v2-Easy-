@@ -84,3 +84,4 @@ export class Obstacles {
         if (s.kind === CYL) {
           if (pos.y > s.y + s.h || pos.y + height < s.y) return
           rr = s.r
+        } else {
