@@ -49,3 +49,4 @@ for ob in list(bpy.data.objects):
 
 # creature library: every block-out once, at rest, for the lineup and the board
 lib_colls, stats = {}, {}
+root = C.collection("Makhluk", lib.collection)
