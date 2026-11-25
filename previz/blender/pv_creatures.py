@@ -1184,3 +1184,4 @@ def build(key, coll, kind=None, pose=None, lights=True):
         if lights:
             for side, col in (("L", HEX["chaos"]), ("R", HEX["umbra"])):
                 C.point(coll, f"{coll.name}.light_{side}", (0, 0, 0), col, energy=35.0, radius=0.05, parent=r.objs["hand_" + side])
+        r.J = J
