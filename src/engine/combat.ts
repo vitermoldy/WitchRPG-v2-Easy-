@@ -49,3 +49,5 @@ export class StunMeter {
     }
     this.since += dt
     if (this.since > COMBAT.stunDrainDelay) this.value = Math.max(0, this.value - COMBAT.stunDrain * dt)
+  }
+
