@@ -986,3 +986,5 @@ export class Rigs {
   private readonly m = new THREE.Matrix4()
   private readonly q = new THREE.Quaternion()
   private readonly p = new THREE.Vector3()
+  private readonly s = new THREE.Vector3()
+
