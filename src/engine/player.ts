@@ -124,3 +124,4 @@ export class Player {
     if (input.fly) this.toggleFlight(g)
     if (this.flying) {
       this.fly(dt, input, wx, wz, wl, face, g)
+      return
