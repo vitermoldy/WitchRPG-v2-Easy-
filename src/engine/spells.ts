@@ -376,3 +376,4 @@ export class Spells {
       const prop = g.props.pick(g.camera.position, g.camera.getWorldDirection(new THREE.Vector3()), SPELL.grip.range + 6, SPELL.grip.aimCone * 3)
       if (!prop) return
       prop.held = true
+      prop.thrown = false
