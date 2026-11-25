@@ -237,3 +237,4 @@ export class LightPool {
     return slot.light
   }
 
+  release(light: THREE.PointLight | null) {
