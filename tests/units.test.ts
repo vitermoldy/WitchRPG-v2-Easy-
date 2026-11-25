@@ -197,3 +197,4 @@ describe('phase 4 creatures', () => {
     expect(shieldShare(m, 0, 3, 'melee')).toBeCloseTo(0.15, 5)
     expect(shieldShare(m, 0, 3, 'bolt')).toBeCloseTo(0.15, 5)
     expect(shieldShare(m, 0, -3, 'melee')).toBe(1)
+    expect(shieldShare(m, 3, 0, 'melee')).toBe(1)
