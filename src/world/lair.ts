@@ -241,3 +241,4 @@ export class Lair {
     if (i >= 0) this.heads[i] = h
     const body = this.body
     if (body && body.alive) {
+      body.hp = Math.max(1, body.hp - body.maxHp * HYDRA.severShare)
