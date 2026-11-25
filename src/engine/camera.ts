@@ -139,3 +139,4 @@ export class CameraRig {
     const p = this.params()
     if (target) {
       // the camera spot depends on the angles it is solving for; two passes settle it
+      let a = { yaw: this.yaw, pitch: this.pitch }
