@@ -925,3 +925,4 @@ def b_hydra(r, heads=5):
     return necks
 
 
+def b_cerberus(r):
