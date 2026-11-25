@@ -719,3 +719,4 @@ button {
 
 .feed-item::before {
   content: 'Ledger';
+  margin-right: 0.55em;
