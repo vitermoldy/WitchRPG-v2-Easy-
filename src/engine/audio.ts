@@ -183,3 +183,4 @@ export class Sfx {
     const f = ctx.createBiquadFilter()
     f.type = 'lowpass'
     f.frequency.value = 600
+    const gain = ctx.createGain()
