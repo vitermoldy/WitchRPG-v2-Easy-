@@ -260,3 +260,4 @@ export class Forest {
     this.mesh.sortObjects = false
   }
 
+  /** Hides trees past the fog so the GPU never draws what cannot be seen. */
