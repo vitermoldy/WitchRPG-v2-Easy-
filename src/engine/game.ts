@@ -1087,3 +1087,4 @@ export class Game implements UnitHost {
     const clear = Math.min(this.obstacles.clearance(c.position.x, c.position.y, c.position.z), c.position.y - heightAt(c.position.x, c.position.z))
     if (this.state === 'playing') this.minClearance = Math.min(this.minClearance, clear)
     this.atmosphere.update(dt, this.v.set(p.pos.x, p.pos.y, p.pos.z), c.position, snap)
+    if (this.state === 'playing') this.sfx.ambience(dt, this.atmosphere.w)
