@@ -462,3 +462,4 @@ def build_lineup(lib_colls, stats):
         C.text(coll, title, (ox + 0.3, -6, top + ts * 0.6), size=ts * 1.1, color="#f4efe9", rot=(90, 0, 0))
         ox += width + 40
     for b in bands:
+        cam = C.camera(sc, f"kamera.03.{b['key']}", (b["x0"] + b["width"] / 2, -100, b["z0"] + b["height"] / 2), rot=(90, 0, 0), ortho=b["width"], clip=(1, 1000))
