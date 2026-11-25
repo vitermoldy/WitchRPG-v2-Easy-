@@ -372,3 +372,4 @@ button {
   inset: 0;
   z-index: 10;
   pointer-events: none;
+  user-select: none;
