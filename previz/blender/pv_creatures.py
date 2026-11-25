@@ -378,3 +378,4 @@ def long_hair(part, hc, H, length, width, mat="hair"):
               [width * 0.9, width, width * 0.8, 0.0], mat=mat, seg=8, n=3, squash=0.55)
 
 
+def axe(part, W, d, length=1.2, blade=0.55):
