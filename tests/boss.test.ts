@@ -62,3 +62,4 @@ describe('the Hydra', () => {
     for (const kind of ['melee', 'bolt', 'blast', 'staff', 'impact'] as const) {
       expect(hydraShare(3, kind, false)).toBe(0)
       expect(hydraShare(3, kind, true)).toBe(1.5)
+    }
