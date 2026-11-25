@@ -78,3 +78,4 @@ export class Props {
       const ground = g.height(p.pos.x, p.pos.z) + p.radius * 0.8
       if (p.thrown || p.pos.y > ground + 0.05 || p.vel.lengthSq() > 0.01) {
         p.flight -= dt
+        p.vel.y -= 22 * (p.flight > 0 ? SPELL.grip.flightGravity : 1) * dt
