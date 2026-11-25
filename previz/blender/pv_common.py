@@ -281,3 +281,6 @@ def _faces_of(verts):
     for v in verts:
         for f in v.link_faces:
             fs.add(f)
+    return fs
+
+
