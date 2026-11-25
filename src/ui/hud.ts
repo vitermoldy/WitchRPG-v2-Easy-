@@ -355,3 +355,4 @@ export class Hud {
         this.bars.appendChild(el)
         this.pool.push(el)
       }
+      el.hidden = false
