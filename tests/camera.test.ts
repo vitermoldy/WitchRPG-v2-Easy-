@@ -71,3 +71,4 @@ describe('over-the-shoulder camera', () => {
   it('stays above a hill behind her', () => {
     const hill = (_x: number, z: number) => (z > 1 ? (z - 1) * 1.2 : 0)
     const rig = new CameraRig()
+    rig.pitch = rad(10)
