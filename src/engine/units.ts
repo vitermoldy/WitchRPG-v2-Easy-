@@ -853,3 +853,4 @@ export class UnitSystem {
       else if (u.state === 'recover' && u.t >= u.spec.recover * 0.7) {
         u.cd = u.spec.cooldown * 0.8
         u.set('move')
+      }
