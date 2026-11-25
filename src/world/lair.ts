@@ -309,3 +309,4 @@ export class Lair {
   // ------------------------------------------------------------ the fight
 
   update(dt: number) {
+    const g = this.g
