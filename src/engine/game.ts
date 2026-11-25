@@ -190,3 +190,4 @@ export class Game implements UnitHost {
         // isnan() is optimised away by the D3D compiler behind ANGLE, so test the exponent bits.
         fragmentShader: [
           'uniform sampler2D tDiffuse;',
+          'varying vec2 vUv;',
