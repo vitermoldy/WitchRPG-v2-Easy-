@@ -170,3 +170,4 @@ export class Game implements UnitHost {
       if (!locked && this.state === 'playing' && !this.debug) this.pause()
     }
     this.sensitivity = this.profile.settings.sensitivity
+    this.derived = derive(this.profile.stats, this.profile.level)
