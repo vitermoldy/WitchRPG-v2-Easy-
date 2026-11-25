@@ -192,3 +192,4 @@ export function zoneWeights(x: number, y: number, out: Float32Array<ArrayBufferL
   for (let i = 0; i < ZONES.length; i++) {
     const z = ZONES[i]
     const d = dist(x, y, z.c) / z.r
+    out[i] = Math.exp(-3 * d * d)
