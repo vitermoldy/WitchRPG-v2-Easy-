@@ -32,3 +32,4 @@ const red = new THREE.MeshBasicMaterial({ color: new THREE.Color(COLOR.chaos).mu
  * Inside a Reality Warp field they turn back on whoever shot them, as in v1.
  */
 export class Projectiles {
+  readonly group = new THREE.Group()
