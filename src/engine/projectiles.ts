@@ -98,3 +98,4 @@ export class Projectiles {
       if (!s.reflected && g.spells.inWarp(s.pos)) {
         s.reflected = true
         s.mesh.material = red
+        const speed = Math.max(16, s.vel.length())
