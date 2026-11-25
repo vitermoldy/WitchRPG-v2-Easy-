@@ -791,3 +791,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
       { name: 'kutukan', strike: 'ring', windup: 1, recover: 1, range: 22, minRange: 5, ring: 2.6, damage: 0.8, effect: 'poison', shot: { speed: 13, gravity: 12, radius: 0.5 }, cooldown: 6 },
     ],
   },
+  dragon: {
