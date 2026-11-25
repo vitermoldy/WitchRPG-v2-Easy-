@@ -468,3 +468,4 @@ export class Fight {
       g.addTrauma(s.heavy ? 0.22 : 0.07)
       g.sfx.hit(s.heavy)
     }
+    if (s.heavy) {
