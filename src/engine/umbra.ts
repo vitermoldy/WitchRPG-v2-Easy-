@@ -550,3 +550,4 @@ export class Umbra {
           }
         }
         s.focus = mine
+        s.focusBonus = focusOn && hasUpgrade(g.profile, 'focus') ? RITE.focusBonus : 0
