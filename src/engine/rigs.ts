@@ -153,3 +153,4 @@ const poseImp: PoseFn = (p, u, t) => {
     const k = 1 - ease(u.t / u.spec.recover)
     p.body(-0.08 * k, 20 * k)
     p.rot('upperarm_L', 40 * k)
+    p.rot('upperarm_R', 40 * k)
