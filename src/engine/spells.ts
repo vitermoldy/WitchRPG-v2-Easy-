@@ -333,3 +333,4 @@ export class Spells {
           g.hurtUnit(hitUnit, b.damage, b.prev, SPELL.bolt.stun, 0.6, 'player', 'bolt')
           g.units.down(hitUnit, SPELL.bolt.down)
           g.sfx.hit()
+        }
