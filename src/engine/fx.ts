@@ -314,3 +314,4 @@ export class Rings {
       r.t += dt
       const k = Math.min(1, r.t / r.dur)
       const e = 1 - (1 - k) ** 3
+      const s = r.r0 + (r.r1 - r.r0) * e
