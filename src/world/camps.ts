@@ -232,3 +232,4 @@ export class Camps {
           for (const u of alive) g.units.remove(u)
           camp.units = []
           camp.state = 'idle'
+          return
