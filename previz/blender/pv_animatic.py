@@ -210,3 +210,4 @@ def build(dunia, res=(1280, 720), samples=24):
             vfov = cn["vfov"] + 6 * u
             ret.location = tgt
             shake = 0.06 * seg(t, T_NAGA + 0.5, T_NAGA + 1.0) * (1 - seg(t, T_NAGA + 3.5, T_NAGA + 5.5))
+            loc = loc + Vector(rng.normal(0, shake, 3))
