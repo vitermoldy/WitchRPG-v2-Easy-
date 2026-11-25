@@ -607,3 +607,4 @@ def b_naga(r):
         h.cone(p, p + Vector((0, 0.3, 0.1)), 0.06, mat="hair", seg=5) if i < 3 else b.cone(p, p + Vector((0, 0.3, 0.1)), 0.06, mat="hair", seg=5)
 
 
+def b_minotaur(r, pose="idle"):
