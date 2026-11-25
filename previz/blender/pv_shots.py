@@ -572,3 +572,4 @@ def build_board(lib_colls, stats):
     C.sun(sc, "kunci", (55, 0, -35), energy=3.2).data.use_shadow = False
     C.sun(sc, "tepi", (60, 0, 150), "#b6c8ff", energy=2.2).data.use_shadow = False
     cols, cw, ch, head = 4, 9.6, 5.6, 2.0
+    keys = ["ilyra"] + [r[0] for r in K.ROSTER]
