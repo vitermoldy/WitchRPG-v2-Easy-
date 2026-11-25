@@ -476,3 +476,4 @@ export class Game implements UnitHost {
   placeAt(x: number, z: number, yaw: number) {
     this.player.place(x, z, this.ground, yaw)
     this.obstacles.pushOut(this.player.pos, MOVE.radius, MOVE.height)
+    this.player.pos.y = heightAt(this.player.pos.x, this.player.pos.z)
