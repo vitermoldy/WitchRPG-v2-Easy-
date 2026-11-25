@@ -36,3 +36,6 @@ def lock_quat(cam_loc, target, vfov, third=(1 / 3, 1 / 3)):
     d = V(target) - V(cam_loc)
     yaw = math.atan2(d.y, d.x) + math.atan(third[0] * th)
     pitch = math.atan2(d.z, math.hypot(d.x, d.y)) - math.atan(third[1] * tv)
+    return look_quat((math.cos(yaw) * math.cos(pitch), math.sin(yaw) * math.cos(pitch), math.sin(pitch)))
+
+
