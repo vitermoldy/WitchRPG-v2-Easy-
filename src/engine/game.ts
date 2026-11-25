@@ -314,3 +314,4 @@ export class Game implements UnitHost {
   }
 
   /** A burst lands `delay` seconds from now on an amber circle: step out of it, or roll through. */
+  private blastLater(at: THREE.Vector3, radius: number, damage: number, delay: number) {
