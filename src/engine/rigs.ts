@@ -84,3 +84,4 @@ const ease = (k: number) => {
 function common(p: Poser, u: Unit, t: number, limbs: string[]): boolean {
   if (u.state === 'dead') {
     const k = ease(u.deadT / 0.45)
+    p.body(u.radius * 0.55 * k, 8 * k, 90 * u.fallSide * k)
