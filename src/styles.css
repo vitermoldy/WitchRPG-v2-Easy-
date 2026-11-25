@@ -967,3 +967,4 @@ button {
 }
 
 .skill.locked span:not(.skill-sub),
+.skill.locked kbd {
