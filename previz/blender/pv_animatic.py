@@ -191,3 +191,4 @@ def build(dunia, res=(1280, 720), samples=24):
             vfov = cn["vfov"]
         elif t < T_NAGA:
             u = seg(t, T_WALK + 0.4, T_WALK + 1.1)
+            tgt = Vector((Np.x, Np.y, nz + 2.6))
