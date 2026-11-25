@@ -1158,3 +1158,5 @@ export class Game implements UnitHost {
 
   toggleLock() {
     this.botLock = true
+  }
+
