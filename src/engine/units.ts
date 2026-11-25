@@ -427,3 +427,4 @@ export class UnitSystem {
         const list = this.grid.get(cellKey(cx + dx, cz + dz))
         if (!list) continue
         for (const o of list) {
+          if (o.team === u.team || !o.targetable) continue
