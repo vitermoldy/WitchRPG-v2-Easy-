@@ -235,3 +235,4 @@ export class WorldMap {
             b += tones[k][2] * w[k]
           }
           // light from the north-west: slopes facing it are brighter
+          const shade = 1 + Math.max(-0.45, Math.min(0.45, ((heightMap(mx - step, my) - heightMap(mx + step, my)) + (heightMap(mx, my + step) - heightMap(mx, my - step))) * 0.05))
