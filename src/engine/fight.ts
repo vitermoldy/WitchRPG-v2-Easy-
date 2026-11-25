@@ -182,3 +182,4 @@ class Staff {
 
   private orient(dir: THREE.Vector3, spinning: boolean) {
     const obj = this.ensure()
+    const n = this.tmp.copy(dir)
