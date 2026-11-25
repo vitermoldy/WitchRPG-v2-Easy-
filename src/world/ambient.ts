@@ -96,3 +96,4 @@ export class Ambient {
   private readonly pos: Float32Array
   private readonly tint: Float32Array
   private readonly size: Float32Array
+  private readonly alpha: Float32Array
