@@ -844,3 +844,4 @@ export class Game implements UnitHost {
         if (i < this.debugSpeed - 1) this.input.endFrame()
       }
       this.prof('sim', ts)
+    } else if (this.state === 'title') {
