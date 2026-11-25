@@ -631,3 +631,4 @@ export class UnitSystem {
     let fallback: AttackSpec | null = null
     for (const a of list) {
       if (dist > a.range + tgt.radius || dist < (a.minRange ?? 0)) continue
+      if ((u.atkCd.get(a.name) ?? 0) > 0) continue
