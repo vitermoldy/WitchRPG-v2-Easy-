@@ -136,3 +136,4 @@ def flat(m):
 
 
 def lod_tris(coll):
+    """Triangles after the decimate modifiers, as exported."""
