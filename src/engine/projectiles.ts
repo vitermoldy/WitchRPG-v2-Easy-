@@ -136,3 +136,4 @@ export class Projectiles {
         const len = this.seg.copy(s.pos).sub(s.prev).length()
         const wall = len > 1e-5 ? g.obstacles.sweep(s.prev.x, s.prev.y, s.prev.z, s.pos.x, s.pos.y, s.pos.z, 0.02) : 1
         if (hit || wall < 1 || s.pos.y < g.height(s.pos.x, s.pos.z) || s.life <= 0) this.end(i, true)
+        continue
