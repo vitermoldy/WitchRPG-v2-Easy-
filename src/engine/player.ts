@@ -247,3 +247,4 @@ export class Player {
     this.pos.y += this.vy * dt
     if (this.pos.y > floor + F.ceiling) {
       this.pos.y = floor + F.ceiling
+      this.vy = Math.min(0, this.vy)
