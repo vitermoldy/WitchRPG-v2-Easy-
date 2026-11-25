@@ -150,3 +150,4 @@ export class Telegraphs {
     const it = this.byUnit.get(u.id)
     if (!it) return
     it.unit = null
+    it.mesh.visible = false
