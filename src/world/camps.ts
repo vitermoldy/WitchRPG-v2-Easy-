@@ -21,3 +21,4 @@ export interface CampDef {
  * start clearing. Tebing Berangin (Tier II, Lv 4 to 6): Harpies and Centaurs on the plateau. Rawa
  * Berkabut (Tier III, Lv 7 to 9): Naga, Minotaurs, and the lairs of Medusa and the Chimera. Levels rise
  * with the distance from the start, inside each zone's band.
+ */
