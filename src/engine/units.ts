@@ -836,3 +836,4 @@ export class UnitSystem {
       }
     }
     // which enemy to fight: the ordered focus, else the nearest one near her
+    let tgt: Unit | null = null
