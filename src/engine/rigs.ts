@@ -1040,3 +1040,4 @@ export class Rigs {
         part.mesh = new THREE.InstancedMesh(part.geometry, part.material, cap)
         part.mesh.instanceMatrix.setUsage(THREE.DynamicDrawUsage)
         part.mesh.frustumCulled = false
+        part.mesh.castShadow = false
