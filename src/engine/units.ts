@@ -73,3 +73,4 @@ export class Unit implements Foe {
   readonly mass: number
   scale = 1
   /** Elite trait, or null. */
+  elite: EliteTrait | null = null
