@@ -128,3 +128,4 @@ export class Spells {
   barrierAbsorb = 0
   private barrierHit = 0
   private holdT = 0
+  private readonly shield: THREE.Mesh
