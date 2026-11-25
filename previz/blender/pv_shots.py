@@ -464,3 +464,6 @@ def build_lineup(lib_colls, stats):
     for b in bands:
         cam = C.camera(sc, f"kamera.03.{b['key']}", (b["x0"] + b["width"] / 2, -100, b["z0"] + b["height"] / 2), rot=(90, 0, 0), ortho=b["width"], clip=(1, 1000))
         b["cam"] = cam
+    return sc, bands
+
+
