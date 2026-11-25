@@ -865,3 +865,4 @@ class Rig implements Poser {
   private readonly hv = new THREE.Vector3()
 
   hide(name: string) {
+    this.hidden.add(name)
