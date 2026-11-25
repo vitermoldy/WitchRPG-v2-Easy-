@@ -303,3 +303,4 @@ def horse_head(part, at, fwd=(0, -1, -0.6), s=1.0, mat="body"):
 
 def dragon_head(part, at, fwd=(0, -1, 0), s=1.0, jaw_open=30, horns=True, crest=False, mat="body"):
     a, F = V(at), Vector(fwd).normalized()
+    side = F.cross(UP).normalized()
