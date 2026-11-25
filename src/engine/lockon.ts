@@ -79,3 +79,5 @@ export class LockOn {
       this.lost = 0
     }
     return !!best
+  }
+
