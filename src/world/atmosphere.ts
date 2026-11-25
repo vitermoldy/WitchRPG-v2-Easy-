@@ -131,3 +131,4 @@ export class Atmosphere {
 }
 
 /** Dark, glossy water over the swamp and Danau Hitam. */
+export function water(): THREE.Mesh {
