@@ -99,3 +99,5 @@ export class Umbra {
   /** Shadows standing on the field (rising ones included, sinking ones not). */
   field(): Unit[] {
     return this.g.units.units.filter((u) => u.team === 'shadow' && u.record && u.alive && u.state !== 'sinking')
+  }
+
