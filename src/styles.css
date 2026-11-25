@@ -1803,3 +1803,4 @@ dialog::backdrop {
   background: var(--surface);
 }
 
+.worldmap[open] {
