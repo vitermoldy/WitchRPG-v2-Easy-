@@ -117,3 +117,4 @@ export class Lair {
       this.group.add(mesh)
       this.islands.push({ x, z, r: 3.6, mesh })
     }
+    this.curtainMat = new THREE.ShaderMaterial({
