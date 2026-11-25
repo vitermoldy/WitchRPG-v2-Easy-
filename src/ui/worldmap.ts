@@ -260,3 +260,4 @@ export class WorldMap {
     const dpr = Math.min(2, window.devicePixelRatio || 1)
     cv.style.width = cv.style.height = `${size}px`
     cv.width = cv.height = Math.round(size * dpr)
+    const ctx = cv.getContext('2d')!
