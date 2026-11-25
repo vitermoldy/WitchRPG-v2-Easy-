@@ -74,3 +74,5 @@ describe('over-the-shoulder camera', () => {
     rig.pitch = rad(10)
     const pose = rig.update(1 / 60, pivot, false, null, null, hill)
     expect(pose.pos.y).toBeGreaterThan(hill(pose.pos.x, pose.pos.z) + CAMERA.radius)
+  })
+
