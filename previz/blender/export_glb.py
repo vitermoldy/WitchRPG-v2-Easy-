@@ -105,3 +105,6 @@ def emission_of(m):
             s = n.inputs["Emission Strength"]
             if not s.is_linked and s.default_value > 0:
                 return tuple(n.inputs["Emission Color"].default_value[:3]), s.default_value
+    return None
+
+
