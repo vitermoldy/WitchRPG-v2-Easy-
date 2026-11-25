@@ -502,3 +502,6 @@ def stack_png(paths, out, pad=0, bg=(0, 0, 0)):
     img.save()
     for im in ims:
         bpy.data.images.remove(im)
+    bpy.data.images.remove(img)
+
+
