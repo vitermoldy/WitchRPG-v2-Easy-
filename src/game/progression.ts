@@ -226,3 +226,4 @@ export function gainXp(p: Profile, amount: number, skills: SkillId[]): XpResult 
     p.skillPoints += XP.skillPointsPerLevel
     result.levelsGained += 1
     for (const id of skills) if (skillById(id).unlock === p.level) result.unlocked.push(id)
+  }
