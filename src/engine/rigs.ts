@@ -93,3 +93,4 @@ function common(p: Poser, u: Unit, t: number, limbs: string[]): boolean {
     p.body(0, 20 * Math.sin(t * 3), 25 * Math.sin(t * 2.3))
     return true
   }
+  if (u.state === 'thrown') {
