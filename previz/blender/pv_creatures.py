@@ -713,3 +713,4 @@ def b_medusa(r):
         snake_head(h, tip, (tip - mid), s=0.28, jaw=40, mat=m)
 
 
+def b_chimera(r):
