@@ -223,3 +223,4 @@ export const EFFECTS = { petrify: 2.2, poisonTime: 4, poisonShare: 0.15 } as con
 
 export interface UnitSpec {
   name: string
+  rank: RankId
