@@ -50,3 +50,4 @@ export class Atmosphere {
   /** How much of each zone (ZONES order) is around her now; the sound mixes by it too. */
   readonly w = new Float32Array(ZONES.length)
   private readonly fogTarget = new THREE.Color()
+  private readonly skyTarget = new THREE.Color()
