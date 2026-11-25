@@ -115,3 +115,4 @@ export const SKILLS: SkillDef[] = [
     key: 'Roda Z',
     unlock: 6,
     effect: 'Perintah Serang membuat semua bayangan memukul target yang sama.',
+    upgrade: 'Damage bayangan pada target itu +20%.',
