@@ -163,3 +163,4 @@ export class Ledger {
             up = `<p class="node-up"><span>Upgrade: ${s.upgrade}</span><button class="btn btn-small ${branch === 'umbra' ? 'btn-umbra' : ''}" type="button" data-upgrade="${s.id}" ${
               canUpgrade(p, s.id) ? '' : 'disabled'
             }>Pakai 1 poin</button></p>`
+          return `<li class="node ${open ? 'open' : 'locked'}">
