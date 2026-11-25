@@ -59,3 +59,4 @@ export class WorldMap {
       }
     })
     $('map-sort').addEventListener('change', () => this.renderMonsters())
+    $('map-all').addEventListener('click', () => {
