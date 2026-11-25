@@ -140,3 +140,4 @@ def lod_tris(coll):
     deps = bpy.context.evaluated_depsgraph_get()
     n = 0
     for o in coll.objects:
+        if o.type != "MESH":
