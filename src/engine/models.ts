@@ -249,3 +249,4 @@ export class IlyraModel {
     let armRY = 0
     let armRZ = 0
     let foreR = 0
+    let staffX = 115 * aim
