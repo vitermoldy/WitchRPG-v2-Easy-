@@ -89,3 +89,5 @@ def build(dunia, res=(1280, 720), samples=24):
         if name.startswith("head"):
             head_rest[name] = C.world_matrix(ob).translation.copy()
     hydra_yaw = math.radians(S.yaw_to(-f))
+    rng = np.random.default_rng(1)
+
