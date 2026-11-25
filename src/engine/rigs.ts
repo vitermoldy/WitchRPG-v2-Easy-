@@ -350,3 +350,4 @@ const poseCentaur: PoseFn = (p, u, t) => {
   p.rot('head', -4, -15 * draw)
 }
 
+/** Naga Rawa: a long swamp serpent. Sways, rears back to spit, snaps forward to bite. */
