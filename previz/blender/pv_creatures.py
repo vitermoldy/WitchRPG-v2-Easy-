@@ -104,3 +104,4 @@ def humanoid(r, H, bulk=1.0, legs="human", female=False, off=(0, 0, 0), arm_pose
         th = r.P("thigh_" + side, Hj, "pelvis")
         if legs == "human":
             d1 = _rx(Vector((s * 0.03, 0, -1)), -hf)
+            d2 = _rx(d1, kn)
