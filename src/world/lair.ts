@@ -118,3 +118,4 @@ export class Lair {
       this.islands.push({ x, z, r: 3.6, mesh })
     }
     this.curtainMat = new THREE.ShaderMaterial({
+      uniforms: { uTime: { value: 0 }, uFade: { value: 0 }, uColor: { value: new THREE.Color(COLOR.rift) } },
