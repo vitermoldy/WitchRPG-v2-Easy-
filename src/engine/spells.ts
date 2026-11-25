@@ -105,3 +105,4 @@ const boltMat = new THREE.MeshBasicMaterial({ color: new THREE.Color(COLOR.chaos
 /** Held this long, the left button turns from a bolt into Telekinesis. */
 const GRIP_HOLD = 0.25
 
+/**
