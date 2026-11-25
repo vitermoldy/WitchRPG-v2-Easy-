@@ -49,3 +49,4 @@ const TABLES = [
     xp INT UNSIGNED NOT NULL,
     slot SMALLINT UNSIGNED NOT NULL,
     PRIMARY KEY (client_id, shadow_id),
+    CONSTRAINT shadows_client FOREIGN KEY (client_id) REFERENCES clients(id) ON DELETE CASCADE
