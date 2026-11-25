@@ -881,3 +881,4 @@ export class Game implements UnitHost {
     this.botThink?.(this, dt)
     const inp = this.input
     const b = this.bot
+    const p = this.player
