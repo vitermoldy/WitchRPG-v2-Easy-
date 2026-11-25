@@ -459,3 +459,4 @@ def build_forest(coll, P, size=1260.0, step=4.0, seed=3):
         keep &= _dist(X, Y, c) > rad
     swampy = Z < 0.15
     out = {}
+    for idx in np.nonzero(keep)[0]:
