@@ -120,3 +120,4 @@ export class Unit implements Foe {
   readonly lungeDir = new THREE.Vector3()
   hitDone = false
   /** Flyers: height above the ground. A downed flyer crawls for `downed` seconds. */
+  alt = 0
