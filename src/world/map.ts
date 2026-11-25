@@ -117,3 +117,4 @@ export function fbm(x: number, y: number, octaves = 4, seed = 0): number {
   return s / norm
 }
 
+export function smooth(e0: number, e1: number, x: number): number {
