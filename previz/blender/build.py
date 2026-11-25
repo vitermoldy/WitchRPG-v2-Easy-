@@ -89,3 +89,5 @@ scenes["bara"] = S.build_bara(dunia)
 scenes["lineup"] = S.build_lineup(lib_colls, stats)
 scenes["board"] = S.build_board(lib_colls, stats)
 scenes["animatic"] = A.build(dunia)
+log("adegan")
+
