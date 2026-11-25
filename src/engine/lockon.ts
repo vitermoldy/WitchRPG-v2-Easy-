@@ -35,3 +35,4 @@ export class LockOn {
     for (const t of targets) {
       if (!t.alive) continue
       const d = Math.hypot(t.x - player.x, t.z - player.z)
+      if (d > LOCKON.range) continue
