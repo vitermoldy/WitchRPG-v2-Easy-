@@ -88,3 +88,4 @@ export function cleanProfile(p, now = Date.now()) {
   const last = altars.includes(p.world?.last) ? p.world.last : 'pembuka'
   const st = p.settings ?? {}
   const settings = {
+    sensitivity: num(st.sensitivity, 0.3, 2.5, 1),
