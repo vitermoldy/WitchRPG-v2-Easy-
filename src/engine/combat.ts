@@ -89,3 +89,4 @@ export class Combo {
     return !s || s.t >= s.swing.windup + s.swing.active
   }
 
+  cancel() {
