@@ -197,3 +197,4 @@ export function createApi(getPool, database) {
     res.status(500).json({ error: 'Server bermasalah.' })
   })
   return api
+}
