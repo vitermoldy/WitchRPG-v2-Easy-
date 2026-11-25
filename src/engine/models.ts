@@ -319,3 +319,4 @@ export class IlyraModel {
       const e = act.execute
       const up = ease(e / 0.35)
       const down = ease((e - 0.35) / 0.2)
+      const back = ease((e - 0.75) / 0.25)
