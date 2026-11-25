@@ -84,3 +84,5 @@ describe('the Hydra', () => {
     addShadow(p, 'hydra', 12)
     expect(riteBlock(p, 'hydra')).not.toBeNull()
   })
+})
+
