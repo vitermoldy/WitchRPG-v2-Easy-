@@ -468,3 +468,4 @@ export class Spells {
       pt.y += Math.cos(g.t * 19 + i * 1.3) * 0.06 * Math.sin(s * Math.PI)
       this.tendrilPts[i].copy(pt)
     }
+    this.tendril.geometry.setFromPoints(this.tendrilPts)
