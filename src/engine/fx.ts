@@ -475,3 +475,4 @@ export class ShadowPools {
           p.t = 0
         }
       } else if (p.state === 'holding') {
+        if (p.t >= p.hold) {
