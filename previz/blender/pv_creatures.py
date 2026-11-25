@@ -345,3 +345,4 @@ def snake_head(part, at, fwd, s=1.0, jaw=35, mat="body"):
 def spikes(part, pts, h, r, mat="horn", tilt=(0, 0.4, 1)):
     d = Vector(tilt).normalized()
     for i, p in enumerate(pts):
+        k = 0.6 + 0.4 * math.sin(i * 1.7) ** 2
