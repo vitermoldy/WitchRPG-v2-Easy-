@@ -142,3 +142,4 @@ describe('Ilyra on foot', () => {
     expect(Math.hypot(p.pos.x, p.pos.z + 3)).toBeGreaterThanOrEqual(0.4 + MOVE.radius - 1e-6)
   })
 
+  it('walks through a crown, which only blocks the camera', () => {
