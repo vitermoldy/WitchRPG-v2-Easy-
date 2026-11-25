@@ -691,3 +691,4 @@ def b_medusa(r):
     b.tube(pts, [0.2, 0.22, 0.24, 0.22, 0.2, 0.17, 0.14, 0.1, 0.06, 0.0], mat="snake", seg=10, n=4)
     p = r.parts["pelvis"]
     hp = V(J["hip"])
+    p.tube([hp + Vector((0, 0, 0.2)), hp, hp + Vector((0, -0.02, -0.35)), hp + Vector((0.05, -0.05, -0.6))], [0.2, 0.25, 0.3, 0.33], mat="cloth", seg=14, n=3, cap=False)
