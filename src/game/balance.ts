@@ -672,3 +672,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   griffin: {
     name: 'Griffin',
     rank: 'ksatria',
+    hp: 70,
