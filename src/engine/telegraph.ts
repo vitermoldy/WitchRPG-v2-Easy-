@@ -12,3 +12,4 @@ const VERT = /* glsl */ `
  * Slow pulse: the edge breathes about twice a second and the inside fills toward the edge; when the
  * fill reaches the edge the blow lands. This one can be blocked or parried.
  */
+const RING_FRAG = /* glsl */ `
