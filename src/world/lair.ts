@@ -237,3 +237,4 @@ export class Lair {
   partDied(h: Unit) {
     const g = this.g
     h.riteTried = true
+    const i = this.heads.indexOf(h)
