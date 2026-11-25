@@ -371,3 +371,4 @@ export class Sfx {
 
   /** A Phoenix falling to ashes: embers dying down. */
   ashes() {
+    if (!this.ok()) return
