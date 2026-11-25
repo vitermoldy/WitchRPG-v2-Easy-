@@ -56,3 +56,4 @@ export class LockOn {
     this.lost = 0
   }
 
+  /** Moves the lock to the nearest target on the given side (1 = right, -1 = left) of the current one. */
