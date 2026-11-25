@@ -274,3 +274,5 @@ Pemeriksaan:
 
 ## Versi Easy (26 Nov 2026)
 
+Permintaan pemilik: "itu ada WitchRPG-v2 (Easy), tinggal copy ini, data + akun + isinya juga, seperti bayangan, level dkk, nah di sini itu versi di mana bisa arise dengan persentase 100%".
+
