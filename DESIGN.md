@@ -162,3 +162,5 @@ Ukur ulang pasukan setelah perbaikan tinggi tanah (pola v1, 20 makhluk, 3 run, b
 | 0 | 5,8 sampai 5,9 ms | 6,6 sampai 6,9 ms | 5,6 ms |
 | 200 | 7,9 sampai 8,4 ms | 10,7 sampai 12,1 ms | 8,3 ms |
 | 500 | 9,1 sampai 9,4 ms | 11,5 sampai 12,4 ms | 9,9 ms |
+| 1.000 | 10,6 sampai 10,9 ms | 13,6 sampai 14,7 ms | 12,8 ms |
+
