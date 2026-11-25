@@ -352,3 +352,4 @@ const poseCentaur: PoseFn = (p, u, t) => {
 
 /** Naga Rawa: a long swamp serpent. Sways, rears back to spit, snaps forward to bite. */
 const poseNaga: PoseFn = (p, u, t) => {
+  if (common(p, u, t, ['head'])) return
