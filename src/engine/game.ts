@@ -736,3 +736,4 @@ export class Game implements UnitHost {
     this.profile.world.last = key
     for (const u of this.umbra.field()) {
       const spot = this.umbra.spot(u.slot)
+      u.pos.copy(spot)
