@@ -208,3 +208,4 @@ export class Camps {
     let colors = false
     this.camps.forEach((camp, index) => {
       const d = Math.hypot(p.pos.x - camp.pos.x, p.pos.z - camp.pos.z)
+      if (camp.state === 'idle' && d < CAMP.wake && p.alive) {
