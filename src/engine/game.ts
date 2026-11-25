@@ -553,3 +553,4 @@ export class Game implements UnitHost {
     p.dodgeDistance = d.dodgeDistance
   }
 
+  private reward(u: Unit) {
