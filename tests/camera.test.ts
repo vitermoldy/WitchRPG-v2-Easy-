@@ -25,3 +25,4 @@ describe('over-the-shoulder camera', () => {
     // yaw 0 looks north (-z): behind is +z, right is +x
     expect(pose.pos.z).toBeCloseTo(CAMERA.normal.dist, 5)
     expect(pose.pos.x).toBeCloseTo(CAMERA.normal.shoulder, 5)
+    expect(pose.pos.y).toBeCloseTo(pivot.y, 5)
