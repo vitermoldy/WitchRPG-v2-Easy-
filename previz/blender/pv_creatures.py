@@ -351,3 +351,6 @@ def spikes(part, pts, h, r, mat="horn", tilt=(0, 0.4, 1)):
 
 def tail_tube(part, pts, r0, r1=0.0, mat="body", seg=7):
     n = len(pts)
+    part.tube(pts, [r0 + (r1 - r0) * i / (n - 1) for i in range(n)], mat=mat, seg=seg, n=4)
+
+
