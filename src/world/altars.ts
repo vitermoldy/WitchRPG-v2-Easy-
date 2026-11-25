@@ -25,3 +25,4 @@ const stoneMat = new THREE.MeshStandardMaterial({ color: 0x4a4448, roughness: 0.
  */
 export class Altars {
   readonly group = new THREE.Group()
+  readonly list: Altar[]
