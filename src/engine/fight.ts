@@ -174,3 +174,4 @@ class Staff {
   private stick() {
     this.state = 'stuck'
     this.vel.setY(0)
+    // planted at a slant, head up and back toward where it came from
