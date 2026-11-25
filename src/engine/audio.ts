@@ -458,3 +458,4 @@ export class Sfx {
   }
 
   private bird(t: number) {
+    const f = 2400 + Math.random() * 1400
