@@ -250,3 +250,4 @@ Di luar enam fase PROMPT. Permintaan pemilik: "dalam mode open world, buat semua
 
 | Bagian | Keputusan | Alasan |
 | --- | --- | --- |
+| Terbang | B terbang atau mendarat. Di udara Spasi naik, C turun, Shift lebih cepat. Angka dari v1: 13 m/dtk, 26 dengan Shift, naik 8 m/dtk, paling tinggi 40 m di atas tanah. Di udara tidak ada dodge dan tahan. Danau dan rawa dalam bisa dilewati, tapi Ilyra tidak bisa mendarat di air dalam dan turun paling rendah sampai permukaannya. Segel zona IV dan V dan gerbang sarang Hydra tetap berlaku. Angin terdengar sesuai laju, jejak cahaya merah dan ungu dari kedua telapak, dan Ilyra condong ke arah terbang dengan jubah berkibar | v1 memakai ketuk Spasi dua kali, tapi di v2 Spasi adalah dodge: ketukan pertama akan menggulingkannya dan dodge ganda di tengah pertarungan akan membuatnya lepas landas. |
