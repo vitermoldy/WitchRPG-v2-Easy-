@@ -112,3 +112,4 @@ function attemptLimit(limit, message) {
 
 /**
  * @param {object} options
+ * @param {() => import('mysql2/promise').Pool | null} options.getPool
