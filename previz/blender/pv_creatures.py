@@ -1017,3 +1017,4 @@ def b_samael(r):
     hc = V(J["head_c"])
     h.ell(hc, (0.13, 0.15, 0.17), mat="skin")
     face(h, hc, 3.2)
+    long_hair(h, hc, 3.2, 0.6, 0.14)
