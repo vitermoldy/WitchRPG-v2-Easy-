@@ -415,3 +415,4 @@ def scatter_object(name, coll, proto_ob, pts, rots, scales):
     s.data.foreach_set("value", np.asarray(scales, np.float32).ravel())
     ob = bpy.data.objects.new(name, me)
     mod = ob.modifiers.new("scatter", "NODES")
+    ng = scatter_group()
