@@ -285,3 +285,4 @@ export class UnitSystem {
   /** Formation spot for each shadow, filled in by the Umbra layer. */
   spotOf: ((u: Unit) => THREE.Vector3) | null = null
 
+  constructor(host: UnitHost) {
