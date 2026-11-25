@@ -1090,3 +1090,4 @@ button {
   border-radius: var(--radius);
   background: rgba(12, 8, 9, 0.84);
   font-size: 0.95rem;
+  text-align: center;
