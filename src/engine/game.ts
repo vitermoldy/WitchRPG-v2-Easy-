@@ -885,3 +885,4 @@ export class Game implements UnitHost {
     // hitstop: the fight freezes for a moment on impact; the camera keeps moving
     const sdt = this.hitstopT > 0 ? dt * 0.05 : dt
     this.hitstopT = Math.max(0, this.hitstopT - dt)
+    this.hurtGrace = Math.max(0, this.hurtGrace - dt)
