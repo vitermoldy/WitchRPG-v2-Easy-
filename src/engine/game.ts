@@ -1039,3 +1039,4 @@ export class Game implements UnitHost {
     if (this.debugPose) Object.assign(this.pose, this.debugPose)
     this.ilyra.update(sdt, p, this.rig.aim, this.pose)
 
+    this.hud.zone(ZONES[this.atmosphere.zone])
