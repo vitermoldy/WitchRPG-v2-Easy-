@@ -293,3 +293,5 @@ export class Game implements UnitHost {
 
   fire(u: Unit, atk: AttackSpec) {
     this.shots.fire(u, atk)
+  }
+
