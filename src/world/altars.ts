@@ -79,3 +79,4 @@ export class Altars {
     return this.list.find((a) => a.key === key) ?? this.list[0]
   }
 
+  /** The lit altar she stands at, if any. */
