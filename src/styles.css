@@ -1483,3 +1483,4 @@ dialog::backdrop {
 }
 
 .tree-umbra::before {
+  content: 'Umbra';
