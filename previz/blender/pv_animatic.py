@@ -110,3 +110,4 @@ def build(dunia, res=(1280, 720), samples=24):
         return A.lerp(Sp, u)
 
     for fr in range(1, FRAMES + 1):
+        t = (fr - 1) / FPS
