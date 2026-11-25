@@ -364,3 +364,4 @@ export class UnitSystem {
   kill(u: Unit, executed = false) {
     if (u.state === 'dead') return
     if (u.spec.rebirth && !u.reborn && !executed && u.team === 'enemy') {
+      // the first fall leaves ashes that burn for a moment, then it rises again (an execution ends it for good)
