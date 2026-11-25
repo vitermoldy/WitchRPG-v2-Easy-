@@ -320,3 +320,4 @@ export class Spells {
         this.sphere.radius = Math.max(u.radius, u.height * 0.42) + SPELL.bolt.radius
         if (!this.ray.intersectSphere(this.sphere, this.tmp)) continue
         const d = this.tmp.distanceTo(b.prev)
+        if (d <= len && d < best) {
