@@ -99,3 +99,4 @@ async function enter(path: string, payload: unknown): Promise<void> {
   try {
     const body = await call<Entry>(path, { method: 'POST', body: JSON.stringify(payload) })
     setAuth({ status: 'signed-in', account: body.user })
+  } catch (err) {
