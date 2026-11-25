@@ -205,3 +205,4 @@ def build(dunia, res=(1280, 720), samples=24):
             tgt = tgt_n.lerp(tgt_h, seg(t, T_NAGA + 0.8, T_NAGA + 3.0))
             d = tgt - Vector((P.x, P.y, 0))
             d.z = 0
+            loc, look = game_cam(P, d.normalized(), dist=cn["dist"] + 1.6 * u, height=cn["height"] - 0.3 * u)
