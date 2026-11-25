@@ -761,3 +761,4 @@ button {
 
 .prompt {
   margin: 0;
+  max-width: 90vw;
