@@ -436,3 +436,4 @@ export class Game implements UnitHost {
       this.rig.firstPerson = true
       this.rig.fp = 1
       this.ilyra.firstPerson(true)
+    }
