@@ -603,3 +603,4 @@ const posePhoenix: PoseFn = (p, u, t) => {
   if (u.state === 'strike') {
     p.body(0, 65)
     p.rot('head', -20)
+    p.rot('leg_L', 50)
