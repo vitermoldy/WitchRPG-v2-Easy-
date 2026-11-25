@@ -385,3 +385,4 @@ export class Spells {
       return
     }
     this.grabbed = [first]
+    if (this.upgraded('grip')) {
