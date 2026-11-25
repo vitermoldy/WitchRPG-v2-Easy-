@@ -160,3 +160,4 @@ export class Player {
       const u = 1 - this.nudgeT / this.nudgeTime
       this.vx = this.nudgeX * (1 - u)
       this.vz = this.nudgeZ * (1 - u)
+      this.nudgeT -= dt
