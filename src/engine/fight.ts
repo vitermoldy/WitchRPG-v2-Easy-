@@ -516,3 +516,4 @@ export class Fight {
   }
 
   pose(out: IlyraPose) {
+    const s = this.combo.current
