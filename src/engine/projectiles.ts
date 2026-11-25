@@ -158,3 +158,4 @@ export class Projectiles {
   private end(i: number, burst: boolean) {
     const s = this.shots[i]
     if (!s) return
+    if (burst) this.g.glow.emit({ pos: s.pos, count: 16, color: s.reflected ? COLOR.chaosHot : COLOR.rift, intensity: 2.4, life: 0.4, size: 0.2, sizeEnd: 0.03, speed: 3, gravity: 6 })
