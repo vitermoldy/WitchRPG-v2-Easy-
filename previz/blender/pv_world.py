@@ -163,3 +163,4 @@ def build_terrain(coll, size=1300.0, step=2.5):
     vari = (0.82 + 0.3 * (fbm(X / 6, Y / 6, 3, 12.0) * 0.5 + 0.5))[..., None]
     col = np.clip(col * vari, 0, 1)
     me = bpy.data.meshes.new("terrain")
+    verts = np.stack([X.ravel(), Y.ravel(), Z.ravel()], axis=1).astype(np.float32)
