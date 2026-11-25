@@ -170,3 +170,4 @@ Jalan setapak: altar ke utara melewati Hutan Pembuka sampai kuil, bercabang ke b
 | Mode bidik | FOV 54, 2,0 m, 0,65 m | FOV 40, 2,0 m, 0,65 m | Membidik harus lebih sempit dari mode normal yang baru |
 | Naga rawa dan Dragon | Mengacu pada gambar berlabel sama | Naga rawa memakai siluet gambar "Dragon" (ular Timur), Dragon memakai siluet gambar "Naga" (bersayap) | Label di lembar referensi tertukar dibanding peran di roster |
 | Hydra | Berkepala banyak | Lima kepala | Bisa dihitung pemain, sesuai referensi |
+| Rupa musuh | "Musuh: badan gelap dengan mata dan retakan amber" | Warna, anatomi, dan atribut khas mengikuti gambar referensi; hanya mata musuh yang tetap amber | Keputusan pemilik setelah melihat previz pertama: warnanya hampir sama semua dan bentuknya tidak mirip referensi |
