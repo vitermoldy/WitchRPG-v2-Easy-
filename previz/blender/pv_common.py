@@ -395,3 +395,4 @@ class Part:
                 rings.append([v])
                 allv.append(v)
                 continue
+            ring = []
