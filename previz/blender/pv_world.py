@@ -294,3 +294,4 @@ def proto(name, coll, pal, fn, flat=False):
     return r.objs["m"]
 
 
+def _pine(p, h=13.0, tiers=6, rad=3.0, mat="needle"):
