@@ -706,3 +706,4 @@ export class Spells {
         for (const m of w.mats) m.dispose()
         this.warps.splice(i, 1)
       }
+    }
