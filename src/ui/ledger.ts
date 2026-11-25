@@ -71,3 +71,4 @@ export class Ledger {
       true,
     )
     this.dlg.addEventListener('click', (e) => {
+      const t = (e.target as HTMLElement).closest('button')
