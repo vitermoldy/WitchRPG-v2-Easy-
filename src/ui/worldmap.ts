@@ -334,3 +334,4 @@ export class WorldMap {
     }
 
     // the camps of the creatures she looks for (hollow while cleared), and the fauna
+    const dot = Math.max(3.5, size / 150)
