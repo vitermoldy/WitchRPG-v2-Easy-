@@ -946,3 +946,4 @@ class Rig implements Poser {
         part.mesh.instanceMatrix.needsUpdate = true
         part.glow.needsUpdate = true
       }
+    }
