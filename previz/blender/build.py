@@ -125,3 +125,4 @@ if "--frame-list" in argv:
         bpy.ops.render.render(animation=True, scene=sc.name)
     log("render frame cek")
 if "--anim" in argv:
+    sc = scenes["animatic"]
