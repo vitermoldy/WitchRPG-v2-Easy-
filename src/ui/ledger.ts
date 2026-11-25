@@ -27,3 +27,4 @@ export function confirmDialog(title: string, text: string, yes: string): Promise
       dlg.onclose = null
       if (dlg.open) dlg.close()
       resolve(v)
+    }
