@@ -1208,3 +1208,4 @@ export const COMBAT = {
   staff: {
     throwSpeed: 42,
     range: 40,
+    damage: 18,
