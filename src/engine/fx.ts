@@ -85,3 +85,4 @@ export class Particles {
   private readonly c = new THREE.Color()
 
   constructor(max: number, mode: 'glow' | 'smoke') {
+    this.max = max
