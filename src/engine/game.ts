@@ -54,3 +54,4 @@ export interface BotInput {
 
 export interface AimHit {
   point: THREE.Vector3
+  dist: number
