@@ -763,3 +763,4 @@ const POSES: Partial<Record<UnitKind, PoseFn>> = {
   chimera: poseChimera,
 }
 
+/**
