@@ -191,3 +191,4 @@ describe('version 1: tiers, ranks and growth', () => {
   it('a fresh witch stops being fresh after a boss kill', () => {
     const p = newProfile()
     expect(isFresh(p)).toBe(true)
+    p.bossKills = 1
