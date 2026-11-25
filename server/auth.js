@@ -85,3 +85,5 @@ export async function verifyPassword(password, stored) {
   return actual.length === expected.length && timingSafeEqual(actual, expected)
 }
 
+const sha256 = (value) => createHash('sha256').update(value).digest('hex')
+
