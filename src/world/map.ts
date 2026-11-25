@@ -167,3 +167,4 @@ export function heightMap(x: number, y: number): number {
   const ringD = Math.max(Math.abs(x), Math.abs(y))
   if (ringD > 380) {
     const ring = smooth(440, 600, ringD + 30 * fbm(x / 120, y / 120, 3, 4.0))
+    if (ring > 0) h += ring * (110 + 70 * fbm(x / 90, y / 90, 4, 8.0))
