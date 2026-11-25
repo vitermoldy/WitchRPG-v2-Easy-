@@ -171,3 +171,4 @@ describe('version 1: tiers, ranks and growth', () => {
     p.shadows.push({ id: 1, name: 'Omvel', kind: 'hollow', rank: 'marsekal', level: 9, xp: 0 })
     expect(riteBlock(p, 'hollow')).toMatch(/satu Marsekal/)
   })
+  it('pays more XP for bigger ranks', () => {
