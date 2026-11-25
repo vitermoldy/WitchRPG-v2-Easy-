@@ -84,3 +84,4 @@ export class Props {
         if (p.thrown) {
           const speed = p.vel.length()
           for (const u of g.units.units) {
+            if (u.team !== 'enemy' || !u.targetable) continue
