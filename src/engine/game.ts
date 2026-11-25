@@ -500,3 +500,4 @@ export class Game implements UnitHost {
     this.sfx.start()
     this.sfx.setVolume(this.profile.settings.volume)
     this.hud.show(true)
+    this.lastFrame = performance.now()
