@@ -785,3 +785,4 @@ export class Game implements UnitHost {
 
   // ------------------------------------------------------------ aiming from the shoulder camera
 
+  /** The first creature, tree, rock or patch of ground along the middle of the view. */
