@@ -437,3 +437,4 @@ def b_ilyra(r, pose="idle"):
         sheet.append(row)
     cl = r.P("cloak", (0, 0.05, z["sh"]), "torso")
     for i in range(rows - 1):
+        for j in range(cols - 1):
