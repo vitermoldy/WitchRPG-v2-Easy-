@@ -366,3 +366,4 @@ def face(part, hc, H, eyes=True, nose=True, mat="skin"):
 
 
 def beard(part, chin, length, r, mat="hair"):
+    c = V(chin)
