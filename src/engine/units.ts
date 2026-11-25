@@ -126,3 +126,4 @@ export class Unit implements Foe {
   /** Walk cycle phase for the animation. */
   walk = Math.random() * 6
   /** Seconds a Telekinesis throw keeps it flying nearly straight. */
+  flight = 0
