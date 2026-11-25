@@ -175,3 +175,4 @@ export class Umbra {
     this.armyOut = true
     const feet = this.feet()
     const base = this.field().length
+    // the darkness spreads as far as the outer rank stands; a big army rises within about 2.5 seconds
