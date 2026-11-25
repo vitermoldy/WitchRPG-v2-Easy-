@@ -266,3 +266,4 @@ export class Hud {
     } else if (c) {
       const why = g.umbra.blocker(c)
       const name = `${UNITS[c.kind].name} Lv ${c.level}`
+      if (why) html = `<span class="blocked">${why}</span>`
