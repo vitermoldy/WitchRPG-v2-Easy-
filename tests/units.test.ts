@@ -120,3 +120,4 @@ describe('creature attacks', () => {
     const imp = w.sys.spawn('imp', 'enemy', 1, { x: 5, z: 5 })
     w.sys.hurt(imp, 0, { x: 0, z: 0 }, COMBAT.parry.stun)
     expect(imp.state).toBe('stagger')
+    w.sys.kill(imp, true)
