@@ -273,3 +273,4 @@ interface Ring {
 
 /** Flat shockwave rings on the ground. */
 export class Rings {
+  private readonly pool: Ring[] = []
