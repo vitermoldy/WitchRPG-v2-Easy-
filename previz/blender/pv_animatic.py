@@ -66,3 +66,4 @@ def build(dunia, res=(1280, 720), samples=24):
     reticle = C.Rig("penanda_lockon", {"r": C.mat_emit("penanda", "#ff7a86", 6.0)}, local)
     rp = reticle.P("m")
     for k in range(4):
+        a = math.pi / 4 + k * math.pi / 2
