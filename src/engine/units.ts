@@ -133,3 +133,4 @@ export class Unit implements Foe {
   diveCd = 0
   /** Seconds before it calls helpers again, and how many of its helpers still stand. */
   skillCd = 6
+  helpers = 0
