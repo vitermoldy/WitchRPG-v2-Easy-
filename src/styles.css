@@ -1948,3 +1948,5 @@ dialog::backdrop {
   color: var(--ink);
   font: inherit;
   cursor: pointer;
+}
+
