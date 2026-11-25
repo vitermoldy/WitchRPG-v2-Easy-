@@ -380,3 +380,4 @@ def scatter_group():
     if ng:
         return ng
     ng = bpy.data.node_groups.new("PV_Scatter", "GeometryNodeTree")
+    ng.interface.new_socket("Geometry", in_out="INPUT", socket_type="NodeSocketGeometry")
