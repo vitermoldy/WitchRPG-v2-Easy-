@@ -100,3 +100,4 @@ export class Atmosphere {
     let inv = 0
     let best = 0
     for (let i = 0; i < ZONES.length; i++) {
+      const w = this.w[i]
