@@ -216,3 +216,4 @@ def shaft_fog(coll, centre, size, z0, density=0.018):
     name = "kabut_berkas"
     m = bpy.data.materials.get(name)
     if m is None:
+        m = bpy.data.materials.new(name)
