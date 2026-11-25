@@ -523,3 +523,4 @@ const poseChimera: PoseFn = (p, u, t) => {
     } else p.rot('tail_snake', 50)
     return
   }
+  if (u.state === 'stagger') {
