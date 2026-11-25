@@ -94,3 +94,4 @@ export class IlyraModel {
   private readonly sigils: THREE.MeshStandardMaterial[] = []
   private t = 0
 
+  constructor(model: THREE.Group) {
