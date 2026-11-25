@@ -47,3 +47,4 @@ const VERT = /* glsl */ `
 
 interface Island {
   x: number
+  z: number
