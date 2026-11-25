@@ -94,3 +94,4 @@ const SHIELD_FRAG = /* glsl */ `
     float f = pow(1.0 - abs(dot(normalize(vNormal), normalize(vView))), 2.0);
     vec2 g = vUv * vec2(24.0, 12.0);
     float hex = smoothstep(0.08, 0.0, abs(fract(g.x + 0.5 * floor(g.y)) - 0.5) - 0.42) + smoothstep(0.08, 0.0, abs(fract(g.y) - 0.5) - 0.44);
+    float v = (f * 0.75 + hex * 0.04 + uHit * 0.35) * uFade;
