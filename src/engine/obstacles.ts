@@ -11,3 +11,4 @@ export interface Shape {
   x: number
   /** Cylinder: bottom. Sphere: centre. */
   y: number
+  z: number
