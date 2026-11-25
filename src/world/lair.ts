@@ -138,3 +138,4 @@ export class Lair {
   }
 
   inside(x: number, z: number) {
+    return Math.hypot(x - this.center.x, z - this.center.z) < LAIR_RADIUS
