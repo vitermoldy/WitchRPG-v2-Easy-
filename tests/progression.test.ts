@@ -124,3 +124,4 @@ describe('upgrades and shadows', () => {
   it('names are stable per id and readable', () => {
     expect(shadowName(7)).toBe(shadowName(7))
     expect(shadowName(1)).toMatch(/^[A-Z][a-z]{3,}$/)
+  })
