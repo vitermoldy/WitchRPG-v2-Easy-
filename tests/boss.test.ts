@@ -112,3 +112,5 @@ describe('phase 5 creatures', () => {
     expect(w.fx).toEqual(['ashes', 'reborn'])
     w.sys.kill(ph)
     expect(ph.state).toBe('dead')
+  })
+
