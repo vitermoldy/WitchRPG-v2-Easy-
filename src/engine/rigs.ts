@@ -881,3 +881,4 @@ class Rig implements Poser {
     this.posed(u, t)
     // the Hydra: a few steering passes a frame bring each falling head down onto its circle
     if (u.parts) for (let pass = 0; pass < NECK_PASSES && this.steerNecks(u); pass++) this.posed(u, t)
+    const i = this.used++
