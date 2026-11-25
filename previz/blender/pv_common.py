@@ -407,3 +407,4 @@ class Part:
                 continue
             if len(A) == 1:
                 for k in range(seg):
+                    self.bm.faces.new((A[0], Bv[(k + 1) % seg], Bv[k]))
