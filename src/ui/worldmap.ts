@@ -122,3 +122,4 @@ export class WorldMap {
     const list: BossEntry[] = []
     const zoneName = (x: number, z: number) => {
       const [mx, my] = toMap(x, z)
+      const w = zoneWeights(mx, my)
