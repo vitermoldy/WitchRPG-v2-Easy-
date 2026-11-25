@@ -82,3 +82,4 @@ export class Atmosphere {
     const box = 60
     s.shadow.camera.left = -box
     s.shadow.camera.right = box
+    s.shadow.camera.top = box
