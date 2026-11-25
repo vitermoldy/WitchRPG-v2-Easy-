@@ -14,3 +14,4 @@ FONT_PATH = r"C:\Windows\Fonts\bahnschrift.ttf"
 # Colours from v1 (src/engine/palette.ts) plus the v2 zone fogs.
 HEX = {
     "chaos": "#ff2a3d",
+    "chaos_hot": "#ff7a5c",
