@@ -125,3 +125,4 @@ export class Obstacles {
     return Math.max(0, best)
   }
 
+  /** Distance from a point to the nearest shape surface (negative inside one), looking within `reach`. */
