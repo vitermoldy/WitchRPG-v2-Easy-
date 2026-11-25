@@ -263,3 +263,4 @@ export class Player {
     const nx = this.pos.x + dx
     const nz = this.pos.z + dz
     if (g.blocked(nx, nz, this.pos.x, this.pos.z, air)) return
+    if (air) {
