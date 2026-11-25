@@ -1116,3 +1116,4 @@ button {
 .wheel-opt.on {
   border-color: var(--umbra);
   background: rgba(58, 26, 110, 0.92);
+  color: #fff;
