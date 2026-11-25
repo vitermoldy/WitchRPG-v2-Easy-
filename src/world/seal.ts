@@ -46,3 +46,4 @@ export class Seal {
         const mx = -PLAY_HALF + (i + 0.5) * CELL
         const my = -PLAY_HALF + (j + 0.5) * CELL
         this.mask[i * this.n + j] = SEALED.has(zoneAt(mx, my).key) ? 1 : 0
+      }
