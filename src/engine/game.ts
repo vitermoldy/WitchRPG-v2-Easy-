@@ -427,3 +427,4 @@ export class Game implements UnitHost {
     const [ilyra, ...creatures] = await Promise.all([
       loadModel('./models/ilyra.glb'),
       ...V2_KINDS.map((k) => loadModel(`./models/${k}.glb`)),
+      ...V2_KINDS.map((k) => loadModel(`./models/${k}_lod.glb`)),
