@@ -506,3 +506,4 @@ export class UnitSystem {
           u.reborn = true
           u.hp = u.maxHp * r.hp
           u.downed = 0
+          u.set('rising')
