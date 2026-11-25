@@ -33,3 +33,4 @@ export class Seal {
   private readonly n: number
   private readonly mask: Uint8Array
   private open = false
+  private fade = 1
