@@ -358,3 +358,4 @@ export class Fight {
       if (u) {
         this.startExecution(u)
         return
+      }
