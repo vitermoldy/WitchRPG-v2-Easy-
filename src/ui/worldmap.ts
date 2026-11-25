@@ -340,3 +340,4 @@ export class WorldMap {
       const kinds = (Object.keys(camp.def.pack) as UnitKind[]).filter((k) => this.chosen.has(k))
       kinds.forEach((k, i) => {
         const [x, y] = at(camp.pos.x, camp.pos.z)
+        const ox = (i - (kinds.length - 1) / 2) * dot * 2.2
