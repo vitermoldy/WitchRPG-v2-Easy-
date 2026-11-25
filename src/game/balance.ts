@@ -93,3 +93,5 @@ export const PLAYER = {
   hpPerLevel: 8,
   speedPerAgi: 0.01,
   hurtInvuln: 0.25,
+} as const
+
