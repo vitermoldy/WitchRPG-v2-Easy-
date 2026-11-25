@@ -356,3 +356,4 @@ def build_hydra(dunia, name="05-boss-hydra", res=(1920, 1080), samples=64):
 
 
 def foam_rings(local, hy, inst, mat=None):
+    mat = mat or mat_ring("busa", "#e8f0ea", 2.5, inner=0.7, alpha=0.8, fill=0.05)
