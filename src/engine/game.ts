@@ -295,3 +295,4 @@ export class Game implements UnitHost {
     this.shots.fire(u, atk)
   }
 
+  fx(u: Unit, what: 'blink' | 'ashes' | 'reborn', from?: THREE.Vector3) {
