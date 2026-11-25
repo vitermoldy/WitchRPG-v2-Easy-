@@ -601,3 +601,4 @@ export class UnitSystem {
     u.set('rising')
   }
 
+  /** Summoners (the Chimera) call helpers every few seconds while they fight. */
