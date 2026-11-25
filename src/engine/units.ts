@@ -162,3 +162,5 @@ export class Unit implements Foe {
   /** Ground height under it, kept until it moves (the height field is costly to sample). */
   ground = 0
   groundX = NaN
+  groundZ = NaN
+
