@@ -233,3 +233,4 @@ export class Fight {
   private castFx = 0
   private readonly v = new THREE.Vector3()
 
+  constructor(g: Game) {
