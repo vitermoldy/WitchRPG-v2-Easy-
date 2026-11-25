@@ -26,3 +26,4 @@
   /* HUD plates: dark enough that every text colour stays at 4.5:1 or more over the brightest fog */
   --plate: rgba(12, 8, 9, 0.8);
   --radius-sm: 3px;
+  --gutter: clamp(16px, 2.4vw, 32px);
