@@ -339,3 +339,4 @@ def build_hydra(dunia, name="05-boss-hydra", res=(1920, 1080), samples=64):
     S = Wd.SPOTS["hydra"]
     H = Vector((*Wd.HYDRA_POS, 0))
     f = (H - Vector((S[0], S[1], 0))).normalized()
+    sd = sun_dir(f, 14, 4.0)
