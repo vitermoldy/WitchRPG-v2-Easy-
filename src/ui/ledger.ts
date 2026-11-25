@@ -31,3 +31,4 @@ export function confirmDialog(title: string, text: string, yes: string): Promise
     $('confirm-yes').onclick = () => done(true)
     $('confirm-no').onclick = () => done(false)
     dlg.onclose = () => done(false)
+    dlg.showModal()
