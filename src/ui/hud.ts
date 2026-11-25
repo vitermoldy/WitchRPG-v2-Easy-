@@ -98,3 +98,4 @@ export class Hud {
 
   /** Screen position of the locked target in pixels, or null when nothing is locked. */
   lock(at: { x: number; y: number } | null) {
+    if (!at) {
