@@ -127,3 +127,4 @@ export async function fetchProfile(): Promise<Profile | null> {
   return (await call<{ profile: Profile | null }>('profile')).profile
 }
 
+/** Saves the witch. `stale` means the server holds a newer one, which comes back as `profile`. */
