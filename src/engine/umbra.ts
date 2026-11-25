@@ -225,3 +225,4 @@ export class Umbra {
     u.focusBonus = hasUpgrade(g.profile, 'focus') ? RITE.focusBonus : 0
     // the shadow Hydra walks with the army at a size that fits among the soldiers
     if (rec.kind === 'hydra') u.setScale(0.4)
+    if (rec.rank !== UNITS[rec.kind].rank) u.setScale(1.15)
