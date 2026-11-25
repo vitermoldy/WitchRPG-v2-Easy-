@@ -89,3 +89,4 @@ describe('creature attacks', () => {
 
     const side = world()
     const hound = side.sys.spawn('hellhound', 'enemy', 1, { x: 0, z: 6 })
+    let stepped = false
