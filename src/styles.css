@@ -976,3 +976,4 @@ button {
 }
 
 .skill-out {
+  border-color: var(--umbra);
