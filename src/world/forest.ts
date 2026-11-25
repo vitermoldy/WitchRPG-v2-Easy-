@@ -90,3 +90,4 @@ function swampTree(): THREE.BufferGeometry {
     g.scale(1, 0.6, 1)
     parts.push(part(g, PAL.moss, at(x, y, z)))
     for (let k = 0; k < 3; k++) {
+      const a = k * 2.1
