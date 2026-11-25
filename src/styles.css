@@ -1663,3 +1663,4 @@ dialog::backdrop {
 /* ------------------------------------------------------------ account: the sign-in gate and the row on the start screen (from v1) */
 
 .btn-text {
+  min-height: 44px;
