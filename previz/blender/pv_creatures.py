@@ -826,3 +826,4 @@ def b_phoenix(r):
     hc = V((0, -0.3, 2.12))
     h.ell(hc, (0.1, 0.14, 0.1))
     h.cone(hc + Vector((0, -0.1, -0.01)), hc + Vector((0, -0.3, -0.06)), 0.045, mat="horn", seg=6)
+    for s in (1, -1):
