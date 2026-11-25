@@ -919,3 +919,4 @@ button {
 .skills {
   position: absolute;
   left: 50%;
+  bottom: var(--gutter);
