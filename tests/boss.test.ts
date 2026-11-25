@@ -50,3 +50,5 @@ describe('the Hydra', () => {
     expect(hydraShare(2, 'impact', false)).toBe(1.5)
     expect(hydraShare(2, 'staff', false)).toBe(1.5)
     expect(hydraShare(2, 'melee', false)).toBe(1)
+  })
+
