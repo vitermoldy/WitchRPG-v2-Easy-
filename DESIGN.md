@@ -225,3 +225,4 @@ Pemilik menulis "lanjutkan sampe selsai" tanpa menjawab tiga pertanyaan fase 5, 
 
 Pengukuran (pola v1: 20 makhluk bertarung, hutan penuh, 1920 × 1080, GPU NVIDIA, setiap frame menunggu GPU, median 900 frame, tiga run). Kode fase 4 diukur ulang di hari dan mesin yang sama sebagai pembanding, karena mesin hari ini sekitar 0,4 ms lebih lambat daripada 24 Nov:
 
+| Bayangan di medan | Fase 6 (median, 3 run) | p95 | Kode fase 4, hari yang sama | v1 (24 Nov) |
