@@ -425,3 +425,4 @@ export class ShadowPools {
 
   constructor(scene: THREE.Object3D, count = 140) {
     const geo = new THREE.PlaneGeometry(2, 2)
+    geo.rotateX(-Math.PI / 2)
