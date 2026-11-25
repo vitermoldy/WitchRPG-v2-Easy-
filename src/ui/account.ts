@@ -18,3 +18,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
   const form = $<HTMLFormElement>('gate-form')
   const user = $<HTMLInputElement>('gate-user')
   const pass = $<HTMLInputElement>('gate-pass')
+  const submit = $<HTMLButtonElement>('gate-submit')
