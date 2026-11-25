@@ -60,3 +60,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
     const wanted = onTitle() && (state.status === 'signed-out' || (offline && !skipped) || (state.status === 'checking' && gate.open))
     $('gate-checking').hidden = state.status !== 'checking'
     form.hidden = state.status !== 'signed-out'
+    $('gate-switch-line').hidden = state.status !== 'signed-out'
