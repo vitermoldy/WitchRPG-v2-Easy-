@@ -1162,3 +1162,4 @@ export interface Swing {
 export const COMBAT = {
   /** Three light swings chained by tapping the left button, a fourth tap starts over. */
   light: [
+    { damage: 10, windup: 0.1, active: 0.12, recover: 0.2, reach: 2.4, arc: 2.0, stun: 5, lunge: 1.0 },
