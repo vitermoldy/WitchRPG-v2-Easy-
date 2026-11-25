@@ -23,3 +23,4 @@ function world() {
     died: () => {},
     summoned: () => {},
     fx: (_u, what) => fx.push(what),
+    telegraph: () => {},
