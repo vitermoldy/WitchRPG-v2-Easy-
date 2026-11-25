@@ -49,3 +49,4 @@ Action-RPG third-person dengan rasa God of War di hutan terbuka, memakai sistem 
 | Satu-satunya perubahan pada tes v1 | `derive().floatTime` (melayang first-person) diganti `dodgeDistance` (4,2 m di nilai awal). Semua rumus lain tetap | v2 tidak punya lompat dan melayang. AGI kini memperpanjang dodge, bukan waktu melayang. |
 | Paket | Nama `witch-rpg-v2`. Express, mysql2, dan skrip server belum dipasang | Server baru dikerjakan di fase 6. |
 | Simpanan | Kunci localStorage `witchrpg-v2:profile:v1` | Tidak bercampur dengan simpanan v1. |
+| Gerak | Jog 4,4 m/dtk, lari (Shift) 7 m/dtk; mencapai kecepatan dalam sekitar 0,14 dtk dan berhenti dalam sekitar 0,1 dtk; berbelok 11 rad/dtk ke arah gerak | Terasa berbobot tanpa licin. Semua angka di `MOVE` di `balance.ts`. |
