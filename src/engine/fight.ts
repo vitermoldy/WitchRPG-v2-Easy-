@@ -469,3 +469,4 @@ export class Fight {
       g.sfx.hit(s.heavy)
     }
     if (s.heavy) {
+      // the slam marks the ground even when it meets nothing
