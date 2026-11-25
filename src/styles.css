@@ -1762,3 +1762,4 @@ dialog::backdrop {
 }
 
 .gate-field input[aria-invalid='true'] {
+  border-color: var(--chaos);
