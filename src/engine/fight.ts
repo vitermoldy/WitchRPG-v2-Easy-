@@ -186,3 +186,4 @@ class Staff {
     if (n.lengthSq() < 1e-8) return
     n.normalize()
     this.q.setFromUnitVectors(Y, n)
+    if (spinning) {
