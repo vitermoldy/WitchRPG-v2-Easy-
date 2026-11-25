@@ -618,3 +618,4 @@ const posePhoenix: PoseFn = (p, u, t) => {
   p.rot('head', 15)
 }
 
+/**
