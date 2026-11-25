@@ -1098,3 +1098,4 @@ export class Rigs {
       const b = this.crowd.get(u.kind)
       if (!b) continue
       this.p.set(u.pos.x, u.pos.y - this.sink(u), u.pos.z)
+      // a small step bob while it moves, so a marching crowd does not look frozen
