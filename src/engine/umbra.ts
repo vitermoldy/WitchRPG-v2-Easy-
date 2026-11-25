@@ -347,3 +347,4 @@ export class Umbra {
       this.wheelX += inp.dx
       this.wheelY += inp.dy
       if (Math.hypot(this.wheelX, this.wheelY) > 24) {
+        const a = Math.atan2(this.wheelY, this.wheelX)
