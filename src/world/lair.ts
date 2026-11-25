@@ -464,3 +464,4 @@ export class Lair {
     if (this.phase === 1 && body && u !== body) {
       const n = Math.min(HYDRA.impsPerSlam, HYDRA.maxImps - body.helpers)
       for (let k = 0; k < n; k++) {
+        // only onto ground she can reach: an Imp in deep water could never come out, nor be struck
