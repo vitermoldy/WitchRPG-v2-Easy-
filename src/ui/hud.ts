@@ -292,3 +292,4 @@ export class Hud {
     const hydra = boss.kind === 'hydra'
     this.set('boss-name', 'text', hydra ? `Hydra Lv ${boss.level}, fase ${g.lair.phase} dari 3` : `${boss.spec.name} Lv ${boss.level}${boss.staggered ? ', limbung' : ''}`)
     this.set('boss-fill', 'transform', `scaleX(${Math.max(0, boss.hp / boss.maxHp).toFixed(3)})`)
+    this.set('boss-hint', 'text', hydra ? HYDRA_HINT[g.lair.phase] : (BOSS_HINT[boss.kind] ?? ''))
