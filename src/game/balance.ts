@@ -268,3 +268,4 @@ export interface UnitSpec {
   blink?: { range: number; every: number }
   /** v2: the first fall turns it to ashes for a moment; it rises once more, and bursts when it falls again (Phoenix). */
   rebirth?: { ashes: number; hp: number; burst: number; delay: number }
+  /** v2: its rank for the Umbra Rite when it comes out elite (an elite Cyclops is a Jenderal). */
