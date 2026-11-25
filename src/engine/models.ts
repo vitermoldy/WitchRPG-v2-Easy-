@@ -183,3 +183,4 @@ export class IlyraModel {
     this.pivot.rotation.set(0, 0, 0)
     if (act.dead >= 0) {
       // she sinks to her knees and falls back
+      const k = ease(act.dead / 0.8)
