@@ -677,3 +677,4 @@ def sky_world(name, zenith, horizon, ground, strength=1.0, haze=None, haze_densi
         dot = N.new("ShaderNodeVectorMath")
         dot.operation = "DOT_PRODUCT"
         dot.inputs[1].default_value = d
+        L.new(tc.outputs["Generated"], dot.inputs[0])
