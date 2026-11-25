@@ -1135,3 +1135,4 @@ export class Game implements UnitHost {
       maxHp: p.maxHp,
       mana: Math.round(p.mana),
       chaos: Math.round(this.spells.chaos),
+      level: this.profile.level,
