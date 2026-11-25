@@ -67,3 +67,4 @@ export class Atmosphere {
       ground: { value: new THREE.Color('#2a2a26') },
       fogColor: { value: this.fog.color },
       sunDir: { value: SUN_DIR },
+      sunColor: { value: new THREE.Color('#ffe2b0') },
