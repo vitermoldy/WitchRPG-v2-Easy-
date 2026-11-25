@@ -678,3 +678,4 @@ export class Spells {
     g.rings.spawn(at, COLOR.umbra, 0.5, s.radius, 0.6)
     g.lights.flash(at.clone().setY(at.y + 3), COLOR.umbra, 40, s.radius * 2.5, 0.8)
     g.addTrauma(0.3)
+    g.sfx.warp()
