@@ -371,3 +371,4 @@ export class UnitSystem {
       u.set('ashes')
       u.vel.set(0, 0, 0)
       u.downed = 999
+      this.host.fx(u, 'ashes')
