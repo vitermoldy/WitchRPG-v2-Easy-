@@ -53,3 +53,4 @@ describe('the Hydra', () => {
   })
 
   it('a boulder from the islands hits for about 74 before her Hex, 111 on the slimy skin', () => {
+    const hit = impactDamage(HYDRA.rockMass, SPELL.grip.throwSpeed, SPELL.impact.coefficient, SPELL.impact.exponent)
