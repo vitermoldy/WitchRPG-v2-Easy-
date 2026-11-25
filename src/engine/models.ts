@@ -14,3 +14,4 @@ export async function loadModel(url: string): Promise<THREE.Group> {
     const m = o as THREE.Mesh
     if (!m.isMesh) return
     m.castShadow = true
+    const mat = m.material as THREE.MeshStandardMaterial
