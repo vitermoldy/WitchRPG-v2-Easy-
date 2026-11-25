@@ -203,3 +203,4 @@ class Staff {
     g.fight.caught()
     g.sfx.clank()
     g.addTrauma(0.12)
+    g.hitstop(0.03)
