@@ -21,3 +21,4 @@ interface BossEntry {
   kind: UnitKind
   name: string
   level: number
+  zone: string
