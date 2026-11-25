@@ -481,3 +481,4 @@ class Rig:
             ob = bpy.data.objects.new(f"{self.key}.{name}", me)
             self.coll.objects.link(ob)
             par = self.objs.get(p.parent) if p.parent else None
+            parent_pivot = self.parts[p.parent].pivot if par else Vector()
