@@ -144,3 +144,5 @@ Kabut tiap zona memancarkan sedikit warnanya sendiri (emisi = kepadatan × 0,5) 
 
 Cahaya per render: 01 pagi, matahari `#ffe9cc` 22° di atas cakrawala, 50° di kiri arah pandang, plus haze lokal tanpa emisi supaya tajuk memotongnya menjadi berkas cahaya. 02 siang dari tenggara. 04 mendung terang dari timur. 05 dan animatic senja, matahari `#ff9a5a` 4° di belakang Hydra, langit `#1d1a3e` ke `#ff8f52`. 06 malam, bulan `#9fb4ff` dan kolam ungu sebagai sumber cahaya utama.
 
+## Tata letak peta
+
