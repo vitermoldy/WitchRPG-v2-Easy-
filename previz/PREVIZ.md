@@ -60,3 +60,4 @@ Tinggi total diukur dari block-out (termasuk tanduk dan sayap yang terangkat; Il
 | Centaur | 2,81 m | gumba 1,5 m | 2,57 m | 2,07 m | 0,80 m | **9.768** | 8.000 | II |
 | Naga rawa | 3,16 m | tubuh ular 7 m | 3,89 m | 2,86 m | 0,60 m | 3.334 | 8.000 | III |
 | Minotaur | 3,08 m | 2,75 m | 1,67 m | 2,97 m | 0,75 m | 7.534 | 8.000 | IV |
+| Cyclops | 4,08 m | 4,2 m | 2,45 m | 3,50 m | 1,10 m | **8.504** | 8.000 | IV |
