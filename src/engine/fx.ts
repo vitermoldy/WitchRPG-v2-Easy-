@@ -305,3 +305,4 @@ export class Rings {
     ring.t = 0
     ring.dur = dur
     ring.r0 = r0
+    ring.r1 = r1
