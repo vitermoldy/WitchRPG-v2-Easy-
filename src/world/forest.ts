@@ -132,3 +132,5 @@ function geometries(): Record<Kind, THREE.BufferGeometry> {
   }
 }
 
+// ------------------------------------------------------------ scatter
+
