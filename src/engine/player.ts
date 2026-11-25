@@ -7,3 +7,4 @@ export interface MoveInput {
   x: number
   y: number
   sprint: boolean
+  dodge: boolean
