@@ -141,3 +141,4 @@ describe('the open world (phase 7)', () => {
     for (const kind of WORLD_BOSSES) {
       expect(UNITS[kind].boss, kind).toBe(true)
       expect(UNITS[kind].rank, kind).toBe('marsekal')
+      expect(UNITS[kind].attacks?.length, kind).toBeGreaterThanOrEqual(3)
