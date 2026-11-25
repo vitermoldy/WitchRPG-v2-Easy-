@@ -113,3 +113,4 @@ export class Player {
     const r = rightOf(camYaw)
     let wx = f.x * input.y + r.x * input.x
     let wz = f.z * input.y + r.z * input.x
+    const wl = Math.hypot(wx, wz)
