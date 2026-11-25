@@ -473,3 +473,4 @@ def render_lineup(sc, bands, path, tmpdir, pct=100):
     for b in bands:
         sc.camera = b["cam"]
         h = int(round(W * b["height"] / b["width"]))
+        sc.render.resolution_x, sc.render.resolution_y = W, h
