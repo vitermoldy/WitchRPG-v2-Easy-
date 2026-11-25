@@ -96,3 +96,5 @@ export class Altars {
       if (!best || d < best.dist) best = { altar: a, dist: d }
     }
     return best
+  }
+
