@@ -255,3 +255,4 @@ export class Camps {
           camp.roused = false
           for (const u of alive) u.aggro = false
         }
+      } else if (camp.state === 'cleared' && this.time > camp.respawnAt && (camp.def.boss || d > CAMP.wake + 20)) {
