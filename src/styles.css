@@ -1795,3 +1795,4 @@ dialog::backdrop {
 /* ------------------------------------------------------------ the map (M) */
 
 .worldmap {
+  width: min(78rem, calc(100vw - 32px));
