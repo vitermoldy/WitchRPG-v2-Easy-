@@ -9,3 +9,4 @@ const VERT = /* glsl */ `
 `
 
 /**
+ * Slow pulse: the edge breathes about twice a second and the inside fills toward the edge; when the
