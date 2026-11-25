@@ -359,3 +359,4 @@ export class Warnings {
     w.edge.scale.setScalar(radius)
     w.t = 0
     w.dur = seconds
+    w.fill.userData.r = radius
