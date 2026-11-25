@@ -89,3 +89,4 @@ async function boot() {
       game.saveNow()
     })
   }
+  range('sens', () => game.sensitivity, (v) => v.toFixed(2), (v) => {
