@@ -113,3 +113,4 @@ export class Particles {
       depthWrite: false,
       blending: mode === 'glow' ? THREE.AdditiveBlending : THREE.NormalBlending,
     })
+    this.points = new THREE.Points(geo, this.material)
