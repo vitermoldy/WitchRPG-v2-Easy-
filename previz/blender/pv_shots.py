@@ -314,3 +314,4 @@ def build_minotaur(dunia):
     right = f.cross(up)
     pts, radii = [], []
     for i in range(14):
+        t = i / 13
