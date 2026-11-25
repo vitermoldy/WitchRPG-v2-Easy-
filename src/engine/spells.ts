@@ -441,3 +441,4 @@ export class Spells {
       this.drop(false)
       return
     }
+    this.grabbed.forEach((u, i) => {
