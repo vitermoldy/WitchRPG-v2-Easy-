@@ -253,3 +253,4 @@ export interface UnitSpec {
   /** v2: stun meter size; heavy blows, parries, bolts and the thrown staff fill it. */
   stun?: number
   /** v2: circles to her side before it attacks. */
+  flank?: boolean
