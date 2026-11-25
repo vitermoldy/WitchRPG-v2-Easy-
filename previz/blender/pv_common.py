@@ -547,3 +547,4 @@ def bounds(coll, skip=()):
     """Bounds of a creature collection in its own space, at its current pose. skip: part names to leave out."""
     lo = Vector((1e9, 1e9, 1e9))
     hi = Vector((-1e9, -1e9, -1e9))
+    for ob in coll.all_objects:
