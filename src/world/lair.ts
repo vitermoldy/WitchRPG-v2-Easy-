@@ -159,3 +159,4 @@ export class Lair {
     body.yaw = Math.atan2(this.center.x - at.x, this.center.z - at.z)
     this.heads = []
     for (let i = 0; i < HYDRA.heads; i++) {
+      const h = g.units.spawn('hydraHead', 'enemy', LEVEL, { x: at.x, z: at.z })
