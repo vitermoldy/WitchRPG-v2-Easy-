@@ -426,3 +426,4 @@ export class Spells {
     const p = g.player.pos
     const f = g.camera.getWorldDirection(new THREE.Vector3())
     const right = new THREE.Vector3(-f.z, 0, f.x).normalize()
+    if (this.heldProp) {
