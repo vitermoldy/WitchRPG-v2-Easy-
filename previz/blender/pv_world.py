@@ -17,3 +17,4 @@ ZONES = [
     dict(key="kuil", name="Reruntuhan Kuil", tier="IV", lv="10-12", c=(40, 330), r=170, fog="#8f9096", dens=0.02, hs=14, ground="#373a33"),
     dict(key="bara", name="Lembah Bara", tier="V", lv="13-15", c=(330, 330), r=165, fog="#d8622c", dens=0.018, hs=28, ground="#1d1917"),
 ]
+LAKE = dict(c=(-330, 300), r=95)
