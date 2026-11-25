@@ -471,3 +471,4 @@ def build_forest(coll, P, size=1260.0, step=4.0, seed=3):
     for kind, ids in out.items():
         ids = np.array(ids)
         pts = np.stack([X[ids], Y[ids], Z[ids] - 0.15], axis=1)
+        rots = np.stack([rng.normal(0, 0.03, len(ids)), rng.normal(0, 0.03, len(ids)), rng.uniform(0, 2 * math.pi, len(ids))], axis=1)
