@@ -237,3 +237,4 @@ export class Sfx {
     this.tone(t, 'sine', 180 + k * 260, 200 + k * 280, 0.12, 0.05)
   }
 
+  riteResult(success: boolean) {
