@@ -346,3 +346,4 @@ export class Sfx {
       if (level <= 0) return
       const src = ctx.createBufferSource()
       src.buffer = this.noiseBuf
+      src.loop = true
