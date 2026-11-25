@@ -132,3 +132,4 @@ export class Terrain {
         const wx = x0 + i * step
         const wz = z0 + j * step
         const h = hs[gi]
+        const dx = (hs[gi + 1] - hs[gi - 1]) / (2 * step)
