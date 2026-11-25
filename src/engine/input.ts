@@ -47,3 +47,5 @@ export class Input {
       if (!this.locked) this.releaseAll()
       this.onLockChange?.(this.locked)
     })
+  }
+
