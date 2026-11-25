@@ -1199,3 +1199,4 @@ button {
 
 @keyframes stun-blink {
   50% {
+    opacity: 0.3;
