@@ -1902,3 +1902,4 @@ dialog::backdrop {
 
 .map-monsters li {
   display: flex;
+  align-items: center;
