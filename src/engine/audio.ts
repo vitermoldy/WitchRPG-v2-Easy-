@@ -343,3 +343,4 @@ export class Sfx {
     if (!this.ctx || !this.noiseBuf) return
     const ctx = this.ctx
     if (!this.windNodes) {
+      if (level <= 0) return
