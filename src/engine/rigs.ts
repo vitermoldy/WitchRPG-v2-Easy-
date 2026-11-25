@@ -35,3 +35,4 @@ function meanColor(geo: THREE.BufferGeometry | undefined): THREE.Color | null {
 }
 
 function shadowMaterial(src: THREE.MeshStandardMaterial, geo?: THREE.BufferGeometry): THREE.MeshStandardMaterial {
+  const m = src.clone()
