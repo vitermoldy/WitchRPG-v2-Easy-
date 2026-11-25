@@ -133,3 +133,4 @@ export class CameraRig {
   update(dt: number, pivot: Vec, aiming: boolean, target: LockView | null, obstacles: Obstacles | null, height: HeightFn): CamPose {
     this.aim += ((aiming ? 1 : 0) - this.aim) * Math.min(1, CAMERA.blend * dt)
     this.fp += ((this.firstPerson ? 1 : 0) - this.fp) * Math.min(1, CAMERA.blend * dt)
+    if (Math.abs(this.fp - (this.firstPerson ? 1 : 0)) < 0.002) this.fp = this.firstPerson ? 1 : 0
