@@ -200,3 +200,5 @@ export class Unit implements Foe {
   setScale(s: number) {
     this.scale = s
     this.radius = this.spec.radius * s
+  }
+
