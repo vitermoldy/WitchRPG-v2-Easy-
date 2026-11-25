@@ -319,3 +319,4 @@ export class Rings {
       ;(r.mesh.material as THREE.MeshBasicMaterial).opacity = (1 - k) * 0.9
       if (k >= 1) r.mesh.visible = false
     }
+  }
