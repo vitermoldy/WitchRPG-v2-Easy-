@@ -43,3 +43,4 @@ describe('XP curve from the GDD', () => {
     for (let i = 0; i < 7; i++) gainXp(p, xpForKill(1), ALL)
     expect(p.level).toBe(1)
     const r = gainXp(p, xpForKill(1), ALL)
+    expect(p.level).toBe(2)
