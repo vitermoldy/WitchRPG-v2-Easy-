@@ -68,3 +68,4 @@ export class Atmosphere {
       fogColor: { value: this.fog.color },
       sunDir: { value: SUN_DIR },
       sunColor: { value: new THREE.Color('#ffe2b0') },
+    }
