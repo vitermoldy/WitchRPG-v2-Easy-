@@ -1127,3 +1127,4 @@ ROSTER = [
     ("cyclops", "Cyclops", b_cyclops, "Pelempar batu (Bombard)", "Ksatria, elit Jenderal", "IV Reruntuhan Kuil", ("z0jfasz4aizd1.jpeg", (950, 715, 1245, 1052))),
     ("medusa", "Medusa", b_medusa, "Penyihir mini-boss", "Jenderal", "III Rawa Berkabut", ("z0jfasz4aizd1.jpeg", (690, 715, 950, 1052))),
     ("chimera", "Chimera", b_chimera, "Mini-boss (Rift Lord)", "Jenderal", "III Rawa Berkabut", ("images (5).jpg", (0, 0, 715, 429))),
+    ("succubus", "Succubus", b_succubus, "Elit penyumon", "Ksatria elit", "IV Reruntuhan Kuil", ("167518dd7ed83f5f910603744479.jpg", (255, 1178, 476, 1422))),
