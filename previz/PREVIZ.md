@@ -91,3 +91,4 @@ Dihitung oleh `build.py` dari dunia previz (medan 1.300 × 1.300 m, titik tiap 2
 | Pinus tinggi | 2.942 | 168 | 494.256 |
 | Pinus hangat (tebing) | 305 | 114 | 34.770 |
 | Birch | 2.567 | 472 | 1.211.624 |
+| Pohon rawa | 1.078 | 1.120 | 1.207.360 |
