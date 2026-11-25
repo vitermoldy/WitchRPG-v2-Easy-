@@ -184,3 +184,4 @@ class Staff {
     const obj = this.ensure()
     const n = this.tmp.copy(dir)
     if (n.lengthSq() < 1e-8) return
+    n.normalize()
