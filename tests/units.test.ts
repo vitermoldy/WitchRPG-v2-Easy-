@@ -69,3 +69,4 @@ describe('creature attacks', () => {
   })
 
   it('lets at most two creatures attack her at once; the rest circle', () => {
+    const w = world()
