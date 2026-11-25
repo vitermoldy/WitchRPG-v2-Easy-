@@ -77,3 +77,4 @@ describe('the Hydra', () => {
     const p = newProfile()
     p.level = 8
     expect(riteBlock(p, 'hydra')).not.toBeNull()
+    p.level = 10
