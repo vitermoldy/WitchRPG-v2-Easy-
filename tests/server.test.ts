@@ -41,3 +41,4 @@ describe('the server checks a witch before it keeps her', () => {
     const q = newProfile()
     addShadow(q, 'imp', 1)
     q.shadows.push({ ...q.shadows[0] })
+    expect(cleanProfile(q, NOW).error).toBeTruthy()
