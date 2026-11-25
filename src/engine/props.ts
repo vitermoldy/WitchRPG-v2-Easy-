@@ -61,3 +61,4 @@ export class Props {
     for (const p of this.list) {
       if (p.held) continue
       const to = this.c.subVectors(p.pos, from)
+      if (to.length() > range) continue
