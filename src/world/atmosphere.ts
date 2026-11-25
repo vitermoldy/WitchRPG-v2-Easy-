@@ -88,3 +88,5 @@ export class Atmosphere {
     s.shadow.camera.far = 400
     s.shadow.bias = -0.0006
     s.shadow.normalBias = 0.04
+  }
+
