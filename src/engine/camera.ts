@@ -27,3 +27,4 @@ export interface CamPose {
 
 export const rad = (d: number) => (d * Math.PI) / 180
 export const forward = (yaw: number, pitch: number): Vec => ({
+  x: -Math.sin(yaw) * Math.cos(pitch),
