@@ -169,3 +169,4 @@ describe('version 1: tiers, ranks and growth', () => {
     p.level = 9
     expect(riteBlock(p, 'hollow')).toBeNull()
     p.shadows.push({ id: 1, name: 'Omvel', kind: 'hollow', rank: 'marsekal', level: 9, xp: 0 })
+    expect(riteBlock(p, 'hollow')).toMatch(/satu Marsekal/)
