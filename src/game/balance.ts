@@ -1204,3 +1204,4 @@ export const COMBAT = {
     riteBonus: 0.15,
   },
   /** At most this many creatures attack her at the same time; the rest circle. */
+  attackers: 2,
