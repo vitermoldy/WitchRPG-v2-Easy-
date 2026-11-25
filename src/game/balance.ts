@@ -918,3 +918,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     stun: 60,
     anchored: true,
     part: true,
+    attacks: [
