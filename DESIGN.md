@@ -103,3 +103,4 @@ Tur fitur (setiap skill sekali di game, `?debug`, Lv 10): Hex Bolt melukai Imp d
 
 | Bagian | Keputusan | Alasan |
 | --- | --- | --- |
+| Umbra Rite | Aturan v1: tubuh bersinar 20 dtk, jangkauan 10 m, cast 1,5 dtk (1 dtk dengan upgrade), mana 40 plus 8 per tubuh tambahan, dua tubuh atau lebih dalam 12 m dibangkitkan sekaligus, satu lemparan per tubuh. Peluang v1 plus 0,15 untuk tubuh yang dieksekusi; tubuh itu juga berpendar lebih terang. Tubuh dipilih dari tengah kamera | Prompt. Diukur di game: Prajurit Lv 1 oleh witch Lv 6 dengan UMB 5 bernilai 75%, yang dieksekusi 90% (75 + 15), persis rumus. |
