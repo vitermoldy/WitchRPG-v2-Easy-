@@ -103,3 +103,4 @@ function common(p: Poser, u: Unit, t: number, limbs: string[]): boolean {
     for (let i = 0; i < limbs.length; i++) p.rot(limbs[i], 30 * Math.sin(t * 2 + i), 0, 15)
     return true
   }
+  if (u.state === 'finishing') {
