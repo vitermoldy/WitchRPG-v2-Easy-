@@ -69,3 +69,4 @@ export class Projectiles {
       const to = new THREE.Vector3(u.aimAt.x, u.aimAt.y + 1.1, u.aimAt.z)
       const flat = Math.hypot(to.x - from.x, to.z - from.z)
       const t = Math.max(0.1, flat / spec.speed)
+      vel = new THREE.Vector3(u.lungeDir.x * spec.speed, (to.y - from.y) / t + 0.5 * spec.gravity * t, u.lungeDir.z * spec.speed)
