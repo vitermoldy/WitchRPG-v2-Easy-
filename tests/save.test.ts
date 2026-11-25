@@ -16,3 +16,4 @@ describe('the save', () => {
     const p0 = newProfile()
     p0.world = { altars: ['pembuka', 'tebing', 'tebing', 7 as unknown as string], last: 'tebing' }
     const p = normalizeProfile(JSON.parse(JSON.stringify(p0)))!
+    expect(p.world.altars).toEqual(['pembuka', 'tebing'])
