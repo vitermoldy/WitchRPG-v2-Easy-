@@ -33,3 +33,4 @@ export const SKILLS: SkillDef[] = [
     branch: 'chaos',
     name: 'Hex Bolt',
     key: 'Bidik, LMB',
+    unlock: 1,
