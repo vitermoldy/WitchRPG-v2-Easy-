@@ -731,3 +731,4 @@ export class UnitSystem {
         if (u.cd <= 0 && slot) {
           const next = this.pickAttack(u, tgt, dist)
           if (next) {
+            if (onPlayer) u.token = true
