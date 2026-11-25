@@ -219,3 +219,4 @@ export class Lair {
       for (const isl of this.islands) g.props.add(isl.x, isl.z)
     } else {
       // it swallows what is left of its heads and crawls up to the shore
+      for (let i = 0; i < this.heads.length; i++) {
