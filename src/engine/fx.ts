@@ -206,3 +206,4 @@ interface LightSlot {
 export class LightPool {
   private readonly slots: LightSlot[] = []
 
+  constructor(scene: THREE.Object3D, count: number) {
