@@ -402,3 +402,4 @@ def build_army(dunia):
 # ---------------------------------------------------------------- 03 lineup at true scale
 
 LINEUP_BANDS = [
+    ("A", "Kecil dan sedang, sampai 3,2 m", ["ilyra", "imp", "hellhound", "harpy", "naga", "medusa", "centaur", "succubus", "incubus", "minotaur", "lilith", "unicorn", "hippogriff"], 0.7, 1),
