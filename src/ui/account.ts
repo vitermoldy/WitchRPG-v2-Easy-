@@ -92,3 +92,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
       button.hidden = true
     } else {
       text.textContent =
+        state.status === 'unavailable'
