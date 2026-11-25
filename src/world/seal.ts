@@ -63,3 +63,4 @@ export class Seal {
       for (let j = 0; j < this.n; j++) {
         if (!this.mask[i * this.n + j]) continue
         const x0 = -PLAY_HALF + i * CELL
+        const y0 = -PLAY_HALF + j * CELL
