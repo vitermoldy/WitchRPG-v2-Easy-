@@ -97,3 +97,4 @@ export class WorldMap {
     this.renderBosses()
     this.renderMonsters()
     this.draw()
+    $('btn-map-close').focus()
