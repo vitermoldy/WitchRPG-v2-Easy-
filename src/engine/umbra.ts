@@ -331,3 +331,4 @@ export class Umbra {
       if (this.chargeTick <= 0) {
         g.sfx.riteCharge(this.progress)
         this.chargeTick = 0.12
+      }
