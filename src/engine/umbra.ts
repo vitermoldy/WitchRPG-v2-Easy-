@@ -5,3 +5,4 @@ import type { Game } from './game'
 import { COLOR } from './palette'
 import type { Unit } from './units'
 
+/** A creature's rank for the Rite: an elite Cyclops counts as a Jenderal. */
