@@ -4,3 +4,5 @@ import { CameraRig, clearFraction, forward, rad, rightOf, wanted, type Vec } fro
 import { CYL, Obstacles, SPHERE } from '../src/engine/obstacles'
 
 const flat = () => 0
+const pivot: Vec = { x: 0, y: 1.6, z: 0 }
+
