@@ -983,3 +983,4 @@ export class Rigs {
   detail = 20
   private readonly ember = new THREE.Color()
   private sortIn = 0
+  private readonly m = new THREE.Matrix4()
