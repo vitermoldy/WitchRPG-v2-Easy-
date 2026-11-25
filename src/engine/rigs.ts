@@ -246,3 +246,4 @@ const poseHarpy: PoseFn = (p, u, t) => {
     const k = ease(u.t / u.spec.windup)
     p.body(0, -22 * k)
     p.rot('upperarm_L', -20 * k, 0, 130 * k + 6 * Math.sin(t * 30))
+    p.rot('upperarm_R', -20 * k, 0, -130 * k - 6 * Math.sin(t * 30))
