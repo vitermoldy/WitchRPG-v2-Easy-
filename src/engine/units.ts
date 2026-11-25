@@ -750,3 +750,4 @@ export class UnitSystem {
             // the shot flies; the telegraph stays until it lands
             host.fire(u, atk)
             u.hitDone = true
+            u.set('recover')
