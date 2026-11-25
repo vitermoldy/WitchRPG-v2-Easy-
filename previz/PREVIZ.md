@@ -120,3 +120,4 @@ Makhluk memakai warna dari gambar referensinya (keputusan pemilik setelah previz
 | Succubus, Incubus | kulit abu pucat `#cfc9d2`, `#a9a1aa` | rambut putih, zirah `#2b2731`, sayap `#8a3e52`, permata hijau `#5fe0a0` |
 | Griffin | singa `#c39256` | kepala dan sayap elang `#8a5a34`, `#6e4a2c`, paruh `#e0b040` |
 | Hippogriff | kuda `#9a7a52` | kepala dan sayap elang `#a07a48`, sayap terlipat |
+| Phoenix | merah api `#d0381c` | sayap ke jingga `#ffb030`, ekor menyala `#ffd060` (beremisi) |
