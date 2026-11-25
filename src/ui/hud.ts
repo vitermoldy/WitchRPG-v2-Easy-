@@ -172,3 +172,4 @@ export class Hud {
     const p = g.player
     const pr = g.profile
     if (this.bannerTime > 0) {
+      this.bannerTime -= dt
