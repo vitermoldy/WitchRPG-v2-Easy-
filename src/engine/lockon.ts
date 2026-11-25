@@ -22,3 +22,5 @@ export const lockPoint = (t: Target): Vec => ({ x: t.x, y: t.y + t.height * 0.62
  */
 export class LockOn {
   current: Target | null = null
+  private lost = 0
+
