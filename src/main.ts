@@ -59,3 +59,4 @@ async function boot() {
     if (!locked && !debug) {
       game.pause()
       $('lock-note').hidden = false
+    }
