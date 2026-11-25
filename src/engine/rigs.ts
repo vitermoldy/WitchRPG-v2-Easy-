@@ -5,3 +5,4 @@ import { COLOR } from './palette'
 import type { Team, Unit } from './units'
 
 const D = Math.PI / 180
+const UP = new THREE.Vector3(0, 1, 0)
