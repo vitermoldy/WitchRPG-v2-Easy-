@@ -291,3 +291,4 @@ export class Fight {
     let best: Unit | null = null
     let bd: number = COMBAT.execute.range
     for (const u of g.units.units) {
+      if (u.team !== 'enemy' || !can(u)) continue
