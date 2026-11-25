@@ -251,3 +251,4 @@ export class Lair {
 
   /** The body fell: the lair opens, and so do Reruntuhan Kuil and Lembah Bara. */
   bossDied() {
+    const g = this.g
