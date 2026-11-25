@@ -2,3 +2,4 @@
 // previz share one layout. Map coordinates: x east, y north, metres. The three.js scene puts north
 // at -z, so a map point (x, y) sits at world (x, -y): see toWorld / toMap.
 
+export interface Zone {
