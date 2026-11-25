@@ -46,3 +46,4 @@ export class Hud {
   private readonly debugEl = $('debug')
   private readonly feed = $('feed')
   private readonly bigBanner = $('banner')
+  private readonly prompt = $('prompt')
