@@ -202,3 +202,4 @@ export class Spells {
   private pay(cost: number): boolean {
     if (this.overloaded || cost <= 0) return true
     const p = this.g.player
+    if (p.mana < cost) {
