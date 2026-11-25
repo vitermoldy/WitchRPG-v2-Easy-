@@ -1003,3 +1003,4 @@ button {
 
 .army-head {
   display: flex;
+  justify-content: space-between;
