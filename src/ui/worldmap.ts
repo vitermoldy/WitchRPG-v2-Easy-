@@ -188,3 +188,4 @@ export class WorldMap {
     $('map-monsters').innerHTML = this.monsters()
       .map((m) => {
         const id = `map-k-${m.kind}`
+        const meta = m.fauna ? `satwa, ${m.camps} tempat` : `Lv ${m.lo === m.hi ? m.lo : `${m.lo} sampai ${m.hi}`}, ${m.camps} kamp`
