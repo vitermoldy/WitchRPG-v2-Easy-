@@ -329,3 +329,4 @@ export class UnitSystem {
       u.vel.add(tmp.normalize().multiplyScalar(knock * Math.min(1.5, 60 / Math.max(20, u.mass))))
     }
     if (u.hp <= 0) {
+      this.kill(u)
