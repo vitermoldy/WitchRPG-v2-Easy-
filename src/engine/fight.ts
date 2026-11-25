@@ -274,3 +274,4 @@ export class Fight {
 
   /** Where she should face this frame, or null to leave it to steering and the camera. */
   get faceYaw(): number | null {
+    if (this.exec) return yawTo(this.g.player.pos.x, this.g.player.pos.z, this.exec.u.pos.x, this.exec.u.pos.z)
