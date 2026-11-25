@@ -109,3 +109,4 @@ export class Ledger {
   }
 
   private after(focusKey?: string) {
+    this.host.sfxUi()
