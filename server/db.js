@@ -18,3 +18,4 @@ const TABLES = [
   ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci`,
   `CREATE TABLE IF NOT EXISTS witches (
     client_id CHAR(12) PRIMARY KEY,
+    level TINYINT UNSIGNED NOT NULL,
