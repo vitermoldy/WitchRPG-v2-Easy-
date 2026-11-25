@@ -669,3 +669,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     rebirth: { ashes: 3, hp: 0.5, burst: 4.5, delay: 1.6 },
   },
   // v2, Tebing Berangin (PROMPT: Griffin liar): eagle head and wings on a lion's body; circles high, dives along a line.
+  griffin: {
