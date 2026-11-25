@@ -138,3 +138,4 @@ export class Player {
       const l = Math.hypot(dx, dz)
       this.dodgeX = dx / l
       this.dodgeZ = dz / l
+      this.dodgeT = 0
