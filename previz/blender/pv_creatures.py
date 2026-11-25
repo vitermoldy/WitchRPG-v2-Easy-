@@ -749,3 +749,4 @@ def _demon(r, H, bulk, female, span, horn_kind, arm_pose):
     long_hair(h, hc, H, 0.75 if female else 0.55, 0.09)
     for s in (1, -1):
         if horn_kind == "back":
+            h.tube([hc + Vector((0.06 * s, -0.02, 0.09)), hc + Vector((0.13 * s, 0.1, 0.26)), hc + Vector((0.2 * s, 0.32, 0.34)), hc + Vector((0.2 * s, 0.5, 0.22))], [0.038, 0.03, 0.017, 0.0], mat="horn", seg=6, n=4)
