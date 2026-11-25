@@ -319,3 +319,4 @@ export class Sfx {
   summon(count: number) {
     if (!this.ok()) return
     const t = this.ctx!.currentTime
+    this.tone(t, 'sine', 110, 30, 1.6, 0.7, 0.02)
