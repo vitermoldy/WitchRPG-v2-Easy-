@@ -702,3 +702,5 @@ export class Game implements UnitHost {
     for (const u of this.units.units) u.token = false
     this.sfx.collapse()
     this.hud.message(`Ilyra tumbang. Ia bangkit lagi di ${this.altars.byKey(this.profile.world.last).name}; XP dan bayangan tetap.`, 'chaos')
+  }
+
