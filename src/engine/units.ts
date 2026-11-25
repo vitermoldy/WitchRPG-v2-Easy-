@@ -393,3 +393,4 @@ export class UnitSystem {
       if (!u.targetable) continue
       this.living[u.team].push(u)
       const k = cellKey(Math.floor(u.pos.x / CELL), Math.floor(u.pos.z / CELL))
+      let list = this.grid.get(k)
