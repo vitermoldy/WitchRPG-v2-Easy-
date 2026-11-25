@@ -968,3 +968,5 @@ export class UnitSystem {
       if (u.hurled && speed > SPELL.impact.minSpeed) host.impact(u, null, speed)
       this.land(u, 0.3)
     }
+  }
+
