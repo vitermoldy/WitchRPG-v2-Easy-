@@ -117,3 +117,4 @@ function attemptLimit(limit, message) {
  * @param {'id' | 'en'} options.lang
  * @param {RegExp} options.deviceCode  shape of this app's data key
  * @param {() => string} options.newDevice  makes a fresh data key
+ */
