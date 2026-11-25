@@ -11,3 +11,4 @@ import { AUTH_TABLES } from './auth.js'
  * v2 has no Rifts, so v1's rift_runs and tier_clears are not here. Times are stored in UTC.
  */
 const TABLES = [
+  `CREATE TABLE IF NOT EXISTS clients (
