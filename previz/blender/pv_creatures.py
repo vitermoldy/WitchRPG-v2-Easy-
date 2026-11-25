@@ -407,3 +407,4 @@ def b_ilyra(r, pose="idle"):
         "walk": {"L": (16, 8, 25), "R": (14, 22, 45)},
     }
     J = humanoid(r, 1.7, bulk=0.92, female=True, arm_pose=poses.get(pose, poses["idle"]), body_mat="cloth")
+    z = J["z"]
