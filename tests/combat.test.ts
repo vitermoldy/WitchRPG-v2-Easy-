@@ -104,3 +104,4 @@ describe('staff combo', () => {
     const c = new Combo()
     const ev = play(c, [[1 / 60, true, false]])
     for (let i = 0; i < 60; i++) c.update(1 / 60, false, false, ev)
+    expect(ev.filter((e) => e.type === 'hit').length).toBe(1)
