@@ -25,3 +25,4 @@ function patchGlow(mat: THREE.MeshStandardMaterial) {
 }
 
 /** The shadow version of a creature's material: near-black violet, glowing eyes and veins in Umbra. */
+/** Mean of a geometry's vertex colours: the real colour of a two-tone part, whose material is white. */
