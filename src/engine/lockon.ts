@@ -20,3 +20,4 @@ export const lockPoint = (t: Target): Vec => ({ x: t.x, y: t.y + t.height * 0.62
  * mouse moves the lock to the next creature on that side. The lock lets go when the target dies, walks
  * out of range, or stays hidden behind trees for too long.
  */
+export class LockOn {
