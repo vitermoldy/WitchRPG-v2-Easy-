@@ -1814,3 +1814,4 @@ dialog::backdrop {
 }
 
 .map-view {
+  display: grid;
