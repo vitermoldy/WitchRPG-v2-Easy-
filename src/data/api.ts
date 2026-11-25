@@ -87,3 +87,4 @@ type Entry = { user: Account; device: string }
 export async function checkAccount(): Promise<void> {
   setAuth({ ...auth, status: 'checking' })
   try {
+    const body = await call<Entry>('auth/me')
