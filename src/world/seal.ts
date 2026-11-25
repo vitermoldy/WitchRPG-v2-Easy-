@@ -107,3 +107,4 @@ export class Seal {
     return fx === undefined || fz === undefined || !this.sealedAt(fx, fz)
   }
 
+  unlock() {
