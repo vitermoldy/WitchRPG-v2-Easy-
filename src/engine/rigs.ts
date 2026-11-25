@@ -909,3 +909,4 @@ class Rig implements Poser {
     for (const [o, r] of this.rest) o.rotation.copy(r)
     this.body(0)
     this.hidden.clear()
+    this.pose(this, u, t)
