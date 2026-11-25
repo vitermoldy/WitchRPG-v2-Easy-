@@ -416,3 +416,4 @@ export class Spells {
     if (!this.overloaded) {
       g.player.mana -= SPELL.grip.manaPerSec * dt
       if (g.player.mana <= 0) {
+        g.player.mana = 0
