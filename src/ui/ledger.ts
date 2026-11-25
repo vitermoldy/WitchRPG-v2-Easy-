@@ -196,3 +196,4 @@ export class Ledger {
     $('room-list').innerHTML = keys
       .map((key) => {
         const list = groups.get(key)!.sort((a, b) => b.level - a.level)
+        const [rank, kind] = key.split(':') as [keyof typeof RANKS, keyof typeof UNITS]
