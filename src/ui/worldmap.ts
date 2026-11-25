@@ -386,3 +386,4 @@ export class WorldMap {
         ctx.lineTo(x + br * 0.55, y + br * 0.55)
         ctx.moveTo(x + br * 0.55, y - br * 0.55)
         ctx.lineTo(x - br * 0.55, y + br * 0.55)
+        ctx.strokeStyle = '#efe6df'
