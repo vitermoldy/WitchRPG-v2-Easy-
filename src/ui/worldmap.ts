@@ -373,3 +373,4 @@ export class WorldMap {
     for (const b of bosses) {
       const [x, y] = at(b.x, b.z)
       const live = b.status !== 'down'
+      ctx.beginPath()
