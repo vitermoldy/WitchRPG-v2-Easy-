@@ -62,3 +62,4 @@ export class Props {
       if (p.held) continue
       const to = this.c.subVectors(p.pos, from)
       if (to.length() > range) continue
+      const a = dir.angleTo(to)
