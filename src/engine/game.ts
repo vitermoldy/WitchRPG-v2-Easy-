@@ -378,3 +378,4 @@ export class Game implements UnitHost {
 
   // ------------------------------------------------------------ setup
 
+  /** Builds the valley, loads the models and warms the shaders. */
