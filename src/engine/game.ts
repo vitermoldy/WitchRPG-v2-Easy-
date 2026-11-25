@@ -416,3 +416,4 @@ export class Game implements UnitHost {
     this.rings = new Rings(this.scene, 12)
     this.warnings = new Warnings(this.scene, 12)
     this.pools = new ShadowPools(this.scene, 140)
+    this.telegraphs = new Telegraphs(this.scene, (x, z) => this.height(x, z))
