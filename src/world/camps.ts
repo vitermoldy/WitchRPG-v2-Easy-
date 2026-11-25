@@ -23,3 +23,4 @@ export interface CampDef {
  * with the distance from the start, inside each zone's band.
  */
 export const CAMP_DEFS: CampDef[] = [
+  { c: [-20, -292], pack: { imp: 4 }, levels: [1, 1] },
