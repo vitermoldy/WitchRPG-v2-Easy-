@@ -111,3 +111,4 @@ const GRIP_HOLD = 0.25
  * numbers as v1; the aim comes from the shoulder camera instead of the eyes.
  */
 export class Spells {
+  private readonly g: Game
