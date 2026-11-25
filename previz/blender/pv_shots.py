@@ -506,3 +506,4 @@ def stack_png(paths, out, pad=0, bg=(0, 0, 0)):
 
 
 def tile_png(paths, out, cols=2, pad=12, bg=(0.07, 0.07, 0.08)):
+    ims = [bpy.data.images.load(p, check_existing=False) for p in paths]
