@@ -516,3 +516,4 @@ export class Spells {
     g.smoke.emit({ pos: u.pos, count: 5, color: 0x2a2420, life: 0.8, size: 0.6, sizeEnd: 1.3, speed: 1.4, alpha: 0.5 })
   }
 
+  /** Where a skill lands: the aim point while aiming, else the locked creature, else a little ahead of her. */
