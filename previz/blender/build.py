@@ -47,3 +47,4 @@ lib.name = "Pustaka"
 for ob in list(bpy.data.objects):
     bpy.data.objects.remove(ob)
 
+# creature library: every block-out once, at rest, for the lineup and the board
