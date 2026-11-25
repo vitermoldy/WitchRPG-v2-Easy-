@@ -399,3 +399,4 @@ export class WorldMap {
       label(`${b.name} ${b.level}`, x, y, br + 2, live ? '#ffd8a8' : '#b0a29c')
     }
 
+    // where she stands, pointing the way she faces (yaw 0 is north)
