@@ -109,3 +109,4 @@ export class Particles {
       uniforms: { uScale: { value: 400 } },
       vertexShader: VERT,
       fragmentShader: mode === 'glow' ? FRAG_GLOW : FRAG_SMOKE,
+      transparent: true,
