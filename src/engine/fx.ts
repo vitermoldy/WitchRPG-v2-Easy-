@@ -438,3 +438,4 @@ export class ShadowPools {
         polygonOffsetUnits: -2,
       })
       const mesh = new THREE.Mesh(geo, mat)
+      mesh.visible = false
