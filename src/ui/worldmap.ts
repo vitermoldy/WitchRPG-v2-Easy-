@@ -319,3 +319,4 @@ export class WorldMap {
     const r = Math.max(4, size / 110)
     for (const a of ALTARS) {
       const x = px(a.c[0])
+      const y = py(a.c[1])
