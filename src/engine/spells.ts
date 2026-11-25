@@ -654,3 +654,4 @@ export class Spells {
     this.warpCd = s.cooldown
     const group = new THREE.Group()
     group.position.copy(at)
+    const ruleMat = this.rune(new THREE.Color(COLOR.umbra).lerp(new THREE.Color(COLOR.chaos), 0.35).getHex())
