@@ -678,3 +678,4 @@ const poseHydra: PoseFn = (p, u, t) => {
  */
 const poseBeast: PoseFn = (p, u, t) => {
   if (common(p, u, t, ['leg_FL', 'leg_FR', 'leg_HL', 'leg_HR', 'tail'])) return
+  const flying = u.flyer && u.alt > 0.8
