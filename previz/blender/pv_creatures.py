@@ -931,3 +931,4 @@ def b_cerberus(r):
     r.parts["body"].ell(V(Q["chest"]) + Vector((0, -0.4, 0.2)), (1.4, 1.5, 1.6))
     nb = V(Q["neck_base"])
     for k, (dx, sc, up) in enumerate(((0, 1.0, 0.6), (1.9, 0.85, -0.1), (-1.9, 0.85, -0.1))):
+        hp = nb + Vector((dx, -1.7 * sc, 1.1 * sc + up))
