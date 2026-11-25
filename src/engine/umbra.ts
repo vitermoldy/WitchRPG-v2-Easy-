@@ -7,3 +7,5 @@ import type { Unit } from './units'
 
 /** A creature's rank for the Rite: an elite Cyclops counts as a Jenderal. */
 /** Easy: every body rises. The v1 formula (riteChance) is kept, locked by its tests, and never wins. */
+export const riteOdds = (...args: Parameters<typeof riteChance>) => Math.max(EASY.riteChance, riteChance(...args))
+
