@@ -99,3 +99,5 @@ export class Seal {
     const j = Math.floor((my + PLAY_HALF) / CELL)
     if (i < 0 || j < 0 || i >= this.n || j >= this.n) return false
     return this.mask[i * this.n + j] === 1
+  }
+
