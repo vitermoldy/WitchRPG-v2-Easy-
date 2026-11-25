@@ -186,3 +186,4 @@ export function scatter(size = 1260, step = 4, seed = 3): Tree[] {
       let zi = 0
       let acc = 0
       for (; zi < w.length - 1; zi++) {
+        acc += w[zi]
