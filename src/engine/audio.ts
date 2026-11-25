@@ -188,3 +188,4 @@ export class Sfx {
     gain.gain.exponentialRampToValueAtTime(0.13, ctx.currentTime + 0.12)
     osc.connect(f)
     osc2.connect(f)
+    f.connect(gain).connect(this.master!)
