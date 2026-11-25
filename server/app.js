@@ -156,3 +156,4 @@ export function createApi(getPool, database) {
     try {
       await conn.beginTransaction()
       await touch(conn, client)
+      const [[cur]] = await conn.query('SELECT updated_at FROM witches WHERE client_id = ? FOR UPDATE', [client])
