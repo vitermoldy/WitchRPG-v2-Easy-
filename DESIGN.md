@@ -209,3 +209,4 @@ Tes: 97 dari 97 lulus (14 baru di `tests/boss.test.ts`: bagian damage Hydra per 
 Pemilik menulis "lanjutkan sampe selsai" tanpa menjawab tiga pertanyaan fase 5, jadi fase ini memakai pilihan A untuk ketiganya: batu Hydra tetap, game khusus desktop dengan pemberitahuan di layar mulai, kabut Lembah Bara oranye.
 
 | Bagian | Keputusan | Alasan |
+| --- | --- | --- |
