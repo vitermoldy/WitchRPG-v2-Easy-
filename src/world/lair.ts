@@ -222,3 +222,4 @@ export class Lair {
       for (let i = 0; i < this.heads.length; i++) {
         const h = this.heads[i]
         if (h) {
+          g.clearTelegraph(h)
