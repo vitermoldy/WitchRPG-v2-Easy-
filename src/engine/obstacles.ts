@@ -97,3 +97,4 @@ export class Obstacles {
         const d2 = dx * dx + dz * dz
         if (d2 >= min * min) return
         const d = Math.sqrt(d2) || 1e-4
+        const push = min - d
