@@ -469,3 +469,4 @@ export class Umbra {
       g.addTrauma(Math.min(0.5, 0.15 + raised.length * 0.04))
       g.sfx.riteResult(true)
       if (raised.length === 1 && !faded) {
+        const rec = raised[0]
