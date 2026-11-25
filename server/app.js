@@ -135,3 +135,4 @@ export function createApi(getPool, database) {
       skillPoints: w.skill_points,
       stats: { hex: w.hex, spr: w.spr, vit: w.vit, agi: w.agi, umb: w.umb },
       upgrades: Object.fromEntries(ups.map((u) => [u.skill, true])),
+      shadows: sh.map((s) => ({ id: s.shadow_id, name: s.name, kind: s.kind, rank: s.rank, level: s.level, xp: s.xp })),
