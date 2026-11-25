@@ -382,3 +382,4 @@ def axe(part, W, d, length=1.2, blade=0.55):
     """Double-bitted axe held at W along direction d."""
     d = Vector(d).normalized()
     top, bot = W + d * length * 0.72, W - d * length * 0.28
+    part.limb(bot, top, 0.032, 0.032, mat="wood", seg=8, joints=False)
