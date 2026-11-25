@@ -283,3 +283,5 @@ export class Lair {
       return base + (top - base) * k * k * (3 - 2 * k)
     }
     return base
+  }
+
