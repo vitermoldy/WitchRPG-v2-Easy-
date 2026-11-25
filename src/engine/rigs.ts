@@ -1020,3 +1020,4 @@ export class Rigs {
     if (!b) {
       const rig = this.rig(kind, 'shadow')
       if (!rig) return null
+      // the decimated model when there is one, else the full one standing at rest
