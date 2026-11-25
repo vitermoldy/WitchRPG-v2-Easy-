@@ -1874,3 +1874,5 @@ dialog::backdrop {
 .map-boss:hover {
   border-color: var(--line-strong);
   border-left-color: var(--rift);
+}
+
