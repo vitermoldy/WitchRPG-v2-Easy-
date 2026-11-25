@@ -66,3 +66,4 @@ export class Terrain {
     for (const c of this.chunks) this.ensure(c, 2)
   }
 
+  /** Picks each chunk's detail for the camera position; builds at most `budget` new meshes. */
