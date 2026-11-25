@@ -24,3 +24,4 @@ export interface Emit {
 }
 
 const VERT = /* glsl */ `
+  attribute float aSize;
