@@ -41,3 +41,4 @@ export class Altars {
     const runeGeo = new THREE.RingGeometry(2.3, 2.55, 48)
     runeGeo.rotateX(-Math.PI / 2)
     this.list = ALTARS.map((a) => {
+      const [x, z] = toWorld(a.c[0], a.c[1])
