@@ -45,3 +45,4 @@ function part(geo: THREE.BufferGeometry, color: THREE.Color, m?: THREE.Matrix4):
   if (m) g.applyMatrix4(m)
   g.deleteAttribute('uv')
   g.computeVertexNormals()
+  const n = g.attributes.position.count
