@@ -525,3 +525,4 @@ def b_harpy(r):
     face(h, hc, 1.65)
     long_hair(h, hc, 1.65, 0.35, 0.07)
     for i in range(7):
+        a = math.radians(-60 + 20 * i)
