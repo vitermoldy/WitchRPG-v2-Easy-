@@ -167,3 +167,4 @@ export class Terrain {
         v++
       }
       for (let k = 0; k < n; k++) {
+        const a = edge[k]
