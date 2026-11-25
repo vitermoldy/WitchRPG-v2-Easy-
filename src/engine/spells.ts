@@ -36,3 +36,5 @@ export interface SpellInput {
   snare: boolean
   barrier: boolean
   warp: boolean
+}
+
