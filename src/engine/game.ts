@@ -97,3 +97,4 @@ export class Game implements UnitHost {
   ground!: Ground
   state: State = 'loading'
   /** ?debug: run the simulation this many fixed steps per frame. */
+  debugSpeed = 1
