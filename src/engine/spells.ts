@@ -109,3 +109,4 @@ const GRIP_HOLD = 0.25
  * Chaos, the left hand: Hex Bolt and Telekinesis while aiming, Chaos Burst, Hex Snare, Hex Barrier and
  * Reality Warp on their keys, the Chaos meter, Crimson Overload and its Backlash. Same rules and
  * numbers as v1; the aim comes from the shoulder camera instead of the eyes.
+ */
