@@ -244,3 +244,4 @@ def build_water(coll):
     b.inputs["Specular IOR Level"].default_value = 0.6
     nt = m.node_tree
     tc = nt.nodes.new("ShaderNodeTexCoord")
+    noi = nt.nodes.new("ShaderNodeTexNoise")
