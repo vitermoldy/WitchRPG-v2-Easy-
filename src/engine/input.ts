@@ -95,3 +95,4 @@ export class Input {
     return this.pressedSet.has(code)
   }
 
+  released(code: string) {
