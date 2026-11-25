@@ -216,3 +216,4 @@ class Pal(dict):
 def palette_ref(key, spec):
     """Materials for one creature from its colour spec. Values are a hex colour, or (top, bottom)."""
     spec = dict(spec)
+    veins = spec.pop("veins", None)
