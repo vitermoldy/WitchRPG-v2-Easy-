@@ -309,3 +309,5 @@ class Part:
         self.rig, self.name, self.pivot, self.parent = rig, name, V(pivot), parent
         self.bm = bmesh.new()
         self.mats = []
+        self.flat = False
+
