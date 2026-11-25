@@ -88,3 +88,4 @@ def lock_on(cam, target, third=(1 / 3, 1 / 3)):
     th = tv * sc_aspect
     d = (V(target) - cam.location)
     yaw_t = math.atan2(d.y, d.x)
+    pitch_t = math.atan2(d.z, math.hypot(d.x, d.y))
