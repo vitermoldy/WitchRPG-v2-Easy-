@@ -517,3 +517,4 @@ export class Umbra {
     } else if (choice === 'attack') {
       const focusOn = isUnlocked(g.profile, 'focus')
       const locked = g.lockon.current as Unit | null
+      const hit = g.aim(60)
