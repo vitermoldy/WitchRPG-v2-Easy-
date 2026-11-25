@@ -308,3 +308,4 @@ export class Rings {
     ring.r1 = r1
   }
 
+  update(dt: number) {
