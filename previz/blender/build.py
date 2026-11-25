@@ -114,3 +114,4 @@ if "lineup" in ONLY:
     log("render barisan")
 if "board" in ONLY:
     C.render(scenes["board"], os.path.join(OUT, "papan-makhluk.png"), PCT)
+    log("render papan")
