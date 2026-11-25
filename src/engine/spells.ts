@@ -365,3 +365,4 @@ export class Spells {
         const to = u.center().sub(o)
         if (to.length() > SPELL.grip.range + 4) continue
         const a = f.angleTo(to)
+        if (a < bestA) {
