@@ -151,3 +151,4 @@ export class Projectiles {
         }
         g.smoke.emit({ pos: s.aim, count: 8, color: 0x3a3a20, life: 0.9, size: 0.7, sizeEnd: 1.5, speed: 1.4, alpha: 0.55 })
         this.end(i, true)
+      }
