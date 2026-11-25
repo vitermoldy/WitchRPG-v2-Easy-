@@ -177,3 +177,4 @@ describe('version 1: tiers, ranks and growth', () => {
     expect(xpForUnit('riftlord', 9)).toBe(450)
     expect(xpForUnit('hollow', 10)).toBe(1500)
   })
+  it('grows the witch with her level', () => {
