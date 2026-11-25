@@ -43,3 +43,5 @@ describe('the server checks a witch before it keeps her', () => {
     q.shadows.push({ ...q.shadows[0] })
     expect(cleanProfile(q, NOW).error).toBeTruthy()
     expect(cleanProfile({ version: 2 }, NOW).error).toBeTruthy()
+  })
+
