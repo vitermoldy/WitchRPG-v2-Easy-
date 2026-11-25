@@ -67,3 +67,4 @@ export class Unit implements Foe {
   level: number
   hp: number
   maxHp: number
+  damage: number
