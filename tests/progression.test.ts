@@ -238,3 +238,4 @@ describe('Tier IV and V', () => {
     const tough = unitStats('husk', 15, false).hp / derive(newProfile().stats, 13).damageMult
     expect(tough / unitStats('husk', 1, false).hp).toBeLessThan(2.5)
   })
+})
