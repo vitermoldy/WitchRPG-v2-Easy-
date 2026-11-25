@@ -814,3 +814,4 @@ class Rig implements Poser {
     const geo = new THREE.BufferGeometry()
     const g = src.geometry
     if (g.index) geo.setIndex(g.index)
+    for (const name of Object.keys(g.attributes)) geo.setAttribute(name, g.attributes[name])
