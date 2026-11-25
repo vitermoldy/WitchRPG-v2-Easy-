@@ -152,3 +152,4 @@ X ke timur, Y ke utara, meter, pusat peta (0, 0).
 | --- | --- | --- | --- |
 | Hutan Pembuka | (0, -280) | 230 | bergelombang 3 sampai 8 m |
 | Altar awal | (-10, -395) | | lingkar tujuh batu tegak |
+| Tebing Berangin | (320, -40) | 190 | dataran tinggi naik 36 sampai 42 m, tepi tebing patah |
