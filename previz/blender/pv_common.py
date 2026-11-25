@@ -102,3 +102,4 @@ def mat_cracked(name, color, crack, strength=5.0, scale=2.2, rough=0.75, coverag
     L.new(tc.outputs["Object"], vor.inputs["Vector"])
     edge = N.new("ShaderNodeMapRange")
     edge.inputs["From Min"].default_value = 0.0
+    edge.inputs["From Max"].default_value = width
