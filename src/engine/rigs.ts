@@ -493,3 +493,4 @@ const poseChimera: PoseFn = (p, u, t) => {
   if (common(p, u, t, CHIMERA_LIMBS)) return
   const { ph, amp } = trot(p, u, 30, 0.6)
   p.rot('tail_snake', -20 + 10 * Math.sin(t * 2.4), 20 * Math.sin(t * 1.9 + u.id))
+  p.rot('head_lion', 4 * Math.sin(t * 2.2), 6 * Math.sin(t * 1.3))
