@@ -208,3 +208,4 @@ export interface AttackSpec {
   ring?: number
   /** The circle lies this far in front of the creature (a breath) instead of on her. */
   ahead?: number
+  /** Fires a projectile instead of lunging: an arrow along the line, or a glob onto the circle. */
