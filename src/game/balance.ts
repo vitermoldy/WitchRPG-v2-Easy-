@@ -938,3 +938,4 @@ export const HYDRA = {
   scale: 1.35,
   /** From the lair's middle into the lake: where the body lies in phases 1 and 2, and where it crawls to in phase 3 (m). */
   lies: 10,
+  crawls: 6,
