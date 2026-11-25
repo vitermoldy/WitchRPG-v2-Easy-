@@ -3,3 +3,4 @@
 // soon as npm appends arguments. Set BLENDER to use another Blender build.
 import { spawnSync } from 'node:child_process'
 
+const blender = process.env.BLENDER || 'C:/Program Files/Blender Foundation/Blender 5.1/blender.exe'
