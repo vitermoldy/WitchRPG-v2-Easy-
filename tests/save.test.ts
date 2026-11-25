@@ -3,3 +3,4 @@ import { addShadow, buyUpgrade, gainXp, newProfile, spendStat } from '../src/gam
 import { normalizeProfile } from '../src/game/save'
 import { SKILLS } from '../src/game/skills'
 
+describe('the save', () => {
