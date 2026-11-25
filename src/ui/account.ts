@@ -213,3 +213,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
     // The witch belongs to this account: she goes out before the browser forgets her.
     window.clearTimeout(pushTimer)
     try {
+      await pushProfile(game.profile)
