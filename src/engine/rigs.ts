@@ -1088,3 +1088,4 @@ export class Rigs {
       }
       const glow = u.state === 'ashes' ? this.ember.setRGB(1.6, 0.5, 0.1).multiplyScalar(0.6 + 0.4 * Math.sin(t * 6 + u.id)) : glowOf(u)
       this.rig(u.kind, u.team)?.add(u, t, glow, this.sink(u))
+    }
