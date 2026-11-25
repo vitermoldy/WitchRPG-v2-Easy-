@@ -340,3 +340,4 @@ export class Fight {
       return
     }
 
+    if (this.exec) {
