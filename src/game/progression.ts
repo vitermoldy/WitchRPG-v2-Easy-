@@ -115,3 +115,4 @@ export function riteBlock(p: Profile, kind: UnitKind, rank: RankId = UNITS[kind]
 export function isFresh(p: Profile): boolean {
   return (
     p.level === 1 &&
+    p.xp === 0 &&
