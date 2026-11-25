@@ -47,3 +47,4 @@ export interface UnitHost {
 const legacy = new WeakMap<UnitSpec, AttackSpec[]>()
 
 /** A creature's attacks: its list, or one made from the v1 fields. */
+export function attacksOf(spec: UnitSpec): AttackSpec[] {
