@@ -414,3 +414,5 @@ interface Pool {
   hold: number
   open: number
   state: 'off' | 'opening' | 'holding' | 'closing'
+}
+
