@@ -54,3 +54,4 @@ function rateLimit(limit) {
 const int = (v, lo, hi) => (Number.isInteger(v) && v >= lo && v <= hi ? v : null)
 const num = (v, lo, hi, fallback) => (typeof v === 'number' && Number.isFinite(v) ? Math.min(hi, Math.max(lo, v)) : fallback)
 
+/** Checks a witch from the browser; returns what to store or a reason. */
