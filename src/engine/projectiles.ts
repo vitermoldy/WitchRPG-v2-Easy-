@@ -100,3 +100,4 @@ export class Projectiles {
         s.mesh.material = red
         const speed = Math.max(16, s.vel.length())
         s.vel.copy(s.source.center().sub(s.pos).normalize().multiplyScalar(speed))
+        s.life = 3
