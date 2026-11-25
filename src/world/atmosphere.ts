@@ -77,3 +77,4 @@ export class Atmosphere {
     scene.add(this.sky, this.hemi, this.sun, this.sun.target)
 
     const s = this.sun
+    s.castShadow = true
