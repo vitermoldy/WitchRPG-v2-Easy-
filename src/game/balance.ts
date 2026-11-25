@@ -953,3 +953,4 @@ export const HYDRA = {
   boltShare: 0.1,
   thrownShare: 1.5,
   /** Phase 3: damage inside Reality Warp, and nothing outside it. */
+  warpShare: 1.5,
