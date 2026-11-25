@@ -859,3 +859,4 @@ export class UnitSystem {
     const flyH = (u.spec.fly?.height ?? 0) * 0.4
     if (tgt) {
       const d = Math.hypot(tgt.pos.x - u.pos.x, tgt.pos.z - u.pos.z)
+      const reach = Math.min(u.spec.attackRange, 2.2) + u.radius + tgt.radius
