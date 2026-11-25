@@ -1095,3 +1095,4 @@ export class Rigs {
     for (const [kind, n] of counts) this.batch(kind, n)
     for (const u of units) {
       if (u.team !== 'shadow' || u.detailed || u.state === 'dead') continue
+      const b = this.crowd.get(u.kind)
