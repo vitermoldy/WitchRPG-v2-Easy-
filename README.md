@@ -52,3 +52,4 @@ Salin `.env.example` menjadi `.env` dan isi akun MySQL. Server membuat database 
 | Sentak mouse ke samping | Pindah lock-on ke makhluk di sisi itu |
 | B | Terbang atau mendarat. Di udara Spasi naik, C turun, Shift lebih cepat. Ilyra tidak bisa mendarat di air dalam |
 | P | Pandangan orang pertama atau dari belakang bahu; pilihan ini ikut tersimpan |
+| M | Peta: semua boss dan statusnya, altar, dan kamp monster yang dicentang. Game menunggu selama peta terbuka |
