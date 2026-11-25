@@ -23,3 +23,5 @@ interface Chunk {
   centre: THREE.Vector3
   meshes: (THREE.Mesh | null)[]
   lod: number
+}
+
