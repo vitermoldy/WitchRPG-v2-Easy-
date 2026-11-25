@@ -267,3 +267,4 @@ export class Sfx {
     if (!this.ok()) return
     const t = this.ctx!.currentTime
     // A sweep that falls while noise rises: the floor turning over.
+    this.tone(t, 'sawtooth', 600, 70, 1.1, 0.18, 0.05)
