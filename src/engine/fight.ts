@@ -430,3 +430,4 @@ export class Fight {
         }
       }
     }
+    if (target) yaw = yawTo(p.pos.x, p.pos.z, target.pos.x, target.pos.z)
