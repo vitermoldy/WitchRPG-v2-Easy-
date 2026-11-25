@@ -172,3 +172,4 @@ export function heightMap(x: number, y: number): number {
   return h
 }
 
+/** Ground height under a three.js world point. */
