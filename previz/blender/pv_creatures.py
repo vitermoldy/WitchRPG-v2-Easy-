@@ -135,3 +135,4 @@ def humanoid(r, H, bulk=1.0, legs="human", female=False, off=(0, 0, 0), arm_pose
     return J
 
 
+def quad(r, H, L, W, D, leg_r, front="paw", hind="paw", body_mat="body", foot_mat="horn"):
