@@ -134,3 +134,4 @@ export class Umbra {
     // behind her: her yaw faces -z at 0, so behind is +sin/+cos
     const a = p.facing + (index - (inRing - 1) / 2) * (spread / inRing)
     const d = 3.4 + ring * 1.8
+    out.set(p.pos.x + Math.sin(a) * d, 0, p.pos.z + Math.cos(a) * d)
