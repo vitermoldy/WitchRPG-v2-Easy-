@@ -219,3 +219,4 @@ export class WorldMap {
       for (let i = 0; i < BASE; i++) {
         const mx = -EXTENT + (i + 0.5) * step
         const my = EXTENT - (j + 0.5) * step
+        const h = heightMap(mx, my)
