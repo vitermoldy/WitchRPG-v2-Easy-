@@ -279,3 +279,4 @@ export class Spells {
     const base = target.clone().sub(from).normalize()
     const spread = this.upgraded('hexBolt')
     const dirs = spread ? [-1, 0, 1].map((k) => base.clone().applyAxisAngle(new THREE.Vector3(0, 1, 0), k * SPELL.bolt.spreadAngle)) : [base]
+    const dmg = (spread ? SPELL.bolt.spreadDamage : SPELL.bolt.damage) * this.damageMult
