@@ -342,3 +342,4 @@ export class Hud {
     const p = g.player.pos
     let n = 0
     for (const u of g.units.units) {
+      if (u.team !== 'enemy' || !u.targetable || u.spec.boss) continue
