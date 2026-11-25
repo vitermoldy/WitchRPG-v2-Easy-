@@ -407,3 +407,4 @@ def scatter_group():
 
 def scatter_object(name, coll, proto_ob, pts, rots, scales):
     me = bpy.data.meshes.new(name)
+    me.vertices.add(len(pts))
