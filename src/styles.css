@@ -1768,3 +1768,4 @@ dialog::backdrop {
 .gate-hint {
   margin: -0.3rem 0 0;
   color: var(--ink-3);
+  font-size: 0.82rem;
