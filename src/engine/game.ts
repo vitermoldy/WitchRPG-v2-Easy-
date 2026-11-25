@@ -1216,3 +1216,4 @@ export class Game implements UnitHost {
   /** ?debug: an elite with a trait (or a random one) near her. */
   debugElite(kind: V2Kind, trait: EliteTrait | null = null, level = 10, dist = 10) {
     const p = this.player.pos
+    const u = this.units.spawn(kind, 'enemy', level, { x: p.x, z: p.z - dist })
