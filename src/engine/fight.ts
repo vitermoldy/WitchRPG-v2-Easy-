@@ -37,3 +37,4 @@ class Staff {
   readonly prev = new THREE.Vector3()
   readonly vel = new THREE.Vector3()
   private readonly g: Game
+  private obj: THREE.Object3D | null = null
