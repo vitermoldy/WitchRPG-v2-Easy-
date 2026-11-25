@@ -570,3 +570,4 @@ function biped(opts: { heavy: number; reach: number; sway: number }): PoseFn {
       }
       return
     }
+    if (u.state === 'stagger') {
