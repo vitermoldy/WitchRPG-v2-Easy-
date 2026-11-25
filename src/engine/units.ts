@@ -268,3 +268,5 @@ export function shieldShare(u: Unit, fromX: number, fromZ: number, kind: DamageK
   if (d < 1e-4) return 1
   const front = (Math.sin(u.yaw) * dx + Math.cos(u.yaw) * dz) / d
   return front > 0.34 ? 1 - s : 1
+}
+
