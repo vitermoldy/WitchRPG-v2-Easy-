@@ -144,3 +144,4 @@ export class Game implements UnitHost {
   private deadT = 0
   private saveIn = -1
   private readonly pose = idlePose()
+  /** Bursts waiting on their amber circles: elites that explode, a Phoenix's second fall. */
