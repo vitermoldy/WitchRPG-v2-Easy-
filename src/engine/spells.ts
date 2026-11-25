@@ -405,3 +405,4 @@ export class Spells {
       u.vel.set(0, 0, 0)
       // a Harpy pulled out of the air stays down for a while after the throw
       if (u.spec.fly) u.downed = Math.max(u.downed, 3)
+    }
