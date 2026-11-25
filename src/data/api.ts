@@ -66,3 +66,4 @@ async function call<T>(path: string, init?: RequestInit): Promise<T> {
   let res: Response
   try {
     res = await fetch(`api/${path}`, {
+      ...init,
