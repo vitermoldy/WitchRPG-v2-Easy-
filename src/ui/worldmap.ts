@@ -247,3 +247,4 @@ export class WorldMap {
         img.data[o + 3] = 255
       }
     }
+    ctx.putImageData(img, 0, 0)
