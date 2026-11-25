@@ -25,3 +25,4 @@ function world() {
     fx: (_u, what) => fx.push(what),
     telegraph: () => {},
     clearTelegraph: () => {},
+  }
