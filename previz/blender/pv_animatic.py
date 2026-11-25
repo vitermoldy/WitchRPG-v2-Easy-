@@ -198,3 +198,4 @@ def build(dunia, res=(1280, 720), samples=24):
             q = look_quat(look).slerp(lock_quat(loc, tgt, cn["vfov"]), u)
             vfov = cn["vfov"]
             ret.location = tgt
+        else:
