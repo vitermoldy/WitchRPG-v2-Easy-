@@ -572,3 +572,4 @@ def fog_material(z):
 def build_fog(coll):
     obs = []
     for z in ZONES + [LAKE_FOG]:
+        bm = bmesh.new()
