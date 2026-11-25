@@ -49,3 +49,4 @@ describe('stun meter and execution', () => {
     expect(m.value).toBeLessThan(20)
   })
 
+  it('fills from one parry on an Imp', () => {
