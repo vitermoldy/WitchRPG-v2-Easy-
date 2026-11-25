@@ -811,3 +811,4 @@ export class Game implements UnitHost {
       }
       prev = d
     }
+    let unit: Unit | null = null
