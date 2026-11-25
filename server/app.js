@@ -49,3 +49,5 @@ function rateLimit(limit) {
     if (recent.length > limit) return res.status(429).json({ error: 'Terlalu banyak permintaan. Coba lagi sebentar lagi.' })
     next()
   }
+}
+
