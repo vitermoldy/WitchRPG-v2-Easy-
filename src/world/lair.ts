@@ -53,3 +53,4 @@ interface Island {
 }
 
 /**
+ * The Hydra's lair on the shore of Danau Hitam, and the Hydra itself (PROMPT boss 1, on the plan of
