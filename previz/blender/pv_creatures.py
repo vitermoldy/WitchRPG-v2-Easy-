@@ -852,3 +852,4 @@ def b_dragon(r):
     pts = [nb, nb + Vector((0, -1.0, 0.9)), nb + Vector((0, -1.5, 2.0)), nb + Vector((0, -2.3, 2.7))]
     n = r.P("neck", nb, "body")
     n.tube(pts, [0.8, 0.62, 0.5, 0.42], seg=10, n=4)
+    spikes(n, [lerp(pts[0], pts[-1], i / 5) + Vector((0, 0.3, 0.45)) for i in range(6)], 0.6, 0.12, mat="accent", tilt=(0, 0.7, 1))
