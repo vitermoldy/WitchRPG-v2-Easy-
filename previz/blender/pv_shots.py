@@ -242,3 +242,4 @@ def shaft_fog(coll, centre, size, z0, density=0.018):
 
 VARIANTS = [
     ("A", "Angka awal prompt: vFOV 68, jarak 3,4 m, tinggi 1,65 m", "prompt", {}),
+    ("B", "FOV 68 dibaca horizontal: vFOV 41,6", "prompt", {"vfov": 41.6}),
