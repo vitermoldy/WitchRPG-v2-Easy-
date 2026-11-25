@@ -543,3 +543,4 @@ def world_matrix(ob):
     return m
 
 
+def bounds(coll, skip=()):
