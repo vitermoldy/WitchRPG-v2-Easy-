@@ -43,3 +43,4 @@ interface Call {
   at: number
   rec: ShadowRecord
   pos: THREE.Vector3
+  slot: number
