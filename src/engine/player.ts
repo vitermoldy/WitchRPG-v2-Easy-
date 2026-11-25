@@ -207,3 +207,4 @@ export class Player {
   }
 
   private toggleFlight(g: Ground) {
+    if (!this.flying) {
