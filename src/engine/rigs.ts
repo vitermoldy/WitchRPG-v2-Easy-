@@ -636,3 +636,4 @@ const poseHydra: PoseFn = (p, u, t) => {
     const h = u.parts ? u.parts[i] : undefined
     if (h === null) {
       // swallowed: the whole neck is gone
+      p.hide(`neck${i}_0`)
