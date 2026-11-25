@@ -576,3 +576,4 @@ def text(coll, body, loc, size=0.3, color="#efe6df", strength=1.0, align="LEFT",
     ob = bpy.data.objects.new(name or f"txt.{body[:16]}", cu)
     ob.location = loc
     ob.rotation_euler = Euler([math.radians(a) for a in rot])
+    cu.materials.append(mat_emit(f"txt_{color}_{strength}", color, strength))
