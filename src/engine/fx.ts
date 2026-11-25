@@ -97,3 +97,4 @@ export class Particles {
     this.size0 = new Float32Array(max)
     this.size1 = new Float32Array(max)
     this.alpha0 = new Float32Array(max)
+    this.grav = new Float32Array(max)
