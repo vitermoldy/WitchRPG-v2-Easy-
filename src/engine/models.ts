@@ -332,3 +332,4 @@ export class IlyraModel {
       torsoX = mix(mix(torsoX, -12, up), 42, down) * (1 - back) + torsoX * back
       crouch = 0.22 * down * (1 - back)
     }
+    if (act.throwK >= 0) {
