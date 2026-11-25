@@ -832,3 +832,4 @@ def b_phoenix(r):
         a = math.radians(-30 + 15 * i)
         h.tube([hc + Vector((math.sin(a) * 0.04, 0.05, 0.06)), hc + Vector((math.sin(a) * 0.15, 0.3, 0.35)), hc + Vector((math.sin(a) * 0.22, 0.6, 0.45))], [0.03, 0.02, 0.0], mat="glow", seg=5, n=3)
     for s in (1, -1):
+        feather_wing(b, (0.18 * s, 0.0, 1.45), s, 2.9, 1.5, raise_deg=48, sweep_deg=10, feathers=10, tip_mat="accent", arm="body")
