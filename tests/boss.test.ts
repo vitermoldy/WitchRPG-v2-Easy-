@@ -31,3 +31,5 @@ function world() {
     for (let i = 0; i < Math.round(seconds * 120); i++) sys.update(1 / 120)
   }
   return { foe, sys, step, fx }
+}
+
