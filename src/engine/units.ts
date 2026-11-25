@@ -540,3 +540,4 @@ export class UnitSystem {
     const p = this.host.foe
     const home = u.home ?? u.pos
     const dx = u.pos.x - p.pos.x
+    const dz = u.pos.z - p.pos.z
