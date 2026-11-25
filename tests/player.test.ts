@@ -24,3 +24,4 @@ describe('Ilyra in the air (B)', () => {
     expect(p.pos.y).toBeGreaterThan(12)
     expect(p.pos.y).toBeLessThan(17)
     run(p, { ...idle, rise: 1 }, 8)
+    expect(p.pos.y).toBeCloseTo(MOVE.fly.ceiling, 3)
