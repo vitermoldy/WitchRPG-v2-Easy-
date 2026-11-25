@@ -740,3 +740,4 @@ def compositor(sc, strength=0.6, threshold=1.2, vignette=True):
     gl = N.new("CompositorNodeGlare")
     gl.inputs["Type"].default_value = "Bloom"
     gl.inputs["Quality"].default_value = "High"
+    gl.inputs["Threshold"].default_value = threshold
