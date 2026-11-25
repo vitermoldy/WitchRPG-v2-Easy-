@@ -27,3 +27,4 @@
   --plate: rgba(12, 8, 9, 0.8);
   --radius-sm: 3px;
   --gutter: clamp(16px, 2.4vw, 32px);
+  color-scheme: dark;
