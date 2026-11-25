@@ -412,3 +412,4 @@ interface Pool {
   radius: number
   t: number
   hold: number
+  open: number
