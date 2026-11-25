@@ -601,3 +601,4 @@ export class Game implements UnitHost {
     this.calm = 0
     if (d <= 0) return
     p.hp -= d
+    this.counts.damageTaken += d
