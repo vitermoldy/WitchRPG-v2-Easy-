@@ -175,3 +175,4 @@ export class Ledger {
 
     const live = this.host.liveShadows()
     $('room-count').textContent = p.shadows.length ? `${p.shadows.length} bayangan, ${live.size} di medan` : ''
+    if (!p.shadows.length) {
