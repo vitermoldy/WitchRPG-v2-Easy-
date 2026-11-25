@@ -21,3 +21,5 @@ import {
   xpToNext,
 } from '../src/game/progression'
 import { SKILLS } from '../src/game/skills'
+import { ELITE, SPELL, TIERS, UNITS } from '../src/game/balance'
+
