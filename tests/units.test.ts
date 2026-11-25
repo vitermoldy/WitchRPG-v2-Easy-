@@ -164,3 +164,4 @@ describe('phase 4 creatures', () => {
   it('Centaur looses an arrow even close up, then backs away; from range it keeps shooting', () => {
     const w = world()
     const c = w.sys.spawn('centaur', 'enemy', 4, { x: 0, z: 5 })
+    w.step(3)
