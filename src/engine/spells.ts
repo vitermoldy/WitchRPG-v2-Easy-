@@ -143,3 +143,4 @@ export class Spells {
       new THREE.ShaderMaterial({
         uniforms: { uHit: { value: 0 }, uFade: { value: 0 } },
         vertexShader: SHIELD_VERT,
+        fragmentShader: SHIELD_FRAG,
