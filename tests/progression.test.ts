@@ -235,3 +235,4 @@ describe('Tier IV and V', () => {
     expect(xpForUnit('harrier', 10)).toBe(100)
   })
   it('keeps Tier V enemies within reach of a Tier V witch', () => {
+    const tough = unitStats('husk', 15, false).hp / derive(newProfile().stats, 13).damageMult
