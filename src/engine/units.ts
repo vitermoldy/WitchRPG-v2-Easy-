@@ -957,3 +957,4 @@ export class UnitSystem {
         }
       }
     }
+    if (host.obstacles.pushOut(u.pos, u.radius, u.height)) {
