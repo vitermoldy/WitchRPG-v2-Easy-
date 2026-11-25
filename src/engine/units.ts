@@ -677,3 +677,4 @@ export class UnitSystem {
     if (!tgt) {
       u.token = false
       if (u.state === 'windup' || u.state === 'strike') {
+        host.clearTelegraph(u)
