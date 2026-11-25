@@ -224,3 +224,4 @@ export class IlyraModel {
       const drift = Math.sin(this.t * 2.1)
       this.pivot.rotation.x = rad(lean)
       this.pivot.position.y = 0.9 + 0.05 * Math.sin(this.t * 2)
+      this.rot('thigh_L', 12 + 4 * drift)
