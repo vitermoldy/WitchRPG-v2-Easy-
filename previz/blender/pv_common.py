@@ -321,3 +321,5 @@ class Part:
         mi = self._mi(mat)
         for f in _faces_of(verts):
             f.material_index = mi
+            f.smooth = smooth and not self.flat
+
