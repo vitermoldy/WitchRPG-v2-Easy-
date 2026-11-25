@@ -58,3 +58,4 @@ const num = (v, lo, hi, fallback) => (typeof v === 'number' && Number.isFinite(v
 export function cleanProfile(p, now = Date.now()) {
   if (!p || typeof p !== 'object' || p.version !== 1) return { error: 'Data witch tidak dikenali.' }
   const level = int(p.level, 1, MAX_LEVEL)
+  const xp = int(p.xp, 0, 10_000_000)
