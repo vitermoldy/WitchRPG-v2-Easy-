@@ -107,3 +107,4 @@ export const SKILLS: SkillDef[] = [
     effect: 'Bertukar posisi dengan bayangan yang paling dekat ke titik bidik.',
     upgrade: 'Cooldown 10 jadi 6 detik.',
     built: true,
+  },
