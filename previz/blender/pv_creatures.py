@@ -803,3 +803,4 @@ def b_griffin(r):
 def b_hippogriff(r):
     """Golden-brown eagle front with folded wings on a horse's hindquarters and a long horse tail."""
     Q = quad(r, 1.9, 2.5, 0.75, 0.9, 0.08, front="talon", hind="hoof", foot_mat="hoof")
+    nb = V(Q["neck_base"])
