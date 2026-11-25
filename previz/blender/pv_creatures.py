@@ -296,3 +296,4 @@ def horse_head(part, at, fwd=(0, -1, -0.6), s=1.0, mat="body"):
     part.ell(a, (0.13 * s, 0.17 * s, 0.15 * s), mat=mat)
     part.limb(a + F * 0.08 * s, a + F * 0.5 * s, 0.12 * s, 0.085 * s, mat=mat)
     part.ell(a + F * 0.52 * s, (0.09 * s, 0.07 * s, 0.07 * s), mat="nose" if "nose" in part.rig.pal else mat, seg=8, rings=6)
+    for k in (-1, 1):
