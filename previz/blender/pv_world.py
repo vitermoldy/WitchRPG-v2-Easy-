@@ -451,3 +451,4 @@ def build_forest(coll, P, size=1260.0, step=4.0, seed=3):
     dens = dens * (1 - ring) + ring * 1.1
     p = dens / 100.0 * step * step
     keep = rng.random(len(X)) < p
+    keep &= slope < 0.75
