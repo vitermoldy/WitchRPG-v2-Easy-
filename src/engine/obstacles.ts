@@ -50,3 +50,4 @@ export class Obstacles {
   }
 
   /** Calls fn once for every shape whose cell touches the box around (x, z) of half-size `reach`. */
+  near(x: number, z: number, reach: number, fn: (s: Shape) => void) {
