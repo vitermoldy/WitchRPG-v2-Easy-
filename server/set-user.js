@@ -35,3 +35,4 @@ try {
   console.log(w ? `${config.name}: akun ${username} dibuat dan memegang witch yang sudah ada (Lv ${w.level}).` : `${config.name}: akun ${username} dibuat. Belum ada data sebelumnya.`)
 } finally {
   await pool.end()
+}
