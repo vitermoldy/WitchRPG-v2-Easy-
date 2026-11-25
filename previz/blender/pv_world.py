@@ -126,3 +126,4 @@ def path_dist(x, y):
         for a, b in zip(line, line[1:]):
             ax, ay = a
             bx, by = b
+            dx, dy = bx - ax, by - ay
