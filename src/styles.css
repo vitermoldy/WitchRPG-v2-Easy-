@@ -328,3 +328,4 @@ button {
 .settings {
   display: grid;
   gap: 0.9rem;
+  width: min(100%, 26rem);
