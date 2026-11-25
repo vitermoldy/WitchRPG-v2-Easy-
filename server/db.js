@@ -45,3 +45,4 @@ const TABLES = [
     name VARCHAR(24) NOT NULL,
     kind VARCHAR(16) NOT NULL,
     \`rank\` ENUM('prajurit','ksatria','jenderal','marsekal') NOT NULL,
+    level TINYINT UNSIGNED NOT NULL,
