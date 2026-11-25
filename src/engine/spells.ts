@@ -430,3 +430,4 @@ export class Spells {
       const prop = this.heldProp
       const goal = new THREE.Vector3(p.x, p.y + 1.6, p.z).addScaledVector(f, 5.4).addScaledVector(right, -0.4)
       goal.y = Math.max(goal.y, g.ground.height(goal.x, goal.z) + 1)
+      prop.pos.lerp(goal, Math.min(1, dt * 6))
