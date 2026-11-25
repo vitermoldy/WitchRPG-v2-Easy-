@@ -188,3 +188,4 @@ export class Ledger {
     const groups = new Map<string, typeof p.shadows>()
     for (const s of p.shadows) {
       const key = `${s.rank}:${s.kind}`
+      const list = groups.get(key)
