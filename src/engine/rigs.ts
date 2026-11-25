@@ -163,3 +163,4 @@ const poseImp: PoseFn = (p, u, t) => {
   }
   if (u.state === 'stagger') {
     p.body(-0.06, 10, 8 * Math.sin(t * 3.2))
+    p.rot('head', 30 + 12 * Math.sin(t * 5))
