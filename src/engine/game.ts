@@ -699,3 +699,4 @@ export class Game implements UnitHost {
     this.shots.clear()
     this.blasts.length = 0
     this.warnings.clear()
+    for (const u of this.units.units) u.token = false
