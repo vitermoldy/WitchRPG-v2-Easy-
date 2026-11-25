@@ -52,3 +52,4 @@ interface Call {
  * Ported from v1; the aim comes from the shoulder camera, and an executed body is easier to raise.
  */
 export class Umbra {
+  private readonly g: Game
