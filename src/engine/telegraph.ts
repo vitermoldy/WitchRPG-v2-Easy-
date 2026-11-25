@@ -43,3 +43,4 @@ const LINE_FRAG = /* glsl */ `
     float fill = step(vUv.y, uFill) * 0.3;
     float tip = smoothstep(0.08, 0.0, 1.0 - vUv.y) * 0.6;
     float a = (border * 0.8 + 0.1 + fill * 0.6 + tip) * (0.3 + 0.7 * blink);
+    // dimmer than the ring: it is long and close to the camera, and bloom would turn it into a wall
