@@ -420,3 +420,4 @@ export class Fight {
       for (const u of g.units.units) {
         if (u.team !== 'enemy' || !u.targetable) continue
         const d = Math.hypot(u.pos.x - p.pos.x, u.pos.z - p.pos.z) - u.radius
+        if (d > s.swing.reach + 1.6) continue
