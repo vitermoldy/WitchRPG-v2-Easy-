@@ -181,3 +181,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
     }
   })
 
+  $('gate-switch').addEventListener('click', () => {
