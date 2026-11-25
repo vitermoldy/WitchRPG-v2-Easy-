@@ -302,3 +302,4 @@ export class Spells {
     const g = this.g
     for (let i = this.bolts.length - 1; i >= 0; i--) {
       const b = this.bolts[i]
+      b.prev.copy(b.pos)
