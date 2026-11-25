@@ -171,3 +171,4 @@ export function scatter(size = 1260, step = 4, seed = 3): Tree[] {
       const rot = rnd() * Math.PI * 2
       const sc = 0.7 + rnd() * 0.65
       const h = heightMap(x, y)
+      const e = 1.5
