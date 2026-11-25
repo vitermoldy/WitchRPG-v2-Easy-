@@ -158,3 +158,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
     const password = pass.value
     user.toggleAttribute('aria-invalid', !name)
     pass.toggleAttribute('aria-invalid', !password)
+    if (!name || !password) {
