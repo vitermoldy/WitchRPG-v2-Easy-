@@ -40,3 +40,4 @@ Varian yang dibandingkan di `00-kamera-varian.png`:
 
 | Varian | Angka | Hasil |
 | --- | --- | --- |
+| A | Angka awal prompt: FOV 68 vertikal, 3,4 m, bahu 0,85 m, tinggi 1,65 m | Ilyra sekitar sepertiga tinggi layar, tepi gambar meregang, Imp kecil |
