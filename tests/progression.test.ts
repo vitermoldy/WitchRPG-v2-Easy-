@@ -98,3 +98,4 @@ describe('upgrades and shadows', () => {
     const p = newProfile()
     p.skillPoints = 2
     expect(buyUpgrade(p, 'burst')).toBe(false)
+    expect(buyUpgrade(p, 'hexBolt')).toBe(true)
