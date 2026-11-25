@@ -691,3 +691,4 @@ def sky_world(name, zenith, horizon, ground, strength=1.0, haze=None, haze_densi
         L.new(pw.outputs[0], mix.inputs["Factor"])
         L.new(col, mix.inputs["A"])
         col = mix.outputs["Result"]
+    L.new(col, bg.inputs["Color"])
