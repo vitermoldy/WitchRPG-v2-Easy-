@@ -124,3 +124,4 @@ export class Particles {
 
   emit(e: Emit) {
     this.c.set(e.color).multiplyScalar(e.intensity ?? 1)
+    for (let n = 0; n < e.count; n++) {
