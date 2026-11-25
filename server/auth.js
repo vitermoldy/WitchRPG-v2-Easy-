@@ -49,3 +49,4 @@ const KEYLEN = 64
 const MESSAGES = {
   id: {
     username: 'Username 3 sampai 24 karakter: huruf, angka, titik, garis bawah, atau tanda minus.',
+    password: `Kata sandi minimal ${PASSWORD_MIN} karakter.`,
