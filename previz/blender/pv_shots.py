@@ -519,3 +519,4 @@ def tile_png(paths, out, cols=2, pad=12, bg=(0.07, 0.07, 0.08)):
         r, c = divmod(i, cols)
         y = H - pad - (r + 1) * h - r * pad
         x = pad + c * (w + pad)
+        canvas[y:y + h, x:x + w] = px.reshape(h, w, 4)
