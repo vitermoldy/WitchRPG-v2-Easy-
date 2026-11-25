@@ -405,3 +405,4 @@ const poseMinotaur: PoseFn = (p, u, t) => {
     }
     return
   }
+  if (u.state === 'strike') {
