@@ -244,3 +244,4 @@ export class Lair {
       body.hp = Math.max(1, body.hp - body.maxHp * HYDRA.severShare)
       body.flash = 0.3
     }
+    g.hud.message('Kepala Hydra terpenggal. Tubuhnya kehilangan 8% HP.', 'chaos')
