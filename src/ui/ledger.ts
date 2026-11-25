@@ -68,3 +68,4 @@ export class Ledger {
         if (d.open) this.openGroups.add(d.dataset.group)
         else this.openGroups.delete(d.dataset.group)
       },
+      true,
