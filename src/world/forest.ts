@@ -12,3 +12,4 @@ type Kind = 'pine' | 'pine_tall' | 'pine_warm' | 'birch' | 'swamp' | 'dead' | 'b
 
 /** Shape of each kind at scale 1, for the colliders: trunk radius and height, crown base, radius and top. */
 const SHAPE: Record<Kind, { trunk: number; h: number; crown: [number, number, number] | null }> = {
+  pine: { trunk: 0.3, h: 13, crown: [3.6, 2.4, 13.5] },
