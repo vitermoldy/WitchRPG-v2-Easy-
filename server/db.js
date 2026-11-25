@@ -29,3 +29,4 @@ const TABLES = [
     umb SMALLINT UNSIGNED NOT NULL,
     next_shadow_id INT UNSIGNED NOT NULL,
     boss_kills INT UNSIGNED NOT NULL DEFAULT 0,
+    settings JSON NOT NULL,
