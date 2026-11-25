@@ -119,3 +119,4 @@ export class Seal {
       if (this.fade === 0) this.mesh.visible = false
     }
   }
+}
