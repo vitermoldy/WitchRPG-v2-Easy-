@@ -32,3 +32,4 @@ export const MOVE = {
     /** She cannot be hit between these two moments of the roll (seconds from its start). */
     iframeStart: 0.04,
     iframeEnd: 0.32,
+    cooldown: 0.25,
