@@ -969,3 +969,4 @@ export const RISE_TIME = 1.0
 export const SINK_TIME = 0.8
 
 /**
+ * Draws every creature: enemies and the nearest shadows with animated part rigs, the rest of the army
