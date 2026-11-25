@@ -25,3 +25,4 @@ export const MOVE = {
   /** Deepest water she wades into; Danau Hitam and the swamp pools are deeper. */
   maxWade: 0.9,
   /** Flight (B, from v1): pace, with Shift, climb with Space or C, how fast she reaches them (m/s, m/s2), and how high above the ground she may rise (m). */
+  fly: { speed: 13, boost: 26, climb: 8, accel: 30, ceiling: 40 },
