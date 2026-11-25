@@ -112,3 +112,4 @@ export class Telegraphs {
     return { mesh, mat, kind, unit: null, ox: 0, oz: 0, dx: 0, dz: 1, len: 1, width: 1, radius: 1, t0: 0, total: 1, follow: false }
   }
 
+  /**
