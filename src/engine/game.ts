@@ -807,3 +807,4 @@ export class Game implements UnitHost {
           else lo = m
         }
         best = hi
+        break
