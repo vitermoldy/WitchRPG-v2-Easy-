@@ -144,3 +144,5 @@ export class Telegraphs {
       this.layRing(it, u.aimAt.x, u.aimAt.z)
     }
     this.byUnit.set(u.id, it)
+  }
+
