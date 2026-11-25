@@ -20,3 +20,4 @@ export const MOVE = {
   radius: 0.38,
   height: 1.7,
   gravity: 22,
+  /** Steepest slope she can walk up, as rise over run; the cliffs of Tebing Berangin are steeper. */
