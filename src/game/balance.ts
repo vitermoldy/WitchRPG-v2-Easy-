@@ -36,3 +36,5 @@ export const MOVE = {
   },
   dodgePerAgi: 0.05,
   interactRange: 3,
+} as const
+
