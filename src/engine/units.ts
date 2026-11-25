@@ -703,3 +703,4 @@ export class UnitSystem {
         } else if (spec.fly) {
           // a downed flyer crawls toward her and cannot strike until it is up again
           this.steer(u, tgt.pos.x, tgt.pos.z, speed * 0.35, dt, 2)
+          u.alt += (0 - u.alt) * Math.min(1, dt * 6)
