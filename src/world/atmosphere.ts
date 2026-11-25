@@ -120,3 +120,4 @@ export class Atmosphere {
     const k = snap ? 1 : Math.min(1, dt * 0.8)
     this.fog.color.lerp(this.fogTarget, k)
     this.fog.density += (this.densityTarget - this.fog.density) * k
+    ;(this.uniforms.horizon.value as THREE.Color).lerp(this.skyTarget, k)
