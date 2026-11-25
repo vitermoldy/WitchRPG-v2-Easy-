@@ -213,3 +213,5 @@ export class Game implements UnitHost {
   height(x: number, z: number) {
     const base = heightAt(x, z)
     return this.lair ? this.lair.height(x, z, base) : base
+  }
+
