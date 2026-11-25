@@ -190,3 +190,5 @@ export class Lair {
     }
     g.props.clear()
     if (this.state === 'fight') this.state = 'calm'
+  }
+
