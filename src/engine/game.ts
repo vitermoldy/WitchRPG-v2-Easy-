@@ -965,3 +965,4 @@ export class Game implements UnitHost {
       overload: inp.pressed('KeyG'),
       burst: inp.pressed('KeyQ'),
       snare: inp.pressed('KeyE'),
+      barrier: inp.pressed('KeyX'),
