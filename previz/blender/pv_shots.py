@@ -584,3 +584,4 @@ def build_board(lib_colls, stats):
         r_, c_ = divmod(i, cols)
         x0, z0 = c_ * cw, -(head + r_ * ch)
         bg = C.Rig(f"kartu.{k}", {"c": card, "w": well}, coll)
+        bg.P("m").box((x0 + cw / 2, 1.0, z0 - ch / 2), (cw - 0.24, 0.02, ch - 0.24), mat="c")
