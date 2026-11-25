@@ -357,3 +357,4 @@ export class Sfx {
       this.windNodes = { gain, filter }
     }
     const t = ctx.currentTime
+    this.windNodes.gain.gain.setTargetAtTime(level > 0 ? 0.04 + level * 0.18 : 0.0001, t, 0.25)
