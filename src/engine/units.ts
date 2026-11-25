@@ -279,3 +279,4 @@ const cellKey = (ix: number, iz: number) => (ix + 32768) * 65536 + (iz + 32768)
 export class UnitSystem {
   readonly units: Unit[] = []
   private readonly host: UnitHost
+  private readonly grid = new Map<number, Unit[]>()
