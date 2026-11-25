@@ -272,3 +272,4 @@ export class Lair {
   // ------------------------------------------------------------ ground, water and the lair's edge
 
   /** Ground height in the lair: the islands stand up out of the flood. */
+  height(x: number, z: number, base: number): number {
