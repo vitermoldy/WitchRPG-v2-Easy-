@@ -213,3 +213,4 @@ export class Umbra {
     g.pools.open(feet, Math.min(60, Math.max(4 + Math.sqrt(out.length) * 1.8, out.length > POOLS_PER_CALL ? ringRadius(out.length) + 3 : 0)), 0.7, 0.4)
     if (quiet) return
     g.sfx.dismiss()
+    g.hud.message(`${out.length} bayangan kembali ke Ruang Bayangan.`, 'umbra')
