@@ -135,3 +135,4 @@ export class Telegraphs {
       it.dz = u.lungeDir.z
       it.len = atk.shot ? dist + 4 : (atk.lungeSpeed ?? 12) * (atk.lungeTime ?? 0.4) + u.radius + 1
       it.width = atk.shot ? 0.9 : Math.max(1.1, u.radius * 2.2)
+      it.total = atk.windup * u.tempo
