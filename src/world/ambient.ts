@@ -131,3 +131,4 @@ export class Ambient {
     scene.add(this.points)
 
     this.riftMat = new THREE.ShaderMaterial({
+      uniforms: { uTime: { value: 0 }, uFade: { value: 0 } },
