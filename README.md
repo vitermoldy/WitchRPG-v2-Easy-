@@ -75,3 +75,4 @@ Salin `.env.example` menjadi `.env` dan isi akun MySQL. Server membuat database 
 | Umbra (tangan kanan) | |
 | --- | --- |
 | Tahan R | Umbra Rite pada tubuh yang bersinar ungu (Lv 2); dua tubuh atau lebih dalam 12 m dibangkitkan sekaligus |
+| T | Panggil atau kembalikan seluruh pasukan |
