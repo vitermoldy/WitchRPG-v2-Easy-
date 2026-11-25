@@ -145,3 +145,4 @@ function mulberry32(seed: number) {
   }
 }
 
+export interface Tree {
