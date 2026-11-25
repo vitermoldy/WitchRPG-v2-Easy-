@@ -26,3 +26,5 @@ Tanpa `--anim` hanya still yang dirender (sekitar 1 menit). `--only hero,valley`
 
 Urutan animatic: 0 sampai 7 detik terbang dari selatan ke barat laut di atas lembah; 7 sampai 10,5 detik turun ke bahu Ilyra di tepi Danau Hitam; 10,5 sampai 16 detik berjalan 9 m menyusuri tepi danau; 16 sampai 19 detik Naga rawa muncul dan kamera lock-on; 19 sampai 26 detik Naga menyelam, Hydra naik, lock-on pindah ke kepala tengah dan kamera mundur sambil bergetar.
 
+## Angka kamera akhir
+
