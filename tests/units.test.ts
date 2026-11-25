@@ -152,3 +152,4 @@ describe('shadows', () => {
 
   it('a creature turns on a shadow that is much closer than her', () => {
     const w = world()
+    w.foe.pos.set(0, 0, 12)
