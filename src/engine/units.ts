@@ -938,3 +938,4 @@ export class UnitSystem {
     u.vel.y -= 22 * (u.flight > 0 ? SPELL.grip.flightGravity : 1) * dt
     u.pos.addScaledVector(u.vel, dt)
     u.yaw += dt * 6
+    const speed = u.vel.length()
