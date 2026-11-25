@@ -22,3 +22,4 @@ const RING_FRAG = /* glsl */ `
     float r = length(p);
     if (r > 1.0) discard;
     float pulse = 0.5 + 0.5 * sin(uTime * 2.2 * 6.2832);
+    float edge = smoothstep(0.09, 0.0, abs(r - 0.93)) * (0.55 + 0.45 * pulse);
