@@ -349,3 +349,4 @@ class Part:
             self.ell(b, rb, mat=mat, seg=seg, rings=6)
         return self
 
+    def cone(self, base, tip, r, mat="horn", seg=8, r2=0.0, smooth=True):
