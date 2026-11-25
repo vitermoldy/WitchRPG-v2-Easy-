@@ -245,3 +245,4 @@ export class Camps {
           if (alive.some(close)) {
             camp.roused = true
             for (const u of alive) u.aggro = true
+            g.sfx.growl()
