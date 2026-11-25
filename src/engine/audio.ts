@@ -90,3 +90,4 @@ export class Sfx {
     const t = this.ctx!.currentTime
     this.tone(t, 'sawtooth', 900 + Math.random() * 120, 180, 0.16, 0.12)
     this.tone(t, 'square', 1800, 600, 0.06, 0.04)
+    this.noise(t, 0.1, 'bandpass', 3000, 0.12, 2)
