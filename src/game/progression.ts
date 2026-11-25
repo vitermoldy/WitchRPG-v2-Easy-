@@ -262,3 +262,4 @@ const SYLLABLES = ['ve', 'mor', 'ska', 'thal', 'ri', 'on', 'du', 'kar', 'nyx', '
 
 /** A short name per shadow, fixed by its id so the same shadow keeps its name. */
 export function shadowName(id: number): string {
+  let h = Math.imul(id, 2654435761) >>> 0
