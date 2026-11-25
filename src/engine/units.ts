@@ -589,3 +589,4 @@ export class UnitSystem {
       const a = Math.random() * Math.PI * 2
       const r = 4 + Math.random() * 3
       const x = u.pos.x + Math.cos(a) * r
+      const z = u.pos.z + Math.sin(a) * r
