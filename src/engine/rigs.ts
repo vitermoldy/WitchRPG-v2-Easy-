@@ -221,3 +221,4 @@ const poseHound: PoseFn = (p, u, t) => {
   if (u.state === 'stagger') {
     p.body(-0.12, 6, 7 * Math.sin(t * 3))
     for (let i = 0; i < 3; i++) p.rot('neck' + i, 40 + 8 * Math.sin(t * 4 + i), (i - 1) * -12)
+    p.rot('leg_FL', 10 * Math.sin(t * 5))
