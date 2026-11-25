@@ -191,3 +191,4 @@ export class Telegraphs {
       const along = (0.5 - base[i * 3 + 2]) * it.len
       const x = it.ox + it.dx * along + rx * across
       const z = it.oz + it.dz * along + rz * across
+      pos.setXYZ(i, x, this.height(x, z) + LIFT, z)
