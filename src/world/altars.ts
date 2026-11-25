@@ -116,3 +116,4 @@ export class Altars {
     }
     if (!p.alive) return
     const w = g.profile.world
+    for (const a of this.list) {
