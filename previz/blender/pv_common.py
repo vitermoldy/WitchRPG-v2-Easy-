@@ -330,3 +330,4 @@ class Part:
         if isinstance(r, (int, float)):
             r = (r, r, r)
         R = Euler([math.radians(a) for a in rot]).to_matrix().to_4x4()
+        M = self._M(c) @ R @ Matrix.Diagonal((r[0], r[1], r[2], 1))
