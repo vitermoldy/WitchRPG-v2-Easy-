@@ -85,3 +85,4 @@ export class Player {
     return Math.hypot(this.vx, this.vz)
   }
 
+  get dodging() {
