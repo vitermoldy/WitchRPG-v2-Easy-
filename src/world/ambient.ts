@@ -163,3 +163,4 @@ export class Ambient {
     const k = this.pick(w)
     this.kind[i] = k
     const p = this.pos
+    p[i * 3] = cam.x + (Math.random() * 2 - 1) * HALF
