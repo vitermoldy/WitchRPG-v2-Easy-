@@ -280,3 +280,4 @@ export class Sfx {
   }
 
   clank() {
+    if (!this.ok()) return
