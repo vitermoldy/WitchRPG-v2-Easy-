@@ -774,3 +774,4 @@ export class Game implements UnitHost {
   adoptProfile(p: Profile) {
     const own = this.profile as unknown as Record<string, unknown>
     for (const k of Object.keys(own)) if (!(k in p)) delete own[k]
+    Object.assign(this.profile, p)
