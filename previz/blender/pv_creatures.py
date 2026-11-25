@@ -1187,3 +1187,4 @@ def build(key, coll, kind=None, pose=None, lights=True):
         r.J = J
         return r
     row = ROSTER_BY_KEY[key]
+    r = C.Rig(coll.name, creature_palette(key, kind), coll)
