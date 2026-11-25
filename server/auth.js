@@ -124,3 +124,5 @@ export function createAuth({ getPool, cookie, lang, deviceCode, newDevice }) {
   // Checked against when the username does not exist, so a wrong name takes as long as a wrong password.
   const decoy = hashPassword(randomBytes(12).toString('hex'))
 
+  const publicUser = (row) => ({ username: row.username, createdAt: row.created_at })
+
