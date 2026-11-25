@@ -490,3 +490,4 @@ class Rig:
     def rot(self, name, deg):
         ob = self.objs.get(name)
         if ob:
+            ob.rotation_euler = Euler([math.radians(a) for a in deg])
