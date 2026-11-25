@@ -68,3 +68,6 @@ def sun_dir(f, left_deg, elev_deg):
     """Direction towards the sun: the facing f turned left by left_deg, raised by elev_deg."""
     a = math.atan2(f[1], f[0]) + math.radians(left_deg)
     e = math.radians(elev_deg)
+    return Vector((math.cos(a) * math.cos(e), math.sin(a) * math.cos(e), math.sin(e)))
+
+
