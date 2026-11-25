@@ -318,3 +318,4 @@ export class Hud {
     this.set('army-order', 'text', !first ? (total ? 'Di Ruang Bayangan' : 'Belum ada') : first.command === 'attack' ? 'Serang' : first.command === 'hold' ? 'Tahan' : 'Ikuti')
   }
 
+  private updateWheel() {
