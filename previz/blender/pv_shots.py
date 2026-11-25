@@ -172,3 +172,4 @@ def mat_ring(name, color, strength, inner=0.82, alpha=0.9, fill=0.08):
     mix = N.new("ShaderNodeMixShader")
     al = N.new("ShaderNodeMath")
     al.operation = "MULTIPLY"
+    al.inputs[1].default_value = alpha
