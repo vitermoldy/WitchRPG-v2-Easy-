@@ -161,3 +161,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
     if (!name || !password) {
       showError(!name ? 'Isi username dulu.' : 'Isi kata sandi dulu.')
       ;(!name ? user : pass).focus()
+      return
