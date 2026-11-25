@@ -155,3 +155,4 @@ export class Ledger {
       $(`tree-${branch}`).innerHTML = SKILLS.filter((s) => s.branch === branch)
         .map((s) => {
           const open = isUnlocked(p, s.id)
+          const bought = !!p.upgrades[s.id]
