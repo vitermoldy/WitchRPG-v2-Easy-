@@ -383,3 +383,5 @@ export class UnitSystem {
     u.lifted = 0
     if (u.owner) u.owner.helpers = Math.max(0, u.owner.helpers - 1)
     this.host.died(u)
+  }
+
