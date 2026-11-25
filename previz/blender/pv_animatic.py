@@ -201,3 +201,4 @@ def build(dunia, res=(1280, 720), samples=24):
         else:
             u = seg(t, T_NAGA + 0.6, T_NAGA + 4.5)
             tgt_h = hydra_head(t) + Vector((0, 0, -1.5))
+            tgt_n = Vector((Np.x, Np.y, 2.6))
