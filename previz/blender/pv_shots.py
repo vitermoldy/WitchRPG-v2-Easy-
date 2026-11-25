@@ -370,3 +370,4 @@ def foam_rings(local, hy, inst, mat=None):
 
 def build_army(dunia):
     P = Wd.SPOTS["army"]
+    f = Vector((0.15, 1, 0)).normalized()
