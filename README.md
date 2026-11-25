@@ -118,3 +118,4 @@ src/world/    peta, zona, dan altar (map.ts, altars.ts), medan per chunk, hutan,
               segel zona IV dan V (seal.ts), sarang dan pertarungan Hydra (lair.ts), partikel dan Rift di langit (ambient.ts)
 src/data/     panggilan ke server akun (api.ts)
 src/ui/       HUD, Ledger dan panel altar (ledger.ts), gerbang masuk dan baris akun (account.ts), peta (worldmap.ts)
+server/       Express + MySQL: akun (auth.js dari v1), simpanan witch (app.js), tabel (db.js), npm run users dan set-user
