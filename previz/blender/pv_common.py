@@ -261,3 +261,4 @@ def palette(kind, body="#1f1a1c", body2=None, horn="#4a3f38", tag=""):
         "membrane": mat_cracked("membrane_shadow", "#2a1846", HEX["umbra"], 3.0, coverage=0.35),
     })
     for k in ("skin", "hair", "gold", "accent", "snake", "goat", "collar", "globe"):
+        sh[k] = sh["body2"] if k in ("hair", "accent", "snake") else sh["body"] if k in ("skin", "goat", "globe") else sh["metal"]
