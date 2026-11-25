@@ -51,3 +51,4 @@ export class Fauna {
         u.home = new THREE.Vector3(s.x, 0, s.z)
         u.aggro = false
         s.unit = u
+      } else if (s.unit && d > SLEEP) {
