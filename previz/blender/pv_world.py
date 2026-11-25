@@ -310,3 +310,4 @@ def _birch(p):
         p.ell((x, y, z), (r, r, r * 0.85), mat="leaf", seg=8, rings=6, smooth=False)
 
 
+def _swamp_tree(p):
