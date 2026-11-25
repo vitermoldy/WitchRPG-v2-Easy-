@@ -984,3 +984,4 @@ button {
 }
 
 .skill.ready-full {
+  border-color: var(--chaos);
