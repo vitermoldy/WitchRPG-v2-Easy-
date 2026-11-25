@@ -74,3 +74,4 @@ def bake_tones(ob):
     tones = [tone_of(s.material) for s in ob.material_slots]
     if not any(tones):
         return False
+    me = ob.data
