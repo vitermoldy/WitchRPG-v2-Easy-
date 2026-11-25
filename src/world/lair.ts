@@ -157,3 +157,4 @@ export class Lair {
     body.setScale(HYDRA.scale)
     body.pos.y = WATER_LEVEL - 1
     body.yaw = Math.atan2(this.center.x - at.x, this.center.z - at.z)
+    this.heads = []
