@@ -277,3 +277,4 @@ export class Camps {
     let best: { camp: Camp; dist: number } | null = null
     for (const camp of this.camps) {
       if (camp.state === 'cleared') continue
+      const d = Math.hypot(p.x - camp.pos.x, p.z - camp.pos.z)
