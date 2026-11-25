@@ -48,3 +48,4 @@ const MOTE_VERT = /* glsl */ `
     vTint = tint;
     vAlpha = alpha;
   }
+`
