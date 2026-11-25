@@ -13,3 +13,4 @@ export interface Vec {
   z: number
 }
 export type HeightFn = (x: number, z: number) => number
+export interface CamParams {
