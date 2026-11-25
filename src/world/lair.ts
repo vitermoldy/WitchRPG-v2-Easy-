@@ -498,3 +498,4 @@ export class Lair {
       if (her) body.yaw = Math.atan2(her.x - body.pos.x, her.z - body.pos.z)
       this.bodyAttackIn -= dt
       if (her && this.bodyAttackIn <= 0) {
+        const d = Math.hypot(her.x - body.pos.x, her.z - body.pos.z)
