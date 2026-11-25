@@ -46,3 +46,4 @@ def build(dunia, res=(1280, 720), samples=24):
     left = Vector((0, 0, 1)).cross(f)
     A = Sp - f * 9.0
     sd = S.sun_dir(f, 12, 3.5)
+    world = C.sky_world("langit_senja_anim", "#241f45", "#ff9a5c", "#1a1418", 1.0, sun_dir=sd, sun_glow="#ffb46a", glow_power=10)
