@@ -174,3 +174,4 @@ export class IlyraModel {
   update(dt: number, p: Player, aim: number, act: IlyraPose = idlePose()) {
     this.t += dt
     this.root.position.set(p.pos.x, p.pos.y, p.pos.z)
+    // her yaw faces -z at 0; the model faces +z
