@@ -783,3 +783,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     boss: true,
     blink: { range: 13, every: 8 },
     summon: { every: 20, count: 1, max: 2 },
+    summonKind: 'succubus',
