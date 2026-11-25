@@ -107,3 +107,4 @@ export class Input {
   }
 }
 
+const GAME_KEYS = new Set([
