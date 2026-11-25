@@ -128,3 +128,4 @@ export class Unit implements Foe {
   /** Seconds a Telekinesis throw keeps it flying nearly straight. */
   flight = 0
   /** Seconds Reality Warp keeps it hanging in the air. */
+  lifted = 0
