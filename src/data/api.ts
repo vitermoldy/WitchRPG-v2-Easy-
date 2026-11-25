@@ -51,3 +51,4 @@ export interface AuthState {
 }
 
 let auth: AuthState = { status: 'checking', account: null }
+const listeners = new Set<(state: AuthState) => void>()
