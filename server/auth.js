@@ -92,3 +92,4 @@ function readCookie(req, name) {
     const at = part.indexOf('=')
     if (at > 0 && part.slice(0, at).trim() === name) return decodeURIComponent(part.slice(at + 1).trim())
   }
+  return undefined
