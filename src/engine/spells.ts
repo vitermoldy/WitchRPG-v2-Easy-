@@ -432,3 +432,4 @@ export class Spells {
       goal.y = Math.max(goal.y, g.ground.height(goal.x, goal.z) + 1)
       prop.pos.lerp(goal, Math.min(1, dt * 6))
       prop.spin += dt * 2
+      this.drawTendril(prop.pos)
