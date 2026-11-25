@@ -59,3 +59,5 @@ class Staff {
     this.obj.visible = false
     this.g.scene.add(this.obj)
     return this.obj
+  }
+
