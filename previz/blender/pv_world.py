@@ -430,3 +430,6 @@ MIX = {
     "rawa": ({"swamp": 0.55, "dead": 0.3, "pine": 0.15}, 0.95),
     "kuil": ({"pine": 0.5, "pine_tall": 0.35, "birch": 0.15}, 1.3),
     "bara": ({"burnt": 0.85, "dead": 0.15}, 0.85),
+}
+
+
