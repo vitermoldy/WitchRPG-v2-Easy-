@@ -298,3 +298,4 @@ export class Umbra {
               bestScore = score
               best = u
             }
+          }
