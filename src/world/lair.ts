@@ -10,3 +10,4 @@ export type LairState = 'calm' | 'fight' | 'won'
 /**
  * How much of a blow on the Hydra lands. Phase 1: everything. Phase 2: its slimy skin lets bolts and
  * blasts do 10% and thrown things (boulders, bodies, the staff) 150%. Phase 3: nothing, except inside
+ * Reality Warp, where its open heart takes 150%. The army's blows always do 15% of their damage: the
