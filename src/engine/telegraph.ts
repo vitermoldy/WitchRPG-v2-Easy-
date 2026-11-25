@@ -120,3 +120,4 @@ export class Telegraphs {
   show(u: Unit) {
     this.clear(u)
     const atk = u.atk
+    const kind = atk.strike
