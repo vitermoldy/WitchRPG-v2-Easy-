@@ -404,3 +404,4 @@ export class Lair {
       const atk = h.atk
       if (h.state === 'windup') {
         if (her) h.aimAt.lerp(her, Math.min(1, dt * 1.5))
+        if (!atk.shot) this.inReach(h.aimAt)
