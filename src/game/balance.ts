@@ -931,3 +931,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
  * 66% HP): the water rises and the shore breaks into islands; its slimy skin takes 10% from bolts and
  * 150% from thrown things; boulders wait on the islands. Phase 3 (from 33%): it swallows its heads and
  * takes nothing outside Reality Warp; inside the field its heart opens for +50%.
+ */
