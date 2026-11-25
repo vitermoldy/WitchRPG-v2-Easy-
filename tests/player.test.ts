@@ -54,3 +54,4 @@ describe('Ilyra in the air (B)', () => {
     expect(p.flying).toBe(false)
   })
 
+  it('does not roll in the air', () => {
