@@ -28,3 +28,4 @@ export const MOVE = {
   fly: { speed: 13, boost: 26, climb: 8, accel: 30, ceiling: 40 },
   dodge: {
     distance: 4.2,
+    time: 0.42,
