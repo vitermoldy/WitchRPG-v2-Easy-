@@ -148,3 +148,5 @@ describe('shadows', () => {
     w.step(8)
     expect(w.log.unitStrikes).toBeGreaterThan(0)
     expect(enemy.alive).toBe(false)
+  })
+
