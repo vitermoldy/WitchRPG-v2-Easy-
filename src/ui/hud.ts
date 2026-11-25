@@ -251,3 +251,4 @@ export class Hud {
     const ex = g.player.alive && !g.fight.exec ? g.fight.executable() : null
     const c = g.umbra.candidate
     const many = g.umbra.targets.length
+    if (!g.player.alive) html = 'Ilyra tumbang'
