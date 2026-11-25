@@ -229,3 +229,4 @@ export function addColliders(trees: Tree[], obs: Obstacles) {
   }
 }
 
+export class Forest {
