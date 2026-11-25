@@ -315,3 +315,4 @@ def _swamp_tree(p):
     for k in range(6):
         a = 2 * math.pi * k / 6 + 0.4
         d = Vector((math.cos(a), math.sin(a), 0))
+        p.tube([Vector((0, 0, 2.2)), d * 1.2 + Vector((0, 0, 2.0)), d * 2.4 + Vector((0, 0, 1.0)), d * 3.0 + Vector((0, 0, -0.6))], [0.22, 0.17, 0.12, 0.08], mat="swampwood", seg=6, n=3)
