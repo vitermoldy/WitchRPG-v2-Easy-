@@ -8,3 +8,4 @@ export function loadProfile(): { profile: Profile; error: string | null } {
   try {
     raw = localStorage.getItem(KEY)
   } catch {
+    return { profile: newProfile(), error: 'Penyimpanan browser diblokir, progres tidak akan tersimpan.' }
