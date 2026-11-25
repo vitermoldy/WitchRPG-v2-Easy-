@@ -958,3 +958,4 @@ def b_lilith(r):
     r.parts["torso"].ell(V(J["chest"]) + Vector((0, -0.005, -0.02)), (0.19, 0.15, 0.17), mat="cloth")
     h = r.parts["head"]
     hc = V(J["head_c"])
+    h.ell(hc, (0.1, 0.11, 0.13), mat="skin")
