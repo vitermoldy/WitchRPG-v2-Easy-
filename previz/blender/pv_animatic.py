@@ -204,3 +204,4 @@ def build(dunia, res=(1280, 720), samples=24):
             tgt_n = Vector((Np.x, Np.y, 2.6))
             tgt = tgt_n.lerp(tgt_h, seg(t, T_NAGA + 0.8, T_NAGA + 3.0))
             d = tgt - Vector((P.x, P.y, 0))
+            d.z = 0
