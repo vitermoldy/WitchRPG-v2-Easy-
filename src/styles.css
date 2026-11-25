@@ -763,3 +763,4 @@ button {
   margin: 0;
   max-width: 90vw;
   padding: 0.25rem 0.7rem;
+  border-radius: var(--radius);
