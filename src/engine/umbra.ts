@@ -290,3 +290,4 @@ export class Umbra {
         const dist = Math.hypot(u.pos.x - p.pos.x, u.pos.z - p.pos.z)
         if (dist < RITE.massRadius && !riteBlock(g.profile, u.kind, rankOf(u))) near.push(u)
         if (dist < RITE.range) {
+          const dir = new THREE.Vector3(u.pos.x, u.pos.y + 0.3, u.pos.z).sub(cam).normalize()
