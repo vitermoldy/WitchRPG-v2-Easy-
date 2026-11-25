@@ -365,3 +365,4 @@ def face(part, hc, H, eyes=True, nose=True, mat="skin"):
             part.ell(hc + Vector((0.034 * s * k, -0.085 * k, 0.018 * k)), (0.018 * k, 0.01 * k, 0.011 * k), mat="eye", seg=8, rings=5)
 
 
+def beard(part, chin, length, r, mat="hair"):
