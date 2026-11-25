@@ -126,3 +126,4 @@ export class Player {
       this.fly(dt, input, wx, wz, wl, face, g)
       return
     }
+    if (input.dodge && this.dodgeT < 0 && this.dodgeCd <= 0) {
