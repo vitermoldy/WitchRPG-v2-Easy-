@@ -10,3 +10,4 @@ import {
   tierUnlocked,
   xpForUnit,
   gainXp,
+  impactDamage,
