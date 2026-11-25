@@ -207,3 +207,5 @@ SLOT_DEFAULTS = {
 
 
 class Pal(dict):
+    """Material set; a slot nobody coloured falls back to the body material."""
+
