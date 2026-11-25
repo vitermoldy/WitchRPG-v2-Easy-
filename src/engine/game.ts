@@ -777,3 +777,4 @@ export class Game implements UnitHost {
     Object.assign(this.profile, p)
     saveProfile(this.profile, false)
     this.sensitivity = p.settings.sensitivity
+    this.rigs.detail = p.settings.detail
