@@ -520,3 +520,4 @@ export class Umbra {
       const hit = g.aim(60)
       let target: Unit | null = locked && locked.alive ? locked : hit.unit
       if (!target) {
+        let bd = 10
