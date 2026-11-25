@@ -1036,3 +1036,4 @@ export class Rigs {
       while (cap < need) cap *= 2
       for (const part of b.parts) {
         this.group.remove(part.mesh)
+        part.mesh.dispose()
