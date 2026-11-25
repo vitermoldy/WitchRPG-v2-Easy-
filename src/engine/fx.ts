@@ -90,3 +90,4 @@ export class Particles {
     this.col = new Float32Array(max * 3)
     this.size = new Float32Array(max)
     this.alpha = new Float32Array(max)
+    this.vel = new Float32Array(max * 3)
