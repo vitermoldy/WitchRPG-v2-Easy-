@@ -78,3 +78,5 @@ Tinggi total diukur dari block-out (termasuk tanduk dan sayap yang terangkat; Il
 | Pegasus | 3,96 m | gumba 1,65 m | 3,33 m | 4,33 m | 0,80 m | 5.592 | 8.000 | seluruh hutan |
 | Unicorn | 2,95 m | gumba 1,65 m | 3,33 m | 0,55 m | 0,70 m | 5.300 | 8.000 | altar |
 
+Tiga block-out melewati anggaran mob (dicetak tebal): Hellhound, Centaur, dan Cyclops, karena kepala bergigi, gelang, tali, perisai, dan ekor ular yang ditambahkan supaya mirip referensi. Penyebab utamanya bola penuh di setiap sendi dan cincin aksesori; model akhir di Fase 6 harus memangkasnya ke bawah 8.000. Semua boss dan Ilyra di bawah anggaran.
+
