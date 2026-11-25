@@ -204,3 +204,4 @@ export class Umbra {
     this.calls = []
     this.armyOut = false
     if (!out.length) return
+    out.forEach((u, i) => {
