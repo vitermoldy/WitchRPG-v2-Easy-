@@ -979,3 +979,4 @@ def b_lilith(r):
         bat_wing(sp, V(pts[-3]) + Vector((0.12 * s, 0.05, 0.0)), s, 0.6, 0.4, raise_deg=40, sweep_deg=20, bone="snake", arm="snake")
 
 
+def b_typhon(r):
