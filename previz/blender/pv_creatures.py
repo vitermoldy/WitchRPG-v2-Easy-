@@ -436,3 +436,4 @@ def b_ilyra(r, pose="idle"):
             row.append(Vector((math.sin(a) * rad, 0.03 + math.cos(a) * rad * 0.75, zz + hem)))
         sheet.append(row)
     cl = r.P("cloak", (0, 0.05, z["sh"]), "torso")
+    for i in range(rows - 1):
