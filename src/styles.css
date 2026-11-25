@@ -355,3 +355,4 @@ button {
 }
 
 .setting-check {
+  grid-template-columns: 1fr auto;
