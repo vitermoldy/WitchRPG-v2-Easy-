@@ -131,3 +131,4 @@ export class Ledger {
     $('stat-points').textContent = p.statPoints ? `${p.statPoints} poin bebas` : 'tidak ada poin'
     $('skill-points').textContent = p.skillPoints ? `${p.skillPoints} poin skill` : 'tidak ada poin'
 
+    $('stat-list').innerHTML = STAT_KEYS.map((k) => {
