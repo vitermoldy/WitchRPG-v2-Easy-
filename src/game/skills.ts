@@ -27,3 +27,4 @@ export interface SkillDef {
   noUpgrade?: boolean
 }
 
+export const SKILLS: SkillDef[] = [
