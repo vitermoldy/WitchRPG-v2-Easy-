@@ -14,3 +14,4 @@ describe('the save', () => {
 
   it('keeps lit altars and the rise point, without doubles or junk', () => {
     const p0 = newProfile()
+    p0.world = { altars: ['pembuka', 'tebing', 'tebing', 7 as unknown as string], last: 'tebing' }
