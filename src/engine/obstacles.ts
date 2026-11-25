@@ -46,3 +46,4 @@ export class Obstacles {
         list.push(id)
       }
     }
+    return id
