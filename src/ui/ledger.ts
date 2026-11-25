@@ -52,3 +52,4 @@ const ROOM_SHOWN = 60
 export class Ledger {
   private readonly dlg = $<HTMLDialogElement>('ledger')
   private readonly host: LedgerHost
+  onClose: (() => void) | null = null
