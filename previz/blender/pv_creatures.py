@@ -684,3 +684,4 @@ def b_cyclops(r):
 
 
 def b_medusa(r):
+    """Green-skinned gorgon: copper snake hair, white draped dress with gold, a long green snake tail."""
