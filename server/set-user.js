@@ -33,3 +33,4 @@ try {
   await pool.query('INSERT INTO users (username, password_hash, device_id, created_at) VALUES (?, ?, ?, UTC_TIMESTAMP())', [username, hash, client])
   const [[w]] = await pool.query('SELECT level FROM witches WHERE client_id = ?', [client])
   console.log(w ? `${config.name}: akun ${username} dibuat dan memegang witch yang sudah ada (Lv ${w.level}).` : `${config.name}: akun ${username} dibuat. Belum ada data sebelumnya.`)
+} finally {
