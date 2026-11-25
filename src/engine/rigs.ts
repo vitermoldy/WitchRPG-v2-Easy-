@@ -974,3 +974,4 @@ export const SINK_TIME = 0.8
  */
 export class Rigs {
   readonly group = new THREE.Group()
+  private readonly models: Partial<Record<UnitKind, THREE.Group>>
