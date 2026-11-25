@@ -38,3 +38,5 @@ const VERT = /* glsl */ `
     gl_PointSize = min(aSize * uScale / max(0.001, -mv.z), 90.0);
     gl_Position = projectionMatrix * mv;
   }
+`
+
