@@ -1243,3 +1243,5 @@ button {
   background: var(--rift);
   transform-origin: left;
   transition: transform 0.15s linear;
+}
+
