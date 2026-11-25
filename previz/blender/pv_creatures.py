@@ -534,3 +534,4 @@ def b_harpy(r):
         hd = r.parts["hand_" + side]
         W, d = J["wr_" + side], J["hand_dir_" + side]
         for a in (-0.02, 0.02):
+            hd.cone(W + d * 0.06, W + d * 0.16 + Vector((0, -0.05, a)), 0.008, mat="claw", seg=4)
