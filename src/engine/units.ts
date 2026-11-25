@@ -275,3 +275,4 @@ const CELL = 3
 
 const cellKey = (ix: number, iz: number) => (ix + 32768) * 65536 + (iz + 32768)
 
+/** Every creature and shadow soldier: their decisions, movement and blows. */
