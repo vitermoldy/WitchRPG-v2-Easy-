@@ -349,3 +349,4 @@ def _fern(p):
         p.ell(d * 0.45 + Vector((0, 0, 0.32)), (0.12, 0.5, 0.03), rot=(25, 0, math.degrees(a) - 90), mat="fern", seg=6, rings=4, smooth=False)
 
 
+def _bush(p):
