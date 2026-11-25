@@ -323,3 +323,4 @@ export class Umbra {
       const from = g.ilyra.hand('R')
       for (const target of this.casting.slice(0, 14)) {
         const c = target.pos
+        const pt = from.clone().lerp(c, Math.random())
