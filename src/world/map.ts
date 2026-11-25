@@ -122,3 +122,5 @@ export function smooth(e0: number, e1: number, x: number): number {
   return t * t * (3 - 2 * t)
 }
 
+const dist = (x: number, y: number, c: [number, number]) => Math.hypot(x - c[0], y - c[1])
+
