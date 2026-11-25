@@ -445,3 +445,4 @@ export class Lair {
 
   /** A slam comes down on its circle: whoever stands inside is struck; in phase 1 it spews Imps. */
   private land(u: Unit, atk: AttackSpec) {
+    const g = this.g
