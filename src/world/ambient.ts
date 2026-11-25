@@ -122,3 +122,4 @@ export class Ambient {
       transparent: true,
       depthWrite: false,
       blending: THREE.AdditiveBlending,
+    })
