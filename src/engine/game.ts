@@ -391,3 +391,4 @@ export class Game implements UnitHost {
       height: (x, z) => this.height(x, z),
       obstacles: this.obstacles,
       blocked: (x, z, fx, fz, air) => {
+        if (air ? this.offMap(x, z) : this.baseBlocked(x, z)) return true
