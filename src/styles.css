@@ -1275,3 +1275,5 @@ dialog::backdrop {
 .btn-umbra {
   background: var(--umbra-deep);
   border-color: var(--umbra);
+}
+
