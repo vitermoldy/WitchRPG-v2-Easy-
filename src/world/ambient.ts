@@ -29,3 +29,4 @@ interface Kind {
 const KINDS: Kind[] = [
   { color: 0xfff2c8, size: 0.09, vel: [0.15, -0.05, 0.05], wander: 0.25, blink: 0.2, alpha: 0.55 },
   { color: 0xe8d2aa, size: 0.06, vel: [2.6, 0.1, 0.8], wander: 0.6, blink: 0, alpha: 0.4 },
+  { color: 0xc8ff6a, size: 0.12, vel: [0, 0.05, 0], wander: 0.7, blink: 1, alpha: 0.95 },
