@@ -86,3 +86,4 @@ export class LockOn {
     const cur = this.current
     if (!cur) return
     if (!cur.alive || Math.hypot(cur.x - player.x, cur.z - player.z) > LOCKON.keepRange) {
+      this.current = null
