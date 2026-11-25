@@ -778,3 +778,4 @@ export class UnitSystem {
               if (inside) {
                 if (onPlayer) host.strikePlayer(u, atk)
                 else host.strikeUnit(u, tgt as Unit, atk)
+              }
