@@ -164,3 +164,4 @@ async function boot() {
     if (travel.next === 'ledger') ledger.open()
     else void backToFight()
   }
+  game.input.onKey = (code) => {
