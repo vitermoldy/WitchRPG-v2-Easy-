@@ -122,3 +122,4 @@ def build(dunia, res=(1280, 720), samples=24):
         il_i.location = (P.x, P.y, z + bob)
         il_i.rotation_euler = (0, 0, math.radians(S.yaw_to(face)))
         il_i.keyframe_insert("location", frame=fr)
+        il_i.keyframe_insert("rotation_euler", frame=fr)
