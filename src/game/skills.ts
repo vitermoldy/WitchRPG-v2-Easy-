@@ -66,3 +66,4 @@ export const SKILLS: SkillDef[] = [
     unlock: 5,
     effect: 'Zona 6 m selama 6 detik: musuh melambat 40% dan menerima +25% damage.',
     upgrade: 'Durasi +2 detik.',
+    built: true,
