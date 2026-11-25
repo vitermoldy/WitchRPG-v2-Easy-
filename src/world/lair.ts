@@ -182,3 +182,4 @@ export class Lair {
     this.body = null
     this.heads = []
     this.flood = this.floodTo = 0
+    this.waterY = this.groundY - 3
