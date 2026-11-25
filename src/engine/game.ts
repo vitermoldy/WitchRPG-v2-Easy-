@@ -335,3 +335,5 @@ export class Game implements UnitHost {
       this.sfx.burst()
       this.addTrauma(0.3)
     }
+  }
+
