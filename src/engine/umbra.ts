@@ -25,3 +25,4 @@ export interface UmbraInput {
 
 /** Soldiers of one call that each get their own pool; the rest rise out of the wide spill. */
 const POOLS_PER_CALL = 90
+/** Shadows further than this from her (and not holding a spot) are pulled back to her side. */
