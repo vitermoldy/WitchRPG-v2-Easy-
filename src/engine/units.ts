@@ -675,3 +675,4 @@ export class UnitSystem {
     const tgt: Foe | null = shadow && (!p.alive || shadow.pos.distanceTo(u.pos) < p.pos.distanceTo(u.pos) * 0.6) ? shadow : p.alive ? p : shadow
     u.target = tgt
     if (!tgt) {
+      u.token = false
