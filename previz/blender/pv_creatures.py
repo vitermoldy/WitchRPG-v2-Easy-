@@ -793,3 +793,4 @@ def b_griffin(r):
     b = r.parts["body"]
     b.ell(V(Q["chest"]) + Vector((0, -0.25, 0.1)), (0.48, 0.45, 0.58), mat="body2")
     for s in (1, -1):
+        feather_wing(b, (0.3 * s, -0.55, Q["H"] + 0.05), s, 3.3, 1.7, raise_deg=42, sweep_deg=22, feathers=10, tip_mat="accent")
