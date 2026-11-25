@@ -501,3 +501,4 @@ export class UnitSystem {
         continue
       }
       if (u.state === 'ashes') {
+        const r = u.spec.rebirth!
