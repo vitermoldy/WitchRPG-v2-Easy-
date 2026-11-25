@@ -708,3 +708,4 @@ def render_settings(sc, res=(1920, 1080), samples=64, vol_end=600.0, vol_tile="4
     sc.render.resolution_percentage = 100
     sc.render.image_settings.file_format = "PNG"
     sc.render.image_settings.color_mode = "RGB"
+    ee = sc.eevee
