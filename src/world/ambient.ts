@@ -144,3 +144,4 @@ export class Ambient {
     this.rift.frustumCulled = false
     this.rift.visible = false
     scene.add(this.rift)
+    const bara = ZONES.find((z) => z.key === 'bara')!
