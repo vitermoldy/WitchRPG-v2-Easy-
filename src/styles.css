@@ -1384,3 +1384,4 @@ dialog::backdrop {
 
 .ledger-stats {
   grid-area: stats;
+  padding: 1.2rem 1.4rem;
