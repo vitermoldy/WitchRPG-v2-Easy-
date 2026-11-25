@@ -101,3 +101,4 @@ export class Telegraphs {
       fragmentShader: kind === 'ring' ? RING_FRAG : LINE_FRAG,
       transparent: true,
       depthWrite: false,
+      blending: THREE.AdditiveBlending,
