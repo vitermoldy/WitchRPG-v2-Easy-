@@ -25,3 +25,4 @@ describe('the server checks a witch before it keeps her', () => {
     for (const s of SKILLS) p.upgrades[s.id] = true
     p.world = { altars: ALTARS.map((a) => a.key), last: 'bara' }
     const c = cleanProfile(p, NOW)
+    expect(c.error).toBeUndefined()
