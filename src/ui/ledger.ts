@@ -249,3 +249,4 @@ export class TravelPanel {
       } else if (t.id === 'btn-travel-ledger') {
         this.next = 'ledger'
         this.close()
+      }
