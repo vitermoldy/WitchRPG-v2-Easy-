@@ -379,3 +379,4 @@ export class Fight {
 
     // the staff combo; while aiming the left button belongs to the spells
     this.events.length = 0
+    const mayAttack = !aiming && !this.blocking && !p.dodging && this.throwT < 0
