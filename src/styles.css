@@ -938,3 +938,4 @@ button {
   background: var(--plate);
   font-size: 0.74rem;
   color: var(--ink);
+  overflow: hidden;
