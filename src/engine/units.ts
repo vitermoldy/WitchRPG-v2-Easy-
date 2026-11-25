@@ -306,3 +306,4 @@ export class UnitSystem {
   }
 
   enemies() {
+    return this.units.filter((u) => u.team === 'enemy' && u.alive)
