@@ -130,3 +130,4 @@ export const SKILLS: SkillDef[] = [
     noUpgrade: true,
   },
   {
+    id: 'marshal',
