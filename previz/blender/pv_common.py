@@ -195,3 +195,6 @@ def mat_globe(name, ocean="#2a6aa8", land="#4f8a3a"):
     L.new(noi.outputs["Fac"], ramp.inputs["Fac"])
     L.new(ramp.outputs["Color"], b.inputs["Base Color"])
     _MATS[name] = m
+    return m
+
+
