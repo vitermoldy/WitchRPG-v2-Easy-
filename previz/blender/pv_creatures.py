@@ -1152,3 +1152,4 @@ def ilyra_palette():
         "cloth": C.mat_flat("ilyra_cloth", "#1b1418", 0.85),
         "cloth2": C.mat_flat("ilyra_cloak", "#24161f", 0.8),
         "hood_in": C.mat_flat("ilyra_hood_in", "#07050a", 1.0),
+        "skin": C.mat_flat("ilyra_skin", HEX["skin"], 0.55),
