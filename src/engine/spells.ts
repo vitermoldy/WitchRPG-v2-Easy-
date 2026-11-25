@@ -249,3 +249,4 @@ export class Spells {
       if (inp.burst) this.cast('burst', inp.aiming)
       if (inp.snare) this.cast('snare', inp.aiming)
       if (inp.barrier) this.cast('barrier', inp.aiming)
+      if (inp.warp) this.cast('warp', inp.aiming)
