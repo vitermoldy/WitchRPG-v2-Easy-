@@ -582,3 +582,4 @@ def build_board(lib_colls, stats):
     C.text(coll, "Kiri: gambar referensi pemilik. Kanan: block-out 3D previz yang mengikuti warna, anatomi, dan atribut khasnya, dibangun sendiri dari bentuk sederhana. Ilyra tanpa referensi.", (0.4, 0, -1.45), size=0.26, color="#b9b2ad", rot=(90, 0, 0))
     for i, k in enumerate(keys):
         r_, c_ = divmod(i, cols)
+        x0, z0 = c_ * cw, -(head + r_ * ch)
