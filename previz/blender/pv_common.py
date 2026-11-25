@@ -46,3 +46,6 @@ def _new_mat(name):
         bpy.data.materials.remove(m)
     m = bpy.data.materials.new(name)
     m.use_nodes = True
+    return m
+
+
