@@ -352,3 +352,4 @@ export class IlyraModel {
       armLX = -88
       armLY = -10
       armLZ = 8
+      foreL = -5 + 4 * Math.sin(this.t * 30)
