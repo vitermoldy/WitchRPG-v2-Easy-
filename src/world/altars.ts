@@ -9,3 +9,5 @@ export interface Altar {
   pos: THREE.Vector3
   crystal: THREE.Mesh
   rune: THREE.Mesh
+}
+
