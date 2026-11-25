@@ -71,3 +71,5 @@ def build(dunia, res=(1280, 720), samples=24):
         rp.box(c, (0.32, 0.06, 0.02), rot=(0, 0, math.degrees(a) + 90), mat="r")
     reticle.finalize()
     ret = reticle.root
+    ret.scale = (0, 0, 0)
+
