@@ -67,3 +67,4 @@ async function call<T>(path: string, init?: RequestInit): Promise<T> {
   try {
     res = await fetch(`api/${path}`, {
       ...init,
+      headers: init?.body ? { 'Content-Type': 'application/json' } : undefined,
