@@ -481,3 +481,4 @@ export class Spells {
       const prop = this.heldProp
       prop.held = false
       if (aimAt) {
+        prop.vel.copy(aimAt).sub(prop.pos).normalize().multiplyScalar(SPELL.grip.throwSpeed)
