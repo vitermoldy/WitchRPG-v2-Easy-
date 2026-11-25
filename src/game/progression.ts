@@ -89,3 +89,4 @@ export const tierUnlocked = (p: Profile, tier: TierId) => p.level >= TIERS[tier]
 
 /** What still keeps a tier shut, for the title and the world gates; null when it is open. */
 export function tierLock(p: Profile, tier: TierId): string | null {
+  const t = TIERS[tier]
