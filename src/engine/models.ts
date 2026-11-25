@@ -315,3 +315,4 @@ export class IlyraModel {
       } else torsoX += 8 * weight
     }
     if (act.execute >= 0) {
+      // raise the staff high in both hands, drive it down, hold, then stand
