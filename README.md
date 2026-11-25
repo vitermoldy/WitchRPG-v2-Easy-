@@ -112,3 +112,4 @@ src/game/     logika murni: angka tuning (balance.ts), progresi, skill, simpanan
 src/engine/   kamera (camera.ts), gerak (player.ts), rintangan (obstacles.ts), lock-on, input, game loop (game.ts)
               tempur: aturan parry dan stun (combat.ts), Ilyra (fight.ts), sihir (spells.ts), makhluk dan bayangan (units.ts)
               Umbra (umbra.ts), gambar makhluk per bagian dan kerumunan (rigs.ts), telegraf amber (telegraph.ts)
+              model Ilyra dan animasinya (models.ts), efek dan suara dari v1 (fx.ts, audio.ts)
