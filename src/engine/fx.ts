@@ -261,3 +261,5 @@ export class LightPool {
       s.light.intensity = 0
     }
   }
+}
+
