@@ -133,3 +133,4 @@ export class Player {
       let dz = wz
       if (Math.hypot(dx, dz) < 0.2) {
         dx = Math.sin(this.facing)
+        dz = Math.cos(this.facing)
