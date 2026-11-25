@@ -929,3 +929,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
  * The Hydra, built on the three-phase plan of v1's Hollow Warden. Phase 1: heads slam under amber
  * circles and spew Imps; a head knocked off balance can be executed (it is severed). Phase 2 (from
  * 66% HP): the water rises and the shore breaks into islands; its slimy skin takes 10% from bolts and
+ * 150% from thrown things; boulders wait on the islands. Phase 3 (from 33%): it swallows its heads and
