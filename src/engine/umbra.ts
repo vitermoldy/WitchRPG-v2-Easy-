@@ -88,3 +88,4 @@ export class Umbra {
     this.casting = []
     this.progress = 0
     this.wheelOpen = false
+    this.calls = []
