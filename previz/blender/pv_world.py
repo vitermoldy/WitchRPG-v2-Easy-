@@ -735,3 +735,4 @@ def build_world(lib_scene):
     build_ground_cover(cover, P, ALTAR, 20, seed=15, keep_clear=[(ALTAR, 8)])
     props = C.collection("Dunia_bangunan", dunia)
     pal = veg_palette()
+    build_temple(props, pal)
