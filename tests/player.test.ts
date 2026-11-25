@@ -11,3 +11,4 @@ function run(p: Player, input: MoveInput, seconds: number, g = flat, camYaw = 0)
   for (let t = 0; t < seconds; t += dt) {
     p.update(dt, input, camYaw, null, false, g)
     input = { ...input, dodge: false }
+  }
