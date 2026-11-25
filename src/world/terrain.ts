@@ -17,3 +17,4 @@ const MUD = hex('#1a1d14')
 const SNOW = hex('#c9ced6')
 const PATH = hex('#4a3b2c')
 
+interface Chunk {
