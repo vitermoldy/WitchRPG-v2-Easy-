@@ -717,3 +717,4 @@ export class Game implements UnitHost {
     this.applyDerived(true)
     // she rises at the last altar she stood at
     const a = this.altars.byKey(this.profile.world.last)
+    const at = this.altars.standAt(a)
