@@ -762,3 +762,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     summonKind: 'hellhound',
     attacks: [
       { name: 'gigitan tiga kepala', strike: 'ring', windup: 0.8, recover: 0.9, range: 4.5, ring: 2.6 },
+      { name: 'napas api', strike: 'ring', windup: 1.1, recover: 1, range: 10, ring: 3.4, ahead: 5, cooldown: 5 },
