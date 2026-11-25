@@ -125,3 +125,4 @@ def path_dist(x, y):
     for line in PATHS:
         for a, b in zip(line, line[1:]):
             ax, ay = a
+            bx, by = b
