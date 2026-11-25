@@ -252,3 +252,5 @@ export class Unit implements Foe {
 /** Radius of the amber circle a ring blow lands on when its attack does not say (metres). */
 export const RING_RADIUS = 1.4
 
+export const ringOf = (atk: AttackSpec) => atk.ring ?? RING_RADIUS
+
