@@ -246,3 +246,4 @@ export class Sfx {
       this.tone(t + 0.3, 'sine', 70, 40, 1, 0.4)
     } else {
       this.tone(t, 'triangle', 330, 110, 0.8, 0.15)
+      this.noise(t, 0.6, 'highpass', 2000, 0.08, 0.7, 600)
