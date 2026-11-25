@@ -1605,3 +1605,4 @@ dialog::backdrop {
 }
 
 .room-item .room-meta {
+  grid-column: 1;
