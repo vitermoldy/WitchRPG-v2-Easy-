@@ -106,3 +106,5 @@ async function enter(path: string, payload: unknown): Promise<void> {
   }
 }
 
+export const signIn = (username: string, password: string): Promise<void> => enter('auth/login', { username, password })
+
