@@ -81,3 +81,4 @@ export class Player {
     this.nudgeTime = time
   }
 
+  get speed() {
