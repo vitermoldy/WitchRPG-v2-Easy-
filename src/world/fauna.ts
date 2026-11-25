@@ -55,3 +55,4 @@ export class Fauna {
         g.units.remove(s.unit)
         s.unit = null
       }
+    }
