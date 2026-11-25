@@ -258,3 +258,4 @@ export class IlyraModel {
     let crouch = 0
 
     if (act.block > 0) {
+      // staff across the chest, both hands on it
