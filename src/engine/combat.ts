@@ -68,3 +68,4 @@ export interface SwingState {
 export type ComboEvent = { type: 'start'; s: SwingState } | { type: 'hit'; s: SwingState } | { type: 'end'; s: SwingState }
 
 /**
+ * The staff combo. Tap the left button for the light chain (three swings, then it starts over), hold it
