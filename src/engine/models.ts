@@ -76,3 +76,4 @@ export const idlePose = (): IlyraPose => ({ swing: null, block: 0, parry: 0, exe
 const SWINGS = [
   // sweep from her right to her left
   { back: { torso: -38, armX: -70, armY: -65, fore: -10 }, through: { torso: 42, armX: -80, armY: 55, fore: -5 } },
+  // backhand from her left to her right
