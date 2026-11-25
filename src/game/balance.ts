@@ -804,3 +804,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     windup: 1,
     recover: 1.2,
     cooldown: 2,
+    stun: 320,
