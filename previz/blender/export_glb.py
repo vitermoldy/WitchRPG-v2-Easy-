@@ -48,3 +48,4 @@ _flat = {}
 
 
 def tone_of(m):
+    """(top, bottom, vary) of a two-tone material from pv_common.mat_tone, or None."""
