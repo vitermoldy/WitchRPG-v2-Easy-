@@ -706,3 +706,4 @@ def build_embers(coll, centre, radius, count, seed=5, z_range=(0.5, 30)):
     X = centre[0] + np.cos(a) * d
     Y = centre[1] + np.sin(a) * d
     Z = height(X, Y) + rng.uniform(*z_range, count)
+    ember = bpy.data.objects.get("p_ember")
