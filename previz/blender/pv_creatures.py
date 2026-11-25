@@ -512,3 +512,6 @@ def b_hellhound(r):
     tl = r.P("tail", Q["tail_base"], "body")
     pts = [Q["tail_base"], (0, 1.05, 1.0), (0.25, 1.35, 1.15), (0.35, 1.25, 1.45)]
     tl.tube(pts, [0.07, 0.065, 0.06, 0.055], mat="snake", seg=7, n=4)
+    snake_head(tl, pts[-1], (0.1, -0.7, 0.4), s=0.7, jaw=40, mat="snake")
+
+
