@@ -59,3 +59,4 @@ describe('Ilyra in the air (B)', () => {
     run(p, B, 1 / 120)
     run(p, { ...idle, dodge: true }, 0.2)
     expect(p.dodges).toBe(0)
+  })
