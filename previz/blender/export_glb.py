@@ -159,3 +159,4 @@ def export(key):
     for name, ob in r.objs.items():
         ob.name = name
         bake_tones(ob)
+        for slot in ob.material_slots:
