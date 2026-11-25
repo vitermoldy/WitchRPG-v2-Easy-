@@ -236,3 +236,4 @@ export class TravelPanel {
   /** Set when a choice was made, so closing knows whether to hand over to the Ledger. */
   next: 'ledger' | null = null
 
+  constructor(host: TravelHost) {
