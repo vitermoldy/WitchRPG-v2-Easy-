@@ -259,3 +259,4 @@ export class WorldMap {
     const size = Math.max(200, Math.floor(Math.min(box.width, box.height)))
     const dpr = Math.min(2, window.devicePixelRatio || 1)
     cv.style.width = cv.style.height = `${size}px`
+    cv.width = cv.height = Math.round(size * dpr)
