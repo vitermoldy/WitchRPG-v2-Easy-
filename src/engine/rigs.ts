@@ -595,3 +595,4 @@ const posePhoenix: PoseFn = (p, u, t) => {
   const flying = u.flyer && u.alt > 0.8
   p.rot('tail', -10 + 8 * Math.sin(t * 3), 18 * Math.sin(t * 2.2 + u.id))
   if (u.state === 'windup') {
+    const k = ease(u.t / (u.atk.windup * u.tempo))
