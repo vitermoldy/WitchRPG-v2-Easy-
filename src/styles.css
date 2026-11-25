@@ -1932,3 +1932,4 @@ dialog::backdrop {
 }
 
 .map-sort {
+  display: flex;
