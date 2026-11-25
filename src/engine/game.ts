@@ -568,3 +568,4 @@ export class Game implements UnitHost {
         this.hud.message(`${def.name} terbuka (${def.key}): ${def.effect}`, 'level')
       }
     }
+    this.saveSoon()
