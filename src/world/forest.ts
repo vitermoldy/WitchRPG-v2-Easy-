@@ -104,3 +104,5 @@ function snag(color: THREE.Color): THREE.BufferGeometry {
     parts.push(part(new THREE.CylinderGeometry(0.02, 0.09, l, 4, 1, true), color, m))
   }
   return mergeGeometries(parts)
+}
+
