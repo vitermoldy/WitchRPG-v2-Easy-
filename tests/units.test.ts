@@ -74,3 +74,4 @@ describe('creature attacks', () => {
     let most = 0
     w.step(6, () => {
       const busy = w.sys.units.filter((u) => u.state === 'windup' || u.state === 'strike').length
+      most = Math.max(most, busy)
