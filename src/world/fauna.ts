@@ -23,3 +23,4 @@ interface Spot {
 const MEADOWS: [number, number][] = [
   [-100, -360],
   [120, -300],
+  [300, 100],
