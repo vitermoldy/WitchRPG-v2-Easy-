@@ -5,3 +5,4 @@ import { riteChance } from '../src/game/progression'
 
 const W = COMBAT.parry.window
 
+describe('block and parry', () => {
