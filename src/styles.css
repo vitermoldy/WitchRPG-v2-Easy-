@@ -81,3 +81,4 @@ kbd {
   border-bottom-width: 2px;
   border-radius: var(--radius-sm);
   background: var(--surface-2);
+  color: var(--ink);
