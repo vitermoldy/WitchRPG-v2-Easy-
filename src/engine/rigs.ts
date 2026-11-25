@@ -1035,3 +1035,4 @@ export class Rigs {
       let cap = Math.max(64, b.cap)
       while (cap < need) cap *= 2
       for (const part of b.parts) {
+        this.group.remove(part.mesh)
