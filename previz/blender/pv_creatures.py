@@ -450,3 +450,4 @@ def b_ilyra(r, pose="idle"):
     if pose == "swing":
         sd = Vector((-0.55, -0.6, 0.58)).normalized()
     elif pose == "walk":
+        sd = Vector((-0.08, -0.25, 1)).normalized()
