@@ -60,3 +60,4 @@ def fbm(x, y, octaves=4, seed=0.0):
     s, amp, f, norm = 0.0, 1.0, 1.0, 0.0
     for k in range(octaves):
         s = s + amp * vnoise(x * f + 37.1 * k + seed, y * f - 11.7 * k + seed)
+        norm += amp
