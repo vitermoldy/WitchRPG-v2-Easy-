@@ -403,3 +403,4 @@ export class Game implements UnitHost {
         const [mx, my] = toMap(x, z)
         if (inWaterRect(mx, my)) y = Math.max(y, WATER_LEVEL + 0.3)
         if (this.lair.flood > 0.05 && this.lair.inside(x, z)) y = Math.max(y, this.lair.waterY + 0.3)
+        return y
