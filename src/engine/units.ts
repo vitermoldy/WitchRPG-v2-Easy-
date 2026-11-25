@@ -913,3 +913,4 @@ export class UnitSystem {
       u.vel.x *= -0.2
       u.vel.z *= -0.2
     }
+    if (!loose || u.state === 'dead') host.obstacles.pushOut(u.pos, u.radius, u.height)
