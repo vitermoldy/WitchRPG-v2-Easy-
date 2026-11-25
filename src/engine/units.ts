@@ -568,3 +568,4 @@ export class UnitSystem {
       const a = away + (tries - 3.5) * 0.45
       const x = from.pos.x + Math.sin(a) * spec.range
       const z = from.pos.z + Math.cos(a) * spec.range
+      if (this.host.blocked(x, z)) continue
