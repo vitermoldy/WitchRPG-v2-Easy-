@@ -537,3 +537,4 @@ function biped(opts: { heavy: number; reach: number; sway: number }): PoseFn {
   const limbs = ['upperarm_L', 'upperarm_R', 'thigh_L', 'thigh_R']
   return (p, u, t) => {
     if (common(p, u, t, limbs)) return
+    const s = Math.sin(u.walk * (1.4 - 0.3 * opts.heavy))
