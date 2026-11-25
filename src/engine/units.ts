@@ -964,3 +964,4 @@ export class UnitSystem {
     }
     const ground = host.height(u.pos.x, u.pos.z)
     if (u.pos.y <= ground && u.vel.y < 0) {
+      u.pos.y = ground
