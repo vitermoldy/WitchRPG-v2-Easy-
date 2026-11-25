@@ -201,3 +201,4 @@ export class Game implements UnitHost {
       }),
     )
     this.bloom = new UnrealBloomPass(new THREE.Vector2(512, 512), 0.55, 0.5, 0.86)
+    this.composer.addPass(this.bloom)
