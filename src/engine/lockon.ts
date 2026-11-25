@@ -40,3 +40,4 @@ export class LockOn {
       if (a > LOCKON.cone) continue
       const s = a + (d / LOCKON.range) * 0.5
       if (s < score) {
+        score = s
