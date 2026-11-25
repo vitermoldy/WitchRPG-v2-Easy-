@@ -59,3 +59,4 @@ export class Terrain {
       for (let ix = 0; ix < CHUNKS; ix++) {
         const cx = -HALF + (ix + 0.5) * CHUNK
         const cz = -HALF + (iz + 0.5) * CHUNK
+        this.chunks.push({ ix, iz, centre: new THREE.Vector3(cx, heightMap(cx, -cz), cz), meshes: [null, null, null], lod: -1 })
