@@ -585,3 +585,4 @@ export class Game implements UnitHost {
     if (this.t - this.sealRefusedAt < 0.1) {
       this.refusedMsgAt = this.t
       this.sfx.refused()
+      this.hud.message('Reruntuhan Kuil dan Lembah Bara tersegel sampai Hydra di Danau Hitam kalah.', 'info')
