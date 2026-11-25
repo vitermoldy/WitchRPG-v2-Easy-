@@ -286,3 +286,4 @@ export class Lair {
   }
 
   /**
+   * Steps refused at the lair: into it below Lv 10; out of it while the fight lasts; into flood water
