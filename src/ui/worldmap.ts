@@ -414,3 +414,4 @@ export class WorldMap {
     ctx.closePath()
     ctx.fillStyle = '#ff2a3d'
     ctx.strokeStyle = '#efe6df'
+    ctx.lineWidth = 2
