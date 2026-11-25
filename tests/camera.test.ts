@@ -121,3 +121,4 @@ describe('over-the-shoulder camera', () => {
       worst = Math.min(worst, obs.clearance(pose.pos.x, pose.pos.y, pose.pos.z))
       expect(pose.pos.y).toBeGreaterThan(ground(pose.pos.x, pose.pos.z) + CAMERA.near)
     }
+    expect(worst).toBeGreaterThanOrEqual(CAMERA.radius - 1e-6)
