@@ -121,3 +121,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
       const remoteTime = remote?.updatedAt ? Date.parse(remote.updatedAt) : 0
       const localTime = local.updatedAt ? Date.parse(local.updatedAt) : 0
       if (remote && (isFresh(local) || remoteTime > localTime) && onTitle()) {
+        adopt(remote)
