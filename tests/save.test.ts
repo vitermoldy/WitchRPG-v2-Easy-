@@ -25,3 +25,4 @@ describe('the save', () => {
     gainXp(p0, 2000, SKILLS.map((s) => s.id))
     spendStat(p0, 'vit')
     spendStat(p0, 'hex')
+    buyUpgrade(p0, 'hexBolt')
