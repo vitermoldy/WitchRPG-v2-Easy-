@@ -92,3 +92,4 @@ describe('Ilyra on foot', () => {
       seen.push([p.dodgeT, p.invulnerable])
       p.update(dt, { ...idle, x: 1 }, 0, null, false, flat)
     }
+    expect(p.pos.x).toBeGreaterThan(MOVE.dodge.distance * 0.95)
