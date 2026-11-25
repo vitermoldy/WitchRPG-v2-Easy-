@@ -299,3 +299,4 @@ export class Game implements UnitHost {
     if (what === 'blink') {
       if (Math.hypot(u.pos.x - this.player.pos.x, u.pos.z - this.player.pos.z) < 40) this.sfx.blink()
       for (const at of [from ?? u.pos, u.pos]) {
+        this.smoke.emit({ pos: at, count: 10, color: 0x1a1020, life: 0.8, size: 0.8, sizeEnd: 1.5, speed: 1.4, jitter: 0.4, alpha: 0.75 })
