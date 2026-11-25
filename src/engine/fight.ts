@@ -287,3 +287,4 @@ export class Fight {
     // the Hydra's body staggers (its blow is cut off) but never falls to one finishing blow: its last phase is won in Reality Warp
     const can = (u: Unit) => u.alive && u.staggered && u.kind !== 'hydra'
     const locked = g.lockon.current as Unit | null
+    if (locked && can(locked) && reach(locked) < COMBAT.execute.range) return locked
