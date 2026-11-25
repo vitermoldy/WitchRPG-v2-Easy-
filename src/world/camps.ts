@@ -183,3 +183,4 @@ export class Camps {
         camp.units.push(u)
       }
     }
+    // some of the pack come out elite, each with one v1 trait
