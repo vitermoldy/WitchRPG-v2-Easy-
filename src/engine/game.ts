@@ -816,3 +816,4 @@ export class Game implements UnitHost {
     for (const u of this.units.units) {
       if (u.team !== 'enemy' || !u.targetable) continue
       u.center(this.sphere.center)
+      this.sphere.radius = Math.max(u.radius, u.height * 0.42)
