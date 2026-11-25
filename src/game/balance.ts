@@ -989,3 +989,4 @@ export const SHADOW_SKILL = {
  * Tier IV and V creatures can be elite: tougher, worth more XP, and with one trait.
  * berlapis: hard to hurt except by a throw. gesit: quick. meledak: bursts when it falls.
  * penjaga: other creatures near it take less damage while it stands.
+ */
