@@ -401,3 +401,4 @@ const POOL_FRAG = /* glsl */ `
     vec3 core = vec3(0.012, 0.004, 0.024) + vec3(0.16, 0.05, 0.32) * ripple * 0.22 * inside;
     vec3 col = core * inside + vec3(1.1, 0.55, 2.6) * rim;
     float alpha = max(inside * 0.94, rim);
+    if (alpha < 0.01) discard;
