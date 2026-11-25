@@ -125,3 +125,4 @@ export const RITE = {
   /** Holding R near several glowing bodies raises them all in one cast; each extra body costs this much more mana. */
   massRadius: 12,
   massManaPerExtra: 8,
+  /** The Shadow Room has no slots; this only guards the save from running away. */
