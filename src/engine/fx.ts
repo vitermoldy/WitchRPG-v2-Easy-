@@ -197,3 +197,5 @@ interface LightSlot {
   maxTtl: number
   peak: number
   held: boolean
+}
+
