@@ -757,3 +757,4 @@ export class UnitSystem {
           u.hitDone = false
           const lt = atk.lungeTime ?? 0.3
           if (atk.strike === 'ring') {
+            tmp.subVectors(u.aimAt, u.pos).setY(0)
