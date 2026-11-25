@@ -92,3 +92,4 @@ export class Telegraphs {
     const geo = kind === 'ring' ? new THREE.CircleGeometry(1, RING_SEG) : new THREE.PlaneGeometry(1, 1, 1, LINE_SEG)
     // both lie flat; vertex heights are filled in from the ground every time they move
     geo.rotateX(-Math.PI / 2)
+    const pos = geo.attributes.position as THREE.BufferAttribute
