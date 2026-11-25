@@ -500,3 +500,4 @@ button {
   /* between the vitals and the army panel, so it covers neither */
   max-width: calc(100% - 2 * (min(22rem, 40vw) + 2 * var(--gutter)));
   margin: 0;
+  transform: translateX(-50%);
