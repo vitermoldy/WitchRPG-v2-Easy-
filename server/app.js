@@ -37,3 +37,4 @@ function sameOriginWrites(req, res, next) {
 
 /** At most `limit` writes per minute per address. */
 function rateLimit(limit) {
+  const hits = new Map()
