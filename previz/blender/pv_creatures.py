@@ -619,3 +619,4 @@ def b_minotaur(r, pose="idle"):
     h.limb(hc + Vector((0, -0.12, -0.03)), hc + Vector((0, -0.3, -0.1)), 0.13, 0.11, mat="skin")
     h.ell(hc + Vector((0, -0.36, -0.11)), (0.1, 0.06, 0.07), mat="nose")
     h.torus(hc + Vector((0, -0.4, -0.17)), 0.045, 0.012, normal=(0, 1, 0), mat="gold", seg=10, rseg=4)
+    h.cone(hc + Vector((0, -0.16, -0.14)), hc + Vector((0, -0.12, -0.32)), 0.08, mat="hair", seg=6)
