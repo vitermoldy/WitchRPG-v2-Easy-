@@ -253,3 +253,4 @@ export class TravelPanel {
     })
   }
 
+  get isOpen() {
