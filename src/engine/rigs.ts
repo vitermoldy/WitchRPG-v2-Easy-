@@ -136,3 +136,4 @@ const poseImp: PoseFn = (p, u, t) => {
     p.rot('forearm_R', -35 * k)
     return
   }
+  if (u.state === 'strike') {
