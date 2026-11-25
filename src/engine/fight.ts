@@ -220,3 +220,4 @@ export class Fight {
   blockPressedAt = -Infinity
   /** Seconds left in which her next swing does the parry's extra damage. */
   riposte = 0
+  exec: { u: Unit; t: number; struck: boolean } | null = null
