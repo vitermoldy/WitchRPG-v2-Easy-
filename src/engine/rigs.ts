@@ -442,3 +442,5 @@ const poseMinotaur: PoseFn = (p, u, t) => {
   p.rot('torso', 6 + 4 * amp + 2 * Math.sin(t * 1.8))
 }
 
+const MEDUSA_LIMBS = ['upperarm_L', 'upperarm_R', 'tail']
+
