@@ -409,3 +409,4 @@ export class Lair {
           if (atk.shot) {
             g.fire(h, atk)
             h.set('recover')
+          } else h.set('strike')
