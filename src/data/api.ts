@@ -100,3 +100,4 @@ async function enter(path: string, payload: unknown): Promise<void> {
     const body = await call<Entry>(path, { method: 'POST', body: JSON.stringify(payload) })
     setAuth({ status: 'signed-in', account: body.user })
   } catch (err) {
+    if (err instanceof ApiError && err.status >= 400 && err.status < 500) throw err
