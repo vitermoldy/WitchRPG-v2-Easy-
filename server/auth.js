@@ -161,3 +161,4 @@ export function createAuth({ getPool, cookie, lang, deviceCode, newDevice }) {
     return { id: row.id, username: row.username, device: row.device_id, createdAt: row.created_at }
   }
 
+  /** Lets the request through only when someone is signed in; `req.user.device` is their data key. */
