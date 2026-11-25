@@ -523,3 +523,4 @@ export class Fight {
     out.execute = this.exec ? Math.min(1, this.exec.t) : -1
     out.throwK = this.throwT
     out.catchK = this.catchT
+    out.staff = this.staff.state === 'hand' && (this.throwT < 0 || this.throwT < THROW_RELEASE / THROW_TIME)
