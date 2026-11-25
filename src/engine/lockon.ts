@@ -60,3 +60,4 @@ export class LockOn {
   switchSide(targets: Target[], player: Vec, side: number): boolean {
     const cur = this.current
     if (!cur) return false
+    const base = yawTo(player.x, player.z, cur.x, cur.z)
