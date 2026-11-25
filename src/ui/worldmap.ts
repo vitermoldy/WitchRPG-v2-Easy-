@@ -129,3 +129,4 @@ export class WorldMap {
     }
     const lair = g.lair
     list.push({
+      kind: 'hydra', name: 'Hydra', level: lair.level, zone: 'Danau Hitam', x: lair.center.x, z: lair.center.z,
