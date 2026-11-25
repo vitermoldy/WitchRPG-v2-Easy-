@@ -1729,3 +1729,4 @@ dialog::backdrop {
 }
 
 .gate-state code {
+  font-family: var(--font-mono);
