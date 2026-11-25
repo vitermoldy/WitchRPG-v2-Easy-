@@ -690,3 +690,4 @@ export class Spells {
       for (const m of w.mats) {
         m.uniforms.uTime.value = w.t
         m.uniforms.uFade.value = fade
+      }
