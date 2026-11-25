@@ -396,3 +396,4 @@ export class Fight {
     return this.v.copy(g.aim(COMBAT.staff.range).point)
   }
 
+  private release() {
