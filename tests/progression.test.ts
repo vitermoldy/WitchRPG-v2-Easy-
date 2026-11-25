@@ -96,3 +96,4 @@ describe('stats and the shadow army', () => {
 describe('upgrades and shadows', () => {
   it('needs the skill unlocked, built and a point', () => {
     const p = newProfile()
+    p.skillPoints = 2
