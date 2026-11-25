@@ -494,3 +494,4 @@ def build_ground_cover(coll, P, centre, radius, seed=11, grass=0.5, fern=0.05, b
     X, Y = np.meshgrid(g + centre[0], g + centre[1], indexing="xy")
     X = (X + rng.uniform(-step / 2, step / 2, X.shape)).ravel()
     Y = (Y + rng.uniform(-step / 2, step / 2, Y.shape)).ravel()
+    inside = _dist(X, Y, centre) < radius
