@@ -404,3 +404,4 @@ export class WorldMap {
     const [x, y] = at(p.pos.x, p.pos.z)
     const s = Math.max(7, size / 60)
     ctx.save()
+    ctx.translate(x, y)
