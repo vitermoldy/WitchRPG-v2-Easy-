@@ -732,3 +732,4 @@ export class Spells {
     const g = this.g
     const s = SPELL.barrier
     this.barrierT = 0
+    this.shield.visible = false
