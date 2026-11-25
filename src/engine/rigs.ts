@@ -504,3 +504,4 @@ const poseChimera: PoseFn = (p, u, t) => {
     } else if (name === 'seruduk kambing') {
       p.body(-0.2 * k, 6 * k)
       p.rot('head_goat', 40 * k)
+      p.rot('leg_FL', -25 * k)
