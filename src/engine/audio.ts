@@ -401,3 +401,4 @@ export class Sfx {
   private startAmbience() {
     const ctx = this.ctx!
     const loop = (type: BiquadFilterType, freq: number, q: number) => {
+      const src = ctx.createBufferSource()
