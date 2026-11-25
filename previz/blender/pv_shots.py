@@ -93,3 +93,4 @@ def lock_on(cam, target, third=(1 / 3, 1 / 3)):
     av = math.atan(third[1] * tv)
     yaw_c = yaw_t + ah
     pitch_c = pitch_t - av
+    look = Vector((math.cos(yaw_c) * math.cos(pitch_c), math.sin(yaw_c) * math.cos(pitch_c), math.sin(pitch_c)))
