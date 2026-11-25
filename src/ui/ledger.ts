@@ -158,3 +158,4 @@ export class Ledger {
           const bought = !!p.upgrades[s.id]
           let up = ''
           if (s.noUpgrade) up = ''
+          else if (bought) up = `<p class="node-up bought">Upgrade terpasang: ${s.upgrade}</p>`
