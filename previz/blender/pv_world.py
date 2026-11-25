@@ -722,3 +722,4 @@ def build_world(lib_scene):
     terr = C.collection("Dunia_medan", dunia)
     build_terrain(terr)
     build_water(terr)
+    P = build_protos(lib_scene.collection)
