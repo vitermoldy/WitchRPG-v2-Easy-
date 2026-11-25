@@ -648,3 +648,4 @@ def b_minotaur(r, pose="idle"):
 
 
 def b_cyclops(r):
+    """Bald tan giant with one great eye, crossed leather straps, skull belt, fur loincloth and a round shield."""
