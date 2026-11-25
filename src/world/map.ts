@@ -131,3 +131,5 @@ function segDist(x: number, y: number, a: [number, number], b: [number, number])
   return Math.hypot(x - (a[0] + t * dx), y - (a[1] + t * dy))
 }
 
+// ------------------------------------------------------------ height
+
