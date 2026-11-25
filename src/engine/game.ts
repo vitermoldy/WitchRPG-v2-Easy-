@@ -1082,3 +1082,4 @@ export class Game implements UnitHost {
       c.fov = pose.fov
       c.updateProjectionMatrix()
       this.glow?.setViewport(this.renderer.domElement.height, c.fov)
+      this.smoke?.setViewport(this.renderer.domElement.height, c.fov)
