@@ -6,3 +6,4 @@ import {
   derive,
   isFresh,
   riteBlock,
+  tierLock,
