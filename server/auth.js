@@ -199,3 +199,4 @@ export function createAuth({ getPool, cookie, lang, deviceCode, newDevice }) {
     }
     if (!device) device = newDevice()
     const hash = await hashPassword(input.password)
+    let result
