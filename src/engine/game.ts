@@ -349,3 +349,4 @@ export class Game implements UnitHost {
   died(u: Unit) {
     if (u.team === 'shadow') {
       this.umbra.shadowFell(u)
+      return
