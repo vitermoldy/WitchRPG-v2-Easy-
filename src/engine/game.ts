@@ -277,3 +277,4 @@ export class Game implements UnitHost {
     if (atk.effect === 'petrify' && this.spells.barrierT <= 0) {
       p.petrified = EFFECTS.petrify
       this.fight.reset(true)
+      this.hud.message(`${u.spec.name} membatukan Ilyra. Tahan C saat tatapannya penuh, atau pasang Hex Barrier.`, 'chaos')
