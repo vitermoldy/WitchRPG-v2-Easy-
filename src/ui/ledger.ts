@@ -156,3 +156,4 @@ export class Ledger {
         .map((s) => {
           const open = isUnlocked(p, s.id)
           const bought = !!p.upgrades[s.id]
+          let up = ''
