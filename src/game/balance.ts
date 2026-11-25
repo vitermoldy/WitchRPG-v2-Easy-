@@ -55,3 +55,4 @@ export const CAMERA = {
   /** Radius of the sphere swept from the pivot to the camera; nothing may come closer. */
   radius: 0.24,
   /** Rate the camera eases back out after an obstacle stops blocking it (1/s). */
+  release: 4,
