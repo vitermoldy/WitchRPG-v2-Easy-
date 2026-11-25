@@ -195,3 +195,4 @@ export class Ambient {
       const dy = p[i * 3 + 1] - ground
       if (Math.abs(dx) > HALF || Math.abs(dz) > HALF || dy < LOW || dy > HIGH) this.respawn(i, cam, ground, w, false)
       const twinkle = kind.blink > 0 ? 1 - kind.blink + kind.blink * Math.max(0, Math.sin(ph * 2.3)) ** 3 : 1
+      this.alpha[i] = kind.alpha * twinkle
