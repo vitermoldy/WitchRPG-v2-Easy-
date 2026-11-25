@@ -34,3 +34,4 @@ describe('the save', () => {
     expect(p.xp).toBe(p0.xp)
     expect(p.stats).toEqual(p0.stats)
     expect(p.statPoints).toBe(p0.statPoints)
+    expect(p.upgrades.hexBolt).toBe(true)
