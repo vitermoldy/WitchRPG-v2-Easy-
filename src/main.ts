@@ -130,3 +130,4 @@ async function boot() {
   })
   const travel = new TravelPanel({
     altars: () => {
+      const here = game.altars.near()
