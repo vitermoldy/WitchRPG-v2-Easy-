@@ -24,3 +24,4 @@ const CELL = 8
 export class Obstacles {
   readonly shapes: Shape[] = []
   private readonly grid = new Map<number, number[]>()
+  private stamp = 1
