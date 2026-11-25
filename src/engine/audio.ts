@@ -233,3 +233,4 @@ export class Sfx {
 
   riteCharge(k: number) {
     if (!this.ok()) return
+    const t = this.ctx!.currentTime
