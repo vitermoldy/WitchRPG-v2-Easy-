@@ -487,3 +487,4 @@ export class Lair {
     const g = this.g
     const body = this.body!
     const to = this.bodyAt(3)
+    const step = Math.min(1, dt * 0.6)
