@@ -61,3 +61,4 @@ export class Obstacles {
       for (let iz = z0; iz <= z1; iz++) {
         const list = this.grid.get(this.key(ix, iz))
         if (!list) continue
+        for (const id of list) {
