@@ -322,3 +322,4 @@ export class Spells {
         const d = this.tmp.distanceTo(b.prev)
         if (d <= len && d < best) {
           best = d
+          hitUnit = u
