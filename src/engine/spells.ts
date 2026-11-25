@@ -13,3 +13,4 @@ interface Bolt {
   vel: THREE.Vector3
   life: number
   damage: number
+  mesh: THREE.Mesh
