@@ -248,3 +248,4 @@ export class LightPool {
   update(dt: number) {
     for (const s of this.slots) {
       if (s.held || s.ttl <= 0) continue
+      s.ttl -= dt
