@@ -37,3 +37,4 @@ os.makedirs(TMP, exist_ok=True)
 t0 = time.time()
 
 
+def log(*a):
