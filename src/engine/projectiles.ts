@@ -86,3 +86,4 @@ export class Projectiles {
       // a blow that fells her clears every shot (her fall) while this loop still runs
       const s = this.shots[i]
       if (!s) continue
+      s.prev.copy(s.pos)
