@@ -293,3 +293,4 @@ def eagle_head(part, at, fwd=(0, -1, 0), s=1.0, mat="body2"):
 def horse_head(part, at, fwd=(0, -1, -0.6), s=1.0, mat="body"):
     a, F = V(at), Vector(fwd).normalized()
     side = Vector((1, 0, 0))
+    part.ell(a, (0.13 * s, 0.17 * s, 0.15 * s), mat=mat)
