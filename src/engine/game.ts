@@ -119,3 +119,4 @@ export class Game implements UnitHost {
   readonly foe: Foe = { pos: new THREE.Vector3(), radius: MOVE.radius, alive: true }
 
   private readonly debug: boolean
+  private readonly composer: EffectComposer
