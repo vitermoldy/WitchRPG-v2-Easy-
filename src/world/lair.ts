@@ -19,3 +19,4 @@ export function hydraShare(phase: 1 | 2 | 3, kind: DamageKind, inWarp: boolean):
   if (phase === 2) {
     if (kind === 'bolt' || kind === 'blast') return HYDRA.boltShare
     if (kind === 'impact' || kind === 'staff') return HYDRA.thrownShare
+  }
