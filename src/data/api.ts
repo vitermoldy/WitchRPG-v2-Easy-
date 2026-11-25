@@ -75,3 +75,4 @@ async function call<T>(path: string, init?: RequestInit): Promise<T> {
   const body = await res.json().catch(() => ({}))
   if (!res.ok) {
     // The session ran out or was signed out elsewhere: ask for the password again.
+    if (res.status === 401 && !path.startsWith('auth/') && auth.status === 'signed-in') setAuth({ status: 'signed-out', account: null })
