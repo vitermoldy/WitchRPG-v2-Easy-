@@ -1528,3 +1528,4 @@ dialog::backdrop {
 
 .node-effect,
 .node-up {
+  grid-column: 1 / -1;
