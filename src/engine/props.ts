@@ -92,3 +92,4 @@ export class Props {
             g.sfx.impact(Math.min(1.5, speed / 20))
             g.glow.emit({ pos: p.pos, count: 20, color: COLOR.chaosHot, intensity: 2.6, life: 0.4, size: 0.18, speed: 5, gravity: 5 })
             p.thrown = false
+            p.vel.multiplyScalar(-0.15)
