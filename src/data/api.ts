@@ -40,3 +40,4 @@ export class ApiError extends Error {
 // ---------------------------------------------------------------- who is signed in
 
 export interface Account {
+  username: string
