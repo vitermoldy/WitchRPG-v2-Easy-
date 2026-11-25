@@ -1188,3 +1188,4 @@ export class Game implements UnitHost {
         dirZ: u.lungeDir.z,
         hp: u.hp,
         maxHp: u.maxHp,
+        stun: u.stun.share,
