@@ -5,3 +5,4 @@ import { connect } from './db.js'
 const when = (d) => (d ? new Date(d).toLocaleString('id-ID', { dateStyle: 'medium', timeStyle: 'short' }) : '-')
 
 const pool = await connect(config.db)
+const [rows] = await pool.query(
