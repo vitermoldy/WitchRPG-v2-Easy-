@@ -148,3 +148,4 @@ export class Terrain {
       for (let i = 0; i < n; i++) {
         const a = j * (n + 1) + i
         idx.push(a, a + n + 1, a + 1, a + 1, a + n + 1, a + n + 2)
+      }
