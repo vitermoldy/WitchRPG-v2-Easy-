@@ -326,3 +326,4 @@ def build_minotaur(dunia):
     for k in range(8):
         trail.parts["m"].ell(tip + face_m * 0.4 + Vector(rng.normal(0, 0.18, 3)), 0.015, mat="s", seg=4, rings=3)
     trail.finalize()
+    C.point(local, "cahaya.cincin", (ring_c.x, ring_c.y, Wd.ground_z(ring_c.x, ring_c.y) + 0.4), HEX["rift"], energy=120, radius=1.0)
