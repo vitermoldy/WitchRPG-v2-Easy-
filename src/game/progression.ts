@@ -170,3 +170,5 @@ export interface Derived {
   dodgeDistance: number
   /** Multiplier on every shadow's HP and damage. */
   shadowPower: number
+}
+
