@@ -38,3 +38,4 @@ function groundColour(x: number, y: number, h: number, slope: number, out: THREE
   out.lerp(MUD, 0.6 * smooth(0.9, 0.2, h) * smooth(-3, 0, h))
   out.lerp(SNOW, smooth(150, 190, h))
   const pd = pathDist(x, y)
+  if (pd < 3.5) out.lerp(PATH, 0.7 * smooth(3.2, 1.2, pd) * (1 - smooth(0.3, 0.6, slope)))
