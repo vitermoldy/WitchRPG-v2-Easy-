@@ -58,3 +58,4 @@ export class Player {
   petrified = 0
   /** Poison: seconds left and damage per second. */
   poisonT = 0
+  poisonDps = 0
