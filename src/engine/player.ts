@@ -198,3 +198,4 @@ export class Player {
   /** Toward a held yaw, else toward the way she is going. */
   private turn(face: number | null, dt: number) {
     let want: number | null = face
+    if (want === null && this.speed > 0.3) want = Math.atan2(-this.vx, -this.vz)
