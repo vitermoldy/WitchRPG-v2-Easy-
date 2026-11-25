@@ -162,3 +162,4 @@ export class Camps {
     const g = this.g
     camp.state = 'active'
     camp.roused = false
+    camp.units = []
