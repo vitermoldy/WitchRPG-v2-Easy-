@@ -696,3 +696,4 @@ export class Spells {
         if (u.team !== 'enemy' || !u.alive || u.spec.anchored || u.state === 'held' || u.state === 'thrown' || u.state === 'finishing') continue
         if (Math.hypot(u.pos.x - w.pos.x, u.pos.z - w.pos.z) < w.radius) u.lifted = Math.max(u.lifted, Math.min(left, 0.3))
       }
+      if (Math.random() < dt * 40) {
