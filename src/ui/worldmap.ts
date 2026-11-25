@@ -68,3 +68,4 @@ export class WorldMap {
       this.changed()
     })
     $('map-monsters').addEventListener('change', (e) => {
+      const box = e.target as HTMLInputElement
