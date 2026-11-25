@@ -183,3 +183,4 @@ export class Ambient {
     for (let i = 0; i < COUNT; i++) {
       if (first) {
         this.respawn(i, cam, ground, w, true)
+        continue
