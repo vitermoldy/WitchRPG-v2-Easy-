@@ -81,3 +81,4 @@ const SHIELD_VERT = /* glsl */ `
     vec4 mv = modelViewMatrix * vec4(position, 1.0);
     vNormal = normalMatrix * normal;
     vView = -mv.xyz;
+    gl_Position = projectionMatrix * mv;
