@@ -519,3 +519,5 @@ export class Game implements UnitHost {
     this.input.capture = false
     this.input.releaseAll()
     this.saveNow()
+  }
+
