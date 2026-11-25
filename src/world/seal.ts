@@ -54,3 +54,4 @@ export class Seal {
     const H = 16
     const wall = (ax: number, ay: number, bx: number, by: number) => {
       const ha = heightMap(ax, ay) - 1
+      const hb = heightMap(bx, by) - 1
