@@ -87,3 +87,4 @@ describe('staff combo', () => {
   })
 
   it('turns a held button into the heavy blow', () => {
+    const c = new Combo()
