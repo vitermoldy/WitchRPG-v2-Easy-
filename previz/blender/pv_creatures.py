@@ -290,3 +290,4 @@ def eagle_head(part, at, fwd=(0, -1, 0), s=1.0, mat="body2"):
         part.cone(base, base - F * (0.32 - 0.04 * i) * s + UP * 0.1 * s, 0.05 * s, mat=mat, seg=5)
 
 
+def horse_head(part, at, fwd=(0, -1, -0.6), s=1.0, mat="body"):
