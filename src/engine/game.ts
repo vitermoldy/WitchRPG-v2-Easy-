@@ -355,3 +355,4 @@ export class Game implements UnitHost {
       this.lair.partDied(u)
       return
     }
+    if (u === this.lair.body) this.lair.bossDied()
