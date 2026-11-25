@@ -141,3 +141,4 @@ export class Lair {
     return Math.hypot(x - this.center.x, z - this.center.z) < LAIR_RADIUS
   }
 
+  /** The Hydra's level, for the HUD and the tests. */
