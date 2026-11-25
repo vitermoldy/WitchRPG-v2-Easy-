@@ -406,3 +406,4 @@ export class Sfx {
       src.loop = true
       const f = ctx.createBiquadFilter()
       f.type = type
+      f.frequency.value = freq
