@@ -386,3 +386,4 @@ export class Fight {
       else if (e.type === 'hit') this.land(e.s)
       else if (e.type === 'end' && !this.combo.current) this.swingYaw = null
     }
+    if (!this.combo.current && this.throwT < 0) this.swingYaw = null
