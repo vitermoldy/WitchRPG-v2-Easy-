@@ -541,3 +541,4 @@ export class Game implements UnitHost {
 
   /** Stats and level changed: new max HP and mana (keeping the share she had), pace, roll. */
   private applyDerived(fill = false) {
+    const p = this.player
