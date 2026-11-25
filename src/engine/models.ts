@@ -299,3 +299,4 @@ export class IlyraModel {
       const weight = sw.t < k ? 1 : 1 - ease((sw.t - k) / sw.recover)
       torsoY = pose.torso
       armRX = pose.armX
+      armRY = pose.armY
