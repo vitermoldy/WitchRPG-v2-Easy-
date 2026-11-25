@@ -569,3 +569,4 @@ export class Spells {
     this.g.sfx.burst()
   }
 
+  /** Shared by Chaos Burst and the barrier blast: hurts, shoves and tosses every creature inside. */
