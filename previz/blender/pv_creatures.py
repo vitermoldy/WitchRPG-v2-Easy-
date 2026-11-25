@@ -775,3 +775,6 @@ def _demon(r, H, bulk, female, span, horn_kind, arm_pose):
 
 
 def b_succubus(r):
+    _demon(r, 1.95, 0.8, True, 1.9, "back", {"L": (35, 70, 15), "R": (18, 10, 30)})
+
+
