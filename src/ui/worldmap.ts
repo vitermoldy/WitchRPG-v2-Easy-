@@ -362,3 +362,4 @@ export class WorldMap {
       ctx.beginPath()
       ctx.arc(x, y, dot, 0, Math.PI * 2)
       ctx.fillStyle = KIND_COLOR[f.kind] ?? '#fff'
+      ctx.strokeStyle = 'rgba(12, 8, 9, 0.85)'
