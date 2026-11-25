@@ -105,3 +105,4 @@ Tur fitur (setiap skill sekali di game, `?debug`, Lv 10): Hex Bolt melukai Imp d
 | --- | --- | --- |
 | Umbra Rite | Aturan v1: tubuh bersinar 20 dtk, jangkauan 10 m, cast 1,5 dtk (1 dtk dengan upgrade), mana 40 plus 8 per tubuh tambahan, dua tubuh atau lebih dalam 12 m dibangkitkan sekaligus, satu lemparan per tubuh. Peluang v1 plus 0,15 untuk tubuh yang dieksekusi; tubuh itu juga berpendar lebih terang. Tubuh dipilih dari tengah kamera | Prompt. Diukur di game: Prajurit Lv 1 oleh witch Lv 6 dengan UMB 5 bernilai 75%, yang dieksekusi 90% (75 + 15), persis rumus. |
 | Ruang Bayangan | Tanpa batas slot (penjaga simpanan 2.000). T memanggil semua yang siap, terkuat dulu, dalam sekitar 2,5 dtk dari kolam bayangan; T lagi mengembalikan semuanya. Bayangan yang tumbang terbentuk kembali 45 dtk | Sama dengan v1. |
+| Formasi | Cincin di belakang Ilyra: 8 di cincin pertama, 4 lebih banyak per cincin berikutnya, 1,8 m antar cincin | v1. |
