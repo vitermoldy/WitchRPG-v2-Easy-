@@ -181,3 +181,4 @@ export class Camps {
         u.home = new THREE.Vector3(at.x, 0, at.z)
         u.aggro = false
         camp.units.push(u)
+      }
