@@ -132,3 +132,4 @@ Tur di game (`?debug`, Lv 6): empat Imp dikalahkan dengan pukulan dan satu dieks
 
 | Bagian | Keputusan | Alasan |
 | --- | --- | --- |
+| Serangan makhluk | Setiap makhluk v2 bisa punya beberapa serangan (`attacks` di `balance.ts`): jenis telegraf, ancang-ancang, jangkauan minimum dan maksimum, damage, lompatan, radius lingkaran, napas di depan, proyektil, efek, dan jeda sendiri. Makhluk memakai serangan pertama yang cocok dengan jaraknya; serangan "belakang" hanya bila Ilyra di belakangnya | Minotaur (kapak, seruduk) dan Chimera (tiga kepala) butuh lebih dari satu serangan, dan aturan cincin dan garis tetap satu untuk semua. |
