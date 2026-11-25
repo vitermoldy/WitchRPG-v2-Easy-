@@ -376,3 +376,4 @@ class Part:
             R.append(radii[i] * (1 - f) + radii[i + 1] * f)
         T = []
         for i in range(len(P)):
+            a = P[max(i - 1, 0)]
