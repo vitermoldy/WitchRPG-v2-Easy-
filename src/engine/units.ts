@@ -691,3 +691,4 @@ export class UnitSystem {
       this.blink(u, tgt)
       return
     }
+    const speed = u.speed * u.slow
