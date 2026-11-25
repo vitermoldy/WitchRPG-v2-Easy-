@@ -200,3 +200,4 @@ def terrain_material():
     L.new(att.outputs["Color"], b.inputs["Base Color"])
     # embers glowing in the burnt valley floor
     bara = N.new("ShaderNodeAttribute")
+    bara.attribute_name = "bara"
