@@ -90,3 +90,4 @@ class Staff {
   private sweepUnits(len: number): { u: Unit; f: number } | null {
     if (len < 1e-5) return null
     this.dir.subVectors(this.pos, this.prev).divideScalar(len)
+    this.ray.set(this.prev, this.dir)
