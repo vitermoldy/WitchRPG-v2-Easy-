@@ -150,3 +150,4 @@ export function inSwing(fromX: number, fromZ: number, yaw: number, swing: Swing,
   const dz = z - fromZ
   const d = Math.hypot(dx, dz)
   if (d > swing.reach + radius) return false
+  if (d < 0.4) return true
