@@ -270,3 +270,5 @@ export class Forest {
       this.mesh.setVisibleAt(i, dx * dx + dz * dz < r2)
     }
   }
+}
+
