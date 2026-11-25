@@ -674,3 +674,4 @@ def b_cyclops(r):
         r.parts["forearm_" + side].torus(J["wr_" + side] - J["hand_dir_" + side] * 0.12, 0.13, 0.05, normal=J["hand_dir_" + side], mat="strap", seg=12)
         sh = r.parts["shin_" + side]
         for k in range(3):
+            sh.torus(lerp(J["knee_" + side], J["ankle_" + side], 0.4 + 0.25 * k), 0.1 - 0.01 * k, 0.025, mat="strap", seg=12, rseg=4)
