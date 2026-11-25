@@ -943,3 +943,4 @@ export const HYDRA = {
   slamNear: 10,
   slamReach: 14,
   phase2At: 0.66,
+  phase3At: 0.33,
