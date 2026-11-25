@@ -155,3 +155,4 @@ export function createApi(getPool, database) {
     const conn = await getPool().getConnection()
     try {
       await conn.beginTransaction()
+      await touch(conn, client)
