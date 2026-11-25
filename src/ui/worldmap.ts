@@ -110,3 +110,4 @@ export class WorldMap {
     } catch {
       /* the choice lasts until the page reloads */
     }
+    if (rerender) this.renderMonsters()
