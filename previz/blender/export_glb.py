@@ -147,3 +147,6 @@ def lod_tris(coll):
         me.calc_loop_triangles()
         n += len(me.loop_triangles)
         e.to_mesh_clear()
+    return n
+
+
