@@ -638,3 +638,4 @@ export class Game implements UnitHost {
         this.glow.emit({ pos: u.center(this.v), count: 8, color: 0xfff2e0, intensity: 2.4, life: 0.25, size: 0.08, speed: 4, gravity: 6 })
       }
     }
+    const died = this.units.hurt(u, dmg, from, stun, knock)
