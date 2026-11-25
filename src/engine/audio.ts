@@ -133,3 +133,4 @@ export class Sfx {
   }
 
   burst() {
+    if (!this.ok()) return
