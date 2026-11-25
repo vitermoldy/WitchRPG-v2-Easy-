@@ -96,3 +96,4 @@ export class Atmosphere {
     zoneWeights(mx, my, this.w)
     this.fogTarget.setRGB(0, 0, 0)
     this.skyTarget.setRGB(0, 0, 0)
+    this.zenithTarget.setRGB(0, 0, 0)
