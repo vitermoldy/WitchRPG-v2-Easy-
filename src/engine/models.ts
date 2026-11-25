@@ -137,3 +137,4 @@ export class IlyraModel {
         const m = (o as THREE.Mesh).material as THREE.MeshStandardMaterial | undefined
         if (m?.emissive) {
           m.userData.glow ??= m.emissiveIntensity
+          m.emissiveIntensity = on ? m.userData.glow * 0.2 : m.userData.glow
