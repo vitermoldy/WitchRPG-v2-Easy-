@@ -303,3 +303,4 @@ export class Lair {
 
   /** How deep she stands in the flood (m), for wading. */
   depthAt(x: number, z: number, y: number) {
+    return this.flood > 0 && this.inside(x, z) ? Math.max(0, this.waterY - y) : 0
