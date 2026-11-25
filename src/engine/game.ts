@@ -474,3 +474,4 @@ export class Game implements UnitHost {
 
   /** Puts her at a world point facing `yaw`, with the camera behind her. */
   placeAt(x: number, z: number, yaw: number) {
+    this.player.place(x, z, this.ground, yaw)
