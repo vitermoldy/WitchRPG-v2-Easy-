@@ -934,3 +934,4 @@ class Rig implements Poser {
       h.neckCurl = clamp(h.neckCurl + clamp(high * 0.6, -3, 3), -8, 36)
       h.neckYaw = clamp(h.neckYaw + clamp((turn / D) * 0.9, -8, 8), -90, 90)
       steering = true
+    })
