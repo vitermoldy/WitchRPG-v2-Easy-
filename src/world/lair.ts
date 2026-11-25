@@ -371,3 +371,4 @@ export class Lair {
     }
   }
 
+  private target(): THREE.Vector3 | null {
