@@ -395,3 +395,5 @@ def axe(part, W, d, length=1.2, blade=0.55):
     part.torus(c, 0.05, 0.02, normal=d, mat="metal", seg=10, rseg=4)
 
 
+# ---------------------------------------------------------------- Ilyra
+
