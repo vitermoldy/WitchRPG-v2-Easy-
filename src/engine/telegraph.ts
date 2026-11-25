@@ -48,3 +48,4 @@ const LINE_FRAG = /* glsl */ `
   }
 `
 
+const RING_SEG = 40
