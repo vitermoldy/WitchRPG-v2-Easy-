@@ -723,3 +723,4 @@ export class Spells {
     if (this.barrierT <= 0) return dmg
     const taken = Math.min(this.barrierAbsorb, dmg)
     this.barrierAbsorb -= taken
+    this.barrierHit = 1
