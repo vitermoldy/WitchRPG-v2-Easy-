@@ -175,3 +175,5 @@ Jalan setapak: altar ke utara melewati Hutan Pembuka sampai kuil, bercabang ke b
 | Danau Hitam | Bagian dari Rawa | Punya kabut rendah sendiri di atas air hitam | Sarang boss perlu terbaca berbeda dari rawa di sekitarnya |
 | Anggaran mini-boss | Mob 8.000, boss 30.000 | Medusa dan Chimera memakai anggaran boss | Medusa block-out sudah 15.928 segitiga |
 
+## Temuan untuk Fase 1
+
