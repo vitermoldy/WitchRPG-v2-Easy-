@@ -348,3 +348,4 @@ export class Fight {
 
     // block: C held; the press time decides a parry
     if (inp.blockPressed) this.blockPressedAt = g.t
+    const canBlock = !p.dodging && this.combo.cancellable
