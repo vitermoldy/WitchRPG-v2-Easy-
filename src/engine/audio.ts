@@ -450,3 +450,4 @@ export class Sfx {
     a.drone.gain.setTargetAtTime(0.0001 + bara * 0.08 + kuil * 0.015, t, 1)
     a.insects.gain.setTargetAtTime(0.0001 + rawa * 0.025 * (0.6 + 0.4 * Math.sin(t * 7)), t, 0.1)
     const roll = (perSecond: number) => Math.random() < perSecond * dt
+    if (roll(0.45 * pembuka + 0.12 * tebing)) this.bird(t)
