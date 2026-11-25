@@ -1103,3 +1103,4 @@ COLORS = {
     "phoenix": {"body": ("#d0381c", "#ff7a2a"), "membrane": "#e8501c", "accent": "#ffb030", "horn": "#f0c040", "glow": "#ffd060",
                 "emissive": {"body": ("#ff4a1a", 1.2), "membrane": ("#ff5a1a", 2.0), "accent": ("#ffa020", 3.5)}},
     "dragon": {"body": ("#9a2618", "#d8a878"), "membrane": "#d89a6a", "accent": "#6a160e", "horn": "#e8dcc0", "mouth": "#5a0e0a"},
+    "hydra": {"body": ("#56664c", "#a0a884"), "membrane": "#a0aca0", "accent": "#3e4a38", "horn": "#d8d8c8", "mouth": "#5a1e1a"},
