@@ -360,3 +360,4 @@ export class WorldMap {
       if (!this.chosen.has(f.kind)) continue
       const [x, y] = at(f.x, f.z)
       ctx.beginPath()
+      ctx.arc(x, y, dot, 0, Math.PI * 2)
