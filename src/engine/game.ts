@@ -118,3 +118,4 @@ export class Game implements UnitHost {
   /** The target of creatures' blows: her feet, her size, and whether she stands. */
   readonly foe: Foe = { pos: new THREE.Vector3(), radius: MOVE.radius, alive: true }
 
+  private readonly debug: boolean
