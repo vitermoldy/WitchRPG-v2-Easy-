@@ -637,3 +637,4 @@ def b_minotaur(r, pose="idle"):
     tpts = [hp + Vector((0, 0.25, 0.0)), hp + Vector((0.1, 0.5, -0.45)), hp + Vector((0.15, 0.55, -0.95))]
     tail_tube(tl, tpts, 0.035, 0.02, mat="skin")
     tl.ell(tpts[-1], (0.05, 0.05, 0.12), mat="hair")
+    for s, side in SIDES:
