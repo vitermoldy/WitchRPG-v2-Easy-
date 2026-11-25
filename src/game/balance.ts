@@ -1071,3 +1071,4 @@ export const TIERS: Record<TierId, TierSpec> = {
     // Phase 3 can only be won inside Reality Warp (Lv 10), so the lair opens at that level.
     boss: { level: 10, unlock: 10 },
   },
+  // Past the GDD's first version: enemies Lv 10 and up, elite combinations.
