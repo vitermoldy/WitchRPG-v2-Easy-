@@ -113,3 +113,4 @@ def ground_z(x, y):
 
 def zone_weights(x, y):
     W = []
+    for z in ZONES:
