@@ -1454,3 +1454,4 @@ dialog::backdrop {
 
 .derived dd {
   margin: 0;
+  text-align: right;
