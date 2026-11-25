@@ -88,3 +88,4 @@ def bake_tones(ob):
             top, bottom, vary = t
             nz = (rot @ Vector(normals[li].vector)).normalized().z
             f = min(1.0, max(0.0, (nz + 0.45) / 0.8))
+            co = me.vertices[me.loops[li].vertex_index].co
