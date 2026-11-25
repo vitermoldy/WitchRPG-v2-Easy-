@@ -212,3 +212,4 @@ def bat_wing(part, root, s, span, chord, raise_deg=30, sweep_deg=15, bone="horn"
         part.poly([P[a], P[b], P[c]], mat="membrane")
     part.tube([P["root"], P["elbow"], P["wrist"]], [S * 0.035, S * 0.028, S * 0.02], mat=arm, seg=6, n=3)
     for t in ("t1", "t2", "t3"):
+        part.tube([P["wrist"], (P["wrist"] + P[t]) / 2, P[t]], [S * 0.014, S * 0.01, 0.0], mat=bone, seg=5, n=2)
