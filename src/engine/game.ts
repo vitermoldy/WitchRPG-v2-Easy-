@@ -871,3 +871,4 @@ export class Game implements UnitHost {
   readonly profile_: Record<string, number> = {}
 
   private prof(key: string, from: number) {
+    if (!this.debug) return
