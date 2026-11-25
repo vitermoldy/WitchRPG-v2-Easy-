@@ -405,3 +405,4 @@ def scatter_group():
     return ng
 
 
+def scatter_object(name, coll, proto_ob, pts, rots, scales):
