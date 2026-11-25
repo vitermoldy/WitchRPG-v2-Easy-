@@ -154,3 +154,4 @@ describe('the open world (phase 7)', () => {
     expect(Math.hypot(uni.pos.x, uni.pos.z)).toBeGreaterThan(8)
     expect(uni.state).toBe('move')
     for (const kind of FAUNA) expect(UNITS[kind].passive, kind).toBe(true)
+  })
