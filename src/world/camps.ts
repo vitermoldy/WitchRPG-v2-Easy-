@@ -165,3 +165,4 @@ export class Camps {
     camp.units = []
     const [lo, hi] = camp.def.levels
     let n = 0
+    for (const [kind, listed] of Object.entries(camp.def.pack) as [V2Kind, number][]) {
