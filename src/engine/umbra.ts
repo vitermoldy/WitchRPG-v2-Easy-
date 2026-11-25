@@ -479,3 +479,4 @@ export class Umbra {
       g.saveSoon()
     } else {
       g.sfx.riteResult(false)
+      g.hud.message(list.length === 1 ? `Esensi ${UNITS[list[0].kind].name} pudar. Peluangnya ${Math.round(this.chance(list[0]) * 100)}%, dan setiap tubuh hanya bisa dicoba sekali.` : `Semua ${faded} esensi pudar. Setiap tubuh hanya bisa dicoba sekali.`, 'umbra')
