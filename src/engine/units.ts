@@ -754,3 +754,4 @@ export class UnitSystem {
             break
           }
           u.set('strike')
+          u.hitDone = false
