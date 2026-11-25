@@ -480,3 +480,4 @@ def build_forest(coll, P, size=1260.0, step=4.0, seed=3):
         for c, rad in CLEARINGS:
             sel &= _dist(X, Y, c) > rad
         ids = np.nonzero(sel)[0]
+        pts = np.stack([X[ids], Y[ids], Z[ids] - 0.3], axis=1)
