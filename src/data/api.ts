@@ -70,3 +70,4 @@ async function call<T>(path: string, init?: RequestInit): Promise<T> {
       headers: init?.body ? { 'Content-Type': 'application/json' } : undefined,
     })
   } catch {
+    throw new ApiError('Server tidak menjawab.', 0)
