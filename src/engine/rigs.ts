@@ -1079,3 +1079,4 @@ export class Rigs {
         shadows.forEach((u, i) => (u.detailed = i < this.detail))
       }
     }
+    for (const r of this.rigs.values()) r.begin()
