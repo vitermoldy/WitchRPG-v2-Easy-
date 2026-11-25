@@ -230,3 +230,5 @@ Pengukuran (pola v1: 20 makhluk bertarung, hutan penuh, 1920 × 1080, GPU NVIDIA
 | 0 | 6,7 sampai 6,9 ms | 7,5 sampai 7,7 ms | 6,3 ms | 5,6 ms |
 | 200 | 9,0 sampai 9,1 ms | 10,0 sampai 11,9 ms | 8,7 ms | 8,3 ms |
 | 500 | 10,1 ms | 11,3 sampai 12,2 ms | | 9,9 ms |
+| 1.000 | 11,6 sampai 11,8 ms | 13,6 sampai 15,3 ms | | 12,8 ms |
+
