@@ -338,3 +338,4 @@ export class Game implements UnitHost {
   }
 
   summoned(h: Unit) {
+    this.pools.open(h.pos, 1 + h.radius * 1.5, 1)
