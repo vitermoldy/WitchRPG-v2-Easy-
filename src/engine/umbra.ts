@@ -113,3 +113,4 @@ export class Umbra {
     let next = Infinity
     for (const [, at] of this.downUntil) {
       if (at > this.time) {
+        count++
