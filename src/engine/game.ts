@@ -911,3 +911,4 @@ export class Game implements UnitHost {
       else this.rig.look(inp.dx, inp.dy, CAMERA.sensitivity * this.sensitivity)
     }
 
+    const targets = this.units.enemies().filter((u) => u.targetable || (u === this.lockon.current && u.state === 'finishing'))
