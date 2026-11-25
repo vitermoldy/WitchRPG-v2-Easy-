@@ -285,3 +285,4 @@ def veg_palette():
     }
 
 
+def proto(name, coll, pal, fn, flat=False):
