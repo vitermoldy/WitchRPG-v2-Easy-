@@ -162,3 +162,4 @@ export class Terrain {
       const start = v
       for (const src of edge) {
         pos.set([pos[src * 3], pos[src * 3 + 1] - SKIRT, pos[src * 3 + 2]], v * 3)
+        nor.set([nor[src * 3], nor[src * 3 + 1], nor[src * 3 + 2]], v * 3)
