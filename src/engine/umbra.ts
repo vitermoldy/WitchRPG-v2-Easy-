@@ -542,3 +542,4 @@ export class Umbra {
           let bd = Infinity
           for (const e of enemies) {
             const near = e.pos.distanceTo(target.pos)
+            const d = near + e.pos.distanceTo(s.pos) * 0.3
