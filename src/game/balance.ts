@@ -1112,3 +1112,5 @@ export const RIFT = {
   breatherHeal: 0.2,
   /** Seconds the last three or fewer of a wave may hang back before they come for the witch. */
   straggle: 20,
+} as const
+
