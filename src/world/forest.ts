@@ -15,3 +15,4 @@ const SHAPE: Record<Kind, { trunk: number; h: number; crown: [number, number, nu
   pine: { trunk: 0.3, h: 13, crown: [3.6, 2.4, 13.5] },
   pine_tall: { trunk: 0.32, h: 20, crown: [5.6, 2.6, 20.5] },
   pine_warm: { trunk: 0.3, h: 11, crown: [3.1, 2.7, 11.5] },
+  birch: { trunk: 0.2, h: 11, crown: [6.4, 2.2, 11.5] },
