@@ -466,3 +466,4 @@ export class Umbra {
     this.stats.raised += raised.length
     this.stats.faded += faded
     if (raised.length) {
+      g.addTrauma(Math.min(0.5, 0.15 + raised.length * 0.04))
