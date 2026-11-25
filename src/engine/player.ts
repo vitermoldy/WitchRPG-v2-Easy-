@@ -45,3 +45,4 @@ export class Player {
   dodgeCd = 0
   dodgeDistance: number = MOVE.dodge.distance
   speedMult = 1
+  /** Walk cycle phase for the procedural animation (radians). */
