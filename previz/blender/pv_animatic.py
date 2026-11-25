@@ -27,3 +27,6 @@ def seg(t, a, b):
 
 
 def look_quat(d):
+    return Vector(d).normalized().to_track_quat("-Z", "Y")
+
+
