@@ -181,3 +181,4 @@ export const V2_KINDS = [
   'imp', 'hellhound', 'harpy', 'centaur', 'naga', 'minotaur', 'medusa', 'chimera', 'cyclops', 'succubus', 'incubus', 'phoenix', 'hydra',
   'griffin', 'hippogriff', 'pegasus', 'unicorn', 'cerberus', 'lilith', 'dragon', 'typhon', 'samael', 'atlas',
 ] as const
+/** The bosses of the open world, each in a camp of its own with a boss bar (the Hydra has its lair). */
