@@ -156,3 +156,4 @@ class Staff {
       this.pos.addScaledVector(this.vel, dt)
       // every creature on the way home is struck once
       for (;;) {
+        const h = this.sweepUnits(this.pos.distanceTo(this.prev))
