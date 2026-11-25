@@ -316,3 +316,4 @@ export class Fight {
     this.castFx = 1
   }
 
+  caught() {
