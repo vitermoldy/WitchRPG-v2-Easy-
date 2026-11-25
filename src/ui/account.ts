@@ -210,3 +210,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
     }
     button.disabled = true
     button.textContent = 'Keluar...'
+    // The witch belongs to this account: she goes out before the browser forgets her.
