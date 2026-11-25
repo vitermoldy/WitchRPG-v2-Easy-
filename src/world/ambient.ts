@@ -34,3 +34,4 @@ const KINDS: Kind[] = [
   { color: 0xffc070, size: 0.16, vel: [0.3, 1.4, 0.2], wander: 0.8, blink: 0.6, alpha: 1 },
 ]
 
+const MOTE_VERT = /* glsl */ `
