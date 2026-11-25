@@ -350,3 +350,5 @@ export class Warnings {
       scene.add(group)
       this.pool.push({ group, fill, edge, t: 0, dur: 1 })
     }
+  }
+
