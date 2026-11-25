@@ -888,3 +888,4 @@ def hydra_neck_joints(base, top, bend, k=8):
 
 
 def b_hydra(r, heads=5):
+    """Grey-green many-necked serpent: finned crests, pale belly, four stubby legs, heavy tail."""
