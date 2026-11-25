@@ -242,3 +242,4 @@ export class IlyraModel {
       this.rot('head', -2 - 6 * sprint, -3 * s * amp)
     }
 
+    // upper body: the fight overrides the walk's arm swing
