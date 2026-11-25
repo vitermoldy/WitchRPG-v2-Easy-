@@ -302,3 +302,4 @@ export class Hud {
     const total = g.profile.shadows.length
     const reform = g.umbra.reforming()
     const rows: string[] = []
+    rows.push(`<li class="army-row"><span>Di medan</span><b class="num">${field.length} / ${total}</b></li>`)
