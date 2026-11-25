@@ -1175,3 +1175,4 @@ export const COMBAT = {
   heavyKnock: 7,
   /** Share of swing damage while the staff is thrown and she strikes bare-handed. */
   unarmed: 0.5,
+  block: {
