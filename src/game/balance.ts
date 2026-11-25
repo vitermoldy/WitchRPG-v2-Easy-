@@ -212,3 +212,4 @@ export interface AttackSpec {
   shot?: { speed: number; gravity: number; radius: number }
   /** What a landed blow does besides damage. petrify: she cannot move or act. poison: damage over time. */
   effect?: 'petrify' | 'poison'
+  /** Used only when she is behind the creature (the Chimera's snake tail). */
