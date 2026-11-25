@@ -490,3 +490,4 @@ export class UnitSystem {
       }
       if (u.state === 'rising') {
         if (u.t > 1.0) u.set('move')
+        continue
