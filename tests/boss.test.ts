@@ -201,3 +201,4 @@ describe('creature shots', () => {
       strikePlayer: () => {
         falls++
         g.player.alive = false
+        shots.clear()
