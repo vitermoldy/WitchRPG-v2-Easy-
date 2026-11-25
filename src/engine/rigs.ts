@@ -128,3 +128,4 @@ const poseImp: PoseFn = (p, u, t) => {
     p.rot('thigh_R', -55 * k)
     p.rot('shin_L', 85 * k)
     p.rot('shin_R', 85 * k)
+    p.rot('torso', 20 * k + shake)
