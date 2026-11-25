@@ -127,3 +127,4 @@ export const SKILLS: SkillDef[] = [
     effect: 'Bisa membangkitkan makhluk berpangkat Jenderal: Medusa dan Chimera.',
     upgrade: '',
     built: true,
+    noUpgrade: true,
