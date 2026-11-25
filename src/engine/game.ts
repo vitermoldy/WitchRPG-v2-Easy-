@@ -567,3 +567,4 @@ export class Game implements UnitHost {
         const def = skillById(id)
         this.hud.message(`${def.name} terbuka (${def.key}): ${def.effect}`, 'level')
       }
+    }
