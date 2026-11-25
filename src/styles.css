@@ -520,3 +520,4 @@ button {
   left: var(--gutter);
   margin: 0;
   padding: 0.5rem 0.7rem;
+  border-radius: var(--radius);
