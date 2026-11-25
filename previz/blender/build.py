@@ -121,3 +121,4 @@ if "--frame-list" in argv:
     sc.render.resolution_percentage = PCT
     for fr in (int(v) for v in arg("--frame-list").split(",")):
         sc.frame_start = sc.frame_end = fr
+        sc.render.filepath = os.path.join(TMP, "cek_")
