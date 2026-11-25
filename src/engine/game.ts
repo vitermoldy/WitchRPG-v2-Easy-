@@ -882,3 +882,4 @@ export class Game implements UnitHost {
     const inp = this.input
     const b = this.bot
     const p = this.player
+    // hitstop: the fight freezes for a moment on impact; the camera keeps moving
