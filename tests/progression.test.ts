@@ -93,3 +93,4 @@ describe('stats and the shadow army', () => {
   })
 })
 
+describe('upgrades and shadows', () => {
