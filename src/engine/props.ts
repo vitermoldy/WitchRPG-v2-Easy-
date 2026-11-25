@@ -50,3 +50,4 @@ export class Props {
   }
 
   clear() {
+    this.list.length = 0
