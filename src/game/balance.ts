@@ -522,3 +522,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     attackRange: 3.2,
     windup: 0.9,
     recover: 1,
+    cooldown: 2.2,
