@@ -47,3 +47,4 @@ export const SPOTS = {
   hydra: [-330 + 0.673 * 100, 300 - 0.74 * 100] as [number, number],
   army: [128, -258] as [number, number],
 }
+export const PATHS: [number, number][][] = [
