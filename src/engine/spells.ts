@@ -733,3 +733,4 @@ export class Spells {
     const s = SPELL.barrier
     this.barrierT = 0
     this.shield.visible = false
+    g.sfx.barrier(false)
