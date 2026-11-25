@@ -279,3 +279,4 @@ def rot_to(d):
 def _faces_of(verts):
     fs = set()
     for v in verts:
+        for f in v.link_faces:
