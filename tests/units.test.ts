@@ -44,3 +44,4 @@ describe('creature attacks', () => {
     const w = world()
     const imp = w.sys.spawn('imp', 'enemy', 1, { x: 0, z: 2 })
     let started = -1
+    w.step(3, () => {
