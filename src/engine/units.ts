@@ -751,3 +751,4 @@ export class UnitSystem {
             host.fire(u, atk)
             u.hitDone = true
             u.set('recover')
+            break
