@@ -151,3 +151,4 @@ export class Terrain {
       }
     }
     // skirts: copy each edge row down by SKIRT metres and stitch it to the edge
+    const edges: number[][] = [[], [], [], []]
