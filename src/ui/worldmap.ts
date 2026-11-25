@@ -359,3 +359,4 @@ export class WorldMap {
     for (const f of g.fauna.list()) {
       if (!this.chosen.has(f.kind)) continue
       const [x, y] = at(f.x, f.z)
+      ctx.beginPath()
