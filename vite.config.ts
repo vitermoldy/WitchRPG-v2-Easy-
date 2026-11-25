@@ -7,3 +7,4 @@ const root = fileURLToPath(new URL('.', import.meta.url)).replace(/^[a-z]:/, (d)
 // The account and save server (npm run server, port 8915 in Easy); dev and preview forward /api to it.
 const api = { '/api': { target: `http://localhost:${process.env.PORT ?? 8915}` } }
 
+export default defineConfig({
