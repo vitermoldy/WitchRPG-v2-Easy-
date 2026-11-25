@@ -270,3 +270,4 @@ export class TravelPanel {
     ;(this.dlg.querySelector<HTMLButtonElement>('[data-altar]:not([disabled])') ?? $('btn-travel-ledger')).focus()
   }
 
+  close() {
