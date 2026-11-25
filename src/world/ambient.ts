@@ -192,3 +192,4 @@ export class Ambient {
       p[i * 3 + 2] += (kind.vel[2] + Math.cos(ph * 0.7) * kind.wander) * dt
       const dx = p[i * 3] - cam.x
       const dz = p[i * 3 + 2] - cam.z
+      const dy = p[i * 3 + 1] - ground
