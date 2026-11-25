@@ -166,3 +166,4 @@ function segCylinder(ax: number, ay: number, az: number, dx: number, dy: number,
     const disc = b * b - 4 * a * c
     if (disc < 0) return 1
     const sq = Math.sqrt(disc)
+    c0 = (-b - sq) / (2 * a)
