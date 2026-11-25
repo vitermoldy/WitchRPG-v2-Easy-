@@ -91,3 +91,4 @@ export class Altars {
     const p = this.g.player.pos
     let best: { altar: Altar; dist: number } | null = null
     for (const a of this.list) {
+      if (this.isLit(a.key)) continue
