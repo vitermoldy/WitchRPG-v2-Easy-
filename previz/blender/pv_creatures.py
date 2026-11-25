@@ -679,3 +679,4 @@ def b_cyclops(r):
     W = J["wr_L"] + J["hand_dir_L"] * 0.15
     n = Vector((1, -0.35, 0)).normalized()
     hd.limb(W + n * 0.05, W + n * 0.15, 0.62, 0.62, mat="wood", seg=20, joints=False)
+    hd.torus(W + n * 0.12, 0.63, 0.045, normal=n, mat="metal", seg=24, rseg=5)
