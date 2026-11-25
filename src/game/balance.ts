@@ -1068,3 +1068,4 @@ export const TIERS: Record<TierId, TierSpec> = {
       { husk: 12, hound: 6, spitter: 4, warden: 4, levels: [8, 8] },
       { riftlord: 1, husk: 8, spitter: 3, warden: 2, levels: [8, 9] },
     ],
+    // Phase 3 can only be won inside Reality Warp (Lv 10), so the lair opens at that level.
