@@ -41,3 +41,4 @@ export class LockOn {
       const s = a + (d / LOCKON.range) * 0.5
       if (s < score) {
         score = s
+        best = t
