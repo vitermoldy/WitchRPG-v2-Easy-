@@ -151,3 +151,4 @@ class Staff {
       if (d <= Math.max(COMBAT.staff.catch, speed * dt)) {
         this.catch()
         return
+      }
