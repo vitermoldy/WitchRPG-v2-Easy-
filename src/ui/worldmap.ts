@@ -177,3 +177,4 @@ export class WorldMap {
     $('map-bosses').innerHTML = items
       .map(
         (b) =>
+          `<li><button type="button" class="map-boss ${b.status} ${this.focus === b.kind ? 'focus' : ''}" data-boss="${b.kind}" aria-pressed="${this.focus === b.kind}">` +
