@@ -148,3 +148,4 @@ export class IlyraModel {
     }
   }
 
+  /** World position of a palm (L: Chaos, R: Umbra). */
