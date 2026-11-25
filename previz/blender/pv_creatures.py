@@ -209,3 +209,4 @@ def bat_wing(part, root, s, span, chord, raise_deg=30, sweep_deg=15, bone="horn"
     fans = [("wrist", "t1", "s1"), ("wrist", "s1", "t2"), ("wrist", "t2", "s2"), ("wrist", "s2", "t3"), ("wrist", "t3", "s3"),
             ("root", "elbow", "wrist"), ("root", "wrist", "s3"), ("root", "s3", "body")]
     for a, b, c in fans:
+        part.poly([P[a], P[b], P[c]], mat="membrane")
