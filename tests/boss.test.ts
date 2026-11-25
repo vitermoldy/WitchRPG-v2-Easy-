@@ -200,3 +200,4 @@ describe('creature shots', () => {
       // the blow fells her, and her fall clears every shot in the air
       strikePlayer: () => {
         falls++
+        g.player.alive = false
