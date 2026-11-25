@@ -194,3 +194,4 @@ def build(dunia, res=(1280, 720), samples=24):
             tgt = Vector((Np.x, Np.y, nz + 2.6))
             d = (tgt - Vector((P.x, P.y, 0)))
             d.z = 0
+            loc, look = game_cam(P, f.lerp(d.normalized(), u).normalized())
