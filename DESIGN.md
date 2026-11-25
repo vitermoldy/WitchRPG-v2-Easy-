@@ -18,3 +18,4 @@ Action-RPG third-person dengan rasa God of War di hutan terbuka, memakai sistem 
 | Bagian | Keputusan | Alasan |
 | --- | --- | --- |
 | Mesin render | EEVEE (`BLENDER_EEVEE`) di Blender 5.1.2 pada RTX 5070 Ti. Cycles tidak dipakai | Mesin yang tersedia di instalasi ini: `BLENDER_EEVEE`, `BLENDER_WORKBENCH`, `CYCLES`. EEVEE berjalan di GPU NVIDIA lewat OpenGL dalam mode tanpa antarmuka, merender still 1920 × 1080 dalam beberapa detik dan satu frame animatic di bawah satu detik, dengan kabut bervolume dan bloom. Cadangan Cycles tidak dibutuhkan. |
+| Arti "FOV" | Selalu FOV vertikal, sama dengan `PerspectiveCamera.fov` di Three.js | Angka prompt tidak menyebut sumbu. Previz merender keduanya: FOV 68 vertikal dan 68 horizontal (vertikal 41,6). Keduanya ada di `previz/renders/00-kamera-varian.png`. |
