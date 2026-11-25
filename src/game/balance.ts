@@ -3,3 +3,4 @@
 
 /** Third-person movement on foot. No free jump or flight in v2: Space dodges. */
 /**
+ * WitchRPG v2 (Easy): what this version changes from WitchRPG v2. Every Umbra Rite succeeds; the v1
