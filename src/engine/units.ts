@@ -61,3 +61,4 @@ let nextId = 1
 
 export class Unit implements Foe {
   readonly id = nextId++
+  readonly kind: UnitKind
