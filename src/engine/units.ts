@@ -392,3 +392,4 @@ export class UnitSystem {
     for (const u of this.units) {
       if (!u.targetable) continue
       this.living[u.team].push(u)
+      const k = cellKey(Math.floor(u.pos.x / CELL), Math.floor(u.pos.z / CELL))
