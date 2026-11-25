@@ -340,3 +340,4 @@ class Part:
         rb = ra if rb is None else rb
         d = b - a
         if d.length < 1e-5:
+            return self
