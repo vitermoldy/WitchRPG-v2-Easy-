@@ -757,3 +757,4 @@ export class Game implements UnitHost {
     this.trauma = Math.min(1, this.trauma + k)
   }
 
+  saveSoon() {
