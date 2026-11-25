@@ -51,3 +51,4 @@ export class LockOn {
     if (this.current) {
       this.current = null
       return
+    }
