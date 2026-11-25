@@ -256,3 +256,4 @@ export class Sfx {
     for (const [f, d] of [[392, 0], [523.3, 0.09], [659.3, 0.18], [784, 0.27]] as const) this.tone(t + d, 'triangle', f, f, 0.6, 0.12)
   }
 
+  swap() {
