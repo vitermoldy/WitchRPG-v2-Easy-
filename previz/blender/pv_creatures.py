@@ -642,3 +642,4 @@ def b_minotaur(r, pose="idle"):
         hd = r.parts["hand_" + side]
         W = J["wr_" + side] + J["hand_dir_" + side] * 0.1
         if pose == "windup" and side == "R":
+            axe(hd, W, Vector((0.15, 0.4, 1)), length=1.5, blade=0.6)
