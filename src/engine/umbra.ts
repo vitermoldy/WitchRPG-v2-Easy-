@@ -201,3 +201,4 @@ export class Umbra {
   dismiss(quiet = false) {
     const g = this.g
     const out = this.field()
+    this.calls = []
