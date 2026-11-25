@@ -32,3 +32,4 @@ const wrap = (a: number) => Math.atan2(Math.sin(a), Math.cos(a))
  * Ilyra on foot: weighty acceleration, turning toward where she goes, and a roll on Space with a short
  * window in which nothing can hit her. Her yaw uses the camera convention (0 faces north, -z).
  */
+export class Player {
