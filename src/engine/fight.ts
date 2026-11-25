@@ -454,3 +454,4 @@ export class Fight {
       const mid = u.pos.y + u.height * 0.5
       if (Math.abs(mid - (p.pos.y + 1)) > u.height * 0.5 + 1.1) continue
       if (!inSwing(p.pos.x, p.pos.z, p.facing, sw, u.pos.x, u.pos.z, u.radius)) continue
+      g.hurtUnit(u, sw.damage * mult, p.pos, sw.stun, s.heavy ? COMBAT.heavyKnock : 1.5, 'player')
