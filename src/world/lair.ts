@@ -245,3 +245,4 @@ export class Lair {
       body.flash = 0.3
     }
     g.hud.message('Kepala Hydra terpenggal. Tubuhnya kehilangan 8% HP.', 'chaos')
+    g.sfx.roar()
