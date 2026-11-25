@@ -296,3 +296,4 @@ export class WorldMap {
       placed.push([cx - w / 2, cy - h / 2, cx + w / 2, cy + h / 2])
       ctx.lineWidth = 3
       ctx.strokeStyle = 'rgba(12, 8, 9, 0.8)'
+      ctx.strokeText(text, cx, cy)
