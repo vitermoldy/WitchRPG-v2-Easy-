@@ -60,3 +60,4 @@ const TABLES = [
   ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci`,
 ]
 
+/** Creates the database and the tables if they are missing, then hands back a pool. */
