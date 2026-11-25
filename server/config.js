@@ -18,3 +18,4 @@ export const config = {
   port: num('PORT', 8915),
   db: {
     host: str('DB_HOST', '127.0.0.1'),
+    port: num('DB_PORT', 3306),
