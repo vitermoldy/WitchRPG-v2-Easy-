@@ -174,3 +174,4 @@ export class Game implements UnitHost {
     this.applyDerived(true)
     this.units = new UnitSystem(this)
     this.fight = new Fight(this)
+    this.spells = new Spells(this)
