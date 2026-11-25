@@ -155,3 +155,4 @@ def export(key):
     scene.collection.children.link(coll)
     r = K.build(key, coll, pose=POSE.get(key), lights=False) if key == "ilyra" else K.build(key, coll, pose=POSE.get(key))
     K.ground_rig(r)
+    r.root.name = key
