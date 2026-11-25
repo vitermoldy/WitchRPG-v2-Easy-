@@ -132,3 +132,4 @@ def build(dunia, res=(1280, 720), samples=24):
             "upperarm_L": (14 * sw, 0, 0), "torso": (3 + breath, 0, 4 * sw), "pelvis": (0, 0, -3 * sw),
             "cloak": (5 + 3 * math.sin(phase * 2) * amp, 0, 0), "head": (-2, 0, -3 * sw),
         }
+        for part, rot in poses.items():
