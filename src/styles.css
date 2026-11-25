@@ -752,3 +752,4 @@ button {
 .prompt-box {
   position: absolute;
   left: 50%;
+  top: calc(50% + 64px);
