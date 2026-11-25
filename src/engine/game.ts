@@ -718,3 +718,4 @@ export class Game implements UnitHost {
     // she rises at the last altar she stood at
     const a = this.altars.byKey(this.profile.world.last)
     const at = this.altars.standAt(a)
+    this.placeAt(at.x, at.z, yawTo(at.x, at.z, a.pos.x, a.pos.z) + Math.PI)
