@@ -160,3 +160,4 @@ def build_terrain(coll, size=1300.0, step=2.5):
     pd = path_dist(X, Y)
     pth = smooth(3.2, 1.2, pd)[..., None] * (1 - smooth(0.3, 0.6, slope))[..., None]
     col = col * (1 - 0.7 * pth) + 0.7 * pth * _hex("#4a3b2c")
+    vari = (0.82 + 0.3 * (fbm(X / 6, Y / 6, 3, 12.0) * 0.5 + 0.5))[..., None]
