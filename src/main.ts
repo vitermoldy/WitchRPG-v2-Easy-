@@ -157,3 +157,4 @@ async function boot() {
       return
     }
     game.resume()
+  }
