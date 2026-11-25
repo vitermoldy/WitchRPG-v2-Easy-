@@ -184,3 +184,4 @@ export class Hud {
       this.hint.classList.toggle('show', this.hintTime > 0)
     }
     if (this.hitTime > 0) {
+      this.hitTime -= dt
