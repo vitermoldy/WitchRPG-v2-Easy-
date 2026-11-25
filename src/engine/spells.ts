@@ -440,3 +440,4 @@ export class Spells {
     if (!this.grabbed.length) {
       this.drop(false)
       return
+    }
