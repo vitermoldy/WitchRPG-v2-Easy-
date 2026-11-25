@@ -437,3 +437,4 @@ export class Spells {
       return
     }
     this.grabbed = this.grabbed.filter((u) => u.alive && u.state === 'held')
+    if (!this.grabbed.length) {
