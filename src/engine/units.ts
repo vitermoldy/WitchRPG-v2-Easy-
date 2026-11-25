@@ -653,3 +653,4 @@ export class UnitSystem {
       this.faunaBrain(u, dt)
       return
     }
+    const host = this.host
