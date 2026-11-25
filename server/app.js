@@ -168,3 +168,4 @@ export function createApi(getPool, database) {
          ON DUPLICATE KEY UPDATE level = VALUES(level), xp = VALUES(xp), stat_points = VALUES(stat_points), skill_points = VALUES(skill_points),
            hex = VALUES(hex), spr = VALUES(spr), vit = VALUES(vit), agi = VALUES(agi), umb = VALUES(umb),
            next_shadow_id = VALUES(next_shadow_id), boss_kills = VALUES(boss_kills), settings = VALUES(settings), updated_at = VALUES(updated_at)`,
+        [client, p.level, p.xp, p.statPoints, p.skillPoints, p.stats.hex, p.stats.spr, p.stats.vit, p.stats.agi, p.stats.umb, p.nextShadowId, p.bossKills, JSON.stringify(p.settings), p.updatedAt],
