@@ -240,3 +240,4 @@ export class TravelPanel {
     this.host = host
     $('btn-travel-close').addEventListener('click', () => this.close())
     this.dlg.addEventListener('close', () => this.onClose?.())
+    this.dlg.addEventListener('click', (e) => {
