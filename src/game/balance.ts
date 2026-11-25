@@ -956,3 +956,4 @@ export const HYDRA = {
   warpShare: 1.5,
   /** Share of the army's damage that lands on it, in every phase: the Hydra is her fight. */
   armyShare: 0.15,
+  /** Mass of a boulder on the islands, as a creature's: thrown at full speed it hits for about 74 with v1's impact formula, before her Hex and the 150% of phase 2. */
