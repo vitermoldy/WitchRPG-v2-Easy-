@@ -91,3 +91,4 @@ export class Projectiles {
       s.pos.addScaledVector(s.vel, dt)
       s.life -= dt
       s.mesh.position.copy(s.pos)
+      if (s.atk.strike === 'line') s.mesh.lookAt(this.c.copy(s.pos).add(s.vel))
