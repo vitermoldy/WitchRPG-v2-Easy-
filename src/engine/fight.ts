@@ -20,3 +20,5 @@ export interface FightInput {
 }
 
 const wrap = (a: number) => Math.atan2(Math.sin(a), Math.cos(a))
+const Y = new THREE.Vector3(0, 1, 0)
+
