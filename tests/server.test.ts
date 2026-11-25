@@ -6,3 +6,5 @@ import { ALTARS } from '../src/world/map'
 import { SKILLS } from '../src/game/skills'
 import { addShadow, newProfile } from '../src/game/progression'
 
+const NOW = Date.parse('2026-11-26T00:00:00Z')
+
