@@ -788,3 +788,4 @@ def b_griffin(r):
     nb = V(Q["neck_base"])
     hp = nb + Vector((0, -0.35, 0.65))
     n = r.P("head", nb, "body")
+    n.tube([nb, nb + Vector((0, -0.2, 0.35)), hp], [0.34, 0.28, 0.21], mat="body2", seg=8, n=3)
