@@ -1666,3 +1666,4 @@ dialog::backdrop {
   min-height: 44px;
   padding: 0.4em 0;
   border: 0;
+  background: none;
