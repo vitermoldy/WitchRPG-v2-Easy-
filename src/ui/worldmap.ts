@@ -246,3 +246,4 @@ export class WorldMap {
         img.data[o + 2] = Math.min(255, b)
         img.data[o + 3] = 255
       }
+    }
