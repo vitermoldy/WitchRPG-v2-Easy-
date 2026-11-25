@@ -173,3 +173,4 @@ export class Camps {
         const at = { x: camp.pos.x + Math.cos(a) * r, y: 0, z: camp.pos.z + Math.sin(a) * r }
         g.obstacles.pushOut(at, 0.6, 1.5)
         if (g.ground.blocked(at.x, at.z)) {
+          at.x = camp.pos.x
