@@ -46,3 +46,4 @@ export class Fauna {
     const p = g.player.pos
     for (const s of this.spots) {
       const d = Math.hypot(p.x - s.x, p.z - s.z)
+      if (!s.unit && d < WAKE) {
