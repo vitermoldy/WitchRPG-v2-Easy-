@@ -627,3 +627,6 @@ def sun(sc, name, rot_deg, color="#fff4e0", energy=4.0, angle=2.0, coll=None):
     ob = bpy.data.objects.new(name, ld)
     ob.rotation_euler = Euler([math.radians(a) for a in rot_deg])
     (coll or sc.collection).objects.link(ob)
+    return ob
+
+
