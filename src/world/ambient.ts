@@ -77,3 +77,4 @@ const RIFT_FRAG = /* glsl */ `
     float d = abs(vUv.x - zig(y));
     float inside = (1.0 - smoothstep(w * 0.75, w, d)) * step(0.02, taper);
     float rim = exp(-abs(d - w) * 140.0) * taper;
+    float glow = exp(-max(0.0, d - w) * 11.0) * taper * 0.55;
