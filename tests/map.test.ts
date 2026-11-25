@@ -50,3 +50,4 @@ describe('the forest valley', () => {
   it('keeps every camp inside its zone and the zone level band (three levels per tier, as in v1)', () => {
     for (const camp of CAMP_DEFS.filter((c) => !c.boss)) {
       const z = zoneAt(camp.c[0], camp.c[1])
+      expect(camp.levels[0], `camp at ${camp.c} in ${z.name}`).toBeGreaterThanOrEqual(z.levels[0])
