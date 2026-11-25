@@ -975,3 +975,4 @@ export class UnitSystem {
     if (!u.alive || u.spec.anchored) return
     this.host.clearTelegraph(u)
     u.token = false
+    u.vel.set(vel.x, vel.y, vel.z)
