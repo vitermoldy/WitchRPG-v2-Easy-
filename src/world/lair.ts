@@ -94,3 +94,4 @@ export class Lair {
     this.groundY = heightAt(this.center.x, this.center.z)
     this.center.y = this.groundY
     this.waterY = this.groundY - 3
+    // the flood: a dark disc that rises over the shore in phase 2
