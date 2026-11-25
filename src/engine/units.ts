@@ -186,3 +186,4 @@ export class Unit implements Foe {
   }
 
   /** Under the water or the mud, or in ashes: alive, but nothing can see or reach it. */
+  get hidden() {
