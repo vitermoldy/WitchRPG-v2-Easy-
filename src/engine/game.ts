@@ -876,3 +876,4 @@ export class Game implements UnitHost {
     this.profile_[key] = (this.profile_[key] ?? ms) * 0.95 + ms * 0.05
   }
 
+  private simulate(dt: number) {
