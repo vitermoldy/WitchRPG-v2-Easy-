@@ -172,3 +172,4 @@ Jalan setapak: altar ke utara melewati Hutan Pembuka sampai kuil, bercabang ke b
 | Hydra | Berkepala banyak | Lima kepala | Bisa dihitung pemain, sesuai referensi |
 | Rupa musuh | "Musuh: badan gelap dengan mata dan retakan amber" | Warna, anatomi, dan atribut khas mengikuti gambar referensi; hanya mata musuh yang tetap amber | Keputusan pemilik setelah melihat previz pertama: warnanya hampir sama semua dan bentuknya tidak mirip referensi |
 | Peran Cyclops | Pelempar batu | Tetap pelempar batu, tapi membawa perisai bundar seperti referensinya | Rupa mengikuti referensi, peran mengikuti roster |
+| Danau Hitam | Bagian dari Rawa | Punya kabut rendah sendiri di atas air hitam | Sarang boss perlu terbaca berbeda dari rawa di sekitarnya |
