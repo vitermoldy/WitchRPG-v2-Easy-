@@ -199,3 +199,4 @@ export function zoneWeights(x: number, y: number, out: Float32Array<ArrayBufferL
   return out
 }
 
+export function zoneAt(x: number, y: number): Zone {
