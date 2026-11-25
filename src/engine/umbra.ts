@@ -11,3 +11,5 @@ export const riteOdds = (...args: Parameters<typeof riteChance>) => Math.max(EAS
 
 export const rankOf = (u: Unit) => (u.elite && u.spec.eliteRank ? u.spec.eliteRank : u.spec.rank)
 
+export type WheelChoice = 'follow' | 'attack' | 'hold' | 'swap'
+
