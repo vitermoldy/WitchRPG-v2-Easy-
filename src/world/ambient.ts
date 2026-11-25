@@ -53,3 +53,4 @@ const MOTE_FRAG = /* glsl */ `
   varying vec3 vTint;
   varying float vAlpha;
   void main() {
+    float d = length(gl_PointCoord - 0.5) * 2.0;
