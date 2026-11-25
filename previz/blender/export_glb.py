@@ -9,3 +9,4 @@ colour plus emission, which glTF carries without baking. The two-tone materials 
 pv_common.mat_tone) are baked into vertex colours instead: the shader's up-to-down blend and its light
 noise become COLOR_0, and their flat material turns white so the vertex colour shows as it is.
 
+With --ratio R the game model itself is decimated to about R (for block-outs over the triangle budget).
