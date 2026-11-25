@@ -887,3 +887,4 @@ class Rig implements Poser {
     const gg = (glow ? glow.g : 0) + flash * 0.85
     const gb = (glow ? glow.b : 0) + flash * 0.75
     const anyHidden = this.hidden.size > 0
+    for (const part of this.parts) {
