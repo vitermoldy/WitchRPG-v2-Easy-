@@ -148,3 +148,4 @@ def build(dunia, res=(1280, 720), samples=24):
             nh.keyframe_insert("rotation_euler", frame=fr)
 
         # hydra: rises with swaying necks
+        hz = hydra_z(t)
