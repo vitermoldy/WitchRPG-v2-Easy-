@@ -62,3 +62,4 @@ export class Projectiles {
     if (atk.strike === 'ring') {
       aim.y = this.g.height(aim.x, aim.z)
       const flat = Math.hypot(aim.x - from.x, aim.z - from.z)
+      const t = Math.max(0.3, flat / spec.speed)
