@@ -128,3 +128,4 @@ export class Obstacles {
   /** Distance from a point to the nearest shape surface (negative inside one), looking within `reach`. */
   clearance(x: number, y: number, z: number, reach = 12): number {
     let best = reach
+    this.near(x, z, reach, (s) => {
