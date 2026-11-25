@@ -379,3 +379,4 @@ export class Umbra {
   private turnToAsh(u: Unit) {
     u.ash = true
     u.ashAt = u.deadT
+    this.casting = this.casting.filter((c) => c !== u)
