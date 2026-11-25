@@ -55,3 +55,4 @@ export const CAMP_DEFS: CampDef[] = [
   // Reruntuhan Kuil (Tier IV, Lv 10 to 12, sealed until the Hydra falls): Minotaurs, Cyclopes, Succubus, Incubus
   { c: [40, 282], pack: { minotaur: 2 }, levels: [10, 10] },
   { c: [100, 300], pack: { succubus: 1, imp: 2 }, levels: [10, 11] },
+  { c: [-20, 330], pack: { cyclops: 1, minotaur: 1 }, levels: [11, 11] },
