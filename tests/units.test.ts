@@ -19,3 +19,4 @@ function world(groundHeight = 0) {
       log.unitStrikes++
       sys.hurt(target, u.damage, u.pos)
     },
+    impact: () => {},
