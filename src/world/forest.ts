@@ -175,3 +175,4 @@ export function scatter(size = 1260, step = 4, seed = 3): Tree[] {
       const slope = Math.hypot(heightMap(x + e, y) - heightMap(x - e, y), heightMap(x, y + e) - heightMap(x, y - e)) / (2 * e)
       const nearLake = lakeDist(x, y) < LAKE.r * 1.02
       const pd = pathDist(x, y)
+      // rocks: small ones anywhere, big ones on the cliffs; none on or beside a path
