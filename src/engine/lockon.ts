@@ -32,3 +32,4 @@ export class LockOn {
   pick(targets: Target[], player: Vec, camYaw: number): Target | null {
     let best: Target | null = null
     let score = Infinity
+    for (const t of targets) {
