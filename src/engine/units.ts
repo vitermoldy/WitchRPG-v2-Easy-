@@ -615,3 +615,4 @@ export class UnitSystem {
       h.owner = u
       h.aggro = true
       u.helpers++
+      this.host.summoned(h)
