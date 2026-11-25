@@ -116,3 +116,4 @@ export class Seal {
     if (this.open && this.fade > 0) {
       this.fade = Math.max(0, this.fade - dt * 0.4)
       this.mat.uniforms.uFade.value = this.fade
+      if (this.fade === 0) this.mesh.visible = false
