@@ -855,3 +855,4 @@ def b_dragon(r):
     spikes(n, [lerp(pts[0], pts[-1], i / 5) + Vector((0, 0.3, 0.45)) for i in range(6)], 0.6, 0.12, mat="accent", tilt=(0, 0.7, 1))
     h = r.P("head", pts[-1], "neck")
     dragon_head(h, V(pts[-1]) + Vector((0, -0.45, 0.05)), fwd=(0, -1, -0.3), s=2.6, jaw_open=28, horns=True)
+    b = r.parts["body"]
