@@ -82,3 +82,5 @@ Tiga block-out melewati anggaran mob (dicetak tebal): Hellhound, Centaur, dan Cy
 
 ## Anggaran poligon dunia
 
+Dihitung oleh `build.py` dari dunia previz (medan 1.300 × 1.300 m, titik tiap 2,5 m).
+
