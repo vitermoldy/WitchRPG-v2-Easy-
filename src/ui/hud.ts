@@ -328,3 +328,4 @@ export class Hud {
       el.classList.toggle('on', opt === u.wheelChoice)
       if (opt === 'swap') {
         el.classList.toggle('locked', swapLocked)
+        el.textContent = swapLocked ? 'Tukar Tempat (Lv 4)' : u.swapCd > 0 ? `Tukar Tempat ${Math.ceil(u.swapCd)} dtk` : 'Tukar Tempat'
