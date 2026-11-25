@@ -530,3 +530,4 @@ def b_harpy(r):
         h.cone(base, base + Vector((math.sin(a) * 0.18, 0.12, 0.2 + 0.05 * math.cos(a))), 0.025, mat="accent" if i % 2 else "membrane", seg=5)
     for s, side in SIDES:
         ua = r.parts["upperarm_" + side]
+        feather_wing(ua, J["sh_" + side] + Vector((0, 0.03, 0)), s, 1.7, 1.0, raise_deg=12, sweep_deg=8, tilt=60, tip_mat="accent", arm="skin")
