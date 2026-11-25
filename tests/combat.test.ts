@@ -13,3 +13,4 @@ describe('block and parry', () => {
     expect(resolveDefense(impact, 'ring', false, false, impact - W * 0.5, 0)).toBe('parry')
   })
 
+  it('only blocks when block was pressed earlier than the window and is still held', () => {
