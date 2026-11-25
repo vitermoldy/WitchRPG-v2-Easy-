@@ -592,3 +592,4 @@ export class Spells {
     g.rings.spawn(at, COLOR.chaos, 0.5, r, 0.45)
     g.rings.spawn(at, COLOR.chaosHot, 0.2, r * 0.6, 0.3)
     g.lights.flash(at.clone().setY(at.y + 1.5), COLOR.chaos, 60, r * 3, 0.5)
+    const p = g.player.pos
