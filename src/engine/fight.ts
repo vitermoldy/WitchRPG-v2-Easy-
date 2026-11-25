@@ -221,3 +221,4 @@ export class Fight {
   /** Seconds left in which her next swing does the parry's extra damage. */
   riposte = 0
   exec: { u: Unit; t: number; struck: boolean } | null = null
+  readonly stats = { swings: 0, hits: 0, parries: 0, blocks: 0, dodged: 0, hitRing: 0, hitLine: 0, executions: 0, throws: 0, throwHits: 0, recallHits: 0 }
