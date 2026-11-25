@@ -100,3 +100,4 @@ describe('phase 5 creatures', () => {
     expect(u.radius).toBeCloseTo(UNITS.minotaur.radius * ELITE.scale)
   })
 
+  it('a Phoenix falls to ashes once, rises with half its life, and falls for good the second time', () => {
