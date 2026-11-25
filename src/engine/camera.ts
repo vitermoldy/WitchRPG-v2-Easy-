@@ -54,3 +54,4 @@ export function clearFraction(pivot: Vec, want: Vec, obstacles: Obstacles | null
   let f = obstacles ? obstacles.sweep(pivot.x, pivot.y, pivot.z, want.x, want.y, want.z, radius) : 1
   const steps = 14
   let last = 0
+  for (let i = 1; i <= steps; i++) {
