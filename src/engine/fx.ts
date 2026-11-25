@@ -31,3 +31,4 @@ const VERT = /* glsl */ `
   varying vec3 vColor;
   varying float vAlpha;
   void main() {
+    vColor = aColor;
