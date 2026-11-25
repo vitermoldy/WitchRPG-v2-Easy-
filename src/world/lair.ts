@@ -225,3 +225,4 @@ export class Lair {
           g.clearTelegraph(h)
           g.units.remove(h)
         }
+        this.heads[i] = null
