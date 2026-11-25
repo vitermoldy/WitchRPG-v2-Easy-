@@ -564,3 +564,4 @@ export class UnitSystem {
     const spec = u.spec.blink!
     const start = u.pos.clone()
     const away = Math.atan2(u.pos.x - from.pos.x, u.pos.z - from.pos.z)
+    for (let tries = 0; tries < 8; tries++) {
