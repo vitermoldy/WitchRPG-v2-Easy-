@@ -170,3 +170,4 @@ export class Ledger {
             ${up}
           </li>`
         })
+        .join('')
