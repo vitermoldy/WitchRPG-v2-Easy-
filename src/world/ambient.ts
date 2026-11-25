@@ -197,3 +197,4 @@ export class Ambient {
       const twinkle = kind.blink > 0 ? 1 - kind.blink + kind.blink * Math.max(0, Math.sin(ph * 2.3)) ** 3 : 1
       this.alpha[i] = kind.alpha * twinkle
     }
+    const geo = this.points.geometry
