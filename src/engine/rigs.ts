@@ -530,3 +530,5 @@ const poseChimera: PoseFn = (p, u, t) => {
     return
   }
   p.body(0.06 * Math.abs(Math.sin(ph * 2)) * amp, 2 * Math.sin(ph * 2) * amp)
+}
+
