@@ -186,3 +186,4 @@ export class Telegraphs {
     // the plane spans -0.5..0.5 across (x) and along (z, after the flat turn: +z is its start)
     const rx = it.dz
     const rz = -it.dx
+    for (let i = 0; i < pos.count; i++) {
