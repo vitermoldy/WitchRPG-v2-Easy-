@@ -217,3 +217,4 @@ export class LightPool {
 
   flash(pos: Vec, color: THREE.ColorRepresentation, intensity: number, distance: number, duration: number) {
     const slot = this.slots.find((s) => !s.held && s.ttl <= 0) ?? this.slots.filter((s) => !s.held).sort((a, b) => a.ttl - b.ttl)[0]
+    if (!slot) return
