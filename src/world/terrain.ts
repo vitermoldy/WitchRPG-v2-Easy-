@@ -70,3 +70,4 @@ export class Terrain {
   update(at: THREE.Vector3, budget = 1) {
     let made = 0
     for (const c of this.chunks) {
+      const d = Math.hypot(c.centre.x - at.x, c.centre.z - at.z)
