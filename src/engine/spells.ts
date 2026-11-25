@@ -651,3 +651,4 @@ export class Spells {
   private warp(at: THREE.Vector3) {
     const g = this.g
     const s = SPELL.warp
+    this.warpCd = s.cooldown
