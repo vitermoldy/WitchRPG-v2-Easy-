@@ -110,3 +110,4 @@ export class Atmosphere {
       this.zenithTarget.r += this.zoneZenith[i].r * w
       this.zenithTarget.g += this.zoneZenith[i].g * w
       this.zenithTarget.b += this.zoneZenith[i].b * w
+      // blend sight in inverse so a thick-fog zone pulls the distance down quickly
