@@ -111,3 +111,4 @@ function rock(seed: number, r: [number, number, number], color: THREE.Color): TH
   const p = g.attributes.position
   let s = seed
   for (let i = 0; i < p.count; i++) {
+    s = (s * 16807) % 2147483647
