@@ -7,3 +7,4 @@ export type Defense = 'parry' | 'block' | 'dodge' | 'hit'
  * - During the roll's untouchable window every blow misses.
  * - A line (fast flashing) attack cannot be blocked: it hits unless she rolled.
  * - A ring (slow pulse) attack from in front is parried when block was pressed within the parry window
+ *   before the blow, blocked when block is held, and hits otherwise. From behind it always hits.
