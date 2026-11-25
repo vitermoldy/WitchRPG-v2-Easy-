@@ -139,3 +139,4 @@ export const SKILLS: SkillDef[] = [
     upgrade: '',
     built: true,
     noUpgrade: true,
+  },
