@@ -453,3 +453,4 @@ export class ShadowPools {
     p.mesh.visible = true
     p.radius = radius
     p.t = -delay
+    p.hold = hold
