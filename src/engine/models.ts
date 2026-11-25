@@ -294,3 +294,4 @@ export class IlyraModel {
         pose = { torso: mix(back.torso, through.torso, w), armX: mix(back.armX, through.armX, w), armY: mix(back.armY, through.armY, w), fore: mix(back.fore, through.fore, w) }
       } else {
         w = ease((sw.t - k) / sw.recover)
+        pose = { torso: mix(through.torso, rest.torso, w), armX: mix(through.armX, rest.armX, w), armY: mix(through.armY, rest.armY, w), fore: mix(through.fore, rest.fore, w) }
