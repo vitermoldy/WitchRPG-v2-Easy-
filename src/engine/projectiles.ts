@@ -16,3 +16,4 @@ interface Shot {
   aim: THREE.Vector3
   life: number
   mesh: THREE.Mesh
+  /** Turned back by Reality Warp: it now flies at the creature that shot it. */
