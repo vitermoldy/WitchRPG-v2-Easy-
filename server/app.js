@@ -137,3 +137,4 @@ export function createApi(getPool, database) {
       upgrades: Object.fromEntries(ups.map((u) => [u.skill, true])),
       shadows: sh.map((s) => ({ id: s.shadow_id, name: s.name, kind: s.kind, rank: s.rank, level: s.level, xp: s.xp })),
       nextShadowId: w.next_shadow_id,
+      bossKills: w.boss_kills,
