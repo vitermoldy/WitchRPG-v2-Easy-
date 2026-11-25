@@ -160,3 +160,4 @@ export class Unit implements Foe {
   /** Thrown by Telekinesis: hurts what it hits until it lands. */
   hurled = false
   /** Ground height under it, kept until it moves (the height field is costly to sample). */
+  ground = 0
