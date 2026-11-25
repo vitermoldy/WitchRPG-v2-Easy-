@@ -328,3 +328,4 @@ def dragon_head(part, at, fwd=(0, -1, 0), s=1.0, jaw_open=30, horns=True, crest=
                 part.tube([base, tip], [0.025 * s, 0.0], mat="accent", seg=4, n=1)
 
 
+def snake_head(part, at, fwd, s=1.0, jaw=35, mat="body"):
