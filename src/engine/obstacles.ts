@@ -53,3 +53,4 @@ export class Obstacles {
   near(x: number, z: number, reach: number, fn: (s: Shape) => void) {
     if (this.seen.length < this.shapes.length) this.seen = new Uint32Array(this.shapes.length * 2)
     const st = ++this.stamp
+    const x0 = Math.floor((x - reach) / CELL)
