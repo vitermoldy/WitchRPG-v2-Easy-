@@ -161,3 +161,4 @@ export class Player {
       this.vx = this.nudgeX * (1 - u)
       this.vz = this.nudgeZ * (1 - u)
       this.nudgeT -= dt
+    } else {
