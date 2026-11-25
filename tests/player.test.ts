@@ -147,3 +147,4 @@ describe('Ilyra on foot', () => {
     obs.add({ kind: CYL, x: 0, y: 0, z: -3, r: 2, h: 10, camOnly: true })
     const p = new Player()
     run(p, { ...idle, y: 1 }, 2, { ...flat, obstacles: obs })
+    expect(p.pos.z).toBeLessThan(-5)
