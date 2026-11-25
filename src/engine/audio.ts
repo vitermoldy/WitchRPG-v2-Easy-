@@ -28,3 +28,4 @@ export class Sfx {
     this.master.connect(comp).connect(ctx.destination)
     const len = ctx.sampleRate * 1.5
     this.noiseBuf = ctx.createBuffer(1, len, ctx.sampleRate)
+    const d = this.noiseBuf.getChannelData(0)
