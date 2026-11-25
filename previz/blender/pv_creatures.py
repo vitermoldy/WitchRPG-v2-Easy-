@@ -431,3 +431,4 @@ def b_ilyra(r, pose="idle"):
             u = j / (cols - 1)
             a = math.radians(-95 + 190 * u)
             hem = 0.0
+            if i == rows - 1:
