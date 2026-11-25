@@ -296,3 +296,4 @@ export class Lair {
       if (player) this.refusedAt = this.time
       return true
     }
+    if (this.state === 'fight' && inFrom === true && !inTo) return true
