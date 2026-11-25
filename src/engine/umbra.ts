@@ -129,3 +129,4 @@ export class Umbra {
       index -= 8 + ring * 4
       ring++
     }
+    const inRing = 8 + ring * 4
