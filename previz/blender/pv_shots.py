@@ -443,3 +443,4 @@ def build_lineup(lib_colls, stats):
             C.text(coll, fmt_m(h), (x + w / 2, -12, -ts * 2.9), size=ts * 0.8, color="#ffb866" if m != "ilyra" else "#c7a6ff", align="CENTER", rot=(90, 0, 0))
             x += w + gap
         width = x - ox + 0.6
+        top = math.ceil(tallest) + (1 if key != "C" else 2)
