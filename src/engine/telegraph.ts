@@ -45,3 +45,4 @@ const LINE_FRAG = /* glsl */ `
     float a = (border * 0.8 + 0.1 + fill * 0.6 + tip) * (0.3 + 0.7 * blink);
     // dimmer than the ring: it is long and close to the camera, and bloom would turn it into a wall
     gl_FragColor = vec4(uColor * a * 0.55, a);
+  }
