@@ -419,3 +419,4 @@ export class WorldMap {
     ctx.stroke()
     ctx.restore()
   }
+}
