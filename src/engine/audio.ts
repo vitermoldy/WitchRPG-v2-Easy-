@@ -435,3 +435,4 @@ export class Sfx {
       o.connect(df)
       o.start()
     }
+    df.connect(drone).connect(this.master!)
