@@ -150,3 +150,4 @@ export class Game implements UnitHost {
   private readonly sphere = new THREE.Sphere()
 
   constructor(canvas: HTMLCanvasElement, debug: boolean) {
+    this.debug = debug
