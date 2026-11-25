@@ -702,3 +702,4 @@ button {
   display: flex;
   flex-direction: column;
   gap: 0.35rem;
+  width: min(24rem, 40vw);
