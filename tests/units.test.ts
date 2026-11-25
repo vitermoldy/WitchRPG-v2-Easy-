@@ -98,3 +98,4 @@ describe('creature attacks', () => {
         side.foe.pos.add(across)
       }
     })
+    expect(stepped).toBe(true)
