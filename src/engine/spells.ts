@@ -660,3 +660,4 @@ export class Spells {
     disc.position.y = 0.08
     disc.renderOrder = 7
     group.add(disc)
+    const wallMat = new THREE.ShaderMaterial({
