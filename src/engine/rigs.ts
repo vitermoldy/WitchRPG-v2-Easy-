@@ -748,3 +748,4 @@ const POSES: Partial<Record<UnitKind, PoseFn>> = {
   typhon: serpentine(biped({ heavy: 1, reach: 1, sway: 3 }), 'serpents'),
   samael: biped({ heavy: 0.3, reach: 1, sway: 4 }),
   atlas: biped({ heavy: 1, reach: 1, sway: 2 }),
+  cyclops: biped({ heavy: 1, reach: 1, sway: 2 }),
