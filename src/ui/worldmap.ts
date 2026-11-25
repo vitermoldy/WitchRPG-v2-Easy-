@@ -278,3 +278,4 @@ export class WorldMap {
     for (const line of PATHS) {
       ctx.beginPath()
       line.forEach(([x, y], i) => (i ? ctx.lineTo(px(x), py(y)) : ctx.moveTo(px(x), py(y))))
+      ctx.stroke()
