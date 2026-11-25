@@ -866,3 +866,4 @@ export class UnitSystem {
       if (u.spec.fly) u.alt += (Math.min(flyH, tgt.alt + 0.8) - u.alt) * Math.min(1, dt * 2)
       return
     }
+    const goal = u.command === 'hold' ? u.holdPos : this.spotOf ? this.spotOf(u) : p.pos
