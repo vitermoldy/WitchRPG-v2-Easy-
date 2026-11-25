@@ -654,3 +654,4 @@ def build_altar(coll, pal):
     p = r.P("m")
     p.flat = True
     ax, ay = ALTAR
+    z0 = ground_z(ax, ay)
