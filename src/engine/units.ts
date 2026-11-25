@@ -173,3 +173,4 @@ export class Unit implements Foe {
     this.hp = this.maxHp = st.hp
     this.damage = st.damage
     this.speed = st.speed
+    this.radius = this.spec.radius
