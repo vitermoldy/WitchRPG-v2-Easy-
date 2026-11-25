@@ -26,3 +26,4 @@ export const AUTH_TABLES = [
     last_seen_at DATETIME NULL,
     login_count INT UNSIGNED NOT NULL DEFAULT 0,
     UNIQUE KEY users_username (username),
+    UNIQUE KEY users_device (device_id)
