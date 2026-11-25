@@ -518,3 +518,4 @@ export class Fight {
   pose(out: IlyraPose) {
     const s = this.combo.current
     out.swing = s ? { index: s.index, heavy: s.heavy, t: s.t, windup: s.swing.windup, active: s.swing.active, recover: s.swing.recover } : null
+    out.block = this.blockBlend
