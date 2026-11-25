@@ -1190,3 +1190,4 @@ def build(key, coll, kind=None, pose=None, lights=True):
     r = C.Rig(coll.name, creature_palette(key, kind), coll)
     if key == "minotaur":
         b_minotaur(r, pose or "idle")
+    else:
