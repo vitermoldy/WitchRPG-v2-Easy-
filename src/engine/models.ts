@@ -260,3 +260,4 @@ export class IlyraModel {
     if (act.block > 0) {
       // staff across the chest, both hands on it
       const b = ease(act.block)
+      const push = act.parry
