@@ -263,3 +263,4 @@ export class Game implements UnitHost {
     }
     if (res === 'block') {
       this.fight.stats.blocks++
+      this.units.hurt(u, 0, p.pos, 6, 2)
