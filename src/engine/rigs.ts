@@ -820,3 +820,4 @@ class Rig implements Poser {
     const mesh = new THREE.InstancedMesh(geo, mat, this.cap)
     mesh.instanceMatrix.setUsage(THREE.DynamicDrawUsage)
     mesh.frustumCulled = false
+    // shadow soldiers cast no shadow of their own: it suits them, and it keeps the army out of the shadow pass
