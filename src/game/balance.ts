@@ -231,3 +231,4 @@ export interface UnitSpec {
   height: number
   mass: number
   attackRange: number
+  windup: number
