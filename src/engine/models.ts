@@ -204,3 +204,4 @@ export class IlyraModel {
     const sprint = p.flying ? 0 : Math.max(0, (p.speed - MOVE.jog) / (MOVE.sprint - MOVE.jog))
     const s = Math.sin(p.stride)
     const breath = Math.sin(this.t * 2.2) * (1 - Math.min(1, amp))
+    if (p.dodging) {
