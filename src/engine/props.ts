@@ -58,3 +58,4 @@ export class Props {
   pick(from: THREE.Vector3, dir: THREE.Vector3, range: number, cone: number): Prop | null {
     let best: Prop | null = null
     let ba = cone
+    for (const p of this.list) {
