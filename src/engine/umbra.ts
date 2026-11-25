@@ -381,3 +381,5 @@ export class Umbra {
     u.ashAt = u.deadT
     this.casting = this.casting.filter((c) => c !== u)
     this.g.smoke.emit({ pos: u.pos, count: 8, color: 0x3a3436, life: 1.4, size: 0.6, sizeEnd: 1.2, speed: 0.4, vel: { x: 0, y: 0.5, z: 0 }, jitter: 0.4, alpha: 0.6 })
+  }
+
