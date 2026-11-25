@@ -370,3 +370,4 @@ export class Fight {
     } else if (inp.throwStaff && !this.blocking) {
       if (this.staff.state === 'hand') {
         this.throwT = 0
+        this.combo.cancel()
