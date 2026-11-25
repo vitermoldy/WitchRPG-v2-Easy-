@@ -129,3 +129,5 @@ export class Ledger {
     $('ledger-xp-fill').style.transform = `scaleX(${Math.min(1, p.xp / need).toFixed(3)})`
     $('ledger-xp-text').textContent = `${fmt(p.xp)} / ${fmt(need)} XP`
     $('stat-points').textContent = p.statPoints ? `${p.statPoints} poin bebas` : 'tidak ada poin'
+    $('skill-points').textContent = p.skillPoints ? `${p.skillPoints} poin skill` : 'tidak ada poin'
+
