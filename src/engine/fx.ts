@@ -179,3 +179,4 @@ export class Particles {
       this.col[i * 3 + 1] = this.baseCol[i * 3 + 1]
       this.col[i * 3 + 2] = this.baseCol[i * 3 + 2]
     }
+    const g = this.points.geometry
