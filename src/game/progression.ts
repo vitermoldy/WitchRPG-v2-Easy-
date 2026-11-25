@@ -182,3 +182,4 @@ export function derive(stats: Stats, level = 1): Derived {
     manaRegen: PLAYER.manaRegen * (1 + PLAYER.manaRegenPerSpr * above('spr')),
     damageMult: 1 + PLAYER.damagePerHex * above('hex') + PLAYER.damagePerLevel * grown,
     speedMult: 1 + PLAYER.speedPerAgi * above('agi'),
+    dodgeDistance: MOVE.dodge.distance + MOVE.dodgePerAgi * above('agi'),
