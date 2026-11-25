@@ -185,3 +185,4 @@ def build(dunia, res=(1280, 720), samples=24):
             q0 = look_quat(fly_look[1] - a_loc)
             q = q0.slerp(look_quat(g_look), ease(u))
             vfov = 50.0 + (cn["vfov"] - 50.0) * u
+        elif t < T_WALK + 0.4:
