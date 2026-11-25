@@ -323,3 +323,4 @@ export class Spells {
         if (d <= len && d < best) {
           best = d
           hitUnit = u
+        }
