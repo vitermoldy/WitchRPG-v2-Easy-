@@ -9,3 +9,4 @@ import type { Unit } from './units'
 
 interface Bolt {
   pos: THREE.Vector3
+  prev: THREE.Vector3
