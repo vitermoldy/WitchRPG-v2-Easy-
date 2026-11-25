@@ -584,3 +584,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     eliteRank: 'jenderal',
     hp: 220,
     damage: 24,
+    speed: 2.6,
