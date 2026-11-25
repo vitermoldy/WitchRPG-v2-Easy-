@@ -100,3 +100,4 @@ export class Telegraphs {
       vertexShader: VERT,
       fragmentShader: kind === 'ring' ? RING_FRAG : LINE_FRAG,
       transparent: true,
+      depthWrite: false,
