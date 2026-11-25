@@ -923,3 +923,5 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
       { name: 'semburan', strike: 'ring', windup: 1, recover: 1, range: 26, ring: 2.2, shot: { speed: 14, gravity: 12, radius: 0.45 } },
     ],
   },
+}
+
