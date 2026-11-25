@@ -22,3 +22,4 @@ describe('the save', () => {
 
   it('brings back level, stats, upgrades and the Shadow Room through JSON', () => {
     const p0 = newProfile()
+    gainXp(p0, 2000, SKILLS.map((s) => s.id))
