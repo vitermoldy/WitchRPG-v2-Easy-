@@ -378,3 +378,4 @@ export class Spells {
       prop.held = true
       prop.thrown = false
       prop.vel.set(0, 0, 0)
+      this.heldProp = prop
