@@ -495,3 +495,4 @@ def stack_png(paths, out, pad=0, bg=(0, 0, 0)):
         y -= h
         canvas[y:y + h, 0:w] = px.reshape(h, w, 4)
         y -= pad
+    img = bpy.data.images.new("stack", W, H, alpha=False, float_buffer=False)
