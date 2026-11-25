@@ -138,3 +138,4 @@ export class Obstacles {
         d = rad > 0 && vert > 0 ? Math.hypot(rad, vert) : Math.max(rad, vert)
       } else {
         d = Math.hypot(x - s.x, y - s.y, z - s.z) - s.r
+      }
