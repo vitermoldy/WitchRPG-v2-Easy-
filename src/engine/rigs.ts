@@ -943,3 +943,4 @@ class Rig implements Poser {
       part.mesh.count = this.used
       part.mesh.visible = this.used > 0
       if (this.used) {
+        part.mesh.instanceMatrix.needsUpdate = true
