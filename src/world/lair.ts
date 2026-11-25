@@ -291,3 +291,4 @@ export class Lair {
    */
   blocks(x: number, z: number, fx: number | undefined, fz: number | undefined, player: boolean, air = false): boolean {
     const inTo = this.inside(x, z)
+    const inFrom = fx === undefined || fz === undefined ? null : this.inside(fx, fz)
