@@ -579,3 +579,4 @@ def b_centaur(r):
 
 
 def b_naga(r):
+    """Eastern swamp dragon: green serpent body with a gold belly, orange frill, whiskers, small claws."""
