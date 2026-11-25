@@ -1196,3 +1196,4 @@ export const COMBAT = {
   stagger: 3.2,
   /** The meter drains this fast after this long without new stun. */
   stunDrain: 8,
+  stunDrainDelay: 2.5,
