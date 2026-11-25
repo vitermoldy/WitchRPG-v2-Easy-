@@ -1192,3 +1192,4 @@ export class Game implements UnitHost {
         alt: u.alt,
         aggro: u.aggro,
         camp: u.camp,
+        executed: u.executed,
