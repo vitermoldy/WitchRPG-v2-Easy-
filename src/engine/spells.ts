@@ -653,3 +653,4 @@ export class Spells {
     const s = SPELL.warp
     this.warpCd = s.cooldown
     const group = new THREE.Group()
+    group.position.copy(at)
