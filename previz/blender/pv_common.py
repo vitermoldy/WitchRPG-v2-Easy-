@@ -599,3 +599,6 @@ def camera(sc, name, loc, look_at=None, rot=None, lens_vfov=None, ortho=None, cl
         ob.rotation_euler = Euler([math.radians(a) for a in rot])
     sc.collection.objects.link(ob)
     sc.camera = ob
+    return ob
+
+
