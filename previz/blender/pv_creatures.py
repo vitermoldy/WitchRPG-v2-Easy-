@@ -1078,3 +1078,4 @@ def b_pegasus(r):
     _horse(r, True, False)
 
 
+def b_unicorn(r):
