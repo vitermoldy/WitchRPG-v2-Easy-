@@ -55,3 +55,4 @@ export class Props {
   }
 
   /** The boulder closest to the middle of the view, within reach and a narrow cone. */
+  pick(from: THREE.Vector3, dir: THREE.Vector3, range: number, cone: number): Prop | null {
