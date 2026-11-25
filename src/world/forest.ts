@@ -14,3 +14,4 @@ type Kind = 'pine' | 'pine_tall' | 'pine_warm' | 'birch' | 'swamp' | 'dead' | 'b
 const SHAPE: Record<Kind, { trunk: number; h: number; crown: [number, number, number] | null }> = {
   pine: { trunk: 0.3, h: 13, crown: [3.6, 2.4, 13.5] },
   pine_tall: { trunk: 0.32, h: 20, crown: [5.6, 2.6, 20.5] },
+  pine_warm: { trunk: 0.3, h: 11, crown: [3.1, 2.7, 11.5] },
