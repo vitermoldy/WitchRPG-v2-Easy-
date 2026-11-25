@@ -122,3 +122,4 @@ def mat_cracked(name, color, crack, strength=5.0, scale=2.2, rough=0.75, coverag
     mul2.operation = "MULTIPLY"
     mul2.inputs[1].default_value = strength
     L.new(mul.outputs[0], mul2.inputs[0])
+    L.new(mul2.outputs[0], b.inputs["Emission Strength"])
