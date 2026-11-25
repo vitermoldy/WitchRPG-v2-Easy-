@@ -942,3 +942,4 @@ def b_cerberus(r):
             ang = 2 * math.pi * a / 8
             rv = sdir * math.cos(ang) + dn.cross(sdir).normalized() * math.sin(ang)
             base = cpos + rv * 0.85 * sc
+            nk.cone(base, base + rv * 0.4, 0.09, mat="metal", seg=5)
