@@ -851,3 +851,4 @@ export class UnitSystem {
         if (tgt && Math.hypot(tgt.pos.x - u.pos.x, tgt.pos.z - u.pos.z) < Math.min(u.spec.attackRange, 2.2) + u.radius + tgt.radius + 0.6) host.strikeUnit(u, tgt)
       } else if (u.state === 'strike' && u.t >= 0.15) u.set('recover')
       else if (u.state === 'recover' && u.t >= u.spec.recover * 0.7) {
+        u.cd = u.spec.cooldown * 0.8
