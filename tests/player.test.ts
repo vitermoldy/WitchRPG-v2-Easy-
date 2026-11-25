@@ -60,3 +60,5 @@ describe('Ilyra in the air (B)', () => {
     run(p, { ...idle, dodge: true }, 0.2)
     expect(p.dodges).toBe(0)
   })
+})
+
