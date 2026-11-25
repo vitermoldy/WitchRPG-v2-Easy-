@@ -214,3 +214,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
     window.clearTimeout(pushTimer)
     try {
       await pushProfile(game.profile)
+    } catch {
