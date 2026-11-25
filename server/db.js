@@ -69,3 +69,4 @@ export async function connect(db) {
   // Auth first: nothing else refers to users, and clients must exist before the game tables.
   for (const sql of [...AUTH_TABLES, ...TABLES]) await pool.query(sql)
   return pool
+}
