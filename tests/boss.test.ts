@@ -118,3 +118,4 @@ describe('phase 5 creatures', () => {
     const w = world()
     const ph = w.sys.spawn('phoenix', 'enemy', 13, { x: 0, z: 10 })
     w.sys.kill(ph, true)
+    expect(ph.state).toBe('dead')
