@@ -1025,3 +1025,5 @@ export interface TierSpec {
   boss?: { level: number; unlock: number }
   /** Opens only once The Hollow Warden has fallen. */
   needsBoss?: boolean
+}
+
