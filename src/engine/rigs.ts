@@ -198,3 +198,4 @@ const poseHound: PoseFn = (p, u, t) => {
   p.rot('tail', -10 + 10 * Math.sin(t * 3), 25 * Math.sin(t * 4 + u.id))
   for (let i = 0; i < 3; i++) p.rot('neck' + i, -4 + 6 * Math.sin(t * 2.6 + i * 2.1 + u.id), (i === 1 ? 10 : i === 2 ? -10 : 0) + 6 * Math.sin(t * 1.7 + i))
   if (u.state === 'windup') {
+    const k = ease(u.t / u.spec.windup)
