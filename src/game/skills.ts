@@ -18,3 +18,4 @@ export interface SkillDef {
   branch: Branch
   name: string
   key: string
+  unlock: number
