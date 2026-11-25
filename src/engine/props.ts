@@ -60,3 +60,4 @@ export class Props {
     let ba = cone
     for (const p of this.list) {
       if (p.held) continue
+      const to = this.c.subVectors(p.pos, from)
