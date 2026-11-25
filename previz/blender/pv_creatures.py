@@ -107,3 +107,4 @@ def humanoid(r, H, bulk=1.0, legs="human", female=False, off=(0, 0, 0), arm_pose
             d2 = _rx(d1, kn)
             K = Hj + d1.normalized() * (z["hip"] - z["knee"])
             A = K + d2.normalized() * (z["knee"] - z["ankle"])
+            th.limb(Hj, K, H * 0.048 * bulk, H * 0.034 * bulk, mat=leg_mat)
