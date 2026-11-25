@@ -17,3 +17,4 @@ export async function loadModel(url: string): Promise<THREE.Group> {
     const mat = m.material as THREE.MeshStandardMaterial
     // emission strengths from Blender are tuned for its renderer; bloom here needs far less
     if (mat.emissive && mat.emissiveIntensity > 0 && mat.emissive.getHex() !== 0) mat.emissiveIntensity = Math.min(mat.emissiveIntensity, 3.5)
+  })
