@@ -58,3 +58,4 @@ const at = (x: number, y: number, z: number, rx = 0, rz = 0) =>
 
 function pine(h: number, tiers: number, rad: number, needle: THREE.Color): THREE.BufferGeometry {
   const parts = [part(new THREE.CylinderGeometry(0.06, 0.3, h, 6, 1, true), PAL.bark, at(0, h / 2, 0))]
+  for (let i = 0; i < tiers; i++) {
