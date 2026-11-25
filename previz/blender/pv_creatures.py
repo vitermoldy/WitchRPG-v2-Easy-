@@ -801,3 +801,4 @@ def b_griffin(r):
 
 
 def b_hippogriff(r):
+    """Golden-brown eagle front with folded wings on a horse's hindquarters and a long horse tail."""
