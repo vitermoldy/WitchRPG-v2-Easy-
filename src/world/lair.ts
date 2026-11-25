@@ -462,3 +462,4 @@ export class Lair {
     g.sfx.impact(1.2)
     const body = this.body
     if (this.phase === 1 && body && u !== body) {
+      const n = Math.min(HYDRA.impsPerSlam, HYDRA.maxImps - body.helpers)
