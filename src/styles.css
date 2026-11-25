@@ -1998,3 +1998,4 @@ dialog::backdrop {
   .ledger-body {
     grid-template-columns: 1fr;
     grid-template-areas: 'stats' 'tree' 'room';
+  }
