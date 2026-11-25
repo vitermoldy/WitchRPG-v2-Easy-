@@ -660,3 +660,4 @@ export class Game implements UnitHost {
           this.immuneMsgAt = this.t
           this.hud.message('Hydra kebal. Pasang Reality Warp (V) di atasnya: di dalam medan jantungnya terbuka.', 'chaos')
         }
+      }
