@@ -74,3 +74,4 @@ export class Game implements UnitHost {
   readonly sfx = new Sfx()
   readonly units: UnitSystem
   readonly fight: Fight
+  readonly spells: Spells
