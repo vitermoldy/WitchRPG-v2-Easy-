@@ -260,3 +260,5 @@ export class Lair {
     g.hud.banner('Hydra tumbang', 'Reruntuhan Kuil dan Lembah Bara terbuka')
     g.hud.message('Segel Reruntuhan Kuil dan Lembah Bara pecah. Tubuh Hydra bersinar: dengan Kebangkitan Marsekal ia bisa dibangkitkan, satu kali.', 'umbra')
     g.saveSoon()
+  }
+
