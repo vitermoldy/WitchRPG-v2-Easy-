@@ -539,3 +539,4 @@ def world_matrix(ob):
     p = ob.parent
     while p is not None:
         m = p.matrix_basis @ m
+        p = p.parent
