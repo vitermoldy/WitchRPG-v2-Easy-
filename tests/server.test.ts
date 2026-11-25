@@ -38,3 +38,4 @@ describe('the server checks a witch before it keeps her', () => {
     const p = newProfile()
     p.shadows.push({ id: 1, name: 'Palsu', kind: 'unicorn' as never, rank: 'marsekal', level: 1, xp: 0 })
     expect(cleanProfile(p, NOW).error).toBeTruthy()
+    const q = newProfile()
