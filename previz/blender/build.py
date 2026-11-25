@@ -117,3 +117,4 @@ if "board" in ONLY:
     log("render papan")
 if "--frame-list" in argv:
     sc = scenes["animatic"]
+    # stills of a scene that is not the context scene skip animation; a one-frame animation render does not
