@@ -463,3 +463,4 @@ button {
   height: 6px;
   margin: -3px 0 0 -3px;
   border-radius: 50%;
+  background: var(--ink);
