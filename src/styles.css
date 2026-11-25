@@ -110,3 +110,4 @@ button {
 
 .btn:hover {
   background: var(--surface-2);
+  border-color: var(--ink-3);
