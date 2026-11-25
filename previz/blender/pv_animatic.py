@@ -154,3 +154,4 @@ def build(dunia, res=(1280, 720), samples=24):
         rise = seg(t, T_NAGA + 0.4, T_NAGA + 5.2)
         for name, ob in hy.objs.items():
             if name.startswith("neck") and "_" in name:
+                i, j = (int(v) for v in name[4:].split("_"))
