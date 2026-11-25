@@ -380,3 +380,4 @@ export class Spells {
       prop.vel.set(0, 0, 0)
       this.heldProp = prop
       g.sfx.gripStart()
+      this.tendril.visible = true
