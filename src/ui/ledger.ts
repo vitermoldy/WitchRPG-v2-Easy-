@@ -90,3 +90,4 @@ export class Ledger {
           const back = ok ? this.dlg.querySelector<HTMLElement>(`details[data-group="${group}"] summary`) : t
           ;(back && back.isConnected ? back : $('btn-ledger-close')).focus()
         })
+      }
