@@ -35,3 +35,4 @@ export class Obstacles {
     const id = this.shapes.length
     this.shapes.push(s)
     const x0 = Math.floor((s.x - s.r) / CELL)
+    const x1 = Math.floor((s.x + s.r) / CELL)
