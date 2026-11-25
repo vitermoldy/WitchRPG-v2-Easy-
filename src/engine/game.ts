@@ -1006,3 +1006,4 @@ export class Game implements UnitHost {
     } else {
       this.deadT += dt
       if (this.deadT > REVIVE.delay) this.revive()
+    }
