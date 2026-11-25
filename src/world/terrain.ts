@@ -36,3 +36,4 @@ function groundColour(x: number, y: number, h: number, slope: number, out: THREE
   }
   out.lerp(ROCK, smooth(0.45, 0.9, slope))
   out.lerp(MUD, 0.6 * smooth(0.9, 0.2, h) * smooth(-3, 0, h))
+  out.lerp(SNOW, smooth(150, 190, h))
