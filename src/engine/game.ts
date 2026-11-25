@@ -1036,3 +1036,4 @@ export class Game implements UnitHost {
     this.pose.rite = this.umbra.casting.length ? Math.min(1, this.umbra.progress) : -1
     this.pose.dead = alive ? -1 : this.deadT
     this.pose.stone = stone
+    if (this.debugPose) Object.assign(this.pose, this.debugPose)
