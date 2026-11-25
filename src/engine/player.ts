@@ -96,3 +96,4 @@ export class Player {
   place(x: number, z: number, g: Ground, facing = 0) {
     this.pos.x = x
     this.pos.z = z
+    this.pos.y = g.height(x, z)
