@@ -439,3 +439,4 @@ export class Umbra {
     const g = this.g
     this.casting = []
     this.progress = 0
+    this.stats.casts++
