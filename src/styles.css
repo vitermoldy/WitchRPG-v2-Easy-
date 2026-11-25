@@ -334,3 +334,4 @@ button {
 }
 
 .setting {
+  display: grid;
