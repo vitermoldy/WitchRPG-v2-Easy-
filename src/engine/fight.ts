@@ -181,3 +181,4 @@ class Staff {
   }
 
   private orient(dir: THREE.Vector3, spinning: boolean) {
+    const obj = this.ensure()
