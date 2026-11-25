@@ -149,3 +149,4 @@ export interface Tree {
   kind: Kind
   x: number
   y: number
+  z: number
