@@ -93,3 +93,4 @@ describe('phase 5 creatures', () => {
     const hp = u.maxHp
     const dmg = u.damage
     u.makeElite('gesit')
+    expect(u.maxHp).toBeCloseTo(hp * ELITE.hp)
