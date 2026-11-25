@@ -8,3 +8,4 @@ const root = fileURLToPath(new URL('.', import.meta.url)).replace(/^[a-z]:/, (d)
 const api = { '/api': { target: `http://localhost:${process.env.PORT ?? 8915}` } }
 
 export default defineConfig({
+  root,
