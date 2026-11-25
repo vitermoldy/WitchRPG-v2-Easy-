@@ -998,3 +998,4 @@ button {
   width: min(17rem, 34vw);
   padding: 0.7rem 0.8rem;
   border-radius: var(--radius);
+  background: var(--plate);
