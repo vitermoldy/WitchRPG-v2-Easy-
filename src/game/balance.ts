@@ -1107,3 +1107,4 @@ export const TIERS: Record<TierId, TierSpec> = {
 
 export const RIFT = {
   spawnInterval: 0.8,
+  breather: 6,
