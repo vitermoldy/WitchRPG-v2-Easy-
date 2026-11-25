@@ -386,3 +386,4 @@ class Part:
         off = self.pivot
         for i, p in enumerate(P):
             Nn = (Nn - T[i] * Nn.dot(T[i]))
+            if Nn.length < 1e-6:
