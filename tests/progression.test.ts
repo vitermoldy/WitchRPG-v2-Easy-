@@ -15,3 +15,4 @@ import {
   riteChance,
   shadowName,
   shadowPower,
+  spendStat,
