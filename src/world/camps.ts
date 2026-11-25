@@ -198,3 +198,4 @@ export class Camps {
       for (const u of camp.units) if (u.alive) this.g.units.remove(u)
       camp.units = []
       camp.state = 'idle'
+    }
