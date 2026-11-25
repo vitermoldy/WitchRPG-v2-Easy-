@@ -61,3 +61,4 @@ export class Lair {
   readonly group = new THREE.Group()
   state: LairState = 'calm'
   phase: 1 | 2 | 3 = 1
+  body: Unit | null = null
