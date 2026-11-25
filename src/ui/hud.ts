@@ -198,3 +198,4 @@ export class Hud {
     this.set('mana-fill', 'transform', `scaleX(${Math.max(0, p.mana / p.maxMana).toFixed(3)})`)
     this.set('mana-text', 'text', g.spells.overloaded ? 'bebas' : `${Math.floor(p.mana)} / ${Math.round(p.maxMana)}`)
     this.set('mana-row', 'class', this.manaFlash > 0 ? 'vital short' : 'vital')
+    this.set('hp-row', 'class', p.poisonT > 0 ? 'vital poisoned' : 'vital')
