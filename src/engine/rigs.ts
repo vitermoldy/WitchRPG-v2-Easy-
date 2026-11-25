@@ -418,3 +418,4 @@ const poseMinotaur: PoseFn = (p, u, t) => {
     } else {
       const k = ease(u.t / (u.atk.lungeTime ?? 0.35))
       p.body(0, 18 * k)
+      p.rot('torso', 35 * k)
