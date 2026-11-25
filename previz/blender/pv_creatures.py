@@ -697,3 +697,4 @@ def b_medusa(r):
     t.ell(V(J["chest"]) + Vector((0, -0.01, 0.03)), (0.2, 0.15, 0.13), mat="cloth")
     t.tube([V(J["sh_R"]) + Vector((0, 0, 0.04)), V(J["chest"]) + Vector((0.02, -0.15, 0.02)), V(J["waist"]) + Vector((0.18, -0.08, 0.0))], 0.06, mat="cloth", seg=6, n=3, squash=0.4)
     for s, side in SIDES:
+        r.parts["upperarm_" + side].torus(lerp(J["sh_" + side], J["el_" + side], 0.55), 0.05, 0.012, normal=J["arm_dir_" + side], mat="gold", seg=12, rseg=4)
