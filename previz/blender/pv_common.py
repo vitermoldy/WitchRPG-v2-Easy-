@@ -219,3 +219,4 @@ def palette_ref(key, spec):
     veins = spec.pop("veins", None)
     eye = spec.pop("eye", HEX["rift"])
     glow = spec.pop("glow", HEX["rift"])
+    emissive = spec.pop("emissive", {})
