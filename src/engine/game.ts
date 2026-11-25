@@ -691,3 +691,4 @@ export class Game implements UnitHost {
     p.hp = 0
     p.alive = false
     this.deadT = 0
+    this.counts.falls++
