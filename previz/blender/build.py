@@ -102,3 +102,4 @@ for key, fname in FILES.items():
         log("render", fname)
 if "variants" in ONLY:
     paths = []
+    for sc in scenes["variants"]:
