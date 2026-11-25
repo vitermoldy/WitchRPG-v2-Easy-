@@ -1183,3 +1183,4 @@ export class Game implements UnitHost {
         windup: u.spec.windup,
         lunge: u.spec.lungeTime ?? 0.3,
         aimX: u.aimAt.x,
+        aimZ: u.aimAt.z,
