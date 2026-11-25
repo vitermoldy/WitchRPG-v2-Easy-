@@ -43,3 +43,4 @@ describe('the forest valley', () => {
     for (const z of ZONES) {
       const w = zoneWeights(z.c[0], z.c[1])
       expect(w.reduce((s, v) => s + v, 0)).toBeCloseTo(1, 5)
+      expect(zoneAt(z.c[0], z.c[1]).key).toBe(z.key)
