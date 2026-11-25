@@ -198,3 +198,4 @@ button {
     transform: scaleX(0.2);
   }
   to {
+    transform: scaleX(1);
