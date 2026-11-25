@@ -320,3 +320,4 @@ export class Game implements UnitHost {
   }
 
   private updateBlasts(dt: number) {
+    const p = this.player
