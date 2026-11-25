@@ -588,3 +588,4 @@ export class Spells {
     const up = at.clone().setY(at.y + 0.6)
     g.glow.emit({ pos: up, count: 140, color: COLOR.chaos, intensity: 3, life: 0.7, size: 0.5, sizeEnd: 0.05, speed: r * 1.4, jitter: 0.4, drag: 3, gravity: 2 })
     g.glow.emit({ pos: up, count: 40, color: COLOR.chaosHot, intensity: 4, life: 0.35, size: 1.2, sizeEnd: 0.2, speed: r * 0.6, jitter: 0.3, drag: 4 })
+    g.smoke.emit({ pos: at.clone().setY(at.y + 0.4), count: 26, color: 0x1a0c0e, life: 1.6, size: 2.2, sizeEnd: 3.4, speed: r * 0.5, jitter: 1, drag: 2.5, alpha: 0.75 })
