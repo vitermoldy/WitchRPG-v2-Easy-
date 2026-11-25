@@ -316,3 +316,4 @@ export class Spells {
       this.ray.set(b.prev, dir)
       for (const u of g.units.units) {
         if (u.team !== 'enemy' || !u.targetable) continue
+        u.center(this.sphere.center)
