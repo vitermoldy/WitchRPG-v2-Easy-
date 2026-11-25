@@ -101,3 +101,5 @@ class Staff {
       if (d <= len && (!best || d / len < best.f)) best = { u, f: d / len }
     }
     return best
+  }
+
