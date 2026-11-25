@@ -232,3 +232,4 @@ export class WorldMap {
           for (let k = 0; k < w.length; k++) {
             r += tones[k][0] * w[k]
             gg += tones[k][1] * w[k]
+            b += tones[k][2] * w[k]
