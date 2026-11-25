@@ -34,3 +34,4 @@ describe('the server checks a witch before it keeps her', () => {
 
   it('refuses numbers out of bounds, unknown shadows and duplicate ids', () => {
     expect(cleanProfile({ ...newProfile(), level: 31 }, NOW).error).toBeTruthy()
+    expect(cleanProfile({ ...newProfile(), stats: { hex: 0, spr: 5, vit: 5, agi: 5, umb: 5 } }, NOW).error).toBeTruthy()
