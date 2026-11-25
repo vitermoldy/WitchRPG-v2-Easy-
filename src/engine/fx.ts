@@ -114,3 +114,4 @@ export class Particles {
       blending: mode === 'glow' ? THREE.AdditiveBlending : THREE.NormalBlending,
     })
     this.points = new THREE.Points(geo, this.material)
+    this.points.frustumCulled = false
