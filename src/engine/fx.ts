@@ -25,3 +25,4 @@ export interface Emit {
 
 const VERT = /* glsl */ `
   attribute float aSize;
+  attribute vec3 aColor;
