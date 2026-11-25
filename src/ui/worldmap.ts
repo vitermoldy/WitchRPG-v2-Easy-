@@ -418,3 +418,4 @@ export class WorldMap {
     ctx.fill()
     ctx.stroke()
     ctx.restore()
+  }
