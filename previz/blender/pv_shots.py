@@ -186,3 +186,6 @@ def mat_ring(name, color, strength, inner=0.82, alpha=0.9, fill=0.08):
 def hero_layout():
     P = Wd.SPOTS["hero"]
     f = Vector((0.86, 0.5, 0)).normalized()
+    return P, f
+
+
