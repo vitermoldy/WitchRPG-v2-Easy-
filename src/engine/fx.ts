@@ -126,3 +126,4 @@ export class Particles {
     this.c.set(e.color).multiplyScalar(e.intensity ?? 1)
     for (let n = 0; n < e.count; n++) {
       const i = this.cursor
+      this.cursor = (this.cursor + 1) % this.max
