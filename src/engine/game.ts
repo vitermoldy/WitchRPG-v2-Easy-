@@ -1208,3 +1208,4 @@ export class Game implements UnitHost {
     }
   }
 
+  /** ?debug: the Hydra's state for the bot. */
