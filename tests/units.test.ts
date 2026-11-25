@@ -46,3 +46,4 @@ describe('creature attacks', () => {
     let started = -1
     w.step(3, () => {
       if (started < 0 && imp.state === 'windup') started = w.now()
+    })
