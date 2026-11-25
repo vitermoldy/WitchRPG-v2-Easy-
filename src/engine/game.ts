@@ -386,3 +386,4 @@ export class Game implements UnitHost {
     this.scene.add(this.terrain.group)
     this.atmosphere = new Atmosphere(this.scene)
     this.ambient = new Ambient(this.scene)
+    this.scene.add(water())
