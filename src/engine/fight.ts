@@ -98,3 +98,4 @@ class Staff {
       this.sphere.radius = Math.max(u.radius, u.height * 0.42) + 0.15
       if (!this.ray.intersectSphere(this.sphere, this.tmp)) continue
       const d = this.tmp.distanceTo(this.prev)
+      if (d <= len && (!best || d / len < best.f)) best = { u, f: d / len }
