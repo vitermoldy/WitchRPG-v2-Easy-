@@ -698,3 +698,4 @@ export class Game implements UnitHost {
     this.telegraphs.clearAll()
     this.shots.clear()
     this.blasts.length = 0
+    this.warnings.clear()
