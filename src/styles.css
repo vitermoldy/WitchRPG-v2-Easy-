@@ -1936,3 +1936,4 @@ dialog::backdrop {
   align-items: center;
   gap: 0.4rem;
   color: var(--ink-2);
+  font-size: 0.88rem;
