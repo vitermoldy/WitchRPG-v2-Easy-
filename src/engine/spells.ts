@@ -506,3 +506,4 @@ export class Spells {
   }
 
   /** A thrown body hit something: it and what it hit are hurt by its weight and speed. */
+  impact(u: Unit, other: Unit | null, speed: number) {
