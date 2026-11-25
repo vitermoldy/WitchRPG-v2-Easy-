@@ -273,3 +273,4 @@ export class TravelPanel {
   close() {
     if (this.dlg.open) this.dlg.close()
   }
+}
