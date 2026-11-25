@@ -382,3 +382,4 @@ export class Lair {
     const attacks = UNITS.hydraHead.attacks!
     const slam = attacks[0]
     const spit = attacks[1]
+    const her = this.target()
