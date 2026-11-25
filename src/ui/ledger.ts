@@ -79,3 +79,4 @@ export class Ledger {
       } else if (t.dataset.upgrade) {
         if (buyUpgrade(p, t.dataset.upgrade as SkillId)) this.after('up-' + t.dataset.upgrade)
       } else if (t.dataset.release) {
+        const id = Number(t.dataset.release)
