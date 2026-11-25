@@ -220,3 +220,5 @@ export class Player {
       return
     }
     this.flying = false
+  }
+
