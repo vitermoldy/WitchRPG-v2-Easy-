@@ -129,3 +129,4 @@ export class Game implements UnitHost {
   private pivotY = 0
   private cullIn = 0
   private botDodge = false
+  private botLock = false
