@@ -831,3 +831,4 @@ export class Game implements UnitHost {
   // ------------------------------------------------------------ the loop
 
   private tick() {
+    // Timer.reset() measures with performance.now() while update() gets the frame timestamp; the next
