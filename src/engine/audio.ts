@@ -451,3 +451,4 @@ export class Sfx {
     a.insects.gain.setTargetAtTime(0.0001 + rawa * 0.025 * (0.6 + 0.4 * Math.sin(t * 7)), t, 0.1)
     const roll = (perSecond: number) => Math.random() < perSecond * dt
     if (roll(0.45 * pembuka + 0.12 * tebing)) this.bird(t)
+    if (roll(0.08 * tebing)) this.noise(t, 1.6, 'bandpass', 520, 0.05, 0.7, 1300, 0.6)
