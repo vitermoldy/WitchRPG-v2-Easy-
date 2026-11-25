@@ -297,3 +297,4 @@ const poseHarpy: PoseFn = (p, u, t) => {
   p.rot('thigh_L', -28 * s * amp - 10)
   p.rot('thigh_R', 28 * s * amp - 10)
   p.rot('shin_L', 30 + Math.max(0, 30 * Math.sin(u.walk * 1.4 + 1.2)) * amp)
+  p.rot('shin_R', 30 + Math.max(0, 30 * Math.sin(u.walk * 1.4 + 1.2 + Math.PI)) * amp)
