@@ -212,3 +212,4 @@ export class Hud {
     // skills: locked ones show the level that opens them
     const cds = g.spells.cooldowns()
     const skill = (id: string, unlock: number, cd: number) => {
+      const locked = pr.level < unlock
