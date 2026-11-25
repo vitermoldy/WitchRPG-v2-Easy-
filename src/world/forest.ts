@@ -47,3 +47,4 @@ function part(geo: THREE.BufferGeometry, color: THREE.Color, m?: THREE.Matrix4):
   g.computeVertexNormals()
   const n = g.attributes.position.count
   const col = new Float32Array(n * 3)
+  for (let i = 0; i < n; i++) col.set([color.r, color.g, color.b], i * 3)
