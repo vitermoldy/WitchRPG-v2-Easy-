@@ -168,3 +168,4 @@ def build_terrain(coll, size=1300.0, step=2.5):
     me.vertices.foreach_set("co", verts.ravel())
     ii, jj = np.meshgrid(np.arange(n - 1), np.arange(n - 1), indexing="xy")
     a = (jj * n + ii).ravel()
+    quads = np.stack([a, a + 1, a + n + 1, a + n], axis=1).astype(np.int32)
