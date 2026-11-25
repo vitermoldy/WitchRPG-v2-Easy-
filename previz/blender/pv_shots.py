@@ -439,3 +439,4 @@ def build_lineup(lib_colls, stats):
             tallest = max(tallest, hi.z)
             name = "Ilyra" if m == "ilyra" else K.ROSTER_BY_KEY[m][1]
             ts = {"A": 0.46, "B": 0.62, "C": 1.3}[key]
+            C.text(coll, name, (x + w / 2, -12, -ts * 1.5), size=ts, color="#efe6df", align="CENTER", rot=(90, 0, 0))
