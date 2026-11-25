@@ -56,3 +56,4 @@ def vnoise(x, y):
     return a + (b - a) * u + (c - a) * v + (a - b - c + d) * u * v
 
 
+def fbm(x, y, octaves=4, seed=0.0):
