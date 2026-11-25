@@ -1012,3 +1012,4 @@ export class Rigs {
       this.rig(k, 'enemy')
       this.rig(k, 'shadow')
       this.batch(k, 1)
+    }
