@@ -180,3 +180,4 @@ export function scatter(size = 1260, step = 4, seed = 3): Tree[] {
       if (!nearLake && h > -1 && !inClearing(x, y)) {
         if (rockRoll < 0.012 && pd > 4 + SHAPE.rock.trunk * rs) out.push({ kind: 'rock', x, y: h - 0.3, z: -y, rot, scale: rs })
         else if (rockRoll < 0.027 && slope > 0.55 && pd > 4 + SHAPE.rock_big.trunk * rs) out.push({ kind: 'rock_big', x, y: h - 0.3, z: -y, rot, scale: rs })
+      }
