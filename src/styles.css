@@ -1972,3 +1972,4 @@ dialog::backdrop {
     width: min(15rem, 26vw);
   }
   .skills {
+    gap: 0.3rem;
