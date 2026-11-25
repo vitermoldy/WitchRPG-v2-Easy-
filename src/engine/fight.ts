@@ -199,3 +199,4 @@ class Staff {
   private catch() {
     const g = this.g
     this.state = 'hand'
+    if (this.obj) this.obj.visible = false
