@@ -162,3 +162,4 @@ def build_terrain(coll, size=1300.0, step=2.5):
     col = col * (1 - 0.7 * pth) + 0.7 * pth * _hex("#4a3b2c")
     vari = (0.82 + 0.3 * (fbm(X / 6, Y / 6, 3, 12.0) * 0.5 + 0.5))[..., None]
     col = np.clip(col * vari, 0, 1)
+    me = bpy.data.meshes.new("terrain")
