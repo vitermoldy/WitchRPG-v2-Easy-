@@ -118,3 +118,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
     try {
       const remote = await fetchProfile()
       const local = game.profile
+      const remoteTime = remote?.updatedAt ? Date.parse(remote.updatedAt) : 0
