@@ -376,3 +376,4 @@ def build_army(dunia):
     sc, local = shot_scene("06-pasukan-bangkit", dunia, world, -sd, "#9fb4ff", 0.7, vol_end=300, exposure=0.0)
     il = actor("aktor.ilyra.raise", "ilyra", "raise")
     place(il, local, P[0], P[1], f)
+    fr = frame_of(P, f)
