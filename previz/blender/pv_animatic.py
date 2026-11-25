@@ -92,3 +92,4 @@ def build(dunia, res=(1280, 720), samples=24):
     rng = np.random.default_rng(1)
 
     def game_cam(P, face, dist=None, height=None):
+        z = Wd.ground_z(P.x, P.y)
