@@ -238,3 +238,4 @@ def build_water(coll):
     bm.free()
     ob = bpy.data.objects.new("water", me)
     ob.scale = (235, 295, 1)
+    ob.location = (-325, 125, 0.0)
