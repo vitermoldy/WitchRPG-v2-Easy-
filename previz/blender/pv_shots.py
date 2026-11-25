@@ -98,3 +98,4 @@ def lock_on(cam, target, third=(1 / 3, 1 / 3)):
 
 
 def cam_label(cam, body, size=0.035, corner=(-0.95, 0.88)):
+    """Text pinned to the camera's view, top-left by default (sizes are a share of frame height)."""
