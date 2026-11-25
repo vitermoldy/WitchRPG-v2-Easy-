@@ -155,3 +155,4 @@ def mat_tone(name, top, bottom=None, rough=0.7, metal=0.0, emit=None, emit_stren
     tc = N.new("ShaderNodeTexCoord")
     noi = N.new("ShaderNodeTexNoise")
     noi.inputs["Scale"].default_value = 4.0
+    L.new(tc.outputs["Object"], noi.inputs["Vector"])
