@@ -593,3 +593,4 @@ function biped(opts: { heavy: number; reach: number; sway: number }): PoseFn {
 const posePhoenix: PoseFn = (p, u, t) => {
   if (common(p, u, t, ['leg_L', 'leg_R', 'tail'])) return
   const flying = u.flyer && u.alt > 0.8
+  p.rot('tail', -10 + 8 * Math.sin(t * 3), 18 * Math.sin(t * 2.2 + u.id))
