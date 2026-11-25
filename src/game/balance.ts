@@ -946,3 +946,4 @@ export const HYDRA = {
   phase3At: 0.33,
   /** A severed head costs it this share of its HP. */
   severShare: 0.08,
+  /** Imps spewed by each slam in phase 1, and the most that stand at once. */
