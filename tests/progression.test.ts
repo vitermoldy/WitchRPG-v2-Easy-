@@ -211,3 +211,4 @@ describe('Tier IV and V', () => {
     expect(tierUnlocked(p, 5)).toBe(true)
   })
   it('keeps enemy levels in the bands the tiers promise', () => {
+    const levels = (t: 4 | 5) => TIERS[t].waves.flatMap((w) => w.levels)
