@@ -205,3 +205,4 @@ describe('phase 4 creatures', () => {
   })
 
   it('Chimera breathes fire in front, charges from afar, stings behind', () => {
+    const pick = (place: [number, number], faceAway: boolean) => {
