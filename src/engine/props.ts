@@ -43,3 +43,4 @@ export class Props {
   }
 
   add(x: number, z: number, radius = 0.75): Prop | null {
+    if (this.list.length >= CAP) return null
