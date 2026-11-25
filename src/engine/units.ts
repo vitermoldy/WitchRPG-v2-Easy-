@@ -223,3 +223,4 @@ export class Unit implements Foe {
     return !!this.spec.fly && this.downed <= 0
   }
 
+  get staggered() {
