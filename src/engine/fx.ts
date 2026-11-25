@@ -485,3 +485,4 @@ export class ShadowPools {
           p.state = 'off'
           p.mesh.visible = false
         }
+      }
