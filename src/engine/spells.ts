@@ -281,3 +281,4 @@ export class Spells {
     const dirs = spread ? [-1, 0, 1].map((k) => base.clone().applyAxisAngle(new THREE.Vector3(0, 1, 0), k * SPELL.bolt.spreadAngle)) : [base]
     const dmg = (spread ? SPELL.bolt.spreadDamage : SPELL.bolt.damage) * this.damageMult
     for (const d of dirs) {
+      const mesh = new THREE.Mesh(boltGeo, boltMat)
