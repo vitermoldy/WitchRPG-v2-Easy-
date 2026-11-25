@@ -441,3 +441,4 @@ export class Fight {
   }
 
   /** The blow lands: everything in its arc in front of her is struck. */
+  private land(s: SwingState) {
