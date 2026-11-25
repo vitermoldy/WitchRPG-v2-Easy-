@@ -399,3 +399,4 @@ export class Lair {
         this.attackIn = this.phase === 1 ? 1.6 : 1.3
       }
     }
+    for (const h of this.heads) {
