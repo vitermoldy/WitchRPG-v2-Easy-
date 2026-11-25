@@ -412,3 +412,4 @@ def scatter_object(name, coll, proto_ob, pts, rots, scales):
     a = me.attributes.new("rot", "FLOAT_VECTOR", "POINT")
     a.data.foreach_set("vector", np.asarray(rots, np.float32).ravel())
     s = me.attributes.new("scale", "FLOAT", "POINT")
+    s.data.foreach_set("value", np.asarray(scales, np.float32).ravel())
