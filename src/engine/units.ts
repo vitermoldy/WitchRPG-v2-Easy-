@@ -641,3 +641,4 @@ export class UnitSystem {
     return fallback
   }
 
+  /** How close it wants to be: the reach of its closest attack, or its shooting distance. */
