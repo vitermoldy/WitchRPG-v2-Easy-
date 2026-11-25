@@ -104,3 +104,4 @@ export class Umbra {
   /** Records that could be called right now: not out, not reforming. */
   ready(): ShadowRecord[] {
     const out = new Set(this.g.units.units.filter((u) => u.team === 'shadow' && u.record).map((u) => u.record!.id))
+    const pending = new Set(this.calls.map((c) => c.rec.id))
