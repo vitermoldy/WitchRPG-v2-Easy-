@@ -530,3 +530,4 @@ export class Game implements UnitHost {
   }
 
   run() {
+    this.timer.connect(document)
