@@ -149,3 +149,4 @@ def build(dunia, res=(1280, 720), samples=24):
 
         # hydra: rises with swaying necks
         hz = hydra_z(t)
+        hy_i.location.z = hz
