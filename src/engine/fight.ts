@@ -329,3 +329,4 @@ export class Fight {
     this.castFx = Math.max(0, this.castFx - dt * 5)
     if (this.catchT >= 0) {
       this.catchT += dt / CATCH_TIME
+      if (this.catchT >= 1) this.catchT = -1
