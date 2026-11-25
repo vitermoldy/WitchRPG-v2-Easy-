@@ -51,3 +51,4 @@ export class Seal {
     // a wall segment on every edge between a sealed cell and an open one
     const pos: number[] = []
     const uv: number[] = []
+    const H = 16
