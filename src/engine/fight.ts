@@ -95,3 +95,4 @@ class Staff {
     for (const u of this.g.units.units) {
       if (u.team !== 'enemy' || !u.targetable || this.hit.has(u)) continue
       u.center(this.sphere.center)
+      this.sphere.radius = Math.max(u.radius, u.height * 0.42) + 0.15
