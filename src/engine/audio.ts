@@ -38,3 +38,4 @@ export class Sfx {
     if (this.master && this.ctx) this.master.gain.setTargetAtTime(v, this.ctx.currentTime, 0.05)
   }
 
+  suspend() {
