@@ -316,3 +316,4 @@ def build_minotaur(dunia):
     for i in range(14):
         t = i / 13
         a = math.radians(-110 + 150 * t)
+        d = (f * math.cos(a) + right * -math.sin(a))
