@@ -252,3 +252,4 @@ export class Forest {
     const up = new THREE.Vector3(0, 1, 0)
     for (const t of trees) {
       const id = this.mesh.addInstance(ids[t.kind])
+      q.setFromAxisAngle(up, t.rot)
