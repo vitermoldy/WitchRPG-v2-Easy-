@@ -50,3 +50,5 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
     showError('')
     user.removeAttribute('aria-invalid')
     pass.removeAttribute('aria-invalid')
+  }
+
