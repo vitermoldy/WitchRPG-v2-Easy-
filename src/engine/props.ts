@@ -103,3 +103,4 @@ export class Props {
           p.thrown = false
           p.vel.set(0, 0, 0)
         }
+      }
