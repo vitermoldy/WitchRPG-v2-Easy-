@@ -444,3 +444,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     lungeTime: 0.45,
     strike: 'line',
     stun: 30,
+    flank: true,
