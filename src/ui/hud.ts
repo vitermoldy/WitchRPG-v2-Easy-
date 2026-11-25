@@ -249,3 +249,4 @@ export class Hud {
     const g = this.g
     let html = ''
     const ex = g.player.alive && !g.fight.exec ? g.fight.executable() : null
+    const c = g.umbra.candidate
