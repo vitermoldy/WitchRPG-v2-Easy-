@@ -1170,3 +1170,4 @@ export const COMBAT = {
   comboWindow: 0.5,
   /** Holding the left button this long turns the attack into the heavy overhead blow. */
   heavyHold: 0.3,
+  heavy: { damage: 28, windup: 0.26, active: 0.16, recover: 0.5, reach: 2.8, arc: 2.2, stun: 26, lunge: 1.4 } as Swing,
