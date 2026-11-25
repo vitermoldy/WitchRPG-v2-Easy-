@@ -76,3 +76,4 @@ export function newProfile(): Profile {
     stats: { hex: XP.startStat, spr: XP.startStat, vit: XP.startStat, agi: XP.startStat, umb: XP.startStat },
     upgrades: {},
     shadows: [],
+    nextShadowId: 1,
