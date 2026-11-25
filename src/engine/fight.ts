@@ -240,3 +240,4 @@ export class Fight {
 
   /** Drops whatever she was doing. keepStaff: the thrown staff stays where it is (turned to stone, not a fall). */
   reset(keepStaff = false) {
+    this.combo.cancel()
