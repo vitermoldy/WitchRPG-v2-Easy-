@@ -154,3 +154,4 @@ export function createApi(getPool, database) {
     if (p.error) return res.status(400).json({ error: p.error })
     const conn = await getPool().getConnection()
     try {
+      await conn.beginTransaction()
