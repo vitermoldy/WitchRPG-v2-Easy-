@@ -56,3 +56,4 @@ def tone_of(m):
         return None
     mix = next((n for n in nodes if n.bl_idname == "ShaderNodeMix" and n.data_type == "RGBA"), None)
     if not mix:
+        return None
