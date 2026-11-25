@@ -65,3 +65,4 @@ export class Projectiles {
       const t = Math.max(0.3, flat / spec.speed)
       vel = new THREE.Vector3((aim.x - from.x) / t, (aim.y - from.y) / t + 0.5 * spec.gravity * t, (aim.z - from.z) / t)
     } else {
+      // along the telegraphed line, aimed at her chest where she stood when it drew
