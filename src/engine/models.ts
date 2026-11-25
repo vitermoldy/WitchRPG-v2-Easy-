@@ -202,3 +202,4 @@ export class IlyraModel {
     }
     const amp = p.flying ? 0 : Math.min(1.6, p.speed / MOVE.jog)
     const sprint = p.flying ? 0 : Math.max(0, (p.speed - MOVE.jog) / (MOVE.sprint - MOVE.jog))
+    const s = Math.sin(p.stride)
