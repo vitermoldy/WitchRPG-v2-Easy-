@@ -431,3 +431,4 @@ class Part:
 
     def torus(self, c, R, r, normal=(0, 0, 1), mat="metal", seg=20, rseg=6):
         n = V(normal).normalized()
+        M = rot_to(n)
