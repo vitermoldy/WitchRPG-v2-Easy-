@@ -1016,3 +1016,4 @@ export class Rigs {
   }
 
   private batch(kind: UnitKind, need: number): CrowdBatch | null {
+    let b = this.crowd.get(kind)
