@@ -107,3 +107,4 @@ Warna identitas dari v1 tetap: Chaos `#ff2a3d` (tangan kiri, sigil tongkat, jeja
 Makhluk memakai warna dari gambar referensinya (keputusan pemilik setelah previz pertama), dua nada: warna atas untuk punggung, warna bawah untuk perut dan sisi yang menghadap tanah.
 
 | Makhluk | Warna utama | Warna lain dan atribut |
+| --- | --- | --- |
