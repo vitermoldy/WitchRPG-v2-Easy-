@@ -166,3 +166,4 @@ export class Terrain {
         col.set([col[src * 3] * 0.6, col[src * 3 + 1] * 0.6, col[src * 3 + 2] * 0.6], v * 3)
         v++
       }
+      for (let k = 0; k < n; k++) {
