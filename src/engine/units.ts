@@ -378,3 +378,4 @@ export class UnitSystem {
     u.hp = 0
     u.token = false
     u.executed = executed
+    u.set('dead')
