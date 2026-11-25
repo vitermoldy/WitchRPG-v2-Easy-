@@ -28,3 +28,4 @@ export function bakeByMaterial(root: THREE.Object3D): { geometry: THREE.BufferGe
   root.traverse((o) => {
     const m = o as THREE.Mesh
     if (!m.isMesh) return
+    const g = m.geometry.clone()
