@@ -955,3 +955,4 @@ def b_lilith(r):
     p = r.parts["pelvis"]
     hp = V(J["hip"])
     p.tube([hp + Vector((0, 0, 0.25)), hp, (0, 0.02, 0.6), (0, 0.06, 0.05)], [0.22, 0.27, 0.45, 0.72], mat="cloth", seg=16, n=3, cap=False)
+    r.parts["torso"].ell(V(J["chest"]) + Vector((0, -0.005, -0.02)), (0.19, 0.15, 0.17), mat="cloth")
