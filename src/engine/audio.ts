@@ -19,3 +19,4 @@ export class Sfx {
     } catch {
       return
     }
+    const ctx = this.ctx
