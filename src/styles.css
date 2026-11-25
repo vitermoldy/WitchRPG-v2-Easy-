@@ -753,3 +753,4 @@ button {
   position: absolute;
   left: 50%;
   top: calc(50% + 64px);
+  transform: translateX(-50%);
