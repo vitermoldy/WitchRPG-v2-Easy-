@@ -349,3 +349,4 @@ def spikes(part, pts, h, r, mat="horn", tilt=(0, 0.4, 1)):
         part.cone(p, V(p) + d * h * k, r * k, mat=mat, seg=5)
 
 
+def tail_tube(part, pts, r0, r1=0.0, mat="body", seg=7):
