@@ -31,3 +31,4 @@ npm run build    # hasil di dist/
 npm start        # setelah build: server sekaligus melayani dist/ di http://localhost:8915
 npm run users    # daftar akun
 npm run set-user -- <username> <kata sandi>   # buat akun atau ganti kata sandinya
+npm run models   # buat ulang model GLB dari block-out Blender (butuh Blender 5.1)
