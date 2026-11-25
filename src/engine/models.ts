@@ -286,3 +286,4 @@ export class IlyraModel {
       } else ({ back, through } = SWINGS[sw.index % SWINGS.length])
       const rest = { torso: torsoY, armX: armRX, armY: armRY, fore: foreR }
       let pose: typeof back
+      if (sw.t < sw.windup) {
