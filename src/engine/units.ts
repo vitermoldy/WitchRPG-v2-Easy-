@@ -584,3 +584,4 @@ export class UnitSystem {
   }
 
   /** A diving Naga comes up a few metres away, rising out of the ground. */
+  private surface(u: Unit) {
