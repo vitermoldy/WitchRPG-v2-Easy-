@@ -142,3 +142,4 @@ export class CameraRig {
       let a = { yaw: this.yaw, pitch: this.pitch }
       for (let i = 0; i < 2; i++) a = this.lockAngles(wanted(pivot, a.yaw, a.pitch, p), target, p.fov)
       const want = a
+      const k = Math.min(1, LOCKON.turn * dt)
