@@ -64,3 +64,4 @@ describe('creature attacks', () => {
         w.foe.pos.set(RING_RADIUS + 3, 0, -3)
       }
     })
+    expect(moved).toBe(true)
