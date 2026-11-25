@@ -558,3 +558,4 @@ export class Game implements UnitHost {
     if (res.levelsGained) {
       this.counts.levelUps += res.levelsGained
       this.applyDerived()
+      // a new level steadies her: HP and mana back to full
