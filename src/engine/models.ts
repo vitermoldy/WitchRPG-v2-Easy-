@@ -373,3 +373,4 @@ export class IlyraModel {
 
     this.pivot.position.y -= crouch
     if (crouch > 0) {
+      this.rot('thigh_L', -24 * s * amp - 120 * crouch)
