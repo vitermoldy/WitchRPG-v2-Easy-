@@ -233,3 +233,4 @@ export class IlyraModel {
       this.rot('head', -2 - lean * 0.6)
     } else {
       this.pivot.position.y = 0.9 + 0.02 * Math.abs(s) * amp
+      this.rot('thigh_L', -24 * s * amp)
