@@ -320,3 +320,4 @@ export class WorldMap {
     for (const a of ALTARS) {
       const x = px(a.c[0])
       const y = py(a.c[1])
+      ctx.beginPath()
