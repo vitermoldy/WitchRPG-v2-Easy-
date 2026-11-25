@@ -274,3 +274,4 @@ export class Camps {
   /** The closest camp still standing, for the HUD. */
   nearest(): { camp: Camp; dist: number } | null {
     const p = this.g.player.pos
+    let best: { camp: Camp; dist: number } | null = null
