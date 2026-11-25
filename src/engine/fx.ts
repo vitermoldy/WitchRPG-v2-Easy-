@@ -127,3 +127,4 @@ export class Particles {
     for (let n = 0; n < e.count; n++) {
       const i = this.cursor
       this.cursor = (this.cursor + 1) % this.max
+      const j = e.jitter ?? 0
