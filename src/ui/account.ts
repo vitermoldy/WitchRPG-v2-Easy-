@@ -88,3 +88,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
       button.textContent = 'Keluar'
       button.hidden = false
     } else if (state.status === 'checking') {
+      text.textContent = 'Memeriksa akun...'
