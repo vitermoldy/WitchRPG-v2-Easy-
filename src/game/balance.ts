@@ -176,3 +176,4 @@ export type UnitKind =
   | 'cyclops' | 'succubus' | 'incubus' | 'phoenix' | 'hydra' | 'hydraHead'
   | 'griffin' | 'hippogriff' | 'pegasus' | 'unicorn' | 'cerberus' | 'lilith' | 'dragon' | 'typhon' | 'samael' | 'atlas'
 
+/** v2 creatures of the forest; the v1 kinds above stay for the v1 formula tests and later phases. */
