@@ -485,3 +485,4 @@ export class Spells {
         prop.thrown = true
         prop.flight = SPELL.grip.flight
       }
+      this.heldProp = null
