@@ -23,3 +23,4 @@ describe('over-the-shoulder camera', () => {
     rig.pitch = 0
     const pose = rig.update(1, pivot, false, null, null, flat)
     // yaw 0 looks north (-z): behind is +z, right is +x
+    expect(pose.pos.z).toBeCloseTo(CAMERA.normal.dist, 5)
