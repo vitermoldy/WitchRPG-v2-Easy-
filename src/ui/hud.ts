@@ -209,3 +209,4 @@ export class Hud {
     this.set('xp-fill', 'transform', `scaleX(${Math.min(1, pr.xp / xpToNext(pr.level)).toFixed(3)})`)
     this.root.classList.toggle('overloaded', g.spells.overloaded)
 
+    // skills: locked ones show the level that opens them
