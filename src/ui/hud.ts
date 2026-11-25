@@ -60,3 +60,5 @@ export class Hud {
   private hitTime = 0
   private hurt = 0
   private manaFlash = 0
+  private zoneKey = ''
+
