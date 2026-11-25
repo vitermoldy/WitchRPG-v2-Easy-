@@ -144,3 +144,4 @@ export function createApi(getPool, database) {
     }
   }
 
+  api.get('/profile', async (req, res) => {
