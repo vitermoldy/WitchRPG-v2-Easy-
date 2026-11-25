@@ -101,3 +101,4 @@ Tur fitur (setiap skill sekali di game, `?debug`, Lv 10): Hex Bolt melukai Imp d
 
 ## Fase 3: Umbra (24 Nov 2026)
 
+| Bagian | Keputusan | Alasan |
