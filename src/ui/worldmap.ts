@@ -140,3 +140,4 @@ export class WorldMap {
       const left = Math.max(0, camp.respawnAt - g.camps.clock)
       const down = camp.state === 'cleared'
       list.push({
+        kind, name: UNITS[kind].name, level: camp.def.levels[1], zone: zoneName(camp.pos.x, camp.pos.z), x: camp.pos.x, z: camp.pos.z,
