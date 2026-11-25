@@ -399,3 +399,5 @@ def build_army(dunia):
     return sc
 
 
+# ---------------------------------------------------------------- 03 lineup at true scale
+
