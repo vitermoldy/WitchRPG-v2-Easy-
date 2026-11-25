@@ -1071,3 +1071,4 @@ export class Rigs {
     if (this.sortIn <= 0) {
       this.sortIn = 0.2
       const shadows = units.filter((u) => u.team === 'shadow')
+      if (shadows.length <= this.detail) for (const u of shadows) u.detailed = true
