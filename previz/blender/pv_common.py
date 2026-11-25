@@ -537,3 +537,4 @@ def world_matrix(ob):
     """matrix_world without a depsgraph update (parents use identity parent-inverse here)."""
     m = ob.matrix_basis.copy()
     p = ob.parent
+    while p is not None:
