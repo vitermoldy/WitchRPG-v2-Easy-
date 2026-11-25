@@ -47,3 +47,4 @@ function rateLimit(limit) {
     hits.set(key, recent)
     if (hits.size > 5000) hits.clear()
     if (recent.length > limit) return res.status(429).json({ error: 'Terlalu banyak permintaan. Coba lagi sebentar lagi.' })
+    next()
