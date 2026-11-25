@@ -76,3 +76,4 @@ describe('creature attacks', () => {
       const busy = w.sys.units.filter((u) => u.state === 'windup' || u.state === 'strike').length
       most = Math.max(most, busy)
       expect(w.sys.tokens()).toBeLessThanOrEqual(COMBAT.attackers)
+    })
