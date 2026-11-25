@@ -322,3 +322,4 @@ export class Game implements UnitHost {
   private updateBlasts(dt: number) {
     const p = this.player
     for (let i = this.blasts.length - 1; i >= 0; i--) {
+      const b = this.blasts[i]
