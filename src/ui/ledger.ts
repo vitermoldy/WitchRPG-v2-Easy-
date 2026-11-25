@@ -221,3 +221,4 @@ export class Ledger {
   }
 }
 
+export interface TravelHost {
