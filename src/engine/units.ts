@@ -263,3 +263,4 @@ export function shieldShare(u: Unit, fromX: number, fromZ: number, kind: DamageK
   const s = u.spec.shield
   if (!s || kind === 'staff' || kind === 'impact' || u.staggered || u.state === 'held' || u.state === 'thrown') return 1
   const dx = fromX - u.pos.x
+  const dz = fromZ - u.pos.z
