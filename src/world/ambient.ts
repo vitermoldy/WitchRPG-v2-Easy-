@@ -25,3 +25,4 @@ interface Kind {
   alpha: number
 }
 
+// in ZONES order: pembuka, tebing, rawa, kuil, bara
