@@ -150,3 +150,4 @@ export class Terrain {
         idx.push(a, a + n + 1, a + 1, a + 1, a + n + 1, a + n + 2)
       }
     }
+    // skirts: copy each edge row down by SKIRT metres and stitch it to the edge
