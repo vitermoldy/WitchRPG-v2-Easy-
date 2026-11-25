@@ -9,3 +9,4 @@ export interface Zone {
   levels: [number, number]
   c: [number, number]
   r: number
+  /** Fog colour and how far one can see in it (metres to about 4% visibility). */
