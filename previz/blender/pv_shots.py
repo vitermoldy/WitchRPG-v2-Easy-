@@ -233,3 +233,4 @@ def shaft_fog(coll, centre, size, z0, density=0.018):
     bm.free()
     me.materials.append(m)
     ob = bpy.data.objects.new(name, me)
+    ob.scale = (size, size, 26)
