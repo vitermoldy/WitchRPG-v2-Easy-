@@ -927,3 +927,4 @@ def b_hydra(r, heads=5):
 
 def b_cerberus(r):
     """Huge lavender-grey three-headed hound with black spiked collars, red mouths and bared teeth."""
+    Q = quad(r, 5.0, 6.6, 2.5, 2.7, 0.32)
