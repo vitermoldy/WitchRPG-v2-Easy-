@@ -24,3 +24,4 @@ export interface UmbraInput {
 }
 
 /** Soldiers of one call that each get their own pool; the rest rise out of the wide spill. */
+const POOLS_PER_CALL = 90
