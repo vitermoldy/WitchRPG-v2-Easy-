@@ -218,3 +218,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
       setNote('Witch belum terkirim ke server, jadi belum bisa keluar. Coba lagi sebentar lagi')
       button.disabled = false
       button.textContent = 'Keluar'
+      return
