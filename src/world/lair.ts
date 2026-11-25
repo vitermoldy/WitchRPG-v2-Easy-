@@ -383,3 +383,4 @@ export class Lair {
     const slam = attacks[0]
     const spit = attacks[1]
     const her = this.target()
+    let busy = 0
