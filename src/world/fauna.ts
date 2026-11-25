@@ -48,3 +48,4 @@ export class Fauna {
       const d = Math.hypot(p.x - s.x, p.z - s.z)
       if (!s.unit && d < WAKE) {
         const u = g.units.spawn(s.kind, 'enemy', 1, { x: s.x, z: s.z })
+        u.home = new THREE.Vector3(s.x, 0, s.z)
