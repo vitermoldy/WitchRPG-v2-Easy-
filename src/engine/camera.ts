@@ -113,3 +113,4 @@ export class CameraRig {
     return p
   }
 
+  /**
