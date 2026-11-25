@@ -20,3 +20,4 @@ const BOSS_HINT: Partial<Record<UnitKind, string>> = {
   samael: 'Menghilang dan menebas di garis: roll ke samping. Penghakimannya jatuh di lingkaran lebar.',
 }
 
+/** The Hydra's hint follows its phase. */
