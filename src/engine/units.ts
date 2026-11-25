@@ -239,3 +239,4 @@ export class Unit implements Foe {
   }
 
   /** Middle of the body, for aiming and effects. */
+  center(out = new THREE.Vector3()) {
