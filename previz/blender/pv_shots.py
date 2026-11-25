@@ -252,3 +252,4 @@ def build_variants(dunia):
     out = []
     for key, label, mode, over in VARIANTS:
         sc, cam = build_hero(dunia, name=f"00-varian-{key}", mode=mode, cam_over=over, res=(960, 540), samples=32)
+        cam_label(cam, f"{key}  {label}", size=0.045)
