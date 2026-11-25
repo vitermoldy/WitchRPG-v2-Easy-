@@ -394,3 +394,4 @@ export class Spells {
         if (d < sd) {
           sd = d
           second = u
+        }
