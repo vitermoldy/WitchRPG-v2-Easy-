@@ -39,3 +39,4 @@ export const MOVE = {
 } as const
 
 /**
+ * Over-the-right-shoulder camera, numbers settled in the phase 0 previz (previz/PREVIZ.md).
