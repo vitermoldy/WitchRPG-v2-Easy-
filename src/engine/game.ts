@@ -145,3 +145,4 @@ export class Game implements UnitHost {
   private saveIn = -1
   private readonly pose = idlePose()
   /** Bursts waiting on their amber circles: elites that explode, a Phoenix's second fall. */
+  private readonly blasts: { x: number; y: number; z: number; radius: number; damage: number; t: number }[] = []
