@@ -60,3 +60,4 @@ Salin `.env.example` menjadi `.env` dan isi akun MySQL. Server membuat database 
 | Tempur | |
 | --- | --- |
 | Klik kiri | Tiga pukulan tongkat berantai; tahan untuk pukulan berat |
+| Tahan C | Tahan serangan dari depan. Tekan tepat saat cincin amber penuh untuk parry: makhluk limbung |
