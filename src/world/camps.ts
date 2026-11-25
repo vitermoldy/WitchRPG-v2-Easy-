@@ -216,3 +216,4 @@ export class Camps {
         if (!alive.length) {
           camp.state = 'cleared'
           camp.respawnAt = this.time + (camp.def.boss ? CAMP.bossRespawn : CAMP.respawn)
+          colors = true
