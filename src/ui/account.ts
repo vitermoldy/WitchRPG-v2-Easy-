@@ -135,3 +135,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
 
   /** Every local save also goes to the server, a moment later so quick changes travel together. */
   function schedulePush(): void {
+    if (authState().status !== 'signed-in') return
