@@ -15,3 +15,5 @@ interface Bolt {
   damage: number
   mesh: THREE.Mesh
   light: THREE.PointLight | null
+}
+
