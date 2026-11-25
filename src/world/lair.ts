@@ -233,3 +233,4 @@ export class Lair {
     }
   }
 
+  /** A head fell (an execution severs it): the body loses a share of its life. */
