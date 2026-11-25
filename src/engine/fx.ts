@@ -82,3 +82,5 @@ export class Particles {
   private readonly drag: Float32Array
   private cursor = 0
   private readonly material: THREE.ShaderMaterial
+  private readonly c = new THREE.Color()
+
