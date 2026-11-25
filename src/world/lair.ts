@@ -334,3 +334,4 @@ export class Lair {
       if (this.time - this.wonAt > HYDRA.respawn) {
         this.reset()
         this.state = 'calm'
+      }
