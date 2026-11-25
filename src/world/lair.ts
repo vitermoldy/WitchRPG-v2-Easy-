@@ -120,3 +120,4 @@ export class Lair {
     this.curtainMat = new THREE.ShaderMaterial({
       uniforms: { uTime: { value: 0 }, uFade: { value: 0 }, uColor: { value: new THREE.Color(COLOR.rift) } },
       vertexShader: VERT,
+      fragmentShader: CURTAIN_FRAG,
