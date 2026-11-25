@@ -200,3 +200,4 @@ interface LightSlot {
 }
 
 /**
+ * Point lights are created once and reused. Changing the number of lights in a scene recompiles
