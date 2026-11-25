@@ -444,3 +444,4 @@ export class Umbra {
     const raised: ShadowRecord[] = []
     let faded = 0
     for (const u of list) {
+      u.riteTried = true
