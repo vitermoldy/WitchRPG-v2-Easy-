@@ -77,3 +77,4 @@ export class Input {
     this.down.add(code)
   }
 
+  release(code: string) {
