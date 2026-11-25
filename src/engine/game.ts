@@ -955,3 +955,4 @@ export class Game implements UnitHost {
     if (p.flying && Math.random() < 0.7) {
       for (const [side, col] of [['L', COLOR.chaos], ['R', COLOR.umbra]] as const) this.glow.emit({ pos: this.ilyra.hand(side, this.v), count: 1, color: col, intensity: 2.2, life: 0.5, size: 0.12, sizeEnd: 0.02, speed: 0.6 })
     }
+    this.foe.pos.set(p.pos.x, p.pos.y, p.pos.z)
