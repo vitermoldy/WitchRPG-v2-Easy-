@@ -48,3 +48,4 @@ export const CAMP_DEFS: CampDef[] = [
   { c: [-200, 108], pack: { minotaur: 1, naga: 2 }, levels: [8, 9] },
   { c: [-332, 30], pack: { medusa: 1, naga: 2 }, levels: [9, 9] },
   { c: [-252, 190], pack: { chimera: 1 }, levels: [9, 9] },
+  // elite camps at the edges of zones I to III (PROMPT: "kamp elit ada di tepi zona")
