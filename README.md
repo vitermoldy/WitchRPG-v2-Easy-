@@ -54,3 +54,4 @@ Salin `.env.example` menjadi `.env` dan isi akun MySQL. Server membuat database 
 | P | Pandangan orang pertama atau dari belakang bahu; pilihan ini ikut tersimpan |
 | M | Peta: semua boss dan statusnya, altar, dan kamp monster yang dicentang. Game menunggu selama peta terbuka |
 | Tab | Ledger: bagi poin stat dan skill, lihat dan lepas bayangan. Game menunggu selama Ledger terbuka |
+| F di altar | Perjalanan cepat ke altar lain yang sudah menyala, atau buka Ledger |
