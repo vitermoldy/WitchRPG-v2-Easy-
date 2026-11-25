@@ -1099,3 +1099,4 @@ export class Rigs {
       if (!b) continue
       this.p.set(u.pos.x, u.pos.y - this.sink(u), u.pos.z)
       // a small step bob while it moves, so a marching crowd does not look frozen
+      const pace = Math.min(1, Math.hypot(u.vel.x, u.vel.z) / Math.max(1, u.speed))
