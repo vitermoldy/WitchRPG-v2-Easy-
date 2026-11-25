@@ -326,3 +326,4 @@ export class Game implements UnitHost {
       b.t -= dt
       if (b.t > 0) continue
       this.blasts.splice(i, 1)
+      const at = new THREE.Vector3(b.x, b.y, b.z)
