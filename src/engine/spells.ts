@@ -699,3 +699,4 @@ export class Spells {
       if (Math.random() < dt * 40) {
         const a = Math.random() * Math.PI * 2
         const r = Math.sqrt(Math.random()) * w.radius
+        g.glow.emit({ pos: { x: w.pos.x + Math.cos(a) * r, y: w.pos.y + 0.2, z: w.pos.z + Math.sin(a) * r }, count: 1, color: Math.random() < 0.6 ? COLOR.umbra : COLOR.chaos, intensity: 2.2, life: 1.6, size: 0.14, vel: { x: 0, y: 3, z: 0 }, drag: 0.3 })
