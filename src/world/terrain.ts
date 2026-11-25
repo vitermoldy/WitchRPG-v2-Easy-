@@ -160,3 +160,4 @@ export class Terrain {
     }
     edges.forEach((edge, e) => {
       const start = v
+      for (const src of edge) {
