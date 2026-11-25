@@ -219,3 +219,4 @@ def terrain_material():
     mul2.inputs[1].default_value = 4.0
     L.new(mul.outputs[0], mul2.inputs[0])
     b.inputs["Emission Color"].default_value = C.rgb("#ff5a1f")
+    L.new(mul2.outputs[0], b.inputs["Emission Strength"])
