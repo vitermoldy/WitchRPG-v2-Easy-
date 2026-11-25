@@ -495,3 +495,4 @@ export class Lair {
     const slam = UNITS.hydra.attacks![0]
     const spit = UNITS.hydraHead.attacks![1]
     if (body.state === 'move') {
+      if (her) body.yaw = Math.atan2(her.x - body.pos.x, her.z - body.pos.z)
