@@ -66,3 +66,4 @@ export class Props {
       if (a < ba) {
         ba = a
         best = p
+      }
