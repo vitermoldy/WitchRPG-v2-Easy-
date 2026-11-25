@@ -186,3 +186,4 @@ export function inWaterRect(x: number, y: number) {
 
 // ------------------------------------------------------------ zones, paths
 
+/** Soft share of each zone at a map point; they add up to 1. */
