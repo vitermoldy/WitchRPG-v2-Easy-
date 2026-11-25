@@ -839,3 +839,4 @@ export class Game implements UnitHost {
       this.frames[this.frameCount % FRAME_SAMPLES] = now - this.lastFrame
       this.frameCount++
       const ts = performance.now()
+      for (let i = 0; i < this.debugSpeed; i++) {
