@@ -51,3 +51,5 @@ export class Terrain {
   private readonly w = new Float32Array(ZONES.length)
   private readonly tmp = new THREE.Color()
   /** Chunk meshes built so far, for the debug readout. */
+  built = 0
+
