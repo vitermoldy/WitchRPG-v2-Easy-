@@ -66,3 +66,4 @@ export class Umbra {
   armyOut = false
   readonly stats = { casts: 0, raised: 0, faded: 0 }
   private wheelX = 0
+  private wheelY = 0
