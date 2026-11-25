@@ -111,3 +111,4 @@ export class Sfx {
    * v2: a creature starts an attack. ring (blockable): a low swelling thrum. line (dodge it): a sharp
    * rising two-note shriek. They sound different so the warning does not rest on sight alone.
    */
+  warn(kind: 'ring' | 'line') {
