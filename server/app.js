@@ -4,3 +4,4 @@ import { createAuth } from './auth.js'
 
 /**
  * The API:
+ *   GET  /api/health
