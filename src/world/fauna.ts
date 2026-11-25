@@ -62,3 +62,4 @@ export class Fauna {
   list() {
     return this.spots.map((s) => ({ kind: s.kind, x: s.x, z: s.z }))
   }
+}
