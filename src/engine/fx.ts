@@ -33,3 +33,4 @@ const VERT = /* glsl */ `
   void main() {
     vColor = aColor;
     vAlpha = aAlpha;
+    vec4 mv = modelViewMatrix * vec4(position, 1.0);
