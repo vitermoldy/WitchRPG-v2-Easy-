@@ -86,3 +86,4 @@ export function cleanProfile(p, now = Date.now()) {
   const lit = Array.isArray(p.world?.altars) ? p.world.altars.filter((a) => ALTARS.has(a)) : []
   const altars = [...new Set(['pembuka', ...lit])]
   const last = altars.includes(p.world?.last) ? p.world.last : 'pembuka'
+  const st = p.settings ?? {}
