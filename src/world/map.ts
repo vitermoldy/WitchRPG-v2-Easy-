@@ -83,3 +83,5 @@ const LAT = (() => {
   const a = new Float32Array(256 * 256)
   for (let i = 0; i < a.length; i++) a[i] = rnd() * 2 - 1
   return a
+})()
+
