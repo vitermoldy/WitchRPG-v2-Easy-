@@ -23,3 +23,4 @@ export function resolveDefense(now: number, strike: 'ring' | 'line', invulnerabl
 /** Stun meter of one creature. Fills from heavy blows, parries, bolts and the staff; drains when left alone. */
 export class StunMeter {
   value = 0
+  /** Seconds left staggered (and open to an execution). */
