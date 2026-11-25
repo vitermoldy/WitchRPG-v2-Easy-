@@ -301,3 +301,4 @@ export class Rings {
     const ring = this.pool.find((r) => !r.mesh.visible) ?? this.pool[0]
     ring.mesh.visible = true
     ring.mesh.position.set(pos.x, pos.y + 0.06, pos.z)
+    ;(ring.mesh.material as THREE.MeshBasicMaterial).color.set(color).multiplyScalar(2.2)
