@@ -209,3 +209,4 @@ def build(dunia, res=(1280, 720), samples=24):
             q = lock_quat(loc, tgt, cn["vfov"] + 6 * u, third=(1 / 3, 1 / 3 - 0.08 * u))
             vfov = cn["vfov"] + 6 * u
             ret.location = tgt
+            shake = 0.06 * seg(t, T_NAGA + 0.5, T_NAGA + 1.0) * (1 - seg(t, T_NAGA + 3.5, T_NAGA + 5.5))
