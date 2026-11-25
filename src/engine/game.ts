@@ -272,3 +272,4 @@ export class Game implements UnitHost {
     }
     if (strike === 'ring') this.fight.stats.hitRing++
     else this.fight.stats.hitLine++
+    this.hurtPlayer(u.damage * (atk.damage ?? 1), u.pos)
