@@ -303,3 +303,4 @@ const poseHarpy: PoseFn = (p, u, t) => {
 
 /** Diagonal-pair trot of a four-legged body; shared by the Centaur's horse half and the Chimera. */
 function trot(p: Poser, u: Unit, swing: number, speedShare: number) {
+  const ph = u.walk * 1.0
