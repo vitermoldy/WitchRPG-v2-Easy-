@@ -83,3 +83,4 @@ async function call<T>(path: string, init?: RequestInit): Promise<T> {
 
 type Entry = { user: Account; device: string }
 
+/** Asks the server who is signed in on this browser. */
