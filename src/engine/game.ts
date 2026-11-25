@@ -374,3 +374,5 @@ export class Game implements UnitHost {
 
   clearTelegraph(u: Unit) {
     this.telegraphs?.clear(u)
+  }
+
