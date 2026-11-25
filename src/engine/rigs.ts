@@ -491,3 +491,4 @@ const CHIMERA_LIMBS = ['leg_FL', 'leg_FR', 'leg_HL', 'leg_HR', 'tail_snake']
 /** Chimera: the lion breathes fire, the goat lowers its horns to charge, the snake tail rears and stings. */
 const poseChimera: PoseFn = (p, u, t) => {
   if (common(p, u, t, CHIMERA_LIMBS)) return
+  const { ph, amp } = trot(p, u, 30, 0.6)
