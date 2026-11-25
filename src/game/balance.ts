@@ -1190,3 +1190,4 @@ export const COMBAT = {
     counter: 1.5,
     riposte: 1.2,
   },
+  /** Brief freeze on impact; heavier blows hold longer. */
