@@ -114,3 +114,4 @@ function common(p: Poser, u: Unit, t: number, limbs: string[]): boolean {
 const IMP_LIMBS = ['upperarm_L', 'upperarm_R', 'thigh_L', 'thigh_R', 'tail']
 
 /** Imp: hunched, quick, crouches under its circle and leaps claws first. */
+const poseImp: PoseFn = (p, u, t) => {
