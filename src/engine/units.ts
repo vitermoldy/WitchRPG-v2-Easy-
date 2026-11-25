@@ -259,3 +259,4 @@ export const ringOf = (atk: AttackSpec) => atk.ring ?? RING_RADIUS
  * within about 70 degrees of where it faces are cut down. A thrown staff, a thrown body, or a creature
  * knocked off balance takes the full blow.
  */
+export function shieldShare(u: Unit, fromX: number, fromZ: number, kind: DamageKind): number {
