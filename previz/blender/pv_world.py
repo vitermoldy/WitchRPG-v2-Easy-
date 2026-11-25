@@ -390,3 +390,4 @@ def scatter_group():
     L.new(gi.outputs["Proto"], oi.inputs["Object"])
     iop = N.new("GeometryNodeInstanceOnPoints")
     L.new(gi.outputs["Geometry"], iop.inputs["Points"])
+    L.new(oi.outputs["Geometry"], iop.inputs["Instance"])
