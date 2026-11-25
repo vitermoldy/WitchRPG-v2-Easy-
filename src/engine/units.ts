@@ -656,3 +656,4 @@ export class UnitSystem {
     const host = this.host
     const p = host.foe
     // a shadow close by draws its attention when it is much nearer than her
+    const shadow = this.nearestFoe(u, 6)
