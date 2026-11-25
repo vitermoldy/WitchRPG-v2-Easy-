@@ -233,3 +233,4 @@ export class Player {
     const speed = (boost ? F.boost : F.speed) * this.speedMult
     const rise = input.rise ?? 0
     const gx = wx * speed - this.vx
+    const gy = rise * F.climb * (boost ? 1.5 : 1) - this.vy
