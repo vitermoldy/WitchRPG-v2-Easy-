@@ -275,3 +275,4 @@ export class Camps {
   nearest(): { camp: Camp; dist: number } | null {
     const p = this.g.player.pos
     let best: { camp: Camp; dist: number } | null = null
+    for (const camp of this.camps) {
