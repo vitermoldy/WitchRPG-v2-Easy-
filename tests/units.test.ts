@@ -96,3 +96,4 @@ describe('creature attacks', () => {
         stepped = true
         const across = new THREE.Vector3(hound.lungeDir.z, 0, -hound.lungeDir.x).multiplyScalar(2.5)
         side.foe.pos.add(across)
+      }
