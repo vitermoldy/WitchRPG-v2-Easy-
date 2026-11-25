@@ -575,3 +575,6 @@ def b_centaur(r):
             b.torus((s * 0.19, y * 0.6 + (0.05 if y > 0 else -0.08), 0.22), 0.06, 0.015, mat="gold", seg=10, rseg=4)
     tl = r.P("tail", Q["tail_base"], "body")
     for k in (-0.05, 0, 0.05):
+        tail_tube(tl, [Q["tail_base"], (k, 1.2, 1.2), (k * 2, 1.4, 0.75), (k * 3, 1.36, 0.3)], 0.08, 0.0, mat="body2")
+
+
