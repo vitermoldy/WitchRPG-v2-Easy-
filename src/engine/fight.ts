@@ -312,3 +312,4 @@ export class Fight {
     this.riposte = COMBAT.parry.riposte
   }
 
+  cast() {
