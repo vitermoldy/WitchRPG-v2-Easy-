@@ -108,3 +108,4 @@ export class Particles {
     this.material = new THREE.ShaderMaterial({
       uniforms: { uScale: { value: 400 } },
       vertexShader: VERT,
+      fragmentShader: mode === 'glow' ? FRAG_GLOW : FRAG_SMOKE,
