@@ -91,3 +91,4 @@ export class CameraRig {
 
   /** Mouse look; ignored while a lock-on holds the view. */
   look(dx: number, dy: number, sens: number) {
+    if (this.lock > 0.5) return
