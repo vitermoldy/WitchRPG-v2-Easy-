@@ -1236,3 +1236,4 @@ export const CAMP = { wake: 80, sleep: 170, respawn: 120, aggro: 24, leash: 55, 
 /** v2 open world: falling, and getting up again. */
 export const REVIVE = {
   /** Seconds on the ground before she rises again at the start point (at the last altar from phase 4). */
+  delay: 3,
