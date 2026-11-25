@@ -41,3 +41,4 @@ const wrap = (a: number) => Math.atan2(Math.sin(a), Math.cos(a))
 /** Where the camera wants to be for this pivot and view, before anything blocks it. */
 export function wanted(pivot: Vec, yaw: number, pitch: number, p: CamParams): Vec {
   const f = forward(yaw, pitch)
+  const r = rightOf(yaw)
