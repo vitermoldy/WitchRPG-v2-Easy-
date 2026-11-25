@@ -335,3 +335,4 @@ export class Warnings {
   private readonly pool: Warn[] = []
 
   constructor(scene: THREE.Object3D, count = 6) {
+    const disc = new THREE.CircleGeometry(1, 48)
