@@ -210,3 +210,4 @@ export class Game implements UnitHost {
   // ------------------------------------------------------------ UnitHost
 
   /** Ground height, with the Hydra's islands standing out of the flood. */
+  height(x: number, z: number) {
