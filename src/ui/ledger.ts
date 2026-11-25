@@ -41,3 +41,4 @@ export interface LedgerHost {
   /** Called after any change so the game can refresh derived stats and save. */
   changed(): void
   sfxUi(): void
+  /** Shadows standing on the field, by record id. */
