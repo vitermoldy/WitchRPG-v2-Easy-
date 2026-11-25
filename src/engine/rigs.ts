@@ -1034,3 +1034,4 @@ export class Rigs {
     if (need > b.cap) {
       let cap = Math.max(64, b.cap)
       while (cap < need) cap *= 2
+      for (const part of b.parts) {
