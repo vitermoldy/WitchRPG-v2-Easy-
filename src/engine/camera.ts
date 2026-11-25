@@ -76,3 +76,4 @@ export interface LockView {
 }
 
 export class CameraRig {
+  yaw = 0
