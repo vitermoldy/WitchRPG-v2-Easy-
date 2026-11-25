@@ -218,3 +218,4 @@ export function pathDist(x: number, y: number): number {
       best = Math.min(best, Math.hypot(x - (ax + t * dx), y - (ay + t * dy)))
     }
   }
+  return best
