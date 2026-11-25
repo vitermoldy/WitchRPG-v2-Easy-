@@ -94,3 +94,4 @@ async function boot() {
     pr.settings.sensitivity = v
   })
   range('vol', () => pr.settings.volume, (v) => `${Math.round(v * 100)}%`, (v) => {
+    pr.settings.volume = v
