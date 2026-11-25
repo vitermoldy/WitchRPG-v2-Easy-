@@ -271,3 +271,4 @@ def veg_palette():
         "needle": C.mat_flat("needle", "#1a2d22", 0.9),
         "needle2": C.mat_flat("needle_warm", "#2a3524", 0.9),
         "birch": C.mat_flat("birch_bark", "#cfcac0", 0.8),
+        "leaf": C.mat_flat("birch_leaf", "#56703a", 0.85),
