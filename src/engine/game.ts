@@ -282,3 +282,4 @@ export class Game implements UnitHost {
     if (atk.effect === 'poison') {
       p.poisonT = EFFECTS.poisonTime
       p.poisonDps = u.damage * EFFECTS.poisonShare
+    }
