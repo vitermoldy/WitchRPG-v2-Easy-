@@ -247,3 +247,4 @@ export class IlyraModel {
     let torsoY = 4 * s * amp
     let armRX = -8 * s * amp
     let armRY = 0
+    let armRZ = 0
