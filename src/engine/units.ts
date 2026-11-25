@@ -664,3 +664,4 @@ export class UnitSystem {
       this.steer(u, u.home.x, u.home.z, u.speed * (far > 6 ? 1 : 0.4), dt, 2.5)
       if (far > 2.5) this.face(u, u.home.x, u.home.z, dt, 4)
       else u.yaw += Math.sin(u.t * 0.4 + u.id) * dt * 0.4
+      if (u.spec.fly) u.alt += (u.spec.fly.height * 0.6 - u.alt) * Math.min(1, dt)
