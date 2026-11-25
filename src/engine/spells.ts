@@ -687,3 +687,4 @@ export class Spells {
       const w = this.warps[i]
       w.t += dt
       const fade = Math.min(1, w.t * 3) * Math.min(1, (w.duration - w.t) * 2)
+      for (const m of w.mats) {
