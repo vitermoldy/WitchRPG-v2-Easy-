@@ -85,3 +85,4 @@ def bake_tones(ob):
             if not t:
                 attr.data[li].color = (1.0, 1.0, 1.0, 1.0)
                 continue
+            top, bottom, vary = t
