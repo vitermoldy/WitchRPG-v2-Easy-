@@ -67,3 +67,4 @@ interface Part {
 /** What a pose function may move: named parts (degrees, added to the rest pose) and the whole body. */
 export interface Poser {
   rot(name: string, x: number, y?: number, z?: number): void
+  /** Whole body: lift (m), pitch forward and roll to its left (degrees). */
