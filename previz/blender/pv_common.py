@@ -480,3 +480,4 @@ class Rig:
                 me.materials.append(m)
             ob = bpy.data.objects.new(f"{self.key}.{name}", me)
             self.coll.objects.link(ob)
+            par = self.objs.get(p.parent) if p.parent else None
