@@ -65,3 +65,4 @@ export class Game implements UnitHost {
   readonly renderer: THREE.WebGLRenderer
   readonly scene = new THREE.Scene()
   readonly camera = new THREE.PerspectiveCamera(CAMERA.normal.fov, 16 / 9, CAMERA.near, CAMERA.far)
+  readonly input: Input
