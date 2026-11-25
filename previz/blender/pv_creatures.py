@@ -587,3 +587,4 @@ def b_naga(r):
     spikes(b, [pts[i] for i in range(2, 11)], 0.3, 0.06, mat="accent", tilt=(0, 0.5, 1))
     for s in (1, -1):
         for idx in (8, 4):
+            a0 = V(pts[idx]) + Vector((0.2 * s, -0.12, -0.1))
