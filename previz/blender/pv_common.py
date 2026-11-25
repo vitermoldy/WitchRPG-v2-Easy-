@@ -256,3 +256,4 @@ def palette(kind, body="#1f1a1c", body2=None, horn="#4a3f38", tag=""):
         "eye": mat_emit("eye_umbra", HEX["umbra_hot"], 30.0),
         "glow": mat_emit("glow_umbra", HEX["umbra"], 8.0),
         "metal": mat_flat("metal_shadow", "#231536", 0.4, 0.6),
+        "cloth": mat_flat("cloth_shadow", "#150c22", 0.9),
