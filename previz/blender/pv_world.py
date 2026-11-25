@@ -63,3 +63,6 @@ def fbm(x, y, octaves=4, seed=0.0):
         norm += amp
         amp *= 0.5
         f *= 2.0
+    return s / norm
+
+
