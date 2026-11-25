@@ -540,3 +540,4 @@ def b_harpy(r):
     p = r.parts["pelvis"]
     for i in range(9):
         a = math.radians(-160 + 40 * i)
+        top = V(J["hip"]) + Vector((math.sin(a) * 0.12, -math.cos(a) * 0.09, 0.03))
