@@ -20,3 +20,4 @@ export interface Ground {
   /**
    * True where she may not step to from (fx, fz): deep water, past the map edge, a seal. `air`: she
    * is flying, so deep water is no wall; the map edge, the seal and the lair still are.
+   */
