@@ -151,3 +151,4 @@ export const XP = {
   perEnemyLevel: 10,
   perBossLevel: 15,
   statPointsPerLevel: 3,
+  skillPointsPerLevel: 1,
