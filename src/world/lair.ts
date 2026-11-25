@@ -360,3 +360,4 @@ export class Lair {
     }
     if (this.phase === 1 && body.hp <= body.maxHp * HYDRA.phase2At) this.enterPhase(2)
     else if (this.phase === 2 && body.hp <= body.maxHp * HYDRA.phase3At) this.enterPhase(3)
+    if (this.phase < 3) this.headsFight(dt)
