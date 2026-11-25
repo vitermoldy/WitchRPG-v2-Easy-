@@ -296,3 +296,4 @@ export class Sfx {
 
   roar() {
     if (!this.ok()) return
+    const t = this.ctx!.currentTime
