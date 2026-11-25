@@ -1081,3 +1081,4 @@ button {
 
 .wheel-opt {
   position: absolute;
+  display: grid;
