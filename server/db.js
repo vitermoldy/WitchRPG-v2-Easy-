@@ -61,3 +61,4 @@ const TABLES = [
 ]
 
 /** Creates the database and the tables if they are missing, then hands back a pool. */
+export async function connect(db) {
