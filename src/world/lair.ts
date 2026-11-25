@@ -74,3 +74,4 @@ export class Lair {
   private readonly water: THREE.Mesh
   private readonly islands: Island[] = []
   private readonly curtain: THREE.Mesh
+  private readonly curtainMat: THREE.ShaderMaterial
