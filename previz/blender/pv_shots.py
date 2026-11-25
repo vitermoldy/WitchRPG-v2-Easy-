@@ -539,3 +539,4 @@ def ref_plane(coll, name, file, crop, centre, box):
     img = bpy.data.images.load(os.path.join(C.ASSETS, file), check_existing=True)
     W, H = img.size
     x0, y0, x1, y1 = crop
+    aspect = (x1 - x0) / (y1 - y0)
