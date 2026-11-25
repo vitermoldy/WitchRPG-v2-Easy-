@@ -47,3 +47,4 @@ export class StunMeter {
       if (this.staggered === 0) this.value = 0
       return
     }
+    this.since += dt
