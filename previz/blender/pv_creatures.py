@@ -669,3 +669,4 @@ def b_cyclops(r):
     hp = V(J["hip"])
     p.tube([hp + Vector((0, 0, 0.12)), hp + Vector((0, 0, -0.2)), hp + Vector((0, -0.05, -0.55))], [0.5, 0.52, 0.44], mat="cloth", seg=12, n=2)
     p.torus(hp + Vector((0, 0, 0.12)), 0.52, 0.08, mat="strap", seg=16)
+    p.ell(hp + Vector((0, -0.58, 0.12)), (0.12, 0.08, 0.13), mat="horn", seg=10, rings=7)
