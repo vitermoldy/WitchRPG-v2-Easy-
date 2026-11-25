@@ -190,3 +190,4 @@ def hero_layout():
 
 
 def build_hero(dunia, name="01-hero-bahu", mode="normal", cam_over=None, res=(1920, 1080), samples=64):
+    P, f = hero_layout()
