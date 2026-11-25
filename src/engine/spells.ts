@@ -372,3 +372,4 @@ export class Spells {
       }
     }
     if (!first) {
+      // no creature: the boulder closest to the aim line
