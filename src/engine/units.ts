@@ -605,3 +605,4 @@ export class UnitSystem {
   private summon(u: Unit, dt: number) {
     const s = u.spec.summon
     if (!s || !u.aggro) return
+    u.skillCd -= dt
