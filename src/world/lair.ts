@@ -86,3 +86,4 @@ export class Lair {
 
   constructor(g: Game) {
     this.g = g
+    this.group.name = 'lair'
