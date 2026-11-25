@@ -42,3 +42,4 @@ export class StunMeter {
   }
 
   update(dt: number) {
+    if (this.staggered > 0) {
