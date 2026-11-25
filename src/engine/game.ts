@@ -1024,3 +1024,4 @@ export class Game implements UnitHost {
     this.lights.update(dt)
     this.rings.update(dt)
     this.warnings.update(dt)
+    this.pools.update(dt)
