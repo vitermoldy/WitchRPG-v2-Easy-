@@ -378,3 +378,4 @@ export class IlyraModel {
       this.rot('shin_L', 200 * crouch)
       this.rot('shin_R', 180 * crouch)
     }
+    this.rot('torso', torsoX, torsoY)
