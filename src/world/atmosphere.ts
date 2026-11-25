@@ -98,3 +98,4 @@ export class Atmosphere {
     this.skyTarget.setRGB(0, 0, 0)
     this.zenithTarget.setRGB(0, 0, 0)
     let inv = 0
+    let best = 0
