@@ -1046,3 +1046,4 @@ export class Game implements UnitHost {
       this.v.set(lp.x, lp.y, lp.z).project(this.camera)
       const w = this.renderer.domElement.clientWidth
       const h = this.renderer.domElement.clientHeight
+      this.hud.lock(this.v.z < 1 ? { x: (this.v.x * 0.5 + 0.5) * w, y: (-this.v.y * 0.5 + 0.5) * h } : null)
