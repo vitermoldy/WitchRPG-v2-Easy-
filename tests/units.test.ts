@@ -117,3 +117,4 @@ describe('creature attacks', () => {
 
   it('staggers a creature whose stun meter fills, and an execution marks the body', () => {
     const w = world()
+    const imp = w.sys.spawn('imp', 'enemy', 1, { x: 5, z: 5 })
