@@ -1201,3 +1201,4 @@ export const COMBAT = {
     range: 2.8,
     time: 1.0,
     /** Added to the Umbra Rite chance of a body she executed (phase 3), before the 0.10 to 0.90 clamp. */
+    riteBonus: 0.15,
