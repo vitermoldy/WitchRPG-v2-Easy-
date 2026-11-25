@@ -154,3 +154,4 @@ export class Terrain {
     const edges: number[][] = [[], [], [], []]
     for (let k = 0; k <= n; k++) {
       edges[0].push(k)
+      edges[1].push(n * (n + 1) + k)
