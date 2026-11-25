@@ -251,3 +251,4 @@ export class Forest {
     const q = new THREE.Quaternion()
     const up = new THREE.Vector3(0, 1, 0)
     for (const t of trees) {
+      const id = this.mesh.addInstance(ids[t.kind])
