@@ -679,3 +679,5 @@ export class Spells {
     g.lights.flash(at.clone().setY(at.y + 3), COLOR.umbra, 40, s.radius * 2.5, 0.8)
     g.addTrauma(0.3)
     g.sfx.warp()
+  }
+
