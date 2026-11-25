@@ -206,3 +206,4 @@ export class Ambient {
     this.riftMat.uniforms.uTime.value = this.time
     this.rift.visible = fade > 0.02
     if (this.rift.visible) {
+      const dir = this.tmp.set(this.bara.x - cam.x, 0, this.bara.z - cam.z)
