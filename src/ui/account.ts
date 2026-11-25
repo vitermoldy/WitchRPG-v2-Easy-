@@ -140,3 +140,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
     pushTimer = window.setTimeout(async () => {
       try {
         const r = await pushProfile(game.profile)
+        // Another browser saved a newer witch; take it only before she enters the forest.
