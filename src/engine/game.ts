@@ -624,3 +624,4 @@ export class Game implements UnitHost {
     if (u.team === 'enemy' && !u.elite) {
       for (const o of this.units.units) {
         if (o.elite === 'penjaga' && o.targetable && o !== u && Math.hypot(o.pos.x - u.pos.x, o.pos.z - u.pos.z) < ELITE.ward.radius) {
+          share *= ELITE.ward.share
