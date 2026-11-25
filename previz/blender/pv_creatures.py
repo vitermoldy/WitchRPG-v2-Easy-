@@ -604,3 +604,6 @@ def b_naga(r):
         h.tube([sn, sn + Vector((0.25 * s, -0.15, -0.1)), sn + Vector((0.45 * s, 0.05, -0.35)), sn + Vector((0.5 * s, 0.25, -0.6))], [0.015, 0.01, 0.006, 0.0], mat="horn", seg=4, n=3)
     for i in range(6):
         p = V(pts[10 - i]) + Vector((0, 0.15, 0.22))
+        h.cone(p, p + Vector((0, 0.3, 0.1)), 0.06, mat="hair", seg=5) if i < 3 else b.cone(p, p + Vector((0, 0.3, 0.1)), 0.06, mat="hair", seg=5)
+
+
