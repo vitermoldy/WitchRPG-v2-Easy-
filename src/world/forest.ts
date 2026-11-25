@@ -21,3 +21,5 @@ const SHAPE: Record<Kind, { trunk: number; h: number; crown: [number, number, nu
   burnt: { trunk: 0.35, h: 8, crown: null },
   rock: { trunk: 1.2, h: 0, crown: null },
   rock_big: { trunk: 4.2, h: 0, crown: null },
+}
+
