@@ -173,3 +173,4 @@ export class Umbra {
     const pick = [...ready].sort((a, b) => order[a.rank] - order[b.rank] || b.level - a.level)
     const n = pick.length
     this.armyOut = true
+    const feet = this.feet()
