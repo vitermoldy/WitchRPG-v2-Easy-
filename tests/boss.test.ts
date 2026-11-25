@@ -44,3 +44,4 @@ describe('the Hydra', () => {
     expect(hydraShare(3, 'shadow', true)).toBeCloseTo(0.225)
   })
 
+  it('phase 2: slimy skin lets bolts do 10% and thrown things 150%', () => {
