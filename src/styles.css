@@ -2003,3 +2003,4 @@ dialog::backdrop {
     border-right: 0;
   }
   .tree-cols {
+    grid-template-columns: 1fr;
