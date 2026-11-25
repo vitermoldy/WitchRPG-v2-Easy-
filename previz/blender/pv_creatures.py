@@ -221,3 +221,4 @@ def feather_wing(part, root, s, span, chord, raise_deg=30, sweep_deg=15, feather
     """Arm with a covert panel, primaries fanning from the hand and secondaries along the forearm.
     u runs out along the span and v down the chord, both in metres. tip_mat colours the primaries."""
     f = wing_frame(root, s, raise_deg, sweep_deg, tilt)
+    S, Cc = span, chord
