@@ -1989,3 +1989,4 @@ dialog::backdrop {
     display: none;
   }
   .hint {
+    bottom: calc(var(--gutter) + 6.8rem);
