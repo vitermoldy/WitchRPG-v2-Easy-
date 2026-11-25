@@ -1754,3 +1754,4 @@ dialog::backdrop {
   background: var(--bg);
   color: var(--ink);
   font: inherit;
+  font-size: 1rem;
