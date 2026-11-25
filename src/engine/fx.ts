@@ -184,3 +184,5 @@ export class Particles {
     g.attributes.aColor.needsUpdate = true
     g.attributes.aSize.needsUpdate = true
     g.attributes.aAlpha.needsUpdate = true
+  }
+
