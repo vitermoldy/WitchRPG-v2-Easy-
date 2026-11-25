@@ -32,3 +32,4 @@ export class StunMeter {
   add(amount: number): boolean {
     if (this.staggered > 0 || amount <= 0) return false
     this.value += amount
+    this.since = 0
