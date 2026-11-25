@@ -102,3 +102,4 @@ export class Unit implements Foe {
   /** The attack it is winding up or last used. */
   atk: AttackSpec
   /** Attacks with their own cooldown, and the seconds left on each. */
+  readonly atkCd = new Map<string, number>()
