@@ -1153,3 +1153,4 @@ export interface Swing {
   recover: number
   /** Reach in metres and arc in radians in front of her. */
   reach: number
+  arc: number
