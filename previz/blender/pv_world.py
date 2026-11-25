@@ -670,3 +670,4 @@ def build_altar(coll, pal):
 
 
 def build_rift(coll):
+    """A tear in the sky over Lembah Bara."""
