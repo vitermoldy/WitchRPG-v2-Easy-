@@ -234,3 +234,4 @@ export class Camps {
           camp.state = 'idle'
           return
         }
+        // rouse the whole pack when she or a shadow comes close, or one of them is hurt
