@@ -321,3 +321,4 @@ export class UnitSystem {
     if (!u.targetable) return false
     u.hp -= dmg * (1 + u.vulnerable)
     u.flash = 0.16
+    u.barShown = 6
