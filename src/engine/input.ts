@@ -60,3 +60,4 @@ export class Input {
       try {
         await req.call(this.target, { unadjustedMovement: true })
       } catch {
+        await req.call(this.target)
