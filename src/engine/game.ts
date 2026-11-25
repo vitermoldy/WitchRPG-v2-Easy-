@@ -1213,3 +1213,4 @@ export class Game implements UnitHost {
     return this.lair.info()
   }
 
+  /** ?debug: an elite with a trait (or a random one) near her. */
