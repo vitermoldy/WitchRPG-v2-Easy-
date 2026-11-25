@@ -729,3 +729,4 @@ const poseBeast: PoseFn = (p, u, t) => {
   p.rot('head', graze ? 25 : 4 * Math.sin(t * 1.6 + u.id))
 }
 
+/** A biped whose lower body is one or more serpents (Lilith, Typhon): the coils sway as it moves. */
