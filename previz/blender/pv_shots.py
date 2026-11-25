@@ -380,3 +380,4 @@ def build_army(dunia):
     pool = mat_ring("kolam_umbra", HEX["umbra"], 9.0, inner=0.8, alpha=0.95, fill=0.12)
     dark = C.mat_flat("kolam_gelap", "#07030d", 0.15)
     troops = [
+        ("imp", 4.6, -3.0, -0.25, 1.0), ("imp", 5.2, 3.2, 0.0, 1.0), ("imp", 6.2, 0.6, -0.55, 1.0),
