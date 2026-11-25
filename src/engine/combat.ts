@@ -76,3 +76,4 @@ export class Combo {
   current: SwingState | null = null
   private charging = -1
   private queued = false
+  private nextIndex = 0
