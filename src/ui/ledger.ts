@@ -213,3 +213,4 @@ export class Ledger {
               <button class="btn btn-small" type="button" data-release="${s.id}" aria-label="Lepas ${s.name}">Lepas</button>
             </li>`,
               )
+              .join('')}${list.length > shown.length ? `<li class="room-empty">dan ${list.length - shown.length} lainnya, yang levelnya paling rendah</li>` : ''}</ul>
