@@ -308,3 +308,4 @@ export class Hud {
     const top = [...field].sort((a, b) => order[a.spec.rank] - order[b.spec.rank] || b.level - a.level).slice(0, 3)
     for (const u of top) {
       const hp = Math.max(0, u.hp / u.maxHp)
+      rows.push(`<li class="army-slot"><span class="pip"></span><span>${u.record!.name} <span class="num">Lv ${u.level}</span></span><span class="hp"><i style="transform:scaleX(${hp.toFixed(2)})"></i></span></li>`)
