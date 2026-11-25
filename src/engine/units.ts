@@ -377,3 +377,4 @@ export class UnitSystem {
     this.host.clearTelegraph(u)
     u.hp = 0
     u.token = false
+    u.executed = executed
