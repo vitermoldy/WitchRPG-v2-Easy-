@@ -914,3 +914,4 @@ class Rig implements Poser {
   }
 
   /**
+   * Nudges the neck of every head on its way down: the lean at its root sets how far the head reaches,
