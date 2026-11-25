@@ -167,3 +167,4 @@ async function boot() {
   game.input.onKey = (code) => {
     if (game.state !== 'playing' || !game.player.alive) return
     if (code === 'Tab') openMenu(ledger)
+    else if (code === 'KeyM') openMenu(map)
