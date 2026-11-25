@@ -80,3 +80,4 @@ function birch(): THREE.BufferGeometry {
 function swampTree(): THREE.BufferGeometry {
   const parts = [part(new THREE.CylinderGeometry(0.15, 0.45, 8, 6, 1, true), PAL.swampwood, at(0, 5, 0, 0.05, 0.04))]
   for (let k = 0; k < 6; k++) {
+    const a = (2 * Math.PI * k) / 6 + 0.4
