@@ -71,3 +71,4 @@ export class Lair {
   waterY: number
   flood = 0
   private floodTo = 0
+  private readonly water: THREE.Mesh
