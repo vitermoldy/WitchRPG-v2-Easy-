@@ -84,3 +84,4 @@ def height(x, y):
     edge = t["r"] * 0.8 + 18 * fbm(x / 40, y / 40, 3, 9.0)
     plateau = smooth(edge + 14, edge - 6, _dist(x, y, t["c"]))
     h = h + plateau * (36 + 6 * fbm(x / 60, y / 60, 3, 2.0))
+    # Reruntuhan Kuil: a gentle rise with a flat temple court
