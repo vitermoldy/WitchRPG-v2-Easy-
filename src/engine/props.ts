@@ -14,3 +14,5 @@ export interface Prop {
   thrown: boolean
   flight: number
   spin: number
+}
+
