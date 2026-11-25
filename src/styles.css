@@ -664,3 +664,4 @@ button {
   border-radius: var(--radius);
   /* the same soft dark pool as the zone banner */
   background: radial-gradient(ellipse at center, rgba(12, 8, 9, 0.8) 0%, rgba(12, 8, 9, 0.6) 60%, rgba(12, 8, 9, 0) 100%);
+  text-align: center;
