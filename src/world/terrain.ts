@@ -40,3 +40,4 @@ function groundColour(x: number, y: number, h: number, slope: number, out: THREE
   const pd = pathDist(x, y)
   if (pd < 3.5) out.lerp(PATH, 0.7 * smooth(3.2, 1.2, pd) * (1 - smooth(0.3, 0.6, slope)))
   const v = 0.82 + 0.3 * (fbm(x / 6, y / 6, 3, 12) * 0.5 + 0.5)
+  out.multiplyScalar(v)
