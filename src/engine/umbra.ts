@@ -465,3 +465,4 @@ export class Umbra {
     }
     this.stats.raised += raised.length
     this.stats.faded += faded
+    if (raised.length) {
