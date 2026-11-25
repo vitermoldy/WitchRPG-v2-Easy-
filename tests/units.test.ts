@@ -145,3 +145,4 @@ describe('shadows', () => {
     enemy.home = new THREE.Vector3(4, 0, 0)
     w.sys.spawn('imp', 'shadow', 1, { x: -2, z: 0 })
     w.sys.spawn('imp', 'shadow', 1, { x: 0, z: -2 })
+    w.step(8)
