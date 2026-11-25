@@ -409,3 +409,6 @@ LINEUP_BANDS = [
 
 
 def fmt_m(v):
+    return f"{v:.1f}".replace(".", ",") + " m"
+
+
