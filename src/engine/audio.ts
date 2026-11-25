@@ -85,3 +85,4 @@ export class Sfx {
     return !!this.ctx && this.ctx.state === 'running'
   }
 
+  bolt() {
