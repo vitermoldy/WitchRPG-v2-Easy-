@@ -52,3 +52,4 @@ describe('the forest valley', () => {
       const z = zoneAt(camp.c[0], camp.c[1])
       expect(camp.levels[0], `camp at ${camp.c} in ${z.name}`).toBeGreaterThanOrEqual(z.levels[0])
       expect(camp.levels[1], `camp at ${camp.c} in ${z.name}`).toBeLessThanOrEqual(z.levels[1])
+      expect(z.levels[1] - z.levels[0]).toBe(2)
