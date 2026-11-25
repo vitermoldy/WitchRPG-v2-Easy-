@@ -81,3 +81,4 @@ describe('the Hydra', () => {
     expect(riteBlock(p, 'hydra')).toBeNull()
     // the v1 formula: 0.15 + 0.02 x (10 - 12) + 0.01 x 5 = 0.16
     expect(riteChance('marsekal', 10, 12, 5)).toBeCloseTo(0.16, 3)
+    addShadow(p, 'hydra', 12)
