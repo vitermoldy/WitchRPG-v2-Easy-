@@ -210,3 +210,4 @@ export interface AttackSpec {
   ahead?: number
   /** Fires a projectile instead of lunging: an arrow along the line, or a glob onto the circle. */
   shot?: { speed: number; gravity: number; radius: number }
+  /** What a landed blow does besides damage. petrify: she cannot move or act. poison: damage over time. */
