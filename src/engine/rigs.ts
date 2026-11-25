@@ -362,3 +362,4 @@ const poseNaga: PoseFn = (p, u, t) => {
     return
   }
   if (u.state === 'strike' || (u.state === 'recover' && u.t < 0.2)) {
+    p.body(0, 14)
