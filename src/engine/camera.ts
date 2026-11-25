@@ -8,3 +8,4 @@ import type { Obstacles } from './obstacles'
  * yaw 0 looks north (-z); yaw grows to the left. pitch grows upward.
  */
 export interface Vec {
+  x: number
