@@ -527,3 +527,4 @@ export class Fight {
     out.cast = this.castFx
     out.hurt = this.hurtFx
   }
+}
