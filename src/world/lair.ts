@@ -531,3 +531,4 @@ export class Lair {
       maxHp: b ? Math.round(b.maxHp) : 0,
       heads: this.heads.map((h) => (h ? (h.alive ? h.state : 'severed') : 'swallowed')),
       flood: +this.flood.toFixed(2),
+      rocks: this.g.props.list.length,
