@@ -277,3 +277,4 @@ def build_valley(dunia):
     for title, sub, (x, y), up in labels:
         q = Vector((x, y, Wd.ground_z(x, y) + up))
         d = (q - loc).normalized()
+        p = loc + d * 80
