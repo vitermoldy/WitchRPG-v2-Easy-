@@ -683,3 +683,4 @@ def b_cyclops(r):
     hd.ell(W + n * 0.18, 0.12, mat="metal", seg=10, rings=6)
 
 
+def b_medusa(r):
