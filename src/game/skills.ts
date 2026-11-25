@@ -125,3 +125,4 @@ export const SKILLS: SkillDef[] = [
     key: 'Tahan R',
     unlock: 8,
     effect: 'Bisa membangkitkan makhluk berpangkat Jenderal: Medusa dan Chimera.',
+    upgrade: '',
