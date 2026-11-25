@@ -54,3 +54,5 @@ def humanoid(r, H, bulk=1.0, legs="human", female=False, off=(0, 0, 0), arm_pose
     hw = H * 0.06 * (1 + 0.25 * (bulk - 1)) * (1.12 if female else 1.0)
     hh = H * 0.13
     z = dict(head=H - hh * 0.5, neck=H - hh * 1.0, sh=H * 0.815, chest=H * 0.715, waist=H * 0.6, hip=H * 0.51, knee=H * 0.28, ankle=H * 0.045)
+    o = V(off)
+
