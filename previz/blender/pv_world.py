@@ -192,3 +192,4 @@ def terrain_material():
     m = bpy.data.materials.get("terrain") or bpy.data.materials.new("terrain")
     m.use_nodes = True
     nt = m.node_tree
+    N, L = nt.nodes, nt.links
