@@ -447,3 +447,4 @@ export class Sfx {
     const a = this.amb
     a.wind.gain.setTargetAtTime(0.05 + tebing * 0.1 + kuil * 0.03 + pembuka * 0.02, t, 0.8)
     a.windF.frequency.setTargetAtTime(700 * pembuka + 1100 * tebing + 450 * rawa + 380 * kuil + 300 * bara, t, 0.8)
+    a.drone.gain.setTargetAtTime(0.0001 + bara * 0.08 + kuil * 0.015, t, 1)
