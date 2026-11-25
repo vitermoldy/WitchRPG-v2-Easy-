@@ -265,3 +265,4 @@ const poseHarpy: PoseFn = (p, u, t) => {
     p.rot('head', -30)
     return
   }
+  if (u.state === 'stagger') {
