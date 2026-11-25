@@ -1059,3 +1059,4 @@ def _horse(r, wings, horn):
     horse_head(n, hp + Vector((0, -0.05, 0.0)), fwd=(0, -1, -0.75), s=1.15)
     for i in range(8):
         p = lerp(tuple(nb), tuple(hp), i / 7)
+        n.cone(V(p) + Vector((0, 0.1, 0.1)), V(p) + Vector((0.07 * (i % 2 * 2 - 1), 0.4, -0.12)), 0.07, mat="body2", seg=5)
