@@ -113,3 +113,4 @@ export class Sfx {
    */
   warn(kind: 'ring' | 'line') {
     if (!this.ok()) return
+    const t = this.ctx!.currentTime
