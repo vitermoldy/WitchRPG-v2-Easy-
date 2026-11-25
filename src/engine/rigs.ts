@@ -940,3 +940,4 @@ class Rig implements Poser {
 
   end() {
     for (const part of this.parts) {
+      part.mesh.count = this.used
