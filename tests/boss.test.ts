@@ -102,3 +102,4 @@ describe('phase 5 creatures', () => {
 
   it('a Phoenix falls to ashes once, rises with half its life, and falls for good the second time', () => {
     const w = world()
+    const ph = w.sys.spawn('phoenix', 'enemy', 13, { x: 0, z: 10 })
