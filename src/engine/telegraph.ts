@@ -36,3 +36,4 @@ const LINE_FRAG = /* glsl */ `
   uniform vec3 uColor;
   uniform float uFill;
   uniform float uTime;
+  void main() {
