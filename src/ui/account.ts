@@ -45,3 +45,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
     $('gate-switch').textContent = next === 'in' ? 'Daftar' : 'Masuk'
     $('gate-lead').textContent =
       next === 'in'
+        ? 'Level, stat, skill, Ruang Bayangan, dan altar yang sudah menyala tersimpan di akunmu, jadi bisa dilanjutkan dari browser mana pun.'
