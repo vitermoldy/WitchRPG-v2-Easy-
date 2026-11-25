@@ -44,3 +44,4 @@ _rng = np.random.default_rng(20261124)
 _LAT = _rng.random((256, 256)) * 2 - 1
 
 
+def vnoise(x, y):
