@@ -98,3 +98,4 @@ def humanoid(r, H, bulk=1.0, legs="human", female=False, off=(0, 0, 0), arm_pose
         hd.ell((W + T) / 2, (H * 0.022 * bulk, H * 0.016 * bulk, H * 0.045), rot=_dir_rot(d2), mat=body_mat)
     if legs is None:
         return J
+    for s, side in SIDES:
