@@ -23,3 +23,5 @@ import {
 import { SKILLS } from '../src/game/skills'
 import { ELITE, SPELL, TIERS, UNITS } from '../src/game/balance'
 
+const ALL = SKILLS.map((s) => s.id)
+
