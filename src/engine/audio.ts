@@ -96,3 +96,4 @@ export class Sfx {
   hit(strong = false) {
     if (!this.ok()) return
     const t = this.ctx!.currentTime
+    this.noise(t, strong ? 0.2 : 0.09, 'lowpass', strong ? 1400 : 2600, strong ? 0.35 : 0.18)
