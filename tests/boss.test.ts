@@ -148,3 +148,4 @@ describe('the open world (phase 7)', () => {
   it('lets fauna wander and step away from her, never be struck, and never attack', () => {
     const w = world()
     const uni = w.sys.spawn('unicorn', 'enemy', 1, { x: 0, z: 4 })
+    uni.home = new THREE.Vector3(0, 0, 4)
