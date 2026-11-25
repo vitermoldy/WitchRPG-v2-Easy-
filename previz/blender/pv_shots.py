@@ -315,3 +315,4 @@ def build_minotaur(dunia):
     pts, radii = [], []
     for i in range(14):
         t = i / 13
+        a = math.radians(-110 + 150 * t)
