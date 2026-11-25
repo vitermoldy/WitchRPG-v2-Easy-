@@ -1225,3 +1225,4 @@ export const COMBAT = {
  * again `respawn` s after they fall, once she is out of sight. A pack is roused when she or a shadow
  * comes within `aggro` m of any of its creatures, or one is hurt; past `leash` m from the camp it
  * walks home and heals.
+ */
