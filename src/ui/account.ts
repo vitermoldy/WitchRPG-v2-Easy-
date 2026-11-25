@@ -144,3 +144,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
         if (r.stale && r.profile && onTitle()) adopt(r.profile)
       } catch {
         /* the browser keeps the save; the next one tries again */
+      }
