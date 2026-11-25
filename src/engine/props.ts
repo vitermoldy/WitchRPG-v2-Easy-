@@ -7,3 +7,4 @@ import { COLOR } from './palette'
 export interface Prop {
   readonly pos: THREE.Vector3
   readonly vel: THREE.Vector3
+  readonly mass: number
