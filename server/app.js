@@ -61,3 +61,4 @@ export function cleanProfile(p, now = Date.now()) {
   const xp = int(p.xp, 0, 10_000_000)
   const statPoints = int(p.statPoints, 0, 1000)
   const skillPoints = int(p.skillPoints, 0, 1000)
+  const nextShadowId = int(p.nextShadowId, 1, 1_000_000)
