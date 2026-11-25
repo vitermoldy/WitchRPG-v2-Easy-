@@ -779,3 +779,4 @@ class Rig implements Poser {
   private readonly group: THREE.Group
   private readonly team: Team
   private readonly passive: boolean
+  private readonly unitM = new THREE.Matrix4()
