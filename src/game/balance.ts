@@ -550,3 +550,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
       { name: 'tatapan', strike: 'ring', windup: 1.3, recover: 1.2, range: 20, minRange: 4, ring: 2.2, damage: 0.6, effect: 'petrify', cooldown: 7 },
       { name: 'gigitan ular', strike: 'ring', windup: 0.6, recover: 0.8, range: 3.4, ring: 1.8, lungeSpeed: 6, lungeTime: 0.3 },
     ],
+  },
