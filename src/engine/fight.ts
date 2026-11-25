@@ -34,3 +34,4 @@ const CATCH_TIME = 0.25
 class Staff {
   state: 'hand' | 'flying' | 'stuck' | 'returning' = 'hand'
   readonly pos = new THREE.Vector3()
+  readonly prev = new THREE.Vector3()
