@@ -678,3 +678,4 @@ def build_rift(coll):
     p = r.P("m")
     rng = np.random.default_rng(4)
     pts = []
+    n = 22
