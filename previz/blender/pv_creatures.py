@@ -983,3 +983,4 @@ def b_typhon(r):
     """Golden titan with horns and a grey beard, grey bat wings, snakes for hands and a mass of serpent legs."""
     J = humanoid(r, 16.0, bulk=1.35, legs=None, off=(0, 0, -0.2), arm_pose={"L": (110, 10, 40), "R": (110, 10, 40)}, neck_scale=0.7, body_mat="skin")
     h = r.parts["head"]
+    hc = V(J["head_c"])
