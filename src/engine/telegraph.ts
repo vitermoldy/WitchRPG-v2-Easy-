@@ -131,3 +131,4 @@ export class Telegraphs {
     if (kind === 'line') {
       it.ox = u.pos.x
       it.oz = u.pos.z
+      it.dx = u.lungeDir.x
