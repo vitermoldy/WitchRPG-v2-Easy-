@@ -107,3 +107,4 @@ export const CHAOS = {
 
 export const SPELL = {
   // v2: a bolt also fills the stun meter and knocks a hovering Harpy down for `down` seconds
+  bolt: { damage: 12, mana: 0, cooldown: 0.4, speed: 48, life: 1.6, radius: 0.28, spreadDamage: 6, spreadAngle: 0.07, stun: 6, down: 2.5 },
