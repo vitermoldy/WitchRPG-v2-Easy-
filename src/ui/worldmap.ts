@@ -241,3 +241,4 @@ export class WorldMap {
           b *= shade
         }
         const o = (j * BASE + i) * 4
+        img.data[o] = Math.min(255, r)
