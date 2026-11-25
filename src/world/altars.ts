@@ -115,3 +115,4 @@ export class Altars {
       a.crystal.position.y = 2.2 + Math.sin(this.spin * 1.6 + a.pos.x) * 0.08
     }
     if (!p.alive) return
+    const w = g.profile.world
