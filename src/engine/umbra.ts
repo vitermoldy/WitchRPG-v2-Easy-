@@ -152,3 +152,4 @@ export class Umbra {
     return new THREE.Vector3(p.x, this.g.ground.height(p.x, p.z), p.z)
   }
 
+  /**
