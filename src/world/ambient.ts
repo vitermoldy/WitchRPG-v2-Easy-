@@ -103,3 +103,5 @@ export class Ambient {
   private readonly riftMat: THREE.ShaderMaterial
   private readonly bara: THREE.Vector3
   private time = 0
+  private readonly tmp = new THREE.Vector3()
+
