@@ -70,3 +70,5 @@ Action-RPG third-person dengan rasa God of War di hutan terbuka, memakai sistem 
 
 Hasil gerbang (bot `?debug`, input nyata, waktu game 3× dipercepat): 10,0 menit waktu game, satu putaran penuh melewati Hutan Pembuka, tepi Rawa Berkabut, tanjakan ke Tebing Berangin, dan Reruntuhan Kuil; 122 dodge, 34 lock-on dari 34 percobaan, 34 kali pindah target, 37 kali membidik, satu kali macet selama 2,5 detik; jarak terdekat kamera ke batang, tajuk, batu, atau tanah 0,240 m (persis jari-jari bola kamera); 0 NaN, 0 error di konsol. Waktu frame di RTX 5070 Ti Laptop (ANGLE D3D11), 1920 × 1080, di hutan terlebat Hutan Pembuka sambil berjalan: median 3,8 ms dengan sinkron GPU (p95 4,9 ms), 2,4 ms tanpa sinkron; 125 draw call dan 730 ribu segitiga per frame (semua pass, termasuk bayangan). Tes: 49 dari 49 lulus (29 progresi v1, 8 kamera, 8 gerak, 4 peta).
 
+## Fase 2: tempur (24 Nov 2026)
+
