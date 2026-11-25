@@ -249,3 +249,4 @@ export interface UnitSpec {
   /** Too big to be lifted or flipped by Reality Warp. */
   anchored?: boolean
   /** v2: how its attack is announced. ring: slow amber pulse, can be blocked or parried. line: fast amber flash, must be dodged. */
+  strike?: 'ring' | 'line'
