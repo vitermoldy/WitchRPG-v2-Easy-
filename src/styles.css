@@ -518,3 +518,4 @@ button {
   position: absolute;
   top: var(--gutter);
   left: var(--gutter);
+  margin: 0;
