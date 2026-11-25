@@ -150,3 +150,4 @@ class Staff {
       const speed = Math.min(COMBAT.staff.recallSpeed, 10 + 70 * this.t)
       if (d <= Math.max(COMBAT.staff.catch, speed * dt)) {
         this.catch()
+        return
