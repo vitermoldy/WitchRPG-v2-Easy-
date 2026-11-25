@@ -406,3 +406,4 @@ export class WorldMap {
     ctx.save()
     ctx.translate(x, y)
     ctx.rotate(-p.facing)
+    ctx.beginPath()
