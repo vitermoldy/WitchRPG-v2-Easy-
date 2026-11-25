@@ -141,3 +141,4 @@ def build(dunia, res=(1280, 720), samples=24):
         # naga: surfaces when she stops, dives as the lake rises
         nz = -3.4 + 3.0 * seg(t, T_WALK + 0.1, T_WALK + 1.3) - 3.4 * seg(t, T_NAGA + 0.9, T_NAGA + 2.1)
         naga_i.location.z = nz
+        naga_i.keyframe_insert("location", frame=fr)
