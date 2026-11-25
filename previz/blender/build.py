@@ -133,3 +133,4 @@ if "--anim" in argv:
     bpy.ops.render.render(animation=True, scene=sc.name)
     log("render animatic", first, last)
     if first == 1 and last == A.FRAMES:
+        out = os.path.join(OUT, "animatic.mp4")
