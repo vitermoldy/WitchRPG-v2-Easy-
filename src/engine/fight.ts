@@ -76,3 +76,4 @@ class Staff {
     if (this.state !== 'stuck' && this.state !== 'flying') return
     this.state = 'returning'
     this.hit.clear()
+    this.t = 0
