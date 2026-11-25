@@ -166,3 +166,4 @@ describe('version 1: tiers, ranks and growth', () => {
     p.level = 8
     expect(riteBlock(p, 'riftlord')).toBeNull()
     expect(riteBlock(p, 'hollow')).toMatch(/Marsekal/)
+    p.level = 9
