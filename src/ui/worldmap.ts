@@ -194,3 +194,4 @@ export class WorldMap {
           `<label for="${id}"><span class="map-swatch" style="background:${KIND_COLOR[m.kind] ?? '#ccc'}"></span>${m.name} <span class="map-meta">${meta}</span></label></li>`
         )
       })
+      .join('')
