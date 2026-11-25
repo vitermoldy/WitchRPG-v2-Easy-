@@ -47,3 +47,5 @@ class Staff {
   private readonly q = new THREE.Quaternion()
   private readonly q2 = new THREE.Quaternion()
   private readonly ray = new THREE.Ray()
+  private readonly sphere = new THREE.Sphere()
+
