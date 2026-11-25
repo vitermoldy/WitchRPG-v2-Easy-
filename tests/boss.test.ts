@@ -89,3 +89,4 @@ describe('the Hydra', () => {
 describe('phase 5 creatures', () => {
   it('makes elites as in v1: tougher, harder, bigger, one trait; Gesit is quicker', () => {
     const w = world()
+    const u = w.sys.spawn('minotaur', 'enemy', 10, { x: 0, z: 5 })
