@@ -106,3 +106,4 @@ class Staff {
   update(dt: number) {
     const g = this.g
     if (this.state === 'hand') return
+    const obj = this.ensure()
