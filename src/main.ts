@@ -163,3 +163,4 @@ async function boot() {
   travel.onClose = () => {
     if (travel.next === 'ledger') ledger.open()
     else void backToFight()
+  }
