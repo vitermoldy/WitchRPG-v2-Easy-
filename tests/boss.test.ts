@@ -27,3 +27,4 @@ function world() {
     clearTelegraph: () => {},
   }
   const sys = new UnitSystem(host)
+  const step = (seconds: number) => {
