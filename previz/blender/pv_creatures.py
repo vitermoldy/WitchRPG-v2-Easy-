@@ -73,3 +73,4 @@ def humanoid(r, H, bulk=1.0, legs="human", female=False, off=(0, 0, 0), arm_pose
     J["neck"] = P(0, -0.012 * H, z["neck"])
     J["head_c"] = P(0, -0.02 * H, z["head"] + (neck_scale - 1) * 0.03 * H)
     J["chest"] = P(0, 0, z["chest"])
+    J["back"] = P(0, H * 0.07 * bulk, z["chest"] + 0.03 * H)
