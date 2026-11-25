@@ -452,3 +452,4 @@ export class Umbra {
       }
       const rec = addShadow(g.profile, u.kind, u.level, rankOf(u))
       if (!rec) {
+        this.turnToAsh(u)
