@@ -671,3 +671,5 @@ export class Game implements UnitHost {
       this.hud.hit(died)
     }
     return died
+  }
+
