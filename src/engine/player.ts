@@ -162,3 +162,4 @@ export class Player {
       this.vz = this.nudgeZ * (1 - u)
       this.nudgeT -= dt
     } else {
+      const sprint = input.sprint && !aiming && this.moveScale >= 1
