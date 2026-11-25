@@ -89,3 +89,4 @@ Dihitung oleh `build.py` dari dunia previz (medan 1.300 × 1.300 m, titik tiap 2
 | Medan | 1 | | 540.800 |
 | Pinus | 5.512 | 132 | 727.584 |
 | Pinus tinggi | 2.942 | 168 | 494.256 |
+| Pinus hangat (tebing) | 305 | 114 | 34.770 |
