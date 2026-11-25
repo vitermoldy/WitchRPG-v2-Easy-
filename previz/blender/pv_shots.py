@@ -369,3 +369,4 @@ def foam_rings(local, hy, inst, mat=None):
 # ---------------------------------------------------------------- 06 army rising
 
 def build_army(dunia):
+    P = Wd.SPOTS["army"]
