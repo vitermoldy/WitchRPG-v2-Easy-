@@ -856,3 +856,4 @@ export class UnitSystem {
       }
       return
     }
+    const flyH = (u.spec.fly?.height ?? 0) * 0.4
