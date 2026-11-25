@@ -102,3 +102,4 @@ const SHIELD_FRAG = /* glsl */ `
 const boltGeo = new THREE.SphereGeometry(0.11, 10, 8)
 const boltMat = new THREE.MeshBasicMaterial({ color: new THREE.Color(COLOR.chaos).multiplyScalar(4) })
 
+/** Held this long, the left button turns from a bolt into Telekinesis. */
