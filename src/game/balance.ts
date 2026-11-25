@@ -1234,3 +1234,4 @@ export const COMBAT = {
 export const CAMP = { wake: 80, sleep: 170, respawn: 120, aggro: 24, leash: 55, pack: 1.5, bossRespawn: 45 } as const
 
 /** v2 open world: falling, and getting up again. */
+export const REVIVE = {
