@@ -1234,3 +1234,5 @@ export class Game implements UnitHost {
     this.profile.xp = 0
     this.applyDerived(true)
     this.saveSoon()
+  }
+
