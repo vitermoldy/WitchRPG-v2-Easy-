@@ -10,3 +10,4 @@ import { Seal } from '../src/world/seal'
 
 function world() {
   const foe: Foe = { pos: new THREE.Vector3(), radius: 0.38, alive: true }
+  const fx: string[] = []
