@@ -582,3 +582,4 @@ button {
 }
 
 .fade.on {
+  animation: fade-through 1.4s ease-out;
