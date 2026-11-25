@@ -622,3 +622,4 @@ def build_temple(coll, pal):
         p.box((cx, cy, z0 + 0.3 + i * 0.6), (w, w * 0.8, h + 0.02), mat="stone")
     top = z0 + 1.8
     for k in range(12):
+        a = 2 * math.pi * k / 12
