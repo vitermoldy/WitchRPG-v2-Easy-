@@ -212,3 +212,4 @@ export class Camps {
         this.wake(camp, index)
         colors = true
       } else if (camp.state === 'active') {
+        const alive = camp.units.filter((u) => u.alive)
