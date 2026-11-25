@@ -66,3 +66,4 @@ Tinggi total diukur dari block-out (termasuk tanduk dan sayap yang terangkat; Il
 | Succubus | 2,66 m | 1,95 m | 2,01 m | 3,15 m | 0,50 m | 5.892 | 8.000 | IV |
 | Incubus | 3,05 m | 2,25 m | 2,30 m | 3,54 m | 0,60 m | 6.732 | 8.000 | IV |
 | Griffin | 4,63 m | bahu 2,0 m | 4,90 m | 6,24 m | 1,20 m | 5.648 | 8.000 | II |
+| Hippogriff | 2,93 m | bahu 1,9 m | 4,14 m | 3,05 m | 1,10 m | 5.464 | 8.000 | II |
