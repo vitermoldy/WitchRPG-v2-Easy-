@@ -38,3 +38,4 @@ export class Player {
   vz = 0
   vy = 0
   facing = 0
+  /** Seconds into the current roll, or -1. */
