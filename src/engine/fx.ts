@@ -460,3 +460,4 @@ export class ShadowPools {
 
   update(dt: number) {
     for (const p of this.pools) {
+      if (p.state === 'off') continue
