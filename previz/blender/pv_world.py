@@ -461,3 +461,4 @@ def build_forest(coll, P, size=1260.0, step=4.0, seed=3):
     out = {}
     for idx in np.nonzero(keep)[0]:
         zk = ZONES[zi[idx]]["key"]
+        mix = MIX[zk][0] if ring[idx] < 0.5 else {"pine": 0.6, "pine_tall": 0.4}
