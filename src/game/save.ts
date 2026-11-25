@@ -13,3 +13,4 @@ export function loadProfile(): { profile: Profile; error: string | null } {
   if (!raw) return { profile: newProfile(), error: null }
   try {
     const profile = normalizeProfile(JSON.parse(raw))
+    if (!profile) throw new Error('shape')
