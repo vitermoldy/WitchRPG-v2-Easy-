@@ -760,3 +760,4 @@ export class UnitSystem {
             tmp.subVectors(u.aimAt, u.pos).setY(0)
             const d = tmp.length()
             u.lungeDir.copy(tmp.normalize())
+            // leap so it lands on the circle as the lunge ends
