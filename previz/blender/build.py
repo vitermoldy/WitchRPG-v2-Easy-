@@ -113,3 +113,4 @@ if "lineup" in ONLY:
     S.render_lineup(sc, bands, os.path.join(RENDERS, "03-barisan-makhluk.png"), TMP, PCT)
     log("render barisan")
 if "board" in ONLY:
+    C.render(scenes["board"], os.path.join(OUT, "papan-makhluk.png"), PCT)
