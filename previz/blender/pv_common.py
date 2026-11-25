@@ -15,3 +15,4 @@ FONT_PATH = r"C:\Windows\Fonts\bahnschrift.ttf"
 HEX = {
     "chaos": "#ff2a3d",
     "chaos_hot": "#ff7a5c",
+    "umbra": "#8f55ff",
