@@ -503,3 +503,4 @@ export class Lair {
         else {
           // a volley of three globs around her, each on its own amber circle
           for (let k = 0; k < 3; k++) {
+            body.aimAt.set(her.x + (Math.random() - 0.5) * 6, her.y, her.z + (Math.random() - 0.5) * 6)
