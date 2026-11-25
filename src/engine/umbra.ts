@@ -216,3 +216,4 @@ export class Umbra {
     g.hud.message(`${out.length} bayangan kembali ke Ruang Bayangan.`, 'umbra')
   }
 
+  private spawnShadow(rec: ShadowRecord, at: THREE.Vector3, slot: number) {
