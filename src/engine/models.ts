@@ -307,3 +307,4 @@ export class IlyraModel {
       if (sw.heavy) {
         // both hands on the staff, and a deep bend into the slam
         armLX = armRX + 10
+        armLY = -20
