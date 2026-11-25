@@ -138,3 +138,4 @@ export class Camps {
     const s = new THREE.Vector3()
     let i = 0
     for (const camp of this.camps) {
+      for (let k = 0; k < STONES; k++, i++) {
