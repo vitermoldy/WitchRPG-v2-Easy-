@@ -129,3 +129,5 @@ Makhluk memakai warna dari gambar referensinya (keputusan pemilik setelah previz
 | Samael | kulit `#e6c8b0` | rambut putih, sayap putih keemasan `#f4eee0`, jubah merah `#a02a20`, pedang bercahaya |
 | Atlas | kulit `#c8905a` | janggut putih, cawat putih, bola dunia biru `#2a6aa8` dan hijau `#4f8a3a` |
 | Pegasus | putih `#f6f6f8` | sayap dan surai putih |
+| Unicorn | biru abu `#8aa6c4` | surai mawar `#c87898`, tanduk gading `#f2ead8` |
+
