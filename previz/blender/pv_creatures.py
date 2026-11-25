@@ -686,3 +686,4 @@ def b_cyclops(r):
 def b_medusa(r):
     """Green-skinned gorgon: copper snake hair, white draped dress with gold, a long green snake tail."""
     J = humanoid(r, 2.2, bulk=0.85, legs=None, female=True, arm_pose={"L": (30, 65, 30), "R": (35, 15, 45)}, body_mat="skin")
+    b = r.P("tail", J["hip"], "pelvis")
