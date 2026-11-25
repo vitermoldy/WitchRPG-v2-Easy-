@@ -145,3 +145,4 @@ def build_terrain(coll, size=1300.0, step=2.5):
     X, Y = np.meshgrid(xs, xs, indexing="xy")
     Z = height(X, Y)
     gx = np.gradient(Z, step, axis=1)
+    gy = np.gradient(Z, step, axis=0)
