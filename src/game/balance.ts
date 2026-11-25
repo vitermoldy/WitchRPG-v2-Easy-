@@ -1169,3 +1169,4 @@ export const COMBAT = {
   /** A tap within this long after a swing's hit chains the next swing. */
   comboWindow: 0.5,
   /** Holding the left button this long turns the attack into the heavy overhead blow. */
+  heavyHold: 0.3,
