@@ -148,3 +148,4 @@ export function createApi(getPool, database) {
     res.json({ profile: await readProfile(getPool(), req.user.device) })
   })
 
+  api.put('/profile', async (req, res) => {
