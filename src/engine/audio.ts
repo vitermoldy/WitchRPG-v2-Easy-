@@ -229,3 +229,5 @@ export class Sfx {
     const t = this.ctx!.currentTime
     this.tone(t, 'sine', 140, 50, 0.25, 0.35)
     this.noise(t, 0.15, 'lowpass', 900, 0.2)
+  }
+
