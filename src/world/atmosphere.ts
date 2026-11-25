@@ -94,3 +94,4 @@ export class Atmosphere {
   update(dt: number, at: THREE.Vector3, camPos: THREE.Vector3, snap = false) {
     const [mx, my] = toMap(at.x, at.z)
     zoneWeights(mx, my, this.w)
+    this.fogTarget.setRGB(0, 0, 0)
