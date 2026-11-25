@@ -744,3 +744,4 @@ const POSES: Partial<Record<UnitKind, PoseFn>> = {
   unicorn: poseBeast,
   dragon: poseBeast,
   cerberus: poseHound,
+  lilith: serpentine(biped({ heavy: 0.2, reach: 0.8, sway: 6 }), 'serpent'),
