@@ -57,3 +57,4 @@ describe('Ilyra in the air (B)', () => {
   it('does not roll in the air', () => {
     const p = new Player()
     run(p, B, 1 / 120)
+    run(p, { ...idle, dodge: true }, 0.2)
