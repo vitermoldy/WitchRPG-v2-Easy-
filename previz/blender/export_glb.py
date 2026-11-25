@@ -119,3 +119,4 @@ def flat(m):
     col = (1.0, 1.0, 1.0) if tone_of(m) else tuple(m.diffuse_color[:3])
     b.inputs["Base Color"].default_value = (*col, 1.0)
     b.inputs["Roughness"].default_value = 0.75
+    metal = 0.0
