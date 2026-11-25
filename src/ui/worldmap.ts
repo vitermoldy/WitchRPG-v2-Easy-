@@ -7,3 +7,4 @@ const $ = <T extends HTMLElement = HTMLElement>(id: string): T => document.getEl
 
 /** Half the width of the map drawn (m): a little past the playable edge. */
 const EXTENT = PLAY_HALF + 10
+const BASE = 320
