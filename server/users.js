@@ -13,3 +13,4 @@ const [rows] = await pool.query(
 )
 await pool.end()
 
+if (rows.length === 0) {
