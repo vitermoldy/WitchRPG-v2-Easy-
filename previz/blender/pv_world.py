@@ -646,3 +646,6 @@ def build_temple(coll, pal):
     # a fallen statue head
     p.ell((cx - 9, cy + 9, ground_z(cx - 9, cy + 9) + 1.4), (1.6, 1.8, 2.0), rot=(20, 70, 0), mat="stone_moss", seg=10, rings=7, smooth=True)
     r.finalize()
+    return r
+
+
