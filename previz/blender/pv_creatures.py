@@ -388,3 +388,4 @@ def axe(part, W, d, length=1.2, blade=0.55):
     ref = Vector((1, 0, 0))
     side = (ref - d * ref.dot(d)).normalized()
     c = top - d * 0.18
+    for k in (-1, 1):
