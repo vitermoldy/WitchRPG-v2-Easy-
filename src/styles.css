@@ -519,3 +519,4 @@ button {
   top: var(--gutter);
   left: var(--gutter);
   margin: 0;
+  padding: 0.5rem 0.7rem;
