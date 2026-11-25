@@ -26,3 +26,4 @@ if (rows.length === 0) {
       'kali masuk': r.login_count,
       level: r.level ?? 1,
       bayangan: Number(r.shadows),
+      altar: Number(r.altars) || 1,
