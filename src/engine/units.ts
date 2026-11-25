@@ -947,3 +947,4 @@ export class UnitSystem {
         if (!list) continue
         for (const o of list) {
           if (o === u || o.team !== u.team || !o.alive || o.state === 'thrown' || o.state === 'held') continue
+          const d = Math.hypot(o.pos.x - u.pos.x, o.pos.z - u.pos.z)
