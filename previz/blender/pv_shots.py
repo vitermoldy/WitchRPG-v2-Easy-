@@ -228,3 +228,4 @@ def shaft_fog(coll, centre, size, z0, density=0.018):
         nt.links.new(vol.outputs[0], out.inputs["Volume"])
     bm = bmesh.new()
     bmesh.ops.create_cube(bm, size=1.0)
+    me = bpy.data.meshes.new(name)
