@@ -151,3 +151,4 @@ def mat_tone(name, top, bottom=None, rough=0.7, metal=0.0, emit=None, emit_stren
     mix.data_type = "RGBA"
     mix.inputs["A"].default_value = rgb(bottom or top)
     mix.inputs["B"].default_value = rgb(top)
+    L.new(mr.outputs["Result"], mix.inputs["Factor"])
