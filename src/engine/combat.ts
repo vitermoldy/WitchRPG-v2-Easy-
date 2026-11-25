@@ -75,3 +75,4 @@ export type ComboEvent = { type: 'start'; s: SwingState } | { type: 'hit'; s: Sw
 export class Combo {
   current: SwingState | null = null
   private charging = -1
+  private queued = false
