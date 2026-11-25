@@ -69,3 +69,4 @@ export class Sfx {
   }
 
   private tone(t: number, type: OscillatorType, f0: number, f1: number, dur: number, peak: number, attack = 0.005) {
+    const ctx = this.ctx!
