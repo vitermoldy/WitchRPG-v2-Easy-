@@ -57,3 +57,4 @@ const at = (x: number, y: number, z: number, rx = 0, rz = 0) =>
   M.clone().compose(new THREE.Vector3(x, y, z), new THREE.Quaternion().setFromEuler(new THREE.Euler(rx, 0, rz)), new THREE.Vector3(1, 1, 1))
 
 function pine(h: number, tiers: number, rad: number, needle: THREE.Color): THREE.BufferGeometry {
+  const parts = [part(new THREE.CylinderGeometry(0.06, 0.3, h, 6, 1, true), PAL.bark, at(0, h / 2, 0))]
