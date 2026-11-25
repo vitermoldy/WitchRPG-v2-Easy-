@@ -103,3 +103,5 @@ Sarangnya di tepi Danau Hitam, dan hanya terbuka bagi witch Lv 10: fase terakhir
 2. Air naik dan pulau batu muncul. Kulitnya berlendir: Hex Bolt hanya 10%, benda yang dilempar 150%. Batu selalu ada di pulau: bidik, tahan klik kiri, lalu lepas ke arah Hydra.
 3. Hydra menelan kepalanya, merayap ke tepi, dan kebal kecuali di dalam Reality Warp (V): di sana jantungnya terbuka dan menerima 150%. Semburannya jatuh di lingkaran amber yang terisi; keluar sebelum penuh.
 
+Setiap fase baru memulihkan 25% HP dan 30 mana. Kemenangan memberi XP besar, membuka segel, dan sekali saja tubuhnya bisa dibangkitkan sebagai Marsekal dengan Kebangkitan Marsekal (di versi Easy selalu berhasil).
+
