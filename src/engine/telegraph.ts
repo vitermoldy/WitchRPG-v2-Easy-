@@ -66,3 +66,4 @@ interface Item {
   width: number
   radius: number
   /** When it started and how long until the blow lands (game seconds). */
+  t0: number
