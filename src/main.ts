@@ -126,3 +126,4 @@ async function boot() {
       game.statsChanged()
     },
     sfxUi: () => game.sfx.ui(),
+    liveShadows: () => new Set(game.umbra.field().map((u) => u.record!.id)),
