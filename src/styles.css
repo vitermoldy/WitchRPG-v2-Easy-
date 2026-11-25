@@ -486,3 +486,5 @@ button {
 .hitmark.kill {
   border-color: var(--chaos-ink);
   transform: scale(1);
+}
+
