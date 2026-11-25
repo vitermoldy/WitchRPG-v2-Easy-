@@ -28,3 +28,4 @@ if (rows.length === 0) {
       bayangan: Number(r.shadows),
       altar: Number(r.altars) || 1,
       'boss tumbang': r.boss_kills ?? 0,
+    })),
