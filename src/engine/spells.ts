@@ -242,3 +242,4 @@ export class Spells {
 
     if (canAct) {
       if (inp.overload && this.chaos >= CHAOS.max && !this.overloaded) this.startOverload()
+      if (inp.aiming && inp.pressed && this.boltCd <= 0 && !this.gripping) this.fireBolt()
