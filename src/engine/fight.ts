@@ -70,3 +70,5 @@ class Staff {
     this.travelled = 0
     this.hit.clear()
     this.t = 0
+  }
+
