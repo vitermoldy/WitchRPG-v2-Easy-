@@ -371,3 +371,4 @@ export class Fight {
       if (this.staff.state === 'hand') {
         this.throwT = 0
         this.combo.cancel()
+        // face where it will go
