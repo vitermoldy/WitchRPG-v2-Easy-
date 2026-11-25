@@ -303,3 +303,4 @@ export class Sfx {
   }
 
   collapse() {
+    if (!this.ok()) return
