@@ -107,3 +107,4 @@ async function boot() {
     shake.checked = pr.settings.shake
   })
   shake.addEventListener('change', () => {
+    pr.settings.shake = shake.checked
