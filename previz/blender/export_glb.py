@@ -120,3 +120,4 @@ def flat(m):
     b.inputs["Base Color"].default_value = (*col, 1.0)
     b.inputs["Roughness"].default_value = 0.75
     metal = 0.0
+    for n in m.node_tree.nodes if m.node_tree else []:
