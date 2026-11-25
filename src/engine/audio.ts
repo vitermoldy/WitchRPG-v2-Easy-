@@ -179,3 +179,4 @@ export class Sfx {
     osc.type = 'sawtooth'
     osc2.type = 'sine'
     osc.frequency.value = 74
+    osc2.frequency.value = 148.6
