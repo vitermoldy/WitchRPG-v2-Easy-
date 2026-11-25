@@ -106,3 +106,4 @@ export const CHAOS = {
 } as const
 
 export const SPELL = {
+  // v2: a bolt also fills the stun meter and knocks a hovering Harpy down for `down` seconds
