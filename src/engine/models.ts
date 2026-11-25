@@ -106,3 +106,4 @@ export class IlyraModel {
       const m = (o as THREE.Mesh).material as THREE.MeshStandardMaterial | undefined
       if (m && m.name.includes('sigil_staff') && !this.sigils.includes(m)) this.sigils.push(m)
     })
+    for (const [side, col] of [['L', COLOR.chaos], ['R', COLOR.umbra]] as const) {
