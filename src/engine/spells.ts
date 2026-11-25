@@ -545,3 +545,4 @@ export class Spells {
     if (!this.pay(SPELL[id].mana)) return
     g.fight.cast()
     if (id === 'burst') this.burst(this.target(SPELL.burst.range, aiming))
+    else if (id === 'snare') this.snare(this.target(SPELL.snare.range, aiming))
