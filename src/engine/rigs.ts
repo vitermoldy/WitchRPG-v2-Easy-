@@ -1022,3 +1022,4 @@ export class Rigs {
       if (!rig) return null
       // the decimated model when there is one, else the full one standing at rest
       const lod = this.lods[kind]
+      const baked = bakeByMaterial(lod ? lod.clone(true) : rig.standing())
