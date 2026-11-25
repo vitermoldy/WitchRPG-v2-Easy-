@@ -287,3 +287,4 @@ const poseHarpy: PoseFn = (p, u, t) => {
     p.rot('shin_R', 40)
     return
   }
+  // on the ground (downed): wings dragging and beating weakly
