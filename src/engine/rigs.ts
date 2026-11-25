@@ -319,3 +319,4 @@ const CENTAUR_LIMBS = ['leg_FL', 'leg_FR', 'leg_HL', 'leg_HR', 'upperarm_L', 'up
 const poseCentaur: PoseFn = (p, u, t) => {
   if (common(p, u, t, CENTAUR_LIMBS)) return
   const { ph, amp } = trot(p, u, 34, 0.7)
+  p.rot('tail', -15 + 8 * Math.sin(t * 3), 18 * Math.sin(t * 2.4 + u.id))
