@@ -623,3 +623,4 @@ def b_minotaur(r, pose="idle"):
     for s in (1, -1):
         h.tube([hc + Vector((0.12 * s, -0.02, 0.1)), hc + Vector((0.42 * s, 0.0, 0.16)), hc + Vector((0.62 * s, -0.12, 0.34)), hc + Vector((0.58 * s, -0.24, 0.52))], [0.07, 0.055, 0.035, 0.0], mat="horn", seg=8, n=4)
         h.ell(hc + Vector((0.08 * s, -0.17, 0.05)), (0.03, 0.02, 0.018), mat="eye", seg=8, rings=5)
+        h.cone(hc + Vector((0.15 * s, 0.02, 0.06)), hc + Vector((0.3 * s, 0.06, 0.0)), 0.045, mat="skin", seg=5)
