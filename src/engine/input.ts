@@ -31,3 +31,4 @@ export class Input {
     target.addEventListener('mousedown', (e) => {
       if (!this.active) return
       e.preventDefault()
+      this.press(e.button === 2 ? 'Mouse2' : e.button === 1 ? 'Mouse1' : 'Mouse0')
