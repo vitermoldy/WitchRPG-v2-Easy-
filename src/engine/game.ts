@@ -286,3 +286,4 @@ export class Game implements UnitHost {
   }
 
   /** A blow between a creature and a shadow. */
+  strikeUnit(u: Unit, target: Unit, atk?: AttackSpec) {
