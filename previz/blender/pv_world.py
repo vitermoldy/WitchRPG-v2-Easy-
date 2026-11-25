@@ -345,3 +345,4 @@ def _grass(p):
 def _fern(p):
     for k in range(7):
         a = k * 2 * math.pi / 7
+        d = Vector((math.cos(a), math.sin(a), 0))
