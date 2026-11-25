@@ -209,3 +209,4 @@ export class Unit implements Foe {
     this.hp = this.maxHp
     this.damage *= ELITE.damage
     this.setScale(this.scale * ELITE.scale)
+    if (trait === 'gesit') {
