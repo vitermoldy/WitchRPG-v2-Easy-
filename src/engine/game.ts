@@ -678,3 +678,4 @@ export class Game implements UnitHost {
 
   /** P: first person (her eyes, as in v1) or third person (over her shoulder). Kept in her settings. */
   toggleView(first = !this.rig.firstPerson) {
+    this.rig.firstPerson = first
