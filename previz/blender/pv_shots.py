@@ -117,3 +117,4 @@ def disc(coll, name, centre, radius, mat, z_off=0.03, seg=40):
     me.materials.append(mat)
     ob = bpy.data.objects.new(name, me)
     ob.location = (centre[0], centre[1], Wd.ground_z(centre[0], centre[1]) + z_off)
+    coll.objects.link(ob)
