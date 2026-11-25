@@ -566,3 +566,4 @@ export class Spells {
     this.burstCd = s.cooldown
     const r = s.radius + (this.upgraded('burst') ? s.radiusUpgrade : 0)
     this.explode(at, r, s.damage * this.damageMult, s.push, s.lift)
+    this.g.sfx.burst()
