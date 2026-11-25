@@ -1160,3 +1160,4 @@ export class Game implements UnitHost {
     this.botLock = true
   }
 
+  /** ?debug: the bot's stand-in for a quick sideways mouse flick while locked on. */
