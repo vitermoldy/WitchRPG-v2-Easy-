@@ -15,3 +15,4 @@ import express from 'express'
  * copy of the sessions table cannot be used to sign in.
  */
 
+export const AUTH_TABLES = [
