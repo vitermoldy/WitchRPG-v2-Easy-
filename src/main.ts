@@ -123,3 +123,4 @@ async function boot() {
   const ledger = new Ledger({
     profile: pr,
     changed: () => {
+      game.statsChanged()
