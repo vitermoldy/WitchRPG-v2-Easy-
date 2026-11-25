@@ -47,3 +47,4 @@ export class WorldMap {
     try {
       const saved = JSON.parse(localStorage.getItem(SAVE_KEY) ?? '[]') as UnitKind[]
       if (Array.isArray(saved)) this.chosen = new Set(saved.filter((k) => k in UNITS))
+    } catch {
