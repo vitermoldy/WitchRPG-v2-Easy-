@@ -159,3 +159,4 @@ export class Ambient {
     return 0
   }
 
+  private respawn(i: number, cam: THREE.Vector3, ground: number, w: ArrayLike<number>, anywhere: boolean) {
