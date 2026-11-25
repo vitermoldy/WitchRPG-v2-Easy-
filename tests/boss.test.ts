@@ -8,3 +8,4 @@ import { hydraShare } from '../src/world/lair'
 import { toWorld } from '../src/world/map'
 import { Seal } from '../src/world/seal'
 
+function world() {
