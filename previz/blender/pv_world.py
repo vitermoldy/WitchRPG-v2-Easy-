@@ -460,3 +460,4 @@ def build_forest(coll, P, size=1260.0, step=4.0, seed=3):
     swampy = Z < 0.15
     out = {}
     for idx in np.nonzero(keep)[0]:
+        zk = ZONES[zi[idx]]["key"]
