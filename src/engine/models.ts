@@ -172,3 +172,4 @@ export class IlyraModel {
   }
 
   update(dt: number, p: Player, aim: number, act: IlyraPose = idlePose()) {
+    this.t += dt
