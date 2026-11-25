@@ -36,3 +36,4 @@ export class Fauna {
     const spot = (kind: Spot['kind'], mx: number, my: number): Spot => {
       const [x, z] = toWorld(mx, my)
       return { kind, x, z, unit: null }
+    }
