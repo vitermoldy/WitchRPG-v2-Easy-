@@ -365,3 +365,4 @@ export class IlyraModel {
       staffX = 60
     }
     if (act.hurt > 0) {
+      torsoX -= 16 * act.hurt
