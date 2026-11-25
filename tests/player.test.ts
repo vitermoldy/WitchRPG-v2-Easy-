@@ -72,3 +72,4 @@ describe('Ilyra on foot', () => {
     const q = new Player()
     run(q, { ...idle, x: 1 }, 1, flat, Math.PI / 2)
     // camera turned left to face west: its right is north
+    expect(q.pos.z).toBeLessThan(-3.5)
