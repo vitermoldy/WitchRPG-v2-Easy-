@@ -45,3 +45,4 @@ export const SKILLS: SkillDef[] = [
     key: 'Bidik, tahan LMB',
     unlock: 1,
     effect: 'Angkat makhluk hingga 500 kg, lepas untuk melempar; lemparan menembus perisai Minotaur.',
+    upgrade: 'Mengangkat 2 target sekaligus.',
