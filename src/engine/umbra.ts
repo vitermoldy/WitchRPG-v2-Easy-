@@ -96,3 +96,4 @@ export class Umbra {
     return isUnlocked(this.g.profile, 'rite')
   }
 
+  /** Shadows standing on the field (rising ones included, sinking ones not). */
