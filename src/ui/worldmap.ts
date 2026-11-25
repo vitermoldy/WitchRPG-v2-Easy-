@@ -228,3 +228,4 @@ export class WorldMap {
           gg = 46
           b = 52
         } else {
+          zoneWeights(mx, my, w)
