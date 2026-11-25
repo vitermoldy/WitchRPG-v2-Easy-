@@ -724,3 +724,4 @@ def b_chimera(r):
     r.parts["body"].ell(V(Q["chest"]) + Vector((0, -0.2, 0.25)), (0.6, 0.55, 0.6), mat="body2")
     g0 = V((0, -0.35, Q["H"] + 0.1))
     gh = V((0.0, -0.75, 3.35))
+    gn = r.P("head_goat", g0, "body")
