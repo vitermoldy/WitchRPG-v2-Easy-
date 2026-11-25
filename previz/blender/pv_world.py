@@ -617,3 +617,4 @@ def build_temple(coll, pal):
     p = r.P("m")
     p.flat = True
     cx, cy = TEMPLE
+    z0 = ground_z(cx, cy)
