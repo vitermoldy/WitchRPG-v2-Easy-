@@ -68,3 +68,4 @@ export class Umbra {
   private wheelX = 0
   private wheelY = 0
   private chargeTick = 0
+  private leashT = 0
