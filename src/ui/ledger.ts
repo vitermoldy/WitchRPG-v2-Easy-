@@ -207,3 +207,4 @@ export class Ledger {
             </summary>
             <ul class="room-members">${shown
               .map(
+                (s) => `<li class="room-item">
