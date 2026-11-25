@@ -673,3 +673,4 @@ export class Game implements UnitHost {
     return died
   }
 
+  private immuneAt = -9
