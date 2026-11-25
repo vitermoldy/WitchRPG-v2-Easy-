@@ -607,3 +607,4 @@ def build_board(lib_colls, stats):
         cx = x0 + 6.85 - (min(rx) + w / 2) * s
         C.instance(lc, coll, loc=(cx, -2, z0 - 4.05 - lo.z * s), rot_z=rot, scale=s)
         C.text(coll, name, (x0 + 0.42, -0.1, z0 - 4.72), size=0.4, color="#f4efe9", rot=(90, 0, 0))
+        C.text(coll, fmt_m(stats[k]["tinggi"]), (x0 + cw - 0.42, -0.1, z0 - 4.72), size=0.3, color="#ffb866" if k != "ilyra" else "#c7a6ff", align="RIGHT", rot=(90, 0, 0))
