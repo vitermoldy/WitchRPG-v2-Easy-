@@ -95,3 +95,4 @@ function common(p: Poser, u: Unit, t: number, limbs: string[]): boolean {
   }
   if (u.state === 'thrown') {
     p.body(0, u.t * 520, 30)
+    for (let i = 0; i < limbs.length; i++) p.rot(limbs[i], 40 * Math.sin(t * 15 + i))
