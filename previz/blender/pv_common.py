@@ -183,3 +183,4 @@ def mat_globe(name, ocean="#2a6aa8", land="#4f8a3a"):
     b.inputs["Roughness"].default_value = 0.45
     tc = N.new("ShaderNodeTexCoord")
     noi = N.new("ShaderNodeTexNoise")
+    noi.inputs["Scale"].default_value = 0.9
