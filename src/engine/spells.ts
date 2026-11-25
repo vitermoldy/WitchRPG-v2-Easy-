@@ -295,3 +295,4 @@ export class Spells {
   private killBolt(b: Bolt) {
     this.g.scene.remove(b.mesh)
     this.g.lights.release(b.light)
+    b.light = null
