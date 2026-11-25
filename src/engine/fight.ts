@@ -118,3 +118,4 @@ class Staff {
       const wall = g.obstacles.sweep(this.prev.x, this.prev.y, this.prev.z, this.pos.x, this.pos.y, this.pos.z, 0.06)
       const ground = g.ground.height(this.pos.x, this.pos.z)
       if (hitU && hitU.f <= wall) {
+        const u = hitU.u
