@@ -4,3 +4,4 @@
 
 export interface Zone {
   key: 'pembuka' | 'tebing' | 'rawa' | 'kuil' | 'bara'
+  name: string
