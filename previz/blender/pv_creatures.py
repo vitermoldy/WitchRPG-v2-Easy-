@@ -746,3 +746,4 @@ def _demon(r, H, bulk, female, span, horn_kind, arm_pose):
     hc = V(J["head_c"])
     h.ell(hc, (0.085 * H / 1.9, 0.1 * H / 1.9, 0.115 * H / 1.9), mat="skin")
     face(h, hc, H)
+    long_hair(h, hc, H, 0.75 if female else 0.55, 0.09)
