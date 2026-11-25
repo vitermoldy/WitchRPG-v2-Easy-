@@ -273,3 +273,4 @@ export class IlyraModel {
       staffZ = mix(staffZ, -110, b)
       torsoX = mix(torsoX, 8 - 6 * push, b)
       crouch = 0.06 * b
+    }
