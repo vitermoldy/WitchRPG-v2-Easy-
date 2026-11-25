@@ -81,3 +81,4 @@ describe('stats and the shadow army', () => {
     expect(d.maxHp).toBe(150)
     expect(d.maxMana).toBe(125)
     expect(d.damageMult).toBe(1)
+    expect(d.dodgeDistance).toBe(4.2)
