@@ -78,3 +78,4 @@ export class Hud {
     const el = $(id)
     if (key === 'text') el.textContent = value
     else if (key === 'transform') el.style.transform = value
+    else el.className = value
