@@ -487,3 +487,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
       { name: 'tendang', strike: 'ring', windup: 0.6, recover: 0.8, range: 3, lungeSpeed: 6, lungeTime: 0.3, ring: 1.8 },
     ],
   },
+  // v2, Rawa Berkabut: spits a glob onto an amber circle from the swamp and dives when it is hurt.
