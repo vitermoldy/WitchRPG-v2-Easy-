@@ -17,3 +17,4 @@ if (rows.length === 0) {
   console.log(`${config.name}: belum ada akun di database ${config.db.database}.`)
 } else {
   console.log(`${config.name}: ${rows.length} akun di database ${config.db.database}`)
+  console.table(
