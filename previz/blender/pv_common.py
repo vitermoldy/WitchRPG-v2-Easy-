@@ -419,3 +419,4 @@ class Part:
                 self.bm.faces.new(list(reversed(rings[0])))
             if len(rings[-1]) > 2:
                 self.bm.faces.new(rings[-1])
+        self._tag(allv, mat, smooth)
