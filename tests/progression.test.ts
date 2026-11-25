@@ -119,3 +119,4 @@ describe('upgrades and shadows', () => {
     const s = addShadow(p, 'husk', 1)!
     gainXp(p, 300, ALL)
     expect(s.level).toBe(2)
+    expect(s.level).toBeLessThanOrEqual(p.level)
