@@ -648,3 +648,4 @@ def sky_world(name, zenith, horizon, ground, strength=1.0, haze=None, haze_densi
     w = bpy.data.worlds.get(name) or bpy.data.worlds.new(name)
     w.use_nodes = True
     nt = w.node_tree
+    nt.nodes.clear()
