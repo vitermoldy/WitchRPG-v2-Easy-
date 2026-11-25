@@ -577,3 +577,4 @@ def build_fog(coll):
         me = bpy.data.meshes.new(f"fog_{z['key']}")
         bm.to_mesh(me)
         bm.free()
+        me.materials.append(fog_material(z))
