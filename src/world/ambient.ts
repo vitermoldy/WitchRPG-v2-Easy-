@@ -147,3 +147,5 @@ export class Ambient {
     const bara = ZONES.find((z) => z.key === 'bara')!
     const [bx, bz] = toWorld(bara.c[0], bara.c[1])
     this.bara = new THREE.Vector3(bx, 0, bz)
+  }
+
