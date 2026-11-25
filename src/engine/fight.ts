@@ -115,3 +115,4 @@ class Staff {
       const step = this.pos.distanceTo(this.prev)
       this.travelled += step
       const hitU = this.sweepUnits(step)
+      const wall = g.obstacles.sweep(this.prev.x, this.prev.y, this.prev.z, this.pos.x, this.pos.y, this.pos.z, 0.06)
