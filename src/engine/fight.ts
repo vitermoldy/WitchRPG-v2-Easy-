@@ -56,3 +56,4 @@ class Staff {
   private ensure() {
     if (this.obj) return this.obj
     this.obj = this.g.ilyra.staffCopy() ?? new THREE.Mesh(new THREE.CylinderGeometry(0.03, 0.03, 1.7), new THREE.MeshStandardMaterial({ color: 0x2a1a14 }))
+    this.obj.visible = false
