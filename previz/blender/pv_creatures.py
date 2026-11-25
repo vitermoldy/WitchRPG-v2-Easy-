@@ -1109,3 +1109,4 @@ COLORS = {
     "typhon": {"skin": ("#d0903a", "#b87a30"), "hair": "#4a4a4a", "membrane": "#6a6a72", "snake": ("#b07a30", "#e0c080"), "horn": "#e8dcc0"},
     "samael": {"skin": "#e6c8b0", "hair": "#f0eeea", "membrane": ("#f4eee0", "#d8ccb0"), "accent": "#d8c08a", "cloth": "#a02a20", "glow": "#ffd88a", "metal": "#d8c08a"},
     "atlas": {"skin": ("#c8905a", "#b07a48"), "hair": "#ecebe6", "cloth": "#f0eee8"},
+    "pegasus": {"body": ("#f6f6f8", "#d8d8e2"), "body2": "#ffffff", "membrane": ("#fdfdff", "#e6e8f0"), "accent": "#eef0f6", "hoof": "#cfc6b4", "nose": "#d8c8c8", "eye": "#6aa8ff"},
