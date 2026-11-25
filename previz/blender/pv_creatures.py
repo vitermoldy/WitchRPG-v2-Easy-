@@ -564,3 +564,4 @@ def b_centaur(r):
     bow = [W + Vector((0.0, 0.12, 0.72)), W + Vector((0.0, -0.06, 0.4)), W, W + Vector((0.0, -0.06, -0.4)), W + Vector((0.0, 0.12, -0.72))]
     hd.tube(bow, [0.008, 0.02, 0.025, 0.02, 0.008], mat="wood", seg=6, n=4)
     R = J["wr_R"]
+    hd.tube([bow[0], R, bow[-1]], 0.004, mat="horn", seg=4, n=1)
