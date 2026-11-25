@@ -299,3 +299,4 @@ def build_minotaur(dunia):
     sc, local = shot_scene("04-tempur-minotaur", dunia, world, -sd, "#f2eadc", 3.4, vol_end=300, exposure=0.25)
     il = actor("aktor.ilyra.swing", "ilyra", "swing")
     place(il, local, P[0], P[1], f)
+    fr = frame_of(P, f)
