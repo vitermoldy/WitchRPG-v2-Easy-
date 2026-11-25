@@ -155,3 +155,4 @@ export class Sfx {
       this.tone(t, 'sine', 300, 600, 0.35, 0.2, 0.04)
       this.tone(t, 'sine', 450, 900, 0.35, 0.1, 0.04)
     } else {
+      this.tone(t, 'sine', 200, 40, 0.5, 0.4)
