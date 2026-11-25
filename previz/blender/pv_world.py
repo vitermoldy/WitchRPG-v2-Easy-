@@ -166,3 +166,4 @@ def build_terrain(coll, size=1300.0, step=2.5):
     verts = np.stack([X.ravel(), Y.ravel(), Z.ravel()], axis=1).astype(np.float32)
     me.vertices.add(len(verts))
     me.vertices.foreach_set("co", verts.ravel())
+    ii, jj = np.meshgrid(np.arange(n - 1), np.arange(n - 1), indexing="xy")
