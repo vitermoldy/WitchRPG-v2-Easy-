@@ -34,3 +34,4 @@ def lock_quat(cam_loc, target, vfov, third=(1 / 3, 1 / 3)):
     tv = math.tan(math.radians(vfov) / 2)
     th = tv * 16 / 9
     d = V(target) - V(cam_loc)
+    yaw = math.atan2(d.y, d.x) + math.atan(third[0] * th)
