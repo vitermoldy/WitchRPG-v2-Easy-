@@ -145,3 +145,4 @@ export class Ledger {
       ['Mana maksimum', fmt(d.maxMana)],
       ['Regen mana', `${fmt(d.manaRegen, 1)} per detik`],
       ['Damage', `${fmt(d.damageMult * 100)}%`],
+      ['Jarak dodge', `${fmt(d.dodgeDistance, 2)} m`],
