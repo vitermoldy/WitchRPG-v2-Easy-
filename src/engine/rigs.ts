@@ -737,3 +737,4 @@ function serpentine(base: PoseFn, part: string): PoseFn {
   }
 }
 
+const POSES: Partial<Record<UnitKind, PoseFn>> = {
