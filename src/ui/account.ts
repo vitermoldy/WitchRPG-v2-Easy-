@@ -48,3 +48,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
         ? 'Level, stat, skill, Ruang Bayangan, dan altar yang sudah menyala tersimpan di akunmu, jadi bisa dilanjutkan dari browser mana pun.'
         : 'Witch yang sudah ada di browser ini ikut masuk ke akun barumu.'
     showError('')
+    user.removeAttribute('aria-invalid')
