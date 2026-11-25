@@ -54,3 +54,4 @@ export class Terrain {
   built = 0
 
   constructor() {
+    this.group.name = 'terrain'
