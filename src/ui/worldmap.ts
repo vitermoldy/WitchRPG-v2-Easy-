@@ -225,3 +225,4 @@ export class WorldMap {
         let b = 0
         if (inWaterRect(mx, my) && h < WATER_LEVEL - 0.3) {
           r = 22
+          gg = 46
