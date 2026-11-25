@@ -63,3 +63,5 @@ export interface SwingState {
   index: number
   t: number
   hit: boolean
+}
+
