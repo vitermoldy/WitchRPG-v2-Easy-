@@ -13,3 +13,4 @@ export interface FightInput {
   blockHeld: boolean
   blockPressed: boolean
   execute: boolean
+  throwStaff: boolean
