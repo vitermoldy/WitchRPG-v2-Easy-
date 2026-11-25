@@ -482,3 +482,4 @@ class Rig:
             self.coll.objects.link(ob)
             par = self.objs.get(p.parent) if p.parent else None
             parent_pivot = self.parts[p.parent].pivot if par else Vector()
+            ob.parent = par or self.root
