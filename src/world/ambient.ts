@@ -130,3 +130,4 @@ export class Ambient {
     for (let i = 0; i < COUNT; i++) this.phase[i] = Math.random() * 100
     scene.add(this.points)
 
+    this.riftMat = new THREE.ShaderMaterial({
