@@ -484,3 +484,4 @@ button {
 }
 
 .hitmark.kill {
+  border-color: var(--chaos-ink);
