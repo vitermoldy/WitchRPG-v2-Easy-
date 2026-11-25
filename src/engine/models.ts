@@ -200,3 +200,4 @@ export class IlyraModel {
       this.rot('cloak', 30 * k)
       return
     }
+    const amp = p.flying ? 0 : Math.min(1.6, p.speed / MOVE.jog)
