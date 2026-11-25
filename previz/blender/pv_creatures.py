@@ -692,3 +692,4 @@ def b_medusa(r):
     p = r.parts["pelvis"]
     hp = V(J["hip"])
     p.tube([hp + Vector((0, 0, 0.2)), hp, hp + Vector((0, -0.02, -0.35)), hp + Vector((0.05, -0.05, -0.6))], [0.2, 0.25, 0.3, 0.33], mat="cloth", seg=14, n=3, cap=False)
+    p.torus(hp + Vector((0, 0, 0.18)), 0.2, 0.02, mat="gold", seg=16)
