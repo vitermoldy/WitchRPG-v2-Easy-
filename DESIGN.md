@@ -51,3 +51,4 @@ Action-RPG third-person dengan rasa God of War di hutan terbuka, memakai sistem 
 | Simpanan | Kunci localStorage `witchrpg-v2:profile:v1` | Tidak bercampur dengan simpanan v1. |
 | Gerak | Jog 4,4 m/dtk, lari (Shift) 7 m/dtk; mencapai kecepatan dalam sekitar 0,14 dtk dan berhenti dalam sekitar 0,1 dtk; berbelok 11 rad/dtk ke arah gerak | Terasa berbobot tanpa licin. Semua angka di `MOVE` di `balance.ts`. |
 | Dodge | Roll 4,2 m dalam 0,42 dtk, kecepatan 1,5 × (1 − u²) (dorongan keras lalu reda), tak tersentuh dari 0,04 sampai 0,32 dtk, jeda 0,25 dtk. Tanpa arah ditekan, ia mundur | Dikunci `tests/player.test.ts`. Jendela i-frame dan parry akan dipakai musuh di fase 2. |
+| Batas medan | Lereng di atas 1,0 (45°) tidak bisa didaki; air lebih dalam dari 0,9 m tidak bisa dimasuki; tepi area main 470 m dari pusat | Tebing Berangin dan Danau Hitam menjadi batas alami, bukan dinding tak terlihat. |
