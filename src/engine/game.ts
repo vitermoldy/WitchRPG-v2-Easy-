@@ -255,3 +255,4 @@ export class Game implements UnitHost {
       this.spells.addChaos(4)
       this.sfx.parry()
       this.hitstop(COMBAT.hitstop.parry)
+      this.addTrauma(0.15)
