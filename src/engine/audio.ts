@@ -225,3 +225,4 @@ export class Sfx {
   }
 
   hurt() {
+    if (!this.ok()) return
