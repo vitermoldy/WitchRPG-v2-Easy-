@@ -618,3 +618,4 @@ def build_temple(coll, pal):
     p.flat = True
     cx, cy = TEMPLE
     z0 = ground_z(cx, cy)
+    for i, (w, h) in enumerate(((30, 0.6), (24, 0.6), (18, 0.6))):
