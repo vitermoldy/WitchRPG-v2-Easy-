@@ -527,3 +527,5 @@ export class Game implements UnitHost {
     this.input.capture = true
     this.sfx.resume()
     this.lastFrame = performance.now()
+  }
+
