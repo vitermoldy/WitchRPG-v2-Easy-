@@ -74,3 +74,4 @@ Hasil gerbang (bot `?debug`, input nyata, waktu game 3× dipercepat): 10,0 menit
 
 | Bagian | Keputusan | Alasan |
 | --- | --- | --- |
+| Yang disalin dari v1 | `fx.ts`, `audio.ts`, dan aturan serta angka `spells.ts` dan `umbra.ts`; `units.ts` ditulis ulang untuk third-person dengan kerangka v1 (grid 3 m, AI per jenis, otak bayangan) | Prompt meminta salin dan sesuaikan. Kelas `Game` first-person v1 tidak bisa dipakai, jadi modulnya disambungkan ulang ke `Game` v2. |
