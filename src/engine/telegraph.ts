@@ -162,3 +162,4 @@ export class Telegraphs {
     this.byUnit.clear()
   }
 
+  /** Active telegraphs, for the debug readout and the test bot. */
