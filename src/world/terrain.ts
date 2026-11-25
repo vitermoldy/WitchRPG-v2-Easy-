@@ -159,3 +159,4 @@ export class Terrain {
       edges[3].push(k * (n + 1) + n)
     }
     edges.forEach((edge, e) => {
+      const start = v
