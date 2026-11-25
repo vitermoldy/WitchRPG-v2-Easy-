@@ -630,3 +630,4 @@ const poseHydra: PoseFn = (p, u, t) => {
     for (let i = 0; i < 5; i++) for (let s = 0; s < 7; s++) p.rot(`neck${i}_${s}`, 14 * k)
     return
   }
+  p.body(0.25 * Math.sin(t * 0.8 + u.id), 2 * Math.sin(t * 0.6))
