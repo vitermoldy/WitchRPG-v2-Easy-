@@ -607,3 +607,4 @@ const posePhoenix: PoseFn = (p, u, t) => {
     p.rot('leg_R', 50)
     return
   }
+  if (flying) {
