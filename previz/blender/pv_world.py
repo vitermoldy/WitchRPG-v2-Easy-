@@ -237,3 +237,4 @@ def build_water(coll):
     bm.to_mesh(me)
     bm.free()
     ob = bpy.data.objects.new("water", me)
+    ob.scale = (235, 295, 1)
