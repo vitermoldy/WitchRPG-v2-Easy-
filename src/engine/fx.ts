@@ -75,3 +75,4 @@ export class Particles {
   private readonly baseCol: Float32Array
   private readonly life: Float32Array
   private readonly maxLife: Float32Array
+  private readonly size0: Float32Array
