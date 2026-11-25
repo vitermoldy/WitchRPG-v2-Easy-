@@ -182,3 +182,4 @@ export class Player {
     if (this.pos.y > ground + 0.6 || this.vy > 0) {
       this.vy -= MOVE.gravity * dt
       this.pos.y += this.vy * dt
+      if (this.pos.y <= ground) {
