@@ -82,3 +82,4 @@ export function cleanProfile(p, now = Date.now()) {
     seen.add(id)
     shadows.push({ id, name: s.name, kind: s.kind, rank: s.rank, level: lv, xp: sxp })
   }
+  // Altars she has lit: unknown keys are dropped; the start altar is always lit.
