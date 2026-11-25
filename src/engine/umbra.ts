@@ -39,3 +39,4 @@ function ringRadius(count: number) {
   return 3.4 + ring * 1.8
 }
 
+interface Call {
