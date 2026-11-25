@@ -704,3 +704,4 @@ const poseBeast: PoseFn = (p, u, t) => {
   }
   if (u.state === 'stagger') {
     p.body(-0.1, 8, 8 * Math.sin(t * 3))
+    p.rot('head', 25 + 8 * Math.sin(t * 4))
