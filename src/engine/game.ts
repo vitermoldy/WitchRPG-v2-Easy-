@@ -753,3 +753,4 @@ export class Game implements UnitHost {
     this.hitstopT = Math.max(this.hitstopT, s)
   }
 
+  addTrauma(k: number) {
