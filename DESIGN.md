@@ -223,3 +223,5 @@ Pemilik menulis "lanjutkan sampe selsai" tanpa menjawab tiga pertanyaan fase 5, 
 | Bug fase 5: Hydra dieksekusi | Tubuh Hydra tetap bisa limbung (hantamannya terputus), tapi tidak bisa dieksekusi. Kepalanya, Medusa, dan Chimera tetap bisa | Regresi fase 6 menemukan bot membunuh Hydra di fase 3 dengan satu Eksekusi setelah parry, melewati syarat Reality Warp: hanya 342 damage tercatat untuk 2.230 HP. |
 | Hydra yang jauh | Hydra baru muncul di danau saat Ilyra dalam 150 m dari sarang, dan tenggelam lagi kalau ia lebih dari 220 m selama pertarungan belum mulai | Pengukuran menemukan Hydra selalu ada sejak awal game walau 700 m jauhnya: 42 bagian, 163 draw call, sekitar 0,5 ms per frame. |
 
+Pengukuran (pola v1: 20 makhluk bertarung, hutan penuh, 1920 × 1080, GPU NVIDIA, setiap frame menunggu GPU, median 900 frame, tiga run). Kode fase 4 diukur ulang di hari dan mesin yang sama sebagai pembanding, karena mesin hari ini sekitar 0,4 ms lebih lambat daripada 24 Nov:
+
