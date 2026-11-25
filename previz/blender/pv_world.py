@@ -252,3 +252,4 @@ def build_water(coll):
     nt.links.new(noi.outputs["Fac"], bump.inputs["Height"])
     nt.links.new(bump.outputs["Normal"], b.inputs["Normal"])
     me.materials.append(m)
+    coll.objects.link(ob)
