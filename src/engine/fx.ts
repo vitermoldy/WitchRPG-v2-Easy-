@@ -379,3 +379,4 @@ export class Warnings {
   }
 }
 
+const POOL_VERT = /* glsl */ `
