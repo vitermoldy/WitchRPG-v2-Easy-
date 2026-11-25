@@ -192,3 +192,4 @@ def mat_globe(name, ocean="#2a6aa8", land="#4f8a3a"):
     cr.elements[0].color = rgb(ocean)
     cr.elements[1].position = 0.52
     cr.elements[1].color = rgb(land)
+    L.new(noi.outputs["Fac"], ramp.inputs["Fac"])
