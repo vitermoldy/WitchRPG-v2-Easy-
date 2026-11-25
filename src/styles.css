@@ -1854,3 +1854,4 @@ dialog::backdrop {
   gap: 0.3rem;
   margin: 0.4rem 0 0;
   padding: 0;
+  list-style: none;
