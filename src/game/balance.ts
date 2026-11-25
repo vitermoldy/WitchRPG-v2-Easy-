@@ -1138,3 +1138,4 @@ export const BOSS = {
   feedEvery: 22,
   /** Falling into the void costs this share of max HP. */
   fallDamage: 0.15,
+  hoverHeight: 6.5,
