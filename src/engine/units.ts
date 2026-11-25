@@ -443,3 +443,4 @@ export class UnitSystem {
     const dx = gx - u.pos.x
     const dz = gz - u.pos.z
     const d = Math.hypot(dx, dz)
+    let tx = 0
