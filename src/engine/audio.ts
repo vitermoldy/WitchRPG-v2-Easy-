@@ -398,3 +398,4 @@ export class Sfx {
   // embers in Lembah Bara.
   private amb: { wind: GainNode; windF: BiquadFilterNode; drone: GainNode; insects: GainNode } | null = null
 
+  private startAmbience() {
