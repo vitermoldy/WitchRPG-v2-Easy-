@@ -423,3 +423,4 @@ export class Fight {
         if (d > s.swing.reach + 1.6) continue
         const off = Math.abs(wrap(yawTo(p.pos.x, p.pos.z, u.pos.x, u.pos.z) - yaw))
         if (off > 1.25) continue
+        const score = d + off * 1.5
