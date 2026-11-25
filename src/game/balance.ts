@@ -254,3 +254,4 @@ export interface UnitSpec {
   stun?: number
   /** v2: circles to her side before it attacks. */
   flank?: boolean
+  /** v2: its attacks; without them it has one attack made from the fields above. */
