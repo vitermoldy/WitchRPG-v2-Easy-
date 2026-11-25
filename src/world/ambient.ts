@@ -135,3 +135,4 @@ export class Ambient {
       vertexShader: RIFT_VERT,
       fragmentShader: RIFT_FRAG,
       transparent: true,
+      depthWrite: false,
