@@ -116,3 +116,4 @@ export class Umbra {
         count++
         next = Math.min(next, at - this.time)
       }
+    }
