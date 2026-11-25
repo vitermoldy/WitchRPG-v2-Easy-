@@ -122,3 +122,4 @@ export class Camps {
   private toldShield = false
 
   constructor(g: Game) {
+    this.g = g
