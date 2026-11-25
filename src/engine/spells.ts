@@ -570,3 +570,4 @@ export class Spells {
   }
 
   /** Shared by Chaos Burst and the barrier blast: hurts, shoves and tosses every creature inside. */
+  explode(at: THREE.Vector3, r: number, damage: number, push: number, lift: number) {
