@@ -40,3 +40,5 @@ export class Sfx {
 
   suspend() {
     void this.ctx?.suspend()
+  }
+
