@@ -171,3 +171,5 @@ describe('phase 4 creatures', () => {
     far.sys.spawn('centaur', 'enemy', 4, { x: 0, z: 18 })
     far.step(4)
     expect(far.log.fired).toContain('panah')
+  })
+
