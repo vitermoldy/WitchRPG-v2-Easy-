@@ -57,3 +57,4 @@ export interface IlyraPose {
   /** Staff throw and catch, 0 to 1 while they play, else -1. */
   throwK: number
   catchK: number
+  /** The staff is in her hand (not thrown). */
