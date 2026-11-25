@@ -73,3 +73,4 @@ describe('the Hydra', () => {
   })
 
   it('raises as a Marsekal from a 15% base, once, and only with Kebangkitan Marsekal', () => {
+    expect(UNITS.hydra.rank).toBe('marsekal')
