@@ -282,3 +282,4 @@ export class Spells {
     const dmg = (spread ? SPELL.bolt.spreadDamage : SPELL.bolt.damage) * this.damageMult
     for (const d of dirs) {
       const mesh = new THREE.Mesh(boltGeo, boltMat)
+      mesh.position.copy(from)
