@@ -31,3 +31,4 @@ const FRAG = /* glsl */ `
 export class Seal {
   readonly mesh: THREE.Mesh
   private readonly n: number
+  private readonly mask: Uint8Array
