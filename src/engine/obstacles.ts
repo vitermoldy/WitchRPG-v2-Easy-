@@ -54,3 +54,4 @@ export class Obstacles {
     if (this.seen.length < this.shapes.length) this.seen = new Uint32Array(this.shapes.length * 2)
     const st = ++this.stamp
     const x0 = Math.floor((x - reach) / CELL)
+    const x1 = Math.floor((x + reach) / CELL)
