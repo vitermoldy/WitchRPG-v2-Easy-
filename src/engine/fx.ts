@@ -30,3 +30,4 @@ const VERT = /* glsl */ `
   uniform float uScale;
   varying vec3 vColor;
   varying float vAlpha;
+  void main() {
