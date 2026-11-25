@@ -57,3 +57,4 @@ const MESSAGES = {
     tooMany: 'Terlalu banyak percobaan masuk. Tunggu satu menit, lalu coba lagi.',
   },
   en: {
+    username: 'A username has 3 to 24 characters: letters, digits, dots, underscores or hyphens.',
