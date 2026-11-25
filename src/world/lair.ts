@@ -388,3 +388,4 @@ export class Lair {
     this.attackIn -= dt
     if (her && this.attackIn <= 0 && busy < 2) {
       const idle = this.heads.filter((h): h is Unit => !!h && h.alive && h.state === 'move')
+      if (idle.length) {
