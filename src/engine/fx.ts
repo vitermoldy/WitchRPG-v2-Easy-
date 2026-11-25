@@ -389,3 +389,4 @@ const POOL_FRAG = /* glsl */ `
   uniform float uTime;
   uniform float uOpen;
   uniform float uSeed;
+  void main() {
