@@ -160,3 +160,4 @@ export function heightMap(x: number, y: number): number {
   const lake = smooth(LAKE.r * 1.05, LAKE.r * 0.85, dist(x, y, LAKE.c))
   h = h * (1 - lake) + lake * -7
   // Lembah Bara: a burnt bowl with a rim
+  const b = ZONES[4]
