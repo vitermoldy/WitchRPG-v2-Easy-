@@ -55,3 +55,4 @@ interface Island {
 /**
  * The Hydra's lair on the shore of Danau Hitam, and the Hydra itself (PROMPT boss 1, on the plan of
  * v1's Hollow Warden). Only a witch of Lv 10 can step in: phase 3 is won inside Reality Warp, which
+ * opens at Lv 10. Once the fight starts the lair closes until the Hydra or she falls.
