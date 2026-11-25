@@ -16,3 +16,4 @@ import express from 'express'
  */
 
 export const AUTH_TABLES = [
+  `CREATE TABLE IF NOT EXISTS users (
