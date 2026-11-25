@@ -126,3 +126,4 @@ describe('phase 5 creatures', () => {
     const s = w.sys.spawn('succubus', 'enemy', 10, { x: 0, z: 2.5 })
     w.step(0.2)
     expect(Math.hypot(s.pos.x, s.pos.z)).toBeGreaterThan(UNITS.succubus.blink!.range - 1)
+    expect(w.fx).toContain('blink')
