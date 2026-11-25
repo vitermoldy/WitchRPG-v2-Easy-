@@ -140,3 +140,4 @@ export class Hud {
     this.hurt = Math.min(1, this.hurt + k)
   }
 
+  hit(kill: boolean) {
