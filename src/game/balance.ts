@@ -939,3 +939,4 @@ export const HYDRA = {
   /** From the lair's middle into the lake: where the body lies in phases 1 and 2, and where it crawls to in phase 3 (m). */
   lies: 10,
   crawls: 6,
+  /** Nearest and farthest a head comes down from the body (m); the circle stays in that band, and past it the heads spit. */
