@@ -142,3 +142,5 @@ export function createApi(getPool, database) {
       world: { altars, last: al.find((a) => a.last)?.altar ?? 'pembuka' },
       updatedAt: new Date(w.updated_at).toISOString(),
     }
+  }
+
