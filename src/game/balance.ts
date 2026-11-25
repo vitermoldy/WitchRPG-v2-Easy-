@@ -337,3 +337,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     cooldown: 2,
     shield: 0.85,
   },
+  riftlord: {
