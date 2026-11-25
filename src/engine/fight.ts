@@ -257,3 +257,4 @@ export class Fight {
     return !!this.exec
   }
 
+  /** Her pace this frame: slowed by block, held by an execution, careful during a swing. */
