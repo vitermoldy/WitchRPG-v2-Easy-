@@ -1668,3 +1668,4 @@ dialog::backdrop {
   border: 0;
   background: none;
   color: var(--ink-3);
+  text-decoration: underline;
