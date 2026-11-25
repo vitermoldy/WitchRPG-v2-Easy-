@@ -204,3 +204,4 @@ describe('phase 4 creatures', () => {
     expect(shieldShare(m, 0, 3, 'melee')).toBe(1)
   })
 
+  it('Chimera breathes fire in front, charges from afar, stings behind', () => {
