@@ -51,3 +51,4 @@ export class Player {
   dodges = 0
   hp = 100
   maxHp = 100
+  mana = 100
