@@ -345,3 +345,4 @@ export class WorldMap {
         ctx.arc(x + ox, y, dot, 0, Math.PI * 2)
         ctx.lineWidth = 1.5
         ctx.strokeStyle = 'rgba(12, 8, 9, 0.85)'
+        ctx.fillStyle = KIND_COLOR[k] ?? '#ccc'
