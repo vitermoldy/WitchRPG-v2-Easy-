@@ -1368,3 +1368,4 @@ dialog::backdrop {
 
 .ledger-body h3 {
   display: flex;
+  align-items: baseline;
