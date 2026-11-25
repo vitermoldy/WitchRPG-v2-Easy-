@@ -612,3 +612,4 @@ def b_minotaur(r, pose="idle"):
     arms = {"idle": {"L": (22, 30, 45), "R": (22, 30, 45)}, "windup": {"L": (25, 25, 50), "R": (30, 160, 15)}}[pose]
     J = humanoid(r, 2.75, bulk=1.55, legs="goat", arm_pose=arms, leg_pose={"L": (10, 15), "R": (-8, 10)}, neck_scale=0.6,
                  body_mat="skin", leg_mat="skin", shin_mat="hair", foot_mat="hoof")
+    h = r.parts["head"]
