@@ -164,3 +164,4 @@ def quad(r, H, L, W, D, leg_r, front="paw", hind="paw", body_mat="body", foot_ma
         lh.limb(HH, (HF[0], HF[1], H * 0.08), leg_r * 0.85, leg_r * 0.75, mat=body_mat)
         _foot(lh, (HF[0], HF[1], H * 0.08), HF, leg_r, hind, body_mat, foot_mat)
     Q["neck_base"] = (0, -L * 0.47, H - D * 0.22)
+    Q["tail_base"] = (0, L * 0.53, H * 0.93 - D * 0.3)
