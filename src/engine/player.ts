@@ -145,3 +145,4 @@ export class Player {
     if (this.dodgeT >= 0) {
       const T = MOVE.dodge.time
       const u = Math.min(1, this.dodgeT / T)
+      // 1.5 (1 - u^2) integrates to 1 over the roll: a hard push off, then it settles
