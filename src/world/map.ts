@@ -24,3 +24,4 @@ export const ZONES: Zone[] = [
   { key: 'bara', name: 'Lembah Bara', tier: 'V', levels: [13, 15], c: [330, 330], r: 165, fog: '#d8622c', sight: 230, ground: '#1d1917', sky: '#8a4a34' },
 ]
 
+export const LAKE = { c: [-330, 300] as [number, number], r: 95 }
