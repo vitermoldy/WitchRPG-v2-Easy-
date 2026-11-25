@@ -31,3 +31,4 @@ describe('over-the-shoulder camera', () => {
 
   it('blends to the closer, narrower aim view while the right button is held', () => {
     const rig = new CameraRig()
+    rig.pitch = 0
