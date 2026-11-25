@@ -184,3 +184,5 @@ export function inWaterRect(x: number, y: number) {
   return x > WATER_RECT[0] && x < WATER_RECT[2] && y > WATER_RECT[1] && y < WATER_RECT[3]
 }
 
+// ------------------------------------------------------------ zones, paths
+
