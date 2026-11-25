@@ -478,3 +478,4 @@ class Rig:
             p.bm.free()
             for m in p.mats:
                 me.materials.append(m)
+            ob = bpy.data.objects.new(f"{self.key}.{name}", me)
