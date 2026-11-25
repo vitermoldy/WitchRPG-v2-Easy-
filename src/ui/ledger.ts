@@ -63,3 +63,4 @@ export class Ledger {
     this.dlg.addEventListener(
       'toggle',
       (e) => {
+        const d = e.target as HTMLDetailsElement
