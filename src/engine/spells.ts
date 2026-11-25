@@ -472,3 +472,4 @@ export class Spells {
     this.tendrilLight?.position.copy(to)
   }
 
+  /** Lets go: thrown at the aim point when `throwIt`, else dropped where it hangs. */
