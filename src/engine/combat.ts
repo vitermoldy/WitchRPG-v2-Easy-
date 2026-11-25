@@ -12,3 +12,4 @@ export type Defense = 'parry' | 'block' | 'dodge' | 'hit'
  */
 export function resolveDefense(now: number, strike: 'ring' | 'line', invulnerable: boolean, blocking: boolean, blockPressedAt: number, angle: number): Defense {
   if (invulnerable) return 'dodge'
+  if (strike === 'line') return 'hit'
