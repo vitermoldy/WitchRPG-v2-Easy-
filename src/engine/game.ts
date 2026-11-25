@@ -939,3 +939,4 @@ export class Game implements UnitHost {
       dirZ: f.z * steer.y + r.z * steer.x,
     }, aiming)
 
+    const target = this.lockon.current
