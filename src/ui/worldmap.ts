@@ -139,3 +139,4 @@ export class WorldMap {
       const sealed = g.seal.sealedAt(camp.pos.x, camp.pos.z) && !g.seal.isOpen
       const left = Math.max(0, camp.respawnAt - g.camps.clock)
       const down = camp.state === 'cleared'
+      list.push({
