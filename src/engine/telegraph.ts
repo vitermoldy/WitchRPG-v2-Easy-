@@ -77,3 +77,4 @@ export class Telegraphs {
   private readonly items: Item[] = []
   private readonly byUnit = new Map<number, Item>()
   private readonly height: HeightFn
+  private time = 0
