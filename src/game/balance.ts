@@ -857,3 +857,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     attacks: [
       { name: 'hantam badai', strike: 'ring', windup: 1.3, recover: 1.2, range: 7, ring: 4.6 },
       { name: 'lecut ular', strike: 'line', windup: 0.9, recover: 1.2, range: 15, minRange: 4, lungeSpeed: 10, lungeTime: 0.6, cooldown: 5 },
+      { name: 'petir', strike: 'ring', windup: 1, recover: 0.9, range: 32, minRange: 8, ring: 2.4, shot: { speed: 18, gravity: 8, radius: 0.5 }, cooldown: 3 },
