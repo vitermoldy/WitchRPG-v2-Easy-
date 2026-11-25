@@ -42,3 +42,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
     pass.autocomplete = next === 'in' ? 'current-password' : 'new-password'
     $('gate-pass-hint').hidden = next === 'in'
     $('gate-switch-text').textContent = next === 'in' ? 'Belum punya akun?' : 'Sudah punya akun?'
+    $('gate-switch').textContent = next === 'in' ? 'Daftar' : 'Masuk'
