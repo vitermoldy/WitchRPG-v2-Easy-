@@ -699,3 +699,4 @@ const poseBeast: PoseFn = (p, u, t) => {
     p.rot('leg_FL', -55)
     p.rot('leg_FR', -50)
     p.rot('leg_HL', 45)
+    p.rot('leg_HR', 40)
