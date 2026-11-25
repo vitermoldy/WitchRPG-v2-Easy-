@@ -377,3 +377,4 @@ export class Lair {
   }
 
   private headsFight(dt: number) {
+    const g = this.g
