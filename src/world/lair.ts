@@ -489,3 +489,4 @@ export class Lair {
     const to = this.bodyAt(3)
     const step = Math.min(1, dt * 0.6)
     body.pos.x += (to.x - body.pos.x) * step
+    body.pos.z += (to.z - body.pos.z) * step
