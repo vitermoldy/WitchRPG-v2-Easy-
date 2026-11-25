@@ -489,3 +489,4 @@ export class Game implements UnitHost {
   }
 
   start() {
+    // a witch who has lit other altars enters the forest at the one she last rose at
