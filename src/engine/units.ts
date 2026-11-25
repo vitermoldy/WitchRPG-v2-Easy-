@@ -24,3 +24,4 @@ export interface UnitHost {
   /** Her feet, her size, and whether she can be targeted. */
   readonly foe: Foe
   /** Ground no creature may step to from (fx, fz): deep water, past the map edge, a seal. */
+  blocked(x: number, z: number, fx?: number, fz?: number): boolean
