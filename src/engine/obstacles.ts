@@ -7,3 +7,4 @@ export const CYL = 0
 export const SPHERE = 1
 
 export interface Shape {
+  kind: typeof CYL | typeof SPHERE
