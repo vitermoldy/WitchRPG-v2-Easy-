@@ -283,3 +283,4 @@ def build_valley(dunia):
         t1 = C.text(local, title, p, size=s * 0.03, color="#fbf7f2", strength=1.4, align="CENTER", rot=(0, 0, 0), name=f"label.{title}")
         t1.rotation_euler = rot
         t2 = C.text(local, sub, p, size=s * 0.019, color="#f0e2cc", strength=1.0, align="CENTER", rot=(0, 0, 0), name=f"label2.{title}")
+        t2.rotation_euler = rot
