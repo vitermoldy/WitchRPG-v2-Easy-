@@ -872,3 +872,4 @@ export class Game implements UnitHost {
 
   private prof(key: string, from: number) {
     if (!this.debug) return
+    const ms = performance.now() - from
