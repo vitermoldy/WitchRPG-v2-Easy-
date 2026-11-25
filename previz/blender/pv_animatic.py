@@ -58,3 +58,4 @@ def build(dunia, res=(1280, 720), samples=24):
     naga_i = C.instance(naga.coll, local, loc=(Np.x, Np.y, -3.4), rot_z=S.yaw_to((Sp - Np).normalized()), name="naga.anim")
     hy = S.actor("aktor.hydra.anim", "hydra")
     hy_i = C.instance(hy.coll, local, loc=(H.x, H.y, -17.0), rot_z=S.yaw_to(-f), name="hydra.anim")
+    foam = C.collection("animatic.busa", local)
