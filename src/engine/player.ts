@@ -67,3 +67,4 @@ export class Player {
   landRefused = false
   /** A short scripted push (a swing's step, a parry's recoil) that overrides steering while it lasts. */
   private nudgeX = 0
+  private nudgeZ = 0
