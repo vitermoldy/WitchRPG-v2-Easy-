@@ -142,3 +142,4 @@ export class Projectiles {
       // a glob: it bursts on its circle and hurts whoever stands inside
       if (s.pos.y <= g.height(s.pos.x, s.pos.z) || (s.vel.y < 0 && s.pos.y <= s.aim.y) || s.life <= 0) {
         const r = ringOf(s.atk)
+        // a glob bursts on the ground: high in the air she is out of it
