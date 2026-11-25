@@ -21,3 +21,4 @@ export const config = {
     port: num('DB_PORT', 3306),
     user: str('DB_USER', 'root'),
     password: str('DB_PASSWORD', ''),
+    database: str('DB_NAME', 'witch_rpg_v2_easy'),
