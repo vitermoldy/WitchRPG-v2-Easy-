@@ -117,3 +117,4 @@ export const SKILLS: SkillDef[] = [
     effect: 'Perintah Serang membuat semua bayangan memukul target yang sama.',
     upgrade: 'Damage bayangan pada target itu +20%.',
     built: true,
+  },
