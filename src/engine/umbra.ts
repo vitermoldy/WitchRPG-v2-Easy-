@@ -490,3 +490,4 @@ export class Umbra {
       this.downUntil.set(u.record.id, this.time + RITE.reform)
       g.hud.message(`${u.record.name} tumbang. Ia terbentuk kembali dalam ${RITE.reform} detik.`, 'umbra')
     }
+    g.smoke.emit({ pos: u.pos, count: 18, color: 0x170a28, life: 1.3, size: 1, sizeEnd: 1.8, speed: 1.2, vel: { x: 0, y: 1.2, z: 0 }, jitter: 0.5, alpha: 0.8 })
