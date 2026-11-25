@@ -542,3 +542,4 @@ export class UnitSystem {
     const dx = u.pos.x - p.pos.x
     const dz = u.pos.z - p.pos.z
     const d = Math.hypot(dx, dz) || 1
+    if (p.alive && d < 9) {
