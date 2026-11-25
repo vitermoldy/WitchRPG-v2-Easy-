@@ -105,3 +105,4 @@ function common(p: Poser, u: Unit, t: number, limbs: string[]): boolean {
   }
   if (u.state === 'finishing') {
     p.body(0, -14, 6 * u.fallSide)
+    for (const n of limbs) p.rot(n, -25)
