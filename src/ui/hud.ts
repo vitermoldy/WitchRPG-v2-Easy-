@@ -162,3 +162,4 @@ export class Hud {
 
   private pulse(id: string) {
     const el = $(id)
+    el.classList.remove('on')
