@@ -122,3 +122,4 @@ export class Terrain {
     }
     const vcount = (n + 1) * (n + 1) + 4 * (n + 1)
     const pos = new Float32Array(vcount * 3)
+    const nor = new Float32Array(vcount * 3)
