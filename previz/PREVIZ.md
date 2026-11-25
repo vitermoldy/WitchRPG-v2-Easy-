@@ -125,3 +125,4 @@ Makhluk memakai warna dari gambar referensinya (keputusan pemilik setelah previz
 | Hydra | hijau abu `#56664c`, perut `#a0a884` | sirip kepala `#a0aca0`, duri `#3e4a38` |
 | Cerberus besar | ungu keabuan `#9a92ae` | kalung hitam `#1c1c20` berduri perak, mulut merah |
 | Lilith | kulit `#e2b9a2` | gaun ungu `#4b3b7c`, naga ular merah `#b02a20`, sayap `#3a1a20` |
+| Typhon | emas jingga `#d0903a` | janggut abu `#4a4a4a`, sayap abu `#6a6a72`, kaki ular `#b07a30` |
