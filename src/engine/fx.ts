@@ -304,3 +304,4 @@ export class Rings {
     ;(ring.mesh.material as THREE.MeshBasicMaterial).color.set(color).multiplyScalar(2.2)
     ring.t = 0
     ring.dur = dur
+    ring.r0 = r0
