@@ -23,3 +23,5 @@ export interface CamPose {
   pos: Vec
   dir: Vec
   fov: number
+}
+
