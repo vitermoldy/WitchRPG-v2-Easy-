@@ -616,3 +616,4 @@ export class Spells {
     for (const u of g.units.units) {
       u.slow = 1
       u.vulnerable = 0
+    }
