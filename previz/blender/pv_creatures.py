@@ -408,3 +408,4 @@ def b_ilyra(r, pose="idle"):
     }
     J = humanoid(r, 1.7, bulk=0.92, female=True, arm_pose=poses.get(pose, poses["idle"]), body_mat="cloth")
     z = J["z"]
+    tor, pel, head = r.parts["torso"], r.parts["pelvis"], r.parts["head"]
