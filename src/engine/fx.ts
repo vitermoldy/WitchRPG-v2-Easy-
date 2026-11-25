@@ -11,3 +11,4 @@ export interface Emit {
   life: number
   lifeJitter?: number
   size: number
+  sizeEnd?: number
