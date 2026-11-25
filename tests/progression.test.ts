@@ -188,3 +188,4 @@ describe('version 1: tiers, ranks and growth', () => {
     const tough = unitStats('husk', 9, false).hp / derive(newProfile().stats, 9).damageMult
     expect(tough / unitStats('husk', 1, false).hp).toBeLessThan(2.5)
   })
+  it('a fresh witch stops being fresh after a boss kill', () => {
