@@ -245,3 +245,4 @@ export class LightPool {
     slot.light.intensity = 0
   }
 
+  update(dt: number) {
