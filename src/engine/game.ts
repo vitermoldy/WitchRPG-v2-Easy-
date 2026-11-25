@@ -390,3 +390,4 @@ export class Game implements UnitHost {
     this.ground = {
       height: (x, z) => this.height(x, z),
       obstacles: this.obstacles,
+      blocked: (x, z, fx, fz, air) => {
