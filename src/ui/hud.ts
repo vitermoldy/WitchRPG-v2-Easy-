@@ -199,3 +199,4 @@ export class Hud {
     this.set('mana-text', 'text', g.spells.overloaded ? 'bebas' : `${Math.floor(p.mana)} / ${Math.round(p.maxMana)}`)
     this.set('mana-row', 'class', this.manaFlash > 0 ? 'vital short' : 'vital')
     this.set('hp-row', 'class', p.poisonT > 0 ? 'vital poisoned' : 'vital')
+    this.root.classList.toggle('stone', p.petrified > 0)
