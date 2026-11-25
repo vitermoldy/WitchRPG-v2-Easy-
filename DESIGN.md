@@ -115,3 +115,5 @@ Tur fitur (setiap skill sekali di game, `?debug`, Lv 10): Hex Bolt melukai Imp d
 | Material bayangan | Warna asli diubah menjadi ungu gelap menurut terangnya, mata dan urat yang menyala menjadi ungu Umbra, sedikit emisi ungu supaya siluetnya terbaca di hutan gelap. Prajurit bayangan tidak menjatuhkan bayangan | Prompt: model makhluk itu dengan material ungu. Tanpa bayangan jatuh cocok dengan temanya dan mengeluarkan pasukan dari pass bayangan. |
 | Biaya simulasi | Bayangan mencari musuh dari daftar musuh yang hidup bila daftar itu lebih pendek dari sel grid yang dicakup jangkauannya. Cek tabrakan pohon dan batu hanya memeriksa sel yang disentuh benda itu sendiri (sebelumnya kotak 8 m lebih lebar, juga untuk kamera dan Ilyra). Tinggi tanah unit hanya dihitung ulang bila ia bergeser. Kolam cahaya v1 dikecilkan dari 10 ke 4 lampu | Ditemukan dengan profil per bagian di `?debug`: simulasi 500 bayangan turun dari 3,35 ke sekitar 1,1 ms per frame. |
 
+Hasil ukur (pola v1: 20 makhluk yang terus bertarung ditambah N bayangan di medan, hutan penuh, 1920 × 1080, RTX 5070 Ti Laptop lewat ANGLE D3D11, setiap frame menunggu GPU, median 900 frame; kisaran dari 4 run):
+
