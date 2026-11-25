@@ -273,3 +273,4 @@ export class Umbra {
     while (this.calls.length && this.calls[0].at <= this.time) {
       const c = this.calls.shift()!
       if (!g.profile.shadows.includes(c.rec)) continue
+      this.spawnShadow(c.rec, c.pos, c.slot)
