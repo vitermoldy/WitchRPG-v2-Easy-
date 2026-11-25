@@ -9,3 +9,5 @@ export type SkillId =
   | 'swap'
   | 'focus'
   | 'general'
+  | 'marshal'
+
