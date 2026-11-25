@@ -28,3 +28,4 @@ describe('the save', () => {
     buyUpgrade(p0, 'hexBolt')
     addShadow(p0, 'minotaur', 3)
     addShadow(p0, 'naga', 2)
+    const p = normalizeProfile(JSON.parse(JSON.stringify(p0)))!
