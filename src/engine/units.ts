@@ -255,3 +255,4 @@ export const RING_RADIUS = 1.4
 export const ringOf = (atk: AttackSpec) => atk.ring ?? RING_RADIUS
 
 /**
+ * Share of a blow that gets through a front shield (the Minotaur's 85%): blows, bolts and blasts from
