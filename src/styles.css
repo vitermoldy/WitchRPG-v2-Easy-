@@ -809,3 +809,4 @@ button {
   left: var(--gutter);
   bottom: var(--gutter);
   display: grid;
+  gap: 0.35rem;
