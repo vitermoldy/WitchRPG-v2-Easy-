@@ -290,3 +290,4 @@ export class Hud {
     this.root.classList.toggle('boss', !!boss)
     if (!boss) return
     const hydra = boss.kind === 'hydra'
+    this.set('boss-name', 'text', hydra ? `Hydra Lv ${boss.level}, fase ${g.lair.phase} dari 3` : `${boss.spec.name} Lv ${boss.level}${boss.staggered ? ', limbung' : ''}`)
