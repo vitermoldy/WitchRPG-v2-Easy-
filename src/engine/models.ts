@@ -102,3 +102,4 @@ export class IlyraModel {
     this.pivot.add(model)
     this.root.add(this.pivot)
     model.traverse((o) => {
+      this.parts[o.name] = o
