@@ -236,3 +236,4 @@ export class Forest {
 
   constructor(trees: Tree[], visibleRange = 330) {
     this.trees = trees
+    this.visibleRange = visibleRange
