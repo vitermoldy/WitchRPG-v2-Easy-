@@ -402,3 +402,4 @@ class Part:
                 ring.append(self.bm.verts.new(q - off))
             rings.append(ring)
             allv += ring
+        for A, Bv in zip(rings, rings[1:]):
