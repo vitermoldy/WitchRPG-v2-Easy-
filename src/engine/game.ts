@@ -76,3 +76,4 @@ export class Game implements UnitHost {
   readonly fight: Fight
   readonly spells: Spells
   readonly umbra: Umbra
+  readonly hud: Hud
