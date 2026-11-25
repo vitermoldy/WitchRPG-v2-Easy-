@@ -7,3 +7,5 @@ export class Sfx {
   private master: GainNode | null = null
   private noiseBuf: AudioBuffer | null = null
   private gripNodes: { osc: OscillatorNode; osc2: OscillatorNode; gain: GainNode } | null = null
+  private volume = 0.7
+
