@@ -153,3 +153,4 @@ export class IlyraModel {
     const h = this.parts['hand_' + side]
     if (!h) return out.copy(this.root.position).setY(this.root.position.y + 1.2)
     this.root.updateMatrixWorld(true)
+    return h.getWorldPosition(out)
