@@ -758,3 +758,4 @@ def compositor(sc, strength=0.6, threshold=1.2, vignette=True):
         mr.inputs["To Min"].default_value = 0.55
         mr.inputs["To Max"].default_value = 1.0
         L.new(bl.outputs["Image"], mr.inputs["Value"])
+        L.new(last, mix.inputs["A"])
