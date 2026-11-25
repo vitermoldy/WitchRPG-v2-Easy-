@@ -106,3 +106,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
   }
 
   /** Puts a witch from the server in place of the one in this browser, before she enters the forest. */
+  function adopt(remote: Profile): void {
