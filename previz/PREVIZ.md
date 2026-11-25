@@ -127,3 +127,4 @@ Makhluk memakai warna dari gambar referensinya (keputusan pemilik setelah previz
 | Lilith | kulit `#e2b9a2` | gaun ungu `#4b3b7c`, naga ular merah `#b02a20`, sayap `#3a1a20` |
 | Typhon | emas jingga `#d0903a` | janggut abu `#4a4a4a`, sayap abu `#6a6a72`, kaki ular `#b07a30` |
 | Samael | kulit `#e6c8b0` | rambut putih, sayap putih keemasan `#f4eee0`, jubah merah `#a02a20`, pedang bercahaya |
+| Atlas | kulit `#c8905a` | janggut putih, cawat putih, bola dunia biru `#2a6aa8` dan hijau `#4f8a3a` |
