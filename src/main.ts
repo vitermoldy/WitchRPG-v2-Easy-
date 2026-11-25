@@ -63,3 +63,4 @@ async function boot() {
   }
   $('btn-enter').addEventListener('click', enter)
 
+  const pr = game.profile
