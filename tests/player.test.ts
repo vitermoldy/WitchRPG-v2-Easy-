@@ -110,3 +110,4 @@ describe('Ilyra on foot', () => {
 
   it('waits out the cooldown before the next roll', () => {
     const p = new Player()
+    p.update(1 / 120, { ...idle, dodge: true }, 0, null, false, flat)
