@@ -143,3 +143,5 @@ export class Hud {
   hit(kill: boolean) {
     this.hitTime = kill ? 0.25 : 0.1
     this.hitmark.className = kill ? 'hitmark kill' : 'hitmark on'
+  }
+
