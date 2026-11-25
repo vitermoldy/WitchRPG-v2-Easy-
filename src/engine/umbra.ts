@@ -580,3 +580,4 @@ export class Umbra {
     let pick = shadows[0]
     let ba = Infinity
     for (const s of shadows) {
+      const a = fwd.angleTo(s.center().sub(cam))
