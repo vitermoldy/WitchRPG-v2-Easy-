@@ -673,3 +673,4 @@ def build_rift(coll):
     """A tear in the sky over Lembah Bara."""
     m_out = C.mat_emit("rift_edge", "#ff5a2a", 12.0)
     m_in = C.mat_emit("rift_core", "#ffd2a0", 30.0)
+    bc = ZONES[4]["c"]
