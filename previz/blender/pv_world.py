@@ -580,3 +580,4 @@ def build_fog(coll):
         me.materials.append(fog_material(z))
         ob = bpy.data.objects.new(f"fog_{z['key']}", me)
         base = {"tebing": ground_z(*z["c"]) - 4, "danau": 2.0}.get(z["key"], ground_z(*z["c"]))
+        ob.location = (z["c"][0], z["c"][1], base - 2)
