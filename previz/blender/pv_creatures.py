@@ -169,3 +169,4 @@ def quad(r, H, L, W, D, leg_r, front="paw", hind="paw", body_mat="body", foot_ma
     return Q
 
 
+def _foot(part, wrist, ground, r, kind, mat="body", foot_mat="horn"):
