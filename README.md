@@ -45,3 +45,4 @@ Salin `.env.example` menjadi `.env` dan isi akun MySQL. Server membuat database 
 
 | Gerak dan kamera | |
 | --- | --- |
+| WASD, Shift | Jalan ke arah kamera, lari |
