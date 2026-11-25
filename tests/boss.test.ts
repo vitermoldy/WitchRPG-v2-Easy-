@@ -107,3 +107,4 @@ describe('phase 5 creatures', () => {
     expect(ph.state).toBe('ashes')
     expect(ph.targetable).toBe(false)
     w.step(UNITS.phoenix.rebirth!.ashes + 0.1)
+    expect(ph.reborn).toBe(true)
