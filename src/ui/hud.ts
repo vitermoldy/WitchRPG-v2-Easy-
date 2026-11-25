@@ -185,3 +185,4 @@ export class Hud {
     }
     if (this.hitTime > 0) {
       this.hitTime -= dt
+      if (this.hitTime <= 0) this.hitmark.className = 'hitmark'
