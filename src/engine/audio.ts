@@ -141,3 +141,4 @@ export class Sfx {
   }
 
   snare() {
+    if (!this.ok()) return
