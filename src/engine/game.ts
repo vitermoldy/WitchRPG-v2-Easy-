@@ -215,3 +215,4 @@ export class Game implements UnitHost {
     return this.lair ? this.lair.height(x, z, base) : base
   }
 
+  /** Deep water and the map edge; then the seal on zones IV and V, and the lair's edge. */
