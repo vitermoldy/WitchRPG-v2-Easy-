@@ -81,3 +81,4 @@ export class LockOn {
     return !!best
   }
 
+  /** visible: whether the target can be seen from the camera this frame. */
