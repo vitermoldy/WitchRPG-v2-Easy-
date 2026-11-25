@@ -1217,3 +1217,4 @@ export class Game implements UnitHost {
   debugElite(kind: V2Kind, trait: EliteTrait | null = null, level = 10, dist = 10) {
     const p = this.player.pos
     const u = this.units.spawn(kind, 'enemy', level, { x: p.x, z: p.z - dist })
+    u.makeElite(trait ?? ELITE.traits[Math.floor(Math.random() * ELITE.traits.length)])
