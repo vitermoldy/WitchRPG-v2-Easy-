@@ -472,3 +472,4 @@ export class Game implements UnitHost {
     this.placeAt(x, z, yawTo(0, 0, fx, -fy))
   }
 
+  /** Puts her at a world point facing `yaw`, with the camera behind her. */
