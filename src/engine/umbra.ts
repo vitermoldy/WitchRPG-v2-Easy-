@@ -339,3 +339,4 @@ export class Umbra {
 
     // command wheel: hold Z, move the mouse toward an order, let go
     if (canAct && inp.wheelPressed) {
+      this.wheelOpen = true
