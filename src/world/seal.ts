@@ -43,3 +43,4 @@ export class Seal {
     this.mask = new Uint8Array(this.n * this.n)
     for (let i = 0; i < this.n; i++) {
       for (let j = 0; j < this.n; j++) {
+        const mx = -PLAY_HALF + (i + 0.5) * CELL
