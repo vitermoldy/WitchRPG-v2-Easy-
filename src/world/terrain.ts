@@ -31,3 +31,4 @@ function groundColour(x: number, y: number, h: number, slope: number, out: THREE
   out.setRGB(0, 0, 0)
   for (let i = 0; i < GROUND.length; i++) {
     out.r += GROUND[i].r * w[i]
+    out.g += GROUND[i].g * w[i]
