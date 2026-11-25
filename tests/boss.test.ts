@@ -79,3 +79,4 @@ describe('the Hydra', () => {
     expect(riteBlock(p, 'hydra')).not.toBeNull()
     p.level = 10
     expect(riteBlock(p, 'hydra')).toBeNull()
+    // the v1 formula: 0.15 + 0.02 x (10 - 12) + 0.01 x 5 = 0.16
