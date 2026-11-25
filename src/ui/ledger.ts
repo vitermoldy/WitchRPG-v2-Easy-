@@ -208,3 +208,4 @@ export class Ledger {
             <ul class="room-members">${shown
               .map(
                 (s) => `<li class="room-item">
+              <p class="room-name">${s.name}</p>
