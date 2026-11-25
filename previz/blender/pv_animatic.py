@@ -26,3 +26,4 @@ def seg(t, a, b):
     return ease((t - a) / (b - a))
 
 
+def look_quat(d):
