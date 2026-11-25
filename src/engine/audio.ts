@@ -310,3 +310,4 @@ export class Sfx {
   }
 
   reflect() {
+    if (!this.ok()) return
