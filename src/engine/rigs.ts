@@ -86,3 +86,4 @@ function common(p: Poser, u: Unit, t: number, limbs: string[]): boolean {
     const k = ease(u.deadT / 0.45)
     p.body(u.radius * 0.55 * k, 8 * k, 90 * u.fallSide * k)
     for (const n of limbs) p.rot(n, 15 * k)
+    return true
