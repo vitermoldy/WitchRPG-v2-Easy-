@@ -46,3 +46,4 @@ describe('stun meter and execution', () => {
     expect(m.value).toBe(0)
     m.add(20)
     m.update(COMBAT.stunDrainDelay + 1)
+    expect(m.value).toBeLessThan(20)
