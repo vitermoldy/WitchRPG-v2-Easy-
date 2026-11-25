@@ -33,3 +33,4 @@ describe('the server checks a witch before it keeps her', () => {
   })
 
   it('refuses numbers out of bounds, unknown shadows and duplicate ids', () => {
+    expect(cleanProfile({ ...newProfile(), level: 31 }, NOW).error).toBeTruthy()
