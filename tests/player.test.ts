@@ -31,3 +31,4 @@ describe('Ilyra in the air (B)', () => {
     const p = new Player()
     run(p, B, 1 / 120)
     run(p, { ...idle, y: 1 }, 2)
+    expect(p.speed).toBeCloseTo(MOVE.fly.speed, 0)
