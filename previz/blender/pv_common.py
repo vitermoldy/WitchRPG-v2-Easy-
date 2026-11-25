@@ -602,3 +602,4 @@ def camera(sc, name, loc, look_at=None, rot=None, lens_vfov=None, ortho=None, cl
     return ob
 
 
+def game_camera(pos, yaw_dir, dist=3.4, shoulder=0.85, height=1.65, pitch=-8.0):
