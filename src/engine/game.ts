@@ -420,3 +420,4 @@ export class Game implements UnitHost {
     progress('Menanam hutan')
     await frame()
     const trees = scatter()
+    addColliders(trees, this.obstacles)
