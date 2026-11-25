@@ -92,3 +92,4 @@ const RIFT_VERT = /* glsl */ `
 
 export class Ambient {
   readonly points: THREE.Points
+  readonly rift: THREE.Mesh
