@@ -102,3 +102,4 @@ def height(x, y):
     db = _dist(x, y, b["c"])
     h = h - 7 * smooth(b["r"] * 0.9, b["r"] * 0.2, db) + 6 * smooth(b["r"] * 0.7, b["r"] * 1.0, db) * smooth(b["r"] * 1.4, b["r"] * 1.0, db)
     # mountain ring closing the valley
+    ring = smooth(440, 600, np.maximum(np.abs(x), np.abs(y)) + 30 * fbm(x / 120, y / 120, 3, 4.0))
