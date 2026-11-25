@@ -73,3 +73,4 @@ export const SKILLS: SkillDef[] = [
     branch: 'chaos',
     name: 'Hex Barrier',
     key: 'X',
+    unlock: 7,
