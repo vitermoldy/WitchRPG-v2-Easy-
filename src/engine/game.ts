@@ -1156,3 +1156,4 @@ export class Game implements UnitHost {
     this.botDodge = true
   }
 
+  toggleLock() {
