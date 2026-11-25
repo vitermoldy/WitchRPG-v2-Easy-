@@ -497,3 +497,4 @@ button {
   justify-content: center;
   gap: 0.4rem 1.4rem;
   width: max-content;
+  /* between the vitals and the army panel, so it covers neither */
