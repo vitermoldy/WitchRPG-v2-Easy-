@@ -864,3 +864,6 @@ def b_dragon(r):
     tail_tube(tl, tp, 0.75, 0.08, seg=9)
     tip = V(tp[-1])
     tl.poly([tip, tip + Vector((0.5, 0.6, 0.0)), tip + Vector((0.0, 1.2, 0.05)), tip + Vector((-0.5, 0.6, 0.0))], mat="accent")
+    spikes(tl, [lerp(tp[0], tp[-1], i / 7) + Vector((0, 0, 0.35 * (1 - i / 7))) for i in range(8)], 0.45, 0.1, mat="accent", tilt=(0, 0.6, 1))
+
+
