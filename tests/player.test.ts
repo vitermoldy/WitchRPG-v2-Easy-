@@ -67,3 +67,4 @@ describe('Ilyra on foot', () => {
     const p = new Player()
     run(p, { ...idle, y: 1 }, 1)
     // camera yaw 0 looks north (-z)
+    expect(p.pos.z).toBeLessThan(-3.5)
