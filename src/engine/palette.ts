@@ -9,3 +9,4 @@ export const COLOR = {
   /** Rift creatures: amber eyes and cracks, so they never read as the witch's red or violet. */
   rift: 0xffa53d,
   bone: 0xefe6df,
+  ash: 0x5d5557,
