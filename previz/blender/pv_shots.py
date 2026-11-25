@@ -177,3 +177,4 @@ def mat_ring(name, color, strength, inner=0.82, alpha=0.9, fill=0.08):
     L.new(al.outputs[0], mix.inputs["Fac"])
     L.new(tr.outputs[0], mix.inputs[1])
     L.new(em.outputs[0], mix.inputs[2])
+    L.new(mix.outputs[0], out.inputs["Surface"])
