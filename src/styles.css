@@ -1836,3 +1836,4 @@ dialog::backdrop {
 .map-head,
 .map-row {
   display: flex;
+  flex-wrap: wrap;
