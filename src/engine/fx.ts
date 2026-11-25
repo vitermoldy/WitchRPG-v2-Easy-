@@ -309,3 +309,4 @@ export class Rings {
   }
 
   update(dt: number) {
+    for (const r of this.pool) {
