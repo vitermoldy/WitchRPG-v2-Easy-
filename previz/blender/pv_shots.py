@@ -80,3 +80,4 @@ def place_game_camera(sc, P, f, mode="normal", name="kamera", **over):
     return cam
 
 
+def lock_on(cam, target, third=(1 / 3, 1 / 3)):
