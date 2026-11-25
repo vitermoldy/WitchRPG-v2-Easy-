@@ -29,3 +29,4 @@ def _rz(v, deg):
     return Matrix.Rotation(math.radians(deg), 3, "Z") @ Vector(v)
 
 
+SIDES = ((1, "L"), (-1, "R"))
