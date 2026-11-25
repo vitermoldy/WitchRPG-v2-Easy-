@@ -119,3 +119,4 @@ class Staff {
       const ground = g.ground.height(this.pos.x, this.pos.z)
       if (hitU && hitU.f <= wall) {
         const u = hitU.u
+        this.pos.lerpVectors(this.prev, this.pos, hitU.f)
