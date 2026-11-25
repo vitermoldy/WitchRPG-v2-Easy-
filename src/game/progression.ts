@@ -40,3 +40,5 @@ export interface Settings {
   detail: number
   /** Seen through her eyes (P) instead of over her shoulder. */
   firstPerson: boolean
+}
+
