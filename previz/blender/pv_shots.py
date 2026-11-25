@@ -605,3 +605,4 @@ def build_board(lib_colls, stats):
         w, h = max(rx) - min(rx), hi.z - lo.z
         s = min(4.1 / w, 3.55 / h)
         cx = x0 + 6.85 - (min(rx) + w / 2) * s
+        C.instance(lc, coll, loc=(cx, -2, z0 - 4.05 - lo.z * s), rot_z=rot, scale=s)
