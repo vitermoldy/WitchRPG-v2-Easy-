@@ -21,3 +21,4 @@ export interface SkillDef {
   unlock: number
   effect: string
   upgrade: string
+  /** False for skills the GDD lists that this prototype does not play yet. */
