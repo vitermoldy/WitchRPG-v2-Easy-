@@ -187,3 +187,4 @@ class Staff {
     n.normalize()
     this.q.setFromUnitVectors(Y, n)
     if (spinning) {
+      // end over end about the axis across its flight
