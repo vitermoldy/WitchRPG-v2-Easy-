@@ -1146,3 +1146,4 @@ export class Game implements UnitHost {
       staff: this.fight.staff.state,
       fight: { ...this.fight.stats },
       umbra: { ...this.umbra.stats },
+      game: { ...this.counts },
