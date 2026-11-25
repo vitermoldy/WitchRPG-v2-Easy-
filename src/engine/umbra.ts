@@ -271,3 +271,4 @@ export class Umbra {
     }
     // shadows of a call rise one after another
     while (this.calls.length && this.calls[0].at <= this.time) {
+      const c = this.calls.shift()!
