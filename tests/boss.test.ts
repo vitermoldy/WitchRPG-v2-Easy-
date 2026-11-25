@@ -49,3 +49,4 @@ describe('the Hydra', () => {
     expect(HYDRA.boltShare).toBe(0.1)
     expect(hydraShare(2, 'impact', false)).toBe(1.5)
     expect(hydraShare(2, 'staff', false)).toBe(1.5)
+    expect(hydraShare(2, 'melee', false)).toBe(1)
