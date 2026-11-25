@@ -68,3 +68,4 @@ def humanoid(r, H, bulk=1.0, legs="human", female=False, off=(0, 0, 0), arm_pose
     tor.limb(P(0, 0.005 * H, z["sh"]), P(0, -0.012 * H, z["neck"] + 0.035 * H * neck_scale), H * 0.034 * bulk, H * 0.028 * bulk, mat=body_mat)
     if bulk > 1.2:
         # pectorals and a broad back for the brutes
+        for s in (1, -1):
