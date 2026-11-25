@@ -116,3 +116,5 @@ function rock(seed: number, r: [number, number, number], color: THREE.Color): TH
     p.setXYZ(i, p.getX(i) * r[0] * k, p.getY(i) * r[2] * k + r[2] * 0.35, p.getZ(i) * r[1] * k)
   }
   return part(g, color)
+}
+
