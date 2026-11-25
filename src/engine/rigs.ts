@@ -624,3 +624,4 @@ const posePhoenix: PoseFn = (p, u, t) => {
  * heads of its own, slams with the middle head when it strikes.
  */
 const poseHydra: PoseFn = (p, u, t) => {
+  if (u.state === 'dead') {
