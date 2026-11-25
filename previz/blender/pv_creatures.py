@@ -187,3 +187,4 @@ def _foot(part, wrist, ground, r, kind, mat="body", foot_mat="horn"):
 
 
 def wing_frame(root, s, raise_deg, sweep_deg, tilt=60):
+    """u: out along the leading edge; v: down the chord. tilt 0 lays the chord back (flight), 90 hangs it down,
