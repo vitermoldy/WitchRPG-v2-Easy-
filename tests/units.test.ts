@@ -81,3 +81,4 @@ describe('creature attacks', () => {
     expect(most).toBeGreaterThan(0)
   })
 
+  it('sends a Hellhound along its line: in the line she is hit, beside it she is not', () => {
