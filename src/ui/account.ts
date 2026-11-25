@@ -223,3 +223,5 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
     await signOut()
     clearProfile()
     location.reload()
+  })
+
