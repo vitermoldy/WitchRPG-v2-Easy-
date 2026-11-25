@@ -445,3 +445,6 @@ class Part:
         for v in g["verts"]:
             v.co = (v.co - (V(c) - self.pivot)) * (0.8 + 0.35 * rnd.random()) + (V(c) - self.pivot)
         self._tag(g["verts"], mat, smooth=False)
+        return self
+
+
