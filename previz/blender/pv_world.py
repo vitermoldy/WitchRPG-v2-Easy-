@@ -359,3 +359,4 @@ def build_protos(lib_coll):
     coll = C.collection("PROTO", lib_coll)
     P = {}
     P["pine"] = proto("p_pine", coll, pal, lambda p: _pine(p))
+    P["pine_tall"] = proto("p_pine_tall", coll, pal, lambda p: _pine(p, 20, 8, 3.2))
