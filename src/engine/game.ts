@@ -127,3 +127,4 @@ export class Game implements UnitHost {
   private atmosphere!: Atmosphere
   private ambient!: Ambient
   private pivotY = 0
+  private cullIn = 0
