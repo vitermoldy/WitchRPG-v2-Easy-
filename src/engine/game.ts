@@ -1182,3 +1182,4 @@ export class Game implements UnitHost {
         strike: u.spec.strike ?? 'ring',
         windup: u.spec.windup,
         lunge: u.spec.lungeTime ?? 0.3,
+        aimX: u.aimAt.x,
