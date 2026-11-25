@@ -20,3 +20,4 @@ const newCode = () => Array.from({ length: 12 }, () => ALPHABET[randomInt(ALPHAB
 const SKILLS = new Set(['hexBolt', 'grip', 'burst', 'snare', 'barrier', 'warp', 'rite', 'swap', 'focus', 'general', 'marshal'])
 // fauna (pegasus, unicorn) is never raised, so it is not here
 const KINDS = new Set(['imp', 'hellhound', 'harpy', 'centaur', 'naga', 'minotaur', 'medusa', 'chimera', 'cyclops', 'succubus', 'incubus', 'phoenix', 'hydra', 'griffin', 'hippogriff', 'cerberus', 'lilith', 'dragon', 'typhon', 'samael', 'atlas'])
+const RANKS = new Set(['prajurit', 'ksatria', 'jenderal', 'marsekal'])
