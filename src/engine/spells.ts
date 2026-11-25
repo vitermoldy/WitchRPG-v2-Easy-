@@ -635,3 +635,4 @@ export class Spells {
       if (Math.random() < dt * 30) {
         const a = Math.random() * Math.PI * 2
         const r = Math.sqrt(Math.random()) * s.radius
+        const x = s.pos.x + Math.cos(a) * r
