@@ -52,3 +52,4 @@ const MOTE_VERT = /* glsl */ `
 const MOTE_FRAG = /* glsl */ `
   varying vec3 vTint;
   varying float vAlpha;
+  void main() {
