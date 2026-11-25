@@ -323,3 +323,4 @@ class Part:
             f.material_index = mi
             f.smooth = smooth and not self.flat
 
+    def _M(self, c):
