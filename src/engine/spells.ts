@@ -145,3 +145,4 @@ export class Spells {
         vertexShader: SHIELD_VERT,
         fragmentShader: SHIELD_FRAG,
         transparent: true,
+        depthWrite: false,
