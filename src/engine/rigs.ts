@@ -186,3 +186,5 @@ const poseImp: PoseFn = (p, u, t) => {
   p.rot('forearm_R', -20)
   p.rot('torso', 8 + 10 * amp + 3 * breath)
   p.rot('head', -6 - 6 * amp)
+}
+
