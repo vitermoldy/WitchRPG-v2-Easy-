@@ -73,3 +73,4 @@ export function newProfile(): Profile {
     xp: 0,
     statPoints: 0,
     skillPoints: 0,
+    stats: { hex: XP.startStat, spr: XP.startStat, vit: XP.startStat, agi: XP.startStat, umb: XP.startStat },
