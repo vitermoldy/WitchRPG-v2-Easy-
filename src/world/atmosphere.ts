@@ -56,3 +56,4 @@ export class Atmosphere {
   private readonly zoneSky = ZONES.map((z) => new THREE.Color(z.sky))
   private readonly zoneZenith = ZONES.map((z) => new THREE.Color(ZENITH[z.key] ?? '#47689a'))
   private readonly zenithTarget = new THREE.Color()
+  /** Index of the zone with the largest share where she stands. */
