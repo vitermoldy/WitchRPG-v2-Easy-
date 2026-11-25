@@ -575,3 +575,5 @@ export class Game implements UnitHost {
   statsChanged() {
     this.applyDerived()
     this.saveNow()
+  }
+
