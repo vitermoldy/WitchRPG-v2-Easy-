@@ -31,3 +31,4 @@ export const AUTH_TABLES = [
   `CREATE TABLE IF NOT EXISTS sessions (
     token_hash CHAR(64) PRIMARY KEY,
     user_id INT UNSIGNED NOT NULL,
+    created_at DATETIME NOT NULL,
