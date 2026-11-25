@@ -93,3 +93,4 @@ export class Sfx {
     this.noise(t, 0.1, 'bandpass', 3000, 0.12, 2)
   }
 
+  hit(strong = false) {
