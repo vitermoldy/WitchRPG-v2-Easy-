@@ -85,3 +85,4 @@ type Entry = { user: Account; device: string }
 
 /** Asks the server who is signed in on this browser. */
 export async function checkAccount(): Promise<void> {
+  setAuth({ ...auth, status: 'checking' })
