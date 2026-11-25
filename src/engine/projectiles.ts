@@ -111,3 +111,5 @@ export class Projectiles {
           this.end(i, true)
         } else if (s.life <= 0) this.end(i, false)
         continue
+      }
+
