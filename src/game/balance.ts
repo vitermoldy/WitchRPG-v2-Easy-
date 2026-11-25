@@ -905,3 +905,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   hydraHead: {
     name: 'Kepala Hydra',
     rank: 'marsekal',
+    hp: 100000,
