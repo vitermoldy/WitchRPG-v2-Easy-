@@ -136,3 +136,5 @@ def build(dunia, res=(1280, 720), samples=24):
             ob = il.objs.get(part)
             if ob:
                 ob.rotation_euler = [math.radians(a) for a in rot]
+                ob.keyframe_insert("rotation_euler", frame=fr)
+
