@@ -208,3 +208,4 @@ const poseHound: PoseFn = (p, u, t) => {
     p.rot('tail', -35 * k)
     return
   }
+  if (u.state === 'strike') {
