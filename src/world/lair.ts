@@ -189,3 +189,4 @@ export class Lair {
       isl.mesh.position.y = this.groundY - 5
     }
     g.props.clear()
+    if (this.state === 'fight') this.state = 'calm'
