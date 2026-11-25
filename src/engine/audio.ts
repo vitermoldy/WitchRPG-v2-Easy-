@@ -63,3 +63,4 @@ export class Sfx {
     f.Q.value = q
     const g = ctx.createGain()
     this.env(g, t, attack, peak, dur)
+    src.connect(f).connect(g).connect(this.master!)
