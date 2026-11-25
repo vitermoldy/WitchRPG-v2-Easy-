@@ -204,3 +204,5 @@ Pemeriksaan UI di 1024 × 768, 1280 × 720, dan 1920 × 1080 (geometri DOM, buka
 
 Tes: 97 dari 97 lulus (14 baru di `tests/boss.test.ts`: bagian damage Hydra per fase, batu, ambang fase, Marsekal, elit, Phoenix, Succubus, Cyclops, segel, dan bug proyektil). Waktu frame tidak diukur ulang di fase ini.
 
+## Fase 6: poles (26 Nov 2026)
+
