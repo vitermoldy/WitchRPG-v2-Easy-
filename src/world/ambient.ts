@@ -121,3 +121,4 @@ export class Ambient {
       fragmentShader: MOTE_FRAG,
       transparent: true,
       depthWrite: false,
+      blending: THREE.AdditiveBlending,
