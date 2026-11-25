@@ -195,3 +195,4 @@ export type V2Kind = (typeof V2_KINDS)[number]
 export interface AttackSpec {
   name: string
   strike: 'ring' | 'line'
+  windup: number
