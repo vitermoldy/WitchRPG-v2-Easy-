@@ -48,3 +48,4 @@ export class Seal {
         this.mask[i * this.n + j] = SEALED.has(zoneAt(mx, my).key) ? 1 : 0
       }
     }
+    // a wall segment on every edge between a sealed cell and an open one
