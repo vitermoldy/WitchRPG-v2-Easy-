@@ -923,3 +923,4 @@ export class Game implements UnitHost {
     }
     this.lockon.update(dt, targets, p.pos, b || wheel ? 0 : inp.dx, visible)
 
+    // her fight: staff, block, parry, execution, thrown staff
