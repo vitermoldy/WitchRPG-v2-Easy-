@@ -19,3 +19,4 @@ export interface SkillDef {
   name: string
   key: string
   unlock: number
+  effect: string
