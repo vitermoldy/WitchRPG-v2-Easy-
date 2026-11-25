@@ -180,3 +180,4 @@ def mat_globe(name, ocean="#2a6aa8", land="#4f8a3a"):
     nt = m.node_tree
     N, L = nt.nodes, nt.links
     b = N["Principled BSDF"]
+    b.inputs["Roughness"].default_value = 0.45
