@@ -392,3 +392,4 @@ export class Game implements UnitHost {
       obstacles: this.obstacles,
       blocked: (x, z, fx, fz, air) => {
         if (air ? this.offMap(x, z) : this.baseBlocked(x, z)) return true
+        if (this.seal.blocks(x, z, fx, fz)) {
