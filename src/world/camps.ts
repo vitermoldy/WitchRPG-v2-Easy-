@@ -147,3 +147,4 @@ export class Camps {
         s.setScalar(0.7 + Math.random() * 0.5)
         m.compose(new THREE.Vector3(x, y + 0.1, z), q, s)
         stones.setMatrixAt(i, m)
+        q.setFromEuler(new THREE.Euler((Math.random() - 0.5) * 0.5, 0, (Math.random() - 0.5) * 0.5))
