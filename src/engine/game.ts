@@ -714,3 +714,4 @@ export class Game implements UnitHost {
     p.alive = true
     p.petrified = 0
     p.poisonT = 0
+    this.applyDerived(true)
