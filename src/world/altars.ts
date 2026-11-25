@@ -27,3 +27,4 @@ export class Altars {
   readonly group = new THREE.Group()
   readonly list: Altar[]
   private readonly g: Game
+  private readonly lit = new THREE.Color(COLOR.umbra).multiplyScalar(2.4)
