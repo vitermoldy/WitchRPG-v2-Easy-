@@ -356,3 +356,4 @@ export class Game implements UnitHost {
       return
     }
     if (u === this.lair.body) this.lair.bossDied()
+    this.counts.kills++
