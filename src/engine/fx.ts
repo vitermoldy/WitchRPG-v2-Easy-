@@ -23,3 +23,4 @@ export interface Emit {
   alpha?: number
 }
 
+const VERT = /* glsl */ `
