@@ -228,3 +228,4 @@ export interface TravelHost {
   openLedger(): void
 }
 
+/** The altar panel: fast travel to another lit altar, or the Ledger. */
