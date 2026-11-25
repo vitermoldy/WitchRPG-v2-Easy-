@@ -891,3 +891,4 @@ export class UnitSystem {
           const min = u.radius + o.radius
           const d2 = ox * ox + oz * oz
           if (d2 >= min * min || d2 < 1e-6) continue
+          const d = Math.sqrt(d2)
