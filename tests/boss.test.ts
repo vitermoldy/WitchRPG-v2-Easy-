@@ -17,3 +17,4 @@ function world() {
     foe,
     blocked: () => false,
     strikePlayer: () => {},
+    strikeUnit: () => {},
