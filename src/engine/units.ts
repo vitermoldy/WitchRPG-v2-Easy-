@@ -294,3 +294,4 @@ export class UnitSystem {
     u.pos.set(at.x, this.host.height(at.x, at.z), at.z)
     u.yaw = Math.random() * Math.PI * 2
     if (rising) u.set('rising')
+    this.units.push(u)
