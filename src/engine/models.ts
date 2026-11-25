@@ -33,3 +33,4 @@ export function bakeByMaterial(root: THREE.Object3D): { geometry: THREE.BufferGe
     for (const name of Object.keys(g.attributes)) if (name !== 'position' && name !== 'normal') g.deleteAttribute(name)
     const mat = m.material as THREE.Material
     if (!groups.has(mat)) groups.set(mat, [])
+    groups.get(mat)!.push(g.index ? g.toNonIndexed() : g)
