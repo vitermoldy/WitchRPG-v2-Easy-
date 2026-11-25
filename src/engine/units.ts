@@ -626,3 +626,4 @@ export class UnitSystem {
     const list = attacksOf(u.spec)
     const dx = tgt.pos.x - u.pos.x
     const dz = tgt.pos.z - u.pos.z
+    const front = (Math.sin(u.yaw) * dx + Math.cos(u.yaw) * dz) / Math.max(1e-4, Math.hypot(dx, dz))
