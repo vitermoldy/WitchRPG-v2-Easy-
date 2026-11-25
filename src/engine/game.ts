@@ -161,3 +161,4 @@ export class Game implements UnitHost {
     this.renderer.info.autoReset = false
     this.renderer.outputColorSpace = THREE.SRGBColorSpace
     const gl = this.renderer.getContext()
+    const info = gl.getExtension('WEBGL_debug_renderer_info')
