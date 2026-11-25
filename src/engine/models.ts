@@ -31,3 +31,4 @@ export function bakeByMaterial(root: THREE.Object3D): { geometry: THREE.BufferGe
     const g = m.geometry.clone()
     g.applyMatrix4(m.matrixWorld)
     for (const name of Object.keys(g.attributes)) if (name !== 'position' && name !== 'normal') g.deleteAttribute(name)
+    const mat = m.material as THREE.Material
