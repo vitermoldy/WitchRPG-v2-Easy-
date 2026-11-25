@@ -389,3 +389,4 @@ export class WorldMap {
         ctx.strokeStyle = '#efe6df'
         ctx.stroke()
       }
+      if (this.focus === b.kind) {
