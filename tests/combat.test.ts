@@ -93,3 +93,4 @@ describe('staff combo', () => {
     expect(start && start.s.heavy).toBe(true)
   })
 
+  it('remembers a tap pressed during a swing and swings again right after', () => {
