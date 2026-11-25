@@ -540,3 +540,4 @@ export class Game implements UnitHost {
   // ------------------------------------------------------------ her vitals, levels and falls
 
   /** Stats and level changed: new max HP and mana (keeping the share she had), pace, roll. */
+  private applyDerived(fill = false) {
