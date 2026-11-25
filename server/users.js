@@ -27,3 +27,4 @@ if (rows.length === 0) {
       level: r.level ?? 1,
       bayangan: Number(r.shadows),
       altar: Number(r.altars) || 1,
+      'boss tumbang': r.boss_kills ?? 0,
