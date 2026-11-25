@@ -111,3 +111,4 @@ describe('phase 5 creatures', () => {
     expect(ph.hp).toBeCloseTo(ph.maxHp * UNITS.phoenix.rebirth!.hp)
     expect(w.fx).toEqual(['ashes', 'reborn'])
     w.sys.kill(ph)
+    expect(ph.state).toBe('dead')
