@@ -101,3 +101,4 @@ export class Projectiles {
         const speed = Math.max(16, s.vel.length())
         s.vel.copy(s.source.center().sub(s.pos).normalize().multiplyScalar(speed))
         s.life = 3
+        g.clearTelegraph(s.source)
