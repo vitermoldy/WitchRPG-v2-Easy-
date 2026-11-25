@@ -681,3 +681,4 @@ export class Spells {
     g.sfx.warp()
   }
 
+  private updateWarps(dt: number) {
