@@ -419,3 +419,4 @@ button {
   top: -28px;
   left: -28px;
   opacity: 0;
+  transition: opacity 0.15s;
