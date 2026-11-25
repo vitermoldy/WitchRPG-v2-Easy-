@@ -394,3 +394,4 @@ export class Sfx {
   // ------------------------------------------------------------ the forest around her
   // Two steady layers mixed by zone (wind in the leaves, and the Rift's drone over Lembah Bara) and
   // one-shot sounds that come at a rate set by the zone weights: birds in Hutan Pembuka, gusts on
+  // Tebing Berangin, frogs and insects in Rawa Berkabut, a far chime in Reruntuhan Kuil, crackling
