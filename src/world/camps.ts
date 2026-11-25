@@ -238,3 +238,4 @@ export class Camps {
         if (!camp.roused) {
           const close = (u: Unit) => {
             if (p.alive && Math.hypot(u.pos.x - p.pos.x, u.pos.z - p.pos.z) < CAMP.aggro) return true
+            if (u.hp < u.maxHp - 0.01) return true
