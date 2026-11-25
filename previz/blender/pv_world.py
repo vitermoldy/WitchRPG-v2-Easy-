@@ -346,3 +346,6 @@ def _fern(p):
     for k in range(7):
         a = k * 2 * math.pi / 7
         d = Vector((math.cos(a), math.sin(a), 0))
+        p.ell(d * 0.45 + Vector((0, 0, 0.32)), (0.12, 0.5, 0.03), rot=(25, 0, math.degrees(a) - 90), mat="fern", seg=6, rings=4, smooth=False)
+
+
