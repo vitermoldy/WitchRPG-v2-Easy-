@@ -649,3 +649,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   },
   // v2, Lembah Bara: dives in fire along a line. Falls once into ashes, rises again, and bursts on its second fall.
   phoenix: {
+    name: 'Phoenix',
