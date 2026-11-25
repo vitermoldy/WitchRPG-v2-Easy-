@@ -1211,3 +1211,5 @@ export class Game implements UnitHost {
   /** ?debug: the Hydra's state for the bot. */
   lairInfo() {
     return this.lair.info()
+  }
+
