@@ -349,3 +349,4 @@ export class IlyraModel {
       torsoY += -12 * e
     }
     if (act.grip) {
+      armLX = -88
