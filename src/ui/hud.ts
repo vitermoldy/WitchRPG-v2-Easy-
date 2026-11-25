@@ -22,3 +22,4 @@ const BOSS_HINT: Partial<Record<UnitKind, string>> = {
 
 /** The Hydra's hint follows its phase. */
 const HYDRA_HINT = [
+  '',
