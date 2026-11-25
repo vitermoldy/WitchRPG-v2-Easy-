@@ -132,3 +132,4 @@ export class IlyraModel {
       for (const c of o.children) walk(c)
     }
     walk(this.root)
+    for (const side of ['L', 'R']) {
