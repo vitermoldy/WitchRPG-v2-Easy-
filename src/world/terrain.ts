@@ -11,3 +11,4 @@ const LOD_RANGE = [190, 420, Infinity]
 const SKIRT = 5
 
 const hex = (h: string) => new THREE.Color(h)
+const GROUND = ZONES.map((z) => hex(z.ground))
