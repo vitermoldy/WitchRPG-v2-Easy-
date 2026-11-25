@@ -62,3 +62,4 @@ export const SKILLS: SkillDef[] = [
     id: 'snare',
     branch: 'chaos',
     name: 'Hex Snare',
+    key: 'E',
