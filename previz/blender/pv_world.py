@@ -367,3 +367,4 @@ def build_protos(lib_coll):
     P["burnt"] = proto("p_burnt", coll, pal, lambda p: _dead(p, "burnt"))
     P["rock"] = proto("p_rock", coll, pal, lambda p: _rock(p, 1), flat=True)
     P["rock_big"] = proto("p_rock_big", coll, pal, lambda p: _rock(p, 2, (4.5, 3.6, 5.0), "rock2"), flat=True)
+    P["grass"] = proto("p_grass", coll, pal, _grass)
