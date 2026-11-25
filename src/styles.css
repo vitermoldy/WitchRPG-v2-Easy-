@@ -1725,3 +1725,4 @@ dialog::backdrop {
 
 .gate-state {
   margin: 0 0 0.8rem;
+  color: var(--ink);
