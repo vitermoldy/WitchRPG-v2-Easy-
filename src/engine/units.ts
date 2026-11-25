@@ -132,3 +132,4 @@ export class Unit implements Foe {
   /** Seconds before it can dive again (Naga). */
   diveCd = 0
   /** Seconds before it calls helpers again, and how many of its helpers still stand. */
+  skillCd = 6
