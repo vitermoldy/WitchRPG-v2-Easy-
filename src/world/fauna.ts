@@ -45,3 +45,4 @@ export class Fauna {
     const g = this.g
     const p = g.player.pos
     for (const s of this.spots) {
+      const d = Math.hypot(p.x - s.x, p.z - s.z)
