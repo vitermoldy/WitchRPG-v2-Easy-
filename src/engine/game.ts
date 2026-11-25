@@ -1055,3 +1055,4 @@ export class Game implements UnitHost {
   private place(dt: number, snap: boolean, aiming = false) {
     const p = this.player
     // the pivot follows her height softly so small bumps in the ground do not shake the view
+    const wantY = p.pos.y + CAMERA.normal.height
