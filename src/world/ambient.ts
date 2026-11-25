@@ -95,3 +95,4 @@ export class Ambient {
   readonly rift: THREE.Mesh
   private readonly pos: Float32Array
   private readonly tint: Float32Array
+  private readonly size: Float32Array
