@@ -375,3 +375,5 @@ const poseNaga: PoseFn = (p, u, t) => {
   p.rot('head', 6 * Math.sin(t * 2.6 + u.id), -8 * sway)
 }
 
+const MINO_LIMBS = ['upperarm_L', 'upperarm_R', 'thigh_L', 'thigh_R', 'tail']
+
