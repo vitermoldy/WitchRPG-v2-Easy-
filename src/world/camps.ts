@@ -163,3 +163,4 @@ export class Camps {
     camp.state = 'active'
     camp.roused = false
     camp.units = []
+    const [lo, hi] = camp.def.levels
