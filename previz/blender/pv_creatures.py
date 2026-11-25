@@ -448,3 +448,4 @@ def b_ilyra(r, pose="idle"):
     d = J["hand_dir_R"]
     W = J["wr_R"] + d * 0.04
     if pose == "swing":
+        sd = Vector((-0.55, -0.6, 0.58)).normalized()
