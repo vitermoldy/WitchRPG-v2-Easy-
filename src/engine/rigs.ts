@@ -360,3 +360,4 @@ const poseNaga: PoseFn = (p, u, t) => {
     p.body(0.1 * k, -12 * k)
     p.rot('head', -35 * k + Math.sin(t * 40) * 2 * k)
     return
+  }
