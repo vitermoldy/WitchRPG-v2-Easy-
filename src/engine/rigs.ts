@@ -11,3 +11,4 @@ const clamp = (v: number, lo: number, hi: number) => Math.min(hi, Math.max(lo, v
 const NECK_PASSES = 3
 const HEAD_LIES = 1
 
+/** Adds a per-instance emissive colour (hit flash, the violet glow of a body that can be raised). */
