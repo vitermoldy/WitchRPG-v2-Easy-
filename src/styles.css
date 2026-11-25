@@ -783,3 +783,4 @@ button {
 }
 
 .prompt .num {
+  color: var(--ink-2);
