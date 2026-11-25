@@ -467,3 +467,4 @@ export class ShadowPools {
         p.mat.uniforms.uOpen.value = 0
         continue
       }
+      if (p.state === 'opening') {
