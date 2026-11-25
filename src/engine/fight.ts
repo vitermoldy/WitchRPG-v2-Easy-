@@ -111,3 +111,4 @@ class Staff {
     this.spin += dt * 22
     if (this.state === 'flying') {
       this.prev.copy(this.pos)
+      this.pos.addScaledVector(this.vel, dt)
