@@ -151,3 +151,4 @@ export class Telegraphs {
     if (!it) return
     it.unit = null
     it.mesh.visible = false
+    this.byUnit.delete(u.id)
