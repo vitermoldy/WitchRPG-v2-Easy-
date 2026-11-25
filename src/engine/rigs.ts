@@ -596,3 +596,4 @@ const posePhoenix: PoseFn = (p, u, t) => {
   p.rot('tail', -10 + 8 * Math.sin(t * 3), 18 * Math.sin(t * 2.2 + u.id))
   if (u.state === 'windup') {
     const k = ease(u.t / (u.atk.windup * u.tempo))
+    p.body(0.3 * k, -25 * k, 8 * Math.sin(t * 20) * k)
