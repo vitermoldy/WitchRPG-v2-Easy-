@@ -144,3 +144,4 @@ describe('thrown bodies', () => {
 })
 
 describe('version 1: tiers, ranks and growth', () => {
+  it('opens Tier II at Lv 4, Tier III at Lv 7 and the lair at Lv 10', () => {
