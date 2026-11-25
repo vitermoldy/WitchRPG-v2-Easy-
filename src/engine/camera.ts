@@ -75,3 +75,4 @@ export interface LockView {
   height: number
 }
 
+export class CameraRig {
