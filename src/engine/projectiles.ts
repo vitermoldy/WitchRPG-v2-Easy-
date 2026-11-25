@@ -34,3 +34,4 @@ const red = new THREE.MeshBasicMaterial({ color: new THREE.Color(COLOR.chaos).mu
 export class Projectiles {
   readonly group = new THREE.Group()
   private readonly shots: Shot[] = []
+  private readonly g: Game
