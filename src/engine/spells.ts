@@ -362,3 +362,4 @@ export class Spells {
       let bestA: number = SPELL.grip.aimCone * 2
       for (const u of g.units.units) {
         if (!this.grippable(u)) continue
+        const to = u.center().sub(o)
