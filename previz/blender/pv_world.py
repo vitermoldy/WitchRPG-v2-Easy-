@@ -700,3 +700,4 @@ def build_rift(coll):
 
 
 def build_embers(coll, centre, radius, count, seed=5, z_range=(0.5, 30)):
+    rng = np.random.default_rng(seed)
