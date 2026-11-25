@@ -464,3 +464,4 @@ export class Fight {
     }
     if (any) {
       if (this.riposte > 0) this.riposte = 0
+      g.hitstop(s.heavy ? COMBAT.hitstop.heavy : COMBAT.hitstop.light)
