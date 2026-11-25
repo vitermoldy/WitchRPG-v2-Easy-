@@ -149,3 +149,4 @@ export class Ambient {
     this.bara = new THREE.Vector3(bx, 0, bz)
   }
 
+  /** Picks a kind for a mote by the zone weights around her. */
