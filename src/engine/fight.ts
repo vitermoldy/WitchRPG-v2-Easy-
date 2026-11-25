@@ -331,3 +331,5 @@ export class Fight {
       this.catchT += dt / CATCH_TIME
       if (this.catchT >= 1) this.catchT = -1
     }
+    this.staff.update(dt)
+
