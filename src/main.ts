@@ -64,3 +64,4 @@ async function boot() {
   $('btn-enter').addEventListener('click', enter)
 
   const pr = game.profile
+  // what the start screen shows from the witch; read again when the server hands over another one
