@@ -670,3 +670,4 @@ export class Spells {
       blending: THREE.AdditiveBlending,
     })
     const wall = new THREE.Mesh(new THREE.CylinderGeometry(s.radius, s.radius, 7, 48, 1, true), wallMat)
+    wall.position.y = 3.5
