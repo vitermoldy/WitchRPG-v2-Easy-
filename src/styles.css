@@ -1959,3 +1959,4 @@ dialog::backdrop {
 @media (max-width: 860px) {
   .worldmap[open] {
     grid-template-columns: 1fr;
+    grid-template-rows: minmax(16rem, 55%) minmax(0, 1fr);
