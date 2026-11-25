@@ -219,3 +219,4 @@ export class Camps {
           colors = true
           const boss = camp.def.boss ? UNITS[Object.keys(camp.def.pack)[0] as V2Kind] : null
           if (boss) {
+            g.hud.banner(boss.name, 'tumbang. Tubuhnya bisa dibangkitkan dengan Kebangkitan Marsekal, satu kali')
