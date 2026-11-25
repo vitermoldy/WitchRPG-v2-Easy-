@@ -532,3 +532,6 @@ def tile_png(paths, out, cols=2, pad=12, bg=(0.07, 0.07, 0.08)):
 
 # ---------------------------------------------------------------- creature board
 
+BOARD_VIEW = {"ilyra": -20, "imp": -30, "harpy": -15, "minotaur": -25, "cyclops": -25, "medusa": -25, "succubus": -20, "incubus": -20, "lilith": -25, "typhon": -15, "samael": -15, "atlas": -20, "hydra": -35, "naga": -40}
+
+
