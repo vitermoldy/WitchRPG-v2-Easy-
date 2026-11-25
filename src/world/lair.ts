@@ -456,3 +456,4 @@ export class Lair {
     }
     const at = u.aimAt.clone()
     at.y = g.height(at.x, at.z)
+    g.rings.spawn(at, COLOR.rift, 0.5, r + 1, 0.4)
