@@ -961,3 +961,4 @@ export const HYDRA = {
   /** Each new phase gives her back a share of max HP and some mana (v1). */
   phaseHeal: 0.25,
   phaseMana: 30,
+  /** The lair opens only to a witch of this level: phase 3 can only be won inside Reality Warp. */
