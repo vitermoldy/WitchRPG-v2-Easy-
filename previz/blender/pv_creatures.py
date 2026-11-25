@@ -234,3 +234,4 @@ def feather_wing(part, root, s, span, chord, raise_deg=30, sweep_deg=15, feather
         part.poly([f(p.x, p.y) for p in pts], mat=m)
 
     np_ = max(4, feathers // 2)
+    for i in range(np_):
