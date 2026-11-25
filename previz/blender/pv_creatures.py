@@ -597,3 +597,4 @@ def b_naga(r):
     for s in (1, -1):
         root = hp + Vector((0.12 * s, 0.12, 0.0))
         tips = [root + Vector((s * (0.45 - 0.05 * i), 0.15 + 0.08 * i, 0.4 - 0.18 * i)) for i in range(5)]
+        h.poly([root] + tips, mat="membrane")
