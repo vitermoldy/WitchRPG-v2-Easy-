@@ -29,3 +29,4 @@ export function confirmDialog(title: string, text: string, yes: string): Promise
       resolve(v)
     }
     $('confirm-yes').onclick = () => done(true)
+    $('confirm-no').onclick = () => done(false)
