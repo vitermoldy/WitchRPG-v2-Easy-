@@ -339,3 +339,4 @@ export class Lair {
     }
     // the Hydra only lies in the lake while she is near: far away it would cost frames for nothing
     const near = Math.hypot(p.pos.x - this.center.x, p.pos.z - this.center.z)
+    if (this.state === 'calm') {
