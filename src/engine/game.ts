@@ -319,3 +319,4 @@ export class Game implements UnitHost {
     this.blasts.push({ x: at.x, y: at.y, z: at.z, radius, damage, t: delay })
   }
 
+  private updateBlasts(dt: number) {
