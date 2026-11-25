@@ -47,3 +47,4 @@ interface Call {
 }
 
 /**
+ * Umbra Rite (raising the fallen, one body or every glowing body in reach), the Shadow Room
