@@ -638,3 +638,4 @@ def build_bara(dunia):
     ph = actor("aktor.phoenix.bara", "phoenix")
     q = fr(14, -6)
     place(ph, local, q.x, q.y, -f, dz=3.0)
+    place_game_camera(sc, P, f, "normal", name="kamera.07")
