@@ -110,3 +110,4 @@ Setiap fase baru memulihkan 25% HP dan 30 mana. Kemenangan memberi XP besar, mem
 ```
 src/game/     logika murni: angka tuning (balance.ts), progresi, skill, simpanan (dari v1)
 src/engine/   kamera (camera.ts), gerak (player.ts), rintangan (obstacles.ts), lock-on, input, game loop (game.ts)
+              tempur: aturan parry dan stun (combat.ts), Ilyra (fight.ts), sihir (spells.ts), makhluk dan bayangan (units.ts)
