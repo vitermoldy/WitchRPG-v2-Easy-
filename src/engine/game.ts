@@ -222,3 +222,4 @@ export class Game implements UnitHost {
     return inWaterRect(mx, my) && WATER_LEVEL - heightAt(x, z) > MOVE.maxWade
   }
 
+  /** Past the edge of the playable map. */
