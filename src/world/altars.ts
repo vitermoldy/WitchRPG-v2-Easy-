@@ -43,3 +43,4 @@ export class Altars {
     this.list = ALTARS.map((a) => {
       const [x, z] = toWorld(a.c[0], a.c[1])
       const y = g.height(x, z)
+      const root = new THREE.Group()
