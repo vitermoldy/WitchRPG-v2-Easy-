@@ -125,3 +125,4 @@ export class Atmosphere {
     this.hemi.color.copy(this.fog.color).lerp(new THREE.Color('#ffffff'), 0.2)
     this.sky.position.copy(camPos)
     // the shadow box follows her
+    this.sun.position.copy(at).addScaledVector(SUN_DIR, 150)
