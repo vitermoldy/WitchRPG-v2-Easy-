@@ -325,3 +325,4 @@ def build_minotaur(dunia):
     tip = pts[-1]
     for k in range(8):
         trail.parts["m"].ell(tip + face_m * 0.4 + Vector(rng.normal(0, 0.18, 3)), 0.015, mat="s", seg=4, rings=3)
+    trail.finalize()
