@@ -17,3 +17,4 @@ export interface CamParams {
   dist: number
   shoulder: number
   height: number
+  fov: number
