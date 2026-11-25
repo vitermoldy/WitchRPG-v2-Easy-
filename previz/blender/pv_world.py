@@ -708,3 +708,4 @@ def build_embers(coll, centre, radius, count, seed=5, z_range=(0.5, 30)):
     Z = height(X, Y) + rng.uniform(*z_range, count)
     ember = bpy.data.objects.get("p_ember")
     if ember is None:
+        r = C.Rig("p_ember", {"e": C.mat_emit("ember", "#ffb060", 40.0)}, C.collection("PROTO", bpy.data.scenes["Pustaka"].collection))
