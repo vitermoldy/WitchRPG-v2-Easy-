@@ -48,3 +48,4 @@ def build(dunia, res=(1280, 720), samples=24):
     sd = S.sun_dir(f, 12, 3.5)
     world = C.sky_world("langit_senja_anim", "#241f45", "#ff9a5c", "#1a1418", 1.0, sun_dir=sd, sun_glow="#ffb46a", glow_power=10)
     sc, local = S.shot_scene("animatic", dunia, world, -sd, "#ff9a5a", 3.2, res=res, vol_end=2200, samples=samples, exposure=0.2, vol_tile="8")
+    sc.frame_start, sc.frame_end = 1, FRAMES
