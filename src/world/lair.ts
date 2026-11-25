@@ -352,3 +352,4 @@ export class Lair {
       if (p.alive && this.inside(p.pos.x, p.pos.z) && g.profile.level >= HYDRA.lairLevel) this.start()
       return
     }
+    if (!body.alive) return
