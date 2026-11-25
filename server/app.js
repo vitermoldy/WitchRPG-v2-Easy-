@@ -113,3 +113,4 @@ export function createApi(getPool, database) {
   api.use((req, res, next) => (getPool() ? next() : res.status(503).json({ error: 'Database belum terhubung.' })))
 
   // v1 uses witch_rpg_session and v2 witch_rpg_v2_session; every app on localhost shares cookies, so the name must differ.
+  const auth = createAuth({ getPool, cookie: 'witch_rpg_v2_easy_session', lang: 'id', deviceCode: CODE, newDevice: newCode })
