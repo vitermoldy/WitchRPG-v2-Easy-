@@ -122,3 +122,4 @@ describe('creature attacks', () => {
     expect(imp.state).toBe('stagger')
     w.sys.kill(imp, true)
     expect(imp.executed).toBe(true)
+    expect(w.log.died).toContain(imp)
