@@ -157,3 +157,4 @@ export class Terrain {
       edges[1].push(n * (n + 1) + k)
       edges[2].push(k * (n + 1))
       edges[3].push(k * (n + 1) + n)
+    }
