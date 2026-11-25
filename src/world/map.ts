@@ -65,3 +65,5 @@ export const PLAY_HALF = 470
 export const toWorld = (x: number, y: number): [number, number] => [x, -y]
 export const toMap = (wx: number, wz: number): [number, number] => [wx, -wz]
 
+// ------------------------------------------------------------ noise
+
