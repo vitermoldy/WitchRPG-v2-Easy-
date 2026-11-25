@@ -209,3 +209,4 @@ export class Telegraphs {
         if (it.follow && u.state === 'windup') this.layRing(it, u.aimAt.x, u.aimAt.z)
       } else it.mat.uniforms.uFill.value = k
     }
+  }
