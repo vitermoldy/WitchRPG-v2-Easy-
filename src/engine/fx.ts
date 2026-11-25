@@ -443,3 +443,5 @@ export class ShadowPools {
       scene.add(mesh)
       this.pools.push({ mesh, mat, radius: 1, t: 0, hold: 0, open: 0, state: 'off' })
     }
+  }
+
