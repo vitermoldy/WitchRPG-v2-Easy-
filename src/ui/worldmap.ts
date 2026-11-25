@@ -203,3 +203,4 @@ export class WorldMap {
   private baseLayer(): HTMLCanvasElement {
     if (this.base) return this.base
     const c = document.createElement('canvas')
+    c.width = c.height = BASE
