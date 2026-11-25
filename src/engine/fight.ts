@@ -225,3 +225,4 @@ export class Fight {
   private readonly g: Game
   private readonly events: ComboEvent[] = []
   private swingYaw: number | null = null
+  private blockBlend = 0
