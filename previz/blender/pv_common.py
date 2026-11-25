@@ -88,3 +88,4 @@ def mat_cracked(name, color, crack, strength=5.0, scale=2.2, rough=0.75, coverag
     nt = m.node_tree
     N, L = nt.nodes, nt.links
     b = N["Principled BSDF"]
+    b.inputs["Base Color"].default_value = rgb(color)
