@@ -62,3 +62,5 @@ export interface Profile {
   world: { altars: string[]; last: string }
   /** When this witch last changed; with an account, the newer copy wins. */
   updatedAt?: string
+}
+
