@@ -194,3 +194,4 @@ Tiga pertanyaan pemilik dari fase 4 (ritme, kabut Lembah Bara, warna mata musuh)
 
 Hasil gerbang (bot `?debug`, waktu game 3× dipercepat, `scratchpad` gate5):
 
+- **Hanya witch Lv 10 yang bisa masuk sarang.** Witch Lv 9 yang berjalan lurus ke sarang berhenti tepat di tepinya (24 m dari tengah); sarang tetap tenang, dan HUD menulis "Sarang Hydra hanya terbuka untuk witch Lv 10: fase terakhirnya hanya bisa dimenangkan di dalam Reality Warp."
