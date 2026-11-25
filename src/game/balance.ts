@@ -1075,3 +1075,4 @@ export const TIERS: Record<TierId, TierSpec> = {
   4: {
     tier: 4,
     name: 'Rift Tier IV',
+    roman: 'IV',
