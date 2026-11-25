@@ -447,3 +447,4 @@ def build_forest(coll, P, size=1260.0, step=4.0, seed=3):
     cum = np.cumsum(W, axis=0)
     zi = np.minimum((cum < rng.random(len(X))[None, :] * cum[-1][None, :]).sum(axis=0), len(ZONES) - 1)
     dens = np.array([MIX[ZONES[i]["key"]][1] for i in range(len(ZONES))])[zi]
+    ring = smooth(440, 560, np.maximum(np.abs(X), np.abs(Y)))
