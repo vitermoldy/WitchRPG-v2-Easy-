@@ -597,3 +597,4 @@ export class Game implements UnitHost {
   hurtPlayer(dmg: number, from: { x: number; z: number }) {
     const p = this.player
     if (!p.alive) return
+    const d = this.spells.absorb(dmg)
