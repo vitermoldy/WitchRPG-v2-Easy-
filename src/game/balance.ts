@@ -320,3 +320,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     windup: 0.6,
     recover: 0.5,
     cooldown: 2.4,
+    shot: { speed: 17, gravity: 9, radius: 0.3, keepAway: 11 },
