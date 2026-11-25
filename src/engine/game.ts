@@ -199,3 +199,4 @@ export class Game implements UnitHost {
           '}',
         ].join('\n'),
       }),
+    )
