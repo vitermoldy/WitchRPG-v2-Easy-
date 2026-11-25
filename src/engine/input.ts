@@ -7,3 +7,4 @@ export class Input {
   dy = 0
   locked = false
   /** Set by ?debug so automated runs can play without pointer lock. */
+  virtualLock = false
