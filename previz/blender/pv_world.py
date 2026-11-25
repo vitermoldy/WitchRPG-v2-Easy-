@@ -202,3 +202,4 @@ def terrain_material():
     bara = N.new("ShaderNodeAttribute")
     bara.attribute_name = "bara"
     tc = N.new("ShaderNodeTexCoord")
+    noi = N.new("ShaderNodeTexNoise")
