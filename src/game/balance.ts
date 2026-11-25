@@ -530,3 +530,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
       { name: 'seruduk', strike: 'line', windup: 0.8, recover: 1.2, range: 14, minRange: 6, damage: 1.3, lungeSpeed: 14, lungeTime: 0.75, cooldown: 5 },
     ],
   },
+  // v2 mini-boss, Rawa Berkabut: snake bite, and a gaze that turns her to stone unless she blocks it.
