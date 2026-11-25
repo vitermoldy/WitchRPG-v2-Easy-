@@ -967,3 +967,4 @@ def b_lilith(r):
     sp = r.P("serpent", (0, 0, 0.2), "pelvis")
     pts = []
     for i in range(15):
+        t_ = i / 14
