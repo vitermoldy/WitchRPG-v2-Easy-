@@ -166,3 +166,5 @@ Ukur ulang pasukan setelah perbaikan tinggi tanah (pola v1, 20 makhluk, 3 run, b
 
 Angka fase 3 sebelumnya (7,9 sampai 8,2 ms untuk 200 dan 8,9 sampai 9,2 ms untuk 500) diambil saat makhluk berdiri di ketinggian 0 karena bug di atas, sebagian terbenam, jadi tidak berlaku lagi. Tes: 83 dari 83 lulus (29 progresi v1, 8 kamera, 8 gerak, 7 peta, 13 tempur, 15 AI makhluk, 3 simpanan).
 
+## Fase 5: boss dan akhir (26 Nov 2026)
+
