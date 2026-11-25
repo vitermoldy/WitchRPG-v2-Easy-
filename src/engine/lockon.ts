@@ -63,3 +63,4 @@ export class LockOn {
     const base = yawTo(player.x, player.z, cur.x, cur.z)
     let best: Target | null = null
     let bestA = Infinity
+    for (const t of targets) {
