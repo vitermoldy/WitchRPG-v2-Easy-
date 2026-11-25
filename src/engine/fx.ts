@@ -358,3 +358,4 @@ export class Warnings {
     w.group.position.set(at.x, at.y + 0.07, at.z)
     w.edge.scale.setScalar(radius)
     w.t = 0
+    w.dur = seconds
