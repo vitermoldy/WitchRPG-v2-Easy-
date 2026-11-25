@@ -145,3 +145,4 @@ export class Sfx {
     const t = this.ctx!.currentTime
     this.tone(t, 'triangle', 220, 110, 0.7, 0.18, 0.05)
     this.tone(t, 'triangle', 330, 160, 0.7, 0.1, 0.05)
+    this.noise(t, 0.6, 'bandpass', 900, 0.12, 6, 300)
