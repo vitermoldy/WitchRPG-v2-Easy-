@@ -79,3 +79,5 @@ async function call<T>(path: string, init?: RequestInit): Promise<T> {
     throw new ApiError((body as { error?: string }).error ?? `Server menjawab ${res.status}.`, res.status)
   }
   return body as T
+}
+
