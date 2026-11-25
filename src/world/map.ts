@@ -44,3 +44,4 @@ export const TEMPLE: [number, number] = [40, 318]
 export const SPOTS = {
   hero: [-34, -335] as [number, number],
   minotaur: [40, 282] as [number, number],
+  hydra: [-330 + 0.673 * 100, 300 - 0.74 * 100] as [number, number],
