@@ -34,3 +34,4 @@ const CURTAIN_FRAG = /* glsl */ `
   uniform float uFade;
   uniform vec3 uColor;
   void main() {
+    float bands = 0.5 + 0.5 * sin(vUv.y * 16.0 - uTime * 3.0 + sin(vUv.x * 50.0) * 0.6);
