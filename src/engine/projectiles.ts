@@ -24,3 +24,5 @@ const globGeo = new THREE.IcosahedronGeometry(1, 1)
 const arrowGeo = new THREE.CylinderGeometry(0.035, 0.035, 1.1, 5)
 arrowGeo.rotateX(Math.PI / 2)
 const amber = new THREE.MeshBasicMaterial({ color: new THREE.Color(COLOR.rift).multiplyScalar(2.6) })
+const red = new THREE.MeshBasicMaterial({ color: new THREE.Color(COLOR.chaos).multiplyScalar(3) })
+
