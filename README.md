@@ -88,3 +88,4 @@ Di balik segel, setiap boss menunggu sendirian di kampnya, dengan bar boss dan s
 
 | Boss | Level | Tempat | Serangan |
 | --- | --- | --- | --- |
+| Cerberus | 15 | Lembah Bara | Gigitan tiga kepala, napas api, terjangan; memanggil Hellhound |
