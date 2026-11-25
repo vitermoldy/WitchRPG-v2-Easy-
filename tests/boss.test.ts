@@ -202,3 +202,4 @@ describe('creature shots', () => {
         falls++
         g.player.alive = false
         shots.clear()
+      },
