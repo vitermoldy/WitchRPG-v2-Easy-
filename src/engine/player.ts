@@ -26,3 +26,5 @@ export interface Ground {
   floor?: HeightFn
 }
 
+const wrap = (a: number) => Math.atan2(Math.sin(a), Math.cos(a))
+
