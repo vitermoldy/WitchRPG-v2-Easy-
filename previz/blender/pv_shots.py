@@ -174,3 +174,4 @@ def mat_ring(name, color, strength, inner=0.82, alpha=0.9, fill=0.08):
     al.operation = "MULTIPLY"
     al.inputs[1].default_value = alpha
     L.new(ramp.outputs["Color"], al.inputs[0])
+    L.new(al.outputs[0], mix.inputs["Fac"])
