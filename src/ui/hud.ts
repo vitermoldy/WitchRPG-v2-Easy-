@@ -278,3 +278,4 @@ export class Hud {
     const g = this.g
     const p = g.player.pos
     let boss = null
+    for (const u of g.units.units) {
