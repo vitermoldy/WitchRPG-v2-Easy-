@@ -96,3 +96,4 @@ export class Game implements UnitHost {
   ilyra!: IlyraModel
   ground!: Ground
   state: State = 'loading'
+  /** ?debug: run the simulation this many fixed steps per frame. */
