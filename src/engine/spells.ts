@@ -600,3 +600,4 @@ export class Spells {
     const g = this.g
     const s = SPELL.snare
     this.snareCd = s.cooldown
+    const mat = this.rune(COLOR.chaos)
