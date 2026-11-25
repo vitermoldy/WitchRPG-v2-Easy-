@@ -72,3 +72,4 @@ def sun_dir(f, left_deg, elev_deg):
 
 
 def place_game_camera(sc, P, f, mode="normal", name="kamera", **over):
+    c = dict(CAM[mode])
