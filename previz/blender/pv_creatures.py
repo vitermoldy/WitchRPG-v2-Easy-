@@ -1140,3 +1140,4 @@ ROSTER = [
     ("samael", "Samael", b_samael, "Boss akhir (di luar v1)", "Marsekal", "Cadangan", ("167518dd7ed83f5f910603744479.jpg", (590, 1535, 980, 1827))),
     ("atlas", "Atlas", b_atlas, "Cadangan (di luar v1)", "Marsekal", "Cadangan", ("z0jfasz4aizd1.jpeg", (385, 1145, 650, 1495))),
     ("pegasus", "Pegasus", b_pegasus, "Satwa hutan, tunggangan opsional", "Bukan musuh", "Seluruh hutan", ("z0jfasz4aizd1.jpeg", (950, 1145, 1260, 1495))),
+    ("unicorn", "Unicorn", b_unicorn, "Penjaga altar", "Bukan musuh", "Altar", ("167518dd7ed83f5f910603744479.jpg", (410, 30, 669, 376))),
