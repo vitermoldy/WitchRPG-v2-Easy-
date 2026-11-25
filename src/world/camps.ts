@@ -108,3 +108,4 @@ const STONES = 7
 export class Camps {
   readonly camps: Camp[]
   readonly group = new THREE.Group()
+  private readonly g: Game
