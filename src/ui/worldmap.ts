@@ -51,3 +51,4 @@ export class WorldMap {
       /* no saved choice: nothing is marked */
     }
     $('btn-map-close').addEventListener('click', () => this.close())
+    this.dlg.addEventListener('close', () => this.onClose?.())
