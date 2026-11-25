@@ -17,3 +17,5 @@ interface Spot {
   x: number
   z: number
   unit: Unit | null
+}
+
