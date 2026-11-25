@@ -213,3 +213,4 @@ export function pathDist(x: number, y: number): number {
       const [ax, ay] = line[i]
       const [bx, by] = line[i + 1]
       const dx = bx - ax
+      const dy = by - ay
