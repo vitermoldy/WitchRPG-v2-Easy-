@@ -143,3 +143,4 @@ async function boot() {
   const openMenu = (menu: { open(): void }) => {
     game.openMenu()
     game.input.unlock()
+    menu.open()
