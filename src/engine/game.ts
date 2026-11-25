@@ -741,3 +741,4 @@ export class Game implements UnitHost {
       u.groundX = NaN
       u.command = 'follow'
       u.focus = null
+      u.set('rising')
