@@ -19,3 +19,4 @@ export interface CamParams {
   height: number
   fov: number
 }
+export interface CamPose {
