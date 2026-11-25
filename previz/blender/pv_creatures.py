@@ -1024,3 +1024,4 @@ def b_samael(r):
     p.tube([V(J["hip"]) + Vector((0, 0, 0.15)), V(J["hip"]), (0, 0.02, 0.5)], [0.3, 0.36, 0.48], mat="cloth", seg=12, n=3, cap=False)
     t = r.parts["torso"]
     t.tube([V(J["sh_L"]) + Vector((0, -0.02, 0.05)), V(J["chest"]) + Vector((0, -0.2, 0)), V(J["waist"]) + Vector((-0.25, -0.1, 0))], 0.07, mat="cloth", seg=6, n=3, squash=0.4)
+    for s in (1, -1):
