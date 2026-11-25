@@ -313,3 +313,4 @@ class Part:
 
     def _mi(self, mat):
         m = self.rig.pal[mat] if isinstance(mat, str) else mat
+        if m not in self.mats:
