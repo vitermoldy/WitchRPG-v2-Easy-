@@ -1006,3 +1006,4 @@ export class Rigs {
     return r
   }
 
+  /** Builds the rigs and crowd batches now, so the first fight does not stall on shader compiles. */
