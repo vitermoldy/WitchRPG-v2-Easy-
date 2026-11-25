@@ -311,3 +311,4 @@ export class Spells {
       // sweep the segment so a fast bolt never passes through a thin body
       const len = b.pos.distanceTo(b.prev)
       const dir = this.tmp.subVectors(b.pos, b.prev).divideScalar(len || 1).clone()
+      let best = g.obstacles.sweep(b.prev.x, b.prev.y, b.prev.z, b.pos.x, b.pos.y, b.pos.z, 0.05) * len
