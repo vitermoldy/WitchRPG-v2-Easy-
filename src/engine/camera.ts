@@ -110,3 +110,4 @@ export class CameraRig {
     // in first person the view stays at her eyes; only the lens widens for a big target
     p.dist += LOCKON.pullback * big * (1 - this.fp)
     p.fov += LOCKON.fovBoost * big
+    return p
