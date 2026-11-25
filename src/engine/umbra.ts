@@ -241,3 +241,5 @@ export class Umbra {
     const end = Math.min(1, (RITE.window - u.deadT) / 3)
     const k = pulse * end * (this.casting.includes(u) ? 1.0 : 0.55) * (u.executed ? 1.3 : 1)
     return this.glowColor.set(COLOR.umbra).multiplyScalar(k)
+  }
+
