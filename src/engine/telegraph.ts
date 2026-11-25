@@ -24,3 +24,4 @@ const RING_FRAG = /* glsl */ `
     float pulse = 0.5 + 0.5 * sin(uTime * 2.2 * 6.2832);
     float edge = smoothstep(0.09, 0.0, abs(r - 0.93)) * (0.55 + 0.45 * pulse);
     float fill = step(r, uFill) * 0.22;
+    float front = smoothstep(0.06, 0.0, abs(r - uFill)) * 0.7 * step(0.03, uFill);
