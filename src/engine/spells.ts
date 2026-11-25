@@ -299,3 +299,4 @@ export class Spells {
   }
 
   private updateBolts(dt: number) {
+    const g = this.g
