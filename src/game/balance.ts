@@ -657,3 +657,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     radius: 0.9,
     height: 3,
     mass: 90,
+    attackRange: 16,
