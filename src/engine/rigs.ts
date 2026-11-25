@@ -447,3 +447,4 @@ const MEDUSA_LIMBS = ['upperarm_L', 'upperarm_R', 'tail']
 /** Medusa: glides on her snake tail. Rises and spreads her arms for the gaze; strikes low for the bite. */
 const poseMedusa: PoseFn = (p, u, t) => {
   if (common(p, u, t, MEDUSA_LIMBS)) return
+  const sway = Math.sin(t * 1.6 + u.id)
