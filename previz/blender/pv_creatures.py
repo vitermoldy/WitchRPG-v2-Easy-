@@ -993,3 +993,4 @@ def b_typhon(r):
     t = r.parts["torso"]
     for s in (1, -1):
         bat_wing(t, (0.8 * s, J["back"][1], J["z"]["sh"]), s, 9.0, 5.8, raise_deg=28, sweep_deg=22, bone="horn", arm="horn")
+    for s, side in SIDES:
