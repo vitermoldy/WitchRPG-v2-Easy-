@@ -155,3 +155,4 @@ function segCylinder(ax: number, ay: number, az: number, dx: number, dy: number,
   // time inside the circle (in the ground plane)
   let c0: number
   let c1: number
+  const a = dx * dx + dz * dz
