@@ -472,3 +472,4 @@ export class Umbra {
         const rec = raised[0]
         g.hud.message(`Bayangan baru: ${rec.name}, ${RANKS[rec.rank].label} dari ${UNITS[rec.kind].name} Lv ${rec.level}.`, 'umbra')
         g.hud.banner(rec.name, 'bangkit dari bayangan dan berdiri di sisimu')
+      } else {
