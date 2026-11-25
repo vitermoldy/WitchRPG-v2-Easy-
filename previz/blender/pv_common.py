@@ -505,3 +505,4 @@ def collection(name, parent):
     return c
 
 
+def new_scene(name):
