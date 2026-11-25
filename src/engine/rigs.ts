@@ -610,3 +610,4 @@ const posePhoenix: PoseFn = (p, u, t) => {
   if (flying) {
     p.body(0.25 * Math.sin(t * 5 + u.id), 10, 12 * Math.sin(t * 1.3 + u.id))
     p.rot('leg_L', 40)
+    p.rot('leg_R', 40)
