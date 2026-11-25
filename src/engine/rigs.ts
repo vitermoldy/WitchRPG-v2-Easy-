@@ -1101,3 +1101,4 @@ export class Rigs {
       // a small step bob while it moves, so a marching crowd does not look frozen
       const pace = Math.min(1, Math.hypot(u.vel.x, u.vel.z) / Math.max(1, u.speed))
       this.p.y += Math.abs(Math.sin(t * 9 + u.id)) * 0.06 * pace
+      this.q.setFromAxisAngle(UP, u.yaw)
