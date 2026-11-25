@@ -179,3 +179,4 @@ describe('phase 4 creatures', () => {
     n.aggro = false
     n.home = n.pos.clone()
     const from = n.pos.clone()
+    w.sys.hurt(n, 5, { x: 0, z: 0 })
