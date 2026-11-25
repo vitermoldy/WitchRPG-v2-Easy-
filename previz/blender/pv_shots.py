@@ -461,3 +461,4 @@ def build_lineup(lib_colls, stats):
         bands.append(dict(key=key, title=title, x0=ox, width=width + 1.2, z0=-ts * 3.8, height=height + ts * 1.5, ts=ts))
         C.text(coll, title, (ox + 0.3, -6, top + ts * 0.6), size=ts * 1.1, color="#f4efe9", rot=(90, 0, 0))
         ox += width + 40
+    for b in bands:
