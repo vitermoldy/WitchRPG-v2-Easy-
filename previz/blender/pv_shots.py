@@ -150,3 +150,4 @@ def mat_ring(name, color, strength, inner=0.82, alpha=0.9, fill=0.08):
     rr.operation = "MULTIPLY"
     rr.inputs[1].default_value = 2.0
     L.new(ln2.outputs["Value"], rr.inputs[0])
+    ramp = N.new("ShaderNodeValToRGB")
