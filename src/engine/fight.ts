@@ -139,3 +139,4 @@ class Staff {
       } else if (this.travelled > COMBAT.staff.range) {
         // out of reach: it falls short
         this.vel.y -= 30 * dt
+        this.vel.multiplyScalar(Math.max(0, 1 - dt * 2))
