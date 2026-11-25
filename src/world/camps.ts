@@ -226,3 +226,4 @@ export class Camps {
           g.sfx.levelUp()
           g.counts.campsCleared++
           return
+        }
