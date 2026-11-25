@@ -60,3 +60,4 @@ export class Fauna {
 
   /** Where each one lives, for the map. */
   list() {
+    return this.spots.map((s) => ({ kind: s.kind, x: s.x, z: s.z }))
