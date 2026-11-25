@@ -2,3 +2,4 @@
 X is east, Y is north, metres. The playable map is 1000 x 1000 m inside a ring of mountains."""
 import math
 
+import bmesh
