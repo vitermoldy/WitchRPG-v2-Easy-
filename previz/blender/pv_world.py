@@ -612,3 +612,4 @@ def build_fog(coll):
 
 # ---------------------------------------------------------------- set pieces
 
+def build_temple(coll, pal):
