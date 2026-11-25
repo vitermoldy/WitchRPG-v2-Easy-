@@ -362,3 +362,4 @@ export class Warnings {
     w.fill.userData.r = radius
   }
 
+  update(dt: number) {
