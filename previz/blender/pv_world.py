@@ -357,3 +357,4 @@ def _bush(p):
 def build_protos(lib_coll):
     pal = veg_palette()
     coll = C.collection("PROTO", lib_coll)
+    P = {}
