@@ -167,3 +167,4 @@ export class Lair {
       this.heads.push(h)
     }
     body.parts = this.heads
+    this.body = body
