@@ -333,3 +333,5 @@ class Part:
         M = self._M(c) @ R @ Matrix.Diagonal((r[0], r[1], r[2], 1))
         g = bmesh.ops.create_uvsphere(self.bm, u_segments=seg, v_segments=rings, radius=1.0, matrix=M)
         self._tag(g["verts"], mat, smooth)
+        return self
+
