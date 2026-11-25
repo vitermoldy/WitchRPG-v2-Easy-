@@ -157,3 +157,4 @@ function segCylinder(ax: number, ay: number, az: number, dx: number, dy: number,
   let c1: number
   const a = dx * dx + dz * dz
   const c = ox * ox + oz * oz - R * R
+  if (a < 1e-12) {
