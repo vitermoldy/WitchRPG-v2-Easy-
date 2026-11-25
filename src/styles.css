@@ -1829,3 +1829,4 @@ dialog::backdrop {
   flex-direction: column;
   gap: 0.8rem;
   min-height: 0;
+  overflow-y: auto;
