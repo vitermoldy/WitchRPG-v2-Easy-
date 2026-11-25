@@ -200,3 +200,4 @@ export class Telegraphs {
     this.time += dt
     for (const it of this.byUnit.values()) {
       const u = it.unit
+      if (!u) continue
