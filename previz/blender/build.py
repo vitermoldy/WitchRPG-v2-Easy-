@@ -130,3 +130,4 @@ if "--anim" in argv:
     sc.frame_start, sc.frame_end = first, last
     sc.render.filepath = os.path.join(TMP, "anim_")
     sc.render.resolution_percentage = PCT
+    bpy.ops.render.render(animation=True, scene=sc.name)
