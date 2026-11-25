@@ -13,3 +13,4 @@ export interface Shape {
   y: number
   z: number
   r: number
+  /** Cylinder height; unused for spheres. */
