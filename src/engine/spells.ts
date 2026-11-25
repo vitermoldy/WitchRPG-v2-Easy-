@@ -738,3 +738,4 @@ export class Spells {
     this.explode(new THREE.Vector3(p.x, p.y, p.z), s.blastRadius, s.blastDamage * this.damageMult, s.push, 4)
   }
 
+  private updateBarrier(dt: number) {
