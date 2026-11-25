@@ -106,3 +106,4 @@ export class Props {
       }
     }
     this.mesh.count = this.list.length
+    this.list.forEach((p, i) => {
