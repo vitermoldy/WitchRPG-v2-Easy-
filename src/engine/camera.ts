@@ -73,3 +73,5 @@ export interface LockView {
   point: Vec
   /** Target height, for pulling back from big creatures. */
   height: number
+}
+
