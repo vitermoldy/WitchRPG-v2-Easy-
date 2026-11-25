@@ -548,3 +548,4 @@ export class Game implements UnitHost {
     p.maxHp = d.maxHp
     p.maxMana = d.maxMana
     p.hp = p.maxHp * hpShare
+    p.mana = p.maxMana * manaShare
