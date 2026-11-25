@@ -477,3 +477,6 @@ def render_lineup(sc, bands, path, tmpdir, pct=100):
         p = os.path.join(tmpdir, f"barisan_{b['key']}.png")
         C.render(sc, p, pct)
         parts.append(p)
+    stack_png(parts, path, pad=24, bg=(0.094, 0.102, 0.125))
+
+
