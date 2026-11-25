@@ -110,3 +110,4 @@ if "variants" in ONLY:
     log("render varian")
 if "lineup" in ONLY:
     sc, bands = scenes["lineup"]
+    S.render_lineup(sc, bands, os.path.join(RENDERS, "03-barisan-makhluk.png"), TMP, PCT)
