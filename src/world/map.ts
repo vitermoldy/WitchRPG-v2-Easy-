@@ -189,3 +189,4 @@ export function inWaterRect(x: number, y: number) {
 /** Soft share of each zone at a map point; they add up to 1. */
 export function zoneWeights(x: number, y: number, out: Float32Array<ArrayBufferLike> = new Float32Array(ZONES.length)): Float32Array<ArrayBufferLike> {
   let sum = 0
+  for (let i = 0; i < ZONES.length; i++) {
