@@ -109,3 +109,4 @@ def cam_label(cam, body, size=0.035, corner=(-0.95, 0.88)):
 
 
 def disc(coll, name, centre, radius, mat, z_off=0.03, seg=40):
+    bm = bmesh.new()
