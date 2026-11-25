@@ -513,3 +513,6 @@ def build_ground_cover(coll, P, centre, radius, seed=11, grass=0.5, fern=0.05, b
         pts = np.stack([X[ids], Y[ids], Z[ids] - 0.03], axis=1)
         rots = np.stack([np.zeros(len(ids)), np.zeros(len(ids)), rng.uniform(0, 6.28, len(ids))], axis=1)
         lo, hi = (0.45, 0.9) if kind == "grass" else (0.7, 1.3)
+        scatter_object(f"cover_{kind}_{seed}", coll, P[kind], pts, rots, rng.uniform(lo, hi, len(ids)))
+
+
