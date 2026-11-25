@@ -80,3 +80,4 @@ export class Altars {
   }
 
   /** The lit altar she stands at, if any. */
+  near(): Altar | null {
