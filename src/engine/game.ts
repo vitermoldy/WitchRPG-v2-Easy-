@@ -587,3 +587,4 @@ export class Game implements UnitHost {
       this.sfx.refused()
       this.hud.message('Reruntuhan Kuil dan Lembah Bara tersegel sampai Hydra di Danau Hitam kalah.', 'info')
     } else if (this.t - this.lair.refusedAt < 0.1) {
+      this.refusedMsgAt = this.t
