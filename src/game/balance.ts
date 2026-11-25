@@ -619,3 +619,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     summon: { every: 14, count: 2, max: 4 },
     summonKind: 'imp',
     attacks: [
+      { name: 'api hijau', strike: 'line', windup: 0.7, recover: 0.7, range: 22, minRange: 4, shot: { speed: 24, gravity: 0, radius: 0.22 } },
