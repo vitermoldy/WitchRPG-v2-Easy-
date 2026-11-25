@@ -28,3 +28,4 @@ export class Input {
       this.release(e.code)
     })
     window.addEventListener('blur', () => this.releaseAll())
+    target.addEventListener('mousedown', (e) => {
