@@ -669,3 +669,4 @@ def sky_world(name, zenith, horizon, ground, strength=1.0, haze=None, haze_densi
     mr = N.new("ShaderNodeMapRange")
     mr.inputs["From Min"].default_value = -1.0
     mr.inputs["From Max"].default_value = 1.0
+    L.new(sep.outputs["Z"], mr.inputs["Value"])
