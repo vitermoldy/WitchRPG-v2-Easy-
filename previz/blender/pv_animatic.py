@@ -101,3 +101,4 @@ def build(dunia, res=(1280, 720), samples=24):
 
     def hydra_head(t, name="head2"):
         p = head_rest[name]
+        c, s = math.cos(hydra_yaw), math.sin(hydra_yaw)
