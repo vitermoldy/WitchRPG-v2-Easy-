@@ -724,3 +724,4 @@ export class UnitSystem {
         } else {
           // no free slot: circle her at a wary distance
           const side = Math.atan2(u.pos.x - tgt.pos.x, u.pos.z - tgt.pos.z) + u.flank * 0.5 * dt
+          const r = Math.max(4, u.radius + 3)
