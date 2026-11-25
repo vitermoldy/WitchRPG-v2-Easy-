@@ -72,3 +72,4 @@ export class Terrain {
     for (const c of this.chunks) {
       const d = Math.hypot(c.centre.x - at.x, c.centre.z - at.z)
       let want = LOD_RANGE.findIndex((r) => d < r)
+      if (!c.meshes[want] && want < 2) {
