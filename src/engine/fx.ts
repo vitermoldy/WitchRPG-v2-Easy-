@@ -222,3 +222,4 @@ export class LightPool {
     slot.light.color.set(color)
     slot.light.distance = distance
     slot.peak = intensity
+    slot.ttl = duration
