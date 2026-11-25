@@ -285,3 +285,4 @@ export class IlyraModel {
         through = { torso: 38, armX: -35, armY: 0, fore: 0 }
       } else ({ back, through } = SWINGS[sw.index % SWINGS.length])
       const rest = { torso: torsoY, armX: armRX, armY: armRY, fore: foreR }
+      let pose: typeof back
