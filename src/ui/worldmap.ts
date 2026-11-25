@@ -227,3 +227,4 @@ export class WorldMap {
           r = 22
           gg = 46
           b = 52
+        } else {
