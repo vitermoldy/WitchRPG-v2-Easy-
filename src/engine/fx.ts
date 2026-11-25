@@ -41,3 +41,4 @@ const VERT = /* glsl */ `
 `
 
 const FRAG_GLOW = /* glsl */ `
+  varying vec3 vColor;
