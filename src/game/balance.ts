@@ -1094,3 +1094,4 @@ export const TIERS: Record<TierId, TierSpec> = {
     unlock: 13,
     needsBoss: true,
     maxAlive: 19,
+    waves: [
