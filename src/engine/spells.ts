@@ -526,3 +526,4 @@ export class Spells {
       at = hit.unit ? hit.unit.pos.clone() : hit.point.clone()
     } else if (locked && locked.alive) at = locked.pos.clone()
     else {
+      const p = g.player
