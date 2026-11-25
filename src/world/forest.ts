@@ -37,3 +37,5 @@ const C = (h: string) => new THREE.Color(h)
 const PAL = {
   bark: C('#2a211c'), needle: C('#1a2d22'), needle2: C('#2a3524'), birch: C('#cfcac0'), leaf: C('#56703a'),
   moss: C('#3a4a2c'), swampwood: C('#26241d'), dead: C('#4a4540'), burnt: C('#1a1310'), rock: C('#55524e'), rock2: C('#6e6252'),
+}
+
