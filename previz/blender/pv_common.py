@@ -384,3 +384,4 @@ class Part:
         rings = []
         allv = []
         off = self.pivot
+        for i, p in enumerate(P):
