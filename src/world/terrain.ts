@@ -98,3 +98,4 @@ export class Terrain {
     if (c.meshes[lod]) return
     const mesh = new THREE.Mesh(this.geometry(c.ix, c.iz, LOD_STEP[lod]), this.material)
     mesh.receiveShadow = true
+    mesh.visible = false
