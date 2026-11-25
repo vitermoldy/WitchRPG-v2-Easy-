@@ -503,3 +503,4 @@ export class UnitSystem {
       if (u.state === 'ashes') {
         const r = u.spec.rebirth!
         if (u.t >= r.ashes) {
+          u.reborn = true
