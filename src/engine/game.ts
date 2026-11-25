@@ -1124,3 +1124,4 @@ export class Game implements UnitHost {
     const info = this.renderer.info
     const p = this.player
     return {
+      ...this.frameStats(),
