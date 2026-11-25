@@ -100,3 +100,4 @@ def emission_of(m):
         return None
     for n in m.node_tree.nodes:
         if n.bl_idname == "ShaderNodeEmission":
+            return tuple(n.inputs["Color"].default_value[:3]), n.inputs["Strength"].default_value
