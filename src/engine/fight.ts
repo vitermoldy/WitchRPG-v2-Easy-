@@ -193,3 +193,4 @@ class Staff {
       this.q2.setFromAxisAngle(axis.normalize(), this.spin)
       this.q.premultiply(this.q2)
     }
+    obj.quaternion.copy(this.q)
