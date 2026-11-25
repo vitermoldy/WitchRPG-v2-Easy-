@@ -130,3 +130,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
       }
     } catch (e) {
       setNote(e instanceof ApiError ? `Sinkron gagal: ${e.message}` : 'Sinkron gagal')
+    }
