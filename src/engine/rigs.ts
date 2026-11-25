@@ -111,3 +111,5 @@ function common(p: Poser, u: Unit, t: number, limbs: string[]): boolean {
   return false
 }
 
+const IMP_LIMBS = ['upperarm_L', 'upperarm_R', 'thigh_L', 'thigh_R', 'tail']
+
