@@ -175,3 +175,4 @@ class Staff {
     this.state = 'stuck'
     this.vel.setY(0)
     // planted at a slant, head up and back toward where it came from
+    this.tmp.copy(this.vel).normalize().multiplyScalar(-0.5).add(Y).normalize()
