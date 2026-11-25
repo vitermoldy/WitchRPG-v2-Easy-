@@ -51,3 +51,4 @@ describe('XP curve from the GDD', () => {
   it('levels several times from one large gain', () => {
     const p = newProfile()
     const r = gainXp(p, 80 + 230 + 420 + 5, ALL)
+    expect(p.level).toBe(4)
