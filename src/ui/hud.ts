@@ -264,3 +264,4 @@ export class Hud {
       else if (g.umbra.casting.length) html = `Membangkitkan ${g.umbra.casting.length} tubuh`
       else html = `<kbd>Tahan R</kbd> Bangkitkan ${many} tubuh <span class="chance">${lo === hi ? `${lo}%` : `${lo} sampai ${hi}%`}</span> <span class="num">mana ${g.umbra.cost(many)}</span>`
     } else if (c) {
+      const why = g.umbra.blocker(c)
