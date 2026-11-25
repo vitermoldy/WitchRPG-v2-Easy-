@@ -151,3 +151,4 @@ export class Unit implements Foe {
   focus: Unit | null = null
   focusBonus = 0
   /** Drawn with its own animated model this frame (the rest of the army is drawn as a crowd). */
+  detailed = true
