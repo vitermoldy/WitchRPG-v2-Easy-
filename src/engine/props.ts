@@ -104,3 +104,4 @@ export class Props {
           p.vel.set(0, 0, 0)
         }
       }
+    }
