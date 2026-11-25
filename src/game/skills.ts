@@ -138,3 +138,4 @@ export const SKILLS: SkillDef[] = [
     effect: 'Bisa membangkitkan boss berpangkat Marsekal, satu kali per boss. Hydra datang di fase berikutnya.',
     upgrade: '',
     built: true,
+    noUpgrade: true,
