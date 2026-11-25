@@ -121,3 +121,5 @@ export class Sfx {
       this.tone(t, 'sawtooth', 700, 1500, 0.12, 0.08)
       this.tone(t + 0.12, 'sawtooth', 900, 1900, 0.14, 0.08)
     }
+  }
+
