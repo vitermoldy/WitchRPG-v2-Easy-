@@ -90,3 +90,4 @@ export class Altars {
   nearestUnlit(): { altar: Altar; dist: number } | null {
     const p = this.g.player.pos
     let best: { altar: Altar; dist: number } | null = null
+    for (const a of this.list) {
