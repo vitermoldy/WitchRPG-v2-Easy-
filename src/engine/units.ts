@@ -295,3 +295,4 @@ export class UnitSystem {
     u.yaw = Math.random() * Math.PI * 2
     if (rising) u.set('rising')
     this.units.push(u)
+    return u
