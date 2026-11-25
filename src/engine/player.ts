@@ -131,3 +131,4 @@ export class Player {
       // roll the way she is steering; with no direction held, step back from where she faces
       let dx = wx
       let dz = wz
+      if (Math.hypot(dx, dz) < 0.2) {
