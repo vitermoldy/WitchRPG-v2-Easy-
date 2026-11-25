@@ -261,3 +261,4 @@ export class Umbra {
       for (const [id, at] of this.downUntil) {
         if (at > this.time) continue
         this.downUntil.delete(id)
+        const rec = g.profile.shadows.find((s) => s.id === id)
