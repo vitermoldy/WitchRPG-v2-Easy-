@@ -120,3 +120,4 @@ class Staff {
       if (hitU && hitU.f <= wall) {
         const u = hitU.u
         this.pos.lerpVectors(this.prev, this.pos, hitU.f)
+        g.hurtUnit(u, COMBAT.staff.damage * g.fight.damageMult, this.prev, COMBAT.staff.stun, 4, 'player', 'staff')
