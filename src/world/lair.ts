@@ -513,3 +513,4 @@ export class Lair {
         this.bodyAttackIn = 3.2
       }
     } else if (body.state === 'windup') {
+      if (her) body.aimAt.lerp(her, Math.min(1, dt * 1.2))
