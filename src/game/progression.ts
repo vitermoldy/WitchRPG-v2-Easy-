@@ -224,3 +224,4 @@ export function gainXp(p: Profile, amount: number, skills: SkillId[]): XpResult 
     p.level += 1
     p.statPoints += XP.statPointsPerLevel
     p.skillPoints += XP.skillPointsPerLevel
+    result.levelsGained += 1
