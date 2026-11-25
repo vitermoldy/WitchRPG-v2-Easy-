@@ -977,3 +977,4 @@ export class Game implements UnitHost {
       wheelPressed: inp.pressed('KeyZ'),
       dx: inp.dx,
       dy: inp.dy,
+    })
