@@ -228,3 +228,4 @@ export class Umbra {
     if (rec.rank !== UNITS[rec.kind].rank) u.setScale(1.15)
     // UMB makes every soldier stronger
     const power = g.derived.shadowPower
+    u.maxHp *= power
