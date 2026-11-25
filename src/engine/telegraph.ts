@@ -140,3 +140,4 @@ export class Telegraphs {
     } else {
       it.radius = ringOf(atk)
       it.follow = atk.ahead === undefined
+      it.total = atk.windup * u.tempo + (atk.shot ? Math.max(0.3, dist / atk.shot.speed) : (atk.lungeTime ?? 0.3))
