@@ -58,3 +58,4 @@ Salin `.env.example` menjadi `.env` dan isi akun MySQL. Server membuat database 
 | Esc | Jeda: sensitivitas, volume, bayangan detail penuh, guncangan kamera |
 
 | Tempur | |
+| --- | --- |
