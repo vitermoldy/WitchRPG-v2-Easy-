@@ -199,3 +199,4 @@ export class Sfx {
     const { osc, osc2, gain } = this.gripNodes
     const t = this.ctx.currentTime
     gain.gain.cancelScheduledValues(t)
+    gain.gain.setValueAtTime(gain.gain.value, t)
