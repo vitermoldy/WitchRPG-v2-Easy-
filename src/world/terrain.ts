@@ -94,3 +94,4 @@ export class Terrain {
     this.update(at, 1000)
   }
 
+  private ensure(c: Chunk, lod: number) {
