@@ -141,3 +141,4 @@ describe('over-the-shoulder camera', () => {
     const sy = (d.x * up.x + d.y * up.y + d.z * up.z) / ul / depth / tv
     expect(sx).toBeGreaterThan(0.2)
     expect(sx).toBeLessThan(0.45)
+    expect(sy).toBeGreaterThan(0.15)
