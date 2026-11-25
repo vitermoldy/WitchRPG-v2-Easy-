@@ -451,3 +451,4 @@ export class ShadowPools {
     p.mesh.position.set(at.x, at.y + 0.04, at.z)
     p.mesh.scale.setScalar(radius)
     p.mesh.visible = true
+    p.radius = radius
