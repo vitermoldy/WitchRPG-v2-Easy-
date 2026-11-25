@@ -981,3 +981,4 @@ export const SHADOW = { hpMult: 2.2, damageMult: 1.2, speedMult: 1.15, followDis
 export const SHADOW_SKILL = {
   /** Rift Lord (Jenderal): calls two short-lived shadow husks. */
   call: { every: 20, count: 2, lasts: 15 },
+  /** Hollow Warden (Marsekal): drags enemies in and stuns them. */
