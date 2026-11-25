@@ -852,3 +852,4 @@ export class Game implements UnitHost {
     }
     this.lastFrame = now
     const th = performance.now()
+    this.hud.update(dt)
