@@ -155,3 +155,4 @@ const poseImp: PoseFn = (p, u, t) => {
     p.rot('upperarm_L', 40 * k)
     p.rot('upperarm_R', 40 * k)
     p.rot('torso', 25 * k)
+    p.rot('thigh_L', -30 * k)
