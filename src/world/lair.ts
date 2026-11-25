@@ -337,3 +337,4 @@ export class Lair {
       }
       return
     }
+    // the Hydra only lies in the lake while she is near: far away it would cost frames for nothing
