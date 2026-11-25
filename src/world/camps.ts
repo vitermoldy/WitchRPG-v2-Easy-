@@ -152,3 +152,4 @@ export class Camps {
         this.shards.setMatrixAt(i, m)
         this.shards.setColorAt(i, this.lit)
       }
+    }
