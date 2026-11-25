@@ -367,3 +367,4 @@ export class IlyraModel {
     if (act.hurt > 0) {
       torsoX -= 16 * act.hurt
       this.rot('head', -18 * act.hurt)
+      armLZ += 20 * act.hurt
