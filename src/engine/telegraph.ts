@@ -106,3 +106,4 @@ export class Telegraphs {
     })
     const mesh = new THREE.Mesh(geo, mat)
     mesh.frustumCulled = false
+    mesh.visible = false
