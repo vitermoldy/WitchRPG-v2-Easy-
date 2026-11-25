@@ -316,3 +316,4 @@ export class Lair {
     // water and islands follow the flood
     this.flood += (this.floodTo - this.flood) * Math.min(1, dt * 0.5)
     this.waterY = this.groundY - 3 + (3 + WATER_UP) * this.flood
+    this.water.position.y = this.waterY
