@@ -648,3 +648,4 @@ export class UnitSystem {
     return Number.isFinite(r) ? r : u.spec.attackRange
   }
 
+  private enemyBrain(u: Unit, dt: number) {
