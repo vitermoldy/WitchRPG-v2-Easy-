@@ -799,3 +799,4 @@ class Rig implements Poser {
       this.rest.set(o, o.rotation.clone())
       const mesh = o as THREE.Mesh
       if (!mesh.isMesh) return
+      const src = mesh.material as THREE.MeshStandardMaterial
