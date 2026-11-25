@@ -28,3 +28,4 @@ const HYDRA_HINT = [
   'Kebal, kecuali di dalam Reality Warp (V): di sana jantungnya terbuka, +50%.',
 ]
 
+/**
