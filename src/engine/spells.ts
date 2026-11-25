@@ -764,3 +764,4 @@ export class Spells {
       warp: this.warpCd / SPELL.warp.cooldown,
     }
   }
+}
