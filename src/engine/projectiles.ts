@@ -145,3 +145,4 @@ export class Projectiles {
         // a glob bursts on the ground: high in the air she is out of it
         const low = p.pos.y - g.height(p.pos.x, p.pos.z) < 2.5
         if (p.alive && low && Math.hypot(p.pos.x - s.aim.x, p.pos.z - s.aim.z) < r + 0.4) g.strikePlayer(s.source, s.atk)
+        for (const u of g.units.units) {
