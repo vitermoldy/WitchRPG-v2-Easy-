@@ -1758,3 +1758,4 @@ dialog::backdrop {
 }
 
 .gate-field input:hover {
+  border-color: var(--ink-3);
