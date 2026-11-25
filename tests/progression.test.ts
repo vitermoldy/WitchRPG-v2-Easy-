@@ -222,3 +222,4 @@ describe('Tier IV and V', () => {
     expect(TIERS[3].waves.some((w) => w.harrier)).toBe(false)
     expect(TIERS[5].waves.some((w) => w.bombard)).toBe(true)
     expect(TIERS[4].waves.some((w) => w.bombard)).toBe(false)
+    expect(UNITS.harrier.rank).toBe('prajurit')
