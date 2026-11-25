@@ -343,3 +343,4 @@ export class Hud {
     let n = 0
     for (const u of g.units.units) {
       if (u.team !== 'enemy' || !u.targetable || u.spec.boss) continue
+      const d2 = (u.pos.x - p.x) ** 2 + (u.pos.z - p.z) ** 2
