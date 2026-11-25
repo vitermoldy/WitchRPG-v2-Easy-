@@ -306,3 +306,5 @@ export class Lair {
     return this.flood > 0 && this.inside(x, z) ? Math.max(0, this.waterY - y) : 0
   }
 
+  // ------------------------------------------------------------ the fight
+
