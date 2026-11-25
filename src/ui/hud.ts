@@ -168,3 +168,4 @@ export class Hud {
   }
 
   update(dt: number) {
+    const g = this.g
