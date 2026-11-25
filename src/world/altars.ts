@@ -111,3 +111,4 @@ export class Altars {
     const p = g.player
     this.spin += dt
     for (const a of this.list) {
+      a.crystal.rotation.y = this.spin * 0.8
