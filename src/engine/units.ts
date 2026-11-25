@@ -526,3 +526,4 @@ export class UnitSystem {
       }
       if (u.state !== 'stagger') {
         if (u.team === 'enemy') {
+          this.enemyBrain(u, dt)
