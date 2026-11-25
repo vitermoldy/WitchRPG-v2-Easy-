@@ -74,3 +74,4 @@ export class LockOn {
         best = t
       }
     }
+    if (best) {
