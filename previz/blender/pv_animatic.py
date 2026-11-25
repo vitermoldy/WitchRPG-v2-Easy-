@@ -77,3 +77,4 @@ def build(dunia, res=(1280, 720), samples=24):
     cam.rotation_mode = "QUATERNION"
     tc = ret.constraints.new("TRACK_TO")
     tc.target = cam
+    tc.track_axis = "TRACK_Z"
