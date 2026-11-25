@@ -172,3 +172,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
       pass.value = ''
     } catch (e) {
       showError(e instanceof Error ? e.message : 'Belum bisa masuk. Coba lagi.')
+      if (e instanceof ApiError && e.status === 401) pass.select()
