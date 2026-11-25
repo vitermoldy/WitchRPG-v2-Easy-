@@ -376,3 +376,4 @@ def build_protos(lib_coll):
 # ---------------------------------------------------------------- instancing
 
 def scatter_group():
+    ng = bpy.data.node_groups.get("PV_Scatter")
