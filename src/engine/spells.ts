@@ -116,3 +116,4 @@ export class Spells {
   private readonly snares: Field[] = []
   private readonly warps: Field[] = []
   boltCd = 0
+  burstCd = 0
