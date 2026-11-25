@@ -136,3 +136,4 @@ class Staff {
         this.pos.y = ground + 0.25
         this.stick()
         g.sfx.impact(0.3)
+      } else if (this.travelled > COMBAT.staff.range) {
