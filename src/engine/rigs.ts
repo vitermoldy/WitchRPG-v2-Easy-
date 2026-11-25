@@ -950,3 +950,4 @@ class Rig implements Poser {
   }
 
   /** The standing model, posed at rest, for the crowd. */
+  standing(): THREE.Group {
