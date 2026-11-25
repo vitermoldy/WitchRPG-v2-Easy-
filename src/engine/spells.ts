@@ -287,3 +287,4 @@ export class Spells {
       this.bolts.push({ pos: from.clone(), prev: from.clone(), vel: d.multiplyScalar(SPELL.bolt.speed), life: SPELL.bolt.life, damage: dmg, mesh, light: g.lights.acquire(COLOR.chaos, 6, 7) })
     }
     g.fight.cast()
+    g.addTrauma(0.03)
