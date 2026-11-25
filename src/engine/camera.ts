@@ -64,3 +64,4 @@ export function clearFraction(pivot: Vec, want: Vec, obstacles: Obstacles | null
       break
     }
     last = t
+  }
