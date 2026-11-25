@@ -10,3 +10,4 @@ import { AUTH_TABLES } from './auth.js'
  * - witch_altars: the altars she has lit, and which one she rises at (`last`).
  * v2 has no Rifts, so v1's rift_runs and tier_clears are not here. Times are stored in UTC.
  */
+const TABLES = [
