@@ -313,3 +313,4 @@ export class Hud {
     if (field.length > 3) rows.push(`<li class="army-row dim"><span>dan ${field.length - 3} lainnya</span><b></b></li>`)
     if (!total) rows.push(`<li class="army-row dim"><span>${g.umbra.riteOpen ? 'Bangkitkan makhluk yang kalah dengan Tahan R' : 'Umbra Rite terbuka di Lv 2'}</span><b></b></li>`)
     else rows.push(`<li class="army-row key"><span><kbd>T</kbd> ${field.length ? 'Kembalikan' : 'Panggil'}</span><span><kbd>Z</kbd> Perintah</span></li>`)
+    this.html(this.army, 'army', rows.join(''))
