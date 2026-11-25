@@ -706,3 +706,4 @@ export class Game implements UnitHost {
 
   private revive() {
     const p = this.player
+    this.camps.sleepAll()
