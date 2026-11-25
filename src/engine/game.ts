@@ -166,3 +166,4 @@ export class Game implements UnitHost {
 
     this.input = new Input(canvas)
     this.input.virtualLock = debug
+    this.input.onLockChange = (locked) => {
