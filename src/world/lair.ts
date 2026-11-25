@@ -302,3 +302,4 @@ export class Lair {
   }
 
   /** How deep she stands in the flood (m), for wading. */
+  depthAt(x: number, z: number, y: number) {
