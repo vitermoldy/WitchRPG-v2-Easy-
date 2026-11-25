@@ -336,3 +336,4 @@ export class Hud {
   /** Health and stun over creatures that were hit or are close and roused; a staggered one says so. */
   private updateBars() {
     const g = this.g
+    const cam = g.camera
