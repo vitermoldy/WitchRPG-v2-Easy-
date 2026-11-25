@@ -861,3 +861,4 @@ export class UnitSystem {
       const d = Math.hypot(tgt.pos.x - u.pos.x, tgt.pos.z - u.pos.z)
       const reach = Math.min(u.spec.attackRange, 2.2) + u.radius + tgt.radius
       this.steer(u, tgt.pos.x, tgt.pos.z, u.speed, dt, reach * 0.8)
+      this.face(u, tgt.pos.x, tgt.pos.z, dt)
