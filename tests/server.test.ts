@@ -17,3 +17,4 @@ describe('the server checks a witch before it keeps her', () => {
     expect(p.settings.detail).toBe(20)
   })
 
+  it('knows every creature that can be raised, every skill and every altar of the game', () => {
