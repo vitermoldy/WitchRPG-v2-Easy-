@@ -51,3 +51,4 @@ function rateLimit(limit) {
   }
 }
 
+const int = (v, lo, hi) => (Number.isInteger(v) && v >= lo && v <= hi ? v : null)
