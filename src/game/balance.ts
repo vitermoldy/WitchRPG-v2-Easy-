@@ -1074,3 +1074,4 @@ export const TIERS: Record<TierId, TierSpec> = {
   // Past the GDD's first version: enemies Lv 10 and up, elite combinations.
   4: {
     tier: 4,
+    name: 'Rift Tier IV',
