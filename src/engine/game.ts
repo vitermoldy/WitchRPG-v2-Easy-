@@ -1081,3 +1081,4 @@ export class Game implements UnitHost {
     if (Math.abs(c.fov - pose.fov) > 1e-3) {
       c.fov = pose.fov
       c.updateProjectionMatrix()
+      this.glow?.setViewport(this.renderer.domElement.height, c.fov)
