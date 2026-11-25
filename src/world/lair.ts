@@ -57,3 +57,4 @@ interface Island {
  * v1's Hollow Warden). Only a witch of Lv 10 can step in: phase 3 is won inside Reality Warp, which
  * opens at Lv 10. Once the fight starts the lair closes until the Hydra or she falls.
  */
+export class Lair {
