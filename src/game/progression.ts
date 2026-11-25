@@ -88,3 +88,4 @@ export function newProfile(): Profile {
 export const tierUnlocked = (p: Profile, tier: TierId) => p.level >= TIERS[tier].unlock && (!TIERS[tier].needsBoss || p.bossKills > 0)
 
 /** What still keeps a tier shut, for the title and the world gates; null when it is open. */
+export function tierLock(p: Profile, tier: TierId): string | null {
