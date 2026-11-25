@@ -231,3 +231,4 @@ def terrain_material():
 
 
 def build_water(coll):
+    me = bpy.data.meshes.new("water")
