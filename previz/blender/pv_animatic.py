@@ -145,3 +145,5 @@ def build(dunia, res=(1280, 720), samples=24):
         nh = naga.objs.get("head")
         if nh:
             nh.rotation_euler = (math.radians(6 * math.sin(t * 3.1)), 0, math.radians(8 * math.sin(t * 1.7)))
+            nh.keyframe_insert("rotation_euler", frame=fr)
+
