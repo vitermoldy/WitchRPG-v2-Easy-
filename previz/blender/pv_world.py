@@ -127,3 +127,4 @@ def path_dist(x, y):
             ax, ay = a
             bx, by = b
             dx, dy = bx - ax, by - ay
+            L2 = dx * dx + dy * dy
