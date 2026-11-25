@@ -448,3 +448,4 @@ class Part:
         return self
 
 
+class Rig:
