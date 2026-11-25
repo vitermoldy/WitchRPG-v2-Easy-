@@ -321,3 +321,4 @@ const poseCentaur: PoseFn = (p, u, t) => {
   const { ph, amp } = trot(p, u, 34, 0.7)
   p.rot('tail', -15 + 8 * Math.sin(t * 3), 18 * Math.sin(t * 2.4 + u.id))
   p.body(0.06 * Math.abs(Math.sin(ph * 2)) * amp, 2 * Math.sin(ph * 2) * amp)
+  // bow arm: the left hand holds the bow out, the right pulls the string to the cheek
