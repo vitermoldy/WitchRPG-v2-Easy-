@@ -256,3 +256,4 @@ def build_water(coll):
     # Screen-space reflections break into a hard diagonal edge when rays leave the frame; a planar probe
     # mirrors the far shore properly and keeps Danau Hitam black.
     pr = bpy.data.lightprobes.new("pantulan_air", "PLANE")
+    po = bpy.data.objects.new("pantulan_air", pr)
