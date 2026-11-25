@@ -852,3 +852,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     stun: 420,
     anchored: true,
     boss: true,
+    summon: { every: 22, count: 3, max: 6 },
