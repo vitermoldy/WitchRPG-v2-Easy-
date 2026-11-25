@@ -1182,3 +1182,4 @@ export const COMBAT = {
     speed: 0.45,
   },
   parry: {
+    /** Pressing block this close before a blockable hit lands parries it (seconds). */
