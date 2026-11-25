@@ -810,3 +810,4 @@ button {
   bottom: var(--gutter);
   display: grid;
   gap: 0.35rem;
+  width: min(22rem, 40vw);
