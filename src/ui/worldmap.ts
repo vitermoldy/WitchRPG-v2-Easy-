@@ -63,3 +63,4 @@ export class WorldMap {
       for (const m of this.monsters()) this.chosen.add(m.kind)
       this.changed()
     })
+    $('map-none').addEventListener('click', () => {
