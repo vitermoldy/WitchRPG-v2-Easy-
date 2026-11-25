@@ -594,3 +594,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     cooldown: 2.4,
     stun: 120,
     anchored: true,
+    attacks: [
