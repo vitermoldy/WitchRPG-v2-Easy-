@@ -265,3 +265,4 @@ export function shieldShare(u: Unit, fromX: number, fromZ: number, kind: DamageK
   const dx = fromX - u.pos.x
   const dz = fromZ - u.pos.z
   const d = Math.hypot(dx, dz)
+  if (d < 1e-4) return 1
