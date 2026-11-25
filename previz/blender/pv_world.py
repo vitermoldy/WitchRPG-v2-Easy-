@@ -601,3 +601,4 @@ def build_fog(coll):
     vol.inputs["Anisotropy"].default_value = 0.5
     nt.links.new(vol.outputs[0], out.inputs["Volume"])
     me.materials.append(m)
+    ob = bpy.data.objects.new("atmosphere", me)
