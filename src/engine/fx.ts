@@ -472,3 +472,4 @@ export class ShadowPools {
         p.open = Math.min(1, p.t / 0.35)
         if (p.open >= 1) {
           p.state = 'holding'
+          p.t = 0
