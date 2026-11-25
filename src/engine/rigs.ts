@@ -124,3 +124,4 @@ const poseImp: PoseFn = (p, u, t) => {
     const k = ease(u.t / u.spec.windup)
     const shake = k > 0.7 ? Math.sin(t * 60) * 3 : 0
     p.body(-0.14 * k, 18 * k)
+    p.rot('thigh_L', -55 * k)
