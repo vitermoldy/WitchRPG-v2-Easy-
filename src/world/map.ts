@@ -115,3 +115,5 @@ export function fbm(x: number, y: number, octaves = 4, seed = 0): number {
     f *= 2
   }
   return s / norm
+}
+
