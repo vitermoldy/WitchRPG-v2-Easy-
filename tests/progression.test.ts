@@ -71,3 +71,4 @@ describe('Umbra Rite chance', () => {
   })
 })
 
+describe('stats and the shadow army', () => {
