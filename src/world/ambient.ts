@@ -211,3 +211,4 @@ export class Ambient {
       if (dir.lengthSq() < 400) dir.set(1, 0, -1)
       dir.normalize()
       this.rift.position.set(cam.x + dir.x * 620, cam.y + 360, cam.z + dir.z * 620)
+      this.rift.lookAt(cam)
