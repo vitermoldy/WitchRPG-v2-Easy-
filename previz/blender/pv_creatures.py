@@ -1084,3 +1084,5 @@ def b_unicorn(r):
 
 
 # ---------------------------------------------------------------- colours from the reference sheets
+# Hex or (top, bottom): the second colour is the underside. Eyes of enemies glow amber (v1 enemy marker).
+
