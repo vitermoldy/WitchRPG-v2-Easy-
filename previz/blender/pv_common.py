@@ -432,3 +432,4 @@ class Part:
     def torus(self, c, R, r, normal=(0, 0, 1), mat="metal", seg=20, rseg=6):
         n = V(normal).normalized()
         M = rot_to(n)
+        pts = [V(c) + M.to_3x3() @ Vector((math.cos(2 * math.pi * k / seg) * R, math.sin(2 * math.pi * k / seg) * R, 0)) for k in range(seg + 1)]
