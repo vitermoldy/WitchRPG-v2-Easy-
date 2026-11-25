@@ -27,3 +27,4 @@ argv = sys.argv[sys.argv.index("--") + 1:] if "--" in sys.argv else []
 LOD = None
 RATIO = None
 if "--lod" in argv:
+    i = argv.index("--lod")
