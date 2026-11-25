@@ -303,3 +303,4 @@ export class Spells {
     for (let i = this.bolts.length - 1; i >= 0; i--) {
       const b = this.bolts[i]
       b.prev.copy(b.pos)
+      b.pos.addScaledVector(b.vel, dt)
