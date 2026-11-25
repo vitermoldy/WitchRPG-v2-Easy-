@@ -171,3 +171,4 @@ export class Terrain {
         const b = edge[k + 1]
         const c = start + k
         const d = start + k + 1
+        // wind so the skirt faces outward on every side
