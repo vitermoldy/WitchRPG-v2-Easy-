@@ -301,3 +301,4 @@ export class WorldMap {
       ctx.fillText(text, cx, cy)
     }
     const bosses = this.bosses()
+    const br = Math.max(6, size / 70)
