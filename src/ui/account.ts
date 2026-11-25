@@ -190,3 +190,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
   // and means "Main tanpa akun" when the server is down.
   gate.addEventListener('cancel', (event) => {
     event.preventDefault()
+    if (authState().status === 'unavailable') skip()
