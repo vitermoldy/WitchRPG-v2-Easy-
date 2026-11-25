@@ -50,3 +50,5 @@ function part(geo: THREE.BufferGeometry, color: THREE.Color, m?: THREE.Matrix4):
   for (let i = 0; i < n; i++) col.set([color.r, color.g, color.b], i * 3)
   g.setAttribute('color', new THREE.BufferAttribute(col, 3))
   return g
+}
+
