@@ -33,3 +33,4 @@ void main() {
   c = mix(c, fogColor, (1.0 - smoothstep(0.0, 0.22, abs(h))) * 0.85);
   float s = max(dot(d, sunDir), 0.0);
   c += sunColor * (pow(s, 600.0) * 6.0 + pow(s, 12.0) * 0.25);
+  gl_FragColor = vec4(c, 1.0);
