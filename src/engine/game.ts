@@ -82,3 +82,4 @@ export class Game implements UnitHost {
   glow!: Particles
   smoke!: Particles
   lights!: LightPool
+  rings!: Rings
