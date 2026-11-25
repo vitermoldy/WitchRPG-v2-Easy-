@@ -83,3 +83,4 @@ export class Unit implements Foe {
   /** Driven from outside (the Hydra's heads): no brain, no walking. */
   controlled = false
   /** The Hydra's heads (null once swallowed), read by its rig to bend the necks. */
+  parts: (Unit | null)[] | null = null
