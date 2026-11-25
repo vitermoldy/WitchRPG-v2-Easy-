@@ -58,3 +58,4 @@ export interface IlyraPose {
   throwK: number
   catchK: number
   /** The staff is in her hand (not thrown). */
+  staff: boolean
