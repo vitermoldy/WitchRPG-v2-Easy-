@@ -738,3 +738,4 @@ def build_world(lib_scene):
     build_temple(props, pal)
     build_altar(props, pal)
     build_rift(props)
+    build_embers(props, ZONES[4]["c"], 150, 2500)
