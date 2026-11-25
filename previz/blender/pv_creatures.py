@@ -272,3 +272,6 @@ def dog_head(part, at, fwd=(0, -1, 0), s=1.0, jaw_open=25, ears=True, mane=False
             d = (side * math.cos(ang) + UP * math.sin(ang))
             base = a - F * 0.08 * s + d * 0.15 * s
             part.cone(base, base + d * 0.36 * s - F * 0.22 * s, 0.11 * s, mat=mane_mat, seg=6)
+        part.ell(a - F * 0.2 * s - UP * 0.05 * s, (0.3 * s, 0.25 * s, 0.32 * s), mat=mane_mat, seg=10, rings=7)
+
+
