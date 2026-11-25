@@ -120,3 +120,4 @@ export class Combo {
       }
       return out
     }
+    if (pressed && this.charging < 0) this.charging = 0
