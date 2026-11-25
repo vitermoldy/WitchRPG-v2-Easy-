@@ -390,3 +390,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     lungeTime: 0.9,
     fly: { height: 7 },
   },
+  // Tier V: lobs a heavy charge onto a warning circle. Hex Barrier eats it, Reality Warp sends it back.
