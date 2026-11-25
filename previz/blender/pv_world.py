@@ -574,3 +574,4 @@ def build_fog(coll):
     for z in ZONES + [LAKE_FOG]:
         bm = bmesh.new()
         bmesh.ops.create_cone(bm, cap_ends=True, segments=32, radius1=z["r"] * 1.3, radius2=z["r"] * 1.3, depth=200, matrix=__import__("mathutils").Matrix.Translation((0, 0, 90)))
+        me = bpy.data.meshes.new(f"fog_{z['key']}")
