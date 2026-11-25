@@ -1016,3 +1016,4 @@ def b_samael(r):
     h = r.parts["head"]
     hc = V(J["head_c"])
     h.ell(hc, (0.13, 0.15, 0.17), mat="skin")
+    face(h, hc, 3.2)
