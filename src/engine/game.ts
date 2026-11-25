@@ -783,3 +783,5 @@ export class Game implements UnitHost {
     this.applyDerived(true)
   }
 
+  // ------------------------------------------------------------ aiming from the shoulder camera
+
