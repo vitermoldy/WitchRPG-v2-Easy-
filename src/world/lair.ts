@@ -500,3 +500,4 @@ export class Lair {
       if (her && this.bodyAttackIn <= 0) {
         const d = Math.hypot(her.x - body.pos.x, her.z - body.pos.z)
         if (d < 15) this.windup(body, slam, her)
+        else {
