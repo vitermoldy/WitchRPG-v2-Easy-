@@ -197,3 +197,4 @@ export function canUpgrade(p: Profile, id: SkillId): boolean {
 
 export function buyUpgrade(p: Profile, id: SkillId): boolean {
   if (!canUpgrade(p, id)) return false
+  p.upgrades[id] = true
