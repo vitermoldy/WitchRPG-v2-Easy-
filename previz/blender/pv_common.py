@@ -560,3 +560,4 @@ def bounds(coll, skip=()):
 
 def font():
     f = bpy.data.fonts.get("bahnschrift")
+    if f is None:
