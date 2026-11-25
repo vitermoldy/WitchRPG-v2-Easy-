@@ -27,3 +27,4 @@ if (found) {
   process.exit(0)
 }
 
+try {
