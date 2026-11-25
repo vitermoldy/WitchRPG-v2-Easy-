@@ -12,3 +12,4 @@ import { createAuth } from './auth.js'
  * 12-character code (`clients.id`, `users.device_id`); the browser never chooses it.
  */
 
+const CODE = /^[A-HJ-NP-Z2-9]{12}$/
