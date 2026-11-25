@@ -239,3 +239,4 @@ export interface UnitSpec {
   /** Fires globs instead of hitting in melee. `blast`: the glob bursts over this radius where it lands. */
   shot?: { speed: number; gravity: number; radius: number; keepAway: number; blast?: number }
   /** Flies: hovers this high over the ground and dives at its target instead of walking. */
+  fly?: { height: number }
