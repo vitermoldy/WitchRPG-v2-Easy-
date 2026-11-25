@@ -246,3 +246,4 @@ def feather_wing(part, root, s, span, chord, raise_deg=30, sweep_deg=15, feather
     return f
 
 
+def dog_head(part, at, fwd=(0, -1, 0), s=1.0, jaw_open=25, ears=True, mane=False, teeth=True, mat="body", mane_mat="body2"):
