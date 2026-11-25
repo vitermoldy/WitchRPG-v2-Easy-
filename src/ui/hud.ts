@@ -47,3 +47,4 @@ export class Hud {
   private readonly feed = $('feed')
   private readonly bigBanner = $('banner')
   private readonly prompt = $('prompt')
+  private readonly bars = $('hpbars')
