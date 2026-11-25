@@ -323,3 +323,4 @@ const poseCentaur: PoseFn = (p, u, t) => {
   p.body(0.06 * Math.abs(Math.sin(ph * 2)) * amp, 2 * Math.sin(ph * 2) * amp)
   // bow arm: the left hand holds the bow out, the right pulls the string to the cheek
   const draw = u.state === 'windup' && u.atk.shot ? ease(u.t / u.atk.windup) : u.state === 'recover' && u.atk.shot ? 1 - ease(u.t / 0.25) : 0
+  if (u.state === 'windup' && !u.atk.shot) {
