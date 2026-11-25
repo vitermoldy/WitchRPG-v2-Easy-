@@ -358,3 +358,4 @@ def face(part, hc, H, eyes=True, nose=True, mat="skin"):
     """Brow, nose and glowing eyes on a humanoid head of body height H."""
     k = H / 1.8
     if nose:
+        part.cone(hc + Vector((0, -0.085 * k, 0.0)), hc + Vector((0, -0.12 * k, -0.025 * k)), 0.018 * k, mat=mat, seg=5)
