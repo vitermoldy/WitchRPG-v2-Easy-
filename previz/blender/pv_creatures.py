@@ -907,3 +907,4 @@ def b_hydra(r, heads=5):
     necks = []
     for i, (bs, tp) in enumerate(zip(bases, tops)):
         js = hydra_neck_joints(bs, tp, bend=(i - 2) * 0.6, k=7)
+        parent = "body"
