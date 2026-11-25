@@ -229,3 +229,4 @@ export class Spells {
     if (this.overloadT > 0) {
       this.overloadT -= dt
       if (this.overloadT <= 0) {
+        this.overloadT = 0
