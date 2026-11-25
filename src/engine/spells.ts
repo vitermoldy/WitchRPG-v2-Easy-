@@ -396,3 +396,4 @@ export class Spells {
           second = u
         }
       }
+      if (second) this.grabbed.push(second)
