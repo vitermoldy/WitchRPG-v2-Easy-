@@ -475,3 +475,4 @@ export class Spells {
   /** Lets go: thrown at the aim point when `throwIt`, else dropped where it hangs. */
   private drop(throwIt: boolean) {
     const g = this.g
+    if (!this.grabbed.length && !this.heldProp) return
