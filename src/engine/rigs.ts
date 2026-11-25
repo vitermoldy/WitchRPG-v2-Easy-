@@ -829,3 +829,4 @@ class Rig implements Poser {
     this.group.add(mesh)
     const chain: string[] = []
     for (let o: THREE.Object3D | null = src; o && o !== this.holder; o = o.parent) if (o.name) chain.push(o.name)
+    return { chain, src, geo, mat, mesh, glow }
