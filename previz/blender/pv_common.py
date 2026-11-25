@@ -595,3 +595,4 @@ def camera(sc, name, loc, look_at=None, rot=None, lens_vfov=None, ortho=None, cl
     if look_at is not None:
         d = V(look_at) - V(loc)
         ob.rotation_euler = d.to_track_quat("-Z", "Y").to_euler()
+    elif rot is not None:
