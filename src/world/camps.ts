@@ -284,3 +284,4 @@ export class Camps {
   }
 
   get cleared() {
+    return this.camps.filter((c) => c.state === 'cleared').length
