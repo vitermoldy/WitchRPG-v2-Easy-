@@ -186,3 +186,4 @@ export class Particles {
     g.attributes.aAlpha.needsUpdate = true
   }
 
+  clear() {
