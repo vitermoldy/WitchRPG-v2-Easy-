@@ -939,3 +939,4 @@ export class UnitSystem {
     u.pos.addScaledVector(u.vel, dt)
     u.yaw += dt * 6
     const speed = u.vel.length()
+    const cx = Math.floor(u.pos.x / CELL)
