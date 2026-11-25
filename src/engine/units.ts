@@ -92,3 +92,4 @@ export class Unit implements Foe {
   neckYaw = 0
   readonly pos = new THREE.Vector3()
   readonly vel = new THREE.Vector3()
+  /** Facing; 0 looks along +z, the way the models face. */
