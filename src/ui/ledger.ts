@@ -16,3 +16,4 @@ const fmt = (n: number, d = 0) => n.toLocaleString('id-ID', { maximumFractionDig
 
 /** Ask once before something that cannot be undone. */
 export function confirmDialog(title: string, text: string, yes: string): Promise<boolean> {
+  const dlg = $<HTMLDialogElement>('confirm')
