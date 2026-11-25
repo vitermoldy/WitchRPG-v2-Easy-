@@ -80,3 +80,4 @@ export class Seal {
       transparent: true,
       depthWrite: false,
       side: THREE.DoubleSide,
+      blending: THREE.AdditiveBlending,
