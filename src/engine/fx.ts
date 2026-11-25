@@ -324,3 +324,4 @@ export class Rings {
 
 interface Warn {
   group: THREE.Group
+  fill: THREE.Mesh
