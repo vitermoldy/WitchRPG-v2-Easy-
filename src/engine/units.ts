@@ -366,3 +366,4 @@ export class UnitSystem {
     if (u.spec.rebirth && !u.reborn && !executed && u.team === 'enemy') {
       // the first fall leaves ashes that burn for a moment, then it rises again (an execution ends it for good)
       this.host.clearTelegraph(u)
+      u.token = false
