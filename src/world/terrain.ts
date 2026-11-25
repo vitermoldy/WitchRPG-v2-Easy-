@@ -43,3 +43,4 @@ function groundColour(x: number, y: number, h: number, slope: number, out: THREE
   out.multiplyScalar(v)
 }
 
+export class Terrain {
