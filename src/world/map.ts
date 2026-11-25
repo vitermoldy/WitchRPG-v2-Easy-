@@ -31,3 +31,4 @@ export const ALTAR: [number, number] = [-10, -395]
  * (like v1's altar). One by the start, one where the paths split, one on each new zone's path.
  */
 export const ALTARS: { key: string; name: string; c: [number, number] }[] = [
+  { key: 'pembuka', name: 'Altar Hutan Pembuka', c: ALTAR },
