@@ -107,3 +107,4 @@ export class Combo {
       if (!s.hit && before <= hitAt && s.t >= hitAt) {
         s.hit = true
         out.push({ type: 'hit', s })
+      }
