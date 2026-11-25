@@ -84,3 +84,4 @@ export const PLAYER = {
   baseHp: 100,
   hpPerVit: 10,
   baseMana: 100,
+  manaPerSpr: 5,
