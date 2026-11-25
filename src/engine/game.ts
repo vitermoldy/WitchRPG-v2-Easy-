@@ -9,3 +9,4 @@ import { addShadow, chaosFromDamage, derive, gainXp, xpForUnit, type Derived, ty
 import { loadProfile, saveProfile } from '../game/save'
 import { SKILLS, skillById } from '../game/skills'
 import { Hud } from '../ui/hud'
+import { Ambient } from '../world/ambient'
