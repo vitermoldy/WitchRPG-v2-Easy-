@@ -81,3 +81,4 @@ def height(x, y):
     h = 3.0 + 4.0 * fbm(x / 160, y / 160) + 1.3 * fbm(x / 45, y / 45, 3, 5.0)
     # Tebing Berangin: a raised plateau with a broken cliff edge
     t = ZONES[1]
+    edge = t["r"] * 0.8 + 18 * fbm(x / 40, y / 40, 3, 9.0)
