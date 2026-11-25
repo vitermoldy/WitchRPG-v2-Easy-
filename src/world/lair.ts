@@ -249,3 +249,4 @@ export class Lair {
     if (this.phase < 3 && !this.heads.some((x) => x && x.alive)) this.enterPhase(3)
   }
 
+  /** The body fell: the lair opens, and so do Reruntuhan Kuil and Lembah Bara. */
