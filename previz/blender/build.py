@@ -56,3 +56,4 @@ for key in ["ilyra"] + [r[0] for r in K.ROSTER]:
     K.ground_rig(r)
     lo, hi = C.bounds(coll, skip=("staff",))
     lo2, hi2 = C.bounds(coll)
+    stats[key] = {
