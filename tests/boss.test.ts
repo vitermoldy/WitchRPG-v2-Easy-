@@ -117,3 +117,4 @@ describe('phase 5 creatures', () => {
   it('an executed Phoenix does not rise again', () => {
     const w = world()
     const ph = w.sys.spawn('phoenix', 'enemy', 13, { x: 0, z: 10 })
+    w.sys.kill(ph, true)
