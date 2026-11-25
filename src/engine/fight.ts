@@ -522,3 +522,4 @@ export class Fight {
     out.parry = this.parryFx
     out.execute = this.exec ? Math.min(1, this.exec.t) : -1
     out.throwK = this.throwT
+    out.catchK = this.catchT
