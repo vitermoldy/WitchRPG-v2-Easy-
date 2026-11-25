@@ -817,3 +817,4 @@ export class UnitSystem {
       // a breath: the circle lies in front of it and does not follow her
       u.aimAt.set(u.pos.x + Math.sin(u.yaw) * atk.ahead, tgt.pos.y, u.pos.z + Math.cos(u.yaw) * atk.ahead)
     } else u.aimAt.set(tgt.pos.x, tgt.pos.y, tgt.pos.z)
+    // a line heads through where she stands and on past her
