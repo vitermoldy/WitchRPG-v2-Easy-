@@ -1012,3 +1012,5 @@ export class Game implements UnitHost {
       if (this.saveIn < 0) this.saveNow()
     }
 
+    this.place(dt, false, aiming)
+
