@@ -629,3 +629,4 @@ export class Game implements UnitHost {
         }
       }
     }
+    if (share < 1) {
