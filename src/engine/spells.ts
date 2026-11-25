@@ -97,3 +97,5 @@ const SHIELD_FRAG = /* glsl */ `
     float v = (f * 0.75 + hex * 0.04 + uHit * 0.35) * uFade;
     gl_FragColor = vec4(vec3(1.0, 0.16, 0.22) * v * 1.2, v * 0.4);
   }
+`
+
