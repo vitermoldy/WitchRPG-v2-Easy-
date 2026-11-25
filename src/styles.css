@@ -538,3 +538,4 @@ button {
 }
 
 .veil-chaos {
+  background: radial-gradient(ellipse at center, transparent 45%, rgba(255, 42, 61, 0.3) 100%);
