@@ -412,3 +412,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     name: 'Imp',
     rank: 'prajurit',
     hp: 34,
+    damage: 9,
