@@ -509,3 +509,4 @@ export class UnitSystem {
           u.set('rising')
           this.host.fx(u, 'reborn')
         }
+        continue
