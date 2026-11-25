@@ -37,3 +37,4 @@ export class Input {
       this.release(e.button === 2 ? 'Mouse2' : e.button === 1 ? 'Mouse1' : 'Mouse0')
     })
     target.addEventListener('contextmenu', (e) => e.preventDefault())
+    window.addEventListener('mousemove', (e) => {
