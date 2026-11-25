@@ -517,3 +517,4 @@ export class Lair {
       if (body.t >= slam.windup) body.set('strike')
     } else if (body.state === 'strike' && body.t >= 0.3) {
       this.land(body, slam)
+      body.set('recover')
