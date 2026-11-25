@@ -142,3 +142,4 @@ export class Ambient {
     this.rift = new THREE.Mesh(new THREE.PlaneGeometry(90, 320), this.riftMat)
     this.rift.name = 'sky-rift'
     this.rift.frustumCulled = false
+    this.rift.visible = false
