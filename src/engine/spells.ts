@@ -684,3 +684,4 @@ export class Spells {
   private updateWarps(dt: number) {
     const g = this.g
     for (let i = this.warps.length - 1; i >= 0; i--) {
+      const w = this.warps[i]
