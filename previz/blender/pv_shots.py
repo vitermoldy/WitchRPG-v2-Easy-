@@ -274,3 +274,4 @@ def build_valley(dunia):
         ("Reruntuhan Kuil", "Tier IV, Lv 10-12", (40, 330), 45),
         ("Lembah Bara", "Tier V, Lv 13-15", (330, 330), 70),
     ]
+    for title, sub, (x, y), up in labels:
