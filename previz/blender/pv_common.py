@@ -528,3 +528,4 @@ def tri_count(coll):
     n = 0
     for ob in coll.all_objects:
         if ob.type == "MESH":
+            for p in ob.data.polygons:
