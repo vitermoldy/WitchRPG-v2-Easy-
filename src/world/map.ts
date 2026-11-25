@@ -17,3 +17,4 @@ export interface Zone {
 }
 
 export const ZONES: Zone[] = [
+  { key: 'pembuka', name: 'Hutan Pembuka', tier: 'I', levels: [1, 3], c: [0, -280], r: 230, fog: '#cddbea', sight: 260, ground: '#2a3322', sky: '#9fb7d4' },
