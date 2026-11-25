@@ -161,3 +161,4 @@ export function heightMap(x: number, y: number): number {
   h = h * (1 - lake) + lake * -7
   // Lembah Bara: a burnt bowl with a rim
   const b = ZONES[4]
+  const db = dist(x, y, b.c)
