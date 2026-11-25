@@ -1192,3 +1192,4 @@ def build(key, coll, kind=None, pose=None, lights=True):
         b_minotaur(r, pose or "idle")
     else:
         r.J = row[2](r)
+    r.finalize()
