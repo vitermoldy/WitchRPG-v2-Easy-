@@ -178,3 +178,4 @@ export class Unit implements Foe {
     this.stun = new StunMeter(this.spec.stun ?? 40)
     this.alt = this.spec.fly ? this.spec.fly.height : 0
     this.atk = attacksOf(this.spec)[0]
+    if (this.spec.summon) this.skillCd = this.spec.summon.every * 0.5
