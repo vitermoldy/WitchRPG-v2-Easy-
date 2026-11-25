@@ -7,3 +7,4 @@ const idle: MoveInput = { x: 0, y: 0, sprint: false, dodge: false }
 const flat: Ground = { height: () => 0, obstacles: null, blocked: () => false }
 
 function run(p: Player, input: MoveInput, seconds: number, g = flat, camYaw = 0) {
+  const dt = 1 / 120
