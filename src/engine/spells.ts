@@ -448,3 +448,4 @@ export class Spells {
       goal.y = Math.max(goal.y, g.ground.height(goal.x, goal.z) + 0.6)
       const c = u.center()
       const nc = c.clone().lerp(goal, Math.min(1, dt * (heavy ? 5 : 9)))
+      u.pos.add(nc.sub(c))
