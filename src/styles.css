@@ -303,3 +303,4 @@ button {
   color: var(--chaos-ink);
 }
 
+.controls div:last-child h2 {
