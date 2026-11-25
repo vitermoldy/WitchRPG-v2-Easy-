@@ -69,3 +69,4 @@ export function clearFraction(pivot: Vec, want: Vec, obstacles: Obstacles | null
 }
 
 export interface LockView {
+  /** Point on the target the camera frames (its chest). */
