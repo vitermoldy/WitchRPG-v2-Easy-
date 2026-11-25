@@ -67,3 +67,4 @@ export class Hud {
   }
 
   show(on: boolean) {
+    this.root.hidden = !on
