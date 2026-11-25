@@ -840,3 +840,4 @@ def b_phoenix(r):
             lg.cone((0.14 * s, -0.02, 0.05), V((0.14 * s, -0.02, 0.02)) + _rz(Vector((0, -0.18, 0)), a), 0.015, mat="horn", seg=4)
     tl = r.P("tail", (0, 0.35, 0.95), "body")
     for k in range(7):
+        dx = (k - 3) * 0.14
