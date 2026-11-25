@@ -640,3 +640,4 @@ export class Spells {
         g.glow.emit({ pos: { x, y: g.ground.height(x, z) + 0.1, z }, count: 1, color: COLOR.chaos, intensity: 2, life: 0.9, size: 0.12, vel: { x: 0, y: 1.2, z: 0 } })
       }
       if (s.t >= s.duration) {
+        g.scene.remove(s.group)
