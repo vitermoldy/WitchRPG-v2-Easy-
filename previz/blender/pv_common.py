@@ -552,3 +552,4 @@ def bounds(coll, skip=()):
             continue
         mw = world_matrix(ob)
         for v in ob.data.vertices:
+            w = mw @ v.co
