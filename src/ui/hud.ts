@@ -49,3 +49,4 @@ export class Hud {
   private readonly prompt = $('prompt')
   private readonly bars = $('hpbars')
   private readonly wheel = $('wheel')
+  private readonly army = $('army-slots')
