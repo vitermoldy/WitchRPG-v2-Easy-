@@ -793,3 +793,4 @@ export class UnitSystem {
         if (u.t >= lt) {
           host.clearTelegraph(u)
           u.set('recover')
+          u.vel.multiplyScalar(0.25)
