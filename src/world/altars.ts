@@ -99,3 +99,4 @@ export class Altars {
   }
 
   private paint() {
+    for (const a of this.list) {
