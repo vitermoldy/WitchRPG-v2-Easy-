@@ -203,3 +203,4 @@ describe('creature shots', () => {
         g.player.alive = false
         shots.clear()
       },
+    }
