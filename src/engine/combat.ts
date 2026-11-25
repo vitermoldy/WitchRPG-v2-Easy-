@@ -54,3 +54,5 @@ export class StunMeter {
   get share() {
     return this.max > 0 ? this.value / this.max : 0
   }
+}
+
