@@ -253,3 +253,4 @@ def build_water(coll):
     nt.links.new(bump.outputs["Normal"], b.inputs["Normal"])
     me.materials.append(m)
     coll.objects.link(ob)
+    # Screen-space reflections break into a hard diagonal edge when rays leave the frame; a planar probe
