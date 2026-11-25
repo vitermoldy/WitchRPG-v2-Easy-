@@ -94,3 +94,4 @@ export class Game implements UnitHost {
   seal!: Seal
   props!: Props
   ilyra!: IlyraModel
+  ground!: Ground
