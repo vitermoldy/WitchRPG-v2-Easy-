@@ -41,3 +41,4 @@ export class Seal {
     this.fade = open ? 0 : 1
     this.n = Math.ceil((PLAY_HALF * 2) / CELL)
     this.mask = new Uint8Array(this.n * this.n)
+    for (let i = 0; i < this.n; i++) {
