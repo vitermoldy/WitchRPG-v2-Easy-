@@ -360,3 +360,4 @@ def foam_rings(local, hy, inst, mat=None):
     M = inst.matrix_basis
     for name in hy.objs:
         if name.endswith("_0") and name.startswith("neck"):
+            ob = hy.objs[name]
