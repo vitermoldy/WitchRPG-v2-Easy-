@@ -598,3 +598,4 @@ export class Game implements UnitHost {
     const p = this.player
     if (!p.alive) return
     const d = this.spells.absorb(dmg)
+    this.calm = 0
