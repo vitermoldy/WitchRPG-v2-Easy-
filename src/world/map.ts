@@ -137,3 +137,4 @@ function segDist(x: number, y: number, a: [number, number], b: [number, number])
 export function heightMap(x: number, y: number): number {
   let h = 3.0 + 4.0 * fbm(x / 160, y / 160) + 1.3 * fbm(x / 45, y / 45, 3, 5.0)
   // Tebing Berangin: a raised plateau with a broken cliff edge
+  const t = ZONES[1]
