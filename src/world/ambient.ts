@@ -118,3 +118,4 @@ export class Ambient {
     const mat = new THREE.ShaderMaterial({
       uniforms: { uScale: { value: 600 } },
       vertexShader: MOTE_VERT,
+      fragmentShader: MOTE_FRAG,
