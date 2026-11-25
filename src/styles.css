@@ -1673,3 +1673,4 @@ dialog::backdrop {
 }
 
 .btn-text:hover {
+  color: var(--ink-2);
