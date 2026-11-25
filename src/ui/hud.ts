@@ -85,3 +85,5 @@ export class Hud {
     if (this.cache.get(key) === value) return
     this.cache.set(key, value)
     el.innerHTML = value
+  }
+
