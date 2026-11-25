@@ -75,3 +75,4 @@ def mat_emit(name, color, strength=8.0):
     e.inputs["Color"].default_value = rgb(color)
     e.inputs["Strength"].default_value = strength
     nt.links.new(e.outputs[0], nt.nodes["Material Output"].inputs["Surface"])
+    m.diffuse_color = rgb(color)
