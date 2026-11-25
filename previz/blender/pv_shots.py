@@ -390,3 +390,4 @@ def build_army(dunia):
             built[key] = actor(f"aktor.bayangan.{key}", key, kind="shadow")
         p = fr(fw, rt)
         place(built[key], local, p.x, p.y, -f, dz=dz, name=f"bayangan.{i}")
+        disc(local, f"kolam.{i}", (p.x, p.y), pr, dark, z_off=0.02)
