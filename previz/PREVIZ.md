@@ -75,3 +75,4 @@ Tinggi total diukur dari block-out (termasuk tanduk dan sayap yang terangkat; Il
 | Typhon | 17,25 m | 16 m | 17,70 m | 24,47 m | 6,0 m | 20.040 | 30.000 | cadangan |
 | Samael | 7,07 m | 3,2 m | 3,04 m | 5,83 m | 0,80 m | 5.526 | 30.000 | cadangan |
 | Atlas | 13,42 m | 9 m | 5,40 m | 7,55 m | 2,20 m | 6.016 | 30.000 | cadangan |
+| Pegasus | 3,96 m | gumba 1,65 m | 3,33 m | 4,33 m | 0,80 m | 5.592 | 8.000 | seluruh hutan |
