@@ -143,3 +143,4 @@ export class IlyraModel {
         if (l.isPointLight) {
           l.userData.glow ??= l.intensity
           l.intensity = on ? 0 : l.userData.glow
+        }
