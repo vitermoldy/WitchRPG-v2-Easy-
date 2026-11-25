@@ -44,3 +44,4 @@ describe('stun meter and execution', () => {
     expect(m.staggered).toBe(COMBAT.stagger)
     m.update(COMBAT.stagger)
     expect(m.value).toBe(0)
+    m.add(20)
