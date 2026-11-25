@@ -848,3 +848,4 @@ class Rig implements Poser {
     }
   }
 
+  rot(name: string, x: number, y = 0, z = 0) {
