@@ -878,3 +878,4 @@ export class Game implements UnitHost {
 
   private simulate(dt: number) {
     this.t += dt
+    this.botThink?.(this, dt)
