@@ -96,3 +96,4 @@ def build(dunia, res=(1280, 720), samples=24):
         loc, look = C.game_camera((P.x, P.y, z), face, dist or cn["dist"], cn["shoulder"], height or cn["height"], cn["pitch"])
         return loc, look
 
+    def hydra_z(t):
