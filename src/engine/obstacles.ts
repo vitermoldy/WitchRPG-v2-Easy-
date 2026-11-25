@@ -149,3 +149,4 @@ export class Obstacles {
 function segCylinder(ax: number, ay: number, az: number, dx: number, dy: number, dz: number, s: Shape, cr: number): number {
   const R = s.r + cr
   const y0 = s.y - cr
+  const y1 = s.y + s.h + cr
