@@ -51,3 +51,4 @@ def build(dunia, res=(1280, 720), samples=24):
     sc.frame_start, sc.frame_end = 1, FRAMES
     sc.render.fps = FPS
 
+    il = S.actor("aktor.ilyra.walk", "ilyra", "walk")
