@@ -548,3 +548,4 @@ export class UnitSystem {
     } else {
       // a new spot near home every few seconds; aimAt holds it, fauna never aims
       if (u.cd <= 0) {
+        const a = Math.random() * Math.PI * 2
