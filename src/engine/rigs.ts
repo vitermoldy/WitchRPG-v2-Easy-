@@ -870,3 +870,5 @@ class Rig implements Poser {
 
   begin() {
     this.used = 0
+  }
+
