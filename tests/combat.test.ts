@@ -38,3 +38,4 @@ describe('block and parry', () => {
 
 describe('stun meter and execution', () => {
   it('staggers when full, then drains after being left alone', () => {
+    const m = new StunMeter(30)
