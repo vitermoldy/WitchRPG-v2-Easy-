@@ -153,3 +153,4 @@ export class Particles {
     }
   }
 
+  update(dt: number) {
