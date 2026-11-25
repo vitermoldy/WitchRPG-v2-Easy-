@@ -565,3 +565,4 @@ export class Game implements UnitHost {
       this.hud.banner(`Lv ${this.profile.level}`, `${res.levelsGained * 3} poin stat dan ${res.levelsGained} poin skill menunggu di Ledger`)
       for (const id of res.unlocked) {
         const def = skillById(id)
+        this.hud.message(`${def.name} terbuka (${def.key}): ${def.effect}`, 'level')
