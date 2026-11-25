@@ -101,3 +101,4 @@ export class IlyraModel {
     model.position.y -= 0.9
     this.pivot.add(model)
     this.root.add(this.pivot)
+    model.traverse((o) => {
