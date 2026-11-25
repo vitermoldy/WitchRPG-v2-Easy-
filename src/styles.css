@@ -1740,3 +1740,4 @@ dialog::backdrop {
 }
 
 .gate-field {
+  display: grid;
