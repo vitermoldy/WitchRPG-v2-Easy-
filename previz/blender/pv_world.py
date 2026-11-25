@@ -386,3 +386,4 @@ def scatter_group():
     N, L = ng.nodes, ng.links
     gi, go = N.new("NodeGroupInput"), N.new("NodeGroupOutput")
     oi = N.new("GeometryNodeObjectInfo")
+    oi.inputs["As Instance"].default_value = True
