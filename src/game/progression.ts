@@ -260,3 +260,4 @@ export function impactDamage(mass: number, speed: number, coefficient: number, e
 
 const SYLLABLES = ['ve', 'mor', 'ska', 'thal', 'ri', 'on', 'du', 'kar', 'nyx', 'el', 'sor', 'ath', 'gru', 'vel', 'om', 'zir']
 
+/** A short name per shadow, fixed by its id so the same shadow keeps its name. */
