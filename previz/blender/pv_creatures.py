@@ -526,3 +526,4 @@ def b_harpy(r):
     long_hair(h, hc, 1.65, 0.35, 0.07)
     for i in range(7):
         a = math.radians(-60 + 20 * i)
+        base = hc + Vector((math.sin(a) * 0.07, 0.02, 0.08))
