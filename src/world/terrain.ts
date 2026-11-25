@@ -135,3 +135,4 @@ export class Terrain {
         const dx = (hs[gi + 1] - hs[gi - 1]) / (2 * step)
         const dz = (hs[gi + g] - hs[gi - g]) / (2 * step)
         nv.set(-dx, 1, -dz).normalize()
+        pos.set([wx, h, wz], v * 3)
