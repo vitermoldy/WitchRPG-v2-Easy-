@@ -315,3 +315,4 @@ export class Sfx {
     this.tone(t, 'triangle', 500, 1300, 0.15, 0.1)
   }
 
+  /** The army rising: a drop into the deep, a dark chord that swells, a beat per rank of soldiers. */
