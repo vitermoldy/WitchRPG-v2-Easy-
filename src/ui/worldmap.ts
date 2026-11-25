@@ -71,3 +71,4 @@ export class WorldMap {
       const box = e.target as HTMLInputElement
       const kind = box.dataset.kind as UnitKind | undefined
       if (!kind) return
+      if (box.checked) this.chosen.add(kind)
