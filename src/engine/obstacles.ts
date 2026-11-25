@@ -111,3 +111,4 @@ export class Obstacles {
    * touching a shape (1 when the path is clear, 0 when it starts inside one).
    */
   sweep(ax: number, ay: number, az: number, bx: number, by: number, bz: number, cr: number): number {
+    const dx = bx - ax
