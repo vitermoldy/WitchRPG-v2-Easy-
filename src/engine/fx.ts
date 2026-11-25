@@ -465,3 +465,4 @@ export class ShadowPools {
       p.mat.uniforms.uTime.value += dt
       if (p.t < 0) {
         p.mat.uniforms.uOpen.value = 0
+        continue
