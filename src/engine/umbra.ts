@@ -19,3 +19,4 @@ export interface UmbraInput {
   toggle: boolean
   wheelHeld: boolean
   wheelPressed: boolean
+  dx: number
