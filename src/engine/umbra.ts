@@ -234,3 +234,4 @@ export class Umbra {
     return u
   }
 
+  /** Violet pulse on a body that can still be raised, for the renderer. */
