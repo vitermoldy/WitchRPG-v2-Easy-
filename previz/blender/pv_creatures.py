@@ -282,3 +282,4 @@ def eagle_head(part, at, fwd=(0, -1, 0), s=1.0, mat="body2"):
     b0 = a + F * 0.14 * s
     part.cone(b0, b0 + F * 0.22 * s - UP * 0.06 * s, 0.07 * s, mat="horn", seg=8)
     part.cone(b0 + F * 0.16 * s - UP * 0.04 * s, b0 + F * 0.2 * s - UP * 0.14 * s, 0.035 * s, mat="horn", seg=6)
+    for k in (-1, 1):
