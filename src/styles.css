@@ -587,3 +587,4 @@ button {
 
 @keyframes fade-through {
   0% {
+    opacity: 1;
