@@ -183,3 +183,4 @@ export const V2_KINDS = [
 ] as const
 /** The bosses of the open world, each in a camp of its own with a boss bar (the Hydra has its lair). */
 export const WORLD_BOSSES = ['cerberus', 'lilith', 'dragon', 'atlas', 'typhon', 'samael'] as const
+/** Wild creatures that never fight: Unicorns guard the altars, Pegasi drift over the meadows. */
