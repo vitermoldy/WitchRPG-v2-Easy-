@@ -266,3 +266,4 @@ export interface UnitSpec {
   boss?: boolean
   /** v2: blinks this far away (m) when she closes in, at most once per `every` seconds (Succubus, Incubus). */
   blink?: { range: number; every: number }
+  /** v2: the first fall turns it to ashes for a moment; it rises once more, and bursts when it falls again (Phoenix). */
