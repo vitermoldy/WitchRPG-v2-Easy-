@@ -728,3 +728,6 @@ def render_settings(sc, res=(1920, 1080), samples=64, vol_end=600.0, vol_tile="4
         sc.view_settings.look = look
     sc.view_settings.exposure = exposure
     if bloom > 0:
+        compositor(sc, bloom, bloom_threshold, vignette)
+
+
