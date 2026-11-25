@@ -485,3 +485,4 @@ def b_imp(r):
         hd = r.parts["hand_" + side]
         W, d = J["wr_" + side], J["hand_dir_" + side]
         for a in (-0.03, 0.0, 0.03):
+            hd.cone(W + d * 0.05 + Vector((a, 0, 0)), W + d * 0.17 + Vector((a * 1.5, -0.02, 0)), 0.007, mat="claw", seg=4)
