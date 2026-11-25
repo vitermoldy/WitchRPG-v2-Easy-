@@ -1114,3 +1114,4 @@ export class Game implements UnitHost {
     return { samples: arr.length, median: at(0.5), p95: at(0.95), gpu: this.gpu }
   }
 
+  resetStats() {
