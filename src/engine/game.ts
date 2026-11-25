@@ -121,3 +121,4 @@ export class Game implements UnitHost {
   private readonly debug: boolean
   private readonly composer: EffectComposer
   private readonly bloom: UnrealBloomPass
+  private readonly timer = new THREE.Timer()
