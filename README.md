@@ -108,3 +108,4 @@ Setiap fase baru memulihkan 25% HP dan 30 mana. Kemenangan memberi XP besar, mem
 ## Struktur
 
 ```
+src/game/     logika murni: angka tuning (balance.ts), progresi, skill, simpanan (dari v1)
