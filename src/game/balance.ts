@@ -139,3 +139,4 @@ export const RITE = {
   shadowXpShare: 0.3,
   minChance: 0.1,
   maxChance: 0.9,
+  swapCooldown: 10,
