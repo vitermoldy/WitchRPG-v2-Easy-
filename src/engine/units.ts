@@ -980,3 +980,5 @@ export class UnitSystem {
     u.flight = flight
     u.set('thrown')
     if (u.spec.fly) u.downed = Math.max(u.downed, 2.5)
+  }
+
