@@ -139,3 +139,4 @@ export class IlyraModel {
           m.userData.glow ??= m.emissiveIntensity
           m.emissiveIntensity = on ? m.userData.glow * 0.2 : m.userData.glow
         }
+        const l = o as THREE.PointLight
