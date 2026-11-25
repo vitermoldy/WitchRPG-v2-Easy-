@@ -178,3 +178,4 @@ describe('version 1: tiers, ranks and growth', () => {
     expect(xpForUnit('hollow', 10)).toBe(1500)
   })
   it('grows the witch with her level', () => {
+    const lv1 = derive(newProfile().stats, 1)
