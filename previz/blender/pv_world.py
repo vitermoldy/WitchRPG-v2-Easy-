@@ -188,3 +188,4 @@ def build_terrain(coll, size=1300.0, step=2.5):
     return ob
 
 
+def terrain_material():
