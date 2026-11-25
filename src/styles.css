@@ -1403,3 +1403,4 @@ dialog::backdrop {
   display: grid;
   gap: 0.35rem;
   margin: 0 0 1rem;
+  padding: 0;
