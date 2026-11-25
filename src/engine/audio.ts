@@ -328,3 +328,4 @@ export class Sfx {
   }
 
   /** The army sinking back: the chord falls and the darkness is drawn in. */
+  dismiss() {
