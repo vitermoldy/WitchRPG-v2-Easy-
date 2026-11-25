@@ -180,3 +180,4 @@ export class Telegraphs {
   }
 
   private layLine(it: Item) {
+    const geo = it.mesh.geometry
