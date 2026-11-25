@@ -21,3 +21,4 @@ describe('the server checks a witch before it keeps her', () => {
     const p = newProfile()
     p.level = 12
     const raisable = V2_KINDS.filter((k) => !(FAUNA as readonly string[]).includes(k))
+    for (const kind of raisable) addShadow(p, kind, 5)
