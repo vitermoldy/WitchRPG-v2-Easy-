@@ -15,3 +15,4 @@ const FRAG = /* glsl */ `
   uniform float uTime;
   uniform float uFade;
   void main() {
+    float bands = 0.5 + 0.5 * sin(vUv.y * 18.0 - uTime * 2.4 + sin(vUv.x * 6.2832 + uTime) * 0.8);
