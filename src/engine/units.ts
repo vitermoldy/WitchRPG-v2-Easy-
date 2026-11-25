@@ -587,3 +587,4 @@ export class UnitSystem {
   private surface(u: Unit) {
     for (let tries = 0; tries < 6; tries++) {
       const a = Math.random() * Math.PI * 2
+      const r = 4 + Math.random() * 3
