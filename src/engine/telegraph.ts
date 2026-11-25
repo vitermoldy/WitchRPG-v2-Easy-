@@ -114,3 +114,4 @@ export class Telegraphs {
 
   /**
    * Starts the telegraph for the attack this unit is winding up. A ring fills until the blow lands:
+   * the windup plus the leap, or plus the flight of a glob. A line runs the length of the lunge, or
