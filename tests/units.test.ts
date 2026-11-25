@@ -168,3 +168,4 @@ describe('phase 4 creatures', () => {
     expect(w.log.fired).toContain('panah')
     expect(Math.hypot(c.pos.x, c.pos.z)).toBeGreaterThan(7)
     const far = world()
+    far.sys.spawn('centaur', 'enemy', 4, { x: 0, z: 18 })
