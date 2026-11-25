@@ -210,3 +210,4 @@ export class LightPool {
     for (let i = 0; i < count; i++) {
       const light = new THREE.PointLight(0xffffff, 0, 10, 2)
       light.castShadow = false
+      scene.add(light)
