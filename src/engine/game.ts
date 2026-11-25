@@ -842,3 +842,4 @@ export class Game implements UnitHost {
       for (let i = 0; i < this.debugSpeed; i++) {
         this.simulate(dt)
         if (i < this.debugSpeed - 1) this.input.endFrame()
+      }
