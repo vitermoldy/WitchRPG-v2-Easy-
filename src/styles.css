@@ -140,3 +140,4 @@ button {
   z-index: 20;
   overflow-y: auto;
   padding: var(--gutter);
+  background: linear-gradient(90deg, rgba(12, 8, 9, 0.92) 0%, rgba(12, 8, 9, 0.72) 55%, rgba(12, 8, 9, 0.5) 100%);
