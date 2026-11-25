@@ -1610,3 +1610,4 @@ dialog::backdrop {
 
 .room-item .btn {
   grid-row: 1 / span 2;
+  grid-column: 2;
