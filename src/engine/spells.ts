@@ -361,3 +361,4 @@ export class Spells {
       const f = g.camera.getWorldDirection(new THREE.Vector3())
       let bestA: number = SPELL.grip.aimCone * 2
       for (const u of g.units.units) {
+        if (!this.grippable(u)) continue
