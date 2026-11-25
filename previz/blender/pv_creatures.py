@@ -667,3 +667,4 @@ def b_cyclops(r):
     t.torus(V(J["chest"]) + Vector((0, -0.37, 0.0)), 0.07, 0.03, normal=(0, 1, 0), mat="metal", seg=10, rseg=4)
     p = r.parts["pelvis"]
     hp = V(J["hip"])
+    p.tube([hp + Vector((0, 0, 0.12)), hp + Vector((0, 0, -0.2)), hp + Vector((0, -0.05, -0.55))], [0.5, 0.52, 0.44], mat="cloth", seg=12, n=2)
