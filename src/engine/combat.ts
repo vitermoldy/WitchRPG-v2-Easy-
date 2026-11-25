@@ -95,3 +95,4 @@ export class Combo {
     this.queued = false
   }
 
+  update(dt: number, pressed: boolean, held: boolean, out: ComboEvent[] = []): ComboEvent[] {
