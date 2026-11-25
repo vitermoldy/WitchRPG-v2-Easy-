@@ -193,3 +193,4 @@ export class Ambient {
       const dx = p[i * 3] - cam.x
       const dz = p[i * 3 + 2] - cam.z
       const dy = p[i * 3 + 1] - ground
+      if (Math.abs(dx) > HALF || Math.abs(dz) > HALF || dy < LOW || dy > HIGH) this.respawn(i, cam, ground, w, false)
