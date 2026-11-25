@@ -619,3 +619,4 @@ def build_board(lib_colls, stats):
 
 def build_bara(dunia):
     """Amber creatures and the red Chaos hand inside the orange fog of zone V."""
+    bc = Wd.ZONES[4]["c"]
