@@ -59,3 +59,4 @@ export class Hud {
   private hintTime = 0
   private hitTime = 0
   private hurt = 0
+  private manaFlash = 0
