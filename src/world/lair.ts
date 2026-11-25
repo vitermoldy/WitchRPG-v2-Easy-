@@ -180,3 +180,4 @@ export class Lair {
       if (u === this.body || this.heads.includes(u) || (u.owner && u.owner === this.body)) g.units.remove(u)
     }
     this.body = null
+    this.heads = []
