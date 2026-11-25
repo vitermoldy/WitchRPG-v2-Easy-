@@ -600,3 +600,4 @@ export class Game implements UnitHost {
     const d = this.spells.absorb(dmg)
     this.calm = 0
     if (d <= 0) return
+    p.hp -= d
