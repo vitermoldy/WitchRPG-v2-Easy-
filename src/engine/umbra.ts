@@ -313,3 +313,4 @@ export class Umbra {
       this.targets = near.length >= 2 ? near : this.candidate ? [this.candidate] : []
     }
 
+    // casting: hold R
