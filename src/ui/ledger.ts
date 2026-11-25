@@ -247,3 +247,4 @@ export class TravelPanel {
         this.host.travel(t.dataset.altar)
         this.close()
       } else if (t.id === 'btn-travel-ledger') {
+        this.next = 'ledger'
