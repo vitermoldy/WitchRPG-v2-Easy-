@@ -196,3 +196,4 @@ export function createAuth({ getPool, cookie, lang, deviceCode, newDevice }) {
     if (device) {
       const [owner] = await pool.query('SELECT id FROM users WHERE device_id = ?', [device])
       if (owner[0]) device = ''
+    }
