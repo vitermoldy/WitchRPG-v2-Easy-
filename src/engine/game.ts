@@ -609,3 +609,4 @@ export class Game implements UnitHost {
     this.hud.hurtFlash(Math.min(0.7, (d / p.maxHp) * 3 + 0.15))
     this.sfx.hurt()
     this.addTrauma(0.28)
+    p.nudge(p.pos.x - from.x, p.pos.z - from.z, 0.7, 0.18)
