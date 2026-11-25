@@ -488,3 +488,4 @@ def b_imp(r):
             hd.cone(W + d * 0.05 + Vector((a, 0, 0)), W + d * 0.17 + Vector((a * 1.5, -0.02, 0)), 0.007, mat="claw", seg=4)
     t = r.parts["torso"]
     for s in (1, -1):
+        bat_wing(t, (0.04 * s, 0.06, J["z"]["sh"] - 0.02), s, 0.95, 0.55, raise_deg=42, sweep_deg=25, bone="body", arm="body")
