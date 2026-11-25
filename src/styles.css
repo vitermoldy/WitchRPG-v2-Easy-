@@ -755,3 +755,4 @@ button {
   top: calc(50% + 64px);
   transform: translateX(-50%);
   display: grid;
+  justify-items: center;
