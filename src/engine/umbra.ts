@@ -521,3 +521,4 @@ export class Umbra {
       let target: Unit | null = locked && locked.alive ? locked : hit.unit
       if (!target) {
         let bd = 10
+        for (const e of g.units.enemies()) {
