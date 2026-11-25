@@ -485,3 +485,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     attacks: [
       { name: 'panah', strike: 'line', windup: 0.75, recover: 0.6, range: 26, minRange: 3, shot: { speed: 34, gravity: 3, radius: 0.14 } },
       { name: 'tendang', strike: 'ring', windup: 0.6, recover: 0.8, range: 3, lungeSpeed: 6, lungeTime: 0.3, ring: 1.8 },
+    ],
