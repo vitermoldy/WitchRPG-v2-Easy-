@@ -369,3 +369,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     recover: 1,
     cooldown: 2.6,
     slam: 5,
+    summon: { every: 15, count: 6, max: 10 },
