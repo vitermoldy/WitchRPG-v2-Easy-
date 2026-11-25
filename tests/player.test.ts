@@ -27,3 +27,4 @@ describe('Ilyra in the air (B)', () => {
     expect(p.pos.y).toBeCloseTo(MOVE.fly.ceiling, 3)
   })
 
+  it('flies 13 m/s, and 26 with Shift', () => {
