@@ -201,3 +201,4 @@ def build_hero(dunia, name="01-hero-bahu", mode="normal", cam_over=None, res=(19
     spots = [(6.5, -2.4, 0, 0), (8.2, 1.6, 0, 0), (9.6, -0.6, 0.9, -22), (11.0, 3.6, 0, 0), (12.2, -4.0, 0, 0), (13.8, 0.9, 0, 0), (9.2, 5.2, 0, 0), (15.5, -2.2, 0, 0)]
     rng = np.random.default_rng(2)
     for i, (fw, rt, dz, tilt) in enumerate(spots):
+        p = fr(fw, rt)
