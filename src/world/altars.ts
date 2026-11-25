@@ -13,3 +13,4 @@ export interface Altar {
 
 /** She lights an altar by walking within this distance; it heals her within the same reach. */
 export const ALTAR_REACH = 7
+/** HP and mana back per second at a lit altar, as a share of the maximum (v1's altar). */
