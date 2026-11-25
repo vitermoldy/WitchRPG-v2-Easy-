@@ -1043,3 +1043,4 @@ export class Game implements UnitHost {
     this.hud.aim(this.rig.aim > 0.5 || this.rig.fp > 0.5)
     if (target) {
       const lp = lockPoint(target)
+      this.v.set(lp.x, lp.y, lp.z).project(this.camera)
