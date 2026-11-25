@@ -575,3 +575,4 @@ def text(coll, body, loc, size=0.3, color="#efe6df", strength=1.0, align="LEFT",
     cu.align_y = valign
     ob = bpy.data.objects.new(name or f"txt.{body[:16]}", cu)
     ob.location = loc
+    ob.rotation_euler = Euler([math.radians(a) for a in rot])
