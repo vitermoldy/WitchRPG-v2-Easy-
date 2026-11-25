@@ -242,3 +242,4 @@ export class Sfx {
     const t = this.ctx!.currentTime
     if (success) {
       // A minor chord that swells, then a low pulse as the shadow stands.
+      for (const [f, d] of [[146.8, 0], [174.6, 0.05], [220, 0.1], [293.7, 0.16]] as const) this.tone(t + d, 'triangle', f, f, 1.4, 0.14, 0.08)
