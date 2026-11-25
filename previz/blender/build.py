@@ -7,3 +7,4 @@ encodes previz/animatic.mp4 with ffmpeg. Without --only every still is rendered.
 import json
 import os
 import subprocess
+import sys
