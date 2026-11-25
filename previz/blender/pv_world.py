@@ -712,3 +712,4 @@ def build_embers(coll, centre, radius, count, seed=5, z_range=(0.5, 30)):
         r.P("m").ell((0, 0, 0), 0.06, mat="e", seg=4, rings=3)
         r.finalize()
         ember = r.objs["m"]
+    pts = np.stack([X, Y, Z], axis=1)
