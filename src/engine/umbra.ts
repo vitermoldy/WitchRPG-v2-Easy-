@@ -525,3 +525,4 @@ export class Umbra {
           const d = e.pos.distanceTo(hit.point)
           if (d < bd) {
             bd = d
+            target = e
