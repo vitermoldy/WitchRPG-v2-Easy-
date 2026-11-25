@@ -21,3 +21,4 @@ if (rows.length === 0) {
     rows.map((r) => ({
       username: r.username,
       daftar: when(r.created_at),
+      'terakhir masuk': when(r.last_login_at),
