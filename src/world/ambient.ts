@@ -143,3 +143,4 @@ export class Ambient {
     this.rift.name = 'sky-rift'
     this.rift.frustumCulled = false
     this.rift.visible = false
+    scene.add(this.rift)
