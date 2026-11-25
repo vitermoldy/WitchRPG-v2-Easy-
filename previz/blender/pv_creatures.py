@@ -397,3 +397,4 @@ def axe(part, W, d, length=1.2, blade=0.55):
 
 # ---------------------------------------------------------------- Ilyra
 
+def b_ilyra(r, pose="idle"):
