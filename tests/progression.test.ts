@@ -87,3 +87,4 @@ describe('stats and the shadow army', () => {
     const p = newProfile()
     expect(spendStat(p, 'hex')).toBe(false)
     p.statPoints = 1
+    expect(spendStat(p, 'hex')).toBe(true)
