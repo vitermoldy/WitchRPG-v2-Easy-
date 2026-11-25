@@ -83,3 +83,4 @@ export class Props {
         p.spin += dt * 6
         if (p.thrown) {
           const speed = p.vel.length()
+          for (const u of g.units.units) {
