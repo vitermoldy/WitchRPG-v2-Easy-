@@ -100,3 +100,4 @@ export class Obstacles {
         const push = min - d
         pos.x += (dx / d) * push
         pos.z += (dz / d) * push
+        moved = true
