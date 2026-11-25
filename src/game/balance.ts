@@ -243,3 +243,4 @@ export interface UnitSpec {
   /** Share of damage a raised shield stops when hit from the front. */
   shield?: number
   /** Ground slam: everything of the other side inside this radius is hit. */
+  slam?: number
