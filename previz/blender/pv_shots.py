@@ -498,3 +498,4 @@ def stack_png(paths, out, pad=0, bg=(0, 0, 0)):
     img = bpy.data.images.new("stack", W, H, alpha=False, float_buffer=False)
     img.pixels.foreach_set(canvas.ravel())
     img.filepath_raw = out
+    img.file_format = "PNG"
