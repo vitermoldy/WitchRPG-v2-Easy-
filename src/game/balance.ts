@@ -339,3 +339,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   },
   riftlord: {
     name: 'Rift Lord',
+    rank: 'jenderal',
