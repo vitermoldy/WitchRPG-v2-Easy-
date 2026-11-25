@@ -992,3 +992,5 @@ export class Rigs {
     this.group.name = 'units'
     this.models = models
     this.lods = lods
+  }
+
