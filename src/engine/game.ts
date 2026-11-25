@@ -317,3 +317,5 @@ export class Game implements UnitHost {
   private blastLater(at: THREE.Vector3, radius: number, damage: number, delay: number) {
     this.warnings.show(at, radius, delay)
     this.blasts.push({ x: at.x, y: at.y, z: at.z, radius, damage, t: delay })
+  }
+
