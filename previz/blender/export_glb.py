@@ -169,3 +169,4 @@ def export(key):
         ob.select_set(False)
     for ob in coll.objects:
         ob.select_set(True)
+    path = os.path.join(OUT, f"{key}_lod.glb" if LOD else f"{key}.glb")
