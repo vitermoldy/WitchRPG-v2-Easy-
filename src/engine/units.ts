@@ -579,3 +579,4 @@ export class UnitSystem {
     u.blinkCd = spec.every
     this.host.clearTelegraph(u)
     u.token = false
+    u.set('move')
