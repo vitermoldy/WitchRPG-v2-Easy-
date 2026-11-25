@@ -430,3 +430,4 @@ export class ShadowPools {
       const mat = new THREE.ShaderMaterial({
         uniforms: { uTime: { value: 0 }, uOpen: { value: 0 }, uSeed: { value: Math.random() * 10 } },
         vertexShader: POOL_VERT,
+        fragmentShader: POOL_FRAG,
