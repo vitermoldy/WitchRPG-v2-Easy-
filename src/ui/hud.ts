@@ -360,3 +360,4 @@ export class Hud {
       ;(el.children[0] as HTMLElement).style.transform = `scaleX(${Math.max(0, u.hp / u.maxHp).toFixed(3)})`
       ;(el.children[1] as HTMLElement).style.transform = `scaleX(${u.staggered ? 1 : u.stun.share.toFixed(3)})`
       el.classList.toggle('weak', u.vulnerable > 0)
+      el.classList.toggle('staggered', u.staggered)
