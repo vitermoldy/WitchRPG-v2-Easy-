@@ -992,3 +992,4 @@ export class Game implements UnitHost {
     this.props.update(sdt)
     this.refusals()
 
+    // vitals
