@@ -263,3 +263,4 @@ export class Fight {
     const s = this.combo.current
     if (s && s.t < s.swing.windup + s.swing.active) return 0.15
     if (this.blocking) return COMBAT.block.speed
+    if (s) return 0.5
