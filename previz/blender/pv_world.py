@@ -729,3 +729,4 @@ def build_world(lib_scene):
     hero = SPOTS["hero"]
     build_ground_cover(cover, P, hero, 40, seed=11, open_r=18)
     ax, ay = SPOTS["army"]
+    build_ground_cover(cover, P, SPOTS["army"], 30, seed=12, grass=0.35, open_r=16, keep_clear=[((ax + 1.2, ay + 8.5), 8.0), ((ax, ay), 2.5)])
