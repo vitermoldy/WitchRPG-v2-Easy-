@@ -259,3 +259,4 @@ export class TravelPanel {
 
   open() {
     this.next = null
+    const list = this.host.altars()
