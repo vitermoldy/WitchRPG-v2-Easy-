@@ -617,3 +617,4 @@ export class Spells {
       u.slow = 1
       u.vulnerable = 0
     }
+    for (let i = this.snares.length - 1; i >= 0; i--) {
