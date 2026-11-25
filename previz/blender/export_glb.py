@@ -151,3 +151,4 @@ def lod_tris(coll):
 
 
 def export(key):
+    coll = bpy.data.collections.new(f"export_{key}")
