@@ -156,3 +156,4 @@ export class Hud {
   }
 
   /** A short black fade, for getting up again after a fall. */
+  fade() {
