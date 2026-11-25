@@ -67,3 +67,4 @@ export class Projectiles {
     } else {
       // along the telegraphed line, aimed at her chest where she stood when it drew
       const to = new THREE.Vector3(u.aimAt.x, u.aimAt.y + 1.1, u.aimAt.z)
+      const flat = Math.hypot(to.x - from.x, to.z - from.z)
