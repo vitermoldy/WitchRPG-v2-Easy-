@@ -181,3 +181,4 @@ def build(dunia, res=(1280, 720), samples=24):
             g_loc, g_look = game_cam(il_pos(T_DROP), f)
             a_loc = fly_curve[-1]
             loc = a_loc.lerp(g_loc, u)
+            loc.z += math.sin(u * math.pi) * 6.0
