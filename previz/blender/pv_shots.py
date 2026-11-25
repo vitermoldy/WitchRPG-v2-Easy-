@@ -611,3 +611,4 @@ def build_board(lib_colls, stats):
         C.text(coll, f"{role}", (x0 + 0.42, -0.1, z0 - 5.08), size=0.22, color="#cfc6c0", rot=(90, 0, 0))
         C.text(coll, f"Rank Rite: {rank}      Zona: {zone}", (x0 + 0.42, -0.1, z0 - 5.38), size=0.2, color="#a49c97", rot=(90, 0, 0))
     cam = C.camera(sc, "kamera.papan", (Wt / 2, -100, -Ht / 2), rot=(90, 0, 0), ortho=Wt, clip=(1, 1000))
+    C.render_settings(sc, res=(3840, int(3840 * Ht / Wt)), samples=32, bloom=0.25, vignette=False, transform="Standard")
