@@ -1209,3 +1209,4 @@ export const COMBAT = {
     throwSpeed: 42,
     range: 40,
     damage: 18,
+    stun: 20,
