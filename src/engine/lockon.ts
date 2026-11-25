@@ -64,3 +64,4 @@ export class LockOn {
     let best: Target | null = null
     let bestA = Infinity
     for (const t of targets) {
+      if (t === cur || !t.alive) continue
