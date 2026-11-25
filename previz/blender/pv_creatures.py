@@ -298,3 +298,6 @@ def horse_head(part, at, fwd=(0, -1, -0.6), s=1.0, mat="body"):
     part.ell(a + F * 0.52 * s, (0.09 * s, 0.07 * s, 0.07 * s), mat="nose" if "nose" in part.rig.pal else mat, seg=8, rings=6)
     for k in (-1, 1):
         part.cone(a + UP * 0.1 * s + side * 0.07 * s * k, a + UP * 0.27 * s + side * 0.09 * s * k + F * -0.05 * s, 0.04 * s, mat=mat, seg=6)
+        part.ell(a + F * 0.1 * s + side * 0.11 * s * k + UP * 0.04 * s, 0.025 * s, mat="eye", seg=8, rings=5)
+
+
