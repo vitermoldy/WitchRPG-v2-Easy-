@@ -108,3 +108,4 @@ Tur fitur (setiap skill sekali di game, `?debug`, Lv 10): Hex Bolt melukai Imp d
 | Formasi | Cincin di belakang Ilyra: 8 di cincin pertama, 4 lebih banyak per cincin berikutnya, 1,8 m antar cincin | v1. |
 | Roda Z | Tahan Z: mouse ke atas Ikuti, ke kanan Serang, ke bawah Tahan, ke kiri Tukar Tempat, lepas Z untuk memilih. Kamera berhenti selama roda terbuka. Serang memakai target lock-on, atau makhluk di titik bidik | Roda v1; lock-on adalah cara memilih target yang paling alami di third-person. |
 | Tukar Tempat (Lv 4) | Dengan bayangan yang paling dekat ke tengah pandangan; jeda 10 dtk (6 dengan upgrade) | v1. |
+| Perintah Fokus (Lv 6) | Semua bayangan menyerang target yang sama; +20% damage pada target itu dengan upgrade | v1. |
