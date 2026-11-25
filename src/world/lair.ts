@@ -434,3 +434,4 @@ export class Lair {
     at.y = this.g.height(at.x, at.z)
   }
 
+  private windup(u: Unit, atk: AttackSpec, at: THREE.Vector3) {
