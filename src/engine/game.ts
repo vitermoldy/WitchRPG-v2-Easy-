@@ -1180,3 +1180,4 @@ export class Game implements UnitHost {
         state: u.state,
         t: u.t,
         strike: u.spec.strike ?? 'ring',
+        windup: u.spec.windup,
