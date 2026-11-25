@@ -1308,3 +1308,4 @@ dialog::backdrop {
   justify-content: space-between;
   align-items: flex-start;
   gap: 1rem;
+  padding: 1.2rem 1.4rem 0.8rem;
