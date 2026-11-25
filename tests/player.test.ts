@@ -137,3 +137,4 @@ describe('Ilyra on foot', () => {
     const obs = new Obstacles()
     obs.add({ kind: CYL, x: 0, y: 0, z: -3, r: 0.4, h: 10, camOnly: false })
     const g: Ground = { ...flat, obstacles: obs }
+    const p = new Player()
