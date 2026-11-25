@@ -58,3 +58,4 @@ def shot_scene(name, dunia, world, sun_travel, sun_color="#fff1dc", sun_energy=4
     sc.collection.children.link(dunia)
     sc.world = world
     s = C.sun(sc, f"matahari.{name}", (0, 0, 0), sun_color, sun_energy, angle=1.2)
+    s.rotation_euler = Vector(sun_travel).normalized().to_track_quat("-Z", "Y").to_euler()
