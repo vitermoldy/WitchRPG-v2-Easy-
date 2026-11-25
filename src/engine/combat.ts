@@ -34,3 +34,4 @@ export class StunMeter {
     this.value += amount
     this.since = 0
     if (this.value >= this.max) {
+      this.value = this.max
