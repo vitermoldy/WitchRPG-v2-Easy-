@@ -48,3 +48,4 @@ const FRAG_GLOW = /* glsl */ `
     float a = smoothstep(0.5, 0.0, d);
     a *= a * vAlpha;
     if (a < 0.003) discard;
+    gl_FragColor = vec4(vColor * a, a);
