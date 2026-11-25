@@ -135,3 +135,4 @@ export const SKILLS: SkillDef[] = [
     name: 'Kebangkitan Marsekal',
     key: 'Tahan R',
     unlock: 9,
+    effect: 'Bisa membangkitkan boss berpangkat Marsekal, satu kali per boss. Hydra datang di fase berikutnya.',
