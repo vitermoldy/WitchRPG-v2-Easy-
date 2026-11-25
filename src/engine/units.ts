@@ -702,3 +702,4 @@ export class UnitSystem {
           u.alt += ((spec.fly?.height ?? 6) - u.alt) * Math.min(1, dt * 1.5)
         } else if (spec.fly) {
           // a downed flyer crawls toward her and cannot strike until it is up again
+          this.steer(u, tgt.pos.x, tgt.pos.z, speed * 0.35, dt, 2)
