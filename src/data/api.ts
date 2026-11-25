@@ -16,3 +16,4 @@ function makeCode(): string {
 
 function clientCode(): string {
   try {
+    let code = localStorage.getItem(CODE_KEY)
