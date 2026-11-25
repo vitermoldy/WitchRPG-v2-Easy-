@@ -13,3 +13,4 @@ export type LairState = 'calm' | 'fight' | 'won'
  * Reality Warp, where its open heart takes 150%. The army's blows always do 15% of their damage: the
  * Hydra is her fight.
  */
+export function hydraShare(phase: 1 | 2 | 3, kind: DamageKind, inWarp: boolean): number {
