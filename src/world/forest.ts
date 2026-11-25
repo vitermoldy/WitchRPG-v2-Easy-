@@ -189,3 +189,4 @@ export function scatter(size = 1260, step = 4, seed = 3): Tree[] {
         acc += w[zi]
         if (pick < acc) break
       }
+      const ring = smooth(440, 560, Math.max(Math.abs(x), Math.abs(y)))
