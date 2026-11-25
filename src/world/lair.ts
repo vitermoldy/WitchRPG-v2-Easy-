@@ -123,3 +123,4 @@ export class Lair {
       fragmentShader: CURTAIN_FRAG,
       transparent: true,
       depthWrite: false,
+      side: THREE.DoubleSide,
