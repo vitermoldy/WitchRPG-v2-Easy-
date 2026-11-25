@@ -306,3 +306,5 @@ export class Rings {
     ring.dur = dur
     ring.r0 = r0
     ring.r1 = r1
+  }
+
