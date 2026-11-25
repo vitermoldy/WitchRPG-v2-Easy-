@@ -353,3 +353,4 @@ export class Fight {
     if (this.blocking && this.combo.current) this.combo.cancel()
     this.blockBlend += ((this.blocking ? 1 : 0) - this.blockBlend) * Math.min(1, dt * 18)
 
+    if (inp.execute) {
