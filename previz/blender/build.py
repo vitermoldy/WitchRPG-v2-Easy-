@@ -103,3 +103,4 @@ for key, fname in FILES.items():
 if "variants" in ONLY:
     paths = []
     for sc in scenes["variants"]:
+        p = os.path.join(TMP, f"{sc.name}.png")
