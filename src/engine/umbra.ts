@@ -473,3 +473,4 @@ export class Umbra {
         g.hud.message(`Bayangan baru: ${rec.name}, ${RANKS[rec.rank].label} dari ${UNITS[rec.kind].name} Lv ${rec.level}.`, 'umbra')
         g.hud.banner(rec.name, 'bangkit dari bayangan dan berdiri di sisimu')
       } else {
+        g.hud.message(`${raised.length} bangkit${faded ? `, ${faded} pudar` : ''}. Ruang Bayangan sekarang menampung ${g.profile.shadows.length} bayangan.`, 'umbra')
