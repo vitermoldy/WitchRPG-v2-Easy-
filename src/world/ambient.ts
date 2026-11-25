@@ -188,3 +188,4 @@ export class Ambient {
       const kind = KINDS[this.kind[i]]
       const ph = this.phase[i] + this.time
       p[i * 3] += (kind.vel[0] + Math.sin(ph * 0.9) * kind.wander) * dt
+      p[i * 3 + 1] += (kind.vel[1] + Math.sin(ph * 1.3 + 1) * kind.wander * 0.4) * dt
