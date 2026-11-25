@@ -106,3 +106,5 @@ export class Ledger {
 
   close() {
     if (this.dlg.open) this.dlg.close()
+  }
+
