@@ -508,3 +508,4 @@ export function glowTexture(): THREE.Texture {
   grad.addColorStop(0, 'rgba(255,255,255,1)')
   grad.addColorStop(0.25, 'rgba(255,255,255,0.55)')
   grad.addColorStop(0.6, 'rgba(255,255,255,0.12)')
+  grad.addColorStop(1, 'rgba(255,255,255,0)')
