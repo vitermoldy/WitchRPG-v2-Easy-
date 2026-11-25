@@ -328,3 +328,4 @@ export class WorldMap {
       ctx.closePath()
       ctx.lineWidth = 1.5
       ctx.strokeStyle = '#9ff2e0'
+      ctx.fillStyle = g.altars.isLit(a.key) ? '#9ff2e0' : 'rgba(12, 8, 9, 0.6)'
