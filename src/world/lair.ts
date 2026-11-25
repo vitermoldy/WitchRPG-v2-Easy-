@@ -418,3 +418,4 @@ export class Lair {
         if (!atk.shot) g.clearTelegraph(h)
         h.set('move')
       }
+    }
