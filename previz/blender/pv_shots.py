@@ -301,3 +301,4 @@ def build_minotaur(dunia):
     place(il, local, P[0], P[1], f)
     fr = frame_of(P, f)
     mp = fr(4.6, 0.4)
+    mino = actor("aktor.minotaur.windup", "minotaur", "windup")
