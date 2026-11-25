@@ -45,3 +45,4 @@ describe('creature attacks', () => {
     const imp = w.sys.spawn('imp', 'enemy', 1, { x: 0, z: 2 })
     let started = -1
     w.step(3, () => {
+      if (started < 0 && imp.state === 'windup') started = w.now()
