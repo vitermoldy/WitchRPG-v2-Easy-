@@ -103,3 +103,4 @@ export class Combo {
       if (pressed) this.queued = true
       const before = s.t
       s.t += dt
+      const hitAt = s.swing.windup
