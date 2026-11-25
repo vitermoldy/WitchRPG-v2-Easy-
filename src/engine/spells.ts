@@ -119,3 +119,4 @@ export class Spells {
   burstCd = 0
   snareCd = 0
   barrierCd = 0
+  warpCd = 0
