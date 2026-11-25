@@ -43,3 +43,4 @@ describe('creature attacks', () => {
   it('lands an Imp ring blow exactly when its windup and leap are over', () => {
     const w = world()
     const imp = w.sys.spawn('imp', 'enemy', 1, { x: 0, z: 2 })
+    let started = -1
