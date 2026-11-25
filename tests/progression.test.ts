@@ -210,3 +210,4 @@ describe('Tier IV and V', () => {
     p.level = 13
     expect(tierUnlocked(p, 5)).toBe(true)
   })
+  it('keeps enemy levels in the bands the tiers promise', () => {
