@@ -759,3 +759,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     anchored: true,
     boss: true,
     summon: { every: 18, count: 2, max: 4 },
+    summonKind: 'hellhound',
