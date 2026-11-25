@@ -676,3 +676,4 @@ export class UnitSystem {
     u.target = tgt
     if (!tgt) {
       u.token = false
+      if (u.state === 'windup' || u.state === 'strike') {
