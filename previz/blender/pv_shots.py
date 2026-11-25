@@ -446,3 +446,4 @@ def build_lineup(lib_colls, stats):
         top = math.ceil(tallest) + (1 if key != "C" else 2)
         step = label_every
         ts = {"A": 0.46, "B": 0.62, "C": 1.3}[key]
+        for mtr in range(0, top + 1):
