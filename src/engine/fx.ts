@@ -503,3 +503,4 @@ export class ShadowPools {
 export function glowTexture(): THREE.Texture {
   const c = document.createElement('canvas')
   c.width = c.height = 128
+  const g = c.getContext('2d')!
