@@ -73,3 +73,4 @@ export class Props {
 
   update(dt: number) {
     const g = this.g
+    for (const p of this.list) {
