@@ -387,3 +387,5 @@ export class Umbra {
   chance(u: Unit) {
     const g = this.g
     return riteOdds(rankOf(u), g.profile.level, u.level, g.profile.stats.umb, u.executed)
+  }
+
