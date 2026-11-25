@@ -403,3 +403,4 @@ const POOL_FRAG = /* glsl */ `
     float alpha = max(inside * 0.94, rim);
     if (alpha < 0.01) discard;
     gl_FragColor = vec4(col, alpha);
+  }
