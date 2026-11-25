@@ -227,3 +227,4 @@ export class LightPool {
     slot.light.intensity = intensity
   }
 
+  acquire(color: THREE.ColorRepresentation, intensity: number, distance: number): THREE.PointLight | null {
