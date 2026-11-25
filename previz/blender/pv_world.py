@@ -3,3 +3,4 @@ X is east, Y is north, metres. The playable map is 1000 x 1000 m inside a ring o
 import math
 
 import bmesh
+import bpy
