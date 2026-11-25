@@ -109,3 +109,5 @@ async function enter(path: string, payload: unknown): Promise<void> {
 export const signIn = (username: string, password: string): Promise<void> => enter('auth/login', { username, password })
 
 /** A new account. The witch this browser has becomes the account's. */
+export const signUp = (username: string, password: string): Promise<void> => enter('auth/register', { username, password, device: clientCode() })
+
