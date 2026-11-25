@@ -586,3 +586,4 @@ export class Spells {
       }
     }
     const up = at.clone().setY(at.y + 0.6)
+    g.glow.emit({ pos: up, count: 140, color: COLOR.chaos, intensity: 3, life: 0.7, size: 0.5, sizeEnd: 0.05, speed: r * 1.4, jitter: 0.4, drag: 3, gravity: 2 })
