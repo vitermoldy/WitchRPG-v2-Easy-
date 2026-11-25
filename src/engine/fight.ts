@@ -467,3 +467,4 @@ export class Fight {
       g.hitstop(s.heavy ? COMBAT.hitstop.heavy : COMBAT.hitstop.light)
       g.addTrauma(s.heavy ? 0.22 : 0.07)
       g.sfx.hit(s.heavy)
+    }
