@@ -99,3 +99,4 @@ function readCookie(req, name) {
 function attemptLimit(limit, message) {
   const hits = new Map()
   return (req, res, next) => {
+    const now = Date.now()
