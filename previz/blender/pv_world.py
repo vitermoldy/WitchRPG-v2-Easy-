@@ -151,3 +151,4 @@ def build_terrain(coll, size=1300.0, step=2.5):
     col = np.zeros(X.shape + (3,))
     for i, z in enumerate(ZONES):
         col += W[i][..., None] * _hex(z["ground"])[None, None, :]
+    rock = smooth(0.45, 0.9, slope)[..., None]
