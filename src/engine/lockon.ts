@@ -85,3 +85,4 @@ export class LockOn {
   update(dt: number, targets: Target[], player: Vec, mouseDx: number, visible: boolean) {
     const cur = this.current
     if (!cur) return
+    if (!cur.alive || Math.hypot(cur.x - player.x, cur.z - player.z) > LOCKON.keepRange) {
