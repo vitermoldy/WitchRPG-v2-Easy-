@@ -585,3 +585,4 @@ def build_fog(coll):
         coll.objects.link(ob)
         obs.append(ob)
     # thin aerial haze over the whole valley (a world volume would hide the sky in EEVEE)
+    bm = bmesh.new()
