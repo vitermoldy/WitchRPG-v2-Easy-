@@ -171,3 +171,4 @@ class Staff {
     obj.position.copy(this.pos)
   }
 
+  private stick() {
