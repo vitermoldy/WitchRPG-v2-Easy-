@@ -399,3 +399,4 @@ export class Umbra {
     const g = this.g
     if (!this.riteOpen) return 'Umbra Rite terbuka di Lv 2.'
     const rank = u ? riteBlock(g.profile, u.kind, rankOf(u)) : null
+    if (rank) return rank
