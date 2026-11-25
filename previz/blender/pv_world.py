@@ -115,3 +115,4 @@ def zone_weights(x, y):
     W = []
     for z in ZONES:
         d = _dist(x, y, z["c"]) / z["r"]
+        W.append(np.exp(-3.0 * d * d))
