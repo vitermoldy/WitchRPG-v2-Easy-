@@ -243,3 +243,4 @@ export class Lair {
     if (body && body.alive) {
       body.hp = Math.max(1, body.hp - body.maxHp * HYDRA.severShare)
       body.flash = 0.3
+    }
