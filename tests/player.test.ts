@@ -65,3 +65,4 @@ describe('Ilyra in the air (B)', () => {
 describe('Ilyra on foot', () => {
   it('moves the way the camera looks', () => {
     const p = new Player()
+    run(p, { ...idle, y: 1 }, 1)
