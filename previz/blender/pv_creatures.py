@@ -356,3 +356,4 @@ def tail_tube(part, pts, r0, r1=0.0, mat="body", seg=7):
 
 def face(part, hc, H, eyes=True, nose=True, mat="skin"):
     """Brow, nose and glowing eyes on a humanoid head of body height H."""
+    k = H / 1.8
