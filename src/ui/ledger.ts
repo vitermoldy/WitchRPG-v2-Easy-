@@ -73,3 +73,4 @@ export class Ledger {
     this.dlg.addEventListener('click', (e) => {
       const t = (e.target as HTMLElement).closest('button')
       if (!t) return
+      const p = this.host.profile
