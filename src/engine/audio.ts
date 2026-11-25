@@ -20,3 +20,4 @@ export class Sfx {
       return
     }
     const ctx = this.ctx
+    this.master = ctx.createGain()
