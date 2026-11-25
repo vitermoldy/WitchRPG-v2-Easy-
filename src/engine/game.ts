@@ -1052,3 +1052,4 @@ export class Game implements UnitHost {
   }
 
   /** Camera, terrain detail, fog and shadows for the current state. */
+  private place(dt: number, snap: boolean, aiming = false) {
