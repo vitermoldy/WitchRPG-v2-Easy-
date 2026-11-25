@@ -663,3 +663,4 @@ def b_cyclops(r):
         h.ell(hc + Vector((0.27 * s, 0.0, 0.0)), (0.04, 0.07, 0.09), mat="skin")
     t = r.parts["torso"]
     for s in (1, -1):
+        t.tube([V(J["sh_" + ("L" if s > 0 else "R")]) + Vector((0, -0.05, 0.05)), V(J["chest"]) + Vector((0, -0.38, 0.0)), V(J["waist"]) + Vector((-s * 0.42, -0.2, -0.05))], 0.045, mat="strap", seg=6, n=3)
