@@ -395,3 +395,4 @@ def build_army(dunia):
         lt = C.point(local, f"cahaya.kolam.{i}", (p.x, p.y, Wd.ground_z(p.x, p.y) + 0.5), HEX["umbra"], energy=120 * pr, radius=pr * 0.5)
         lt.data.use_shadow = False
     disc(local, "kolam.kaki", (P[0], P[1]), 1.1, mat_ring("kolam_kaki", HEX["umbra"], 5.0, inner=0.75, alpha=0.9, fill=0.1), z_off=0.05)
+    cam = place_game_camera(sc, P, f, "normal", name="kamera.06", dist=4.4, height=1.5, pitch=-2.0, vfov=60.0)
