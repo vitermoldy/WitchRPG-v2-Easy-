@@ -540,3 +540,4 @@ def fog_material(z):
     ex.operation = "EXPONENT"
     L.new(dv.outputs[0], ex.inputs[0])
     lenv = N.new("ShaderNodeVectorMath")
+    lenv.operation = "LENGTH"
