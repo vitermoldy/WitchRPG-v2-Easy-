@@ -265,3 +265,4 @@ Pemeriksaan:
 
 - **Terbang:** naik 23 m dalam 3 dtk, 26 m/dtk dengan Shift; di atas Danau Hitam mendarat ditolak dengan pesan dan Ilyra berhenti di permukaan air; di tanah menahan C mendaratkannya. P mengganti ke orang pertama (sudut pandang 68) dan kembali. Tidak ada error.
 - **Boss** (witch Lv 20, 14 dtk tiap boss): keenamnya bangun dan menyerang (satu sampai tiga serangan berbeda terlihat dalam 14 dtk itu, beda antar-run), bar boss menulis nama dan level, Cerberus memanggil 2 Hellhound, Lilith 1 Succubus, Typhon 3 Harpy. Saat tumbang: banner, kamp padam, bangkit lagi dalam 45 dtk.
+- **Satwa:** Unicorn dan Pegasus muncul di dekat altar Tebing, tidak bisa di-lock atau dipukul.
