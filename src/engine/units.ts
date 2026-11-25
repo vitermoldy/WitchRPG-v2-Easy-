@@ -169,3 +169,4 @@ export class Unit implements Foe {
     this.team = team
     this.spec = UNITS[kind]
     this.level = level
+    const st = unitStats(kind, level, team === 'shadow')
