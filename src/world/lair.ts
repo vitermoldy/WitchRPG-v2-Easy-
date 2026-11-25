@@ -45,3 +45,4 @@ const VERT = /* glsl */ `
   void main() { vUv = uv; gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0); }
 `
 
+interface Island {
