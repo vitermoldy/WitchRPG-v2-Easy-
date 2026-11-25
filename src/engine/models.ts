@@ -110,3 +110,4 @@ export class IlyraModel {
       const hand = this.parts['hand_' + side]
       if (!hand) continue
       const l = new THREE.PointLight(col, 2.2, 5, 2)
+      l.position.set(0, -0.06, 0.04)
