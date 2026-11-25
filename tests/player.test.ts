@@ -16,3 +16,4 @@ function run(p: Player, input: MoveInput, seconds: number, g = flat, camYaw = 0)
 
 describe('Ilyra in the air (B)', () => {
   const B: MoveInput = { ...idle, fly: true }
+  it('takes off, climbs 8 m/s, and stops at the ceiling 40 m over the ground', () => {
