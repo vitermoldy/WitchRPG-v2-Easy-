@@ -214,3 +214,4 @@ export function scatter(size = 1260, step = 4, seed = 3): Tree[] {
 
 /** Registers every trunk and rock (and each crown, for the camera only) with the obstacle index. */
 export function addColliders(trees: Tree[], obs: Obstacles) {
+  for (const t of trees) {
