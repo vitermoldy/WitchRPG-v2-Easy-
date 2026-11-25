@@ -264,3 +264,4 @@ export class Sfx {
   }
 
   warp() {
+    if (!this.ok()) return
