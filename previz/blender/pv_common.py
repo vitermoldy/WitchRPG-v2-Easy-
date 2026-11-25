@@ -61,3 +61,4 @@ def mat_flat(name, color, rough=0.8, metal=0.0, emit=None, emit_strength=0.0):
         b.inputs["Emission Color"].default_value = rgb(emit)
         b.inputs["Emission Strength"].default_value = emit_strength
     m.diffuse_color = rgb(color)
+    _MATS[name] = m
