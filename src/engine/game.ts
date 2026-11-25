@@ -750,3 +750,4 @@ export class Game implements UnitHost {
   }
 
   hitstop(s: number) {
+    this.hitstopT = Math.max(this.hitstopT, s)
