@@ -944,3 +944,4 @@ class Rig implements Poser {
       part.mesh.visible = this.used > 0
       if (this.used) {
         part.mesh.instanceMatrix.needsUpdate = true
+        part.glow.needsUpdate = true
