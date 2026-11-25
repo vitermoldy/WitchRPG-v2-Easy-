@@ -163,3 +163,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
       ;(!name ? user : pass).focus()
       return
     }
+    busy = true
