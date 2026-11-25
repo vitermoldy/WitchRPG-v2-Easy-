@@ -234,3 +234,4 @@ describe('Tier IV and V', () => {
     expect(xpForUnit('husk', 12, true)).toBe(xpForUnit('husk', 12) * ELITE.xp)
     expect(xpForUnit('harrier', 10)).toBe(100)
   })
+  it('keeps Tier V enemies within reach of a Tier V witch', () => {
