@@ -538,3 +538,4 @@ def fog_material(z):
     L.new(sep.outputs["Z"], dv.inputs[0])
     ex = N.new("ShaderNodeMath")
     ex.operation = "EXPONENT"
+    L.new(dv.outputs[0], ex.inputs[0])
