@@ -926,3 +926,4 @@ export class UnitSystem {
       return
     }
     const air = u.flyer && u.alive ? u.alt : 0
+    u.pos.y += (ground + air - u.pos.y) * Math.min(1, dt * (air > 0 ? 4 : 14))
