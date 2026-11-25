@@ -200,3 +200,4 @@ export class Hud {
     this.set('mana-row', 'class', this.manaFlash > 0 ? 'vital short' : 'vital')
     this.set('hp-row', 'class', p.poisonT > 0 ? 'vital poisoned' : 'vital')
     this.root.classList.toggle('stone', p.petrified > 0)
+    const chaos = g.spells.overloaded ? (g.spells.overloadT / CHAOS.overloadTime) * 100 : g.spells.chaos
