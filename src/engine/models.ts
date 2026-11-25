@@ -287,3 +287,4 @@ export class IlyraModel {
       const rest = { torso: torsoY, armX: armRX, armY: armRY, fore: foreR }
       let pose: typeof back
       if (sw.t < sw.windup) {
+        w = ease(sw.t / sw.windup)
