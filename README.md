@@ -65,3 +65,4 @@ Salin `.env.example` menjadi `.env` dan isi akun MySQL. Server membuat database 
 | H | Lempar tongkat ke titik bidik atau target lock-on; tekan lagi untuk memanggilnya, mengenai makhluk di jalur pulang |
 
 | Sihir Chaos (tangan kiri) | |
+| --- | --- |
