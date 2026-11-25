@@ -28,3 +28,4 @@ export class Obstacles {
   private seen = new Uint32Array(0)
 
   private key(ix: number, iz: number) {
+    return (ix + 2048) * 4096 + (iz + 2048)
