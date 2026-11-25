@@ -101,3 +101,4 @@ describe('over-the-shoulder camera', () => {
         const z = (r() - 0.5) * 14
         if (Math.hypot(x, z) < 0.9) continue
         if (r() < 0.75) {
+          const s = 0.7 + r() * 0.7
