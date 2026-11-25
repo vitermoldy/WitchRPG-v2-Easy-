@@ -34,3 +34,4 @@ describe('the forest valley', () => {
   })
 
   it('starts her and every previz spot on dry ground', () => {
+    for (const [name, [x, y]] of Object.entries(SPOTS)) {
