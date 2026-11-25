@@ -197,3 +197,4 @@ export function scatter(size = 1260, step = 4, seed = 3): Tree[] {
       const entries = Object.entries(kinds) as [Kind, number][]
       const total = entries.reduce((s, [, v]) => s + v, 0)
       let r2 = kindRoll
+      let kind: Kind = entries[0][0]
