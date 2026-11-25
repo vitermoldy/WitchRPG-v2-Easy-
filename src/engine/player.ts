@@ -163,3 +163,4 @@ export class Player {
       this.nudgeT -= dt
     } else {
       const sprint = input.sprint && !aiming && this.moveScale >= 1
+      const top = (sprint ? MOVE.sprint : aiming ? MOVE.jog * 0.6 : MOVE.jog) * this.speedMult * this.moveScale
