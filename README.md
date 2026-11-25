@@ -27,3 +27,4 @@ npm install
 npm run dev      # http://localhost:5301
 npm run server   # server akun dan simpanan, port 8915 (butuh MySQL dan .env)
 npm test         # tes progresi v1, kamera, gerak, peta, tempur, AI makhluk, simpanan, dan Hydra
+npm run build    # hasil di dist/
