@@ -197,3 +197,4 @@ export class Game implements UnitHost {
           '  if (bad(c.r) || bad(c.g) || bad(c.b) || bad(c.a)) c = vec4(0.0);',
           '  gl_FragColor = clamp(c, 0.0, 60000.0);',
           '}',
+        ].join('\n'),
