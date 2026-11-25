@@ -12,3 +12,4 @@ export class Sfx {
   start() {
     if (this.ctx) {
       void this.ctx.resume()
+      return
