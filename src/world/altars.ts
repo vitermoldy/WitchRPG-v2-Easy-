@@ -123,3 +123,4 @@ export class Altars {
         this.paint()
         g.hud.banner(a.name, 'menyala: Ilyra akan bangkit di sini, dan bisa kembali ke sini dari altar lain')
         g.sfx.riteResult(true)
+        g.rings.spawn(a.pos, COLOR.umbra, 0.5, 6, 0.7)
