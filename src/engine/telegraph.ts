@@ -128,3 +128,4 @@ export class Telegraphs {
     it.mat.uniforms.uFill.value = 0
     it.t0 = this.time
     const dist = Math.hypot(u.aimAt.x - u.pos.x, u.aimAt.z - u.pos.z)
+    if (kind === 'line') {
