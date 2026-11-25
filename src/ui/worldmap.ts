@@ -303,3 +303,4 @@ export class WorldMap {
     const bosses = this.bosses()
     const br = Math.max(6, size / 70)
     // boss marks claim their room first, so a label never covers one
+    for (const b of bosses) {
