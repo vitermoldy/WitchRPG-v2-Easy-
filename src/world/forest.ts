@@ -77,3 +77,4 @@ function birch(): THREE.BufferGeometry {
   return mergeGeometries(parts)
 }
 
+function swampTree(): THREE.BufferGeometry {
