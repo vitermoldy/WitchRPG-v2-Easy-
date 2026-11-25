@@ -72,3 +72,5 @@ describe('staff combo', () => {
     const events: ComboEvent[] = []
     for (const [dt, pressed, held] of script) c.update(dt, pressed, held, events)
     return events
+  }
+
