@@ -184,3 +184,4 @@ def export(key):
     bpy.data.collections.remove(coll)
 
 
+for k in WANT:
