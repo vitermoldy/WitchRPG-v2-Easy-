@@ -19,3 +19,4 @@ export interface Zone {
 export const ZONES: Zone[] = [
   { key: 'pembuka', name: 'Hutan Pembuka', tier: 'I', levels: [1, 3], c: [0, -280], r: 230, fog: '#cddbea', sight: 260, ground: '#2a3322', sky: '#9fb7d4' },
   { key: 'tebing', name: 'Tebing Berangin', tier: 'II', levels: [4, 6], c: [320, -40], r: 190, fog: '#e9c79c', sight: 430, ground: '#5b5141', sky: '#c9b394' },
+  { key: 'rawa', name: 'Rawa Berkabut', tier: 'III', levels: [7, 9], c: [-300, 40], r: 200, fog: '#a9c491', sight: 150, ground: '#283224', sky: '#a7b89a' },
