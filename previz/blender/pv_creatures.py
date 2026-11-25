@@ -1079,3 +1079,4 @@ def b_pegasus(r):
 
 
 def b_unicorn(r):
+    """Blue-grey horse with a rose mane and an ivory spiral horn."""
