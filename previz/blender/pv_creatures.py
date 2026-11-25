@@ -859,3 +859,4 @@ def b_dragon(r):
     for s in (1, -1):
         bat_wing(b, (0.8 * s, -1.3, Q["H"] + 0.3), s, 10.5, 6.0, raise_deg=38, sweep_deg=15, bone="accent")
     spikes(b, [lerp(Q["withers"], (0, 3.5, Q["H"] * 0.95), i / 7) + Vector((0, 0, 0.1)) for i in range(8)], 0.7, 0.14, mat="accent", tilt=(0, 0.7, 1))
+    tl = r.P("tail", Q["tail_base"], "body")
