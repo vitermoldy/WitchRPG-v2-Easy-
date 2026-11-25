@@ -464,3 +464,4 @@ const poseMedusa: PoseFn = (p, u, t) => {
       p.rot('upperarm_L', -60 * k)
       p.rot('upperarm_R', -60 * k)
     }
+    return
