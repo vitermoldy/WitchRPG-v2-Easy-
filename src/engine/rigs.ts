@@ -387,3 +387,4 @@ const poseMinotaur: PoseFn = (p, u, t) => {
   if (u.state === 'windup') {
     const k = ease(u.t / u.atk.windup)
     if (charge) {
+      p.body(-0.1 * k, 18 * k)
