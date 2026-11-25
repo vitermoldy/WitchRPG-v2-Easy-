@@ -817,3 +817,4 @@ def b_hippogriff(r):
         tail_tube(tl, [Q["tail_base"], (k, 1.6, 1.4), (k * 2, 1.75, 0.9), (k * 3, 1.7, 0.45)], 0.07, 0.0, mat="hair")
 
 
+def b_phoenix(r):
