@@ -269,3 +269,4 @@ export class Forest {
       const dz = t.z - z
       this.mesh.setVisibleAt(i, dx * dx + dz * dz < r2)
     }
+  }
