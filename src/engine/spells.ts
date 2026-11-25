@@ -731,3 +731,4 @@ export class Spells {
   private endBarrier() {
     const g = this.g
     const s = SPELL.barrier
+    this.barrierT = 0
