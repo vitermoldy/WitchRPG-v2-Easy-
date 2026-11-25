@@ -104,3 +104,4 @@ describe('creature attacks', () => {
 
   it('keeps a camp creature at home until its pack is roused', () => {
     const w = world()
+    const imp = w.sys.spawn('imp', 'enemy', 1, { x: 0, z: 10 })
