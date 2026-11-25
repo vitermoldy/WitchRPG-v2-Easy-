@@ -29,3 +29,4 @@ const CATCH_TIME = 0.25
 
 /**
  * The staff thrown with H: it flies straight at the aim point, sticks in whatever it meets, and comes
+ * back on the second H, hitting every creature on its way home.
