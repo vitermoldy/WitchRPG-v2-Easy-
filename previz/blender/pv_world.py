@@ -589,3 +589,4 @@ def build_fog(coll):
     bmesh.ops.create_cube(bm, size=1.0)
     me = bpy.data.meshes.new("atmosphere")
     bm.to_mesh(me)
+    bm.free()
