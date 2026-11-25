@@ -639,3 +639,4 @@ const poseHydra: PoseFn = (p, u, t) => {
       p.hide(`neck${i}_0`)
       continue
     }
+    let mode: 'rest' | 'rear' | 'down' | 'limp' = 'rest'
