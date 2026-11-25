@@ -87,3 +87,5 @@ export class CameraRig {
   /** First person wanted (P), and how far the view has blended there (0 behind her shoulder, 1 at her eyes). */
   firstPerson = false
   fp = 0
+  private lastLock: LockView | null = null
+
