@@ -351,3 +351,4 @@ export class IlyraModel {
     if (act.grip) {
       armLX = -88
       armLY = -10
+      armLZ = 8
