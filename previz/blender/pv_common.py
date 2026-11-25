@@ -479,3 +479,4 @@ class Rig:
             for m in p.mats:
                 me.materials.append(m)
             ob = bpy.data.objects.new(f"{self.key}.{name}", me)
+            self.coll.objects.link(ob)
