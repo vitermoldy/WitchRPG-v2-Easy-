@@ -701,3 +701,4 @@ export class UnitSystem {
           this.steer(u, tgt.pos.x + Math.sin(a) * 9, tgt.pos.z + Math.cos(a) * 9, speed, dt)
           u.alt += ((spec.fly?.height ?? 6) - u.alt) * Math.min(1, dt * 1.5)
         } else if (spec.fly) {
+          // a downed flyer crawls toward her and cannot strike until it is up again
