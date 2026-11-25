@@ -840,3 +840,4 @@ class Rig implements Poser {
     for (const part of this.parts) {
       this.group.remove(part.mesh)
       part.mesh.dispose()
+      const fresh = this.makePart(part.src, part.mat)
