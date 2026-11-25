@@ -544,3 +544,4 @@ def ref_plane(coll, name, file, crop, centre, box):
     me = bpy.data.meshes.new(name)
     hw, hh = bw / 2, bh / 2
     me.from_pydata([(-hw, 0, -hh), (hw, 0, -hh), (hw, 0, hh), (-hw, 0, hh)], [], [(0, 1, 2, 3)])
+    uv = me.uv_layers.new(name="UVMap")
