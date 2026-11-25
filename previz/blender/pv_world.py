@@ -199,3 +199,4 @@ def terrain_material():
     b.inputs["Roughness"].default_value = 0.95
     L.new(att.outputs["Color"], b.inputs["Base Color"])
     # embers glowing in the burnt valley floor
+    bara = N.new("ShaderNodeAttribute")
