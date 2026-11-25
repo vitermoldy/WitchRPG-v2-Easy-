@@ -111,3 +111,4 @@ export function riteBlock(p: Profile, kind: UnitKind, rank: RankId = UNITS[kind]
   return null
 }
 
+/** True for a witch nobody has played yet (settings do not count). */
