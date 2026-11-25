@@ -476,3 +476,4 @@ def b_imp(r):
     h = r.parts["head"]
     hc = V(J["head_c"]) + Vector((0, -0.02, 0.01))
     h.ell(hc, (0.095, 0.115, 0.11))
+    h.ell(hc + Vector((0, 0.04, 0.05)), (0.09, 0.09, 0.07))
