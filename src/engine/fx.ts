@@ -195,3 +195,4 @@ interface LightSlot {
   light: THREE.PointLight
   ttl: number
   maxTtl: number
+  peak: number
