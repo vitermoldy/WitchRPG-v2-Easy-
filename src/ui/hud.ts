@@ -241,3 +241,4 @@ export class Hud {
     this.set('rite-bar', 'class', g.umbra.casting.length ? 'rite-bar on' : 'rite-bar')
     this.updateArmy()
     this.updateWheel()
+    this.updateBars()
