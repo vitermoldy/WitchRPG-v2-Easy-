@@ -489,3 +489,4 @@ export class Fight {
     // step up to it
     const d = Math.hypot(u.pos.x - p.pos.x, u.pos.z - p.pos.z)
     const step = d - u.radius - 1.0
+    if (step > 0.05) p.nudge(u.pos.x - p.pos.x, u.pos.z - p.pos.z, step, 0.25)
