@@ -319,3 +319,4 @@ class Part:
 
     def _tag(self, verts, mat, smooth=True):
         mi = self._mi(mat)
+        for f in _faces_of(verts):
