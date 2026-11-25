@@ -407,3 +407,4 @@ export class UnitSystem {
   nearestFoe(u: Unit, range: number): Unit | null {
     let best: Unit | null = null
     let bd = range * range
+    const r = Math.ceil(range / CELL)
