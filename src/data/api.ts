@@ -129,3 +129,4 @@ export async function fetchProfile(): Promise<Profile | null> {
 
 /** Saves the witch. `stale` means the server holds a newer one, which comes back as `profile`. */
 export async function pushProfile(profile: Profile): Promise<{ stale: boolean; profile?: Profile }> {
+  const body = await call<{ ok?: boolean; stale?: boolean; profile?: Profile }>('profile', { method: 'PUT', body: JSON.stringify({ profile }) })
