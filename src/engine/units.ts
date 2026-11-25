@@ -512,3 +512,4 @@ export class UnitSystem {
         continue
       }
       if (u.controlled) continue
+      if (u.lifted > 0) {
