@@ -6,3 +6,4 @@ const KEY = 'witchrpg-v2-easy:profile:v1'
 export function loadProfile(): { profile: Profile; error: string | null } {
   let raw: string | null = null
   try {
+    raw = localStorage.getItem(KEY)
