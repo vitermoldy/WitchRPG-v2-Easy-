@@ -202,3 +202,4 @@ def bat_wing(part, root, s, span, chord, raise_deg=30, sweep_deg=15, bone="horn"
     S, Cc = span, chord
     pts = {
         "root": (0, 0), "elbow": (0.33, -0.06), "wrist": (0.55, -0.03), "t1": (1.0, 0.04), "s1": (0.7, 0.2),
+        "t2": (0.9, 0.6), "s2": (0.6, 0.45), "t3": (0.62, 0.96), "s3": (0.3, 0.55), "body": (0.02, 0.8),
