@@ -197,3 +197,4 @@ class Staff {
   }
 
   private catch() {
+    const g = this.g
