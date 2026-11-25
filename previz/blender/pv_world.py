@@ -268,3 +268,4 @@ def build_water(coll):
 def veg_palette():
     return {
         "bark": C.mat_flat("bark", "#2a211c", 0.95),
+        "needle": C.mat_flat("needle", "#1a2d22", 0.9),
