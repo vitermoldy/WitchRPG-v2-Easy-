@@ -385,3 +385,4 @@ button {
   /* a soft dark pool keeps the text readable over bright fog and snow */
   background: radial-gradient(ellipse at center, rgba(12, 8, 9, 0.78) 0%, rgba(12, 8, 9, 0.5) 55%, rgba(12, 8, 9, 0) 78%);
   text-align: center;
+  opacity: 0;
