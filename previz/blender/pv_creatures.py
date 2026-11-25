@@ -887,3 +887,4 @@ def hydra_neck_joints(base, top, bend, k=8):
     return out
 
 
+def b_hydra(r, heads=5):
