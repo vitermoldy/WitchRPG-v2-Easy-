@@ -905,3 +905,4 @@ class Rig implements Poser {
     }
   }
 
+  private posed(u: Unit, t: number) {
