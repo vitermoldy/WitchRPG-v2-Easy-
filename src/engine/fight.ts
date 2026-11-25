@@ -384,3 +384,4 @@ export class Fight {
     for (const e of this.events) {
       if (e.type === 'start') this.startSwing(e.s, inp)
       else if (e.type === 'hit') this.land(e.s)
+      else if (e.type === 'end' && !this.combo.current) this.swingYaw = null
