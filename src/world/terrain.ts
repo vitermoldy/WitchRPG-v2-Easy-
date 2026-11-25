@@ -103,3 +103,4 @@ export class Terrain {
     mesh.name = `chunk ${c.ix},${c.iz} lod${lod}`
     this.group.add(mesh)
     c.meshes[lod] = mesh
+    this.built++
