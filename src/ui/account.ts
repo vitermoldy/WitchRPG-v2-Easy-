@@ -183,3 +183,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
 
   $('gate-switch').addEventListener('click', () => {
     setMode(mode === 'in' ? 'up' : 'in')
+    user.focus()
