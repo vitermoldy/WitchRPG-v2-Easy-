@@ -660,3 +660,4 @@ def build_altar(coll, pal):
     p.box((ax, ay, z0 + 1.0), (1.0, 1.0, 1.0), rot=(0, 0, 45), mat="stone_moss")
     for k in range(7):
         a = 2 * math.pi * k / 7
+        x, y = ax + math.cos(a) * 6.5, ay + math.sin(a) * 6.5
