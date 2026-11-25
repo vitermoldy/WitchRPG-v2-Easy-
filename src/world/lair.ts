@@ -373,3 +373,4 @@ export class Lair {
 
   private target(): THREE.Vector3 | null {
     const p = this.g.player
+    return p.alive ? this.tmp.set(p.pos.x, p.pos.y, p.pos.z) : null
