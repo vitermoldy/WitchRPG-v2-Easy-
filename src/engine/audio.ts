@@ -86,3 +86,4 @@ export class Sfx {
   }
 
   bolt() {
+    if (!this.ok()) return
