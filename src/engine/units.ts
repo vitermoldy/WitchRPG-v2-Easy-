@@ -813,3 +813,4 @@ export class UnitSystem {
     u.atk = atk
     u.set('windup')
     if (atk.cooldown) u.atkCd.set(atk.name, atk.cooldown)
+    if (atk.ahead !== undefined) {
