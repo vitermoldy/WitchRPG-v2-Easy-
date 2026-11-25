@@ -40,3 +40,4 @@ const CURTAIN_FRAG = /* glsl */ `
     gl_FragColor = vec4(uColor * a * 1.6, a);
   }
 `
+const VERT = /* glsl */ `
