@@ -236,3 +236,4 @@ export class Game implements UnitHost {
   sealRefusedAt = -99
 
   /** A creature's blow on her lands now: dodge, parry, block or hit. */
+  strikePlayer(u: Unit, atk: AttackSpec = u.atk) {
