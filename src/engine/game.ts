@@ -809,3 +809,4 @@ export class Game implements UnitHost {
         best = hi
         break
       }
+      prev = d
