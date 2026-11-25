@@ -106,3 +106,4 @@ export class Particles {
     geo.setAttribute('aAlpha', new THREE.BufferAttribute(this.alpha, 1).setUsage(THREE.DynamicDrawUsage))
     geo.boundingSphere = new THREE.Sphere(new THREE.Vector3(), 1e6)
     this.material = new THREE.ShaderMaterial({
+      uniforms: { uScale: { value: 400 } },
