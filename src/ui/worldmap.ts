@@ -333,3 +333,4 @@ export class WorldMap {
       ctx.stroke()
     }
 
+    // the camps of the creatures she looks for (hollow while cleared), and the fauna
