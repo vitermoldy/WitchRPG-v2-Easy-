@@ -424,3 +424,4 @@ export class Spells {
     }
     // held in front of her, a little left of the aim line, at chest height or above the ground
     const p = g.player.pos
+    const f = g.camera.getWorldDirection(new THREE.Vector3())
