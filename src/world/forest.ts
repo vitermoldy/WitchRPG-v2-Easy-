@@ -264,3 +264,4 @@ export class Forest {
   cull(x: number, z: number) {
     const r2 = this.visibleRange * this.visibleRange
     for (let i = 0; i < this.trees.length; i++) {
+      const t = this.trees[i]
