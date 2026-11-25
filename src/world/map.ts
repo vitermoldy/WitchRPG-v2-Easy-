@@ -48,3 +48,4 @@ export const SPOTS = {
   army: [128, -258] as [number, number],
 }
 export const PATHS: [number, number][][] = [
+  [[-10, -395], [-25, -330], [0, -230], [20, -120], [30, 0], [45, 120], [40, 250]],
