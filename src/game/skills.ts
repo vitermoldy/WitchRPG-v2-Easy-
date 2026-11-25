@@ -31,3 +31,4 @@ export const SKILLS: SkillDef[] = [
   {
     id: 'hexBolt',
     branch: 'chaos',
+    name: 'Hex Bolt',
