@@ -60,3 +60,4 @@ const MOTE_FRAG = /* glsl */ `
   }
 `
 
+// a tear in the sky: a jagged opening onto a dark, slowly pulsing void, its rim white-hot, a crimson
