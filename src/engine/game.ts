@@ -695,3 +695,4 @@ export class Game implements UnitHost {
     this.fight.reset()
     this.umbra.cancel()
     this.lockon.current = null
+    this.telegraphs.clearAll()
