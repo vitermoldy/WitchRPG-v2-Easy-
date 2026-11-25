@@ -1056,3 +1056,4 @@ def _horse(r, wings, horn):
     hp = nb + Vector((0, -0.3, 0.75))
     n = r.P("head", nb, "body")
     n.tube([nb, nb + Vector((0, -0.12, 0.4)), hp], [0.22, 0.17, 0.13], seg=8, n=3)
+    horse_head(n, hp + Vector((0, -0.05, 0.0)), fwd=(0, -1, -0.75), s=1.15)
