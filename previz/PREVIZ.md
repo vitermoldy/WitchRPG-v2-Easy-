@@ -57,3 +57,4 @@ Tinggi total diukur dari block-out (termasuk tanduk dan sayap yang terangkat; Il
 | Imp | 1,64 m (ujung ekor) | 1,05 m, membungkuk | 1,04 m | 1,45 m | 0,40 m | 5.384 | 8.000 | I |
 | Hellhound | 1,82 m | bahu 1,0 m | 3,20 m | 1,25 m | 0,50 m | **9.398** | 8.000 | I |
 | Harpy | 1,86 m | 1,65 m | 0,92 m | 4,30 m | 0,55 m | 5.184 | 8.000 | II |
+| Centaur | 2,81 m | gumba 1,5 m | 2,57 m | 2,07 m | 0,80 m | **9.768** | 8.000 | II |
