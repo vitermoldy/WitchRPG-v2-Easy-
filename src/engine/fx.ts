@@ -35,3 +35,4 @@ const VERT = /* glsl */ `
     vAlpha = aAlpha;
     vec4 mv = modelViewMatrix * vec4(position, 1.0);
     // Capped so an ember drifting past the lens never fills the screen.
+    gl_PointSize = min(aSize * uScale / max(0.001, -mv.z), 90.0);
