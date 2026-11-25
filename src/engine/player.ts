@@ -66,3 +66,4 @@ export class Player {
   /** B over deep water this frame: there is nowhere to land. */
   landRefused = false
   /** A short scripted push (a swing's step, a parry's recoil) that overrides steering while it lasts. */
+  private nudgeX = 0
