@@ -113,3 +113,4 @@ export class Seal {
 
   update(dt: number) {
     this.mat.uniforms.uTime.value += dt
+    if (this.open && this.fade > 0) {
