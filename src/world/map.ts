@@ -6,3 +6,4 @@ export interface Zone {
   key: 'pembuka' | 'tebing' | 'rawa' | 'kuil' | 'bara'
   name: string
   tier: string
+  levels: [number, number]
