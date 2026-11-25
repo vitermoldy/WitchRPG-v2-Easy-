@@ -152,3 +152,4 @@ class Staff {
         this.catch()
         return
       }
+      this.vel.copy(to).divideScalar(d).multiplyScalar(speed)
