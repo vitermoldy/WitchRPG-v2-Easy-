@@ -1644,3 +1644,4 @@ dialog::backdrop {
 .travel-list {
   display: grid;
   gap: 0.5rem;
+  margin: 0 0 0.8rem;
