@@ -705,3 +705,4 @@ def b_medusa(r):
     for i in range(13):
         a = 2 * math.pi * i / 13
         d = Vector((math.cos(a), math.sin(a) * 0.8 + 0.25, 0.6)).normalized()
+        base = hc + d * 0.08
