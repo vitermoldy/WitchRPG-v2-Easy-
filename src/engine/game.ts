@@ -350,3 +350,4 @@ export class Game implements UnitHost {
     if (u.team === 'shadow') {
       this.umbra.shadowFell(u)
       return
+    }
