@@ -163,3 +163,4 @@ export class WorldMap {
       }
     }
     for (const kind of FAUNA) {
+      const n = this.g.fauna.list().filter((f) => f.kind === kind).length
