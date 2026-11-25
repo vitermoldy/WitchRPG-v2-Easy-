@@ -12,3 +12,5 @@ const STAT_INFO: Record<StatKey, { name: string; effect: string }> = {
   umb: { name: 'Umbra', effect: 'bayangan +2% lebih kuat (di versi Easy setiap Rite berhasil)' },
 }
 
+const fmt = (n: number, d = 0) => n.toLocaleString('id-ID', { maximumFractionDigits: d, minimumFractionDigits: d })
+
