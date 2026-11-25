@@ -44,3 +44,4 @@ const PLAIN_VERT = /* glsl */ `
 `
 const RUNE_FRAG = /* glsl */ `
   varying vec2 vUv;
+  uniform float uTime;
