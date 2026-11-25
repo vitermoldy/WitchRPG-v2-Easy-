@@ -37,3 +37,4 @@ export const SKILLS: SkillDef[] = [
     effect: 'Proyektil merah lurus, 12 damage, mengisi meter Chaos dan meter stun, menjatuhkan Harpy.',
     upgrade: 'Menembak 3 peluru menyebar.',
     built: true,
+  },
