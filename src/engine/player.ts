@@ -226,3 +226,4 @@ export class Player {
    * v1's flight: she eases toward the wanted velocity in all three axes, never higher than the ceiling
    * over the ground below, never lower than the ground or the water. Sinking onto ground she can stand
    * on lands her.
+   */
