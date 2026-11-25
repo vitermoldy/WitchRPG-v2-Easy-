@@ -936,3 +936,4 @@ export const HYDRA = {
   heads: 5,
   /** Drawn this much larger than its block-out, so its necks reach the shore. */
   scale: 1.35,
+  /** From the lair's middle into the lake: where the body lies in phases 1 and 2, and where it crawls to in phase 3 (m). */
