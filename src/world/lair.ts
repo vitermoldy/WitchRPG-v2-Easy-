@@ -319,3 +319,4 @@ export class Lair {
     this.water.position.y = this.waterY
     this.water.visible = this.flood > 0.02
     for (const isl of this.islands) {
+      isl.mesh.visible = this.flood > 0.02
