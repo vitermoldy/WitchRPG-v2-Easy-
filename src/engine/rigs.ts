@@ -90,3 +90,4 @@ function common(p: Poser, u: Unit, t: number, limbs: string[]): boolean {
   }
   if (u.state === 'held') {
     for (let i = 0; i < limbs.length; i++) p.rot(limbs[i], 55 * Math.sin(t * 13 + i * 1.7), 0, 20 * Math.sin(t * 9 + i))
+    p.body(0, 20 * Math.sin(t * 3), 25 * Math.sin(t * 2.3))
