@@ -1231,3 +1231,4 @@ export class Game implements UnitHost {
   /** ?debug: a witch of this level (for trying the skills that open later). */
   debugLevel(level: number) {
     this.profile.level = Math.max(1, Math.min(30, level))
+    this.profile.xp = 0
