@@ -528,3 +528,4 @@ export class UnitSystem {
         if (u.team === 'enemy') {
           this.enemyBrain(u, dt)
           this.summon(u, dt)
+        } else this.shadowBrain(u, dt)
