@@ -737,3 +737,6 @@ def b_chimera(r):
     tl = r.P("tail_snake", tb, "body")
     pts = [tb, (0, 2.1, 2.9), (0, 1.75, 3.9), (0, 1.0, 4.3), (0, 0.35, 4.05), (0, 0.05, 3.6)]
     tl.tube(pts, [0.22, 0.2, 0.18, 0.16, 0.14, 0.12], mat="snake", seg=8, n=4)
+    snake_head(tl, pts[-1], (0, -0.6, -0.7), s=1.5, jaw=45, mat="snake")
+
+
