@@ -75,3 +75,4 @@ describe('the forest valley', () => {
     for (const { name, c } of spots) {
       const [x, y] = c
       if (inWaterRect(x, y)) expect(WATER_LEVEL - heightMap(x, y), name).toBeLessThanOrEqual(MOVE.maxWade)
+      expect(steepest(x, y), name).toBeLessThan(MOVE.maxSlope)
