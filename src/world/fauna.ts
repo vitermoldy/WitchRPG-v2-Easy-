@@ -32,3 +32,4 @@ export class Fauna {
   private readonly g: Game
 
   constructor(g: Game) {
+    this.g = g
