@@ -317,3 +317,4 @@ class Part:
             self.mats.append(m)
         return self.mats.index(m)
 
+    def _tag(self, verts, mat, smooth=True):
