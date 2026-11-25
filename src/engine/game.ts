@@ -1116,3 +1116,4 @@ export class Game implements UnitHost {
 
   resetStats() {
     this.frameCount = 0
+    this.frames.fill(0)
