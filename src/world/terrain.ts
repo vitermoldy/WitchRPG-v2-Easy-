@@ -75,3 +75,4 @@ export class Terrain {
       if (!c.meshes[want] && want < 2) {
         if (made < budget) {
           this.ensure(c, want)
+          made++
