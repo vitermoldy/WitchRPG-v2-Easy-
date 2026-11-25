@@ -397,3 +397,4 @@ export class Game implements UnitHost {
           return true
         }
         return this.lair.blocks(x, z, fx, fz, true, air)
+      },
