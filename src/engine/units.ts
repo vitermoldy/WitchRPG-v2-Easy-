@@ -644,3 +644,4 @@ export class UnitSystem {
   /** How close it wants to be: the reach of its closest attack, or its shooting distance. */
   private wantRange(u: Unit): number {
     let r = Infinity
+    for (const a of attacksOf(u.spec)) if (!a.behind && !a.minRange) r = Math.min(r, a.range)
