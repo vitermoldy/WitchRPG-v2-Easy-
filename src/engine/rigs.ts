@@ -567,3 +567,4 @@ function biped(opts: { heavy: number; reach: number; sway: number }): PoseFn {
         p.rot('torso', 30 * k)
         p.rot('upperarm_L', -160 + 180 * k, 0, 15)
         p.rot('upperarm_R', -160 + 180 * k, 0, -15)
+      }
