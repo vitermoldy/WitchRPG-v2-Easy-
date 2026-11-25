@@ -279,3 +279,4 @@ export class Sfx {
     this.tone(t, 'square', 260, 120, 0.12, 0.05)
   }
 
+  clank() {
