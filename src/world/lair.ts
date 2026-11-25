@@ -496,3 +496,4 @@ export class Lair {
     const spit = UNITS.hydraHead.attacks![1]
     if (body.state === 'move') {
       if (her) body.yaw = Math.atan2(her.x - body.pos.x, her.z - body.pos.z)
+      this.bodyAttackIn -= dt
