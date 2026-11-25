@@ -346,3 +346,4 @@ class Part:
         self._tag(g["verts"], mat)
         if joints:
             self.ell(a, ra, mat=mat, seg=seg, rings=6)
+            self.ell(b, rb, mat=mat, seg=seg, rings=6)
