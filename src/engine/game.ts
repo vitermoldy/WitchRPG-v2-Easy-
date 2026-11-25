@@ -1219,3 +1219,4 @@ export class Game implements UnitHost {
     const u = this.units.spawn(kind, 'enemy', level, { x: p.x, z: p.z - dist })
     u.makeElite(trait ?? ELITE.traits[Math.floor(Math.random() * ELITE.traits.length)])
     u.aggro = true
+    return u
