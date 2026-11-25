@@ -31,3 +31,4 @@ export class Altars {
   private readonly dull = new THREE.Color(0x2a2430)
   private spin = 0
 
+  constructor(g: Game) {
