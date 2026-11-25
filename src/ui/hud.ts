@@ -362,3 +362,4 @@ export class Hud {
       el.classList.toggle('weak', u.vulnerable > 0)
       el.classList.toggle('staggered', u.staggered)
       el.classList.toggle('elite', !!u.elite)
+      const label = u.staggered ? 'Limbung' : u.elite ? `Elit ${ELITE.label[u.elite]}` : ''
