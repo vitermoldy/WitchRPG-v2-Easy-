@@ -983,3 +983,5 @@ export const SHADOW_SKILL = {
   call: { every: 20, count: 2, lasts: 15 },
   /** Hollow Warden (Marsekal): drags enemies in and stuns them. */
   pull: { every: 12, radius: 11, stun: 1.5 },
+} as const
+
