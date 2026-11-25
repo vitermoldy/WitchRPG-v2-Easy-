@@ -237,3 +237,4 @@ export class Game implements UnitHost {
 
   /** A creature's blow on her lands now: dodge, parry, block or hit. */
   strikePlayer(u: Unit, atk: AttackSpec = u.atk) {
+    const p = this.player
