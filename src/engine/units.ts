@@ -630,3 +630,4 @@ export class UnitSystem {
     const behind = front < -0.2
     let fallback: AttackSpec | null = null
     for (const a of list) {
+      if (dist > a.range + tgt.radius || dist < (a.minRange ?? 0)) continue
