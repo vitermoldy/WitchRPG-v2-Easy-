@@ -788,3 +788,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     attacks: [
       { name: 'lilitan ular', strike: 'ring', windup: 0.8, recover: 0.9, range: 4, ring: 3.2 },
       { name: 'tombak gelap', strike: 'line', windup: 0.8, recover: 0.8, range: 26, minRange: 5, shot: { speed: 26, gravity: 0, radius: 0.3 } },
+      { name: 'kutukan', strike: 'ring', windup: 1, recover: 1, range: 22, minRange: 5, ring: 2.6, damage: 0.8, effect: 'poison', shot: { speed: 13, gravity: 12, radius: 0.5 }, cooldown: 6 },
