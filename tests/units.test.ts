@@ -27,3 +27,4 @@ function world(groundHeight = 0) {
     telegraph: () => log.telegraphs++,
     clearTelegraph: () => {},
   }
+  const sys = new UnitSystem(host)
