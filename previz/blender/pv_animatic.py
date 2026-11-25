@@ -54,3 +54,4 @@ def build(dunia, res=(1280, 720), samples=24):
     il = S.actor("aktor.ilyra.walk", "ilyra", "walk")
     il_i = C.instance(il.coll, local, name="ilyra.anim")
     naga = S.actor("aktor.naga.anim", "naga")
+    Np = Sp + f * 9.0 + left * 6.5
