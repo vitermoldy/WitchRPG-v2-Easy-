@@ -212,3 +212,4 @@ export class Lair {
     p.mana = Math.min(p.maxMana, p.mana + HYDRA.phaseMana)
     g.sfx.roar()
     g.addTrauma(0.5)
+    if (n === 2) {
