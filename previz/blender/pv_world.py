@@ -671,3 +671,4 @@ def build_altar(coll, pal):
 
 def build_rift(coll):
     """A tear in the sky over Lembah Bara."""
+    m_out = C.mat_emit("rift_edge", "#ff5a2a", 12.0)
