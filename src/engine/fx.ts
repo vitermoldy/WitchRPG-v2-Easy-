@@ -417,3 +417,4 @@ interface Pool {
 }
 
 /**
+ * Shadow pools for calling and dismissing the army: a wide one that spills out from under the
