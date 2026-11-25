@@ -352,3 +352,6 @@ def build_hydra(dunia, name="05-boss-hydra", res=(1920, 1080), samples=64):
     cam_p = Vector((S[0], S[1], 0)) - f * 4.2 + right * 1.4
     cz = Wd.ground_z(cam_p.x, cam_p.y) + 0.85
     cam = C.camera(sc, "kamera.05", (cam_p.x, cam_p.y, cz), look_at=(H.x - right.x * 2, H.y - right.y * 2, 5.5), lens_vfov=48, clip=(0.05, 3000))
+    return sc, hy, hi
+
+
