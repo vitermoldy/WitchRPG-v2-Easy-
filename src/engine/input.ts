@@ -18,3 +18,4 @@ export class Input {
     this.target = target
     window.addEventListener('keydown', (e) => {
       if (!this.active || !this.capture) return
+      if (GAME_KEYS.has(e.code)) e.preventDefault()
