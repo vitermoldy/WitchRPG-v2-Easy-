@@ -185,3 +185,5 @@ export class Terrain {
     geo.computeBoundingBox()
     return geo
   }
+}
+
