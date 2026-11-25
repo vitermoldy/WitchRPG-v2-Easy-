@@ -221,3 +221,5 @@ export function createAuth({ getPool, cookie, lang, deviceCode, newDevice }) {
     if (!row || !ok) return res.status(401).json({ error: t.wrong })
     await startSession(req, res, row.id)
     res.json({ user: publicUser(row), device: row.device_id })
+  })
+
