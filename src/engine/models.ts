@@ -254,3 +254,4 @@ export class IlyraModel {
     let armLX = 14 * s * amp * (1 - aim) - 65 * aim
     let armLY = 0
     let armLZ = 10 * aim
+    let foreL = -12 * aim
