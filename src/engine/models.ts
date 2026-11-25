@@ -205,3 +205,4 @@ export class IlyraModel {
     const s = Math.sin(p.stride)
     const breath = Math.sin(this.t * 2.2) * (1 - Math.min(1, amp))
     if (p.dodging) {
+      const u = Math.min(1, p.dodgeT / MOVE.dodge.time)
