@@ -251,3 +251,4 @@ export class Umbra {
     const open = this.riteOpen
     const p = g.player
     const cam = g.camera.position
+    const fwd = g.camera.getWorldDirection(new THREE.Vector3())
