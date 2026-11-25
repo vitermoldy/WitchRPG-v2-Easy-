@@ -83,3 +83,4 @@ describe('creature attacks', () => {
 
   it('sends a Hellhound along its line: in the line she is hit, beside it she is not', () => {
     const hit = world()
+    hit.sys.spawn('hellhound', 'enemy', 1, { x: 0, z: 6 })
