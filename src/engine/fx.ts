@@ -495,3 +495,4 @@ export class ShadowPools {
     for (const p of this.pools) {
       p.state = 'off'
       p.mesh.visible = false
+    }
