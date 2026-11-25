@@ -305,3 +305,4 @@ const poseHarpy: PoseFn = (p, u, t) => {
 function trot(p: Poser, u: Unit, swing: number, speedShare: number) {
   const ph = u.walk * 1.0
   const amp = Math.min(1.4, Math.hypot(u.vel.x, u.vel.z) / Math.max(1, u.speed * speedShare))
+  const a = Math.sin(ph)
