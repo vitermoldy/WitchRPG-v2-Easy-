@@ -418,3 +418,4 @@ export class Game implements UnitHost {
     this.pools = new ShadowPools(this.scene, 140)
     this.telegraphs = new Telegraphs(this.scene, (x, z) => this.height(x, z))
     progress('Menanam hutan')
+    await frame()
