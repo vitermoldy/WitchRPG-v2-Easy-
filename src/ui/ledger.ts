@@ -56,3 +56,4 @@ export class Ledger {
   /** Shadow Room groups the player has opened, kept open across re-renders. */
   private readonly openGroups = new Set<string>()
 
+  constructor(host: LedgerHost) {
