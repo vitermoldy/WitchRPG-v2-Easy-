@@ -100,3 +100,4 @@ export class WorldMap {
     $('btn-map-close').focus()
   }
 
+  close() {
