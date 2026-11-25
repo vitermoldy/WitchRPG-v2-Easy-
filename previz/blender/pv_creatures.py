@@ -1144,3 +1144,6 @@ ROSTER = [
 ]
 
 ROSTER_BY_KEY = {row[0]: row for row in ROSTER}
+ROLE, RANK, ZONE, REF = 3, 4, 5, 6
+
+
