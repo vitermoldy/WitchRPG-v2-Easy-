@@ -48,3 +48,4 @@ interface Call {
 
 /**
  * Umbra Rite (raising the fallen, one body or every glowing body in reach), the Shadow Room
+ * (unlimited), calling the army out with T and sending it back with T, and orders for the army.
