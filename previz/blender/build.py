@@ -63,3 +63,4 @@ for key in ["ilyra"] + [r[0] for r in K.ROSTER]:
         "segitiga": C.tri_count(coll),
         "bagian": sum(1 for o in coll.objects if o.type == "MESH"),
     }
+    lib_colls[key] = coll
