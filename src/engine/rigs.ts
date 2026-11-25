@@ -819,3 +819,4 @@ class Rig implements Poser {
     geo.setAttribute('aGlow', glow)
     const mesh = new THREE.InstancedMesh(geo, mat, this.cap)
     mesh.instanceMatrix.setUsage(THREE.DynamicDrawUsage)
+    mesh.frustumCulled = false
