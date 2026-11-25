@@ -203,3 +203,4 @@ export class Lair {
     g.addTrauma(0.4)
   }
 
+  private enterPhase(n: 2 | 3) {
