@@ -75,3 +75,4 @@ Hasil gerbang (bot `?debug`, input nyata, waktu game 3× dipercepat): 10,0 menit
 | Bagian | Keputusan | Alasan |
 | --- | --- | --- |
 | Yang disalin dari v1 | `fx.ts`, `audio.ts`, dan aturan serta angka `spells.ts` dan `umbra.ts`; `units.ts` ditulis ulang untuk third-person dengan kerangka v1 (grid 3 m, AI per jenis, otak bayangan) | Prompt meminta salin dan sesuaikan. Kelas `Game` first-person v1 tidak bisa dipakai, jadi modulnya disambungkan ulang ke `Game` v2. |
+| Kombo tongkat | Tiga pukulan ringan (10, 10, 16 damage; ancang-ancang 0,10, 0,10, 0,16 dtk) yang tersambung bila klik lagi dalam 0,5 dtk; klik yang ditekan saat ayunan diingat dan langsung menyambung. Tahan 0,3 dtk menjadi pukulan berat (28 damage, stun 26, dorongan 7 m/dtk, cincin di tanah) | Rasa "tap cepat, tahan berat" dari prompt. Menyambung tanpa ketepatan frame. Dikunci `tests/combat.test.ts`. |
