@@ -153,3 +153,4 @@ export class Player {
       if (this.dodgeT >= T) {
         this.dodgeT = -1
         this.dodgeCd = MOVE.dodge.cooldown
+        this.vx *= 0.3
