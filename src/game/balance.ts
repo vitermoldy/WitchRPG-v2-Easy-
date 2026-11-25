@@ -933,3 +933,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
  * takes nothing outside Reality Warp; inside the field its heart opens for +50%.
  */
 export const HYDRA = {
+  heads: 5,
