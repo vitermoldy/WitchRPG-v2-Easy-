@@ -48,3 +48,4 @@ export const CAMERA = {
   /** First person (P): the eye a little in front of her head, and a wider view like v1 (vertical degrees). */
   first: { ahead: 0.16, fov: 68, aimFov: 54 },
   pitch: -6,
+  pitchMin: -55,
