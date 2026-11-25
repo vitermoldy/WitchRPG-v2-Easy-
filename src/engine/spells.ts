@@ -625,3 +625,4 @@ export class Spells {
         m.uniforms.uTime.value = s.t
         m.uniforms.uFade.value = fade
       }
+      for (const u of g.units.units) {
