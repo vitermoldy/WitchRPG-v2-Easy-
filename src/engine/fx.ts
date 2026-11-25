@@ -346,3 +346,4 @@ export class Warnings {
       const edge = new THREE.Mesh(ring, mat())
       fill.renderOrder = edge.renderOrder = 8
       group.add(fill, edge)
+      group.visible = false
