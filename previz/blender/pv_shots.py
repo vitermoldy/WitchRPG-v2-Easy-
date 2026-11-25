@@ -422,3 +422,4 @@ def build_lineup(lib_colls, stats):
     grid_mat = C.mat_emit("garis_kisi", "#3a3f4b", 1.0)
     bands = []
     ox = 0.0
+    for key, title, members, gap, label_every in LINEUP_BANDS:
