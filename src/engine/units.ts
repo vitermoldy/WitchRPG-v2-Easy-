@@ -108,3 +108,4 @@ export class Unit implements Foe {
   token = false
   readonly stun: StunMeter
   /** Hit flash for the renderer (seconds left). */
+  flash = 0
