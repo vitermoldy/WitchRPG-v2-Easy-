@@ -58,3 +58,4 @@ export class Seal {
       // three.js puts map north at -z
       pos.push(ax, ha, -ay, bx, hb, -by, bx, hb + H, -by, ax, ha, -ay, bx, hb + H, -by, ax, ha + H, -ay)
       uv.push(0, 0, 1, 0, 1, 1, 0, 0, 1, 1, 0, 1)
+    }
