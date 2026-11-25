@@ -1096,3 +1096,4 @@ export class Rigs {
     for (const u of units) {
       if (u.team !== 'shadow' || u.detailed || u.state === 'dead') continue
       const b = this.crowd.get(u.kind)
+      if (!b) continue
