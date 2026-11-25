@@ -192,3 +192,4 @@ export type V2Kind = (typeof V2_KINDS)[number]
  * line: a fast flashing band along its path, only a roll avoids it. A creature with several attacks
  * picks one that fits the distance (and `behind` ones only when she is behind it).
  */
+export interface AttackSpec {
