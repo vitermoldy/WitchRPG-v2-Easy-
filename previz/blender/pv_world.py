@@ -91,3 +91,4 @@ def height(x, y):
     h = h * (1 - court) + court * (3.0 + 12 + 0.2)
     # Rawa Berkabut: flattened to the water line, with pools
     r = ZONES[2]
+    swamp = smooth(r["r"] * 1.15, r["r"] * 0.75, _dist(x, y, r["c"]))
