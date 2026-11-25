@@ -8,3 +8,4 @@ Game ini dibangun per fase menurut [PROMPT.md](./PROMPT.md). Keputusan desain ad
 
 | Fase | Isi | Status |
 | --- | --- | --- |
+| 0. Previz | Gambaran game di Blender: kamera, skala, palet, block-out semua makhluk | Selesai |
