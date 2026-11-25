@@ -563,3 +563,4 @@ def b_centaur(r):
     W = J["wr_L"] + J["hand_dir_L"] * 0.06
     bow = [W + Vector((0.0, 0.12, 0.72)), W + Vector((0.0, -0.06, 0.4)), W, W + Vector((0.0, -0.06, -0.4)), W + Vector((0.0, 0.12, -0.72))]
     hd.tube(bow, [0.008, 0.02, 0.025, 0.02, 0.008], mat="wood", seg=6, n=4)
+    R = J["wr_R"]
