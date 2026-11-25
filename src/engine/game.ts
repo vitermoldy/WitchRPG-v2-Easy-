@@ -110,3 +110,4 @@ export class Game implements UnitHost {
   debugCam: { angle: number; dist: number } | null = null
   /** Game seconds played (simulation time, includes debugSpeed). */
   t = 0
+  sensitivity = 1
