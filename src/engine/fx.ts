@@ -86,3 +86,4 @@ export class Particles {
 
   constructor(max: number, mode: 'glow' | 'smoke') {
     this.max = max
+    this.pos = new Float32Array(max * 3)
