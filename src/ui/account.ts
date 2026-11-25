@@ -6,3 +6,5 @@ import type { Game } from '../engine/game'
 import { isFresh, type Profile } from '../game/progression'
 import { clearProfile, normalizeProfile } from '../game/save'
 
+const $ = <T extends HTMLElement = HTMLElement>(id: string): T => document.getElementById(id) as T
+
