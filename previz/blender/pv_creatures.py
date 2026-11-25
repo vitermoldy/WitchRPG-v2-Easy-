@@ -308,3 +308,4 @@ def dragon_head(part, at, fwd=(0, -1, 0), s=1.0, jaw_open=30, horns=True, crest=
     part.limb(a + F * 0.15 * s + UP * 0.03 * s, a + F * 0.62 * s, 0.15 * s, 0.08 * s, mat=mat)
     jd = F * math.cos(math.radians(jaw_open)) - UP * math.sin(math.radians(jaw_open))
     j0 = a + F * 0.08 * s - UP * 0.12 * s
+    part.limb(j0, j0 + jd * 0.5 * s, 0.1 * s, 0.05 * s, mat=mat)
