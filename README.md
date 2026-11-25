@@ -73,3 +73,4 @@ Salin `.env.example` menjadi `.env` dan isi akun MySQL. Server membuat database 
 | G | Crimson Overload saat meter Chaos penuh |
 
 | Umbra (tangan kanan) | |
+| --- | --- |
