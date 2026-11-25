@@ -190,3 +190,4 @@ export type V2Kind = (typeof V2_KINDS)[number]
 /**
  * One attack of a v2 creature. ring: a slow amber circle where it lands, blockable and parryable.
  * line: a fast flashing band along its path, only a roll avoids it. A creature with several attacks
+ * picks one that fits the distance (and `behind` ones only when she is behind it).
