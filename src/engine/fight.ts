@@ -484,3 +484,4 @@ export class Fight {
     this.combo.cancel()
     u.set('finishing')
     u.vel.set(0, 0, 0)
+    u.token = false
