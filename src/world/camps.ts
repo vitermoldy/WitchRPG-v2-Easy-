@@ -207,3 +207,4 @@ export class Camps {
     this.time += dt
     let colors = false
     this.camps.forEach((camp, index) => {
+      const d = Math.hypot(p.pos.x - camp.pos.x, p.pos.z - camp.pos.z)
