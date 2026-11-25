@@ -216,3 +216,4 @@ export class Fight {
   readonly combo = new Combo()
   readonly staff: Staff
   blocking = false
+  /** Game time C was last pressed; a blow landing within the parry window after it is parried. */
