@@ -190,3 +190,4 @@ export class Spells {
     return this.grabbed.length > 0 || !!this.heldProp
   }
 
+  private unlocked(id: SkillId) {
