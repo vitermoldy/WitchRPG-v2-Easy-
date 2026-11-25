@@ -251,3 +251,5 @@ export class TravelPanel {
         this.close()
       }
     })
+  }
+
