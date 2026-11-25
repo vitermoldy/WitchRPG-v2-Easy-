@@ -110,3 +110,4 @@ export class Ambient {
     this.pos = new Float32Array(COUNT * 3)
     this.tint = new Float32Array(COUNT * 3)
     this.size = new Float32Array(COUNT)
+    this.alpha = new Float32Array(COUNT)
