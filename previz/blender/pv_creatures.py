@@ -638,3 +638,4 @@ def b_minotaur(r, pose="idle"):
     tail_tube(tl, tpts, 0.035, 0.02, mat="skin")
     tl.ell(tpts[-1], (0.05, 0.05, 0.12), mat="hair")
     for s, side in SIDES:
+        r.parts["forearm_" + side].torus(lerp(J["el_" + side], J["wr_" + side], 0.75), 0.08, 0.025, normal=J["hand_dir_" + side], mat="metal", seg=12, rseg=4)
