@@ -220,3 +220,4 @@ def build(dunia, res=(1280, 720), samples=24):
         show = seg(t, T_WALK + 0.9, T_WALK + 1.2) * (1 - seg(t, T_NAGA + 0.6, T_NAGA + 0.9)) + seg(t, T_NAGA + 3.0, T_NAGA + 3.4)
         dist = (V(ret.location) - loc).length
         s = show * dist * 0.06
+        ret.scale = (s + 1e-4, s + 1e-4, s + 1e-4)
