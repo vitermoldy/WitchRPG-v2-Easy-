@@ -319,3 +319,4 @@ def _swamp_tree(p):
     for (x, y, z, r) in ((0.3, 0.2, 9.0, 2.6), (1.6, 0.5, 7.6, 1.8), (-1.4, 0.7, 7.9, 1.9)):
         p.ell((x, y, z), (r, r, r * 0.6), mat="moss", seg=8, rings=5, smooth=False)
         for k in range(4):
+            a = k * 1.7
