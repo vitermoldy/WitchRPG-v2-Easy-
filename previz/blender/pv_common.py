@@ -247,3 +247,4 @@ def palette_ref(key, spec):
     return pal
 
 
+def palette(kind, body="#1f1a1c", body2=None, horn="#4a3f38", tag=""):
