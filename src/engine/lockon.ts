@@ -29,3 +29,4 @@ export class LockOn {
     return wrap(yawTo(from.x, from.z, t.x, t.z) - camYaw)
   }
 
+  pick(targets: Target[], player: Vec, camYaw: number): Target | null {
