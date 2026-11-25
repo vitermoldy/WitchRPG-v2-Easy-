@@ -175,3 +175,4 @@ const poseImp: PoseFn = (p, u, t) => {
     p.rot('shin_R', 30)
     return
   }
+  p.body(0.03 * Math.abs(s) * amp, 10 * amp)
