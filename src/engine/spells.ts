@@ -314,3 +314,4 @@ export class Spells {
       let best = g.obstacles.sweep(b.prev.x, b.prev.y, b.prev.z, b.pos.x, b.pos.y, b.pos.z, 0.05) * len
       let hitUnit: Unit | null = null
       this.ray.set(b.prev, dir)
+      for (const u of g.units.units) {
