@@ -175,3 +175,4 @@ def _foot(part, wrist, ground, r, kind, mat="body", foot_mat="horn"):
         part.limb(w, g + Vector((0, 0, r * 0.9)), r * 0.8, r * 0.75, mat=mat)
         part.limb(g + Vector((0, 0, r * 0.9)), g, r * 0.95, r * 1.05, mat=foot_mat, joints=False)
     elif kind == "talon":
+        part.limb(w, g + Vector((0, -r, r)), r * 0.7, r * 0.55, mat="beakleg" if "beakleg" in part.rig.pal else mat)
