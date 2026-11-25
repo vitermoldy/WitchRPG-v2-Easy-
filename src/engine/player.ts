@@ -179,3 +179,4 @@ export class Player {
 
     // stay on the ground; step off a ledge and fall
     const ground = g.height(this.pos.x, this.pos.z)
+    if (this.pos.y > ground + 0.6 || this.vy > 0) {
