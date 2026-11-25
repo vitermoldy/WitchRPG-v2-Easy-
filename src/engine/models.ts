@@ -382,3 +382,4 @@ export class IlyraModel {
     this.rot('upperarm_L', armLX, armLY, armLZ)
     this.rot('forearm_L', foreL)
     this.rot('upperarm_R', armRX, armRY, armRZ)
+    this.rot('forearm_R', foreR)
