@@ -20,3 +20,4 @@ if (rows.length === 0) {
   console.table(
     rows.map((r) => ({
       username: r.username,
+      daftar: when(r.created_at),
