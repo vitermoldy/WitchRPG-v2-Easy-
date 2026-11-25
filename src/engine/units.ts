@@ -488,3 +488,4 @@ export class UnitSystem {
         this.fly(u, dt)
         continue
       }
+      if (u.state === 'rising') {
