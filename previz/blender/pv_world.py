@@ -392,3 +392,4 @@ def scatter_group():
     L.new(gi.outputs["Geometry"], iop.inputs["Points"])
     L.new(oi.outputs["Geometry"], iop.inputs["Instance"])
     nr = N.new("GeometryNodeInputNamedAttribute")
+    nr.data_type = "FLOAT_VECTOR"
