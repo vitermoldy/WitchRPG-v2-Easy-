@@ -480,3 +480,4 @@ export class ShadowPools {
           p.t = 0
         }
       } else if (p.state === 'closing') {
+        p.open = Math.max(0, 1 - p.t / 0.45)
