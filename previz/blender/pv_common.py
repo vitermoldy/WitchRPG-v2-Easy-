@@ -2,3 +2,4 @@
 cameras and render settings. Coordinates are metres, Z up, creatures face -Y (glTF +Z forward)."""
 import math
 
+import bmesh
