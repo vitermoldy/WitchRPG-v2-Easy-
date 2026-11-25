@@ -242,3 +242,4 @@ export class Fight {
   reset(keepStaff = false) {
     this.combo.cancel()
     this.exec = null
+    this.blocking = false
