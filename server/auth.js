@@ -194,3 +194,4 @@ export function createAuth({ getPool, cookie, lang, deviceCode, newDevice }) {
     // A code that already belongs to someone else gets a fresh one instead.
     let device = typeof req.body?.device === 'string' && deviceCode.test(req.body.device) ? req.body.device : ''
     if (device) {
+      const [owner] = await pool.query('SELECT id FROM users WHERE device_id = ?', [device])
