@@ -196,3 +196,4 @@ export class Sfx {
 
   gripStop(threw: boolean) {
     if (!this.gripNodes || !this.ctx) return
+    const { osc, osc2, gain } = this.gripNodes
