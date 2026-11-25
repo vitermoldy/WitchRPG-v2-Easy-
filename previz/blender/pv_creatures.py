@@ -1090,3 +1090,4 @@ COLORS = {
     "imp": {"body": ("#e8d2c8", "#cfb0a4"), "membrane": "#e6a0c4", "claw": "#7c5c5c"},
     "hellhound": {"body": "#1c2232", "veins": "#46e6ff", "body2": "#1c2232", "horn": "#ecebe2", "eye": "#8ff6ff", "snake": ("#1e2638", "#33405e"), "mouth": "#7a1d24", "claw": "#d8d6cc"},
     "harpy": {"skin": "#dcae94", "body": "#dcae94", "hair": "#3b2a22", "membrane": ("#f3f6fa", "#d8e2ee"), "accent": "#3d6fb6", "leg": "#a8703c", "claw": "#2e2826"},
+    "centaur": {"body": ("#7a3e22", "#5e2e18"), "skin": "#d9a37a", "hair": "#eeeeee", "body2": "#e8a878", "cloth": "#4a3020", "wood": "#8a5a2a", "hoof": "#2e2622", "horn": "#d8d0c0"},
