@@ -42,3 +42,4 @@ export class Sfx {
     void this.ctx?.suspend()
   }
 
+  resume() {
