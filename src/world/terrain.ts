@@ -120,3 +120,4 @@ export class Terrain {
         hs[j * g + i] = heightMap(wx, -wz)
       }
     }
+    const vcount = (n + 1) * (n + 1) + 4 * (n + 1)
