@@ -40,3 +40,4 @@ def rgb(h, a=1.0):
 _MATS = {}
 
 
+def _new_mat(name):
