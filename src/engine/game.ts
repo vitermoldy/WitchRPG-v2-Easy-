@@ -384,3 +384,4 @@ export class Game implements UnitHost {
     await frame()
     this.terrain = new Terrain()
     this.scene.add(this.terrain.group)
+    this.atmosphere = new Atmosphere(this.scene)
