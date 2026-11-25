@@ -28,3 +28,4 @@ const POOLS_PER_CALL = 90
 /** Shadows further than this from her (and not holding a spot) are pulled back to her side. */
 const LEASH = 45
 
+/** How far from her the outer rank of an army this big stands (see the formation). */
