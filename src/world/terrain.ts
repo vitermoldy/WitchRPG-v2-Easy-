@@ -18,3 +18,4 @@ const SNOW = hex('#c9ced6')
 const PATH = hex('#4a3b2c')
 
 interface Chunk {
+  ix: number
