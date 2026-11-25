@@ -684,3 +684,5 @@ export class Game implements UnitHost {
     this.saveSoon()
     this.hud.message(first ? 'Pandangan orang pertama. Tekan P untuk kembali ke belakang bahu.' : 'Pandangan orang ketiga, dari belakang bahu.', 'info')
   }
+  private immuneMsgAt = -99
+
