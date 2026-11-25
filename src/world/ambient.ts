@@ -14,3 +14,4 @@ const HALF = 26
 const LOW = -3
 const HIGH = 16
 
+interface Kind {
