@@ -121,3 +121,4 @@ export function isFresh(p: Profile): boolean {
     p.bossKills === 0 &&
     p.statPoints === 0 &&
     p.skillPoints === 0 &&
+    Object.keys(p.upgrades).length === 0 &&
