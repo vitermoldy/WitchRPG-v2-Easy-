@@ -550,3 +550,4 @@ def b_centaur(r):
     J = humanoid(r, 1.8, bulk=1.15, legs=None, off=(0, -0.62, 0.62), arm_pose={"L": (88, 75, 0), "R": (75, 88, 125)}, body_mat="skin")
     h = r.parts["head"]
     hc = V(J["head_c"])
+    h.ell(hc, (0.09, 0.105, 0.12), mat="skin")
