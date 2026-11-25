@@ -9,3 +9,4 @@ import {
   tierLock,
   tierUnlocked,
   xpForUnit,
+  gainXp,
