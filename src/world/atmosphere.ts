@@ -40,3 +40,4 @@ void main() {
 /**
  * Fog, sky and ambient light. Each zone has its own fog colour and sight distance; at any spot they
  * blend by the zone weights, and the blend eases over time so walking between zones never pops.
+ */
