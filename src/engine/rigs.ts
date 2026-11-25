@@ -311,3 +311,5 @@ function trot(p: Poser, u: Unit, swing: number, speedShare: number) {
   p.rot('leg_FR', -swing * a * amp)
   p.rot('leg_HL', -swing * a * amp)
   return { ph, amp }
+}
+
