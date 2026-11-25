@@ -728,3 +728,4 @@ export class Spells {
     return dmg - taken
   }
 
+  private endBarrier() {
