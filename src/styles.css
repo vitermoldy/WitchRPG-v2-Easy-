@@ -77,3 +77,4 @@ kbd {
   display: inline-block;
   min-width: 1.9em;
   padding: 0.05em 0.45em;
+  border: 1px solid var(--line-strong);
