@@ -161,3 +161,4 @@ describe('version 1: tiers, ranks and growth', () => {
     const p = newProfile()
     p.level = 7
     expect(riteBlock(p, 'husk')).toBeNull()
+    expect(riteBlock(p, 'warden')).toBeNull()
