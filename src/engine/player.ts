@@ -178,3 +178,4 @@ export class Player {
     g.obstacles?.pushOut(this.pos, MOVE.radius, MOVE.height)
 
     // stay on the ground; step off a ledge and fall
+    const ground = g.height(this.pos.x, this.pos.z)
