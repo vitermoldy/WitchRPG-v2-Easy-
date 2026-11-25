@@ -334,3 +334,4 @@ export class Spells {
           g.units.down(hitUnit, SPELL.bolt.down)
           g.sfx.hit()
         }
+        g.glow.emit({ pos: at, count: hitUnit ? 18 : 10, color: COLOR.chaosHot, intensity: 3, life: 0.35, size: 0.2, sizeEnd: 0.02, speed: 4, jitter: 0.05, gravity: 3 })
