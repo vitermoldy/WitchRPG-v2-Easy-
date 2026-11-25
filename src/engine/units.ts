@@ -231,3 +231,4 @@ export class Unit implements Foe {
   get x() {
     return this.pos.x
   }
+  get y() {
