@@ -109,3 +109,4 @@ def build(dunia, res=(1280, 720), samples=24):
         u = u * u * (3 - 2 * u) * 0.25 + u * 0.75
         return A.lerp(Sp, u)
 
+    for fr in range(1, FRAMES + 1):
