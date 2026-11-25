@@ -148,3 +148,4 @@ export class Projectiles {
         for (const u of g.units.units) {
           if (u.team !== 'shadow' || !u.targetable) continue
           if (Math.hypot(u.pos.x - s.aim.x, u.pos.z - s.aim.z) < r + u.radius) g.strikeUnit(s.source, u, s.atk)
+        }
