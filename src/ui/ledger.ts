@@ -6,3 +6,4 @@ const $ = <T extends HTMLElement = HTMLElement>(id: string) => document.getEleme
 
 const STAT_INFO: Record<StatKey, { name: string; effect: string }> = {
   hex: { name: 'Hex', effect: '+2% damage tongkat dan sihir Chaos' },
+  spr: { name: 'Spirit', effect: '+5 mana maks, regen lebih cepat' },
