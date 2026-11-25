@@ -381,3 +381,4 @@ export class Fight {
     this.events.length = 0
     const mayAttack = !aiming && !this.blocking && !p.dodging && this.throwT < 0
     this.combo.update(dt, mayAttack && inp.attackPressed, mayAttack && inp.attackHeld, this.events)
+    for (const e of this.events) {
