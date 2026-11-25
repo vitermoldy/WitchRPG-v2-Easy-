@@ -181,3 +181,4 @@ export class Lair {
     }
     this.body = null
     this.heads = []
+    this.flood = this.floodTo = 0
