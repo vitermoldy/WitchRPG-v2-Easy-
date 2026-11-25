@@ -148,3 +148,4 @@ export class Umbra {
   }
 
   private feet() {
+    const p = this.g.player.pos
