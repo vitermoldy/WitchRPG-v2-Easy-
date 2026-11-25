@@ -978,3 +978,4 @@ export class Game implements UnitHost {
       dx: inp.dx,
       dy: inp.dy,
     })
+    this.prof('umbra', t2)
