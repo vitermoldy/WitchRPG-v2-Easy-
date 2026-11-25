@@ -81,3 +81,4 @@ export class Obstacles {
       this.near(pos.x, pos.z, radius + 0.01, (s) => {
         if (s.camOnly) return
         let rr: number
+        if (s.kind === CYL) {
