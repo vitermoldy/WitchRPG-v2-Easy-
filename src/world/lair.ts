@@ -384,3 +384,4 @@ export class Lair {
     const spit = attacks[1]
     const her = this.target()
     let busy = 0
+    for (const h of this.heads) if (h && h.alive && (h.state === 'windup' || h.state === 'strike')) busy++
