@@ -83,3 +83,4 @@ describe('staff combo', () => {
       for (let i = 0; i < 120 && c.busy; i++) c.update(1 / 60, false, false, ev)
       for (const e of ev) if (e.type === 'start') starts.push(e.s.index)
     }
+    expect(starts).toEqual([0, 1, 2, 0])
