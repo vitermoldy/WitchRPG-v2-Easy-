@@ -147,3 +147,4 @@ export class Combo {
 /** True when a point lies inside a swing's reach and arc in front of her (yaw: camera convention, 0 = -z). */
 export function inSwing(fromX: number, fromZ: number, yaw: number, swing: Swing, x: number, z: number, radius = 0): boolean {
   const dx = x - fromX
+  const dz = z - fromZ
