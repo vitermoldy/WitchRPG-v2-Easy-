@@ -245,3 +245,4 @@ export class TravelPanel {
       if (!t) return
       if (t.dataset.altar) {
         this.host.travel(t.dataset.altar)
+        this.close()
