@@ -201,3 +201,4 @@ def mat_globe(name, ocean="#2a6aa8", land="#4f8a3a"):
 # Slots every builder may ask for. A creature's colour spec fills them; unknown extra keys in a spec
 # (snake, goat, collar, ...) become materials too.
 SLOT_DEFAULTS = {
+    "body": "#8a7a6a", "body2": None, "skin": None, "hair": None, "horn": "#ddd2bc", "metal": "#b9bcc4",
