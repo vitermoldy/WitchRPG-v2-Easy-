@@ -15,3 +15,4 @@ function world() {
     obstacles: new Obstacles(),
     height: () => 0,
     foe,
+    blocked: () => false,
