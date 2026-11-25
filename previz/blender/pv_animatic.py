@@ -178,3 +178,4 @@ def build(dunia, res=(1280, 720), samples=24):
             vfov = 50.0
         elif t < T_DROP:
             u = seg(t, T_FLY, T_DROP)
+            g_loc, g_look = game_cam(il_pos(T_DROP), f)
