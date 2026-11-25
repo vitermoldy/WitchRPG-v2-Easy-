@@ -41,3 +41,4 @@ const CURTAIN_FRAG = /* glsl */ `
   }
 `
 const VERT = /* glsl */ `
+  varying vec2 vUv;
