@@ -25,3 +25,4 @@ const CAP = 16
  */
 export class Props {
   readonly list: Prop[] = []
+  readonly mesh: THREE.InstancedMesh
