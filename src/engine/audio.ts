@@ -316,3 +316,4 @@ export class Sfx {
   }
 
   /** The army rising: a drop into the deep, a dark chord that swells, a beat per rank of soldiers. */
+  summon(count: number) {
