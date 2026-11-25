@@ -94,3 +94,4 @@ export class Unit implements Foe {
   readonly vel = new THREE.Vector3()
   /** Facing; 0 looks along +z, the way the models face. */
   yaw = 0
+  state: UnitState = 'move'
