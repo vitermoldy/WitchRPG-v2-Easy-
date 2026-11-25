@@ -285,3 +285,4 @@ export class Umbra {
       }
       const window = open && !u.riteTried ? RITE.window : RITE.plainCorpseTime
       const glowing = open && !u.riteTried && !u.ash && u.deadT < window
+      if (glowing) {
