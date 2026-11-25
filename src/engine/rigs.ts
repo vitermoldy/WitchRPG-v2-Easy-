@@ -357,3 +357,4 @@ const poseNaga: PoseFn = (p, u, t) => {
   p.rot('body', 0, 10 * sway)
   if (u.state === 'windup') {
     const k = ease(u.t / u.atk.windup)
+    p.body(0.1 * k, -12 * k)
