@@ -101,3 +101,4 @@ export class Player {
     this.facing = facing
     this.dodgeT = -1
     this.nudgeT = 0
+    this.flying = false
