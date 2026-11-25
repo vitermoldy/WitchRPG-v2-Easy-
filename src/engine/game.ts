@@ -226,3 +226,5 @@ export class Game implements UnitHost {
   private offMap(x: number, z: number) {
     const [mx, my] = toMap(x, z)
     return Math.abs(mx) > PLAY_HALF || Math.abs(my) > PLAY_HALF
+  }
+
