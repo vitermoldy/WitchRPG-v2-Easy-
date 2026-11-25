@@ -489,3 +489,4 @@ export class Umbra {
     if (u.record) {
       this.downUntil.set(u.record.id, this.time + RITE.reform)
       g.hud.message(`${u.record.name} tumbang. Ia terbentuk kembali dalam ${RITE.reform} detik.`, 'umbra')
+    }
