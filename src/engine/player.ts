@@ -109,3 +109,4 @@ export class Player {
    * Aiming slows her to a careful walk and rules out sprinting.
    */
   update(dt: number, input: MoveInput, camYaw: number, face: number | null, aiming: boolean, g: Ground) {
+    const f = forward(camYaw, 0)
