@@ -277,3 +277,4 @@ export class Lair {
     for (const isl of this.islands) {
       const d = Math.hypot(x - isl.x, z - isl.z)
       if (d > isl.r + 2) continue
+      const top = this.groundY + 1 - (1 - this.flood) * 4
