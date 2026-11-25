@@ -207,3 +207,4 @@ export class Unit implements Foe {
     this.elite = trait
     this.maxHp *= ELITE.hp
     this.hp = this.maxHp
+    this.damage *= ELITE.damage
