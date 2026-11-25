@@ -98,3 +98,4 @@ export class Lair {
     const water = new THREE.Mesh(
       new THREE.CircleGeometry(LAIR_RADIUS, 48).rotateX(-Math.PI / 2),
       new THREE.MeshStandardMaterial({ color: 0x0b1512, roughness: 0.12, metalness: 0.35, transparent: true, opacity: 0.88 }),
+    )
