@@ -531,3 +531,5 @@ export class Spells {
     }
     at.y = g.ground.height(at.x, at.z)
     return at
+  }
+
