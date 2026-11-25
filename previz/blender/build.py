@@ -99,3 +99,4 @@ FILES = {"hero": "01-hero-bahu.png", "valley": "02-lembah-hutan.png", "minotaur"
 for key, fname in FILES.items():
     if key in ONLY:
         C.render(scenes[key], os.path.join(RENDERS, fname), PCT)
+        log("render", fname)
