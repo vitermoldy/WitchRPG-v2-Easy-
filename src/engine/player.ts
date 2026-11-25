@@ -156,3 +156,4 @@ export class Player {
         this.vx *= 0.3
         this.vz *= 0.3
       }
+    } else if (this.nudgeT > 0) {
