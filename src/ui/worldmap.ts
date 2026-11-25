@@ -76,3 +76,4 @@ export class WorldMap {
       this.changed(false)
     })
     $('map-bosses').addEventListener('click', (e) => {
+      const b = (e.target as HTMLElement).closest<HTMLButtonElement>('button[data-boss]')
