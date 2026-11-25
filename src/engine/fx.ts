@@ -445,3 +445,4 @@ export class ShadowPools {
     }
   }
 
+  /** Opens a pool that spreads out, stays for `hold` seconds, then shrinks away. */
