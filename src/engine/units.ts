@@ -658,3 +658,4 @@ export class UnitSystem {
     // a shadow close by draws its attention when it is much nearer than her
     const shadow = this.nearestFoe(u, 6)
     if (!u.aggro && !shadow && u.home) {
+      // at rest in its camp: drift back home, then stand and look about
