@@ -370,3 +370,6 @@ def build_protos(lib_coll):
     P["grass"] = proto("p_grass", coll, pal, _grass)
     P["fern"] = proto("p_fern", coll, pal, _fern)
     P["bush"] = proto("p_bush", coll, pal, _bush)
+    return P
+
+
