@@ -476,3 +476,4 @@ export class Umbra {
         g.hud.message(`${raised.length} bangkit${faded ? `, ${faded} pudar` : ''}. Ruang Bayangan sekarang menampung ${g.profile.shadows.length} bayangan.`, 'umbra')
         g.hud.banner(`${raised.length} bayangan`, 'bangkit dari bayangan dan berdiri di sisimu')
       }
+      g.saveSoon()
