@@ -1638,3 +1638,4 @@ dialog::backdrop {
 
 .confirm-text {
   margin: 0 0 1rem;
+  color: var(--ink-2);
