@@ -1250,3 +1250,5 @@ export class Game implements UnitHost {
       s.gpu,
     ].join('\n')
   }
+}
+
