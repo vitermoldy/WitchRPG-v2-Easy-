@@ -260,3 +260,4 @@ export class Game implements UnitHost {
       this.lights.flash(mid, COLOR.chaosHot, 10, 6, 0.2)
       this.hud.parry()
       return
+    }
