@@ -77,3 +77,4 @@ export class Obstacles {
   pushOut(pos: { x: number; y: number; z: number }, radius: number, height: number): boolean {
     let moved = false
     // every shape is listed in each cell its footprint touches, so the capsule's own box is enough
+    for (let pass = 0; pass < 2; pass++) {
