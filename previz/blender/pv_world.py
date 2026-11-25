@@ -75,3 +75,4 @@ def _dist(x, y, c):
     return np.hypot(x - c[0], y - c[1])
 
 
+def height(x, y):
