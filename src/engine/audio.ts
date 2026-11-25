@@ -50,3 +50,5 @@ export class Sfx {
     gain.gain.setValueAtTime(0.0001, t)
     gain.gain.exponentialRampToValueAtTime(peak, t + a)
     gain.gain.exponentialRampToValueAtTime(0.0001, t + a + dec)
+  }
+
