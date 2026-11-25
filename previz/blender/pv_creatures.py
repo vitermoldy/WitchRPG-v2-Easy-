@@ -1094,3 +1094,4 @@ COLORS = {
     "naga": {"body": ("#2f6b55", "#d9c06a"), "membrane": "#d0803a", "accent": "#c8502a", "horn": "#eadba4", "hair": "#e0c25a", "mouth": "#8a2a1e"},
     "minotaur": {"skin": ("#9c4c30", "#8a3e28"), "hair": "#4a2418", "horn": "#ece2c8", "nose": "#5a2a20", "cloth": "#3a2a20", "hoof": "#2a2220"},
     "cyclops": {"skin": ("#d49a6a", "#c08458"), "cloth": "#6a4a30", "strap": "#4a3020", "wood": "#8a5a30", "metal": "#9a9aa0", "horn": "#ece4d0", "sclera": "#f2eee8"},
+    "medusa": {"skin": "#86bb62", "hair": "#c47a3a", "snake": ("#8aa040", "#d8d090"), "cloth": "#f2efe6", "horn": "#f0f0e0"},
