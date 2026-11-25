@@ -179,3 +179,4 @@ export function createApi(getPool, database) {
         ])
       }
       await conn.query('DELETE FROM witch_altars WHERE client_id = ?', [client])
+      await conn.query('INSERT INTO witch_altars (client_id, altar, last) VALUES ?', [p.world.altars.map((a) => [client, a, a === p.world.last ? 1 : 0])])
