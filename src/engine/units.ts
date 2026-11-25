@@ -411,3 +411,4 @@ export class UnitSystem {
     const other = this.living[u.team === 'enemy' ? 'shadow' : 'enemy']
     if (other.length < (2 * r + 1) ** 2) {
       for (const o of other) {
+        if (!o.targetable) continue
