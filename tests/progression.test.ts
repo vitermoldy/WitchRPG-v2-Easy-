@@ -229,3 +229,4 @@ describe('Tier IV and V', () => {
     expect(xpToNext(9)).toBe(2160)
     expect(xpToNext(10)).toBe(3790)
     expect(xpToNext(12)).toBeGreaterThan(xpToNext(11) * 1.3)
+  })
