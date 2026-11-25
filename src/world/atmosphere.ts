@@ -115,3 +115,4 @@ export class Atmosphere {
       if (w > this.w[best]) best = i
     }
     this.zone = best
+    // exp2 fog: e^-(d * sight)^2 is about 4% at the sight distance
