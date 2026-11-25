@@ -393,3 +393,4 @@ class Part:
             if R[i] < 1e-4:
                 v = self.bm.verts.new(p - off)
                 rings.append([v])
+                allv.append(v)
