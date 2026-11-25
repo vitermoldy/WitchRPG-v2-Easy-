@@ -56,3 +56,4 @@ describe('creature attacks', () => {
   it('misses when she leaves the amber circle before it fills', () => {
     const w = world()
     const imp = w.sys.spawn('imp', 'enemy', 1, { x: 0, z: 2 })
+    let moved = false
