@@ -167,3 +167,4 @@ export class IlyraModel {
   }
 
   private rot(name: string, x: number, y = 0, z = 0) {
+    const p = this.parts[name]
