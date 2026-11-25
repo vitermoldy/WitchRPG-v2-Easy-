@@ -123,3 +123,4 @@ export const RITE = {
   castTimeUpgraded: 1,
   mana: 40,
   /** Holding R near several glowing bodies raises them all in one cast; each extra body costs this much more mana. */
+  massRadius: 12,
