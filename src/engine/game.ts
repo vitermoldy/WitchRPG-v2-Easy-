@@ -582,3 +582,4 @@ export class Game implements UnitHost {
   /** When a step of hers was just refused by the seal or the lair, say why (not too often). */
   private refusals() {
     if (this.t - this.refusedMsgAt < 5) return
+    if (this.t - this.sealRefusedAt < 0.1) {
