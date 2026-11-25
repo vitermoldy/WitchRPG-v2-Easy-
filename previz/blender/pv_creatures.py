@@ -980,3 +980,4 @@ def b_lilith(r):
 
 
 def b_typhon(r):
+    """Golden titan with horns and a grey beard, grey bat wings, snakes for hands and a mass of serpent legs."""
