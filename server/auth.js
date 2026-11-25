@@ -230,3 +230,4 @@ export function createAuth({ getPool, cookie, lang, deviceCode, newDevice }) {
     res.json({ ok: true })
   })
 
+  router.get('/me', async (req, res) => {
