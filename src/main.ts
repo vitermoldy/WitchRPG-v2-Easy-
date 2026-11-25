@@ -27,3 +27,4 @@ function fail(message: string) {
 
 async function boot() {
   const canvas = $('view') as HTMLCanvasElement
+  if (!canvas.getContext('webgl2')) {
