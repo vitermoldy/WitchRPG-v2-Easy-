@@ -296,3 +296,4 @@ export class IlyraModel {
         w = ease((sw.t - k) / sw.recover)
         pose = { torso: mix(through.torso, rest.torso, w), armX: mix(through.armX, rest.armX, w), armY: mix(through.armY, rest.armY, w), fore: mix(through.fore, rest.fore, w) }
       }
+      const weight = sw.t < k ? 1 : 1 - ease((sw.t - k) / sw.recover)
