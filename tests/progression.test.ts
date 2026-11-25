@@ -30,3 +30,4 @@ describe('XP curve from the GDD', () => {
     expect(xpToNext(1)).toBe(80)
     expect(xpToNext(9)).toBe(2160)
   })
+  it('rounds to tens', () => {
