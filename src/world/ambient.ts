@@ -124,3 +124,4 @@ export class Ambient {
       blending: THREE.AdditiveBlending,
     })
     this.points = new THREE.Points(geo, mat)
+    this.points.name = 'ambient'
