@@ -41,3 +41,4 @@ def yaw_to(f):
     return math.degrees(math.atan2(f[0], -f[1]))
 
 
+def place(r, coll, x, y, face, dz=0.0, scale=1.0, tilt=0.0, name=None):
