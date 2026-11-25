@@ -216,3 +216,5 @@ export interface AttackSpec {
   behind?: boolean
   /** Seconds before this attack can be used again. */
   cooldown?: number
+}
+
