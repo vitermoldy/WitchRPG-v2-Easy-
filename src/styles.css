@@ -995,3 +995,4 @@ button {
   position: absolute;
   right: var(--gutter);
   bottom: var(--gutter);
+  width: min(17rem, 34vw);
