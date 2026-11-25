@@ -92,3 +92,4 @@ def lock_on(cam, target, third=(1 / 3, 1 / 3)):
     ah = math.atan(third[0] * th)
     av = math.atan(third[1] * tv)
     yaw_c = yaw_t + ah
+    pitch_c = pitch_t - av
