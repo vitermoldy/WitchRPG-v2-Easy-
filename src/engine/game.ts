@@ -8,3 +8,4 @@ import { CAMERA, CHAOS, COMBAT, EFFECTS, ELITE, MOVE, REVIVE, RITE, V2_KINDS, ty
 import { addShadow, chaosFromDamage, derive, gainXp, xpForUnit, type Derived, type Profile } from '../game/progression'
 import { loadProfile, saveProfile } from '../game/save'
 import { SKILLS, skillById } from '../game/skills'
+import { Hud } from '../ui/hud'
