@@ -21,3 +21,4 @@ def lerp(a, b, t):
     return Vector(tuple(a[i] + (b[i] - a[i]) * t for i in range(3)))
 
 
+def _rx(v, deg):
