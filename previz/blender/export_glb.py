@@ -52,3 +52,4 @@ def tone_of(m):
     if not m or not m.node_tree:
         return None
     nodes = m.node_tree.nodes
+    if not any(n.bl_idname == "ShaderNodeNewGeometry" for n in nodes):
