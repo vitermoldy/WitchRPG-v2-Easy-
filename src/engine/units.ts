@@ -844,3 +844,4 @@ export class UnitSystem {
       if (e && e.pos.distanceTo(p.pos) < SHADOW.leash) tgt = e
     }
     u.target = tgt
+    if (u.state === 'windup' || u.state === 'strike' || u.state === 'recover') {
