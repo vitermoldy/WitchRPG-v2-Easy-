@@ -71,3 +71,4 @@ export class Altars {
     this.paint()
   }
 
+  isLit(key: string) {
