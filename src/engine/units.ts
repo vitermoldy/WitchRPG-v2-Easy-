@@ -645,3 +645,4 @@ export class UnitSystem {
   private wantRange(u: Unit): number {
     let r = Infinity
     for (const a of attacksOf(u.spec)) if (!a.behind && !a.minRange) r = Math.min(r, a.range)
+    return Number.isFinite(r) ? r : u.spec.attackRange
