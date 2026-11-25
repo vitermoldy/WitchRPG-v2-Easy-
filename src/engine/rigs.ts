@@ -108,3 +108,4 @@ function common(p: Poser, u: Unit, t: number, limbs: string[]): boolean {
     for (const n of limbs) p.rot(n, -25)
     return true
   }
+  return false
