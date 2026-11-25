@@ -32,3 +32,4 @@ export class Altars {
   private spin = 0
 
   constructor(g: Game) {
+    this.g = g
