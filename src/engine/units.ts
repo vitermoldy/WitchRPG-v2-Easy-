@@ -978,3 +978,4 @@ export class UnitSystem {
     u.vel.set(vel.x, vel.y, vel.z)
     u.hurled = hurled
     u.flight = flight
+    u.set('thrown')
