@@ -444,3 +444,4 @@ class Part:
         g = bmesh.ops.create_icosphere(self.bm, subdivisions=sub, radius=1.0, matrix=self._M(c) @ Matrix.Diagonal((r[0], r[1], r[2], 1)))
         for v in g["verts"]:
             v.co = (v.co - (V(c) - self.pivot)) * (0.8 + 0.35 * rnd.random()) + (V(c) - self.pivot)
+        self._tag(g["verts"], mat, smooth=False)
