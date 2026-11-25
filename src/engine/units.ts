@@ -575,3 +575,4 @@ export class UnitSystem {
     }
     this.host.obstacles.pushOut(u.pos, u.radius, u.height)
     u.groundX = NaN
+    u.vel.set(0, 0, 0)
