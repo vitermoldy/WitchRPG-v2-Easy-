@@ -6,3 +6,4 @@ import { riteChance } from '../src/game/progression'
 const W = COMBAT.parry.window
 
 describe('block and parry', () => {
+  it('parries a ring attack when block was pressed within the parry window before the blow', () => {
