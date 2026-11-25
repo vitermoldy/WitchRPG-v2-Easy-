@@ -12,3 +12,4 @@ type Tone = 'info' | 'chaos' | 'umbra' | 'level'
 const BOSS_HINT: Partial<Record<UnitKind, string>> = {
   medusa: 'Tatapannya membatukan: tahan C saat lingkarannya penuh, atau pasang Hex Barrier.',
   chimera: 'Api di depan, seruduk kambing dari jauh, sengat ular di belakang. Ia memanggil Imp.',
+  cerberus: 'Tiga kepala menggigit di lingkaran, api di depan, terjangan dari jauh. Ia memanggil Hellhound.',
