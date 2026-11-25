@@ -337,3 +337,4 @@ class Part:
 
     def limb(self, a, b, ra, rb=None, mat="body", seg=10, joints=True):
         a, b = V(a), V(b)
+        rb = ra if rb is None else rb
