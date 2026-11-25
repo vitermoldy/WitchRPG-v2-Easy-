@@ -3,3 +3,4 @@
 // at -z, so a map point (x, y) sits at world (x, -y): see toWorld / toMap.
 
 export interface Zone {
+  key: 'pembuka' | 'tebing' | 'rawa' | 'kuil' | 'bara'
