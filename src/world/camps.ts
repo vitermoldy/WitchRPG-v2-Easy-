@@ -3,3 +3,5 @@ import { CAMP, ELITE, UNITS, type V2Kind } from '../game/balance'
 import type { Game } from '../engine/game'
 import { COLOR } from '../engine/palette'
 import type { Unit } from '../engine/units'
+import { heightMap, toWorld } from './map'
+
