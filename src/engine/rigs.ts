@@ -605,3 +605,4 @@ const posePhoenix: PoseFn = (p, u, t) => {
     p.rot('head', -20)
     p.rot('leg_L', 50)
     p.rot('leg_R', 50)
+    return
