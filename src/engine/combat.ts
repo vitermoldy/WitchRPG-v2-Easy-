@@ -41,3 +41,4 @@ export class StunMeter {
     return false
   }
 
+  update(dt: number) {
