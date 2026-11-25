@@ -729,3 +729,4 @@ def b_chimera(r):
     gn.ell(gh, (0.15, 0.24, 0.15), mat="goat")
     gn.limb(gh + Vector((0, -0.15, -0.04)), gh + Vector((0, -0.38, -0.14)), 0.1, 0.06, mat="goat")
     gn.cone(gh + Vector((0, -0.3, -0.16)), gh + Vector((0, -0.32, -0.42)), 0.05, mat="goat", seg=5)
+    for s in (1, -1):
