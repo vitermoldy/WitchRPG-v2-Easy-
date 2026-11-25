@@ -222,3 +222,4 @@ export class Umbra {
     u.record = rec
     u.slot = slot
     u.yaw = g.player.facing + Math.PI
+    u.focusBonus = hasUpgrade(g.profile, 'focus') ? RITE.focusBonus : 0
