@@ -194,3 +194,4 @@ def terrain_material():
     nt = m.node_tree
     N, L = nt.nodes, nt.links
     b = N["Principled BSDF"]
+    att = N.new("ShaderNodeAttribute")
