@@ -637,3 +637,4 @@ export class Spells {
         const r = Math.sqrt(Math.random()) * s.radius
         const x = s.pos.x + Math.cos(a) * r
         const z = s.pos.z + Math.sin(a) * r
+        g.glow.emit({ pos: { x, y: g.ground.height(x, z) + 0.1, z }, count: 1, color: COLOR.chaos, intensity: 2, life: 0.9, size: 0.12, vel: { x: 0, y: 1.2, z: 0 } })
