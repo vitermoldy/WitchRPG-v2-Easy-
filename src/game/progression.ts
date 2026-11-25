@@ -270,3 +270,4 @@ export function shadowName(id: number): string {
   }
   const parts = 2 + (next() % 2)
   let name = ''
+  for (let i = 0; i < parts; i++) name += SYLLABLES[next() % SYLLABLES.length]
