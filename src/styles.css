@@ -861,3 +861,4 @@ button {
 }
 
 .bar-chaos i {
+  background: var(--chaos-ink);
