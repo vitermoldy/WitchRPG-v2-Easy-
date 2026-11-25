@@ -87,3 +87,5 @@ export class Combo {
   get cancellable() {
     const s = this.current
     return !s || s.t >= s.swing.windup + s.swing.active
+  }
+
