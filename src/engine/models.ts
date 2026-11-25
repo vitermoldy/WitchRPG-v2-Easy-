@@ -12,3 +12,4 @@ export async function loadModel(url: string): Promise<THREE.Group> {
   const gltf = await loader.loadAsync(url)
   gltf.scene.traverse((o) => {
     const m = o as THREE.Mesh
+    if (!m.isMesh) return
