@@ -463,3 +463,4 @@ def b_ilyra(r, pose="idle"):
     st.torus(head_c, 0.075, 0.008, normal=side.cross(sd), mat="sigil_staff", seg=16, rseg=4)
     st.ell(head_c, 0.035, mat="sigil_staff", seg=8, rings=6)
     for k in (-1, 1):
+        st.cone(top, head_c + side * 0.12 * k + sd * 0.12, 0.012, mat="metal", seg=5)
