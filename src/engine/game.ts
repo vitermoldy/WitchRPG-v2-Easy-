@@ -1063,3 +1063,4 @@ export class Game implements UnitHost {
     const c = this.camera
     c.position.set(pose.pos.x, pose.pos.y, pose.pos.z)
     c.lookAt(pose.pos.x + pose.dir.x, pose.pos.y + pose.dir.y, pose.pos.z + pose.dir.z)
+    if (this.debugCam) {
