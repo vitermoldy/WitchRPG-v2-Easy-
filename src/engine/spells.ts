@@ -67,3 +67,4 @@ const WARP_FRAG = /* glsl */ `
   void main() {
     float bands = 0.5 + 0.5 * sin(vUv.y * 22.0 - uTime * 7.0 + sin(vUv.x * 40.0) * 0.6);
     float k = (1.0 - vUv.y) * (1.0 - vUv.y);
+    vec3 col = mix(vec3(0.56, 0.33, 1.0), vec3(1.0, 0.16, 0.24), vUv.y) * 1.6;
