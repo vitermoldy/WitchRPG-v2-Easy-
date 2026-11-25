@@ -69,3 +69,4 @@ export class Unit implements Foe {
   maxHp: number
   damage: number
   speed: number
+  radius: number
