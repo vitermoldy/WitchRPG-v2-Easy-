@@ -58,3 +58,4 @@ describe('over-the-shoulder camera', () => {
     expect(pose.pos.z).toBeCloseTo(CAMERA.normal.dist, 2)
   })
 
+  it('stops in front of a trunk standing between her and the camera', () => {
