@@ -136,3 +136,4 @@ export const RITE = {
   /** Shadows nearest the camera drawn with their own animated model; the rest are drawn as one crowd. */
   // v2: 20 by default (v1: 40); its GLB creatures cost about ten times v1's procedural ones per animated shadow
   detail: { default: 20, min: 10, max: 120 },
+  shadowXpShare: 0.3,
