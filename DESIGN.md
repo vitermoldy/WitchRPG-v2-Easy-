@@ -119,3 +119,4 @@ Hasil ukur (pola v1: 20 makhluk yang terus bertarung ditambah N bayangan di meda
 
 | Bayangan di medan | Median v2 | p95 v2 | Median v1 (kota, laptop yang sama) |
 | --- | --- | --- | --- |
+| 0 | 5,5 sampai 5,8 ms | 6,5 sampai 7,3 ms | 5,6 ms |
