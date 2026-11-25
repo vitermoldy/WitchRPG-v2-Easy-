@@ -63,3 +63,4 @@ export class Input {
         await req.call(this.target)
       }
       return true
+    } catch {
