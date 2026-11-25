@@ -767,3 +767,4 @@ def _demon(r, H, bulk, female, span, horn_kind, arm_pose):
     for s, side in SIDES:
         hd = r.parts["hand_" + side]
         W, d = J["wr_" + side], J["hand_dir_" + side]
+        r.parts["forearm_" + side].limb(J["el_" + side] + d * 0.05, W, H * 0.03, H * 0.024, mat="armor")
