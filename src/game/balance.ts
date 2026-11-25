@@ -576,3 +576,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
       { name: 'napas api', strike: 'ring', windup: 1, recover: 1, range: 7, ring: 3, ahead: 4 },
     ],
   },
+  // v2, Reruntuhan Kuil and Lembah Bara: a giant that throws boulders onto amber circles and clubs up close.
