@@ -56,3 +56,4 @@ export class Umbra {
   candidate: Unit | null = null
   /** Every body the next cast would raise: the one being looked at, or all glowing ones in reach. */
   targets: Unit[] = []
+  casting: Unit[] = []
