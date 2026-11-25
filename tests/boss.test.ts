@@ -26,3 +26,4 @@ function world() {
     telegraph: () => {},
     clearTelegraph: () => {},
   }
+  const sys = new UnitSystem(host)
