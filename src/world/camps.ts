@@ -62,3 +62,4 @@ export const CAMP_DEFS: CampDef[] = [
   { c: [140, 250], pack: { minotaur: 2, cyclops: 1 }, levels: [12, 12], elites: 2 },
   // Lembah Bara (Tier V, Lv 13 to 15, sealed until the Hydra falls): Phoenixes and elite mixes
   { c: [312, 258], pack: { phoenix: 2 }, levels: [13, 13] },
+  { c: [384, 300], pack: { phoenix: 1, hellhound: 3 }, levels: [13, 14], elites: 1 },
