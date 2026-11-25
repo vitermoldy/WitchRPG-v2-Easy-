@@ -82,3 +82,4 @@ const SHIELD_VERT = /* glsl */ `
     vNormal = normalMatrix * normal;
     vView = -mv.xyz;
     gl_Position = projectionMatrix * mv;
+  }
