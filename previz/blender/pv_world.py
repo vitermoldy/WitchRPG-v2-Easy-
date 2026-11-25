@@ -32,3 +32,4 @@ PATHS = [
 ]
 SPOTS = {
     "hero": (-34, -335),
+    "minotaur": (40, 282),
