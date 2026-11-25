@@ -817,3 +817,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   atlas: {
     name: 'Atlas',
     rank: 'marsekal',
+    hp: 1900,
