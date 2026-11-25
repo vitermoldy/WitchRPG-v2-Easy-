@@ -148,3 +148,4 @@ export class Combo {
 export function inSwing(fromX: number, fromZ: number, yaw: number, swing: Swing, x: number, z: number, radius = 0): boolean {
   const dx = x - fromX
   const dz = z - fromZ
+  const d = Math.hypot(dx, dz)
