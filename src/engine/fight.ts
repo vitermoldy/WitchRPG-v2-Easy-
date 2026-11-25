@@ -373,3 +373,4 @@ export class Fight {
         this.combo.cancel()
         // face where it will go
         const at = this.throwTarget()
+        this.swingYaw = yawTo(p.pos.x, p.pos.z, at.x, at.z)
