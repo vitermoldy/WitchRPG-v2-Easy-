@@ -186,3 +186,4 @@ export class Lair {
     this.water.visible = false
     for (const isl of this.islands) {
       isl.mesh.visible = false
+      isl.mesh.position.y = this.groundY - 5
