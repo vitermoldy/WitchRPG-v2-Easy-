@@ -299,3 +299,4 @@ export class WorldMap {
       ctx.strokeText(text, cx, cy)
       ctx.fillStyle = color
       ctx.fillText(text, cx, cy)
+    }
