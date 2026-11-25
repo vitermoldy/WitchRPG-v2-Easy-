@@ -218,3 +218,4 @@ export class WorldMap {
     for (let j = 0; j < BASE; j++) {
       for (let i = 0; i < BASE; i++) {
         const mx = -EXTENT + (i + 0.5) * step
+        const my = EXTENT - (j + 0.5) * step
