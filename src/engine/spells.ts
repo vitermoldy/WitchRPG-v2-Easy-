@@ -188,3 +188,5 @@ export class Spells {
 
   get gripping() {
     return this.grabbed.length > 0 || !!this.heldProp
+  }
+
