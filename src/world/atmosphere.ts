@@ -35,3 +35,5 @@ void main() {
   c += sunColor * (pow(s, 600.0) * 6.0 + pow(s, 12.0) * 0.25);
   gl_FragColor = vec4(c, 1.0);
   #include <colorspace_fragment>
+}`
+
