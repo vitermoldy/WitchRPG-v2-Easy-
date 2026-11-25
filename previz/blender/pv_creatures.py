@@ -658,3 +658,4 @@ def b_cyclops(r):
     h.ell(hc + Vector((0, -0.2, 0.19)), (0.2, 0.08, 0.05), mat="skin")
     h.limb(hc + Vector((0, -0.12, -0.17)), hc + Vector((0, -0.24, -0.22)), 0.16, 0.12, mat="skin")
     h.cone(hc + Vector((0, -0.29, -0.04)), hc + Vector((0, -0.34, -0.1)), 0.05, mat="skin", seg=6)
+    for s in (1, -1):
