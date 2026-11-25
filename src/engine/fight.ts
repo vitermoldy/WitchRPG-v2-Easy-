@@ -91,3 +91,4 @@ class Staff {
     if (len < 1e-5) return null
     this.dir.subVectors(this.pos, this.prev).divideScalar(len)
     this.ray.set(this.prev, this.dir)
+    let best: { u: Unit; f: number } | null = null
