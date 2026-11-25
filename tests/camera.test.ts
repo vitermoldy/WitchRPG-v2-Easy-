@@ -53,3 +53,4 @@ describe('over-the-shoulder camera', () => {
     for (let i = 0; i < 120; i++) pose = rig.update(1 / 60, pivot, true, null, null, flat)
     expect(pose.fov).toBeCloseTo(CAMERA.first.aimFov, 1)
     rig.firstPerson = false
+    for (let i = 0; i < 240; i++) pose = rig.update(1 / 60, pivot, false, null, null, flat)
