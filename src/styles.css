@@ -1698,3 +1698,4 @@ dialog::backdrop {
 
 .gate {
   width: min(26rem, calc(100vw - 32px));
+  padding: 1.6rem;
