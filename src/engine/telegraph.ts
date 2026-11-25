@@ -64,3 +64,4 @@ interface Item {
   dz: number
   len: number
   width: number
+  radius: number
