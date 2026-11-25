@@ -275,3 +275,4 @@ export class Sfx {
   spit() {
     if (!this.ok()) return
     const t = this.ctx!.currentTime
+    this.noise(t, 0.18, 'bandpass', 1200, 0.16, 3, 400)
