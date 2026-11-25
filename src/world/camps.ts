@@ -261,3 +261,4 @@ export class Camps {
         colors = true
       }
     })
+    if (colors) {
