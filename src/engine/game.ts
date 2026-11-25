@@ -619,3 +619,4 @@ export class Game implements UnitHost {
     if ((u.kind === 'hydra' || u.kind === 'hydraHead') && u.team === 'enemy' && this.lair.body) return this.hurtHydra(u, dmg, from, stun, source, kind)
     let share = shieldShare(u, from.x, from.z, kind)
     // elite Berlapis: only thrown things go through its plates
+    if (u.elite === 'berlapis' && kind !== 'impact' && kind !== 'staff') share *= ELITE.armor
