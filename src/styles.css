@@ -491,3 +491,4 @@ button {
 .hint {
   position: absolute;
   bottom: calc(var(--gutter) + 5.2rem);
+  left: 50%;
