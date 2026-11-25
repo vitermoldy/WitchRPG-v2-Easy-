@@ -202,3 +202,4 @@ class Staff {
     if (this.obj) this.obj.visible = false
     g.fight.caught()
     g.sfx.clank()
+    g.addTrauma(0.12)
