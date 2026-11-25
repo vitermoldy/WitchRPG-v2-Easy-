@@ -11,3 +11,4 @@ import { toWorld, ZONES } from './map'
 
 const COUNT = 520
 const HALF = 26
+const LOW = -3
