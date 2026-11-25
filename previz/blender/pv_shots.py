@@ -267,3 +267,4 @@ def build_valley(dunia):
     target = Vector((-80, 140, 0))
     cam = C.camera(sc, "kamera.02", loc, look_at=target, lens_vfov=46, clip=(1, 5000))
     labels = [
+        ("Hutan Pembuka", "Tier I, Lv 1-3", (-60, -300), 25),
