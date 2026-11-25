@@ -129,3 +129,4 @@ def mat_ring(name, color, strength, inner=0.82, alpha=0.9, fill=0.08):
     nt = m.node_tree
     nt.nodes.clear()
     N, L = nt.nodes, nt.links
+    out = N.new("ShaderNodeOutputMaterial")
