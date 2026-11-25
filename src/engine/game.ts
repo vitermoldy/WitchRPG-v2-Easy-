@@ -419,3 +419,4 @@ export class Game implements UnitHost {
     this.telegraphs = new Telegraphs(this.scene, (x, z) => this.height(x, z))
     progress('Menanam hutan')
     await frame()
+    const trees = scatter()
