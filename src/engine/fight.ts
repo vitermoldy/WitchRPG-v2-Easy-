@@ -354,3 +354,4 @@ export class Fight {
     this.blockBlend += ((this.blocking ? 1 : 0) - this.blockBlend) * Math.min(1, dt * 18)
 
     if (inp.execute) {
+      const u = this.executable()
