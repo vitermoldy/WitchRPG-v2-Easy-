@@ -43,3 +43,4 @@ const MOTE_VERT = /* glsl */ `
   uniform float uScale;
   void main() {
     vec4 mv = modelViewMatrix * vec4(position, 1.0);
+    gl_Position = projectionMatrix * mv;
