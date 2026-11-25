@@ -165,3 +165,4 @@ export class Game implements UnitHost {
     this.gpu = info ? String(gl.getParameter(info.UNMASKED_RENDERER_WEBGL)) : 'unknown'
 
     this.input = new Input(canvas)
+    this.input.virtualLock = debug
