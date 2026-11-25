@@ -658,3 +658,4 @@ export class Spells {
     const disc = new THREE.Mesh(new THREE.PlaneGeometry(s.radius * 2, s.radius * 2), ruleMat)
     disc.rotation.x = -Math.PI / 2
     disc.position.y = 0.08
+    disc.renderOrder = 7
