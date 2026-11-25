@@ -126,3 +126,4 @@ def build(dunia, res=(1280, 720), samples=24):
         amp = 1.0 if walking else 0.0
         sw = math.sin(phase) * amp
         breath = 0.0 if walking else math.sin(t * 2.2) * 1.2
+        poses = {
