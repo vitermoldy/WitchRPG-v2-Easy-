@@ -51,3 +51,4 @@ const RUNE_FRAG = /* glsl */ `
     vec2 p = vUv * 2.0 - 1.0;
     float r = length(p);
     float a = atan(p.y, p.x);
+    float ring = smoothstep(0.03, 0.0, abs(r - 0.94)) + smoothstep(0.02, 0.0, abs(r - 0.78)) * 0.7;
