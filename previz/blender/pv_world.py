@@ -686,3 +686,4 @@ def build_rift(coll):
     for i in range(n - 1):
         w0 = 14 * math.sin(math.pi * i / (n - 1)) + 2
         w1 = 14 * math.sin(math.pi * (i + 1) / (n - 1)) + 2
+        j0 = rng.uniform(0.6, 1.3)
