@@ -74,3 +74,4 @@ export class Projectiles {
     const mesh = new THREE.Mesh(atk.strike === 'ring' ? globGeo : arrowGeo, amber)
     if (atk.strike === 'ring') mesh.scale.setScalar(spec.radius)
     mesh.position.copy(from)
+    this.group.add(mesh)
