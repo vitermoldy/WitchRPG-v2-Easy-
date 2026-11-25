@@ -43,3 +43,4 @@ const PAL = {
 function part(geo: THREE.BufferGeometry, color: THREE.Color, m?: THREE.Matrix4): THREE.BufferGeometry {
   let g = geo.index ? geo.toNonIndexed() : geo
   if (m) g.applyMatrix4(m)
+  g.deleteAttribute('uv')
