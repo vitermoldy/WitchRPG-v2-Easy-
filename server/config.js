@@ -17,3 +17,4 @@ export const config = {
   name: 'Crimson Sovereign: Hutan (Easy)',
   port: num('PORT', 8915),
   db: {
+    host: str('DB_HOST', '127.0.0.1'),
