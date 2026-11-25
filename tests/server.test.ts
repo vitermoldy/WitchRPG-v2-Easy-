@@ -49,3 +49,4 @@ describe('the server checks a witch before it keeps her', () => {
     const p = { ...newProfile(), world: { altars: ['tebing', 'nowhere'], last: 'kuil' } }
     const c = cleanProfile(p, NOW)
     expect(c.world.altars).toEqual(['pembuka', 'tebing'])
+    expect(c.world.last).toBe('pembuka')
