@@ -510,3 +510,5 @@ export class Game implements UnitHost {
     this.sfx.suspend()
     this.saveNow()
     this.onPause?.()
+  }
+
