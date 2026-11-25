@@ -291,3 +291,6 @@ def proto(name, coll, pal, fn, flat=False):
     p.flat = flat
     fn(p)
     r.finalize()
+    return r.objs["m"]
+
+
