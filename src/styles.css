@@ -28,3 +28,5 @@
   --radius-sm: 3px;
   --gutter: clamp(16px, 2.4vw, 32px);
   color-scheme: dark;
+}
+
