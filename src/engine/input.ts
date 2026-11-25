@@ -85,3 +85,5 @@ export class Input {
   releaseAll() {
     for (const c of this.down) this.releasedSet.add(c)
     this.down.clear()
+  }
+
