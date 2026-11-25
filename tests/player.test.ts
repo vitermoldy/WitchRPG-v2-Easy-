@@ -89,3 +89,4 @@ describe('Ilyra on foot', () => {
     const seen: [number, boolean][] = []
     p.update(dt, { ...idle, x: 1, dodge: true }, 0, null, false, flat)
     while (p.dodging) {
+      seen.push([p.dodgeT, p.invulnerable])
