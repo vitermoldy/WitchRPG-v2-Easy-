@@ -446,3 +446,4 @@ export class Spells {
       const dist = 4.6 + (heavy ? 1.5 : 0)
       const goal = new THREE.Vector3(p.x, p.y + 1.5, p.z).addScaledVector(f, dist).addScaledVector(right, i === 0 ? -0.4 : 1.2)
       goal.y = Math.max(goal.y, g.ground.height(goal.x, goal.z) + 0.6)
+      const c = u.center()
