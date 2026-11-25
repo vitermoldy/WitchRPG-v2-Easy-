@@ -1363,3 +1363,4 @@ dialog::backdrop {
   display: grid;
   grid-template-columns: minmax(15rem, 0.8fr) minmax(0, 2fr);
   grid-template-areas: 'stats tree' 'room room';
+  border-top: 1px solid var(--line);
