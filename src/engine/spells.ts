@@ -632,3 +632,4 @@ export class Spells {
           u.vulnerable = SPELL.snare.vulnerability
         }
       }
+      if (Math.random() < dt * 30) {
