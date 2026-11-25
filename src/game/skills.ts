@@ -17,3 +17,4 @@ export interface SkillDef {
   id: SkillId
   branch: Branch
   name: string
+  key: string
