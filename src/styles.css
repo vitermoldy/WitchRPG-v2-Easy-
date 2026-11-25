@@ -1852,3 +1852,4 @@ dialog::backdrop {
 .map-list {
   display: grid;
   gap: 0.3rem;
+  margin: 0.4rem 0 0;
