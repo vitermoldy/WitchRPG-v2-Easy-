@@ -75,3 +75,4 @@ export class WorldMap {
       else this.chosen.delete(kind)
       this.changed(false)
     })
+    $('map-bosses').addEventListener('click', (e) => {
