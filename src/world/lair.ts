@@ -321,3 +321,4 @@ export class Lair {
     for (const isl of this.islands) {
       isl.mesh.visible = this.flood > 0.02
       isl.mesh.position.y = this.groundY + 1 - 2 - (1 - this.flood) * 4
+    }
