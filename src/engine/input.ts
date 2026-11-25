@@ -10,3 +10,4 @@ export class Input {
   virtualLock = false
   /** Game keys are only taken from the browser during a fight; menus keep Tab and Space. */
   capture = false
+  onKey: ((code: string) => void) | null = null
