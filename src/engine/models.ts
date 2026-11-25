@@ -82,3 +82,4 @@ const SWINGS = [
   { back: { torso: -50, armX: -10, armY: -40, fore: -20 }, through: { torso: 35, armX: -165, armY: 30, fore: -10 } },
 ]
 
+/**
