@@ -109,3 +109,4 @@ export class Input {
 
 const GAME_KEYS = new Set([
   'Tab', 'Space', 'KeyW', 'KeyA', 'KeyS', 'KeyD', 'ShiftLeft', 'ShiftRight', 'KeyC', 'KeyQ', 'KeyE', 'KeyR', 'KeyF', 'KeyG', 'KeyX', 'KeyZ', 'KeyV', 'KeyT', 'KeyH',
+])
