@@ -56,3 +56,4 @@ const num = (v, lo, hi, fallback) => (typeof v === 'number' && Number.isFinite(v
 
 /** Checks a witch from the browser; returns what to store or a reason. */
 export function cleanProfile(p, now = Date.now()) {
+  if (!p || typeof p !== 'object' || p.version !== 1) return { error: 'Data witch tidak dikenali.' }
