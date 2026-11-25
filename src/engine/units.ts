@@ -951,3 +951,4 @@ export class UnitSystem {
           const dy = Math.abs(o.pos.y + o.height * 0.5 - (u.pos.y + u.height * 0.5))
           if (u.hurled && d < u.radius + o.radius + 0.3 && dy < (o.height + u.height) * 0.5) {
             host.impact(u, o, speed)
+            this.land(u, 0.2)
