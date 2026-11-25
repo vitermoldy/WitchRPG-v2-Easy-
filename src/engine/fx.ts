@@ -122,3 +122,4 @@ export class Particles {
     this.material.uniforms.uScale.value = heightPx / (2 * Math.tan((fovDeg * Math.PI) / 360))
   }
 
+  emit(e: Emit) {
