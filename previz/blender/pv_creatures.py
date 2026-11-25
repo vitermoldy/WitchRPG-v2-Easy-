@@ -325,3 +325,6 @@ def dragon_head(part, at, fwd=(0, -1, 0), s=1.0, jaw_open=30, horns=True, crest=
                 tip = base + side * (0.55 - 0.1 * i) * s * k - F * 0.25 * s + UP * (0.25 - 0.12 * i) * s
                 tip2 = base - F * 0.18 * s + UP * 0.05 * s
                 part.poly([base, tip, tip2], mat="membrane")
+                part.tube([base, tip], [0.025 * s, 0.0], mat="accent", seg=4, n=1)
+
+
