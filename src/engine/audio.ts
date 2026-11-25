@@ -58,3 +58,4 @@ export class Sfx {
     src.buffer = this.noiseBuf
     const f = ctx.createBiquadFilter()
     f.type = type
+    f.frequency.setValueAtTime(freq, t)
