@@ -102,3 +102,4 @@ export class Props {
           if (p.thrown) g.smoke.emit({ pos: p.pos, count: 6, color: 0x2a2420, life: 0.8, size: 0.6, sizeEnd: 1.3, speed: 1.4, alpha: 0.5 })
           p.thrown = false
           p.vel.set(0, 0, 0)
+        }
