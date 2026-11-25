@@ -6,3 +6,4 @@ import { createAuth } from './auth.js'
  * The API:
  *   GET  /api/health
  *   /api/auth/...                     register, login, logout, me (see auth.js)
+ *   GET  /api/profile                 the account's witch, or { profile: null } before the first save
