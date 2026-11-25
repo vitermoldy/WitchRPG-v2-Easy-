@@ -344,3 +344,4 @@ export class Sfx {
     const ctx = this.ctx
     if (!this.windNodes) {
       if (level <= 0) return
+      const src = ctx.createBufferSource()
