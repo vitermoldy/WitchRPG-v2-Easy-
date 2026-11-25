@@ -562,3 +562,4 @@ def fog_material(z):
     vol.inputs["Emission Color"].default_value = C.rgb(z["fog"])
     em = N.new("ShaderNodeMath")
     em.operation = "MULTIPLY"
+    em.inputs[1].default_value = z.get("glow", 0.5)
