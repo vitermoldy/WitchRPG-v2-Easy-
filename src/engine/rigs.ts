@@ -676,3 +676,4 @@ const poseHydra: PoseFn = (p, u, t) => {
  * gallop on the ground, legs tucked under in the air, the head reared back to wind up and thrust out
  * to strike. Fauna standing still lower their heads to graze.
  */
+const poseBeast: PoseFn = (p, u, t) => {
