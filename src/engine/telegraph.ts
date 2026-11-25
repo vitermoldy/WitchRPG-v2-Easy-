@@ -168,3 +168,4 @@ export class Telegraphs {
   }
 
   private layRing(it: Item, cx: number, cz: number) {
+    const geo = it.mesh.geometry
