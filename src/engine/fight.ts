@@ -238,3 +238,4 @@ export class Fight {
     this.staff = new Staff(g)
   }
 
+  /** Drops whatever she was doing. keepStaff: the thrown staff stays where it is (turned to stone, not a fall). */
