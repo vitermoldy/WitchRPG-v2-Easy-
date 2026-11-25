@@ -9,3 +9,4 @@ export class Input {
   /** Set by ?debug so automated runs can play without pointer lock. */
   virtualLock = false
   /** Game keys are only taken from the browser during a fight; menus keep Tab and Space. */
+  capture = false
