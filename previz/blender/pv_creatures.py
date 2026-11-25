@@ -524,3 +524,4 @@ def b_harpy(r):
     h.ell(hc, (0.085, 0.095, 0.11), mat="skin")
     face(h, hc, 1.65)
     long_hair(h, hc, 1.65, 0.35, 0.07)
+    for i in range(7):
