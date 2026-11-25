@@ -60,3 +60,4 @@ export class Sfx {
     f.type = type
     f.frequency.setValueAtTime(freq, t)
     if (freqEnd) f.frequency.exponentialRampToValueAtTime(freqEnd, t + dur)
+    f.Q.value = q
