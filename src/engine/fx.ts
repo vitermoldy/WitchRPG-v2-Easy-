@@ -407,3 +407,4 @@ const POOL_FRAG = /* glsl */ `
 `
 
 interface Pool {
+  mesh: THREE.Mesh
