@@ -81,3 +81,4 @@ async function boot() {
       out.textContent = fmt(value())
     }
     show()
+    refreshers.push(show)
