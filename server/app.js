@@ -83,3 +83,4 @@ export function cleanProfile(p, now = Date.now()) {
     shadows.push({ id, name: s.name, kind: s.kind, rank: s.rank, level: lv, xp: sxp })
   }
   // Altars she has lit: unknown keys are dropped; the start altar is always lit.
+  const lit = Array.isArray(p.world?.altars) ? p.world.altars.filter((a) => ALTARS.has(a)) : []
