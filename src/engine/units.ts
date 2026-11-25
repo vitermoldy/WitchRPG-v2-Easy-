@@ -529,3 +529,4 @@ export class UnitSystem {
           this.enemyBrain(u, dt)
           this.summon(u, dt)
         } else this.shadowBrain(u, dt)
+      } else u.vel.multiplyScalar(Math.max(0, 1 - dt * 6))
