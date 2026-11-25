@@ -71,3 +71,4 @@ def smooth(e0, e1, x):
     return t * t * (3 - 2 * t)
 
 
+def _dist(x, y, c):
