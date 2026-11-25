@@ -266,3 +266,4 @@ export class Sfx {
   warp() {
     if (!this.ok()) return
     const t = this.ctx!.currentTime
+    // A sweep that falls while noise rises: the floor turning over.
