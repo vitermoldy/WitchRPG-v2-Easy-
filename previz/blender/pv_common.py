@@ -157,3 +157,4 @@ def mat_tone(name, top, bottom=None, rough=0.7, metal=0.0, emit=None, emit_stren
     noi.inputs["Scale"].default_value = 4.0
     L.new(tc.outputs["Object"], noi.inputs["Vector"])
     vr = N.new("ShaderNodeMapRange")
+    vr.inputs["To Min"].default_value = 1.0 - vary
