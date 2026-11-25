@@ -257,3 +257,4 @@ export class WorldMap {
     const cv = this.canvas
     const box = cv.parentElement!.getBoundingClientRect()
     const size = Math.max(200, Math.floor(Math.min(box.width, box.height)))
+    const dpr = Math.min(2, window.devicePixelRatio || 1)
