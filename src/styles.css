@@ -1210,3 +1210,4 @@ button {
   left: 50%;
   transform: translateX(-50%);
   width: min(34rem, 60vw);
+  padding: 0.5rem 0.8rem 0.6rem;
