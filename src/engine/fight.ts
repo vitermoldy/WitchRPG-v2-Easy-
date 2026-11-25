@@ -53,3 +53,4 @@ class Staff {
     this.g = g
   }
 
+  private ensure() {
