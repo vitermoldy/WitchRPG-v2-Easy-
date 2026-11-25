@@ -787,3 +787,4 @@ def b_griffin(r):
     Q = quad(r, 2.0, 2.5, 0.85, 0.95, 0.09, front="talon")
     nb = V(Q["neck_base"])
     hp = nb + Vector((0, -0.35, 0.65))
+    n = r.P("head", nb, "body")
