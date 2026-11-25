@@ -128,3 +128,4 @@ describe('Ilyra on foot', () => {
     expect(p.pos.z).toBeGreaterThan(-2.1)
     expect(p.pos.y).toBe(0)
     const lake: Ground = { height: () => 0, obstacles: null, blocked: (_x, z) => z < -3 }
+    const q = new Player()
