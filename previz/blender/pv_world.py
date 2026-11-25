@@ -605,3 +605,4 @@ def build_fog(coll):
     ob.scale = (1500, 1500, 500)
     ob.location = (0, 0, 220)
     ob.display_type = "WIRE"
+    coll.objects.link(ob)
