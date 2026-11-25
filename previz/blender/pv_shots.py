@@ -428,3 +428,4 @@ def build_lineup(lib_colls, stats):
         tallest = 0.0
         for m in members:
             lc = lib_colls[m]
+            lo, hi = C.bounds(lc)
