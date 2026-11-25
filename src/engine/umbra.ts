@@ -409,3 +409,4 @@ export class Umbra {
   private begin() {
     const g = this.g
     const list = this.targets
+    if (!list.length) return
