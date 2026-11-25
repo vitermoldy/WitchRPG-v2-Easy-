@@ -1049,3 +1049,5 @@ export class Game implements UnitHost {
       this.hud.lock(this.v.z < 1 ? { x: (this.v.x * 0.5 + 0.5) * w, y: (-this.v.y * 0.5 + 0.5) * h } : null)
     } else this.hud.lock(null)
     if (this.debug) this.hud.debug(this.debugText())
+  }
+
