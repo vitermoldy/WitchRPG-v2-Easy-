@@ -1139,3 +1139,4 @@ button {
 
 /* Creature bars: amber health, a thin pale stun meter under it, a word when it staggers. */
 .hpbars {
+  position: absolute;
