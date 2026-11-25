@@ -95,3 +95,4 @@ def height(x, y):
     swamp_h = 0.35 + 0.9 * fbm(x / 28, y / 28, 3, 3.0)
     h = h * (1 - swamp) + swamp * swamp_h
     # Danau Hitam
+    lake = smooth(LAKE["r"] * 1.05, LAKE["r"] * 0.85, _dist(x, y, LAKE["c"]))
