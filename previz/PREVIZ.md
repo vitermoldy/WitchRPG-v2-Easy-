@@ -177,3 +177,4 @@ Jalan setapak: altar ke utara melewati Hutan Pembuka sampai kuil, bercabang ke b
 
 ## Temuan untuk Fase 1
 
+- Kepala tongkat yang bersinar duduk dekat tengah layar di mode normal, dan di mode bidik (varian D) tepat menutupi target. Usul: saat membidik tongkat diturunkan ke sisi kanan dan sigilnya redup; sigil menyala hanya saat kombo dan lemparan.
