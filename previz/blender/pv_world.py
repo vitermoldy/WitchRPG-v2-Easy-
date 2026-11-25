@@ -704,3 +704,4 @@ def build_embers(coll, centre, radius, count, seed=5, z_range=(0.5, 30)):
     a = rng.uniform(0, 2 * math.pi, count)
     d = radius * np.sqrt(rng.uniform(0, 1, count))
     X = centre[0] + np.cos(a) * d
+    Y = centre[1] + np.sin(a) * d
