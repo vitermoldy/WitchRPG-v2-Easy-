@@ -136,3 +136,4 @@ export class WorldMap {
     for (const camp of g.camps.camps) {
       const kind = (Object.keys(camp.def.pack) as V2Kind[]).find((k) => UNITS[k].boss)
       if (!kind) continue
+      const sealed = g.seal.sealedAt(camp.pos.x, camp.pos.z) && !g.seal.isOpen
