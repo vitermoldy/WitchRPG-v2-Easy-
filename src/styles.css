@@ -1953,3 +1953,4 @@ dialog::backdrop {
 .map-note {
   margin: auto 0 0;
   color: var(--ink-3);
+  font-size: 0.82rem;
