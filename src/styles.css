@@ -731,3 +731,5 @@ button {
 
 .feed-item.umbra::before {
   color: var(--umbra-ink);
+}
+
