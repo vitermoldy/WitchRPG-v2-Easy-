@@ -38,3 +38,6 @@ def actor(name, key, pose=None, kind=None, lights=True):
 
 
 def yaw_to(f):
+    return math.degrees(math.atan2(f[0], -f[1]))
+
+
