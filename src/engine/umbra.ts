@@ -79,3 +79,4 @@ export class Umbra {
 
   constructor(g: Game) {
     this.g = g
+    g.units.spotOf = (u) => this.spot(u.slot, this.spotV)
