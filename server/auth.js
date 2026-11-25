@@ -174,3 +174,4 @@ export function createAuth({ getPool, cookie, lang, deviceCode, newDevice }) {
   }
 
   function credentials(body) {
+    const username = typeof body?.username === 'string' ? body.username.trim() : ''
