@@ -75,3 +75,4 @@ interface Item {
 /** Amber telegraphs under creatures' attacks, both laid on the ground and following its shape. */
 export class Telegraphs {
   private readonly items: Item[] = []
+  private readonly byUnit = new Map<number, Item>()
