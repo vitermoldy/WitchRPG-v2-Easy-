@@ -800,3 +800,4 @@ def b_griffin(r):
     tl.ell(pts[-1], (0.1, 0.2, 0.1), mat="accent")
 
 
+def b_hippogriff(r):
