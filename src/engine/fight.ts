@@ -404,3 +404,5 @@ export class Fight {
     this.stats.throws++
     g.sfx.gripStop(true)
     g.addTrauma(0.06)
+  }
+
