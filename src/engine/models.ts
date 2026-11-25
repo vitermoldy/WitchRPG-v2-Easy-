@@ -121,3 +121,4 @@ export class IlyraModel {
   private static readonly SEEN = new Set(['forearm_L', 'forearm_R', 'hand_L', 'hand_R', 'staff'])
 
   /**
+   * First person: everything but her forearms, hands and staff leaves the view. The palms' lights go
