@@ -26,3 +26,4 @@ interface Chunk {
 }
 
 /** Ground colour at a map point, from the zone blend, slope, wetness, height and paths. */
+function groundColour(x: number, y: number, h: number, slope: number, out: THREE.Color, w: Float32Array) {
