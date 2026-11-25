@@ -219,3 +219,4 @@ export class Fight {
   /** Game time C was last pressed; a blow landing within the parry window after it is parried. */
   blockPressedAt = -Infinity
   /** Seconds left in which her next swing does the parry's extra damage. */
+  riposte = 0
