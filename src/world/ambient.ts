@@ -203,3 +203,4 @@ export class Ambient {
     // the Rift over Lembah Bara: in the sky toward the valley, only while she is in or near it
     const fade = Math.min(1, (w[4] ?? 0) * 1.6)
     this.riftMat.uniforms.uFade.value = fade
+    this.riftMat.uniforms.uTime.value = this.time
