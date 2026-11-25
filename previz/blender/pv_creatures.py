@@ -102,3 +102,4 @@ def humanoid(r, H, bulk=1.0, legs="human", female=False, off=(0, 0, 0), arm_pose
         hf, kn = leg_pose.get(side, (0, 0))
         Hj = V(P(s * hw, 0, z["hip"]))
         th = r.P("thigh_" + side, Hj, "pelvis")
+        if legs == "human":
