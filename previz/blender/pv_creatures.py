@@ -36,3 +36,6 @@ UP = Vector((0, 0, 1))
 def _dir_rot(d):
     """Euler (degrees) that turns an ellipsoid's long Z axis along direction d."""
     e = Vector(d).to_track_quat("Z", "Y").to_euler()
+    return (math.degrees(e.x), math.degrees(e.y), math.degrees(e.z))
+
+
