@@ -366,3 +366,4 @@ export class Warnings {
     for (const w of this.pool) {
       if (!w.group.visible) continue
       w.t += dt
+      const k = Math.min(1, w.t / w.dur)
