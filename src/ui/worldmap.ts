@@ -150,3 +150,4 @@ export class WorldMap {
 
   /** The creatures she can look for: every kind in an ordinary camp, and the fauna. */
   monsters() {
+    const out = new Map<UnitKind, { kind: UnitKind; name: string; lo: number; hi: number; camps: number; fauna: boolean }>()
