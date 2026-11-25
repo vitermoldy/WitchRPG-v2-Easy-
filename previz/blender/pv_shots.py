@@ -561,3 +561,4 @@ def ref_plane(coll, name, file, crop, centre, box):
     nt.links.new(em.outputs[0], out.inputs["Surface"])
     me.materials.append(m)
     ob = bpy.data.objects.new(name, me)
+    ob.location = centre
