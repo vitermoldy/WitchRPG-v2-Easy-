@@ -629,3 +629,4 @@ export class UnitSystem {
     const front = (Math.sin(u.yaw) * dx + Math.cos(u.yaw) * dz) / Math.max(1e-4, Math.hypot(dx, dz))
     const behind = front < -0.2
     let fallback: AttackSpec | null = null
+    for (const a of list) {
