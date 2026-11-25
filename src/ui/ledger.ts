@@ -48,3 +48,4 @@ export interface LedgerHost {
 /** Members listed per Shadow Room group; the rest are summed up in one line. */
 const ROOM_SHOWN = 60
 
+/** The Ledger: level, stats, the skill tree and the Shadow Room. The game waits while it is open. */
