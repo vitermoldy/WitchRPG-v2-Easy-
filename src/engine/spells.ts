@@ -114,3 +114,4 @@ export class Spells {
   private readonly g: Game
   readonly bolts: Bolt[] = []
   private readonly snares: Field[] = []
+  private readonly warps: Field[] = []
