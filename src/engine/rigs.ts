@@ -476,3 +476,4 @@ const poseMedusa: PoseFn = (p, u, t) => {
   }
   if (u.state === 'stagger') {
     p.body(-0.15, 10, 8 * Math.sin(t * 3))
+    p.rot('torso', 25)
