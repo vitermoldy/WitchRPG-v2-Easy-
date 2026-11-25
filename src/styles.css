@@ -185,3 +185,4 @@ button {
 .loading-title::after {
   content: '';
   display: block;
+  width: 9rem;
