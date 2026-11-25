@@ -89,3 +89,4 @@ const sha256 = (value) => createHash('sha256').update(value).digest('hex')
 
 function readCookie(req, name) {
   for (const part of String(req.headers.cookie ?? '').split(';')) {
+    const at = part.indexOf('=')
