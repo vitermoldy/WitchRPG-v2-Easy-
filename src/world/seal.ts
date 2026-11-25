@@ -82,3 +82,4 @@ export class Seal {
       side: THREE.DoubleSide,
       blending: THREE.AdditiveBlending,
     })
+    this.mesh = new THREE.Mesh(geo, this.mat)
