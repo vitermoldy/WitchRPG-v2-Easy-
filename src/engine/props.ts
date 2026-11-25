@@ -46,3 +46,4 @@ export class Props {
     if (this.list.length >= CAP) return null
     const p: Prop = { pos: new THREE.Vector3(x, this.g.height(x, z) + radius, z), vel: new THREE.Vector3(), mass: HYDRA.rockMass, radius, held: false, thrown: false, flight: 0, spin: Math.random() * 6 }
     this.list.push(p)
+    return p
