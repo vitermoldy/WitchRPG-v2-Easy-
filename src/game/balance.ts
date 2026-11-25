@@ -61,3 +61,4 @@ export const CAMERA = {
   sensitivity: 0.0022,
 } as const
 
+export const LOCKON = {
