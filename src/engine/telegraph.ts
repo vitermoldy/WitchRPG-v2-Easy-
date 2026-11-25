@@ -189,3 +189,4 @@ export class Telegraphs {
     for (let i = 0; i < pos.count; i++) {
       const across = base[i * 3] * it.width
       const along = (0.5 - base[i * 3 + 2]) * it.len
+      const x = it.ox + it.dx * along + rx * across
