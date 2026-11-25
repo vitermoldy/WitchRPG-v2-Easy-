@@ -231,3 +231,5 @@ export class Lair {
       g.hud.banner('Hydra menelan kepalanya', 'kebal, kecuali di dalam Reality Warp: di sana jantungnya terbuka')
       g.hud.message('Fase 3: pasang Reality Warp (V) di atas Hydra, lalu serang selagi ia di dalam medan.', 'chaos')
     }
+  }
+
