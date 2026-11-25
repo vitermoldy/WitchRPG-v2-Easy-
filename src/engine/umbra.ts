@@ -282,3 +282,4 @@ export class Umbra {
       if (u.team === 'shadow') {
         if (u.deadT > 1.1) g.units.remove(u)
         continue
+      }
