@@ -133,3 +133,4 @@ export class Altars {
       p.hp = Math.min(p.maxHp, p.hp + p.maxHp * HEAL * dt)
       p.mana = Math.min(p.maxMana, p.mana + p.maxMana * HEAL * dt)
       p.poisonT = 0
+      if (Math.random() < dt * 10) {
