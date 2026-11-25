@@ -1151,3 +1151,4 @@ button {
   gap: 2px;
   width: 50px;
   margin-left: -25px;
+  will-change: transform;
