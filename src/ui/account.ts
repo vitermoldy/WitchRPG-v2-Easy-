@@ -216,3 +216,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
       await pushProfile(game.profile)
     } catch {
       setNote('Witch belum terkirim ke server, jadi belum bisa keluar. Coba lagi sebentar lagi')
+      button.disabled = false
