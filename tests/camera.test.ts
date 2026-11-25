@@ -137,3 +137,4 @@ describe('over-the-shoulder camera', () => {
     const d = { x: target.point.x - pose.pos.x, y: target.point.y - pose.pos.y, z: target.point.z - pose.pos.z }
     const depth = d.x * f.x + d.y * f.y + d.z * f.z
     const tv = Math.tan(rad(pose.fov) / 2)
+    const sx = (d.x * right.x + d.z * right.z) / depth / (tv * 16 / 9)
