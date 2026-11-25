@@ -95,3 +95,4 @@ def humanoid(r, H, bulk=1.0, legs="human", female=False, off=(0, 0, 0), arm_pose
         fa = r.P("forearm_" + side, E, "upperarm_" + side)
         fa.limb(E, W, H * 0.025 * bulk, H * 0.018 * bulk, mat=body_mat)
         hd = r.P("hand_" + side, W, "forearm_" + side)
+        hd.ell((W + T) / 2, (H * 0.022 * bulk, H * 0.016 * bulk, H * 0.045), rot=_dir_rot(d2), mat=body_mat)
