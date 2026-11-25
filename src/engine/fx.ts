@@ -326,3 +326,4 @@ interface Warn {
   group: THREE.Group
   fill: THREE.Mesh
   edge: THREE.Mesh
+  t: number
