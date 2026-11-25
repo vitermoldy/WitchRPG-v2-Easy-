@@ -159,3 +159,4 @@ export class Camps {
   }
 
   private wake(camp: Camp, index: number) {
+    const g = this.g
