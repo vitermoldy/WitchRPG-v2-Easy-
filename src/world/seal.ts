@@ -14,3 +14,4 @@ const FRAG = /* glsl */ `
   varying vec2 vUv;
   uniform float uTime;
   uniform float uFade;
+  void main() {
