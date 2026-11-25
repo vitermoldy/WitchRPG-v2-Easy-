@@ -107,3 +107,4 @@ if "variants" in ONLY:
         C.render(sc, p, PCT)
         paths.append(p)
     S.tile_png(paths, os.path.join(RENDERS, "00-kamera-varian.png"))
+    log("render varian")
