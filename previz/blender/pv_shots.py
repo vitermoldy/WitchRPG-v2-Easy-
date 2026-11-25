@@ -323,3 +323,4 @@ def build_minotaur(dunia):
     trail.P("m").tube(pts, radii, mat="t", seg=6, n=3, squash=0.3)
     rng = np.random.default_rng(9)
     tip = pts[-1]
+    for k in range(8):
