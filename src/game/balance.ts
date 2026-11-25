@@ -512,3 +512,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   // v2, Rawa Berkabut: axe under a circle, or a charge along a line. Its front takes 85% less from blows and bolts.
   minotaur: {
     name: 'Minotaur',
+    rank: 'ksatria',
