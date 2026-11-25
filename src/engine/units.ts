@@ -942,3 +942,4 @@ export class UnitSystem {
     const cx = Math.floor(u.pos.x / CELL)
     const cz = Math.floor(u.pos.z / CELL)
     for (let dx = -1; dx <= 1; dx++) {
+      for (let dz = -1; dz <= 1; dz++) {
