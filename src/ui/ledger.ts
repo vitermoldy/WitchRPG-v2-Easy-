@@ -65,3 +65,4 @@ export class Ledger {
       (e) => {
         const d = e.target as HTMLDetailsElement
         if (!d.dataset?.group) return
+        if (d.open) this.openGroups.add(d.dataset.group)
