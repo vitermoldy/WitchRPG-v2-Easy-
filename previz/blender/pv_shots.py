@@ -218,3 +218,4 @@ def shaft_fog(coll, centre, size, z0, density=0.018):
     if m is None:
         m = bpy.data.materials.new(name)
         m.use_nodes = True
+        nt = m.node_tree
