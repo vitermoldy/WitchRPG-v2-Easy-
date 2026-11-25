@@ -193,3 +193,4 @@ export class Particles {
 
 interface LightSlot {
   light: THREE.PointLight
+  ttl: number
