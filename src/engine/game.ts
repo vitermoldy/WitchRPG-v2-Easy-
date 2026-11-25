@@ -649,3 +649,4 @@ export class Game implements UnitHost {
   /** A blow on the Hydra: its phase decides the share; a head takes the stun and passes the damage to the body. */
   private hurtHydra(u: Unit, dmg: number, from: { x: number; z: number }, stun: number, source: 'player' | 'shadow' | 'enemy', kind: DamageKind): boolean {
     const share = this.lair.share(u, kind)
+    const body = this.lair.body!
