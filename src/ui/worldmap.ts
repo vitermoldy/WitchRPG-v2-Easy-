@@ -365,3 +365,4 @@ export class WorldMap {
       ctx.strokeStyle = 'rgba(12, 8, 9, 0.85)'
       ctx.lineWidth = 1.5
       ctx.fill()
+      ctx.stroke()
