@@ -714,3 +714,4 @@ export class UnitSystem {
             const side = Math.atan2(u.pos.x - tgt.pos.x, u.pos.z - tgt.pos.z) + u.flank * 0.25 * dt
             this.steer(u, tgt.pos.x + Math.sin(side) * dist, tgt.pos.z + Math.cos(side) * dist, speed * 0.5, dt)
           }
+        } else if (spec.flank) {
