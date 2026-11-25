@@ -1000,3 +1000,4 @@ def b_typhon(r):
             pts = [W + d * 0.5, W + d * 1.6 + Vector((0.6 * (k - 1), 0, 0.4)), W + d * 2.5 + Vector((1.2 * (k - 1), -0.5, 1.0))]
             hd.tube(pts, [0.3, 0.24, 0.2], mat="snake", seg=7, n=3)
             snake_head(hd, pts[-1], pts[-1] - pts[-2], s=2.0, jaw=40, mat="snake")
+    sp = r.P("serpents", J["hip"], "pelvis")
