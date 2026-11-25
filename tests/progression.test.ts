@@ -199,3 +199,4 @@ describe('version 1: tiers, ranks and growth', () => {
 describe('Tier IV and V', () => {
   it('opens Tier IV at Lv 10 and Tier V at Lv 13, both only after The Hollow Warden falls', () => {
     const p = newProfile()
+    p.level = 12
