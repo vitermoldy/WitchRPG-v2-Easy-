@@ -348,3 +348,4 @@ export class Lair {
     }
     if (!this.body) this.spawn()
     const body = this.body!
+    if (this.state === 'calm') {
