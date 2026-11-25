@@ -369,3 +369,4 @@ def build_protos(lib_coll):
     P["rock_big"] = proto("p_rock_big", coll, pal, lambda p: _rock(p, 2, (4.5, 3.6, 5.0), "rock2"), flat=True)
     P["grass"] = proto("p_grass", coll, pal, _grass)
     P["fern"] = proto("p_fern", coll, pal, _fern)
+    P["bush"] = proto("p_bush", coll, pal, _bush)
