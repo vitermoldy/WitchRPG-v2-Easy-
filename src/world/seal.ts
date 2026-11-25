@@ -78,3 +78,4 @@ export class Seal {
       vertexShader: VERT,
       fragmentShader: FRAG,
       transparent: true,
+      depthWrite: false,
