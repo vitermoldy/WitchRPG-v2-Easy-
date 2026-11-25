@@ -115,3 +115,4 @@ Makhluk memakai warna dari gambar referensinya (keputusan pemilik setelah previz
 | Naga rawa | hijau `#2f6b55`, perut emas `#d9c06a` | jengger oranye `#d0803a`, duri `#c8502a`, sungut |
 | Minotaur | merah cokelat `#9c4c30` | tanduk `#ece2c8`, bulu kaki `#4a2418`, rok kulit `#3a2a20`, dua kapak perak |
 | Cyclops | kulit `#d49a6a` | cawat bulu `#6a4a30`, tali `#4a3020`, perisai kayu, sabuk tengkorak |
+| Medusa | kulit hijau `#86bb62` | rambut ular tembaga `#c47a3a`, ekor `#8aa040`, gaun putih `#f2efe6`, emas |
