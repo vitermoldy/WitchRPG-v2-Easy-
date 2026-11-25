@@ -1992,3 +1992,5 @@ dialog::backdrop {
     bottom: calc(var(--gutter) + 6.8rem);
     max-width: calc(100% - 2 * (min(17rem, 30vw) + 2 * var(--gutter)));
   }
+}
+
