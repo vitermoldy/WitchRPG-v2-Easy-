@@ -15,3 +15,4 @@
     "noEmit": true,
     "paths": { "@/*": ["./src/*"] }
   },
+  "include": ["src", "tests", "vite.config.ts"]
