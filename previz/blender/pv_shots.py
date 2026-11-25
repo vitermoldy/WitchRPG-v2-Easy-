@@ -392,3 +392,4 @@ def build_army(dunia):
         place(built[key], local, p.x, p.y, -f, dz=dz, name=f"bayangan.{i}")
         disc(local, f"kolam.{i}", (p.x, p.y), pr, dark, z_off=0.02)
         disc(local, f"kolam_cincin.{i}", (p.x, p.y), pr * 1.2, pool, z_off=0.04)
+        lt = C.point(local, f"cahaya.kolam.{i}", (p.x, p.y, Wd.ground_z(p.x, p.y) + 0.5), HEX["umbra"], energy=120 * pr, radius=pr * 0.5)
