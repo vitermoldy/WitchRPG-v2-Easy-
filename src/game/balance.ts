@@ -959,3 +959,4 @@ export const HYDRA = {
   /** Mass of a boulder on the islands, as a creature's: thrown at full speed it hits for about 74 with v1's impact formula, before her Hex and the 150% of phase 2. */
   rockMass: 120,
   /** Each new phase gives her back a share of max HP and some mana (v1). */
+  phaseHeal: 0.25,
