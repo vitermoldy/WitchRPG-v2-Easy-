@@ -38,3 +38,4 @@ export class Projectiles {
   private readonly seg = new THREE.Vector3()
   private readonly c = new THREE.Vector3()
 
+  constructor(g: Game) {
