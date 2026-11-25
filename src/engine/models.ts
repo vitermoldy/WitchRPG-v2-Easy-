@@ -142,3 +142,4 @@ export class IlyraModel {
         const l = o as THREE.PointLight
         if (l.isPointLight) {
           l.userData.glow ??= l.intensity
+          l.intensity = on ? 0 : l.userData.glow
