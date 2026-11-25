@@ -151,3 +151,4 @@ def build(dunia, res=(1280, 720), samples=24):
         hz = hydra_z(t)
         hy_i.location.z = hz
         hy_i.keyframe_insert("location", frame=fr)
+        rise = seg(t, T_NAGA + 0.4, T_NAGA + 5.2)
