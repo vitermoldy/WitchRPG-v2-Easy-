@@ -963,3 +963,4 @@ def b_lilith(r):
     long_hair(h, hc, 2.5, 1.0, 0.13)
     t = r.parts["torso"]
     for s in (1, -1):
+        bat_wing(t, (0.1 * s, J["back"][1], J["z"]["sh"]), s, 2.3, 1.5, raise_deg=30, sweep_deg=25, bone="horn", arm="horn")
