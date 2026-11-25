@@ -644,3 +644,6 @@ def b_minotaur(r, pose="idle"):
         if pose == "windup" and side == "R":
             axe(hd, W, Vector((0.15, 0.4, 1)), length=1.5, blade=0.6)
         else:
+            axe(hd, W, Vector((s * 0.15, -0.35, -1.0)) if pose == "idle" else Vector((s * 0.3, -0.6, -0.8)), length=1.25, blade=0.5)
+
+
