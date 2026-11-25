@@ -89,3 +89,4 @@ export class Sfx {
     if (!this.ok()) return
     const t = this.ctx!.currentTime
     this.tone(t, 'sawtooth', 900 + Math.random() * 120, 180, 0.16, 0.12)
+    this.tone(t, 'square', 1800, 600, 0.06, 0.04)
