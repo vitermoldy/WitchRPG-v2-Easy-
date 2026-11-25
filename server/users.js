@@ -11,3 +11,5 @@ const [rows] = await pool.query(
      (SELECT COUNT(*) FROM witch_altars a WHERE a.client_id = u.device_id) AS altars
    FROM users u LEFT JOIN witches w ON w.client_id = u.device_id ORDER BY u.created_at`,
 )
+await pool.end()
+
