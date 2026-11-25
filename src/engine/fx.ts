@@ -398,3 +398,4 @@ const POOL_FRAG = /* glsl */ `
     float inside = smoothstep(R, R - 0.1, r);
     float rim = smoothstep(0.07, 0.0, abs(r - R)) * step(0.02, uOpen);
     float ripple = 0.5 + 0.5 * sin(r * 26.0 - uTime * 5.0 + uSeed);
+    vec3 core = vec3(0.012, 0.004, 0.024) + vec3(0.16, 0.05, 0.32) * ripple * 0.22 * inside;
