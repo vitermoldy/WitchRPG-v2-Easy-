@@ -363,3 +363,4 @@ export class Umbra {
     // shadows left far behind are pulled back to her side
     this.leashT -= dt
     if (this.leashT <= 0) {
+      this.leashT = 1
