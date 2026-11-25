@@ -76,3 +76,4 @@ export class Atmosphere {
     this.sky.renderOrder = -1
     scene.add(this.sky, this.hemi, this.sun, this.sun.target)
 
+    const s = this.sun
