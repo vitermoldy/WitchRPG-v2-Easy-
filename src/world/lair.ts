@@ -7,3 +7,4 @@ import { heightAt, LAKE, SPOTS, toWorld, WATER_LEVEL } from './map'
 
 export type LairState = 'calm' | 'fight' | 'won'
 
+/**
