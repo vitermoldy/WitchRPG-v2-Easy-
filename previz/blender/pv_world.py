@@ -49,3 +49,4 @@ def vnoise(x, y):
     yi = np.floor(y).astype(np.int64)
     fx, fy = x - xi, y - yi
     u = fx * fx * (3 - 2 * fx)
+    v = fy * fy * (3 - 2 * fy)
