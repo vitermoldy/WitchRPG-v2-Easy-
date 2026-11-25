@@ -355,3 +355,4 @@ export class UnitSystem {
   }
 
   stagger(u: Unit) {
+    this.host.clearTelegraph(u)
