@@ -79,3 +79,4 @@ export class Props {
       if (p.thrown || p.pos.y > ground + 0.05 || p.vel.lengthSq() > 0.01) {
         p.flight -= dt
         p.vel.y -= 22 * (p.flight > 0 ? SPELL.grip.flightGravity : 1) * dt
+        p.pos.addScaledVector(p.vel, dt)
