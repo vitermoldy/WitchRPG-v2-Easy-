@@ -406,3 +406,4 @@ class Part:
             if len(A) == 1 and len(Bv) == 1:
                 continue
             if len(A) == 1:
+                for k in range(seg):
