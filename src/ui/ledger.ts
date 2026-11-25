@@ -57,3 +57,4 @@ export class Ledger {
   private readonly openGroups = new Set<string>()
 
   constructor(host: LedgerHost) {
+    this.host = host
