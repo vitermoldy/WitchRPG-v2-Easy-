@@ -77,3 +77,4 @@ def _dist(x, y, c):
 
 def height(x, y):
     x = np.asarray(x, dtype=np.float64)
+    y = np.asarray(y, dtype=np.float64)
