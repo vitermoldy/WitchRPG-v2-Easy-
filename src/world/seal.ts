@@ -111,3 +111,4 @@ export class Seal {
     this.open = true
   }
 
+  update(dt: number) {
