@@ -1208,3 +1208,4 @@ button {
   position: absolute;
   top: calc(var(--gutter) + 0.4rem);
   left: 50%;
+  transform: translateX(-50%);
