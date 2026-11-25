@@ -743,3 +743,4 @@ export class UnitSystem {
           // the circle follows her a little while it winds up: stepping away early still works
           u.aimAt.lerp(tmp.set(tgt.pos.x, tgt.pos.y, tgt.pos.z), Math.min(1, dt * 1.5))
         }
+        if (atk.ahead === undefined) this.face(u, u.aimAt.x, u.aimAt.z, dt, 12)
