@@ -59,3 +59,4 @@ export class Altars {
         root.add(s)
       }
       const crystal = new THREE.Mesh(crystalGeo, new THREE.MeshBasicMaterial({ color: this.dull.clone() }))
+      crystal.position.y = 2.2
