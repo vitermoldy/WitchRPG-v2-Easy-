@@ -10,3 +10,4 @@ from mathutils import Vector
 import pv_common as C
 
 # zone: name, tier, centre, radius, fog colour, fog density at the ground, fog height scale, ground colour
+ZONES = [
