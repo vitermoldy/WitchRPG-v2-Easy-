@@ -6,3 +6,4 @@ const CELL = 8
 const SEALED = new Set(['kuil', 'bara'])
 
 const VERT = /* glsl */ `
+  varying vec2 vUv;
