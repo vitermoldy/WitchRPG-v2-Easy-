@@ -44,3 +44,5 @@ export const PASSWORD_MIN = 6
 export const PASSWORD_MAX = 128
 const SESSION_DAYS = 30
 const SCRYPT = { N: 16384, r: 8, p: 1, maxmem: 64 * 1024 * 1024 }
+const KEYLEN = 64
+
