@@ -536,3 +536,4 @@ def b_harpy(r):
         for a in (-0.02, 0.02):
             hd.cone(W + d * 0.06, W + d * 0.16 + Vector((0, -0.05, a)), 0.008, mat="claw", seg=4)
     tor = r.parts["torso"]
+    tor.ell(V(J["chest"]) + Vector((0, -0.01, 0.04)), (0.15, 0.115, 0.06), mat="accent")
