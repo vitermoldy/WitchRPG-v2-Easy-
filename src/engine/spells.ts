@@ -391,3 +391,4 @@ export class Spells {
       for (const u of g.units.units) {
         if (u === first || !this.grippable(u)) continue
         const d = u.pos.distanceTo(first.pos)
+        if (d < sd) {
