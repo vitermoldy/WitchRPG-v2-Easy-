@@ -273,3 +273,4 @@ def build_valley(dunia):
         ("Danau Hitam", "sarang Hydra", (-330, 300), 30),
         ("Reruntuhan Kuil", "Tier IV, Lv 10-12", (40, 330), 45),
         ("Lembah Bara", "Tier V, Lv 13-15", (330, 330), 70),
+    ]
