@@ -156,3 +156,4 @@ def mat_ring(name, color, strength, inner=0.82, alpha=0.9, fill=0.08):
     cr.elements[0].color = (fill, fill, fill, 1)
     cr.elements[1].position = inner
     cr.elements[1].color = (fill * 1.5, fill * 1.5, fill * 1.5, 1)
+    e = cr.elements.new(min(0.99, inner + (1 - inner) * 0.55))
