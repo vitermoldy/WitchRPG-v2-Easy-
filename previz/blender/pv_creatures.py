@@ -609,3 +609,4 @@ def b_naga(r):
 
 def b_minotaur(r, pose="idle"):
     """Red-brown bull man: pale curved horns, nose ring, studded leather kilt, hooves, a double axe in each hand."""
+    arms = {"idle": {"L": (22, 30, 45), "R": (22, 30, 45)}, "windup": {"L": (25, 25, 50), "R": (30, 160, 15)}}[pose]
