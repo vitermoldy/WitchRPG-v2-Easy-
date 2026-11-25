@@ -840,3 +840,4 @@ export class Game implements UnitHost {
       this.frameCount++
       const ts = performance.now()
       for (let i = 0; i < this.debugSpeed; i++) {
+        this.simulate(dt)
