@@ -662,3 +662,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     recover: 1.2,
     cooldown: 2.8,
     stun: 50,
+    fly: { height: 7 },
