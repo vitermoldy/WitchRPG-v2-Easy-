@@ -1298,3 +1298,4 @@ dialog::backdrop {
   max-height: calc(100vh - 32px);
   padding: 0;
   border: 1px solid var(--line-strong);
+  border-radius: var(--radius);
