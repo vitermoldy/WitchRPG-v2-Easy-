@@ -77,3 +77,5 @@ export class Altars {
 
   byKey(key: string) {
     return this.list.find((a) => a.key === key) ?? this.list[0]
+  }
+
