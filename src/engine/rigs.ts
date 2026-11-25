@@ -931,3 +931,4 @@ class Rig implements Poser {
       const turn = Math.atan2(Math.sin(off), Math.cos(off))
       if (Math.abs(short) + Math.abs(high) + Math.abs(turn) * reach < 0.25) return
       h.neckLean = clamp(h.neckLean + clamp(short * 1.4, -6, 6), -40, 80)
+      h.neckCurl = clamp(h.neckCurl + clamp(high * 0.6, -3, 3), -8, 36)
