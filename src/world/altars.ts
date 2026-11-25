@@ -69,3 +69,5 @@ export class Altars {
       return { key: a.key, name: a.name, pos: new THREE.Vector3(x, y, z), crystal, rune }
     })
     this.paint()
+  }
+
