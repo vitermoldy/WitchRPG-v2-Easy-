@@ -761,3 +761,5 @@ const POSES: Partial<Record<UnitKind, PoseFn>> = {
   minotaur: poseMinotaur,
   medusa: poseMedusa,
   chimera: poseChimera,
+}
+
