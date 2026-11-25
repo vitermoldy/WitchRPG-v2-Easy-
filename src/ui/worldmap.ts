@@ -148,3 +148,4 @@ export class WorldMap {
     return list
   }
 
+  /** The creatures she can look for: every kind in an ordinary camp, and the fauna. */
