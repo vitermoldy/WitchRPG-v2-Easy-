@@ -627,3 +627,4 @@ export class Game implements UnitHost {
           share *= ELITE.ward.share
           break
         }
+      }
