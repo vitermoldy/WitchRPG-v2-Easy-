@@ -30,3 +30,4 @@ export const ALTAR: [number, number] = [-10, -395]
  * Altars: heal, the point she rises at after a fall, and fast travel between the ones already lit
  * (like v1's altar). One by the start, one where the paths split, one on each new zone's path.
  */
+export const ALTARS: { key: string; name: string; c: [number, number] }[] = [
