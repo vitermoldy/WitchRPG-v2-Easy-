@@ -107,3 +107,4 @@ export class Player {
   /**
    * face: a yaw to keep facing (lock-on target, aim direction), or null to turn toward the movement.
    * Aiming slows her to a careful walk and rules out sprinting.
+   */
