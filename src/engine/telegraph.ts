@@ -37,3 +37,4 @@ const LINE_FRAG = /* glsl */ `
   uniform float uFill;
   uniform float uTime;
   void main() {
+    float side = min(vUv.x, 1.0 - vUv.x);
