@@ -458,3 +458,4 @@ export class UnitSystem {
 
   face(u: Unit, x: number, z: number, dt: number, rate = 9) {
     const want = Math.atan2(x - u.pos.x, z - u.pos.z)
+    const d = Math.atan2(Math.sin(want - u.yaw), Math.cos(want - u.yaw))
