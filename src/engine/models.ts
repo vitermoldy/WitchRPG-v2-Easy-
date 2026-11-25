@@ -364,3 +364,4 @@ export class IlyraModel {
       foreR = -30
       staffX = 60
     }
+    if (act.hurt > 0) {
