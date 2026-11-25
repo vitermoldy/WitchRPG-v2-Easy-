@@ -279,3 +279,4 @@ export class Fight {
     return null
   }
 
+  /** A staggered creature close enough for F, the locked one first. */
