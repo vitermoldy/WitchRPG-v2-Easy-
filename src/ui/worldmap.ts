@@ -310,3 +310,4 @@ export class WorldMap {
 
     // zone names, and the seal over Reruntuhan Kuil and Lembah Bara while it holds
     ctx.font = `600 ${Math.max(11, size / 52)}px Figtree Variable, Figtree, system-ui, sans-serif`
+    for (const z of ZONES) {
