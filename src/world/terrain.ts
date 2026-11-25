@@ -124,3 +124,4 @@ export class Terrain {
     const pos = new Float32Array(vcount * 3)
     const nor = new Float32Array(vcount * 3)
     const col = new Float32Array(vcount * 3)
+    const nv = new THREE.Vector3()
