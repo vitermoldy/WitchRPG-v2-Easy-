@@ -4,3 +4,5 @@ Gambaran game sebelum kode ditulis: kamera, skala, palet, dan peran tiap makhluk
 
 ```bash
 "C:\Program Files\Blender Foundation\Blender 5.1\blender.exe" -b --factory-startup -P previz/blender/build.py -- --anim
+```
+
