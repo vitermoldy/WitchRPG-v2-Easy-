@@ -126,3 +126,4 @@ export class Telegraphs {
     it.unit = u
     it.mesh.visible = true
     it.mat.uniforms.uFill.value = 0
+    it.t0 = this.time
