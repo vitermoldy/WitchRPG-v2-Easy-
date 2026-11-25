@@ -172,3 +172,4 @@ Tiga pertanyaan pemilik dari fase 4 (ritme, kabut Lembah Bara, warna mata musuh)
 
 | Bagian | Keputusan | Alasan |
 | --- | --- | --- |
+| Hydra: tubuh dan kepala | Tubuh berbaring di danau, 10 m dari tengah sarang, dengan lima kepala sebagai bagian terpisah. Posisi kepala diambil dari tempat rig menggambarnya, jadi kepala yang terlihat adalah kepala yang dipukul. Kepala tidak punya HP sendiri: pukulan pada kepala masuk ke tubuh, stun masuk ke kepala. Kepala yang limbung bisa dieksekusi; setiap kepala yang terpenggal memotong 8% HP tubuh. HP 6.890 di Lv 12 | Prompt: kepala yang terkena kombo berat limbung dan bisa dieksekusi. Rencana tiga fase dari Hollow Warden v1. |
