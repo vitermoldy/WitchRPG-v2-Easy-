@@ -369,3 +369,4 @@ export class Umbra {
         g.pools.open(u.pos, 1 + u.radius * 1.5, 0.4)
         const at = this.spot(u.slot)
         u.pos.copy(at)
+        u.vel.set(0, 0, 0)
