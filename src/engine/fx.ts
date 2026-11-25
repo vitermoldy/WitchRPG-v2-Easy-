@@ -387,3 +387,4 @@ const POOL_VERT = /* glsl */ `
 const POOL_FRAG = /* glsl */ `
   varying vec2 vUv;
   uniform float uTime;
+  uniform float uOpen;
