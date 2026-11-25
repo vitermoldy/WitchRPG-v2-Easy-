@@ -98,3 +98,4 @@ export class Game implements UnitHost {
   state: State = 'loading'
   /** ?debug: run the simulation this many fixed steps per frame. */
   debugSpeed = 1
+  /** ?debug: wait for the GPU after every frame (reads one pixel), so frame times include all GPU work. */
