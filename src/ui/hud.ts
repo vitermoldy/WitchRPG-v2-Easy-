@@ -110,3 +110,4 @@ export class Hud {
     this.aimEl.classList.toggle('show', on)
   }
 
+  debug(text: string | null) {
