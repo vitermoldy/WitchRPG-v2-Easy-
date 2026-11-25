@@ -171,3 +171,5 @@ export class Lair {
     this.phase = 1
     this.attackIn = 2
     this.bodyAttackIn = 2.5
+  }
+
