@@ -375,3 +375,4 @@ export class UnitSystem {
       return
     }
     this.host.clearTelegraph(u)
+    u.hp = 0
