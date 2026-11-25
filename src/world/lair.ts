@@ -209,3 +209,4 @@ export class Lair {
     this.phase = n
     // each new phase gives her a breath (v1)
     p.hp = Math.min(p.maxHp, p.hp + p.maxHp * HYDRA.phaseHeal)
+    p.mana = Math.min(p.maxMana, p.mana + HYDRA.phaseMana)
