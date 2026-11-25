@@ -127,3 +127,4 @@ export class Ledger {
     const need = xpToNext(p.level)
     $('ledger-lv').textContent = `Lv ${p.level}`
     $('ledger-xp-fill').style.transform = `scaleX(${Math.min(1, p.xp / need).toFixed(3)})`
+    $('ledger-xp-text').textContent = `${fmt(p.xp)} / ${fmt(need)} XP`
