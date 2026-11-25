@@ -491,3 +491,4 @@ export class Lair {
     body.pos.x += (to.x - body.pos.x) * step
     body.pos.z += (to.z - body.pos.z) * step
     body.pos.y += (Math.max(g.height(body.pos.x, body.pos.z), this.waterY - 1.2) - body.pos.y) * step
+    const her = this.target()
