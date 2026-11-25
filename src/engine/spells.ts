@@ -535,3 +535,4 @@ export class Spells {
 
   private cast(id: 'burst' | 'snare' | 'barrier' | 'warp', aiming: boolean) {
     const g = this.g
+    if (!this.unlocked(id)) {
