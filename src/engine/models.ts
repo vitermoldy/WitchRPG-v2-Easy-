@@ -341,3 +341,4 @@ export class IlyraModel {
       armRZ = -15
       foreR = mix(-60 * wind, 0, fling)
       torsoY = mix(mix(torsoY, -30, wind), 25, fling)
+    }
