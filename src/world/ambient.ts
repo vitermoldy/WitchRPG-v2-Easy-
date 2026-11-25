@@ -106,3 +106,4 @@ export class Ambient {
   private readonly tmp = new THREE.Vector3()
 
   constructor(scene: THREE.Scene) {
+    const geo = new THREE.BufferGeometry()
