@@ -4,3 +4,4 @@ import type { Game } from './game'
 import { COLOR } from './palette'
 import { ringOf, type Unit } from './units'
 
+interface Shot {
