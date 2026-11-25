@@ -199,3 +199,4 @@ def build(dunia, res=(1280, 720), samples=24):
             vfov = cn["vfov"]
             ret.location = tgt
         else:
+            u = seg(t, T_NAGA + 0.6, T_NAGA + 4.5)
