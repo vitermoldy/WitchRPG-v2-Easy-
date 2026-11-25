@@ -368,3 +368,4 @@ export class Fight {
       if (before < THROW_RELEASE / THROW_TIME && this.throwT >= THROW_RELEASE / THROW_TIME) this.release()
       if (this.throwT >= 1) this.throwT = -1
     } else if (inp.throwStaff && !this.blocking) {
+      if (this.staff.state === 'hand') {
