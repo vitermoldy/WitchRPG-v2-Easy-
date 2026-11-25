@@ -103,3 +103,4 @@ export class Lair {
     water.visible = false
     this.water = water
     this.group.add(water)
+    // the islands left standing in the flood: boulders wait on them
