@@ -883,3 +883,4 @@ class Rig implements Poser {
     if (u.parts) for (let pass = 0; pass < NECK_PASSES && this.steerNecks(u); pass++) this.posed(u, t)
     const i = this.used++
     const flash = u.flash > 0 ? (u.flash / 0.16) * 1.6 : 0
+    const gr = (glow ? glow.r : 0) + flash
