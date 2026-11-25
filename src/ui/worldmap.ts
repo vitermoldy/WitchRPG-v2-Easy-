@@ -214,3 +214,4 @@ export class WorldMap {
       return [mix((g >> 16) & 255, (f >> 16) & 255), mix((g >> 8) & 255, (f >> 8) & 255), mix(g & 255, f & 255)]
     })
     const w = new Float32Array(ZONES.length)
+    const step = (EXTENT * 2) / BASE
