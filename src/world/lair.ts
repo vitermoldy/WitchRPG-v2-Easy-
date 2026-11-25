@@ -493,3 +493,4 @@ export class Lair {
     body.pos.y += (Math.max(g.height(body.pos.x, body.pos.z), this.waterY - 1.2) - body.pos.y) * step
     const her = this.target()
     const slam = UNITS.hydra.attacks![0]
+    const spit = UNITS.hydraHead.attacks![1]
