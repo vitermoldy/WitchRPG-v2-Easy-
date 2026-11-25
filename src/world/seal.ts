@@ -56,3 +56,4 @@ export class Seal {
       const ha = heightMap(ax, ay) - 1
       const hb = heightMap(bx, by) - 1
       // three.js puts map north at -z
+      pos.push(ax, ha, -ay, bx, hb, -by, bx, hb + H, -by, ax, ha, -ay, bx, hb + H, -by, ax, ha + H, -ay)
