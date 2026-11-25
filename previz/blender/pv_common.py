@@ -350,3 +350,4 @@ class Part:
         return self
 
     def cone(self, base, tip, r, mat="horn", seg=8, r2=0.0, smooth=True):
+        a, b = V(base), V(tip)
