@@ -355,3 +355,4 @@ const poseNaga: PoseFn = (p, u, t) => {
   if (common(p, u, t, ['head'])) return
   const sway = Math.sin(t * 1.8 + u.id)
   p.rot('body', 0, 10 * sway)
+  if (u.state === 'windup') {
