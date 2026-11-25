@@ -403,3 +403,4 @@ class Part:
             rings.append(ring)
             allv += ring
         for A, Bv in zip(rings, rings[1:]):
+            if len(A) == 1 and len(Bv) == 1:
