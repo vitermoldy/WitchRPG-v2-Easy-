@@ -97,3 +97,4 @@ describe('Ilyra on foot', () => {
     for (const [t, inv] of seen) {
       expect(inv).toBe(t >= MOVE.dodge.iframeStart && t <= MOVE.dodge.iframeEnd)
     }
+    expect(seen.some(([, inv]) => inv)).toBe(true)
