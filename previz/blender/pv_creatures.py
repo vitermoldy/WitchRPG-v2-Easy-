@@ -918,3 +918,4 @@ def b_hydra(r, heads=5):
             if j % 2 == 1:
                 pr.cone(js[j] + Vector((0, 0.5 * ra, 0.8 * ra)), js[j] + Vector((0, 1.6 * ra, 1.6 * ra)), 0.18 * ra, mat="accent", seg=5)
             parent = name
+        hp = js[-1]
