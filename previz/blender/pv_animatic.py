@@ -166,3 +166,4 @@ def build(dunia, res=(1280, 720), samples=24):
         eye.location = hydra_head(t) + Vector((0, 0, -1))
         eye.keyframe_insert("location", frame=fr)
 
+        # camera
