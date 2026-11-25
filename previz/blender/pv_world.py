@@ -694,3 +694,4 @@ def build_rift(coll):
     r.finalize()
     for ob in r.coll.objects:
         if ob.type == "MESH":
+            ob.location.y -= 0.5
