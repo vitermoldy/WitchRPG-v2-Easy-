@@ -680,3 +680,6 @@ def b_cyclops(r):
     n = Vector((1, -0.35, 0)).normalized()
     hd.limb(W + n * 0.05, W + n * 0.15, 0.62, 0.62, mat="wood", seg=20, joints=False)
     hd.torus(W + n * 0.12, 0.63, 0.045, normal=n, mat="metal", seg=24, rseg=5)
+    hd.ell(W + n * 0.18, 0.12, mat="metal", seg=10, rings=6)
+
+
