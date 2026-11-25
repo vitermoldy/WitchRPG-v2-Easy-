@@ -11,3 +11,5 @@ describe('WitchRPG v2 (Easy)', () => {
         for (const executed of [false, true]) expect(riteOdds(rank, witch, body, 5, executed), `${rank} ${witch} ${body}`).toBe(1)
       }
     }
+  })
+
