@@ -65,3 +65,4 @@ const MOTE_FRAG = /* glsl */ `
 const RIFT_FRAG = /* glsl */ `
   varying vec2 vUv;
   uniform float uTime;
+  uniform float uFade;
