@@ -1582,3 +1582,4 @@ dialog::backdrop {
 
 .room-item {
   display: grid;
+  grid-template-columns: 1fr auto;
