@@ -135,3 +135,4 @@ export class Obstacles {
         const rad = Math.hypot(x - s.x, z - s.z) - s.r
         const top = s.y + s.h
         const vert = y < s.y ? s.y - y : y > top ? y - top : -Math.min(y - s.y, top - y)
+        d = rad > 0 && vert > 0 ? Math.hypot(rad, vert) : Math.max(rad, vert)
