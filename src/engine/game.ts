@@ -868,3 +868,5 @@ export class Game implements UnitHost {
   }
 
   /** ?debug: average milliseconds of each part of a frame (CPU side), for finding what costs. */
+  readonly profile_: Record<string, number> = {}
+
