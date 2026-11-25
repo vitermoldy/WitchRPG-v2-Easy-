@@ -339,3 +339,4 @@ button {
   align-items: center;
   gap: 0.8rem;
   min-height: 44px;
+  color: var(--ink-2);
