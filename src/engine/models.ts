@@ -274,3 +274,4 @@ export class IlyraModel {
       torsoX = mix(torsoX, 8 - 6 * push, b)
       crouch = 0.06 * b
     }
+    const sw = act.swing
