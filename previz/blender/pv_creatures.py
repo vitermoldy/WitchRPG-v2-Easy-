@@ -301,3 +301,4 @@ def horse_head(part, at, fwd=(0, -1, -0.6), s=1.0, mat="body"):
         part.ell(a + F * 0.1 * s + side * 0.11 * s * k + UP * 0.04 * s, 0.025 * s, mat="eye", seg=8, rings=5)
 
 
+def dragon_head(part, at, fwd=(0, -1, 0), s=1.0, jaw_open=30, horns=True, crest=False, mat="body"):
