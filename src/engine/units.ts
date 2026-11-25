@@ -483,3 +483,4 @@ export class UnitSystem {
       }
       u.stun.update(dt)
       if (u.state === 'stagger' && u.stun.staggered <= 0) u.set('move')
+      if (u.state === 'held' || u.state === 'finishing') continue
