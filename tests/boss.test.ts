@@ -173,3 +173,4 @@ describe('the seal on zones IV and V', () => {
   it('seals Lembah Bara too, and opens both once broken', () => {
     const [bx, bz] = toWorld(330, 330)
     expect(seal.blocks(bx, bz)).toBe(true)
+    const open = new Seal(false)
