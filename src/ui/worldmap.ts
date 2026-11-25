@@ -380,3 +380,4 @@ export class WorldMap {
       ctx.lineWidth = 2
       ctx.fill()
       ctx.stroke()
+      if (!live) {
