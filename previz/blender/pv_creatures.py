@@ -320,3 +320,4 @@ def dragon_head(part, at, fwd=(0, -1, 0), s=1.0, jaw_open=30, horns=True, crest=
         if horns:
             part.tube([a + UP * 0.12 * s + side * 0.1 * s * k, a - F * 0.3 * s + UP * 0.28 * s + side * 0.2 * s * k, a - F * 0.62 * s + UP * 0.3 * s + side * 0.18 * s * k], [0.06 * s, 0.035 * s, 0.0], mat="horn", seg=6, n=3)
         if crest:
+            for i in range(3):
