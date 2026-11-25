@@ -734,3 +734,4 @@ def b_chimera(r):
         gn.ell(gh + Vector((0.11 * s, -0.12, 0.05)), 0.03, mat="eye", seg=8, rings=5)
         gn.cone(gh + Vector((0.12 * s, 0.0, 0.05)), gh + Vector((0.3 * s, 0.05, -0.02)), 0.04, mat="goat", seg=5)
     tb = V(Q["tail_base"])
+    tl = r.P("tail_snake", tb, "body")
