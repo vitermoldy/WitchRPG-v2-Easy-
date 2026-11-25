@@ -258,3 +258,4 @@ export class TravelPanel {
   }
 
   open() {
+    this.next = null
