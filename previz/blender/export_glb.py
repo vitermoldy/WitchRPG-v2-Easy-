@@ -7,3 +7,5 @@ Every part stays a named node with its own pivot (pelvis, thigh_L, neck2_3, ...)
 and animate the model by rotating parts, the way v1's models.ts did. Materials are flattened to one
 colour plus emission, which glTF carries without baking. The two-tone materials (back and belly, see
 pv_common.mat_tone) are baked into vertex colours instead: the shader's up-to-down blend and its light
+noise become COLOR_0, and their flat material turns white so the vertex colour shows as it is.
+
