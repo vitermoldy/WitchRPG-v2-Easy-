@@ -216,3 +216,4 @@ export class WorldMap {
     const w = new Float32Array(ZONES.length)
     const step = (EXTENT * 2) / BASE
     for (let j = 0; j < BASE; j++) {
+      for (let i = 0; i < BASE; i++) {
