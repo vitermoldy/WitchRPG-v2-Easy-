@@ -4,3 +4,5 @@ import math
 
 import bmesh
 import bpy
+from mathutils import Euler, Matrix, Vector
+
