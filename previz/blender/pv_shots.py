@@ -285,3 +285,4 @@ def build_valley(dunia):
         t2 = C.text(local, sub, p, size=s * 0.019, color="#f0e2cc", strength=1.0, align="CENTER", rot=(0, 0, 0), name=f"label2.{title}")
         t2.rotation_euler = rot
         up_v = rot.to_matrix() @ Vector((0, 1, 0))
+        t2.location = p - up_v * s * 0.03
