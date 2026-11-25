@@ -64,3 +64,4 @@ class Staff {
   launch(from: THREE.Vector3, to: THREE.Vector3) {
     this.ensure().visible = true
     this.state = 'flying'
+    this.pos.copy(from)
