@@ -807,3 +807,4 @@ def b_hippogriff(r):
     hp = nb + Vector((0, -0.3, 0.7))
     n = r.P("head", nb, "body")
     n.tube([nb, nb + Vector((0, -0.18, 0.38)), hp], [0.3, 0.24, 0.19], mat="body2", seg=8, n=3)
+    eagle_head(n, hp + Vector((0, -0.05, 0.08)), fwd=(0, -1, -0.2), s=1.75)
