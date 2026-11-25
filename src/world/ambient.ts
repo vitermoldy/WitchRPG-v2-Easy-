@@ -112,3 +112,4 @@ export class Ambient {
     this.size = new Float32Array(COUNT)
     this.alpha = new Float32Array(COUNT)
     geo.setAttribute('position', new THREE.BufferAttribute(this.pos, 3).setUsage(THREE.DynamicDrawUsage))
+    geo.setAttribute('tint', new THREE.BufferAttribute(this.tint, 3).setUsage(THREE.DynamicDrawUsage))
