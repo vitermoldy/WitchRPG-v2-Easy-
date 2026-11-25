@@ -274,3 +274,4 @@ def veg_palette():
         "leaf": C.mat_flat("birch_leaf", "#56703a", 0.85),
         "moss": C.mat_flat("moss", "#3a4a2c", 0.95),
         "swampwood": C.mat_flat("swamp_wood", "#26241d", 0.95),
+        "dead": C.mat_flat("dead_wood", "#4a4540", 0.95),
