@@ -369,3 +369,4 @@ export class Game implements UnitHost {
     this.telegraphs.show(u)
     // both kinds have their own sound too, so the warning does not depend on sight alone
     const near = Math.hypot(u.pos.x - this.player.pos.x, u.pos.z - this.player.pos.z) < 30
+    if (near) this.sfx.warn(u.spec.strike ?? 'ring')
