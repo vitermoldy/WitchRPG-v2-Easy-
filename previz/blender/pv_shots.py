@@ -342,3 +342,4 @@ def build_hydra(dunia, name="05-boss-hydra", res=(1920, 1080), samples=64):
     sd = sun_dir(f, 14, 4.0)
     world = C.sky_world("langit_senja", "#1d1a3e", "#ff8f52", "#141016", 0.8, sun_dir=sd, sun_glow="#ffb46a", glow_power=8)
     sc, local = shot_scene(name, dunia, world, -sd, "#ff9a5a", 3.6, res=res, vol_end=400, exposure=0.1, samples=samples)
+    il = actor("aktor.ilyra.hydra", "ilyra", "cast")
