@@ -181,3 +181,4 @@ export class Sfx {
     osc.frequency.value = 74
     osc2.frequency.value = 148.6
     const f = ctx.createBiquadFilter()
+    f.type = 'lowpass'
