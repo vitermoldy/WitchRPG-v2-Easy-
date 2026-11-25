@@ -887,3 +887,4 @@ export class UnitSystem {
         for (const o of list) {
           if (o === u) continue
           const ox = u.pos.x - o.pos.x
+          const oz = u.pos.z - o.pos.z
