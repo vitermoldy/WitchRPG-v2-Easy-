@@ -74,3 +74,4 @@ interface Item {
 
 /** Amber telegraphs under creatures' attacks, both laid on the ground and following its shape. */
 export class Telegraphs {
+  private readonly items: Item[] = []
