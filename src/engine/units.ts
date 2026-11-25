@@ -213,3 +213,5 @@ export class Unit implements Foe {
       this.speed *= ELITE.swift.speed
       this.tempo = ELITE.swift.tempo
     }
+  }
+
