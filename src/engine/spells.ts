@@ -693,3 +693,4 @@ export class Spells {
       }
       const left = w.duration - w.t
       for (const u of g.units.units) {
+        if (u.team !== 'enemy' || !u.alive || u.spec.anchored || u.state === 'held' || u.state === 'thrown' || u.state === 'finishing') continue
