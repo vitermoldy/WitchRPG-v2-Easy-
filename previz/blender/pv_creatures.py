@@ -1193,3 +1193,6 @@ def build(key, coll, kind=None, pose=None, lights=True):
     else:
         r.J = row[2](r)
     r.finalize()
+    return r
+
+
