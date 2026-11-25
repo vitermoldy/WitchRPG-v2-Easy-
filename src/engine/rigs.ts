@@ -782,3 +782,4 @@ class Rig implements Poser {
   private readonly unitM = new THREE.Matrix4()
   private readonly m = new THREE.Matrix4()
   private readonly q = new THREE.Quaternion()
+  private readonly p = new THREE.Vector3()
