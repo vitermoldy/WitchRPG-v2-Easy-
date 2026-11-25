@@ -488,3 +488,4 @@ export class Fight {
     g.telegraphs.clear(u)
     // step up to it
     const d = Math.hypot(u.pos.x - p.pos.x, u.pos.z - p.pos.z)
+    const step = d - u.radius - 1.0
