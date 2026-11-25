@@ -679,3 +679,4 @@ export class UnitSystem {
       if (u.state === 'windup' || u.state === 'strike') {
         host.clearTelegraph(u)
         u.set('recover')
+      }
