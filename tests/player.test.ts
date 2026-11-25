@@ -113,3 +113,4 @@ describe('Ilyra on foot', () => {
     p.update(1 / 120, { ...idle, dodge: true }, 0, null, false, flat)
     let t = 0
     while (p.dodging) {
+      p.update(1 / 120, idle, 0, null, false, flat)
