@@ -63,3 +63,4 @@ export class Hud {
   private zoneKey = ''
 
   constructor(g: Game) {
+    this.g = g
