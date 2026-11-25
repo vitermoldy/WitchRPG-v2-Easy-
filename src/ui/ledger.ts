@@ -45,3 +45,4 @@ export interface LedgerHost {
   liveShadows(): Set<number>
 }
 
+/** Members listed per Shadow Room group; the rest are summed up in one line. */
