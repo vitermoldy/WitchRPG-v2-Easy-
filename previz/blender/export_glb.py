@@ -67,3 +67,4 @@ def tone_of(m):
 
 def bake_tones(ob):
     """Writes the two-tone shading of mat_tone into a vertex colour (linear), white on other faces.
+    Same numbers as the shader: world normal Z from -0.45 (bottom) to 0.35 (top), and object-space
