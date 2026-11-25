@@ -189,3 +189,5 @@ export class Camps {
       const u = plain.splice(Math.floor(Math.random() * plain.length), 1)[0]
       u.makeElite(ELITE.traits[Math.floor(Math.random() * ELITE.traits.length)])
     }
+  }
+
