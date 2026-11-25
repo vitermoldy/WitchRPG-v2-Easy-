@@ -16,3 +16,4 @@ function patchGlow(mat: THREE.MeshStandardMaterial) {
   mat.onBeforeCompile = (s) => {
     s.vertexShader = s.vertexShader
       .replace('#include <common>', '#include <common>\nattribute vec3 aGlow;\nvarying vec3 vGlow;')
+      .replace('#include <begin_vertex>', '#include <begin_vertex>\nvGlow = aGlow;')
