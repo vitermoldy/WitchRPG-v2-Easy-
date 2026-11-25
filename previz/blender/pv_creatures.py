@@ -1004,3 +1004,4 @@ def b_typhon(r):
     hp = V(J["hip"])
     for k in range(10):
         a = 2 * math.pi * k / 10 + 0.3
+        d = Vector((math.cos(a), math.sin(a), 0))
