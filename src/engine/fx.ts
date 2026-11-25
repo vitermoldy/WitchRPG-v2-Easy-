@@ -406,3 +406,4 @@ const POOL_FRAG = /* glsl */ `
   }
 `
 
+interface Pool {
