@@ -83,3 +83,4 @@ export class CameraRig {
   /** 0 free, 1 fully locked. */
   lock = 0
   /** Share of the wanted distance the camera currently sits at (eases back out after a block). */
+  frac = 1
