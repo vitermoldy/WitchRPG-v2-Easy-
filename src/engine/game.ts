@@ -761,3 +761,4 @@ export class Game implements UnitHost {
     if (this.saveIn < 0) this.saveIn = 2
   }
 
+  saveNow() {
