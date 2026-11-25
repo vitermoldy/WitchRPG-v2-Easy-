@@ -132,3 +132,4 @@ class Staff {
         this.pos.lerpVectors(this.prev, this.pos, wall)
         this.stick()
         g.sfx.clank()
+      } else if (this.pos.y < ground + 0.1) {
