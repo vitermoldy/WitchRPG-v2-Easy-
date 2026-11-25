@@ -444,3 +444,4 @@ export class Spells {
     this.grabbed.forEach((u, i) => {
       const heavy = u.mass > 200
       const dist = 4.6 + (heavy ? 1.5 : 0)
+      const goal = new THREE.Vector3(p.x, p.y + 1.5, p.z).addScaledVector(f, dist).addScaledVector(right, i === 0 ? -0.4 : 1.2)
