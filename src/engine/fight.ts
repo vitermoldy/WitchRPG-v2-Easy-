@@ -440,3 +440,4 @@ export class Fight {
     g.sfx.swing(s.heavy)
   }
 
+  /** The blow lands: everything in its arc in front of her is struck. */
