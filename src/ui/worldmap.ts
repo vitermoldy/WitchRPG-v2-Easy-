@@ -58,3 +58,4 @@ export class WorldMap {
         this.close()
       }
     })
+    $('map-sort').addEventListener('change', () => this.renderMonsters())
