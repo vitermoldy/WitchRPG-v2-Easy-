@@ -178,3 +178,4 @@ export type UnitKind =
 
 /** v2 creatures of the forest; the v1 kinds above stay for the v1 formula tests and later phases. */
 export const V2_KINDS = [
+  'imp', 'hellhound', 'harpy', 'centaur', 'naga', 'minotaur', 'medusa', 'chimera', 'cyclops', 'succubus', 'incubus', 'phoenix', 'hydra',
