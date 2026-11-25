@@ -1240,3 +1240,4 @@ export class Game implements UnitHost {
     const s = this.frameStats()
     const i = this.renderer.info.render
     const [mx, my] = toMap(this.player.pos.x, this.player.pos.z)
+    return [
