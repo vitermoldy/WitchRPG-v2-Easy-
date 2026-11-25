@@ -147,3 +147,4 @@ class Staff {
       this.prev.copy(this.pos)
       const to = hand.sub(this.pos)
       const d = to.length()
+      const speed = Math.min(COMBAT.staff.recallSpeed, 10 + 70 * this.t)
