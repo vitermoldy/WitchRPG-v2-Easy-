@@ -122,3 +122,4 @@ describe('Ilyra on foot', () => {
   })
 
   it('cannot walk up a cliff or into deep water', () => {
+    const cliff: Ground = { height: (_x, z) => (z < -2 ? 30 : 0), obstacles: null, blocked: () => false }
