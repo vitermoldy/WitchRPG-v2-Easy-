@@ -354,3 +354,4 @@ export class Game implements UnitHost {
     if (u.spec.part) {
       this.lair.partDied(u)
       return
+    }
