@@ -855,3 +855,4 @@ class Rig implements Poser {
     o.rotation.set(r.x + x * D, r.y + y * D, r.z + z * D)
   }
 
+  body(lift: number, pitch = 0, roll = 0) {
