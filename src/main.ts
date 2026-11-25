@@ -7,3 +7,4 @@ import { mountAccount } from './ui/account'
 import { Ledger, TravelPanel } from './ui/ledger'
 import { WorldMap } from './ui/worldmap'
 
+const $ = <T extends HTMLElement>(id: string) => document.getElementById(id) as T
