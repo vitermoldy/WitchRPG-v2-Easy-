@@ -603,3 +603,4 @@ def b_naga(r):
         sn = hp + Vector((0.06 * s, -0.5, 0.0))
         h.tube([sn, sn + Vector((0.25 * s, -0.15, -0.1)), sn + Vector((0.45 * s, 0.05, -0.35)), sn + Vector((0.5 * s, 0.25, -0.6))], [0.015, 0.01, 0.006, 0.0], mat="horn", seg=4, n=3)
     for i in range(6):
+        p = V(pts[10 - i]) + Vector((0, 0.15, 0.22))
