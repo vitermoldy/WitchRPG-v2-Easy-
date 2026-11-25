@@ -99,3 +99,4 @@ export function tierLock(p: Profile, tier: TierId): string | null {
 export const bossUnlocked = (p: Profile) => p.level >= (TIERS[3].boss?.unlock ?? 10)
 
 /**
+ * Why this witch cannot raise a body of this kind yet, or null when she can.
