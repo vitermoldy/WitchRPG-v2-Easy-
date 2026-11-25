@@ -175,3 +175,4 @@ export class Unit implements Foe {
     this.speed = st.speed
     this.radius = this.spec.radius
     this.mass = this.spec.mass
+    this.stun = new StunMeter(this.spec.stun ?? 40)
