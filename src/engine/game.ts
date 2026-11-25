@@ -360,3 +360,4 @@ export class Game implements UnitHost {
     this.reward(u)
     if (u.elite === 'meledak') this.blastLater(u.pos.clone(), ELITE.burst.radius, u.damage * ELITE.burst.damage, ELITE.burst.delay)
     const rb = u.spec.rebirth
+    if (rb && u.reborn) this.blastLater(u.pos.clone(), rb.burst, u.damage * 2, rb.delay)
