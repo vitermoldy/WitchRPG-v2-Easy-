@@ -16,3 +16,4 @@ const wrap = (a: number) => Math.atan2(Math.sin(a), Math.cos(a))
 export const lockPoint = (t: Target): Vec => ({ x: t.x, y: t.y + t.height * 0.62, z: t.z })
 
 /**
+ * Middle-click locks on to the creature nearest the middle of the view; a quick sideways flick of the
