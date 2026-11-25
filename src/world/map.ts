@@ -181,3 +181,4 @@ export const WATER_LEVEL = 0
 export const WATER_RECT: [number, number, number, number] = [-560, -170, -90, 420]
 
 export function inWaterRect(x: number, y: number) {
+  return x > WATER_RECT[0] && x < WATER_RECT[2] && y > WATER_RECT[1] && y < WATER_RECT[3]
