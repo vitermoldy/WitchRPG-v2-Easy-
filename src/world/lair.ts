@@ -32,3 +32,4 @@ const CURTAIN_FRAG = /* glsl */ `
   varying vec2 vUv;
   uniform float uTime;
   uniform float uFade;
+  uniform vec3 uColor;
