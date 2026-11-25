@@ -563,3 +563,6 @@ def ref_plane(coll, name, file, crop, centre, box):
     ob = bpy.data.objects.new(name, me)
     ob.location = centre
     coll.objects.link(ob)
+    return ob
+
+
