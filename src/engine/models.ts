@@ -87,3 +87,4 @@ const SWINGS = [
  * a forward roll for the dodge, a raised left hand while aiming, breathing when still, and the fight:
  * staff swings, block, parry, execution, throw and catch, bolt, Telekinesis, Umbra Rite, hurt and fall.
  */
+export class IlyraModel {
