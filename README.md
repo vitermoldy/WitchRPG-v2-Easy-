@@ -30,3 +30,4 @@ npm test         # tes progresi v1, kamera, gerak, peta, tempur, AI makhluk, sim
 npm run build    # hasil di dist/
 npm start        # setelah build: server sekaligus melayani dist/ di http://localhost:8915
 npm run users    # daftar akun
+npm run set-user -- <username> <kata sandi>   # buat akun atau ganti kata sandinya
