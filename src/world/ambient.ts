@@ -215,3 +215,4 @@ export class Ambient {
       this.rift.rotateZ(0.35)
     }
   }
+}
