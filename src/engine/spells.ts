@@ -584,3 +584,4 @@ export class Spells {
         dir.normalize().multiplyScalar(push * k * Math.min(1, 80 / Math.max(30, u.mass)))
         g.units.toss(u, { x: dir.x, y: lift * k, z: dir.z }, false)
       }
+    }
