@@ -121,3 +121,4 @@ export class Player {
 
     this.dodgeCd = Math.max(0, this.dodgeCd - dt)
     this.landRefused = false
+    if (input.fly) this.toggleFlight(g)
