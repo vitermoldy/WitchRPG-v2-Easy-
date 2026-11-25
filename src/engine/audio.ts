@@ -410,3 +410,4 @@ export class Sfx {
       f.Q.value = q
       const g = ctx.createGain()
       g.gain.value = 0.0001
+      src.connect(f).connect(g).connect(this.master!)
