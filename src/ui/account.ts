@@ -196,3 +196,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
   function skip(): void {
     skipped = true
     render()
+    $('btn-enter').focus()
