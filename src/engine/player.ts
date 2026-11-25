@@ -87,3 +87,5 @@ export class Player {
 
   get dodging() {
     return this.dodgeT >= 0
+  }
+
