@@ -111,3 +111,4 @@ def ground_z(x, y):
     return float(height(np.array([x]), np.array([y]))[0])
 
 
+def zone_weights(x, y):
