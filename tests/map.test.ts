@@ -65,3 +65,4 @@ describe('the forest valley', () => {
       const [camp] = camps
       expect(Object.keys(camp.pack), kind).toEqual([kind])
       const z = zoneAt(camp.c[0], camp.c[1])
+      expect(['kuil', 'bara'], kind).toContain(z.key)
