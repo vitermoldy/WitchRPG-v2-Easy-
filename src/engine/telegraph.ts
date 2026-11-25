@@ -133,3 +133,4 @@ export class Telegraphs {
       it.oz = u.pos.z
       it.dx = u.lungeDir.x
       it.dz = u.lungeDir.z
+      it.len = atk.shot ? dist + 4 : (atk.lungeSpeed ?? 12) * (atk.lungeTime ?? 0.4) + u.radius + 1
