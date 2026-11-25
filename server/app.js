@@ -123,3 +123,4 @@ export function createApi(getPool, database) {
   async function readProfile(db, client) {
     const [[w]] = await db.query('SELECT * FROM witches WHERE client_id = ?', [client])
     if (!w) return null
+    const [ups] = await db.query('SELECT skill FROM witch_upgrades WHERE client_id = ?', [client])
