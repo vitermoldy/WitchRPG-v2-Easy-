@@ -663,3 +663,4 @@ def sky_world(name, zenith, horizon, ground, strength=1.0, haze=None, haze_densi
     cr.elements[1].position = 1.0
     cr.elements[1].color = rgb(zenith)
     e = cr.elements.new(0.5)
+    e.color = rgb(horizon)
