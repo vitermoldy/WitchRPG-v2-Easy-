@@ -57,3 +57,4 @@ Salin `.env.example` menjadi `.env` dan isi akun MySQL. Server membuat database 
 | F di altar | Perjalanan cepat ke altar lain yang sudah menyala, atau buka Ledger |
 | Esc | Jeda: sensitivitas, volume, bayangan detail penuh, guncangan kamera |
 
+| Tempur | |
