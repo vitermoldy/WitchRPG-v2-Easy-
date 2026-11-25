@@ -189,3 +189,4 @@ describe('version 1: tiers, ranks and growth', () => {
     expect(tough / unitStats('husk', 1, false).hp).toBeLessThan(2.5)
   })
   it('a fresh witch stops being fresh after a boss kill', () => {
+    const p = newProfile()
