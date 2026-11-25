@@ -136,3 +136,6 @@ def path_dist(x, y):
 # ---------------------------------------------------------------- terrain and water
 
 def _hex(h):
+    return np.array(C.rgb(h)[:3])
+
+
