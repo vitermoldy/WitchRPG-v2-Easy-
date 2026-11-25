@@ -1016,3 +1016,4 @@ export class Game implements UnitHost {
 
     this.cullIn -= dt
     if (this.cullIn <= 0) {
+      this.forest.cull(p.pos.x, p.pos.z)
