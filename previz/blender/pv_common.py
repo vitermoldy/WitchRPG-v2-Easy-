@@ -499,3 +499,4 @@ class Rig:
 def collection(name, parent):
     """New collection linked under `parent` (a collection or a scene's master collection)."""
     c = bpy.data.collections.get(name)
+    if c is None:
