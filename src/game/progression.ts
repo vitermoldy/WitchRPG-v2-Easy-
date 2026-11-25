@@ -249,3 +249,4 @@ export function unitStats(kind: UnitKind, level: number, shadow: boolean) {
   return { hp: Math.round(hp), damage: Math.round(damage * 10) / 10, speed }
 }
 
+export function chaosFromDamage(dealt: number, taken: number): number {
