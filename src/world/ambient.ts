@@ -117,3 +117,4 @@ export class Ambient {
     geo.setAttribute('alpha', new THREE.BufferAttribute(this.alpha, 1).setUsage(THREE.DynamicDrawUsage))
     const mat = new THREE.ShaderMaterial({
       uniforms: { uScale: { value: 600 } },
+      vertexShader: MOTE_VERT,
