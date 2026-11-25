@@ -41,3 +41,4 @@ export const CAMP_DEFS: CampDef[] = [
   { c: [336, -128], pack: { harpy: 3, centaur: 1 }, levels: [5, 6] },
   { c: [392, -62], pack: { centaur: 3 }, levels: [6, 6] },
   // Rawa Berkabut (Tier III, Lv 7 to 9): Naga in the swamp, Minotaurs on the drier ground, two lairs
+  { c: [-140, -70], pack: { naga: 3 }, levels: [7, 7] },
