@@ -462,3 +462,4 @@ export class ShadowPools {
     for (const p of this.pools) {
       if (p.state === 'off') continue
       p.t += dt
+      p.mat.uniforms.uTime.value += dt
