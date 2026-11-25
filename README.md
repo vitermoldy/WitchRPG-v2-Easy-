@@ -59,3 +59,4 @@ Salin `.env.example` menjadi `.env` dan isi akun MySQL. Server membuat database 
 
 | Tempur | |
 | --- | --- |
+| Klik kiri | Tiga pukulan tongkat berantai; tahan untuk pukulan berat |
