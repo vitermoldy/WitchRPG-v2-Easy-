@@ -100,3 +100,4 @@ export class Input {
   }
 
   endFrame() {
+    this.pressedSet.clear()
