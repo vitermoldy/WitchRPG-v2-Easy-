@@ -130,3 +130,5 @@ export class Lair {
     this.curtain.position.set(this.center.x, this.groundY + 6, this.center.z)
     this.curtain.renderOrder = 7
     this.group.add(this.curtain)
+  }
+
