@@ -116,3 +116,4 @@ export class CameraRig {
   /**
    * Yaw and pitch that put the lock point on the upper-right third of the frame, measured from where
    * the camera stands (behind and right of her head), so near targets land on the third too.
+   */
