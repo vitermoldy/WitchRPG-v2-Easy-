@@ -5,3 +5,5 @@ import { skillById, type SkillId } from '../game/skills'
 import type { Game } from './game'
 import { COLOR } from './palette'
 import type { Prop } from './props'
+import type { Unit } from './units'
+
