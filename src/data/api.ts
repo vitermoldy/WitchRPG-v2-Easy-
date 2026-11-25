@@ -55,3 +55,4 @@ const listeners = new Set<(state: AuthState) => void>()
 function setAuth(next: AuthState): void {
   auth = next
   listeners.forEach((fn) => fn(auth))
+}
