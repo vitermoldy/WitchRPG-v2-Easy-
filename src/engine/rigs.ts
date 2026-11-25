@@ -54,3 +54,4 @@ function shadowMaterial(src: THREE.MeshStandardMaterial, geo?: THREE.BufferGeome
   return m
 }
 
+interface Part {
