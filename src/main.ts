@@ -159,3 +159,4 @@ async function boot() {
     game.resume()
   }
   ledger.onClose = () => void backToFight()
+  map.onClose = () => void backToFight()
