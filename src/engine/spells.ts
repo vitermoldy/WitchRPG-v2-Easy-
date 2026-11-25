@@ -596,3 +596,4 @@ export class Spells {
     g.addTrauma(Math.max(0.15, 0.6 - Math.hypot(p.x - at.x, p.y - at.y, p.z - at.z) * 0.02))
   }
 
+  private snare(at: THREE.Vector3) {
