@@ -129,3 +129,4 @@ export const RITE = {
   maxShadows: 2000,
   /** A fallen shadow can be called again after this many seconds. */
   reform: 45,
+  summonCooldown: 2.5,
