@@ -203,3 +203,4 @@ def terrain_material():
     bara.attribute_name = "bara"
     tc = N.new("ShaderNodeTexCoord")
     noi = N.new("ShaderNodeTexNoise")
+    noi.inputs["Scale"].default_value = 0.6
