@@ -84,3 +84,4 @@ const SHIELD_VERT = /* glsl */ `
     gl_Position = projectionMatrix * mv;
   }
 `
+const SHIELD_FRAG = /* glsl */ `
