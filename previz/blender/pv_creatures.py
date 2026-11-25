@@ -57,3 +57,5 @@ def humanoid(r, H, bulk=1.0, legs="human", female=False, off=(0, 0, 0), arm_pose
     o = V(off)
 
     def P(x, y, zz):
+        return (x + o.x, y + o.y, zz + o.z)
+
