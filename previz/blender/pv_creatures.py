@@ -354,3 +354,4 @@ def tail_tube(part, pts, r0, r1=0.0, mat="body", seg=7):
     part.tube(pts, [r0 + (r1 - r0) * i / (n - 1) for i in range(n)], mat=mat, seg=seg, n=4)
 
 
+def face(part, hc, H, eyes=True, nose=True, mat="skin"):
