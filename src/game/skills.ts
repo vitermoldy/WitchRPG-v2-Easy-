@@ -105,3 +105,4 @@ export const SKILLS: SkillDef[] = [
     key: 'Roda Z',
     unlock: 4,
     effect: 'Bertukar posisi dengan bayangan yang paling dekat ke titik bidik.',
+    upgrade: 'Cooldown 10 jadi 6 detik.',
