@@ -258,3 +258,4 @@ export class LightPool {
     for (const s of this.slots) {
       s.held = false
       s.ttl = 0
+      s.light.intensity = 0
