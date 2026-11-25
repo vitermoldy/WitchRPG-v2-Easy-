@@ -151,3 +151,4 @@ export class Camps {
         m.compose(new THREE.Vector3(x, y + 0.6, z), q, new THREE.Vector3(1, 1, 1))
         this.shards.setMatrixAt(i, m)
         this.shards.setColorAt(i, this.lit)
+      }
