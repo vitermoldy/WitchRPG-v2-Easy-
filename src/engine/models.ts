@@ -309,3 +309,4 @@ export class IlyraModel {
         armLX = armRX + 10
         armLY = -20
         foreL = foreR - 10
+        const slam = sw.t > sw.windup ? Math.sin(Math.PI * Math.min(1, (sw.t - sw.windup) / (sw.active + sw.recover * 0.6))) : 0
