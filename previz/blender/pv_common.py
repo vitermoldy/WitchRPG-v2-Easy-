@@ -129,3 +129,4 @@ def mat_cracked(name, color, crack, strength=5.0, scale=2.2, rough=0.75, coverag
 
 
 def mat_tone(name, top, bottom=None, rough=0.7, metal=0.0, emit=None, emit_strength=0.0, vary=0.12):
+    """Flat colour that shifts from `top` (facing up) to `bottom` (facing down), with a little noise
