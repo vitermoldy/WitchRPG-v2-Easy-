@@ -243,3 +243,4 @@ def palette_ref(key, spec):
         top = vals["body"][0] if isinstance(vals["body"], tuple) else vals["body"]
         pal["body"] = mat_cracked(f"{key}.body_veins", top, veins, 6.0, scale=2.4, coverage=0.6)
     pal["eye"] = mat_emit(f"{key}.eye", eye, 22.0)
+    pal["glow"] = mat_emit(f"{key}.glow", glow, 7.0)
