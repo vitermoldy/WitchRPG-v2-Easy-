@@ -83,3 +83,4 @@ describe('over-the-shoulder camera', () => {
     obs.add({ kind: CYL, x: 0.4, y: 0, z: 1.5, r: 0.3, h: 12, camOnly: false })
     rig.update(1 / 60, pivot, false, null, obs, flat)
     const blocked = rig.frac
+    const empty = new Obstacles()
