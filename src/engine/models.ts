@@ -25,3 +25,4 @@ export async function loadModel(url: string): Promise<THREE.Group> {
 export function bakeByMaterial(root: THREE.Object3D): { geometry: THREE.BufferGeometry; material: THREE.Material }[] {
   root.updateMatrixWorld(true)
   const groups = new Map<THREE.Material, THREE.BufferGeometry[]>()
+  root.traverse((o) => {
