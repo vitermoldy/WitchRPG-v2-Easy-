@@ -158,3 +158,4 @@ export function createApi(getPool, database) {
       await touch(conn, client)
       const [[cur]] = await conn.query('SELECT updated_at FROM witches WHERE client_id = ? FOR UPDATE', [client])
       // Two browsers on one account: the newer save wins, the older one gets the stored copy back.
+      if (cur && new Date(cur.updated_at).getTime() > p.updatedAt.getTime()) {
