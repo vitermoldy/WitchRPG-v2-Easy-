@@ -73,3 +73,5 @@ export interface Poser {
   hide(name: string): void
 }
 
+type PoseFn = (p: Poser, u: Unit, t: number) => void
+
