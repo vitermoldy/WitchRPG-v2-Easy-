@@ -1297,3 +1297,4 @@ dialog::backdrop {
   width: min(70rem, calc(100vw - 32px));
   max-height: calc(100vh - 32px);
   padding: 0;
+  border: 1px solid var(--line-strong);
