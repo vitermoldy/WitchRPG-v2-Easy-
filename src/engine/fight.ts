@@ -383,3 +383,4 @@ export class Fight {
     this.combo.update(dt, mayAttack && inp.attackPressed, mayAttack && inp.attackHeld, this.events)
     for (const e of this.events) {
       if (e.type === 'start') this.startSwing(e.s, inp)
+      else if (e.type === 'hit') this.land(e.s)
