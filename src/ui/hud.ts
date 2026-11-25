@@ -307,3 +307,4 @@ export class Hud {
     const order = { marsekal: 0, jenderal: 1, ksatria: 2, prajurit: 3 }
     const top = [...field].sort((a, b) => order[a.spec.rank] - order[b.spec.rank] || b.level - a.level).slice(0, 3)
     for (const u of top) {
+      const hp = Math.max(0, u.hp / u.maxHp)
