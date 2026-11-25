@@ -217,3 +217,4 @@ export class Camps {
           camp.state = 'cleared'
           camp.respawnAt = this.time + (camp.def.boss ? CAMP.bossRespawn : CAMP.respawn)
           colors = true
+          const boss = camp.def.boss ? UNITS[Object.keys(camp.def.pack)[0] as V2Kind] : null
