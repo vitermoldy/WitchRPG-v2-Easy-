@@ -443,3 +443,4 @@ export class Sfx {
   ambience(dt: number, w: ArrayLike<number>) {
     if (!this.ok() || !this.amb) return
     const [pembuka = 0, tebing = 0, rawa = 0, kuil = 0, bara = 0] = Array.from(w)
+    const t = this.ctx!.currentTime
