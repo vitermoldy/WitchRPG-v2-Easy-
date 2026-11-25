@@ -188,3 +188,4 @@ describe('creature shots', () => {
     const glob = UNITS.naga.attacks!.find((a) => a.shot && a.strike === 'ring')!
     const noop = () => {}
     let falls = 0
+    const g = {
