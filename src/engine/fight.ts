@@ -43,3 +43,4 @@ class Staff {
   private spin = 0
   private readonly hit = new Set<Unit>()
   private readonly dir = new THREE.Vector3()
+  private readonly tmp = new THREE.Vector3()
