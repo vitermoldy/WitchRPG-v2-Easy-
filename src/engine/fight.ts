@@ -417,3 +417,4 @@ export class Fight {
     let target: Unit | null = locked && locked.alive ? locked : null
     if (!target) {
       let best = Infinity
+      for (const u of g.units.units) {
