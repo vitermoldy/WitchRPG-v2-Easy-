@@ -475,3 +475,4 @@ class Rig:
             bmesh.ops.recalc_face_normals(p.bm, faces=p.bm.faces[:])
             me = bpy.data.meshes.new(f"{self.key}.{name}")
             p.bm.to_mesh(me)
+            p.bm.free()
