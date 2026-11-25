@@ -121,3 +121,4 @@ export class Camps {
   /** The Minotaur's shield is explained once, the first time a pack with one is roused. */
   private toldShield = false
 
+  constructor(g: Game) {
