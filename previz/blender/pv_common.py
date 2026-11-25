@@ -362,3 +362,5 @@ class Part:
         M = self._M(c) @ R @ Matrix.Diagonal((size[0], size[1], size[2], 1))
         g = bmesh.ops.create_cube(self.bm, size=1.0, matrix=M)
         self._tag(g["verts"], mat, smooth)
+        return self
+
