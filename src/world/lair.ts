@@ -135,3 +135,5 @@ export class Lair {
   /** Where the body lies in the lake (phase 1 and 2), and how close it crawls in phase 3. */
   private bodyAt(phase: number) {
     return this.center.clone().addScaledVector(this.dir, phase === 3 ? HYDRA.crawls : HYDRA.lies)
+  }
+
