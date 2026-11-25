@@ -1107,3 +1107,4 @@ COLORS = {
     "cerberus": {"body": ("#9a92ae", "#bcb4cc"), "collar": "#1c1c20", "metal": "#d0d0d8", "horn": "#f2f0ea", "mouth": "#a01c22", "nose": "#2a2430", "claw": "#3a3440"},
     "lilith": {"skin": "#e2b9a2", "hair": "#2a1a18", "cloth": "#4b3b7c", "snake": ("#b02a20", "#e0a070"), "membrane": "#3a1a20", "horn": "#2a1a1a", "mouth": "#5a0e0a"},
     "typhon": {"skin": ("#d0903a", "#b87a30"), "hair": "#4a4a4a", "membrane": "#6a6a72", "snake": ("#b07a30", "#e0c080"), "horn": "#e8dcc0"},
+    "samael": {"skin": "#e6c8b0", "hair": "#f0eeea", "membrane": ("#f4eee0", "#d8ccb0"), "accent": "#d8c08a", "cloth": "#a02a20", "glow": "#ffd88a", "metal": "#d8c08a"},
