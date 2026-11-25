@@ -1066,3 +1066,4 @@ def _horse(r, wings, horn):
         n.cone(hc, hc + Vector((0, -0.45, 0.55)), 0.045, mat="horn", seg=8)
     tl = r.P("tail", Q["tail_base"], "body")
     for k in (-0.06, 0.0, 0.06):
+        tail_tube(tl, [Q["tail_base"], (k, 1.25, 1.25), (k * 2, 1.5, 0.8), (k * 3, 1.45, 0.25)], 0.07, 0.0, mat="body2")
