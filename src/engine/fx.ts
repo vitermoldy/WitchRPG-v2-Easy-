@@ -235,3 +235,5 @@ export class LightPool {
     slot.light.intensity = intensity
     slot.light.distance = distance
     return slot.light
+  }
+
