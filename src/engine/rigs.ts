@@ -791,3 +791,4 @@ class Rig implements Poser {
     this.passive = !!UNITS[kind]?.passive
     this.cap = cap
     this.pose = POSES[kind] ?? (() => {})
+    const scene = model.clone(true)
