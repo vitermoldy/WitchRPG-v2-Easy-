@@ -27,3 +27,4 @@ const MEADOWS: [number, number][] = [
   [-20, 380],
 ]
 
+export class Fauna {
