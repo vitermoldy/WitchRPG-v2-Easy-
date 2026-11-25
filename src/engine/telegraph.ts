@@ -172,3 +172,4 @@ export class Telegraphs {
     const pos = geo.attributes.position as THREE.BufferAttribute
     const base = geo.userData.base as Float32Array
     for (let i = 0; i < pos.count; i++) {
+      const x = cx + base[i * 3] * it.radius
