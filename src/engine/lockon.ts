@@ -18,3 +18,4 @@ export const lockPoint = (t: Target): Vec => ({ x: t.x, y: t.y + t.height * 0.62
 /**
  * Middle-click locks on to the creature nearest the middle of the view; a quick sideways flick of the
  * mouse moves the lock to the next creature on that side. The lock lets go when the target dies, walks
+ * out of range, or stays hidden behind trees for too long.
