@@ -15,3 +15,5 @@ const GROUND = ZONES.map((z) => hex(z.ground))
 const ROCK = hex('#4a4642')
 const MUD = hex('#1a1d14')
 const SNOW = hex('#c9ced6')
+const PATH = hex('#4a3b2c')
+
