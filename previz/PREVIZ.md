@@ -43,3 +43,5 @@ Varian yang dibandingkan di `00-kamera-varian.png`:
 | A | Angka awal prompt: FOV 68 vertikal, 3,4 m, bahu 0,85 m, tinggi 1,65 m | Ilyra sekitar sepertiga tinggi layar, tepi gambar meregang, Imp kecil |
 | B | FOV 68 dibaca horizontal (41,6 vertikal) | Ilyra besar dan dekat, tapi kawanan sudah memenuhi seluruh lebar layar; makhluk yang datang dari samping tidak akan terlihat |
 | C | Dipilih: FOV 50, 3,4 m, bahu 0,8 m, tinggi 1,6 m, pitch -6° | Ilyra di sepertiga kiri, seluruh kawanan di depan terlihat dengan ruang di kedua sisi |
+| D | Mode bidik: FOV 40, 2,0 m, bahu 0,65 m | Bahu dan kepala mengisi kiri; kepala tongkat yang menyala jatuh tepat di tengah dan menutupi target (lihat temuan) |
+
