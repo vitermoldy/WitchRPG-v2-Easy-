@@ -723,3 +723,4 @@ export class UnitSystem {
           this.steer(u, tgt.pos.x, tgt.pos.z, speed, dt, this.wantRange(u) * 0.75)
         } else {
           // no free slot: circle her at a wary distance
+          const side = Math.atan2(u.pos.x - tgt.pos.x, u.pos.z - tgt.pos.z) + u.flank * 0.5 * dt
