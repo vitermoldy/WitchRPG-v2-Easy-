@@ -73,3 +73,4 @@ def bake_tones(ob):
         return False
     tones = [tone_of(s.material) for s in ob.material_slots]
     if not any(tones):
+        return False
