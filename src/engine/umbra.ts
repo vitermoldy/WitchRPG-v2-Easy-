@@ -370,3 +370,4 @@ export class Umbra {
         const at = this.spot(u.slot)
         u.pos.copy(at)
         u.vel.set(0, 0, 0)
+        u.set('rising')
