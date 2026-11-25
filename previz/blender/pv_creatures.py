@@ -1143,3 +1143,4 @@ ROSTER = [
     ("unicorn", "Unicorn", b_unicorn, "Penjaga altar", "Bukan musuh", "Altar", ("167518dd7ed83f5f910603744479.jpg", (410, 30, 669, 376))),
 ]
 
+ROSTER_BY_KEY = {row[0]: row for row in ROSTER}
