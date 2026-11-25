@@ -24,3 +24,4 @@ const SHAPE: Record<Kind, { trunk: number; h: number; crown: [number, number, nu
 }
 
 const MIX: Record<string, [Partial<Record<Kind, number>>, number]> = {
+  pembuka: [{ pine: 0.45, pine_tall: 0.2, birch: 0.35 }, 2.4],
