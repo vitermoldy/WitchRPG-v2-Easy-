@@ -424,3 +424,4 @@ export class Lair {
   /** Keeps a head's slam circle where its neck can lay the head: between slamNear and slamReach from the body. */
   private inReach(at: THREE.Vector3) {
     const b = this.body!
+    const dx = at.x - b.pos.x
