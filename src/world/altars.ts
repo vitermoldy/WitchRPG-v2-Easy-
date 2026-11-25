@@ -23,3 +23,4 @@ const stoneMat = new THREE.MeshStandardMaterial({ color: 0x4a4448, roughness: 0.
  * heals her while she stands at it, and F there opens fast travel to every other lit altar and the
  * Ledger. An unlit altar's crystal is a dull grey; a lit one glows Umbra violet.
  */
+export class Altars {
