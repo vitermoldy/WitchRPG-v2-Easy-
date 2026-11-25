@@ -274,3 +274,5 @@ export interface UnitSpec {
   part?: boolean
   /** v2 fauna: never attacks, cannot be struck or raised, keeps away from her. */
   passive?: boolean
+}
+
