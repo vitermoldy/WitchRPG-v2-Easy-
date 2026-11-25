@@ -8,3 +8,5 @@ import { Ledger, TravelPanel } from './ui/ledger'
 import { WorldMap } from './ui/worldmap'
 
 const $ = <T extends HTMLElement>(id: string) => document.getElementById(id) as T
+const debug = new URLSearchParams(location.search).has('debug')
+
