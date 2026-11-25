@@ -156,3 +156,4 @@ export class WorldMap {
       for (const kind of Object.keys(def.pack) as V2Kind[]) {
         if (UNITS[kind].boss) continue
         const m = out.get(kind) ?? { kind, name: UNITS[kind].name, lo: 99, hi: 0, camps: 0, fauna: false }
+        m.lo = Math.min(m.lo, def.levels[0])
