@@ -31,3 +31,4 @@ export interface ShadowRecord {
   xp: number
 }
 
+export interface Settings {
