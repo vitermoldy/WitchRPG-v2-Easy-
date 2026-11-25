@@ -79,3 +79,4 @@ async function boot() {
     const show = () => {
       input.value = String(value())
       out.textContent = fmt(value())
+    }
