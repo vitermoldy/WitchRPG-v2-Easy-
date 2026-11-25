@@ -478,3 +478,4 @@ export class Spells {
     if (!this.grabbed.length && !this.heldProp) return
     const aimAt = throwIt ? g.aim(80).point : null
     if (this.heldProp) {
+      const prop = this.heldProp
