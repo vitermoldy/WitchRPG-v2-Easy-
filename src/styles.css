@@ -1162,3 +1162,4 @@ button {
 
 .hpbar .hp {
   height: 4px;
+  background: var(--rift);
