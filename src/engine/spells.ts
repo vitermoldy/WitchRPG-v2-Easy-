@@ -221,3 +221,4 @@ export class Spells {
     const g = this.g
     this.boltCd = Math.max(0, this.boltCd - dt)
     this.burstCd = Math.max(0, this.burstCd - dt)
+    this.snareCd = Math.max(0, this.snareCd - dt)
