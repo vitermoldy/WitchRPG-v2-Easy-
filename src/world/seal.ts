@@ -9,3 +9,4 @@ const VERT = /* glsl */ `
   varying vec2 vUv;
   void main() { vUv = uv; gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0); }
 `
+/** A curtain of amber light that runs upward and fades toward the top. */
