@@ -183,3 +183,4 @@ def build(dunia, res=(1280, 720), samples=24):
             loc = a_loc.lerp(g_loc, u)
             loc.z += math.sin(u * math.pi) * 6.0
             q0 = look_quat(fly_look[1] - a_loc)
+            q = q0.slerp(look_quat(g_look), ease(u))
