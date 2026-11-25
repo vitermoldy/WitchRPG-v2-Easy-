@@ -16,3 +16,4 @@ const HIGH = 16
 
 interface Kind {
   color: number
+  size: number
