@@ -538,3 +538,4 @@ export class UnitSystem {
   /** Fauna: wander about home, step away from her when she comes close, never attack. */
   private faunaBrain(u: Unit, dt: number) {
     const p = this.host.foe
+    const home = u.home ?? u.pos
