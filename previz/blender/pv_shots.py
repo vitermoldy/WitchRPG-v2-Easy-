@@ -450,3 +450,4 @@ def build_lineup(lib_colls, stats):
             thick = 0.012 * (1 if key == "A" else 2.2 if key == "B" else 5)
             r = C.Rig(f"kisi.{key}.{mtr}", {"g": grid_mat, "l": line_mat}, coll)
             r.P("m").box((ox + width / 2 + 1.0, 20, mtr), (width, 0.01, thick), mat="g")
+            r.parts["m"].box((ox + 1.1, -6, mtr), (0.5 if mtr % step == 0 else 0.25, 0.01, thick * 2), mat="l")
