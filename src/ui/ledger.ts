@@ -61,3 +61,4 @@ export class Ledger {
     $('btn-ledger-close').addEventListener('click', () => this.close())
     this.dlg.addEventListener('close', () => this.onClose?.())
     this.dlg.addEventListener(
+      'toggle',
