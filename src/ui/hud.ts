@@ -347,3 +347,4 @@ export class Hud {
       if (u.barShown <= 0 && !(u.aggro && d2 < 18 * 18) && !(u.elite && d2 < 35 * 35) && u !== g.lockon.current) continue
       this.v.set(u.pos.x, u.pos.y + u.height + 0.35, u.pos.z).project(cam)
       if (this.v.z > 1 || Math.abs(this.v.x) > 1.1 || Math.abs(this.v.y) > 1.1) continue
+      let el = this.pool[n]
