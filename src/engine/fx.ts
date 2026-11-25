@@ -410,3 +410,4 @@ interface Pool {
   mesh: THREE.Mesh
   mat: THREE.ShaderMaterial
   radius: number
+  t: number
