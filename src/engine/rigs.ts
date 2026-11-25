@@ -669,3 +669,5 @@ const poseHydra: PoseFn = (p, u, t) => {
     }
     if (mode === 'limp' && h && !h.alive) p.hide('head' + i)
   }
+}
+
