@@ -5,3 +5,5 @@ import { fileURLToPath } from 'node:url'
 export const ROOT = fileURLToPath(new URL('..', import.meta.url))
 
 // .env is optional: a real deployment can set the variables directly.
+if (existsSync(ROOT + '.env')) process.loadEnvFile(ROOT + '.env')
+
