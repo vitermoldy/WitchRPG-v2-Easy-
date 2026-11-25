@@ -631,3 +631,4 @@ export class Spells {
           u.slow = 1 - SPELL.snare.slow
           u.vulnerable = SPELL.snare.vulnerability
         }
+      }
