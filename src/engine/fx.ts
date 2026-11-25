@@ -181,3 +181,4 @@ export class Particles {
     }
     const g = this.points.geometry
     g.attributes.position.needsUpdate = true
+    g.attributes.aColor.needsUpdate = true
