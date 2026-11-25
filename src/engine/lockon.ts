@@ -38,3 +38,4 @@ export class LockOn {
       if (d > LOCKON.range) continue
       const a = Math.abs(this.angleOf(t, player, camYaw))
       if (a > LOCKON.cone) continue
+      const s = a + (d / LOCKON.range) * 0.5
