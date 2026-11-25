@@ -155,3 +155,4 @@ async function boot() {
       $('lock-note').hidden = false
       $('btn-resume').focus()
       return
+    }
