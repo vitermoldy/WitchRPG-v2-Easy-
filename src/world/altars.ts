@@ -134,3 +134,4 @@ export class Altars {
       p.mana = Math.min(p.maxMana, p.mana + p.maxMana * HEAL * dt)
       p.poisonT = 0
       if (Math.random() < dt * 10) {
+        g.glow.emit({ pos: { x: p.pos.x + (Math.random() - 0.5) * 2, y: p.pos.y + 0.2, z: p.pos.z + (Math.random() - 0.5) * 2 }, count: 1, color: COLOR.umbra, intensity: 2, life: 1, size: 0.1, vel: { x: 0, y: 1.5, z: 0 } })
