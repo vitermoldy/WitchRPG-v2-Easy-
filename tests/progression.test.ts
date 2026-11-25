@@ -84,3 +84,4 @@ describe('stats and the shadow army', () => {
     expect(d.dodgeDistance).toBe(4.2)
   })
   it('spends stat points only when there are some', () => {
+    const p = newProfile()
