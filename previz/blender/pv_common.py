@@ -329,3 +329,4 @@ class Part:
     def ell(self, c, r, rot=(0, 0, 0), mat="body", seg=12, rings=8, smooth=True):
         if isinstance(r, (int, float)):
             r = (r, r, r)
+        R = Euler([math.radians(a) for a in rot]).to_matrix().to_4x4()
