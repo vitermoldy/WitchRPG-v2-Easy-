@@ -92,3 +92,4 @@ const SHIELD_FRAG = /* glsl */ `
   uniform float uFade;
   void main() {
     float f = pow(1.0 - abs(dot(normalize(vNormal), normalize(vView))), 2.0);
+    vec2 g = vUv * vec2(24.0, 12.0);
