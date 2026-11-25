@@ -16,3 +16,4 @@ interface Spot {
   kind: 'unicorn' | 'pegasus'
   x: number
   z: number
+  unit: Unit | null
