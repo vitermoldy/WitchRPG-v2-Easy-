@@ -172,3 +172,4 @@ export interface Derived {
   shadowPower: number
 }
 
+/** Stat effects count the points above the starting 5, so a new witch plays at the GDD's base values. */
