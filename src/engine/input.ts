@@ -22,3 +22,4 @@ export class Input {
       if (e.repeat) return
       this.press(e.code)
       this.onKey?.(e.code)
+    })
