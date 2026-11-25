@@ -145,3 +145,4 @@ export class Obstacles {
   }
 }
 
+/** First moment the segment is inside the cylinder: the overlap of its time inside the circle and inside the height band. */
