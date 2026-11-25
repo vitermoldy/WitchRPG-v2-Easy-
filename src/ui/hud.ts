@@ -120,3 +120,4 @@ export class Hud {
     p.className = `feed-item ${tone}`
     p.textContent = text
     this.feed.appendChild(p)
+    while (this.feed.children.length > 5) this.feed.firstElementChild?.remove()
