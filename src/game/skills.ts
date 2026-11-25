@@ -104,3 +104,4 @@ export const SKILLS: SkillDef[] = [
     name: 'Tukar Tempat',
     key: 'Roda Z',
     unlock: 4,
+    effect: 'Bertukar posisi dengan bayangan yang paling dekat ke titik bidik.',
