@@ -55,3 +55,4 @@ export class Seal {
     const wall = (ax: number, ay: number, bx: number, by: number) => {
       const ha = heightMap(ax, ay) - 1
       const hb = heightMap(bx, by) - 1
+      // three.js puts map north at -z
