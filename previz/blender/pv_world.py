@@ -684,3 +684,4 @@ def build_rift(coll):
         pts.append(Vector((bc[0] - 120 + 240 * t, bc[1] + 40 * math.sin(t * 3), 210 + 35 * math.sin(t * 5) + rng.uniform(-8, 8))))
     up = Vector((0.0, -0.25, 1.0)).normalized()
     for i in range(n - 1):
+        w0 = 14 * math.sin(math.pi * i / (n - 1)) + 2
