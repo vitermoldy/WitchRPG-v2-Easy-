@@ -1092,3 +1092,4 @@ COLORS = {
     "harpy": {"skin": "#dcae94", "body": "#dcae94", "hair": "#3b2a22", "membrane": ("#f3f6fa", "#d8e2ee"), "accent": "#3d6fb6", "leg": "#a8703c", "claw": "#2e2826"},
     "centaur": {"body": ("#7a3e22", "#5e2e18"), "skin": "#d9a37a", "hair": "#eeeeee", "body2": "#e8a878", "cloth": "#4a3020", "wood": "#8a5a2a", "hoof": "#2e2622", "horn": "#d8d0c0"},
     "naga": {"body": ("#2f6b55", "#d9c06a"), "membrane": "#d0803a", "accent": "#c8502a", "horn": "#eadba4", "hair": "#e0c25a", "mouth": "#8a2a1e"},
+    "minotaur": {"skin": ("#9c4c30", "#8a3e28"), "hair": "#4a2418", "horn": "#ece2c8", "nose": "#5a2a20", "cloth": "#3a2a20", "hoof": "#2a2220"},
