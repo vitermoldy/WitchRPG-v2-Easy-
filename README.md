@@ -62,3 +62,5 @@ Salin `.env.example` menjadi `.env` dan isi akun MySQL. Server membuat database 
 | Klik kiri | Tiga pukulan tongkat berantai; tahan untuk pukulan berat |
 | Tahan C | Tahan serangan dari depan. Tekan tepat saat cincin amber penuh untuk parry: makhluk limbung |
 | F | Eksekusi makhluk yang limbung; tubuhnya lebih mudah dibangkitkan (+15%) |
+| H | Lempar tongkat ke titik bidik atau target lock-on; tekan lagi untuk memanggilnya, mengenai makhluk di jalur pulang |
+
