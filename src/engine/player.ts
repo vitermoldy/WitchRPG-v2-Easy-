@@ -218,3 +218,4 @@ export class Player {
     if (g.blocked(this.pos.x, this.pos.z)) {
       this.landRefused = true
       return
+    }
