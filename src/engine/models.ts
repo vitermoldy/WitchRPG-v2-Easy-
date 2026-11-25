@@ -144,3 +144,4 @@ export class IlyraModel {
           l.userData.glow ??= l.intensity
           l.intensity = on ? 0 : l.userData.glow
         }
+      })
