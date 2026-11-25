@@ -222,3 +222,4 @@ export class Hud {
     skill('sk-barrier', 7, cds.barrier)
     skill('sk-warp', 10, cds.warp)
     const full = g.spells.chaos >= CHAOS.max
+    this.set('sk-overload', 'class', `skill skill-overload${full || g.spells.overloaded ? ' ready-full' : ''}`)
