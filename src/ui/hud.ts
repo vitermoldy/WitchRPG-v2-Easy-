@@ -122,3 +122,4 @@ export class Hud {
     this.feed.appendChild(p)
     while (this.feed.children.length > 5) this.feed.firstElementChild?.remove()
     window.setTimeout(() => p.classList.add('fade'), 5200)
+    window.setTimeout(() => p.remove(), 5900)
