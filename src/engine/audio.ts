@@ -396,3 +396,5 @@ export class Sfx {
   // one-shot sounds that come at a rate set by the zone weights: birds in Hutan Pembuka, gusts on
   // Tebing Berangin, frogs and insects in Rawa Berkabut, a far chime in Reruntuhan Kuil, crackling
   // embers in Lembah Bara.
+  private amb: { wind: GainNode; windF: BiquadFilterNode; drone: GainNode; insects: GainNode } | null = null
+
