@@ -38,3 +38,4 @@ const CURTAIN_FRAG = /* glsl */ `
     float k = (1.0 - vUv.y);
     float a = k * k * (0.2 + 0.4 * bands) * uFade;
     gl_FragColor = vec4(uColor * a * 1.6, a);
+  }
