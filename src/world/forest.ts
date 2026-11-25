@@ -68,3 +68,4 @@ function pine(h: number, tiers: number, rad: number, needle: THREE.Color): THREE
 }
 
 function birch(): THREE.BufferGeometry {
+  const parts = [part(new THREE.CylinderGeometry(0.07, 0.2, 11, 6, 1, true), PAL.birch, at(0.1, 5.5, 0.05))]
