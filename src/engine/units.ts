@@ -52,3 +52,4 @@ export function attacksOf(spec: UnitSpec): AttackSpec[] {
   let list = legacy.get(spec)
   if (!list) {
     list = [{ name: 'serang', strike: spec.strike ?? 'ring', windup: spec.windup, recover: spec.recover, range: spec.attackRange, lungeSpeed: spec.lungeSpeed ?? 6, lungeTime: spec.lungeTime ?? 0.3 }]
+    legacy.set(spec, list)
