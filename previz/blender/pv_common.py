@@ -457,3 +457,4 @@ class Rig:
         self.order = []
         self.root = bpy.data.objects.new(f"{key}", None)
         self.root.empty_display_size = 0.3
+        coll.objects.link(self.root)
