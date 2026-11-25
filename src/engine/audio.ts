@@ -297,3 +297,4 @@ export class Sfx {
   roar() {
     if (!this.ok()) return
     const t = this.ctx!.currentTime
+    this.tone(t, 'sawtooth', 70, 48, 1.6, 0.3, 0.2)
