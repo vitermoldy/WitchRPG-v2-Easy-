@@ -85,3 +85,5 @@ describe('creature attacks', () => {
     const hit = world()
     hit.sys.spawn('hellhound', 'enemy', 1, { x: 0, z: 6 })
     hit.step(4)
+    expect(hit.log.strikes.length).toBeGreaterThan(0)
+
