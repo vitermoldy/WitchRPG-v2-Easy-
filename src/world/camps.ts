@@ -168,3 +168,4 @@ export class Camps {
     for (const [kind, listed] of Object.entries(camp.def.pack) as [V2Kind, number][]) {
       const count = camp.def.boss ? listed : Math.ceil(listed * CAMP.pack)
       for (let k = 0; k < count; k++, n++) {
+        const a = n * 2.39996 + Math.random() * 0.4
