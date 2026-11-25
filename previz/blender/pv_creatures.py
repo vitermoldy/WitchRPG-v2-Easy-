@@ -62,3 +62,4 @@ def humanoid(r, H, bulk=1.0, legs="human", female=False, off=(0, 0, 0), arm_pose
     J = {"H": H, "sw": sw, "hw": hw, "hh": hh, "z": z, "off": off}
     pel = r.P("pelvis", P(0, 0, z["hip"]))
     tor = r.P("torso", P(0, 0, z["waist"]), "pelvis")
+    pel.ell(P(0, 0.0, z["hip"] + 0.02 * H), (hw * 1.6, H * 0.068 * bulk, H * 0.075), mat=pelvis_mat)
