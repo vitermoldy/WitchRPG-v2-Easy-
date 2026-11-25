@@ -13,3 +13,4 @@ describe('the save', () => {
   })
 
   it('keeps lit altars and the rise point, without doubles or junk', () => {
+    const p0 = newProfile()
