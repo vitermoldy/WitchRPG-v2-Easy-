@@ -148,3 +148,4 @@ Cahaya per render: 01 pagi, matahari `#ffe9cc` 22° di atas cakrawala, 50° di k
 
 X ke timur, Y ke utara, meter, pusat peta (0, 0).
 
+| Tempat | Pusat | Radius | Bentuk medan |
