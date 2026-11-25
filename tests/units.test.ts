@@ -238,3 +238,4 @@ describe('phase 4 creatures', () => {
     const m = w.sys.spawn('medusa', 'enemy', 9, { x: 0, z: 10 })
     let gaze = false
     w.step(4, () => {
+      if (m.state === 'windup' && m.atk.effect === 'petrify') gaze = true
