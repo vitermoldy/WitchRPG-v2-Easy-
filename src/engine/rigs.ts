@@ -1070,3 +1070,4 @@ export class Rigs {
     this.sortIn -= dt
     if (this.sortIn <= 0) {
       this.sortIn = 0.2
+      const shadows = units.filter((u) => u.team === 'shadow')
