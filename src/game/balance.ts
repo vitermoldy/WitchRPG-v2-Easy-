@@ -709,3 +709,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     stun: 40,
   },
   // v2 fauna (PROMPT: not enemies). A Pegasus drifts over the meadows; a Unicorn guards each altar.
+  pegasus: {
