@@ -330,3 +330,4 @@ export class Game implements UnitHost {
       const low = p.pos.y - this.height(p.pos.x, p.pos.z) < 2.5
       if (p.alive && low && Math.hypot(p.pos.x - b.x, p.pos.z - b.z) < b.radius + MOVE.radius && !p.invulnerable) this.hurtPlayer(b.damage, at)
       for (const u of this.units.units) if (u.team === 'shadow' && u.targetable && Math.hypot(u.pos.x - b.x, u.pos.z - b.z) < b.radius + u.radius) this.units.hurt(u, b.damage, at)
+      this.glow.emit({ pos: at.clone().setY(b.y + 0.6), count: 90, color: 0xff7a2a, intensity: 3, life: 0.6, size: 0.4, sizeEnd: 0.05, speed: b.radius * 1.5, drag: 3 })
