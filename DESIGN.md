@@ -227,3 +227,4 @@ Pengukuran (pola v1: 20 makhluk bertarung, hutan penuh, 1920 × 1080, GPU NVIDIA
 
 | Bayangan di medan | Fase 6 (median, 3 run) | p95 | Kode fase 4, hari yang sama | v1 (24 Nov) |
 | --- | --- | --- | --- | --- |
+| 0 | 6,7 sampai 6,9 ms | 7,5 sampai 7,7 ms | 6,3 ms | 5,6 ms |
