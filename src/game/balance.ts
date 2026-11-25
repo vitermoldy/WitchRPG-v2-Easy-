@@ -508,3 +508,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
       { name: 'semburan', strike: 'ring', windup: 0.9, recover: 0.7, range: 20, minRange: 4, ring: 2, shot: { speed: 13, gravity: 12, radius: 0.35 } },
       { name: 'gigit', strike: 'ring', windup: 0.55, recover: 0.7, range: 3.2, lungeSpeed: 8, lungeTime: 0.3 },
     ],
+  },
