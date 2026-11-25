@@ -84,3 +84,4 @@ function swampTree(): THREE.BufferGeometry {
     const root = new THREE.CylinderGeometry(0.08, 0.2, 3.4, 5, 1, true)
     const m = new THREE.Matrix4().makeRotationY(-a).multiply(new THREE.Matrix4().makeTranslation(1.4, 1.1, 0)).multiply(new THREE.Matrix4().makeRotationZ(0.9))
     parts.push(part(root, PAL.swampwood, m))
+  }
