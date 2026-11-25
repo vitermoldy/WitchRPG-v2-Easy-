@@ -78,3 +78,4 @@ export class Lair {
   private readonly g: Game
   private attackIn = 2
   private bodyAttackIn = 2.5
+  private wonAt = -1
