@@ -106,3 +106,4 @@ def build(dunia, res=(1280, 720), samples=24):
 
     def il_pos(t):
         u = min(1.0, max(0.0, (t - T_DROP) / (T_WALK - T_DROP)))
+        u = u * u * (3 - 2 * u) * 0.25 + u * 0.75
