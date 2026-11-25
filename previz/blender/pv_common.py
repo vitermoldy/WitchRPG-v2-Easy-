@@ -438,3 +438,5 @@ class Part:
         return self
 
     def rock(self, c, r, seed=0, mat="horn", sub=1):
+        import random
+
