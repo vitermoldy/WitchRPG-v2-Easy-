@@ -1161,3 +1161,4 @@ def ilyra_palette():
         "sigil_r": C.mat_emit("ilyra_sigil_r", HEX["umbra_hot"], 6.0),
         "sigil_staff": C.mat_emit("ilyra_sigil_staff", HEX["chaos"], 6.0),
         "wood": C.mat_flat("ilyra_staff", "#2b1d16", 0.7),
+        "metal": C.mat_flat("ilyra_metal", "#3b3640", 0.35, 0.9),
