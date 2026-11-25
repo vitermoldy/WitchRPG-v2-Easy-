@@ -415,3 +415,4 @@ export class Lair {
         this.land(h, atk)
         h.set('recover')
       } else if (h.state === 'recover' && h.t >= atk.recover) {
+        if (!atk.shot) g.clearTelegraph(h)
