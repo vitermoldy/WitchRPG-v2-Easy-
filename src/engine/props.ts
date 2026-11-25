@@ -80,3 +80,4 @@ export class Props {
         p.flight -= dt
         p.vel.y -= 22 * (p.flight > 0 ? SPELL.grip.flightGravity : 1) * dt
         p.pos.addScaledVector(p.vel, dt)
+        p.spin += dt * 6
