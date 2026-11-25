@@ -251,3 +251,4 @@ export class Game implements UnitHost {
     if (res === 'parry') {
       this.fight.stats.parries++
       this.fight.parried()
+      this.units.hurt(u, 0, p.pos, COMBAT.parry.stun, 5)
