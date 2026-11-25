@@ -717,3 +717,4 @@ def build_embers(coll, centre, radius, count, seed=5, z_range=(0.5, 30)):
 
 
 def build_world(lib_scene):
+    """Everything shared by the shot scenes, under one 'Dunia' collection."""
