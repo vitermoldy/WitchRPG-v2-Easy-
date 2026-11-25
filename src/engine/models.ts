@@ -302,3 +302,4 @@ export class IlyraModel {
       armRY = pose.armY
       foreR = pose.fore
       // the staff points out along the arm while it swings, head first
+      staffX = mix(staffX, 165, weight)
