@@ -423,3 +423,4 @@ class Part:
         return self
 
     def poly(self, pts, mat="membrane", smooth=False):
+        vs = [self.bm.verts.new(V(p) - self.pivot) for p in pts]
