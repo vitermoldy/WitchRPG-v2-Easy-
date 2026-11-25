@@ -990,3 +990,4 @@ export class Rigs {
 
   constructor(models: Partial<Record<UnitKind, THREE.Group>>, lods: Partial<Record<UnitKind, THREE.Group>> = {}) {
     this.group.name = 'units'
+    this.models = models
