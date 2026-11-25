@@ -4,3 +4,5 @@
 import { ApiError, authState, checkAccount, fetchProfile, onAuth, pushProfile, signIn, signOut, signUp, type AuthState } from '../data/api'
 import type { Game } from '../engine/game'
 import { isFresh, type Profile } from '../game/progression'
+import { clearProfile, normalizeProfile } from '../game/save'
+
