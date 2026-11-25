@@ -190,3 +190,4 @@ export class Unit implements Foe {
     return this.state === 'diving' || this.state === 'ashes'
   }
 
+  /** Can be aimed at, locked on to, and struck. */
