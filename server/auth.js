@@ -140,3 +140,4 @@ export function createAuth({ getPool, cookie, lang, deviceCode, newDevice }) {
       userId,
       expires,
       String(req.headers['user-agent'] ?? '').slice(0, 255) || null,
+    ])
