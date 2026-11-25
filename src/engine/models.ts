@@ -34,3 +34,4 @@ export function bakeByMaterial(root: THREE.Object3D): { geometry: THREE.BufferGe
     const mat = m.material as THREE.Material
     if (!groups.has(mat)) groups.set(mat, [])
     groups.get(mat)!.push(g.index ? g.toNonIndexed() : g)
+  })
