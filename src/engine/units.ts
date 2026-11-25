@@ -566,3 +566,4 @@ export class UnitSystem {
     const away = Math.atan2(u.pos.x - from.pos.x, u.pos.z - from.pos.z)
     for (let tries = 0; tries < 8; tries++) {
       const a = away + (tries - 3.5) * 0.45
+      const x = from.pos.x + Math.sin(a) * spec.range
