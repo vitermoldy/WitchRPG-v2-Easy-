@@ -754,3 +754,5 @@ export class Spells {
   inWarp(at: { x: number; y: number; z: number }): boolean {
     for (const w of this.warps) if (Math.hypot(at.x - w.pos.x, at.z - w.pos.z) < w.radius && at.y > w.pos.y - 2 && at.y < w.pos.y + 9) return true
     return false
+  }
+
