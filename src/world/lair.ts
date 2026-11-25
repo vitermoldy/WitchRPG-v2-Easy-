@@ -29,3 +29,4 @@ const LEVEL = 12
 const WATER_UP = 0.5
 
 const CURTAIN_FRAG = /* glsl */ `
+  varying vec2 vUv;
