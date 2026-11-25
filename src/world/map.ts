@@ -14,3 +14,5 @@ export interface Zone {
   sight: number
   ground: string
   sky: string
+}
+
