@@ -431,3 +431,4 @@ def build_lineup(lib_colls, stats):
             lo, hi = C.bounds(lc)
             rot = -35
             a = math.radians(rot)
+            corners = [Vector((xx, yy, 0)) for xx in (lo.x, hi.x) for yy in (lo.y, hi.y)]
