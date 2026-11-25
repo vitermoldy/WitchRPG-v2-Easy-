@@ -164,3 +164,5 @@ def build(dunia, res=(1280, 720), samples=24):
             ob.scale = (s + 1e-3, s + 1e-3, 1)
             ob.keyframe_insert("scale", frame=fr)
         eye.location = hydra_head(t) + Vector((0, 0, -1))
+        eye.keyframe_insert("location", frame=fr)
+
