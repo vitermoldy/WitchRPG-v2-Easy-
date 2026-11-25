@@ -278,3 +278,4 @@ export class Spells {
     const target = g.aim(80).point
     const base = target.clone().sub(from).normalize()
     const spread = this.upgraded('hexBolt')
+    const dirs = spread ? [-1, 0, 1].map((k) => base.clone().applyAxisAngle(new THREE.Vector3(0, 1, 0), k * SPELL.bolt.spreadAngle)) : [base]
