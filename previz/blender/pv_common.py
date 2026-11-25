@@ -649,3 +649,4 @@ def sky_world(name, zenith, horizon, ground, strength=1.0, haze=None, haze_densi
     w.use_nodes = True
     nt = w.node_tree
     nt.nodes.clear()
+    N, L = nt.nodes, nt.links
