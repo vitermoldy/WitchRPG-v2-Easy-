@@ -113,3 +113,4 @@ export class Telegraphs {
   }
 
   /**
+   * Starts the telegraph for the attack this unit is winding up. A ring fills until the blow lands:
