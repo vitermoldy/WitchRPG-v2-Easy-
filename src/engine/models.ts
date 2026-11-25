@@ -5,3 +5,5 @@ import { MOVE } from '../game/balance'
 import { COLOR } from './palette'
 import type { Player } from './player'
 
+const loader = new GLTFLoader()
+
