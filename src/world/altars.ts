@@ -86,3 +86,4 @@ export class Altars {
     return null
   }
 
+  /** The closest altar she has not lit yet, for the HUD. */
