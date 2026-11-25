@@ -151,3 +151,4 @@ describe('shadows', () => {
   })
 
   it('a creature turns on a shadow that is much closer than her', () => {
+    const w = world()
