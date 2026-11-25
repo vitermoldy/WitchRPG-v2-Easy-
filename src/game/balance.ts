@@ -1239,3 +1239,4 @@ export const REVIVE = {
   delay: 3,
   /** HP comes back by this share of max HP per second once nothing has hurt her for `calm` seconds. */
   calmRegen: 0.03,
+  calm: 6,
