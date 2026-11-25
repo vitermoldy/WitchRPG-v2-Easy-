@@ -756,3 +756,4 @@ def _demon(r, H, bulk, female, span, horn_kind, arm_pose):
     t.ell(V(J["chest"]) + Vector((0, -0.005, 0.0)), (J["sw"] * 1.0, H * 0.085 * bulk, H * 0.1), mat="armor")
     t.ell(V(J["chest"]) + Vector((0, -H * 0.08, -0.02)), (0.03, 0.02, 0.03), mat="glow", seg=8, rings=5)
     for s in (1, -1):
+        bat_wing(t, (0.08 * s, J["back"][1], J["z"]["sh"] - 0.05), s, span, span * 0.66, raise_deg=38, sweep_deg=22, bone="horn", arm="horn")
