@@ -17,3 +17,4 @@ T_FLY, T_DROP, T_WALK, T_NAGA, T_END = 7.0, 10.5, 16.0, 19.0, 26.0
 FRAMES = int(T_END * FPS)
 
 
+def ease(t):
