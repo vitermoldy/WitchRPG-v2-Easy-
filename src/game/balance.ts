@@ -602,3 +602,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   // v2, Kuil and Bara: calls Imps, claws, throws green fire along a line, and blinks away when she closes in.
   succubus: {
     name: 'Succubus',
+    rank: 'ksatria',
