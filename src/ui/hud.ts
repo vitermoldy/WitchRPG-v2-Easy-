@@ -315,3 +315,4 @@ export class Hud {
     else rows.push(`<li class="army-row key"><span><kbd>T</kbd> ${field.length ? 'Kembalikan' : 'Panggil'}</span><span><kbd>Z</kbd> Perintah</span></li>`)
     this.html(this.army, 'army', rows.join(''))
     const first = field[0]
+    this.set('army-order', 'text', !first ? (total ? 'Di Ruang Bayangan' : 'Belum ada') : first.command === 'attack' ? 'Serang' : first.command === 'hold' ? 'Tahan' : 'Ikuti')
