@@ -318,3 +318,4 @@ class Part:
         return self.mats.index(m)
 
     def _tag(self, verts, mat, smooth=True):
+        mi = self._mi(mat)
