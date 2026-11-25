@@ -87,3 +87,4 @@ export class Game implements UnitHost {
   pools!: ShadowPools
   telegraphs!: Telegraphs
   rigs!: Rigs
+  camps!: Camps
