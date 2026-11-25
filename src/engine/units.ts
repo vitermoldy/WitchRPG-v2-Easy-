@@ -86,3 +86,4 @@ export class Unit implements Foe {
   parts: (Unit | null)[] | null = null
   /** A head: where its rig drew it this frame (world), for hits and lock-on. */
   readonly visual = new THREE.Vector3(NaN, NaN, NaN)
+  /** A head coming down: its neck's pitch at the root, curl along it and turn (degrees), steered by the rig onto its circle. */
