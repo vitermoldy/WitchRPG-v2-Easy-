@@ -76,3 +76,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
     last = state.status
   }
 
+  function renderRow(state: AuthState = authState()): void {
