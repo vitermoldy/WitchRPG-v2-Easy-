@@ -164,3 +164,4 @@ export class Hud {
     const el = $(id)
     el.classList.remove('on')
     void el.offsetWidth
+    el.classList.add('on')
