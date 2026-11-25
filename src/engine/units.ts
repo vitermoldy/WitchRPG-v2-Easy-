@@ -18,3 +18,4 @@ export interface Foe {
   alive: boolean
 }
 
+export interface UnitHost {
