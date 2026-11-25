@@ -346,3 +346,4 @@ export class Game implements UnitHost {
     this.spells.impact(u, other, speed)
   }
 
+  died(u: Unit) {
