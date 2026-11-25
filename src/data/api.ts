@@ -20,3 +20,4 @@ function clientCode(): string {
     if (!code || !/^[A-HJ-NP-Z2-9]{12}$/.test(code)) {
       code = makeCode()
       localStorage.setItem(CODE_KEY, code)
+    }
