@@ -253,3 +253,4 @@ export function chaosFromDamage(dealt: number, taken: number): number {
   return dealt * CHAOS.perDamageDealt + taken * CHAOS.perDamageTaken
 }
 
+/** Damage of a thrown body: grows with mass^0.6 and with speed. */
