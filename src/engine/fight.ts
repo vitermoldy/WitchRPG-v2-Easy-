@@ -391,3 +391,4 @@ export class Fight {
 
   private throwTarget(): THREE.Vector3 {
     const g = this.g
+    const locked = g.lockon.current as Unit | null
