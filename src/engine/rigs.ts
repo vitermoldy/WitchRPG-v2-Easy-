@@ -964,3 +964,4 @@ interface CrowdBatch {
   used: number
 }
 
+/** How long a shadow takes to climb out of its pool, and to sink back in. */
