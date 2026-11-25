@@ -390,3 +390,4 @@ class Part:
                 Nn = T[i].orthogonal()
             Nn.normalize()
             B = T[i].cross(Nn)
+            if R[i] < 1e-4:
