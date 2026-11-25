@@ -108,3 +108,4 @@ export class Telegraphs {
     mesh.frustumCulled = false
     mesh.visible = false
     mesh.renderOrder = 8
+    scene.add(mesh)
