@@ -324,3 +324,4 @@ export class Spells {
           best = d
           hitUnit = u
         }
+      }
