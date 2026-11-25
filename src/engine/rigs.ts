@@ -749,3 +749,4 @@ const POSES: Partial<Record<UnitKind, PoseFn>> = {
   samael: biped({ heavy: 0.3, reach: 1, sway: 4 }),
   atlas: biped({ heavy: 1, reach: 1, sway: 2 }),
   cyclops: biped({ heavy: 1, reach: 1, sway: 2 }),
+  succubus: biped({ heavy: 0, reach: 0.6, sway: 8 }),
