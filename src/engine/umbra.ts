@@ -487,3 +487,4 @@ export class Umbra {
   shadowFell(u: Unit) {
     const g = this.g
     if (u.record) {
+      this.downUntil.set(u.record.id, this.time + RITE.reform)
