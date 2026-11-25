@@ -11,3 +11,4 @@ Tanpa `--anim` hanya still yang dirender (sekitar 1 menit). `--only hero,valley`
 ## Keluaran
 
 | File | Isi |
+| --- | --- |
