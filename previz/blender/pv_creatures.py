@@ -522,3 +522,4 @@ def b_harpy(r):
     h = r.parts["head"]
     hc = V(J["head_c"])
     h.ell(hc, (0.085, 0.095, 0.11), mat="skin")
+    face(h, hc, 1.65)
