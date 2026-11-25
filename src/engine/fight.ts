@@ -305,3 +305,5 @@ export class Fight {
     this.hurtFx = 1
     this.combo.cancel()
     this.swingYaw = null
+  }
+
