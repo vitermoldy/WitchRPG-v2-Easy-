@@ -388,3 +388,4 @@ def build_army(dunia):
     for i, (key, fw, rt, dz, pr) in enumerate(troops):
         if key not in built:
             built[key] = actor(f"aktor.bayangan.{key}", key, kind="shadow")
+        p = fr(fw, rt)
