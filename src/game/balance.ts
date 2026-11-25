@@ -258,3 +258,4 @@ export interface UnitSpec {
   attacks?: AttackSpec[]
   /** v2: keeps this far from her while it shoots, backing off when she comes closer. */
   keepAway?: number
+  /** v2: dives out of reach for this many seconds when hurt, and comes up a few metres away. */
