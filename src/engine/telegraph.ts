@@ -98,3 +98,4 @@ export class Telegraphs {
     const mat = new THREE.ShaderMaterial({
       uniforms: { uColor: { value: this.color }, uFill: { value: 0 }, uTime: { value: 0 } },
       vertexShader: VERT,
+      fragmentShader: kind === 'ring' ? RING_FRAG : LINE_FRAG,
