@@ -358,3 +358,4 @@ def build_protos(lib_coll):
     pal = veg_palette()
     coll = C.collection("PROTO", lib_coll)
     P = {}
+    P["pine"] = proto("p_pine", coll, pal, lambda p: _pine(p))
