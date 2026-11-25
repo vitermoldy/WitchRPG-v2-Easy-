@@ -155,3 +155,4 @@ export class Hud {
     this.pulse('umbra-veil')
   }
 
+  /** A short black fade, for getting up again after a fall. */
