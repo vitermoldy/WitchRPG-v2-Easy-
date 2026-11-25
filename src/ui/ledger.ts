@@ -38,3 +38,4 @@ export function confirmDialog(title: string, text: string, yes: string): Promise
 
 export interface LedgerHost {
   profile: Profile
+  /** Called after any change so the game can refresh derived stats and save. */
