@@ -83,3 +83,4 @@ const SWINGS = [
 ]
 
 /**
+ * Ilyra's model with procedural motion on its named parts: the walk cycle of the previz animatic,
