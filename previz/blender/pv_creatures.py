@@ -988,3 +988,4 @@ def b_typhon(r):
     face(h, hc, 16.0)
     beard(h, hc + Vector((0, -0.6, -0.5)), 2.2, 0.65)
     long_hair(h, hc, 16.0, 3.5, 0.9)
+    for s in (1, -1):
