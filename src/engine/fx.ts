@@ -20,3 +20,4 @@ export interface Emit {
   jitter?: number
   gravity?: number
   drag?: number
+  alpha?: number
