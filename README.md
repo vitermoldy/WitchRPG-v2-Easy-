@@ -101,3 +101,5 @@ Sarangnya di tepi Danau Hitam, dan hanya terbuka bagi witch Lv 10: fase terakhir
 
 1. Kepala menghantam tanah di bawah cincin amber (1,3 dtk) dan memuntahkan Imp. Kepala yang tergeletak setelah menghantam bisa dipukul; yang limbung (parry atau kombo berat) bisa dieksekusi dengan F, dan setiap kepala yang terpenggal memotong 8% HP tubuhnya. Terlalu jauh dari tubuh, kepala menyembur dari jauh.
 2. Air naik dan pulau batu muncul. Kulitnya berlendir: Hex Bolt hanya 10%, benda yang dilempar 150%. Batu selalu ada di pulau: bidik, tahan klik kiri, lalu lepas ke arah Hydra.
+3. Hydra menelan kepalanya, merayap ke tepi, dan kebal kecuali di dalam Reality Warp (V): di sana jantungnya terbuka dan menerima 150%. Semburannya jatuh di lingkaran amber yang terisi; keluar sebelum penuh.
+
