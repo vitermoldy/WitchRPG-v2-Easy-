@@ -76,3 +76,4 @@ export const LOCKON = {
   /** Targets taller than this pull the camera back and widen the view a little. */
   bigHeight: 6,
   pullback: 1.6,
+  fovBoost: 6,
