@@ -197,3 +197,4 @@ export class Player {
 
   /** Toward a held yaw, else toward the way she is going. */
   private turn(face: number | null, dt: number) {
+    let want: number | null = face
