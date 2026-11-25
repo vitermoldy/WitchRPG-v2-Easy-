@@ -162,3 +162,4 @@ export class IlyraModel {
     if (!s) return null
     const c = s.clone(true)
     c.position.set(0, 0, 0)
+    c.rotation.set(0, 0, 0)
