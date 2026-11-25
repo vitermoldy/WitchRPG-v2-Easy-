@@ -74,3 +74,4 @@ function birch(): THREE.BufferGeometry {
     g.scale(1, 0.85, 1)
     parts.push(part(g, PAL.leaf, at(x, y, z)))
   }
+  return mergeGeometries(parts)
