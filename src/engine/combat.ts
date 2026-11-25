@@ -104,3 +104,4 @@ export class Combo {
       const before = s.t
       s.t += dt
       const hitAt = s.swing.windup
+      if (!s.hit && before <= hitAt && s.t >= hitAt) {
