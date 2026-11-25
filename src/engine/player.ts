@@ -195,3 +195,4 @@ export class Player {
     this.stride += this.speed * dt * 2.4
   }
 
+  /** Toward a held yaw, else toward the way she is going. */
