@@ -42,3 +42,4 @@ const wrap = (a: number) => Math.atan2(Math.sin(a), Math.cos(a))
 export function wanted(pivot: Vec, yaw: number, pitch: number, p: CamParams): Vec {
   const f = forward(yaw, pitch)
   const r = rightOf(yaw)
+  return {
