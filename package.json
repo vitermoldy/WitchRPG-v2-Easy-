@@ -13,3 +13,4 @@
     "server": "node --watch server/index.js",
     "start": "node server/index.js",
     "users": "node server/users.js",
+    "set-user": "node server/set-user.js",
