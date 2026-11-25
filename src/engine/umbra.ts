@@ -73,3 +73,4 @@ export class Umbra {
   private time = 0
   /** Fallen shadows and when they can be called again. */
   readonly downUntil = new Map<number, number>()
+  private calls: Call[] = []
