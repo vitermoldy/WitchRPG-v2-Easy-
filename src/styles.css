@@ -380,3 +380,4 @@ button {
   top: clamp(24px, 9vh, 96px);
   left: 50%;
   transform: translate(-50%, -8px);
+  padding: 0.7rem 2.6rem 0.8rem;
