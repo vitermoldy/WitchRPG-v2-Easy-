@@ -28,3 +28,4 @@ export function normalizeProfile(data: Partial<Profile> | null | undefined): Pro
     ...base,
     ...data,
     stats: { ...base.stats, ...data.stats },
+    tierClears: { ...base.tierClears, ...data.tierClears },
