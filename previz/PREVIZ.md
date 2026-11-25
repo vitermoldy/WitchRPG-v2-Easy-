@@ -131,3 +131,4 @@ Makhluk memakai warna dari gambar referensinya (keputusan pemilik setelah previz
 | Pegasus | putih `#f6f6f8` | sayap dan surai putih |
 | Unicorn | biru abu `#8aa6c4` | surai mawar `#c87898`, tanduk gading `#f2ead8` |
 
+| Zona | Tier, level | Kabut | Kepadatan di tanah, skala tinggi | Tanah | Vegetasi, kepadatan pohon per 100 m² |
