@@ -358,3 +358,4 @@ export class Lair {
       if (!h || !h.alive || h.state === 'finishing' || !Number.isFinite(h.visual.x)) continue
       h.pos.set(h.visual.x, h.visual.y - h.height * 0.5, h.visual.z)
     }
+    if (this.phase === 1 && body.hp <= body.maxHp * HYDRA.phase2At) this.enterPhase(2)
