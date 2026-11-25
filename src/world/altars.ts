@@ -75,3 +75,4 @@ export class Altars {
     return this.g.profile.world.altars.includes(key)
   }
 
+  byKey(key: string) {
