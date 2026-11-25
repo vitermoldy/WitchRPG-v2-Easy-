@@ -371,3 +371,4 @@ export class WorldMap {
     // every boss, always: an amber ring, grey and crossed once it has fallen; the chosen one ringed again
     ctx.font = `600 ${Math.max(11, size / 58)}px Figtree Variable, Figtree, system-ui, sans-serif`
     for (const b of bosses) {
+      const [x, y] = at(b.x, b.z)
