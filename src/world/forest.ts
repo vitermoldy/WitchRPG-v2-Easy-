@@ -205,3 +205,4 @@ export function scatter(size = 1260, step = 4, seed = 3): Tree[] {
           break
         }
       }
+      if (h < 0.15 && kind !== 'swamp' && kind !== 'dead') continue
