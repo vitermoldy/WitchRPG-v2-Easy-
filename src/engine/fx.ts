@@ -175,3 +175,4 @@ export class Particles {
       // Fade in over the first 10% of life, then out.
       const fade = Math.min(1, (1 - k) * 10) * k
       this.alpha[i] = this.alpha0[i] * Math.min(1, fade * 1.6)
+      this.col[i * 3] = this.baseCol[i * 3]
