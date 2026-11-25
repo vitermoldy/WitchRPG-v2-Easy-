@@ -103,3 +103,4 @@ export function vnoise(x: number, y: number): number {
   return a + (b - a) * u + (c - a) * v + (a - b - c + d) * u * v
 }
 
+export function fbm(x: number, y: number, octaves = 4, seed = 0): number {
