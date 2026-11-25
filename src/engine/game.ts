@@ -228,3 +228,4 @@ export class Game implements UnitHost {
     return Math.abs(mx) > PLAY_HALF || Math.abs(my) > PLAY_HALF
   }
 
+  blocked(x: number, z: number, fx?: number, fz?: number) {
