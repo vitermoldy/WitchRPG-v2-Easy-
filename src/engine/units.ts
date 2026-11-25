@@ -772,3 +772,4 @@ export class UnitSystem {
         if (!u.hitDone) {
           if (atk.strike === 'ring') {
             if (u.t >= lt) {
+              u.hitDone = true
