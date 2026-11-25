@@ -175,3 +175,4 @@ def export(key):
         export_lights=False, export_cameras=False, export_materials="EXPORT", export_animations=False,
         export_vertex_color="ACTIVE",
     )
+    tris = C.tri_count(coll)
