@@ -339,3 +339,4 @@ class Part:
         a, b = V(a), V(b)
         rb = ra if rb is None else rb
         d = b - a
+        if d.length < 1e-5:
