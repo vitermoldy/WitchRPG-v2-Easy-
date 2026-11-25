@@ -386,3 +386,4 @@ const POOL_VERT = /* glsl */ `
 /** A pool of shadow on the ground: near-black, rippling inside, a wavering violet rim that blooms. */
 const POOL_FRAG = /* glsl */ `
   varying vec2 vUv;
+  uniform float uTime;
