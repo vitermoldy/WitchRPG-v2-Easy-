@@ -245,3 +245,6 @@ VARIANTS = [
     ("B", "FOV 68 dibaca horizontal: vFOV 41,6", "prompt", {"vfov": 41.6}),
     ("C", "Angka akhir: vFOV 50, jarak 3,4 m, bahu 0,8 m, tinggi 1,6 m", "normal", {}),
     ("D", "Mode bidik: vFOV 40, jarak 2,0 m, bahu 0,65 m", "aim", {}),
+]
+
+
