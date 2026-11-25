@@ -32,3 +32,4 @@ FOV di bawah ini selalu vertikal, sama dengan `PerspectiveCamera.fov` di Three.j
 
 | Mode | Jarak | Bahu kanan | Tinggi | FOV vertikal | FOV horizontal 16:9 | Pitch awal |
 | --- | --- | --- | --- | --- | --- | --- |
+| Normal | 3,4 m | 0,8 m | 1,6 m | 50° | 79° | -6° |
