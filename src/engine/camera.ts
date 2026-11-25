@@ -155,3 +155,4 @@ export class CameraRig {
     // Snap in at once so nothing is ever clipped; ease back out so the view does not jump.
     if (clear < this.frac) this.frac = clear
     else this.frac = Math.min(clear, this.frac + (clear - this.frac) * Math.min(1, CAMERA.release * dt) + 0.002)
+    const t = this.frac
