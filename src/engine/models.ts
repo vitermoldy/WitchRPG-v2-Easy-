@@ -160,3 +160,4 @@ export class IlyraModel {
   staffCopy(): THREE.Object3D | null {
     const s = this.parts['staff']
     if (!s) return null
+    const c = s.clone(true)
