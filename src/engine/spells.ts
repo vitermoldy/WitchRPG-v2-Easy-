@@ -578,3 +578,4 @@ export class Spells {
       if (d > r) continue
       const k = 1 - 0.5 * (d / r)
       const died = g.hurtUnit(u, damage * k, at, 10, 0, 'player', 'blast')
+      if (!died && u.state !== 'held') {
