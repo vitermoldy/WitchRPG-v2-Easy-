@@ -82,3 +82,4 @@ export const CAMP_DEFS: CampDef[] = [
   // the bosses of the open world (PROMPT roster), each alone in its camp; their levels run past the zone band
   { c: [300, 420], pack: { cerberus: 1 }, levels: [15, 15], boss: true },
   { c: [420, 260], pack: { lilith: 1 }, levels: [16, 16], boss: true },
+  { c: [250, 400], pack: { dragon: 1 }, levels: [17, 17], boss: true },
