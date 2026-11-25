@@ -59,3 +59,4 @@ interface Part {
   chain: string[]
   src: THREE.Mesh
   geo: THREE.BufferGeometry
+  mat: THREE.MeshStandardMaterial
