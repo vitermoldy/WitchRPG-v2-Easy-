@@ -128,3 +128,4 @@ def path_dist(x, y):
             bx, by = b
             dx, dy = bx - ax, by - ay
             L2 = dx * dx + dy * dy
+            t = np.clip(((x - ax) * dx + (y - ay) * dy) / L2, 0, 1)
