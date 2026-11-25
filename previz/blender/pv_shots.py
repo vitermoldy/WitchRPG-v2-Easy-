@@ -111,3 +111,4 @@ def cam_label(cam, body, size=0.035, corner=(-0.95, 0.88)):
 def disc(coll, name, centre, radius, mat, z_off=0.03, seg=40):
     bm = bmesh.new()
     bmesh.ops.create_circle(bm, cap_ends=True, segments=seg, radius=radius)
+    me = bpy.data.meshes.new(name)
