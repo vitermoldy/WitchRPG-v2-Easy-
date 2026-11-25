@@ -235,3 +235,4 @@ def feather_wing(part, root, s, span, chord, raise_deg=30, sweep_deg=15, feather
 
     np_ = max(4, feathers // 2)
     for i in range(np_):
+        t = i / (np_ - 1)
