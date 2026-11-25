@@ -12,3 +12,4 @@ export interface Altar {
 }
 
 /** She lights an altar by walking within this distance; it heals her within the same reach. */
+export const ALTAR_REACH = 7
