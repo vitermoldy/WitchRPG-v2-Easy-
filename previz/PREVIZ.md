@@ -140,3 +140,5 @@ Makhluk memakai warna dari gambar referensinya (keputusan pemilik setelah previz
 | Reruntuhan Kuil | IV, 10-12 | `#8f9096` abu | 0,020, 14 m | `#373a33` | pinus 50%, pinus tinggi 35%, birch 15%; 1,3; kuil batu di tengah |
 | Lembah Bara | V, 13-15 | `#d8622c` oranye kemerahan | 0,018, 28 m | `#1d1917` dengan bara `#ff5a1f` | pohon terbakar 85%, pohon mati 15%; 0,85; Rift di langit, 2.500 bara melayang |
 
+Kabut tiap zona memancarkan sedikit warnanya sendiri (emisi = kepadatan × 0,5) supaya tetap terbaca di tempat teduh dan dari jauh. Seluruh lembah ditutup haze tipis `#b9c8da` dengan kepadatan 0,00025.
+
