@@ -188,3 +188,4 @@ def mat_globe(name, ocean="#2a6aa8", land="#4f8a3a"):
     L.new(tc.outputs["Object"], noi.inputs["Vector"])
     ramp = N.new("ShaderNodeValToRGB")
     cr = ramp.color_ramp
+    cr.interpolation = "CONSTANT"
