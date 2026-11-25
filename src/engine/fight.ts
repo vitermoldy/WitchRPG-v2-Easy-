@@ -322,3 +322,4 @@ export class Fight {
 
   update(dt: number, inp: FightInput, aiming: boolean) {
     const g = this.g
+    const p = g.player
