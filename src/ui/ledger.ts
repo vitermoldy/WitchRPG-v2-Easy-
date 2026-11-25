@@ -137,3 +137,4 @@ export class Ledger {
         <span class="stat-name"><b>${info.name}</b><small>${info.effect}</small></span>
         <span class="stat-val num">${p.stats[k]}</span>
         <button class="btn btn-small" type="button" data-stat="${k}" ${p.statPoints > 0 ? '' : 'disabled'} aria-label="Tambah 1 poin ke ${info.name}">+</button>
+      </li>`
