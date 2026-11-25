@@ -165,3 +165,4 @@ Jalan setapak: altar ke utara melewati Hutan Pembuka sampai kuil, bercabang ke b
 ## Yang saya ubah dari prompt
 
 | Bagian | Prompt | Previz | Alasan |
+| --- | --- | --- | --- |
