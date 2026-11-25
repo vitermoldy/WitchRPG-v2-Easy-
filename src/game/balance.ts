@@ -509,3 +509,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
       { name: 'gigit', strike: 'ring', windup: 0.55, recover: 0.7, range: 3.2, lungeSpeed: 8, lungeTime: 0.3 },
     ],
   },
+  // v2, Rawa Berkabut: axe under a circle, or a charge along a line. Its front takes 85% less from blows and bolts.
