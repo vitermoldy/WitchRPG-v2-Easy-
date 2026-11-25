@@ -287,3 +287,4 @@ def veg_palette():
 
 def proto(name, coll, pal, fn, flat=False):
     r = C.Rig(name, pal, coll)
+    p = r.P("m")
