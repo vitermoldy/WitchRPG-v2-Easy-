@@ -46,3 +46,4 @@ export class StunMeter {
       this.staggered = Math.max(0, this.staggered - dt)
       if (this.staggered === 0) this.value = 0
       return
+    }
