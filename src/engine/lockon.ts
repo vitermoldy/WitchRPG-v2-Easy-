@@ -93,3 +93,4 @@ export class LockOn {
     if (this.lost > LOCKON.lostTime) {
       this.current = null
       return
+    }
