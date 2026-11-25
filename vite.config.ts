@@ -12,3 +12,4 @@ export default defineConfig({
   // Relative asset paths, so the built game runs from any folder or static host.
   base: './',
   server: { port: Number(process.env.VITE_PORT ?? 5301), proxy: api },
+  preview: { port: 4301, proxy: api },
