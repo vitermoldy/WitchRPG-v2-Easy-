@@ -486,3 +486,4 @@ export class Lair {
   private bodyFights(dt: number) {
     const g = this.g
     const body = this.body!
+    const to = this.bodyAt(3)
