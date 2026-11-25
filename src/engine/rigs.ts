@@ -727,3 +727,5 @@ const poseBeast: PoseFn = (p, u, t) => {
   const graze = u.spec.passive && amp < 0.1
   p.rot('neck', graze ? 32 + 4 * Math.sin(t * 1.3 + u.id) : 0)
   p.rot('head', graze ? 25 : 4 * Math.sin(t * 1.6 + u.id))
+}
+
