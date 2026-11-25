@@ -486,3 +486,5 @@ const poseMedusa: PoseFn = (p, u, t) => {
   p.rot('upperarm_R', -10 * Math.sin(t * 1.3), 0, -12)
 }
 
+const CHIMERA_LIMBS = ['leg_FL', 'leg_FR', 'leg_HL', 'leg_HR', 'tail_snake']
+
