@@ -1125,3 +1125,4 @@ export const BOSS = {
   /** Share of the boss's hit that one glob carries; volleys are meant to be dodged, not tanked. */
   volleyDamage: 0.28,
   volleySpread: 3.2,
+  /** The globs of its volleys (kept off the unit spec so phase 1 stays a melee fight). */
