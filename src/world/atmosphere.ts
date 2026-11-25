@@ -73,3 +73,4 @@ export class Atmosphere {
     this.sky = new THREE.Mesh(new THREE.SphereGeometry(900, 32, 16), mat)
     this.sky.name = 'sky'
     this.sky.frustumCulled = false
+    this.sky.renderOrder = -1
