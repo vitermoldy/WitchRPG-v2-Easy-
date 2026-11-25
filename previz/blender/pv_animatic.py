@@ -86,3 +86,4 @@ def build(dunia, res=(1280, 720), samples=24):
     cn = S.CAM["normal"]
     head_rest = {}
     for name, ob in hy.objs.items():
+        if name.startswith("head"):
