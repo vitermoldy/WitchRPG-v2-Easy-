@@ -456,3 +456,4 @@ def b_ilyra(r, pose="idle"):
     st = r.P("staff", W, "hand_R")
     bot, top = W - sd * 0.62, W + sd * 1.18
     st.limb(bot, top, 0.018, 0.022, mat="wood", seg=8, joints=False)
+    st.cone(bot, bot - sd * 0.08, 0.02, mat="metal", seg=6)
