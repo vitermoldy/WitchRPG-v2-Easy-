@@ -218,3 +218,4 @@ export class IlyraModel {
       this.rot('head', 20 * tuck)
       return
     }
+    if (p.flying) {
