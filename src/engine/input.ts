@@ -70,3 +70,5 @@ export class Input {
 
   unlock() {
     if (document.pointerLockElement) document.exitPointerLock()
+  }
+
