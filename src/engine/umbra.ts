@@ -51,3 +51,4 @@ interface Call {
  * (unlimited), calling the army out with T and sending it back with T, and orders for the army.
  * Ported from v1; the aim comes from the shoulder camera, and an executed body is easier to raise.
  */
+export class Umbra {
