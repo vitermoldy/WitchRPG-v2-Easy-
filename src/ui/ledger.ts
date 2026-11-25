@@ -19,3 +19,4 @@ export function confirmDialog(title: string, text: string, yes: string): Promise
   const dlg = $<HTMLDialogElement>('confirm')
   $('confirm-title').textContent = title
   $('confirm-text').textContent = text
+  $('confirm-yes').textContent = yes
