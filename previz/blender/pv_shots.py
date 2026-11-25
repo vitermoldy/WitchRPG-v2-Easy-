@@ -208,3 +208,6 @@ def build_hero(dunia, name="01-hero-bahu", mode="normal", cam_over=None, res=(19
     shaft_fog(local, P, 70, Wd.ground_z(P[0], P[1]))
     c = dict(cam_over or {})
     cam = place_game_camera(sc, P, f, mode, name=f"kamera.{name}", **c)
+    return sc, cam
+
+
