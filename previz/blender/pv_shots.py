@@ -307,3 +307,4 @@ def build_minotaur(dunia):
     # amber telegraph: a slow pulsing ring = can be blocked or parried
     ring_c = mp + face_m * 1.9
     disc(local, "telegraf.cincin", ring_c, 2.3, mat_ring("cincin_amber", HEX["rift"], 10.0, inner=0.86, fill=0.1))
+    disc(local, "telegraf.cincin_luar", ring_c, 2.9, mat_ring("cincin_amber_luar", HEX["rift"], 3.0, inner=0.93, fill=0.0), z_off=0.035)
