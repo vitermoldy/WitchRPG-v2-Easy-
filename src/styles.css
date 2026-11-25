@@ -1933,3 +1933,4 @@ dialog::backdrop {
 
 .map-sort {
   display: flex;
+  align-items: center;
