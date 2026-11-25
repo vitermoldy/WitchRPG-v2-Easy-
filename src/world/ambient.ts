@@ -204,3 +204,4 @@ export class Ambient {
     const fade = Math.min(1, (w[4] ?? 0) * 1.6)
     this.riftMat.uniforms.uFade.value = fade
     this.riftMat.uniforms.uTime.value = this.time
+    this.rift.visible = fade > 0.02
