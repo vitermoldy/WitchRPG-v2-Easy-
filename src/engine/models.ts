@@ -126,3 +126,4 @@ export class IlyraModel {
    * ground next to the camera and the bloom would flood the screen.
    */
   firstPerson(on: boolean) {
+    const walk = (o: THREE.Object3D) => {
