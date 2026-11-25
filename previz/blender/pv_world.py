@@ -716,3 +716,4 @@ def build_embers(coll, centre, radius, count, seed=5, z_range=(0.5, 30)):
     return scatter_object(f"embers_{seed}", coll, ember, pts, np.zeros((count, 3)), rng.uniform(0.5, 1.6, count))
 
 
+def build_world(lib_scene):
