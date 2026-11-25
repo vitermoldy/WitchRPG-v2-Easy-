@@ -358,3 +358,4 @@ export class IlyraModel {
       armLX += -10 * act.cast
     }
     if (act.rite >= 0) {
+      const tremble = Math.sin(this.t * 40) * 3 * act.rite
