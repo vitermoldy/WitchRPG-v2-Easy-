@@ -412,3 +412,4 @@ def b_ilyra(r, pose="idle"):
     hc = V(J["head_c"])
     head.ell(hc + Vector((0, -0.01, -0.01)), (0.075, 0.085, 0.1), mat="skin")
     head.ell(hc + Vector((0, 0.015, 0.01)), (0.105, 0.115, 0.125), mat="cloth")
+    head.tube([hc + Vector((0, 0.06, 0.09)), hc + Vector((0, 0.14, 0.02)), hc + Vector((0, 0.17, -0.12))], [0.07, 0.04, 0.0], mat="cloth", seg=8, n=3)
