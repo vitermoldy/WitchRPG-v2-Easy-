@@ -52,3 +52,4 @@ export interface BotInput {
   rise?: number
 }
 
+export interface AimHit {
