@@ -198,3 +198,4 @@ describe('creature shots', () => {
       units: { units: [] },
       clearTelegraph: noop,
       // the blow fells her, and her fall clears every shot in the air
+      strikePlayer: () => {
