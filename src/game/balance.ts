@@ -1192,3 +1192,4 @@ export const COMBAT = {
   },
   /** Brief freeze on impact; heavier blows hold longer. */
   hitstop: { light: 0.035, heavy: 0.08, parry: 0.11 },
+  /** A full stun meter staggers the creature this long; F executes it. */
