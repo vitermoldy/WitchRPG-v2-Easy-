@@ -43,3 +43,4 @@ export class LockOn {
         score = s
         best = t
       }
+    }
