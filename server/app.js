@@ -178,3 +178,4 @@ export function createApi(getPool, database) {
           p.shadows.map((s, i) => [client, s.id, s.name, s.kind, s.rank, s.level, s.xp, i]),
         ])
       }
+      await conn.query('DELETE FROM witch_altars WHERE client_id = ?', [client])
