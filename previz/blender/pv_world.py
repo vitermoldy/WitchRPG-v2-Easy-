@@ -467,3 +467,4 @@ def build_forest(coll, P, size=1260.0, step=4.0, seed=3):
         if swampy[idx] and kind not in ("swamp", "dead"):
             continue
         out.setdefault(kind, []).append(idx)
+    obs = {}
