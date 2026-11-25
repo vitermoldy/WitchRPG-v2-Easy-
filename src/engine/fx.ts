@@ -134,3 +134,4 @@ export class Particles {
       const s = e.speed ?? 0
       // Uniform direction on a sphere.
       const u = Math.random() * 2 - 1
+      const t = Math.random() * Math.PI * 2
