@@ -393,3 +393,4 @@ export class Lair {
         const reach = Math.hypot(her.x - body.pos.x, her.z - body.pos.z)
         const useSpit = reach > HYDRA.slamReach + 1 || (this.phase === 2 && Math.random() < 0.55)
         // a slam comes from the head nearest her, a spit from any
+        let h = idle[Math.floor(Math.random() * idle.length)]
