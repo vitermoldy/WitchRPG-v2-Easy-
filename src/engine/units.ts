@@ -890,3 +890,4 @@ export class UnitSystem {
           const oz = u.pos.z - o.pos.z
           const min = u.radius + o.radius
           const d2 = ox * ox + oz * oz
+          if (d2 >= min * min || d2 < 1e-6) continue
