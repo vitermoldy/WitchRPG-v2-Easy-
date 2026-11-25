@@ -862,3 +862,4 @@ def b_dragon(r):
     tl = r.P("tail", Q["tail_base"], "body")
     tp = [Q["tail_base"], (0, 5.6, 2.4), (0.8, 7.6, 1.3), (1.8, 9.6, 0.7), (1.4, 11.6, 0.5)]
     tail_tube(tl, tp, 0.75, 0.08, seg=9)
+    tip = V(tp[-1])
