@@ -191,3 +191,4 @@ def build_terrain(coll, size=1300.0, step=2.5):
 def terrain_material():
     m = bpy.data.materials.get("terrain") or bpy.data.materials.new("terrain")
     m.use_nodes = True
+    nt = m.node_tree
