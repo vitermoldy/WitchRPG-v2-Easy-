@@ -158,3 +158,4 @@ export class Terrain {
       edges[2].push(k * (n + 1))
       edges[3].push(k * (n + 1) + n)
     }
+    edges.forEach((edge, e) => {
