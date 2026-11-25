@@ -889,3 +889,4 @@ export class Game implements UnitHost {
     const alive = p.alive
     p.petrified = Math.max(0, p.petrified - dt)
     const stone = p.petrified > 0
+    const wheel = this.umbra.wheelOpen
