@@ -359,3 +359,4 @@ const poseNaga: PoseFn = (p, u, t) => {
     const k = ease(u.t / u.atk.windup)
     p.body(0.1 * k, -12 * k)
     p.rot('head', -35 * k + Math.sin(t * 40) * 2 * k)
+    return
