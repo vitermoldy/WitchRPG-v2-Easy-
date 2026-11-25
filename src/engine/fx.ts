@@ -69,3 +69,4 @@ export class Particles {
   private readonly max: number
   private readonly pos: Float32Array
   private readonly col: Float32Array
+  private readonly size: Float32Array
