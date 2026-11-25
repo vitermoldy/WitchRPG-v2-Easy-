@@ -429,3 +429,4 @@ export class Fight {
           target = u
         }
       }
+    }
