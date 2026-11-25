@@ -174,3 +174,4 @@ export class Unit implements Foe {
     this.damage = st.damage
     this.speed = st.speed
     this.radius = this.spec.radius
+    this.mass = this.spec.mass
