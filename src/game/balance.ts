@@ -322,3 +322,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     cooldown: 2.4,
     shot: { speed: 17, gravity: 9, radius: 0.3, keepAway: 11 },
   },
+  warden: {
