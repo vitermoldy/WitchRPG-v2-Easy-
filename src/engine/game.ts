@@ -1238,3 +1238,4 @@ export class Game implements UnitHost {
 
   private debugText() {
     const s = this.frameStats()
+    const i = this.renderer.info.render
