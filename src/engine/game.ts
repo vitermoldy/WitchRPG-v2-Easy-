@@ -917,3 +917,4 @@ export class Game implements UnitHost {
     const cur = this.lockon.current
     let visible = true
     if (cur) {
+      const lp = lockPoint(cur)
