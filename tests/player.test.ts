@@ -100,3 +100,4 @@ describe('Ilyra on foot', () => {
     expect(seen.some(([, inv]) => inv)).toBe(true)
   })
 
+  it('steps back when she rolls with no direction held', () => {
