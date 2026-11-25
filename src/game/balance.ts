@@ -580,3 +580,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   // Too heavy to lift or throw. An elite Cyclops raises as a Jenderal.
   cyclops: {
     name: 'Cyclops',
+    rank: 'ksatria',
