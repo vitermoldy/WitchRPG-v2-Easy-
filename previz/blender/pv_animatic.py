@@ -59,3 +59,4 @@ def build(dunia, res=(1280, 720), samples=24):
     hy = S.actor("aktor.hydra.anim", "hydra")
     hy_i = C.instance(hy.coll, local, loc=(H.x, H.y, -17.0), rot_z=S.yaw_to(-f), name="hydra.anim")
     foam = C.collection("animatic.busa", local)
+    S.foam_rings(foam, hy, type("I", (), {"matrix_basis": hy_i.matrix_basis.copy(), "location": Vector((H.x, H.y, 0))})())
