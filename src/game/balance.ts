@@ -960,3 +960,4 @@ export const HYDRA = {
   rockMass: 120,
   /** Each new phase gives her back a share of max HP and some mana (v1). */
   phaseHeal: 0.25,
+  phaseMana: 30,
