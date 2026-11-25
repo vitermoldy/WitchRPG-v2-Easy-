@@ -139,3 +139,4 @@ export class Player {
       this.dodgeX = dx / l
       this.dodgeZ = dz / l
       this.dodgeT = 0
+      this.dodges++
