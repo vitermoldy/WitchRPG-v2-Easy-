@@ -55,3 +55,4 @@ export class Player {
   maxMana = 100
   alive = true
   /** Seconds turned to stone (Medusa's gaze): no moving, no acting. */
+  petrified = 0
