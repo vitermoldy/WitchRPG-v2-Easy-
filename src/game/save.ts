@@ -47,3 +47,4 @@ export function saveProfile(p: Profile, stamp = true): boolean {
   try {
     localStorage.setItem(KEY, JSON.stringify(p))
     return true
+  } catch {
