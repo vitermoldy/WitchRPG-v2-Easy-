@@ -86,3 +86,4 @@ Dihitung oleh `build.py` dari dunia previz (medan 1.300 × 1.300 m, titik tiap 2
 
 | Bagian | Jumlah | Segitiga per buah | Total segitiga |
 | --- | --- | --- | --- |
+| Medan | 1 | | 540.800 |
