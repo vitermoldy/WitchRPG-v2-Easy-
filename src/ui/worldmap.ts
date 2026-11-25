@@ -361,3 +361,4 @@ export class WorldMap {
       const [x, y] = at(f.x, f.z)
       ctx.beginPath()
       ctx.arc(x, y, dot, 0, Math.PI * 2)
+      ctx.fillStyle = KIND_COLOR[f.kind] ?? '#fff'
