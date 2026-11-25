@@ -215,3 +215,4 @@ export class Unit implements Foe {
     }
   }
 
+  get height() {
