@@ -302,3 +302,4 @@ export class Rings {
     ring.mesh.visible = true
     ring.mesh.position.set(pos.x, pos.y + 0.06, pos.z)
     ;(ring.mesh.material as THREE.MeshBasicMaterial).color.set(color).multiplyScalar(2.2)
+    ring.t = 0
