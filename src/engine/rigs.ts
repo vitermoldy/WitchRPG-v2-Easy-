@@ -318,3 +318,4 @@ const CENTAUR_LIMBS = ['leg_FL', 'leg_FR', 'leg_HL', 'leg_HR', 'upperarm_L', 'up
 /** Centaur: an old archer on a horse's body. Draws, holds, looses; rears to kick when she is close. */
 const poseCentaur: PoseFn = (p, u, t) => {
   if (common(p, u, t, CENTAUR_LIMBS)) return
+  const { ph, amp } = trot(p, u, 34, 0.7)
