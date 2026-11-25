@@ -47,3 +47,4 @@ for ob in list(bpy.data.objects):
 _flat = {}
 
 
+def tone_of(m):
