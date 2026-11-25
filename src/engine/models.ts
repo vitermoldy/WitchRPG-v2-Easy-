@@ -209,3 +209,4 @@ export class IlyraModel {
       const e = u * u * (3 - 2 * u)
       this.pivot.rotation.x = Math.PI * 2 * e
       this.pivot.position.y = 0.9 - 0.35 * Math.sin(Math.PI * u)
+      const tuck = Math.sin(Math.PI * u)
