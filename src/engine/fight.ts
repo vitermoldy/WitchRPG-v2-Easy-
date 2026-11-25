@@ -65,3 +65,4 @@ class Staff {
     this.ensure().visible = true
     this.state = 'flying'
     this.pos.copy(from)
+    this.prev.copy(from)
