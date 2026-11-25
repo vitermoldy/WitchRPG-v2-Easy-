@@ -321,3 +321,6 @@ def _swamp_tree(p):
         for k in range(4):
             a = k * 1.7
             base = Vector((x + math.cos(a) * r * 0.7, y + math.sin(a) * r * 0.7, z - r * 0.3))
+            p.cone(base, base - Vector((0, 0, 2.2 + k % 2)), 0.12, mat="moss", seg=4, smooth=False)
+
+
