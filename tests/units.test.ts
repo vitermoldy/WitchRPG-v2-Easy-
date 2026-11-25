@@ -58,3 +58,4 @@ describe('creature attacks', () => {
     const imp = w.sys.spawn('imp', 'enemy', 1, { x: 0, z: 2 })
     let moved = false
     w.step(1.2, () => {
+      // as soon as it crouches she walks out of the circle
