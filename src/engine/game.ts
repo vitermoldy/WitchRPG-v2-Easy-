@@ -266,3 +266,4 @@ export class Game implements UnitHost {
       this.units.hurt(u, 0, p.pos, 6, 2)
       p.nudge(p.pos.x - u.pos.x, p.pos.z - u.pos.z, 0.35, 0.14)
       this.sfx.clank()
+      this.hitstop(COMBAT.hitstop.light)
