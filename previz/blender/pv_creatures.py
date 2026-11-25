@@ -484,3 +484,4 @@ def b_imp(r):
     for s, side in SIDES:
         hd = r.parts["hand_" + side]
         W, d = J["wr_" + side], J["hand_dir_" + side]
+        for a in (-0.03, 0.0, 0.03):
