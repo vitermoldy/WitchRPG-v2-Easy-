@@ -96,3 +96,4 @@ async function boot() {
   range('vol', () => pr.settings.volume, (v) => `${Math.round(v * 100)}%`, (v) => {
     pr.settings.volume = v
     game.sfx.setVolume(v)
+  })
