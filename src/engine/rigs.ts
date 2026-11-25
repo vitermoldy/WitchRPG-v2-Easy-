@@ -384,3 +384,4 @@ const poseMinotaur: PoseFn = (p, u, t) => {
   const amp = Math.min(1.4, Math.hypot(u.vel.x, u.vel.z) / Math.max(1, u.speed))
   p.rot('tail', 10, 20 * Math.sin(t * 2 + u.id))
   const charge = u.atk.name === 'seruduk'
+  if (u.state === 'windup') {
