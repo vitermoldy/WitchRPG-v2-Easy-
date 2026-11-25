@@ -35,3 +35,4 @@ const KINDS: Kind[] = [
 ]
 
 const MOTE_VERT = /* glsl */ `
+  attribute vec3 tint;
