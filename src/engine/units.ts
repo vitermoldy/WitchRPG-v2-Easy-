@@ -895,3 +895,4 @@ export class UnitSystem {
           // the heavier one gives way less
           const share = o.mass / (o.mass + u.mass)
           const push = ((min - d) / d) * Math.min(1, dt * 10) * share
+          u.pos.x += ox * push
