@@ -162,3 +162,4 @@ export class Particles {
         }
         continue
       }
+      this.life[i] -= dt
