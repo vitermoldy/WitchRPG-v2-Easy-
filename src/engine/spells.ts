@@ -564,3 +564,4 @@ export class Spells {
   private burst(at: THREE.Vector3) {
     const s = SPELL.burst
     this.burstCd = s.cooldown
+    const r = s.radius + (this.upgraded('burst') ? s.radiusUpgrade : 0)
