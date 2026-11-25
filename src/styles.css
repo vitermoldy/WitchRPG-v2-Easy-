@@ -1408,3 +1408,4 @@ dialog::backdrop {
 }
 
 .stat {
+  display: grid;
