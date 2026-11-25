@@ -90,3 +90,4 @@ export class Unit implements Foe {
   neckLean = 20
   neckCurl = 6
   neckYaw = 0
+  readonly pos = new THREE.Vector3()
