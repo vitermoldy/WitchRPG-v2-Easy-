@@ -56,3 +56,4 @@ export class WorldMap {
       if (e.code === 'KeyM' && !(e.target instanceof HTMLSelectElement)) {
         e.preventDefault()
         this.close()
+      }
