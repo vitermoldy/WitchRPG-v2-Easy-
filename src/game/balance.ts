@@ -466,3 +466,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     strike: 'line',
     stun: 25,
   },
+  // v2, Tebing Berangin: shoots from range and backs away. The arrow flies along a flashing line: roll aside.
