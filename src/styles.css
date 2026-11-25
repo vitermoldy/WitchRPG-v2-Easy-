@@ -1956,3 +1956,4 @@ dialog::backdrop {
   font-size: 0.82rem;
 }
 
+@media (max-width: 860px) {
