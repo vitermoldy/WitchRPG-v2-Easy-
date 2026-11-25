@@ -15,3 +15,4 @@ export type DamageKind = 'melee' | 'bolt' | 'blast' | 'staff' | 'impact' | 'shad
 export interface Foe {
   pos: THREE.Vector3
   radius: number
+  alive: boolean
