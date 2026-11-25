@@ -442,3 +442,4 @@ button {
   fill: var(--chaos);
 }
 
+/* Aim point: a dot only while aiming; the hit mark closes around it when a blow or bolt lands. */
