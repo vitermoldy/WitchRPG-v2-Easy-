@@ -80,3 +80,5 @@ export class Input {
   release(code: string) {
     if (this.down.has(code)) this.releasedSet.add(code)
     this.down.delete(code)
+  }
+
