@@ -75,3 +75,4 @@ world_stats = {
     "segitiga_prototipe": {k: sum(len(p.vertices) - 2 for p in ob.data.polygons) for k, ob in protos.items()},
     "segitiga_medan": sum(len(p.vertices) - 2 for p in bpy.data.objects["terrain"].data.polygons),
 }
+with open(os.path.join(TMP, "dunia.json"), "w", encoding="utf-8") as fh:
