@@ -849,3 +849,4 @@ export class UnitSystem {
       if (u.state === 'windup' && u.t >= u.spec.windup * 0.6) {
         u.set('strike')
         if (tgt && Math.hypot(tgt.pos.x - u.pos.x, tgt.pos.z - u.pos.z) < Math.min(u.spec.attackRange, 2.2) + u.radius + tgt.radius + 0.6) host.strikeUnit(u, tgt)
+      } else if (u.state === 'strike' && u.t >= 0.15) u.set('recover')
