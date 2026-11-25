@@ -132,3 +132,4 @@ if "--anim" in argv:
     sc.render.resolution_percentage = PCT
     bpy.ops.render.render(animation=True, scene=sc.name)
     log("render animatic", first, last)
+    if first == 1 and last == A.FRAMES:
