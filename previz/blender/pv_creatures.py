@@ -459,3 +459,4 @@ def b_ilyra(r, pose="idle"):
     st.cone(bot, bot - sd * 0.08, 0.02, mat="metal", seg=6)
     head_c = top + sd * 0.12
     side = sd.cross(Vector((0, 1, 0))).normalized()
+    st.torus(head_c, 0.11, 0.014, normal=side.cross(sd), mat="metal", seg=18, rseg=5)
