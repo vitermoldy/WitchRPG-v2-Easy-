@@ -845,3 +845,4 @@ def b_phoenix(r):
                 mat="accent" if k % 2 else "glow", seg=5, n=3, squash=0.35)
 
 
+def b_dragon(r):
