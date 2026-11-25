@@ -151,3 +151,4 @@ export class Player {
       this.vz = this.dodgeZ * v
       this.dodgeT += dt
       if (this.dodgeT >= T) {
+        this.dodgeT = -1
