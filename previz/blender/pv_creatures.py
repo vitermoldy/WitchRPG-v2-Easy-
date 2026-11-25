@@ -277,3 +277,4 @@ def dog_head(part, at, fwd=(0, -1, 0), s=1.0, jaw_open=25, ears=True, mane=False
 
 def eagle_head(part, at, fwd=(0, -1, 0), s=1.0, mat="body2"):
     a, F = V(at), Vector(fwd).normalized()
+    side = F.cross(UP).normalized()
