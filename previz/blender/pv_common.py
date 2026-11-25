@@ -750,3 +750,4 @@ def compositor(sc, strength=0.6, threshold=1.2, vignette=True):
         bl = N.new("CompositorNodeBlur")
         bl.inputs["Size"].default_value = (300, 300)
         L.new(em.outputs["Mask"], bl.inputs["Image"])
+        mix = N.new("ShaderNodeMix")
