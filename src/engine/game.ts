@@ -464,3 +464,5 @@ export class Game implements UnitHost {
     this.forest.cull(this.player.pos.x, this.player.pos.z)
     this.renderer.compile(this.scene, this.camera)
     this.state = 'title'
+  }
+
