@@ -458,3 +458,4 @@ export class Umbra {
       raised.push(rec)
       const at = u.pos.clone()
       g.units.remove(u)
+      g.pools.open(at, 0.9 + UNITS[rec.kind].radius * 1.6, 1.3)
