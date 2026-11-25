@@ -259,3 +259,4 @@ export class Umbra {
     // while the army is out, a shadow that has reformed rises again beside her
     if (this.armyOut) {
       for (const [id, at] of this.downUntil) {
+        if (at > this.time) continue
