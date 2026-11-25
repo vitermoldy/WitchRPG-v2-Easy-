@@ -156,3 +156,4 @@ button {
   margin: 0 0 0.6rem;
   font-family: var(--font-display);
   font-weight: 500;
+  font-size: clamp(2rem, 5vw, 3.2rem);
