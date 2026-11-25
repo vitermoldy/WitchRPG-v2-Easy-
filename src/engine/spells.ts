@@ -447,3 +447,4 @@ export class Spells {
       const goal = new THREE.Vector3(p.x, p.y + 1.5, p.z).addScaledVector(f, dist).addScaledVector(right, i === 0 ? -0.4 : 1.2)
       goal.y = Math.max(goal.y, g.ground.height(goal.x, goal.z) + 0.6)
       const c = u.center()
+      const nc = c.clone().lerp(goal, Math.min(1, dt * (heavy ? 5 : 9)))
