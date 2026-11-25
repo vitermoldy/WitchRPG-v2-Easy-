@@ -680,3 +680,4 @@ def build_rift(coll):
     pts = []
     n = 22
     for i in range(n):
+        t = i / (n - 1)
