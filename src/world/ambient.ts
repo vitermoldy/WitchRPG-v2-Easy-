@@ -85,3 +85,4 @@ const RIFT_FRAG = /* glsl */ `
     gl_FragColor = vec4(col / max(a, 0.001) * uFade, a);
   }
 `
+const RIFT_VERT = /* glsl */ `
