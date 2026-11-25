@@ -238,3 +238,4 @@ export class WorldMap {
           const shade = 1 + Math.max(-0.45, Math.min(0.45, ((heightMap(mx - step, my) - heightMap(mx + step, my)) + (heightMap(mx, my + step) - heightMap(mx, my - step))) * 0.05))
           r *= shade
           gg *= shade
+          b *= shade
