@@ -19,3 +19,4 @@ const RING_FRAG = /* glsl */ `
   uniform float uTime;
   void main() {
     vec2 p = vUv * 2.0 - 1.0;
+    float r = length(p);
