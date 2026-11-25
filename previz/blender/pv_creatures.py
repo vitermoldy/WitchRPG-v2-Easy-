@@ -126,3 +126,4 @@ def humanoid(r, H, bulk=1.0, legs="human", female=False, off=(0, 0, 0), arm_pose
             if legs == "bird":
                 for a in (-25, 0, 25):
                     tip = V(A) + _rz(Vector((0, -H * 0.09, -A.z + 0.01)), a)
+                    ft.cone(A, tip, H * 0.012, mat=foot_mat or "horn")
