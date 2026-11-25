@@ -860,3 +860,4 @@ export class Game implements UnitHost {
     this.prof('render', tr)
     if (this.syncFrames) {
       const tw = performance.now()
+      const gl = this.renderer.getContext()
