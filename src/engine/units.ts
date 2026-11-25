@@ -521,3 +521,4 @@ export class UnitSystem {
         }
         u.vel.multiplyScalar(Math.max(0, 1 - dt * 4))
         u.yaw += dt * 1.4
+        this.move(u, dt, true)
