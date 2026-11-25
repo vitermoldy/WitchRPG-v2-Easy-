@@ -62,3 +62,4 @@ export interface SwingState {
   /** 0, 1, 2 for the light chain. */
   index: number
   t: number
+  hit: boolean
