@@ -514,3 +514,4 @@ export class Umbra {
         s.focus = null
       }
       g.hud.message('Perintah: tahan posisi.', 'umbra')
+    } else if (choice === 'attack') {
