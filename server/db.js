@@ -12,3 +12,4 @@ import { AUTH_TABLES } from './auth.js'
  */
 const TABLES = [
   `CREATE TABLE IF NOT EXISTS clients (
+    id CHAR(12) PRIMARY KEY,
