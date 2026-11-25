@@ -306,3 +306,4 @@ export class Hud {
     if (reform.count) rows.push(`<li class="army-row dim"><span>Terbentuk kembali</span><b class="num">${reform.count}, ${reform.next} dtk</b></li>`)
     const order = { marsekal: 0, jenderal: 1, ksatria: 2, prajurit: 3 }
     const top = [...field].sort((a, b) => order[a.spec.rank] - order[b.spec.rank] || b.level - a.level).slice(0, 3)
+    for (const u of top) {
