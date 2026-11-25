@@ -394,3 +394,5 @@ export class Fight {
     const locked = g.lockon.current as Unit | null
     if (locked && locked.alive) return locked.center(this.v)
     return this.v.copy(g.aim(COMBAT.staff.range).point)
+  }
+
