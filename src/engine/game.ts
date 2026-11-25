@@ -280,3 +280,4 @@ export class Game implements UnitHost {
       this.hud.message(`${u.spec.name} membatukan Ilyra. Tahan C saat tatapannya penuh, atau pasang Hex Barrier.`, 'chaos')
     }
     if (atk.effect === 'poison') {
+      p.poisonT = EFFECTS.poisonTime
