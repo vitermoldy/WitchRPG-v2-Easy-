@@ -453,3 +453,4 @@ export class Fight {
       // flyers out of reach overhead are safe from the staff
       const mid = u.pos.y + u.height * 0.5
       if (Math.abs(mid - (p.pos.y + 1)) > u.height * 0.5 + 1.1) continue
+      if (!inSwing(p.pos.x, p.pos.z, p.facing, sw, u.pos.x, u.pos.z, u.radius)) continue
