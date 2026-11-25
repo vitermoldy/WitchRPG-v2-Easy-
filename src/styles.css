@@ -504,3 +504,4 @@ button {
   padding: 0.4rem 0.9rem;
   border-radius: var(--radius);
   background: var(--plate);
+  color: var(--ink-2);
