@@ -1057,3 +1057,4 @@ export class Game implements UnitHost {
     // the pivot follows her height softly so small bumps in the ground do not shake the view
     const wantY = p.pos.y + CAMERA.normal.height
     this.pivotY = snap ? wantY : this.pivotY + (wantY - this.pivotY) * Math.min(1, dt * 12)
+    const pivot = { x: p.pos.x, y: this.pivotY, z: p.pos.z }
