@@ -72,3 +72,4 @@ def mat_emit(name, color, strength=8.0):
     nt = m.node_tree
     nt.nodes.remove(nt.nodes["Principled BSDF"])
     e = nt.nodes.new("ShaderNodeEmission")
+    e.inputs["Color"].default_value = rgb(color)
