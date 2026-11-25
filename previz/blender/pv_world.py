@@ -643,3 +643,4 @@ def build_temple(coll, pal):
     for s in (-1, 1):
         p.box((gx + 2.6 * s, gy, gz + 3.5), (1.4, 1.4, 7.0), mat="stone")
     p.box((gx, gy, gz + 7.4), (7.0, 1.6, 1.0), mat="stone_moss")
+    # a fallen statue head
