@@ -22,3 +22,4 @@ interface Field {
   radius: number
   t: number
   duration: number
+  group: THREE.Object3D
