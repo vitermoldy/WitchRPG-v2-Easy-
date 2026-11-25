@@ -329,3 +329,4 @@ export class IlyraModel {
       foreL = -20 * (1 - back)
       staffX = mix(mix(staffX, 180, up), 200, down) * (1 - back) + staffX * back
       staffZ = 0
+      torsoX = mix(mix(torsoX, -12, up), 42, down) * (1 - back) + torsoX * back
