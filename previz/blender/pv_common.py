@@ -90,3 +90,4 @@ def mat_cracked(name, color, crack, strength=5.0, scale=2.2, rough=0.75, coverag
     b = N["Principled BSDF"]
     b.inputs["Base Color"].default_value = rgb(color)
     b.inputs["Roughness"].default_value = rough
+    b.inputs["Emission Color"].default_value = rgb(crack)
