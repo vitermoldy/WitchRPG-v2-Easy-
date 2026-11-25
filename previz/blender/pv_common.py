@@ -405,3 +405,4 @@ class Part:
         for A, Bv in zip(rings, rings[1:]):
             if len(A) == 1 and len(Bv) == 1:
                 continue
+            if len(A) == 1:
