@@ -113,3 +113,4 @@ export class Obstacles {
   sweep(ax: number, ay: number, az: number, bx: number, by: number, bz: number, cr: number): number {
     const dx = bx - ax
     const dy = by - ay
+    const dz = bz - az
