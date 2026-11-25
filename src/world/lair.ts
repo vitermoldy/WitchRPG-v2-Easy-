@@ -73,3 +73,4 @@ export class Lair {
   private floodTo = 0
   private readonly water: THREE.Mesh
   private readonly islands: Island[] = []
+  private readonly curtain: THREE.Mesh
