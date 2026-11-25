@@ -1601,3 +1601,4 @@ dialog::backdrop {
 
 .room-meta {
   color: var(--ink-3);
+  font-size: 0.8rem;
