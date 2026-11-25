@@ -273,3 +273,4 @@ export class Player {
     const run = Math.hypot(dx, dz)
     if (h1 - h0 > MOVE.maxSlope * run && this.pos.y <= h0 + 0.05) return
     this.pos.x = nx
+    this.pos.z = nz
