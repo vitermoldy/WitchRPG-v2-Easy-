@@ -629,3 +629,4 @@ def b_minotaur(r, pose="idle"):
     for i in range(9):
         a = math.radians(-80 + i * 20)
         top = hp + Vector((math.sin(a) * 0.3, -math.cos(a) * 0.22, 0.05))
+        p.box(top - Vector((0, 0, 0.3)), (0.14, 0.04, 0.55), rot=(0, 0, math.degrees(-a)), mat="cloth")
