@@ -29,3 +29,4 @@ if (rows.length === 0) {
       altar: Number(r.altars) || 1,
       'boss tumbang': r.boss_kills ?? 0,
     })),
+  )
