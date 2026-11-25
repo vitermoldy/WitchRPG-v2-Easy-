@@ -371,3 +371,4 @@ export class Umbra {
         u.pos.copy(at)
         u.vel.set(0, 0, 0)
         u.set('rising')
+        g.pools.open(at, 1 + u.radius * 1.5, 1.2)
