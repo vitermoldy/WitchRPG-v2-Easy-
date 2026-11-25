@@ -207,3 +207,4 @@ export interface AttackSpec {
   /** Radius of the circle a ring attack lands on (default 1.4 m). */
   ring?: number
   /** The circle lies this far in front of the creature (a breath) instead of on her. */
+  ahead?: number
