@@ -569,3 +569,5 @@ export class Game implements UnitHost {
       }
     }
     this.saveSoon()
+  }
+
