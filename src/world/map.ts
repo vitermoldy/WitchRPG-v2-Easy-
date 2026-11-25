@@ -59,3 +59,4 @@ export const CLEARINGS: [[number, number], number][] = [
 ]
 /** Half-size of the terrain (it runs past the playable map into the mountain ring). */
 export const HALF = 650
+/** The playable map is 1000 x 1000 m; the mountains past it are scenery. */
