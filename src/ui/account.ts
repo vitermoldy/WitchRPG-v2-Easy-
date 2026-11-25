@@ -20,3 +20,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
   const pass = $<HTMLInputElement>('gate-pass')
   const submit = $<HTMLButtonElement>('gate-submit')
   const error = $('gate-error')
+  let mode: 'in' | 'up' = 'in'
