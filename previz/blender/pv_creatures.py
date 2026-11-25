@@ -498,3 +498,4 @@ def b_imp(r):
 
 def b_hellhound(r):
     """Black three-headed hound with glowing cyan veins and a snake for a tail."""
+    Q = quad(r, 1.0, 1.5, 0.48, 0.5, 0.055)
