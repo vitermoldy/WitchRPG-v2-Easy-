@@ -251,3 +251,4 @@ def dog_head(part, at, fwd=(0, -1, 0), s=1.0, jaw_open=25, ears=True, mane=False
     side = F.cross(UP).normalized()
     part.ell(a, (0.17 * s, 0.2 * s, 0.16 * s), mat=mat)
     sn0, sn1 = a + F * 0.12 * s + UP * 0.01 * s, a + F * 0.38 * s - UP * 0.03 * s
+    part.limb(sn0, sn1, 0.1 * s, 0.065 * s, mat=mat)
