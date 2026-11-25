@@ -171,3 +171,4 @@ export class Hud {
     const g = this.g
     const p = g.player
     const pr = g.profile
+    if (this.bannerTime > 0) {
