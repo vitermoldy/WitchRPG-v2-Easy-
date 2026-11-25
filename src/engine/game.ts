@@ -73,3 +73,4 @@ export class Game implements UnitHost {
   readonly profile = loadProfile().profile
   readonly sfx = new Sfx()
   readonly units: UnitSystem
+  readonly fight: Fight
