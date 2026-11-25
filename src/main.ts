@@ -144,3 +144,4 @@ async function boot() {
     game.openMenu()
     game.input.unlock()
     menu.open()
+  }
