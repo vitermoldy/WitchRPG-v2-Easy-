@@ -431,3 +431,4 @@ export class ShadowPools {
         uniforms: { uTime: { value: 0 }, uOpen: { value: 0 }, uSeed: { value: Math.random() * 10 } },
         vertexShader: POOL_VERT,
         fragmentShader: POOL_FRAG,
+        transparent: true,
