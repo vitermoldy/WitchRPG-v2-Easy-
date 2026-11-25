@@ -102,3 +102,4 @@ export class Terrain {
     mesh.matrixAutoUpdate = false
     mesh.name = `chunk ${c.ix},${c.iz} lod${lod}`
     this.group.add(mesh)
+    c.meshes[lod] = mesh
