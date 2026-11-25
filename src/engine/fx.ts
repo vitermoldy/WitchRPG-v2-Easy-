@@ -146,3 +146,4 @@ export class Particles {
       this.life[i] = life
       this.maxLife[i] = life
       this.size0[i] = e.size
+      this.size1[i] = e.sizeEnd ?? e.size * 0.2
