@@ -663,3 +663,4 @@ const poseHydra: PoseFn = (p, u, t) => {
       let x = -2 + sway * 0.3
       if (mode === 'rear') x = -9
       // a head coming down: the rig steers lean and curl until the head lies on its circle
+      else if (mode === 'down' && h) x = s === 0 ? h.neckLean : h.neckCurl
