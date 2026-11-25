@@ -160,3 +160,4 @@ export function shadowPower(umb: number): number {
   return 1 + RITE.powerPerUmb * Math.max(0, umb - XP.startStat)
 }
 
+export interface Derived {
