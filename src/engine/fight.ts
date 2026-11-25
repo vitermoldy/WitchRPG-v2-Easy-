@@ -261,3 +261,4 @@ export class Fight {
   get moveScale() {
     if (this.exec) return 0
     const s = this.combo.current
+    if (s && s.t < s.swing.windup + s.swing.active) return 0.15
