@@ -97,3 +97,5 @@ Di balik segel, setiap boss menunggu sendirian di kampnya, dengan bar boss dan s
 
 ### Hydra
 
+Sarangnya di tepi Danau Hitam, dan hanya terbuka bagi witch Lv 10: fase terakhirnya hanya bisa dimenangkan dengan Reality Warp. Begitu pertarungan mulai, sarang tertutup sampai salah satu tumbang.
+
