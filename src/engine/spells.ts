@@ -124,3 +124,4 @@ export class Spells {
   chaos = 0
   overloadT = 0
   backlashT = 0
+  barrierT = 0
