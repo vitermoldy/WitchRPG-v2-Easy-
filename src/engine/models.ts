@@ -89,3 +89,4 @@ const SWINGS = [
  */
 export class IlyraModel {
   readonly root = new THREE.Group()
+  private readonly pivot = new THREE.Group()
