@@ -159,3 +159,4 @@ def build(dunia, res=(1280, 720), samples=24):
                 b = (2.0 + 1.5 * rise) * math.sin(t * 0.9 + i * 0.7 - j * 0.3)
                 ob.rotation_euler = (math.radians(a), math.radians(b), 0)
                 ob.keyframe_insert("rotation_euler", frame=fr)
+        for ob in foam_obs:
