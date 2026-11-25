@@ -18,3 +18,4 @@ const newCode = () => Array.from({ length: 12 }, () => ALPHABET[randomInt(ALPHAB
 
 // Mirrors src/game and src/world: skill ids, creature kinds that can be raised, ranks, stats, altars.
 const SKILLS = new Set(['hexBolt', 'grip', 'burst', 'snare', 'barrier', 'warp', 'rite', 'swap', 'focus', 'general', 'marshal'])
+// fauna (pegasus, unicorn) is never raised, so it is not here
