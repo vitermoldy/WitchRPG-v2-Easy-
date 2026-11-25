@@ -180,3 +180,4 @@ export class Ambient {
   update(dt: number, cam: THREE.Vector3, ground: number, w: ArrayLike<number>, first = false) {
     this.time += dt
     const p = this.pos
+    for (let i = 0; i < COUNT; i++) {
