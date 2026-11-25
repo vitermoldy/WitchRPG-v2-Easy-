@@ -12,3 +12,4 @@ export interface CampDef {
   levels: [number, number]
   /** How many of the pack come out elite, each with a random v1 trait. */
   elites?: number
+  /** A boss of the open world: one creature, its own level, stands again after `CAMP.bossRespawn`. */
