@@ -79,3 +79,4 @@ export class Seal {
       fragmentShader: FRAG,
       transparent: true,
       depthWrite: false,
+      side: THREE.DoubleSide,
