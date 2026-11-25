@@ -728,3 +728,4 @@ export class UnitSystem {
           this.steer(u, tgt.pos.x + Math.sin(side) * r, tgt.pos.z + Math.cos(side) * r, speed * 0.6, dt)
         }
         this.face(u, tgt.pos.x, tgt.pos.z, dt)
+        if (u.cd <= 0 && slot) {
