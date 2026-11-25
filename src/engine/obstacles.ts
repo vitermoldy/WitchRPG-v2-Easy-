@@ -19,3 +19,5 @@ export interface Shape {
   camOnly: boolean
 }
 
+const CELL = 8
+
