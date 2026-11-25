@@ -145,3 +145,4 @@ export function heightMap(x: number, y: number): number {
   const toPath = Math.min(segDist(x, y, PATHS[2][0], PATHS[2][1]), segDist(x, y, PATHS[2][1], PATHS[2][2]))
   const ramp = smooth(14, 5, toPath)
   // the ramp ignores the ragged edge noise so its grade stays even
+  if (ramp > 0) plateau = plateau * (1 - ramp) + ramp * smooth(t.r * 0.8 + 100, t.r * 0.8 - 10, dt)
