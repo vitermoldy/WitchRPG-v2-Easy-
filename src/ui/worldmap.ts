@@ -96,3 +96,4 @@ export class WorldMap {
     if (!this.dlg.open) this.dlg.showModal()
     this.renderBosses()
     this.renderMonsters()
+    this.draw()
