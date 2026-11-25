@@ -175,3 +175,4 @@ export class Lair {
 
   /** Back to the start: her fall during the fight, or the Hydra standing again later. */
   reset() {
+    const g = this.g
