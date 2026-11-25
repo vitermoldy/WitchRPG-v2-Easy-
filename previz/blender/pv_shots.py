@@ -292,3 +292,4 @@ def build_valley(dunia):
 # ---------------------------------------------------------------- 04 Minotaur fight
 
 def build_minotaur(dunia):
+    P = Wd.SPOTS["minotaur"]
