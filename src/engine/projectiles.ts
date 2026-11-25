@@ -6,3 +6,4 @@ import { ringOf, type Unit } from './units'
 
 interface Shot {
   pos: THREE.Vector3
+  prev: THREE.Vector3
