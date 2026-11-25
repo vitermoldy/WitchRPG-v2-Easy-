@@ -1099,3 +1099,4 @@ export class Game implements UnitHost {
     this.composer.setSize(w, h)
     this.bloom.resolution.set(w / 2, h / 2)
     this.camera.aspect = w / h
+    this.camera.updateProjectionMatrix()
