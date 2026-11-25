@@ -1156,3 +1156,4 @@ button {
 
 .hpbar i {
   display: block;
+  transform-origin: left;
