@@ -127,3 +127,4 @@ export function createAuth({ getPool, cookie, lang, deviceCode, newDevice }) {
   const publicUser = (row) => ({ username: row.username, createdAt: row.created_at })
 
   function setCookie(req, res, token, maxAge) {
+    const secure = req.secure ? '; Secure' : ''
