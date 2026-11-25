@@ -322,3 +322,4 @@ export class Umbra {
       this.progress += dt / castTime
       const from = g.ilyra.hand('R')
       for (const target of this.casting.slice(0, 14)) {
+        const c = target.pos
