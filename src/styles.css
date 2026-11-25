@@ -1466,3 +1466,4 @@ dialog::backdrop {
 .tree {
   display: grid;
   align-content: start;
+  gap: 0.5rem;
