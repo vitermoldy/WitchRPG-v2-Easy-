@@ -30,3 +30,4 @@ export function normalizeProfile(data: Partial<Profile> | null | undefined): Pro
     stats: { ...base.stats, ...data.stats },
     tierClears: { ...base.tierClears, ...data.tierClears },
     settings: { ...DEFAULT_SETTINGS, ...data.settings },
+    upgrades: { ...data.upgrades },
