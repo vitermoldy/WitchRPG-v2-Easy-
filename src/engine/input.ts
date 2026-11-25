@@ -23,3 +23,4 @@ export class Input {
       this.press(e.code)
       this.onKey?.(e.code)
     })
+    window.addEventListener('keyup', (e) => {
