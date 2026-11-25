@@ -1946,3 +1946,4 @@ dialog::backdrop {
   border-radius: var(--radius-sm);
   background: var(--bg);
   color: var(--ink);
+  font: inherit;
