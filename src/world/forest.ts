@@ -107,3 +107,4 @@ function snag(color: THREE.Color): THREE.BufferGeometry {
 }
 
 function rock(seed: number, r: [number, number, number], color: THREE.Color): THREE.BufferGeometry {
+  const g = new THREE.IcosahedronGeometry(1, 0)
