@@ -427,3 +427,5 @@ class Part:
         f = self.bm.faces.new(vs)
         bmesh.ops.triangulate(self.bm, faces=[f], quad_method="BEAUTY", ngon_method="EAR_CLIP")
         self._tag(vs, mat, smooth)
+        return self
+
