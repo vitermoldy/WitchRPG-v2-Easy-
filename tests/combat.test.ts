@@ -40,3 +40,4 @@ describe('stun meter and execution', () => {
   it('staggers when full, then drains after being left alone', () => {
     const m = new StunMeter(30)
     expect(m.add(COMBAT.heavy.stun)).toBe(false)
+    expect(m.add(10)).toBe(true)
