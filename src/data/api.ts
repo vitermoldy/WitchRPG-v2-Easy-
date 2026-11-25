@@ -19,3 +19,4 @@ function clientCode(): string {
     let code = localStorage.getItem(CODE_KEY)
     if (!code || !/^[A-HJ-NP-Z2-9]{12}$/.test(code)) {
       code = makeCode()
+      localStorage.setItem(CODE_KEY, code)
