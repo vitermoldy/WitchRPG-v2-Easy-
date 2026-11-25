@@ -280,3 +280,4 @@ const poseHarpy: PoseFn = (p, u, t) => {
     p.rot('upperarm_L', 0, 0, 85 + 42 * flap)
     p.rot('upperarm_R', 0, 0, -85 - 42 * flap)
     p.rot('forearm_L', 0, 0, 15 * flap)
+    p.rot('forearm_R', 0, 0, -15 * flap)
