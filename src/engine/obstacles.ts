@@ -196,3 +196,4 @@ function segSphere(ax: number, ay: number, az: number, dx: number, dy: number, d
   const c = ox * ox + oy * oy + oz * oz - R * R
   if (c <= 0) return 0
   const a = dx * dx + dy * dy + dz * dz
+  if (a < 1e-9) return 1
