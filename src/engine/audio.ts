@@ -241,3 +241,4 @@ export class Sfx {
     if (!this.ok()) return
     const t = this.ctx!.currentTime
     if (success) {
+      // A minor chord that swells, then a low pulse as the shadow stands.
