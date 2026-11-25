@@ -21,3 +21,4 @@ function world(groundHeight = 0) {
     },
     impact: () => {},
     fire: (_u, atk) => log.fired.push(atk.name),
+    summoned: () => log.summoned++,
