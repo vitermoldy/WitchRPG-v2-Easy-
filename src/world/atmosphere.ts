@@ -31,3 +31,4 @@ void main() {
   c = mix(c, ground, smoothstep(0.0, -0.25, h));
   // the band at the horizon takes the fog colour, so far hills melt into the sky
   c = mix(c, fogColor, (1.0 - smoothstep(0.0, 0.22, abs(h))) * 0.85);
+  float s = max(dot(d, sunDir), 0.0);
