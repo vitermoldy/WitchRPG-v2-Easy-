@@ -101,3 +101,4 @@ async function boot() {
     pr.settings.detail = v
     game.rigs.detail = v
   })
+  const shake = $('set-shake') as HTMLInputElement
