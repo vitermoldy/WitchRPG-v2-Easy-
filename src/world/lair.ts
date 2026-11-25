@@ -502,3 +502,4 @@ export class Lair {
         if (d < 15) this.windup(body, slam, her)
         else {
           // a volley of three globs around her, each on its own amber circle
+          for (let k = 0; k < 3; k++) {
