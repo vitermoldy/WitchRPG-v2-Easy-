@@ -67,3 +67,4 @@ export class Altars {
       root.add(rune)
       this.group.add(root)
       return { key: a.key, name: a.name, pos: new THREE.Vector3(x, y, z), crystal, rune }
+    })
