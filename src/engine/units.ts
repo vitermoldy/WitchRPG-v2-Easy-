@@ -77,3 +77,4 @@ export class Unit implements Foe {
   /** Multiplier on windup, recovery and cooldown (an elite Gesit is quicker). */
   tempo = 1
   /** Seconds before it can blink again (Succubus, Incubus). */
+  blinkCd = 0
