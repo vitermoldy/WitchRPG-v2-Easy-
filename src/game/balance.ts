@@ -815,3 +815,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     ],
   },
   atlas: {
+    name: 'Atlas',
