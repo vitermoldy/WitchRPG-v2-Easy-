@@ -1061,3 +1061,4 @@ export class Rigs {
     }
     if (u.state === 'diving') return Math.min(1, u.t / 0.4) * u.height * 1.2
     if (u.state === 'ashes') return u.height * 0.75
+    if (u.ash) return Math.min(1, (u.deadT - u.ashAt) / 2) * 0.7
