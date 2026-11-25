@@ -529,3 +529,4 @@ def b_harpy(r):
         base = hc + Vector((math.sin(a) * 0.07, 0.02, 0.08))
         h.cone(base, base + Vector((math.sin(a) * 0.18, 0.12, 0.2 + 0.05 * math.cos(a))), 0.025, mat="accent" if i % 2 else "membrane", seg=5)
     for s, side in SIDES:
+        ua = r.parts["upperarm_" + side]
