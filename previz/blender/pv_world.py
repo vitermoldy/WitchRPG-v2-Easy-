@@ -465,3 +465,4 @@ def build_forest(coll, P, size=1260.0, step=4.0, seed=3):
         kinds, w = list(mix.keys()), np.array(list(mix.values()))
         kind = kinds[rng.choice(len(kinds), p=w / w.sum())]
         if swampy[idx] and kind not in ("swamp", "dead"):
+            continue
