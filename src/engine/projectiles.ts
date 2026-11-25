@@ -105,3 +105,4 @@ export class Projectiles {
         g.glow.emit({ pos: s.pos, count: 14, color: COLOR.chaosHot, intensity: 3, life: 0.4, size: 0.2, speed: 3 })
         continue
       }
+      if (s.reflected) {
