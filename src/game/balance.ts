@@ -11,3 +11,4 @@ export const EASY = { riteChance: 1 } as const
 export const MOVE = {
   /** Default pace with WASD, and with Shift held. */
   jog: 4.4,
+  sprint: 7.0,
