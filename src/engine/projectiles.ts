@@ -47,3 +47,4 @@ export class Projectiles {
     return this.shots.length
   }
 
+  clear() {
