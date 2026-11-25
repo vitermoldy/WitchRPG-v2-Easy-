@@ -128,3 +128,4 @@ def mat_cracked(name, color, crack, strength=5.0, scale=2.2, rough=0.75, coverag
     return m
 
 
+def mat_tone(name, top, bottom=None, rough=0.7, metal=0.0, emit=None, emit_strength=0.0, vary=0.12):
