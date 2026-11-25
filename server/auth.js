@@ -35,3 +35,4 @@ export const AUTH_TABLES = [
     expires_at DATETIME NOT NULL,
     user_agent VARCHAR(255) NULL,
     INDEX sessions_by_user (user_id),
+    CONSTRAINT sessions_user FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
