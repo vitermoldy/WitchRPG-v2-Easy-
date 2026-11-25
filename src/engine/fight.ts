@@ -509,3 +509,4 @@ export class Fight {
       u.center(this.v)
       g.glow.emit({ pos: this.v, count: 40, color: COLOR.chaos, intensity: 3, life: 0.5, size: 0.18, sizeEnd: 0.02, speed: 6, gravity: 4 })
       g.glow.emit({ pos: this.v, count: 20, color: COLOR.umbra, intensity: 2.6, life: 0.7, size: 0.14, speed: 3 })
+      g.rings.spawn(u.pos, COLOR.chaos, 0.3, 3, 0.4)
