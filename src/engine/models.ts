@@ -253,3 +253,4 @@ export class IlyraModel {
     let staffZ = 12 * aim
     let armLX = 14 * s * amp * (1 - aim) - 65 * aim
     let armLY = 0
+    let armLZ = 10 * aim
