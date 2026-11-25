@@ -251,3 +251,4 @@ export class Sfx {
   }
 
   levelUp() {
+    if (!this.ok()) return
