@@ -180,3 +180,4 @@ export class Umbra {
     const stagger = Math.min(0.06, 2.2 / Math.max(1, n))
     g.pools.open(feet, spill, 1.4 + n * stagger)
     g.pools.open(feet, spill * 0.45, 1.6 + n * stagger, 0.1)
+    for (let i = 0; i < n; i++) {
