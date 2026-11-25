@@ -58,3 +58,4 @@ const RUNE_FRAG = /* glsl */ `
     float v = (ring + spokes * 0.8 + inner * 0.6 + fill) * step(r, 1.0);
     gl_FragColor = vec4(uColor * v * 2.2, v * uFade);
   }
+`
