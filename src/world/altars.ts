@@ -72,3 +72,4 @@ export class Altars {
   }
 
   isLit(key: string) {
+    return this.g.profile.world.altars.includes(key)
