@@ -86,3 +86,4 @@ describe('the forest valley', () => {
     expect(heightMap(altar.c[0], altar.c[1]) - floor).toBeGreaterThan(20)
   })
 
+  it('raises Tebing Berangin as a plateau above the forest floor', () => {
