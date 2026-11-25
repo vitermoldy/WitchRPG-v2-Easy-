@@ -126,3 +126,4 @@ class Staff {
         g.sfx.impact(0.8)
         g.hitstop(COMBAT.hitstop.light)
         // it bites in and drops into the ground at the creature's feet
+        this.pos.set(u.pos.x - this.vel.x * 0.02, g.ground.height(u.pos.x, u.pos.z) + 0.3, u.pos.z - this.vel.z * 0.02)
