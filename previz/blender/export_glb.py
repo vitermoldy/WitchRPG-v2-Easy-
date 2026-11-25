@@ -128,3 +128,4 @@ def flat(m):
     e = emission_of(m)
     if e:
         b.inputs["Emission Color"].default_value = (*e[0], 1.0)
+        b.inputs["Emission Strength"].default_value = min(e[1], 12.0)
