@@ -723,3 +723,4 @@ export class Game implements UnitHost {
     this.saveNow()
   }
 
+  /** Fast travel from one lit altar to another; the shadows on the field come along. */
