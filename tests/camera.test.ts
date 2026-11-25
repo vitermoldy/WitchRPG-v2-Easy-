@@ -21,3 +21,4 @@ describe('over-the-shoulder camera', () => {
   it('sits 3.4 m behind and 0.8 m to the right of her head with nothing in the way', () => {
     const rig = new CameraRig()
     rig.pitch = 0
+    const pose = rig.update(1, pivot, false, null, null, flat)
