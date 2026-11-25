@@ -108,3 +108,4 @@ export class Umbra {
     return this.g.profile.shadows.filter((s) => !out.has(s.id) && !pending.has(s.id) && (this.downUntil.get(s.id) ?? 0) <= this.time)
   }
 
+  reforming(): { count: number; next: number } {
