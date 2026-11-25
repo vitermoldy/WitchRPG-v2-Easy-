@@ -206,3 +206,4 @@ export function spendStat(p: Profile, key: StatKey): boolean {
   if (p.statPoints <= 0) return false
   p.stats[key] += 1
   p.statPoints -= 1
+  return true
