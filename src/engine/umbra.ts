@@ -502,3 +502,4 @@ export class Umbra {
       return
     }
     if (choice === 'follow') {
+      for (const s of shadows) {
