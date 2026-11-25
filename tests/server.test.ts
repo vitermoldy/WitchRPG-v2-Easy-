@@ -9,3 +9,4 @@ import { addShadow, newProfile } from '../src/game/progression'
 const NOW = Date.parse('2026-11-26T00:00:00Z')
 
 describe('the server checks a witch before it keeps her', () => {
+  it('takes a fresh witch as she is', () => {
