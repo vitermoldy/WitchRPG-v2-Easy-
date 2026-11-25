@@ -112,3 +112,4 @@ export class Player {
     const f = forward(camYaw, 0)
     const r = rightOf(camYaw)
     let wx = f.x * input.y + r.x * input.x
+    let wz = f.z * input.y + r.z * input.x
