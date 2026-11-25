@@ -320,3 +320,4 @@ def build_minotaur(dunia):
         pts.append(Vector((P[0], P[1], z0)) + d * (1.25 + 0.2 * t) + up * (1.85 - 0.95 * t))
         radii.append(0.008 + 0.06 * math.sin(math.pi * t) * (0.3 + 0.7 * t))
     trail = C.Rig("jejak_tongkat", {"t": C.mat_emit("jejak_chaos", HEX["chaos_hot"], 9.0), "s": C.mat_emit("percik_amber", HEX["rift"], 25.0)}, local)
+    trail.P("m").tube(pts, radii, mat="t", seg=6, n=3, squash=0.3)
