@@ -136,3 +136,4 @@ export class Unit implements Foe {
   helpers = 0
   owner: Unit | null = null
   /** Which way a body falls (for the death pose). */
+  readonly fallSide: number = Math.random() < 0.5 ? -1 : 1
