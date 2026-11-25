@@ -196,3 +196,4 @@ export class Lair {
     const g = this.g
     if (!this.body) return
     this.state = 'fight'
+    this.body.aggro = true
