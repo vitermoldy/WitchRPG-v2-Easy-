@@ -2033,3 +2033,4 @@ dialog::backdrop {
   *,
   *::before,
   *::after {
+    animation: none !important;
