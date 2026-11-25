@@ -419,3 +419,4 @@ interface Pool {
 /**
  * Shadow pools for calling and dismissing the army: a wide one that spills out from under the
  * witch, and one under each shadow that rises out of it or sinks back into it.
+ */
