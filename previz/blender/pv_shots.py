@@ -278,3 +278,4 @@ def build_valley(dunia):
         q = Vector((x, y, Wd.ground_z(x, y) + up))
         d = (q - loc).normalized()
         p = loc + d * 80
+        s = 80 * math.tan(math.radians(23)) * 2
