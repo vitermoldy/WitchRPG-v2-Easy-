@@ -365,3 +365,4 @@ def build_protos(lib_coll):
     P["swamp"] = proto("p_swamp", coll, pal, _swamp_tree)
     P["dead"] = proto("p_dead", coll, pal, _dead)
     P["burnt"] = proto("p_burnt", coll, pal, lambda p: _dead(p, "burnt"))
+    P["rock"] = proto("p_rock", coll, pal, lambda p: _rock(p, 1), flat=True)
