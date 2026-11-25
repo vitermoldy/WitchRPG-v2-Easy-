@@ -350,3 +350,4 @@ export class Hud {
       let el = this.pool[n]
       if (!el) {
         el = document.createElement('div')
+        el.className = 'hpbar'
