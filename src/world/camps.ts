@@ -175,3 +175,4 @@ export class Camps {
         if (g.ground.blocked(at.x, at.z)) {
           at.x = camp.pos.x
           at.z = camp.pos.z
+        }
