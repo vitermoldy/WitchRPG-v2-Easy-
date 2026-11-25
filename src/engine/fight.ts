@@ -248,3 +248,4 @@ export class Fight {
     if (!keepStaff) this.staff.reset()
   }
 
+  get damageMult() {
