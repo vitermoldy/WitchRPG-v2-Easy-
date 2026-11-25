@@ -281,3 +281,4 @@ export class UnitSystem {
   private readonly host: UnitHost
   private readonly grid = new Map<number, Unit[]>()
   /** Living units of each side, rebuilt with the grid every frame. */
+  private readonly living: Record<Team, Unit[]> = { enemy: [], shadow: [] }
