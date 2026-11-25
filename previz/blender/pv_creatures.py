@@ -142,3 +142,4 @@ def quad(r, H, L, W, D, leg_r, front="paw", hind="paw", body_mat="body", foot_ma
     chest = (0, -L * 0.27, H - D * 0.5)
     rump = (0, L * 0.3, H * 0.97 - D * 0.45)
     body.ell(chest, (W * 0.5, L * 0.3, D * 0.56), mat=body_mat)
+    body.ell((0, 0.02 * L, H - D * 0.56), (W * 0.44, L * 0.34, D * 0.47), mat=body_mat)
