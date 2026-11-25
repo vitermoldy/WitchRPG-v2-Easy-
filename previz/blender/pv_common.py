@@ -453,3 +453,4 @@ class Rig:
 
     def __init__(self, key, pal, coll):
         self.key, self.pal, self.coll = key, pal, coll
+        self.parts = {}
