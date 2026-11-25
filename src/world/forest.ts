@@ -152,3 +152,5 @@ export interface Tree {
   z: number
   rot: number
   scale: number
+}
+
