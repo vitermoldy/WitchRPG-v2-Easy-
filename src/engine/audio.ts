@@ -356,3 +356,4 @@ export class Sfx {
       src.start()
       this.windNodes = { gain, filter }
     }
+    const t = ctx.currentTime
