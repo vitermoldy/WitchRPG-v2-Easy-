@@ -365,3 +365,4 @@ const poseNaga: PoseFn = (p, u, t) => {
     p.body(0, 14)
     p.rot('head', 30)
     return
+  }
