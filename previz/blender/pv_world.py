@@ -555,3 +555,4 @@ def fog_material(z):
     L.new(rad.outputs["Result"], m1.inputs[1])
     m2 = N.new("ShaderNodeMath")
     m2.operation = "MULTIPLY"
+    m2.inputs[1].default_value = z["dens"]
