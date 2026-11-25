@@ -454,3 +454,4 @@ def b_ilyra(r, pose="idle"):
     else:
         sd = Vector((-0.12, -0.18, 1)).normalized()
     st = r.P("staff", W, "hand_R")
+    bot, top = W - sd * 0.62, W + sd * 1.18
