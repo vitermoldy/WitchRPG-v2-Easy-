@@ -853,3 +853,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     anchored: true,
     boss: true,
     summon: { every: 22, count: 3, max: 6 },
+    summonKind: 'harpy',
