@@ -23,3 +23,4 @@ LAKE_FOG = dict(key="danau", name="Danau Hitam", c=LAKE["c"], r=120, fog="#a3b99
 _U = (0.673, -0.740)
 HYDRA_POS = (LAKE["c"][0] + _U[0] * 82, LAKE["c"][1] + _U[1] * 82)
 ALTAR = (-10, -395)
+TEMPLE = (40, 318)
