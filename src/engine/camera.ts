@@ -94,3 +94,5 @@ export class CameraRig {
     if (this.lock > 0.5) return
     this.yaw = wrap(this.yaw - dx * sens)
     this.pitch = Math.min(rad(CAMERA.pitchMax), Math.max(rad(CAMERA.pitchMin), this.pitch - dy * sens))
+  }
+
