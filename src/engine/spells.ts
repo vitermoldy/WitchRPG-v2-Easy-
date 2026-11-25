@@ -340,3 +340,5 @@ export class Spells {
         this.bolts.splice(i, 1)
       }
     }
+  }
+
