@@ -34,3 +34,4 @@ function world() {
 }
 
 describe('the Hydra', () => {
+  it('takes every blow in phase 1, and the army does 15% in every phase', () => {
