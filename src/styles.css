@@ -1713,3 +1713,4 @@ dialog::backdrop {
   font-family: var(--font-display);
   font-weight: 500;
   font-size: 1.45rem;
+  letter-spacing: -0.035em;
