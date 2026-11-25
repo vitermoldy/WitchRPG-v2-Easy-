@@ -256,3 +256,5 @@ export function chaosFromDamage(dealt: number, taken: number): number {
 /** Damage of a thrown body: grows with mass^0.6 and with speed. */
 export function impactDamage(mass: number, speed: number, coefficient: number, exponent: number): number {
   return coefficient * mass ** exponent * speed
+}
+
