@@ -986,3 +986,4 @@ def b_typhon(r):
     hc = V(J["head_c"])
     h.ell(hc, (0.85, 0.95, 1.05), mat="skin")
     face(h, hc, 16.0)
+    beard(h, hc + Vector((0, -0.6, -0.5)), 2.2, 0.65)
