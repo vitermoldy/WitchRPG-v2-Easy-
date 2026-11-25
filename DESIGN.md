@@ -66,3 +66,5 @@ Action-RPG third-person dengan rasa God of War di hutan terbuka, memakai sistem 
 | Model | GLB diekspor dari block-out previz (`npm run models`), satu warna per bagian plus emisi. Ilyra 6.806 segitiga, Imp 5.384 | Warna dua nada previz belum terbawa ke glTF; model akhir di fase 6. |
 | Cahaya | Matahari pagi dari timur-tenggara dengan bayangan 120 m mengikuti Ilyra, langit hemisfer 1,9, eksposur 1,2 | Versi pertama terlalu gelap; jubah Ilyra dan tanah tidak terbaca. |
 | HUD | Banner zona dengan latar gelap lembut, penanda lock-on, titik bidik, petunjuk kontrol 14 detik pertama, panel debug di `?debug` | Teks tier amber hampir hilang di atas kabut abu Reruntuhan Kuil; latar gelap membuatnya sekitar 5:1. |
+| Pengukuran waktu frame | `?debug` dengan `syncFrames` membaca 1 piksel setiap frame supaya GPU selesai dulu, di Chrome tanpa jendela dengan `--force_high_performance_gpu --disable-gpu-vsync --disable-frame-rate-limit` | Tanpa sinkron, waktu frame terlalu optimistis (1,6 ms) karena CPU mendahului GPU. |
+
