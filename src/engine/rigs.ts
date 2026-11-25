@@ -75,3 +75,4 @@ export interface Poser {
 
 type PoseFn = (p: Poser, u: Unit, t: number) => void
 
+const ease = (k: number) => {
