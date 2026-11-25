@@ -386,3 +386,4 @@ def axe(part, W, d, length=1.2, blade=0.55):
     part.cone(top, top + d * 0.18, 0.035, mat="metal", seg=6)
     # the bits open sideways (along X) so the blades face the camera from the front
     ref = Vector((1, 0, 0))
+    side = (ref - d * ref.dot(d)).normalized()
