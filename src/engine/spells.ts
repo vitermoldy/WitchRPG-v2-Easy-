@@ -232,3 +232,4 @@ export class Spells {
         this.overloadT = 0
         this.backlashT = CHAOS.backlashTime
         const loss = Math.round(g.player.hp * CHAOS.backlashHpLoss)
+        g.player.hp = Math.max(1, g.player.hp - loss)
