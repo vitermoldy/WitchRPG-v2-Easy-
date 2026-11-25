@@ -418,3 +418,4 @@ def b_ilyra(r, pose="idle"):
         head.tube([hc + Vector((0.06 * k, -0.05, -0.02)), hc + Vector((0.075 * k, -0.04, -0.14)), hc + Vector((0.07 * k, -0.02, -0.26))], [0.025, 0.02, 0.0], mat="hair", seg=6, n=3)
     tor.ell((0, 0.01, z["sh"] - 0.02), (0.2, 0.13, 0.08), mat="cloth")
     pel.tube([(0, 0, z["waist"]), (0, 0.0, z["hip"]), (0, 0.01, 0.55), (0, 0.02, 0.18)], [0.15, 0.18, 0.25, 0.31], mat="cloth", seg=14, n=3, cap=False)
+    pel.torus((0, 0, z["waist"] - 0.02), 0.155, 0.018, mat="belt", seg=16)
