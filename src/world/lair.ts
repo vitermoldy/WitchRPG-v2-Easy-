@@ -276,3 +276,4 @@ export class Lair {
     if (this.flood <= 0 || !this.inside(x, z)) return base
     for (const isl of this.islands) {
       const d = Math.hypot(x - isl.x, z - isl.z)
+      if (d > isl.r + 2) continue
