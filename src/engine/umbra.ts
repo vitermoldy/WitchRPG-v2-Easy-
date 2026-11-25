@@ -53,3 +53,4 @@ interface Call {
  */
 export class Umbra {
   private readonly g: Game
+  candidate: Unit | null = null
