@@ -236,3 +236,4 @@ export function gainXp(p: Profile, amount: number, skills: SkillId[]): XpResult 
       result.shadowLevels.push({ id: s.id, level: s.level })
     }
     if (s.level >= p.level) s.xp = Math.min(s.xp, xpToNext(s.level) - 1)
+  }
