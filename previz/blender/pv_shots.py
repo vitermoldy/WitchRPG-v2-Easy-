@@ -225,3 +225,4 @@ def shaft_fog(coll, centre, size, z0, density=0.018):
         vol.inputs["Color"].default_value = C.rgb("#f2ede4")
         vol.inputs["Density"].default_value = density
         vol.inputs["Anisotropy"].default_value = 0.7
+        nt.links.new(vol.outputs[0], out.inputs["Volume"])
