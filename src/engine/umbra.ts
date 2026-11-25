@@ -554,3 +554,4 @@ export class Umbra {
       }
       g.hud.message(focusOn ? `Perintah Fokus: semua bayangan menyerang ${UNITS[target.kind].name}.` : 'Perintah: serang di titik bidik.', 'umbra')
       g.rings.spawn(target.pos, COLOR.umbra, 0.2, 1.6, 0.5)
+    } else if (choice === 'swap') {
