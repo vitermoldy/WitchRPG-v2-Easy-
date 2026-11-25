@@ -459,3 +459,4 @@ export class Fight {
       this.stats.hits++
       any = true
       u.center(this.v)
+      this.v.lerp(new THREE.Vector3(p.pos.x, p.pos.y + 1.1, p.pos.z), 0.35)
