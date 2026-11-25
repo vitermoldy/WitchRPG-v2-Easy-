@@ -29,3 +29,4 @@ describe('the forest valley', () => {
           if (inWaterRect(x, y)) expect(WATER_LEVEL - h, `water at ${x.toFixed(0)}, ${y.toFixed(0)}`).toBeLessThanOrEqual(MOVE.maxWade)
           prev = h
         }
+      }
