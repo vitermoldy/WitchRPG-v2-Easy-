@@ -93,3 +93,4 @@ describe('over-the-shoulder camera', () => {
 
   it('never ends inside a trunk, crown, rock or the ground (5,000 random forests)', () => {
     const r = rng(7)
+    let worst = Infinity
