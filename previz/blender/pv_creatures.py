@@ -136,3 +136,4 @@ def humanoid(r, H, bulk=1.0, legs="human", female=False, off=(0, 0, 0), arm_pose
 
 
 def quad(r, H, L, W, D, leg_r, front="paw", hind="paw", body_mat="body", foot_mat="horn"):
+    """Four-legged body. H: shoulder height, L: body length, W: width, D: chest depth."""
