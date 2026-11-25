@@ -213,3 +213,4 @@ class Staff {
  * thrown staff. Blows from creatures are resolved in Game.strikePlayer with these states.
  */
 export class Fight {
+  readonly combo = new Combo()
