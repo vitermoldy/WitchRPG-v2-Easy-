@@ -1004,3 +1004,4 @@ export class Game implements UnitHost {
       this.calm += dt
       if (this.calm > REVIVE.calm) p.hp = Math.min(p.maxHp, p.hp + p.maxHp * REVIVE.calmRegen * dt)
     } else {
+      this.deadT += dt
