@@ -524,3 +524,4 @@ export class Game implements UnitHost {
   resume() {
     if (this.state !== 'paused') return
     this.state = 'playing'
+    this.input.capture = true
