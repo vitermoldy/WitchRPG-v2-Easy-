@@ -86,3 +86,4 @@ export class Terrain {
         c.meshes[want]!.visible = true
         c.lod = want
       }
+    }
