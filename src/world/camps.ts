@@ -156,3 +156,5 @@ export class Camps {
     stones.castShadow = true
     stones.receiveShadow = true
     this.group.add(stones, this.shards)
+  }
+
