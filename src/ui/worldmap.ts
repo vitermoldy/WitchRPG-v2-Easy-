@@ -289,3 +289,4 @@ export class WorldMap {
       const w = ctx.measureText(text).width + 6
       const h = parseFloat(ctx.font.split('px')[0].split(' ').pop() ?? '12') + 4
       const tries: [number, number][] = [[x, y - gap - h / 2], [x, y + gap + h / 2], [x + gap + w / 2, y], [x - gap - w / 2, y]]
+      const inside = ([cx, cy]: [number, number]) => cx - w / 2 >= 0 && cx + w / 2 <= size && cy - h / 2 >= 0 && cy + h / 2 <= size
