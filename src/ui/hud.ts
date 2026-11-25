@@ -215,3 +215,4 @@ export class Hud {
       const locked = pr.level < unlock
       this.set(id, 'class', `skill${locked ? ' locked' : ''}`)
       this.set(id + '-lv', 'text', locked ? `Lv ${unlock}` : '')
+      this.set(id + '-cd', 'transform', `scaleY(${locked ? 0 : cd.toFixed(3)})`)
