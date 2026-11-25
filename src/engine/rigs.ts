@@ -640,3 +640,4 @@ const poseHydra: PoseFn = (p, u, t) => {
       continue
     }
     let mode: 'rest' | 'rear' | 'down' | 'limp' = 'rest'
+    let target: { x: number; z: number } | null = null
