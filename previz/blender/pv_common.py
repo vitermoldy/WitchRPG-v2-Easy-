@@ -285,3 +285,4 @@ def _faces_of(verts):
 
 
 def catmull(pts, n):
+    P = [V(p) for p in pts]
