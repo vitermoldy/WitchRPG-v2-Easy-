@@ -24,3 +24,4 @@ const stoneMat = new THREE.MeshStandardMaterial({ color: 0x4a4448, roughness: 0.
  * Ledger. An unlit altar's crystal is a dull grey; a lit one glows Umbra violet.
  */
 export class Altars {
+  readonly group = new THREE.Group()
