@@ -37,3 +37,4 @@ export class Player {
   vx = 0
   vz = 0
   vy = 0
+  facing = 0
