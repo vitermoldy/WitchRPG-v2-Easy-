@@ -442,3 +442,4 @@ class Part:
 
         rnd = random.Random(seed)
         g = bmesh.ops.create_icosphere(self.bm, subdivisions=sub, radius=1.0, matrix=self._M(c) @ Matrix.Diagonal((r[0], r[1], r[2], 1)))
+        for v in g["verts"]:
