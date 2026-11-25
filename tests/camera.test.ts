@@ -147,3 +147,4 @@ describe('over-the-shoulder camera', () => {
 
   it('wanted spot and clear fraction agree when the path is empty', () => {
     const w = wanted(pivot, 0.3, -0.1, CAMERA.normal)
+    expect(clearFraction(pivot, w, null, flat)).toBe(1)
