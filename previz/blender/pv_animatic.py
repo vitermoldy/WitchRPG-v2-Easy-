@@ -222,3 +222,4 @@ def build(dunia, res=(1280, 720), samples=24):
         s = show * dist * 0.06
         ret.scale = (s + 1e-4, s + 1e-4, s + 1e-4)
         ret.keyframe_insert("location", frame=fr)
+        ret.keyframe_insert("scale", frame=fr)
