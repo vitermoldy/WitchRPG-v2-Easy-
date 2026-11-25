@@ -262,3 +262,4 @@ export class IlyraModel {
       const b = ease(act.block)
       const push = act.parry
       armRX = mix(armRX, -70 - 15 * push, b)
+      armRY = mix(armRY, 30, b)
