@@ -310,3 +310,4 @@ def build_minotaur(dunia):
     disc(local, "telegraf.cincin_luar", ring_c, 2.9, mat_ring("cincin_amber_luar", HEX["rift"], 3.0, inner=0.93, fill=0.0), z_off=0.035)
     # staff swing trail sweeping from her right towards the Minotaur
     z0 = Wd.ground_z(P[0], P[1])
+    up = Vector((0, 0, 1))
