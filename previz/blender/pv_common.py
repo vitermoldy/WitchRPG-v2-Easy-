@@ -745,3 +745,4 @@ def compositor(sc, strength=0.6, threshold=1.2, vignette=True):
     L.new(rl.outputs["Image"], gl.inputs["Image"])
     last = gl.outputs["Image"]
     if vignette:
+        em = N.new("CompositorNodeEllipseMask")
