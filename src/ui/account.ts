@@ -229,3 +229,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
   setMode('in')
   render()
   void checkAccount()
+}
