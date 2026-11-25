@@ -649,3 +649,4 @@ def build_temple(coll, pal):
     return r
 
 
+def build_altar(coll, pal):
