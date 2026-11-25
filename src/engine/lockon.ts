@@ -62,3 +62,4 @@ export class LockOn {
     if (!cur) return false
     const base = yawTo(player.x, player.z, cur.x, cur.z)
     let best: Target | null = null
+    let bestA = Infinity
