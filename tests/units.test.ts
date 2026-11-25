@@ -191,3 +191,4 @@ describe('phase 4 creatures', () => {
   })
 
   it('Minotaur takes 15% of blows and bolts from in front, all of them from behind, and all of a thrown staff', () => {
+    const w = world()
