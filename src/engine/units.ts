@@ -768,3 +768,4 @@ export class UnitSystem {
       }
       case 'strike': {
         const lt = atk.lungeTime ?? 0.3
+        if (spec.fly) u.alt = Math.max(0.5, u.alt - dt * 16)
