@@ -95,3 +95,4 @@ export class LockOn {
       return
     }
     if (Math.abs(mouseDx) > LOCKON.flick) this.switchSide(targets, player, Math.sign(mouseDx))
+  }
