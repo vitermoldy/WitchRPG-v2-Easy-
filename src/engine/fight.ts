@@ -401,3 +401,4 @@ export class Fight {
     const from = g.ilyra.hand('R')
     from.y += 0.2
     this.staff.launch(from, this.throwTarget().clone())
+    this.stats.throws++
