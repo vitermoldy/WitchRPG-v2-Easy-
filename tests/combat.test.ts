@@ -16,3 +16,4 @@ describe('block and parry', () => {
   it('only blocks when block was pressed earlier than the window and is still held', () => {
     const impact = 10
     expect(resolveDefense(impact, 'ring', false, true, impact - W - 0.001, 0)).toBe('block')
+    expect(resolveDefense(impact, 'ring', false, true, impact - 1, 0)).toBe('block')
