@@ -134,3 +134,4 @@ function segDist(x: number, y: number, a: [number, number], b: [number, number])
 // ------------------------------------------------------------ height
 
 /** Ground height at a map point. */
+export function heightMap(x: number, y: number): number {
