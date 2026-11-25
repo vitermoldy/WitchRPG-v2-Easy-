@@ -462,3 +462,4 @@ export class Game implements UnitHost {
     await frame()
     this.terrain.prepare(this.camera.position)
     this.forest.cull(this.player.pos.x, this.player.pos.z)
+    this.renderer.compile(this.scene, this.camera)
