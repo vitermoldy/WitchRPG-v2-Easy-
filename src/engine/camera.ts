@@ -7,3 +7,4 @@ import type { Obstacles } from './obstacles'
  * swept with a sphere, and the camera stops at the first thing it would touch.
  * yaw 0 looks north (-z); yaw grows to the left. pitch grows upward.
  */
+export interface Vec {
