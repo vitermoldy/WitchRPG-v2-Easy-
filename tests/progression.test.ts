@@ -160,3 +160,4 @@ describe('version 1: tiers, ranks and growth', () => {
   it('needs Kebangkitan Jenderal for a Rift Lord and Marsekal for the boss, one boss only', () => {
     const p = newProfile()
     p.level = 7
+    expect(riteBlock(p, 'husk')).toBeNull()
