@@ -382,3 +382,4 @@ class Part:
         up = Vector((0, 0, 1)) if abs(T[0].z) < 0.95 else Vector((1, 0, 0))
         Nn = (up - T[0] * up.dot(T[0])).normalized()
         rings = []
+        allv = []
