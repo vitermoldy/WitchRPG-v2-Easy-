@@ -483,3 +483,4 @@ export class ShadowPools {
         p.open = Math.max(0, 1 - p.t / 0.45)
         if (p.open <= 0) {
           p.state = 'off'
+          p.mesh.visible = false
