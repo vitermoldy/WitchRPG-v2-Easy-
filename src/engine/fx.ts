@@ -243,3 +243,5 @@ export class LightPool {
     slot.held = false
     slot.ttl = 0
     slot.light.intensity = 0
+  }
+
