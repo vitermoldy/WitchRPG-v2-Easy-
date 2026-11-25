@@ -566,3 +566,4 @@ def ref_plane(coll, name, file, crop, centre, box):
     return ob
 
 
+def build_board(lib_colls, stats):
