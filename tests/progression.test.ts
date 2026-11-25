@@ -176,3 +176,4 @@ describe('version 1: tiers, ranks and growth', () => {
     expect(xpForUnit('warden', 8)).toBe(160)
     expect(xpForUnit('riftlord', 9)).toBe(450)
     expect(xpForUnit('hollow', 10)).toBe(1500)
+  })
