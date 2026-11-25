@@ -105,3 +105,4 @@ export class Props {
         }
       }
     }
+    this.mesh.count = this.list.length
