@@ -141,3 +141,4 @@ export class Game implements UnitHost {
   private trauma = 0
   private hurtGrace = 0
   private calm = 0
+  private deadT = 0
