@@ -182,3 +182,4 @@ export class Camps {
         u.aggro = false
         camp.units.push(u)
       }
+    }
