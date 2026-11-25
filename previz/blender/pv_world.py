@@ -699,3 +699,4 @@ def build_rift(coll):
     return r
 
 
+def build_embers(coll, centre, radius, count, seed=5, z_range=(0.5, 30)):
