@@ -10,3 +10,4 @@ export interface Shape {
   kind: typeof CYL | typeof SPHERE
   x: number
   /** Cylinder: bottom. Sphere: centre. */
+  y: number
