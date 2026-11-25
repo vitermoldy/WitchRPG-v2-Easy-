@@ -10,3 +10,4 @@ import { connect } from './db.js'
  * goes out once someone signs in while the server answers.
  */
 let pool = null
+const app = express()
