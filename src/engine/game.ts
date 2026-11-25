@@ -351,3 +351,4 @@ export class Game implements UnitHost {
       this.umbra.shadowFell(u)
       return
     }
+    if (u.spec.part) {
