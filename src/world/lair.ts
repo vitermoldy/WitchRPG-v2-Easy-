@@ -471,3 +471,4 @@ export class Lair {
           const x = at.x + Math.cos(a) * 2.5
           const z = at.z + Math.sin(a) * 2.5
           if (!g.blocked(x, z) && this.inside(x, z)) spot = { x, z }
+        }
