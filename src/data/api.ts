@@ -81,3 +81,5 @@ async function call<T>(path: string, init?: RequestInit): Promise<T> {
   return body as T
 }
 
+type Entry = { user: Account; device: string }
+
