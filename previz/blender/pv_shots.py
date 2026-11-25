@@ -15,3 +15,4 @@ from pv_common import HEX, V
 # Camera numbers. vfov is the vertical field of view, the way Three.js PerspectiveCamera.fov counts it.
 CAM = {
     "prompt": dict(dist=3.4, shoulder=0.85, height=1.65, vfov=68.0, pitch=-8.0),
+    "normal": dict(dist=3.4, shoulder=0.8, height=1.6, vfov=50.0, pitch=-6.0),
