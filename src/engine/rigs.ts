@@ -866,3 +866,5 @@ class Rig implements Poser {
 
   hide(name: string) {
     this.hidden.add(name)
+  }
+
