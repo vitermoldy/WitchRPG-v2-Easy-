@@ -572,3 +572,4 @@ def text(coll, body, loc, size=0.3, color="#efe6df", strength=1.0, align="LEFT",
     cu.font = font()
     cu.size = size
     cu.align_x = align
+    cu.align_y = valign
