@@ -4,3 +4,4 @@ import { ALTARS, heightMap, inWaterRect, PATHS, SPOTS, WATER_LEVEL, ZONES, zoneA
 import { CAMP_DEFS } from '../src/world/camps'
 
 /** Highest rise over one metre around a point, the way her feet would feel it. */
+function steepest(x: number, y: number) {
