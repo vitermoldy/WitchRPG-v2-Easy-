@@ -171,3 +171,4 @@ export class Ambient {
     p[i * 3 + 1] = ground + LOW + band * (HIGH - LOW)
     const c = this.colors[k]
     this.tint[i * 3] = c.r
+    this.tint[i * 3 + 1] = c.g
