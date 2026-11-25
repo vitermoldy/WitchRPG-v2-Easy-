@@ -35,3 +35,4 @@ const HYDRA_HINT = [
  */
 export class Hud {
   private readonly g: Game
+  private readonly root = $('hud')
