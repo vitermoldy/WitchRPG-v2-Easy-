@@ -927,3 +927,4 @@ export class Game implements UnitHost {
     const f = { x: -Math.sin(this.rig.yaw), z: -Math.cos(this.rig.yaw) }
     const r = { x: Math.cos(this.rig.yaw), z: -Math.sin(this.rig.yaw) }
     const canAct = alive && !stone && this.state === 'playing'
+    this.fight.update(sdt, {
