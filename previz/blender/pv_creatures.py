@@ -740,3 +740,4 @@ def b_chimera(r):
     snake_head(tl, pts[-1], (0, -0.6, -0.7), s=1.5, jaw=45, mat="snake")
 
 
+def _demon(r, H, bulk, female, span, horn_kind, arm_pose):
