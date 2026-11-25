@@ -151,3 +151,4 @@ export class Ledger {
       .map(([a, b]) => `<dt>${a}</dt><dd class="num">${b}</dd>`)
       .join('')
 
+    for (const branch of ['chaos', 'umbra'] as const) {
