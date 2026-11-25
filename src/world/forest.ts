@@ -258,3 +258,5 @@ export class Forest {
     }
     this.mesh.perObjectFrustumCulled = true
     this.mesh.sortObjects = false
+  }
+
