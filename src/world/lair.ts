@@ -221,3 +221,4 @@ export class Lair {
       // it swallows what is left of its heads and crawls up to the shore
       for (let i = 0; i < this.heads.length; i++) {
         const h = this.heads[i]
+        if (h) {
