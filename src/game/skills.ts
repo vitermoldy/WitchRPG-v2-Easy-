@@ -8,3 +8,4 @@ export type SkillId =
   | 'rite'
   | 'swap'
   | 'focus'
+  | 'general'
