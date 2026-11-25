@@ -1173,3 +1173,4 @@ export const COMBAT = {
   heavy: { damage: 28, windup: 0.26, active: 0.16, recover: 0.5, reach: 2.8, arc: 2.2, stun: 26, lunge: 1.4 } as Swing,
   /** Knockback of the heavy blow (m/s). */
   heavyKnock: 7,
+  /** Share of swing damage while the staff is thrown and she strikes bare-handed. */
