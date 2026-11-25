@@ -397,3 +397,4 @@ export class Lair {
         if (!useSpit) for (const o of idle) if (o.visual.distanceToSquared(her) < h.visual.distanceToSquared(her)) h = o
         this.windup(h, useSpit ? spit : slam, her)
         this.attackIn = this.phase === 1 ? 1.6 : 1.3
+      }
