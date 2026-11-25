@@ -71,3 +71,4 @@ export class Obstacles {
   }
 
   /**
+   * Pushes an upright capsule (feet at pos.y, given radius and height) out of every trunk and rock it
