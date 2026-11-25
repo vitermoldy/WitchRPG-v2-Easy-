@@ -510,3 +510,4 @@ export class Lair {
             g.warnings.show(body.aimAt, ringOf(spit), Math.max(0.3, Math.hypot(body.aimAt.x - body.pos.x, body.aimAt.z - body.pos.z) / spit.shot!.speed))
           }
         }
+        this.bodyAttackIn = 3.2
