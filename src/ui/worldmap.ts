@@ -133,3 +133,4 @@ export class WorldMap {
       status: lair.state === 'won' ? 'down' : g.profile.level < 10 ? 'locked' : 'waiting',
       note: lair.state === 'won' ? 'tumbang' : g.profile.level < 10 ? 'sarangnya terbuka di Lv 10' : 'menunggu di sarangnya',
     })
+    for (const camp of g.camps.camps) {
