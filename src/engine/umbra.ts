@@ -462,3 +462,4 @@ export class Umbra {
       // it stands up where it fell and joins the field
       this.spawnShadow(rec, at, this.field().length)
       this.armyOut = true
+    }
