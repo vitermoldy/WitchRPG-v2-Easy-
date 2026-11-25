@@ -14,3 +14,4 @@ describe('WitchRPG v2 (Easy)', () => {
   })
 
   it('keeps the v1 formula itself unchanged, so the hard odds still show what Easy gives away', () => {
+    // a Marsekal two levels above her: 0.15 + 0.02 x (10 - 12) + 0.01 x 5 = 0.16, as in v1
