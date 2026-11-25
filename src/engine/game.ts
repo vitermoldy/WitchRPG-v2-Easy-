@@ -858,3 +858,4 @@ export class Game implements UnitHost {
     const tr = performance.now()
     this.composer.render(dt)
     this.prof('render', tr)
+    if (this.syncFrames) {
