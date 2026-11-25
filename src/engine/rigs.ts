@@ -524,3 +524,4 @@ const poseChimera: PoseFn = (p, u, t) => {
     return
   }
   if (u.state === 'stagger') {
+    p.body(-0.2, 5, 6 * Math.sin(t * 2.6))
