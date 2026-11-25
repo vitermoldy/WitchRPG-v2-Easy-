@@ -720,3 +720,4 @@ export class UnitSystem {
           const r = Math.max(3, spec.attackRange - 1.5)
           this.steer(u, tgt.pos.x + Math.sin(side) * r, tgt.pos.z + Math.cos(side) * r, speed, dt)
         } else if (slot || u.cd > 0) {
+          this.steer(u, tgt.pos.x, tgt.pos.z, speed, dt, this.wantRange(u) * 0.75)
