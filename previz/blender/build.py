@@ -38,3 +38,6 @@ t0 = time.time()
 
 
 def log(*a):
+    print(f"[previz {time.time() - t0:6.1f}s]", *a, flush=True)
+
+
