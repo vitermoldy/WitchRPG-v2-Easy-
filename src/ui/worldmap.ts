@@ -271,3 +271,4 @@ export class WorldMap {
     ctx.imageSmoothingEnabled = true
     ctx.drawImage(this.baseLayer(), 0, 0, size, size)
 
+    // paths
