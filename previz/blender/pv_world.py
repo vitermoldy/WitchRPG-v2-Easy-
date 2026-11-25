@@ -117,3 +117,6 @@ def zone_weights(x, y):
         d = _dist(x, y, z["c"]) / z["r"]
         W.append(np.exp(-3.0 * d * d))
     W = np.array(W)
+    return W / np.maximum(W.sum(axis=0), 1e-9)
+
+
