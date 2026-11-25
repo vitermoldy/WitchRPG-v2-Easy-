@@ -20,3 +20,4 @@ interface Bolt {
 interface Field {
   pos: THREE.Vector3
   radius: number
+  t: number
