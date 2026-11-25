@@ -118,3 +118,4 @@ export class Seal {
       this.mat.uniforms.uFade.value = this.fade
       if (this.fade === 0) this.mesh.visible = false
     }
+  }
