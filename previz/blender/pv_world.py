@@ -299,3 +299,6 @@ def _pine(p, h=13.0, tiers=6, rad=3.0, mat="needle"):
     for i in range(tiers):
         z0 = h * 0.28 + i * (h * 0.66 / tiers)
         rr = rad * (1 - i / (tiers + 0.6))
+        p.cone((0.1 * math.sin(i * 2.1), 0.1 * math.cos(i * 1.7), z0), (0, 0, z0 + h * 0.3), rr, mat=mat, seg=9, smooth=False)
+
+
