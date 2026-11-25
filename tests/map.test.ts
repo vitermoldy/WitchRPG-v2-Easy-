@@ -16,3 +16,4 @@ describe('the forest valley', () => {
     const step = 1
     for (const line of PATHS) {
       for (let i = 0; i < line.length - 1; i++) {
+        const [ax, ay] = line[i]
