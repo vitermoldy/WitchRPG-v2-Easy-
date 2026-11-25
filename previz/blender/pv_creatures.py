@@ -1064,3 +1064,4 @@ def _horse(r, wings, horn):
     if horn:
         hc = hp + Vector((0, -0.12, 0.15))
         n.cone(hc, hc + Vector((0, -0.45, 0.55)), 0.045, mat="horn", seg=8)
+    tl = r.P("tail", Q["tail_base"], "body")
