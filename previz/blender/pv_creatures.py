@@ -371,3 +371,4 @@ def beard(part, chin, length, r, mat="hair"):
 
 
 def long_hair(part, hc, H, length, width, mat="hair"):
+    k = H / 1.8
