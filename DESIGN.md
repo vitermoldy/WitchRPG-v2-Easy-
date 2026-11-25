@@ -210,3 +210,4 @@ Pemilik menulis "lanjutkan sampe selsai" tanpa menjawab tiga pertanyaan fase 5, 
 
 | Bagian | Keputusan | Alasan |
 | --- | --- | --- |
+| Server | Disalin dari v1 dan disesuaikan: Express 5 + mysql2, port 8913, database `witch_rpg_v2`. `auth.js` apa adanya (scrypt, sesi di cookie HttpOnly `witch_rpg_v2_session`, masuk dibatasi 10 kali per menit, kata sandi minimal 6). Tabel: `clients`, `witches`, `witch_upgrades`, `shadows`, `witch_altars` (altar yang menyala dan titik bangkit), plus `users` dan `sessions`. `rift_runs` dan `tier_clears` v1 tidak ikut | PROMPT: salin `server/` dan `ui/account` dari v1. v2 tidak punya Rift, jadi riwayat Rift tidak punya isi; yang baru di v2 adalah dunia (altar). |
