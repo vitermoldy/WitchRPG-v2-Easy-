@@ -173,3 +173,4 @@ export class Sfx {
 
   gripStart() {
     if (!this.ok() || this.gripNodes) return
+    const ctx = this.ctx!
