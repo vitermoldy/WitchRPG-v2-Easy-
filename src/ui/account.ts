@@ -176,3 +176,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
       pass.setAttribute('aria-invalid', 'true')
     } finally {
       busy = false
+      submit.disabled = false
