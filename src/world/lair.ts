@@ -95,3 +95,4 @@ export class Lair {
     this.center.y = this.groundY
     this.waterY = this.groundY - 3
     // the flood: a dark disc that rises over the shore in phase 2
+    const water = new THREE.Mesh(
