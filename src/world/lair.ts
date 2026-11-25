@@ -353,3 +353,4 @@ export class Lair {
       return
     }
     if (!body.alive) return
+    // heads go where the rig drew them, so the head she sees is the head she hits
