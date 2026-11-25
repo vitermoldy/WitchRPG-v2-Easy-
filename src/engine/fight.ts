@@ -424,3 +424,4 @@ export class Fight {
         const off = Math.abs(wrap(yawTo(p.pos.x, p.pos.z, u.pos.x, u.pos.z) - yaw))
         if (off > 1.25) continue
         const score = d + off * 1.5
+        if (score < best) {
