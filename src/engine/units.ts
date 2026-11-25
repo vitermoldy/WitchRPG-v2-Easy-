@@ -835,3 +835,4 @@ export class UnitSystem {
         u.command = 'follow'
       }
     }
+    // which enemy to fight: the ordered focus, else the nearest one near her
