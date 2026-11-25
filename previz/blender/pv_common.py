@@ -353,3 +353,4 @@ class Part:
         a, b = V(base), V(tip)
         d = b - a
         M = self._M((a + b) / 2) @ rot_to(d)
+        g = bmesh.ops.create_cone(self.bm, cap_ends=True, cap_tris=True, segments=seg, radius1=r, radius2=r2, depth=d.length, matrix=M)
