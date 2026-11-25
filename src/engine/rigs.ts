@@ -825,3 +825,4 @@ class Rig implements Poser {
     mesh.castShadow = this.team === 'enemy' && !this.passive
     mesh.receiveShadow = this.team === 'enemy'
     mesh.count = 0
+    mesh.visible = false
