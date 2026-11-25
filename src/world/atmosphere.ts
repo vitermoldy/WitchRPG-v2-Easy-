@@ -121,3 +121,4 @@ export class Atmosphere {
     this.fog.color.lerp(this.fogTarget, k)
     this.fog.density += (this.densityTarget - this.fog.density) * k
     ;(this.uniforms.horizon.value as THREE.Color).lerp(this.skyTarget, k)
+    ;(this.uniforms.zenith.value as THREE.Color).lerp(this.zenithTarget, k)
