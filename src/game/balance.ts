@@ -1180,3 +1180,4 @@ export const COMBAT = {
     arc: 2.4,
     /** Her pace while holding block. */
     speed: 0.45,
+  },
