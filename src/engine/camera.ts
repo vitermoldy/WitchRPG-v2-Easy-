@@ -72,3 +72,4 @@ export interface LockView {
   /** Point on the target the camera frames (its chest). */
   point: Vec
   /** Target height, for pulling back from big creatures. */
+  height: number
