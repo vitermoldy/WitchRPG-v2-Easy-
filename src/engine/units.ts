@@ -592,3 +592,4 @@ export class UnitSystem {
       const z = u.pos.z + Math.sin(a) * r
       if (this.host.blocked(x, z)) continue
       u.pos.x = x
+      u.pos.z = z
