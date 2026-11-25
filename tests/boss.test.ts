@@ -70,3 +70,5 @@ describe('the Hydra', () => {
     expect(HYDRA.phase3At).toBeCloseTo(0.33)
     expect(HYDRA.heads).toBe(5)
     expect(HYDRA.lairLevel).toBe(10)
+  })
+
