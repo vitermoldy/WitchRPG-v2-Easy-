@@ -27,3 +27,4 @@ export class Props {
   readonly list: Prop[] = []
   readonly mesh: THREE.InstancedMesh
   private readonly g: Game
+  private readonly m = new THREE.Matrix4()
