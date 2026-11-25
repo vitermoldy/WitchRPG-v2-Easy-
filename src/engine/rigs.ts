@@ -999,3 +999,4 @@ export class Rigs {
     let r = this.rigs.get(key)
     if (!r) {
       const model = this.models[kind]
+      if (!model) return null
