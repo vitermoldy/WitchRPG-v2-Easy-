@@ -196,3 +196,4 @@ export function scatter(size = 1260, step = 4, seed = 3): Tree[] {
       const kinds = (ring < 0.5 ? mix : { pine: 0.6, pine_tall: 0.4 }) as Partial<Record<Kind, number>>
       const entries = Object.entries(kinds) as [Kind, number][]
       const total = entries.reduce((s, [, v]) => s + v, 0)
+      let r2 = kindRoll
