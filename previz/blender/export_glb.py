@@ -113,3 +113,4 @@ def flat(m):
     if m.name in _flat:
         return _flat[m.name]
     f = bpy.data.materials.new(f"g_{m.name}")
+    f.use_nodes = True
