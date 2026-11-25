@@ -428,3 +428,4 @@ export class Sfx {
     const df = ctx.createBiquadFilter()
     df.type = 'lowpass'
     df.frequency.value = 320
+    for (const freq of [43.65, 44.1, 65.4]) {
