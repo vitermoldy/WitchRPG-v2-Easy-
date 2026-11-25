@@ -58,3 +58,4 @@ export class Ledger {
 
   constructor(host: LedgerHost) {
     this.host = host
+    $('btn-ledger-close').addEventListener('click', () => this.close())
