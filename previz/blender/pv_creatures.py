@@ -22,3 +22,6 @@ def lerp(a, b, t):
 
 
 def _rx(v, deg):
+    return Matrix.Rotation(math.radians(deg), 3, "X") @ Vector(v)
+
+
