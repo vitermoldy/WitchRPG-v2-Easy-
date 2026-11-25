@@ -262,3 +262,4 @@ export class Lair {
     g.saveSoon()
   }
 
+  /** Share of a blow that lands on a Hydra part (see hydraShare). */
