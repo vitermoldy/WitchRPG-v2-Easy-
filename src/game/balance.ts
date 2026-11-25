@@ -503,3 +503,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     cooldown: 2.8,
     stun: 40,
     keepAway: 8,
+    dive: 3,
