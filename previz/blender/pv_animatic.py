@@ -105,3 +105,4 @@ def build(dunia, res=(1280, 720), samples=24):
         return Vector((H.x + p.x * c - p.y * s, H.y + p.x * s + p.y * c, hydra_z(t) + p.z))
 
     def il_pos(t):
+        u = min(1.0, max(0.0, (t - T_DROP) / (T_WALK - T_DROP)))
