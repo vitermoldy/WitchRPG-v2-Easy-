@@ -305,3 +305,4 @@ export class UnitSystem {
     this.host.clearTelegraph(u)
   }
 
+  enemies() {
