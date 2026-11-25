@@ -42,3 +42,4 @@ export interface Settings {
   firstPerson: boolean
 }
 
+export interface Profile {
