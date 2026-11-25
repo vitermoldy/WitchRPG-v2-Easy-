@@ -1115,3 +1115,4 @@ export class Rigs {
       }
     }
   }
+}
