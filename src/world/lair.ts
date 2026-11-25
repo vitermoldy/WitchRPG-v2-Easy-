@@ -454,3 +454,4 @@ export class Lair {
     for (const s of g.units.units) {
       if (s.team === 'shadow' && s.targetable && Math.hypot(s.pos.x - u.aimAt.x, s.pos.z - u.aimAt.z) < r + s.radius) g.strikeUnit(u, s, atk)
     }
+    const at = u.aimAt.clone()
