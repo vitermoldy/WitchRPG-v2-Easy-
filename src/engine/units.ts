@@ -990,3 +990,4 @@ export class UnitSystem {
     u.groundX = NaN
     if (u.alive) u.set('move')
   }
+}
