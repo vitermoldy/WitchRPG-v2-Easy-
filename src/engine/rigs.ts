@@ -837,3 +837,4 @@ class Rig implements Poser {
     let cap = this.cap
     while (cap < need) cap *= 2
     this.cap = cap
+    for (const part of this.parts) {
