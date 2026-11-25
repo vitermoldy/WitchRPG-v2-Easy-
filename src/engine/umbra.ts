@@ -365,3 +365,4 @@ export class Umbra {
     if (this.leashT <= 0) {
       this.leashT = 1
       for (const u of this.field()) {
+        if (u.state === 'rising' || u.command === 'hold' || u.pos.distanceTo(new THREE.Vector3(p.pos.x, p.pos.y, p.pos.z)) < LEASH) continue
