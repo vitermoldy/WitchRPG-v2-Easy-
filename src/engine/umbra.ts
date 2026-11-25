@@ -305,3 +305,4 @@ export class Umbra {
     }
     this.casting = this.casting.filter((u) => u.state === 'dead' && !u.riteTried && !u.ash)
     // two or more glowing bodies in reach: one cast raises them all; otherwise the one being looked at
+    if (this.casting.length) {
