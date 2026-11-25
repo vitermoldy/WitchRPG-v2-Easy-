@@ -13,3 +13,4 @@ describe('the server checks a witch before it keeps her', () => {
     const p = cleanProfile({ ...newProfile(), updatedAt: '2026-11-25T10:00:00Z' }, NOW)
     expect(p.error).toBeUndefined()
     expect(p.level).toBe(1)
+    expect(p.world).toEqual({ altars: ['pembuka'], last: 'pembuka' })
