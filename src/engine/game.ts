@@ -434,3 +434,4 @@ export class Game implements UnitHost {
     this.atmosphere.sun.shadow.camera.layers.enable(IlyraModel.HIDDEN_LAYER)
     if (this.profile.settings.firstPerson) {
       this.rig.firstPerson = true
+      this.rig.fp = 1
