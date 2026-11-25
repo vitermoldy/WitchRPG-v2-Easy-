@@ -273,3 +273,4 @@ export class Lair {
 
   /** Ground height in the lair: the islands stand up out of the flood. */
   height(x: number, z: number, base: number): number {
+    if (this.flood <= 0 || !this.inside(x, z)) return base
