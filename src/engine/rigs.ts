@@ -660,3 +660,4 @@ const poseHydra: PoseFn = (p, u, t) => {
     else if (h) h.neckYaw = yaw
     const sway = 4 * Math.sin(t * 1.1 + i * 1.7)
     for (let s = 0; s < 7; s++) {
+      let x = -2 + sway * 0.3
