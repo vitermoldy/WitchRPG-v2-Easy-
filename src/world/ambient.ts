@@ -167,3 +167,4 @@ export class Ambient {
     p[i * 3 + 2] = cam.z + (Math.random() * 2 - 1) * HALF
     // rising embers start low, falling dust high; the rest anywhere in the band
     const kind = KINDS[k]
+    const band = anywhere ? Math.random() : kind.vel[1] > 0.5 ? Math.random() * 0.2 : kind.vel[1] < -0.2 ? 0.8 + Math.random() * 0.2 : Math.random()
