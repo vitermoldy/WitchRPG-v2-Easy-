@@ -151,3 +151,4 @@ export function createApi(getPool, database) {
   api.put('/profile', async (req, res) => {
     const client = req.user.device
     const p = cleanProfile(req.body?.profile)
+    if (p.error) return res.status(400).json({ error: p.error })
