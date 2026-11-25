@@ -54,3 +54,5 @@ function part(geo: THREE.BufferGeometry, color: THREE.Color, m?: THREE.Matrix4):
 
 const M = new THREE.Matrix4()
 const at = (x: number, y: number, z: number, rx = 0, rz = 0) =>
+  M.clone().compose(new THREE.Vector3(x, y, z), new THREE.Quaternion().setFromEuler(new THREE.Euler(rx, 0, rz)), new THREE.Vector3(1, 1, 1))
+
