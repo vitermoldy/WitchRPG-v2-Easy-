@@ -420,3 +420,4 @@ def build_lineup(lib_colls, stats):
     C.render_settings(sc, res=(3840, 800), samples=48, bloom=0.35, vignette=False, exposure=0.2)
     line_mat = C.mat_emit("garis_penggaris", "#8a8f9c", 1.0)
     grid_mat = C.mat_emit("garis_kisi", "#3a3f4b", 1.0)
+    bands = []
