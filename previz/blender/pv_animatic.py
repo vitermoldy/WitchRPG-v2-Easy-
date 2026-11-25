@@ -124,3 +124,4 @@ def build(dunia, res=(1280, 720), samples=24):
         il_i.keyframe_insert("location", frame=fr)
         il_i.keyframe_insert("rotation_euler", frame=fr)
         amp = 1.0 if walking else 0.0
+        sw = math.sin(phase) * amp
