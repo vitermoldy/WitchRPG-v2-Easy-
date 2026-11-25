@@ -278,3 +278,4 @@ export interface UnitSpec {
 
 export const UNITS: Record<UnitKind, UnitSpec> = {
   husk: {
+    name: 'Husk',
