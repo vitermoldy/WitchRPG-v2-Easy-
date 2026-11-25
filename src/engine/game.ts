@@ -1044,3 +1044,4 @@ export class Game implements UnitHost {
     if (target) {
       const lp = lockPoint(target)
       this.v.set(lp.x, lp.y, lp.z).project(this.camera)
+      const w = this.renderer.domElement.clientWidth
