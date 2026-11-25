@@ -412,3 +412,4 @@ export class Umbra {
     if (!list.length) return
     const why = this.blocker(list.length === 1 ? list[0] : undefined, list.length)
     if (why) {
+      g.hud.message(why, 'umbra')
