@@ -150,3 +150,4 @@ export function createAuth({ getPool, cookie, lang, deviceCode, newDevice }) {
   async function userFor(req) {
     const token = readCookie(req, cookie)
     if (!token) return null
+    const pool = getPool()
