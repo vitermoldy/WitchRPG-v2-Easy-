@@ -40,3 +40,4 @@ import { shieldShare, Unit, UnitSystem, type DamageKind, type Foe, type UnitHost
 
 export type State = 'loading' | 'title' | 'playing' | 'paused'
 
+/** Inputs a ?debug bot can hold instead of the keyboard and mouse; buttons go through `input.press`. */
