@@ -66,3 +66,5 @@ for key in ["ilyra"] + [r[0] for r in K.ROSTER]:
     lib_colls[key] = coll
 log("makhluk", len(lib_colls))
 with open(os.path.join(TMP, "makhluk.json"), "w", encoding="utf-8") as fh:
+    json.dump(stats, fh, indent=1)
+
