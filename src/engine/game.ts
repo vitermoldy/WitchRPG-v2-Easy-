@@ -310,3 +310,4 @@ export class Game implements UnitHost {
       this.glow.emit({ pos: u.center(), count: 60, color: 0xff7a2a, intensity: 3, life: 0.8, size: 0.22, sizeEnd: 0.03, speed: 6, gravity: -1 })
       this.rings.spawn(u.pos, 0xff7a2a, 0.5, 5, 0.5)
       this.sfx.burst()
+    }
