@@ -34,3 +34,4 @@ export class Sfx {
   }
 
   setVolume(v: number) {
+    this.volume = v
