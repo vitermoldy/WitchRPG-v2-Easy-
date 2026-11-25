@@ -7,3 +7,4 @@ import { heightMap, toWorld } from './map'
 
 export interface CampDef {
   /** Map point (x east, y north). */
+  c: [number, number]
