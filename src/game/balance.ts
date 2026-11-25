@@ -739,3 +739,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     recover: 1,
     cooldown: 9,
     passive: true,
+  },
