@@ -37,3 +37,4 @@ describe('the Hydra', () => {
   it('takes every blow in phase 1, and the army does 15% in every phase', () => {
     expect(hydraShare(1, 'melee', false)).toBe(1)
     expect(hydraShare(1, 'bolt', false)).toBe(1)
+    expect(HYDRA.armyShare).toBe(0.15)
