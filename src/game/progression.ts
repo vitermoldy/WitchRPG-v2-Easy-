@@ -123,3 +123,4 @@ export function isFresh(p: Profile): boolean {
     p.skillPoints === 0 &&
     Object.keys(p.upgrades).length === 0 &&
     STAT_KEYS.every((k) => p.stats[k] === XP.startStat)
+  )
