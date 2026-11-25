@@ -134,3 +134,4 @@ def build(dunia, res=(1280, 720), samples=24):
         }
         for part, rot in poses.items():
             ob = il.objs.get(part)
+            if ob:
