@@ -1077,3 +1077,4 @@ export class Rigs {
         for (const u of shadows) d.set(u, u.pos.distanceToSquared(cam))
         shadows.sort((a, b) => d.get(a)! - d.get(b)!)
         shadows.forEach((u, i) => (u.detailed = i < this.detail))
+      }
