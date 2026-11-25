@@ -955,3 +955,4 @@ export const HYDRA = {
   /** Phase 3: damage inside Reality Warp, and nothing outside it. */
   warpShare: 1.5,
   /** Share of the army's damage that lands on it, in every phase: the Hydra is her fight. */
+  armyShare: 0.15,
