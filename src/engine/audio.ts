@@ -78,3 +78,4 @@ export class Sfx {
     this.env(g, t, attack, peak, dur)
     o.connect(g).connect(this.master!)
     o.start(t)
+    o.stop(t + attack + dur + 0.05)
