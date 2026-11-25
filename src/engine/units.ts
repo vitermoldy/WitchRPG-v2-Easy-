@@ -386,3 +386,4 @@ export class UnitSystem {
   }
 
   private rebuildGrid() {
+    this.grid.clear()
