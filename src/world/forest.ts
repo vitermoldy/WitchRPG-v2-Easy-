@@ -118,3 +118,4 @@ function rock(seed: number, r: [number, number, number], color: THREE.Color): TH
   return part(g, color)
 }
 
+function geometries(): Record<Kind, THREE.BufferGeometry> {
