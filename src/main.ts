@@ -72,3 +72,4 @@ async function boot() {
   profileLine()
   refreshers.push(profileLine)
 
+  /** One range setting: shows its value, applies it, and keeps it in the save. */
