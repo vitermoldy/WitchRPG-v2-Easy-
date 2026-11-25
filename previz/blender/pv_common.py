@@ -206,3 +206,4 @@ SLOT_DEFAULTS = {
 }
 
 
+class Pal(dict):
