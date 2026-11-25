@@ -231,3 +231,4 @@ export interface TravelHost {
 /** The altar panel: fast travel to another lit altar, or the Ledger. */
 export class TravelPanel {
   private readonly dlg = $<HTMLDialogElement>('travel')
+  private readonly host: TravelHost
