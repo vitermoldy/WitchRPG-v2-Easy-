@@ -388,3 +388,4 @@ export class Sfx {
   ui() {
     if (!this.ok()) return
     const t = this.ctx!.currentTime
+    this.tone(t, 'triangle', 660, 640, 0.06, 0.05)
