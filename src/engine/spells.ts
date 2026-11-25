@@ -523,3 +523,4 @@ export class Spells {
     const locked = g.lockon.current as Unit | null
     if (aiming) {
       const hit = g.aim(range)
+      at = hit.unit ? hit.unit.pos.clone() : hit.point.clone()
