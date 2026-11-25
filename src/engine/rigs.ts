@@ -733,3 +733,4 @@ const poseBeast: PoseFn = (p, u, t) => {
 function serpentine(base: PoseFn, part: string): PoseFn {
   return (p, u, t) => {
     base(p, u, t)
+    if (u.state !== 'dead') p.rot(part, 3 * Math.sin(t * 1.4 + u.id), 10 * Math.sin(t * 1.1 + u.id))
