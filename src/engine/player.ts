@@ -39,3 +39,4 @@ export class Player {
   vy = 0
   facing = 0
   /** Seconds into the current roll, or -1. */
+  dodgeT = -1
