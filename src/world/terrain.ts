@@ -176,3 +176,4 @@ export class Terrain {
         else idx.push(a, c, b, b, c, d)
       }
     })
+    const geo = new THREE.BufferGeometry()
