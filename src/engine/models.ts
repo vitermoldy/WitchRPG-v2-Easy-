@@ -21,3 +21,4 @@ export async function loadModel(url: string): Promise<THREE.Group> {
   return gltf.scene
 }
 
+/** Bakes a static model into one geometry per material, for instanced crowds. */
