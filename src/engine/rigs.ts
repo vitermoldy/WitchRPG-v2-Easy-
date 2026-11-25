@@ -600,3 +600,4 @@ const posePhoenix: PoseFn = (p, u, t) => {
     p.rot('head', -30 * k)
     return
   }
+  if (u.state === 'strike') {
