@@ -24,3 +24,4 @@ export class LockOn {
   current: Target | null = null
   private lost = 0
 
+  /** Angle of a target from the camera's view direction (radians, positive = to the left). */
