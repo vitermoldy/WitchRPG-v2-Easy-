@@ -921,3 +921,5 @@ export class Game implements UnitHost {
       const c = this.camera.position
       visible = this.obstacles.sweep(c.x, c.y, c.z, lp.x, lp.y, lp.z, 0) > 0.97
     }
+    this.lockon.update(dt, targets, p.pos, b || wheel ? 0 : inp.dx, visible)
+
