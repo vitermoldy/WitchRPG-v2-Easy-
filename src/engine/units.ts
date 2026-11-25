@@ -106,3 +106,4 @@ export class Unit implements Foe {
   target: Foe | null = null
   /** Holds one of the attack slots against her. */
   token = false
+  readonly stun: StunMeter
