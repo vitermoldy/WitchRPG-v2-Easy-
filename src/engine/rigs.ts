@@ -775,3 +775,4 @@ class Rig implements Poser {
   private readonly rest = new Map<THREE.Object3D, THREE.Euler>()
   private cap: number
   private used = 0
+  private readonly pose: PoseFn
