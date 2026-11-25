@@ -345,3 +345,4 @@ export class Lair {
         this.reset()
         return
       }
+    }
