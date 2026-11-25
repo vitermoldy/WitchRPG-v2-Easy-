@@ -734,3 +734,4 @@ def render_settings(sc, res=(1920, 1080), samples=64, vol_end=600.0, vol_tile="4
 def compositor(sc, strength=0.6, threshold=1.2, vignette=True):
     ng = bpy.data.node_groups.new(f"comp.{sc.name}", "CompositorNodeTree")
     ng.interface.new_socket("Image", in_out="OUTPUT", socket_type="NodeSocketColor")
+    N, L = ng.nodes, ng.links
