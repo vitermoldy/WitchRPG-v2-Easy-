@@ -93,3 +93,4 @@ export function cleanProfile(p, now = Date.now()) {
     headBob: st.headBob !== false,
     shake: st.shake !== false,
     detail: Math.round(num(st.detail, 10, 120, 20)),
+    firstPerson: st.firstPerson === true,
