@@ -67,3 +67,4 @@ export interface SwingState {
 
 export type ComboEvent = { type: 'start'; s: SwingState } | { type: 'hit'; s: SwingState } | { type: 'end'; s: SwingState }
 
+/**
