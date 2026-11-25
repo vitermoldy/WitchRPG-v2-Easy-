@@ -58,3 +58,4 @@ export const CLEARINGS: [[number, number], number][] = [
   ...ALTARS.slice(1).map((a): [[number, number], number] => [a.c, 12]),
 ]
 /** Half-size of the terrain (it runs past the playable map into the mountain ring). */
+export const HALF = 650
