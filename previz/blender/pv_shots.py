@@ -574,3 +574,4 @@ def build_board(lib_colls, stats):
     cols, cw, ch, head = 4, 9.6, 5.6, 2.0
     keys = ["ilyra"] + [r[0] for r in K.ROSTER]
     rows = math.ceil(len(keys) / cols)
+    Wt, Ht = cols * cw, head + rows * ch
