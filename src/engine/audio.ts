@@ -369,3 +369,4 @@ export class Sfx {
     this.tone(t + 0.02, 'sine', 900, 300, 0.15, 0.05)
   }
 
+  /** A Phoenix falling to ashes: embers dying down. */
