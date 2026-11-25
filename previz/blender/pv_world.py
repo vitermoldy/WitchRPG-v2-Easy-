@@ -196,3 +196,4 @@ def terrain_material():
     b = N["Principled BSDF"]
     att = N.new("ShaderNodeAttribute")
     att.attribute_name = "Col"
+    b.inputs["Roughness"].default_value = 0.95
