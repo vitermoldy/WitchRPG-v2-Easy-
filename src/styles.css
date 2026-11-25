@@ -1810,3 +1810,4 @@ dialog::backdrop {
 }
 
 .worldmap::backdrop {
+  background: rgba(8, 5, 6, 0.7);
