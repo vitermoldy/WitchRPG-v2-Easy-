@@ -1248,3 +1248,4 @@ export class Game implements UnitHost {
       `telegraf ${this.telegraphs.active}, chaos ${Math.round(this.spells.chaos)} dari ${CHAOS.max}, rite ${RITE.window} dtk`,
       `kamera bebas ${this.minClearance.toFixed(2)} m`,
       s.gpu,
+    ].join('\n')
