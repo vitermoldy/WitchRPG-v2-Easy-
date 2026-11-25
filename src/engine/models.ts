@@ -372,3 +372,4 @@ export class IlyraModel {
     }
 
     this.pivot.position.y -= crouch
+    if (crouch > 0) {
