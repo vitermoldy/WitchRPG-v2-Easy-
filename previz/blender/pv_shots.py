@@ -377,3 +377,4 @@ def build_army(dunia):
     il = actor("aktor.ilyra.raise", "ilyra", "raise")
     place(il, local, P[0], P[1], f)
     fr = frame_of(P, f)
+    pool = mat_ring("kolam_umbra", HEX["umbra"], 9.0, inner=0.8, alpha=0.95, fill=0.12)
