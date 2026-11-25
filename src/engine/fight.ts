@@ -505,3 +505,4 @@ export class Fight {
       g.spells.addChaos(10)
       g.hitstop(COMBAT.hitstop.parry * 1.4)
       g.addTrauma(0.35)
+      g.sfx.impact(1.2)
