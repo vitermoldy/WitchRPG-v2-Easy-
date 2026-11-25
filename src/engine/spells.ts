@@ -540,3 +540,4 @@ export class Spells {
       g.hud.message(`${def.name} terbuka di Lv ${def.unlock}.`, 'info')
       return
     }
+    const cd = { burst: this.burstCd, snare: this.snareCd, barrier: this.barrierCd, warp: this.warpCd }[id]
