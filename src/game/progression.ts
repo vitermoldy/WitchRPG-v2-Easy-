@@ -221,3 +221,4 @@ export function gainXp(p: Profile, amount: number, skills: SkillId[]): XpResult 
   p.xp += amount
   while (p.level < XP.maxLevel && p.xp >= xpToNext(p.level)) {
     p.xp -= xpToNext(p.level)
+    p.level += 1
