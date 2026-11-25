@@ -168,3 +168,4 @@ export class Particles {
       this.vel[i * 3] *= damp
       this.vel[i * 3 + 1] = this.vel[i * 3 + 1] * damp - this.grav[i] * dt
       this.vel[i * 3 + 2] *= damp
+      this.pos[i * 3] += this.vel[i * 3] * dt
