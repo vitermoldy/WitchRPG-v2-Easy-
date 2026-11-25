@@ -1061,3 +1061,4 @@ def _horse(r, wings, horn):
         p = lerp(tuple(nb), tuple(hp), i / 7)
         n.cone(V(p) + Vector((0, 0.1, 0.1)), V(p) + Vector((0.07 * (i % 2 * 2 - 1), 0.4, -0.12)), 0.07, mat="body2", seg=5)
     n.cone(hp + Vector((0, -0.05, 0.12)), hp + Vector((0, -0.3, -0.05)), 0.07, mat="body2", seg=5)
+    if horn:
