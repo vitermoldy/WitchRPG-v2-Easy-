@@ -964,3 +964,4 @@ def b_lilith(r):
     t = r.parts["torso"]
     for s in (1, -1):
         bat_wing(t, (0.1 * s, J["back"][1], J["z"]["sh"]), s, 2.3, 1.5, raise_deg=30, sweep_deg=25, bone="horn", arm="horn")
+    sp = r.P("serpent", (0, 0, 0.2), "pelvis")
