@@ -530,3 +530,4 @@ export class Lair {
       hp: b ? Math.round(b.hp) : 0,
       maxHp: b ? Math.round(b.maxHp) : 0,
       heads: this.heads.map((h) => (h ? (h.alive ? h.state : 'severed') : 'swallowed')),
+      flood: +this.flood.toFixed(2),
