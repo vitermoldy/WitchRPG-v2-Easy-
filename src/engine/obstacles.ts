@@ -202,3 +202,4 @@ function segSphere(ax: number, ay: number, az: number, dx: number, dy: number, d
   if (disc < 0) return 1
   const t = (-b - Math.sqrt(disc)) / (2 * a)
   return t >= 0 && t <= 1 ? t : 1
+}
