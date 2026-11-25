@@ -145,3 +145,4 @@ export class WorldMap {
         note: down ? `tumbang, bangkit lagi dalam ${left < 90 ? `${Math.max(1, Math.ceil(left))} detik` : `${Math.ceil(left / 60)} menit`}` : sealed ? 'tersegel sampai Hydra kalah' : camp.def.boss ? 'menunggu' : 'mini-boss, menunggu',
       })
     }
+    return list
