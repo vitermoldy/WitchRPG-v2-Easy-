@@ -457,3 +457,4 @@ export class Sfx {
     if (roll(3 * bara)) this.noise(t, 0.03, 'highpass', 2600, 0.035)
   }
 
+  private bird(t: number) {
