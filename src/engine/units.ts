@@ -591,3 +591,4 @@ export class UnitSystem {
       const x = u.pos.x + Math.cos(a) * r
       const z = u.pos.z + Math.sin(a) * r
       if (this.host.blocked(x, z)) continue
+      u.pos.x = x
