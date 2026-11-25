@@ -41,3 +41,4 @@ export class Player {
   /** Seconds into the current roll, or -1. */
   dodgeT = -1
   dodgeX = 0
+  dodgeZ = 0
