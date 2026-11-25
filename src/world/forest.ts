@@ -109,3 +109,4 @@ function snag(color: THREE.Color): THREE.BufferGeometry {
 function rock(seed: number, r: [number, number, number], color: THREE.Color): THREE.BufferGeometry {
   const g = new THREE.IcosahedronGeometry(1, 0)
   const p = g.attributes.position
+  let s = seed
