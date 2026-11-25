@@ -13,3 +13,4 @@ describe('WitchRPG v2 (Easy)', () => {
     }
   })
 
+  it('keeps the v1 formula itself unchanged, so the hard odds still show what Easy gives away', () => {
