@@ -341,3 +341,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     name: 'Rift Lord',
     rank: 'jenderal',
     hp: 260,
+    damage: 22,
