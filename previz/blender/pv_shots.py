@@ -213,3 +213,4 @@ def build_hero(dunia, name="01-hero-bahu", mode="normal", cam_over=None, res=(19
 
 def shaft_fog(coll, centre, size, z0, density=0.018):
     """Unlit local haze around a clearing: the canopy shadows cut it into shafts of light."""
+    name = "kabut_berkas"
