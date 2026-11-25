@@ -234,3 +234,4 @@ export class WorldMap {
             gg += tones[k][1] * w[k]
             b += tones[k][2] * w[k]
           }
+          // light from the north-west: slopes facing it are brighter
