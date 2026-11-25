@@ -222,3 +222,4 @@ export class Ledger {
 }
 
 export interface TravelHost {
+  /** Lit altars: key, name, and whether she stands at it now. */
