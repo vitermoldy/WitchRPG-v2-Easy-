@@ -20,3 +20,5 @@ import { skillById, type SkillId } from './skills'
 export type StatKey = 'hex' | 'spr' | 'vit' | 'agi' | 'umb'
 export type Stats = Record<StatKey, number>
 
+export const STAT_KEYS: StatKey[] = ['hex', 'spr', 'vit', 'agi', 'umb']
+
