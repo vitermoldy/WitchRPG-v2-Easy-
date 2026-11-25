@@ -213,3 +213,4 @@ export class Lair {
     g.sfx.roar()
     g.addTrauma(0.5)
     if (n === 2) {
+      this.floodTo = 1
