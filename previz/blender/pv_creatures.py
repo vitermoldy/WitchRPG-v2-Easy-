@@ -192,3 +192,4 @@ def wing_frame(root, s, raise_deg, sweep_deg, tilt=60):
     ra, sw = math.radians(raise_deg), math.radians(sweep_deg)
     U = Vector((s * math.cos(ra) * math.cos(sw), math.sin(sw) * math.cos(ra), math.sin(ra)))
     V0 = Vector((0, math.cos(math.radians(tilt)), -math.sin(math.radians(tilt))))
+    Vv = (V0 - U * V0.dot(U)).normalized()
