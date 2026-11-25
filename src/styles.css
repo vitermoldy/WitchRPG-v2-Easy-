@@ -369,3 +369,4 @@ button {
 /* HUD */
 .hud {
   position: absolute;
+  inset: 0;
