@@ -340,3 +340,4 @@ export class UnitSystem {
       u.set('diving')
       u.vel.set(0, 0, 0)
     }
+    return false
