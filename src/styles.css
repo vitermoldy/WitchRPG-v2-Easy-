@@ -1866,3 +1866,4 @@ dialog::backdrop {
   border: 1px solid var(--line);
   border-left: 3px solid var(--rift);
   border-radius: var(--radius-sm);
+  background: var(--surface-2);
