@@ -119,3 +119,4 @@ export class CameraRig {
    */
   lockAngles(from: Vec, target: LockView, fov: number): { yaw: number; pitch: number } {
     const tv = Math.tan(rad(fov) / 2)
+    const th = tv * (16 / 9)
