@@ -374,3 +374,4 @@ export class UnitSystem {
       this.host.fx(u, 'ashes')
       return
     }
+    this.host.clearTelegraph(u)
