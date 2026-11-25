@@ -61,3 +61,4 @@ interface Part {
   geo: THREE.BufferGeometry
   mat: THREE.MeshStandardMaterial
   mesh: THREE.InstancedMesh
+  glow: THREE.InstancedBufferAttribute
