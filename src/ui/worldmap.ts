@@ -50,3 +50,4 @@ export class WorldMap {
     } catch {
       /* no saved choice: nothing is marked */
     }
+    $('btn-map-close').addEventListener('click', () => this.close())
