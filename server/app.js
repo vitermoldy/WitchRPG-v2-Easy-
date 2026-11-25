@@ -182,3 +182,4 @@ export function createApi(getPool, database) {
       await conn.query('INSERT INTO witch_altars (client_id, altar, last) VALUES ?', [p.world.altars.map((a) => [client, a, a === p.world.last ? 1 : 0])])
       await conn.commit()
       res.json({ ok: true, updatedAt: p.updatedAt.toISOString() })
+    } catch (err) {
