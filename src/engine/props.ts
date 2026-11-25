@@ -65,3 +65,4 @@ export class Props {
       const a = dir.angleTo(to)
       if (a < ba) {
         ba = a
+        best = p
