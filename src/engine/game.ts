@@ -697,3 +697,4 @@ export class Game implements UnitHost {
     this.lockon.current = null
     this.telegraphs.clearAll()
     this.shots.clear()
+    this.blasts.length = 0
