@@ -149,3 +149,4 @@ describe('Ilyra on foot', () => {
     run(p, { ...idle, y: 1 }, 2, { ...flat, obstacles: obs })
     expect(p.pos.z).toBeLessThan(-5)
   })
+})
