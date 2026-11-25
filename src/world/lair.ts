@@ -77,3 +77,4 @@ export class Lair {
   private readonly curtainMat: THREE.ShaderMaterial
   private readonly g: Game
   private attackIn = 2
+  private bodyAttackIn = 2.5
