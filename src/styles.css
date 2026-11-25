@@ -1480,3 +1480,5 @@ dialog::backdrop {
 .tree-chaos::before {
   content: 'Chaos';
   color: var(--chaos-ink);
+}
+
