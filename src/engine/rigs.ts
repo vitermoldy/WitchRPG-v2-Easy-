@@ -4,3 +4,4 @@ import { bakeByMaterial } from './models'
 import { COLOR } from './palette'
 import type { Team, Unit } from './units'
 
+const D = Math.PI / 180
