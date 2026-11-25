@@ -754,3 +754,4 @@ def _demon(r, H, bulk, female, span, horn_kind, arm_pose):
             h.tube([hc + Vector((0.08 * s, 0.0, 0.08)), hc + Vector((0.25 * s, 0.05, 0.2)), hc + Vector((0.32 * s, -0.12, 0.38)), hc + Vector((0.24 * s, -0.25, 0.48))], [0.05, 0.04, 0.022, 0.0], mat="horn", seg=6, n=4)
     t = r.parts["torso"]
     t.ell(V(J["chest"]) + Vector((0, -0.005, 0.0)), (J["sw"] * 1.0, H * 0.085 * bulk, H * 0.1), mat="armor")
+    t.ell(V(J["chest"]) + Vector((0, -H * 0.08, -0.02)), (0.03, 0.02, 0.03), mat="glow", seg=8, rings=5)
