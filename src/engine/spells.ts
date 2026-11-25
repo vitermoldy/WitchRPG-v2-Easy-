@@ -409,3 +409,5 @@ export class Spells {
     g.sfx.gripStart()
     this.tendril.visible = true
     this.tendrilLight = g.lights.acquire(COLOR.chaos, 5, 8)
+  }
+
