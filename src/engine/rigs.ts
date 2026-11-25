@@ -879,3 +879,4 @@ class Rig implements Poser {
     this.s.setScalar(u.scale)
     this.unitM.compose(this.p, this.q, this.s)
     this.posed(u, t)
+    // the Hydra: a few steering passes a frame bring each falling head down onto its circle
