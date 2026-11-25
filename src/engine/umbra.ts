@@ -587,3 +587,4 @@ export class Umbra {
       }
     }
     const p = g.player
+    const mine = new THREE.Vector3(p.pos.x, p.pos.y, p.pos.z)
