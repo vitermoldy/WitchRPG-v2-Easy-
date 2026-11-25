@@ -190,3 +190,4 @@ button {
   margin: 0.8rem auto 0;
   background: linear-gradient(90deg, var(--chaos) 0 50%, var(--umbra) 50% 100%);
   animation: loading 1.4s ease-in-out infinite alternate;
+  transform-origin: center;
