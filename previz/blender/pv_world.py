@@ -677,3 +677,4 @@ def build_rift(coll):
     r = C.Rig("rift_sky", {"edge": m_out, "core": m_in}, coll)
     p = r.P("m")
     rng = np.random.default_rng(4)
+    pts = []
