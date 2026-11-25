@@ -61,3 +61,5 @@ def build(dunia, res=(1280, 720), samples=24):
     foam = C.collection("animatic.busa", local)
     S.foam_rings(foam, hy, type("I", (), {"matrix_basis": hy_i.matrix_basis.copy(), "location": Vector((H.x, H.y, 0))})())
     foam_obs = list(foam.objects)
+    eye = C.point(local, "cahaya.mata_hydra.anim", (H.x, H.y, -10), HEX["rift"], energy=1500, radius=3)
+
