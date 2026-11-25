@@ -494,3 +494,4 @@ export class Lair {
     const her = this.target()
     const slam = UNITS.hydra.attacks![0]
     const spit = UNITS.hydraHead.attacks![1]
+    if (body.state === 'move') {
