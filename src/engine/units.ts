@@ -20,3 +20,4 @@ export interface Foe {
 
 export interface UnitHost {
   readonly obstacles: Obstacles
+  readonly height: HeightFn
