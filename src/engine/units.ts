@@ -596,3 +596,4 @@ export class UnitSystem {
       break
     }
     this.host.obstacles.pushOut(u.pos, u.radius, u.height)
+    u.groundX = NaN
