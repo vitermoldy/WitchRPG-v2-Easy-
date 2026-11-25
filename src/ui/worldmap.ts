@@ -263,3 +263,4 @@ export class WorldMap {
     const ctx = cv.getContext('2d')!
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0)
     const px = (mx: number) => ((mx + EXTENT) / (EXTENT * 2)) * size
+    const py = (my: number) => ((EXTENT - my) / (EXTENT * 2)) * size
