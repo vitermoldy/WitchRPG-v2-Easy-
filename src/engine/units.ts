@@ -872,3 +872,4 @@ export class UnitSystem {
     if (far > 0.8) this.face(u, goal.x, goal.z, dt, 6)
     if (u.spec.fly) u.alt += (flyH - u.alt) * Math.min(1, dt * 2)
     // they heal while they are not fighting
+    u.hp = Math.min(u.maxHp, u.hp + u.maxHp * SHADOW.regen * dt)
