@@ -1057,3 +1057,4 @@ export const TIERS: Record<TierId, TierSpec> = {
     ],
   },
   3: {
+    tier: 3,
