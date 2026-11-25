@@ -799,3 +799,4 @@ export class UnitSystem {
       }
       case 'recover': {
         u.vel.multiplyScalar(Math.max(0, 1 - dt * 6))
+        if (u.t >= atk.recover * u.tempo) {
