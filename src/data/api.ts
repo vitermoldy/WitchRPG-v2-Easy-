@@ -43,3 +43,4 @@ export interface Account {
   username: string
   createdAt: string
 }
+/** checking: asking the server. unavailable: the server or MySQL cannot be reached. */
