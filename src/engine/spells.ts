@@ -95,3 +95,4 @@ const SHIELD_FRAG = /* glsl */ `
     vec2 g = vUv * vec2(24.0, 12.0);
     float hex = smoothstep(0.08, 0.0, abs(fract(g.x + 0.5 * floor(g.y)) - 0.5) - 0.42) + smoothstep(0.08, 0.0, abs(fract(g.y) - 0.5) - 0.44);
     float v = (f * 0.75 + hex * 0.04 + uHit * 0.35) * uFade;
+    gl_FragColor = vec4(vec3(1.0, 0.16, 0.22) * v * 1.2, v * 0.4);
