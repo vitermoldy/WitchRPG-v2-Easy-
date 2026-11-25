@@ -726,3 +726,4 @@ button {
 }
 
 .feed-item.chaos::before {
+  color: var(--chaos-ink);
