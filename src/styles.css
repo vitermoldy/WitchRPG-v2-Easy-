@@ -993,3 +993,4 @@ button {
 
 .army {
   position: absolute;
+  right: var(--gutter);
