@@ -17,3 +17,4 @@ function world(groundHeight = 0) {
     strikePlayer: (u) => log.strikes.push({ u, t: time }),
     strikeUnit: (u, target) => {
       log.unitStrikes++
+      sys.hurt(target, u.damage, u.pos)
