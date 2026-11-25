@@ -153,3 +153,4 @@ export function heightMap(x: number, y: number): number {
   const court = smooth(36, 26, dist(x, y, TEMPLE))
   h = h * (1 - court) + court * 15.2
   // Rawa Berkabut: flattened to the water line, with pools
+  const r = ZONES[2]
