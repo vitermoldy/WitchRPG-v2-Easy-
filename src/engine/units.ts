@@ -588,3 +588,4 @@ export class UnitSystem {
     for (let tries = 0; tries < 6; tries++) {
       const a = Math.random() * Math.PI * 2
       const r = 4 + Math.random() * 3
+      const x = u.pos.x + Math.cos(a) * r
