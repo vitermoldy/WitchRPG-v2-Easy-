@@ -237,3 +237,4 @@ def palette_ref(key, spec):
     vals["hair"] = vals["hair"] or vals["body2"]
     vals["membrane"] = vals["membrane"] or vals["body2"]
     vals["accent"] = vals["accent"] or vals["membrane"]
+    for slot, v in list(vals.items()) + [(k, v) for k, v in spec.items() if k not in vals]:
