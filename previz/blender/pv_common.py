@@ -666,3 +666,4 @@ def sky_world(name, zenith, horizon, ground, strength=1.0, haze=None, haze_densi
     e.color = rgb(horizon)
     e2 = cr.elements.new(0.58)
     e2.color = rgb(horizon)
+    mr = N.new("ShaderNodeMapRange")
