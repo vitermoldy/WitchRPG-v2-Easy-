@@ -124,3 +124,4 @@ class Staff {
         g.units.down(u, 2.5)
         g.fight.stats.throwHits++
         g.sfx.impact(0.8)
+        g.hitstop(COMBAT.hitstop.light)
