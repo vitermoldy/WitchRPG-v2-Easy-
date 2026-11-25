@@ -82,3 +82,4 @@ const ease = (k: number) => {
 
 /** Shared tail end of every pose: hurt, held, thrown, lifted, dead. Returns true when it posed the body. */
 function common(p: Poser, u: Unit, t: number, limbs: string[]): boolean {
+  if (u.state === 'dead') {
