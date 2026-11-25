@@ -524,3 +524,4 @@ export class UnitSystem {
         this.move(u, dt, true)
         continue
       }
+      if (u.state !== 'stagger') {
