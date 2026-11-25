@@ -118,3 +118,4 @@ export class Telegraphs {
    * from the shooter to past her for an arrow, and fills over the windup.
    */
   show(u: Unit) {
+    this.clear(u)
