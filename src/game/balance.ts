@@ -1128,3 +1128,4 @@ export const BOSS = {
   /** The globs of its volleys (kept off the unit spec so phase 1 stays a melee fight). */
   shot: { speed: 15, gravity: 6, radius: 0.45, keepAway: 0 },
   /** Each new phase gives the witch a breath: a share of HP and some mana back. */
+  phaseHeal: 0.25,
