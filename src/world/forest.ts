@@ -102,3 +102,4 @@ function snag(color: THREE.Color): THREE.BufferGeometry {
   for (const [a, y, l] of [[0.4, 3.6, 2.4], [2.6, 4.8, 2.0], [4.4, 5.8, 1.7], [1.5, 6.6, 1.2]]) {
     const m = new THREE.Matrix4().makeRotationY(-a).multiply(new THREE.Matrix4().makeTranslation(l * 0.45, y + 0.5, 0)).multiply(new THREE.Matrix4().makeRotationZ(-1.0))
     parts.push(part(new THREE.CylinderGeometry(0.02, 0.09, l, 4, 1, true), color, m))
+  }
