@@ -89,3 +89,4 @@ export class Obstacles {
           const yc = Math.min(pos.y + height, Math.max(pos.y, s.y))
           const dy = s.y - yc
           if (Math.abs(dy) >= s.r) return
+          rr = Math.sqrt(s.r * s.r - dy * dy)
