@@ -104,3 +104,4 @@ export class Seal {
   /** While the seal holds: a step into sealed ground from open ground (or from nowhere known) is refused. */
   blocks(x: number, z: number, fx?: number, fz?: number): boolean {
     if (this.open || !this.sealedAt(x, z)) return false
+    return fx === undefined || fz === undefined || !this.sealedAt(fx, fz)
