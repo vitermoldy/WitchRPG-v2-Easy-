@@ -26,3 +26,4 @@ describe('the save', () => {
     spendStat(p0, 'vit')
     spendStat(p0, 'hex')
     buyUpgrade(p0, 'hexBolt')
+    addShadow(p0, 'minotaur', 3)
