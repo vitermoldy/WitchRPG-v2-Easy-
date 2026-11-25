@@ -976,3 +976,4 @@ export class Rigs {
   readonly group = new THREE.Group()
   private readonly models: Partial<Record<UnitKind, THREE.Group>>
   /** Decimated versions (about a fifth of the triangles) for the far crowd. */
+  private readonly lods: Partial<Record<UnitKind, THREE.Group>>
