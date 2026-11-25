@@ -11,3 +11,4 @@ export type Defense = 'parry' | 'block' | 'dodge' | 'hit'
  * angle: direction to the attacker relative to where she faces (radians, 0 = straight ahead).
  */
 export function resolveDefense(now: number, strike: 'ring' | 'line', invulnerable: boolean, blocking: boolean, blockPressedAt: number, angle: number): Defense {
+  if (invulnerable) return 'dodge'
