@@ -90,3 +90,4 @@ export class Combo {
   }
 
   cancel() {
+    this.current = null
