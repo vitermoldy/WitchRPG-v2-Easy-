@@ -165,3 +165,4 @@ def mat_ring(name, color, strength, inner=0.82, alpha=0.9, fill=0.08):
     em.inputs["Color"].default_value = C.rgb(color)
     sm = N.new("ShaderNodeMath")
     sm.operation = "MULTIPLY"
+    sm.inputs[1].default_value = strength
