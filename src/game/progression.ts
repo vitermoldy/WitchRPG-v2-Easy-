@@ -119,3 +119,4 @@ export function isFresh(p: Profile): boolean {
     p.shadows.length === 0 &&
     p.clears === 0 &&
     p.bossKills === 0 &&
+    p.statPoints === 0 &&
