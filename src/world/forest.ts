@@ -23,3 +23,4 @@ const SHAPE: Record<Kind, { trunk: number; h: number; crown: [number, number, nu
   rock_big: { trunk: 4.2, h: 0, crown: null },
 }
 
+const MIX: Record<string, [Partial<Record<Kind, number>>, number]> = {
