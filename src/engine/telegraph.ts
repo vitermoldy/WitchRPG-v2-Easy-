@@ -61,3 +61,4 @@ interface Item {
   ox: number
   oz: number
   dx: number
+  dz: number
