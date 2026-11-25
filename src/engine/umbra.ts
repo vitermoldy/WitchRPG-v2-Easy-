@@ -292,3 +292,4 @@ export class Umbra {
         if (dist < RITE.range) {
           const dir = new THREE.Vector3(u.pos.x, u.pos.y + 0.3, u.pos.z).sub(cam).normalize()
           const ang = fwd.angleTo(dir)
+          if (ang < 0.6) {
