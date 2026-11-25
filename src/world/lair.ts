@@ -12,3 +12,4 @@ export type LairState = 'calm' | 'fight' | 'won'
  * blasts do 10% and thrown things (boulders, bodies, the staff) 150%. Phase 3: nothing, except inside
  * Reality Warp, where its open heart takes 150%. The army's blows always do 15% of their damage: the
  * Hydra is her fight.
+ */
