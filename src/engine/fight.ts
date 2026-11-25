@@ -61,3 +61,4 @@ class Staff {
     return this.obj
   }
 
+  launch(from: THREE.Vector3, to: THREE.Vector3) {
