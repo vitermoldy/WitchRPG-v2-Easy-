@@ -324,3 +324,4 @@ export class Umbra {
       for (const target of this.casting.slice(0, 14)) {
         const c = target.pos
         const pt = from.clone().lerp(c, Math.random())
+        g.glow.emit({ pos: pt, count: 1, color: COLOR.umbra, intensity: 2.4, life: 0.3, size: 0.1, vel: { x: (c.x - from.x) * 0.8, y: (c.y - from.y) * 0.8, z: (c.z - from.z) * 0.8 } })
