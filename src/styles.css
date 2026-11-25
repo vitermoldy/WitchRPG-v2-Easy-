@@ -1621,3 +1621,4 @@ dialog::backdrop {
 
 .confirm,
 .travel {
+  width: min(28rem, calc(100vw - 32px));
