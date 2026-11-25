@@ -118,3 +118,4 @@ export class Unit implements Foe {
   readonly aimAt = new THREE.Vector3()
   /** Which way a line lunge goes. */
   readonly lungeDir = new THREE.Vector3()
+  hitDone = false
