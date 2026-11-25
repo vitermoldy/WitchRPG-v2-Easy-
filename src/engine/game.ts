@@ -146,3 +146,4 @@ export class Game implements UnitHost {
   private readonly pose = idlePose()
   /** Bursts waiting on their amber circles: elites that explode, a Phoenix's second fall. */
   private readonly blasts: { x: number; y: number; z: number; radius: number; damage: number; t: number }[] = []
+  private readonly ray = new THREE.Ray()
