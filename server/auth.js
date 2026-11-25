@@ -189,3 +189,4 @@ export function createAuth({ getPool, cookie, lang, deviceCode, newDevice }) {
     if (input.error) return res.status(400).json({ error: input.error })
     const pool = getPool()
     const [taken] = await pool.query('SELECT id FROM users WHERE username = ?', [input.username])
+    if (taken[0]) return res.status(409).json({ error: t.taken })
