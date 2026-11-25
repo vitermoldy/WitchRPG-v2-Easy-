@@ -135,3 +135,4 @@ async function boot() {
     },
     travel: (key) => game.travel(key),
     openLedger: () => ledger.open(),
+  })
