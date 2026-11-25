@@ -39,3 +39,4 @@ describe('over-the-shoulder camera', () => {
     expect(pose.fov).toBeCloseTo(CAMERA.aim.fov, 1)
   })
 
+  it('moves to her eyes with a wider view in first person, and back over her shoulder', () => {
