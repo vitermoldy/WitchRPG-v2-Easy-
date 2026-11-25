@@ -7,3 +7,4 @@ import type { Player } from './player'
 
 const loader = new GLTFLoader()
 
+/** Loads a model exported by previz/blender/export_glb.py. */
