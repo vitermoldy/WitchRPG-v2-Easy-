@@ -222,3 +222,4 @@ export class Camps {
             g.hud.banner(boss.name, 'tumbang. Tubuhnya bisa dibangkitkan dengan Kebangkitan Marsekal, satu kali')
             g.profile.bossKills += 1
             g.saveSoon()
+          } else g.hud.message(`Kamp Lv ${camp.def.levels[0]}${camp.def.levels[1] !== camp.def.levels[0] ? ` sampai ${camp.def.levels[1]}` : ''} ditaklukkan. Batu ambernya padam.`, 'info')
