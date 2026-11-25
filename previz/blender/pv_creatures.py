@@ -285,3 +285,4 @@ def eagle_head(part, at, fwd=(0, -1, 0), s=1.0, mat="body2"):
     for k in (-1, 1):
         part.ell(a + F * 0.08 * s + UP * 0.05 * s + side * 0.1 * s * k, 0.028 * s, mat="eye", seg=8, rings=5)
         part.ell(a + F * 0.04 * s + UP * 0.09 * s + side * 0.09 * s * k, (0.05 * s, 0.05 * s, 0.02 * s), mat=mat, seg=6, rings=4)
+    for i in range(4):
