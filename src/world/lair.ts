@@ -192,3 +192,4 @@ export class Lair {
     if (this.state === 'fight') this.state = 'calm'
   }
 
+  private start() {
