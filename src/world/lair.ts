@@ -443,3 +443,4 @@ export class Lair {
     this.g.telegraph(u)
   }
 
+  /** A slam comes down on its circle: whoever stands inside is struck; in phase 1 it spews Imps. */
