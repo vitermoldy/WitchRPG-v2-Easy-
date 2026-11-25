@@ -58,3 +58,4 @@ export class LockOn {
 
   /** Moves the lock to the nearest target on the given side (1 = right, -1 = left) of the current one. */
   switchSide(targets: Target[], player: Vec, side: number): boolean {
+    const cur = this.current
