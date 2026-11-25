@@ -26,3 +26,4 @@ export class Input {
     window.addEventListener('keyup', (e) => {
       if (GAME_KEYS.has(e.code) && this.active && this.capture) e.preventDefault()
       this.release(e.code)
+    })
