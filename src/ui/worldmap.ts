@@ -318,3 +318,4 @@ export class WorldMap {
     // altars: teal diamonds, filled once lit
     const r = Math.max(4, size / 110)
     for (const a of ALTARS) {
+      const x = px(a.c[0])
