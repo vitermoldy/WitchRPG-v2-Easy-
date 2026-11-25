@@ -532,3 +532,4 @@ button {
    creatures and their attacks. Panels are plain dark plates: the forest stays visible behind them. */
 .veil {
   position: absolute;
+  inset: 0;
