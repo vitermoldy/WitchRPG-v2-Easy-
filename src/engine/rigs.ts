@@ -1019,3 +1019,4 @@ export class Rigs {
     let b = this.crowd.get(kind)
     if (!b) {
       const rig = this.rig(kind, 'shadow')
+      if (!rig) return null
