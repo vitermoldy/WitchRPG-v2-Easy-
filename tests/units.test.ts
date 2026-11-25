@@ -209,3 +209,4 @@ describe('phase 4 creatures', () => {
       const w = world()
       const c = w.sys.spawn('chimera', 'enemy', 9, { x: place[0], z: place[1] })
       // face her, or turn its back on her
+      c.yaw = Math.atan2(-place[0], -place[1]) + (faceAway ? Math.PI : 0)
