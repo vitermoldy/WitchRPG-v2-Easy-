@@ -172,3 +172,4 @@ def mat_tone(name, top, bottom=None, rough=0.7, metal=0.0, emit=None, emit_stren
     return m
 
 
+def mat_globe(name, ocean="#2a6aa8", land="#4f8a3a"):
