@@ -215,3 +215,4 @@ export class LightPool {
     }
   }
 
+  flash(pos: Vec, color: THREE.ColorRepresentation, intensity: number, distance: number, duration: number) {
