@@ -39,3 +39,5 @@ def _dir_rot(d):
     return (math.degrees(e.x), math.degrees(e.y), math.degrees(e.z))
 
 
+# ---------------------------------------------------------------- generators
+
