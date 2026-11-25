@@ -28,3 +28,4 @@ void main() {
   vec3 d = normalize(vDir);
   float h = d.y;
   vec3 c = mix(horizon, zenith, smoothstep(0.02, 0.55, h));
+  c = mix(c, ground, smoothstep(0.0, -0.25, h));
