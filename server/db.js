@@ -36,3 +36,4 @@ const TABLES = [
   `CREATE TABLE IF NOT EXISTS witch_upgrades (
     client_id CHAR(12) NOT NULL,
     skill VARCHAR(16) NOT NULL,
+    PRIMARY KEY (client_id, skill),
