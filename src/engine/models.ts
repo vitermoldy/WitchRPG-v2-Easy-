@@ -276,3 +276,4 @@ export class IlyraModel {
     }
     const sw = act.swing
     if (sw) {
+      const k = sw.windup + sw.active
