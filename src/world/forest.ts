@@ -89,3 +89,4 @@ function swampTree(): THREE.BufferGeometry {
     const g = new THREE.IcosahedronGeometry(r, 0)
     g.scale(1, 0.6, 1)
     parts.push(part(g, PAL.moss, at(x, y, z)))
+    for (let k = 0; k < 3; k++) {
