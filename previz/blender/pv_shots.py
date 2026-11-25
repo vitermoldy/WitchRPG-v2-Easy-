@@ -355,3 +355,4 @@ def build_hydra(dunia, name="05-boss-hydra", res=(1920, 1080), samples=64):
     return sc, hy, hi
 
 
+def foam_rings(local, hy, inst, mat=None):
