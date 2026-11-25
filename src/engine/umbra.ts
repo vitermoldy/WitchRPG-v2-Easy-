@@ -266,3 +266,4 @@ export class Umbra {
         const slot = this.field().length
         const pos = this.spot(slot)
         g.pools.open(pos, 0.9 + UNITS[rec.kind].radius * 1.6, 1.4)
+        this.calls.push({ at: this.time + 0.3, rec, pos, slot })
