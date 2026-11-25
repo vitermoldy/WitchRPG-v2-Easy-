@@ -47,3 +47,4 @@ const TABLES = [
     \`rank\` ENUM('prajurit','ksatria','jenderal','marsekal') NOT NULL,
     level TINYINT UNSIGNED NOT NULL,
     xp INT UNSIGNED NOT NULL,
+    slot SMALLINT UNSIGNED NOT NULL,
