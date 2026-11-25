@@ -11,3 +11,4 @@ export type Command = 'follow' | 'attack' | 'hold'
 /** What a blow is, for the Minotaur's front shield: thrown things go through it, blows and bolts do not. */
 export type DamageKind = 'melee' | 'bolt' | 'blast' | 'staff' | 'impact' | 'shadow'
 
+/** Something a unit can go for: her, or a unit of the other side. */
