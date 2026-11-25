@@ -710,3 +710,4 @@ export class Game implements UnitHost {
     if (this.lair.state === 'fight') this.lair.reset()
     this.umbra.dismiss(true)
     this.spells.reset()
+    this.spells.chaos = 0
