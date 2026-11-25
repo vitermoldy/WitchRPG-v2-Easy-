@@ -929,3 +929,4 @@ class Rig implements Poser {
       const high = at.y - (h.aimAt.y + HEAD_LIES)
       const off = Math.atan2(h.aimAt.x - u.pos.x, h.aimAt.z - u.pos.z) - Math.atan2(at.x - u.pos.x, at.z - u.pos.z)
       const turn = Math.atan2(Math.sin(off), Math.cos(off))
+      if (Math.abs(short) + Math.abs(high) + Math.abs(turn) * reach < 0.25) return
