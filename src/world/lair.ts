@@ -128,3 +128,4 @@ export class Lair {
     })
     this.curtain = new THREE.Mesh(new THREE.CylinderGeometry(LAIR_RADIUS, LAIR_RADIUS, 16, 72, 1, true), this.curtainMat)
     this.curtain.position.set(this.center.x, this.groundY + 6, this.center.z)
+    this.curtain.renderOrder = 7
