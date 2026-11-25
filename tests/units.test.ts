@@ -53,3 +53,4 @@ describe('creature attacks', () => {
     expect(lag).toBeCloseTo(UNITS.imp.windup + (UNITS.imp.lungeTime ?? 0), 1)
   })
 
+  it('misses when she leaves the amber circle before it fills', () => {
