@@ -106,3 +106,4 @@ function snag(color: THREE.Color): THREE.BufferGeometry {
   return mergeGeometries(parts)
 }
 
+function rock(seed: number, r: [number, number, number], color: THREE.Color): THREE.BufferGeometry {
