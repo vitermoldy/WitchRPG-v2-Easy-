@@ -1163,3 +1163,6 @@ def ilyra_palette():
         "wood": C.mat_flat("ilyra_staff", "#2b1d16", 0.7),
         "metal": C.mat_flat("ilyra_metal", "#3b3640", 0.35, 0.9),
         "body": C.mat_flat("ilyra_cloth", "#1b1418", 0.85),
+    }
+
+
