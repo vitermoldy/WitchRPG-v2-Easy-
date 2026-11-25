@@ -971,3 +971,4 @@ export const SINK_TIME = 0.8
 /**
  * Draws every creature: enemies and the nearest shadows with animated part rigs, the rest of the army
  * as one standing model per kind and material (the v1 crowd), placed by position, facing and a step bob.
+ */
