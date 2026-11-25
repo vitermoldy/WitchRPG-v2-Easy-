@@ -119,3 +119,4 @@ async function boot() {
     $('btn-resume').focus()
   }
 
+  // ------------------------------------------------------------ the Ledger and the altars
