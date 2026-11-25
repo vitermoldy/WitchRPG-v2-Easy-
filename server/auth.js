@@ -111,3 +111,4 @@ function attemptLimit(limit, message) {
 }
 
 /**
+ * @param {object} options
