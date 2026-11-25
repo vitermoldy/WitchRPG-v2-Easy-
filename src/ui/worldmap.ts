@@ -79,3 +79,4 @@ export class WorldMap {
       const b = (e.target as HTMLElement).closest<HTMLButtonElement>('button[data-boss]')
       if (!b) return
       const kind = b.dataset.boss as UnitKind
+      this.focus = this.focus === kind ? null : kind
