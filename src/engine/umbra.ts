@@ -14,3 +14,4 @@ export const rankOf = (u: Unit) => (u.elite && u.spec.eliteRank ? u.spec.eliteRa
 export type WheelChoice = 'follow' | 'attack' | 'hold' | 'swap'
 
 export interface UmbraInput {
+  riteHeld: boolean
