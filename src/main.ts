@@ -32,3 +32,4 @@ async function boot() {
     return
   }
   let game: Game
+  try {
