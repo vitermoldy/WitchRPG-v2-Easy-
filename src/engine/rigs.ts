@@ -764,3 +764,4 @@ const POSES: Partial<Record<UnitKind, PoseFn>> = {
 }
 
 /**
+ * One creature kind for one side, drawn part by part: every mesh primitive of the model is one
