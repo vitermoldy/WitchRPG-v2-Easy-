@@ -100,3 +100,4 @@ async function boot() {
   range('detail', () => pr.settings.detail, (v) => String(v), (v) => {
     pr.settings.detail = v
     game.rigs.detail = v
+  })
