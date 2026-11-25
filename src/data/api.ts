@@ -104,3 +104,5 @@ async function enter(path: string, payload: unknown): Promise<void> {
     setAuth({ status: 'unavailable', account: null })
     throw new ApiError('Server tidak terhubung. Jalankan npm run server, lalu coba lagi.', 0)
   }
+}
+
