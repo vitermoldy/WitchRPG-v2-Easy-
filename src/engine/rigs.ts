@@ -68,3 +68,4 @@ interface Part {
 export interface Poser {
   rot(name: string, x: number, y?: number, z?: number): void
   /** Whole body: lift (m), pitch forward and roll to its left (degrees). */
+  body(lift: number, pitch?: number, roll?: number): void
