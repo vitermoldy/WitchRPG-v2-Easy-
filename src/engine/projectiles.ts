@@ -14,3 +14,4 @@ interface Shot {
   atk: AttackSpec
   /** Where a glob lands (the centre of its amber circle). */
   aim: THREE.Vector3
+  life: number
