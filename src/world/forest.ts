@@ -221,3 +221,4 @@ export function addColliders(trees: Tree[], obs: Obstacles) {
       obs.add({ kind: SPHERE, x: t.x, y: t.y + r * 0.45, z: t.z, r, h: 0, camOnly: false })
       continue
     }
+    obs.add({ kind: CYL, x: t.x, y: t.y - 1, z: t.z, r: s.trunk * t.scale, h: s.h * t.scale + 1, camOnly: false })
