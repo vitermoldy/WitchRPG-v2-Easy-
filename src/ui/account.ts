@@ -44,3 +44,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
     $('gate-switch-text').textContent = next === 'in' ? 'Belum punya akun?' : 'Sudah punya akun?'
     $('gate-switch').textContent = next === 'in' ? 'Daftar' : 'Masuk'
     $('gate-lead').textContent =
+      next === 'in'
