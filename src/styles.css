@@ -1120,3 +1120,4 @@ button {
 }
 
 .wheel-opt.locked {
+  color: var(--ink-2);
