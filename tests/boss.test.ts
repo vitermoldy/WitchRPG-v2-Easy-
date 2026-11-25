@@ -162,3 +162,4 @@ describe('the seal on zones IV and V', () => {
   const kuil = toWorld(40, 330)
   const pembuka = toWorld(0, -250)
 
+  it('refuses a step from open ground into Reruntuhan Kuil, but never a step out', () => {
