@@ -62,3 +62,4 @@ export class Hud {
   private manaFlash = 0
   private zoneKey = ''
 
+  constructor(g: Game) {
