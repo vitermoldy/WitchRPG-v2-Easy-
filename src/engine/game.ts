@@ -1121,3 +1121,4 @@ export class Game implements UnitHost {
   }
 
   stats() {
+    const info = this.renderer.info
