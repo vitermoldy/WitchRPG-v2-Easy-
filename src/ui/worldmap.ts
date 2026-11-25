@@ -62,3 +62,4 @@ export class WorldMap {
     $('map-all').addEventListener('click', () => {
       for (const m of this.monsters()) this.chosen.add(m.kind)
       this.changed()
+    })
