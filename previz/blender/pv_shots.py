@@ -114,3 +114,4 @@ def disc(coll, name, centre, radius, mat, z_off=0.03, seg=40):
     me = bpy.data.meshes.new(name)
     bm.to_mesh(me)
     bm.free()
+    me.materials.append(mat)
