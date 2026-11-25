@@ -33,3 +33,4 @@ Action-RPG third-person dengan rasa God of War di hutan terbuka, memakai sistem 
 | Peran Cyclops | Gambar referensi membawa perisai bundar, bukan batu. Perannya tetap pelempar batu (Bombard); batu diambil dari tanah saat menyerang | Rupa mengikuti referensi, peran mengikuti roster. |
 | Bayangan | Model makhluk yang sama dengan badan ungu kehitaman, retakan ungu `#8f55ff`, mata ungu terang | Prompt meminta bayangan memakai model makhluk asal. Render 06. |
 | Telegraf amber | Cincin yang bisa ditahan atau di-parry: cincin dalam terang plus cincin luar redup penanda area | Render 04. Garis tebal berkedip untuk serangan yang harus di-dodge belum dibuat di previz. |
+| Altar | Cahaya teal `#9ff2e0` | Bukan merah Chaos, ungu Umbra, atau amber musuh. |
