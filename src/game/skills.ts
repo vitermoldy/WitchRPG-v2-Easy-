@@ -58,3 +58,4 @@ export const SKILLS: SkillDef[] = [
     upgrade: 'Radius +2 m.',
     built: true,
   },
+  {
