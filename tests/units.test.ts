@@ -173,3 +173,4 @@ describe('phase 4 creatures', () => {
     expect(far.log.fired).toContain('panah')
   })
 
+  it('Naga slips under when hurt: out of reach for its dive, then up a few metres away', () => {
