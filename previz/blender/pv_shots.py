@@ -627,3 +627,4 @@ def build_bara(dunia):
     sc, local = shot_scene("07-uji-lembah-bara", dunia, world, -sd, "#ffc49a", 4.0, vol_end=400)
     il = actor("aktor.ilyra.bara", "ilyra", "idle")
     place(il, local, P[0], P[1], f)
+    fr = frame_of(P, f)
