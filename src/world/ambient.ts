@@ -157,3 +157,5 @@ export class Ambient {
       if (r <= 0) return k
     }
     return 0
+  }
+
