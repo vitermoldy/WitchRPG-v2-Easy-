@@ -237,3 +237,4 @@ export class TravelPanel {
   next: 'ledger' | null = null
 
   constructor(host: TravelHost) {
+    this.host = host
