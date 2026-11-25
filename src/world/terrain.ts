@@ -114,3 +114,4 @@ export class Terrain {
     const g = n + 3
     const hs = new Float32Array(g * g)
     for (let j = 0; j < g; j++) {
+      for (let i = 0; i < g; i++) {
