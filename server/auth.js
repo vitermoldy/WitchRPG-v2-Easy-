@@ -10,3 +10,4 @@ import express from 'express'
  *   POST /api/auth/login     { username, password }           signed in
  *   POST /api/auth/logout
  *   GET  /api/auth/me                                         who is signed in, 401 if nobody
+ *
