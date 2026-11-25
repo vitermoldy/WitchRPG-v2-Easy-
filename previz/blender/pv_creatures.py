@@ -761,3 +761,4 @@ def _demon(r, H, bulk, female, span, horn_kind, arm_pose):
         if not female:
             t.ell(sh + Vector((0, 0, 0.06)), (0.15, 0.15, 0.09), mat="armor")
             spikes(t, [sh + Vector((0.03 * s, 0, 0.1)), sh + Vector((0.08 * s, 0.05, 0.06))], 0.16, 0.035, mat="horn", tilt=(s * 0.6, 0.2, 1))
+            t.ell(sh + Vector((0.02 * s, -0.12, 0.03)), (0.03, 0.02, 0.03), mat="glow", seg=8, rings=5)
