@@ -116,3 +116,4 @@ export class Atmosphere {
     }
     this.zone = best
     // exp2 fog: e^-(d * sight)^2 is about 4% at the sight distance
+    this.densityTarget = 1.8 * inv
