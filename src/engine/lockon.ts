@@ -27,3 +27,5 @@ export class LockOn {
   /** Angle of a target from the camera's view direction (radians, positive = to the left). */
   private angleOf(t: Target, from: Vec, camYaw: number) {
     return wrap(yawTo(from.x, from.z, t.x, t.z) - camYaw)
+  }
+
