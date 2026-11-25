@@ -62,3 +62,4 @@ describe('the forest valley', () => {
     for (const kind of WORLD_BOSSES) {
       const camps = CAMP_DEFS.filter((c) => c.boss && c.pack[kind])
       expect(camps.length, kind).toBe(1)
+      const [camp] = camps
