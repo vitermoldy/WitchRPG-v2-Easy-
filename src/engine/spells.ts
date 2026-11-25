@@ -338,3 +338,4 @@ export class Spells {
         g.lights.flash(at, COLOR.chaos, 8, 6, 0.18)
         this.killBolt(b)
         this.bolts.splice(i, 1)
+      }
