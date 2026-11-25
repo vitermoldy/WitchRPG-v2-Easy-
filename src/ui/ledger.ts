@@ -148,3 +148,4 @@ export class Ledger {
       ['Jarak dodge', `${fmt(d.dodgeDistance, 2)} m`],
       ['Kekuatan bayangan', `${fmt(d.shadowPower * 100)}%`],
     ]
+      .map(([a, b]) => `<dt>${a}</dt><dd class="num">${b}</dd>`)
