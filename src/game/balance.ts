@@ -831,3 +831,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     anchored: true,
     boss: true,
     attacks: [
+      { name: 'hentakan', strike: 'ring', windup: 0.9, recover: 1, range: 3.5, ring: 3.6 },
