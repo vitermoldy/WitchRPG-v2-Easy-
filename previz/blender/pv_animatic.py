@@ -80,3 +80,4 @@ def build(dunia, res=(1280, 720), samples=24):
     tc.track_axis = "TRACK_Z"
     tc.up_axis = "UP_Y"
 
+    fly_pts = [Vector(p) for p in ((150, -680, 300), (60, -430, 240), (-70, -190, 180), (-170, 20, 120), (-215, 150, 60))]
