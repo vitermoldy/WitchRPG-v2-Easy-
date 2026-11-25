@@ -117,3 +117,4 @@ export async function signOut(): Promise<void> {
   try {
     localStorage.removeItem(CODE_KEY)
   } catch {
+    /* blocked storage: nothing was kept either */
