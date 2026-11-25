@@ -31,3 +31,4 @@ export class Fauna {
   readonly spots: Spot[]
   private readonly g: Game
 
+  constructor(g: Game) {
