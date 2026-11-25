@@ -58,3 +58,4 @@ export class Terrain {
     for (let iz = 0; iz < CHUNKS; iz++) {
       for (let ix = 0; ix < CHUNKS; ix++) {
         const cx = -HALF + (ix + 0.5) * CHUNK
+        const cz = -HALF + (iz + 0.5) * CHUNK
