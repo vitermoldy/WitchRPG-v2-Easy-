@@ -334,3 +334,4 @@ interface Warn {
 export class Warnings {
   private readonly pool: Warn[] = []
 
+  constructor(scene: THREE.Object3D, count = 6) {
