@@ -450,3 +450,4 @@ export class Umbra {
         faded++
         continue
       }
+      const rec = addShadow(g.profile, u.kind, u.level, rankOf(u))
