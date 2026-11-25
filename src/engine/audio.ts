@@ -473,3 +473,4 @@ export class Sfx {
     this.tone(t, 'sine', f, f * 0.995, 2.4, 0.02, 0.01)
     this.tone(t, 'sine', f * 1.5, f * 1.49, 1.6, 0.008, 0.01)
   }
+}
