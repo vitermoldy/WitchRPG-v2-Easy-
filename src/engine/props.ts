@@ -59,3 +59,4 @@ export class Props {
     let best: Prop | null = null
     let ba = cone
     for (const p of this.list) {
+      if (p.held) continue
