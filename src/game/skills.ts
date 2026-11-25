@@ -4,3 +4,4 @@ export type SkillId =
   | 'burst'
   | 'snare'
   | 'barrier'
+  | 'warp'
