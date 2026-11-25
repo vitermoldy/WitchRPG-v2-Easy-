@@ -50,3 +50,4 @@ const TABLES = [
     slot SMALLINT UNSIGNED NOT NULL,
     PRIMARY KEY (client_id, shadow_id),
     CONSTRAINT shadows_client FOREIGN KEY (client_id) REFERENCES clients(id) ON DELETE CASCADE
+  ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci`,
