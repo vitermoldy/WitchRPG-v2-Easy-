@@ -126,3 +126,4 @@ export class Hud {
   }
 
   banner(title: string, sub: string) {
+    ;(this.bigBanner.querySelector('.banner-title') as HTMLElement).textContent = title
