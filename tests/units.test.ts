@@ -48,3 +48,4 @@ describe('creature attacks', () => {
       if (started < 0 && imp.state === 'windup') started = w.now()
     })
     expect(started).toBeGreaterThan(0)
+    expect(w.log.strikes.length).toBeGreaterThan(0)
