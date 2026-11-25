@@ -124,3 +124,4 @@ export class CameraRig {
     const dz = target.point.z - from.z
     const dy = target.point.y - from.y
     // in first person the target sits in the middle of the view, where the staff and the bolts go
+    const third = 1 - this.fp
