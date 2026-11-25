@@ -661,3 +661,4 @@ def b_cyclops(r):
     for s in (1, -1):
         h.cone(hc + Vector((0.1 * s, -0.3, -0.22)), hc + Vector((0.12 * s, -0.32, -0.08)), 0.03, mat="horn", seg=5)
         h.ell(hc + Vector((0.27 * s, 0.0, 0.0)), (0.04, 0.07, 0.09), mat="skin")
+    t = r.parts["torso"]
