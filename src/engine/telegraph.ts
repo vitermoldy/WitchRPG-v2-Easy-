@@ -105,3 +105,4 @@ export class Telegraphs {
       side: THREE.DoubleSide,
     })
     const mesh = new THREE.Mesh(geo, mat)
+    mesh.frustumCulled = false
