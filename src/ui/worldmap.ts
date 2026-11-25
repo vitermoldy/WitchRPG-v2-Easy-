@@ -267,3 +267,4 @@ export class WorldMap {
     const at = (wx: number, wz: number) => {
       const [mx, my] = toMap(wx, wz)
       return [px(mx), py(my)] as const
+    }
