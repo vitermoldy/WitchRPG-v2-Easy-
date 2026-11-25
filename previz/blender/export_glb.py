@@ -32,3 +32,4 @@ if "--lod" in argv:
     argv = argv[:i] + argv[i + 2:]
 if "--ratio" in argv:
     i = argv.index("--ratio")
+    RATIO = float(argv[i + 1])
