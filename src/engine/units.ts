@@ -608,3 +608,4 @@ export class UnitSystem {
     u.skillCd -= dt
     if (u.skillCd > 0) return
     u.skillCd = s.every
+    const n = Math.min(s.count, s.max - u.helpers)
