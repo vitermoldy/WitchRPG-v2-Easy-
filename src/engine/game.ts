@@ -177,3 +177,4 @@ export class Game implements UnitHost {
     this.spells = new Spells(this)
     this.umbra = new Umbra(this)
     this.hud = new Hud(this)
+    this.shots = new Projectiles(this)
