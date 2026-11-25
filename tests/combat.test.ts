@@ -27,3 +27,5 @@ describe('block and parry', () => {
   it('cannot block or parry a line attack; only the roll avoids it', () => {
     expect(resolveDefense(10, 'line', false, true, 9.95, 0)).toBe('hit')
     expect(resolveDefense(10, 'line', true, false, -Infinity, 0)).toBe('dodge')
+  })
+
