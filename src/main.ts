@@ -83,3 +83,4 @@ async function boot() {
     show()
     refreshers.push(show)
     input.addEventListener('input', () => {
+      const v = Number(input.value)
