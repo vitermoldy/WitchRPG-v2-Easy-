@@ -526,3 +526,4 @@ export class Umbra {
           if (d < bd) {
             bd = d
             target = e
+          }
