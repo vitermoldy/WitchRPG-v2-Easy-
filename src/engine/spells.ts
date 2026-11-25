@@ -160,3 +160,4 @@ export class Spells {
     )
     this.tendril.frustumCulled = false
     this.tendril.visible = false
+    g.scene.add(this.tendril)
