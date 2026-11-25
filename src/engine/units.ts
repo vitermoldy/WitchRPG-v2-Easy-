@@ -166,3 +166,4 @@ export class Unit implements Foe {
 
   constructor(kind: UnitKind, team: Team, level: number) {
     this.kind = kind
+    this.team = team
