@@ -266,3 +266,4 @@ export class Camps {
       for (const camp of this.camps) {
         this.c.copy(camp.state === 'cleared' ? this.dark : this.lit)
         for (let k = 0; k < STONES; k++) this.shards.setColorAt(i++, this.c)
+      }
