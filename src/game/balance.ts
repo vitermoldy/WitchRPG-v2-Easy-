@@ -141,3 +141,4 @@ export const RITE = {
   maxChance: 0.9,
   swapCooldown: 10,
   swapCooldownUpgraded: 6,
+  focusBonus: 0.2,
