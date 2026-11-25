@@ -497,3 +497,4 @@ class Rig:
 # ---------------------------------------------------------------- scene helpers
 
 def collection(name, parent):
+    """New collection linked under `parent` (a collection or a scene's master collection)."""
