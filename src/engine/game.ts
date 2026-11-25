@@ -947,3 +947,4 @@ export class Game implements UnitHost {
     p.moveScale = alive ? this.fight.moveScale * (this.umbra.casting.length ? 0.4 : 1) * wading : 0
     p.update(sdt, move, this.rig.yaw, face, aiming, this.ground)
     if (p.landRefused && this.t - this.landMsgAt > 3) {
+      this.landMsgAt = this.t
