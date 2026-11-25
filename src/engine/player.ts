@@ -36,3 +36,4 @@ export class Player {
   readonly pos = { x: 0, y: 0, z: 0 }
   vx = 0
   vz = 0
+  vy = 0
