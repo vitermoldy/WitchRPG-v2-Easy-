@@ -15,3 +15,4 @@ const num = (key, fallback) => {
 
 export const config = {
   name: 'Crimson Sovereign: Hutan (Easy)',
+  port: num('PORT', 8915),
