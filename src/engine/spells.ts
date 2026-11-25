@@ -603,3 +603,4 @@ export class Spells {
     const mat = this.rune(COLOR.chaos)
     const mesh = new THREE.Mesh(new THREE.PlaneGeometry(s.radius * 2, s.radius * 2), mat)
     mesh.rotation.x = -Math.PI / 2
+    mesh.position.copy(at).setY(at.y + 0.08)
