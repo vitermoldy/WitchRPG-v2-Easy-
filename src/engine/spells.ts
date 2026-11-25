@@ -636,3 +636,4 @@ export class Spells {
         const a = Math.random() * Math.PI * 2
         const r = Math.sqrt(Math.random()) * s.radius
         const x = s.pos.x + Math.cos(a) * r
+        const z = s.pos.z + Math.sin(a) * r
