@@ -331,3 +331,4 @@ class Part:
             r = (r, r, r)
         R = Euler([math.radians(a) for a in rot]).to_matrix().to_4x4()
         M = self._M(c) @ R @ Matrix.Diagonal((r[0], r[1], r[2], 1))
+        g = bmesh.ops.create_uvsphere(self.bm, u_segments=seg, v_segments=rings, radius=1.0, matrix=M)
