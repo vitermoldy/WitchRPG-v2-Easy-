@@ -188,3 +188,4 @@ class Staff {
     this.q.setFromUnitVectors(Y, n)
     if (spinning) {
       // end over end about the axis across its flight
+      const axis = new THREE.Vector3().crossVectors(n, Y)
