@@ -4,3 +4,4 @@
     npm run models -- imp hellhound harpy --lod 0.22
 
 Every part stays a named node with its own pivot (pelvis, thigh_L, neck2_3, ...), so the game can pose
+and animate the model by rotating parts, the way v1's models.ts did. Materials are flattened to one
