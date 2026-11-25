@@ -667,3 +667,4 @@ export class UnitSystem {
       if (u.spec.fly) u.alt += (u.spec.fly.height * 0.6 - u.alt) * Math.min(1, dt)
       if (u.state !== 'move') {
         host.clearTelegraph(u)
+        u.set('move')
