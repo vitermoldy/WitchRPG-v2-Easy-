@@ -414,3 +414,4 @@ export class Spells {
   private holdGrip(dt: number) {
     const g = this.g
     if (!this.overloaded) {
+      g.player.mana -= SPELL.grip.manaPerSec * dt
