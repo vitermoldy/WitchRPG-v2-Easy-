@@ -248,3 +248,4 @@ export class Forest {
     const ids = {} as Record<Kind, number>
     for (const k of Object.keys(geos) as Kind[]) ids[k] = this.mesh.addGeometry(geos[k])
     const m = new THREE.Matrix4()
+    const q = new THREE.Quaternion()
