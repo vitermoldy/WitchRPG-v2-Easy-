@@ -268,3 +268,4 @@ export class IlyraModel {
       armLY = mix(armLY, -30, b)
       armLZ = mix(armLZ, 0, b)
       foreL = mix(foreL, -50 + 35 * push, b)
+      // found on the pose sheet: across the chest, long seen from the front, short from the side
