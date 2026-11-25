@@ -178,3 +178,5 @@ class Staff {
     this.tmp.copy(this.vel).normalize().multiplyScalar(-0.5).add(Y).normalize()
     this.orient(this.tmp, false)
     this.g.glow.emit({ pos: this.pos, count: 12, color: COLOR.umbraHot, intensity: 2.2, life: 0.35, size: 0.12, speed: 2.5 })
+  }
+
