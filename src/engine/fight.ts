@@ -190,3 +190,4 @@ class Staff {
       // end over end about the axis across its flight
       const axis = new THREE.Vector3().crossVectors(n, Y)
       if (axis.lengthSq() < 1e-6) axis.set(1, 0, 0)
+      this.q2.setFromAxisAngle(axis.normalize(), this.spin)
