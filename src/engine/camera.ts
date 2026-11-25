@@ -52,3 +52,4 @@ export function wanted(pivot: Vec, yaw: number, pitch: number, p: CamParams): Ve
 /** Furthest clear share of the way from the pivot to the wanted spot (0 to 1). */
 export function clearFraction(pivot: Vec, want: Vec, obstacles: Obstacles | null, height: HeightFn, radius = CAMERA.radius): number {
   let f = obstacles ? obstacles.sweep(pivot.x, pivot.y, pivot.z, want.x, want.y, want.z, radius) : 1
+  const steps = 14
