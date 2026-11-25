@@ -1126,3 +1126,4 @@ export class Game implements UnitHost {
     return {
       ...this.frameStats(),
       minClearance: this.minClearance,
+      calls: info.render.calls,
