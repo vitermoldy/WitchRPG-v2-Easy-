@@ -381,3 +381,4 @@ const MINO_LIMBS = ['upperarm_L', 'upperarm_R', 'thigh_L', 'thigh_R', 'tail']
 const poseMinotaur: PoseFn = (p, u, t) => {
   if (common(p, u, t, MINO_LIMBS)) return
   const s = Math.sin(u.walk * 1.1)
+  const amp = Math.min(1.4, Math.hypot(u.vel.x, u.vel.z) / Math.max(1, u.speed))
