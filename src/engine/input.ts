@@ -45,3 +45,4 @@ export class Input {
     document.addEventListener('pointerlockchange', () => {
       this.locked = document.pointerLockElement === this.target
       if (!this.locked) this.releaseAll()
+      this.onLockChange?.(this.locked)
