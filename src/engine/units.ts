@@ -336,3 +336,4 @@ export class UnitSystem {
     if (u.spec.dive && u.diveCd <= 0 && (u.state === 'move' || u.state === 'recover' || u.state === 'windup')) {
       this.host.clearTelegraph(u)
       u.token = false
+      u.diveCd = 8
