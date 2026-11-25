@@ -197,3 +197,4 @@ export class Lair {
     if (!this.body) return
     this.state = 'fight'
     this.body.aggro = true
+    for (const h of this.heads) if (h) h.aggro = true
