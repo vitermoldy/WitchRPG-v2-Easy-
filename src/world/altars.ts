@@ -33,3 +33,4 @@ export class Altars {
 
   constructor(g: Game) {
     this.g = g
+    this.group.name = 'altars'
