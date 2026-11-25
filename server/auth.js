@@ -6,3 +6,4 @@ import express from 'express'
  * the code this app already filed its saves and events under, so signing up keeps
  * the progress the browser already has and signing in elsewhere brings it along.
  *
+ *   POST /api/auth/register  { username, password, device? }  new account, signed in
