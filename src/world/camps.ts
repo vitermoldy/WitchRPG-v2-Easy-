@@ -114,3 +114,4 @@ export class Camps {
   private readonly dark = new THREE.Color(0x3a2a20)
   private readonly c = new THREE.Color()
   private time = 0
+  /** The camps' own clock (s), for the map: a cleared camp stands again at its respawnAt. */
