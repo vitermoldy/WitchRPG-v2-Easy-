@@ -126,3 +126,4 @@ const dist = (x: number, y: number, c: [number, number]) => Math.hypot(x - c[0],
 
 function segDist(x: number, y: number, a: [number, number], b: [number, number]) {
   const dx = b[0] - a[0]
+  const dy = b[1] - a[1]
