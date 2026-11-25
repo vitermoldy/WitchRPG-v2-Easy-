@@ -811,3 +811,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
       { name: 'ekor', strike: 'ring', windup: 0.8, recover: 0.9, range: 6, ring: 2.8, behind: true },
       { name: 'napas api', strike: 'ring', windup: 1.2, recover: 1.1, range: 12, ring: 3.8, ahead: 6 },
       { name: 'bola api', strike: 'ring', windup: 1.1, recover: 1, range: 32, minRange: 10, ring: 3, shot: { speed: 15, gravity: 10, radius: 0.7 }, cooldown: 4 },
+      { name: 'terkam', strike: 'line', windup: 1, recover: 1.6, range: 24, minRange: 8, damage: 1.4, lungeSpeed: 19, lungeTime: 0.9, cooldown: 8 },
