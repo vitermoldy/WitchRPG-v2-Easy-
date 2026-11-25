@@ -184,3 +184,4 @@ def mat_ring(name, color, strength, inner=0.82, alpha=0.9, fill=0.08):
 # ---------------------------------------------------------------- 01 hero and camera variants
 
 def hero_layout():
+    P = Wd.SPOTS["hero"]
