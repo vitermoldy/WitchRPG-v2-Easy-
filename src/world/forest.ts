@@ -167,3 +167,4 @@ export function scatter(size = 1260, step = 4, seed = 3): Tree[] {
       const pick = rnd()
       const keep = rnd()
       const rockRoll = rnd()
+      const kindRoll = rnd()
