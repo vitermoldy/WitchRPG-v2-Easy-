@@ -180,3 +180,4 @@ def export(key):
         tris = lod_tris(coll)
     print(f"[export] {key}: {path} ({os.path.getsize(path) // 1024} kB, {tris} segitiga, {len(r.objs)} bagian)", flush=True)
     for ob in list(coll.objects):
+        bpy.data.objects.remove(ob)
