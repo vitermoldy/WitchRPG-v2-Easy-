@@ -931,3 +931,4 @@ export class UnitSystem {
     u.walk += Math.hypot(u.vel.x, u.vel.z) * dt * 2.2
   }
 
+  /** A body thrown by Telekinesis: nearly straight for a moment, then it falls. It hurts what it hits. */
