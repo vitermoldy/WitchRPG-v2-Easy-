@@ -21,3 +21,4 @@ uniform vec3 zenith;
 uniform vec3 horizon;
 uniform vec3 ground;
 uniform vec3 fogColor;
+uniform vec3 sunDir;
