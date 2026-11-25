@@ -279,3 +279,4 @@ export class IlyraModel {
       const k = sw.windup + sw.active
       let w: number
       let back: { torso: number; armX: number; armY: number; fore: number }
+      let through: typeof back
