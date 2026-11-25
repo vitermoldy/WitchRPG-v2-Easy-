@@ -18,3 +18,5 @@ describe('the save', () => {
     const p = normalizeProfile(JSON.parse(JSON.stringify(p0)))!
     expect(p.world.altars).toEqual(['pembuka', 'tebing'])
     expect(p.world.last).toBe('tebing')
+  })
+
