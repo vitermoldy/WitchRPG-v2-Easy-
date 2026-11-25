@@ -456,3 +456,4 @@ export class Umbra {
         continue
       }
       raised.push(rec)
+      const at = u.pos.clone()
