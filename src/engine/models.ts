@@ -112,3 +112,4 @@ export class IlyraModel {
       const l = new THREE.PointLight(col, 2.2, 5, 2)
       l.position.set(0, -0.06, 0.04)
       hand.add(l)
+    }
