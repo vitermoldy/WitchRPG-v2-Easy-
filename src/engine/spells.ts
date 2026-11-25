@@ -657,3 +657,4 @@ export class Spells {
     const ruleMat = this.rune(new THREE.Color(COLOR.umbra).lerp(new THREE.Color(COLOR.chaos), 0.35).getHex())
     const disc = new THREE.Mesh(new THREE.PlaneGeometry(s.radius * 2, s.radius * 2), ruleMat)
     disc.rotation.x = -Math.PI / 2
+    disc.position.y = 0.08
