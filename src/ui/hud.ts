@@ -41,3 +41,4 @@ export class Hud {
   private readonly bannerTier = $('zone-tier')
   private readonly lockMark = $('lock-mark')
   private readonly aimEl = $('aim')
+  private readonly hitmark = $('hitmark')
