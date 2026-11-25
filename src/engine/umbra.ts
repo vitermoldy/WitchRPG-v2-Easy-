@@ -186,3 +186,4 @@ export class Umbra {
       if (i < POOLS_PER_CALL) g.pools.open(pos, 0.9 + UNITS[pick[i].kind].radius * 1.6, 1.4, 0.3 + i * stagger)
     }
     for (let i = 0; i < 40; i++) {
+      const a = Math.random() * Math.PI * 2
