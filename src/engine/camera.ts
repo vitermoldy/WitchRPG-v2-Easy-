@@ -97,3 +97,4 @@ export class CameraRig {
   }
 
   params(): CamParams {
+    const n = CAMERA.normal
