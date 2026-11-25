@@ -1070,3 +1070,4 @@ export class Game implements UnitHost {
       c.lookAt(p.pos.x, p.pos.y + 0.95, p.pos.z)
     }
     // shake: small turns of the view (never a move, so it cannot push the camera into a tree)
+    this.trauma = Math.max(0, this.trauma - dt * 1.6)
