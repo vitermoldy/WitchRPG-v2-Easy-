@@ -112,3 +112,4 @@ export class Sfx {
    * rising two-note shriek. They sound different so the warning does not rest on sight alone.
    */
   warn(kind: 'ring' | 'line') {
+    if (!this.ok()) return
