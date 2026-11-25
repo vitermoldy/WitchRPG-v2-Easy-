@@ -500,3 +500,4 @@ export class Fight {
     if (!ex.struck && ex.t >= 0.55) {
       ex.struck = true
       const u = ex.u
+      g.units.kill(u, true)
