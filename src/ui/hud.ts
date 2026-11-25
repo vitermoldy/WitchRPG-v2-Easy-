@@ -115,3 +115,4 @@ export class Hud {
     if (text !== null) this.debugEl.textContent = text
   }
 
+  message(text: string, tone: Tone = 'info') {
