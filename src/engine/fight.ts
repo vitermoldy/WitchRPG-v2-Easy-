@@ -245,3 +245,4 @@ export class Fight {
     this.blocking = false
     this.riposte = 0
     this.throwT = this.catchT = -1
+    if (!keepStaff) this.staff.reset()
