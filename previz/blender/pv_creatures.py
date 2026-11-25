@@ -226,3 +226,4 @@ def feather_wing(part, root, s, span, chord, raise_deg=30, sweep_deg=15, feather
     part.tube([f(*R0), f(*E), f(*Wr), f(*Ht)], [S * 0.045, S * 0.035, S * 0.025, S * 0.012], mat=arm, seg=6, n=3)
     part.poly([f(*R0), f(*E), f(*Wr), f(*Ht), f(0.72 * S, 0.3 * Cc), f(0.35 * S, 0.45 * Cc), f(0.0, 0.42 * Cc)], mat=arm)
 
+    def feather(base, ang, length, width, m):
