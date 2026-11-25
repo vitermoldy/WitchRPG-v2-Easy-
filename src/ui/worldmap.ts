@@ -29,3 +29,4 @@ interface BossEntry {
 }
 
 /**
+ * The map of the valley (M): zones, paths, the lake, altars, where she stands, every boss with how it
