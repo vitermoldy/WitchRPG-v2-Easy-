@@ -38,3 +38,4 @@ export class StunMeter {
       this.staggered = COMBAT.stagger
       return true
     }
+    return false
