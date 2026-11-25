@@ -501,3 +501,4 @@ def collection(name, parent):
     c = bpy.data.collections.get(name)
     if c is None:
         c = bpy.data.collections.new(name)
+        parent.children.link(c)
