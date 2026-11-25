@@ -643,3 +643,4 @@ const poseHydra: PoseFn = (p, u, t) => {
     let target: { x: number; z: number } | null = null
     if (h) {
       if (!h.alive || h.state === 'finishing') mode = 'limp'
+      else if (h.state === 'windup') mode = 'rear'
