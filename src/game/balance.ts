@@ -1001,3 +1001,4 @@ export const ELITE = {
   xp: 3,
   /** Share of damage that still lands on a berlapis elite, unless it comes from a throw. */
   armor: 0.45,
+  swift: { speed: 1.45, tempo: 0.7 },
