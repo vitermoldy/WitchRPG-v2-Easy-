@@ -38,3 +38,4 @@ export interface UnitHost {
   /** A summoner called up a helper. */
   summoned(helper: Unit): void
   /** Something to show: a blink, a Phoenix falling to ashes or rising from them. */
+  fx(u: Unit, what: 'blink' | 'ashes' | 'reborn', from?: THREE.Vector3): void
