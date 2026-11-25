@@ -153,3 +153,4 @@ async function boot() {
       game.pause()
       show('pause')
       $('lock-note').hidden = false
+      $('btn-resume').focus()
