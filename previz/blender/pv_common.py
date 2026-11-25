@@ -222,3 +222,4 @@ def palette_ref(key, spec):
     emissive = spec.pop("emissive", {})
     pal = Pal()
 
+    def tone(slot, v):
