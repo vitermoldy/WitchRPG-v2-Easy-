@@ -456,3 +456,4 @@ export class UnitSystem {
     u.vel.z += (tz - u.vel.z) * a
   }
 
+  face(u: Unit, x: number, z: number, dt: number, rate = 9) {
