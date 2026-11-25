@@ -97,3 +97,4 @@ class Staff {
       u.center(this.sphere.center)
       this.sphere.radius = Math.max(u.radius, u.height * 0.42) + 0.15
       if (!this.ray.intersectSphere(this.sphere, this.tmp)) continue
+      const d = this.tmp.distanceTo(this.prev)
