@@ -169,3 +169,4 @@ export class Game implements UnitHost {
     this.input.onLockChange = (locked) => {
       if (!locked && this.state === 'playing' && !this.debug) this.pause()
     }
+    this.sensitivity = this.profile.settings.sensitivity
