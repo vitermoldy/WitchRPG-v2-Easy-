@@ -108,3 +108,4 @@ describe('staff combo', () => {
   })
 
   it('reaches creatures in front, not behind', () => {
+    const s = COMBAT.light[0]
