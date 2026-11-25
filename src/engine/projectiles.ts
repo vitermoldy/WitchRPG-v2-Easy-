@@ -114,3 +114,4 @@ export class Projectiles {
       }
 
       if (s.atk.strike === 'line') {
+        // an arrow: her capsule, then shadows, then trees and the ground
