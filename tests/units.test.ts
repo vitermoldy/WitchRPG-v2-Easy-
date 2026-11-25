@@ -91,3 +91,4 @@ describe('creature attacks', () => {
     const hound = side.sys.spawn('hellhound', 'enemy', 1, { x: 0, z: 6 })
     let stepped = false
     side.step(1.4, () => {
+      // she side-steps the moment the line appears (what a roll does)
