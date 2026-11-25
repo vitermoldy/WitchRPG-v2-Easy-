@@ -139,3 +139,4 @@ export class Altars {
     }
   }
 
+  /** Where she stands when she arrives at an altar (beside it, not inside the stones). */
