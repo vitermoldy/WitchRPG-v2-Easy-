@@ -99,3 +99,5 @@ Hasil gerbang (bot `?debug` yang melihat hal yang sama dengan pemain: cincin yan
 
 Tur fitur (setiap skill sekali di game, `?debug`, Lv 10): Hex Bolt melukai Imp dan mengisi stun; Telekinesis mengangkat Imp dan lemparannya membunuh Imp lain (34 HP ke 0); tongkat melewati terbang, menancap, kembali, ke tangan dan mengenai satu Imp; Snare memperlambat; Barrier aktif; Warp mengangkat 4 dari 4 Imp setinggi 3,5 m; Overload menyala 12 dtk; satu Hex Bolt menjatuhkan Harpy dari 6 m. Tumbang dan bangkit: kembali di titik awal dengan HP penuh, 6 bayangan tetap, Lv 3 dan 120 XP tetap. 0 error di konsol di semua run.
 
+## Fase 3: Umbra (24 Nov 2026)
+
