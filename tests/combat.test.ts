@@ -11,3 +11,5 @@ describe('block and parry', () => {
     expect(resolveDefense(impact, 'ring', false, true, impact - 0.01, 0)).toBe('parry')
     expect(resolveDefense(impact, 'ring', false, true, impact - W, 0)).toBe('parry')
     expect(resolveDefense(impact, 'ring', false, false, impact - W * 0.5, 0)).toBe('parry')
+  })
+
