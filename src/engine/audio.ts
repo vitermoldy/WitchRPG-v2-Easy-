@@ -87,3 +87,4 @@ export class Sfx {
 
   bolt() {
     if (!this.ok()) return
+    const t = this.ctx!.currentTime
