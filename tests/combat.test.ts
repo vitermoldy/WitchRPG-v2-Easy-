@@ -20,3 +20,4 @@ describe('block and parry', () => {
     expect(resolveDefense(impact, 'ring', false, false, impact - W - 0.001, 0)).toBe('hit')
   })
 
+  it('pins the parry window at 0.18 s', () => {
