@@ -72,3 +72,4 @@ interface Item {
   follow: boolean
 }
 
+/** Amber telegraphs under creatures' attacks, both laid on the ground and following its shape. */
