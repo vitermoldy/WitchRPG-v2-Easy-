@@ -244,3 +244,4 @@ export interface UnitSpec {
   shield?: number
   /** Ground slam: everything of the other side inside this radius is hit. */
   slam?: number
+  /** Calls husks out of the Rift every few seconds. */
