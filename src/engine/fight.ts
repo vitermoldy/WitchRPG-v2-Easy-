@@ -89,3 +89,4 @@ class Staff {
   /** First living enemy the segment prev to pos passes through, and how far along (0 to 1). */
   private sweepUnits(len: number): { u: Unit; f: number } | null {
     if (len < 1e-5) return null
+    this.dir.subVectors(this.pos, this.prev).divideScalar(len)
