@@ -103,3 +103,4 @@ class Staff {
     return best
   }
 
+  update(dt: number) {
