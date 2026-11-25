@@ -76,3 +76,5 @@ world_stats = {
     "segitiga_medan": sum(len(p.vertices) - 2 for p in bpy.data.objects["terrain"].data.polygons),
 }
 with open(os.path.join(TMP, "dunia.json"), "w", encoding="utf-8") as fh:
+    json.dump(world_stats, fh, indent=1)
+
