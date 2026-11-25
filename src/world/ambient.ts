@@ -134,3 +134,4 @@ export class Ambient {
       uniforms: { uTime: { value: 0 }, uFade: { value: 0 } },
       vertexShader: RIFT_VERT,
       fragmentShader: RIFT_FRAG,
+      transparent: true,
