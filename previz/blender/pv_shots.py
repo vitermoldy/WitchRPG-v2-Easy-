@@ -615,3 +615,5 @@ def build_board(lib_colls, stats):
     return sc
 
 
+# ---------------------------------------------------------------- 07 readability test in Lembah Bara
+
