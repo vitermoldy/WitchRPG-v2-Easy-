@@ -1227,3 +1227,4 @@ export const COMBAT = {
  * walks home and heals.
  */
 /**
+ * `pack`: every ordinary pack comes out this much larger than its list (rounded up); the owner asked for
