@@ -207,3 +207,4 @@ export class Lair {
     const g = this.g
     const p = g.player
     this.phase = n
+    // each new phase gives her a breath (v1)
