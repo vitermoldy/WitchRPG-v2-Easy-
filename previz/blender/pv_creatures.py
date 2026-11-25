@@ -1029,3 +1029,4 @@ def b_samael(r):
         feather_wing(t, (0.1 * s, J["back"][1], J["z"]["chest"] - 0.2), s, 2.6, 1.3, raise_deg=-20, sweep_deg=30, feathers=8, tip_mat="accent", arm="membrane")
     hd = r.parts["hand_R"]
     W, d = J["wr_R"], J["hand_dir_R"]
+    top = W + d * 1.4
