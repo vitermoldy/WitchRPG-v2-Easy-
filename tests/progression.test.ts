@@ -63,3 +63,4 @@ describe('Umbra Rite chance', () => {
     expect(riteChance('ksatria', 5, 6, 15)).toBe(0.58)
   })
   it('clamps between 10% and 90%', () => {
+    expect(riteChance('marsekal', 1, 20, 5)).toBe(0.1)
