@@ -222,3 +222,4 @@ export class WorldMap {
         const h = heightMap(mx, my)
         let r = 0
         let gg = 0
+        let b = 0
