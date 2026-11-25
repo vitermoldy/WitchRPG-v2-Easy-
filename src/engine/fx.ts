@@ -347,3 +347,4 @@ export class Warnings {
       fill.renderOrder = edge.renderOrder = 8
       group.add(fill, edge)
       group.visible = false
+      scene.add(group)
