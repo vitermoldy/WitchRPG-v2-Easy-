@@ -194,3 +194,4 @@ export class Camps {
   /** Puts every awake pack back to sleep (she fell); cleared camps stay cleared. */
   sleepAll() {
     for (const camp of this.camps) {
+      if (camp.state !== 'active') continue
