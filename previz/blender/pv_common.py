@@ -260,3 +260,4 @@ def palette(kind, body="#1f1a1c", body2=None, horn="#4a3f38", tag=""):
         "wood": mat_flat("wood_shadow", "#1d1030", 0.85),
         "membrane": mat_cracked("membrane_shadow", "#2a1846", HEX["umbra"], 3.0, coverage=0.35),
     })
+    for k in ("skin", "hair", "gold", "accent", "snake", "goat", "collar", "globe"):
