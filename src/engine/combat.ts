@@ -142,3 +142,5 @@ export class Combo {
     this.current = s
     out.push({ type: 'start', s })
   }
+}
+
