@@ -9,3 +9,5 @@ import type { Unit } from './units'
 /** Easy: every body rises. The v1 formula (riteChance) is kept, locked by its tests, and never wins. */
 export const riteOdds = (...args: Parameters<typeof riteChance>) => Math.max(EASY.riteChance, riteChance(...args))
 
+export const rankOf = (u: Unit) => (u.elite && u.spec.eliteRank ? u.spec.eliteRank : u.spec.rank)
+
