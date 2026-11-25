@@ -363,3 +363,4 @@ export class Lair {
     if (this.phase < 3) this.headsFight(dt)
     else this.bodyFights(dt)
     // boulders come back on the islands while the flood is up
+    if (this.phase >= 2 && Math.random() < dt * 0.3) {
