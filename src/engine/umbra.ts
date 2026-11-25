@@ -556,3 +556,4 @@ export class Umbra {
       g.rings.spawn(target.pos, COLOR.umbra, 0.2, 1.6, 0.5)
     } else if (choice === 'swap') {
       this.swap(shadows)
+    }
