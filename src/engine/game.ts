@@ -1129,3 +1129,4 @@ export class Game implements UnitHost {
       calls: info.render.calls,
       triangles: info.render.triangles,
       t: this.t,
+      zone: ZONES[this.atmosphere.zone].name,
