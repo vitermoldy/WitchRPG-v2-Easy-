@@ -708,3 +708,4 @@ export class Game implements UnitHost {
     const p = this.player
     this.camps.sleepAll()
     if (this.lair.state === 'fight') this.lair.reset()
+    this.umbra.dismiss(true)
