@@ -739,3 +739,4 @@ export class UnitSystem {
       }
       case 'windup': {
         u.vel.multiplyScalar(Math.max(0, 1 - dt * 10))
+        if (atk.strike === 'ring' && atk.ahead === undefined) {
