@@ -371,3 +371,4 @@ export class Warnings {
       ;(w.fill.material as THREE.MeshBasicMaterial).opacity = 0.18 + 0.12 * k
       ;(w.edge.material as THREE.MeshBasicMaterial).opacity = 0.55 + 0.35 * Math.sin(w.t * 20)
       if (k >= 1) w.group.visible = false
+    }
