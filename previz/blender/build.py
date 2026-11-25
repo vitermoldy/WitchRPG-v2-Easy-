@@ -33,3 +33,4 @@ OUT = C.PREVIZ
 RENDERS = os.path.join(OUT, "renders")
 TMP = os.path.join(OUT, "frames")
 os.makedirs(RENDERS, exist_ok=True)
+os.makedirs(TMP, exist_ok=True)
