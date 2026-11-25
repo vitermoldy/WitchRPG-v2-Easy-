@@ -50,3 +50,4 @@ describe('creature attacks', () => {
     expect(started).toBeGreaterThan(0)
     expect(w.log.strikes.length).toBeGreaterThan(0)
     const lag = w.log.strikes[0].t - started
+    expect(lag).toBeCloseTo(UNITS.imp.windup + (UNITS.imp.lungeTime ?? 0), 1)
