@@ -191,3 +191,4 @@ export class Camps {
     }
   }
 
+  /** Puts every awake pack back to sleep (she fell); cleared camps stay cleared. */
