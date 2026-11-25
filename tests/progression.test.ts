@@ -17,3 +17,4 @@ import {
   shadowPower,
   spendStat,
   unitStats,
+  xpForKill,
