@@ -774,3 +774,4 @@ def _demon(r, H, bulk, female, span, horn_kind, arm_pose):
     return J
 
 
+def b_succubus(r):
