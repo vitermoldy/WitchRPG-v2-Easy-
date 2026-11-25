@@ -100,3 +100,5 @@ Dihitung oleh `build.py` dari dunia previz (medan 1.300 × 1.300 m, titik tiap 2
 
 Total 13.647 pohon dan sekitar 4,0 juta segitiga pohon untuk seluruh peta. Itu terlalu banyak untuk digambar sekaligus di Three.js; sasaran Fase 1: pohon per chunk dengan culling, LOD dua tingkat (model penuh sampai sekitar 120 m, siluet sederhana sampai jarak kabut), dan tajuk birch serta pohon rawa dipangkas ke separuhnya. Rumput dan pakis di game hanya muncul dalam radius kecil di sekitar Ilyra. Anggaran model dari prompt tetap: mob ≤ 8.000, boss ≤ 30.000, Ilyra ≤ 20.000 segitiga, satu sampai tiga material, rig ≤ 40 tulang atau bagian bernama.
 
+## Palet
+
