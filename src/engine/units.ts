@@ -316,3 +316,4 @@ export class UnitSystem {
     return n
   }
 
+  /** Damage to a unit. Returns true when it died from it. */
