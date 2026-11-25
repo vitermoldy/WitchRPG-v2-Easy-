@@ -186,3 +186,4 @@ Tiga pertanyaan pemilik dari fase 4 (ritme, kabut Lembah Bara, warna mata musuh)
 | Bar boss | Bar besar dengan nama, level, fase, dan cara melawannya per fase | Pemain perlu tahu jawaban tiap fase sebelum kalah olehnya. |
 | Anggaran segitiga | Cyclops 7.464 (diekspor dengan `--ratio`), Succubus 5.892, Incubus 6.732, Phoenix 3.006, Hydra 15.482 (anggaran boss). Versi kerumunan 654 sampai 3.358 | Aturan prompt. |
 | Imp dari hantaman | Imp hanya muncul di tanah yang bisa diinjak di dalam sarang | Bot tanpa pasukan menemukan Imp yang jatuh ke air dalam: tidak bisa keluar dan tidak bisa dipukul, jadi bot terus mengejarnya. |
+| Batu di pulau | Massa 120 (setara makhluk). Dengan rumus benturan v1 satu lemparan penuh memberi 74 sebelum bonus Hex, 111 di kulit berlendir | Massa awal 260 membuat enam batu menghabiskan fase 2 dalam 11 detik. |
