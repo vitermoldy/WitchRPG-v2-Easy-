@@ -31,3 +31,4 @@ describe('XP curve from the GDD', () => {
     expect(xpToNext(9)).toBe(2160)
   })
   it('rounds to tens', () => {
+    for (let n = 1; n < 30; n++) expect(xpToNext(n) % 10).toBe(0)
