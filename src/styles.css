@@ -948,3 +948,4 @@ button {
 /* labels stay above the cooldown shade so they read at every moment of the cooldown */
 .skill > kbd,
 .skill > span {
+  position: relative;
