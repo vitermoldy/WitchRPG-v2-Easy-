@@ -403,3 +403,4 @@ export class WorldMap {
     const p = g.player
     const [x, y] = at(p.pos.x, p.pos.z)
     const s = Math.max(7, size / 60)
+    ctx.save()
