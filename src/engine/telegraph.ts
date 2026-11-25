@@ -28,3 +28,5 @@ const RING_FRAG = /* glsl */ `
     float a = edge + fill + front;
     gl_FragColor = vec4(uColor * a, a);
   }
+`
+
