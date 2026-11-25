@@ -45,3 +45,4 @@ def build(dunia, res=(1280, 720), samples=24):
     f = (H - Sp).normalized()
     left = Vector((0, 0, 1)).cross(f)
     A = Sp - f * 9.0
+    sd = S.sun_dir(f, 12, 3.5)
