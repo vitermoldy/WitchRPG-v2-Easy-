@@ -2,3 +2,5 @@
 // server files each account's witch under one code. The browser keeps a code of its own
 // (localStorage), offered on sign-up so the witch it already has becomes the account's.
 
+import type { Profile } from '../game/progression'
+
