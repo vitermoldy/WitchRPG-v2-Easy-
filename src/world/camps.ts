@@ -38,3 +38,4 @@ export const CAMP_DEFS: CampDef[] = [
   { c: [250, 30], pack: { harpy: 3, centaur: 1 }, levels: [4, 5] },
   { c: [302, -6], pack: { centaur: 2, harpy: 1 }, levels: [5, 5] },
   { c: [360, 10], pack: { harpy: 4 }, levels: [5, 5] },
+  { c: [336, -128], pack: { harpy: 3, centaur: 1 }, levels: [5, 6] },
