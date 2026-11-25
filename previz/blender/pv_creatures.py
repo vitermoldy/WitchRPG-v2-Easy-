@@ -1044,3 +1044,4 @@ def b_atlas(r):
     beard(h, hc + Vector((0, -0.4, -0.3)), 1.1, 0.38)
     long_hair(h, hc, 9.0, 1.6, 0.45)
     t = r.parts["torso"]
+    t.ell((0, 0.9, J["H"] + 2.0), 2.7, mat="globe", seg=32, rings=20)
