@@ -170,3 +170,4 @@ async function boot() {
     else if (code === 'KeyM') openMenu(map)
     else if (code === 'KeyF' && game.altars.near() && !game.fight.executable()) openMenu(travel)
   }
+  $('btn-resume').addEventListener('click', async () => {
