@@ -54,3 +54,4 @@ Action-RPG third-person dengan rasa God of War di hutan terbuka, memakai sistem 
 | Batas medan | Lereng di atas 1,0 (45°) tidak bisa didaki; air lebih dalam dari 0,9 m tidak bisa dimasuki; tepi area main 470 m dari pusat | Tebing Berangin dan Danau Hitam menjadi batas alami, bukan dinding tak terlihat. |
 | Tanjakan Tebing Berangin | Jalan setapak ke dataran tinggi menjadi tanjakan sekitar 40 m dalam 110 m, tanpa derau tepi tebing | Bot uji pertama macet karena tepi dataran tinggi memotong jalan setapak dengan tebing tegak. `tests/map.test.ts` kini memeriksa setiap jalan setapak bisa dijalani. |
 | Panjat dan vault (F) | Belum dibuat | Gerbang fase 1 tidak membutuhkannya, dan tanjakan sudah membuka Tebing Berangin. Dibuat saat zona punya rintangan yang perlu dipanjat. |
+| Batu | Tidak ada batu dalam 4 m plus jari-jarinya dari jalan setapak | Batu besar di lereng sisi tanjakan sempat mendorong bot keluar dari jalan ke tebing. |
