@@ -524,3 +524,4 @@ export class Umbra {
         for (const e of g.units.enemies()) {
           const d = e.pos.distanceTo(hit.point)
           if (d < bd) {
+            bd = d
