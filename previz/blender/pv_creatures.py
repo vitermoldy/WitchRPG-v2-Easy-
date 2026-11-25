@@ -373,3 +373,4 @@ def beard(part, chin, length, r, mat="hair"):
 def long_hair(part, hc, H, length, width, mat="hair"):
     k = H / 1.8
     c = V(hc)
+    part.ell(c + Vector((0, 0.015 * k, 0.03 * k)), (0.1 * k, 0.11 * k, 0.11 * k), mat=mat, seg=10, rings=7)
