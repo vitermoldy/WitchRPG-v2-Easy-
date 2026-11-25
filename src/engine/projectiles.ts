@@ -117,3 +117,4 @@ export class Projectiles {
         // an arrow: her capsule, then shadows, then trees and the ground
         let hit = false
         if (p.alive) {
+          const y = Math.min(Math.max(s.pos.y, p.pos.y + 0.2), p.pos.y + 1.7)
