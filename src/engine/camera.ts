@@ -141,3 +141,4 @@ export class CameraRig {
       // the camera spot depends on the angles it is solving for; two passes settle it
       let a = { yaw: this.yaw, pitch: this.pitch }
       for (let i = 0; i < 2; i++) a = this.lockAngles(wanted(pivot, a.yaw, a.pitch, p), target, p.fov)
+      const want = a
