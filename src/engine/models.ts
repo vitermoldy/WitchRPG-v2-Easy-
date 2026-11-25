@@ -80,3 +80,5 @@ const SWINGS = [
   { back: { torso: 42, armX: -75, armY: 55, fore: -45 }, through: { torso: -48, armX: -80, armY: -75, fore: -5 } },
   // rising diagonal finisher, a step further in
   { back: { torso: -50, armX: -10, armY: -40, fore: -20 }, through: { torso: 35, armX: -165, armY: 30, fore: -10 } },
+]
+
