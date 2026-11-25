@@ -571,3 +571,4 @@ def b_centaur(r):
     for k in range(3):
         b.cone((0.28 + 0.03 * k, 0.6 + 0.02 * k, 1.9), (0.3 + 0.03 * k, 0.66 + 0.02 * k, 2.05), 0.015, mat="horn", seg=4)
     for s in (1, -1):
+        for y in (-0.62, 0.62):
