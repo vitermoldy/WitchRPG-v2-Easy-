@@ -149,3 +149,4 @@ export class CameraRig {
     return this.place(dt, pivot, p, obstacles, height)
   }
 
+  place(dt: number, pivot: Vec, p: CamParams, obstacles: Obstacles | null, height: HeightFn): CamPose {
