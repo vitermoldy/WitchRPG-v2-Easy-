@@ -844,3 +844,4 @@ class Rig implements Poser {
       part.chain = fresh.chain
       part.geo = fresh.geo
       part.mesh = fresh.mesh
+      part.glow = fresh.glow
