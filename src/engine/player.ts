@@ -242,3 +242,4 @@ export class Player {
     this.vz += gz * k
     this.moveAxis(this.vx * dt, 0, g, true)
     this.moveAxis(0, this.vz * dt, g, true)
+    g.obstacles?.pushOut(this.pos, MOVE.radius, MOVE.height)
