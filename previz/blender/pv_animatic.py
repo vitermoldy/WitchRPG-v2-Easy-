@@ -23,3 +23,6 @@ def ease(t):
 
 
 def seg(t, a, b):
+    return ease((t - a) / (b - a))
+
+
