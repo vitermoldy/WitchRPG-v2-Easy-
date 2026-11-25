@@ -31,3 +31,4 @@ export class Obstacles {
     return (ix + 2048) * 4096 + (iz + 2048)
   }
 
+  add(s: Shape) {
