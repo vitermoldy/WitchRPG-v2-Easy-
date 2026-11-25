@@ -161,3 +161,4 @@ def mat_tone(name, top, bottom=None, rough=0.7, metal=0.0, emit=None, emit_stren
     vr.inputs["To Max"].default_value = 1.0 + vary * 0.5
     L.new(noi.outputs["Fac"], vr.inputs["Value"])
     hsv = N.new("ShaderNodeHueSaturation")
+    L.new(mix.outputs["Result"], hsv.inputs["Color"])
