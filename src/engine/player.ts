@@ -265,3 +265,4 @@ export class Player {
     if (g.blocked(nx, nz, this.pos.x, this.pos.z, air)) return
     if (air) {
       this.pos.x = nx
+      this.pos.z = nz
