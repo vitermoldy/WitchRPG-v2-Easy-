@@ -6,3 +6,5 @@ import { Obstacles } from '../src/engine/obstacles'
 import { UnitSystem, type Foe, type UnitHost } from '../src/engine/units'
 import { hydraShare } from '../src/world/lair'
 import { toWorld } from '../src/world/map'
+import { Seal } from '../src/world/seal'
+
