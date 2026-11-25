@@ -317,3 +317,4 @@ export class Rings {
       const s = r.r0 + (r.r1 - r.r0) * e
       r.mesh.scale.setScalar(Math.max(0.01, s))
       ;(r.mesh.material as THREE.MeshBasicMaterial).opacity = (1 - k) * 0.9
+      if (k >= 1) r.mesh.visible = false
