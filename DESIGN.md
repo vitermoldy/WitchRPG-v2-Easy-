@@ -43,3 +43,4 @@ Action-RPG third-person dengan rasa God of War di hutan terbuka, memakai sistem 
 
 ## Fase 1: fondasi (24 Nov 2026)
 
+| Bagian | Keputusan | Alasan |
