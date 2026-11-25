@@ -113,3 +113,4 @@ class Staff {
       this.prev.copy(this.pos)
       this.pos.addScaledVector(this.vel, dt)
       const step = this.pos.distanceTo(this.prev)
+      this.travelled += step
