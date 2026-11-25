@@ -305,3 +305,4 @@ export class IlyraModel {
       staffX = mix(staffX, 165, weight)
       staffZ = mix(staffZ, 0, weight)
       if (sw.heavy) {
+        // both hands on the staff, and a deep bend into the slam
