@@ -838,3 +838,4 @@ export class Game implements UnitHost {
     if (this.state === 'playing') {
       this.frames[this.frameCount % FRAME_SAMPLES] = now - this.lastFrame
       this.frameCount++
+      const ts = performance.now()
