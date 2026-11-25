@@ -159,3 +159,4 @@ export class IlyraModel {
   /** A copy of the staff for the throw (shares its geometry and materials). */
   staffCopy(): THREE.Object3D | null {
     const s = this.parts['staff']
+    if (!s) return null
