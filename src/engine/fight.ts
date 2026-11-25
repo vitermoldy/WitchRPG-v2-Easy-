@@ -141,3 +141,4 @@ class Staff {
         this.vel.y -= 30 * dt
         this.vel.multiplyScalar(Math.max(0, 1 - dt * 2))
       }
+      if (this.state === 'flying') this.orient(this.vel, true)
