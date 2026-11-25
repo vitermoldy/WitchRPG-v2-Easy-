@@ -369,3 +369,5 @@ export class IlyraModel {
       this.rot('head', -18 * act.hurt)
       armLZ += 20 * act.hurt
       armRZ -= 20 * act.hurt
+    }
+
