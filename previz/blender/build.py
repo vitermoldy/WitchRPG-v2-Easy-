@@ -54,3 +54,4 @@ for key in ["ilyra"] + [r[0] for r in K.ROSTER]:
     coll = C.collection(f"CR_{key}", root)
     r = K.build(key, coll)
     K.ground_rig(r)
+    lo, hi = C.bounds(coll, skip=("staff",))
