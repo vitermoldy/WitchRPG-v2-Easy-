@@ -57,3 +57,4 @@ export class StunMeter {
 }
 
 export interface SwingState {
+  swing: Swing
