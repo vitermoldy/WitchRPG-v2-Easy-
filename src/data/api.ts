@@ -46,3 +46,4 @@ export interface Account {
 /** checking: asking the server. unavailable: the server or MySQL cannot be reached. */
 export type AuthStatus = 'checking' | 'signed-in' | 'signed-out' | 'unavailable'
 export interface AuthState {
+  status: AuthStatus
