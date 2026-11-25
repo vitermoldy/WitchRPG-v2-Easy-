@@ -158,3 +158,4 @@ def export(key):
     r.root.name = key
     for name, ob in r.objs.items():
         ob.name = name
+        bake_tones(ob)
