@@ -216,3 +216,4 @@ export function scatter(size = 1260, step = 4, seed = 3): Tree[] {
 export function addColliders(trees: Tree[], obs: Obstacles) {
   for (const t of trees) {
     const s = SHAPE[t.kind]
+    if (t.kind === 'rock' || t.kind === 'rock_big') {
