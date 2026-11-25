@@ -116,3 +116,4 @@ export class WorldMap {
 
   // ------------------------------------------------------------ what the lists hold
 
+  /** Every boss of the valley: the Hydra, the mini-bosses of Rawa and the bosses of the open world. */
