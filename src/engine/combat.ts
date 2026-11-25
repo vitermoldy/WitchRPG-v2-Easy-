@@ -84,3 +84,4 @@ export class Combo {
   }
 
   /** Recovery can be cancelled into a roll; the windup and the blow cannot. */
+  get cancellable() {
