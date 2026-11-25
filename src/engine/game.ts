@@ -134,3 +134,4 @@ export class Game implements UnitHost {
   private readonly frames = new Float32Array(FRAME_SAMPLES)
   private frameCount = 0
   private minClearance = Infinity
+  private readonly v = new THREE.Vector3()
