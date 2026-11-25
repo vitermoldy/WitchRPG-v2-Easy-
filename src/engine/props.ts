@@ -75,3 +75,4 @@ export class Props {
     const g = this.g
     for (const p of this.list) {
       if (p.held) continue
+      const ground = g.height(p.pos.x, p.pos.z) + p.radius * 0.8
