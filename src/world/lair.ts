@@ -215,3 +215,4 @@ export class Lair {
     if (n === 2) {
       this.floodTo = 1
       g.hud.banner('Air naik', 'kulitnya berlendir: bolt hanya 10%, batu yang dilempar 150%')
+      g.hud.message('Fase 2: pulau batu muncul dari air, dan batunya bisa diangkat dengan Telekinesis (bidik, tahan klik kiri).', 'chaos')
