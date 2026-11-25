@@ -995,3 +995,4 @@ export type EliteTrait = 'berlapis' | 'gesit' | 'meledak' | 'penjaga'
 export const ELITE = {
   traits: ['berlapis', 'gesit', 'meledak', 'penjaga'] as EliteTrait[],
   label: { berlapis: 'Berlapis', gesit: 'Gesit', meledak: 'Meledak', penjaga: 'Penjaga' } as Record<EliteTrait, string>,
+  hp: 2.4,
