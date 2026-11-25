@@ -683,3 +683,4 @@ def sky_world(name, zenith, horizon, ground, strength=1.0, haze=None, haze_densi
         pw = N.new("ShaderNodeMath")
         pw.operation = "POWER"
         pw.inputs[1].default_value = glow_power
+        L.new(clamp.outputs[0], pw.inputs[0])
