@@ -330,3 +330,6 @@ def build_minotaur(dunia):
     C.point(local, "cahaya.jejak", tuple(pts[7]), HEX["chaos"], energy=60, radius=0.3)
     cam = place_game_camera(sc, P, (mp - Vector((P[0], P[1], 0))).normalized(), "normal", name="kamera.04", **CAM_FINAL_OVER)
     lock_on(cam, Vector((mp.x, mp.y, Wd.ground_z(mp.x, mp.y) + 2.2)))
+    return sc
+
+
