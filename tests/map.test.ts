@@ -48,3 +48,4 @@ describe('the forest valley', () => {
   })
 
   it('keeps every camp inside its zone and the zone level band (three levels per tier, as in v1)', () => {
+    for (const camp of CAMP_DEFS.filter((c) => !c.boss)) {
