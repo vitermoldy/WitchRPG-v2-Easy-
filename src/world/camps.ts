@@ -136,3 +136,4 @@ export class Camps {
     const m = new THREE.Matrix4()
     const q = new THREE.Quaternion()
     const s = new THREE.Vector3()
+    let i = 0
