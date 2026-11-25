@@ -95,3 +95,4 @@ Dihitung oleh `build.py` dari dunia previz (medan 1.300 × 1.300 m, titik tiap 2
 | Pohon mati | 772 | 288 | 222.336 |
 | Pohon terbakar | 471 | 288 | 135.648 |
 | Batu kecil dan besar | 1.670 | 20 | 33.400 |
+| Rumput (hanya di sekitar lokasi shot) | 9.953 | 48 | 477.744 |
