@@ -69,3 +69,4 @@ export function cleanProfile(p, now = Date.now()) {
     stats[k] = int(p.stats?.[k], 1, 999)
     if (stats[k] === null) return { error: `Stat ${k} di luar batas.` }
   }
+  const upgrades = Object.keys(p.upgrades ?? {}).filter((k) => p.upgrades[k] === true && SKILLS.has(k))
