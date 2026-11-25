@@ -107,3 +107,4 @@ describe('upgrades and shadows', () => {
     expect(buyUpgrade(p, 'general')).toBe(false)
     expect(buyUpgrade(p, 'marshal')).toBe(false)
   })
+  it('keeps raising without a slot limit', () => {
