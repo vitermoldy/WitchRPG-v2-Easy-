@@ -33,3 +33,4 @@ const wrap = (a: number) => Math.atan2(Math.sin(a), Math.cos(a))
  * window in which nothing can hit her. Her yaw uses the camera convention (0 faces north, -z).
  */
 export class Player {
+  readonly pos = { x: 0, y: 0, z: 0 }
