@@ -439,3 +439,4 @@ export class ShadowPools {
       })
       const mesh = new THREE.Mesh(geo, mat)
       mesh.visible = false
+      mesh.renderOrder = 6
