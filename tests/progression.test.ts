@@ -36,3 +36,4 @@ describe('XP curve from the GDD', () => {
   it('gives 10 XP per enemy level and 15 for a boss', () => {
     expect(xpForKill(1)).toBe(10)
     expect(xpForKill(3)).toBe(30)
+    expect(xpForKill(4, true)).toBe(60)
