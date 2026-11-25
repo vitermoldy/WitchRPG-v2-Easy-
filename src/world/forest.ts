@@ -204,3 +204,4 @@ export function scatter(size = 1260, step = 4, seed = 3): Tree[] {
           kind = k
           break
         }
+      }
