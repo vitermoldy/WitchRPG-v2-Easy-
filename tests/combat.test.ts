@@ -82,3 +82,4 @@ describe('staff combo', () => {
       // press again as soon as the swing is over, inside the chain window
       for (let i = 0; i < 120 && c.busy; i++) c.update(1 / 60, false, false, ev)
       for (const e of ev) if (e.type === 'start') starts.push(e.s.index)
+    }
