@@ -34,3 +34,4 @@ export class Altars {
   constructor(g: Game) {
     this.g = g
     this.group.name = 'altars'
+    const baseGeo = new THREE.CylinderGeometry(1.7, 2.1, 0.55, 8)
