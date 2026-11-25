@@ -188,3 +188,4 @@ export class Lair {
       isl.mesh.visible = false
       isl.mesh.position.y = this.groundY - 5
     }
+    g.props.clear()
