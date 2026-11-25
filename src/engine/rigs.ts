@@ -348,3 +348,5 @@ const poseCentaur: PoseFn = (p, u, t) => {
   p.rot('forearm_R', -120 * draw)
   p.rot('torso', 4 - 6 * draw, -25 * draw)
   p.rot('head', -4, -15 * draw)
+}
+
