@@ -853,3 +853,5 @@ class Rig implements Poser {
     if (!o) return
     const r = this.rest.get(o)!
     o.rotation.set(r.x + x * D, r.y + y * D, r.z + z * D)
+  }
+
