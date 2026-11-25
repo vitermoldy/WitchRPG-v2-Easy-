@@ -8,3 +8,4 @@ export const SPHERE = 1
 
 export interface Shape {
   kind: typeof CYL | typeof SPHERE
+  x: number
