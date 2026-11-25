@@ -153,3 +153,4 @@ export const XP = {
   statPointsPerLevel: 3,
   skillPointsPerLevel: 1,
   startStat: 5,
+  maxLevel: 30,
