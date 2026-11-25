@@ -10,3 +10,4 @@ export const COLOR = {
   rift: 0xffa53d,
   bone: 0xefe6df,
   ash: 0x5d5557,
+  skin: 0xd9cdc7,
