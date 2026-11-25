@@ -30,3 +30,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
   let note = ''
 
   const label = (): string => (mode === 'in' ? 'Masuk' : 'Buat akun')
+  function showError(text: string): void {
