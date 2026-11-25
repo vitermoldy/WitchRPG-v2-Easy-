@@ -29,3 +29,4 @@ const FRAG = /* glsl */ `
  * out is always allowed), and a curtain of light stands on every edge between the two.
  */
 export class Seal {
+  readonly mesh: THREE.Mesh
