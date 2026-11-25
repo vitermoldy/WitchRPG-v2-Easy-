@@ -599,3 +599,4 @@ def b_naga(r):
         tips = [root + Vector((s * (0.45 - 0.05 * i), 0.15 + 0.08 * i, 0.4 - 0.18 * i)) for i in range(5)]
         h.poly([root] + tips, mat="membrane")
         for t in tips:
+            h.tube([root, t], [0.02, 0.0], mat="accent", seg=4, n=1)
