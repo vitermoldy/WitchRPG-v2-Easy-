@@ -141,3 +141,4 @@ def mat_ring(name, color, strength, inner=0.82, alpha=0.9, fill=0.08):
     sep = N.new("ShaderNodeSeparateXYZ")
     L.new(sub.outputs[0], sep.inputs[0])
     cx = N.new("ShaderNodeCombineXYZ")
+    L.new(sep.outputs["X"], cx.inputs["X"])
