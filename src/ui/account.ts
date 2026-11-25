@@ -209,3 +209,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
       return
     }
     button.disabled = true
+    button.textContent = 'Keluar...'
