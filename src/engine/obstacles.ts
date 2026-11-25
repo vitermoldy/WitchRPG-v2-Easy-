@@ -177,3 +177,4 @@ function segCylinder(ax: number, ay: number, az: number, dx: number, dy: number,
     h0 = -Infinity
     h1 = Infinity
   } else {
+    const ta = (y0 - ay) / dy
