@@ -186,3 +186,4 @@ describe('phase 4 creatures', () => {
     expect(w.sys.hurt(n, 999, { x: 0, z: 0 })).toBe(false)
     expect(n.hp).toBe(hp)
     w.step(UNITS.naga.dive! + 0.1)
+    expect(n.state).toBe('rising')
