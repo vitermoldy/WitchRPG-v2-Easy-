@@ -153,3 +153,4 @@ def mat_ring(name, color, strength, inner=0.82, alpha=0.9, fill=0.08):
     ramp = N.new("ShaderNodeValToRGB")
     cr = ramp.color_ramp
     cr.elements[0].position = 0.0
+    cr.elements[0].color = (fill, fill, fill, 1)
