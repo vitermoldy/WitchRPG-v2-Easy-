@@ -696,3 +696,4 @@ export class UnitSystem {
       case 'move': {
         const slot = !onPlayer || u.token || this.tokens() < COMBAT.attackers
         if (u.flyer) {
+          // circle above her at a distance, waiting for a dive
