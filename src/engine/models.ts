@@ -244,3 +244,4 @@ export class IlyraModel {
 
     // upper body: the fight overrides the walk's arm swing
     let torsoX = 3 + 9 * sprint + breath * 1.2
+    let torsoY = 4 * s * amp
