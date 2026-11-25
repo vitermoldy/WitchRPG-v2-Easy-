@@ -5,3 +5,4 @@ import { createAuth } from './auth.js'
 /**
  * The API:
  *   GET  /api/health
+ *   /api/auth/...                     register, login, logout, me (see auth.js)
