@@ -14,3 +14,4 @@ export type LairState = 'calm' | 'fight' | 'won'
  * Hydra is her fight.
  */
 export function hydraShare(phase: 1 | 2 | 3, kind: DamageKind, inWarp: boolean): number {
+  const army = kind === 'shadow' ? HYDRA.armyShare : 1
