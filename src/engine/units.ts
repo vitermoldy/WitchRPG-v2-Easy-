@@ -391,3 +391,4 @@ export class UnitSystem {
     this.living.shadow.length = 0
     for (const u of this.units) {
       if (!u.targetable) continue
+      this.living[u.team].push(u)
