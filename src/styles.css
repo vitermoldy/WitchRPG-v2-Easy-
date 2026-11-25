@@ -2010,3 +2010,4 @@ dialog::backdrop {
     align-content: start;
   }
   .controls {
+    grid-template-columns: 1fr;
