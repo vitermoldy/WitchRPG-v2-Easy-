@@ -18,3 +18,4 @@ export interface Ground {
   height: HeightFn
   obstacles: Obstacles | null
   /**
+   * True where she may not step to from (fx, fz): deep water, past the map edge, a seal. `air`: she
