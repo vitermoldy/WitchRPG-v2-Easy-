@@ -201,3 +201,4 @@ export class Camps {
     }
   }
 
+  update(dt: number) {
