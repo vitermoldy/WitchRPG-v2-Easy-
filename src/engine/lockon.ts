@@ -49,3 +49,4 @@ export class LockOn {
 
   toggle(targets: Target[], player: Vec, camYaw: number) {
     if (this.current) {
+      this.current = null
