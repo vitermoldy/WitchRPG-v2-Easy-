@@ -755,3 +755,4 @@ const POSES: Partial<Record<UnitKind, PoseFn>> = {
   hydra: poseHydra,
   imp: poseImp,
   hellhound: poseHound,
+  harpy: poseHarpy,
