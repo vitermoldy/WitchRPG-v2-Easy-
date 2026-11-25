@@ -158,3 +158,4 @@ button {
   font-weight: 500;
   font-size: clamp(2rem, 5vw, 3.2rem);
   letter-spacing: -0.04em;
+  line-height: 1.05;
