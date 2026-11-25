@@ -99,3 +99,4 @@ def build(dunia, res=(1280, 720), samples=24):
     def hydra_z(t):
         return -17.0 + 13.2 * seg(t, T_NAGA + 0.4, T_NAGA + 5.2)
 
+    def hydra_head(t, name="head2"):
