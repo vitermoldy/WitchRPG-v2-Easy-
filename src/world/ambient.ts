@@ -136,3 +136,4 @@ export class Ambient {
       fragmentShader: RIFT_FRAG,
       transparent: true,
       depthWrite: false,
+      fog: false,
