@@ -67,3 +67,4 @@ function pine(h: number, tiers: number, rad: number, needle: THREE.Color): THREE
   return mergeGeometries(parts)
 }
 
+function birch(): THREE.BufferGeometry {
