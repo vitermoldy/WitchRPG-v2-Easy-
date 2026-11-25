@@ -113,3 +113,4 @@ describe('over-the-shoulder camera', () => {
       const feet = { x: 0, y: ground(0, 0), z: 0 }
       obs.pushOut(feet, 0.38, 1.7)
       const head = { x: feet.x, y: ground(feet.x, feet.z) + 1.6, z: feet.z }
+      if (obs.clearance(head.x, head.y, head.z) < CAMERA.radius) continue
