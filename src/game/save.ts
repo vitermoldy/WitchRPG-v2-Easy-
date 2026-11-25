@@ -26,3 +26,4 @@ export function normalizeProfile(data: Partial<Profile> | null | undefined): Pro
   const base = newProfile()
   const profile: Profile = {
     ...base,
+    ...data,
