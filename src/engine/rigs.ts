@@ -1107,3 +1107,4 @@ export class Rigs {
       const i = b.used++
       for (const part of b.parts) part.mesh.setMatrixAt(i, this.m)
     }
+    for (const b of this.crowd.values()) {
