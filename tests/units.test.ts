@@ -8,3 +8,4 @@ import { RING_RADIUS, shieldShare, Unit, UnitSystem, type Foe, type UnitHost } f
 function world(groundHeight = 0) {
   const foe: Foe = { pos: new THREE.Vector3(0, 0, 0), radius: 0.38, alive: true }
   const log = { strikes: [] as { u: Unit; t: number }[], unitStrikes: 0, telegraphs: 0, died: [] as Unit[], fired: [] as string[], summoned: 0 }
+  let time = 0
