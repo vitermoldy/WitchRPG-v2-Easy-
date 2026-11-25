@@ -334,3 +334,4 @@ export class Fight {
     this.staff.update(dt)
 
     if (!p.alive) {
+      this.combo.cancel()
