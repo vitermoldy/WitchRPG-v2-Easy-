@@ -44,3 +44,4 @@ describe('XP curve from the GDD', () => {
     expect(p.level).toBe(1)
     const r = gainXp(p, xpForKill(1), ALL)
     expect(p.level).toBe(2)
+    expect(r.unlocked).toContain('rite')
