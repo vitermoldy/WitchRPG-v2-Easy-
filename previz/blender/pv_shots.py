@@ -593,3 +593,4 @@ def build_board(lib_colls, stats):
             name, role, rank, zone = "Ilyra", "Witch yang dimainkan", "n/a", "Semua zona"
         else:
             row = K.ROSTER_BY_KEY[k]
+            name, role, rank, zone = row[1], row[K.ROLE], row[K.RANK], row[K.ZONE]
