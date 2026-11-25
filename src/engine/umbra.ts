@@ -102,3 +102,4 @@ export class Umbra {
   }
 
   /** Records that could be called right now: not out, not reforming. */
+  ready(): ShadowRecord[] {
