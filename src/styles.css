@@ -1927,3 +1927,4 @@ dialog::backdrop {
 .map-swatch {
   width: 12px;
   height: 12px;
+  border: 1px solid rgba(12, 8, 9, 0.8);
