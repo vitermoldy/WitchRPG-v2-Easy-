@@ -260,3 +260,4 @@ export class Umbra {
     if (this.armyOut) {
       for (const [id, at] of this.downUntil) {
         if (at > this.time) continue
+        this.downUntil.delete(id)
