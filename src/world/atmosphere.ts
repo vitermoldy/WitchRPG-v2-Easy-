@@ -138,3 +138,4 @@ export function water(): THREE.Mesh {
   const mat = new THREE.MeshPhongMaterial({ color: '#06090b', specular: '#3a4a52', shininess: 90 })
   const m = new THREE.Mesh(geo, mat)
   m.position.set((x0 + x1) / 2, WATER_LEVEL, -(y0 + y1) / 2)
+  m.name = 'water'
