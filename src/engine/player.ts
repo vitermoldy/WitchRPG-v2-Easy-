@@ -77,3 +77,4 @@ export class Player {
     // 2 (1 - u) integrates to 1 over the push, like the roll's hard start
     this.nudgeX = ((dx / l) * dist * 2) / time
     this.nudgeZ = ((dz / l) * dist * 2) / time
+    this.nudgeT = time
