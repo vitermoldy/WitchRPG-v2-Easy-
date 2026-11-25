@@ -364,3 +364,4 @@ export class Fight {
     // throw or call back the staff
     if (this.throwT >= 0) {
       const before = this.throwT
+      this.throwT += dt / THROW_TIME
