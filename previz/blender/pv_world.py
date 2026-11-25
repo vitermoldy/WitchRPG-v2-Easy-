@@ -193,3 +193,4 @@ def terrain_material():
     m.use_nodes = True
     nt = m.node_tree
     N, L = nt.nodes, nt.links
+    b = N["Principled BSDF"]
