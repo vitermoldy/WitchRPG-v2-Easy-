@@ -79,3 +79,4 @@ export class Combo {
   private nextIndex = 0
   private chainLeft = 0
 
+  get busy() {
