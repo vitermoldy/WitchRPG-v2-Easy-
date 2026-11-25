@@ -729,3 +729,4 @@ export class Game implements UnitHost {
     const a = this.altars.byKey(key)
     const at = this.altars.standAt(a)
     this.fight.reset()
+    this.umbra.cancel()
