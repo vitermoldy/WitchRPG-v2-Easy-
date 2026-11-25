@@ -165,3 +165,4 @@ async function boot() {
     else void backToFight()
   }
   game.input.onKey = (code) => {
+    if (game.state !== 'playing' || !game.player.alive) return
