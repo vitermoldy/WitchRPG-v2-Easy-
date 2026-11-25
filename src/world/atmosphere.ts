@@ -106,3 +106,4 @@ export class Atmosphere {
       this.fogTarget.b += this.zoneFog[i].b * w
       this.skyTarget.r += this.zoneSky[i].r * w
       this.skyTarget.g += this.zoneSky[i].g * w
+      this.skyTarget.b += this.zoneSky[i].b * w
