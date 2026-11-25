@@ -388,3 +388,4 @@ export class Spells {
     if (this.upgraded('grip')) {
       let second: Unit | null = null
       let sd = 4
+      for (const u of g.units.units) {
