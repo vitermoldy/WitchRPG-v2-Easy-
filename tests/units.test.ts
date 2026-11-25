@@ -26,3 +26,4 @@ function world(groundHeight = 0) {
     died: (u) => log.died.push(u),
     telegraph: () => log.telegraphs++,
     clearTelegraph: () => {},
+  }
