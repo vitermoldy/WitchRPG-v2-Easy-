@@ -165,3 +165,4 @@ export class Ledger {
             }>Pakai 1 poin</button></p>`
           return `<li class="node ${open ? 'open' : 'locked'}">
             <p class="node-name">${s.name}<kbd>${s.key}</kbd></p>
+            <p class="node-meta">${open ? 'Terbuka' : `Lv ${s.unlock}`}</p>
