@@ -491,3 +491,4 @@ def b_imp(r):
         bat_wing(t, (0.04 * s, 0.06, J["z"]["sh"] - 0.02), s, 0.95, 0.55, raise_deg=42, sweep_deg=25, bone="body", arm="body")
     tl = r.P("tail", (0, 0.05, J["z"]["hip"]), "pelvis")
     pts = [(0, 0.05, 0.52), (0, 0.3, 0.4), (0, 0.5, 0.65), (0, 0.48, 1.0), (0, 0.36, 1.32), (0, 0.42, 1.5)]
+    tail_tube(tl, pts, 0.022, 0.007)
