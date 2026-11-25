@@ -143,3 +143,4 @@ def lod_tris(coll):
         if o.type != "MESH":
             continue
         e = o.evaluated_get(deps)
+        me = e.to_mesh()
