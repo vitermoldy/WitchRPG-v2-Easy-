@@ -486,3 +486,4 @@ export class UnitSystem {
       if (u.state === 'held' || u.state === 'finishing') continue
       if (u.state === 'thrown') {
         this.fly(u, dt)
+        continue
