@@ -751,3 +751,4 @@ const POSES: Partial<Record<UnitKind, PoseFn>> = {
   cyclops: biped({ heavy: 1, reach: 1, sway: 2 }),
   succubus: biped({ heavy: 0, reach: 0.6, sway: 8 }),
   incubus: biped({ heavy: 0.3, reach: 0.8, sway: 6 }),
+  phoenix: posePhoenix,
