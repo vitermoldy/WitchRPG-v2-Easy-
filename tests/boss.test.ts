@@ -105,3 +105,4 @@ describe('phase 5 creatures', () => {
     const ph = w.sys.spawn('phoenix', 'enemy', 13, { x: 0, z: 10 })
     w.sys.kill(ph)
     expect(ph.state).toBe('ashes')
+    expect(ph.targetable).toBe(false)
