@@ -33,3 +33,4 @@ export class LockOn {
     let best: Target | null = null
     let score = Infinity
     for (const t of targets) {
+      if (!t.alive) continue
