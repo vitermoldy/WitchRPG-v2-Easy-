@@ -77,3 +77,4 @@ describe('creature attacks', () => {
       most = Math.max(most, busy)
       expect(w.sys.tokens()).toBeLessThanOrEqual(COMBAT.attackers)
     })
+    expect(most).toBeLessThanOrEqual(COMBAT.attackers)
