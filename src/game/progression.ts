@@ -280,3 +280,5 @@ export function addShadow(p: Profile, kind: UnitKind, level: number, rank: RankI
   const rec: ShadowRecord = { id, name: shadowName(id), kind, rank, level: Math.min(level, p.level), xp: 0 }
   p.shadows.push(rec)
   return rec
+}
+
