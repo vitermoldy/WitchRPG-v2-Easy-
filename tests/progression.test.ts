@@ -89,3 +89,4 @@ describe('stats and the shadow army', () => {
     p.statPoints = 1
     expect(spendStat(p, 'hex')).toBe(true)
     expect(p.stats.hex).toBe(6)
+    expect(derive(p.stats).damageMult).toBeCloseTo(1.02)
