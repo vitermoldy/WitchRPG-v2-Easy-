@@ -17,3 +17,4 @@ import {
 } from './balance'
 import { skillById, type SkillId } from './skills'
 
+export type StatKey = 'hex' | 'spr' | 'vit' | 'agi' | 'umb'
