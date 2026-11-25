@@ -142,3 +142,4 @@ export function heightMap(x: number, y: number): number {
   const dt = dist(x, y, t.c)
   let plateau = smooth(edge + 14, edge - 6, dt)
   // where the path climbs onto the plateau the cliff becomes a long ramp (about 40 m up over 80 m)
+  const toPath = Math.min(segDist(x, y, PATHS[2][0], PATHS[2][1]), segDist(x, y, PATHS[2][1], PATHS[2][2]))
