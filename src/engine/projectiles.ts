@@ -143,3 +143,4 @@ export class Projectiles {
       if (s.pos.y <= g.height(s.pos.x, s.pos.z) || (s.vel.y < 0 && s.pos.y <= s.aim.y) || s.life <= 0) {
         const r = ringOf(s.atk)
         // a glob bursts on the ground: high in the air she is out of it
+        const low = p.pos.y - g.height(p.pos.x, p.pos.z) < 2.5
