@@ -161,3 +161,5 @@ export const XP = {
   lateSteep: 0.5,
 } as const
 
+export type RankId = 'prajurit' | 'ksatria' | 'jenderal' | 'marsekal'
+
