@@ -424,3 +424,5 @@ export class Umbra {
     if (!this.casting.length) return
     this.casting = []
     this.progress = 0
+  }
+
