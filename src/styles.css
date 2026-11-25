@@ -771,3 +771,4 @@ button {
 }
 
 .prompt:empty {
+  display: none;
