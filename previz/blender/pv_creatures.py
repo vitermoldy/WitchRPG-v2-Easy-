@@ -797,3 +797,6 @@ def b_griffin(r):
     tl = r.P("tail", Q["tail_base"], "body")
     pts = [Q["tail_base"], (0, 1.75, 1.5), (0, 2.15, 1.0), (0, 2.45, 0.7)]
     tail_tube(tl, pts, 0.07, 0.03)
+    tl.ell(pts[-1], (0.1, 0.2, 0.1), mat="accent")
+
+
