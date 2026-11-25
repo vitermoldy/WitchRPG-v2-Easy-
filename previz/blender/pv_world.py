@@ -522,3 +522,4 @@ def fog_material(z):
     m = bpy.data.materials.get(f"fog_{z['key']}") or bpy.data.materials.new(f"fog_{z['key']}")
     m.use_nodes = True
     nt = m.node_tree
+    nt.nodes.clear()
