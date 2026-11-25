@@ -116,3 +116,4 @@ async function boot() {
   game.onPause = () => {
     $('lock-note').hidden = true
     show('pause')
+    $('btn-resume').focus()
