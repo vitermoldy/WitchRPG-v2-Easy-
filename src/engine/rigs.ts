@@ -188,3 +188,5 @@ const poseImp: PoseFn = (p, u, t) => {
   p.rot('head', -6 - 6 * amp)
 }
 
+const HOUND_LIMBS = ['leg_FL', 'leg_FR', 'leg_HL', 'leg_HR', 'tail']
+
