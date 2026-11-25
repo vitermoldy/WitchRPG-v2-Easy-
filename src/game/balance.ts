@@ -9,3 +9,4 @@
 export const EASY = { riteChance: 1 } as const
 
 export const MOVE = {
+  /** Default pace with WASD, and with Shift held. */
