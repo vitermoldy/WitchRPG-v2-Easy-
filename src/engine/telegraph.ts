@@ -20,3 +20,4 @@ const RING_FRAG = /* glsl */ `
   void main() {
     vec2 p = vUv * 2.0 - 1.0;
     float r = length(p);
+    if (r > 1.0) discard;
