@@ -197,3 +197,4 @@ export class Telegraphs {
   }
 
   update(dt: number) {
+    this.time += dt
