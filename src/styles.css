@@ -1861,3 +1861,4 @@ dialog::backdrop {
   display: grid;
   gap: 0.1rem;
   width: 100%;
+  min-height: 44px;
