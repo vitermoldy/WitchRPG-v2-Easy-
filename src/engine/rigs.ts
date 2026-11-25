@@ -1063,3 +1063,5 @@ export class Rigs {
     if (u.state === 'ashes') return u.height * 0.75
     if (u.ash) return Math.min(1, (u.deadT - u.ashAt) / 2) * 0.7
     return 0
+  }
+
