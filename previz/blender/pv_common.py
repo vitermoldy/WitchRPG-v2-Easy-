@@ -375,3 +375,4 @@ class Part:
             f = t - i
             R.append(radii[i] * (1 - f) + radii[i + 1] * f)
         T = []
+        for i in range(len(P)):
