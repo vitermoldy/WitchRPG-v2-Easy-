@@ -361,3 +361,4 @@ def face(part, hc, H, eyes=True, nose=True, mat="skin"):
         part.cone(hc + Vector((0, -0.085 * k, 0.0)), hc + Vector((0, -0.12 * k, -0.025 * k)), 0.018 * k, mat=mat, seg=5)
     part.ell(hc + Vector((0, -0.07 * k, 0.04 * k)), (0.075 * k, 0.025 * k, 0.018 * k), mat=mat, seg=8, rings=4)
     if eyes:
+        for s in (1, -1):
