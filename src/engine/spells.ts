@@ -155,3 +155,4 @@ export class Spells {
     g.scene.add(this.shield)
     for (let i = 0; i < 16; i++) this.tendrilPts.push(new THREE.Vector3())
     this.tendril = new THREE.Line(
+      new THREE.BufferGeometry().setFromPoints(this.tendrilPts),
