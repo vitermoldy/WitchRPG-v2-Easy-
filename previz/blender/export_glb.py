@@ -62,3 +62,6 @@ def tone_of(m):
         links = n.inputs["Value"].links if n.bl_idname == "ShaderNodeMapRange" else ()
         if links and links[0].from_node.bl_idname == "ShaderNodeTexNoise":
             vary = 1.0 - n.inputs["To Min"].default_value
+    return tuple(mix.inputs["B"].default_value[:3]), tuple(mix.inputs["A"].default_value[:3]), vary
+
+
