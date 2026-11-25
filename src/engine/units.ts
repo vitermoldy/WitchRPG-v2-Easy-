@@ -837,3 +837,4 @@ export class UnitSystem {
     }
     // which enemy to fight: the ordered focus, else the nearest one near her
     let tgt: Unit | null = null
+    if (u.command === 'attack' && u.focus && u.focus.targetable) tgt = u.focus
