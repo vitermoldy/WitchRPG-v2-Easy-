@@ -698,3 +698,4 @@ export class UnitSystem {
         if (u.flyer) {
           // circle above her at a distance, waiting for a dive
           const a = Math.atan2(u.pos.x - tgt.pos.x, u.pos.z - tgt.pos.z) + u.flank * 0.7 * dt
+          this.steer(u, tgt.pos.x + Math.sin(a) * 9, tgt.pos.z + Math.cos(a) * 9, speed, dt)
