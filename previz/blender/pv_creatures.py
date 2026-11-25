@@ -384,3 +384,4 @@ def axe(part, W, d, length=1.2, blade=0.55):
     top, bot = W + d * length * 0.72, W - d * length * 0.28
     part.limb(bot, top, 0.032, 0.032, mat="wood", seg=8, joints=False)
     part.cone(top, top + d * 0.18, 0.035, mat="metal", seg=6)
+    # the bits open sideways (along X) so the blades face the camera from the front
