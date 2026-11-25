@@ -389,3 +389,4 @@ export class UnitSystem {
     this.grid.clear()
     this.living.enemy.length = 0
     this.living.shadow.length = 0
+    for (const u of this.units) {
