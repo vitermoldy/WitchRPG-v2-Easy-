@@ -322,3 +322,4 @@ export class IlyraModel {
       const back = ease((e - 0.75) / 0.25)
       const x = mix(mix(armRX, -175, up), -25, down)
       armRX = mix(x, armRX, back)
+      armLX = armRX + 8
