@@ -224,3 +224,4 @@ export class Camps {
             g.saveSoon()
           } else g.hud.message(`Kamp Lv ${camp.def.levels[0]}${camp.def.levels[1] !== camp.def.levels[0] ? ` sampai ${camp.def.levels[1]}` : ''} ditaklukkan. Batu ambernya padam.`, 'info')
           g.sfx.levelUp()
+          g.counts.campsCleared++
