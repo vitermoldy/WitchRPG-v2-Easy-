@@ -373,3 +373,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     anchored: true,
   },
   // Tier IV: hovers out of reach and dives. Telekinesis pulls it down, Chaos Burst knocks it out of the air.
+  harrier: {
