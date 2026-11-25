@@ -51,3 +51,4 @@ export class Hud {
   private readonly wheel = $('wheel')
   private readonly army = $('army-slots')
   private readonly hurtVeil = $('hurt-veil')
+  private readonly cache = new Map<string, string>()
