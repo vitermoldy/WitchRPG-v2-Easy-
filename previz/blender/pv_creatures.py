@@ -471,3 +471,4 @@ def b_ilyra(r, pose="idle"):
 # ---------------------------------------------------------------- roster
 
 def b_imp(r):
+    """Skinny pale imp: bald head, long pointed ears, big pink bat wings, whip tail with a spade."""
