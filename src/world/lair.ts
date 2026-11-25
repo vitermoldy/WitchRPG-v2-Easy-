@@ -430,3 +430,4 @@ export class Lair {
     const k = Math.min(HYDRA.slamReach, Math.max(HYDRA.slamNear, d)) / d
     if (k === 1) return
     at.x = b.pos.x + dx * k
+    at.z = b.pos.z + dz * k
