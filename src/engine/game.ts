@@ -241,3 +241,4 @@ export class Game implements UnitHost {
     if (!p.alive || this.hurtGrace > 0) return
     const strike = atk.strike
     const angle = wrap(yawTo(p.pos.x, p.pos.z, u.pos.x, u.pos.z) - p.facing)
+    const res = resolveDefense(this.t, strike, p.invulnerable || this.fight.invulnerable, this.fight.blocking, this.fight.blockPressedAt, angle)
