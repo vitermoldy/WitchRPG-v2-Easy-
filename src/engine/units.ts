@@ -773,3 +773,4 @@ export class UnitSystem {
           if (atk.strike === 'ring') {
             if (u.t >= lt) {
               u.hitDone = true
+              // the blow lands on the circle; whoever still stands inside it is hit
