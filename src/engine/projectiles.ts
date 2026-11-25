@@ -18,3 +18,5 @@ interface Shot {
   mesh: THREE.Mesh
   /** Turned back by Reality Warp: it now flies at the creature that shot it. */
   reflected: boolean
+}
+
