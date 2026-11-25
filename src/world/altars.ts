@@ -35,3 +35,4 @@ export class Altars {
     this.g = g
     this.group.name = 'altars'
     const baseGeo = new THREE.CylinderGeometry(1.7, 2.1, 0.55, 8)
+    const stoneGeo = new THREE.BoxGeometry(0.5, 2.2, 0.35)
