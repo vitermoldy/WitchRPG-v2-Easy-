@@ -356,3 +356,4 @@ export class Fight {
     if (inp.execute) {
       const u = this.executable()
       if (u) {
+        this.startExecution(u)
