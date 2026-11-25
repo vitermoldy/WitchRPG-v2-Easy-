@@ -210,3 +210,6 @@ class Pal(dict):
     """Material set; a slot nobody coloured falls back to the body material."""
 
     def __missing__(self, k):
+        return dict.__getitem__(self, "body")
+
+
