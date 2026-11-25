@@ -303,3 +303,4 @@ def build_minotaur(dunia):
     mp = fr(4.6, 0.4)
     mino = actor("aktor.minotaur.windup", "minotaur", "windup")
     face_m = (Vector((P[0], P[1], 0)) - mp).normalized()
+    place(mino, local, mp.x, mp.y, face_m)
