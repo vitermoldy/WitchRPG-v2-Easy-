@@ -137,3 +137,4 @@ describe('thrown bodies', () => {
   it('a crate thrown at full speed hurts less than a car', () => {
     const c = SPELL.impact
     const crate = impactDamage(30, SPELL.grip.throwSpeed, c.coefficient, c.exponent)
+    const car = impactDamage(450, SPELL.grip.heavyThrowSpeed, c.coefficient, c.exponent)
