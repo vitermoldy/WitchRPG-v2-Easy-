@@ -843,3 +843,4 @@ button {
 
 .bar i {
   position: absolute;
+  inset: 0;
