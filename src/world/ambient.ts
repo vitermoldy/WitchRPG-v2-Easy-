@@ -123,3 +123,4 @@ export class Ambient {
       depthWrite: false,
       blending: THREE.AdditiveBlending,
     })
+    this.points = new THREE.Points(geo, mat)
