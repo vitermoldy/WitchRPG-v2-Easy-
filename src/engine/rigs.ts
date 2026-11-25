@@ -771,3 +771,4 @@ const POSES: Partial<Record<UnitKind, PoseFn>> = {
 class Rig implements Poser {
   readonly parts: Part[] = []
   private readonly holder = new THREE.Group()
+  private readonly named = new Map<string, THREE.Object3D>()
