@@ -361,3 +361,4 @@ const poseNaga: PoseFn = (p, u, t) => {
     p.rot('head', -35 * k + Math.sin(t * 40) * 2 * k)
     return
   }
+  if (u.state === 'strike' || (u.state === 'recover' && u.t < 0.2)) {
