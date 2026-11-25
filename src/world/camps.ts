@@ -98,3 +98,5 @@ export interface Camp {
   roused: boolean
 }
 
+const STONES = 7
+
