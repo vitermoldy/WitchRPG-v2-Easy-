@@ -34,3 +34,4 @@ export function normalizeProfile(data: Partial<Profile> | null | undefined): Pro
     shadows: Array.isArray(data.shadows) ? data.shadows : [],
     world: {
       altars: Array.isArray(data.world?.altars) && data.world.altars.length ? [...new Set(data.world.altars.filter((a) => typeof a === 'string'))] : [...base.world.altars],
+      last: typeof data.world?.last === 'string' ? data.world.last : base.world.last,
