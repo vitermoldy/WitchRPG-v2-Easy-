@@ -47,3 +47,4 @@ export class LockOn {
     return best
   }
 
+  toggle(targets: Target[], player: Vec, camYaw: number) {
