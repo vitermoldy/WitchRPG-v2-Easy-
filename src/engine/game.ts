@@ -298,3 +298,4 @@ export class Game implements UnitHost {
   fx(u: Unit, what: 'blink' | 'ashes' | 'reborn', from?: THREE.Vector3) {
     if (what === 'blink') {
       if (Math.hypot(u.pos.x - this.player.pos.x, u.pos.z - this.player.pos.z) < 40) this.sfx.blink()
+      for (const at of [from ?? u.pos, u.pos]) {
