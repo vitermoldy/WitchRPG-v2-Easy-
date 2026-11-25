@@ -133,3 +133,4 @@ describe('over-the-shoulder camera', () => {
     const f = pose.dir
     const right = rightOf(rig.yaw)
     const up = { x: -f.x * f.y, y: 1 - f.y * f.y, z: -f.z * f.y }
+    const ul = Math.hypot(up.x, up.y, up.z)
