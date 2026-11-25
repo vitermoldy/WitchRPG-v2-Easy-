@@ -687,3 +687,4 @@ export class UnitSystem {
     const dist = Math.hypot(tgt.pos.x - u.pos.x, tgt.pos.z - u.pos.z)
     const spec = u.spec
     const atk = u.atk
+    if (spec.blink && u.blinkCd <= 0 && dist < 4 && (u.state === 'move' || u.state === 'recover')) {
