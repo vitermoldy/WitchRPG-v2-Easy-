@@ -20,3 +20,4 @@ const stoneMat = new THREE.MeshStandardMaterial({ color: 0x4a4448, roughness: 0.
 
 /**
  * Altars of the valley. Walking up to one lights it: from then on she rises there after a fall, it
+ * heals her while she stands at it, and F there opens fast travel to every other lit altar and the
