@@ -285,3 +285,4 @@ export class Lair {
     return base
   }
 
+  /**
