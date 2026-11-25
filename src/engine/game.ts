@@ -426,3 +426,4 @@ export class Game implements UnitHost {
     progress('Memanggil Ilyra dan makhluk hutan')
     const [ilyra, ...creatures] = await Promise.all([
       loadModel('./models/ilyra.glb'),
+      ...V2_KINDS.map((k) => loadModel(`./models/${k}.glb`)),
