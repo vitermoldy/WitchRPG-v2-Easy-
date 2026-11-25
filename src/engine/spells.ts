@@ -154,3 +154,4 @@ export class Spells {
     this.shield.renderOrder = 12
     g.scene.add(this.shield)
     for (let i = 0; i < 16; i++) this.tendrilPts.push(new THREE.Vector3())
+    this.tendril = new THREE.Line(
