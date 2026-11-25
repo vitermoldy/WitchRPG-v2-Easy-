@@ -516,3 +516,4 @@ export class Lair {
       if (her) body.aimAt.lerp(her, Math.min(1, dt * 1.2))
       if (body.t >= slam.windup) body.set('strike')
     } else if (body.state === 'strike' && body.t >= 0.3) {
+      this.land(body, slam)
