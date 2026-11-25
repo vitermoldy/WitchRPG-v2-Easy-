@@ -67,3 +67,4 @@ def build(dunia, res=(1280, 720), samples=24):
     rp = reticle.P("m")
     for k in range(4):
         a = math.pi / 4 + k * math.pi / 2
+        c = Vector((math.cos(a), math.sin(a), 0)) * 0.55
