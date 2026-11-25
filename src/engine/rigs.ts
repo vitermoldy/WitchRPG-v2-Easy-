@@ -495,3 +495,4 @@ const poseChimera: PoseFn = (p, u, t) => {
   p.rot('tail_snake', -20 + 10 * Math.sin(t * 2.4), 20 * Math.sin(t * 1.9 + u.id))
   p.rot('head_lion', 4 * Math.sin(t * 2.2), 6 * Math.sin(t * 1.3))
   p.rot('head_goat', 3 * Math.sin(t * 2.6 + 1))
+  const name = u.atk.name
