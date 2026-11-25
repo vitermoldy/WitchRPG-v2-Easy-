@@ -33,3 +33,5 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
   function showError(text: string): void {
     error.textContent = text
     error.hidden = !text
+  }
+
