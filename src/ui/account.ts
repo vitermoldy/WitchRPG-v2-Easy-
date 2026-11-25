@@ -15,3 +15,4 @@ export interface AccountHooks {
 
 export function mountAccount(game: Game, hooks: AccountHooks): void {
   const gate = $<HTMLDialogElement>('auth-gate')
+  const form = $<HTMLFormElement>('gate-form')
