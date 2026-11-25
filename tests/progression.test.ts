@@ -113,3 +113,4 @@ describe('upgrades and shadows', () => {
     expect(p.shadows.length).toBe(250)
     expect(new Set(p.shadows.map((s) => s.id)).size).toBe(250)
   })
+  it('shares 30% of XP with shadows and keeps them at or below your level', () => {
