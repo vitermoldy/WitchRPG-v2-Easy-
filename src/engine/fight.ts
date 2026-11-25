@@ -39,3 +39,4 @@ class Staff {
   private readonly g: Game
   private obj: THREE.Object3D | null = null
   private travelled = 0
+  private t = 0
