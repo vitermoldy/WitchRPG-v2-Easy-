@@ -169,3 +169,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
     try {
       if (mode === 'in') await signIn(name, password)
       else await signUp(name, password)
+      pass.value = ''
