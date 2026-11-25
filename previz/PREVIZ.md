@@ -180,3 +180,4 @@ Jalan setapak: altar ke utara melewati Hutan Pembuka sampai kuil, bercabang ke b
 - Kepala tongkat yang bersinar duduk dekat tengah layar di mode normal, dan di mode bidik (varian D) tepat menutupi target. Usul: saat membidik tongkat diturunkan ke sisi kanan dan sigilnya redup; sigil menyala hanya saat kombo dan lemparan.
 - Jubah gelap Ilyra hanya terbaca lewat cahaya tangan saat ia berdiri di bayangan pohon. Usul: tepi jubah sedikit lebih terang atau cahaya tepi dari kamera di Three.js.
 - Di senja Danau Hitam (05), cahaya oranye dan kabut hijau menggeser Hydra yang hijau abu ke warna zaitun keemasan. Lima kepala dan siripnya tetap terbaca dari siluet. Kalau warna asli Hydra penting, cahaya pertarungan boss jangan sepenuhnya senja dari belakang.
+- Berkas cahaya menembus tajuk butuh haze lokal di tanah lapang. Di Three.js ini perlu efek god-ray pasca-proses atau kerucut cahaya palsu, bukan kabut eksponensial biasa.
