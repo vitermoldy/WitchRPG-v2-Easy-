@@ -99,3 +99,4 @@ def height(x, y):
     h = h * (1 - lake) + lake * (-7.0)
     # Lembah Bara: a burnt bowl with a rim
     b = ZONES[4]
+    db = _dist(x, y, b["c"])
