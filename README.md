@@ -86,3 +86,4 @@ Kelima zona bisa dimainkan. Hutan Pembuka (Lv 1 sampai 3: Imp, Hellhound), Tebin
 
 Di balik segel, setiap boss menunggu sendirian di kampnya, dengan bar boss dan serangannya sendiri. Semuanya bisa dibangkitkan sebagai Marsekal, dan bangkit lagi 45 detik setelah tumbang (begitu juga Hydra).
 
+| Boss | Level | Tempat | Serangan |
