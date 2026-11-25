@@ -1151,3 +1151,4 @@ export interface Swing {
   windup: number
   active: number
   recover: number
+  /** Reach in metres and arc in radians in front of her. */
