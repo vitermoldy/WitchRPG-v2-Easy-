@@ -164,3 +164,4 @@ export class Camps {
     camp.roused = false
     camp.units = []
     const [lo, hi] = camp.def.levels
+    let n = 0
