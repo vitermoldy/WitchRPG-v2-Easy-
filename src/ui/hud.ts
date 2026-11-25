@@ -299,3 +299,4 @@ export class Hud {
   private updateArmy() {
     const g = this.g
     const field = g.umbra.field()
+    const total = g.profile.shadows.length
