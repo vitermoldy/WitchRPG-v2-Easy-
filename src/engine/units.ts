@@ -317,3 +317,4 @@ export class UnitSystem {
   }
 
   /** Damage to a unit. Returns true when it died from it. */
+  hurt(u: Unit, dmg: number, from: { x: number; z: number }, stun = 0, knock = 0): boolean {
