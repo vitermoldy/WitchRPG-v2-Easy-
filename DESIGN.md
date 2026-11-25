@@ -158,3 +158,4 @@ Tur di game (`?debug`, Lv 8 sampai 9): Centaur memanah di garis; Naga menyembur 
 Ukur ulang pasukan setelah perbaikan tinggi tanah (pola v1, 20 makhluk, 3 run, bawaan 20 bayangan detail):
 
 | Bayangan di medan | Median v2 | p95 v2 | Median v1 |
+| --- | --- | --- | --- |
