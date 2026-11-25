@@ -146,3 +146,4 @@ def quad(r, H, L, W, D, leg_r, front="paw", hind="paw", body_mat="body", foot_ma
     body.ell(rump, (W * 0.48, L * 0.26, D * 0.5), mat=body_mat)
     Q.update(chest=chest, rump=rump, back=(0, 0, H), withers=(0, -L * 0.3, H))
     for s, side in SIDES:
+        FS = (s * W * 0.3, -L * 0.36, H - D * 0.55)
