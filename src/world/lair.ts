@@ -87,3 +87,4 @@ export class Lair {
   constructor(g: Game) {
     this.g = g
     this.group.name = 'lair'
+    const [lx, lz] = toWorld(SPOTS.hydra[0], SPOTS.hydra[1])
