@@ -58,3 +58,4 @@ for key in ["ilyra"] + [r[0] for r in K.ROSTER]:
     lo2, hi2 = C.bounds(coll)
     stats[key] = {
         "tinggi": round(hi.z - lo.z, 2),
+        "lebar": round(hi2.x - lo2.x, 2),
