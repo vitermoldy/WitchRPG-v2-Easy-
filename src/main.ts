@@ -168,3 +168,4 @@ async function boot() {
     if (game.state !== 'playing' || !game.player.alive) return
     if (code === 'Tab') openMenu(ledger)
     else if (code === 'KeyM') openMenu(map)
+    else if (code === 'KeyF' && game.altars.near() && !game.fight.executable()) openMenu(travel)
