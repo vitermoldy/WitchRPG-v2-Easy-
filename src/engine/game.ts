@@ -925,3 +925,4 @@ export class Game implements UnitHost {
 
     // her fight: staff, block, parry, execution, thrown staff
     const f = { x: -Math.sin(this.rig.yaw), z: -Math.cos(this.rig.yaw) }
+    const r = { x: Math.cos(this.rig.yaw), z: -Math.sin(this.rig.yaw) }
