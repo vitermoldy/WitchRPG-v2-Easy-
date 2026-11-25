@@ -149,3 +149,4 @@ export class Telegraphs {
   clear(u: Unit) {
     const it = this.byUnit.get(u.id)
     if (!it) return
+    it.unit = null
