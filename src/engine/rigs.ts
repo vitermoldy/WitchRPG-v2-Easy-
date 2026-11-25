@@ -858,3 +858,5 @@ class Rig implements Poser {
   body(lift: number, pitch = 0, roll = 0) {
     this.holder.position.y = lift
     this.holder.rotation.set(pitch * D, 0, roll * D)
+  }
+
