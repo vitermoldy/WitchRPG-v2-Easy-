@@ -78,3 +78,5 @@ def build(dunia, res=(1280, 720), samples=24):
     tc = ret.constraints.new("TRACK_TO")
     tc.target = cam
     tc.track_axis = "TRACK_Z"
+    tc.up_axis = "UP_Y"
+
