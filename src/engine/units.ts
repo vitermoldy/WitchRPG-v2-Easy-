@@ -661,3 +661,4 @@ export class UnitSystem {
       // at rest in its camp: drift back home, then stand and look about
       u.token = false
       const far = Math.hypot(u.home.x - u.pos.x, u.home.z - u.pos.z)
+      this.steer(u, u.home.x, u.home.z, u.speed * (far > 6 ? 1 : 0.4), dt, 2.5)
