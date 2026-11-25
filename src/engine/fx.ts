@@ -491,3 +491,4 @@ export class ShadowPools {
     }
   }
 
+  clear() {
