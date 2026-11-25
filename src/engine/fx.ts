@@ -187,3 +187,4 @@ export class Particles {
   }
 
   clear() {
+    this.life.fill(0)
