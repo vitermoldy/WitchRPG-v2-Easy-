@@ -263,3 +263,5 @@ def build_water(coll):
     return ob
 
 
+# ---------------------------------------------------------------- vegetation prototypes
+
