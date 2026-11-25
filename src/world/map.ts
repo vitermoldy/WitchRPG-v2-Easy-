@@ -107,3 +107,4 @@ export function fbm(x: number, y: number, octaves = 4, seed = 0): number {
   let s = 0
   let amp = 1
   let f = 1
+  let norm = 0
