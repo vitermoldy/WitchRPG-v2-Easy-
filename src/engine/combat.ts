@@ -140,3 +140,4 @@ export class Combo {
     const index = heavy ? 0 : this.nextIndex
     const s: SwingState = { swing: heavy ? COMBAT.heavy : COMBAT.light[index], heavy, index, t: 0, hit: false }
     this.current = s
+    out.push({ type: 'start', s })
