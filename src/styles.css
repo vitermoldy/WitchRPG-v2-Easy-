@@ -1806,3 +1806,4 @@ dialog::backdrop {
 .worldmap[open] {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(16rem, 22rem);
+  gap: 1rem;
