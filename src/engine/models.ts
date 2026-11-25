@@ -363,3 +363,4 @@ export class IlyraModel {
       armRY = 15
       foreR = -30
       staffX = 60
+    }
