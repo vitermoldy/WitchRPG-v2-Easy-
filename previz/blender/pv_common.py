@@ -336,3 +336,4 @@ class Part:
         return self
 
     def limb(self, a, b, ra, rb=None, mat="body", seg=10, joints=True):
+        a, b = V(a), V(b)
