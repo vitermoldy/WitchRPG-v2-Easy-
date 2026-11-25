@@ -649,3 +649,4 @@ def b_minotaur(r, pose="idle"):
 
 def b_cyclops(r):
     """Bald tan giant with one great eye, crossed leather straps, skull belt, fur loincloth and a round shield."""
+    J = humanoid(r, 4.2, bulk=1.7, legs="human", arm_pose={"L": (25, 40, 60), "R": (18, 10, 15)}, neck_scale=0.5, body_mat="skin", foot_mat="strap")
