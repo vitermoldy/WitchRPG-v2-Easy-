@@ -275,3 +275,4 @@ const poseHarpy: PoseFn = (p, u, t) => {
   }
   if (flying) {
     const fast = u.state === 'recover' ? 1.6 : 1
+    const flap = Math.sin(t * 8.5 * fast + u.id)
