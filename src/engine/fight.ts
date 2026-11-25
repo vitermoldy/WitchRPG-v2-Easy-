@@ -273,3 +273,4 @@ export class Fight {
   }
 
   /** Where she should face this frame, or null to leave it to steering and the camera. */
+  get faceYaw(): number | null {
