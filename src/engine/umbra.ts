@@ -428,3 +428,4 @@ export class Umbra {
 
   /** Taking damage breaks the cast. */
   interrupt() {
+    if (this.casting.length) {
