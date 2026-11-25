@@ -101,3 +101,4 @@ export class Lair {
     )
     water.position.set(this.center.x, this.waterY, this.center.z)
     water.visible = false
+    this.water = water
