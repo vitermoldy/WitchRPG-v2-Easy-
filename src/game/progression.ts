@@ -82,3 +82,4 @@ export function newProfile(): Profile {
     bossKills: 0,
     settings: { ...DEFAULT_SETTINGS },
     world: { altars: ['pembuka'], last: 'pembuka' },
+  }
