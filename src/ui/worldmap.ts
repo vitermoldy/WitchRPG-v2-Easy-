@@ -37,3 +37,4 @@ export class WorldMap {
   private readonly dlg = $<HTMLDialogElement>('worldmap')
   private readonly canvas = $<HTMLCanvasElement>('map-canvas')
   private readonly g: Game
+  private base: HTMLCanvasElement | null = null
