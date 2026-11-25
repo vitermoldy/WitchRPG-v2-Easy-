@@ -1168,3 +1168,4 @@ def ilyra_palette():
 
 def creature_palette(key, kind=None):
     if kind == "shadow":
+        return C.palette("shadow")
