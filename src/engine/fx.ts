@@ -40,3 +40,4 @@ const VERT = /* glsl */ `
   }
 `
 
+const FRAG_GLOW = /* glsl */ `
