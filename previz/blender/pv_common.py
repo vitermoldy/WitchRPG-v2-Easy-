@@ -491,3 +491,6 @@ class Rig:
         ob = self.objs.get(name)
         if ob:
             ob.rotation_euler = Euler([math.radians(a) for a in deg])
+        return ob
+
+
