@@ -242,3 +242,4 @@ def build_water(coll):
     m = C.mat_flat("water", "#06090b", 0.04, 0.0)
     b = m.node_tree.nodes["Principled BSDF"]
     b.inputs["Specular IOR Level"].default_value = 0.6
+    nt = m.node_tree
