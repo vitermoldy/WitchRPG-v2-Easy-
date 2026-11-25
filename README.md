@@ -122,3 +122,4 @@ server/       Express + MySQL: akun (auth.js dari v1), simpanan witch (app.js), 
 tests/        Vitest: progresi v1, kamera, gerak, peta, tempur, AI makhluk, simpanan, Hydra dan makhluk fase 5, validasi server
 previz/       skrip Blender, render, animatic, papan makhluk, PREVIZ.md
 public/models model GLB hasil ekspor dari previz
+```
