@@ -75,3 +75,4 @@ def bake_tones(ob):
     if not any(tones):
         return False
     me = ob.data
+    attr = me.color_attributes.new("Col", "FLOAT_COLOR", "CORNER")
