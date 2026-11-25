@@ -998,3 +998,4 @@ export const ELITE = {
   hp: 2.4,
   damage: 1.25,
   scale: 1.15,
+  xp: 3,
