@@ -725,3 +725,4 @@ def build_world(lib_scene):
     P = build_protos(lib_scene.collection)
     forest = C.collection("Dunia_hutan", dunia)
     build_forest(forest, P)
+    cover = C.collection("Dunia_semak", dunia)
