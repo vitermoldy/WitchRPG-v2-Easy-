@@ -51,3 +51,5 @@ class Staff {
 
   constructor(g: Game) {
     this.g = g
+  }
+
