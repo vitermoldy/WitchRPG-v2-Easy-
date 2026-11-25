@@ -128,3 +128,4 @@ export class Umbra {
     while (index >= 8 + ring * 4) {
       index -= 8 + ring * 4
       ring++
+    }
