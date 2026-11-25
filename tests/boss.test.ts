@@ -212,3 +212,4 @@ describe('creature shots', () => {
       for (let i = 0; i < 240; i++) shots.update(1 / 120)
     }).not.toThrow()
     expect(falls).toBe(1)
+    expect(shots.count).toBe(0)
