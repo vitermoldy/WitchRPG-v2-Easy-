@@ -611,3 +611,4 @@ export class Spells {
     g.rings.spawn(at, COLOR.chaos, s.radius * 0.2, s.radius, 0.4)
   }
 
+  private updateSnares(dt: number) {
