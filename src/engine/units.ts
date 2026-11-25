@@ -652,3 +652,4 @@ export class UnitSystem {
     if (u.spec.passive) {
       this.faunaBrain(u, dt)
       return
+    }
