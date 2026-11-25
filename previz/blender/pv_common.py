@@ -203,3 +203,6 @@ def mat_globe(name, ocean="#2a6aa8", land="#4f8a3a"):
 SLOT_DEFAULTS = {
     "body": "#8a7a6a", "body2": None, "skin": None, "hair": None, "horn": "#ddd2bc", "metal": "#b9bcc4",
     "gold": "#d2a442", "cloth": "#5a4632", "wood": "#6a4628", "membrane": None, "accent": None,
+}
+
+
