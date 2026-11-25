@@ -6,3 +6,4 @@ export type SkillId =
   | 'barrier'
   | 'warp'
   | 'rite'
+  | 'swap'
