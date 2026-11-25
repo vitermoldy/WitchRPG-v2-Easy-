@@ -288,3 +288,4 @@ export class Game implements UnitHost {
   /** A blow between a creature and a shadow. */
   strikeUnit(u: Unit, target: Unit, atk?: AttackSpec) {
     const focus = u.team === 'shadow' && target === u.focus ? 1 + u.focusBonus : 1
+    this.hurtUnit(target, u.damage * focus * (atk?.damage ?? 1), u.pos, u.team === 'shadow' ? 4 : 0, 1.5, u.team === 'shadow' ? 'shadow' : 'enemy', 'shadow')
