@@ -554,3 +554,4 @@ export class UnitSystem {
         u.cd = 4 + Math.random() * 6
       }
       this.steer(u, u.aimAt.x, u.aimAt.z, u.speed * 0.35, dt, 1)
+      if (Math.hypot(u.aimAt.x - u.pos.x, u.aimAt.z - u.pos.z) > 1.2) this.face(u, u.aimAt.x, u.aimAt.z, dt, 3)
