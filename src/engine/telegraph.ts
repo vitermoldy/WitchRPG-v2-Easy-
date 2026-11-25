@@ -78,3 +78,5 @@ export class Telegraphs {
   private readonly byUnit = new Map<number, Item>()
   private readonly height: HeightFn
   private time = 0
+  private readonly color = new THREE.Color(COLOR.rift).multiplyScalar(2.4)
+
