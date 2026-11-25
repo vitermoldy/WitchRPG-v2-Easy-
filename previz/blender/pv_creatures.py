@@ -627,3 +627,4 @@ def b_minotaur(r, pose="idle"):
     p = r.parts["pelvis"]
     hp = V(J["hip"])
     for i in range(9):
+        a = math.radians(-80 + i * 20)
