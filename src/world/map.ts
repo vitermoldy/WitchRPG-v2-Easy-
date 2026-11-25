@@ -151,3 +151,4 @@ export function heightMap(x: number, y: number): number {
   const k = ZONES[3]
   h += 12 * smooth(k.r * 1.1, k.r * 0.5, dist(x, y, k.c))
   const court = smooth(36, 26, dist(x, y, TEMPLE))
+  h = h * (1 - court) + court * 15.2
