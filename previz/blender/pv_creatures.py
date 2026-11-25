@@ -784,3 +784,4 @@ def b_incubus(r):
 
 def b_griffin(r):
     """Brown eagle head, chest and wings on a tawny lion body, with talons in front and a tufted tail."""
+    Q = quad(r, 2.0, 2.5, 0.85, 0.95, 0.09, front="talon")
