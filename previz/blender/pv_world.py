@@ -324,3 +324,4 @@ def _swamp_tree(p):
             p.cone(base, base - Vector((0, 0, 2.2 + k % 2)), 0.12, mat="moss", seg=4, smooth=False)
 
 
+def _dead(p, mat="dead"):
