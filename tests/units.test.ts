@@ -12,3 +12,4 @@ function world(groundHeight = 0) {
   const host: UnitHost = {
     obstacles: new Obstacles(),
     height: () => groundHeight,
+    foe,
