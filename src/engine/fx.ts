@@ -58,3 +58,4 @@ const FRAG_SMOKE = /* glsl */ `
   void main() {
     float d = length(gl_PointCoord - 0.5);
     float a = smoothstep(0.5, 0.1, d) * vAlpha;
+    if (a < 0.01) discard;
