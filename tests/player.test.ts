@@ -52,3 +52,5 @@ describe('Ilyra in the air (B)', () => {
     expect(p.flying).toBe(true)
     run(p, { ...idle, rise: -1 }, 4)
     expect(p.flying).toBe(false)
+  })
+
