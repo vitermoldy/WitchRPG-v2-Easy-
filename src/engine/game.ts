@@ -1014,3 +1014,4 @@ export class Game implements UnitHost {
 
     this.place(dt, false, aiming)
 
+    this.cullIn -= dt
