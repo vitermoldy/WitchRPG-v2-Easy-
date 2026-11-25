@@ -669,3 +669,4 @@ export class Game implements UnitHost {
     if (source === 'player') {
       this.spells.addChaos(chaosFromDamage(dmg, 0))
       this.hud.hit(died)
+    }
