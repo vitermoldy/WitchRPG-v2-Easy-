@@ -1473,3 +1473,4 @@ dialog::backdrop {
 }
 
 .tree::before {
+  font-family: var(--font-display);
