@@ -26,3 +26,4 @@ describe('the server checks a witch before it keeps her', () => {
     p.world = { altars: ALTARS.map((a) => a.key), last: 'bara' }
     const c = cleanProfile(p, NOW)
     expect(c.error).toBeUndefined()
+    expect(c.shadows.map((s: { kind: string }) => s.kind)).toEqual(raisable)
