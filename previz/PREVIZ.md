@@ -53,3 +53,4 @@ Tinggi total diukur dari block-out (termasuk tanduk dan sayap yang terangkat; Il
 
 | Makhluk | Tinggi total | Badan | Panjang | Lebar | Radius usulan | Segitiga block-out | Anggaran | Zona |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Ilyra | 1,72 m | 1,70 m | 1,01 m | 1,06 m | 0,38 m | 6.806 | 20.000 | semua |
