@@ -135,3 +135,4 @@ export class Sfx {
   burst() {
     if (!this.ok()) return
     const t = this.ctx!.currentTime
+    this.tone(t, 'sine', 120, 32, 0.9, 0.7)
