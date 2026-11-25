@@ -298,3 +298,4 @@ export class WorldMap {
       ctx.strokeStyle = 'rgba(12, 8, 9, 0.8)'
       ctx.strokeText(text, cx, cy)
       ctx.fillStyle = color
+      ctx.fillText(text, cx, cy)
