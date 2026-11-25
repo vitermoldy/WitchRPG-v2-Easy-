@@ -27,3 +27,4 @@ export interface UnitHost {
   blocked(x: number, z: number, fx?: number, fz?: number): boolean
   /** A blow on her lands; the host resolves block, parry and dodge. */
   strikePlayer(u: Unit, atk?: AttackSpec): void
+  /** A unit struck a unit of the other side. */
