@@ -180,3 +180,4 @@ export class Game implements UnitHost {
     this.shots = new Projectiles(this)
     this.scene.add(this.shots.group)
 
+    this.composer = new EffectComposer(this.renderer)
