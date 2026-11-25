@@ -12,3 +12,4 @@ export interface Shape {
   /** Cylinder: bottom. Sphere: centre. */
   y: number
   z: number
+  r: number
