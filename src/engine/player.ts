@@ -116,3 +116,4 @@ export class Player {
     const wl = Math.hypot(wx, wz)
     if (wl > 1) {
       wx /= wl
+      wz /= wl
