@@ -128,3 +128,4 @@ export function isFresh(p: Profile): boolean {
 
 /** XP needed to go from `level` to `level + 1`: 80 x n^1.5, rounded to tens, and steeper past Lv 9. */
 export function xpToNext(level: number): number {
+  const late = level > 9 ? 1 + XP.lateSteep * (level - 9) : 1
