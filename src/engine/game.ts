@@ -1040,3 +1040,4 @@ export class Game implements UnitHost {
     this.ilyra.update(sdt, p, this.rig.aim, this.pose)
 
     this.hud.zone(ZONES[this.atmosphere.zone])
+    this.hud.aim(this.rig.aim > 0.5 || this.rig.fp > 0.5)
