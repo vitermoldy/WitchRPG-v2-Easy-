@@ -786,3 +786,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     summonKind: 'succubus',
     keepAway: 9,
     attacks: [
+      { name: 'lilitan ular', strike: 'ring', windup: 0.8, recover: 0.9, range: 4, ring: 3.2 },
