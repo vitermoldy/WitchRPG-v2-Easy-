@@ -349,3 +349,4 @@ export class Spells {
   private tryGrip() {
     const g = this.g
     if (!this.unlocked('grip')) return
+    if (!this.overloaded && g.player.mana < 1) {
