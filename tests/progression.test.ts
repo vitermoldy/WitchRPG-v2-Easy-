@@ -117,3 +117,4 @@ describe('upgrades and shadows', () => {
     const p = newProfile()
     p.level = 3
     const s = addShadow(p, 'husk', 1)!
+    gainXp(p, 300, ALL)
