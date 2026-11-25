@@ -55,3 +55,4 @@ export class Terrain {
 
   constructor() {
     this.group.name = 'terrain'
+    for (let iz = 0; iz < CHUNKS; iz++) {
