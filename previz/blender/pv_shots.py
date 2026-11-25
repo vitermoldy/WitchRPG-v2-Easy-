@@ -599,3 +599,4 @@ def build_board(lib_colls, stats):
         lc = lib_colls[k]
         lo, hi = C.bounds(lc)
         rot = BOARD_VIEW.get(k, -55)
+        a = math.radians(rot)
