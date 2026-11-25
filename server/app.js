@@ -100,3 +100,5 @@ export function cleanProfile(p, now = Date.now()) {
   if (!Number.isFinite(updated)) updated = now
   updated = Math.min(updated, now + 60_000)
   return { level, xp, statPoints, skillPoints, nextShadowId, bossKills, stats, upgrades, shadows, world: { altars, last }, settings, updatedAt: new Date(updated) }
+}
+
