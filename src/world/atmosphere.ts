@@ -54,3 +54,4 @@ export class Atmosphere {
   private densityTarget = 0.007
   private readonly zoneFog = ZONES.map((z) => new THREE.Color(z.fog))
   private readonly zoneSky = ZONES.map((z) => new THREE.Color(z.sky))
+  private readonly zoneZenith = ZONES.map((z) => new THREE.Color(ZENITH[z.key] ?? '#47689a'))
