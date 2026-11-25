@@ -41,3 +41,4 @@ describe('stun meter and execution', () => {
     const m = new StunMeter(30)
     expect(m.add(COMBAT.heavy.stun)).toBe(false)
     expect(m.add(10)).toBe(true)
+    expect(m.staggered).toBe(COMBAT.stagger)
