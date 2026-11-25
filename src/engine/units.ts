@@ -665,3 +665,4 @@ export class UnitSystem {
       if (far > 2.5) this.face(u, u.home.x, u.home.z, dt, 4)
       else u.yaw += Math.sin(u.t * 0.4 + u.id) * dt * 0.4
       if (u.spec.fly) u.alt += (u.spec.fly.height * 0.6 - u.alt) * Math.min(1, dt)
+      if (u.state !== 'move') {
