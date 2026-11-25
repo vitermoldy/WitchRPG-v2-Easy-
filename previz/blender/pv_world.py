@@ -584,3 +584,4 @@ def build_fog(coll):
         ob.display_type = "WIRE"
         coll.objects.link(ob)
         obs.append(ob)
+    # thin aerial haze over the whole valley (a world volume would hide the sky in EEVEE)
