@@ -153,3 +153,5 @@ export class Projectiles {
         this.end(i, true)
       }
     }
+  }
+
