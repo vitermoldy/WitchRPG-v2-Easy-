@@ -92,3 +92,4 @@ export class Input {
   }
 
   pressed(code: string) {
+    return this.pressedSet.has(code)
