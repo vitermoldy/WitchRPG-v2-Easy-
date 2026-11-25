@@ -42,3 +42,4 @@ describe('over-the-shoulder camera', () => {
   it('moves to her eyes with a wider view in first person, and back over her shoulder', () => {
     const rig = new CameraRig()
     rig.pitch = 0
+    rig.firstPerson = true
