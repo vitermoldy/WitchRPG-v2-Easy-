@@ -601,3 +601,4 @@ export class Spells {
     const s = SPELL.snare
     this.snareCd = s.cooldown
     const mat = this.rune(COLOR.chaos)
+    const mesh = new THREE.Mesh(new THREE.PlaneGeometry(s.radius * 2, s.radius * 2), mat)
