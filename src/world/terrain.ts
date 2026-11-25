@@ -140,3 +140,4 @@ export class Terrain {
         const slope = Math.hypot(dx, dz)
         groundColour(wx, -wz, h, slope, this.tmp, this.w)
         col.set([this.tmp.r, this.tmp.g, this.tmp.b], v * 3)
+        v++
