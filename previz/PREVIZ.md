@@ -31,3 +31,4 @@ Urutan animatic: 0 sampai 7 detik terbang dari selatan ke barat laut di atas lem
 FOV di bawah ini selalu vertikal, sama dengan `PerspectiveCamera.fov` di Three.js. Tinggi diukur dari kaki Ilyra ke pivot kamera; kamera mundur dari pivot sejauh "jarak" dan bergeser ke kanan sejauh "bahu".
 
 | Mode | Jarak | Bahu kanan | Tinggi | FOV vertikal | FOV horizontal 16:9 | Pitch awal |
+| --- | --- | --- | --- | --- | --- | --- |
