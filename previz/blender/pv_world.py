@@ -148,3 +148,4 @@ def build_terrain(coll, size=1300.0, step=2.5):
     gy = np.gradient(Z, step, axis=0)
     slope = np.hypot(gx, gy)
     W = zone_weights(X, Y)
+    col = np.zeros(X.shape + (3,))
