@@ -319,3 +319,4 @@ export class Umbra {
     if (canAct && inp.ritePressed) this.begin()
     if (this.casting.length) {
       const castTime = hasUpgrade(g.profile, 'rite') ? RITE.castTimeUpgraded : RITE.castTime
+      this.progress += dt / castTime
