@@ -80,3 +80,4 @@ def mat_emit(name, color, strength=8.0):
     return m
 
 
+def mat_cracked(name, color, crack, strength=5.0, scale=2.2, rough=0.75, coverage=0.5, width=0.035):
