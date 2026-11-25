@@ -161,3 +161,4 @@ export function createApi(getPool, database) {
       if (cur && new Date(cur.updated_at).getTime() > p.updatedAt.getTime()) {
         await conn.rollback()
         return res.json({ stale: true, profile: await readProfile(getPool(), client) })
+      }
