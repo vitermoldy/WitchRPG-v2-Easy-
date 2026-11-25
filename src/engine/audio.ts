@@ -22,3 +22,4 @@ export class Sfx {
     const ctx = this.ctx
     this.master = ctx.createGain()
     this.master.gain.value = this.volume
+    const comp = ctx.createDynamicsCompressor()
