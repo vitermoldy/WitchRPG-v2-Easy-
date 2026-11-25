@@ -99,3 +99,4 @@ def emission_of(m):
     if not m or not m.node_tree:
         return None
     for n in m.node_tree.nodes:
+        if n.bl_idname == "ShaderNodeEmission":
