@@ -84,3 +84,4 @@ export class Particles {
   private readonly material: THREE.ShaderMaterial
   private readonly c = new THREE.Color()
 
+  constructor(max: number, mode: 'glow' | 'smoke') {
