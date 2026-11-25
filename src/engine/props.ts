@@ -64,3 +64,4 @@ export class Props {
       if (to.length() > range) continue
       const a = dir.angleTo(to)
       if (a < ba) {
+        ba = a
