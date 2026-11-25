@@ -103,3 +103,4 @@ export class Telegraphs {
       depthWrite: false,
       blending: THREE.AdditiveBlending,
       side: THREE.DoubleSide,
+    })
