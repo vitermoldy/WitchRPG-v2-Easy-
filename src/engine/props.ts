@@ -54,3 +54,4 @@ export class Props {
     this.mesh.count = 0
   }
 
+  /** The boulder closest to the middle of the view, within reach and a narrow cone. */
