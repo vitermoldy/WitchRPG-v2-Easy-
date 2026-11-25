@@ -12,3 +12,4 @@ function steepest(x: number, y: number) {
 }
 
 describe('the forest valley', () => {
+  it('lets her walk every path end to end: no cliff steeper than she can climb, no deep water', () => {
