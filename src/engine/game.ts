@@ -1042,3 +1042,4 @@ export class Game implements UnitHost {
     this.hud.zone(ZONES[this.atmosphere.zone])
     this.hud.aim(this.rig.aim > 0.5 || this.rig.fp > 0.5)
     if (target) {
+      const lp = lockPoint(target)
