@@ -1147,3 +1147,4 @@ export class Game implements UnitHost {
       fight: { ...this.fight.stats },
       umbra: { ...this.umbra.stats },
       game: { ...this.counts },
+      width: this.renderer.domElement.width,
