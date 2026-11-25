@@ -123,3 +123,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
       if (remote && (isFresh(local) || remoteTime > localTime) && onTitle()) {
         adopt(remote)
         setNote(`Witch Lv ${remote.level} dimuat dari server`)
+      } else {
