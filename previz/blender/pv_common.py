@@ -341,3 +341,4 @@ class Part:
         d = b - a
         if d.length < 1e-5:
             return self
+        M = self._M((a + b) / 2) @ rot_to(d)
