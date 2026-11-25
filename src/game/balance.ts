@@ -626,3 +626,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   // v2, Kuil and Bara: the heavier of the pair; lobs green fire onto circles and calls Imps.
   incubus: {
     name: 'Incubus',
+    rank: 'ksatria',
