@@ -321,3 +321,4 @@ export class WorldMap {
       const x = px(a.c[0])
       const y = py(a.c[1])
       ctx.beginPath()
+      ctx.moveTo(x, y - r)
