@@ -1221,3 +1221,4 @@ export const COMBAT = {
 } as const
 
 /**
+ * Camps wake (their creatures appear) when she comes within `wake` m, sleep past `sleep` m, and stand
