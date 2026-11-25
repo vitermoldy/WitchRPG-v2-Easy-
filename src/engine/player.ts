@@ -177,3 +177,4 @@ export class Player {
     this.moveAxis(0, this.vz * dt, g)
     g.obstacles?.pushOut(this.pos, MOVE.radius, MOVE.height)
 
+    // stay on the ground; step off a ledge and fall
