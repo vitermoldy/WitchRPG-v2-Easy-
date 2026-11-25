@@ -95,3 +95,4 @@ export class Altars {
       const d = Math.hypot(p.x - a.pos.x, p.z - a.pos.z)
       if (!best || d < best.dist) best = { altar: a, dist: d }
     }
+    return best
