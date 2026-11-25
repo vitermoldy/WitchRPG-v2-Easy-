@@ -34,3 +34,4 @@ export interface UnitHost {
   /** A thrown body hit another body (other) or the ground or a tree (other null) at this speed. */
   impact(u: Unit, other: Unit | null, speed: number): void
   /** A unit died, from any cause. */
+  died(u: Unit): void
