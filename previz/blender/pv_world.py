@@ -320,3 +320,4 @@ def _swamp_tree(p):
         p.ell((x, y, z), (r, r, r * 0.6), mat="moss", seg=8, rings=5, smooth=False)
         for k in range(4):
             a = k * 1.7
+            base = Vector((x + math.cos(a) * r * 0.7, y + math.sin(a) * r * 0.7, z - r * 0.3))
