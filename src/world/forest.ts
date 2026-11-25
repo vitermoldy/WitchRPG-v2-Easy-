@@ -33,3 +33,4 @@ const MIX: Record<string, [Partial<Record<Kind, number>>, number]> = {
 
 // ------------------------------------------------------------ geometry
 
+const C = (h: string) => new THREE.Color(h)
