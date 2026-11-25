@@ -750,3 +750,4 @@ export class Spells {
     if (this.barrierT <= 0) this.endBarrier()
   }
 
+  /** True while `at` is inside a Reality Warp field: creature shots turn back there. */
