@@ -374,3 +374,4 @@ def long_hair(part, hc, H, length, width, mat="hair"):
     k = H / 1.8
     c = V(hc)
     part.ell(c + Vector((0, 0.015 * k, 0.03 * k)), (0.1 * k, 0.11 * k, 0.11 * k), mat=mat, seg=10, rings=7)
+    part.tube([c + Vector((0, 0.06 * k, 0.06 * k)), c + Vector((0, 0.13 * k, -0.08 * k)), c + Vector((0, 0.15 * k, -length * 0.55)), c + Vector((0, 0.12 * k, -length))],
