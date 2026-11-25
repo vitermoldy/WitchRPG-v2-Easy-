@@ -121,3 +121,4 @@ const poseImp: PoseFn = (p, u, t) => {
   const breath = Math.sin(t * 2.4 + u.id) * (1 - Math.min(1, amp))
   p.rot('tail', 10 * Math.sin(t * 2 + u.id), 25 * Math.sin(t * 3 + u.id))
   if (u.state === 'windup') {
+    const k = ease(u.t / u.spec.windup)
