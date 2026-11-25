@@ -317,3 +317,4 @@ def build_minotaur(dunia):
         t = i / 13
         a = math.radians(-110 + 150 * t)
         d = (f * math.cos(a) + right * -math.sin(a))
+        pts.append(Vector((P[0], P[1], z0)) + d * (1.25 + 0.2 * t) + up * (1.85 - 0.95 * t))
