@@ -445,3 +445,4 @@ export class Fight {
     const g = this.g
     const p = g.player
     const armed = this.staff.state === 'hand'
+    const sw: Swing = armed ? s.swing : { ...s.swing, reach: s.swing.reach * 0.75, arc: s.swing.arc * 0.8 }
