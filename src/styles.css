@@ -391,3 +391,4 @@ button {
 }
 
 /* while a boss bar shows, it takes the zone banner's place: lower down the banner would cover the feed */
+.hud.boss .zone-banner {
