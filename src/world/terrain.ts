@@ -170,3 +170,4 @@ export class Terrain {
         const a = edge[k]
         const b = edge[k + 1]
         const c = start + k
+        const d = start + k + 1
