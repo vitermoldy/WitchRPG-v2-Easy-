@@ -96,3 +96,4 @@ export class Seal {
   sealedAt(wx: number, wz: number): boolean {
     const [mx, my] = toMap(wx, wz)
     const i = Math.floor((mx + PLAY_HALF) / CELL)
+    const j = Math.floor((my + PLAY_HALF) / CELL)
