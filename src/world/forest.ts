@@ -241,3 +241,4 @@ export class Forest {
     let verts = 0
     for (const k of Object.keys(geos) as Kind[]) verts += geos[k].attributes.position.count
     const material = new THREE.MeshLambertMaterial({ vertexColors: true })
+    this.mesh = new THREE.BatchedMesh(trees.length, verts, 0, material)
