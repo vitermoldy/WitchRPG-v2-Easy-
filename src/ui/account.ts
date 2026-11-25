@@ -154,3 +154,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
     event.preventDefault()
     if (busy) return
     showError('')
+    const name = user.value.trim()
