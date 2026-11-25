@@ -349,3 +349,4 @@ export class Sfx {
       src.loop = true
       const filter = ctx.createBiquadFilter()
       filter.type = 'bandpass'
+      filter.Q.value = 0.8
