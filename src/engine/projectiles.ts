@@ -72,3 +72,4 @@ export class Projectiles {
       vel = new THREE.Vector3(u.lungeDir.x * spec.speed, (to.y - from.y) / t + 0.5 * spec.gravity * t, u.lungeDir.z * spec.speed)
     }
     const mesh = new THREE.Mesh(atk.strike === 'ring' ? globGeo : arrowGeo, amber)
+    if (atk.strike === 'ring') mesh.scale.setScalar(spec.radius)
