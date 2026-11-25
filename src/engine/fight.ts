@@ -40,3 +40,4 @@ class Staff {
   private obj: THREE.Object3D | null = null
   private travelled = 0
   private t = 0
+  private spin = 0
