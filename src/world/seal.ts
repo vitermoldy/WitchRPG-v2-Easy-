@@ -69,3 +69,4 @@ export class Seal {
         if (j > 0 && !this.mask[i * this.n + j - 1]) wall(x0, y0, x0 + CELL, y0)
         if (j < this.n - 1 && !this.mask[i * this.n + j + 1]) wall(x0, y0 + CELL, x0 + CELL, y0 + CELL)
       }
+    }
