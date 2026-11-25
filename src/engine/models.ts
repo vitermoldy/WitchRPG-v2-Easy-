@@ -271,3 +271,4 @@ export class IlyraModel {
       // found on the pose sheet: across the chest, long seen from the front, short from the side
       staffX = mix(staffX, 20, b)
       staffZ = mix(staffZ, -110, b)
+      torsoX = mix(torsoX, 8 - 6 * push, b)
