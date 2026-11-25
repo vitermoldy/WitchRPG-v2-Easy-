@@ -49,3 +49,4 @@ const MOTE_VERT = /* glsl */ `
     vAlpha = alpha;
   }
 `
+const MOTE_FRAG = /* glsl */ `
