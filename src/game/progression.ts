@@ -246,3 +246,4 @@ export function unitStats(kind: UnitKind, level: number, shadow: boolean) {
   const hp = spec.hp * (1 + GROWTH.hpPerLevel * lv) * (shadow ? SHADOW.hpMult : 1)
   const damage = spec.damage * (1 + GROWTH.damagePerLevel * lv) * (shadow ? SHADOW.damageMult : 1)
   const speed = spec.speed * (shadow ? SHADOW.speedMult : 1)
+  return { hp: Math.round(hp), damage: Math.round(damage * 10) / 10, speed }
