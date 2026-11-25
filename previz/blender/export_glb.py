@@ -117,3 +117,4 @@ def flat(m):
     b = f.node_tree.nodes["Principled BSDF"]
     # a two-tone material: the colour lives in the vertex colours, so the material is white
     col = (1.0, 1.0, 1.0) if tone_of(m) else tuple(m.diffuse_color[:3])
+    b.inputs["Base Color"].default_value = (*col, 1.0)
