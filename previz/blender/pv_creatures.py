@@ -414,3 +414,4 @@ def b_ilyra(r, pose="idle"):
     head.ell(hc + Vector((0, 0.015, 0.01)), (0.105, 0.115, 0.125), mat="cloth")
     head.tube([hc + Vector((0, 0.06, 0.09)), hc + Vector((0, 0.14, 0.02)), hc + Vector((0, 0.17, -0.12))], [0.07, 0.04, 0.0], mat="cloth", seg=8, n=3)
     head.ell(hc + Vector((0, -0.055, 0.0)), (0.07, 0.03, 0.08), mat="hood_in")
+    for k in (-1, 1):
