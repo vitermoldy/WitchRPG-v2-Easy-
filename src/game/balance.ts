@@ -596,3 +596,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     anchored: true,
     attacks: [
       { name: 'lempar batu', strike: 'ring', windup: 1.2, recover: 1, range: 28, minRange: 7, ring: 3, shot: { speed: 12, gravity: 14, radius: 0.6 }, cooldown: 4 },
+      { name: 'gada', strike: 'ring', windup: 1, recover: 1, range: 4, ring: 2.2, lungeSpeed: 4, lungeTime: 0.35, damage: 1.2 },
