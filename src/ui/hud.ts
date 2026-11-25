@@ -10,3 +10,4 @@ type Tone = 'info' | 'chaos' | 'umbra' | 'level'
 
 /** How to fight each mini-boss, under its bar. */
 const BOSS_HINT: Partial<Record<UnitKind, string>> = {
+  medusa: 'Tatapannya membatukan: tahan C saat lingkarannya penuh, atau pasang Hex Barrier.',
