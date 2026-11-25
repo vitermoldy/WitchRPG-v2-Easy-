@@ -118,3 +118,4 @@ export class Atmosphere {
     // exp2 fog: e^-(d * sight)^2 is about 4% at the sight distance
     this.densityTarget = 1.8 * inv
     const k = snap ? 1 : Math.min(1, dt * 0.8)
+    this.fog.color.lerp(this.fogTarget, k)
