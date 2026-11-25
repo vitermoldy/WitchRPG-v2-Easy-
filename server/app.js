@@ -106,3 +106,4 @@ export function cleanProfile(p, now = Date.now()) {
 export function createApi(getPool, database) {
   const api = express.Router()
   // A full Shadow Room (2000 records) is about 200 KB of JSON.
+  api.use(express.json({ limit: '1mb' }))
