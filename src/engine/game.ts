@@ -361,3 +361,4 @@ export class Game implements UnitHost {
     if (u.elite === 'meledak') this.blastLater(u.pos.clone(), ELITE.burst.radius, u.damage * ELITE.burst.damage, ELITE.burst.delay)
     const rb = u.spec.rebirth
     if (rb && u.reborn) this.blastLater(u.pos.clone(), rb.burst, u.damage * 2, rb.delay)
+    this.smoke.emit({ pos: u.pos, count: 6, color: 0x2a2024, life: 1, size: 0.6, sizeEnd: 1.2, speed: 0.8, alpha: 0.5 })
