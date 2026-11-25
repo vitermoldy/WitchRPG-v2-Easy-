@@ -186,3 +186,4 @@ export class Camps {
     // some of the pack come out elite, each with one v1 trait
     const plain = [...camp.units]
     for (let k = 0; k < (camp.def.elites ?? 0) && plain.length; k++) {
+      const u = plain.splice(Math.floor(Math.random() * plain.length), 1)[0]
