@@ -406,3 +406,4 @@ export class Fight {
     g.addTrauma(0.06)
   }
 
+  /** Which way a swing goes: toward the locked creature, else the nearest one in front, else where she steers. */
