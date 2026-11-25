@@ -463,3 +463,4 @@ class Rig:
     def P(self, name, pivot=(0, 0, 0), parent=None):
         if name not in self.parts:
             self.parts[name] = Part(self, name, pivot, parent)
+            self.order.append(name)
