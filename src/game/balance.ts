@@ -271,3 +271,4 @@ export interface UnitSpec {
   /** v2: its rank for the Umbra Rite when it comes out elite (an elite Cyclops is a Jenderal). */
   eliteRank?: RankId
   /** v2: drawn by the Hydra's rig (a head); has no model of its own. */
+  part?: boolean
