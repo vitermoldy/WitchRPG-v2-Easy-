@@ -398,3 +398,4 @@ class Part:
             ring = []
             for k in range(seg):
                 a = 2 * math.pi * k / seg
+                q = p + R[i] * (math.cos(a) * Nn + math.sin(a) * B * squash)
