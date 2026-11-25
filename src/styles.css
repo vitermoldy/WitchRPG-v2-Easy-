@@ -1266,3 +1266,5 @@ button {
 /* Dialogs over the game: the Ledger, the altar, confirmations. */
 dialog {
   color: var(--ink);
+}
+
