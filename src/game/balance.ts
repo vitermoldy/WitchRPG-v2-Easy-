@@ -838,3 +838,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   },
   typhon: {
     name: 'Typhon',
+    rank: 'marsekal',
