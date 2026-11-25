@@ -83,3 +83,4 @@ describe('the forest valley', () => {
     const floor = heightMap(0, -280)
     for (const camp of CAMP_DEFS.filter((c) => zoneAt(c.c[0], c.c[1]).key === 'tebing')) expect(heightMap(camp.c[0], camp.c[1]) - floor, `kamp ${camp.c}`).toBeGreaterThan(20)
     const altar = ALTARS.find((a) => a.key === 'tebing')!
+    expect(heightMap(altar.c[0], altar.c[1]) - floor).toBeGreaterThan(20)
