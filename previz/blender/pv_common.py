@@ -70,3 +70,4 @@ def mat_emit(name, color, strength=8.0):
         return _MATS[name]
     m = _new_mat(name)
     nt = m.node_tree
+    nt.nodes.remove(nt.nodes["Principled BSDF"])
