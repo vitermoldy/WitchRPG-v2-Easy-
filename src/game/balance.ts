@@ -256,3 +256,4 @@ export interface UnitSpec {
   flank?: boolean
   /** v2: its attacks; without them it has one attack made from the fields above. */
   attacks?: AttackSpec[]
+  /** v2: keeps this far from her while it shoots, backing off when she comes closer. */
