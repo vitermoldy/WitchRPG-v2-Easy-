@@ -10,3 +10,4 @@ const EXTENT = PLAY_HALF + 10
 const BASE = 320
 const SAVE_KEY = 'witchrpg-v2-easy:map-kinds'
 
+// one colour per creature kind on the map; chosen to stay apart from each other and readable on the ground tones
