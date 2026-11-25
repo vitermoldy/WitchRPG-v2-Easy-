@@ -1220,3 +1220,5 @@ export class Game implements UnitHost {
     u.makeElite(trait ?? ELITE.traits[Math.floor(Math.random() * ELITE.traits.length)])
     u.aggro = true
     return u
+  }
+
