@@ -18,3 +18,4 @@ ZONES = [
     dict(key="bara", name="Lembah Bara", tier="V", lv="13-15", c=(330, 330), r=165, fog="#d8622c", dens=0.018, hs=28, ground="#1d1917"),
 ]
 LAKE = dict(c=(-330, 300), r=95)
+# Danau Hitam belongs to the swamp but keeps its own low fog over the black water
