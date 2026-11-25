@@ -92,3 +92,4 @@ class Staff {
     this.dir.subVectors(this.pos, this.prev).divideScalar(len)
     this.ray.set(this.prev, this.dir)
     let best: { u: Unit; f: number } | null = null
+    for (const u of this.g.units.units) {
