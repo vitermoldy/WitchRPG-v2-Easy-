@@ -277,3 +277,4 @@ def rot_to(d):
 
 
 def _faces_of(verts):
+    fs = set()
