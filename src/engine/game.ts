@@ -712,3 +712,4 @@ export class Game implements UnitHost {
     this.spells.reset()
     this.spells.chaos = 0
     p.alive = true
+    p.petrified = 0
