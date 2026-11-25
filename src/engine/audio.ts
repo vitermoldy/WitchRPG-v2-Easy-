@@ -377,3 +377,4 @@ export class Sfx {
     for (let i = 0; i < 6; i++) this.noise(t + 0.1 + Math.random() * 0.9, 0.03, 'highpass', 2800, 0.05)
   }
 
+  /** A step refused by the seal or the lair's edge: a low thrum. */
