@@ -466,3 +466,4 @@ export class UnitSystem {
     this.rebuildGrid()
     for (let i = this.units.length - 1; i >= 0; i--) {
       const u = this.units[i]
+      if (!u) continue
