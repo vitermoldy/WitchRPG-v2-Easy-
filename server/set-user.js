@@ -23,3 +23,4 @@ if (found) {
   // A new password signs the account out everywhere.
   await pool.query('DELETE FROM sessions WHERE user_id = ?', [found.id])
   console.log(`${config.name}: kata sandi ${found.username} diganti. Semua sesinya dikeluarkan.`)
+  await pool.end()
