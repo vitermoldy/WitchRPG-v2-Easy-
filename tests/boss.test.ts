@@ -29,3 +29,4 @@ function world() {
   const sys = new UnitSystem(host)
   const step = (seconds: number) => {
     for (let i = 0; i < Math.round(seconds * 120); i++) sys.update(1 / 120)
+  }
