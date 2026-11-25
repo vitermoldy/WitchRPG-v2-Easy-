@@ -904,3 +904,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   // v2: one head of the Hydra, steered by the boss; it has no model of its own.
   hydraHead: {
     name: 'Kepala Hydra',
+    rank: 'marsekal',
