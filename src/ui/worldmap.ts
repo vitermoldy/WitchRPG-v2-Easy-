@@ -18,3 +18,4 @@ const KIND_COLOR: Partial<Record<UnitKind, string>> = {
 }
 
 interface BossEntry {
+  kind: UnitKind
