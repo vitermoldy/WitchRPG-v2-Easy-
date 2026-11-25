@@ -526,3 +526,4 @@ def tile_png(paths, out, cols=2, pad=12, bg=(0.07, 0.07, 0.08)):
     img.file_format = "PNG"
     img.save()
     for im in ims:
+        bpy.data.images.remove(im)
