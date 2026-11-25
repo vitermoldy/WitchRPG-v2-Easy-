@@ -1498,3 +1498,4 @@ dialog::backdrop {
 }
 
 .tree-chaos .node.open {
+  border-color: rgba(255, 42, 61, 0.45);
