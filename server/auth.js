@@ -52,3 +52,4 @@ const MESSAGES = {
     password: `Kata sandi minimal ${PASSWORD_MIN} karakter.`,
     passwordLong: `Kata sandi paling panjang ${PASSWORD_MAX} karakter.`,
     taken: 'Username itu sudah dipakai. Pilih yang lain.',
+    wrong: 'Username atau kata sandi salah.',
