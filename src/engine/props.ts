@@ -96,3 +96,4 @@ export class Props {
             break
           }
         }
+        if (g.obstacles.pushOut(p.pos, p.radius, p.radius * 2)) p.vel.multiplyScalar(0.3)
