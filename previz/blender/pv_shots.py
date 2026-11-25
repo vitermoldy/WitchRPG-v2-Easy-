@@ -192,3 +192,4 @@ def hero_layout():
 def build_hero(dunia, name="01-hero-bahu", mode="normal", cam_over=None, res=(1920, 1080), samples=64):
     P, f = hero_layout()
     sd = sun_dir(f, 50, 22)
+    world = C.sky_world("langit_pagi", "#47689a", "#f0d8b8", "#2a2a26", 0.55, sun_dir=sd, sun_glow="#ffe2b0", glow_power=24)
