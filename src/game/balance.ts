@@ -944,3 +944,4 @@ export const HYDRA = {
   slamReach: 14,
   phase2At: 0.66,
   phase3At: 0.33,
+  /** A severed head costs it this share of its HP. */
