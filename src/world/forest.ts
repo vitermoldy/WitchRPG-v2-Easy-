@@ -218,3 +218,4 @@ export function addColliders(trees: Tree[], obs: Obstacles) {
     const s = SHAPE[t.kind]
     if (t.kind === 'rock' || t.kind === 'rock_big') {
       const r = s.trunk * t.scale
+      obs.add({ kind: SPHERE, x: t.x, y: t.y + r * 0.45, z: t.z, r, h: 0, camOnly: false })
