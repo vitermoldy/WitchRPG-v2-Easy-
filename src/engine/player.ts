@@ -135,3 +135,4 @@ export class Player {
         dx = Math.sin(this.facing)
         dz = Math.cos(this.facing)
       }
+      const l = Math.hypot(dx, dz)
