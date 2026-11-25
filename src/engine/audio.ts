@@ -17,3 +17,4 @@ export class Sfx {
     try {
       this.ctx = new AudioContext()
     } catch {
+      return
