@@ -81,3 +81,4 @@ export class Projectiles {
 
   update(dt: number) {
     const g = this.g
+    const p = g.player
