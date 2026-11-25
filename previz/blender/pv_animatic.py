@@ -112,3 +112,4 @@ def build(dunia, res=(1280, 720), samples=24):
     for fr in range(1, FRAMES + 1):
         t = (fr - 1) / FPS
         P = il_pos(t)
+        walking = T_DROP <= t < T_WALK
