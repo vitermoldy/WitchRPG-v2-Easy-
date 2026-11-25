@@ -106,3 +106,4 @@ async function boot() {
   refreshers.push(() => {
     shake.checked = pr.settings.shake
   })
+  shake.addEventListener('change', () => {
