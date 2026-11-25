@@ -212,3 +212,4 @@ export class Ledger {
               <p class="room-meta">Lv ${s.level}${live.has(s.id) ? ', sedang bertarung' : ''}</p>
               <button class="btn btn-small" type="button" data-release="${s.id}" aria-label="Lepas ${s.name}">Lepas</button>
             </li>`,
+              )
