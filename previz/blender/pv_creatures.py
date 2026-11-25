@@ -1105,3 +1105,4 @@ COLORS = {
     "dragon": {"body": ("#9a2618", "#d8a878"), "membrane": "#d89a6a", "accent": "#6a160e", "horn": "#e8dcc0", "mouth": "#5a0e0a"},
     "hydra": {"body": ("#56664c", "#a0a884"), "membrane": "#a0aca0", "accent": "#3e4a38", "horn": "#d8d8c8", "mouth": "#5a1e1a"},
     "cerberus": {"body": ("#9a92ae", "#bcb4cc"), "collar": "#1c1c20", "metal": "#d0d0d8", "horn": "#f2f0ea", "mouth": "#a01c22", "nose": "#2a2430", "claw": "#3a3440"},
+    "lilith": {"skin": "#e2b9a2", "hair": "#2a1a18", "cloth": "#4b3b7c", "snake": ("#b02a20", "#e0a070"), "membrane": "#3a1a20", "horn": "#2a1a1a", "mouth": "#5a0e0a"},
