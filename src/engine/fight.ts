@@ -255,3 +255,5 @@ export class Fight {
   /** Nothing can hurt her during an execution. */
   get invulnerable() {
     return !!this.exec
+  }
+
