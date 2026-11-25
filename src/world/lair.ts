@@ -369,3 +369,5 @@ export class Lair {
         if (!g.props.list.some((r) => Math.hypot(r.pos.x - isl.x, r.pos.z - isl.z) < isl.r)) g.props.add(isl.x, isl.z)
       }
     }
+  }
+
