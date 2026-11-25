@@ -523,3 +523,4 @@ def fog_material(z):
     m.use_nodes = True
     nt = m.node_tree
     nt.nodes.clear()
+    N, L = nt.nodes, nt.links
