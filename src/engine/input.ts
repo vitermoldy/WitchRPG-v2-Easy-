@@ -42,3 +42,4 @@ export class Input {
       this.dx += e.movementX
       this.dy += e.movementY
     })
+    document.addEventListener('pointerlockchange', () => {
