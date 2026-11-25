@@ -14,3 +14,4 @@ const num = (key, fallback) => {
 }
 
 export const config = {
+  name: 'Crimson Sovereign: Hutan (Easy)',
