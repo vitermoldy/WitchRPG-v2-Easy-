@@ -237,3 +237,4 @@ def feather_wing(part, root, s, span, chord, raise_deg=30, sweep_deg=15, feather
     for i in range(np_):
         t = i / (np_ - 1)
         base = Ht.lerp(Wr, t)
+        feather(base, 8 + 62 * t, (0.42 - 0.12 * t) * S, 0.075 * S, tip_mat or mat)
