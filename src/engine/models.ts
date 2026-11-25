@@ -134,3 +134,4 @@ export class IlyraModel {
     walk(this.root)
     for (const side of ['L', 'R']) {
       this.parts['hand_' + side]?.traverse((o) => {
+        const m = (o as THREE.Mesh).material as THREE.MeshStandardMaterial | undefined
