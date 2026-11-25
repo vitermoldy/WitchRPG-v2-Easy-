@@ -254,3 +254,4 @@ export class LightPool {
     }
   }
 
+  reset() {
