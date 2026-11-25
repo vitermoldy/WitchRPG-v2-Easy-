@@ -210,3 +210,4 @@ export class WorldMap {
       const g = parseInt(z.ground.slice(1), 16)
       const f = parseInt(z.fog.slice(1), 16)
       // the zone's ground lifted toward its fog colour, so the five zones read apart
+      const mix = (a: number, b: number) => a * 0.55 + b * 0.45
