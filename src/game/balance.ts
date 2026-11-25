@@ -127,3 +127,4 @@ export const RITE = {
   massManaPerExtra: 8,
   /** The Shadow Room has no slots; this only guards the save from running away. */
   maxShadows: 2000,
+  /** A fallen shadow can be called again after this many seconds. */
