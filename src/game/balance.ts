@@ -171,3 +171,4 @@ export const RANKS: Record<RankId, { label: string; base: number }> = {
 }
 
 export type UnitKind =
+  | 'husk' | 'hound' | 'spitter' | 'warden' | 'riftlord' | 'hollow' | 'harrier' | 'bombard'
