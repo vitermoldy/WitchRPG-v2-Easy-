@@ -228,3 +228,4 @@ const poseHound: PoseFn = (p, u, t) => {
     return
   }
   // trot: diagonal pairs move together
+  const a = Math.sin(ph)
