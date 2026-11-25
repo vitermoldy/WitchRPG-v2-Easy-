@@ -108,3 +108,4 @@ export class Terrain {
 
   private geometry(ix: number, iz: number, step: number): THREE.BufferGeometry {
     const n = Math.round(CHUNK / step)
+    const x0 = -HALF + ix * CHUNK
