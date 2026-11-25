@@ -80,3 +80,4 @@ export async function hashPassword(password) {
 export async function verifyPassword(password, stored) {
   const [kind, n, r, p, salt, hash] = String(stored).split('$')
   if (kind !== 'scrypt' || !salt || !hash) return false
+  const expected = Buffer.from(hash, 'base64')
