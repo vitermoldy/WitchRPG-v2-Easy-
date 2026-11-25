@@ -162,3 +162,4 @@ export class Projectiles {
     if (!s.reflected) this.g.clearTelegraph(s.source)
     this.group.remove(s.mesh)
     this.shots.splice(i, 1)
+  }
