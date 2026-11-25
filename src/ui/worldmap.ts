@@ -112,3 +112,5 @@ export class WorldMap {
     }
     if (rerender) this.renderMonsters()
     this.draw()
+  }
+
