@@ -78,3 +78,4 @@ export class Particles {
   private readonly size0: Float32Array
   private readonly size1: Float32Array
   private readonly alpha0: Float32Array
+  private readonly grav: Float32Array
