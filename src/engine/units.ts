@@ -194,3 +194,5 @@ export class Unit implements Foe {
   /** Can be struck, locked on to, gripped or chased. Fauna never can. */
   get targetable() {
     return this.alive && this.state !== 'finishing' && !this.hidden && !this.spec.passive
+  }
+
