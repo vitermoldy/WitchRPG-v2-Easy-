@@ -200,3 +200,4 @@ export class Sfx {
     const t = this.ctx.currentTime
     gain.gain.cancelScheduledValues(t)
     gain.gain.setValueAtTime(gain.gain.value, t)
+    gain.gain.exponentialRampToValueAtTime(0.0001, t + 0.12)
