@@ -10,3 +10,4 @@ const loader = new GLTFLoader()
 /** Loads a model exported by previz/blender/export_glb.py. */
 export async function loadModel(url: string): Promise<THREE.Group> {
   const gltf = await loader.loadAsync(url)
+  gltf.scene.traverse((o) => {
