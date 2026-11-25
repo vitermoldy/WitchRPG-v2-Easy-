@@ -289,3 +289,4 @@ export class Hud {
     // the zone banner gives way while a boss bar holds the top of the screen
     this.root.classList.toggle('boss', !!boss)
     if (!boss) return
+    const hydra = boss.kind === 'hydra'
