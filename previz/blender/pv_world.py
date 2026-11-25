@@ -477,3 +477,4 @@ def build_forest(coll, P, size=1260.0, step=4.0, seed=3):
     # rocks everywhere, big rocks on the cliffs
     for kind, prob, slope_min in (("rock", 0.012, 0.0), ("rock_big", 0.015, 0.55)):
         sel = (rng.random(len(X)) < prob) & (slope > slope_min) & (_dist(X, Y, LAKE["c"]) > LAKE["r"]) & (Z > -1)
+        for c, rad in CLEARINGS:
