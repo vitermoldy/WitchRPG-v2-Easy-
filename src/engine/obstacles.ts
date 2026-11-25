@@ -159,3 +159,4 @@ function segCylinder(ax: number, ay: number, az: number, dx: number, dy: number,
   const c = ox * ox + oz * oz - R * R
   if (a < 1e-12) {
     if (c > 0) return 1
+    c0 = -Infinity
