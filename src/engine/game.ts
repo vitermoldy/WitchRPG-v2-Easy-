@@ -470,3 +470,5 @@ export class Game implements UnitHost {
   spawn(mx: number, my: number, fx = 0, fy = 1) {
     const [x, z] = toWorld(mx, my)
     this.placeAt(x, z, yawTo(0, 0, fx, -fy))
+  }
+
