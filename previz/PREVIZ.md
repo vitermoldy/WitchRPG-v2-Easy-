@@ -61,3 +61,4 @@ Tinggi total diukur dari block-out (termasuk tanduk dan sayap yang terangkat; Il
 | Naga rawa | 3,16 m | tubuh ular 7 m | 3,89 m | 2,86 m | 0,60 m | 3.334 | 8.000 | III |
 | Minotaur | 3,08 m | 2,75 m | 1,67 m | 2,97 m | 0,75 m | 7.534 | 8.000 | IV |
 | Cyclops | 4,08 m | 4,2 m | 2,45 m | 3,50 m | 1,10 m | **8.504** | 8.000 | IV |
+| Medusa | 2,48 m | 2,2 m | 1,89 m | 2,11 m | 0,80 m | 15.928 | 30.000 (mini-boss) | III |
