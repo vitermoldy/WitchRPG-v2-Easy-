@@ -385,3 +385,4 @@ class Part:
         allv = []
         off = self.pivot
         for i, p in enumerate(P):
+            Nn = (Nn - T[i] * Nn.dot(T[i]))
