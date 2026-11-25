@@ -20,3 +20,4 @@ HEX = {
     "umbra_deep": "#2c1052",
     "rift": "#ffa53d",
     "bone": "#efe6df",
+    "ash": "#5d5557",
