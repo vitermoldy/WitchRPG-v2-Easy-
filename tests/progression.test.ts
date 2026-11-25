@@ -205,3 +205,4 @@ describe('Tier IV and V', () => {
     p.bossKills = 1
     expect(tierUnlocked(p, 4)).toBe(true)
     expect(tierLock(p, 4)).toBeNull()
+    expect(tierUnlocked(p, 5)).toBe(false)
