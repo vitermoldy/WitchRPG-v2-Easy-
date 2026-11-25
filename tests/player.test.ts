@@ -121,3 +121,4 @@ describe('Ilyra on foot', () => {
     expect(p.dodges).toBe(1)
   })
 
+  it('cannot walk up a cliff or into deep water', () => {
