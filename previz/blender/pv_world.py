@@ -696,3 +696,6 @@ def build_rift(coll):
         if ob.type == "MESH":
             ob.location.y -= 0.5
     C.point(coll, "rift_light", (bc[0], bc[1], 180), "#ff6a2a", energy=2.0e6, radius=40)
+    return r
+
+
