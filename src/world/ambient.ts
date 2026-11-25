@@ -181,3 +181,4 @@ export class Ambient {
     this.time += dt
     const p = this.pos
     for (let i = 0; i < COUNT; i++) {
+      if (first) {
