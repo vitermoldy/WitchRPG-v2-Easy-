@@ -497,3 +497,4 @@ export class Game implements UnitHost {
     }
     this.state = 'playing'
     this.input.capture = true
+    this.sfx.start()
