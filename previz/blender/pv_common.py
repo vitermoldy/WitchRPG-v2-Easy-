@@ -585,3 +585,4 @@ def camera(sc, name, loc, look_at=None, rot=None, lens_vfov=None, ortho=None, cl
     cd = bpy.data.cameras.new(name)
     cd.clip_start, cd.clip_end = clip
     if ortho:
+        cd.type = "ORTHO"
