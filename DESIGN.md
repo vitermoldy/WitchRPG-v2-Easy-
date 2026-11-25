@@ -110,3 +110,4 @@ Tur fitur (setiap skill sekali di game, `?debug`, Lv 10): Hex Bolt melukai Imp d
 | Tukar Tempat (Lv 4) | Dengan bayangan yang paling dekat ke tengah pandangan; jeda 10 dtk (6 dengan upgrade) | v1. |
 | Perintah Fokus (Lv 6) | Semua bayangan menyerang target yang sama; +20% damage pada target itu dengan upgrade | v1. |
 | Jarak pasukan | Bayangan bertarung dengan makhluk dalam 14 m yang berada dalam 22 m dari Ilyra. Yang tertinggal lebih dari 45 m (kecuali yang menahan posisi) ditarik kembali lewat kolam | v1. |
+| Sasaran makhluk | Makhluk menyerang bayangan bila bayangan itu jauh lebih dekat (kurang dari 60% jarak ke Ilyra) | Pasukan melindungi Ilyra, tapi tidak menelan semua serangan. Dikunci tes. |
