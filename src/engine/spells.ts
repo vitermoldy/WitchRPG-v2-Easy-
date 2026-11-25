@@ -271,3 +271,4 @@ export class Spells {
     g.lights.flash(g.ilyra.hand('L'), COLOR.chaos, 30, 18, 0.6)
   }
 
+  private fireBolt() {
