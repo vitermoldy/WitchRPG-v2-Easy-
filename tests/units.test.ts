@@ -176,3 +176,4 @@ describe('phase 4 creatures', () => {
   it('Naga slips under when hurt: out of reach for its dive, then up a few metres away', () => {
     const w = world()
     const n = w.sys.spawn('naga', 'enemy', 7, { x: 0, z: 10 })
+    n.aggro = false
