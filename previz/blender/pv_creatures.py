@@ -913,3 +913,4 @@ def b_hydra(r, heads=5):
             name = f"neck{i}_{j}"
             pr = r.P(name, js[j], parent)
             ra = nr * (1 - 0.45 * j / (len(js) - 1))
+            rb = nr * (1 - 0.45 * (j + 1) / (len(js) - 1))
