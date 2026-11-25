@@ -597,3 +597,4 @@ def build_fog(coll):
     out = nt.nodes.new("ShaderNodeOutputMaterial")
     vol = nt.nodes.new("ShaderNodeVolumePrincipled")
     vol.inputs["Color"].default_value = C.rgb("#b9c8da")
+    vol.inputs["Density"].default_value = 0.00025
