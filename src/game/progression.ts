@@ -161,3 +161,4 @@ export function shadowPower(umb: number): number {
 }
 
 export interface Derived {
+  maxHp: number
