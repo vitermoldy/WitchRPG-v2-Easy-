@@ -114,3 +114,4 @@ def build(dunia, res=(1280, 720), samples=24):
         P = il_pos(t)
         walking = T_DROP <= t < T_WALK
         phase = (P - A).length / 1.35 * 2 * math.pi
+        face = f.copy()
