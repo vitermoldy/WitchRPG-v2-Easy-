@@ -130,3 +130,4 @@ def flat(m):
         b.inputs["Emission Color"].default_value = (*e[0], 1.0)
         b.inputs["Emission Strength"].default_value = min(e[1], 12.0)
         if not m.node_tree.nodes.get("Principled BSDF"):
+            b.inputs["Base Color"].default_value = (*e[0], 1.0)
