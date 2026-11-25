@@ -485,3 +485,5 @@ class Rig:
             ob.parent = par or self.root
             ob.location = p.pivot - parent_pivot
             self.objs[name] = ob
+        return self
+
