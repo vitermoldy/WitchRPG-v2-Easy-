@@ -100,3 +100,4 @@ export class Altars {
 
   private paint() {
     for (const a of this.list) {
+      const on = this.isLit(a.key)
