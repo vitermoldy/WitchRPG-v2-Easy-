@@ -35,3 +35,4 @@ export const ALTARS: { key: string; name: string; c: [number, number] }[] = [
   { key: 'simpang', name: 'Altar Persimpangan', c: [28, -114] },
   { key: 'tebing', name: 'Altar Tebing Berangin', c: [242, -30] },
   { key: 'rawa', name: 'Altar Rawa Berkabut', c: [-184, -10] },
+  { key: 'danau', name: 'Altar Danau Hitam', c: [-290, 200] },
