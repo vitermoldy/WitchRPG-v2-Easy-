@@ -55,3 +55,4 @@ describe('Ilyra in the air (B)', () => {
   })
 
   it('does not roll in the air', () => {
+    const p = new Player()
