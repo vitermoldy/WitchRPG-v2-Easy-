@@ -295,3 +295,4 @@ export class Sfx {
   }
 
   roar() {
+    if (!this.ok()) return
