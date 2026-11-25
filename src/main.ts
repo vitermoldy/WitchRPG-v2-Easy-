@@ -125,3 +125,4 @@ async function boot() {
     changed: () => {
       game.statsChanged()
     },
+    sfxUi: () => game.sfx.ui(),
