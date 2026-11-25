@@ -8,3 +8,4 @@ import { connect } from './db.js'
  * new password (there is no reset by email, so this is the reset). A new account takes over the
  * witch of the newest browser that saved one before any account owned it.
  */
+const ALPHABET = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789'
