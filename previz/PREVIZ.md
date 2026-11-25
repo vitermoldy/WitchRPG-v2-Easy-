@@ -123,3 +123,4 @@ Makhluk memakai warna dari gambar referensinya (keputusan pemilik setelah previz
 | Phoenix | merah api `#d0381c` | sayap ke jingga `#ffb030`, ekor menyala `#ffd060` (beremisi) |
 | Dragon | merah `#9a2618`, perut `#d8a878` | selaput sayap `#d89a6a`, duri `#6a160e` |
 | Hydra | hijau abu `#56664c`, perut `#a0a884` | sirip kepala `#a0aca0`, duri `#3e4a38` |
+| Cerberus besar | ungu keabuan `#9a92ae` | kalung hitam `#1c1c20` berduri perak, mulut merah |
