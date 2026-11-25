@@ -138,3 +138,4 @@ export class Telegraphs {
       it.total = atk.windup * u.tempo
       this.layLine(it)
     } else {
+      it.radius = ringOf(atk)
