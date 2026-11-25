@@ -409,3 +409,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   },
   // v2, Hutan Pembuka: crowds in. Leaps and claws after a 0.5 s crouch under a slow amber ring: block or parry it.
   imp: {
+    name: 'Imp',
