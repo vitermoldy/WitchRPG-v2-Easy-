@@ -1110,3 +1110,4 @@ export class Game implements UnitHost {
   frameStats() {
     const n = Math.min(this.frameCount, FRAME_SAMPLES)
     const arr = Array.from(this.frames.slice(0, n)).filter((v) => v > 0).sort((a, b) => a - b)
+    const at = (q: number) => (arr.length ? arr[Math.min(arr.length - 1, Math.floor(q * arr.length))] : 0)
