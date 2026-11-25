@@ -64,3 +64,4 @@ describe('over-the-shoulder camera', () => {
     const rig = new CameraRig()
     rig.pitch = 0
     const pose = rig.update(1 / 60, pivot, false, null, obs, flat)
+    expect(pose.pos.z).toBeLessThan(2)
