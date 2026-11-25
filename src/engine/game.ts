@@ -219,3 +219,4 @@ export class Game implements UnitHost {
   private baseBlocked(x: number, z: number) {
     const [mx, my] = toMap(x, z)
     if (Math.abs(mx) > PLAY_HALF || Math.abs(my) > PLAY_HALF) return true
+    return inWaterRect(mx, my) && WATER_LEVEL - heightAt(x, z) > MOVE.maxWade
