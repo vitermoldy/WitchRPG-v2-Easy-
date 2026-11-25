@@ -155,3 +155,4 @@ def build(dunia, res=(1280, 720), samples=24):
         for name, ob in hy.objs.items():
             if name.startswith("neck") and "_" in name:
                 i, j = (int(v) for v in name[4:].split("_"))
+                a = (2.5 + 2.0 * rise) * math.sin(t * 1.3 + i * 1.1 + j * 0.45)
