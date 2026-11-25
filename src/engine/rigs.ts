@@ -117,3 +117,4 @@ const IMP_LIMBS = ['upperarm_L', 'upperarm_R', 'thigh_L', 'thigh_R', 'tail']
 const poseImp: PoseFn = (p, u, t) => {
   if (common(p, u, t, IMP_LIMBS)) return
   const s = Math.sin(u.walk * 1.4)
+  const amp = Math.min(1.4, Math.hypot(u.vel.x, u.vel.z) / Math.max(1, u.speed))
