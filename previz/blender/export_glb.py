@@ -132,3 +132,6 @@ def flat(m):
         if not m.node_tree.nodes.get("Principled BSDF"):
             b.inputs["Base Color"].default_value = (*e[0], 1.0)
     _flat[m.name] = f
+    return f
+
+
