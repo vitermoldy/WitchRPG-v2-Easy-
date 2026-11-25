@@ -880,3 +880,4 @@ export class UnitSystem {
   private separate(u: Unit, dt: number) {
     const cx = Math.floor(u.pos.x / CELL)
     const cz = Math.floor(u.pos.z / CELL)
+    for (let dx = -1; dx <= 1; dx++) {
