@@ -208,3 +208,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
       void checkAccount()
       return
     }
+    button.disabled = true
