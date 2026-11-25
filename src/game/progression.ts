@@ -68,3 +68,4 @@ export const DEFAULT_SETTINGS: Settings = { sensitivity: 1, volume: 0.7, headBob
 
 export function newProfile(): Profile {
   return {
+    version: 1,
