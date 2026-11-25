@@ -921,3 +921,4 @@ export class UnitSystem {
       u.groundZ = u.pos.z
     }
     const ground = u.ground
+    if (u.lifted > 0) {
