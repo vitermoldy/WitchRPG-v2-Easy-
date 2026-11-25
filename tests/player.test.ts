@@ -106,3 +106,5 @@ describe('Ilyra on foot', () => {
     run(p, { ...idle, dodge: true }, 0.6)
     // facing north, a backstep goes south (+z)
     expect(p.pos.z).toBeGreaterThan(3.5)
+  })
+
