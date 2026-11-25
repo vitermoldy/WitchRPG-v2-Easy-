@@ -9,3 +9,4 @@ Action-RPG third-person dengan rasa God of War di hutan terbuka, memakai sistem 
 | Sistem gameplay | Mengikuti v1: dua tangan sihir, Chaos, Umbra, Ledger, level, stat, skill, pasukan bayangan |
 | Rasa permainan | God of War: kamera third-person di balik bahu, satu kamera tanpa pemotongan, tempur berbobot, boss sebagai set-piece |
 | Dunia | Hutan terbuka |
+| Makhluk dan musuh | Mengacu pada gambar di `assets/` |
