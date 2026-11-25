@@ -653,3 +653,4 @@ export class Game implements UnitHost {
     if (share <= 0) {
       // phase 3 outside Reality Warp: nothing gets through
       if (source === 'player' && this.t - this.immuneAt > 0.4) {
+        this.immuneAt = this.t
