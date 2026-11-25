@@ -370,3 +370,4 @@ class Part:
         if isinstance(radii, (int, float)):
             radii = [radii] * len(pts)
         R = []
+        for t in ts:
