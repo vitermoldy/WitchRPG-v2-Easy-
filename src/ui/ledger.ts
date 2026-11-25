@@ -250,3 +250,4 @@ export class TravelPanel {
         this.next = 'ledger'
         this.close()
       }
+    })
