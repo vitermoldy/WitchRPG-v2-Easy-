@@ -364,3 +364,4 @@ def build_protos(lib_coll):
     P["birch"] = proto("p_birch", coll, pal, _birch)
     P["swamp"] = proto("p_swamp", coll, pal, _swamp_tree)
     P["dead"] = proto("p_dead", coll, pal, _dead)
+    P["burnt"] = proto("p_burnt", coll, pal, lambda p: _dead(p, "burnt"))
