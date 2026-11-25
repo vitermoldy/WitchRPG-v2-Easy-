@@ -154,3 +154,4 @@ export class Lair {
     const body = g.units.spawn('hydra', 'enemy', LEVEL, { x: at.x, z: at.z })
     body.controlled = true
     body.aggro = false
+    body.setScale(HYDRA.scale)
