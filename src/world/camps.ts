@@ -268,3 +268,4 @@ export class Camps {
         for (let k = 0; k < STONES; k++) this.shards.setColorAt(i++, this.c)
       }
       if (this.shards.instanceColor) this.shards.instanceColor.needsUpdate = true
+    }
