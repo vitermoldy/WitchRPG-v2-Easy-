@@ -1041,3 +1041,4 @@ def b_atlas(r):
     hc = V(J["head_c"])
     h.ell(hc, (0.5, 0.55, 0.6), mat="skin")
     face(h, hc, 9.0)
+    beard(h, hc + Vector((0, -0.4, -0.3)), 1.1, 0.38)
