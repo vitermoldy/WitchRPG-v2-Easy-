@@ -410,3 +410,4 @@ def scatter_object(name, coll, proto_ob, pts, rots, scales):
     me.vertices.add(len(pts))
     me.vertices.foreach_set("co", np.asarray(pts, np.float32).ravel())
     a = me.attributes.new("rot", "FLOAT_VECTOR", "POINT")
+    a.data.foreach_set("vector", np.asarray(rots, np.float32).ravel())
