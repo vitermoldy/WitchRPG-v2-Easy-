@@ -241,3 +241,4 @@ export class Spells {
     this.backlashT = Math.max(0, this.backlashT - dt)
 
     if (canAct) {
+      if (inp.overload && this.chaos >= CHAOS.max && !this.overloaded) this.startOverload()
