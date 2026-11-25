@@ -127,3 +127,4 @@ export class Camps {
     this.camps = CAMP_DEFS.map((def) => {
       const [x, z] = toWorld(def.c[0], def.c[1])
       return { def, pos: new THREE.Vector3(x, heightMap(def.c[0], def.c[1]), z), state: 'idle', units: [], respawnAt: 0, roused: false }
+    })
