@@ -127,3 +127,4 @@ export class Umbra {
     let index = i
     while (index >= 8 + ring * 4) {
       index -= 8 + ring * 4
+      ring++
