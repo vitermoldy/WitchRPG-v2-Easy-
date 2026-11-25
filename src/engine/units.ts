@@ -834,3 +834,4 @@ export class UnitSystem {
         u.focus = null
         u.command = 'follow'
       }
+    }
