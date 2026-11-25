@@ -26,3 +26,5 @@ function clientCode(): string {
     memoryCode ??= makeCode()
     return memoryCode
   }
+}
+
