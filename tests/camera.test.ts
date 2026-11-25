@@ -8,3 +8,4 @@ const pivot: Vec = { x: 0, y: 1.6, z: 0 }
 
 function rng(seed: number) {
   let a = seed >>> 0
+  return () => {
