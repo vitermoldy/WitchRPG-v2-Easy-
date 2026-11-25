@@ -172,3 +172,4 @@ def build_terrain(coll, size=1300.0, step=2.5):
     me.loops.add(len(quads) * 4)
     me.loops.foreach_set("vertex_index", quads.ravel())
     me.polygons.add(len(quads))
+    me.polygons.foreach_set("loop_start", (np.arange(len(quads)) * 4).astype(np.int32))
