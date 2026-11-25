@@ -551,3 +551,5 @@ export class Game implements UnitHost {
     p.mana = p.maxMana * manaShare
     p.speedMult = d.speedMult
     p.dodgeDistance = d.dodgeDistance
+  }
+
