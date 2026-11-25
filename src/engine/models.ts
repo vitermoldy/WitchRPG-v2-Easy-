@@ -15,3 +15,4 @@ export async function loadModel(url: string): Promise<THREE.Group> {
     if (!m.isMesh) return
     m.castShadow = true
     const mat = m.material as THREE.MeshStandardMaterial
+    // emission strengths from Blender are tuned for its renderer; bloom here needs far less
