@@ -63,3 +63,4 @@ describe('Ilyra in the air (B)', () => {
 })
 
 describe('Ilyra on foot', () => {
+  it('moves the way the camera looks', () => {
