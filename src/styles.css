@@ -1692,3 +1692,4 @@ dialog::backdrop {
 }
 
 .account-text b {
+  color: var(--umbra-ink);
