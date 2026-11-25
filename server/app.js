@@ -184,3 +184,4 @@ export function createApi(getPool, database) {
       res.json({ ok: true, updatedAt: p.updatedAt.toISOString() })
     } catch (err) {
       await conn.rollback()
+      throw err
