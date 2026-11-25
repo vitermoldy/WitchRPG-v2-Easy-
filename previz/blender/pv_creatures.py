@@ -218,3 +218,4 @@ def bat_wing(part, root, s, span, chord, raise_deg=30, sweep_deg=15, bone="horn"
 
 
 def feather_wing(part, root, s, span, chord, raise_deg=30, sweep_deg=15, feathers=9, mat="membrane", tilt=55, tip_mat=None, arm="body2"):
+    """Arm with a covert panel, primaries fanning from the hand and secondaries along the forearm.
