@@ -19,3 +19,4 @@ export interface FightInput {
   dirZ: number
 }
 
+const wrap = (a: number) => Math.atan2(Math.sin(a), Math.cos(a))
