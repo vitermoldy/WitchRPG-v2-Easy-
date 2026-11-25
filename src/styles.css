@@ -1732,3 +1732,5 @@ dialog::backdrop {
   font-family: var(--font-mono);
   font-size: 0.85em;
   color: var(--rift);
+}
+
