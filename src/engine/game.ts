@@ -1140,3 +1140,4 @@ export class Game implements UnitHost {
       alive: p.alive,
       dodges: p.dodges,
       locked: !!this.lockon.current,
+      enemies: this.units.enemies().length,
