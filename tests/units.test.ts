@@ -123,3 +123,4 @@ describe('creature attacks', () => {
     w.sys.kill(imp, true)
     expect(imp.executed).toBe(true)
     expect(w.log.died).toContain(imp)
+  })
