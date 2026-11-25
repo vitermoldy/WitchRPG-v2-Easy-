@@ -839,3 +839,4 @@ export class UnitSystem {
     let tgt: Unit | null = null
     if (u.command === 'attack' && u.focus && u.focus.targetable) tgt = u.focus
     else if (u.command === 'hold') tgt = this.nearestFoe(u, 4)
+    else {
