@@ -742,3 +742,4 @@ export class Game implements UnitHost {
       u.command = 'follow'
       u.focus = null
       u.set('rising')
+      this.pools.open(spot, 0.9 + u.radius * 1.6, 1.2)
