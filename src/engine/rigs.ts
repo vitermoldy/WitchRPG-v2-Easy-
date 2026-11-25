@@ -988,3 +988,4 @@ export class Rigs {
   private readonly p = new THREE.Vector3()
   private readonly s = new THREE.Vector3()
 
+  constructor(models: Partial<Record<UnitKind, THREE.Group>>, lods: Partial<Record<UnitKind, THREE.Group>> = {}) {
