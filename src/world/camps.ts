@@ -32,3 +32,4 @@ export const CAMP_DEFS: CampDef[] = [
   { c: [12, -228], pack: { imp: 4, hellhound: 2 }, levels: [2, 3] },
   { c: [110, -280], pack: { imp: 6 }, levels: [2, 3] },
   { c: [-150, -250], pack: { hellhound: 4 }, levels: [3, 3] },
+  { c: [40, -168], pack: { imp: 4, hellhound: 2 }, levels: [3, 3] },
