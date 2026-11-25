@@ -1283,3 +1283,4 @@ dialog::backdrop {
 }
 
 .btn-small {
+  min-height: 36px;
