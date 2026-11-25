@@ -389,3 +389,4 @@ def build_army(dunia):
         if key not in built:
             built[key] = actor(f"aktor.bayangan.{key}", key, kind="shadow")
         p = fr(fw, rt)
+        place(built[key], local, p.x, p.y, -f, dz=dz, name=f"bayangan.{i}")
