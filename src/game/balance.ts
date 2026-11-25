@@ -81,3 +81,4 @@ export const LOCKON = {
 } as const
 
 export const PLAYER = {
+  baseHp: 100,
