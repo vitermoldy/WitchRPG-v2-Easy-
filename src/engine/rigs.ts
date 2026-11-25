@@ -677,3 +677,4 @@ const poseHydra: PoseFn = (p, u, t) => {
  * to strike. Fauna standing still lower their heads to graze.
  */
 const poseBeast: PoseFn = (p, u, t) => {
+  if (common(p, u, t, ['leg_FL', 'leg_FR', 'leg_HL', 'leg_HR', 'tail'])) return
