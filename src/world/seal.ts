@@ -70,3 +70,4 @@ export class Seal {
         if (j < this.n - 1 && !this.mask[i * this.n + j + 1]) wall(x0, y0 + CELL, x0 + CELL, y0 + CELL)
       }
     }
+    const geo = new THREE.BufferGeometry()
