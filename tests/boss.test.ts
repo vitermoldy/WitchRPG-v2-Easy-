@@ -72,3 +72,4 @@ describe('the Hydra', () => {
     expect(HYDRA.lairLevel).toBe(10)
   })
 
+  it('raises as a Marsekal from a 15% base, once, and only with Kebangkitan Marsekal', () => {
