@@ -138,3 +138,4 @@ def build(dunia, res=(1280, 720), samples=24):
                 ob.rotation_euler = [math.radians(a) for a in rot]
                 ob.keyframe_insert("rotation_euler", frame=fr)
 
+        # naga: surfaces when she stops, dives as the lake rises
