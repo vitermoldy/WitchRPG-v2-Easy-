@@ -878,3 +878,4 @@ export class UnitSystem {
   // ------------------------------------------------------------ movement
 
   private separate(u: Unit, dt: number) {
+    const cx = Math.floor(u.pos.x / CELL)
