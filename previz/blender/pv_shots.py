@@ -20,3 +20,6 @@ CAM = {
 }
 CAM_FINAL_OVER = {}
 
+_ACTORS = None
+
+
