@@ -420,3 +420,5 @@ class Part:
             if len(rings[-1]) > 2:
                 self.bm.faces.new(rings[-1])
         self._tag(allv, mat, smooth)
+        return self
+
