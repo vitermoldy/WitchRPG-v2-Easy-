@@ -521,3 +521,4 @@ def b_harpy(r):
                  body_mat="skin", leg_mat="leg", foot_mat="claw")
     h = r.parts["head"]
     hc = V(J["head_c"])
+    h.ell(hc, (0.085, 0.095, 0.11), mat="skin")
