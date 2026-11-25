@@ -970,3 +970,5 @@ export const HYDRA = {
   sleep: 220,
   /** Boulders kept on the islands in phase 2. */
   rocks: 6,
+} as const
+
