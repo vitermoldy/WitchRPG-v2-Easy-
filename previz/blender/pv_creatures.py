@@ -398,3 +398,4 @@ def axe(part, W, d, length=1.2, blade=0.55):
 # ---------------------------------------------------------------- Ilyra
 
 def b_ilyra(r, pose="idle"):
+    """Ilyra, 1.7 m: dark hooded robe and cloak, staff in the right hand, Chaos left, Umbra right."""
