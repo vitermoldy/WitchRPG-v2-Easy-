@@ -363,3 +363,4 @@ export class Hud {
       el.classList.toggle('staggered', u.staggered)
       el.classList.toggle('elite', !!u.elite)
       const label = u.staggered ? 'Limbung' : u.elite ? `Elit ${ELITE.label[u.elite]}` : ''
+      if (el.dataset.label !== label) el.dataset.label = label
