@@ -1002,3 +1002,4 @@ export const ELITE = {
   /** Share of damage that still lands on a berlapis elite, unless it comes from a throw. */
   armor: 0.45,
   swift: { speed: 1.45, tempo: 0.7 },
+  burst: { radius: 4.5, delay: 1.6, damage: 2 },
