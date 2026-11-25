@@ -91,3 +91,4 @@ def bake_tones(ob):
             co = me.vertices[me.loops[li].vertex_index].co
             fac = 0.5 + 0.5 * noise.noise(co * 4.0)
             v = (1.0 - vary) + fac * vary * 1.5
+            attr.data[li].color = tuple(min(1.0, (bottom[k] + (top[k] - bottom[k]) * f) * v) for k in range(3)) + (1.0,)
