@@ -10,3 +10,4 @@ export class Sfx {
   private volume = 0.7
 
   start() {
+    if (this.ctx) {
