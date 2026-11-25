@@ -100,3 +100,4 @@ export class Sfx {
     this.tone(t, 'sine', strong ? 160 : 240, 60, 0.12, strong ? 0.3 : 0.12)
   }
 
+  /** v2: the staff cutting the air; the heavy blow is lower and longer. */
