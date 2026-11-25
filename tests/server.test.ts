@@ -18,3 +18,4 @@ describe('the server checks a witch before it keeps her', () => {
   })
 
   it('knows every creature that can be raised, every skill and every altar of the game', () => {
+    const p = newProfile()
