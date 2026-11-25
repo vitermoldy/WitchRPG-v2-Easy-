@@ -932,3 +932,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
  * 150% from thrown things; boulders wait on the islands. Phase 3 (from 33%): it swallows its heads and
  * takes nothing outside Reality Warp; inside the field its heart opens for +50%.
  */
+export const HYDRA = {
