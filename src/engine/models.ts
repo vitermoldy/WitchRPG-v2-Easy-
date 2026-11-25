@@ -348,3 +348,4 @@ export class IlyraModel {
       foreR = mix(foreR, -10, e)
       torsoY += -12 * e
     }
+    if (act.grip) {
