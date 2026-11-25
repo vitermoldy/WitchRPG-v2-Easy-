@@ -289,3 +289,4 @@ export class Rings {
         side: THREE.DoubleSide,
       })
       const mesh = new THREE.Mesh(geo, mat)
+      mesh.visible = false
