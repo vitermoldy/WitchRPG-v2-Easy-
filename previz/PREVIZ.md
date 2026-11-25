@@ -45,3 +45,5 @@ Varian yang dibandingkan di `00-kamera-varian.png`:
 | C | Dipilih: FOV 50, 3,4 m, bahu 0,8 m, tinggi 1,6 m, pitch -6° | Ilyra di sepertiga kiri, seluruh kawanan di depan terlihat dengan ruang di kedua sisi |
 | D | Mode bidik: FOV 40, 2,0 m, bahu 0,65 m | Bahu dan kepala mengisi kiri; kepala tongkat yang menyala jatuh tepat di tengah dan menutupi target (lihat temuan) |
 
+Kamera tidak pernah memotong: animatic membuktikan transisi dari udara ke bahu sebagai satu gerakan. Tabrakan kamera dengan pohon belum diuji di previz; itu gerbang Fase 1.
+
