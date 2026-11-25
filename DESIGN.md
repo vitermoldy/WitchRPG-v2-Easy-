@@ -185,3 +185,4 @@ Tiga pertanyaan pemilik dari fase 4 (ritme, kabut Lembah Bara, warna mata musuh)
 | Kamp dan altar | Tiga kamp elit di tepi zona I sampai III, tujuh kamp di Reruntuhan Kuil (Minotaur kembali di sini), enam di Lembah Bara, semuanya di pita level zonanya. Altar baru di Danau Hitam, Reruntuhan Kuil, dan Lembah Bara | Prompt: kamp elit di tepi zona. Dikunci `tests/map.test.ts`. |
 | Bar boss | Bar besar dengan nama, level, fase, dan cara melawannya per fase | Pemain perlu tahu jawaban tiap fase sebelum kalah olehnya. |
 | Anggaran segitiga | Cyclops 7.464 (diekspor dengan `--ratio`), Succubus 5.892, Incubus 6.732, Phoenix 3.006, Hydra 15.482 (anggaran boss). Versi kerumunan 654 sampai 3.358 | Aturan prompt. |
+| Imp dari hantaman | Imp hanya muncul di tanah yang bisa diinjak di dalam sarang | Bot tanpa pasukan menemukan Imp yang jatuh ke air dalam: tidak bisa keluar dan tidak bisa dipukul, jadi bot terus mengejarnya. |
