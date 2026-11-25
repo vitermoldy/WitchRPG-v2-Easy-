@@ -425,3 +425,4 @@ export class Fight {
         if (off > 1.25) continue
         const score = d + off * 1.5
         if (score < best) {
+          best = score
