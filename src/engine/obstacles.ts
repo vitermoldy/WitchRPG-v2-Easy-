@@ -15,3 +15,4 @@ export interface Shape {
   r: number
   /** Cylinder height; unused for spheres. */
   h: number
+  /** Crowns block the camera but not her feet. */
