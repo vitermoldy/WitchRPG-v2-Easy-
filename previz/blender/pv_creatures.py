@@ -742,3 +742,4 @@ def b_chimera(r):
 
 def _demon(r, H, bulk, female, span, horn_kind, arm_pose):
     J = humanoid(r, H, bulk=bulk, legs="human", female=female, arm_pose=arm_pose, body_mat="skin", shin_mat="armor", foot_mat="armor")
+    h = r.parts["head"]
