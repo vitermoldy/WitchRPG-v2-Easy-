@@ -1021,3 +1021,4 @@ export class Game implements UnitHost {
     }
     this.glow.update(dt)
     this.smoke.update(dt)
+    this.lights.update(dt)
