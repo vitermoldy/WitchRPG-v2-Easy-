@@ -168,3 +168,5 @@ export const RANKS: Record<RankId, { label: string; base: number }> = {
   ksatria: { label: 'Ksatria', base: 0.45 },
   jenderal: { label: 'Jenderal', base: 0.3 },
   marsekal: { label: 'Marsekal', base: 0.15 },
+}
+
