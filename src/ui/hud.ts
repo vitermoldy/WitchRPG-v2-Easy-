@@ -167,3 +167,4 @@ export class Hud {
     el.classList.add('on')
   }
 
+  update(dt: number) {
