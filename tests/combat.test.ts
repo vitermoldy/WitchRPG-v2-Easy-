@@ -21,3 +21,4 @@ describe('block and parry', () => {
   })
 
   it('pins the parry window at 0.18 s', () => {
+    expect(W).toBe(0.18)
