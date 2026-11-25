@@ -207,3 +207,4 @@ export class Sfx {
     if (threw && this.ok()) {
       this.noise(t, 0.25, 'bandpass', 500, 0.3, 1, 3000)
       this.tone(t, 'sawtooth', 90, 300, 0.2, 0.1)
+    }
