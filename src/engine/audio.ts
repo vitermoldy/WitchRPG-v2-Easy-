@@ -5,3 +5,4 @@
 export class Sfx {
   private ctx: AudioContext | null = null
   private master: GainNode | null = null
+  private noiseBuf: AudioBuffer | null = null
