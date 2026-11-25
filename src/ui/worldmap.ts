@@ -357,3 +357,4 @@ export class WorldMap {
       })
     }
     for (const f of g.fauna.list()) {
+      if (!this.chosen.has(f.kind)) continue
