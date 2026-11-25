@@ -106,3 +106,4 @@ const boltMat = new THREE.MeshBasicMaterial({ color: new THREE.Color(COLOR.chaos
 const GRIP_HOLD = 0.25
 
 /**
+ * Chaos, the left hand: Hex Bolt and Telekinesis while aiming, Chaos Burst, Hex Snare, Hex Barrier and
