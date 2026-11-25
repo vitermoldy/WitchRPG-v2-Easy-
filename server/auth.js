@@ -67,3 +67,4 @@ const MESSAGES = {
   },
 }
 
+const scrypt = (password, salt, keylen, options) =>
