@@ -824,3 +824,4 @@ class Rig implements Poser {
     // fauna casts none either: a few grazing beasts are not worth a shadow pass of their own
     mesh.castShadow = this.team === 'enemy' && !this.passive
     mesh.receiveShadow = this.team === 'enemy'
+    mesh.count = 0
