@@ -60,3 +60,4 @@ const FRAG_SMOKE = /* glsl */ `
     float a = smoothstep(0.5, 0.1, d) * vAlpha;
     if (a < 0.01) discard;
     gl_FragColor = vec4(vColor, a);
+  }
