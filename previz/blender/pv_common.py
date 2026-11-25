@@ -198,3 +198,4 @@ def mat_globe(name, ocean="#2a6aa8", land="#4f8a3a"):
     return m
 
 
+# Slots every builder may ask for. A creature's colour spec fills them; unknown extra keys in a spec
