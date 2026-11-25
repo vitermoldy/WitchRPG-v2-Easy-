@@ -958,3 +958,4 @@ export class Game implements UnitHost {
     this.foe.pos.set(p.pos.x, p.pos.y, p.pos.z)
     this.foe.alive = alive
 
+    this.spells.update(sdt, canAct && !this.fight.exec, {
