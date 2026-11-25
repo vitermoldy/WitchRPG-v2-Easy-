@@ -59,3 +59,4 @@ export class Fauna {
   }
 
   /** Where each one lives, for the map. */
+  list() {
