@@ -701,3 +701,4 @@ button {
   top: 30%;
   display: flex;
   flex-direction: column;
+  gap: 0.35rem;
