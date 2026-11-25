@@ -703,3 +703,4 @@ def sky_world(name, zenith, horizon, ground, strength=1.0, haze=None, haze_densi
 
 
 def render_settings(sc, res=(1920, 1080), samples=64, vol_end=600.0, vol_tile="4", vol_samples=64, look="AgX - Punchy", transform="AgX", exposure=0.0, bloom=0.6, bloom_threshold=1.2, vignette=True):
+    sc.render.engine = "BLENDER_EEVEE"
