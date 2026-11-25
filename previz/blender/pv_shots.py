@@ -604,3 +604,4 @@ def build_board(lib_colls, stats):
         rx = [c.x * math.cos(a) - c.y * math.sin(a) for c in corners]
         w, h = max(rx) - min(rx), hi.z - lo.z
         s = min(4.1 / w, 3.55 / h)
+        cx = x0 + 6.85 - (min(rx) + w / 2) * s
