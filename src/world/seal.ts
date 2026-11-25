@@ -101,3 +101,4 @@ export class Seal {
     return this.mask[i * this.n + j] === 1
   }
 
+  /** While the seal holds: a step into sealed ground from open ground (or from nowhere known) is refused. */
