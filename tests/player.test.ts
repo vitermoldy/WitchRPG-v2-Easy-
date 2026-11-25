@@ -83,3 +83,4 @@ describe('Ilyra on foot', () => {
     expect(p.speed).toBeCloseTo(MOVE.sprint, 1)
   })
 
+  it('rolls 4.2 m in 0.42 s, untouchable from 0.04 s to 0.32 s', () => {
