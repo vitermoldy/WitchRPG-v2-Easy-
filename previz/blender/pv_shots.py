@@ -635,3 +635,4 @@ def build_bara(dunia):
     for i, (fw, rt) in enumerate(((7, -2), (8.5, 2.2), (10, -3.5), (11, 0.5))):
         q = fr(fw, rt)
         place(imp, local, q.x, q.y, -f, name=f"imp.bara.{i}")
+    ph = actor("aktor.phoenix.bara", "phoenix")
