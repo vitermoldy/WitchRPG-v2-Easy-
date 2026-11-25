@@ -137,3 +137,5 @@ async function boot() {
     openLedger: () => ledger.open(),
   })
   const map = new WorldMap(game)
+  if (debug) Object.assign(window as unknown as Record<string, unknown>, { __ledger: ledger, __travel: travel, __map: map })
+
