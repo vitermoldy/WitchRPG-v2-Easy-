@@ -70,3 +70,5 @@ export interface IlyraPose {
   stone: boolean
 }
 
+export const idlePose = (): IlyraPose => ({ swing: null, block: 0, parry: 0, execute: -1, throwK: -1, catchK: -1, staff: true, cast: 0, grip: false, rite: -1, hurt: 0, dead: -1, stone: false })
+
