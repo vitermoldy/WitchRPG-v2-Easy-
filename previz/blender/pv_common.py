@@ -488,3 +488,4 @@ class Rig:
         return self
 
     def rot(self, name, deg):
+        ob = self.objs.get(name)
