@@ -470,3 +470,4 @@ export class Fight {
     }
     if (s.heavy) {
       // the slam marks the ground even when it meets nothing
+      const fx = p.pos.x - Math.sin(p.facing) * 1.8
