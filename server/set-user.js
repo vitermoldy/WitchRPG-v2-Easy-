@@ -10,3 +10,4 @@ import { connect } from './db.js'
  */
 const ALPHABET = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789'
 const [username = '', password = ''] = process.argv.slice(2)
+if (!USERNAME.test(username) || password.length < PASSWORD_MIN || password.length > PASSWORD_MAX) {
