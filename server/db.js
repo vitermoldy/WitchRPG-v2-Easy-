@@ -55,3 +55,4 @@ const TABLES = [
     client_id CHAR(12) NOT NULL,
     altar VARCHAR(16) NOT NULL,
     last TINYINT UNSIGNED NOT NULL DEFAULT 0,
+    PRIMARY KEY (client_id, altar),
