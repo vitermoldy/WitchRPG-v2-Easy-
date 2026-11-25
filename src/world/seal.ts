@@ -64,3 +64,4 @@ export class Seal {
         if (!this.mask[i * this.n + j]) continue
         const x0 = -PLAY_HALF + i * CELL
         const y0 = -PLAY_HALF + j * CELL
+        if (i > 0 && !this.mask[(i - 1) * this.n + j]) wall(x0, y0, x0, y0 + CELL)
