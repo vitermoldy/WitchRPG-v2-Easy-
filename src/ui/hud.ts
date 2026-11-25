@@ -81,3 +81,4 @@ export class Hud {
     else el.className = value
   }
 
+  private html(el: HTMLElement, key: string, value: string) {
