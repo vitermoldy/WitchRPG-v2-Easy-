@@ -639,3 +639,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     cooldown: 2.4,
     stun: 70,
     keepAway: 8,
+    blink: { range: 10, every: 7 },
