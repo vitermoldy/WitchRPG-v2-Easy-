@@ -18,3 +18,4 @@ const RING_FRAG = /* glsl */ `
   uniform float uFill;
   uniform float uTime;
   void main() {
+    vec2 p = vUv * 2.0 - 1.0;
