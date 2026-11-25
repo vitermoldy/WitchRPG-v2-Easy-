@@ -124,3 +124,4 @@ def path_dist(x, y):
     best = np.full(np.shape(x), 1e9)
     for line in PATHS:
         for a, b in zip(line, line[1:]):
+            ax, ay = a
