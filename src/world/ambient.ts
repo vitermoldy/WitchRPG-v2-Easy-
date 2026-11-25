@@ -71,3 +71,4 @@ const RIFT_FRAG = /* glsl */ `
     return 0.5 + 0.07 * sin(y * 5.0 + 0.8) + 0.05 * (abs(fract(y * 7.0) - 0.5) * 2.0 - 0.5) + 0.02 * (abs(fract(y * 19.0 + 0.3) - 0.5) * 2.0 - 0.5);
   }
   void main() {
+    float y = vUv.y;
