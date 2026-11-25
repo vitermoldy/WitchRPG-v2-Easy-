@@ -49,3 +49,4 @@ export class Projectiles {
 
   clear() {
     for (const s of this.shots) this.group.remove(s.mesh)
+    this.shots.length = 0
