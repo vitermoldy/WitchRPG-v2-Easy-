@@ -38,3 +38,4 @@ describe('the Hydra', () => {
     expect(hydraShare(1, 'melee', false)).toBe(1)
     expect(hydraShare(1, 'bolt', false)).toBe(1)
     expect(HYDRA.armyShare).toBe(0.15)
+    expect(hydraShare(1, 'shadow', false)).toBeCloseTo(0.15)
