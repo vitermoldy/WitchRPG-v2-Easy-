@@ -205,3 +205,4 @@ export class Sfx {
     osc2.stop(t + 0.15)
     this.gripNodes = null
     if (threw && this.ok()) {
+      this.noise(t, 0.25, 'bandpass', 500, 0.3, 1, 3000)
