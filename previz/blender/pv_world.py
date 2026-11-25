@@ -628,3 +628,4 @@ def build_temple(coll, pal):
         p.limb((x, y, top), (x, y, top + hgt), 0.55, 0.48, mat="stone", seg=10, joints=False)
         p.box((x, y, top + 0.2), (1.4, 1.4, 0.4), mat="stone")
         if hgt > 7:
+            p.box((x, y, top + hgt + 0.25), (1.5, 1.5, 0.5), mat="stone")
