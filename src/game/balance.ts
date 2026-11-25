@@ -426,3 +426,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     strike: 'ring',
     stun: 30,
   },
+  // v2, Hutan Pembuka: packs of three to five. Circles to her side and lunges along a flashing line: dodge it.
