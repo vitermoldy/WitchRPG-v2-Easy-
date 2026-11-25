@@ -454,3 +454,4 @@ def build_lineup(lib_colls, stats):
             r.finalize()
             if mtr % step == 0:
                 C.text(coll, str(mtr), (ox + 0.75, -6, mtr - ts * 0.3), size=ts * 0.85, color="#aab0bd", align="RIGHT", rot=(90, 0, 0))
+        pole = C.Rig(f"tiang.{key}", {"l": line_mat}, coll)
