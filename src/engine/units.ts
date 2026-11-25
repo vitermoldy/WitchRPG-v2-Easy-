@@ -138,3 +138,4 @@ export class Unit implements Foe {
   /** Which way a body falls (for the death pose). */
   readonly fallSide: number = Math.random() < 0.5 ? -1 : 1
   deadT = 0
+  /** Finished by an execution: raises the Umbra Rite chance of the body. */
