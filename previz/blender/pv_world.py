@@ -525,3 +525,4 @@ def fog_material(z):
     nt.nodes.clear()
     N, L = nt.nodes, nt.links
     out = N.new("ShaderNodeOutputMaterial")
+    vol = N.new("ShaderNodeVolumePrincipled")
