@@ -23,3 +23,4 @@ export const AUTH_TABLES = [
     device_id VARCHAR(64) NOT NULL,
     created_at DATETIME NOT NULL,
     last_login_at DATETIME NULL,
+    last_seen_at DATETIME NULL,
