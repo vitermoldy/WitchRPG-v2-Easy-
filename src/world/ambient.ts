@@ -72,3 +72,4 @@ const RIFT_FRAG = /* glsl */ `
   }
   void main() {
     float y = vUv.y;
+    float taper = smoothstep(0.0, 0.3, y) * smoothstep(1.0, 0.62, y);
