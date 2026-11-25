@@ -335,3 +335,4 @@ class Part:
         self._tag(g["verts"], mat, smooth)
         return self
 
+    def limb(self, a, b, ra, rb=None, mat="body", seg=10, joints=True):
