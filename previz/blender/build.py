@@ -134,3 +134,4 @@ if "--anim" in argv:
     log("render animatic", first, last)
     if first == 1 and last == A.FRAMES:
         out = os.path.join(OUT, "animatic.mp4")
+        subprocess.run(["ffmpeg", "-y", "-framerate", str(A.FPS), "-i", os.path.join(TMP, "anim_%04d.png"), "-c:v", "libx264", "-pix_fmt", "yuv420p", "-crf", "18", "-movflags", "+faststart", out], check=True)
