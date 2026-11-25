@@ -227,3 +227,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
 
   onAuth((state) => render(state))
   setMode('in')
+  render()
