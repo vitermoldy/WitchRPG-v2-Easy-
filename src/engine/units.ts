@@ -781,3 +781,4 @@ export class UnitSystem {
               }
             }
           } else {
+            const reach = u.radius + tgt.radius + 0.35
