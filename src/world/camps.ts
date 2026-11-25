@@ -211,3 +211,4 @@ export class Camps {
       if (camp.state === 'idle' && d < CAMP.wake && p.alive) {
         this.wake(camp, index)
         colors = true
+      } else if (camp.state === 'active') {
