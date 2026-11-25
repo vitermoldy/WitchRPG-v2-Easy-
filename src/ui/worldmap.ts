@@ -38,3 +38,4 @@ export class WorldMap {
   private readonly canvas = $<HTMLCanvasElement>('map-canvas')
   private readonly g: Game
   private base: HTMLCanvasElement | null = null
+  private chosen = new Set<UnitKind>()
