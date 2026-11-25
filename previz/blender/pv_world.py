@@ -402,3 +402,6 @@ def scatter_group():
     ns.inputs["Name"].default_value = "scale"
     L.new(ns.outputs["Attribute"], iop.inputs["Scale"])
     L.new(iop.outputs["Instances"], go.inputs["Geometry"])
+    return ng
+
+
