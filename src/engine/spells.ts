@@ -451,3 +451,4 @@ export class Spells {
       u.pos.add(nc.sub(c))
       u.yaw += dt * 2
     })
+    this.drawTendril(this.grabbed[0].center())
