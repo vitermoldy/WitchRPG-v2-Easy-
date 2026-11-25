@@ -392,3 +392,5 @@ export class Umbra {
   /** Mana for raising `n` bodies in one cast. */
   cost(n: number) {
     return RITE.mana + RITE.massManaPerExtra * Math.max(0, n - 1)
+  }
+
