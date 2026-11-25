@@ -174,3 +174,4 @@ export class Telegraphs {
     for (let i = 0; i < pos.count; i++) {
       const x = cx + base[i * 3] * it.radius
       const z = cz + base[i * 3 + 2] * it.radius
+      pos.setXYZ(i, x, this.height(x, z) + LIFT, z)
