@@ -13,3 +13,4 @@ function world() {
   const fx: string[] = []
   const host: UnitHost = {
     obstacles: new Obstacles(),
+    height: () => 0,
