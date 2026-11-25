@@ -350,3 +350,4 @@ export class Fight {
     if (inp.blockPressed) this.blockPressedAt = g.t
     const canBlock = !p.dodging && this.combo.cancellable
     this.blocking = inp.blockHeld && canBlock
+    if (this.blocking && this.combo.current) this.combo.cancel()
