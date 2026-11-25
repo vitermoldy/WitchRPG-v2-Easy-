@@ -409,3 +409,4 @@ const poseMinotaur: PoseFn = (p, u, t) => {
     if (charge) {
       const run = Math.sin(t * 18)
       p.body(0.05 * Math.abs(run), 25)
+      p.rot('torso', 30)
