@@ -112,3 +112,4 @@ export class Ledger {
     this.host.sfxUi()
     this.host.changed()
     this.render()
+    // keep keyboard focus on the control that was used, or the next useful one
