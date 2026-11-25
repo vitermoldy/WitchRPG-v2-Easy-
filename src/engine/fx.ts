@@ -263,3 +263,4 @@ export class LightPool {
   }
 }
 
+interface Ring {
