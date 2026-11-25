@@ -538,3 +538,4 @@ def b_harpy(r):
     tor = r.parts["torso"]
     tor.ell(V(J["chest"]) + Vector((0, -0.01, 0.04)), (0.15, 0.115, 0.06), mat="accent")
     p = r.parts["pelvis"]
+    for i in range(9):
