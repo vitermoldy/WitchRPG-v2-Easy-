@@ -195,3 +195,4 @@ def terrain_material():
     N, L = nt.nodes, nt.links
     b = N["Principled BSDF"]
     att = N.new("ShaderNodeAttribute")
+    att.attribute_name = "Col"
