@@ -1035,3 +1035,4 @@ def b_samael(r):
 
 
 def b_atlas(r):
+    """Muscular titan with a white beard and loincloth, holding the blue-green world on his shoulders."""
