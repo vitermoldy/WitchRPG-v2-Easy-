@@ -69,3 +69,4 @@ export const LOCKON = {
   /** Half-angle in front of the camera a new target is picked from (radians). */
   cone: 0.95,
   /** Mouse travel (px) in one frame that switches to the next target on that side. */
+  flick: 38,
