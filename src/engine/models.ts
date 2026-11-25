@@ -53,3 +53,4 @@ export interface IlyraPose {
   block: number
   parry: number
   /** Execution progress 0 to 1, or -1. */
+  execute: number
