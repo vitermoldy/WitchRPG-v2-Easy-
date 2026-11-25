@@ -194,3 +194,4 @@ describe('phase 4 creatures', () => {
     const w = world()
     const m = w.sys.spawn('minotaur', 'enemy', 8, { x: 0, z: 0 })
     m.yaw = 0 // faces +z
+    expect(shieldShare(m, 0, 3, 'melee')).toBeCloseTo(0.15, 5)
