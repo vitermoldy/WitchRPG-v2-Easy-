@@ -92,3 +92,4 @@ Di balik segel, setiap boss menunggu sendirian di kampnya, dengan bar boss dan s
 | Lilith | 16 | Lembah Bara | Lilitan ular, tombak gelap, kutukan beracun; menghilang dan memanggil Succubus |
 | Dragon | 17 | Lembah Bara | Ekor, napas api, bola api, terkaman |
 | Atlas | 17 | Reruntuhan Kuil, di kuil | Hentakan, bola dunia, lempar batu |
+| Typhon | 18 | Reruntuhan Kuil, tepi utara | Hantaman badai, lecutan ular, petir; memanggil Harpy |
