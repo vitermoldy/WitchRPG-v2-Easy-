@@ -2032,3 +2032,4 @@ dialog::backdrop {
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
+  *::after {
