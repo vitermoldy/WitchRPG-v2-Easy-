@@ -325,3 +325,4 @@ export class Lair {
     // the edge: amber while it is shut to her, violet while the fight holds her in
     const shut = this.state === 'calm' && g.profile.level < HYDRA.lairLevel
     const want = this.state === 'fight' ? 1 : shut ? 0.7 : 0
+    const fade = this.curtainMat.uniforms.uFade.value as number
