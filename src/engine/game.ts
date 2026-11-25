@@ -1128,3 +1128,4 @@ export class Game implements UnitHost {
       minClearance: this.minClearance,
       calls: info.render.calls,
       triangles: info.render.triangles,
+      t: this.t,
