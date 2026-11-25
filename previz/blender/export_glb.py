@@ -86,3 +86,4 @@ def bake_tones(ob):
                 attr.data[li].color = (1.0, 1.0, 1.0, 1.0)
                 continue
             top, bottom, vary = t
+            nz = (rot @ Vector(normals[li].vector)).normalized().z
