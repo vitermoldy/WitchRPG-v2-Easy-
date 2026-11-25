@@ -573,3 +573,4 @@ export class Spells {
   explode(at: THREE.Vector3, r: number, damage: number, push: number, lift: number) {
     const g = this.g
     for (const u of [...g.units.units]) {
+      if (u.team !== 'enemy' || !u.targetable) continue
