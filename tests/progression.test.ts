@@ -172,3 +172,4 @@ describe('version 1: tiers, ranks and growth', () => {
     expect(riteBlock(p, 'hollow')).toMatch(/satu Marsekal/)
   })
   it('pays more XP for bigger ranks', () => {
+    expect(xpForUnit('husk', 5)).toBe(50)
