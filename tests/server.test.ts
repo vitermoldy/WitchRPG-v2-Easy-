@@ -28,3 +28,4 @@ describe('the server checks a witch before it keeps her', () => {
     expect(c.error).toBeUndefined()
     expect(c.shadows.map((s: { kind: string }) => s.kind)).toEqual(raisable)
     expect(c.upgrades.sort()).toEqual(SKILLS.map((s) => s.id).sort())
+    expect(c.world.altars.sort()).toEqual(ALTARS.map((a) => a.key).sort())
