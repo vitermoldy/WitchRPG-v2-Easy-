@@ -64,3 +64,4 @@ const MOTE_FRAG = /* glsl */ `
 // glow around it. Normal blending, so the void can be darker than the sky behind it.
 const RIFT_FRAG = /* glsl */ `
   varying vec2 vUv;
+  uniform float uTime;
