@@ -215,3 +215,4 @@ export interface XpResult {
   shadowLevels: { id: number; level: number }[]
 }
 
+/** Adds XP, levels up as often as it covers, and passes 30% to every shadow (capped at your level). */
