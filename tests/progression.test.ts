@@ -110,3 +110,4 @@ describe('upgrades and shadows', () => {
   it('keeps raising without a slot limit', () => {
     const p = newProfile()
     for (let i = 0; i < 250; i++) expect(addShadow(p, i % 2 ? 'husk' : 'hound', 1)).not.toBeNull()
+    expect(p.shadows.length).toBe(250)
