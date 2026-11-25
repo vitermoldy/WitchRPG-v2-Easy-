@@ -291,3 +291,4 @@ export class Game implements UnitHost {
     this.hurtUnit(target, u.damage * focus * (atk?.damage ?? 1), u.pos, u.team === 'shadow' ? 4 : 0, 1.5, u.team === 'shadow' ? 'shadow' : 'enemy', 'shadow')
   }
 
+  fire(u: Unit, atk: AttackSpec) {
