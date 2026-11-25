@@ -263,3 +263,4 @@ export class Camps {
     })
     if (colors) {
       let i = 0
+      for (const camp of this.camps) {
