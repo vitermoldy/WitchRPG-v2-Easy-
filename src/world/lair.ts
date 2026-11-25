@@ -350,3 +350,4 @@ export class Lair {
     const body = this.body!
     if (this.state === 'calm') {
       if (p.alive && this.inside(p.pos.x, p.pos.z) && g.profile.level >= HYDRA.lairLevel) this.start()
+      return
