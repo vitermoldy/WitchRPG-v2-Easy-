@@ -206,3 +206,4 @@ export class Telegraphs {
       if (it.kind === 'ring') {
         // full when the blow lands
         it.mat.uniforms.uFill.value = k * 0.93
+        if (it.follow && u.state === 'windup') this.layRing(it, u.aimAt.x, u.aimAt.z)
