@@ -763,3 +763,4 @@ def _demon(r, H, bulk, female, span, horn_kind, arm_pose):
             spikes(t, [sh + Vector((0.03 * s, 0, 0.1)), sh + Vector((0.08 * s, 0.05, 0.06))], 0.16, 0.035, mat="horn", tilt=(s * 0.6, 0.2, 1))
             t.ell(sh + Vector((0.02 * s, -0.12, 0.03)), (0.03, 0.02, 0.03), mat="glow", seg=8, rings=5)
     p = r.parts["pelvis"]
+    p.tube([V(J["hip"]) + Vector((0, 0, 0.08)), V(J["hip"]) + Vector((0, 0, -0.2)), V(J["hip"]) + Vector((0, -0.02, -0.48))], [J["hw"] * 1.7, J["hw"] * 1.9, J["hw"] * 2.0], mat="armor", seg=10, n=2, cap=False)
