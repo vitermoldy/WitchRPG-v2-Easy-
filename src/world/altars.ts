@@ -112,3 +112,4 @@ export class Altars {
     this.spin += dt
     for (const a of this.list) {
       a.crystal.rotation.y = this.spin * 0.8
+      a.crystal.position.y = 2.2 + Math.sin(this.spin * 1.6 + a.pos.x) * 0.08
