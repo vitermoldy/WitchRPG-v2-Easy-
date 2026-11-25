@@ -1969,3 +1969,4 @@ dialog::backdrop {
     width: min(17rem, 30vw);
   }
   .army {
+    width: min(15rem, 26vw);
