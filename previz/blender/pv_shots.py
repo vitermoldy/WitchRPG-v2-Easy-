@@ -181,3 +181,5 @@ def mat_ring(name, color, strength, inner=0.82, alpha=0.9, fill=0.08):
     return m
 
 
+# ---------------------------------------------------------------- 01 hero and camera variants
+
