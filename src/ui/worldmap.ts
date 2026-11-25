@@ -134,3 +134,4 @@ export class WorldMap {
       note: lair.state === 'won' ? 'tumbang' : g.profile.level < 10 ? 'sarangnya terbuka di Lv 10' : 'menunggu di sarangnya',
     })
     for (const camp of g.camps.camps) {
+      const kind = (Object.keys(camp.def.pack) as V2Kind[]).find((k) => UNITS[k].boss)
