@@ -972,3 +972,4 @@ export const HYDRA = {
   rocks: 6,
 } as const
 
+/** Enemy growth per level. Kept below the witch's own growth so higher tiers stay fair. */
