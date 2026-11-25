@@ -21,3 +21,5 @@ export interface Emit {
   gravity?: number
   drag?: number
   alpha?: number
+}
+
