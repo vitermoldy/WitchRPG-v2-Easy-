@@ -1096,3 +1096,4 @@ COLORS = {
     "cyclops": {"skin": ("#d49a6a", "#c08458"), "cloth": "#6a4a30", "strap": "#4a3020", "wood": "#8a5a30", "metal": "#9a9aa0", "horn": "#ece4d0", "sclera": "#f2eee8"},
     "medusa": {"skin": "#86bb62", "hair": "#c47a3a", "snake": ("#8aa040", "#d8d090"), "cloth": "#f2efe6", "horn": "#f0f0e0"},
     "chimera": {"body": ("#b8843c", "#d8b07a"), "body2": "#e8dcc0", "goat": "#8a7c6c", "horn": "#3a3028", "snake": ("#2b4a8c", "#d8b040"), "mouth": "#7a2020", "nose": "#3a2a24"},
+    "succubus": {"skin": "#cfc9d2", "hair": "#ece8ef", "armor": "#2b2731", "membrane": "#8a3e52", "horn": "#3a3238", "glow": "#5fe0a0"},
