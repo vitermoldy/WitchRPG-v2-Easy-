@@ -450,3 +450,4 @@ export class Fight {
     let any = false
     for (const u of g.units.units) {
       if (u.team !== 'enemy' || !u.targetable) continue
+      // flyers out of reach overhead are safe from the staff
