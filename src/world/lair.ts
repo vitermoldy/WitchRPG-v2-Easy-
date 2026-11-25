@@ -124,3 +124,4 @@ export class Lair {
       transparent: true,
       depthWrite: false,
       side: THREE.DoubleSide,
+      blending: THREE.AdditiveBlending,
