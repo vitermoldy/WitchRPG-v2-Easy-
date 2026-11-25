@@ -741,3 +741,4 @@ export class UnitSystem {
         u.vel.multiplyScalar(Math.max(0, 1 - dt * 10))
         if (atk.strike === 'ring' && atk.ahead === undefined) {
           // the circle follows her a little while it winds up: stepping away early still works
+          u.aimAt.lerp(tmp.set(tgt.pos.x, tgt.pos.y, tgt.pos.z), Math.min(1, dt * 1.5))
