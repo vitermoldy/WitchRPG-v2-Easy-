@@ -646,3 +646,4 @@ def point(coll, name, loc, color, energy=50.0, radius=0.1, parent=None):
 def sky_world(name, zenith, horizon, ground, strength=1.0, haze=None, haze_density=0.0, sun_dir=None, sun_glow="#ffd8a0", glow_power=8.0):
     """Stylised gradient sky with an optional glow around the sun direction and a thin world haze."""
     w = bpy.data.worlds.get(name) or bpy.data.worlds.new(name)
+    w.use_nodes = True
