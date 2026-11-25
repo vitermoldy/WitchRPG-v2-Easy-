@@ -20,3 +20,4 @@ interface Kind {
   /** Drift (m/s) and how much it wanders. */
   vel: [number, number, number]
   wander: number
+  /** Twinkle: 0 steady, 1 fireflies blinking. */
