@@ -74,3 +74,4 @@ export class Hud {
   private set(id: string, key: 'text' | 'transform' | 'class', value: string) {
     const k = id + key
     if (this.cache.get(k) === value) return
+    this.cache.set(k, value)
