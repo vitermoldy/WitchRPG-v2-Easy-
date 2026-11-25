@@ -616,3 +616,4 @@ def b_minotaur(r, pose="idle"):
     hc = V(J["head_c"]) + Vector((0, -0.05, -0.04))
     h.ell(hc, (0.17, 0.2, 0.17), mat="skin")
     h.ell(hc + Vector((0, 0.04, 0.1)), (0.16, 0.14, 0.09), mat="hair")
+    h.limb(hc + Vector((0, -0.12, -0.03)), hc + Vector((0, -0.3, -0.1)), 0.13, 0.11, mat="skin")
