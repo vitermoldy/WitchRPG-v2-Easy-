@@ -107,3 +107,4 @@ describe('creature attacks', () => {
     const imp = w.sys.spawn('imp', 'enemy', 1, { x: 0, z: 10 })
     imp.home = new THREE.Vector3(0, 0, 10)
     imp.aggro = false
+    w.step(4)
