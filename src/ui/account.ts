@@ -113,3 +113,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
     hooks.onProfileChanged()
   }
 
+  /** After signing in: the newer witch wins, whichever side has it. */
