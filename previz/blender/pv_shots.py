@@ -412,3 +412,4 @@ def fmt_m(v):
     return f"{v:.1f}".replace(".", ",") + " m"
 
 
+def build_lineup(lib_colls, stats):
