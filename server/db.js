@@ -56,3 +56,4 @@ const TABLES = [
     altar VARCHAR(16) NOT NULL,
     last TINYINT UNSIGNED NOT NULL DEFAULT 0,
     PRIMARY KEY (client_id, altar),
+    CONSTRAINT altars_client FOREIGN KEY (client_id) REFERENCES clients(id) ON DELETE CASCADE
