@@ -22,3 +22,4 @@ function world() {
     impact: () => {},
     died: () => {},
     summoned: () => {},
+    fx: (_u, what) => fx.push(what),
