@@ -80,3 +80,4 @@ const ease = (k: number) => {
   return c * c * (3 - 2 * c)
 }
 
+/** Shared tail end of every pose: hurt, held, thrown, lifted, dead. Returns true when it posed the body. */
