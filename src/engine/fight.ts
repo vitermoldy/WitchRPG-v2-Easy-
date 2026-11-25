@@ -138,3 +138,4 @@ class Staff {
         g.sfx.impact(0.3)
       } else if (this.travelled > COMBAT.staff.range) {
         // out of reach: it falls short
+        this.vel.y -= 30 * dt
