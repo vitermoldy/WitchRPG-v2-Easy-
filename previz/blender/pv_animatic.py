@@ -187,3 +187,4 @@ def build(dunia, res=(1280, 720), samples=24):
             vfov = 50.0 + (cn["vfov"] - 50.0) * u
         elif t < T_WALK + 0.4:
             loc, look = game_cam(P, f)
+            q = look_quat(look)
