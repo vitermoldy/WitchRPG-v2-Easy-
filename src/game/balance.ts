@@ -445,3 +445,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     strike: 'line',
     stun: 30,
     flank: true,
+  },
