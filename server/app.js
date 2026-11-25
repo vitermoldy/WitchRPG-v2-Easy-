@@ -92,3 +92,4 @@ export function cleanProfile(p, now = Date.now()) {
     volume: num(st.volume, 0, 1, 0.7),
     headBob: st.headBob !== false,
     shake: st.shake !== false,
+    detail: Math.round(num(st.detail, 10, 120, 20)),
