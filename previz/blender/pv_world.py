@@ -226,3 +226,4 @@ def terrain_material():
     n2.inputs["Scale"].default_value = 3.0
     L.new(tc.outputs["Object"], n2.inputs["Vector"])
     L.new(n2.outputs["Fac"], bump.inputs["Height"])
+    L.new(bump.outputs["Normal"], b.inputs["Normal"])
