@@ -68,3 +68,4 @@ describe('creature attacks', () => {
     expect(w.log.strikes.length).toBe(0)
   })
 
+  it('lets at most two creatures attack her at once; the rest circle', () => {
