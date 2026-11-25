@@ -529,3 +529,4 @@ def fog_material(z):
     vol.inputs["Color"].default_value = C.rgb(z["fog"])
     vol.inputs["Anisotropy"].default_value = 0.45
     tc = N.new("ShaderNodeTexCoord")
+    sep = N.new("ShaderNodeSeparateXYZ")
