@@ -173,3 +173,4 @@ export class Ledger {
         .join('')
     }
 
+    const live = this.host.liveShadows()
