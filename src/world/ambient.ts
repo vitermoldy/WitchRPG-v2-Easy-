@@ -145,3 +145,4 @@ export class Ambient {
     this.rift.visible = false
     scene.add(this.rift)
     const bara = ZONES.find((z) => z.key === 'bara')!
+    const [bx, bz] = toWorld(bara.c[0], bara.c[1])
