@@ -122,3 +122,4 @@ describe('phase 5 creatures', () => {
   })
 
   it('a Succubus blinks a dozen metres away when she comes close', () => {
+    const w = world()
