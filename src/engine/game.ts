@@ -189,3 +189,4 @@ export class Game implements UnitHost {
         vertexShader: 'varying vec2 vUv; void main() { vUv = uv; gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0); }',
         // isnan() is optimised away by the D3D compiler behind ANGLE, so test the exponent bits.
         fragmentShader: [
+          'uniform sampler2D tDiffuse;',
