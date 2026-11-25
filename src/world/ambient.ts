@@ -153,3 +153,4 @@ export class Ambient {
   private pick(w: ArrayLike<number>): number {
     let r = Math.random()
     for (let k = 0; k < KINDS.length; k++) {
+      r -= w[k] ?? 0
