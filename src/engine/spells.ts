@@ -132,3 +132,4 @@ export class Spells {
   private readonly tendril: THREE.Line
   private readonly tendrilPts: THREE.Vector3[] = []
   private tendrilLight: THREE.PointLight | null = null
+  private readonly tmp = new THREE.Vector3()
