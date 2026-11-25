@@ -577,3 +577,5 @@ export class Game implements UnitHost {
     this.saveNow()
   }
 
+  private refusedMsgAt = -99
+
