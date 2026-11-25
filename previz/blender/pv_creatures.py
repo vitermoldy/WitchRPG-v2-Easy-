@@ -1111,3 +1111,6 @@ COLORS = {
     "atlas": {"skin": ("#c8905a", "#b07a48"), "hair": "#ecebe6", "cloth": "#f0eee8"},
     "pegasus": {"body": ("#f6f6f8", "#d8d8e2"), "body2": "#ffffff", "membrane": ("#fdfdff", "#e6e8f0"), "accent": "#eef0f6", "hoof": "#cfc6b4", "nose": "#d8c8c8", "eye": "#6aa8ff"},
     "unicorn": {"body": ("#8aa6c4", "#b8cce0"), "body2": "#c87898", "horn": "#f2ead8", "hoof": "#4a5060", "nose": "#6a7a90", "eye": "#6aa8ff"},
+}
+
+
