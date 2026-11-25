@@ -681,3 +681,4 @@ const poseBeast: PoseFn = (p, u, t) => {
   const flying = u.flyer && u.alt > 0.8
   p.rot('tail', -8 + 8 * Math.sin(t * 2.6), 16 * Math.sin(t * 2 + u.id))
   if (u.state === 'windup') {
+    const k = ease(u.t / (u.atk.windup * u.tempo))
