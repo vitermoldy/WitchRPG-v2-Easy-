@@ -1150,3 +1150,5 @@ export class Game implements UnitHost {
       width: this.renderer.domElement.width,
       height: this.renderer.domElement.height,
     }
+  }
+
