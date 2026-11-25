@@ -226,3 +226,4 @@ export class Fight {
   private readonly events: ComboEvent[] = []
   private swingYaw: number | null = null
   private blockBlend = 0
+  private parryFx = 0
