@@ -148,3 +148,4 @@ export class Sfx {
     this.noise(t, 0.6, 'bandpass', 900, 0.12, 6, 300)
   }
 
+  barrier(up: boolean) {
