@@ -124,3 +124,4 @@ if "--frame-list" in argv:
         sc.render.filepath = os.path.join(TMP, "cek_")
         bpy.ops.render.render(animation=True, scene=sc.name)
     log("render frame cek")
+if "--anim" in argv:
