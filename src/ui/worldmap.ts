@@ -206,3 +206,4 @@ export class WorldMap {
     c.width = c.height = BASE
     const ctx = c.getContext('2d')!
     const img = ctx.createImageData(BASE, BASE)
+    const tones = ZONES.map((z) => {
