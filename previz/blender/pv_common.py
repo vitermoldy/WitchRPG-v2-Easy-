@@ -719,3 +719,4 @@ def render_settings(sc, res=(1920, 1080), samples=64, vol_end=600.0, vol_tile="4
     ee.use_shadows = True
     try:
         ee.shadow_pool_size = "1024"
+    except TypeError:
