@@ -120,3 +120,4 @@ export class IlyraModel {
   /** What she sees of herself in first person: forearms, hands and the staff. */
   private static readonly SEEN = new Set(['forearm_L', 'forearm_R', 'hand_L', 'hand_R', 'staff'])
 
+  /**
