@@ -801,3 +801,4 @@ export class Game implements UnitHost {
       if (o.y + dir.y * d < heightAt(x, z)) {
         let lo = prev
         let hi = d
+        for (let i = 0; i < 5; i++) {
