@@ -487,3 +487,4 @@ def stack_png(paths, out, pad=0, bg=(0, 0, 0)):
     canvas = np.zeros((H, W, 4), np.float32)
     canvas[..., :3] = bg
     canvas[..., 3] = 1
+    y = H - pad
