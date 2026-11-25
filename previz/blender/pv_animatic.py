@@ -153,3 +153,4 @@ def build(dunia, res=(1280, 720), samples=24):
         hy_i.keyframe_insert("location", frame=fr)
         rise = seg(t, T_NAGA + 0.4, T_NAGA + 5.2)
         for name, ob in hy.objs.items():
+            if name.startswith("neck") and "_" in name:
