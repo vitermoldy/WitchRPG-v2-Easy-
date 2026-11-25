@@ -259,3 +259,4 @@ export class Camps {
         // a boss stands again on time even with her close by; it waits calm until she comes near
         camp.state = 'idle'
         colors = true
+      }
