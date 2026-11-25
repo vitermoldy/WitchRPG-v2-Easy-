@@ -3,3 +3,5 @@ Colours, anatomy and signature props follow the owner's reference sheets in asse
 24 Nov 2026); the shapes themselves are modelled from primitives, never traced."""
 import math
 
+from mathutils import Matrix, Vector
+
