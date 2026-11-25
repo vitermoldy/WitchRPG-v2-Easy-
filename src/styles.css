@@ -2009,3 +2009,4 @@ dialog::backdrop {
     grid-template-columns: 1fr;
     align-content: start;
   }
+  .controls {
