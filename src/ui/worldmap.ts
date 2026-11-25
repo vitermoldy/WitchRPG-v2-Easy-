@@ -411,3 +411,4 @@ export class WorldMap {
     ctx.lineTo(s * 0.62, s * 0.7)
     ctx.lineTo(0, s * 0.35)
     ctx.lineTo(-s * 0.62, s * 0.7)
+    ctx.closePath()
