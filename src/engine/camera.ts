@@ -96,3 +96,4 @@ export class CameraRig {
     this.pitch = Math.min(rad(CAMERA.pitchMax), Math.max(rad(CAMERA.pitchMin), this.pitch - dy * sens))
   }
 
+  params(): CamParams {
