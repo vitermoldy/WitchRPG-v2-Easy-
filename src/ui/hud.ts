@@ -247,3 +247,4 @@ export class Hud {
   /** One line under the middle of the view: execute, raise, or why not. */
   private updatePrompt() {
     const g = this.g
+    let html = ''
