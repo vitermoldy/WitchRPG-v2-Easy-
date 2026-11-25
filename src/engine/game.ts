@@ -681,3 +681,4 @@ export class Game implements UnitHost {
     this.rig.firstPerson = first
     this.ilyra.firstPerson(first)
     this.profile.settings.firstPerson = first
+    this.saveSoon()
