@@ -591,3 +591,4 @@ export class Spells {
     g.smoke.emit({ pos: at.clone().setY(at.y + 0.4), count: 26, color: 0x1a0c0e, life: 1.6, size: 2.2, sizeEnd: 3.4, speed: r * 0.5, jitter: 1, drag: 2.5, alpha: 0.75 })
     g.rings.spawn(at, COLOR.chaos, 0.5, r, 0.45)
     g.rings.spawn(at, COLOR.chaosHot, 0.2, r * 0.6, 0.3)
+    g.lights.flash(at.clone().setY(at.y + 1.5), COLOR.chaos, 60, r * 3, 0.5)
