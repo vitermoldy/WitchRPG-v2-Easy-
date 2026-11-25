@@ -78,3 +78,4 @@ export const SKILLS: SkillDef[] = [
     upgrade: 'Menyerap +50 damage.',
     built: true,
   },
+  {
