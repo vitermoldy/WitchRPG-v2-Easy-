@@ -60,3 +60,4 @@ export function cleanProfile(p, now = Date.now()) {
   const level = int(p.level, 1, MAX_LEVEL)
   const xp = int(p.xp, 0, 10_000_000)
   const statPoints = int(p.statPoints, 0, 1000)
+  const skillPoints = int(p.skillPoints, 0, 1000)
