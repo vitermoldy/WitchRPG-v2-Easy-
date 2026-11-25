@@ -453,3 +453,4 @@ export class Sfx {
     if (roll(0.45 * pembuka + 0.12 * tebing)) this.bird(t)
     if (roll(0.08 * tebing)) this.noise(t, 1.6, 'bandpass', 520, 0.05, 0.7, 1300, 0.6)
     if (roll(0.5 * rawa)) this.frog(t)
+    if (roll(0.06 * kuil)) this.chime(t)
