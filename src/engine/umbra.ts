@@ -163,3 +163,4 @@ export class Umbra {
       g.hud.message(this.riteOpen ? 'Ruang Bayangan masih kosong. Bangkitkan musuh yang kalah dengan Tahan R.' : 'Ruang Bayangan masih kosong. Umbra Rite terbuka di Lv 2.', 'umbra')
       return
     }
+    if (!ready.length) {
