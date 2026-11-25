@@ -919,3 +919,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     anchored: true,
     part: true,
     attacks: [
+      { name: 'hantam kepala', strike: 'ring', windup: 1.3, recover: 1.2, range: 18, ring: 2.4, lungeTime: 0.25 },
