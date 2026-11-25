@@ -567,3 +567,4 @@ def ref_plane(coll, name, file, crop, centre, box):
 
 
 def build_board(lib_colls, stats):
+    sc = C.new_scene("papan-makhluk")
