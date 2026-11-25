@@ -46,3 +46,4 @@ function groundColour(x: number, y: number, h: number, slope: number, out: THREE
 export class Terrain {
   readonly group = new THREE.Group()
   // double-sided so the skirts show whichever way they face
+  readonly material = new THREE.MeshLambertMaterial({ vertexColors: true, side: THREE.DoubleSide })
