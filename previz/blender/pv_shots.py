@@ -146,3 +146,4 @@ def mat_ring(name, color, strength, inner=0.82, alpha=0.9, fill=0.08):
     ln2 = N.new("ShaderNodeVectorMath")
     ln2.operation = "LENGTH"
     L.new(cx.outputs[0], ln2.inputs[0])
+    rr = N.new("ShaderNodeMath")
