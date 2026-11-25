@@ -12,3 +12,5 @@ export interface MoveInput {
   fly?: boolean
   /** While flying: 1 climbs (Space), -1 sinks (C). */
   rise?: number
+}
+
