@@ -97,3 +97,4 @@ function swampTree(): THREE.BufferGeometry {
   return mergeGeometries(parts)
 }
 
+function snag(color: THREE.Color): THREE.BufferGeometry {
