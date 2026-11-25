@@ -26,3 +26,6 @@ def _rx(v, deg):
 
 
 def _rz(v, deg):
+    return Matrix.Rotation(math.radians(deg), 3, "Z") @ Vector(v)
+
+
