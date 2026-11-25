@@ -136,3 +136,4 @@ export function water(): THREE.Mesh {
   const geo = new THREE.PlaneGeometry(x1 - x0, y1 - y0, 1, 1)
   geo.rotateX(-Math.PI / 2)
   const mat = new THREE.MeshPhongMaterial({ color: '#06090b', specular: '#3a4a52', shininess: 90 })
+  const m = new THREE.Mesh(geo, mat)
