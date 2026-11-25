@@ -864,3 +864,4 @@ export class UnitSystem {
       this.face(u, tgt.pos.x, tgt.pos.z, dt)
       if (d < reach + 0.3 && u.cd <= 0) u.set('windup')
       if (u.spec.fly) u.alt += (Math.min(flyH, tgt.alt + 0.8) - u.alt) * Math.min(1, dt * 2)
+      return
