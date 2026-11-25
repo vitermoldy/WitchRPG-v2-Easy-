@@ -78,3 +78,4 @@ export class Terrain {
           made++
         } else {
           // use the closest detail already built until this one is made
+          want = c.meshes[1] && want === 0 ? 1 : 2
