@@ -187,3 +187,4 @@ export class Ledger {
     const order: Record<string, number> = { marsekal: 0, jenderal: 1, ksatria: 2, prajurit: 3 }
     const groups = new Map<string, typeof p.shadows>()
     for (const s of p.shadows) {
+      const key = `${s.rank}:${s.kind}`
