@@ -4,3 +4,5 @@ import math
 
 import bpy
 import numpy as np
+from mathutils import Quaternion, Vector
+
