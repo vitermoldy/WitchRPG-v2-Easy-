@@ -1152,3 +1152,4 @@ export class Game implements UnitHost {
     }
   }
 
+  dodge() {
