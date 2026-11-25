@@ -270,3 +270,4 @@ export function shieldShare(u: Unit, fromX: number, fromZ: number, kind: DamageK
   return front > 0.34 ? 1 - s : 1
 }
 
+const tmp = new THREE.Vector3()
