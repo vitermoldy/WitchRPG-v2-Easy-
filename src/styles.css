@@ -1273,3 +1273,4 @@ dialog::backdrop {
 }
 
 .btn-umbra {
+  background: var(--umbra-deep);
