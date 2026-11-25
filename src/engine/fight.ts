@@ -403,3 +403,4 @@ export class Fight {
     this.staff.launch(from, this.throwTarget().clone())
     this.stats.throws++
     g.sfx.gripStop(true)
+    g.addTrauma(0.06)
