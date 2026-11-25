@@ -1012,3 +1012,4 @@ def b_typhon(r):
 
 def b_samael(r):
     """Pale angel with white hair, great white-gold wings, a red sash and robe, a glowing curved blade raised."""
+    J = humanoid(r, 3.2, bulk=0.95, legs="human", arm_pose={"L": (20, 20, 25), "R": (150, 10, 10)}, body_mat="skin")
