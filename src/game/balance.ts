@@ -545,3 +545,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     recover: 0.8,
     cooldown: 1.8,
     stun: 140,
+    boss: true,
