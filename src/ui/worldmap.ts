@@ -89,3 +89,4 @@ export class WorldMap {
   }
 
   get isOpen() {
+    return this.dlg.open
