@@ -235,3 +235,4 @@ def build_water(coll):
     bm = bmesh.new()
     bmesh.ops.create_grid(bm, x_segments=1, y_segments=1, size=1.0)
     bm.to_mesh(me)
+    bm.free()
