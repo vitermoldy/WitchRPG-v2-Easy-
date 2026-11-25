@@ -368,3 +368,4 @@ export class WorldMap {
       ctx.stroke()
     }
 
+    // every boss, always: an amber ring, grey and crossed once it has fallen; the chosen one ringed again
