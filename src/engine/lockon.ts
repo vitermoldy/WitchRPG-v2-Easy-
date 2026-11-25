@@ -65,3 +65,4 @@ export class LockOn {
     let bestA = Infinity
     for (const t of targets) {
       if (t === cur || !t.alive) continue
+      if (Math.hypot(t.x - player.x, t.z - player.z) > LOCKON.range) continue
