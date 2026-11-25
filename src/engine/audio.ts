@@ -375,3 +375,5 @@ export class Sfx {
     const t = this.ctx!.currentTime
     this.noise(t, 1.2, 'bandpass', 1600, 0.08, 1.2, 380)
     for (let i = 0; i < 6; i++) this.noise(t + 0.1 + Math.random() * 0.9, 0.03, 'highpass', 2800, 0.05)
+  }
+
