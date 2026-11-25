@@ -276,3 +276,4 @@ def rot_to(d):
     return d.normalized().to_track_quat("Z", "Y").to_matrix().to_4x4()
 
 
+def _faces_of(verts):
