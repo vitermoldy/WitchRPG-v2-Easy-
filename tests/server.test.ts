@@ -48,3 +48,4 @@ describe('the server checks a witch before it keeps her', () => {
   it('drops unknown altars, keeps the start altar lit, and falls back when the last one is not lit', () => {
     const p = { ...newProfile(), world: { altars: ['tebing', 'nowhere'], last: 'kuil' } }
     const c = cleanProfile(p, NOW)
+    expect(c.world.altars).toEqual(['pembuka', 'tebing'])
