@@ -54,3 +54,4 @@ export class Hud {
   private readonly cache = new Map<string, string>()
   private readonly pool: HTMLDivElement[] = []
   private readonly v = new THREE.Vector3()
+  private bannerTime = 0
