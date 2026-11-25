@@ -958,3 +958,4 @@ export class UnitSystem {
       }
     }
     if (host.obstacles.pushOut(u.pos, u.radius, u.height)) {
+      if (u.hurled) host.impact(u, null, speed)
