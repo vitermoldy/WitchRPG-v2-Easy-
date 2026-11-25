@@ -33,3 +33,4 @@ function groundColour(x: number, y: number, h: number, slope: number, out: THREE
     out.r += GROUND[i].r * w[i]
     out.g += GROUND[i].g * w[i]
     out.b += GROUND[i].b * w[i]
+  }
