@@ -225,3 +225,4 @@ export class Hud {
     this.set('sk-overload', 'class', `skill skill-overload${full || g.spells.overloaded ? ' ready-full' : ''}`)
     this.set('sk-overload-cd', 'transform', `scaleY(${g.spells.overloaded ? 0 : (1 - g.spells.chaos / CHAOS.max).toFixed(3)})`)
     const staff = g.fight.staff.state
+    this.set('sk-staff-label', 'text', staff === 'hand' ? 'Lempar' : staff === 'returning' ? 'Kembali' : 'Panggil')
