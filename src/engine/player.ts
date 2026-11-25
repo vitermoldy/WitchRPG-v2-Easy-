@@ -23,3 +23,4 @@ export interface Ground {
    */
   blocked: (x: number, z: number, fx?: number, fz?: number, air?: boolean) => boolean
   /** Lowest she can fly at: the ground, or the water over a lake. */
+  floor?: HeightFn
