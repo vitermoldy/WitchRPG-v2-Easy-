@@ -1207,3 +1207,4 @@ export const COMBAT = {
   attackers: 2,
   staff: {
     throwSpeed: 42,
+    range: 40,
