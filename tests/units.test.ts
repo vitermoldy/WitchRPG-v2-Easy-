@@ -47,3 +47,4 @@ describe('creature attacks', () => {
     w.step(3, () => {
       if (started < 0 && imp.state === 'windup') started = w.now()
     })
+    expect(started).toBeGreaterThan(0)
