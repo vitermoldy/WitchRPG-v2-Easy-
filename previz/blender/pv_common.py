@@ -469,3 +469,4 @@ class Rig:
     def finalize(self):
         for name in self.order:
             p = self.parts[name]
+            if not p.bm.verts:
