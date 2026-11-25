@@ -218,3 +218,4 @@ export class Hud {
       this.set(id + '-cd', 'transform', `scaleY(${locked ? 0 : cd.toFixed(3)})`)
     }
     skill('sk-burst', 3, cds.burst)
+    skill('sk-snare', 5, cds.snare)
