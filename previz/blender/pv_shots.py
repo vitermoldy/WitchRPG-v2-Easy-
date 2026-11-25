@@ -423,3 +423,4 @@ def build_lineup(lib_colls, stats):
     bands = []
     ox = 0.0
     for key, title, members, gap, label_every in LINEUP_BANDS:
+        coll = C.collection(f"barisan.{key}", sc.collection)
