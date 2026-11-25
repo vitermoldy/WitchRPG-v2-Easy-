@@ -442,3 +442,4 @@ def b_ilyra(r, pose="idle"):
     for s, side, m in ((1, "L", "chaos"), (-1, "R", "umbra")):
         hd = r.parts["hand_" + side]
         W, T = J["wr_" + side], J["tip_" + side]
+        hd.ell((W + T) / 2, 0.042, mat=m, seg=10, rings=6)
