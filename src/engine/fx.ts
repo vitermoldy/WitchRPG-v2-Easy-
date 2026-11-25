@@ -502,3 +502,4 @@ export class ShadowPools {
 /** A soft round texture for sprites (palm orbs, exit glow). */
 export function glowTexture(): THREE.Texture {
   const c = document.createElement('canvas')
+  c.width = c.height = 128
