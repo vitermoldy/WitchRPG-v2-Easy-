@@ -95,3 +95,4 @@ export class Terrain {
   }
 
   private ensure(c: Chunk, lod: number) {
+    if (c.meshes[lod]) return
