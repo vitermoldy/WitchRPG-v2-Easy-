@@ -50,3 +50,4 @@ describe('Ilyra in the air (B)', () => {
     // she sinks no lower than the water, and stays in the air
     expect(p.pos.y).toBeCloseTo(0.3, 3)
     expect(p.flying).toBe(true)
+    run(p, { ...idle, rise: -1 }, 4)
