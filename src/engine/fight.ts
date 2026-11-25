@@ -366,3 +366,4 @@ export class Fight {
       const before = this.throwT
       this.throwT += dt / THROW_TIME
       if (before < THROW_RELEASE / THROW_TIME && this.throwT >= THROW_RELEASE / THROW_TIME) this.release()
+      if (this.throwT >= 1) this.throwT = -1
