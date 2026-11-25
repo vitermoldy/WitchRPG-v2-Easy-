@@ -267,3 +267,4 @@ export class Game implements UnitHost {
       p.nudge(p.pos.x - u.pos.x, p.pos.z - u.pos.z, 0.35, 0.14)
       this.sfx.clank()
       this.hitstop(COMBAT.hitstop.light)
+      this.glow.emit({ pos: mid, count: 10, color: COLOR.rift, intensity: 2.4, life: 0.25, size: 0.08, speed: 4, gravity: 8 })
