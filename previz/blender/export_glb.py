@@ -58,3 +58,4 @@ def tone_of(m):
     if not mix:
         return None
     vary = 0.0
+    for n in nodes:
