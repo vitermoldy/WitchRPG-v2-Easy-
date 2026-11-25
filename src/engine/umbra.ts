@@ -516,3 +516,4 @@ export class Umbra {
       g.hud.message('Perintah: tahan posisi.', 'umbra')
     } else if (choice === 'attack') {
       const focusOn = isUnlocked(g.profile, 'focus')
+      const locked = g.lockon.current as Unit | null
