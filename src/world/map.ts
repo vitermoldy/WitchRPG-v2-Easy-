@@ -16,3 +16,4 @@ export interface Zone {
   sky: string
 }
 
+export const ZONES: Zone[] = [
