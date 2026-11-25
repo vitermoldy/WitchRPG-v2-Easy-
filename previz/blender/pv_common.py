@@ -477,3 +477,4 @@ class Rig:
             p.bm.to_mesh(me)
             p.bm.free()
             for m in p.mats:
+                me.materials.append(m)
