@@ -52,3 +52,4 @@ def build(dunia, res=(1280, 720), samples=24):
     sc.render.fps = FPS
 
     il = S.actor("aktor.ilyra.walk", "ilyra", "walk")
+    il_i = C.instance(il.coll, local, name="ilyra.anim")
