@@ -1002,3 +1002,4 @@ button {
 }
 
 .army-head {
+  display: flex;
