@@ -426,3 +426,4 @@ const poseMinotaur: PoseFn = (p, u, t) => {
   }
   if (u.state === 'stagger') {
     p.body(-0.1, 8, 6 * Math.sin(t * 2.6))
+    p.rot('torso', 25)
