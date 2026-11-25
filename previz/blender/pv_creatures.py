@@ -1122,3 +1122,4 @@ ROSTER = [
     ("hellhound", "Hellhound", b_hellhound, "Penerjang samping (Rift Hound)", "Prajurit", "I Hutan Pembuka", ("images (2).jpg", (60, 0, 330, 225))),
     ("harpy", "Harpy", b_harpy, "Penukik udara (Harrier)", "Prajurit", "II Tebing Berangin", ("z0jfasz4aizd1.jpeg", (680, 285, 955, 652))),
     ("centaur", "Centaur", b_centaur, "Pemanah (Spitter)", "Prajurit", "II Tebing Berangin", ("z0jfasz4aizd1.jpeg", (90, 285, 365, 652))),
+    ("naga", "Naga rawa", b_naga, "Penyembur air (Spitter air)", "Prajurit", "III Rawa Berkabut", ("167518dd7ed83f5f910603744479.jpg", (705, 398, 1045, 626))),
