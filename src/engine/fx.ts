@@ -10,3 +10,4 @@ export interface Emit {
   intensity?: number
   life: number
   lifeJitter?: number
+  size: number
