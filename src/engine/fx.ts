@@ -225,3 +225,5 @@ export class LightPool {
     slot.ttl = duration
     slot.maxTtl = duration
     slot.light.intensity = intensity
+  }
+
