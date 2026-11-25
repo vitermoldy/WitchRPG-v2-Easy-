@@ -134,3 +134,4 @@ export class CameraRig {
     this.aim += ((aiming ? 1 : 0) - this.aim) * Math.min(1, CAMERA.blend * dt)
     this.fp += ((this.firstPerson ? 1 : 0) - this.fp) * Math.min(1, CAMERA.blend * dt)
     if (Math.abs(this.fp - (this.firstPerson ? 1 : 0)) < 0.002) this.fp = this.firstPerson ? 1 : 0
+    this.lock += ((target ? 1 : 0) - this.lock) * Math.min(1, LOCKON.turn * dt)
