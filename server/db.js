@@ -46,3 +46,4 @@ const TABLES = [
     kind VARCHAR(16) NOT NULL,
     \`rank\` ENUM('prajurit','ksatria','jenderal','marsekal') NOT NULL,
     level TINYINT UNSIGNED NOT NULL,
+    xp INT UNSIGNED NOT NULL,
