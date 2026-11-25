@@ -338,3 +338,4 @@ export class Sfx {
 
   private windNodes: { gain: GainNode; filter: BiquadFilterNode } | null = null
 
+  /** A steady wind while flying, louder and brighter with speed; 0 fades it out. */
