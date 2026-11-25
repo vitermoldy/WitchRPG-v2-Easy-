@@ -41,3 +41,4 @@ class Staff {
   private travelled = 0
   private t = 0
   private spin = 0
+  private readonly hit = new Set<Unit>()
