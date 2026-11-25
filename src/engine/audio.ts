@@ -83,3 +83,5 @@ export class Sfx {
 
   private ok() {
     return !!this.ctx && this.ctx.state === 'running'
+  }
+
