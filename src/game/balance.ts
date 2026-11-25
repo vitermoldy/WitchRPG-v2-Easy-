@@ -1174,3 +1174,4 @@ export const COMBAT = {
   /** Knockback of the heavy blow (m/s). */
   heavyKnock: 7,
   /** Share of swing damage while the staff is thrown and she strikes bare-handed. */
+  unarmed: 0.5,
