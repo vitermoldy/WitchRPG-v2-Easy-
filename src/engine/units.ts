@@ -570,3 +570,4 @@ export class UnitSystem {
       const z = from.pos.z + Math.cos(a) * spec.range
       if (this.host.blocked(x, z)) continue
       u.pos.x = x
+      u.pos.z = z
