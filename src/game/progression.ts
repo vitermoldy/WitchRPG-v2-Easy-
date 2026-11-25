@@ -61,3 +61,4 @@ export interface Profile {
   /** Altars she has lit, and the one she rises at after a fall. */
   world: { altars: string[]; last: string }
   /** When this witch last changed; with an account, the newer copy wins. */
+  updatedAt?: string
