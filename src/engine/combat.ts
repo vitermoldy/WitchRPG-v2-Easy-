@@ -72,3 +72,4 @@ export type ComboEvent = { type: 'start'; s: SwingState } | { type: 'hit'; s: Sw
  * for the heavy blow. A tap pressed during a swing is remembered and starts the next swing as soon as
  * this one ends, so chaining does not need frame-perfect timing.
  */
+export class Combo {
