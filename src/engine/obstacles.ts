@@ -153,3 +153,4 @@ function segCylinder(ax: number, ay: number, az: number, dx: number, dy: number,
   const ox = ax - s.x
   const oz = az - s.z
   // time inside the circle (in the ground plane)
+  let c0: number
