@@ -113,3 +113,4 @@ export class Unit implements Foe {
   barShown = 0
   /** Hex Snare: speed multiplier and extra damage taken. */
   slow = 1
+  vulnerable = 0
