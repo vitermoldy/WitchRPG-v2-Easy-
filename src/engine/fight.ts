@@ -108,3 +108,4 @@ class Staff {
     if (this.state === 'hand') return
     const obj = this.ensure()
     this.t += dt
+    this.spin += dt * 22
