@@ -294,3 +294,4 @@ export class Rings {
       this.group.add(mesh)
       this.pool.push({ mesh, t: 0, dur: 0, r0: 0, r1: 0 })
     }
+    scene.add(this.group)
