@@ -23,3 +23,4 @@ const dist = ROOT + 'dist'
 if (existsSync(dist)) app.use(express.static(dist))
 
 /** MySQL may start after this server; keep trying every few seconds. */
+async function connectLoop() {
