@@ -114,3 +114,4 @@ def ground_z(x, y):
 def zone_weights(x, y):
     W = []
     for z in ZONES:
+        d = _dist(x, y, z["c"]) / z["r"]
