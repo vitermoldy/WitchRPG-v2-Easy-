@@ -110,3 +110,4 @@ def humanoid(r, H, bulk=1.0, legs="human", female=False, off=(0, 0, 0), arm_pose
             th.limb(Hj, K, H * 0.048 * bulk, H * 0.034 * bulk, mat=leg_mat)
             sh = r.P("shin_" + side, K, "thigh_" + side)
             sh.limb(K, A, H * 0.034 * bulk, H * 0.021 * bulk, mat=shin_mat)
+            ft = r.P("foot_" + side, A, "shin_" + side)
