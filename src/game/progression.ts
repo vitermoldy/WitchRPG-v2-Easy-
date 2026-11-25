@@ -70,3 +70,4 @@ export function newProfile(): Profile {
   return {
     version: 1,
     level: 1,
+    xp: 0,
