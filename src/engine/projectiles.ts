@@ -58,3 +58,4 @@ export class Projectiles {
     const from = u.center().addScaledVector(u.lungeDir, u.radius * 0.8)
     from.y = u.pos.y + u.height * 0.72
     let vel: THREE.Vector3
+    const aim = u.aimAt.clone()
