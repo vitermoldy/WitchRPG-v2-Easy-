@@ -257,3 +257,4 @@ export class LightPool {
   reset() {
     for (const s of this.slots) {
       s.held = false
+      s.ttl = 0
