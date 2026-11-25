@@ -622,3 +622,4 @@ def aim_camera(ob, loc, look):
 def sun(sc, name, rot_deg, color="#fff4e0", energy=4.0, angle=2.0, coll=None):
     ld = bpy.data.lights.new(name, "SUN")
     ld.energy = energy
+    ld.color = rgb(color)[:3]
