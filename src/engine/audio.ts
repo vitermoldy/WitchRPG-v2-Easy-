@@ -26,3 +26,4 @@ export class Sfx {
     comp.threshold.value = -14
     comp.ratio.value = 4
     this.master.connect(comp).connect(ctx.destination)
+    const len = ctx.sampleRate * 1.5
