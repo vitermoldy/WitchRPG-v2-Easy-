@@ -68,3 +68,4 @@ describe('stun meter and execution', () => {
 })
 
 describe('staff combo', () => {
+  function play(c: Combo, script: [number, boolean, boolean][]) {
