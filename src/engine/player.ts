@@ -152,3 +152,4 @@ export class Player {
       this.dodgeT += dt
       if (this.dodgeT >= T) {
         this.dodgeT = -1
+        this.dodgeCd = MOVE.dodge.cooldown
