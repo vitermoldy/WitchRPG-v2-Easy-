@@ -133,3 +133,4 @@ export class Projectiles {
             }
           }
         }
+        const len = this.seg.copy(s.pos).sub(s.prev).length()
