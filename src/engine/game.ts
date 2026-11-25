@@ -283,3 +283,5 @@ export class Game implements UnitHost {
       p.poisonT = EFFECTS.poisonTime
       p.poisonDps = u.damage * EFFECTS.poisonShare
     }
+  }
+
