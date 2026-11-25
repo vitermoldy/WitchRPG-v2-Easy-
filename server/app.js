@@ -177,3 +177,4 @@ export function createApi(getPool, database) {
         await conn.query('INSERT INTO shadows (client_id, shadow_id, name, kind, `rank`, level, xp, slot) VALUES ?', [
           p.shadows.map((s, i) => [client, s.id, s.name, s.kind, s.rank, s.level, s.xp, i]),
         ])
+      }
