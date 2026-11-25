@@ -235,3 +235,4 @@ export class IlyraModel {
       this.pivot.position.y = 0.9 + 0.02 * Math.abs(s) * amp
       this.rot('thigh_L', -24 * s * amp)
       this.rot('thigh_R', 24 * s * amp)
+      this.rot('shin_L', Math.max(0, 30 * Math.sin(p.stride + 1.2)) * amp)
