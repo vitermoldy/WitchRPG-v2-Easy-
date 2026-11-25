@@ -1472,3 +1472,4 @@ dialog::backdrop {
   list-style: none;
 }
 
+.tree::before {
