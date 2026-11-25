@@ -44,3 +44,4 @@ describe('Ilyra in the air (B)', () => {
     run(p, { ...idle, y: 1 }, 1, lake)
     expect(p.pos.z).toBeLessThan(-5)
     run(p, B, 1 / 120, lake)
+    expect(p.flying).toBe(true)
