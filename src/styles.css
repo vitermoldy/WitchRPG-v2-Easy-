@@ -729,3 +729,4 @@ button {
   color: var(--chaos-ink);
 }
 
+.feed-item.umbra::before {
