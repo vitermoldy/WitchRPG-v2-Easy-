@@ -867,3 +867,4 @@ def b_dragon(r):
     spikes(tl, [lerp(tp[0], tp[-1], i / 7) + Vector((0, 0, 0.35 * (1 - i / 7))) for i in range(8)], 0.45, 0.1, mat="accent", tilt=(0, 0.6, 1))
 
 
+def hydra_neck_joints(base, top, bend, k=8):
