@@ -443,3 +443,4 @@ def b_ilyra(r, pose="idle"):
         hd = r.parts["hand_" + side]
         W, T = J["wr_" + side], J["tip_" + side]
         hd.ell((W + T) / 2, 0.042, mat=m, seg=10, rings=6)
+        fa = r.parts["forearm_" + side]
