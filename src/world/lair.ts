@@ -507,3 +507,4 @@ export class Lair {
             body.lungeDir.set(body.aimAt.x - body.pos.x, 0, body.aimAt.z - body.pos.z).normalize()
             body.atk = spit
             g.fire(body, spit)
+            g.warnings.show(body.aimAt, ringOf(spit), Math.max(0.3, Math.hypot(body.aimAt.x - body.pos.x, body.aimAt.z - body.pos.z) / spit.shot!.speed))
