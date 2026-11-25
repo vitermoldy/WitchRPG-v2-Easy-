@@ -123,3 +123,4 @@ export class Particles {
   }
 
   emit(e: Emit) {
+    this.c.set(e.color).multiplyScalar(e.intensity ?? 1)
