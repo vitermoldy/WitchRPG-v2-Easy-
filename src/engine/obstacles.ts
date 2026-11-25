@@ -49,3 +49,4 @@ export class Obstacles {
     return id
   }
 
+  /** Calls fn once for every shape whose cell touches the box around (x, z) of half-size `reach`. */
