@@ -647,3 +647,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
       { name: 'cakar', strike: 'ring', windup: 0.6, recover: 0.8, range: 3, lungeSpeed: 7, lungeTime: 0.3, damage: 1.1 },
     ],
   },
+  // v2, Lembah Bara: dives in fire along a line. Falls once into ashes, rises again, and bursts on its second fall.
