@@ -60,3 +60,4 @@ interface Part {
   src: THREE.Mesh
   geo: THREE.BufferGeometry
   mat: THREE.MeshStandardMaterial
+  mesh: THREE.InstancedMesh
