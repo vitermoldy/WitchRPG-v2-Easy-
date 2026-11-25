@@ -221,3 +221,4 @@ export function pathDist(x: number, y: number): number {
   return best
 }
 
+export function inClearing(x: number, y: number, pad = 0): boolean {
