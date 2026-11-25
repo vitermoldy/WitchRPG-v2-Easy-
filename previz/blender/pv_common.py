@@ -268,3 +268,6 @@ def palette(kind, body="#1f1a1c", body2=None, horn="#4a3f38", tag=""):
 # ---------------------------------------------------------------- geometry
 
 def V(p):
+    return Vector(p) if not isinstance(p, Vector) else p.copy()
+
+
