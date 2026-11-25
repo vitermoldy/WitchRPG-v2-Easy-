@@ -280,3 +280,4 @@ export class Camps {
       const d = Math.hypot(p.x - camp.pos.x, p.z - camp.pos.z)
       if (!best || d < best.dist) best = { camp, dist: d }
     }
+    return best
