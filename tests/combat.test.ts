@@ -54,3 +54,4 @@ describe('stun meter and execution', () => {
     expect(m.add(COMBAT.parry.stun)).toBe(true)
   })
 
+  it('adds 0.15 to the Umbra Rite chance of an executed body, inside the v1 clamp', () => {
