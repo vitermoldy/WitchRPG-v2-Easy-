@@ -1600,3 +1600,4 @@ dialog::backdrop {
 }
 
 .room-meta {
+  color: var(--ink-3);
