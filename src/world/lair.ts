@@ -107,3 +107,4 @@ export class Lair {
     const rock = new THREE.MeshStandardMaterial({ color: 0x3e3a36, roughness: 0.95, flatShading: true })
     const base = Math.atan2(this.dir.x, this.dir.z)
     for (let k = -2; k <= 2; k++) {
+      const a = base + Math.PI + k * 0.7
