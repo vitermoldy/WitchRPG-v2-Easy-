@@ -79,3 +79,4 @@ export class Obstacles {
     // every shape is listed in each cell its footprint touches, so the capsule's own box is enough
     for (let pass = 0; pass < 2; pass++) {
       this.near(pos.x, pos.z, radius + 0.01, (s) => {
+        if (s.camOnly) return
