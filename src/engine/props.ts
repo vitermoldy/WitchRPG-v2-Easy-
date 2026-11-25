@@ -36,3 +36,4 @@ export class Props {
   constructor(g: Game) {
     this.g = g
     const geo = new THREE.DodecahedronGeometry(1, 0)
+    this.mesh = new THREE.InstancedMesh(geo, new THREE.MeshStandardMaterial({ color: 0x5a5450, roughness: 0.95, flatShading: true }), CAP)
