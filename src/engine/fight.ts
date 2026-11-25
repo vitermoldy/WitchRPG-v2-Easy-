@@ -264,3 +264,4 @@ export class Fight {
     if (s && s.t < s.swing.windup + s.swing.active) return 0.15
     if (this.blocking) return COMBAT.block.speed
     if (s) return 0.5
+    return 1
