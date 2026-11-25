@@ -560,3 +560,4 @@ export class Game implements UnitHost {
       this.applyDerived()
       // a new level steadies her: HP and mana back to full
       this.player.hp = this.player.maxHp
+      this.player.mana = this.player.maxMana
