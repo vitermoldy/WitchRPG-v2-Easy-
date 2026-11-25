@@ -766,3 +766,4 @@ def _demon(r, H, bulk, female, span, horn_kind, arm_pose):
     p.tube([V(J["hip"]) + Vector((0, 0, 0.08)), V(J["hip"]) + Vector((0, 0, -0.2)), V(J["hip"]) + Vector((0, -0.02, -0.48))], [J["hw"] * 1.7, J["hw"] * 1.9, J["hw"] * 2.0], mat="armor", seg=10, n=2, cap=False)
     for s, side in SIDES:
         hd = r.parts["hand_" + side]
+        W, d = J["wr_" + side], J["hand_dir_" + side]
