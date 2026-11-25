@@ -96,3 +96,5 @@ export interface Camp {
   units: Unit[]
   respawnAt: number
   roused: boolean
+}
+
