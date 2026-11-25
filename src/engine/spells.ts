@@ -406,3 +406,4 @@ export class Spells {
       // a Harpy pulled out of the air stays down for a while after the throw
       if (u.spec.fly) u.downed = Math.max(u.downed, 3)
     }
+    g.sfx.gripStart()
