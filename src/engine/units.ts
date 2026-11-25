@@ -504,3 +504,4 @@ export class UnitSystem {
         const r = u.spec.rebirth!
         if (u.t >= r.ashes) {
           u.reborn = true
+          u.hp = u.maxHp * r.hp
