@@ -49,3 +49,4 @@ export const CAMERA = {
   first: { ahead: 0.16, fov: 68, aimFov: 54 },
   pitch: -6,
   pitchMin: -55,
+  pitchMax: 62,
