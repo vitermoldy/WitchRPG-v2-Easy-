@@ -198,3 +198,4 @@ class Staff {
 
   private catch() {
     const g = this.g
+    this.state = 'hand'
