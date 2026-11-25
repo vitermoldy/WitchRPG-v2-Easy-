@@ -192,3 +192,4 @@ const HOUND_LIMBS = ['leg_FL', 'leg_FR', 'leg_HL', 'leg_HR', 'tail']
 
 /** Hellhound: three heads on a lean body; circles, crouches, then lunges along its line. */
 const poseHound: PoseFn = (p, u, t) => {
+  if (common(p, u, t, HOUND_LIMBS)) return
