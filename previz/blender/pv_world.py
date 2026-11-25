@@ -72,3 +72,6 @@ def smooth(e0, e1, x):
 
 
 def _dist(x, y, c):
+    return np.hypot(x - c[0], y - c[1])
+
+
