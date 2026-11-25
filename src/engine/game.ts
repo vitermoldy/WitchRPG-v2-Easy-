@@ -125,3 +125,4 @@ export class Game implements UnitHost {
   private terrain!: Terrain
   private forest!: Forest
   private atmosphere!: Atmosphere
+  private ambient!: Ambient
