@@ -244,3 +244,4 @@ export class Spells {
       if (inp.overload && this.chaos >= CHAOS.max && !this.overloaded) this.startOverload()
       if (inp.aiming && inp.pressed && this.boltCd <= 0 && !this.gripping) this.fireBolt()
       if (inp.aiming && inp.held) this.holdT += dt
+      else this.holdT = 0
