@@ -230,3 +230,4 @@ export class Fight {
   private hurtFx = 0
   private throwT = -1
   private catchT = -1
+  private castFx = 0
