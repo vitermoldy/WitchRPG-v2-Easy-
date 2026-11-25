@@ -127,3 +127,4 @@ export class Unit implements Foe {
   walk = Math.random() * 6
   /** Seconds a Telekinesis throw keeps it flying nearly straight. */
   flight = 0
+  /** Seconds Reality Warp keeps it hanging in the air. */
