@@ -144,3 +144,4 @@ def mat_tone(name, top, bottom=None, rough=0.7, metal=0.0, emit=None, emit_stren
     sep = N.new("ShaderNodeSeparateXYZ")
     L.new(geo.outputs["Normal"], sep.inputs[0])
     mr = N.new("ShaderNodeMapRange")
+    mr.inputs["From Min"].default_value = -0.45
