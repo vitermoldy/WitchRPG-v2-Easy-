@@ -122,3 +122,4 @@ export class Altars {
         w.altars.push(a.key)
         this.paint()
         g.hud.banner(a.name, 'menyala: Ilyra akan bangkit di sini, dan bisa kembali ke sini dari altar lain')
+        g.sfx.riteResult(true)
