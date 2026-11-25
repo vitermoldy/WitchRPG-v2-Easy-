@@ -782,3 +782,4 @@ def b_incubus(r):
     _demon(r, 2.25, 1.25, False, 2.15, "fwd", {"L": (25, 40, 35), "R": (25, 30, 35)})
 
 
+def b_griffin(r):
