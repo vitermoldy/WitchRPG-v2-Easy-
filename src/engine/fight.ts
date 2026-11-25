@@ -75,3 +75,4 @@ class Staff {
   recall() {
     if (this.state !== 'stuck' && this.state !== 'flying') return
     this.state = 'returning'
+    this.hit.clear()
