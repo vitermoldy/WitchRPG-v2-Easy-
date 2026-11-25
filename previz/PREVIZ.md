@@ -162,3 +162,5 @@ X ke timur, Y ke utara, meter, pusat peta (0, 0).
 
 Jalan setapak: altar ke utara melewati Hutan Pembuka sampai kuil, bercabang ke barat menuju rawa dan danau, ke timur menuju tebing, dan ke timur laut menuju Lembah Bara.
 
+## Yang saya ubah dari prompt
+
