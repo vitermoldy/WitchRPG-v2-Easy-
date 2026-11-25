@@ -64,3 +64,4 @@ def shot_scene(name, dunia, world, sun_travel, sun_color="#fff1dc", sun_energy=4
     return sc, local
 
 
+def sun_dir(f, left_deg, elev_deg):
