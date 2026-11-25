@@ -650,3 +650,4 @@ def build_temple(coll, pal):
 
 
 def build_altar(coll, pal):
+    r = C.Rig("altar", dict(pal, glow=C.mat_emit("altar_glow", "#9ff2e0", 6.0)), coll)
