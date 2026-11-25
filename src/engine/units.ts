@@ -828,3 +828,4 @@ export class UnitSystem {
 
   private shadowBrain(u: Unit, dt: number) {
     const host = this.host
+    const p = host.foe
