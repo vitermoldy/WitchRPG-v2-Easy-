@@ -97,3 +97,4 @@ export class Unit implements Foe {
   state: UnitState = 'move'
   /** Seconds in the current state. */
   t = 0
+  /** Seconds until it may attack again. */
