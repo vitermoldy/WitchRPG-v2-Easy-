@@ -71,3 +71,4 @@ const WARP_FRAG = /* glsl */ `
     float a = k * (0.25 + 0.5 * bands) * uFade;
     gl_FragColor = vec4(col * a, a);
   }
+`
