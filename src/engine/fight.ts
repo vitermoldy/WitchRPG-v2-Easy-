@@ -32,3 +32,4 @@ const CATCH_TIME = 0.25
  * back on the second H, hitting every creature on its way home.
  */
 class Staff {
+  state: 'hand' | 'flying' | 'stuck' | 'returning' = 'hand'
