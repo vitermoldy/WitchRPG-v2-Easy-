@@ -119,3 +119,4 @@ export class Player {
       wz /= wl
     }
 
+    this.dodgeCd = Math.max(0, this.dodgeCd - dt)
