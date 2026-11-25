@@ -1000,3 +1000,4 @@ export const ELITE = {
   scale: 1.15,
   xp: 3,
   /** Share of damage that still lands on a berlapis elite, unless it comes from a throw. */
+  armor: 0.45,
