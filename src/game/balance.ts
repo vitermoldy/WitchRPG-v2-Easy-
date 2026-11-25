@@ -13,3 +13,4 @@ export const MOVE = {
   jog: 4.4,
   sprint: 7.0,
   /** Speed changes are deliberately slow to start and quick to stop: weight without sliding. */
+  accel: 16,
