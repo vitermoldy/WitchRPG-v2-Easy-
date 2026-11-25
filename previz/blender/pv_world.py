@@ -360,3 +360,4 @@ def build_protos(lib_coll):
     P = {}
     P["pine"] = proto("p_pine", coll, pal, lambda p: _pine(p))
     P["pine_tall"] = proto("p_pine_tall", coll, pal, lambda p: _pine(p, 20, 8, 3.2))
+    P["pine_warm"] = proto("p_pine_warm", coll, pal, lambda p: _pine(p, 11, 5, 3.4, "needle2"))
