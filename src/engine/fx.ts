@@ -267,3 +267,4 @@ interface Ring {
   mesh: THREE.Mesh
   t: number
   dur: number
+  r0: number
