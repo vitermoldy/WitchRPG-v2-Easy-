@@ -1867,3 +1867,4 @@ dialog::backdrop {
   border-left: 3px solid var(--rift);
   border-radius: var(--radius-sm);
   background: var(--surface-2);
+  color: var(--ink);
