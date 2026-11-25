@@ -42,3 +42,4 @@ def _dir_rot(d):
 # ---------------------------------------------------------------- generators
 
 def humanoid(r, H, bulk=1.0, legs="human", female=False, off=(0, 0, 0), arm_pose=None, leg_pose=None, neck_scale=1.0,
+             body_mat="body", pelvis_mat=None, leg_mat=None, shin_mat=None, foot_mat=None):
