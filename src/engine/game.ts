@@ -106,3 +106,4 @@ export class Game implements UnitHost {
   botThink: ((g: Game, dt: number) => void) | null = null
   /** ?debug: holds her in a pose for the animation check sheet. */
   debugPose: Partial<IlyraPose> | null = null
+  /** ?debug: a fixed camera around her (angle from her facing, radians; distance in metres). */
