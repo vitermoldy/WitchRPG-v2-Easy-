@@ -395,3 +395,4 @@ export class UnitSystem {
       const k = cellKey(Math.floor(u.pos.x / CELL), Math.floor(u.pos.z / CELL))
       let list = this.grid.get(k)
       if (!list) this.grid.set(k, (list = []))
+      list.push(u)
