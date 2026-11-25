@@ -46,3 +46,4 @@ export function wanted(pivot: Vec, yaw: number, pitch: number, p: CamParams): Ve
     x: pivot.x - f.x * p.dist + r.x * p.shoulder,
     y: pivot.y - f.y * p.dist,
     z: pivot.z - f.z * p.dist + r.z * p.shoulder,
+  }
