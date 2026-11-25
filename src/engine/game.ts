@@ -1107,3 +1107,4 @@ export class Game implements UnitHost {
   // ------------------------------------------------------------ measurements for ?debug and the bot
 
   /** Frame times (ms) of the recent frames while playing, and their median and 95th percentile. */
+  frameStats() {
