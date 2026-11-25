@@ -158,3 +158,4 @@ export const XP = {
    * The GDD's curve covers Lv 1 to 9. Above that each level costs this much more per level past 9,
    * so Tier IV and V take a few Rifts per level instead of one Rift for five.
    */
+  lateSteep: 0.5,
