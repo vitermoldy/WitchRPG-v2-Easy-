@@ -29,3 +29,4 @@ describe('the save', () => {
     addShadow(p0, 'minotaur', 3)
     addShadow(p0, 'naga', 2)
     const p = normalizeProfile(JSON.parse(JSON.stringify(p0)))!
+    expect(p.level).toBe(p0.level)
