@@ -24,3 +24,4 @@ const CAP = 16
  * thrown thing (it goes through the Minotaur's shield and does 150% to the Hydra's slimy skin).
  */
 export class Props {
+  readonly list: Prop[] = []
