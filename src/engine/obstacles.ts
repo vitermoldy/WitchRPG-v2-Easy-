@@ -67,3 +67,4 @@ export class Obstacles {
           fn(this.shapes[id])
         }
       }
+    }
