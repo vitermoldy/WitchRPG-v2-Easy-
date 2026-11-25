@@ -560,3 +560,4 @@ def b_centaur(r):
     r.parts["torso"].torus(V(J["waist"]) + Vector((0, 0, -0.02)), 0.2, 0.03, mat="gold", seg=16)
     r.parts["torso"].tube([V(J["sh_L"]) + Vector((0, -0.02, 0.02)), V(J["chest"]) + Vector((0, -0.13, 0)), V(J["waist"]) + Vector((-0.17, -0.04, 0))], 0.022, mat="cloth", seg=5, n=2)
     hd = r.parts["hand_L"]
+    W = J["wr_L"] + J["hand_dir_L"] * 0.06
