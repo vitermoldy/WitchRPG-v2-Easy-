@@ -95,3 +95,5 @@ function swampTree(): THREE.BufferGeometry {
     }
   }
   return mergeGeometries(parts)
+}
+
