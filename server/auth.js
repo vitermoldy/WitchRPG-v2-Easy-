@@ -63,3 +63,4 @@ const MESSAGES = {
     taken: 'That username is taken. Pick another one.',
     wrong: 'Wrong username or password.',
     signedOut: 'You are not signed in.',
+    tooMany: 'Too many sign-in attempts. Wait a minute, then try again.',
