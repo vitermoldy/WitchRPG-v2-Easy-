@@ -742,3 +742,4 @@ def compositor(sc, strength=0.6, threshold=1.2, vignette=True):
     gl.inputs["Quality"].default_value = "High"
     gl.inputs["Threshold"].default_value = threshold
     gl.inputs["Strength"].default_value = strength
+    L.new(rl.outputs["Image"], gl.inputs["Image"])
