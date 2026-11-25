@@ -934,3 +934,4 @@ def b_cerberus(r):
         hp = nb + Vector((dx, -1.7 * sc, 1.1 * sc + up))
         nk = r.P(f"neck{k}", nb, "body")
         nk.limb(nb + Vector((dx * 0.4, 0, 0)), hp, 0.8 * sc, 0.62 * sc)
+        cpos = nb.lerp(hp, 0.5) + Vector((dx * 0.1, 0, 0))
