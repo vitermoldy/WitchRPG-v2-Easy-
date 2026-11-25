@@ -169,3 +169,4 @@ export class Camps {
       const count = camp.def.boss ? listed : Math.ceil(listed * CAMP.pack)
       for (let k = 0; k < count; k++, n++) {
         const a = n * 2.39996 + Math.random() * 0.4
+        const r = 3 + Math.random() * 3.5
