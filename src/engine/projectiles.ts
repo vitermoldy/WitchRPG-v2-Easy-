@@ -129,3 +129,4 @@ export class Projectiles {
             if (u.center(this.c).distanceTo(s.pos) < s.radius + Math.max(u.radius, u.height * 0.42)) {
               g.strikeUnit(s.source, u, s.atk)
               hit = true
+              break
