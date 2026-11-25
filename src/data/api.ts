@@ -9,3 +9,4 @@ const ALPHABET = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789'
 
 let memoryCode: string | undefined
 
+function makeCode(): string {
