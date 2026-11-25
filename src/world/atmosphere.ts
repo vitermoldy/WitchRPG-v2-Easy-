@@ -38,3 +38,4 @@ void main() {
 }`
 
 /**
+ * Fog, sky and ambient light. Each zone has its own fog colour and sight distance; at any spot they
