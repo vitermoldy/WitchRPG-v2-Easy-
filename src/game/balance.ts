@@ -729,3 +729,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     name: 'Unicorn',
     rank: 'prajurit',
     hp: 1,
+    damage: 0,
