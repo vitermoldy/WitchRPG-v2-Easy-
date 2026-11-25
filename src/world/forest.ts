@@ -154,3 +154,4 @@ export interface Tree {
   scale: number
 }
 
+/** Every tree and rock of the map, in world coordinates. Deterministic: the same forest every load. */
