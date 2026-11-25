@@ -192,3 +192,5 @@ Tiga pertanyaan pemilik dari fase 4 (ritme, kabut Lembah Bara, warna mata musuh)
 | Dial HUD | ENERGY 2, RHYTHM 2, MOTION 2: HUD tenang supaya dunia dan telegraf amber yang memimpin. Satu aksen, amber, untuk bahaya; violet adalah warna sistem pasukan, bukan hiasan. Motif: label mono "Ledger" di setiap pesan dan keycap untuk setiap tombol | HUD disalin dari v1 di fase 1 tanpa dial tertulis; dicatat sekarang untuk gerbang antislop. |
 | Bug proyektil | Kalau satu semburan atau panah membuat Ilyra tumbang, kejatuhannya menghapus semua proyektil sementara loop masih berjalan, dan game melempar error. Sekarang aman dan dikunci tes | Ditemukan bot tanpa pasukan (satu error konsol). |
 
+Hasil gerbang (bot `?debug`, waktu game 3× dipercepat, `scratchpad` gate5):
+
