@@ -478,3 +478,4 @@ export class UnitSystem {
       if (u.state === 'dead') {
         u.deadT += dt
         u.vel.multiplyScalar(Math.max(0, 1 - dt * 5))
+        this.move(u, dt, true)
