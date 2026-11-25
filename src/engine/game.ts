@@ -325,3 +325,4 @@ export class Game implements UnitHost {
       const b = this.blasts[i]
       b.t -= dt
       if (b.t > 0) continue
+      this.blasts.splice(i, 1)
