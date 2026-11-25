@@ -67,3 +67,4 @@ export interface IlyraPose {
   hurt: number
   dead: number
   /** Turned to stone: she freezes in place. */
+  stone: boolean
