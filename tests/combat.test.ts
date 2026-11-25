@@ -29,3 +29,4 @@ describe('block and parry', () => {
     expect(resolveDefense(10, 'line', true, false, -Infinity, 0)).toBe('dodge')
   })
 
+  it('is hit from behind even while blocking', () => {
