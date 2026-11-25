@@ -637,3 +637,4 @@ def point(coll, name, loc, color, energy=50.0, radius=0.1, parent=None):
     ld.shadow_soft_size = radius
     ob = bpy.data.objects.new(name, ld)
     ob.location = loc
+    if parent:
