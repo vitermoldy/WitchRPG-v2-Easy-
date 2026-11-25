@@ -457,3 +457,4 @@ const poseMedusa: PoseFn = (p, u, t) => {
       p.rot('torso', -12 * k)
       p.rot('head', -18 * k + Math.sin(t * 30) * 2 * k)
       p.rot('upperarm_L', -40 * k, 0, 75 * k)
+      p.rot('upperarm_R', -40 * k, 0, -75 * k)
