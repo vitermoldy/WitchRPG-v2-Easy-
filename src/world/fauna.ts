@@ -19,3 +19,4 @@ interface Spot {
   unit: Unit | null
 }
 
+// meadows (map coordinates) checked like the camps: dry, gentle ground
