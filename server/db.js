@@ -37,3 +37,4 @@ const TABLES = [
     client_id CHAR(12) NOT NULL,
     skill VARCHAR(16) NOT NULL,
     PRIMARY KEY (client_id, skill),
+    CONSTRAINT upgrades_client FOREIGN KEY (client_id) REFERENCES clients(id) ON DELETE CASCADE
