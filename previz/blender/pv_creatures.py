@@ -139,3 +139,4 @@ def quad(r, H, L, W, D, leg_r, front="paw", hind="paw", body_mat="body", foot_ma
     """Four-legged body. H: shoulder height, L: body length, W: width, D: chest depth."""
     Q = {}
     body = r.P("body", (0, 0, H * 0.8))
+    chest = (0, -L * 0.27, H - D * 0.5)
