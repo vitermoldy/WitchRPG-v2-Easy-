@@ -31,3 +31,4 @@ def actors_coll():
 
 
 def actor(name, key, pose=None, kind=None, lights=True):
+    coll = C.collection(name, actors_coll())
