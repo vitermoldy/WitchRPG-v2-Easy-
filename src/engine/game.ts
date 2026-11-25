@@ -946,3 +946,4 @@ export class Game implements UnitHost {
     const wading = this.lair.depthAt(p.pos.x, p.pos.z, p.pos.y) > 0.3 ? 0.6 : 1
     p.moveScale = alive ? this.fight.moveScale * (this.umbra.casting.length ? 0.4 : 1) * wading : 0
     p.update(sdt, move, this.rig.yaw, face, aiming, this.ground)
+    if (p.landRefused && this.t - this.landMsgAt > 3) {
