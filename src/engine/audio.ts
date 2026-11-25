@@ -334,3 +334,5 @@ export class Sfx {
     this.noise(t, 0.9, 'bandpass', 200, 0.25, 1.2, 2400)
     this.tone(t, 'sawtooth', 220, 55, 0.9, 0.12, 0.05)
     this.tone(t + 0.6, 'sine', 70, 30, 0.6, 0.45)
+  }
+
