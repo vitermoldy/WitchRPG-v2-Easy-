@@ -756,3 +756,4 @@ def compositor(sc, strength=0.6, threshold=1.2, vignette=True):
         mix.inputs["Factor"].default_value = 1.0
         mr = N.new("ShaderNodeMapRange")
         mr.inputs["To Min"].default_value = 0.55
+        mr.inputs["To Max"].default_value = 1.0
