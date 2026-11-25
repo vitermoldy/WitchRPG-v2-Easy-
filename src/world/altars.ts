@@ -50,3 +50,4 @@ export class Altars {
       base.castShadow = base.receiveShadow = true
       root.add(base)
       // three leaning standing stones around the crystal
+      for (let k = 0; k < 3; k++) {
