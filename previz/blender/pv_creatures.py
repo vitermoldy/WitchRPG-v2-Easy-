@@ -518,3 +518,4 @@ def b_hellhound(r):
 def b_harpy(r):
     """Woman with blue-and-white feathered wing arms, feather crest, feather wraps and bird legs."""
     J = humanoid(r, 1.65, bulk=0.78, legs="bird", female=True, arm_pose={"L": (80, 12, 20), "R": (70, 25, 40)}, leg_pose={"L": (25, 25), "R": (10, 20)},
+                 body_mat="skin", leg_mat="leg", foot_mat="claw")
