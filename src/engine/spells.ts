@@ -48,3 +48,4 @@ const RUNE_FRAG = /* glsl */ `
   uniform float uFade;
   uniform vec3 uColor;
   void main() {
+    vec2 p = vUv * 2.0 - 1.0;
