@@ -366,3 +366,5 @@ export class WorldMap {
       ctx.lineWidth = 1.5
       ctx.fill()
       ctx.stroke()
+    }
+
