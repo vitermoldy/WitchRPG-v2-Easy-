@@ -410,3 +410,4 @@ def b_ilyra(r, pose="idle"):
     z = J["z"]
     tor, pel, head = r.parts["torso"], r.parts["pelvis"], r.parts["head"]
     hc = V(J["head_c"])
+    head.ell(hc + Vector((0, -0.01, -0.01)), (0.075, 0.085, 0.1), mat="skin")
