@@ -1985,3 +1985,4 @@ dialog::backdrop {
   .feed {
     top: calc(24% + 9rem);
   }
+  .feed-item:nth-last-child(n + 4) {
