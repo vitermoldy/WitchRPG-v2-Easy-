@@ -39,3 +39,4 @@ export const SKILLS: SkillDef[] = [
     built: true,
   },
   {
+    id: 'grip',
