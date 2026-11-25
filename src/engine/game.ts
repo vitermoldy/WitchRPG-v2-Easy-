@@ -916,3 +916,4 @@ export class Game implements UnitHost {
     this.botLock = false
     const cur = this.lockon.current
     let visible = true
+    if (cur) {
