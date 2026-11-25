@@ -61,3 +61,4 @@ export function clearFraction(pivot: Vec, want: Vec, obstacles: Obstacles | null
     const z = pivot.z + (want.z - pivot.z) * t
     if (y < height(x, z) + radius + 0.05) {
       f = last
+      break
