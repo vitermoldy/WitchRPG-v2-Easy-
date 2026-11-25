@@ -1150,3 +1150,4 @@ ROLE, RANK, ZONE, REF = 3, 4, 5, 6
 def ilyra_palette():
     return {
         "cloth": C.mat_flat("ilyra_cloth", "#1b1418", 0.85),
+        "cloth2": C.mat_flat("ilyra_cloak", "#24161f", 0.8),
