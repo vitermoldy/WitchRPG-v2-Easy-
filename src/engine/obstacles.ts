@@ -184,3 +184,4 @@ function segCylinder(ax: number, ay: number, az: number, dx: number, dy: number,
   }
   const enter = Math.max(c0, h0)
   const exit = Math.min(c1, h1)
+  if (enter > exit || exit < 0 || enter > 1) return 1
