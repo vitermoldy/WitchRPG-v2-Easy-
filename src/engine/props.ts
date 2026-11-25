@@ -113,3 +113,4 @@ export class Props {
     })
     this.mesh.instanceMatrix.needsUpdate = true
   }
+}
