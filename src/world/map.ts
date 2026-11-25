@@ -214,3 +214,4 @@ export function pathDist(x: number, y: number): number {
       const [bx, by] = line[i + 1]
       const dx = bx - ax
       const dy = by - ay
+      const t = Math.min(1, Math.max(0, ((x - ax) * dx + (y - ay) * dy) / (dx * dx + dy * dy)))
