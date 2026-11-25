@@ -31,3 +31,4 @@ const RING_FRAG = /* glsl */ `
 `
 
 /** Fast flash: a thick band along the lunge that blinks about seven times a second. Only a roll avoids it. */
+const LINE_FRAG = /* glsl */ `
