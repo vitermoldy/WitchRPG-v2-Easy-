@@ -90,3 +90,4 @@ export class Game implements UnitHost {
   camps!: Camps
   fauna!: Fauna
   altars!: Altars
+  lair!: Lair
