@@ -328,3 +328,4 @@ const poseCentaur: PoseFn = (p, u, t) => {
     p.body(0.25 * k, -22 * k)
     p.rot('leg_FL', -70 * k)
     p.rot('leg_FR', -55 * k)
+    return
