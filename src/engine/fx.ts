@@ -34,3 +34,4 @@ const VERT = /* glsl */ `
     vColor = aColor;
     vAlpha = aAlpha;
     vec4 mv = modelViewMatrix * vec4(position, 1.0);
+    // Capped so an ember drifting past the lens never fills the screen.
