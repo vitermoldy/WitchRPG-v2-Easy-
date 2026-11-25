@@ -267,3 +267,4 @@ export class IlyraModel {
       armLX = mix(armLX, -68 - 15 * push, b)
       armLY = mix(armLY, -30, b)
       armLZ = mix(armLZ, 0, b)
+      foreL = mix(foreL, -50 + 35 * push, b)
