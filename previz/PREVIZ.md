@@ -137,3 +137,4 @@ Makhluk memakai warna dari gambar referensinya (keputusan pemilik setelah previz
 | Tebing Berangin | II, 4-6 | `#e9c79c` tipis hangat | 0,006, 30 m | `#5b5141` | pinus hangat 70%, pinus 30%; 0,32; batu besar di lereng |
 | Rawa Berkabut | III, 7-9 | `#a9c491` hijau pucat | 0,030, 9 m | `#283224` | pohon rawa berakar tinggi 55%, pohon mati 30%, pinus 15%; 0,95 |
 | Danau Hitam | III, sarang Hydra | `#a3b996` rendah di atas air | 0,012, 5 m | air `#06090b` | pohon rawa di tepi |
+| Reruntuhan Kuil | IV, 10-12 | `#8f9096` abu | 0,020, 14 m | `#373a33` | pinus 50%, pinus tinggi 35%, birch 15%; 1,3; kuil batu di tengah |
