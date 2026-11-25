@@ -90,3 +90,4 @@ export async function checkAccount(): Promise<void> {
     const body = await call<Entry>('auth/me')
     setAuth({ status: 'signed-in', account: body.user })
   } catch (err) {
+    // 401: the server works and nobody is signed in. Anything else: the server or MySQL is down.
