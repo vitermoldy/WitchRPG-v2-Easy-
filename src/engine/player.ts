@@ -17,3 +17,4 @@ export interface MoveInput {
 export interface Ground {
   height: HeightFn
   obstacles: Obstacles | null
+  /**
