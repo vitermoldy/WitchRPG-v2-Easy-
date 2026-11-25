@@ -240,3 +240,4 @@ def palette_ref(key, spec):
     for slot, v in list(vals.items()) + [(k, v) for k, v in spec.items() if k not in vals]:
         pal[slot] = tone(slot, v)
     if veins:
+        top = vals["body"][0] if isinstance(vals["body"], tuple) else vals["body"]
