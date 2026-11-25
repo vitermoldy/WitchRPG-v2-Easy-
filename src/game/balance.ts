@@ -572,3 +572,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     summonKind: 'imp',
     attacks: [
       { name: 'sengat ular', strike: 'ring', windup: 0.7, recover: 0.8, range: 6, ring: 1.8, behind: true, damage: 0.7, effect: 'poison' },
+      { name: 'seruduk kambing', strike: 'line', windup: 0.8, recover: 1.3, range: 16, minRange: 7, damage: 1.2, lungeSpeed: 15, lungeTime: 0.8, cooldown: 6 },
