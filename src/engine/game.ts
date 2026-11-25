@@ -1118,3 +1118,5 @@ export class Game implements UnitHost {
     this.frameCount = 0
     this.frames.fill(0)
     this.minClearance = Infinity
+  }
+
