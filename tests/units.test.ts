@@ -202,3 +202,5 @@ describe('phase 4 creatures', () => {
     expect(shieldShare(m, 0, 3, 'impact')).toBe(1)
     m.set('stagger')
     expect(shieldShare(m, 0, 3, 'melee')).toBe(1)
+  })
+
