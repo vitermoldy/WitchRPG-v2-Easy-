@@ -64,3 +64,4 @@ export class Input {
       }
       return true
     } catch {
+      return false
