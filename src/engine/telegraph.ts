@@ -97,3 +97,4 @@ export class Telegraphs {
     geo.userData.base = Float32Array.from(pos.array as Float32Array)
     const mat = new THREE.ShaderMaterial({
       uniforms: { uColor: { value: this.color }, uFill: { value: 0 }, uTime: { value: 0 } },
+      vertexShader: VERT,
