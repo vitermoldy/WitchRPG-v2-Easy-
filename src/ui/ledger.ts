@@ -243,3 +243,4 @@ export class TravelPanel {
     this.dlg.addEventListener('click', (e) => {
       const t = (e.target as HTMLElement).closest('button')
       if (!t) return
+      if (t.dataset.altar) {
