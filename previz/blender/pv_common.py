@@ -302,3 +302,4 @@ def catmull(pts, n):
     return out, ts
 
 
+class Part:
