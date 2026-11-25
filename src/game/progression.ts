@@ -83,3 +83,5 @@ export function newProfile(): Profile {
     settings: { ...DEFAULT_SETTINGS },
     world: { altars: ['pembuka'], last: 'pembuka' },
   }
+}
+
