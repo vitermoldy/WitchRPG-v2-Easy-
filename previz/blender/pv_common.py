@@ -470,3 +470,4 @@ class Rig:
         for name in self.order:
             p = self.parts[name]
             if not p.bm.verts:
+                p.bm.free()
