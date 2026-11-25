@@ -39,3 +39,4 @@ FOV di bawah ini selalu vertikal, sama dengan `PerspectiveCamera.fov` di Three.j
 Varian yang dibandingkan di `00-kamera-varian.png`:
 
 | Varian | Angka | Hasil |
+| --- | --- | --- |
