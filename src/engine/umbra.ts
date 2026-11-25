@@ -368,3 +368,4 @@ export class Umbra {
         if (u.state === 'rising' || u.command === 'hold' || u.pos.distanceTo(new THREE.Vector3(p.pos.x, p.pos.y, p.pos.z)) < LEASH) continue
         g.pools.open(u.pos, 1 + u.radius * 1.5, 0.4)
         const at = this.spot(u.slot)
+        u.pos.copy(at)
