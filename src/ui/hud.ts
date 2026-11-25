@@ -203,3 +203,4 @@ export class Hud {
     const chaos = g.spells.overloaded ? (g.spells.overloadT / CHAOS.overloadTime) * 100 : g.spells.chaos
     this.set('chaos-fill', 'transform', `scaleX(${(chaos / 100).toFixed(3)})`)
     this.set('chaos-text', 'text', g.spells.overloaded ? `${Math.ceil(g.spells.overloadT)} dtk` : g.spells.chaos >= CHAOS.max ? 'G siap' : `${Math.floor(g.spells.chaos)}`)
+    this.set('chaos-row', 'class', g.spells.chaos >= CHAOS.max || g.spells.overloaded ? 'vital full' : 'vital')
