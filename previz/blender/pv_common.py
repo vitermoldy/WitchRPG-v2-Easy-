@@ -265,3 +265,5 @@ def palette(kind, body="#1f1a1c", body2=None, horn="#4a3f38", tag=""):
     return sh
 
 
+# ---------------------------------------------------------------- geometry
+
