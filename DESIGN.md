@@ -168,3 +168,5 @@ Angka fase 3 sebelumnya (7,9 sampai 8,2 ms untuk 200 dan 8,9 sampai 9,2 ms untuk
 
 ## Fase 5: boss dan akhir (26 Nov 2026)
 
+Tiga pertanyaan pemilik dari fase 4 (ritme, kabut Lembah Bara, warna mata musuh) belum terjawab. Fase ini memakai pilihan A untuk ketiganya: ritme tetap, kabut oranye, mata amber.
+
