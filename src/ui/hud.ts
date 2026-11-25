@@ -304,3 +304,4 @@ export class Hud {
     const rows: string[] = []
     rows.push(`<li class="army-row"><span>Di medan</span><b class="num">${field.length} / ${total}</b></li>`)
     if (reform.count) rows.push(`<li class="army-row dim"><span>Terbentuk kembali</span><b class="num">${reform.count}, ${reform.next} dtk</b></li>`)
+    const order = { marsekal: 0, jenderal: 1, ksatria: 2, prajurit: 3 }
