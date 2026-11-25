@@ -24,3 +24,4 @@ describe('the forest valley', () => {
           const x = ax + ((bx - ax) * d) / len
           const y = ay + ((by - ay) * d) / len
           const h = heightMap(x, y)
+          const rise = h - prev
