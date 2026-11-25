@@ -11,3 +11,4 @@ import express from 'express'
  *   POST /api/auth/logout
  *   GET  /api/auth/me                                         who is signed in, 401 if nobody
  *
+ * The session is an HttpOnly cookie. Only a SHA-256 of its token is stored, so a
