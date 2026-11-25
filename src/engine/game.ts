@@ -747,3 +747,5 @@ export class Game implements UnitHost {
     this.hud.fade()
     this.sfx.warp()
     this.saveNow()
+  }
+
