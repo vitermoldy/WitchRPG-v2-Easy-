@@ -296,3 +296,4 @@ def build_minotaur(dunia):
     f = Vector((0.08, 1, 0)).normalized()
     sd = sun_dir(f, -70, 32)
     world = C.sky_world("langit_kuil", "#59636f", "#b9b8b4", "#2a2a2a", 1.3, sun_dir=sd, sun_glow="#f4ecdc", glow_power=12)
+    sc, local = shot_scene("04-tempur-minotaur", dunia, world, -sd, "#f2eadc", 3.4, vol_end=300, exposure=0.25)
