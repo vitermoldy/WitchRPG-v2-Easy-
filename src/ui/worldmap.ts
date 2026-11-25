@@ -70,3 +70,4 @@ export class WorldMap {
     $('map-monsters').addEventListener('change', (e) => {
       const box = e.target as HTMLInputElement
       const kind = box.dataset.kind as UnitKind | undefined
+      if (!kind) return
