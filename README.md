@@ -120,3 +120,4 @@ src/data/     panggilan ke server akun (api.ts)
 src/ui/       HUD, Ledger dan panel altar (ledger.ts), gerbang masuk dan baris akun (account.ts), peta (worldmap.ts)
 server/       Express + MySQL: akun (auth.js dari v1), simpanan witch (app.js), tabel (db.js), npm run users dan set-user
 tests/        Vitest: progresi v1, kamera, gerak, peta, tempur, AI makhluk, simpanan, Hydra dan makhluk fase 5, validasi server
+previz/       skrip Blender, render, animatic, papan makhluk, PREVIZ.md
