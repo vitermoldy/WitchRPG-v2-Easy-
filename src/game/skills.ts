@@ -3,3 +3,4 @@ export type SkillId =
   | 'grip'
   | 'burst'
   | 'snare'
+  | 'barrier'
