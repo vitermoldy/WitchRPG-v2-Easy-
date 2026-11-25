@@ -406,3 +406,4 @@ export class Game implements UnitHost {
         return y
       },
     }
+    this.seal = new Seal(this.profile.bossKills > 0)
