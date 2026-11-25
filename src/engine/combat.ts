@@ -97,3 +97,4 @@ export class Combo {
 
   update(dt: number, pressed: boolean, held: boolean, out: ComboEvent[] = []): ComboEvent[] {
     this.chainLeft = Math.max(0, this.chainLeft - dt)
+    if (this.chainLeft === 0 && !this.current) this.nextIndex = 0
