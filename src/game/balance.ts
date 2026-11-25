@@ -463,3 +463,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     lungeSpeed: 18,
     lungeTime: 0.8,
     fly: { height: 6 },
+    strike: 'line',
