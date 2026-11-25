@@ -146,3 +146,4 @@ export class CameraRig {
       this.yaw = wrap(this.yaw + wrap(want.yaw - this.yaw) * k)
       this.pitch += (want.pitch - this.pitch) * k
     }
+    return this.place(dt, pivot, p, obstacles, height)
