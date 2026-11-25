@@ -324,3 +324,4 @@ export class Fight {
     const g = this.g
     const p = g.player
     this.riposte = Math.max(0, this.riposte - dt)
+    this.parryFx = Math.max(0, this.parryFx - dt * 4)
