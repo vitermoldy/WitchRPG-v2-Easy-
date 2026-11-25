@@ -76,3 +76,4 @@ describe('Ilyra on foot', () => {
   })
 
   it('jogs at 4.4 m/s and sprints at 7 m/s', () => {
+    const p = new Player()
