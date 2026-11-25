@@ -56,3 +56,4 @@ export function clearFraction(pivot: Vec, want: Vec, obstacles: Obstacles | null
   let last = 0
   for (let i = 1; i <= steps; i++) {
     const t = (i / steps) * f
+    const x = pivot.x + (want.x - pivot.x) * t
