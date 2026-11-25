@@ -15,3 +15,4 @@ const VERT = /* glsl */ `
 const RING_FRAG = /* glsl */ `
   varying vec2 vUv;
   uniform vec3 uColor;
+  uniform float uFill;
