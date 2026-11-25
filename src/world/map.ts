@@ -112,3 +112,4 @@ export function fbm(x: number, y: number, octaves = 4, seed = 0): number {
     s += amp * vnoise(x * f + 37.1 * k + seed, y * f - 11.7 * k + seed)
     norm += amp
     amp *= 0.5
+    f *= 2
