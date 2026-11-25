@@ -200,3 +200,4 @@ export class Ambient {
     const geo = this.points.geometry
     for (const name of ['position', 'tint', 'size', 'alpha']) (geo.getAttribute(name) as THREE.BufferAttribute).needsUpdate = true
 
+    // the Rift over Lembah Bara: in the sky toward the valley, only while she is in or near it
