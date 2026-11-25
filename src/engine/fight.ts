@@ -83,3 +83,4 @@ class Staff {
   /** Back in her hand at once (a fall, a respawn). */
   reset() {
     this.state = 'hand'
+    if (this.obj) this.obj.visible = false
