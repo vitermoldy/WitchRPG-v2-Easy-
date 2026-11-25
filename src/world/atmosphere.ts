@@ -29,3 +29,4 @@ void main() {
   float h = d.y;
   vec3 c = mix(horizon, zenith, smoothstep(0.02, 0.55, h));
   c = mix(c, ground, smoothstep(0.0, -0.25, h));
+  // the band at the horizon takes the fog colour, so far hills melt into the sky
