@@ -15,3 +15,5 @@ the far shadow army drawn as a crowd (parts under 60 triangles are left alone so
 import os
 import sys
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
