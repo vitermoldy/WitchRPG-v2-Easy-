@@ -1942,3 +1942,4 @@ dialog::backdrop {
 .map-sort select {
   min-height: 44px;
   padding: 0.2rem 0.5rem;
+  border: 1px solid var(--line-strong);
