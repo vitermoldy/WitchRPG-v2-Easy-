@@ -242,3 +242,4 @@ export class Camps {
             const s = g.units.nearestFoe(u, CAMP.aggro * 0.6)
             return !!s
           }
+          if (alive.some(close)) {
