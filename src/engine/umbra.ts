@@ -164,3 +164,4 @@ export class Umbra {
       return
     }
     if (!ready.length) {
+      const r = this.reforming()
