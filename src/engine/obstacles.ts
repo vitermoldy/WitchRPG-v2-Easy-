@@ -83,3 +83,4 @@ export class Obstacles {
         let rr: number
         if (s.kind === CYL) {
           if (pos.y > s.y + s.h || pos.y + height < s.y) return
+          rr = s.r
