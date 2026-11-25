@@ -143,3 +143,4 @@ export class Telegraphs {
       it.total = atk.windup * u.tempo + (atk.shot ? Math.max(0.3, dist / atk.shot.speed) : (atk.lungeTime ?? 0.3))
       this.layRing(it, u.aimAt.x, u.aimAt.z)
     }
+    this.byUnit.set(u.id, it)
