@@ -72,3 +72,4 @@ export class Unit implements Foe {
   radius: number
   readonly mass: number
   scale = 1
+  /** Elite trait, or null. */
