@@ -165,3 +165,4 @@ describe('phase 4 creatures', () => {
     const w = world()
     const c = w.sys.spawn('centaur', 'enemy', 4, { x: 0, z: 5 })
     w.step(3)
+    expect(w.log.fired).toContain('panah')
