@@ -552,3 +552,4 @@ def b_centaur(r):
     hc = V(J["head_c"])
     h.ell(hc, (0.09, 0.105, 0.12), mat="skin")
     face(h, hc, 1.8)
+    long_hair(h, hc, 1.8, 0.5, 0.09)
