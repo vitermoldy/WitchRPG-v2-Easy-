@@ -156,3 +156,4 @@ X ke timur, Y ke utara, meter, pusat peta (0, 0).
 | Rawa Berkabut | (-300, 40) | 200 | rata di garis air, kolam di bawah 0 m |
 | Danau Hitam | (-330, 300) | 95 | dalam 7 m, tepi curam di sekitar 93 m dari pusat |
 | Sarang Hydra | (-275, 239) | | 18 m dari titik tepi tempat Ilyra berdiri (-263, 226) |
+| Reruntuhan Kuil | (40, 330) | 170 | naik 12 m, pelataran kuil rata di (40, 318) |
