@@ -217,3 +217,4 @@ def terrain_material():
     mul2 = N.new("ShaderNodeMath")
     mul2.operation = "MULTIPLY"
     mul2.inputs[1].default_value = 4.0
+    L.new(mul.outputs[0], mul2.inputs[0])
