@@ -903,3 +903,5 @@ class Rig implements Poser {
         h.visual.copy(this.hv.setFromMatrixPosition(node.matrixWorld).applyMatrix4(this.unitM))
       })
     }
+  }
+
