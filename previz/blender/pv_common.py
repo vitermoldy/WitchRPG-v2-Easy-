@@ -566,3 +566,4 @@ def font():
     return f
 
 
+def text(coll, body, loc, size=0.3, color="#efe6df", strength=1.0, align="LEFT", rot=(90, 0, 0), name=None, valign="BOTTOM_BASELINE"):
