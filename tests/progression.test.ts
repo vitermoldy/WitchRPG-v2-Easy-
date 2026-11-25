@@ -27,3 +27,4 @@ const ALL = SKILLS.map((s) => s.id)
 
 describe('XP curve from the GDD', () => {
   it('matches the two anchor values', () => {
+    expect(xpToNext(1)).toBe(80)
