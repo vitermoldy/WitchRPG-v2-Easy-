@@ -380,3 +380,4 @@ export class Warnings {
 }
 
 const POOL_VERT = /* glsl */ `
+  varying vec2 vUv;
