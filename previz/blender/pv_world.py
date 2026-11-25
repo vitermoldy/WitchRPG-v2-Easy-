@@ -19,3 +19,4 @@ ZONES = [
 ]
 LAKE = dict(c=(-330, 300), r=95)
 # Danau Hitam belongs to the swamp but keeps its own low fog over the black water
+LAKE_FOG = dict(key="danau", name="Danau Hitam", c=LAKE["c"], r=120, fog="#a3b996", dens=0.012, hs=5, glow=0.15)
