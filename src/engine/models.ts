@@ -75,3 +75,4 @@ export const idlePose = (): IlyraPose => ({ swing: null, block: 0, parry: 0, exe
 /** Arm and body angles of one swing at its windup end (`back`) and after the blow (`through`). */
 const SWINGS = [
   // sweep from her right to her left
+  { back: { torso: -38, armX: -70, armY: -65, fore: -10 }, through: { torso: 42, armX: -80, armY: 55, fore: -5 } },
