@@ -685,3 +685,4 @@ def sky_world(name, zenith, horizon, ground, strength=1.0, haze=None, haze_densi
         pw.inputs[1].default_value = glow_power
         L.new(clamp.outputs[0], pw.inputs[0])
         mix = N.new("ShaderNodeMix")
+        mix.data_type = "RGBA"
