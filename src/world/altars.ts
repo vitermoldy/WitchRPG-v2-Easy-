@@ -44,3 +44,4 @@ export class Altars {
       const [x, z] = toWorld(a.c[0], a.c[1])
       const y = g.height(x, z)
       const root = new THREE.Group()
+      root.position.set(x, y, z)
