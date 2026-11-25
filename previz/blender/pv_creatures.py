@@ -1063,3 +1063,4 @@ def _horse(r, wings, horn):
     n.cone(hp + Vector((0, -0.05, 0.12)), hp + Vector((0, -0.3, -0.05)), 0.07, mat="body2", seg=5)
     if horn:
         hc = hp + Vector((0, -0.12, 0.15))
+        n.cone(hc, hc + Vector((0, -0.45, 0.55)), 0.045, mat="horn", seg=8)
