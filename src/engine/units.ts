@@ -697,3 +697,4 @@ export class UnitSystem {
         const slot = !onPlayer || u.token || this.tokens() < COMBAT.attackers
         if (u.flyer) {
           // circle above her at a distance, waiting for a dive
+          const a = Math.atan2(u.pos.x - tgt.pos.x, u.pos.z - tgt.pos.z) + u.flank * 0.7 * dt
