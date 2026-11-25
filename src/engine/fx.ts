@@ -356,3 +356,4 @@ export class Warnings {
     const w = this.pool.find((p) => !p.group.visible) ?? this.pool[0]
     w.group.visible = true
     w.group.position.set(at.x, at.y + 0.07, at.z)
+    w.edge.scale.setScalar(radius)
