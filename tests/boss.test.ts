@@ -184,3 +184,4 @@ describe('creature shots', () => {
   it('a volley whose first glob fells her does not trip over the shots her fall cleared', async () => {
     const { Projectiles } = await import('../src/engine/projectiles')
     const w = world()
+    const naga = w.sys.spawn('naga', 'enemy', 8, { x: 0, z: 6 })
