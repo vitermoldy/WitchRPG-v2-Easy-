@@ -28,3 +28,4 @@ function patchGlow(mat: THREE.MeshStandardMaterial) {
 /** Mean of a geometry's vertex colours: the real colour of a two-tone part, whose material is white. */
 function meanColor(geo: THREE.BufferGeometry | undefined): THREE.Color | null {
   const a = geo?.getAttribute('color')
+  if (!a || a.count === 0) return null
