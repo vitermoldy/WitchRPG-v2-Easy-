@@ -918,3 +918,4 @@ class Rig implements Poser {
    * the curl along it how low it comes. False once every such head lies on its circle.
    */
   private steerNecks(u: Unit): boolean {
+    let steering = false
