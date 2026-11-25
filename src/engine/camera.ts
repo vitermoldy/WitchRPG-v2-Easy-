@@ -9,3 +9,4 @@ import type { Obstacles } from './obstacles'
  */
 export interface Vec {
   x: number
+  y: number
