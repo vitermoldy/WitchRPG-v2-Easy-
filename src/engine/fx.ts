@@ -57,3 +57,4 @@ const FRAG_SMOKE = /* glsl */ `
   varying float vAlpha;
   void main() {
     float d = length(gl_PointCoord - 0.5);
+    float a = smoothstep(0.5, 0.1, d) * vAlpha;
