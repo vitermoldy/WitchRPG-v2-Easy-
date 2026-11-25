@@ -173,3 +173,4 @@ export class Game implements UnitHost {
     this.derived = derive(this.profile.stats, this.profile.level)
     this.applyDerived(true)
     this.units = new UnitSystem(this)
+    this.fight = new Fight(this)
