@@ -468,3 +468,4 @@ export class ShadowPools {
         continue
       }
       if (p.state === 'opening') {
+        // Spills out fast, eases at the edge.
