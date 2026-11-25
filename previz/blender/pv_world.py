@@ -491,3 +491,4 @@ def build_ground_cover(coll, P, centre, radius, seed=11, grass=0.5, fern=0.05, b
     rng = np.random.default_rng(seed)
     n = int(radius * 2 / step)
     g = (np.arange(n) - n / 2) * step
+    X, Y = np.meshgrid(g + centre[0], g + centre[1], indexing="xy")
