@@ -304,3 +304,4 @@ def _pine(p, h=13.0, tiers=6, rad=3.0, mat="needle"):
 
 def _birch(p):
     p.limb((0, 0, 0), (0.2, 0.1, 11), 0.2, 0.07, mat="birch", seg=7, joints=False)
+    for a, z, l in ((0.5, 6.5, 2.0), (2.4, 7.5, 1.8), (4.2, 8.2, 1.5)):
