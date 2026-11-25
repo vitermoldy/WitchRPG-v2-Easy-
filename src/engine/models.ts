@@ -36,3 +36,5 @@ export function bakeByMaterial(root: THREE.Object3D): { geometry: THREE.BufferGe
     groups.get(mat)!.push(g.index ? g.toNonIndexed() : g)
   })
   return [...groups].map(([material, geos]) => ({ geometry: mergeGeometries(geos), material }))
+}
+
