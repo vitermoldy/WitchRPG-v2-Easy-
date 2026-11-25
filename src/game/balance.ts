@@ -950,3 +950,4 @@ export const HYDRA = {
   impsPerSlam: 2,
   maxImps: 6,
   /** Phase 2 skin: bolts and blasts do this share, thrown things this much. */
+  boltShare: 0.1,
