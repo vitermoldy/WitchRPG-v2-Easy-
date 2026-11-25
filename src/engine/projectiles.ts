@@ -54,3 +54,4 @@ export class Projectiles {
 
   fire(u: Unit, atk: AttackSpec) {
     const spec = atk.shot
+    if (!spec) return
