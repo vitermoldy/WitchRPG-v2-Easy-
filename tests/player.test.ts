@@ -133,3 +133,4 @@ describe('Ilyra on foot', () => {
     expect(q.pos.z).toBeGreaterThan(-3.01)
   })
 
+  it('is pushed out of a trunk instead of walking through it', () => {
