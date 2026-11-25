@@ -965,3 +965,4 @@ export class UnitSystem {
     const ground = host.height(u.pos.x, u.pos.z)
     if (u.pos.y <= ground && u.vel.y < 0) {
       u.pos.y = ground
+      if (u.hurled && speed > SPELL.impact.minSpeed) host.impact(u, null, speed)
