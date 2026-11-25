@@ -234,3 +234,4 @@ export class Sfx {
   riteCharge(k: number) {
     if (!this.ok()) return
     const t = this.ctx!.currentTime
+    this.tone(t, 'sine', 180 + k * 260, 200 + k * 280, 0.12, 0.05)
