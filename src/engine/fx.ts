@@ -81,3 +81,4 @@ export class Particles {
   private readonly grav: Float32Array
   private readonly drag: Float32Array
   private cursor = 0
+  private readonly material: THREE.ShaderMaterial
