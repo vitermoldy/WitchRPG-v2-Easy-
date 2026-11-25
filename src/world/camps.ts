@@ -241,3 +241,4 @@ export class Camps {
             if (u.hp < u.maxHp - 0.01) return true
             const s = g.units.nearestFoe(u, CAMP.aggro * 0.6)
             return !!s
+          }
