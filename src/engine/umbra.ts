@@ -83,3 +83,4 @@ export class Umbra {
   }
 
   reset() {
+    this.candidate = null
