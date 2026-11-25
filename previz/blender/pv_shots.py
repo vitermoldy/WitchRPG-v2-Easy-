@@ -105,3 +105,6 @@ def cam_label(cam, body, size=0.035, corner=(-0.95, 0.88)):
     ob = C.text(cam.users_collection[0], body, (0, 0, 0), size=size * 2 * hh, color="#f4efe9", strength=1.2, rot=(0, 0, 0), name=f"label.{cam.name}")
     ob.parent = cam
     ob.location = (corner[0] * hw, corner[1] * hh, -d)
+    return ob
+
+
