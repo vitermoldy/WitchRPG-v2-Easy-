@@ -153,3 +153,4 @@ export class Unit implements Foe {
   /** Drawn with its own animated model this frame (the rest of the army is drawn as a crowd). */
   detailed = true
   /** The camp it belongs to (enemies), for wake, sleep and respawn. */
+  camp = -1
