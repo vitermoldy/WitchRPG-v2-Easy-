@@ -354,3 +354,4 @@ def _bush(p):
         p.ell((x, y, z), (r, r, r * 0.8), mat="needle2", seg=7, rings=5, smooth=False)
 
 
+def build_protos(lib_coll):
