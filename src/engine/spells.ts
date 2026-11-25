@@ -529,3 +529,4 @@ export class Spells {
       const p = g.player
       at = new THREE.Vector3(p.pos.x - Math.sin(p.facing) * 7, 0, p.pos.z - Math.cos(p.facing) * 7)
     }
+    at.y = g.ground.height(at.x, at.z)
