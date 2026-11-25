@@ -340,3 +340,4 @@ export class Hud {
     const w = window.innerWidth
     const h = window.innerHeight
     const p = g.player.pos
+    let n = 0
