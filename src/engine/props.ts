@@ -9,3 +9,4 @@ export interface Prop {
   readonly vel: THREE.Vector3
   readonly mass: number
   readonly radius: number
+  held: boolean
