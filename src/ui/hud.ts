@@ -206,3 +206,4 @@ export class Hud {
     this.set('chaos-row', 'class', g.spells.chaos >= CHAOS.max || g.spells.overloaded ? 'vital full' : 'vital')
     this.set('level-text', 'text', `Lv ${pr.level}`)
     this.set('xp-text', 'text', `${pr.xp} / ${xpToNext(pr.level)} XP`)
+    this.set('xp-fill', 'transform', `scaleX(${Math.min(1, pr.xp / xpToNext(pr.level)).toFixed(3)})`)
