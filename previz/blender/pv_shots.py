@@ -136,3 +136,4 @@ def mat_ring(name, color, strength, inner=0.82, alpha=0.9, fill=0.08):
     L.new(tc.outputs["Generated"], ln.inputs[0])
     sub = N.new("ShaderNodeVectorMath")
     sub.operation = "SUBTRACT"
+    sub.inputs[1].default_value = (0.5, 0.5, 0.5)
