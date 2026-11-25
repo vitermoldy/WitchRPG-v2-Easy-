@@ -102,3 +102,4 @@ def cam_label(cam, body, size=0.035, corner=(-0.95, 0.88)):
     d = 0.4
     hh = d * math.tan(cam.data.angle_y / 2)
     hw = hh * 16 / 9
+    ob = C.text(cam.users_collection[0], body, (0, 0, 0), size=size * 2 * hh, color="#f4efe9", strength=1.2, rot=(0, 0, 0), name=f"label.{cam.name}")
