@@ -455,3 +455,4 @@ export class Umbra {
         this.turnToAsh(u)
         continue
       }
+      raised.push(rec)
