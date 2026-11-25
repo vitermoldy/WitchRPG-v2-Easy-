@@ -499,3 +499,4 @@ export class ShadowPools {
   }
 }
 
+/** A soft round texture for sprites (palm orbs, exit glow). */
