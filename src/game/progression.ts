@@ -137,3 +137,5 @@ export function xpForKill(enemyLevel: number, boss = false): number {
 }
 
 /** Bigger ranks are worth more: a Rift Lord five husks, the boss ten ("XP besar" in the GDD). */
+const RANK_XP: Record<RankId, number> = { prajurit: 1, ksatria: 2, jenderal: 5, marsekal: 10 }
+
