@@ -494,3 +494,4 @@ export class Umbra {
     g.glow.emit({ pos: u.center(), count: 20, color: COLOR.umbra, intensity: 2.4, life: 0.8, size: 0.14, speed: 2.5 })
   }
 
+  private order(choice: WheelChoice) {
