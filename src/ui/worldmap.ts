@@ -121,3 +121,4 @@ export class WorldMap {
     const g = this.g
     const list: BossEntry[] = []
     const zoneName = (x: number, z: number) => {
+      const [mx, my] = toMap(x, z)
