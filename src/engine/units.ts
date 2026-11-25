@@ -884,3 +884,4 @@ export class UnitSystem {
       for (let dz = -1; dz <= 1; dz++) {
         const list = this.grid.get(cellKey(cx + dx, cz + dz))
         if (!list) continue
+        for (const o of list) {
