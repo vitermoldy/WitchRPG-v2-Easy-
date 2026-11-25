@@ -793,3 +793,4 @@ class Rig implements Poser {
     this.pose = POSES[kind] ?? (() => {})
     const scene = model.clone(true)
     this.holder.add(scene)
+    const mats = new Map<THREE.Material, THREE.MeshStandardMaterial>()
