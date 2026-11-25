@@ -370,3 +370,4 @@ export class Spells {
           first = u
         }
       }
+    }
