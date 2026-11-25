@@ -27,3 +27,4 @@ const VERT = /* glsl */ `
   attribute float aSize;
   attribute vec3 aColor;
   attribute float aAlpha;
+  uniform float uScale;
