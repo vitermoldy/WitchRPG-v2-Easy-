@@ -364,3 +364,4 @@ class Part:
         self._tag(g["verts"], mat, smooth)
         return self
 
+    def tube(self, pts, radii, mat="body", seg=8, n=5, cap=True, squash=1.0, smooth=True):
