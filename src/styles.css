@@ -713,3 +713,4 @@ button {
   color: var(--ink);
   font-size: 0.88rem;
   line-height: 1.35;
+  animation: feed-in 0.25s ease-out;
