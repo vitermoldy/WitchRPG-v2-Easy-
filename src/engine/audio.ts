@@ -311,3 +311,4 @@ export class Sfx {
 
   reflect() {
     if (!this.ok()) return
+    const t = this.ctx!.currentTime
