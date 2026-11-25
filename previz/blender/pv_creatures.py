@@ -475,3 +475,4 @@ def b_imp(r):
     J = humanoid(r, 1.05, bulk=0.55, legs="bird", arm_pose={"L": (30, 50, 35), "R": (25, 40, 30)}, leg_pose={"L": (40, 45), "R": (30, 40)}, foot_mat="claw")
     h = r.parts["head"]
     hc = V(J["head_c"]) + Vector((0, -0.02, 0.01))
+    h.ell(hc, (0.095, 0.115, 0.11))
