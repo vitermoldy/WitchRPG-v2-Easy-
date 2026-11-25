@@ -228,3 +228,4 @@ export class Lair {
         this.heads[i] = null
       }
       if (this.body) this.body.parts = this.heads
+      g.hud.banner('Hydra menelan kepalanya', 'kebal, kecuali di dalam Reality Warp: di sana jantungnya terbuka')
