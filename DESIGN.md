@@ -267,3 +267,4 @@ Pemeriksaan:
 - **Boss** (witch Lv 20, 14 dtk tiap boss): keenamnya bangun dan menyerang (satu sampai tiga serangan berbeda terlihat dalam 14 dtk itu, beda antar-run), bar boss menulis nama dan level, Cerberus memanggil 2 Hellhound, Lilith 1 Succubus, Typhon 3 Harpy. Saat tumbang: banner, kamp padam, bangkit lagi dalam 45 dtk.
 - **Satwa:** Unicorn dan Pegasus muncul di dekat altar Tebing, tidak bisa di-lock atau dipukul.
 - **Peta:** sembilan boss dengan status, 14 jenis monster dengan level dan jumlah kamp, urutan nama dan level, centang menandai kamp, game menunggu, Esc menutup dan game lanjut.
+- **Gerbang Hydra diulang** dengan kawanan lebih besar: witch Lv 9 ditolak, witch Lv 10 dengan 69 bayangan menang tanpa tumbang (fase 3: 4 Reality Warp, 2.266 damage di dalam medan), lalu masuk Reruntuhan Kuil dan menaklukkan kamp tanpa tumbang.
