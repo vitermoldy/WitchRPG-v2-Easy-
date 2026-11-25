@@ -99,3 +99,4 @@ export class Ambient {
   private readonly alpha: Float32Array
   private readonly kind = new Uint8Array(COUNT)
   private readonly phase = new Float32Array(COUNT)
+  private readonly colors = KINDS.map((k) => new THREE.Color(k.color))
