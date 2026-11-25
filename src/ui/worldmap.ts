@@ -118,3 +118,4 @@ export class WorldMap {
 
   /** Every boss of the valley: the Hydra, the mini-bosses of Rawa and the bosses of the open world. */
   bosses(): BossEntry[] {
+    const g = this.g
