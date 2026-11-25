@@ -489,3 +489,5 @@ export class ShadowPools {
       const e = p.state === 'opening' ? 1 - (1 - p.open) ** 3 : p.open
       p.mat.uniforms.uOpen.value = e
     }
+  }
+
