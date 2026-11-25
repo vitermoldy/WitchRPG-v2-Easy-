@@ -39,3 +39,4 @@ export interface UnitHost {
   summoned(helper: Unit): void
   /** Something to show: a blink, a Phoenix falling to ashes or rising from them. */
   fx(u: Unit, what: 'blink' | 'ashes' | 'reborn', from?: THREE.Vector3): void
+  /** Telegraph shown while a unit winds up and lunges; cleared when the blow is over. */
