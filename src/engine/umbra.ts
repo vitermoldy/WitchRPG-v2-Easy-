@@ -239,3 +239,4 @@ export class Umbra {
     if (u.team !== 'enemy' || u.alive || u.ash || u.riteTried || !this.riteOpen || u.deadT > RITE.window) return null
     const pulse = 0.55 + Math.sin(this.time * 4 + u.id) * 0.25
     const end = Math.min(1, (RITE.window - u.deadT) / 3)
+    const k = pulse * end * (this.casting.includes(u) ? 1.0 : 0.55) * (u.executed ? 1.3 : 1)
