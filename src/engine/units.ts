@@ -244,3 +244,4 @@ export class Unit implements Foe {
   }
 
   set(state: UnitState) {
+    this.state = state
