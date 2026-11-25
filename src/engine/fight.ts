@@ -449,3 +449,4 @@ export class Fight {
     const mult = this.damageMult * (armed ? 1 : COMBAT.unarmed) * (this.riposte > 0 ? COMBAT.parry.counter : 1)
     let any = false
     for (const u of g.units.units) {
+      if (u.team !== 'enemy' || !u.targetable) continue
