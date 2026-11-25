@@ -451,3 +451,4 @@ class Part:
 class Rig:
     """A creature made of named parts parented in a hierarchy, each with its own pivot."""
 
+    def __init__(self, key, pal, coll):
