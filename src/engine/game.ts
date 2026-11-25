@@ -78,3 +78,4 @@ export class Game implements UnitHost {
   readonly umbra: Umbra
   readonly hud: Hud
   readonly shots: Projectiles
+  derived: Derived
