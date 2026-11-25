@@ -17,3 +17,4 @@ const KIND_COLOR: Partial<Record<UnitKind, string>> = {
   pegasus: '#ffffff', unicorn: '#d8f6ff',
 }
 
+interface BossEntry {
