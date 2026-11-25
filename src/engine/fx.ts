@@ -432,3 +432,4 @@ export class ShadowPools {
         vertexShader: POOL_VERT,
         fragmentShader: POOL_FRAG,
         transparent: true,
+        depthWrite: false,
