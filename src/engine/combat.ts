@@ -73,3 +73,4 @@ export type ComboEvent = { type: 'start'; s: SwingState } | { type: 'hit'; s: Sw
  * this one ends, so chaining does not need frame-perfect timing.
  */
 export class Combo {
+  current: SwingState | null = null
