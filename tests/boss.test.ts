@@ -214,3 +214,4 @@ describe('creature shots', () => {
     expect(falls).toBe(1)
     expect(shots.count).toBe(0)
   })
+})
