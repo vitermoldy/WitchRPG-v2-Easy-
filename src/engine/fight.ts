@@ -474,3 +474,4 @@ export class Fight {
       const fz = p.pos.z - Math.cos(p.facing) * 1.8
       g.rings.spawn({ x: fx, y: g.ground.height(fx, fz), z: fz }, COLOR.umbra, 0.3, 2.2, 0.35)
       g.smoke.emit({ pos: { x: fx, y: g.ground.height(fx, fz) + 0.1, z: fz }, count: 6, color: 0x2a2420, life: 0.8, size: 0.5, sizeEnd: 1.2, speed: 1.5, alpha: 0.5 })
+    }
