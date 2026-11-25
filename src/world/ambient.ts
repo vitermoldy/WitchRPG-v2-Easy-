@@ -27,3 +27,4 @@ interface Kind {
 
 // in ZONES order: pembuka, tebing, rawa, kuil, bara
 const KINDS: Kind[] = [
+  { color: 0xfff2c8, size: 0.09, vel: [0.15, -0.05, 0.05], wander: 0.25, blink: 0.2, alpha: 0.55 },
