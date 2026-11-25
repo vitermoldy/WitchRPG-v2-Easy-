@@ -35,3 +35,4 @@ if "--ratio" in argv:
     RATIO = float(argv[i + 1])
     argv = argv[:i] + argv[i + 2:]
 SHRINK = LOD or RATIO
+WANT = argv or ["ilyra", "imp", "hellhound", "harpy"]
