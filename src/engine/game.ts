@@ -457,3 +457,4 @@ export class Game implements UnitHost {
     this.scene.add(this.props.mesh)
     this.lair = new Lair(this)
     this.scene.add(this.lair.group)
+    this.spawn(SPOTS.hero[0], SPOTS.hero[1], 0.3, 1)
