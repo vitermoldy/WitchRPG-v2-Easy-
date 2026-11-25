@@ -383,3 +383,4 @@ export class Spells {
       this.tendril.visible = true
       this.tendrilLight = g.lights.acquire(COLOR.chaos, 5, 8)
       return
+    }
