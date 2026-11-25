@@ -854,3 +854,4 @@ export class UnitSystem {
         u.cd = u.spec.cooldown * 0.8
         u.set('move')
       }
+      return
