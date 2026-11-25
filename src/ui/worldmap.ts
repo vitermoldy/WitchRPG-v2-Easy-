@@ -342,3 +342,4 @@ export class WorldMap {
         const [x, y] = at(camp.pos.x, camp.pos.z)
         const ox = (i - (kinds.length - 1) / 2) * dot * 2.2
         ctx.beginPath()
+        ctx.arc(x + ox, y, dot, 0, Math.PI * 2)
