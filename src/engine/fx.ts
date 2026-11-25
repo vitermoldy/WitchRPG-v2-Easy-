@@ -94,3 +94,4 @@ export class Particles {
     this.baseCol = new Float32Array(max * 3)
     this.life = new Float32Array(max)
     this.maxLife = new Float32Array(max)
+    this.size0 = new Float32Array(max)
