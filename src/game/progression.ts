@@ -176,3 +176,4 @@ export interface Derived {
 export function derive(stats: Stats, level = 1): Derived {
   const above = (k: StatKey) => stats[k] - XP.startStat
   const grown = Math.max(0, level - 1)
+  return {
