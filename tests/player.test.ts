@@ -19,3 +19,4 @@ describe('Ilyra in the air (B)', () => {
   it('takes off, climbs 8 m/s, and stops at the ceiling 40 m over the ground', () => {
     const p = new Player()
     run(p, B, 1 / 120)
+    expect(p.flying).toBe(true)
