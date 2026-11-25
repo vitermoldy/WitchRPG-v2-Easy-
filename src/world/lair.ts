@@ -100,3 +100,4 @@ export class Lair {
       new THREE.MeshStandardMaterial({ color: 0x0b1512, roughness: 0.12, metalness: 0.35, transparent: true, opacity: 0.88 }),
     )
     water.position.set(this.center.x, this.waterY, this.center.z)
+    water.visible = false
