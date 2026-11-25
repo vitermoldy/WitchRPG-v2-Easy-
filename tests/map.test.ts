@@ -70,3 +70,4 @@ describe('the forest valley', () => {
     }
   })
 
+  it('stands every camp and altar on ground she can walk: not deep water, not a cliff', () => {
