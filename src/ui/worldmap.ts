@@ -120,3 +120,4 @@ export class WorldMap {
   bosses(): BossEntry[] {
     const g = this.g
     const list: BossEntry[] = []
+    const zoneName = (x: number, z: number) => {
