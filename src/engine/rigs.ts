@@ -151,3 +151,4 @@ const poseImp: PoseFn = (p, u, t) => {
   }
   if (u.state === 'recover') {
     const k = 1 - ease(u.t / u.spec.recover)
+    p.body(-0.08 * k, 20 * k)
