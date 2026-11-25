@@ -102,3 +102,5 @@ export class WorldMap {
 
   close() {
     if (this.dlg.open) this.dlg.close()
+  }
+
