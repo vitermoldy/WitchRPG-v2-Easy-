@@ -327,3 +327,4 @@ interface Warn {
   fill: THREE.Mesh
   edge: THREE.Mesh
   t: number
+  dur: number
