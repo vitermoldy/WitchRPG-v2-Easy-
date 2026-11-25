@@ -250,3 +250,4 @@ VARIANTS = [
 
 def build_variants(dunia):
     out = []
+    for key, label, mode, over in VARIANTS:
