@@ -50,3 +50,4 @@ export interface AuthState {
   account: Account | null
 }
 
+let auth: AuthState = { status: 'checking', account: null }
