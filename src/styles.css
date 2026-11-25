@@ -287,3 +287,4 @@ button {
   grid-template-columns: 1fr 1fr;
   gap: 1.4rem;
   padding: 1.4rem;
+  border: 1px solid var(--line);
