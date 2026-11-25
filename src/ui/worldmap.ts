@@ -137,3 +137,4 @@ export class WorldMap {
       const kind = (Object.keys(camp.def.pack) as V2Kind[]).find((k) => UNITS[k].boss)
       if (!kind) continue
       const sealed = g.seal.sealedAt(camp.pos.x, camp.pos.z) && !g.seal.isOpen
+      const left = Math.max(0, camp.respawnAt - g.camps.clock)
