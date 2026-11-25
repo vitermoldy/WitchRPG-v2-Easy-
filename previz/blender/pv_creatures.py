@@ -995,3 +995,4 @@ def b_typhon(r):
         bat_wing(t, (0.8 * s, J["back"][1], J["z"]["sh"]), s, 9.0, 5.8, raise_deg=28, sweep_deg=22, bone="horn", arm="horn")
     for s, side in SIDES:
         hd = r.parts["hand_" + side]
+        W, d = J["wr_" + side], J["hand_dir_" + side]
