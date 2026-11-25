@@ -330,3 +330,4 @@ export class Spells {
       if (best < len || hitUnit || hitGround || b.life <= 0) {
         const at = b.prev.clone().addScaledVector(dir, Math.min(best, len))
         if (hitUnit) {
+          g.hurtUnit(hitUnit, b.damage, b.prev, SPELL.bolt.stun, 0.6, 'player', 'bolt')
