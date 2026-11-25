@@ -58,3 +58,4 @@ export const CAMERA = {
   release: 4,
   near: 0.1,
   far: 1200,
+  sensitivity: 0.0022,
