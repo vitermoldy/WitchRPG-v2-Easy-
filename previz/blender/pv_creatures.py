@@ -502,3 +502,4 @@ def b_hellhound(r):
     b = r.parts["body"]
     b.ell(V(Q["chest"]) + Vector((0, -0.12, 0.05)), (0.3, 0.32, 0.32))
     nb = V(Q["neck_base"])
+    for k, (dx, sc, up) in enumerate(((0, 1.1, 0.14), (0.36, 0.92, -0.02), (-0.36, 0.92, -0.02))):
