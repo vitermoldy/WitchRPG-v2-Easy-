@@ -65,3 +65,4 @@ export const LOCKON = {
   range: 30,
   /** A locked target further than this, or hidden this long, lets go. */
   keepRange: 40,
+  lostTime: 1.5,
