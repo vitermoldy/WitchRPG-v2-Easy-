@@ -479,3 +479,4 @@ export class ShadowPools {
           p.state = 'closing'
           p.t = 0
         }
+      } else if (p.state === 'closing') {
