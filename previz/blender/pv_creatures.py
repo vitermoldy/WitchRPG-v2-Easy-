@@ -962,3 +962,4 @@ def b_lilith(r):
     face(h, hc, 2.5)
     long_hair(h, hc, 2.5, 1.0, 0.13)
     t = r.parts["torso"]
+    for s in (1, -1):
