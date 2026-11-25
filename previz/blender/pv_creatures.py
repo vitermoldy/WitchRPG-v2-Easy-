@@ -1124,3 +1124,4 @@ ROSTER = [
     ("centaur", "Centaur", b_centaur, "Pemanah (Spitter)", "Prajurit", "II Tebing Berangin", ("z0jfasz4aizd1.jpeg", (90, 285, 365, 652))),
     ("naga", "Naga rawa", b_naga, "Penyembur air (Spitter air)", "Prajurit", "III Rawa Berkabut", ("167518dd7ed83f5f910603744479.jpg", (705, 398, 1045, 626))),
     ("minotaur", "Minotaur", b_minotaur, "Perisai depan (Warden)", "Ksatria", "IV Reruntuhan Kuil", ("z0jfasz4aizd1.jpeg", (390, 715, 660, 1052))),
+    ("cyclops", "Cyclops", b_cyclops, "Pelempar batu (Bombard)", "Ksatria, elit Jenderal", "IV Reruntuhan Kuil", ("z0jfasz4aizd1.jpeg", (950, 715, 1245, 1052))),
