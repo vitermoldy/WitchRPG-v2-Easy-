@@ -247,3 +247,4 @@ export class Game implements UnitHost {
     if (res === 'dodge') {
       this.fight.stats.dodged++
       return
+    }
