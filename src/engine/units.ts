@@ -573,3 +573,4 @@ export class UnitSystem {
       u.pos.z = z
       break
     }
+    this.host.obstacles.pushOut(u.pos, u.radius, u.height)
