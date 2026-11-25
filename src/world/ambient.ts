@@ -26,3 +26,4 @@ interface Kind {
 }
 
 // in ZONES order: pembuka, tebing, rawa, kuil, bara
+const KINDS: Kind[] = [
