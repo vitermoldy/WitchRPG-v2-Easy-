@@ -828,3 +828,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     recover: 1.3,
     cooldown: 2,
     stun: 400,
+    anchored: true,
