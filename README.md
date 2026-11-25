@@ -43,3 +43,4 @@ Salin `.env.example` menjadi `.env` dan isi akun MySQL. Server membuat database 
 
 ## Kontrol
 
+| Gerak dan kamera | |
