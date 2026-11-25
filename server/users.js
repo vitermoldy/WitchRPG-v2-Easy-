@@ -18,3 +18,4 @@ if (rows.length === 0) {
 } else {
   console.log(`${config.name}: ${rows.length} akun di database ${config.db.database}`)
   console.table(
+    rows.map((r) => ({
