@@ -397,3 +397,5 @@ export class WorldMap {
         ctx.stroke()
       }
       label(`${b.name} ${b.level}`, x, y, br + 2, live ? '#ffd8a8' : '#b0a29c')
+    }
+
