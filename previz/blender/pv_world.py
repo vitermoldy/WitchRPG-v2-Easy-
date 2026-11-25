@@ -67,3 +67,4 @@ def fbm(x, y, octaves=4, seed=0.0):
 
 
 def smooth(e0, e1, x):
+    t = np.clip((x - e0) / (e1 - e0), 0.0, 1.0)
