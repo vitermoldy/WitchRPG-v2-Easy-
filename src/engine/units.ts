@@ -974,3 +974,4 @@ export class UnitSystem {
   toss(u: Unit, vel: { x: number; y: number; z: number }, hurled: boolean, flight = 0) {
     if (!u.alive || u.spec.anchored) return
     this.host.clearTelegraph(u)
+    u.token = false
