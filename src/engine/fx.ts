@@ -28,3 +28,4 @@ const VERT = /* glsl */ `
   attribute vec3 aColor;
   attribute float aAlpha;
   uniform float uScale;
+  varying vec3 vColor;
