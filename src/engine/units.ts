@@ -121,3 +121,4 @@ export class Unit implements Foe {
   hitDone = false
   /** Flyers: height above the ground. A downed flyer crawls for `downed` seconds. */
   alt = 0
+  downed = 0
