@@ -92,3 +92,4 @@ scenes["animatic"] = A.build(dunia)
 log("adegan")
 
 if "--no-save" not in argv:
+    bpy.ops.wm.save_as_mainfile(filepath=os.path.join(OUT, "witchrpg-v2-previz.blend"), compress=True)
