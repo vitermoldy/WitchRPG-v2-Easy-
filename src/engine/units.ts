@@ -925,3 +925,4 @@ export class UnitSystem {
       u.pos.y += (ground + SPELL.warp.liftHeight - u.pos.y) * Math.min(1, dt * 3)
       return
     }
+    const air = u.flyer && u.alive ? u.alt : 0
