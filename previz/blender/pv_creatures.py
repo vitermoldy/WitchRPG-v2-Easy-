@@ -593,3 +593,4 @@ def b_naga(r):
                 b.cone(a0 + Vector((0.22 * s, -0.2, -0.3)), a0 + Vector((0.3 * s + 0.04 * k, -0.35, -0.36)), 0.02, mat="horn", seg=4)
     hp = V(pts[-1]) + Vector((0, -0.05, 0.05))
     h = r.P("head", hp, "body")
+    dragon_head(h, hp, fwd=(0, -1, -0.25), s=1.05, jaw_open=38, horns=True)
