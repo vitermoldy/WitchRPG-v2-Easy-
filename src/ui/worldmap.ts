@@ -152,3 +152,4 @@ export class WorldMap {
   monsters() {
     const out = new Map<UnitKind, { kind: UnitKind; name: string; lo: number; hi: number; camps: number; fauna: boolean }>()
     for (const def of CAMP_DEFS) {
+      if (def.boss) continue
