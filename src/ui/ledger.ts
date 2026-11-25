@@ -87,3 +87,4 @@ export class Ledger {
           if (ok && releaseShadow(p, id)) this.after()
           if (!this.dlg.open) this.dlg.showModal()
           // the pressed button may be gone: keep focus in the Ledger, on the group or the close button
+          const back = ok ? this.dlg.querySelector<HTMLElement>(`details[data-group="${group}"] summary`) : t
