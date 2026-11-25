@@ -17,3 +17,4 @@ export const MOVE = {
   decel: 22,
   /** How fast she turns toward the way she moves (radians per second). */
   turn: 11,
+  radius: 0.38,
