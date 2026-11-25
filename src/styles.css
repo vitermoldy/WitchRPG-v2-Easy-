@@ -1896,3 +1896,4 @@ dialog::backdrop {
 
 .map-boss-where,
 .map-meta {
+  color: var(--ink-2);
