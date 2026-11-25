@@ -192,3 +192,4 @@ export class Player {
     }
 
     this.turn(face, dt)
+    this.stride += this.speed * dt * 2.4
