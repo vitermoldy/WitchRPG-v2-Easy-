@@ -388,3 +388,4 @@ export class IlyraModel {
     this.rot('staff', staffX, 0, staffZ)
     for (const m of this.sigils) m.emissiveIntensity = 1.4 - 0.9 * aim
   }
+}
