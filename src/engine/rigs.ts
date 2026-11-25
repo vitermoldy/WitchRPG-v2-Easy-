@@ -616,3 +616,5 @@ const posePhoenix: PoseFn = (p, u, t) => {
   }
   p.body(-0.1, 15, 6 * Math.sin(t * 3))
   p.rot('head', 15)
+}
+
