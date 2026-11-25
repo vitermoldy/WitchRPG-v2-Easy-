@@ -528,3 +528,4 @@ export class Lair {
       state: this.state,
       phase: this.phase,
       hp: b ? Math.round(b.hp) : 0,
+      maxHp: b ? Math.round(b.maxHp) : 0,
