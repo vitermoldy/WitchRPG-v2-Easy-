@@ -877,3 +877,4 @@ export class Game implements UnitHost {
   }
 
   private simulate(dt: number) {
+    this.t += dt
