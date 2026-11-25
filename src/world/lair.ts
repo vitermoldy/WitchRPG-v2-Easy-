@@ -201,3 +201,5 @@ export class Lair {
     g.hud.banner('Hydra', 'bangkit dari Danau Hitam. Sarang tertutup sampai salah satu dari kalian tumbang')
     g.sfx.roar()
     g.addTrauma(0.4)
+  }
+
