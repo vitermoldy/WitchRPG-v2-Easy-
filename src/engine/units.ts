@@ -471,3 +471,4 @@ export class UnitSystem {
       u.flash = Math.max(0, u.flash - dt)
       u.barShown = Math.max(0, u.barShown - dt)
       u.cd = Math.max(0, u.cd - dt)
+      u.downed = Math.max(0, u.downed - dt)
