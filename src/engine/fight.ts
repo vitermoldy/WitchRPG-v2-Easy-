@@ -153,3 +153,4 @@ class Staff {
         return
       }
       this.vel.copy(to).divideScalar(d).multiplyScalar(speed)
+      this.pos.addScaledVector(this.vel, dt)
