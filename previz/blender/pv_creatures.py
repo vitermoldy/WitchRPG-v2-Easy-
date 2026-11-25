@@ -1098,3 +1098,4 @@ COLORS = {
     "chimera": {"body": ("#b8843c", "#d8b07a"), "body2": "#e8dcc0", "goat": "#8a7c6c", "horn": "#3a3028", "snake": ("#2b4a8c", "#d8b040"), "mouth": "#7a2020", "nose": "#3a2a24"},
     "succubus": {"skin": "#cfc9d2", "hair": "#ece8ef", "armor": "#2b2731", "membrane": "#8a3e52", "horn": "#3a3238", "glow": "#5fe0a0"},
     "incubus": {"skin": "#a9a1aa", "hair": "#e8e4ea", "armor": "#26242c", "membrane": "#7a3a52", "horn": "#3a3238", "glow": "#5fe0a0"},
+    "griffin": {"body": ("#c39256", "#d8b080"), "body2": ("#8a5a34", "#e2d2b4"), "membrane": ("#6e4a2c", "#d6c2a0"), "accent": "#3a2a1e", "horn": "#e0b040", "beakleg": "#e0b040", "claw": "#2a2420"},
