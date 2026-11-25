@@ -455,3 +455,4 @@ class Rig:
         self.key, self.pal, self.coll = key, pal, coll
         self.parts = {}
         self.order = []
+        self.root = bpy.data.objects.new(f"{key}", None)
