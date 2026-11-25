@@ -30,3 +30,4 @@ const red = new THREE.MeshBasicMaterial({ color: new THREE.Color(COLOR.chaos).mu
  * Creature projectiles: Centaur arrows fly along the flashing line (only a roll avoids them), Naga globs
  * arc onto the amber circle (block or parry them, or step out). Shadows in the way are hit as well.
  * Inside a Reality Warp field they turn back on whoever shot them, as in v1.
+ */
