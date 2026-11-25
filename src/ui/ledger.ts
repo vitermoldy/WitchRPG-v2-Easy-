@@ -200,3 +200,4 @@ export class Ledger {
         const fighting = list.filter((s) => live.has(s.id)).length
         const shown = list.slice(0, ROOM_SHOWN)
         return `<li class="room-group">
+          <details data-group="${key}" ${this.openGroups.has(key) ? 'open' : ''}>
