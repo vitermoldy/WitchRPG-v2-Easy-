@@ -59,3 +59,4 @@ interface Item {
   unit: Unit | null
   /** Line: where it starts on the ground, its direction and length. */
   ox: number
+  oz: number
