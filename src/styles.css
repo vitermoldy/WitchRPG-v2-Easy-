@@ -667,3 +667,4 @@ button {
   text-align: center;
   opacity: 0;
   transition: opacity 0.4s, transform 0.4s;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.9);
