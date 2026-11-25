@@ -182,3 +182,4 @@ def build_terrain(coll, size=1300.0, step=2.5):
     ba = me.attributes.new("bara", "FLOAT", "POINT")
     ba.data.foreach_set("value", W[4].ravel().astype(np.float32))
     me.shade_smooth()
+    me.materials.append(terrain_material())
