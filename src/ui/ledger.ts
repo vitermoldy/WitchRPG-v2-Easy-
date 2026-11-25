@@ -116,3 +116,4 @@ export class Ledger {
     if (focusKey) {
       const sel = focusKey.startsWith('up-') ? `[data-upgrade="${focusKey.slice(3)}"]` : `[data-stat="${focusKey}"]`
       const el = this.dlg.querySelector<HTMLButtonElement>(sel)
+      if (el && !el.disabled) el.focus()
