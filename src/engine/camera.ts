@@ -89,3 +89,4 @@ export class CameraRig {
   fp = 0
   private lastLock: LockView | null = null
 
+  /** Mouse look; ignored while a lock-on holds the view. */
