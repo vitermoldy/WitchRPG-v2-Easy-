@@ -188,3 +188,4 @@ function segCylinder(ax: number, ay: number, az: number, dx: number, dy: number,
   return Math.max(0, enter)
 }
 
+function segSphere(ax: number, ay: number, az: number, dx: number, dy: number, dz: number, s: Shape, cr: number): number {
