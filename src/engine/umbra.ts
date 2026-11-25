@@ -536,3 +536,4 @@ export class Umbra {
       const enemies = g.units.enemies()
       for (const s of shadows) {
         s.command = 'attack'
+        // before Perintah Fokus each shadow takes the enemy nearest the mark; after, all hit one target
