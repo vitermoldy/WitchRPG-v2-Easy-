@@ -331,3 +331,6 @@ def _dead(p, mat="dead"):
 
 
 def _rock(p, seed, r=(1.4, 1.1, 0.9), mat="rock"):
+    p.rock((0, 0, r[2] * 0.35), r, seed=seed, mat=mat, sub=1)
+
+
