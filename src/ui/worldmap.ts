@@ -200,3 +200,4 @@ export class WorldMap {
   // ------------------------------------------------------------ drawing
 
   /** The valley itself, drawn once: zone tones, hill shading, water. */
+  private baseLayer(): HTMLCanvasElement {
