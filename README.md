@@ -6,3 +6,4 @@ Action-RPG third-person di hutan terbuka. Kamu bermain sebagai Ilyra dari balik 
 
 Game ini dibangun per fase menurut [PROMPT.md](./PROMPT.md). Keputusan desain ada di [DESIGN.md](./DESIGN.md), gambaran awal di Blender (render, animatic, papan makhluk) di [previz/](./previz/PREVIZ.md).
 
+| Fase | Isi | Status |
