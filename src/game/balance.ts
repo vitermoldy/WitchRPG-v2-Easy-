@@ -188,3 +188,4 @@ export const FAUNA = ['pegasus', 'unicorn'] as const
 export type V2Kind = (typeof V2_KINDS)[number]
 
 /**
+ * One attack of a v2 creature. ring: a slow amber circle where it lands, blockable and parryable.
