@@ -42,3 +42,4 @@ export class Props {
     this.mesh.count = 0
   }
 
+  add(x: number, z: number, radius = 0.75): Prop | null {
