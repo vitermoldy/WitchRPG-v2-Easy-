@@ -29,3 +29,4 @@ describe('over-the-shoulder camera', () => {
     expect(pose.fov).toBeCloseTo(CAMERA.normal.fov, 5)
   })
 
+  it('blends to the closer, narrower aim view while the right button is held', () => {
