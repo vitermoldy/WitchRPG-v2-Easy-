@@ -295,3 +295,4 @@ export class WorldMap {
       const [cx, cy] = tries.find(free) ?? tries.find(inside) ?? tries[0]
       placed.push([cx - w / 2, cy - h / 2, cx + w / 2, cy + h / 2])
       ctx.lineWidth = 3
+      ctx.strokeStyle = 'rgba(12, 8, 9, 0.8)'
