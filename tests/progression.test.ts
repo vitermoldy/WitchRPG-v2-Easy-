@@ -129,3 +129,4 @@ describe('upgrades and shadows', () => {
     const e = unitStats('husk', 2, false)
     const s = unitStats('husk', 2, true)
     expect(s.hp).toBeGreaterThan(e.hp)
+    expect(s.damage).toBeGreaterThan(e.damage)
