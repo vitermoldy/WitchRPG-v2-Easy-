@@ -650,3 +650,4 @@ export class Spells {
   /** Reality Warp: a field where creatures hang in the air, helpless, for as long as it lasts. */
   private warp(at: THREE.Vector3) {
     const g = this.g
+    const s = SPELL.warp
