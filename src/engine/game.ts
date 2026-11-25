@@ -826,3 +826,5 @@ export class Game implements UnitHost {
       }
     }
     return { point: o.clone().addScaledVector(dir, best), dist: best, unit }
+  }
+
