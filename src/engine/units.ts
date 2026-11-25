@@ -75,3 +75,4 @@ export class Unit implements Foe {
   /** Elite trait, or null. */
   elite: EliteTrait | null = null
   /** Multiplier on windup, recovery and cooldown (an elite Gesit is quicker). */
+  tempo = 1
