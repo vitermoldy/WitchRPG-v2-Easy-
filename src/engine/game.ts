@@ -164,3 +164,4 @@ export class Game implements UnitHost {
     const info = gl.getExtension('WEBGL_debug_renderer_info')
     this.gpu = info ? String(gl.getParameter(info.UNMASKED_RENDERER_WEBGL)) : 'unknown'
 
+    this.input = new Input(canvas)
