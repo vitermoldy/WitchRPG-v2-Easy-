@@ -76,3 +76,4 @@ export class Sfx {
     o.frequency.exponentialRampToValueAtTime(Math.max(20, f1), t + dur)
     const g = ctx.createGain()
     this.env(g, t, attack, peak, dur)
+    o.connect(g).connect(this.master!)
