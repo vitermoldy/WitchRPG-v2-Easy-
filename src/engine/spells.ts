@@ -492,3 +492,4 @@ export class Spells {
       const speed = u.mass >= 300 ? SPELL.grip.heavyThrowSpeed : u.mass > 200 ? SPELL.grip.throwSpeed * 0.6 : SPELL.grip.throwSpeed
       const v = aimAt ? aimAt.clone().sub(u.center()).normalize().multiplyScalar(speed) : new THREE.Vector3()
       g.units.toss(u, v, throwIt, throwIt ? SPELL.grip.flight : 0)
+    }
