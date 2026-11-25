@@ -31,3 +31,4 @@ export const forward = (yaw: number, pitch: number): Vec => ({
   y: Math.sin(pitch),
   z: -Math.cos(yaw) * Math.cos(pitch),
 })
+export const rightOf = (yaw: number): Vec => ({ x: Math.cos(yaw), y: 0, z: -Math.sin(yaw) })
