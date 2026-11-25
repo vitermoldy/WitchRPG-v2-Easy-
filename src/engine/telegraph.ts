@@ -183,3 +183,4 @@ export class Telegraphs {
     const geo = it.mesh.geometry
     const pos = geo.attributes.position as THREE.BufferAttribute
     const base = geo.userData.base as Float32Array
+    // the plane spans -0.5..0.5 across (x) and along (z, after the flat turn: +z is its start)
