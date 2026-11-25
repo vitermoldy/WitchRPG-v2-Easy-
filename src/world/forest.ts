@@ -8,3 +8,5 @@ import { heightMap, inClearing, lakeDist, LAKE, pathDist, smooth, ZONES, zoneWei
  * taking its zone's tree mix and density. All trees and rocks are one BatchedMesh, so the whole
  * forest is one draw call and every tree is frustum-culled on its own.
  */
+type Kind = 'pine' | 'pine_tall' | 'pine_warm' | 'birch' | 'swamp' | 'dead' | 'burnt' | 'rock' | 'rock_big'
+
