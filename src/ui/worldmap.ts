@@ -176,3 +176,4 @@ export class WorldMap {
     const items = this.bosses()
     $('map-bosses').innerHTML = items
       .map(
+        (b) =>
