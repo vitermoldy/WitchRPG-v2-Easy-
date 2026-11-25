@@ -312,3 +312,4 @@ export class WorldMap {
     ctx.font = `600 ${Math.max(11, size / 52)}px Figtree Variable, Figtree, system-ui, sans-serif`
     for (const z of ZONES) {
       const sealed = (z.key === 'kuil' || z.key === 'bara') && !g.seal.isOpen
+      label(sealed ? `${z.name} (tersegel)` : z.name, px(z.c[0]), py(z.c[1]), 0, sealed ? '#ffbe73' : 'rgba(239, 230, 223, 0.92)')
