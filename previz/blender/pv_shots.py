@@ -260,3 +260,4 @@ def build_variants(dunia):
 # ---------------------------------------------------------------- 02 valley
 
 def build_valley(dunia):
+    sd = Vector((0.75, -0.42, 0.5)).normalized()
