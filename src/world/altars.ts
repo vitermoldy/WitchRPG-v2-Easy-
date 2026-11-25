@@ -117,3 +117,4 @@ export class Altars {
     if (!p.alive) return
     const w = g.profile.world
     for (const a of this.list) {
+      if (Math.hypot(p.pos.x - a.pos.x, p.pos.z - a.pos.z) >= ALTAR_REACH) continue
