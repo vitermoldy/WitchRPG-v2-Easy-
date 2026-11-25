@@ -718,3 +718,4 @@ button {
 }
 
 .feed-item::before {
+  content: 'Ledger';
