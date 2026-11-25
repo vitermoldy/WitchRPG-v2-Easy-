@@ -74,3 +74,4 @@ describe('staff combo', () => {
     return events
   }
 
+  it('chains three light swings, then starts over', () => {
