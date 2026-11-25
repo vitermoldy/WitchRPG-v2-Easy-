@@ -551,3 +551,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
       { name: 'gigitan ular', strike: 'ring', windup: 0.6, recover: 0.8, range: 3.4, ring: 1.8, lungeSpeed: 6, lungeTime: 0.3 },
     ],
   },
+  // v2 mini-boss, Rawa Berkabut: lion's fire in front, goat's charge from afar, snake's sting behind. Calls Imps.
