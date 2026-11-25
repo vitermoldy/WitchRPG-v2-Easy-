@@ -988,3 +988,4 @@ export class UnitSystem {
     u.flight = 0
     u.hurled = false
     u.groundX = NaN
+    if (u.alive) u.set('move')
