@@ -824,3 +824,4 @@ export class Game implements UnitHost {
         best = d
         unit = u
       }
+    }
