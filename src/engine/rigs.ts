@@ -894,3 +894,4 @@ class Rig implements Poser {
         part.mesh.setMatrixAt(i, this.m)
       }
       part.glow.setXYZ(i, gr, gg, gb)
+    }
