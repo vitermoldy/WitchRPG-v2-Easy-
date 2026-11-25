@@ -190,3 +190,4 @@ describe('creature shots', () => {
     let falls = 0
     const g = {
       height: () => 0,
+      player: { alive: true, pos: { x: 0, y: 0, z: 0 } },
