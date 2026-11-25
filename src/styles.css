@@ -1784,3 +1784,4 @@ dialog::backdrop {
 .gate-switch {
   margin: 1rem 0 0;
   color: var(--ink-2);
+  font-size: 0.92rem;
