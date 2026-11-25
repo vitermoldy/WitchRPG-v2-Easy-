@@ -13,3 +13,4 @@ export interface Prop {
   /** Thrown by Telekinesis: it hurts the first creature it meets. */
   thrown: boolean
   flight: number
+  spin: number
