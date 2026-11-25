@@ -355,3 +355,4 @@ export class Sfx {
       src.connect(filter).connect(gain).connect(this.master!)
       src.start()
       this.windNodes = { gain, filter }
+    }
