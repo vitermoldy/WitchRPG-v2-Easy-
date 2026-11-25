@@ -547,3 +547,4 @@ export class Spells {
     if (id === 'burst') this.burst(this.target(SPELL.burst.range, aiming))
     else if (id === 'snare') this.snare(this.target(SPELL.snare.range, aiming))
     else if (id === 'warp') this.warp(this.target(SPELL.warp.range, aiming))
+    else this.raiseBarrier()
