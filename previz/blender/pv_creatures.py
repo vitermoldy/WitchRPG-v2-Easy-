@@ -1021,3 +1021,4 @@ def b_samael(r):
     arc = [hc + Vector((math.cos(a) * 0.42, 0.22, 0.34 + math.sin(a) * 0.42)) for a in [math.radians(40 + 22 * i) for i in range(14)]]
     h.tube(arc, 0.025, mat="glow", seg=5, n=2)
     p = r.parts["pelvis"]
+    p.tube([V(J["hip"]) + Vector((0, 0, 0.15)), V(J["hip"]), (0, 0.02, 0.5)], [0.3, 0.36, 0.48], mat="cloth", seg=12, n=3, cap=False)
