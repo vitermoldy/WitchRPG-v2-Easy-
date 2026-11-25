@@ -86,3 +86,4 @@ export class Umbra {
     this.candidate = null
     this.targets = []
     this.casting = []
+    this.progress = 0
