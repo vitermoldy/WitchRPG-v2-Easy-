@@ -306,3 +306,5 @@ export class WorldMap {
     for (const b of bosses) {
       const [x, y] = at(b.x, b.z)
       placed.push([x - br, y - br, x + br, y + br])
+    }
+
