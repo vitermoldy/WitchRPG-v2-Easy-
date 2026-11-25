@@ -124,3 +124,4 @@ export class Atmosphere {
     ;(this.uniforms.zenith.value as THREE.Color).lerp(this.zenithTarget, k)
     this.hemi.color.copy(this.fog.color).lerp(new THREE.Color('#ffffff'), 0.2)
     this.sky.position.copy(camPos)
+    // the shadow box follows her
