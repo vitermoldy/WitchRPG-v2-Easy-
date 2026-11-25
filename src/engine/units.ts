@@ -553,3 +553,4 @@ export class UnitSystem {
         u.aimAt.set(home.x + Math.cos(a) * r, 0, home.z + Math.sin(a) * r)
         u.cd = 4 + Math.random() * 6
       }
+      this.steer(u, u.aimAt.x, u.aimAt.z, u.speed * 0.35, dt, 1)
