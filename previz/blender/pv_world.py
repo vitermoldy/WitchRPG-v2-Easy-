@@ -82,3 +82,4 @@ def height(x, y):
     # Tebing Berangin: a raised plateau with a broken cliff edge
     t = ZONES[1]
     edge = t["r"] * 0.8 + 18 * fbm(x / 40, y / 40, 3, 9.0)
+    plateau = smooth(edge + 14, edge - 6, _dist(x, y, t["c"]))
