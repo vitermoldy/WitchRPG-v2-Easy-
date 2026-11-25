@@ -698,3 +698,4 @@ export class Spells {
       }
       if (Math.random() < dt * 40) {
         const a = Math.random() * Math.PI * 2
+        const r = Math.sqrt(Math.random()) * w.radius
