@@ -91,3 +91,4 @@ def build(dunia, res=(1280, 720), samples=24):
     hydra_yaw = math.radians(S.yaw_to(-f))
     rng = np.random.default_rng(1)
 
+    def game_cam(P, face, dist=None, height=None):
