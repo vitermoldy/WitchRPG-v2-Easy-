@@ -52,3 +52,4 @@ const FRAG_GLOW = /* glsl */ `
   }
 `
 
+const FRAG_SMOKE = /* glsl */ `
