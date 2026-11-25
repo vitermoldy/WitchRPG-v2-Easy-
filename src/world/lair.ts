@@ -362,3 +362,4 @@ export class Lair {
     else if (this.phase === 2 && body.hp <= body.maxHp * HYDRA.phase3At) this.enterPhase(3)
     if (this.phase < 3) this.headsFight(dt)
     else this.bodyFights(dt)
+    // boulders come back on the islands while the flood is up
