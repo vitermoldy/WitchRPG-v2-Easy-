@@ -1173,3 +1173,4 @@ export class Game implements UnitHost {
       .map((u) => ({
         id: u.id,
         kind: u.kind,
+        x: u.pos.x,
