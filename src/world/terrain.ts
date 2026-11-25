@@ -142,3 +142,4 @@ export class Terrain {
         col.set([this.tmp.r, this.tmp.g, this.tmp.b], v * 3)
         v++
       }
+    }
