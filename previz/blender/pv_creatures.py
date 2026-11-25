@@ -1171,3 +1171,4 @@ def creature_palette(key, kind=None):
         return C.palette("shadow")
     pal = C.palette_ref(key, COLORS[key])
     if key == "atlas":
+        pal["globe"] = C.mat_globe("atlas.globe")
