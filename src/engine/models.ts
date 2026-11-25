@@ -199,3 +199,4 @@ export class IlyraModel {
       this.rot('staff', 0)
       this.rot('cloak', 30 * k)
       return
+    }
