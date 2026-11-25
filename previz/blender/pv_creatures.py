@@ -489,3 +489,4 @@ def b_imp(r):
     t = r.parts["torso"]
     for s in (1, -1):
         bat_wing(t, (0.04 * s, 0.06, J["z"]["sh"] - 0.02), s, 0.95, 0.55, raise_deg=42, sweep_deg=25, bone="body", arm="body")
+    tl = r.P("tail", (0, 0.05, J["z"]["hip"]), "pelvis")
