@@ -177,3 +177,4 @@ export class Sfx {
     const osc = ctx.createOscillator()
     const osc2 = ctx.createOscillator()
     osc.type = 'sawtooth'
+    osc2.type = 'sine'
