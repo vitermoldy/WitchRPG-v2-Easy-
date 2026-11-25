@@ -42,3 +42,4 @@ export class Player {
   dodgeT = -1
   dodgeX = 0
   dodgeZ = 0
+  dodgeCd = 0
