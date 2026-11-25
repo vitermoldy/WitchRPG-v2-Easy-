@@ -366,3 +366,4 @@ class Part:
 
     def tube(self, pts, radii, mat="body", seg=8, n=5, cap=True, squash=1.0, smooth=True):
         """Smooth sweep through control points; radius per control point (0 makes a point)."""
+        P, ts = catmull(pts, n)
