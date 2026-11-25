@@ -661,3 +661,4 @@ def build_altar(coll, pal):
     for k in range(7):
         a = 2 * math.pi * k / 7
         x, y = ax + math.cos(a) * 6.5, ay + math.sin(a) * 6.5
+        zz = ground_z(x, y)
