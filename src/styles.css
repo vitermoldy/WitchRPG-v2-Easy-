@@ -386,3 +386,4 @@ button {
   background: radial-gradient(ellipse at center, rgba(12, 8, 9, 0.78) 0%, rgba(12, 8, 9, 0.5) 55%, rgba(12, 8, 9, 0) 78%);
   text-align: center;
   opacity: 0;
+  transition: opacity 0.6s ease, transform 0.6s ease;
