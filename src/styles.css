@@ -1817,3 +1817,4 @@ dialog::backdrop {
   display: grid;
   place-items: center;
   min-height: 0;
+  overflow: hidden;
