@@ -44,3 +44,4 @@ export const CAMP_DEFS: CampDef[] = [
   { c: [-140, -70], pack: { naga: 3 }, levels: [7, 7] },
   { c: [-222, -42], pack: { naga: 2, minotaur: 1 }, levels: [7, 8] },
   { c: [-252, 40], pack: { minotaur: 2 }, levels: [8, 8] },
+  { c: [-300, 120], pack: { naga: 4 }, levels: [8, 8] },
