@@ -342,3 +342,4 @@ export class Lair {
     if (this.state === 'calm') {
       if (!this.body && near > HYDRA.wake) return
       if (this.body && near > HYDRA.sleep) {
+        this.reset()
