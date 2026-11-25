@@ -419,3 +419,4 @@ export class Spells {
         g.player.mana = 0
         g.hud.message('Mana habis, cengkeraman lepas.', 'chaos')
         this.drop(false)
+        return
