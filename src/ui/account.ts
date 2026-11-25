@@ -171,3 +171,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
       else await signUp(name, password)
       pass.value = ''
     } catch (e) {
+      showError(e instanceof Error ? e.message : 'Belum bisa masuk. Coba lagi.')
