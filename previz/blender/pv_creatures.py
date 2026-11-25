@@ -173,3 +173,4 @@ def _foot(part, wrist, ground, r, kind, mat="body", foot_mat="horn"):
     w, g = V(wrist), V(ground)
     if kind == "hoof":
         part.limb(w, g + Vector((0, 0, r * 0.9)), r * 0.8, r * 0.75, mat=mat)
+        part.limb(g + Vector((0, 0, r * 0.9)), g, r * 0.95, r * 1.05, mat=foot_mat, joints=False)
