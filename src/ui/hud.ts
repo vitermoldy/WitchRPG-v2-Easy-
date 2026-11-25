@@ -119,3 +119,4 @@ export class Hud {
     const p = document.createElement('p')
     p.className = `feed-item ${tone}`
     p.textContent = text
+    this.feed.appendChild(p)
