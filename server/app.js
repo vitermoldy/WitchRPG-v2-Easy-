@@ -160,3 +160,4 @@ export function createApi(getPool, database) {
       // Two browsers on one account: the newer save wins, the older one gets the stored copy back.
       if (cur && new Date(cur.updated_at).getTime() > p.updatedAt.getTime()) {
         await conn.rollback()
+        return res.json({ stale: true, profile: await readProfile(getPool(), client) })
