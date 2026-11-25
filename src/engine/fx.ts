@@ -12,3 +12,4 @@ export interface Emit {
   lifeJitter?: number
   size: number
   sizeEnd?: number
+  /** Random velocity magnitude in every direction. */
