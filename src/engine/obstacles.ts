@@ -103,3 +103,4 @@ export class Obstacles {
         moved = true
       })
     }
+    return moved
