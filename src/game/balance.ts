@@ -691,3 +691,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   // v2, Tebing Berangin: the Griffin's quicker cousin with a horse's hindquarters; lower and faster dives.
   hippogriff: {
     name: 'Hippogriff',
+    rank: 'ksatria',
