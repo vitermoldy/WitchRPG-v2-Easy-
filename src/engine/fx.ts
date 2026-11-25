@@ -259,3 +259,4 @@ export class LightPool {
       s.held = false
       s.ttl = 0
       s.light.intensity = 0
+    }
