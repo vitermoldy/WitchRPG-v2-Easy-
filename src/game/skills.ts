@@ -122,3 +122,4 @@ export const SKILLS: SkillDef[] = [
     id: 'general',
     branch: 'umbra',
     name: 'Kebangkitan Jenderal',
+    key: 'Tahan R',
