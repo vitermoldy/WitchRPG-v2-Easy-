@@ -579,3 +579,4 @@ export class Game implements UnitHost {
 
   private refusedMsgAt = -99
 
+  /** When a step of hers was just refused by the seal or the lair, say why (not too often). */
