@@ -757,3 +757,4 @@ export class Spells {
   }
 
   cooldowns() {
+    return {
