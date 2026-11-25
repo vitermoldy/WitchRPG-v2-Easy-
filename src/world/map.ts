@@ -8,3 +8,4 @@ export interface Zone {
   tier: string
   levels: [number, number]
   c: [number, number]
+  r: number
