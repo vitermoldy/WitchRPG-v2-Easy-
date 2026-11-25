@@ -81,3 +81,5 @@ describe('Ilyra on foot', () => {
     expect(p.speed).toBeCloseTo(MOVE.jog, 1)
     run(p, { ...idle, y: 1, sprint: true }, 2)
     expect(p.speed).toBeCloseTo(MOVE.sprint, 1)
+  })
+
