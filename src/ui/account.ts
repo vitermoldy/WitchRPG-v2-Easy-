@@ -150,3 +150,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
 
   game.onSaved = schedulePush
 
+  form.addEventListener('submit', async (event) => {
