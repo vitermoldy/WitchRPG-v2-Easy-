@@ -296,3 +296,4 @@ def proto(name, coll, pal, fn, flat=False):
 
 def _pine(p, h=13.0, tiers=6, rad=3.0, mat="needle"):
     p.limb((0, 0, 0), (0, 0, h), 0.3, 0.06, mat="bark", seg=7, joints=False)
+    for i in range(tiers):
