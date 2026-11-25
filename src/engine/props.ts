@@ -107,3 +107,4 @@ export class Props {
     }
     this.mesh.count = this.list.length
     this.list.forEach((p, i) => {
+      this.q.setFromEuler(this.e.set(p.spin * 0.7, p.spin, 0))
