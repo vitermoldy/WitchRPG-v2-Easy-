@@ -154,3 +154,4 @@ export class WorldMap {
     for (const def of CAMP_DEFS) {
       if (def.boss) continue
       for (const kind of Object.keys(def.pack) as V2Kind[]) {
+        if (UNITS[kind].boss) continue
