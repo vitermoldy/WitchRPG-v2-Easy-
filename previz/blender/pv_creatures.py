@@ -1117,3 +1117,4 @@ COLORS = {
 # ---------------------------------------------------------------- registry
 
 ROSTER = [
+    # key, name, builder, role, rank, zone, reference (file, crop x0 y0 x1 y1)
