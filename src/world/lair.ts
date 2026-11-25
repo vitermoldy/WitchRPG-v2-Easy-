@@ -469,3 +469,4 @@ export class Lair {
         for (let tries = 0; tries < 8 && !spot; tries++) {
           const a = Math.random() * Math.PI * 2
           const x = at.x + Math.cos(a) * 2.5
+          const z = at.z + Math.sin(a) * 2.5
