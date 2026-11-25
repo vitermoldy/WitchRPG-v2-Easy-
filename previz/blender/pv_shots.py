@@ -588,3 +588,4 @@ def build_board(lib_colls, stats):
         bg.parts["m"].box((x0 + 6.85, 0.9, z0 - 2.25), (4.5, 0.02, 3.95), mat="w")
         bg.finalize()
         if k == "ilyra":
+            C.text(coll, "Tanpa referensi:", (x0 + 2.3, 0, z0 - 2.0), size=0.26, color="#8f8a86", align="CENTER", rot=(90, 0, 0))
