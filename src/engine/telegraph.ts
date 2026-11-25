@@ -173,3 +173,4 @@ export class Telegraphs {
     const base = geo.userData.base as Float32Array
     for (let i = 0; i < pos.count; i++) {
       const x = cx + base[i * 3] * it.radius
+      const z = cz + base[i * 3 + 2] * it.radius
