@@ -569,3 +569,4 @@ def ref_plane(coll, name, file, crop, centre, box):
 def build_board(lib_colls, stats):
     sc = C.new_scene("papan-makhluk")
     sc.world = C.sky_world("latar_papan", "#121014", "#121014", "#121014", 1.0)
+    C.sun(sc, "kunci", (55, 0, -35), energy=3.2).data.use_shadow = False
