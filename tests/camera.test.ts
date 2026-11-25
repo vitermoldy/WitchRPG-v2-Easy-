@@ -17,3 +17,4 @@ function rng(seed: number) {
   }
 }
 
+describe('over-the-shoulder camera', () => {
