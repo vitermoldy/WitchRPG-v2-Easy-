@@ -123,3 +123,5 @@ export class Obstacles {
       if (t < best) best = t
     })
     return Math.max(0, best)
+  }
+
