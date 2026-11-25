@@ -81,3 +81,4 @@ with open(os.path.join(TMP, "dunia.json"), "w", encoding="utf-8") as fh:
 scenes = {}
 scenes["variants"] = S.build_variants(dunia)
 scenes["hero"], _ = S.build_hero(dunia)
+scenes["valley"] = S.build_valley(dunia)
