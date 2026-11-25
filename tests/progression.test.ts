@@ -108,3 +108,4 @@ describe('upgrades and shadows', () => {
     expect(buyUpgrade(p, 'marshal')).toBe(false)
   })
   it('keeps raising without a slot limit', () => {
+    const p = newProfile()
