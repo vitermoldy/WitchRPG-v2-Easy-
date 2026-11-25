@@ -482,3 +482,4 @@ export class UnitSystem {
         continue
       }
       u.stun.update(dt)
+      if (u.state === 'stagger' && u.stun.staggered <= 0) u.set('move')
