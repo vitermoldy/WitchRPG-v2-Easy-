@@ -29,3 +29,4 @@ const POOLS_PER_CALL = 90
 const LEASH = 45
 
 /** How far from her the outer rank of an army this big stands (see the formation). */
+function ringRadius(count: number) {
