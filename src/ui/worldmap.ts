@@ -161,3 +161,4 @@ export class WorldMap {
         m.camps++
         out.set(kind, m)
       }
+    }
