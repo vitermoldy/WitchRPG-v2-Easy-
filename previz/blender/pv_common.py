@@ -236,3 +236,4 @@ def palette_ref(key, spec):
     vals["skin"] = vals["skin"] or vals["body"]
     vals["hair"] = vals["hair"] or vals["body2"]
     vals["membrane"] = vals["membrane"] or vals["body2"]
+    vals["accent"] = vals["accent"] or vals["membrane"]
