@@ -1816,3 +1816,4 @@ dialog::backdrop {
 .map-view {
   display: grid;
   place-items: center;
+  min-height: 0;
