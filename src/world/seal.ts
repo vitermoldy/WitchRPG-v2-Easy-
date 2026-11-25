@@ -84,3 +84,4 @@ export class Seal {
     })
     this.mesh = new THREE.Mesh(geo, this.mat)
     this.mesh.frustumCulled = false
+    this.mesh.renderOrder = 7
