@@ -383,3 +383,4 @@ export class IlyraModel {
     this.rot('forearm_L', foreL)
     this.rot('upperarm_R', armRX, armRY, armRZ)
     this.rot('forearm_R', foreR)
+    // While aiming the glowing staff head would sit right on the aim point (previz variant D):
