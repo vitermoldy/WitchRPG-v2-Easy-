@@ -532,3 +532,4 @@ def fog_material(z):
     sep = N.new("ShaderNodeSeparateXYZ")
     L.new(tc.outputs["Object"], sep.inputs[0])
     # density = d0 * exp(-z / hs) * radial falloff
+    dv = N.new("ShaderNodeMath")
