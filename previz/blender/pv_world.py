@@ -621,3 +621,4 @@ def build_temple(coll, pal):
     for i, (w, h) in enumerate(((30, 0.6), (24, 0.6), (18, 0.6))):
         p.box((cx, cy, z0 + 0.3 + i * 0.6), (w, w * 0.8, h + 0.02), mat="stone")
     top = z0 + 1.8
+    for k in range(12):
