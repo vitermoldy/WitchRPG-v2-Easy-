@@ -305,3 +305,4 @@ def catmull(pts, n):
 class Part:
     """Geometry of one named part, built in creature space and stored relative to its pivot."""
 
+    def __init__(self, rig, name, pivot, parent):
