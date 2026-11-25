@@ -16,3 +16,4 @@ Action-RPG third-person dengan rasa God of War di hutan terbuka, memakai sistem 
 ## Fase 0: previz di Blender (24 Nov 2026)
 
 | Bagian | Keputusan | Alasan |
+| --- | --- | --- |
