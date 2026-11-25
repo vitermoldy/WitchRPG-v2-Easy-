@@ -508,3 +508,4 @@ const poseChimera: PoseFn = (p, u, t) => {
       p.rot('leg_FR', -25 * k)
     } else {
       p.rot('tail_snake', -80 * k + Math.sin(t * 30) * 3 * k)
+    }
