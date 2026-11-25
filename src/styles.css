@@ -1918,3 +1918,4 @@ dialog::backdrop {
 .map-monsters label {
   min-height: 44px;
   display: flex;
+  flex-wrap: wrap;
