@@ -78,3 +78,4 @@ async function call<T>(path: string, init?: RequestInit): Promise<T> {
     if (res.status === 401 && !path.startsWith('auth/') && auth.status === 'signed-in') setAuth({ status: 'signed-out', account: null })
     throw new ApiError((body as { error?: string }).error ?? `Server menjawab ${res.status}.`, res.status)
   }
+  return body as T
