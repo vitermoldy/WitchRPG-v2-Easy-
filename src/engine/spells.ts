@@ -480,3 +480,4 @@ export class Spells {
     if (this.heldProp) {
       const prop = this.heldProp
       prop.held = false
+      if (aimAt) {
