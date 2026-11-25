@@ -1217,3 +1217,4 @@ export const COMBAT = {
     catch: 1.0,
   },
   /** Seconds of invulnerability after a hit, so one swarm does not empty her in a frame. */
+  hurtGrace: 0.35,
