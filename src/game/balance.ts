@@ -1131,3 +1131,4 @@ export const BOSS = {
   phaseHeal: 0.25,
   phaseMana: 30,
   /** Phase 3: slower volleys, and the husks it swallows heal it a little. */
+  volleyEvery3: 4.2,
