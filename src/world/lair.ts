@@ -330,3 +330,4 @@ export class Lair {
     ;(this.curtainMat.uniforms.uColor.value as THREE.Color).set(this.state === 'fight' ? COLOR.umbra : COLOR.rift)
     this.curtain.visible = this.curtainMat.uniforms.uFade.value > 0.01
 
+    if (this.state === 'won') {
