@@ -133,3 +133,4 @@ def mat_tone(name, top, bottom=None, rough=0.7, metal=0.0, emit=None, emit_stren
     so large areas do not look like plastic. Gives backs and bellies, manes and muzzles their own tone."""
     if name in _MATS:
         return _MATS[name]
+    m = _new_mat(name)
