@@ -560,3 +560,4 @@ export class Umbra {
     g.sfx.ui()
   }
 
+  /** Tukar Tempat: she trades places with the shadow nearest the middle of the view. */
