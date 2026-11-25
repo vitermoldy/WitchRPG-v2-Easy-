@@ -238,3 +238,4 @@ export class Forest {
     this.trees = trees
     this.visibleRange = visibleRange
     const geos = geometries()
+    let verts = 0
