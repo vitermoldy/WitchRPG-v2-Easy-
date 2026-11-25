@@ -1196,3 +1196,4 @@ def build(key, coll, kind=None, pose=None, lights=True):
     return r
 
 
+def ground_rig(r):
