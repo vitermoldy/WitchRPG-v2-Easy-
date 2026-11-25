@@ -47,3 +47,4 @@ export class Sfx {
   }
 
   private env(gain: GainNode, t: number, a: number, peak: number, dec: number) {
+    gain.gain.setValueAtTime(0.0001, t)
