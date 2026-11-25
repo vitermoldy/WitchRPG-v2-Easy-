@@ -110,3 +110,4 @@ export class Particles {
       vertexShader: VERT,
       fragmentShader: mode === 'glow' ? FRAG_GLOW : FRAG_SMOKE,
       transparent: true,
+      depthWrite: false,
