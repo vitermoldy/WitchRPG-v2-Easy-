@@ -87,3 +87,4 @@ async function boot() {
       out.textContent = fmt(v)
       apply(v)
       game.saveNow()
+    })
