@@ -544,3 +544,4 @@ export class Umbra {
             const near = e.pos.distanceTo(target.pos)
             const d = near + e.pos.distanceTo(s.pos) * 0.3
             if (d < bd && near < 8) {
+              bd = d
