@@ -218,3 +218,4 @@ export class Umbra {
 
   private spawnShadow(rec: ShadowRecord, at: THREE.Vector3, slot: number) {
     const g = this.g
+    const u = g.units.spawn(rec.kind, 'shadow', rec.level, at, true)
