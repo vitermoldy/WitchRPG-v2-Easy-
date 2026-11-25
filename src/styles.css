@@ -712,3 +712,4 @@ button {
   background: var(--plate);
   color: var(--ink);
   font-size: 0.88rem;
+  line-height: 1.35;
