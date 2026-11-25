@@ -324,3 +324,5 @@ class Part:
             f.smooth = smooth and not self.flat
 
     def _M(self, c):
+        return Matrix.Translation(V(c) - self.pivot)
+
