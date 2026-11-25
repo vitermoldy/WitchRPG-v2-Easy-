@@ -515,3 +515,4 @@ export class Fight {
     if (ex.t >= 1) this.exec = null
   }
 
+  pose(out: IlyraPose) {
