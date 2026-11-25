@@ -272,3 +272,4 @@ def V(p):
 
 
 def rot_to(d):
+    """Rotation matrix taking +Z onto direction d."""
