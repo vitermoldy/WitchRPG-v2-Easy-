@@ -77,3 +77,5 @@ export class Combo {
   private charging = -1
   private queued = false
   private nextIndex = 0
+  private chainLeft = 0
+
