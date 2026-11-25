@@ -1074,3 +1074,4 @@ export class Game implements UnitHost {
     if (this.trauma > 0 && this.profile.settings.shake) {
       const k = this.trauma * this.trauma * 0.035
       const t = this.t * 40
+      c.rotateX(Math.sin(t * 1.3) * k)
