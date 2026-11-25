@@ -1137,3 +1137,4 @@ export class Game implements UnitHost {
       chaos: Math.round(this.spells.chaos),
       level: this.profile.level,
       xp: this.profile.xp,
+      alive: p.alive,
