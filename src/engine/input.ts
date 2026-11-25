@@ -40,3 +40,4 @@ export class Input {
     window.addEventListener('mousemove', (e) => {
       if (!this.locked) return
       this.dx += e.movementX
+      this.dy += e.movementY
