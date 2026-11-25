@@ -685,3 +685,4 @@ button {
 .banner-title {
   margin: 0;
   font-family: var(--font-display);
+  font-size: clamp(1.6rem, 3.6vw, 2.6rem);
