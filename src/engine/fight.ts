@@ -259,3 +259,4 @@ export class Fight {
 
   /** Her pace this frame: slowed by block, held by an execution, careful during a swing. */
   get moveScale() {
+    if (this.exec) return 0
