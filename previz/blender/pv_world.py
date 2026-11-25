@@ -223,3 +223,4 @@ def terrain_material():
     bump = N.new("ShaderNodeBump")
     bump.inputs["Strength"].default_value = 0.25
     n2 = N.new("ShaderNodeTexNoise")
+    n2.inputs["Scale"].default_value = 3.0
