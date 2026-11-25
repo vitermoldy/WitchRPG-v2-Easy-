@@ -59,3 +59,4 @@ export class StunMeter {
 export interface SwingState {
   swing: Swing
   heavy: boolean
+  /** 0, 1, 2 for the light chain. */
