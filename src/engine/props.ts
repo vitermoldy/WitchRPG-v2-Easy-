@@ -39,3 +39,4 @@ export class Props {
     this.mesh = new THREE.InstancedMesh(geo, new THREE.MeshStandardMaterial({ color: 0x5a5450, roughness: 0.95, flatShading: true }), CAP)
     this.mesh.castShadow = true
     this.mesh.frustumCulled = false
+    this.mesh.count = 0
