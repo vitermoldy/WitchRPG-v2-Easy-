@@ -403,3 +403,4 @@ export class Sfx {
     const loop = (type: BiquadFilterType, freq: number, q: number) => {
       const src = ctx.createBufferSource()
       src.buffer = this.noiseBuf
+      src.loop = true
