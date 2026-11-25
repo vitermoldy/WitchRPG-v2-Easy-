@@ -341,3 +341,4 @@ export class Lair {
     const near = Math.hypot(p.pos.x - this.center.x, p.pos.z - this.center.z)
     if (this.state === 'calm') {
       if (!this.body && near > HYDRA.wake) return
+      if (this.body && near > HYDRA.sleep) {
