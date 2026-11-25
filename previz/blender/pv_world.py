@@ -399,3 +399,4 @@ def scatter_group():
     L.new(e2r.outputs["Rotation"], iop.inputs["Rotation"])
     ns = N.new("GeometryNodeInputNamedAttribute")
     ns.data_type = "FLOAT"
+    ns.inputs["Name"].default_value = "scale"
