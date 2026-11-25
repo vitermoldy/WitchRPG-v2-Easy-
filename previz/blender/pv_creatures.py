@@ -439,3 +439,4 @@ def b_ilyra(r, pose="idle"):
     for i in range(rows - 1):
         for j in range(cols - 1):
             cl.poly([sheet[i][j], sheet[i][j + 1], sheet[i + 1][j + 1], sheet[i + 1][j]], mat="cloth2")
+    for s, side, m in ((1, "L", "chaos"), (-1, "R", "umbra")):
