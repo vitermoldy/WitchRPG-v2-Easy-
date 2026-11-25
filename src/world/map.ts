@@ -110,3 +110,4 @@ export function fbm(x: number, y: number, octaves = 4, seed = 0): number {
   let norm = 0
   for (let k = 0; k < octaves; k++) {
     s += amp * vnoise(x * f + 37.1 * k + seed, y * f - 11.7 * k + seed)
+    norm += amp
