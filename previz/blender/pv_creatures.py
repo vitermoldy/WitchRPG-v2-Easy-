@@ -131,3 +131,4 @@ def humanoid(r, H, bulk=1.0, legs="human", female=False, off=(0, 0, 0), arm_pose
             else:
                 ft.limb(A, V((A.x, A.y - 0.01 * H, 0.0)), H * 0.022, H * 0.026, mat=foot_mat or "horn", joints=False)
         J["ankle_" + side] = A
+        J["knee_" + side] = K
