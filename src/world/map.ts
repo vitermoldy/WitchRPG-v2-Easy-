@@ -139,3 +139,4 @@ export function heightMap(x: number, y: number): number {
   // Tebing Berangin: a raised plateau with a broken cliff edge
   const t = ZONES[1]
   const edge = t.r * 0.8 + 18 * fbm(x / 40, y / 40, 3, 9.0)
+  const dt = dist(x, y, t.c)
