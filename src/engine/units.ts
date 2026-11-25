@@ -868,3 +868,4 @@ export class UnitSystem {
     }
     const goal = u.command === 'hold' ? u.holdPos : this.spotOf ? this.spotOf(u) : p.pos
     const far = Math.hypot(goal.x - u.pos.x, goal.z - u.pos.z)
+    this.steer(u, goal.x, goal.z, far > 6 ? u.speed * 1.4 : u.speed, dt, 0.4)
