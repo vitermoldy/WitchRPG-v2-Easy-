@@ -417,3 +417,4 @@ class Part:
         if cap:
             if len(rings[0]) > 2:
                 self.bm.faces.new(list(reversed(rings[0])))
+            if len(rings[-1]) > 2:
