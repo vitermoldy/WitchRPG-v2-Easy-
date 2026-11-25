@@ -131,3 +131,4 @@ describe('ground', () => {
     const w = world(5)
     const imp = w.sys.spawn('imp', 'enemy', 1, { x: 0, z: 6 })
     const shadow = w.sys.spawn('hellhound', 'shadow', 1, { x: 3, z: -3 })
+    w.step(1.5)
