@@ -46,3 +46,4 @@ function shadowMaterial(src: THREE.MeshStandardMaterial, geo?: THREE.BufferGeome
     m.emissive.set(COLOR.umbraHot)
     m.emissiveIntensity = 2.4
   } else {
+    m.emissive.set(COLOR.umbraDeep)
