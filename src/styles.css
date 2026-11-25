@@ -79,3 +79,4 @@ kbd {
   padding: 0.05em 0.45em;
   border: 1px solid var(--line-strong);
   border-bottom-width: 2px;
+  border-radius: var(--radius-sm);
