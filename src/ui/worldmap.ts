@@ -105,3 +105,4 @@ export class WorldMap {
   }
 
   private changed(rerender = true) {
+    try {
