@@ -541,3 +541,4 @@ export class UnitSystem {
     const home = u.home ?? u.pos
     const dx = u.pos.x - p.pos.x
     const dz = u.pos.z - p.pos.z
+    const d = Math.hypot(dx, dz) || 1
