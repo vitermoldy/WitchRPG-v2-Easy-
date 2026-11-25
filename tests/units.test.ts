@@ -28,3 +28,4 @@ function world(groundHeight = 0) {
     clearTelegraph: () => {},
   }
   const sys = new UnitSystem(host)
+  const step = (seconds: number, each?: () => void) => {
