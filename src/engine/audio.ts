@@ -29,3 +29,4 @@ export class Sfx {
     const len = ctx.sampleRate * 1.5
     this.noiseBuf = ctx.createBuffer(1, len, ctx.sampleRate)
     const d = this.noiseBuf.getChannelData(0)
+    for (let i = 0; i < len; i++) d[i] = Math.random() * 2 - 1
