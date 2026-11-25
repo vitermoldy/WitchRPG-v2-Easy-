@@ -85,3 +85,5 @@ export function newProfile(): Profile {
   }
 }
 
+export const tierUnlocked = (p: Profile, tier: TierId) => p.level >= TIERS[tier].unlock && (!TIERS[tier].needsBoss || p.bossKills > 0)
+
