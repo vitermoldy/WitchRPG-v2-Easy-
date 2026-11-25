@@ -56,3 +56,5 @@ describe('the Hydra', () => {
     const hit = impactDamage(HYDRA.rockMass, SPELL.grip.throwSpeed, SPELL.impact.coefficient, SPELL.impact.exponent)
     expect(hit).toBeCloseTo(74.3, 0)
     expect(hit * hydraShare(2, 'impact', false)).toBeCloseTo(111.4, 0)
+  })
+
