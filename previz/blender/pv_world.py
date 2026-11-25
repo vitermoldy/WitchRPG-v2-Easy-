@@ -711,3 +711,4 @@ def build_embers(coll, centre, radius, count, seed=5, z_range=(0.5, 30)):
         r = C.Rig("p_ember", {"e": C.mat_emit("ember", "#ffb060", 40.0)}, C.collection("PROTO", bpy.data.scenes["Pustaka"].collection))
         r.P("m").ell((0, 0, 0), 0.06, mat="e", seg=4, rings=3)
         r.finalize()
+        ember = r.objs["m"]
