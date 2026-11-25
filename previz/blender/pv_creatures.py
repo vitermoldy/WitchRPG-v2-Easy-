@@ -1088,3 +1088,4 @@ def b_unicorn(r):
 
 COLORS = {
     "imp": {"body": ("#e8d2c8", "#cfb0a4"), "membrane": "#e6a0c4", "claw": "#7c5c5c"},
+    "hellhound": {"body": "#1c2232", "veins": "#46e6ff", "body2": "#1c2232", "horn": "#ecebe2", "eye": "#8ff6ff", "snake": ("#1e2638", "#33405e"), "mouth": "#7a1d24", "claw": "#d8d6cc"},
