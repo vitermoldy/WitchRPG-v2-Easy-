@@ -71,3 +71,4 @@ export const CAMP_DEFS: CampDef[] = [
   { c: [-60, -220], pack: { imp: 4, hellhound: 1 }, levels: [2, 3] },
   { c: [90, -220], pack: { hellhound: 3 }, levels: [3, 3] },
   { c: [270, -150], pack: { griffin: 2 }, levels: [5, 5] },
+  { c: [380, 60], pack: { hippogriff: 3 }, levels: [5, 6] },
