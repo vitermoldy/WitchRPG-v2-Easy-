@@ -614,3 +614,4 @@ export class UnitSystem {
       const h = this.spawn(u.spec.summonKind ?? 'imp', u.team, u.level, { x: u.pos.x + Math.sin(a) * (u.radius + 1.6), z: u.pos.z + Math.cos(a) * (u.radius + 1.6) }, true)
       h.owner = u
       h.aggro = true
+      u.helpers++
