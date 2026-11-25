@@ -121,3 +121,4 @@ describe('creature attacks', () => {
     w.sys.hurt(imp, 0, { x: 0, z: 0 }, COMBAT.parry.stun)
     expect(imp.state).toBe('stagger')
     w.sys.kill(imp, true)
+    expect(imp.executed).toBe(true)
