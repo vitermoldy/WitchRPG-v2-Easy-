@@ -376,3 +376,4 @@ export class Warnings {
 
   clear() {
     for (const w of this.pool) w.group.visible = false
+  }
