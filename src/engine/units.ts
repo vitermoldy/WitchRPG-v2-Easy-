@@ -625,3 +625,4 @@ export class UnitSystem {
   private pickAttack(u: Unit, tgt: Foe, dist: number): AttackSpec | null {
     const list = attacksOf(u.spec)
     const dx = tgt.pos.x - u.pos.x
+    const dz = tgt.pos.z - u.pos.z
