@@ -137,3 +137,4 @@ export const RITE = {
   // v2: 20 by default (v1: 40); its GLB creatures cost about ten times v1's procedural ones per animated shadow
   detail: { default: 20, min: 10, max: 120 },
   shadowXpShare: 0.3,
+  minChance: 0.1,
