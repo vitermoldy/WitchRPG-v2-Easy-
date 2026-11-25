@@ -604,3 +604,4 @@ def camera(sc, name, loc, look_at=None, rot=None, lens_vfov=None, ortho=None, cl
 
 def game_camera(pos, yaw_dir, dist=3.4, shoulder=0.85, height=1.65, pitch=-8.0):
     """Over-the-right-shoulder camera of the game. yaw_dir: the way the witch faces (XY)."""
+    f = Vector((yaw_dir[0], yaw_dir[1], 0)).normalized()
