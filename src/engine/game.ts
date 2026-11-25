@@ -512,3 +512,4 @@ export class Game implements UnitHost {
     this.onPause?.()
   }
 
+  /** A menu (the Ledger, an altar) holds the game without the pause screen. */
