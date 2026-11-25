@@ -492,3 +492,4 @@ export class ShadowPools {
   }
 
   clear() {
+    for (const p of this.pools) {
