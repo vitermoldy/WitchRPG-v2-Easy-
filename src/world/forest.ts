@@ -194,3 +194,4 @@ export function scatter(size = 1260, step = 4, seed = 3): Tree[] {
       const density = dens * (1 - ring) + ring * 1.1
       if (keep >= (density / 100) * step * step) continue
       const kinds = (ring < 0.5 ? mix : { pine: 0.6, pine_tall: 0.4 }) as Partial<Record<Kind, number>>
+      const entries = Object.entries(kinds) as [Kind, number][]
