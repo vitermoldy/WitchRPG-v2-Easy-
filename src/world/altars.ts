@@ -45,3 +45,4 @@ export class Altars {
       const y = g.height(x, z)
       const root = new THREE.Group()
       root.position.set(x, y, z)
+      const base = new THREE.Mesh(baseGeo, stoneMat)
