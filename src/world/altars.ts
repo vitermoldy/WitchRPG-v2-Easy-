@@ -110,3 +110,4 @@ export class Altars {
     const g = this.g
     const p = g.player
     this.spin += dt
+    for (const a of this.list) {
