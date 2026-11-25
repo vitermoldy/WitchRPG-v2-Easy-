@@ -133,3 +133,4 @@ export class IlyraModel {
     }
     walk(this.root)
     for (const side of ['L', 'R']) {
+      this.parts['hand_' + side]?.traverse((o) => {
