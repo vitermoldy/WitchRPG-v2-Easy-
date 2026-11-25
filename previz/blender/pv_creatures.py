@@ -433,3 +433,4 @@ def b_ilyra(r, pose="idle"):
             hem = 0.0
             if i == rows - 1:
                 hem = 0.09 * ((j % 2) * 2 - 1) + 0.05 * math.sin(j * 2.3)
+            row.append(Vector((math.sin(a) * rad, 0.03 + math.cos(a) * rad * 0.75, zz + hem)))
