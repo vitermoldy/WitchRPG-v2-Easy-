@@ -250,3 +250,4 @@ export class Forest {
     const m = new THREE.Matrix4()
     const q = new THREE.Quaternion()
     const up = new THREE.Vector3(0, 1, 0)
+    for (const t of trees) {
