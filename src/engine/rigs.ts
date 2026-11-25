@@ -31,3 +31,4 @@ function meanColor(geo: THREE.BufferGeometry | undefined): THREE.Color | null {
   if (!a || a.count === 0) return null
   const c = new THREE.Color(0, 0, 0)
   for (let i = 0; i < a.count; i++) c.add(new THREE.Color(a.getX(i), a.getY(i), a.getZ(i)))
+  return c.multiplyScalar(1 / a.count)
