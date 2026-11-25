@@ -98,3 +98,4 @@ export class Altars {
     return best
   }
 
+  private paint() {
