@@ -158,3 +158,4 @@ export class Telegraphs {
     for (const it of this.items) {
       it.unit = null
       it.mesh.visible = false
+    }
