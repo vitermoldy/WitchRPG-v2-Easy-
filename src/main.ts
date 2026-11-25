@@ -82,3 +82,4 @@ async function boot() {
     }
     show()
     refreshers.push(show)
+    input.addEventListener('input', () => {
