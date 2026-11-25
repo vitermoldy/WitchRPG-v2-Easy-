@@ -71,3 +71,4 @@ def mat_emit(name, color, strength=8.0):
     m = _new_mat(name)
     nt = m.node_tree
     nt.nodes.remove(nt.nodes["Principled BSDF"])
+    e = nt.nodes.new("ShaderNodeEmission")
