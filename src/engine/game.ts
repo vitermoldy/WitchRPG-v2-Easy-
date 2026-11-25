@@ -616,3 +616,4 @@ export class Game implements UnitHost {
   /** Damage to a creature or shadow; her blows fill the Chaos meter and flash the hit mark. */
   hurtUnit(u: Unit, dmg: number, from: { x: number; z: number }, stun: number, knock: number, source: 'player' | 'shadow' | 'enemy', kind: DamageKind = 'melee'): boolean {
     if (!u.targetable) return false
+    if ((u.kind === 'hydra' || u.kind === 'hydraHead') && u.team === 'enemy' && this.lair.body) return this.hurtHydra(u, dmg, from, stun, source, kind)
