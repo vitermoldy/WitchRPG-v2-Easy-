@@ -325,3 +325,4 @@ export class UnitSystem {
     if (stun > 0 && u.stun.add(stun)) this.stagger(u)
     if (knock > 0 && u.state !== 'held' && u.state !== 'thrown') {
       tmp.set(u.pos.x - from.x, 0, u.pos.z - from.z)
+      if (tmp.lengthSq() < 1e-6) tmp.set(Math.random() - 0.5, 0, Math.random() - 0.5)
