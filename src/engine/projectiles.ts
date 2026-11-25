@@ -79,3 +79,4 @@ export class Projectiles {
     this.g.sfx.bolt()
   }
 
+  update(dt: number) {
