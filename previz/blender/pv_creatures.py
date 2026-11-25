@@ -973,3 +973,4 @@ def b_lilith(r):
         pts.append((math.cos(a) * rad, math.sin(a) * rad, 0.15 + t_ * 2.0))
     pts.append((0.35, -0.15, 2.45))
     pts.append((0.3, -0.45, 2.75))
+    sp.tube(pts, [0.16 - 0.06 * i / (len(pts) - 1) for i in range(len(pts))], mat="snake", seg=8, n=3)
