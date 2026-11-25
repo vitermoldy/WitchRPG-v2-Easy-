@@ -33,3 +33,4 @@ interface BossEntry {
  * stands, and the camps of the creatures she chooses to look for, sorted by level or by name. The game
  * waits while it is open, like the Ledger.
  */
+export class WorldMap {
