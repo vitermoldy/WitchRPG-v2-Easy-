@@ -35,3 +35,4 @@ export class Projectiles {
   readonly group = new THREE.Group()
   private readonly shots: Shot[] = []
   private readonly g: Game
+  private readonly seg = new THREE.Vector3()
