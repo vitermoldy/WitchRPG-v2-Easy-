@@ -337,3 +337,4 @@ export class Fight {
       this.combo.cancel()
       this.blocking = false
       this.exec = null
+      return
