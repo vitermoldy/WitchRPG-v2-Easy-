@@ -61,3 +61,4 @@ export class Atmosphere {
 
   constructor(scene: THREE.Scene) {
     scene.fog = this.fog
+    this.uniforms = {
