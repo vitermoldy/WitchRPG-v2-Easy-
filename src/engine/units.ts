@@ -324,3 +324,4 @@ export class UnitSystem {
     u.barShown = 6
     if (stun > 0 && u.stun.add(stun)) this.stagger(u)
     if (knock > 0 && u.state !== 'held' && u.state !== 'thrown') {
+      tmp.set(u.pos.x - from.x, 0, u.pos.z - from.z)
