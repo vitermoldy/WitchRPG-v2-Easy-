@@ -595,3 +595,4 @@ def b_naga(r):
     h = r.P("head", hp, "body")
     dragon_head(h, hp, fwd=(0, -1, -0.25), s=1.05, jaw_open=38, horns=True)
     for s in (1, -1):
+        root = hp + Vector((0.12 * s, 0.12, 0.0))
