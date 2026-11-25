@@ -165,3 +165,4 @@ export class Particles {
       this.life[i] -= dt
       const k = Math.max(0, this.life[i] / this.maxLife[i])
       const damp = Math.exp(-this.drag[i] * dt)
+      this.vel[i * 3] *= damp
