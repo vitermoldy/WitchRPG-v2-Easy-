@@ -479,3 +479,4 @@ export class Game implements UnitHost {
     this.player.pos.y = heightAt(this.player.pos.x, this.player.pos.z)
     this.rig.yaw = yaw
     this.rig.pitch = (CAMERA.pitch * Math.PI) / 180
+    this.rig.aim = 0
