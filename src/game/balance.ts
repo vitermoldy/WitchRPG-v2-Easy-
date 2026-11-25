@@ -1110,3 +1110,4 @@ export const RIFT = {
   breather: 6,
   /** Share of max HP restored when a wave ends; the GDD has no other healing yet. */
   breatherHeal: 0.2,
+  /** Seconds the last three or fewer of a wave may hang back before they come for the witch. */
