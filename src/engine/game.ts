@@ -343,3 +343,4 @@ export class Game implements UnitHost {
   }
 
   impact(u: Unit, other: Unit | null, speed: number) {
+    this.spells.impact(u, other, speed)
