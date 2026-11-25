@@ -184,3 +184,4 @@ export class WorldMap {
       .join('')
   }
 
+  private renderMonsters() {
