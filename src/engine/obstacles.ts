@@ -122,3 +122,4 @@ export class Obstacles {
       const t = s.kind === CYL ? segCylinder(ax, ay, az, dx, dy, dz, s, cr) : segSphere(ax, ay, az, dx, dy, dz, s, cr)
       if (t < best) best = t
     })
+    return Math.max(0, best)
