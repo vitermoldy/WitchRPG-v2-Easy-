@@ -118,3 +118,4 @@ export class CameraRig {
    * the camera stands (behind and right of her head), so near targets land on the third too.
    */
   lockAngles(from: Vec, target: LockView, fov: number): { yaw: number; pitch: number } {
+    const tv = Math.tan(rad(fov) / 2)
