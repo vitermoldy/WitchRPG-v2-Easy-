@@ -7,3 +7,4 @@ const when = (d) => (d ? new Date(d).toLocaleString('id-ID', { dateStyle: 'mediu
 const pool = await connect(config.db)
 const [rows] = await pool.query(
   `SELECT u.username, u.created_at, u.last_login_at, u.last_seen_at, u.login_count, w.level, w.boss_kills,
+     (SELECT COUNT(*) FROM shadows s WHERE s.client_id = u.device_id) AS shadows,
