@@ -161,3 +161,4 @@ describe('shadows', () => {
 })
 
 describe('phase 4 creatures', () => {
+  it('Centaur looses an arrow even close up, then backs away; from range it keeps shooting', () => {
