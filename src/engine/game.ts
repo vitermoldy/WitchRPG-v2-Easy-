@@ -278,3 +278,4 @@ export class Game implements UnitHost {
       p.petrified = EFFECTS.petrify
       this.fight.reset(true)
       this.hud.message(`${u.spec.name} membatukan Ilyra. Tahan C saat tatapannya penuh, atau pasang Hex Barrier.`, 'chaos')
+    }
