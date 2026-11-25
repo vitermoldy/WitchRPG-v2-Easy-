@@ -110,3 +110,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): void {
     const p = normalizeProfile(remote)
     if (!p) return
     game.adoptProfile(p)
+    hooks.onProfileChanged()
