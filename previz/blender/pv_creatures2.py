@@ -193,3 +193,4 @@ def b_septiceps(r):
         lg.limb(k, f, 0.16, 0.11, mat=mat)
         if mat == "talon":
             for ang in (-30, 0, 30):
+                tip = Vector((f.x + math.sin(math.radians(ang)) * 0.45, f.y - math.cos(math.radians(ang)) * 0.45, 0.0))
