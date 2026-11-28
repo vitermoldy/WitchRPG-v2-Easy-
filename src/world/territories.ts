@@ -27,3 +27,4 @@ export interface Territory {
   /** Camps must stand at least this high (the Tebing plateau). */
   minHeight?: number
   /** Drawn by another system (the Hydra's lair): a name on the map, no camps. */
+  noCamps?: boolean
