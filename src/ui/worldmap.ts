@@ -465,6 +465,7 @@ export class WorldMap {
         if (i) ctx.lineTo(ox, oy)
         else ctx.moveTo(ox, oy)
       }
+      ctx.setLineDash([4, 3])
     // altars: teal diamonds, filled once lit
     const r = Math.max(4, size / 110)
     for (const a of ALTARS) {
