@@ -47,3 +47,6 @@ def b_hippocentaurus(r):
     tl = r.P("tail", Q["tail_base"], "body")
     tb = V(Q["tail_base"])
     for k in (-0.08, 0.0, 0.08):
+        tail_tube(tl, [tb, tb + Vector((k, 0.45, 0.45)), tb + Vector((k * 2, 0.9, 0.2)), tb + Vector((k * 3, 1.25, 0.55)), tb + Vector((k * 3, 1.6, 0.3))], 0.09, 0.0, mat="hair")
+
+
