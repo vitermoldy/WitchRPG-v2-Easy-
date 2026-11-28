@@ -1820,6 +1820,7 @@ dialog::backdrop {
   overflow: hidden;
 }
 
+.map-view {
 .map-view canvas {
   border-radius: var(--radius-sm);
 }
