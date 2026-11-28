@@ -191,3 +191,4 @@ def b_sylph(r):
     h = r.parts["head"]
     hc = V(J["head_c"])
     K2.head_ball(h, hc, H, "smoke")
+    face(h, hc, H, nose=False, mat="smoke")
