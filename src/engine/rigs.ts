@@ -966,6 +966,7 @@ const poseWhole: PoseFn = (p, u, t) => {
   const flying = u.flyer && u.alt > 0.8
   if (flying) {
     p.body(0.2 * Math.sin(t * 3 + u.id), 8, 8 * Math.sin(t * 1.3 + u.id))
+    return
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   griffin: poseBeast,
   hippogriff: poseBeast,
