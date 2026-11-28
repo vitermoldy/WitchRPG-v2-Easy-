@@ -578,3 +578,4 @@ def b_blemmye(r):
     J = humanoid(r, H, bulk=1.2, legs="human", arm_pose={"L": (18, 10, 25), "R": (14, -5, 20)}, leg_pose={"L": (14, 8), "R": (-10, 6)},
                  neck_scale=0.01, body_mat="skin")
     t = r.parts["torso"]
+    ch = V(J["chest"]) + Vector((0, 0, 0.05))
