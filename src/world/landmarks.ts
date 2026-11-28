@@ -119,3 +119,4 @@ export class Landmarks {
 
 const pos = (p: { x: number; y: number; z: number }) => ({ x: p.x, y: p.y - 1, z: p.z })
 
+/** The place of the south that holds a map point, if any. */
