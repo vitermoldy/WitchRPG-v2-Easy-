@@ -55,3 +55,4 @@ def mesh_bounds():
 
 def tris():
     n = 0
+    deps = bpy.context.evaluated_depsgraph_get()
