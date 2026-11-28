@@ -228,3 +228,4 @@ export function campSpots(t: Territory): [number, number][] {
       const rr = reach(t, a) * Math.min(0.9, Math.max(0.05, ring + 0.12 * Math.floor(k / 12) * (k % 2 ? -1 : 1)))
       const x = Math.round(t.c[0] + Math.cos(a) * rr)
       const y = Math.round(t.c[1] + Math.sin(a) * rr)
+      if (campGround(t, x, y) && out.every(([ox, oy]) => Math.hypot(ox - x, oy - y) > 30)) spot = [x, y]
