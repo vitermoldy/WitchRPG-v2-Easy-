@@ -50,3 +50,6 @@ def mesh_bounds():
             lo = Vector((min(lo.x, w.x), min(lo.y, w.y), min(lo.z, w.z)))
             hi = Vector((max(hi.x, w.x), max(hi.y, w.y), max(hi.z, w.z)))
         ev.to_mesh_clear()
+    return lo, hi
+
+
