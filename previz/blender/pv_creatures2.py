@@ -222,3 +222,4 @@ def b_septiceps(r):
 
 
 def b_asmodeus(r):
+    """Asmodeus of the Dictionnaire Infernal (prompt no. 15): three heads side by side, a bull's with short horns
