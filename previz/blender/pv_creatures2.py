@@ -661,3 +661,4 @@ def b_marinus(r):
         b0 = V(J["back"]) + Vector((0, 0.02, 0.15 - i * 0.18))
         t.poly([b0, b0 + Vector((0, 0.0, -0.2)), b0 + Vector((0, 0.3, 0.05))], mat="fin")
     h = r.parts["head"]
+    hc = V(J["head_c"])
