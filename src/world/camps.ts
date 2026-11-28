@@ -78,6 +78,7 @@ export const ROAM_DEFS: CampDef[] = (() => {
         const d = Math.hypot(px - t.c[0], py - t.c[1])
         if (d < bd) {
           bd = d
+          best = t
 
 export interface Camp {
   def: CampDef
