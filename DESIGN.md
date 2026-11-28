@@ -317,3 +317,4 @@ Permintaan pemilik: "perbaiki genangan air dan boss ganda di peta, dan perluas l
 | Bagian | Keputusan | Alasan |
 | --- | --- | --- |
 | Genangan | Air dipisah per badan air (`WATER_RECTS`): rawa dengan Danau Hitam, dan laguna Marinus. Di bawah bidang air, tanah di luar rawa, danau, dan laguna tidak pernah lebih rendah dari 0,4 m (`DRY`) | Persegi air yang diperluas sampai laguna menenggelamkan cekungan biasa. Pemindaian 4 m: 0 genangan liar. |
+| Boss ganda | Medusa dan Chimera kembali satu sarang masing-masing, seperti sebelum ada daerah; tes memastikan setiap boss dan mini-boss punya tepat satu kamp | Daftar boss di peta menulis keduanya dua kali. |
