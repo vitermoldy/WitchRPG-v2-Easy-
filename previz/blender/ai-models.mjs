@@ -35,3 +35,4 @@ for (const m of present) {
     console.warn(`[models:ai] Blender tidak ditemukan di ${blender}; ${path.basename(m.src)} belum diimpor (set BLENDER).`)
     failed = true
     break
+  }
