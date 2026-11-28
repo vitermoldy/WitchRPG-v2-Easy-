@@ -252,3 +252,5 @@ Gambar-gambar ini karya seniman atau studio modern (lukisan digital, poster kaos
 
 ## Bagian 3: Poster Alluring Mythical Creatures
 
+Poster `images (7).jpg` berisi 35 makhluk kecil, kebanyakan berwujud manusia, bukan monster. Gambarnya hanya 640×480 px, jadi tiap makhluk perlu di-crop dan diperbesar dulu, dan hasilnya akan lebih bergantung pada teks Subject. Pakai Template Render dengan gaya C. Catatan hak cipta di Bagian 2 juga berlaku untuk poster ini.
+
