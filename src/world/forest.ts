@@ -173,6 +173,7 @@ export const TILE = 260
  * in world coordinates. Deterministic: each tile has its own seed, so it is the same forest every load
  * whichever tile comes first. Tiles outside the terrain are empty.
  */
+export function scatterTile(ix: number, iz: number, step = 4, seed = 3): Tree[] {
   const out: Tree[] = []
   for (let j = 0; j < n; j++) {
     for (let i = 0; i < n; i++) {
