@@ -18,3 +18,4 @@ describe('models from the image-to-3D tool (owner, 28 Nov 2026)', () => {
       expect(['tool', 'blender'], name).toContain(v.rig)
     }
     // the odd shapes the owner sends without bones
+    const plain = files.filter(([, v]) => v.rig === 'blender').map(([, v]) => v.key).sort()
