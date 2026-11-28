@@ -750,3 +750,4 @@ ROSTER2 = [
     # key, name, builder, role, rank, zone, reference (file, crop x0 y0 x1 y1)
     ("satyr", "Satyr", b_satyr, "Peniup suling, penerjang", "Prajurit", "VI Tanah Ganjil", (R + "114323.png", (0, 280, 290, 535))),
     ("blemmye", "Blemmye", b_blemmye, "Petinju tanpa kepala", "Prajurit", "VI Tanah Ganjil", (R + "114414.png", (20, 15, 720, 760))),
+    ("panotti", "Panotti", b_panotti, "Pengibas angin (telinga)", "Prajurit", "VI Tanah Ganjil", (R + "114409.png", (40, 90, 520, 720))),
