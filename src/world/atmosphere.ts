@@ -139,6 +139,7 @@ export function water(): THREE.Mesh {
     geo.rotateX(-Math.PI / 2)
     geo.translate((x0 + x1) / 2, 0, -(y0 + y1) / 2)
     return geo
+  })
   m.name = 'water'
   m.receiveShadow = true
   return m
