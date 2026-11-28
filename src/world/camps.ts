@@ -190,6 +190,7 @@ export class Camps {
         u.home = new THREE.Vector3(at.x, 0, at.z)
         u.aggro = false
         camp.units.push(u)
+        if (camp.def.roam) (camp.offsets ??= []).push([at.x - camp.pos.x, at.z - camp.pos.z])
       }
     }
     // some of the pack come out elite, each with one v1 trait
