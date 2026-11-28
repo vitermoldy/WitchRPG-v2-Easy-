@@ -26,71 +26,7 @@ export interface CampDef {
  * ground, one kind per camp, the levels climbing from the first camp to the last (owner, 28 Nov 2026).
  * Until then the camps were a hand-placed list with mixed packs.
  */
-export const CAMP_DEFS: CampDef[] = [
-  { c: [-20, -292], pack: { imp: 4 }, levels: [1, 1] },
-  { c: [-44, -384], pack: { imp: 4 }, levels: [1, 1] },
-  { c: [30, -300], pack: { imp: 5 }, levels: [1, 2] },
-  { c: [-72, -292], pack: { hellhound: 3 }, levels: [1, 2] },
-  { c: [72, -358], pack: { hellhound: 3 }, levels: [2, 2] },
-  { c: [-112, -330], pack: { imp: 5, hellhound: 1 }, levels: [2, 2] },
-  { c: [12, -228], pack: { imp: 4, hellhound: 2 }, levels: [2, 3] },
-  { c: [110, -280], pack: { imp: 6 }, levels: [2, 3] },
-  { c: [-150, -250], pack: { hellhound: 4 }, levels: [3, 3] },
-  { c: [40, -168], pack: { imp: 4, hellhound: 2 }, levels: [3, 3] },
-  { c: [286, -70], pack: { harpy: 3 }, levels: [4, 4] },
-  { c: [222, -78], pack: { centaur: 2 }, levels: [4, 4] },
-  { c: [250, 30], pack: { harpy: 3, centaur: 1 }, levels: [4, 5] },
-  { c: [302, -6], pack: { centaur: 2, harpy: 1 }, levels: [5, 5] },
-  { c: [360, 10], pack: { harpy: 4 }, levels: [5, 5] },
-  { c: [336, -128], pack: { harpy: 3, centaur: 1 }, levels: [5, 6] },
-  { c: [392, -62], pack: { centaur: 3 }, levels: [6, 6] },
-  // Rawa Berkabut (Tier III, Lv 7 to 9): Naga in the swamp, Minotaurs on the drier ground, two lairs
-  { c: [-140, -70], pack: { naga: 3 }, levels: [7, 7] },
-  { c: [-222, -42], pack: { naga: 2, minotaur: 1 }, levels: [7, 8] },
-  { c: [-252, 40], pack: { minotaur: 2 }, levels: [8, 8] },
-  { c: [-300, 120], pack: { naga: 4 }, levels: [8, 8] },
-  { c: [-200, 108], pack: { minotaur: 1, naga: 2 }, levels: [8, 9] },
-  { c: [-332, 30], pack: { medusa: 1, naga: 2 }, levels: [9, 9] },
-  { c: [-252, 190], pack: { chimera: 1 }, levels: [9, 9] },
-  // elite camps at the edges of zones I to III (PROMPT: "kamp elit ada di tepi zona")
-  { c: [96, -176], pack: { imp: 3, hellhound: 2 }, levels: [3, 3], elites: 1 },
-  { c: [196, 14], pack: { centaur: 2, harpy: 2 }, levels: [6, 6], elites: 1 },
-  { c: [-120, 40], pack: { minotaur: 1, naga: 2 }, levels: [9, 9], elites: 1 },
-  // Reruntuhan Kuil (Tier IV, Lv 10 to 12, sealed until the Hydra falls): Minotaurs, Cyclopes, Succubus, Incubus
-  { c: [40, 282], pack: { minotaur: 2 }, levels: [10, 10] },
-  { c: [100, 300], pack: { succubus: 1, imp: 2 }, levels: [10, 11] },
-  { c: [-20, 330], pack: { cyclops: 1, minotaur: 1 }, levels: [11, 11] },
-  { c: [92, 382], pack: { incubus: 1, minotaur: 1 }, levels: [11, 12] },
-  { c: [40, 330], pack: { incubus: 1, succubus: 1 }, levels: [12, 12], elites: 1 },
-  { c: [-40, 400], pack: { cyclops: 2 }, levels: [12, 12], elites: 1 },
-  { c: [140, 250], pack: { minotaur: 2, cyclops: 1 }, levels: [12, 12], elites: 2 },
-  // Lembah Bara (Tier V, Lv 13 to 15, sealed until the Hydra falls): Phoenixes and elite mixes
-  { c: [312, 258], pack: { phoenix: 2 }, levels: [13, 13] },
-  { c: [384, 300], pack: { phoenix: 1, hellhound: 3 }, levels: [13, 14], elites: 1 },
-  { c: [262, 350], pack: { incubus: 2 }, levels: [14, 14], elites: 1 },
-  { c: [330, 384], pack: { cyclops: 2, phoenix: 1 }, levels: [14, 14], elites: 1 },
-  { c: [400, 384], pack: { phoenix: 3 }, levels: [15, 15], elites: 2 },
-  { c: [330, 330], pack: { cyclops: 1, succubus: 1, incubus: 1 }, levels: [15, 15], elites: 2 },
-  // more of them (owner: "banyakin monster yang spawn"): Griffins and Hippogriffs on Tebing, and one or two more packs per zone
-  { c: [-60, -220], pack: { imp: 4, hellhound: 1 }, levels: [2, 3] },
-  { c: [90, -220], pack: { hellhound: 3 }, levels: [3, 3] },
-  { c: [270, -150], pack: { griffin: 2 }, levels: [5, 5] },
-  { c: [380, 60], pack: { hippogriff: 3 }, levels: [5, 6] },
-  { c: [420, -20], pack: { griffin: 2, hippogriff: 1 }, levels: [6, 6], elites: 1 },
-  { c: [-280, -20], pack: { naga: 4 }, levels: [7, 8] },
-  { c: [-200, 160], pack: { minotaur: 2, naga: 2 }, levels: [9, 9] },
-  { c: [-80, 280], pack: { cyclops: 1, minotaur: 2 }, levels: [11, 12] },
-  { c: [150, 380], pack: { succubus: 2, imp: 3 }, levels: [12, 12] },
-  { c: [280, 220], pack: { phoenix: 2, hellhound: 3 }, levels: [13, 14] },
-  { c: [430, 330], pack: { incubus: 2, phoenix: 1 }, levels: [15, 15], elites: 1 },
-  // the bosses of the open world (PROMPT roster), each alone in its camp; their levels run past the zone band
-  { c: [300, 420], pack: { cerberus: 1 }, levels: [15, 15], boss: true },
-  { c: [420, 260], pack: { lilith: 1 }, levels: [16, 16], boss: true },
-  { c: [250, 400], pack: { dragon: 1 }, levels: [17, 17], boss: true },
-  { c: [40, 300], pack: { atlas: 1 }, levels: [17, 17], boss: true },
-  { c: [-60, 440], pack: { typhon: 1 }, levels: [18, 18], boss: true },
-  { c: [360, 350], pack: { samael: 1 }, levels: [19, 19], boss: true },
-]
+export const CAMP_DEFS: CampDef[] = TERRITORIES.flatMap((t) => {
 
 export interface Camp {
   def: CampDef
