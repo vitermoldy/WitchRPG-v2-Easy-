@@ -30,3 +30,4 @@ def clear():
     for ob in list(bpy.data.objects):
         bpy.data.objects.remove(ob)
     for coll in (bpy.data.meshes, bpy.data.armatures, bpy.data.actions, bpy.data.materials, bpy.data.images):
+        for d in list(coll):
