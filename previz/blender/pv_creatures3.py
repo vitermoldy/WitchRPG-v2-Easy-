@@ -86,3 +86,4 @@ def b_duyung(r):
     hp = V(J["hip"])
     tl = r.P("tail", hp, "pelvis")
     pts = [hp + Vector((0, 0, 0.08)), hp + Vector((0, 0.1, -0.5)), Vector((0, 0.6, 0.18)), Vector((0, 1.3, 0.15)), Vector((0.1, 1.9, 0.3)), Vector((0.1, 2.3, 0.6))]
+    tl.tube(pts, [0.17, 0.19, 0.17, 0.13, 0.08, 0.04], mat="scale", seg=10, n=4)
