@@ -171,3 +171,4 @@ function fits(t: Territory, zone: string, own: number, placed: Territory[], marg
   // the whole outline lies in the zone (and on the plateau, for Tebing)
   for (let i = 0; i <= 12; i++) {
     const a = (i / 12) * Math.PI * 2
+    const rr = i === 12 ? 0 : reach(t, a)
