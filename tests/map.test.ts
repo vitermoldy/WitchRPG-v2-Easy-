@@ -167,3 +167,4 @@ describe('the south and the roaming packs (owner, 28 Nov 2026)', () => {
       expect(ALTARS.some((a) => a.key === l.key), l.key).toBe(true)
       expect(territoryAt(l.c[0], l.c[1]), l.key).toBeNull()
       expect(CAMP_DEFS.every((c) => Math.hypot(c.c[0] - l.c[0], c.c[1] - l.c[1]) > l.r), l.key).toBe(true)
+    }
