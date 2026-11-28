@@ -3,6 +3,7 @@ import { fbm, HALF, heightMap, pathDist, smooth, ZONES, zoneWeights } from './ma
 
 /**
  * Terrain chunks of 130 m over the whole map (44 x 44 on the 5000 m map). Each has three levels of
+ * detail, made when first needed; chunks past DRAW are neither built nor drawn (the fog hides them).
 export const CHUNK = 130
 export const CHUNKS = Math.round((HALF * 2) / CHUNK)
 /** Vertex spacing per level of detail (metres) and the distance up to which each is used. */
