@@ -456,6 +456,7 @@ export class WorldMap {
       const y = py(t.c[1])
       const col = KIND_COLOR[t.kind] ?? '#cccccc'
       // the ragged outline of the ground, as the game tests it (territories.ts reach)
+      ctx.beginPath()
     // altars: teal diamonds, filled once lit
     const r = Math.max(4, size / 110)
     for (const a of ALTARS) {
