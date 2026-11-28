@@ -39,6 +39,7 @@ export const ZONES: Zone[] = [
 ]
 
 export const LAKE = { c: s(-330, 300), r: 95 }
+/** The Marinus lagoon in the west of Tanah Ganjil: shallow water she can wade. */
 /**
  * Altars: heal, the point she rises at after a fall, and fast travel between the ones already lit
  * (like v1's altar). One by the start, one where the paths split, one on each new zone's path.
