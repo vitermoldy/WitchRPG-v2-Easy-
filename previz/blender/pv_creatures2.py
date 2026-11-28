@@ -269,3 +269,4 @@ def b_asmodeus(r):
     # bull head on the viewer's left (the creature's right, -X), ram head on the right
     for s, kind in ((-1, "bull"), (1, "ram")):
         a = hc + Vector((0.42 * s, 0.08, -0.08))
+        h.limb(V(J["neck"]) + Vector((0.12 * s, 0, 0)), a, 0.15, 0.12, mat=kind)
