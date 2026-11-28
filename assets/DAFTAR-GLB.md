@@ -39,3 +39,4 @@ Ekspor GLB polos (tanpa rig dan animasi). Sampai saya rig, makhluk ini bergerak 
 | Raia (naga ikan pari) | `monster_raia.glb` | Bagian 1, no. 17 |
 | Ravenna (Monster Ravenna) | `monster_ravenna.glb` | Bagian 1, no. 3 |
 | Marinus (iblis laut) | `monster_marinus.glb` | Bagian 1, no. 16 |
+| Duyung (putri duyung) | `monster_duyung.glb` | Bagian 2, Putri duyung |
