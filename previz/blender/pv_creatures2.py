@@ -305,3 +305,4 @@ def b_buer(r):
     for i in range(5):
         a = math.radians(i * 72)
         d = Vector((0.0, -math.sin(a), math.cos(a)))
+        spread = (0.32 if i % 2 else -0.32) if i else 0.0
