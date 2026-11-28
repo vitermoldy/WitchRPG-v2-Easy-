@@ -1128,6 +1128,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     name: 'Tetrachiron',
     rank: 'jenderal',
     hp: 420,
+    damage: 24,
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
