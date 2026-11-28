@@ -673,3 +673,4 @@ def b_marinus(r):
     for sd, side in SIDES:
         f = r.parts["forearm_" + side]
         E, W = V(J["el_" + side]), V(J["wr_" + side])
+        f.poly([E, W, lerp(E, W, 0.5) + Vector((0.18 * sd, 0.12, -0.05))], mat="fin")
