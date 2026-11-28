@@ -45,3 +45,5 @@ extra limbs, missing limbs, extra heads, extra fingers, changed pose, different 
 | C. Ikuti lukisan asli | Gambar berwarna (Bagian 2 dan 3) | `semi-realistic painted fantasy 3D, keep the exact color palette of the reference` |
 | D. Aset RPG stylized | Kalau semua monster ingin seragam gayanya di game | `stylized hand-painted fantasy RPG game asset, slightly exaggerated proportions kept from the reference` |
 
+Ukiran kayu aslinya tidak berwarna, jadi gaya B dan D membuat AI memilih warna sendiri. Kalau ingin warna tertentu, tulis langsung di akhir subject, misalnya `greenish-grey scales, amber eyes`.
+
