@@ -65,3 +65,4 @@ describe('the ground, built near her first', () => {
       const c = box.getCenter(new THREE.Vector3())
       expect(Math.hypot(c.x - hx, c.z - hz)).toBeLessThan(1400)
     }
+  })
