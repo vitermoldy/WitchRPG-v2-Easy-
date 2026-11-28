@@ -1830,6 +1830,7 @@ dialog::backdrop {
   touch-action: none;
 }
 
+.map-view canvas:active {
 }
 
 .map-side {
