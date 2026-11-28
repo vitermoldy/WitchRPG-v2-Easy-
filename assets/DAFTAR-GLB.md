@@ -29,3 +29,5 @@ Ekspor GLB berisi tulang dan lima animasi. Nama animasi cukup mengandung kata in
 | Kitsune (rubah ekor sembilan) | `monster_kitsune.glb` | Bagian 3, Kitsune |
 | Banshee (wanita hantu) | `monster_banshee.glb` | Bagian 3, Banshee |
 
+## Dikirim tanpa tulang, saya rig di Blender (9 makhluk)
+
