@@ -269,6 +269,7 @@ export class Forest {
   private readonly visibleRange: number
   /** Tiles whose middle lies within this distance are scattered and collided. */
   private readonly loadRange: number
+  /** Trees placed so far, for the debug readout. */
 
   constructor(trees: Tree[], visibleRange = 330) {
     this.trees = trees
