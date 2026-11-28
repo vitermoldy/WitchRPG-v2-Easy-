@@ -158,3 +158,4 @@ describe('the south and the roaming packs (owner, 28 Nov 2026)', () => {
     const { LANDMARKS } = await import('../src/world/map')
     expect(LANDMARKS.length).toBe(4)
     for (const kind of ['aziza', 'kitsune', 'sylph', 'banshee']) {
+      const t = TERRITORIES.find((x) => x.kind === kind)!
