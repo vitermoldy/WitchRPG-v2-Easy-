@@ -102,3 +102,4 @@
   },
   "monster_banshee.glb": {
     "key": "banshee",
+    "rig": "tool"
