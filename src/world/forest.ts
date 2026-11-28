@@ -331,6 +331,7 @@ export class Forest {
     mesh.perObjectFrustumCulled = true
     mesh.sortObjects = false
     mesh.visible = false
+    this.mesh.add(mesh)
   }
 
   /** Hides trees past the fog so the GPU never draws what cannot be seen. */
