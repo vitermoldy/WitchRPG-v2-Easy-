@@ -177,3 +177,4 @@ def b_kitsune(r):
     tl = r.P("tail", Q["tail_base"], "body")
     tb = V(Q["tail_base"])
     for k in range(9):
+        a = math.radians(-60 + 15 * k)
