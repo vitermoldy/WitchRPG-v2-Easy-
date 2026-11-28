@@ -213,3 +213,4 @@ Tabel ini berisi 34 deskripsi untuk monster di file berwarna. Tempel teks kolom 
 
 Gambar-gambar ini karya seniman atau studio modern (lukisan digital, poster kaos, art game). Makhluk mitologinya milik umum, tapi menyalin desainnya 1:1 untuk game yang dirilis bisa melanggar hak cipta. Paling aman pakai sebagai referensi, lalu ubah sedikit warna, ornamen, atau posenya.
 
+| Makhluk | File | Subject |
