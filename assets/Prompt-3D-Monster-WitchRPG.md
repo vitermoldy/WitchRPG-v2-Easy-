@@ -81,3 +81,5 @@ Turn the attached antique woodcut into a 3D render of the same creature. Keep it
 
 ### 4. Iblis Bersayap Bermoncong (Fig. XXVI)
 
+File: `Screenshot 2026-11-28 114307.png`, figur bawah.
+
