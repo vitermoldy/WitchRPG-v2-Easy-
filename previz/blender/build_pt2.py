@@ -63,3 +63,4 @@ with open(os.path.join(TMP, "makhluk_pt2.json"), "w", encoding="utf-8") as fh:
 def board():
     sc = C.new_scene("papan-makhluk-pt2")
     sc.world = C.sky_world("latar_papan2", "#121014", "#121014", "#121014", 1.0)
+    C.sun(sc, "kunci", (55, 0, -35), energy=3.2).data.use_shadow = False
