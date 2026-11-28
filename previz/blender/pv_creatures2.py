@@ -575,3 +575,4 @@ def b_blemmye(r):
     """Blemmye (prompt no. 11): no head and no neck; two eyes at the top of the torso, a nose, a mustache and a mouth in
     the middle of the chest; rounded shoulders, long dangling arms, a stocky body, walking with one leg forward."""
     H = 2.05
+    J = humanoid(r, H, bulk=1.2, legs="human", arm_pose={"L": (18, 10, 25), "R": (14, -5, 20)}, leg_pose={"L": (14, 8), "R": (-10, 6)},
