@@ -71,3 +71,4 @@ def board():
     coll = C.collection("papan2", sc.collection)
     card = C.mat_flat("kartu2", "#1d1a1f", 1.0)
     well = C.mat_flat("sumur2", "#2a2d36", 1.0)
+    C.text(coll, "Papan makhluk WitchRPG v2 (Easy), bagian 2: Tanah Ganjil", (0.4, 0, -0.85), size=0.62, color="#f4efe9", rot=(90, 0, 0))
