@@ -29,3 +29,4 @@ export interface Territory {
   /** Drawn by another system (the Hydra's lair): a name on the map, no camps. */
   noCamps?: boolean
   /** The outline: two waves around the centre (frequency, amplitude, phase). */
+  wave: [number, number, number, number, number, number]
