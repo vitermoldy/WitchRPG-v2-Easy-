@@ -115,3 +115,4 @@ def fur_on(part, a, b, n, r, mat="fur", out=0.6):
     fwd = axis.cross(side).normalized()
     for i in range(n):
         t = (i + 0.5) / n
+        ang = i * 2.39996
