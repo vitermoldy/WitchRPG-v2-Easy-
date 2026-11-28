@@ -956,6 +956,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
       { name: 'tamparan', strike: 'ring', windup: 0.6, recover: 0.8, range: 2.8, ring: 1.6, lungeSpeed: 5, lungeTime: 0.3 },
     ],
   },
+  // Silvana: the wild woman; circles to her side, long poisoned nails, and a pounce along a line.
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
