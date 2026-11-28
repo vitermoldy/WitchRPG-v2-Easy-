@@ -155,3 +155,4 @@ function place(): Territory[] {
   return PLANS.map((p) => out.find((t) => t.key === p.key)!)
 }
 
+/** Whether a territory fits: inside its zone and the map, apart from the others, off the landmarks it does not own. */
