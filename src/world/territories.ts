@@ -96,3 +96,5 @@ const PLANS: Plan[] = [
   { key: 'asmodeus', name: 'Istana Asmodeus', kind: 'asmodeus', zone: 'ganjil', r: 85, levels: [21, 21], camps: 1, pack: 1, boss: true },
 ]
 
+const SEED = 20261128
+
