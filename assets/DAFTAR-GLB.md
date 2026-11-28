@@ -37,3 +37,4 @@ Ekspor GLB polos (tanpa rig dan animasi). Sampai saya rig, makhluk ini bergerak 
 | --- | --- | --- |
 | Buer | `monster_buer.glb` | Bagian 1, no. 14 |
 | Raia (naga ikan pari) | `monster_raia.glb` | Bagian 1, no. 17 |
+| Ravenna (Monster Ravenna) | `monster_ravenna.glb` | Bagian 1, no. 3 |
