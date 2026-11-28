@@ -115,3 +115,4 @@ for a in arms:
     a.data.pose_position = "REST"
 for ob in bpy.context.scene.objects:
     if ob.type == "MESH":
+        for m in list(ob.modifiers):
