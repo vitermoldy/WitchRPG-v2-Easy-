@@ -165,3 +165,4 @@ def b_aziza(r):
         w.ell(root + Vector((0.22 * sd, 0.05, -0.08)), (0.2, 0.01, 0.07), rot=(0, 20 * sd, 0), mat="wing")
 
 
+def b_kitsune(r):
