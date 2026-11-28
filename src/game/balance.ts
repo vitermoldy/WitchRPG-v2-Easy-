@@ -1044,6 +1044,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   cacodaemon: {
     name: 'Cacodaemon',
     rank: 'ksatria',
+    hp: 140,
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
