@@ -214,3 +214,4 @@ export function campCount(t: Territory) {
  * Deterministic, so the map and the tests see the same camps.
  */
 export function campSpots(t: Territory): [number, number][] {
+  const n = campCount(t)
