@@ -140,6 +140,7 @@ export class WorldMap {
       const kind = b.dataset.boss as UnitKind
       this.focus = this.focus === kind ? null : kind
       // a chosen boss comes to the middle of a zoomed view
+      const entry = this.focus ? this.bosses().find((x) => x.kind === this.focus) : null
       this.renderBosses()
       this.draw()
     })
