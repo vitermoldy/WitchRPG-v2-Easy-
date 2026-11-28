@@ -105,3 +105,4 @@ def extra_arm(r, J, side, s, z_off, pose, H, bulk, mat="skin"):
 
 
 def fur_on(part, a, b, n, r, mat="fur", out=0.6):
+    """Shaggy fur: tufts along a limb from a to b, pointing down and out."""
