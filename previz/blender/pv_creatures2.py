@@ -304,3 +304,4 @@ def b_buer(r):
     hub.limb(c + Vector((0, -0.38, -0.16)), c + Vector((0, -0.5, -0.3)), 0.07, 0.05, mat="mouth")
     for i in range(5):
         a = math.radians(i * 72)
+        d = Vector((0.0, -math.sin(a), math.cos(a)))
