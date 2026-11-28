@@ -141,6 +141,7 @@ export class WorldMap {
       this.focus = this.focus === kind ? null : kind
       // a chosen boss comes to the middle of a zoomed view
       const entry = this.focus ? this.bosses().find((x) => x.kind === this.focus) : null
+      if (entry && this.zoom > 1) {
       this.renderBosses()
       this.draw()
     })
