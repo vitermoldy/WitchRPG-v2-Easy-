@@ -211,3 +211,4 @@ export function campCount(t: Territory) {
 /**
  * Where the camps of a territory stand: a boss at the centre; others spread over the outline (the
  * first near the centre, the rest on a ring), each nudged around until it finds ground it can stand on.
+ * Deterministic, so the map and the tests see the same camps.
