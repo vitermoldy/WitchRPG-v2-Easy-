@@ -209,3 +209,5 @@ Turn the attached antique woodcut into a 3D render of the same creature. Keep it
 
 ## Bagian 2: Monster dari gambar berwarna
 
+Tabel ini berisi 34 deskripsi untuk monster di file berwarna. Tempel teks kolom Subject ke `[SUBJECT]` di Template Render atau Template Model 3D, dan pakai gaya C supaya warnanya mengikuti gambar.
+
