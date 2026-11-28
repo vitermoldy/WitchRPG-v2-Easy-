@@ -480,3 +480,4 @@ def b_triceps(r):
     # the open hand on the creature's right (viewer's left); talons on the raised left arm
     W, d = J["wr_R"], J["hand_dir_R"]
     for a in (-0.03, -0.01, 0.01, 0.03):
+        r.parts["hand_R"].limb(W + d * 0.08 + Vector((a, 0, 0)), W + d * 0.16 + Vector((a * 1.6, -0.02, 0)), 0.01, 0.008, mat="scale", seg=5, joints=False)
