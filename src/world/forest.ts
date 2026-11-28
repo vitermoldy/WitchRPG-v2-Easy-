@@ -350,6 +350,7 @@ export class Forest {
       const list = tile.trees
       for (let i = 0; i < list.length; i++) {
         const t = list[i]
+        const ex = t.x - x
     }
   }
 }
