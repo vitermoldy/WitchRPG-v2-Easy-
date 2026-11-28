@@ -1323,6 +1323,7 @@ export class Rigs {
     this.models = models
     this.lods = lods
     this.skins = skins
+    this.whole = new Set(whole)
   }
 
   private rig(kind: UnitKind, team: Team): Rig | null {
