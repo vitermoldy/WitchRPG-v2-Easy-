@@ -83,7 +83,8 @@ Salin `.env.example` menjadi `.env` dan isi akun MySQL. Server membuat database 
 
 ## Dunia
 
-Kelima zona bisa dimainkan. Hutan Pembuka (Lv 1 sampai 3: Imp, Hellhound), Tebing Berangin di dataran tinggi (Lv 4 sampai 6: Harpy, Centaur), dan Rawa Berkabut (Lv 7 sampai 9: Naga rawa, Minotaur, serta sarang Medusa dan Chimera) terbuka sejak awal. Di tepi zona-zona itu ada kamp elit: makhluk yang lebih besar dan kuat dengan satu sifat (Berlapis, Gesit, Meledak, atau Penjaga). Reruntuhan Kuil (Lv 10 sampai 12: Minotaur, Cyclops, Succubus, Incubus) dan Lembah Bara (Lv 13 sampai 15: Phoenix dan campuran elit) tersegel sampai Hydra di Danau Hitam kalah. Altar menyala saat Ilyra mendekat: memulihkan HP dan mana, menjadi titik bangkit, dan menghubungkan perjalanan cepat. Kamp yang ditaklukkan padam dan berdiri lagi dua menit kemudian bila Ilyra sudah jauh. Tebing Berangin juga punya kamp Griffin dan Hippogriff, dan setiap kawanan keluar setengah kali lebih besar dari daftarnya. Unicorn berjaga di setiap altar dan Pegasus melayang di padang; keduanya satwa yang tidak menyerang dan tidak bisa diserang.
+Peta 5.000 x 5.000 m dengan enam zona; hutan dan medan dimuat bertahap di sekitar Ilyra. Setiap jenis monster punya daerahnya sendiri (45 daerah, garis berlekuk, letaknya tersebar acak tapi selalu sama), dan kampnya hanya berisi jenis itu.
+
 
 ### Boss dunia
 
