@@ -256,6 +256,8 @@ interface Tile {
   trees: Tree[]
   x0: number
   z0: number
+}
+
 export class Forest {
   readonly mesh: THREE.BatchedMesh
   readonly trees: Tree[]
