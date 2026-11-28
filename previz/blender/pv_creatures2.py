@@ -323,3 +323,4 @@ def b_cacodaemon(r):
     ram-like horn and a crest of curly hair, scrawny arms reaching forward with hooked talons, two small fleshy
     sacs on the chest, spotted ribbed bat wings, lean legs with shaggy fur on the thighs and shins, bird-of-prey
     talon feet and a long thin tail. The woodcuts show one wing; the far one is hidden, so it has two."""
+    H = 2.1
