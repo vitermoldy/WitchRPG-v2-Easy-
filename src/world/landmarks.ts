@@ -82,3 +82,4 @@ export class Landmarks {
           const H = 3 + rnd() * 6
           const w = 0.35 + H * 0.06
           stems.push(m4(p.x, p.y + H / 2, p.z, w, H, w))
+          caps.push({ m: m4(p.x, p.y + H, p.z, H * 0.45, H * 0.22, H * 0.45, rnd() * 3), c: colours[k % colours.length] })
