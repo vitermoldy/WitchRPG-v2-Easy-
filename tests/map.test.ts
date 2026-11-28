@@ -129,3 +129,4 @@ describe('every creature on its own ground (owner, 28 Nov 2026)', () => {
   it('never lets two territories overlap, and keeps them on the playable map', () => {
     for (let i = 0; i < TERRITORIES.length; i++) {
       const a = TERRITORIES[i]
+      expect(Math.max(Math.abs(a.c[0]), Math.abs(a.c[1])) + a.r, a.key).toBeLessThan(PLAY_HALF - 20)
