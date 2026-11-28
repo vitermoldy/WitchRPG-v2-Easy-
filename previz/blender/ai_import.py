@@ -26,3 +26,4 @@ BUDGET = 25000 if KEY in BOSSES else 10000
 os.makedirs(OUT, exist_ok=True)
 
 
+def clear():
