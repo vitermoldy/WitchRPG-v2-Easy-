@@ -116,3 +116,4 @@ export function reach(t: Pick<Territory, 'r' | 'wave'>, a: number) {
 }
 
 /** True when the map point lies inside the territory's ragged outline. */
+export function inside(t: Territory, x: number, y: number) {
