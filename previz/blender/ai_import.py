@@ -46,3 +46,4 @@ def mesh_bounds():
         ev = ob.evaluated_get(deps)
         me = ev.to_mesh()
         for v in me.vertices:
+            w = ev.matrix_world @ v.co
