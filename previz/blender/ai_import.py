@@ -116,3 +116,4 @@ for a in arms:
 for ob in bpy.context.scene.objects:
     if ob.type == "MESH":
         for m in list(ob.modifiers):
+            if m.type == "ARMATURE":
