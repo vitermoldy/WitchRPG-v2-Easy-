@@ -95,6 +95,7 @@ export class WorldMap {
     )
     let drag: { x: number; y: number } | null = null
     this.canvas.addEventListener('pointerdown', (e) => {
+      drag = { x: e.clientX, y: e.clientY }
     $('map-sort').addEventListener('change', () => this.renderMonsters())
     $('map-all').addEventListener('click', () => {
       for (const m of this.monsters()) this.chosen.add(m.kind)
