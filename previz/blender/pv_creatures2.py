@@ -398,3 +398,4 @@ def b_sirena(r):
     # the wings are the arms: feathers on the arm bones, the hands hidden in the feathers
     for sd, side in SIDES:
         feather_wing(r.parts["upperarm_" + side], J["sh_" + side] + Vector((0, 0.03, 0)), sd, 1.7, 1.0, raise_deg=10, sweep_deg=8, tilt=60,
+                     mat="membrane", tip_mat="accent", arm="membrane")
