@@ -1384,6 +1384,7 @@ export class Rigs {
 
   /** One unit drawn from an animated GLB: its own skinned copy, the clip for its state, glow on its materials. */
   private skin(u: Unit, src: SkinSource, dt: number, glow: THREE.Color | null) {
+    let copy = this.skinned.get(u)
   /** How far below its feet a unit is drawn while it rises out of a pool, sinks in, or turns to ash. */
   private sink(u: Unit): number {
     if (u.state === 'rising') {
