@@ -339,3 +339,4 @@ def b_cacodaemon(r):
         for k in range(6):
             p = Vector((s * (0.45 + 0.17 * (k % 3)), J["back"][1] + 0.35 + 0.1 * (k // 3), J["z"]["sh"] + 0.5 - 0.35 * (k // 3) + 0.1 * (k % 3)))
             w.ell(p, (0.05, 0.02, 0.07), mat="accent", seg=6, rings=4)
+        fur_on(r.parts["thigh_" + side], V(J["hip"]) + Vector((J["hw"] * s, 0, 0)), J["knee_" + side], 8, 0.06, mat="body2")
