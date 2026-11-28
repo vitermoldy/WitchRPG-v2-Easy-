@@ -19,3 +19,4 @@ export interface Territory {
   levels: [number, number]
   /** How many camps, and how many creatures each lists (spawned times CAMP.pack). */
   camps: number
+  pack: number
