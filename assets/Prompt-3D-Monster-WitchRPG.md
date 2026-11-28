@@ -277,3 +277,4 @@ Poster `images (7).jpg` berisi 35 makhluk kecil, kebanyakan berwujud manusia, bu
 | Banshee | a pale ghostly woman with long dark hair, fading into shadow |
 | Fenghuang | a fenghuang: a pheasant-like bird with green, red and blue plumage and a long flowing tail |
 | Griffin | a griffin lying down, with a golden eagle head and large brown wings on a lion body |
+| Deer Woman | a woman with long auburn hair, deer ears and large antlers, in a green dress with feathers in her hair |
