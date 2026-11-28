@@ -40,3 +40,4 @@ describe('the forest, one tile at a time (5000 m map)', () => {
     const forest = new Forest(obs)
     const [hx, hz] = toWorld(SPOTS.hero[0], SPOTS.hero[1])
     forest.prepare(hx, hz)
+    const first = obs.shapes.length
