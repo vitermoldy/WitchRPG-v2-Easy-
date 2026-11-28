@@ -185,3 +185,4 @@ def b_septiceps(r):
     p.tube([hp + Vector((0, 0, 0.18)), hp + Vector((0, 0, -0.15)), hp + Vector((0, -0.05, -0.5))], [0.5, 0.54, 0.4], mat="cloth2", seg=12, n=2)
     # behind the human legs: a bird of prey's leg and a wolf's leg, and the fox brush
     for name, x, mat in (("leg_bird", 0.25, "talon"), ("leg_wolf", -0.25, "fur")):
+        lg = r.P(name, hp + Vector((x, 0.35, 0)), "pelvis")
