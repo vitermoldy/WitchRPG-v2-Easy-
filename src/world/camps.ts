@@ -100,6 +100,7 @@ export interface Camp {
   respawnAt: number
   roused: boolean
   /** A roaming pack: where its members stand around the pack's centre, and when the centre moves next. */
+  offsets?: [number, number][]
 }
 
 const STONES = 7
