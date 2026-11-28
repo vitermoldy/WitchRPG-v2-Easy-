@@ -83,3 +83,4 @@ def board():
         bg.finalize()
         row = K.ROSTER_BY_KEY[k]
         if row[K.REF]:
+            S.ref_plane(coll, f"ref2.{k}", row[K.REF][0], row[K.REF][1], (x0 + 2.4, 0, z0 - 2.25), 3.95)
