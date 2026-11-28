@@ -20,3 +20,5 @@ describe('models from the image-to-3D tool (owner, 28 Nov 2026)', () => {
     // the odd shapes the owner sends without bones
     const plain = files.filter(([, v]) => v.rig === 'blender').map(([, v]) => v.key).sort()
     expect(plain).toEqual(['aries', 'asmodeus', 'buer', 'duyung', 'marinus', 'raia', 'septiceps', 'sirena', 'sylph'])
+  })
+
