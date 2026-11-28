@@ -53,6 +53,7 @@ export class WorldMap {
   private base: HTMLCanvasElement | null = null
   private chosen = new Set<UnitKind>()
   private focus: UnitKind | null = null
+  /** The view: zoom and the map point at its centre (x east, y north). */
   onClose: (() => void) | null = null
 
   constructor(g: Game) {
