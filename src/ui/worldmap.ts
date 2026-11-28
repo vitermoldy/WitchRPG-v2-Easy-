@@ -85,6 +85,7 @@ export class WorldMap {
     })
     // the wheel zooms about the point under the cursor; a drag moves the view
     this.canvas.addEventListener(
+      'wheel',
     $('map-sort').addEventListener('change', () => this.renderMonsters())
     $('map-all').addEventListener('click', () => {
       for (const m of this.monsters()) this.chosen.add(m.kind)
