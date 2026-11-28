@@ -998,6 +998,7 @@ const POSES: Partial<Record<UnitKind, PoseFn>> = {
   aziza: poseWinged,
   kitsune: poseBeast,
   sylph: poseMedusa,
+  banshee: poseMedusa,
   griffin: poseBeast,
   hippogriff: poseBeast,
   pegasus: poseBeast,
