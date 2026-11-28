@@ -878,6 +878,7 @@ const poseBuer: PoseFn = (p, u, t) => {
     if (u.atk.strike === 'line') p.rot('hub', (u.t * 1000) % 360)
     else for (let i = 0; i < 5; i++) p.rot('leg' + i, 30 * Math.sin(u.t * 30 + i * 1.3))
     return
+  }
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   griffin: poseBeast,
   hippogriff: poseBeast,
