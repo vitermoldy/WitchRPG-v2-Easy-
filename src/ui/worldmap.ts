@@ -316,6 +316,8 @@ export class WorldMap {
   }
 
   private readonly baseW = new Float32Array(ZONES.length)
+  private baseTones: number[][] | null = null
+
     const step = (EXTENT * 2) / BASE
     for (let j = 0; j < BASE; j++) {
       for (let i = 0; i < BASE; i++) {
