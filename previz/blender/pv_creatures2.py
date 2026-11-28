@@ -85,3 +85,4 @@ def back_wing(r, name, root, s, kind, span, chord, **kw):
     return w
 
 
+def extra_arm(r, J, side, s, z_off, pose, H, bulk, mat="skin"):
