@@ -774,6 +774,7 @@ function serpentine(base: PoseFn, part: string): PoseFn {
 /**
  * Flyers with wings on their backs (Sirena, Cacodaemon): the wings beat while it hovers, fold back as it
  * dives, the arms reach and the legs tuck; on the ground (downed) the wings drag.
+ */
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   griffin: poseBeast,
   hippogriff: poseBeast,
