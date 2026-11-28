@@ -916,6 +916,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     ],
   },
   // Blemmye: no head, the face in its chest; heavy fists under a circle and a shoulder charge along a line.
+  blemmye: {
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
