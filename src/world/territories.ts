@@ -60,3 +60,4 @@ const PLANS: Plan[] = [
   { key: 'minotaur', name: 'Padang Minotaur', kind: 'minotaur', zone: 'rawa', r: 180, levels: [7, 9], camps: 7, pack: 2, elites: 1 },
   { key: 'medusa', name: 'Kolam Medusa', kind: 'medusa', zone: 'rawa', r: 100, levels: [9, 9], camps: 1, pack: 1 },
   { key: 'chimera', name: 'Sarang Chimera', kind: 'chimera', zone: 'rawa', r: 100, levels: [9, 9], camps: 1, pack: 1 },
+  // IV Reruntuhan Kuil (Lv 10 to 12, sealed until the Hydra falls)
