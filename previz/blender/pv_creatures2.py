@@ -284,3 +284,4 @@ def b_asmodeus(r):
                 h.tube(pts, [0.07 - 0.009 * i for i in range(7)], mat="horn", seg=6, n=2)
     t = r.parts["torso"]
     for s in (1, -1):
+        bat_wing(t, (0.25 * s, J["back"][1], J["z"]["sh"] - 0.1), s, 3.4, 2.2, raise_deg=36, sweep_deg=24, bone="horn", arm="membrane")
