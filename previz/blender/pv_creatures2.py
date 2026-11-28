@@ -131,3 +131,6 @@ def sword(part, W, d, length=1.1, mat="metal"):
     part.limb(W + d * 0.12 - side * 0.13, W + d * 0.12 + side * 0.13, 0.02, 0.02, mat="gold", seg=6, joints=False)
     tip = W + d * length
     base = W + d * 0.14
+    part.poly([base - side * 0.045, base + side * 0.045, tip - d * 0.15 + side * 0.035, tip, tip - d * 0.15 - side * 0.035], mat=mat)
+
+
