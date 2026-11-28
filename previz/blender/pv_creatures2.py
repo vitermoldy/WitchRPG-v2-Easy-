@@ -324,3 +324,4 @@ def b_cacodaemon(r):
     sacs on the chest, spotted ribbed bat wings, lean legs with shaggy fur on the thighs and shins, bird-of-prey
     talon feet and a long thin tail. The woodcuts show one wing; the far one is hidden, so it has two."""
     H = 2.1
+    J = humanoid(r, H, bulk=0.8, legs="bird", arm_pose={"L": (25, 75, 30), "R": (20, 65, 45)}, leg_pose={"L": (25, 30), "R": (-5, 20)},
