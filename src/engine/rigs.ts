@@ -973,6 +973,7 @@ const poseWhole: PoseFn = (p, u, t) => {
 
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   satyr: poseImp,
+  cornutus: poseImp,
   griffin: poseBeast,
   hippogriff: poseBeast,
   pegasus: poseBeast,
