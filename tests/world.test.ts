@@ -62,3 +62,4 @@ describe('the ground, built near her first', () => {
     const box = new THREE.Box3()
     for (const m of shown) {
       box.setFromObject(m)
+      const c = box.getCenter(new THREE.Vector3())
