@@ -32,3 +32,4 @@ describe('the forest, one tile at a time (5000 m map)', () => {
       expect(inClearing(mx, my)).toBe(false)
     }
     const far = Math.ceil((HALF + TILE) / TILE) + 1
+    expect(scatterTile(far, 0)).toEqual([])
