@@ -33,3 +33,4 @@ describe('models from the image-to-3D tool (owner, 28 Nov 2026)', () => {
     expect(clipRoles([clip('Take 001')]).idle?.name).toBe('Take 001')
   })
 
+  it('carries the new names: Discordia (five heads) and Ravenna', () => {
