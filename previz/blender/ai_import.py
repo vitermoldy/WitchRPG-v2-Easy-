@@ -37,3 +37,4 @@ def clear():
 
 def mesh_bounds():
     """World bounds of every mesh as it is drawn now (armatures in their rest pose)."""
+    deps = bpy.context.evaluated_depsgraph_get()
