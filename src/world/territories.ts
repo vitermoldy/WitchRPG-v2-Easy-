@@ -227,3 +227,4 @@ export function campSpots(t: Territory): [number, number][] {
       const a = a0 + (k % 12) * 0.52
       const rr = reach(t, a) * Math.min(0.9, Math.max(0.05, ring + 0.12 * Math.floor(k / 12) * (k % 2 ? -1 : 1)))
       const x = Math.round(t.c[0] + Math.cos(a) * rr)
+      const y = Math.round(t.c[1] + Math.sin(a) * rr)
