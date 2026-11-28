@@ -53,3 +53,4 @@ describe('the ground, built near her first', () => {
   it('builds and shows the chunks around a spot at once, and draws nothing past the far edge', () => {
     const terrain = new Terrain()
     const [hx, hz] = toWorld(SPOTS.hero[0], SPOTS.hero[1])
+    terrain.prepare(new THREE.Vector3(hx, 0, hz))
