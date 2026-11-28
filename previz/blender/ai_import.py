@@ -66,3 +66,4 @@ def tris():
 
 
 def export(path, animations):
+    for ob in bpy.context.scene.objects:
