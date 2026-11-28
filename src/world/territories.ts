@@ -165,3 +165,4 @@ function fits(t: Territory, zone: string, own: number, placed: Territory[], marg
   }
   if (Math.hypot(cx - LAKE.c[0], cy - LAKE.c[1]) < LAKE.r * 1.2 + big + 30) return false
   for (const w of WATERS) if (Math.hypot(cx - w.c[0], cy - w.c[1]) < w.r * 1.3 + big) return false
+  if (Math.hypot(cx - SPOTS.hero[0], cy - SPOTS.hero[1]) < big + 150) return false
