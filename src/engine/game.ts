@@ -461,7 +461,7 @@ export class Game implements UnitHost {
       models[k] = creatures[i]
       lods[k] = creatures[V2_KINDS.length + i]
     })
-    this.rigs = new Rigs(models, lods)
+    this.rigs = new Rigs(models, lods, skins, whole)
     this.rigs.detail = this.profile.settings.detail
     this.rigs.prepare([...V2_KINDS])
     this.scene.add(this.rigs.group)
