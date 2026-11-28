@@ -56,3 +56,4 @@ describe('the ground, built near her first', () => {
     terrain.prepare(new THREE.Vector3(hx, 0, hz))
     const shown = terrain.group.children.filter((m) => m.visible)
     expect(shown.length).toBeGreaterThan(20)
+    const near = shown.some((m) => m.name.endsWith('lod0'))
