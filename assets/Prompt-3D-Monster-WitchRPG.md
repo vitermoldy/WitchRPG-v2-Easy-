@@ -16,3 +16,5 @@ Prompt teks saja tidak akan pernah menghasilkan 3D yang 100% mirip. Kuncinya: se
 
 ## Template universal
 
+Template ini bisa dipakai untuk gambar apa pun di folder. Ganti `[SUBJECT]` dengan deskripsi monster dari Bagian 1–3, dan `[STYLE]` dengan salah satu gaya di bawah.
+
