@@ -35,3 +35,4 @@ describe('the forest, one tile at a time (5000 m map)', () => {
     expect(scatterTile(far, 0)).toEqual([])
   })
 
+  it('loads the tiles around her with their colliders, and more as she moves', () => {
