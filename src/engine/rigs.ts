@@ -39,6 +39,7 @@ const VARIANT_SHARE = 0.25
 /** Whether a creature wears its kind's colour variant: elites of most kinds, one in four of the random kinds. */
 function wearsVariant(u: Unit) {
   if (u.team !== 'enemy' || !VARIANTS[u.kind]) return false
+  if (RANDOM_VARIANTS.has(u.kind)) return ((Math.imul(u.id, 2654435761) >>> 0) / 4294967296) < VARIANT_SHARE
 /** Adds a per-instance emissive colour (hit flash, the violet glow of a body that can be raised). */
 function patchGlow(mat: THREE.MeshStandardMaterial) {
   mat.onBeforeCompile = (s) => {
