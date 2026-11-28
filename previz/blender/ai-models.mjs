@@ -19,3 +19,4 @@ const quiet = process.argv.includes('--quiet')
 const extra = process.argv.filter((a) => a.includes('=') && !a.startsWith('--')).map((a) => a.split('='))
 
 const files = Object.entries(table).filter(([name]) => name.endsWith('.glb'))
+const present = []
