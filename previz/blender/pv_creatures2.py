@@ -311,3 +311,4 @@ def b_buer(r):
         k0 = c + d * 0.3 + side * 0.4
         k1 = c + d * 0.62 + side * 0.8 + Vector((0, 0.06, 0)) * (1 if i % 2 else -1)
         k2 = c + d * (R - 0.08) + side
+        leg.limb(k0, k1, 0.13, 0.09, mat="leg")
