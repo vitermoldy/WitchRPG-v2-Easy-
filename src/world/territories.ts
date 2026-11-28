@@ -15,3 +15,4 @@ export interface Territory {
   c: [number, number]
   /** Mean radius; the outline wanders between about 0.66 and 1.34 of it (see `reach`). */
   r: number
+  /** Level of its first camp and its last; the camps in between climb evenly. */
