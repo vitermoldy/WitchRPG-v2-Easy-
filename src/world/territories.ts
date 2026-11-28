@@ -3,3 +3,4 @@ import { heightMap, inClearing, inWaterRect, LAGOON, LAKE, LANDMARKS, MERE, path
 
 /**
  * Every creature kind has a ground of its own (owner, 28 Nov 2026: "setiap monster itu ada daerahnya
+ * sendiri"), inside the zone of its level band. The grounds are scattered over each zone with ragged
