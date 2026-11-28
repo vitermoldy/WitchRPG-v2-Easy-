@@ -1188,6 +1188,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   },
   // Boss of Tanah Ganjil: the allegory of discord, five heads on one giant (named Septiceps until 28 Nov 2026; the key stays
   // for saved shadows); the sword under a circle, the cries ahead, a thrown dagger. Calls Satyrs.
+  septiceps: {
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
