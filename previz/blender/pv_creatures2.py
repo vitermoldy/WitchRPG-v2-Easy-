@@ -169,3 +169,4 @@ def b_septiceps(r):
             h.ell(hc + Vector((0, 0.04, 0.08)), (0.15, 0.15, 0.12), mat="hair")
             beard(h, hc + fwd * 0.08 + Vector((0, 0, -0.12)), 0.2, 0.07)
         elif kind == "mask":
+            h.ell(hc + Vector((0, 0.04, 0.08)), (0.15, 0.15, 0.12), mat="hair")
