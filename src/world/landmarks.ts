@@ -30,3 +30,4 @@ export class Landmarks {
       const [x, z] = toWorld(mx, my)
       return { x, z, y: heightMap(mx, my) }
     }
+    for (const l of LANDMARKS) {
