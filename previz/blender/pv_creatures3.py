@@ -246,3 +246,4 @@ ROSTER3 = [
     ("duyung", "Duyung", b_duyung, "Penyanyi telaga", "Prajurit", "III Rawa Berkabut", None),
     ("aries", "Aries", b_aries, "Penyeruduk berat", "Ksatria", "IV Reruntuhan Kuil", None),
     ("manticore", "Manticore", b_manticore, "Mini-boss Bara", "Jenderal", "V Lembah Bara", None),
+    ("blackdragon", "Dragon Hitam", b_blackdragon, "Boss dunia", "Marsekal", "V Lembah Bara", None),
