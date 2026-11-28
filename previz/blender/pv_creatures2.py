@@ -533,3 +533,4 @@ def b_cracovia(r):
         h.cone(hc + Vector((0.07 * k, -0.09, 0.04)), hc + Vector((0.2 * k, -0.08, 0.08)), 0.025, mat="glow", seg=5)
         h.tube([hc + Vector((0.12 * k * s, 0, 0.04)), hc + Vector((0.18 * k * s, 0.02, -0.06)), hc + Vector((0.17 * k * s, 0.03, -0.16))], [0.02, 0.05, 0.0], mat="skin", seg=6, n=2, squash=0.3)
     trunk = [hc + Vector((0, -0.11, -0.02)), hc + Vector((0, -0.28, -0.08)), hc + Vector((0, -0.42, -0.25)), hc + Vector((0, -0.45, -0.45)), hc + Vector((0, -0.38, -0.55))]
+    h.tube(trunk, [0.055, 0.045, 0.035, 0.028, 0.02], mat="skin", seg=8, n=3)
