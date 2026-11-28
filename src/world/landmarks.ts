@@ -71,3 +71,4 @@ export class Landmarks {
           const a = rnd() * Math.PI * 2
           const p = at(l, a, l.r * (0.8 + rnd() * 0.6))
           if (p.y < 0.2) continue
+          const s = 0.25 + rnd() * 0.25
