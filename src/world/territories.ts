@@ -40,3 +40,4 @@ const BLOB = 1.34
 
 const PLANS: Plan[] = [
   // I Hutan Pembuka (Lv 1 to 3)
+  { key: 'imp', name: 'Sarang Imp', kind: 'imp', zone: 'pembuka', at: [38, -551], r: 200, levels: [1, 3], camps: 9, pack: 4, elites: 1 },
