@@ -63,6 +63,7 @@ export const ROAM_DEFS: CampDef[] = (() => {
       const py = Math.round(y + (rnd() - 0.5) * step * 0.6)
       const size = rnd()
       const pick = rnd()
+      if (Math.max(Math.abs(px), Math.abs(py)) > PLAY_HALF - 80) continue
 
 export interface Camp {
   def: CampDef
