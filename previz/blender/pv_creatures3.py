@@ -162,3 +162,6 @@ def b_aziza(r):
         w = r.P("wing_" + side, (0.03 * sd, J["back"][1], J["z"]["sh"]), "torso")
         root = Vector((0.03 * sd, J["back"][1] + 0.02, J["z"]["sh"]))
         w.ell(root + Vector((0.28 * sd, 0.05, 0.16)), (0.28, 0.01, 0.1), rot=(0, -25 * sd, 0), mat="wing")
+        w.ell(root + Vector((0.22 * sd, 0.05, -0.08)), (0.2, 0.01, 0.07), rot=(0, 20 * sd, 0), mat="wing")
+
+
