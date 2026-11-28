@@ -312,3 +312,5 @@ Pemeriksaan:
 
 ### Perbaikan dan perluasan kedua (28 Nov 2026)
 
+Permintaan pemilik: "perbaiki genangan air dan boss ganda di peta, dan perluas lg mapnya".
+
