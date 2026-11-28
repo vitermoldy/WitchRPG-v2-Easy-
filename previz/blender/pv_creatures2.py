@@ -29,3 +29,4 @@ def goat_horns(part, hc, s, mat="horn", length=1.0, spread=1.0):
 
 
 def pointed_ears(part, hc, s, mat="skin", length=0.16):
+    for k in (1, -1):
