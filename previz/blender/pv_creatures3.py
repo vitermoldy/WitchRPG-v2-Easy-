@@ -201,3 +201,4 @@ def b_sylph(r):
         tl.tube(pts, [0.16, 0.13, 0.1, 0.07, 0.0], mat="smoke2" if k else "smoke", seg=8, n=3)
 
 
+def b_banshee(r):
