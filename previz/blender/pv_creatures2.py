@@ -687,3 +687,4 @@ def b_raia(r):
     for sd, side in SIDES:
         w = r.P("wing_" + side, c + Vector((0.3 * sd, 0, 0.05)), "body")
         root_f, root_b = c + Vector((0.32 * sd, -0.45, 0.08)), c + Vector((0.32 * sd, 0.55, 0.0))
+        tip = c + Vector((1.9 * sd, -0.15, 0.45))
