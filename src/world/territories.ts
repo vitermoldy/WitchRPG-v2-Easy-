@@ -52,3 +52,4 @@ const PLANS: Plan[] = [
   { key: 'centaur', name: 'Padang Centaur', kind: 'centaur', zone: 'tebing', r: 95, levels: [4, 5], camps: 4, pack: 2, minHeight: PLATEAU },
   { key: 'griffin', name: 'Sarang Griffin', kind: 'griffin', zone: 'tebing', r: 95, levels: [5, 6], camps: 4, pack: 2, elites: 1, minHeight: PLATEAU },
   { key: 'hippogriff', name: 'Tebing Hippogriff', kind: 'hippogriff', zone: 'tebing', r: 95, levels: [5, 6], camps: 4, pack: 3, elites: 1, minHeight: PLATEAU },
+  { key: 'aquilon', name: 'Puncak Aquilon', kind: 'aquilon', zone: 'tebing', r: 95, levels: [5, 6], camps: 4, pack: 2, elites: 1, minHeight: PLATEAU },
