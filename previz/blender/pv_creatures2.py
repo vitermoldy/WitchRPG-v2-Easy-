@@ -358,3 +358,4 @@ def b_cornutus(r):
     J = humanoid(r, H, bulk=1.2, legs="human", arm_pose={"L": (20, 15, 25), "R": (20, 15, 25)}, leg_pose={"L": (8, 6), "R": (-6, 4)},
                  body_mat="skin", shin_mat="scale", foot_mat="skin")
     h = r.parts["head"]
+    hc = V(J["head_c"])
