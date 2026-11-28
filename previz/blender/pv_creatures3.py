@@ -46,3 +46,4 @@ def b_hippocentaurus(r):
     K2.fur_on(r.parts["torso"], V(J["chest"]) + Vector((0, -0.18, 0.15)), V(J["waist"]) + Vector((0, -0.16, -0.1)), 10, 0.07, mat="hair")
     tl = r.P("tail", Q["tail_base"], "body")
     tb = V(Q["tail_base"])
+    for k in (-0.08, 0.0, 0.08):
