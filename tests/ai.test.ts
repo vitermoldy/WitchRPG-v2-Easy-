@@ -28,3 +28,4 @@ describe('models from the image-to-3D tool (owner, 28 Nov 2026)', () => {
     expect(roles.idle?.name).toBe('Armature|Idle')
     expect(roles.walk?.name).toBe('Walking')
     expect(roles.attack?.name).toBe('Punch_Attack')
+    expect(roles.hit?.name).toBe('Hit Reaction')
