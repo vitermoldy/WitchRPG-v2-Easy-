@@ -131,3 +131,4 @@ for a in arms:
     bpy.data.objects.remove(a)
 export(os.path.join(OUT, f"{KEY}_lod.glb"), False)
 
+with open(os.path.join(OUT, f"{KEY}.json"), "w", encoding="utf-8") as fh:
