@@ -15,3 +15,4 @@ import sys
 import bpy
 from mathutils import Vector
 
+argv = sys.argv[sys.argv.index("--") + 1:]
