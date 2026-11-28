@@ -56,6 +56,7 @@ export const ROAM_DEFS: CampDef[] = (() => {
     return seed / 4294967296
   }
   const out: CampDef[] = []
+  const step = CAMP.roam
 
 export interface Camp {
   def: CampDef
