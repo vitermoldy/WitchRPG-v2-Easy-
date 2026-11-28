@@ -172,6 +172,7 @@ export class WorldMap {
     this.draw()
   }
 
+  /** Keeps the view on the map. */
   open() {
     if (!this.dlg.open) this.dlg.showModal()
     this.renderBosses()
