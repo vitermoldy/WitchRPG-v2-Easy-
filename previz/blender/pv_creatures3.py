@@ -59,3 +59,4 @@ def b_aquilon(r):
     hc = V(J["head_c"])
     eagle_head(h, hc, fwd=(0, -1, 0), s=1.25, mat="feather")
     t = r.parts["torso"]
+    t.ell(V(J["chest"]) + Vector((0, -0.01, 0.0)), (J["sw"] * 1.05, H * 0.085, H * 0.11), mat="armor")
