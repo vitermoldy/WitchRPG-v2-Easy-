@@ -258,6 +258,7 @@ export class Lair {
     g.profile.bossKills += 1
     g.seal.unlock()
     g.hud.banner('Hydra tumbang', 'Reruntuhan Kuil, Lembah Bara, dan Tanah Ganjil terbuka')
+    g.hud.message('Segel Reruntuhan Kuil, Lembah Bara, dan Tanah Ganjil pecah. Tubuh Hydra bersinar: dengan Kebangkitan Marsekal ia bisa dibangkitkan, satu kali.', 'umbra')
     g.saveSoon()
   }
 
