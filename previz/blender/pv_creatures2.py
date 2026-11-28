@@ -394,3 +394,4 @@ def b_sirena(r):
     s = head_ball(h, hc, H, "skin")
     face(h, hc, H)
     h.ell(hc + Vector((0, 0.02, 0.06)), (0.095, 0.1, 0.07), mat="hair")
+    h.cone(hc + Vector((0, -0.02, 0.1)), hc + Vector((0, 0.0, 0.2)), 0.02, mat="horn", seg=5)
