@@ -370,3 +370,4 @@ def b_cornutus(r):
         back_wing(r, "wing_" + side, (0.08 * sd, J["back"][1], J["z"]["sh"] - 0.05), sd, "feather", 1.9, 1.0, raise_deg=35, sweep_deg=20, feathers=9, tilt=58,
                   mat="membrane", tip_mat="accent", arm="membrane")
     t = r.parts["torso"]
+    ch = V(J["chest"]) + Vector((0, -0.2, 0.0))
