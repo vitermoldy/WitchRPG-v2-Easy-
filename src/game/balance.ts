@@ -1104,6 +1104,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   },
   // Cracovia: the Krakow monster; the trunk lashes along a line, the dog heads bite, the burning eyes spit fire.
   cracovia: {
+    name: 'Cracovia',
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
