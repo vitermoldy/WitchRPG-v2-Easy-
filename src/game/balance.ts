@@ -1004,6 +1004,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     name: 'Cornutus',
     rank: 'ksatria',
     hp: 210,
+    damage: 24,
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
