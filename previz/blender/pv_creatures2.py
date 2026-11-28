@@ -536,3 +536,4 @@ def b_cracovia(r):
     h.tube(trunk, [0.055, 0.045, 0.035, 0.028, 0.02], mat="skin", seg=8, n=3)
     t = r.parts["torso"]
     for k in (-1, 1):
+        dog_head(t, V(J["chest"]) + Vector((0.12 * k, -0.2, 0.05)), fwd=(0.25 * k, -1, 0.0), s=0.42, jaw_open=12, ears=True, teeth=False, mat="fox")
