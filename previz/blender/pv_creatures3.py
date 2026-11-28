@@ -53,3 +53,4 @@ def b_hippocentaurus(r):
 def b_aquilon(r):
     """The eagle-headed warrior: a white-feathered eagle head, gold-trimmed armour, a cape, wings to fly, a spear."""
     H = 2.4
+    J = humanoid(r, H, bulk=1.15, legs="human", arm_pose={"L": (20, 15, 30), "R": (25, 60, 70)}, leg_pose={"L": (10, 8), "R": (-8, 6)},
