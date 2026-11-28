@@ -38,3 +38,4 @@ describe('the forest, one tile at a time (5000 m map)', () => {
   it('loads the tiles around her with their colliders, and more as she moves', () => {
     const obs = new Obstacles()
     const forest = new Forest(obs)
+    const [hx, hz] = toWorld(SPOTS.hero[0], SPOTS.hero[1])
