@@ -6,3 +6,5 @@ Simpan setiap file langsung di folder `assets/` dengan nama persis seperti di ta
 
 ## Dirig dan dianimasikan di Meshy (18 makhluk)
 
+Ekspor GLB berisi tulang dan lima animasi. Nama animasi cukup mengandung kata ini (huruf besar atau kecil tidak masalah): `idle`, `walk` (atau `run`), `attack` (atau `punch`, `slash`, `bite`, `kick`), `hit` (atau `hurt`, `damage`), dan `die` (atau `death`, `dying`). Animasi yang tidak ada diganti `idle`.
+
