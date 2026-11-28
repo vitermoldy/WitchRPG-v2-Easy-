@@ -40,6 +40,8 @@ const MAX_DENSITY = Math.max(1.1, ...Object.values(MIX).map(([, d]) => d))
 
 /** Boss arenas stay open ground, like the clearings. */
 const ARENAS = TERRITORIES.filter((t) => t.boss && !t.noCamps).map((t) => ({ c: t.c, r: t.r * 0.7 }))
+const inArena = (x: number, y: number) => ARENAS.some((a) => Math.hypot(x - a.c[0], y - a.c[1]) < a.r)
+
 // ------------------------------------------------------------ geometry
 
 const C = (h: string) => new THREE.Color(h)
