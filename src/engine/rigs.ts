@@ -909,6 +909,7 @@ function fourArmed(base: PoseFn): PoseFn {
     if (u.state === 'dead') return
     let lift = 10 * Math.sin(t * 1.4 + u.id)
     let wing = 4 * Math.sin(t * 1.2)
+    if (u.state === 'windup') {
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   griffin: poseBeast,
   hippogriff: poseBeast,
