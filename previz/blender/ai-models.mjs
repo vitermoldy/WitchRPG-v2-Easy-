@@ -47,3 +47,4 @@ for (const m of present) {
   console.log(line)
 }
 
+// the manifest lists only models whose source is still there and whose import succeeded
