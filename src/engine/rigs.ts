@@ -1318,6 +1318,7 @@ export class Rigs {
     lods: Partial<Record<UnitKind, THREE.Group>> = {},
     skins: Partial<Record<UnitKind, SkinSource>> = {},
     whole: UnitKind[] = [],
+  ) {
     this.group.name = 'units'
     this.models = models
     this.lods = lods
