@@ -130,3 +130,4 @@ describe('every creature on its own ground (owner, 28 Nov 2026)', () => {
     for (let i = 0; i < TERRITORIES.length; i++) {
       const a = TERRITORIES[i]
       expect(Math.max(Math.abs(a.c[0]), Math.abs(a.c[1])) + a.r, a.key).toBeLessThan(PLAY_HALF - 20)
+      for (let j = i + 1; j < TERRITORIES.length; j++) {
