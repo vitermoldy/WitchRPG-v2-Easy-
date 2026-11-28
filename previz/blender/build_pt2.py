@@ -18,3 +18,4 @@ from mathutils import Vector  # noqa: E402
 import pv_common as C  # noqa: E402
 import pv_creatures as K  # noqa: E402
 import pv_creatures2 as K2  # noqa: E402
+import pv_creatures3 as K3  # noqa: E402
