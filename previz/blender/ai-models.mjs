@@ -18,3 +18,4 @@ const quiet = process.argv.includes('--quiet')
 // --src key=path imports one file from elsewhere (for testing the pipeline)
 const extra = process.argv.filter((a) => a.includes('=') && !a.startsWith('--')).map((a) => a.split('='))
 
+const files = Object.entries(table).filter(([name]) => name.endsWith('.glb'))
