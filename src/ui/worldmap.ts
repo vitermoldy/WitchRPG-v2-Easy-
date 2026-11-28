@@ -78,6 +78,7 @@ export class WorldMap {
       } else if (e.code === 'Equal' || e.code === 'NumpadAdd') {
         e.preventDefault()
         this.zoomBy(1.5)
+      } else if (e.code === 'Minus' || e.code === 'NumpadSubtract') {
       }
     })
     $('map-sort').addEventListener('change', () => this.renderMonsters())
