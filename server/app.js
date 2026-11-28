@@ -21,6 +21,7 @@ const SKILLS = new Set(['hexBolt', 'grip', 'burst', 'snare', 'barrier', 'warp', 
 // fauna (pegasus, unicorn) is never raised, so it is not here
 const KINDS = new Set(['imp', 'hellhound', 'harpy', 'centaur', 'naga', 'minotaur', 'medusa', 'chimera', 'cyclops', 'succubus', 'incubus', 'phoenix', 'hydra', 'griffin', 'hippogriff', 'cerberus', 'lilith', 'dragon', 'typhon', 'samael', 'atlas',
   // Easy, Tanah Ganjil (28 Nov 2026)
+  'satyr', 'blemmye', 'panotti', 'silvana', 'leonis', 'cornutus', 'sirena', 'cacodaemon', 'raia', 'marinus', 'cracovia', 'tetrachiron', 'triceps', 'buer', 'septiceps', 'asmodeus',
 const RANKS = new Set(['prajurit', 'ksatria', 'jenderal', 'marsekal'])
 const STATS = ['hex', 'spr', 'vit', 'agi', 'umb']
 const ALTARS = new Set(['pembuka', 'simpang', 'tebing', 'rawa', 'danau', 'kuil', 'bara'])
