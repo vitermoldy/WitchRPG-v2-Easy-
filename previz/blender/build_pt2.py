@@ -107,3 +107,4 @@ def board():
     return sc
 
 
+def views(key):
