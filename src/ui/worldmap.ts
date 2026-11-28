@@ -326,6 +326,7 @@ export class WorldMap {
       this.baseTones = ZONES.map((z) => {
         const g = parseInt(z.ground.slice(1), 16)
         const f = parseInt(z.fog.slice(1), 16)
+        // the zone's ground lifted toward its fog colour, so the zones read apart
     const step = (EXTENT * 2) / BASE
     for (let j = 0; j < BASE; j++) {
       for (let i = 0; i < BASE; i++) {
