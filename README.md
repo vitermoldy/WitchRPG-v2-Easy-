@@ -87,6 +87,7 @@ Peta 5.000 x 5.000 m dengan enam zona; hutan dan medan dimuat bertahap di sekita
 
 | Zona | Level | Makhluk |
 | --- | --- | --- |
+| I Hutan Pembuka (selatan) | 1 sampai 3 | Imp, Hellhound, dan di selatan jauh Aziza, Kitsune, Sylph, Banshee |
 
 ### Boss dunia
 
