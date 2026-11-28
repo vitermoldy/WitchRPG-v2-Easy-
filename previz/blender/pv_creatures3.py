@@ -155,3 +155,4 @@ def b_aziza(r):
     h.ell(hc + Vector((0, 0.02, 0.04)), (0.06, 0.065, 0.05), mat="hair")
     for i in range(7):
         a = 2 * math.pi * i / 7
+        h.ell(hc + Vector((math.cos(a) * 0.07, math.sin(a) * 0.06 + 0.01, 0.06)), 0.022, mat="flower" if i % 2 else "flower2", seg=8, rings=5)
