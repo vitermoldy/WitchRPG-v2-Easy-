@@ -214,3 +214,4 @@ def b_banshee(r):
     hp = V(J["hip"])
     tl = r.P("tail", hp, "pelvis")
     tl.tube([hp + Vector((0, 0, 0.2)), hp, hp + Vector((0, 0.05, -0.5)), hp + Vector((0, 0.1, -0.85))], [0.16, 0.22, 0.34, 0.4], mat="cloth", seg=12, n=3, cap=False)
+    for i in range(10):
