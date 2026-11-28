@@ -118,3 +118,5 @@ describe('every creature on its own ground (owner, 28 Nov 2026)', () => {
       expect(zoneAt(camp.c[0], camp.c[1]).key, `kamp ${camp.c}`).toBe(zoneAt(t.c[0], t.c[1]).key)
       expect(territoryAt(camp.c[0], camp.c[1])?.key, `kamp ${camp.c}`).toBe(t.key)
     }
+  })
+
