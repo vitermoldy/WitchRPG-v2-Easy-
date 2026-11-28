@@ -23,3 +23,4 @@ export interface Territory {
   /** Elites in its last camp (the edge of the ground, PROMPT: "kamp elit ada di tepi zona"). */
   elites?: number
   /** One creature alone, standing again after CAMP.bossRespawn. */
+  boss?: boolean
