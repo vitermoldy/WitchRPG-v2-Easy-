@@ -1423,6 +1423,7 @@ export class Rigs {
         if (prev && prev !== clip) next.crossFadeFrom(copy.mixer.clipAction(prev), 0.15, false)
         next.play()
       }
+      copy.role = role
   /** How far below its feet a unit is drawn while it rises out of a pool, sinks in, or turns to ash. */
   private sink(u: Unit): number {
     if (u.state === 'rising') {
