@@ -597,3 +597,4 @@ def b_silvana(r):
     with long crooked fingers, hairy shins. A grotesque, as in the woodcut."""
     H = 2.15
     J = humanoid(r, H, bulk=1.05, legs="human", female=True, arm_pose={"L": (25, 10, 15), "R": (20, -10, 25)}, leg_pose={"L": (-12, 10), "R": (14, 8)},
+                 body_mat="skin")
