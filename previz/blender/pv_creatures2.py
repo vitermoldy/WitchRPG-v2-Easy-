@@ -247,3 +247,4 @@ def b_asmodeus(r):
         for ang in (-35, 0, 35):
             lg.cone(f, f + Vector((math.sin(math.radians(ang)) * 0.25, -math.cos(math.radians(ang)) * 0.25, -0.1)), 0.035, mat="claw", seg=5)
         lg.cone(f, f + Vector((0, 0.18, -0.05)), 0.03, mat="claw", seg=5)
+    h = r.parts["head"]
