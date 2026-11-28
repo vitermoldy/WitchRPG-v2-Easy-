@@ -243,3 +243,4 @@ Gambar-gambar ini karya seniman atau studio modern (lukisan digital, poster kaos
 | Kepala iblis tanduk domba | `images (6).jpg`, kanan (hanya kepala yang terlihat) | a monstrous head and neck with huge curled ram horns, a bony skull-like face, a yellow eye, rows of jagged fangs and white bristly fur |
 | Manusia elang | `images (4).jpg`, kiri atas | an eagle-headed warrior: a muscular armored humanoid with a white-feathered eagle head, gold-trimmed armor and a flowing cape |
 | Putri duyung | `images (4).jpg`, kiri bawah | a mermaid with long dark hair covering her chest, pale skin and a dark scaly fish tail, sitting on a rock |
+| Centaur pemanah | `z0jfasz4aizd1.jpeg` | a centaur archer: an old man with long white hair and beard, a muscular torso with leather straps and gold armbands, drawing a bow, on a brown horse body with a pale tail |
