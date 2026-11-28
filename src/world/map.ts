@@ -313,6 +313,7 @@ export function zoneWeights(x: number, y: number, out: Float32Array<ArrayBufferL
   }
   let sum = 0
   for (let i = 0; i < ZONES.length; i++) {
+    out[i] = Math.exp(-3 * (out[i] - near))
     sum += out[i]
   }
   for (let i = 0; i < ZONES.length; i++) out[i] /= Math.max(sum, 1e-9)
