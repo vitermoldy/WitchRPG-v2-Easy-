@@ -11,3 +11,4 @@ import { heightMap, inClearing, inWaterRect, LAGOON, LAKE, LANDMARKS, MERE, path
 export interface Territory {
   key: string
   name: string
+  kind: V2Kind
