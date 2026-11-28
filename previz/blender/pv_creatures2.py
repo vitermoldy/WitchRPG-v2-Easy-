@@ -164,3 +164,4 @@ def b_septiceps(r):
         h.cone(nose - fwd * 0.02, nose + fwd * 0.05, 0.022 * s, mat="skin", seg=5)
         for k in (-1, 1):
             side = Vector((fwd.y, -fwd.x, 0)) * 0.045 * k
+            h.ell(hc + fwd * 0.08 * s + side * s + Vector((0, 0, 0.025 * s)), (0.016 * s, 0.01 * s, 0.012 * s), mat="eye", seg=8, rings=5)
