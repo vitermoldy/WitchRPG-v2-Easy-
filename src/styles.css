@@ -1842,6 +1842,8 @@ dialog::backdrop {
   gap: 0.4rem;
 }
 
+}
+
 .map-side {
   display: flex;
   flex-direction: column;
