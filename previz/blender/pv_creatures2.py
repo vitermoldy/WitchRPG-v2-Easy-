@@ -80,3 +80,4 @@ def back_wing(r, name, root, s, kind, span, chord, **kw):
     w = r.P(name, root, "torso")
     if kind == "bat":
         bat_wing(w, root, s, span, chord, **kw)
+    else:
