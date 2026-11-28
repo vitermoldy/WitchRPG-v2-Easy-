@@ -3,7 +3,7 @@ import { CAMP, ELITE, MOVE, UNITS, type V2Kind } from '../game/balance'
 import type { Game } from '../engine/game'
 import { COLOR } from '../engine/palette'
 import type { Unit } from '../engine/units'
-import { heightMap, toWorld } from './map'
+import { heightMap, inClearing, inWaterRect, LAKE, LANDMARKS, PLAY_HALF, SPOTS, toWorld, WATER_LEVEL, zoneAt } from './map'
 
 export interface CampDef {
   /** Map point (x east, y north). */
