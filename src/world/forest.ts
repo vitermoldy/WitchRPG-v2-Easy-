@@ -36,6 +36,8 @@ const MIX: Record<string, [Partial<Record<Kind, number>>, number]> = {
 }
 
 /** The densest tree mix anywhere (the mountain ring grows 1.1). */
+const MAX_DENSITY = Math.max(1.1, ...Object.values(MIX).map(([, d]) => d))
+
 // ------------------------------------------------------------ geometry
 
 const C = (h: string) => new THREE.Color(h)
