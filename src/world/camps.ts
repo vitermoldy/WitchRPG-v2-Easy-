@@ -37,6 +37,7 @@ export const CAMP_DEFS: CampDef[] = TERRITORIES.flatMap((t) => {
       pack: { [t.kind]: t.pack },
       levels: [level, level],
       elites: last && t.elites ? t.elites : undefined,
+      boss: t.boss,
 
 export interface Camp {
   def: CampDef
