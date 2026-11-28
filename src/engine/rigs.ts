@@ -874,6 +874,7 @@ const poseBuer: PoseFn = (p, u, t) => {
     }
     return
   }
+  if (u.state === 'strike') {
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   griffin: poseBeast,
   hippogriff: poseBeast,
