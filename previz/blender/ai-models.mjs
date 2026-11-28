@@ -31,3 +31,4 @@ let failed = false
 for (const m of present) {
   const done = path.join(out, `${m.key}.json`)
   if (fs.existsSync(done) && fs.statSync(done).mtimeMs > fs.statSync(m.src).mtimeMs) continue
+  if (!fs.existsSync(blender)) {
