@@ -50,3 +50,4 @@ export class Landmarks {
           const s = 0.5 + rnd() * 1.1
           stone.push(m4(p.x, p.y + s * 0.3, p.z, s * 1.4, s, s, rnd() * 3, rnd()))
           if (rnd() < 0.5) moss.push(m4(p.x, p.y + s * 0.55, p.z, s * 1.2, s * 0.25, s * 0.9, rnd() * 3))
+        }
