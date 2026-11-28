@@ -195,3 +195,4 @@ def b_sylph(r):
     K2.wild_hair(h, hc, 1.0, n=10, length=0.3, mat="smoke2", up=0.8)
     hp = V(J["hip"])
     tl = r.P("tail", hp, "pelvis")
+    for k in range(3):
