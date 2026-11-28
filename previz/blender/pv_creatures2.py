@@ -721,3 +721,4 @@ COLORS2 = {
                  "membrane": ("#3a2030", "#5a3a48"), "horn": "#d8ccb0", "gold": "#e0b040", "snake": ("#4a6a3a", "#c8c070"), "mouth": "#4a0e0a", "nose": "#2a1c18",
                  "wood": "#3a2a1c", "metal": "#b8bcc4", "cloth": "#9a1e1e", "claw": "#2a2420", "beakleg": "#d08a30",
                  "scale": ("#c8a050", "#e0c070"), "fire": "#ff9a30", "emissive": {"fire": ("#ff7a1a", 3.0)}},
+    "buer": {"body": ("#c99a50", "#e0c080"), "body2": ("#a8742c", "#d0a050"), "leg": ("#8a7a64", "#a89a82"), "hoof": "#2e2824", "horn": "#efe6d6", "mouth": "#6a1a14", "nose": "#3a2a20"},
