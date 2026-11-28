@@ -167,3 +167,4 @@ def b_septiceps(r):
             h.ell(hc + fwd * 0.08 * s + side * s + Vector((0, 0, 0.025 * s)), (0.016 * s, 0.01 * s, 0.012 * s), mat="eye", seg=8, rings=5)
         if kind == "profile":
             h.ell(hc + Vector((0, 0.04, 0.08)), (0.15, 0.15, 0.12), mat="hair")
+            beard(h, hc + fwd * 0.08 + Vector((0, 0, -0.12)), 0.2, 0.07)
