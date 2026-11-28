@@ -25,3 +25,4 @@ def b_silenus(r):
     beard(h, hc + Vector((0, -0.09, -0.09)), 0.22, 0.07)
     K2.goat_horns(h, hc, s * 1.1, length=0.8)
     for side, a, b in (("L", V(J["hip"]) + Vector((J["hw"], 0, 0)), J["knee_L"]), ("R", V(J["hip"]) + Vector((-J["hw"], 0, 0)), J["knee_R"])):
+        K2.fur_on(r.parts["thigh_" + side], a, b, 10, 0.09)
