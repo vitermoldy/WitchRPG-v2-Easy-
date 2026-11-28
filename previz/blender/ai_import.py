@@ -62,3 +62,6 @@ def tris():
             me.calc_loop_triangles()
             n += len(me.loop_triangles)
             ob.evaluated_get(deps).to_mesh_clear()
+    return n
+
+
