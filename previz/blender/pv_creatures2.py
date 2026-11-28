@@ -328,3 +328,4 @@ def b_cacodaemon(r):
                  neck_scale=1.3, body_mat="body", leg_mat="body", foot_mat="claw")
     h = r.parts["head"]
     hc = V(J["head_c"]) + Vector((0, -0.02, 0.0))
+    dog_head(h, hc, fwd=(0, -1, 0.05), s=1.05, jaw_open=22, ears=True, teeth=True, mat="body")
