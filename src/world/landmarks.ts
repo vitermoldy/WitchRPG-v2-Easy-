@@ -76,3 +76,4 @@ export class Landmarks {
         }
       } else {
         // giant mushrooms that glow faintly from under their caps
+        const colours = ['#7ae8d8', '#c88aff', '#ffb070'].map((h) => new THREE.Color(h))
