@@ -58,3 +58,4 @@ fs.writeFileSync(path.join(out, 'manifest.json'), JSON.stringify(manifest, null,
 for (const f of fs.readdirSync(out)) {
   const key = f.replace(/(_lod)?\.(glb|json)$/, '')
   if (f !== 'manifest.json' && !manifest[key]) fs.rmSync(path.join(out, f))
+}
