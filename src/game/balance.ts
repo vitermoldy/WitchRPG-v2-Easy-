@@ -1432,6 +1432,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
       { name: 'gigit', strike: 'ring', windup: 0.45, recover: 0.7, range: 2.6, ring: 1.5, lungeSpeed: 6, lungeTime: 0.25 },
     ],
   },
+  // Sylph: a spirit of smoke and wind that floats above the grass; blows a gust onto a circle from afar.
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
