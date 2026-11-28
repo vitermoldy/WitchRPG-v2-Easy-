@@ -1838,6 +1838,7 @@ dialog::backdrop {
   position: absolute;
   top: 0.6rem;
   left: 0.6rem;
+  display: flex;
 }
 
 .map-side {
