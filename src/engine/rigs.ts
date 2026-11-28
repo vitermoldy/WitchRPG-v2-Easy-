@@ -1231,6 +1231,7 @@ class Rig implements Poser {
 }
 
 /** An animated GLB: the model and its clips by role (idle, walk, attack, hit, die; missing ones fall back to idle). */
+export interface SkinSource {
 interface CrowdBatch {
   parts: { geometry: THREE.BufferGeometry; material: THREE.Material; mesh: THREE.InstancedMesh }[]
   cap: number
