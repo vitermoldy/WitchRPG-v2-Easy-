@@ -292,6 +292,7 @@ export const WATER_RECTS: [number, number, number, number][] = [
 
 export function inWaterRect(x: number, y: number) {
   for (const r of WATER_RECTS) if (x > r[0] && x < r[2] && y > r[1] && y < r[3]) return true
+  return false
 }
 
 // ------------------------------------------------------------ zones, paths
