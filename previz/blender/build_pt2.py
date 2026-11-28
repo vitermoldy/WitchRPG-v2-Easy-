@@ -46,3 +46,4 @@ for ob in list(bpy.data.objects):
     bpy.data.objects.remove(ob)
 lib = bpy.context.scene
 root = C.collection("Makhluk2", lib.collection)
+colls, stats = {}, {}
