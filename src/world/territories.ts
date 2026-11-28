@@ -231,3 +231,4 @@ export function campSpots(t: Territory): [number, number][] {
       if (campGround(t, x, y) && out.every(([ox, oy]) => Math.hypot(ox - x, oy - y) > 30)) spot = [x, y]
     }
     if (spot) out.push(spot)
+  }
