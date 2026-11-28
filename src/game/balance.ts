@@ -1826,6 +1826,7 @@ export const COMBAT = {
  * owner asked for every 45 seconds. The Hydra uses the same.
  */
 /**
+ * pack: each camp spawns this many times the creatures it lists (1.5 until 28 Nov 2026, then 2, owner: more
 
 /** v2 open world: falling, and getting up again. */
 export const REVIVE = {
