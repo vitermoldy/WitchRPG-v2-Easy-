@@ -113,3 +113,4 @@ def b_aries(r):
         K2.fur_on(r.parts["thigh_" + side], a, b, 8, 0.12)
 
 
+def b_manticore(r):
