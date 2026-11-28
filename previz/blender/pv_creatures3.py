@@ -132,3 +132,4 @@ def b_manticore(r):
     dragon_head(tl, V(pts[-1]) + Vector((0, -0.15, 0)), fwd=(0, -1, -0.3), s=0.55, jaw_open=35, horns=True, mat="scale")
 
 
+def b_blackdragon(r):
