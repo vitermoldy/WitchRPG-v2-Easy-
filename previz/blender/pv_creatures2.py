@@ -52,3 +52,4 @@ def lion_face(part, at, fwd=(0, -1, 0), s=1.0, mat="body", mane_mat="body2", man
     ears, and a ring of mane (mane scales its length; 0 for none)."""
     a, F = V(at), Vector(fwd).normalized()
     side = F.cross(UP).normalized()
+    part.ell(a, (0.2 * s, 0.19 * s, 0.2 * s), mat=mat)
