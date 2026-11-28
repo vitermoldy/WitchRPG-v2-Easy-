@@ -23,6 +23,7 @@ from mathutils import Vector, noise  # noqa: E402
 import pv_common as C  # noqa: E402
 import pv_creatures as K  # noqa: E402
 import pv_creatures2  # noqa: E402,F401  (registers the second batch)
+import pv_creatures3  # noqa: E402,F401  (and the third)
 
 argv = sys.argv[sys.argv.index("--") + 1:] if "--" in sys.argv else []
 LOD = None
