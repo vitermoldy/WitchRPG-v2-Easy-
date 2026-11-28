@@ -21,6 +21,7 @@ export interface Zone {
 }
 
 /**
+ * The layout grew 1.9 times on 28 Nov 2026 (owner: a 5,000 m map, the zones made bigger in the same
 export const ZONES: Zone[] = [
   { key: 'pembuka', name: 'Hutan Pembuka', tier: 'I', levels: [1, 3], c: [0, -280], r: 230, fog: '#cddbea', sight: 260, ground: '#2a3322', sky: '#9fb7d4' },
   { key: 'tebing', name: 'Tebing Berangin', tier: 'II', levels: [4, 6], c: [320, -40], r: 190, fog: '#e9c79c', sight: 430, ground: '#5b5141', sky: '#c9b394' },
