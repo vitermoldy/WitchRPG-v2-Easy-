@@ -571,3 +571,4 @@ def b_panotti(r):
     r.parts["pelvis"].tube([V(J["hip"]) + Vector((0, 0, 0.05)), V(J["hip"]) + Vector((0, 0, -0.12))], [J["hw"] * 1.7, J["hw"] * 1.75], mat="cloth", seg=10, n=1)
 
 
+def b_blemmye(r):
