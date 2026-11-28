@@ -17,6 +17,7 @@ export interface CampDef {
   boss?: boolean
   /** Key of the territory it belongs to (for a roaming pack: the nearest ground it takes its kind from). */
   territory?: string
+  /** A pack roaming the open ground between the grounds: no stone ring, drifts about while calm. */
 }
 
 /**
