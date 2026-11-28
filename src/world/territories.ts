@@ -235,3 +235,4 @@ export function campSpots(t: Territory): [number, number][] {
   return out
 }
 
+/** The territory that holds a map point, if any. */
