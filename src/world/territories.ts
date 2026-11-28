@@ -152,3 +152,4 @@ function place(): Territory[] {
     out.push({ ...rest, c: spot, wave })
   }
   // back in the order of the plan (zones, then kinds), for the map and the tests
+  return PLANS.map((p) => out.find((t) => t.key === p.key)!)
