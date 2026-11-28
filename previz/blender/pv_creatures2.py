@@ -364,3 +364,4 @@ def b_cornutus(r):
     h.ell(hc + Vector((0, -0.12, -0.05)), (0.06, 0.02, 0.012), mat="mouth")
     for k in (-1, 1):
         h.ell(hc + Vector((0.045 * k, -0.11, 0.03)), (0.022, 0.014, 0.016), mat="eye", seg=8, rings=5)
+        h.ell(hc + Vector((0.1 * k, 0.0, 0.11)), (0.04, 0.02, 0.04), mat="skin", seg=8, rings=5)
