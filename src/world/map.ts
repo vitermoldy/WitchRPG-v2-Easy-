@@ -95,6 +95,7 @@ export const SPOTS = {
   // in front of the temple, at its old distance from the court
   minotaur: [TEMPLE[0], TEMPLE[1] - 36] as [number, number],
   // on the lake shore, as far from the water as before
+  hydra: [LAKE.c[0] + 0.673 * 100, LAKE.c[1] - 0.74 * 100] as [number, number],
 }
 export const PATHS: [number, number][][] = [
   [[-10, -395], [-25, -330], [0, -230], [20, -120], [30, 0], [45, 120], [40, 250]],
