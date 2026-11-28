@@ -47,3 +47,5 @@ extra limbs, missing limbs, extra heads, extra fingers, changed pose, different 
 
 Ukiran kayu aslinya tidak berwarna, jadi gaya B dan D membuat AI memilih warna sendiri. Kalau ingin warna tertentu, tulis langsung di akhir subject, misalnya `greenish-grey scales, amber eyes`.
 
+## Bagian 1: Monster pt2 (ukiran kayu kuno)
+
