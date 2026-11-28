@@ -998,6 +998,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
       { name: 'tusukan', strike: 'line', windup: 0.6, recover: 1, range: 9, minRange: 3, lungeSpeed: 16, lungeTime: 0.45, cooldown: 4 },
       { name: 'auman', strike: 'ring', windup: 1, recover: 1, range: 3.8, ring: 4, damage: 0.9, cooldown: 8 },
     ],
+  },
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
