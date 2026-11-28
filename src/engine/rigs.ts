@@ -1479,6 +1479,7 @@ export class Rigs {
       else this.rig(u.kind, u.team, wearsVariant(u) && !this.whole.has(u.kind))?.add(u, t, glow, this.sink(u))
     }
     for (const r of this.rigs.values()) r.end()
+    // skinned copies of units no longer drawn in detail (gone, or joined the crowd) are let go
 
     for (const b of this.crowd.values()) b.used = 0
     for (const [kind, n] of counts) this.batch(kind, n)
