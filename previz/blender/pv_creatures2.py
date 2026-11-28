@@ -432,3 +432,4 @@ def b_tetrachiron(r):
     J = humanoid(r, H, bulk=1.05, legs="hoof", arm_pose={"L": (100, 5, 10), "R": (100, 5, 10)}, leg_pose={"L": (6, 20), "R": (-4, 18)},
                  body_mat="skin", leg_mat="feather", shin_mat="leg", foot_mat="hoof")
     for side, s in (("L", 1), ("R", -1)):
+        W2, d2 = extra_arm(r, J, side, s, 0.3, (80, 5, 10), H, 1.0)
