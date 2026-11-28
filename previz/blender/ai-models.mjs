@@ -15,3 +15,4 @@ const out = path.join(root, 'public', 'models', 'ai')
 const table = JSON.parse(fs.readFileSync(path.join(here, 'ai-models.json'), 'utf8'))
 const blender = process.env.BLENDER || 'C:/Program Files/Blender Foundation/Blender 5.1/blender.exe'
 const quiet = process.argv.includes('--quiet')
+// --src key=path imports one file from elsewhere (for testing the pipeline)
