@@ -106,6 +106,7 @@ export class WorldMap {
       drag = { x: e.clientX, y: e.clientY }
       this.clampView()
       this.draw()
+    })
     $('map-sort').addEventListener('change', () => this.renderMonsters())
     $('map-all').addEventListener('click', () => {
       for (const m of this.monsters()) this.chosen.add(m.kind)
