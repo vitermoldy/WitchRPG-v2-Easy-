@@ -834,6 +834,7 @@ const poseWinged: PoseFn = (p, u, t) => {
 
 /** Raia: a ray that flies; the fins ripple, the whip tail sways, it noses down to dive. */
 const poseRaia: PoseFn = (p, u, t) => {
+  if (common(p, u, t, ['wing_L', 'wing_R', 'tail'])) return
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   griffin: poseBeast,
   hippogriff: poseBeast,
