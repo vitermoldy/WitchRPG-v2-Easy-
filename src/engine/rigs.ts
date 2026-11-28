@@ -821,6 +821,7 @@ const poseWinged: PoseFn = (p, u, t) => {
     return
   }
   const s = Math.sin(u.walk * 1.4)
+  const amp = Math.min(1, Math.hypot(u.vel.x, u.vel.z) / Math.max(1, u.speed * 0.35))
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   griffin: poseBeast,
   hippogriff: poseBeast,
