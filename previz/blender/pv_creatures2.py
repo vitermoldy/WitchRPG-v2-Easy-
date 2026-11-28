@@ -36,3 +36,6 @@ def pointed_ears(part, hc, s, mat="skin", length=0.16):
 def claws(part, W, d, n=3, length=0.12, r=0.007, spread=0.025):
     for i in range(n):
         a = (i - (n - 1) / 2) * spread
+        part.cone(W + d * 0.05 + Vector((a, 0, 0)), W + d * (0.05 + length) + Vector((a * 1.5, -0.02, 0)), r, mat="claw", seg=4)
+
+
