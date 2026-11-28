@@ -30,3 +30,4 @@
   },
   "monster_cacodaemon.glb": {
     "key": "cacodaemon",
+    "rig": "tool"
