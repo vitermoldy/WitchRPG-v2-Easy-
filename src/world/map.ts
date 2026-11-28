@@ -8,6 +8,7 @@ export interface Zone {
   tier: string
   levels: [number, number]
   c: [number, number]
+  /** North-south radius; `rx` (east-west) makes the zone an ellipse. */
   r: number
   /** Fog colour and how far one can see in it (metres to about 4% visibility). */
   fog: string
