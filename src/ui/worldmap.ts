@@ -177,6 +177,8 @@ export class WorldMap {
     const half = EXTENT - EXTENT / this.zoom
     this.cx = Math.min(half, Math.max(-half, this.cx))
     this.cy = Math.min(half, Math.max(-half, this.cy))
+  }
+
   open() {
     if (!this.dlg.open) this.dlg.showModal()
     this.renderBosses()
