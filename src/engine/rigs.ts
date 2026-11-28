@@ -1342,6 +1342,7 @@ export class Rigs {
   prepare(kinds: UnitKind[]) {
     for (const k of kinds) {
       this.rig(k, 'enemy')
+      if (VARIANTS[k]) this.rig(k, 'enemy', true)
       this.rig(k, 'shadow')
       this.batch(k, 1)
     }
