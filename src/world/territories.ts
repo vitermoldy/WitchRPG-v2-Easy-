@@ -139,3 +139,4 @@ function place(): Territory[] {
     const z = ZONES.find((zz) => zz.key === zone)!
     let spot: [number, number] | null = at ?? null
     const span = (z.rx ?? z.r) * 2.2
+    // a crowded zone: the ground shrinks a tenth at a time until it fits
