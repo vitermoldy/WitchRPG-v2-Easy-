@@ -111,3 +111,4 @@ export class Landmarks {
     list.forEach((e, i) => {
       mesh.setMatrixAt(i, e.m)
       mesh.setColorAt(i, e.c)
+    })
