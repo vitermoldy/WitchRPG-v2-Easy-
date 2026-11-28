@@ -145,3 +145,5 @@ Turn the attached antique woodcut into a 3D render of the same creature. Keep it
 
 ### 11. Blemmyae (manusia tanpa kepala)
 
+File: `Screenshot 2026-11-28 114414.png`.
+
