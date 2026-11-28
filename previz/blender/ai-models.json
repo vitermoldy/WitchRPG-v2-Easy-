@@ -54,3 +54,4 @@
   },
   "monster_dragon_hitam.glb": {
     "key": "blackdragon",
+    "rig": "tool"
