@@ -139,3 +139,4 @@ describe('every creature on its own ground (owner, 28 Nov 2026)', () => {
 
   it('puts the second batch in Tanah Ganjil, in its level band, with Septiceps and Asmodeus as its bosses', () => {
     const batch = ['satyr', 'blemmye', 'panotti', 'silvana', 'leonis', 'cornutus', 'sirena', 'cacodaemon', 'raia', 'marinus', 'cracovia', 'tetrachiron', 'triceps', 'buer']
+    for (const kind of batch) {
