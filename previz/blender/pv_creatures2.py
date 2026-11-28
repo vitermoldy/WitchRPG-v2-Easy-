@@ -341,3 +341,4 @@ def b_cacodaemon(r):
             w.ell(p, (0.05, 0.02, 0.07), mat="accent", seg=6, rings=4)
         fur_on(r.parts["thigh_" + side], V(J["hip"]) + Vector((J["hw"] * s, 0, 0)), J["knee_" + side], 8, 0.06, mat="body2")
     t = r.parts["torso"]
+    t.ell(V(J["chest"]) + Vector((0, -0.05, -0.1)), (0.13, 0.08, 0.18), mat="body2")
