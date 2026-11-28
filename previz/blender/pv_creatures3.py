@@ -232,3 +232,4 @@ COLORS3 = {
                 "cloth": "#8a1e22", "metal": "#c8ccd4", "wood": "#4a3424", "horn": "#e0b040"},
     "duyung": {"skin": "#ecd4c4", "hair": "#1e1614", "scale": ("#1e3a4a", "#5a8a8a"), "fin": "#2a6a6a"},
     "aries": {"skin": ("#5a3a34", "#3e2a26"), "bone": ("#e8e0cc", "#c8bea8"), "horn": "#3a3028", "bristle": "#f0ece4", "fur": ("#3a2a22", "#5a4436"), "hoof": "#1a1612"},
+    "manticore": {"body": ("#b07a40", "#d8a868"), "body2": "#7a3a1e", "membrane": ("#3a2a22", "#5a4436"), "accent": "#1e1612", "scale": ("#4a5a3a", "#9aa070"),
