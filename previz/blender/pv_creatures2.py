@@ -417,3 +417,4 @@ def b_sirena(r):
     A = V(pts[-1])
     foot = r.P("shin_L", A, "thigh_L")
     foot.limb(A, Vector((A.x, A.y - 0.02, 0.06)), 0.045, 0.035, mat="claw2")
+    for a in (-30, 0, 30):
