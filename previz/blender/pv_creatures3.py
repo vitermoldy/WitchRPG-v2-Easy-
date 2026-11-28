@@ -3,3 +3,5 @@ The owner makes the real models with an image-to-3D tool; until a GLB arrives th
 Importing this module registers them with pv_creatures, like pv_creatures2."""
 import math
 
+from mathutils import Vector
+
