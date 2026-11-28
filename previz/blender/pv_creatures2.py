@@ -239,3 +239,4 @@ def b_asmodeus(r):
     # his own legs astride the beast, ending in rooster claws
     hpr = V(J["hip"])
     for s, side in SIDES:
+        lg = r.P("rider_leg_" + side, hpr + Vector((0.25 * s, 0, 0)), "pelvis")
