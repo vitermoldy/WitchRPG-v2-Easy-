@@ -318,4 +318,6 @@ export class Camps {
   get cleared() {
     return this.camps.filter((c) => c.state === 'cleared' && !c.def.roam).length
   }
+
+  }
 }
