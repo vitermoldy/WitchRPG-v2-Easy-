@@ -239,3 +239,4 @@ export function campSpots(t: Territory): [number, number][] {
 export function territoryAt(x: number, y: number): Territory | null {
   for (const t of TERRITORIES) if (inside(t, x, y)) return t
   return null
+}
