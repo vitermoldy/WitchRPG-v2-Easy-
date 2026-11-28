@@ -117,3 +117,4 @@ def fur_on(part, a, b, n, r, mat="fur", out=0.6):
         t = (i + 0.5) / n
         ang = i * 2.39996
         rv = side * math.cos(ang) + fwd * math.sin(ang)
+        base = a.lerp(b, t) + rv * r * 0.8
