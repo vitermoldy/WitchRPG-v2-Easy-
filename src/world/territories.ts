@@ -126,3 +126,4 @@ const WATERS = [LAGOON, MERE]
 
 /** Places every territory: landmarks first, then the big grounds of each zone, then the boss arenas. */
 function place(): Territory[] {
+  const out: Territory[] = []
