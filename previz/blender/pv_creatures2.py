@@ -768,3 +768,4 @@ ROSTER2 = [
 
 # registered with the first roster, so K.build() and the GLB export know these keys
 K.COLORS.update(COLORS2)
+for _row in ROSTER2:
