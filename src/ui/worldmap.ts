@@ -472,6 +472,7 @@ export class WorldMap {
       ctx.stroke()
       ctx.setLineDash([])
       ctx.globalAlpha = 1
+      label(t.name, x, y, 0, col, true)
     // altars: teal diamonds, filled once lit
     const r = Math.max(4, size / 110)
     for (const a of ALTARS) {
