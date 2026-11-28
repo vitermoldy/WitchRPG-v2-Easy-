@@ -117,3 +117,4 @@ File: `Screenshot 2026-11-28 114323.png`, dua figur bawah. Buat satu per satu su
 
 Satir gemuk (kiri):
 
+```text
