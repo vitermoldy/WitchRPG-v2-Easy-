@@ -1301,6 +1301,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     stun: 40,
   },
   // Duyung: the mermaid of the mere in Rawa Berkabut; sings along a line from afar and dives when hurt.
+  duyung: {
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
