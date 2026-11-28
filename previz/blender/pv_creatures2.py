@@ -318,3 +318,4 @@ def b_buer(r):
         leg.limb(k2, c + d * (R + 0.07) + side, 0.07, 0.085, mat="hoof", joints=False)
 
 
+def b_cacodaemon(r):
