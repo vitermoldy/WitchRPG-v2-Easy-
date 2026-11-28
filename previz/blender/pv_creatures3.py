@@ -106,3 +106,4 @@ def b_aries(r):
         h.cone(hc + Vector((-0.05 + 0.025 * i, -0.3, -0.13)), hc + Vector((-0.05 + 0.025 * i, -0.31, -0.2)), 0.012, mat="horn", seg=4)
     for k in (1, -1):
         pts = [hc + Vector((0.12 * k, 0.04, 0.1)) + Vector((0.3 * k * math.cos(t), 0.28 * math.sin(t), 0.2 * math.sin(t) - 0.06 * t)) for t in [i * 0.85 for i in range(9)]]
+        h.tube(pts, [0.09 - 0.009 * i for i in range(9)], mat="horn", seg=7, n=2)
