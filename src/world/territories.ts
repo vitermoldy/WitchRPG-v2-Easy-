@@ -13,3 +13,4 @@ export interface Territory {
   name: string
   kind: V2Kind
   c: [number, number]
+  /** Mean radius; the outline wanders between about 0.66 and 1.34 of it (see `reach`). */
