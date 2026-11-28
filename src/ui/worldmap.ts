@@ -332,6 +332,7 @@ export class WorldMap {
       })
     }
     const tones = this.baseTones
+    const w = this.baseW
     const step = (EXTENT * 2) / BASE
     for (let j = 0; j < BASE; j++) {
       for (let i = 0; i < BASE; i++) {
