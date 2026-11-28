@@ -1238,6 +1238,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
       { name: 'terjangan singa-naga', strike: 'line', windup: 1, recover: 1.5, range: 18, minRange: 6, lungeSpeed: 18, lungeTime: 0.8, damage: 1.3, cooldown: 6 },
     ],
   },
+  // Easy, the third batch (owner, 28 Nov 2026: the prompt sheet). Placed by the theme of each zone.
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
