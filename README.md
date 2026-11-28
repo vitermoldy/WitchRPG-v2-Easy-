@@ -18,6 +18,8 @@ Game ini dibangun per fase menurut [PROMPT.md](./PROMPT.md). Keputusan desain ad
 
 Setelah fase 6, atas permintaan pemilik: terbang, pandangan orang pertama, peta, seluruh roster makhluk (enam boss dunia, Griffin, Hippogriff, dan satwa), kamp dan kawanan yang lebih banyak, dan boss yang bangkit lagi setiap 45 detik.
 
+Khusus versi Easy (28 Nov 2026): peta 5.000 x 5.000 m, zona keenam Tanah Ganjil dengan makhluk dari ukiran bestiari kuno (`assets/Monster pt2`), tujuh makhluk baru dari prompt pemilik, setiap jenis monster di daerahnya sendiri yang tersebar acak, varian warna untuk elite, dan jalur impor model GLB dari tool image-to-3D milik pemilik.
+
 ## Menjalankan
 
 Butuh Node 22 atau lebih baru dan browser dengan WebGL 2.
