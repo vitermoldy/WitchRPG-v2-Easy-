@@ -72,3 +72,6 @@ def lion_face(part, at, fwd=(0, -1, 0), s=1.0, mat="body", mane_mat="body2", man
             d = side * math.cos(ang) + UP * math.sin(ang)
             base = a - F * 0.04 * s + d * 0.16 * s
             part.cone(base, base + (d * 0.3 - F * 0.12) * s * mane * (0.8 + 0.3 * math.sin(i * 2.1) ** 2), 0.08 * s, mat=mane_mat, seg=5)
+        part.ell(a - F * 0.12 * s, (0.27 * s, 0.2 * s, 0.28 * s), mat=mane_mat, seg=10, rings=7)
+
+
