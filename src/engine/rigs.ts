@@ -1234,6 +1234,8 @@ class Rig implements Poser {
 export interface SkinSource {
   scene: THREE.Group
   clips: Partial<Record<SkinRole, THREE.AnimationClip>>
+}
+
 interface CrowdBatch {
   parts: { geometry: THREE.BufferGeometry; material: THREE.Material; mesh: THREE.InstancedMesh }[]
   cap: number
