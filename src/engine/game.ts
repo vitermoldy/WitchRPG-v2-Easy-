@@ -432,6 +432,7 @@ export class Game implements UnitHost {
     const ai: Record<string, { animated: boolean }> = await fetch('./models/ai/manifest.json')
       .then((r) => (r.ok ? r.json() : {}))
       .catch(() => ({}))
+    const dir = (k: string) => (ai[k] ? './models/ai/' : './models/')
     ])
     this.ilyra = new IlyraModel(ilyra)
     // in first person her body is hidden from the view but still casts its shadow
