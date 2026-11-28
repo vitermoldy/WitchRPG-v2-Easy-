@@ -368,3 +368,4 @@ Pemeriksaan: tes 126 dari 126 lulus (tes baru: selatan, tempat dan altarnya, pen
 
 ### Elite dan varian acak (28 Nov 2026)
 
+Permintaan pemilik: "elite naikkan lagi, varian tampilkan acak saja". Elite kini HP 3,2 kali (dulu 2,4) dan XP 4 kali (dulu 3); kerusakan 1,25 kali dan ukuran 1,2 kali tetap. Angkanya usulan saya, karena pemilik tidak menyebut angka. Varian makhluk yang tidak pernah elite muncul acak pada sekitar 1 dari 4, dipilih dari id makhluk: Pegasus pink bersurai hijau toska, Cerberus biru gelap dengan mulut menyala biru muda, Chimera bersurai merah dengan ular hijau. Harpy, Griffin, dan Hellhound tetap memakai variannya hanya saat elite. Diperiksa di game: dari 6 makhluk, 2 Pegasus, 2 Cerberus, dan 1 Chimera bervarian; elite Imp HP 54 menjadi 172,8. Tes 126 dari 126, build bersih.
