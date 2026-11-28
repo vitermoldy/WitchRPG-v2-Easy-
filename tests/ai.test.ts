@@ -23,3 +23,4 @@ describe('models from the image-to-3D tool (owner, 28 Nov 2026)', () => {
   })
 
   it('sorts clips into roles by the names tools give them, and falls back to idle', () => {
+    const clip = (name: string) => new THREE.AnimationClip(name, 1, [])
