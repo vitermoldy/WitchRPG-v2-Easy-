@@ -58,3 +58,4 @@ describe('the ground, built near her first', () => {
     expect(shown.length).toBeGreaterThan(20)
     const near = shown.some((m) => m.name.endsWith('lod0'))
     expect(near).toBe(true)
+    // nothing shown farther than 1400 m
