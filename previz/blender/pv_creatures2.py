@@ -39,3 +39,4 @@ def claws(part, W, d, n=3, length=0.12, r=0.007, spread=0.025):
         part.cone(W + d * 0.05 + Vector((a, 0, 0)), W + d * (0.05 + length) + Vector((a * 1.5, -0.02, 0)), r, mat="claw", seg=4)
 
 
+def wild_hair(part, hc, s, n=16, length=0.3, mat="hair", up=0.4):
