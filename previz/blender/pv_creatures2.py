@@ -561,3 +561,4 @@ def b_panotti(r):
     s = head_ball(h, hc, H, "skin")
     face(h, hc, H)
     h.ell(hc + Vector((0, 0.02, 0.07)), (0.09, 0.1, 0.06), mat="hair")
+    for sd, side in SIDES:
