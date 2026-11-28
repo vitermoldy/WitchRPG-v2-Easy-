@@ -102,3 +102,4 @@ if not animated and tris() > BUDGET:
     ratio = BUDGET / tris()
     for ob in bpy.context.scene.objects:
         if ob.type == "MESH":
+            m = ob.modifiers.new("budget", "DECIMATE")
