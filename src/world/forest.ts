@@ -332,6 +332,7 @@ export class Forest {
     mesh.sortObjects = false
     mesh.visible = false
     this.mesh.add(mesh)
+    this.tiles.set(key, { mesh, trees: list, x0: ix * TILE, z0: iz * TILE })
   }
 
   /** Hides trees past the fog so the GPU never draws what cannot be seen. */
