@@ -37,3 +37,4 @@ export class Landmarks {
         for (let ring = 0; ring < 9; ring++) {
           const n = 14
           for (let k = 0; k < n; k++) {
+            if (ring > 2 && rnd() < ring / 11) continue
