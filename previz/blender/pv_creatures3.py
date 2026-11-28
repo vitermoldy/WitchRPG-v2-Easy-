@@ -23,3 +23,4 @@ def b_silenus(r):
     s = K2.head_ball(h, hc, H, "skin", k=1.15)
     face(h, hc, H * 1.15)
     beard(h, hc + Vector((0, -0.09, -0.09)), 0.22, 0.07)
+    K2.goat_horns(h, hc, s * 1.1, length=0.8)
