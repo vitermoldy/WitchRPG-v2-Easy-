@@ -235,3 +235,5 @@ COLORS3 = {
     "manticore": {"body": ("#b07a40", "#d8a868"), "body2": "#7a3a1e", "membrane": ("#3a2a22", "#5a4436"), "accent": "#1e1612", "scale": ("#4a5a3a", "#9aa070"),
                   "mouth": "#5a1414", "nose": "#2a1a14", "claw": "#2a2420"},
     "blackdragon": {"body": ("#1c1a1e", "#3a343a"), "membrane": "#2a242c", "accent": "#0e0c10", "horn": "#cfc6b4", "mouth": "#7a1a10"},
+}
+
