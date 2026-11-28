@@ -1074,6 +1074,7 @@ class Rig implements Poser {
             mat.emissive.set(variant![slot])
             mat.emissiveIntensity = 1.6
           }
+        }
         patchGlow(mat)
         mats.set(src, mat)
       }
