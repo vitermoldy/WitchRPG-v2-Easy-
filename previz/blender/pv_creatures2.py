@@ -215,3 +215,4 @@ def b_septiceps(r):
     bk = r.parts["hand_L"]
     c = W + d * 0.2
     bk.poly([c + Vector((0, -0.05, 0)), c + Vector((0.35, -0.15, 0.1)), c + Vector((0.35, -0.15, 0.55)), c + Vector((0, -0.05, 0.45))], mat="page")
+    bk.poly([c + Vector((0, -0.05, 0)), c + Vector((-0.35, -0.15, 0.1)), c + Vector((-0.35, -0.15, 0.55)), c + Vector((0, -0.05, 0.45))], mat="page")
