@@ -67,3 +67,4 @@ def board():
     C.sun(sc, "tepi", (60, 0, 150), "#b6c8ff", energy=2.2).data.use_shadow = False
     cols, cw, ch, head = 4, 9.6, 5.6, 2.0
     rows = math.ceil(len(KEYS) / cols)
+    Wt, Ht = cols * cw, head + rows * ch
