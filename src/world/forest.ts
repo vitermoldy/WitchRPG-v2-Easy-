@@ -349,6 +349,7 @@ export class Forest {
       if (!near) continue
       const list = tile.trees
       for (let i = 0; i < list.length; i++) {
+        const t = list[i]
     }
   }
 }
