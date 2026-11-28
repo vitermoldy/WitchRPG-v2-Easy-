@@ -485,6 +485,7 @@ export class WorldMap {
       ctx.strokeStyle = 'rgba(12, 8, 9, 0.85)'
       ctx.lineWidth = 1.5
       ctx.fillRect(x - q, y - q, q * 2, q * 2)
+      ctx.strokeRect(x - q, y - q, q * 2, q * 2)
     // altars: teal diamonds, filled once lit
     const r = Math.max(4, size / 110)
     for (const a of ALTARS) {
