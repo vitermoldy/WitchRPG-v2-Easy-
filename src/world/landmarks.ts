@@ -63,3 +63,4 @@ export class Landmarks {
           if (k % 3 === 0) stone.push(m4(p.x, p.y + 5.6, p.z, 2.6, 0.7, 1.2, -a + 0.3))
         }
         const c = at(l, 0, 0)
+        stone.push(m4(c.x, c.y + 0.5, c.z, 3.2, 0.8, 2.0))
