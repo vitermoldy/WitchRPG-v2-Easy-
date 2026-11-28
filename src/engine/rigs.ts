@@ -879,6 +879,7 @@ const poseBuer: PoseFn = (p, u, t) => {
     else for (let i = 0; i < 5; i++) p.rot('leg' + i, 30 * Math.sin(u.t * 30 + i * 1.3))
     return
   }
+  if (u.state === 'stagger') {
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   griffin: poseBeast,
   hippogriff: poseBeast,
