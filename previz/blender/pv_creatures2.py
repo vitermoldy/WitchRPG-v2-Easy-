@@ -586,3 +586,4 @@ def b_blemmye(r):
         t.ell(ch + Vector((0.09 * k, -0.225, 0.14)), (0.024, 0.012, 0.024), mat="eye", seg=8, rings=5)
         t.limb(ch + Vector((0.15 * k, -0.2, 0.2)), ch + Vector((0.04 * k, -0.22, 0.2)), 0.018, 0.014, mat="hair")
         t.limb(ch + Vector((0.01 * k, -0.235, -0.04)), ch + Vector((0.11 * k, -0.225, -0.08)), 0.016, 0.006, mat="hair")
+    t.cone(ch + Vector((0, -0.21, 0.08)), ch + Vector((0, -0.27, 0.0)), 0.04, mat="skin", seg=6)
