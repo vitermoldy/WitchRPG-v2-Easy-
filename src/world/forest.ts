@@ -295,6 +295,7 @@ export class Forest {
         if (d < this.loadRange) want.push([d, ix, iz])
       }
     }
+    want.sort((p, q) => p[0] - q[0])
     const ids = {} as Record<Kind, number>
     for (const k of Object.keys(geos) as Kind[]) ids[k] = this.mesh.addGeometry(geos[k])
     const m = new THREE.Matrix4()
