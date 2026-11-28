@@ -73,6 +73,7 @@ export const ROAM_DEFS: CampDef[] = (() => {
       const zone = zoneAt(px, py).key
       let best: (typeof TERRITORIES)[number] | null = null
       let bd = Infinity
+      for (const t of TERRITORIES) {
 
 export interface Camp {
   def: CampDef
