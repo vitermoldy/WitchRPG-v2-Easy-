@@ -125,3 +125,5 @@ Satir kurus peniup suling (kanan):
 
 ```text
 Turn the attached antique woodcut into a 3D render of the same creature. Keep it 100% identical to the reference in pose, camera angle, proportions, anatomy and every detail; add nothing, remove nothing. Subject: a small, lean satyr with a long goat-like face, pointed ears and two small horns, human arms holding a long pipe to its mouth, shaggy goat legs with cloven hooves, standing on uneven ground. Style: stylized 3D, ivory parchment-colored surfaces with black ink cross-hatching engraved into the texture, like an antique woodcut brought to life. Full body, single character, plain light-grey background, soft studio lighting, ultra-detailed, 4K.
+```
+
