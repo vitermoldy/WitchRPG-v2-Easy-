@@ -57,3 +57,4 @@ describe('the ground, built near her first', () => {
     const shown = terrain.group.children.filter((m) => m.visible)
     expect(shown.length).toBeGreaterThan(20)
     const near = shown.some((m) => m.name.endsWith('lod0'))
+    expect(near).toBe(true)
