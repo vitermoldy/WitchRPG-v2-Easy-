@@ -977,6 +977,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
       { name: 'terkam', strike: 'line', windup: 0.65, recover: 1, range: 12, minRange: 4, lungeSpeed: 15, lungeTime: 0.55, cooldown: 5 },
     ],
   },
+  // Leonis: the lion-maned swordsman; cuts under a circle, thrusts along a line, roars around itself.
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
