@@ -81,3 +81,4 @@ export class Landmarks {
           const p = at(l, rnd() * Math.PI * 2, rnd() * l.r * 0.85)
           const H = 3 + rnd() * 6
           const w = 0.35 + H * 0.06
+          stems.push(m4(p.x, p.y + H / 2, p.z, w, H, w))
