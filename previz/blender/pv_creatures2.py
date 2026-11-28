@@ -287,3 +287,4 @@ def b_asmodeus(r):
         bat_wing(t, (0.25 * s, J["back"][1], J["z"]["sh"] - 0.1), s, 3.4, 2.2, raise_deg=36, sweep_deg=24, bone="horn", arm="membrane")
     # the coiled serpent tail
     tl = r.P("tail", Q["tail_base"], "body")
+    tb = V(Q["tail_base"])
