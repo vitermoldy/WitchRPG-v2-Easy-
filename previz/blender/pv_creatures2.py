@@ -162,3 +162,4 @@ def b_septiceps(r):
         fwd = Vector((look * 0.9, -1 + abs(look) * 0.6, 0)).normalized()
         nose = hc + fwd * 0.11 * s
         h.cone(nose - fwd * 0.02, nose + fwd * 0.05, 0.022 * s, mat="skin", seg=5)
+        for k in (-1, 1):
