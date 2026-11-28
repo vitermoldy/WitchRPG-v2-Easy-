@@ -299,3 +299,4 @@ def b_buer(r):
     rolls like a wheel when it moves."""
     R = 1.02
     hub = r.P("hub", (0, 0, R), None)
+    c = Vector((0, 0, R))
