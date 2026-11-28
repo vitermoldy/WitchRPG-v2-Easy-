@@ -143,6 +143,7 @@ export class WorldMap {
       const entry = this.focus ? this.bosses().find((x) => x.kind === this.focus) : null
       if (entry && this.zoom > 1) {
         ;[this.cx, this.cy] = toMap(entry.x, entry.z)
+        this.clampView()
       this.renderBosses()
       this.draw()
     })
