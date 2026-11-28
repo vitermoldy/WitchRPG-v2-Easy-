@@ -177,3 +177,4 @@ def b_septiceps(r):
         else:
             h.ell(hc + Vector((0, 0.06, -0.02)), (0.13, 0.1, 0.06), mat="hair")
     t = r.parts["torso"]
+    hp = V(J["hip"])
