@@ -126,6 +126,8 @@ Setiap fase baru memulihkan 25% HP dan 30 mana. Kemenangan memberi XP besar, mem
 
 ## Model dari tool AI
 
+Pemilik membuat model makhluk Tanah Ganjil dan makhluk baru dengan tool image-to-3D. Nama file dan aturannya ada di [assets/DAFTAR-GLB.md](./assets/DAFTAR-GLB.md): file ditaruh di `assets/`, lalu `npm run models:ai` (juga otomatis sebelum `dev` dan `build`) menyamakan tingginya dengan block-out, meletakkan kakinya di tanah, membuat versi sederhana untuk pasukan bayangan, dan menulis `public/models/ai/manifest.json`. Model beranimasi memutar klip sesuai keadaan makhluk (diam, jalan, serang, kena, mati); model tanpa tulang bergerak sebagai satu badan. Makhluk tanpa file tetap memakai block-out.
+
 ## Struktur
 
 ```
