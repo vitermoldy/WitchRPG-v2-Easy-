@@ -938,6 +938,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   // Panotti: the great ears beat a gust over a wide circle in front of it; it keeps a little away.
   panotti: {
     name: 'Panotti',
+    rank: 'prajurit',
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
