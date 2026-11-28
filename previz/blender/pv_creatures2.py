@@ -197,3 +197,4 @@ def b_septiceps(r):
                 lg.cone(f, tip, 0.06, mat="claw", seg=5)
         else:
             fur_on(lg, a, k, 12, 0.2)
+            for ang in (-25, 0, 25):
