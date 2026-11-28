@@ -30,6 +30,7 @@ const s = (x: number, y: number): [number, number] => [x * SCALE, y * SCALE]
 
 export const ZONES: Zone[] = [
   { key: 'pembuka', name: 'Hutan Pembuka', tier: 'I', levels: [1, 3], c: s(0, -280), r: 230 * SCALE, fog: '#cddbea', sight: 260, ground: '#2a3322', sky: '#9fb7d4' },
+  { key: 'tebing', name: 'Tebing Berangin', tier: 'II', levels: [4, 6], c: s(320, -40), r: 190 * SCALE, fog: '#e9c79c', sight: 430, ground: '#5b5141', sky: '#c9b394' },
 ]
 
 export const LAKE = { c: [-330, 300] as [number, number], r: 95 }
