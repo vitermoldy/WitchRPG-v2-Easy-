@@ -36,3 +36,4 @@ describe('models from the image-to-3D tool (owner, 28 Nov 2026)', () => {
   it('carries the new names: Discordia (five heads) and Ravenna', () => {
     expect(UNITS.septiceps.name).toBe('Discordia')
     expect(UNITS.sirena.name).toBe('Ravenna')
+  })
