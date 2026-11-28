@@ -9,6 +9,7 @@ import { TERRITORIES } from './territories'
  * taking its zone's tree mix and density. Trees and rocks come one tile of 260 m at a time: a tile is
  * scattered, collided and drawn as one BatchedMesh when she comes near, a tile out of sight range is
  * skipped whole, and inside the others every tree is culled on its own. (One BatchedMesh for the whole
+ * forest until the map grew past 1000 m, 28 Nov 2026; on the 5000 m map it is streamed.)
  */
 type Kind = 'pine' | 'pine_tall' | 'pine_warm' | 'birch' | 'swamp' | 'dead' | 'burnt' | 'rock' | 'rock_big'
 
