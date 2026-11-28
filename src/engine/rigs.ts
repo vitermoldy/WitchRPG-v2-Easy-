@@ -36,6 +36,7 @@ export const VARIANTS: Partial<Record<UnitKind, Record<string, string>>> = {
 const RANDOM_VARIANTS = new Set<UnitKind>(['pegasus', 'cerberus', 'chimera'])
 const VARIANT_SHARE = 0.25
 
+/** Whether a creature wears its kind's colour variant: elites of most kinds, one in four of the random kinds. */
 /** Adds a per-instance emissive colour (hit flash, the violet glow of a body that can be raised). */
 function patchGlow(mat: THREE.MeshStandardMaterial) {
   mat.onBeforeCompile = (s) => {
