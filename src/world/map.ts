@@ -38,8 +38,7 @@ export const ZONES: Zone[] = [
   { key: 'ganjil', name: 'Tanah Ganjil', tier: 'VI', levels: [16, 18], c: s(0, 880), r: 280 * SCALE, rx: 900 * SCALE, south: 520 * SCALE, fog: '#a597bd', sight: 240, ground: '#38322a', sky: '#7e6f98' },
 ]
 
-export const LAKE = { c: [-330, 300] as [number, number], r: 95 }
-export const ALTAR: [number, number] = [-10, -395]
+export const LAKE = { c: s(-330, 300), r: 95 }
 /**
  * Altars: heal, the point she rises at after a fall, and fast travel between the ones already lit
  * (like v1's altar). One by the start, one where the paths split, one on each new zone's path.
