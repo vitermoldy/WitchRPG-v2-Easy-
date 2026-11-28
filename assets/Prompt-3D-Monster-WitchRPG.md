@@ -36,3 +36,5 @@ Game-ready 3D model of [SUBJECT], matching the reference image exactly in shape,
 extra limbs, missing limbs, extra heads, extra fingers, changed pose, different camera angle, redesigned anatomy, different colors, captions, floating text labels, watermark, signature, picture frame, background scenery, multiple characters, cropped body, cartoon simplification, blurry, low detail
 ```
 
+**Pilihan gaya untuk `[STYLE]`**
+
