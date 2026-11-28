@@ -144,6 +144,7 @@ export class WorldMap {
       if (entry && this.zoom > 1) {
         ;[this.cx, this.cy] = toMap(entry.x, entry.z)
         this.clampView()
+      }
       this.renderBosses()
       this.draw()
     })
