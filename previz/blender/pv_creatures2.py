@@ -327,3 +327,4 @@ def b_cacodaemon(r):
     J = humanoid(r, H, bulk=0.8, legs="bird", arm_pose={"L": (25, 75, 30), "R": (20, 65, 45)}, leg_pose={"L": (25, 30), "R": (-5, 20)},
                  neck_scale=1.3, body_mat="body", leg_mat="body", foot_mat="claw")
     h = r.parts["head"]
+    hc = V(J["head_c"]) + Vector((0, -0.02, 0.0))
