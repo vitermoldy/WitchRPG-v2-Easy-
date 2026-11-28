@@ -70,3 +70,4 @@ def lion_face(part, at, fwd=(0, -1, 0), s=1.0, mat="body", mane_mat="body2", man
         for i in range(n):
             ang = 2 * math.pi * i / n
             d = side * math.cos(ang) + UP * math.sin(ang)
+            base = a - F * 0.04 * s + d * 0.16 * s
