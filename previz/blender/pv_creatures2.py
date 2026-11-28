@@ -93,3 +93,4 @@ def extra_arm(r, J, side, s, z_off, pose, H, bulk, mat="skin"):
     d2 = _rx(d1, -el)
     E = S + d1 * (0.17 * H)
     W = E + d2 * (0.15 * H)
+    T = W + d2 * (0.08 * H)
