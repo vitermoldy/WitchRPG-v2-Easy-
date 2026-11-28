@@ -225,3 +225,4 @@ export function campSpots(t: Territory): [number, number][] {
     let spot: [number, number] | null = null
     for (let k = 0; k < 60 && !spot; k++) {
       const a = a0 + (k % 12) * 0.52
+      const rr = reach(t, a) * Math.min(0.9, Math.max(0.05, ring + 0.12 * Math.floor(k / 12) * (k % 2 ? -1 : 1)))
