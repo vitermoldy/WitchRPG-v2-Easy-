@@ -91,6 +91,7 @@ export class WorldMap {
         const r = this.canvas.getBoundingClientRect()
         this.zoomBy(e.deltaY < 0 ? 1.25 : 0.8, (e.clientX - r.left) / r.width, (e.clientY - r.top) / r.height)
       },
+      { passive: false },
     $('map-sort').addEventListener('change', () => this.renderMonsters())
     $('map-all').addEventListener('click', () => {
       for (const m of this.monsters()) this.chosen.add(m.kind)
