@@ -264,3 +264,4 @@ def b_asmodeus(r):
     h.torus(c0, 0.15, 0.03, mat="gold", seg=14, rseg=4)
     for i in range(7):
         a = 2 * math.pi * i / 7
+        p0 = c0 + Vector((math.cos(a) * 0.15, math.sin(a) * 0.15, 0))
