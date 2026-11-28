@@ -545,3 +545,4 @@ def b_cracovia(r):
         claws(r.parts["hand_" + side], J["wr_" + side], J["hand_dir_" + side], n=4, length=0.1)
         ft = r.parts["foot_" + side]
         A = V(J["ankle_" + side])
+        ft.poly([Vector((A.x, A.y, 0.03)), Vector((A.x + 0.11, A.y - 0.2, 0.01)), Vector((A.x, A.y - 0.24, 0.01)), Vector((A.x - 0.11, A.y - 0.2, 0.01))], mat="web")
