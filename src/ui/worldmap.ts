@@ -3,6 +3,7 @@ import type { Game } from '../engine/game'
 import { CAMP_DEFS } from '../world/camps'
 import { ALTARS, heightMap, inWaterRect, LANDMARKS, PATHS, PLAY_HALF, toMap, WATER_LEVEL, ZONES, zoneWeights } from '../world/map'
 import { SEALED } from '../world/seal'
+import { reach, TERRITORIES } from '../world/territories'
 
 const $ = <T extends HTMLElement = HTMLElement>(id: string): T => document.getElementById(id) as T
 
