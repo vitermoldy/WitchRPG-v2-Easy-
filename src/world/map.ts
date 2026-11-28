@@ -23,6 +23,7 @@ export interface Zone {
 /**
  * The layout grew 1.9 times on 28 Nov 2026 (owner: a 5,000 m map, the zones made bigger in the same
  * arrangement). Places are written at the size of the 2,600 m map and scaled here; the Hydra's lake
+ * and the temple court keep their size so the fights in them stay as they were.
 export const ZONES: Zone[] = [
   { key: 'pembuka', name: 'Hutan Pembuka', tier: 'I', levels: [1, 3], c: [0, -280], r: 230, fog: '#cddbea', sight: 260, ground: '#2a3322', sky: '#9fb7d4' },
   { key: 'tebing', name: 'Tebing Berangin', tier: 'II', levels: [4, 6], c: [320, -40], r: 190, fog: '#e9c79c', sight: 430, ground: '#5b5141', sky: '#c9b394' },
