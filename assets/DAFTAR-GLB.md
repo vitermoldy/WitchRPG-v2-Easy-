@@ -34,3 +34,4 @@ Ekspor GLB berisi tulang dan lima animasi. Nama animasi cukup mengandung kata in
 Ekspor GLB polos (tanpa rig dan animasi). Sampai saya rig, makhluk ini bergerak sebagai satu badan (bergoyang, condong, menerjang).
 
 | Makhluk | Nama file | Nomor di prompt |
+| --- | --- | --- |
