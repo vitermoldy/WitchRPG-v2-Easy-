@@ -203,3 +203,4 @@ Turn the attached antique engraving into a 3D render of the same creature. Keep 
 
 File: `Screenshot 2026-11-28 114708.png`.
 
+```text
