@@ -1339,6 +1339,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     stun: 110,
     attacks: [
       { name: 'tanduk', strike: 'ring', windup: 0.8, recover: 1, range: 3.4, ring: 2.2, lungeSpeed: 5, lungeTime: 0.3, damage: 1.1 },
+      { name: 'hentakan', strike: 'ring', windup: 1.1, recover: 1.1, range: 4, ring: 3.6, cooldown: 6 },
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
