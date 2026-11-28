@@ -34,3 +34,4 @@ def b_hippocentaurus(r):
     horse body with no horse neck, thin legs and a long wavy tail."""
     Q = quad(r, 1.55, 2.9, 0.8, 1.05, 0.05, front="hoof", hind="hoof", foot_mat="hoof")
     b = r.parts["body"]
+    b.ell((0, 0.1, Q["H"] - 0.4), (0.5, 1.45, 0.62))
