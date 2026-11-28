@@ -340,6 +340,7 @@ export class Forest {
   cull(x: number, z: number) {
     const range = this.visibleRange
     const r2 = range * range
+    for (const tile of this.tiles.values()) {
     }
   }
 }
