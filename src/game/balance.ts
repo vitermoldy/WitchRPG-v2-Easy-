@@ -1433,6 +1433,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     ],
   },
   // Sylph: a spirit of smoke and wind that floats above the grass; blows a gust onto a circle from afar.
+  sylph: {
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
