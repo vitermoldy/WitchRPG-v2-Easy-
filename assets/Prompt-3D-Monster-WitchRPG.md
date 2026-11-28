@@ -271,3 +271,4 @@ Poster `images (7).jpg` berisi 35 makhluk kecil, kebanyakan berwujud manusia, bu
 | Mami Wata | a dark-skinned water spirit with a beaded headdress and beaded necklaces, holding a hand mirror, with a green fish tail |
 | Apsara | a dancing celestial woman in a flowing red-orange outfit with a tall golden crown and gold bracelets |
 | Iara | a woman with long green hair and a gold top, with a long green fish tail, sitting on a mossy rock |
+| Kitsune | a red-orange fox with nine flame-like tails with white tips |
