@@ -333,3 +333,4 @@ def b_cacodaemon(r):
     h.tube(pts, [0.035 - 0.005 * i for i in range(6)], mat="horn", seg=5, n=2)
     wild_hair(h, hc + Vector((0, 0.05, 0.05)), 1.0, n=8, length=0.12, mat="body2", up=1.0)
     for s, side in SIDES:
+        claws(r.parts["hand_" + side], J["wr_" + side], J["hand_dir_" + side], n=4, length=0.13)
