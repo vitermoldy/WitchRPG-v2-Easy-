@@ -163,3 +163,4 @@ function fits(t: Territory, zone: string, own: number, placed: Territory[], marg
   for (const o of placed) {
     if (Math.hypot(cx - o.c[0], cy - o.c[1]) < big + o.r * BLOB + own + (margin.get(o.key) ?? 0)) return false
   }
+  if (Math.hypot(cx - LAKE.c[0], cy - LAKE.c[1]) < LAKE.r * 1.2 + big + 30) return false
