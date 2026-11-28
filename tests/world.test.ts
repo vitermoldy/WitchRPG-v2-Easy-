@@ -33,3 +33,5 @@ describe('the forest, one tile at a time (5000 m map)', () => {
     }
     const far = Math.ceil((HALF + TILE) / TILE) + 1
     expect(scatterTile(far, 0)).toEqual([])
+  })
+
