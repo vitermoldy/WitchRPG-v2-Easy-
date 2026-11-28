@@ -171,6 +171,7 @@ export class Camps {
     camp.state = 'active'
     camp.roused = false
     camp.units = []
+    camp.offsets = []
     const [lo, hi] = camp.def.levels
     let n = 0
     for (const [kind, listed] of Object.entries(camp.def.pack) as [V2Kind, number][]) {
