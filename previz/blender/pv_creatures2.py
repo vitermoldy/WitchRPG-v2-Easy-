@@ -565,3 +565,4 @@ def b_panotti(r):
         root = hc + Vector((0.085 * sd, 0.01, 0.06))
         e = r.P("ear_" + side, root, "head")
         top = root + Vector((0.12 * sd, 0.06, 0.12))
+        pts = [root, top, root + Vector((0.3 * sd, 0.12, -0.25)), root + Vector((0.33 * sd, 0.1, -0.8)), root + Vector((0.26 * sd, 0.05, -1.15)), root + Vector((0.16 * sd, 0.0, -1.25))]
