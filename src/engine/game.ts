@@ -444,6 +444,7 @@ export class Game implements UnitHost {
     V2_KINDS.forEach((k, i) => {
       if (!ai[k]) return
       if (ai[k].animated && loaded[i].clips.length) skins[k] = { scene: loaded[i].scene, clips: clipRoles(loaded[i].clips) }
+      else whole.push(k)
     // in first person her body is hidden from the view but still casts its shadow
     this.atmosphere.sun.shadow.camera.layers.enable(IlyraModel.HIDDEN_LAYER)
     if (this.profile.settings.firstPerson) {
