@@ -167,3 +167,5 @@ File: `Screenshot 2026-11-28 114433.png`.
 Turn the attached antique woodcut into a 3D render of the same creature. Keep it 100% identical to the reference in pose, camera angle, proportions, anatomy and every detail; add nothing, remove nothing. Subject: a lion-faced humanoid monster: a huge spiky lion mane around a small, calm lion face. Human body with a sagging chest and a round pot belly, standing upright in a slight stride. One hand rests on a long straight sword planted point-down on the ground; a long thin tail curls on the ground behind. Feet with long, splayed, claw-like toes. Smooth, non-explicit groin. Style: stylized 3D, ivory parchment-colored surfaces with black ink cross-hatching engraved into the texture, like an antique woodcut brought to life. Full body, single character, plain light-grey background, soft studio lighting, ultra-detailed, 4K.
 ```
 
+### 14. Buer
+
