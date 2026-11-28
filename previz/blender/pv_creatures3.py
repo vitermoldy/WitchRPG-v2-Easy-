@@ -66,3 +66,4 @@ def b_aquilon(r):
         K2.back_wing(r, "wing_" + side, (0.1 * sd, J["back"][1], J["z"]["sh"] - 0.05), sd, "feather", 2.2, 1.1, raise_deg=35, sweep_deg=20, feathers=10, tilt=58,
                      mat="feather", tip_mat="accent", arm="feather")
     hd = r.parts["hand_R"]
+    W, d = J["wr_R"], J["hand_dir_R"]
