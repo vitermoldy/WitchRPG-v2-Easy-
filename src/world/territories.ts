@@ -218,3 +218,4 @@ export function campSpots(t: Territory): [number, number][] {
   if (n === 0) return []
   if (t.boss) return [t.c]
   const out: [number, number][] = []
+  for (let i = 0; i < n; i++) {
