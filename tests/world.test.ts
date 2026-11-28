@@ -46,3 +46,4 @@ describe('the forest, one tile at a time (5000 m map)', () => {
     // a step further: the nearest missing tile comes in, one per update
     forest.update(hx + 2000, hz, 1)
     expect(obs.shapes.length).toBeGreaterThan(first)
+  })
