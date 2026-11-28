@@ -634,3 +634,4 @@ def b_leonis(r):
     tl = r.P("tail", V(J["hip"]) + Vector((0, 0.12, -0.05)), "pelvis")
     hp = V(J["hip"])
     pts = [hp + Vector((0, 0.12, -0.05)), hp + Vector((-0.15, 0.4, -0.4)), hp + Vector((-0.3, 0.45, -0.9)), hp + Vector((-0.1, 0.55, -1.15)), hp + Vector((0.2, 0.7, -1.12))]
+    tail_tube(tl, pts, 0.035, 0.02, mat="skin")
