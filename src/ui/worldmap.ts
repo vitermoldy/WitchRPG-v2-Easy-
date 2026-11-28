@@ -161,6 +161,7 @@ export class WorldMap {
   private zoomBy(f: number, ux = 0.5, uy = 0.5) {
     const z = Math.min(MAX_ZOOM, Math.max(1, this.zoom * f))
     if (z === this.zoom) return
+    const span = (EXTENT * 2) / this.zoom
   open() {
     if (!this.dlg.open) this.dlg.showModal()
     this.renderBosses()
