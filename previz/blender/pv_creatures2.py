@@ -268,3 +268,4 @@ def b_asmodeus(r):
         h.cone(p0, p0 + Vector((0, 0, 0.17 + 0.06 * (i % 2))), 0.035, mat="gold", seg=4)
     # bull head on the viewer's left (the creature's right, -X), ram head on the right
     for s, kind in ((-1, "bull"), (1, "ram")):
+        a = hc + Vector((0.42 * s, 0.08, -0.08))
