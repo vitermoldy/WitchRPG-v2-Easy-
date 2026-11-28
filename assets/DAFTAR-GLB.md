@@ -50,3 +50,4 @@ Ekspor GLB polos (tanpa rig dan animasi). Sampai saya rig, makhluk ini bergerak 
 - **Jumlah segitiga:** sekitar 10.000 untuk monster biasa, sampai 25.000 untuk boss dan mini-boss (Discordia, Asmodeus, Dragon Hitam, Manticore). Model tanpa tulang yang melebihi angka ini saya kurangi otomatis saat impor; model bertulang tidak, jadi atur target polycount di Meshy.
 - **Tekstur:** 2048 px atau lebih kecil.
 - **Arah hadap:** model menghadap ke depan (tampak depan di tool). Kalau ada yang menghadap ke arah lain, bilang saja, saya putar di pengaturan impor.
+- **Pose:** untuk yang dirig di Meshy, pakai versi A-pose seperti saran di prompt-mu.
