@@ -142,3 +142,4 @@ function place(): Territory[] {
     // a crowded zone: the ground shrinks a tenth at a time until it fits
     for (let k = 0; k < 6000 && !spot; k++) {
       if (k > 0 && k % 1500 === 0) rest.r = Math.round(rest.r * 0.9)
+      // a ground kept to the south searches the whole width of the map south of its line
