@@ -845,6 +845,7 @@ const poseRaia: PoseFn = (p, u, t) => {
     p.rot('head', -25 * k)
     return
   }
+  if (u.state === 'strike') {
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   griffin: poseBeast,
   hippogriff: poseBeast,
