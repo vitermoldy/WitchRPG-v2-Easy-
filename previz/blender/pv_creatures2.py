@@ -56,3 +56,4 @@ def lion_face(part, at, fwd=(0, -1, 0), s=1.0, mat="body", mane_mat="body2", man
     m = a + F * 0.15 * s - UP * 0.05 * s
     part.ell(m, (0.12 * s, 0.09 * s, 0.08 * s), mat=mat)
     part.ell(m + F * 0.07 * s + UP * 0.04 * s, (0.05 * s, 0.03 * s, 0.03 * s), mat="nose" if "nose" in part.rig.pal else "horn", seg=8, rings=5)
+    jd = F * math.cos(math.radians(jaw_open)) - UP * math.sin(math.radians(jaw_open))
