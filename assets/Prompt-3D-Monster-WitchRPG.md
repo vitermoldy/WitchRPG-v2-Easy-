@@ -263,3 +263,4 @@ Poster `images (7).jpg` berisi 35 makhluk kecil, kebanyakan berwujud manusia, bu
 | Phoenix | a phoenix with fiery red-orange feathers and wings spread wide |
 | Veela | a woman with long wavy brown hair and a leafy crown in a white dress wrapped with green vines |
 | Sphinx | a sphinx lying down: a sandy-beige lion body with a calm face and a lion-like mane |
+| Rainbow Serpent | a coiled serpent with rainbow-colored scales and a spiky frilled head |
