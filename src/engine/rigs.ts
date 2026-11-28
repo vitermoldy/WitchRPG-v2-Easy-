@@ -1476,6 +1476,7 @@ export class Rigs {
       const glow = u.state === 'ashes' ? this.ember.setRGB(1.6, 0.5, 0.1).multiplyScalar(0.6 + 0.4 * Math.sin(t * 6 + u.id)) : glowOf(u)
       const skin = this.skins[u.kind]
       if (skin) this.skin(u, skin, dt, glow)
+      else this.rig(u.kind, u.team, wearsVariant(u) && !this.whole.has(u.kind))?.add(u, t, glow, this.sink(u))
     }
     for (const r of this.rigs.values()) r.end()
 
