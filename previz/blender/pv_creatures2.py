@@ -470,3 +470,4 @@ def b_triceps(r):
     drg = nb + Vector((0, -0.08, 0.75))
     h.tube([nb, nb + Vector((0, 0.02, 0.35)), drg], [0.09, 0.08, 0.07], mat="dragon", seg=8, n=3)
     dragon_head(h, drg + Vector((0, -0.05, 0.03)), fwd=(0, -1, 0.35), s=0.75, jaw_open=30, horns=True, crest=True, mat="dragon")
+    eag = nb + Vector((0.3, -0.04, 0.4))
