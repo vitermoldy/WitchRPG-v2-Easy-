@@ -468,6 +468,7 @@ export class WorldMap {
       ctx.setLineDash([4, 3])
       ctx.lineWidth = this.chosen.has(t.kind) ? 2 : 1
       ctx.strokeStyle = col
+      ctx.globalAlpha = this.chosen.has(t.kind) ? 0.95 : 0.55
     // altars: teal diamonds, filled once lit
     const r = Math.max(4, size / 110)
     for (const a of ALTARS) {
