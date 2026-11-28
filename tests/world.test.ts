@@ -31,3 +31,4 @@ describe('the forest, one tile at a time (5000 m map)', () => {
       expect(pathDist(mx, my)).toBeGreaterThanOrEqual(3.5)
       expect(inClearing(mx, my)).toBe(false)
     }
+    const far = Math.ceil((HALF + TILE) / TILE) + 1
