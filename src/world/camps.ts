@@ -85,6 +85,7 @@ export const ROAM_DEFS: CampDef[] = (() => {
       const [lo, hi] = best.levels
       const level = lo + Math.floor(pick * (hi - lo + 1))
       const [a, b] = CAMP.roamPack
+      out.push({ c: [px, py], pack: { [best.kind]: a + Math.floor(size * (b - a + 1)) }, levels: [level, level], territory: best.key, roam: true })
 
 export interface Camp {
   def: CampDef
