@@ -1040,6 +1040,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     strike: 'line',
     stun: 30,
   },
+  // Cacodaemon: the winged dog-headed demon; circles high and dives harder than the Sirena.
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
