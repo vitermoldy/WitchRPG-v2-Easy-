@@ -600,3 +600,4 @@ def b_silvana(r):
                  body_mat="skin")
     h = r.parts["head"]
     hc = V(J["head_c"])
+    s = head_ball(h, hc, H, "skin")
