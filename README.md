@@ -28,7 +28,7 @@ Butuh Node 22 atau lebih baru dan browser dengan WebGL 2.
 npm install
 npm run dev      # http://localhost:5301
 npm run server   # server akun dan simpanan, port 8915 (butuh MySQL dan .env)
-npm test         # tes progresi v1, kamera, gerak, peta, tempur, AI makhluk, simpanan, dan Hydra
+npm test         # tes progresi v1, kamera, gerak, peta dan daerah, hutan per petak, tempur, AI makhluk, simpanan, Hydra, dan impor model
 npm run build    # hasil di dist/
 npm start        # setelah build: server sekaligus melayani dist/ di http://localhost:8915
 npm run users    # daftar akun
