@@ -431,6 +431,7 @@ export class Game implements UnitHost {
     // models from the owner's image-to-3D tool, imported by `npm run models:ai`, take the place of the block-outs
     const ai: Record<string, { animated: boolean }> = await fetch('./models/ai/manifest.json')
       .then((r) => (r.ok ? r.json() : {}))
+      .catch(() => ({}))
     ])
     this.ilyra = new IlyraModel(ilyra)
     // in first person her body is hidden from the view but still casts its shadow
