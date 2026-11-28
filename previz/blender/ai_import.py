@@ -128,3 +128,4 @@ for ob in list(bpy.context.scene.objects):
         ob.parent = root
         ob.matrix_world = mw
 for a in arms:
+    bpy.data.objects.remove(a)
