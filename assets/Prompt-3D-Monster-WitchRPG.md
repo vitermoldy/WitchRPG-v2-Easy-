@@ -172,3 +172,4 @@ Turn the attached antique woodcut into a 3D render of the same creature. Keep it
 File: `Screenshot 2026-11-28 114440.png`.
 
 ```text
+Turn the attached antique engraving into a 3D render of the same creature. Keep it 100% identical to the reference in pose, camera angle, proportions, anatomy and every detail; add nothing, remove nothing. Subject: the demon Buer from the Dictionnaire Infernal: a lion's head with a thick shaggy mane and a grimacing face with the tongue sticking out sits at the centre, with no torso; five goat legs with cloven hooves radiate from the head like the spokes of a wheel, as if the creature is rolling. Shaggy fur tufts at the joints. Style: stylized 3D, ivory parchment-colored surfaces with black ink cross-hatching engraved into the texture, like an antique woodcut brought to life. Full body, single character, plain light-grey background, soft studio lighting, ultra-detailed, 4K.
