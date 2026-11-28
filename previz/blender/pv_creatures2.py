@@ -493,3 +493,4 @@ def b_triceps(r):
 def b_satyr(r):
     """The lean piper satyr (prompt no. 8, right): a long goat-like face with pointed ears and two small horns,
     human arms holding a long pipe to its mouth, shaggy goat legs with cloven hooves."""
+    H = 1.7
