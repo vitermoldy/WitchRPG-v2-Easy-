@@ -411,3 +411,4 @@ def b_sirena(r):
     leg = r.P("thigh_L", hp, "pelvis")
     pts = [hp + Vector((0, 0, 0.12)), hp + Vector((0, 0.02, -0.25)), hp + Vector((0, 0.04, -0.6)), hp + Vector((0, 0.02, -0.82))]
     leg.tube(pts, [0.16, 0.15, 0.09, 0.05], mat="scale", seg=10, n=3)
+    knee = V(pts[2]) + Vector((0, -0.085, 0.02))
