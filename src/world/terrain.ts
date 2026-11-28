@@ -89,6 +89,7 @@ export class Terrain {
         } else if (want === 0 && c.meshes[1]) want = 1
         else if (c.meshes[2]) want = 2
         else if (made < budget + 2) {
+          // the far detail is cheap: a few extra a frame so the horizon fills in quickly
       }
       if (want !== c.lod) {
         if (c.lod >= 0 && c.meshes[c.lod]) c.meshes[c.lod]!.visible = false
