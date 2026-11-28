@@ -85,6 +85,7 @@ export const ALTARS: { key: string; name: string; c: [number, number] }[] = [
   { key: 'ganjil_barat', name: 'Altar Ganjil Barat', c: s(-520, 778) },
   { key: 'ganjil_timur', name: 'Altar Ganjil Timur', c: s(520, 778) },
   { key: 'ganjil_utara', name: 'Altar Ganjil Utara', c: s(0, 1030) },
+  // one by each place of the south
 ]
 export const TEMPLE: [number, number] = [40, 318]
 /** Where the previz shots stood; the start point is the hero clearing of render 01. */
