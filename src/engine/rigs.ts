@@ -800,6 +800,7 @@ const poseWinged: PoseFn = (p, u, t) => {
     return
   }
   if (u.state === 'stagger') {
+    p.body(0, 15, 9 * Math.sin(t * 3))
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   griffin: poseBeast,
   hippogriff: poseBeast,
