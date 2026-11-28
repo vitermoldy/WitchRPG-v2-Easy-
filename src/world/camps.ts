@@ -32,6 +32,7 @@ export const CAMP_DEFS: CampDef[] = TERRITORIES.flatMap((t) => {
     const [lo, hi] = t.levels
     const level = t.boss || spots.length < 2 ? hi : Math.round(lo + ((hi - lo) * i) / (spots.length - 1))
     const last = i === spots.length - 1
+    return {
 
 export interface Camp {
   def: CampDef
