@@ -442,7 +442,7 @@ export class Sfx {
   /** Each frame, with the zone weights in ZONES order (pembuka, tebing, rawa, kuil, bara, ganjil). */
   ambience(dt: number, w: ArrayLike<number>) {
     if (!this.ok() || !this.amb) return
-    const [pembuka = 0, tebing = 0, rawa = 0, kuil = 0, bara = 0] = Array.from(w)
+    const [pembuka = 0, tebing = 0, rawa = 0, kuil = 0, bara = 0, ganjil = 0] = Array.from(w)
     const t = this.ctx!.currentTime
     const a = this.amb
     a.wind.gain.setTargetAtTime(0.05 + tebing * 0.1 + kuil * 0.03 + pembuka * 0.02, t, 0.8)
