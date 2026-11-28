@@ -1395,6 +1395,7 @@ export class Rigs {
         const mat = u.team === 'shadow' ? shadowMaterial(base, m.geometry) : base.clone()
         m.material = mat
         mats.push(mat)
+        m.castShadow = u.team === 'enemy' && !u.spec.passive
   /** How far below its feet a unit is drawn while it rises out of a pool, sinks in, or turns to ash. */
   private sink(u: Unit): number {
     if (u.state === 'rising') {
