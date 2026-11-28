@@ -146,3 +146,4 @@ def b_septiceps(r):
     H = 5.6
     J = humanoid(r, H, bulk=1.3, legs="human", arm_pose={"L": (55, 45, 70), "R": (55, 35, 60)}, leg_pose={"L": (-10, 6), "R": (14, 8)},
                  neck_scale=0.6, body_mat="skin", foot_mat="skin")
+    for side, s in (("L", 1), ("R", -1)):
