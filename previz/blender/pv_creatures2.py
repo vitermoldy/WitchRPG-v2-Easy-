@@ -517,3 +517,4 @@ def b_satyr(r):
 
 
 def b_cracovia(r):
+    """The Monster of Kraków (prompt no. 9): a bald round head with a long curved trunk, small flames jutting
