@@ -318,7 +318,7 @@ export class Forest {
     mesh.castShadow = true
     mesh.receiveShadow = true
     const ids = {} as Record<Kind, number>
-    for (const k of Object.keys(geos) as Kind[]) ids[k] = this.mesh.addGeometry(geos[k])
+    for (const k of Object.keys(this.geos) as Kind[]) ids[k] = mesh.addGeometry(this.geos[k])
     const m = new THREE.Matrix4()
     const q = new THREE.Quaternion()
     const up = new THREE.Vector3(0, 1, 0)
