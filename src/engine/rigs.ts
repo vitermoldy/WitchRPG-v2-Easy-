@@ -927,6 +927,7 @@ function fourArmed(base: PoseFn): PoseFn {
 /** Asmodeus: the lion-dragon moves like the four-legged beasts; the rider raises the lance and drives it down. */
 const poseAsmodeus: PoseFn = (p, u, t) => {
   poseBeast(p, u, t)
+  if (u.state === 'dead') return
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   griffin: poseBeast,
   hippogriff: poseBeast,
