@@ -45,3 +45,4 @@ def mesh_bounds():
             continue
         ev = ob.evaluated_get(deps)
         me = ev.to_mesh()
+        for v in me.vertices:
