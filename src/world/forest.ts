@@ -190,6 +190,7 @@ export function scatterTile(ix: number, iz: number, step = 4, seed = 3): Tree[] 
       const rot = rnd() * Math.PI * 2
       const sc = 0.7 + rnd() * 0.65
       // a spot that can hold neither a rock nor a tree at the densest mix is skipped before the costly heights
+      if (rockRoll >= 0.027 && keep >= (MAX_DENSITY / 100) * step * step) continue
       const h = heightMap(x, y)
       const e = 1.5
       const slope = Math.hypot(heightMap(x + e, y) - heightMap(x - e, y), heightMap(x, y + e) - heightMap(x, y - e)) / (2 * e)
