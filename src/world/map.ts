@@ -284,6 +284,7 @@ const DRY = 0.4
 const around = (w: { c: [number, number]; r: number }): [number, number, number, number] => [w.c[0] - w.r * 1.3, w.c[1] - w.r * 1.3, w.c[0] + w.r * 1.3, w.c[1] + w.r * 1.3]
 /** The water planes, as map rectangles (x0, y0, x1, y1): the swamp with Danau Hitam, the lagoon, the mere. */
 export const WATER_RECTS: [number, number, number, number][] = [
+  [-560 * SCALE, -170 * SCALE, -90 * SCALE, 420 * SCALE],
 
 export function inWaterRect(x: number, y: number) {
   return x > WATER_RECT[0] && x < WATER_RECT[2] && y > WATER_RECT[1] && y < WATER_RECT[3]
