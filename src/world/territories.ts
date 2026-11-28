@@ -83,3 +83,4 @@ const PLANS: Plan[] = [
   { key: 'panotti', name: 'Ladang Panotti', kind: 'panotti', zone: 'ganjil', r: 160, levels: [16, 17], camps: 5, pack: 3, elites: 1 },
   { key: 'silvana', name: 'Belukar Silvana', kind: 'silvana', zone: 'ganjil', r: 160, levels: [16, 17], camps: 5, pack: 3, elites: 1 },
   { key: 'raia', name: 'Langit Raia', kind: 'raia', zone: 'ganjil', r: 160, levels: [16, 17], camps: 5, pack: 3, elites: 1 },
+  { key: 'sirena', name: 'Karang Ravenna', kind: 'sirena', zone: 'ganjil', r: 160, levels: [16, 17], camps: 5, pack: 3, elites: 1 },
