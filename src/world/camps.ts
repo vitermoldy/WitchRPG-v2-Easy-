@@ -77,6 +77,7 @@ export const ROAM_DEFS: CampDef[] = (() => {
         if (t.boss || t.noCamps || UNITS[t.kind].boss || zoneAt(t.c[0], t.c[1]).key !== zone) continue
         const d = Math.hypot(px - t.c[0], py - t.c[1])
         if (d < bd) {
+          bd = d
 
 export interface Camp {
   def: CampDef
