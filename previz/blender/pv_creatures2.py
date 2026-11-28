@@ -206,3 +206,4 @@ def b_septiceps(r):
     # upper right (viewer's left): a heavy money sack; lower right: a dagger and a heart
     W, d = J["wr_R"], J["hand_dir_R"]
     r.parts["hand_R"].ell(W + d * 0.3 + Vector((0, 0, -0.1)), (0.22, 0.2, 0.28), mat="cloth3")
+    lw = r.parts["hand2_R"]
