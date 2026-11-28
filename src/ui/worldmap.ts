@@ -181,6 +181,7 @@ export class WorldMap {
 
   open() {
     if (!this.dlg.open) this.dlg.showModal()
+    this.zoom = 1
     this.renderBosses()
     this.renderMonsters()
     this.draw()
