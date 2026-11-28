@@ -28,3 +28,5 @@ Turn the attached 2D illustration into a 3D render of the same creature. Stay 10
 
 ```text
 Game-ready 3D model of [SUBJECT], matching the reference image exactly in shape, pose and proportions. Single object, full body, clean watertight mesh, clean topology, detailed PBR textures (base color, roughness, normal), [STYLE].
+```
+
