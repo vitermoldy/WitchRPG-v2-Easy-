@@ -430,3 +430,4 @@ def b_tetrachiron(r):
     goat legs with cloven hooves."""
     H = 2.5
     J = humanoid(r, H, bulk=1.05, legs="hoof", arm_pose={"L": (100, 5, 10), "R": (100, 5, 10)}, leg_pose={"L": (6, 20), "R": (-4, 18)},
+                 body_mat="skin", leg_mat="feather", shin_mat="leg", foot_mat="hoof")
