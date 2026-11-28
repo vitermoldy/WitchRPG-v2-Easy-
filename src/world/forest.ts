@@ -344,6 +344,7 @@ export class Forest {
       if (!tile.mesh) continue
       const dx = Math.max(tile.x0 - x, 0, x - (tile.x0 + TILE))
       const dz = Math.max(tile.z0 - z, 0, z - (tile.z0 + TILE))
+      const near = dx * dx + dz * dz < r2
     }
   }
 }
