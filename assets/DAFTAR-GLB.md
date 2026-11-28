@@ -27,3 +27,5 @@ Ekspor GLB berisi tulang dan lima animasi. Nama animasi cukup mengandung kata in
 | Aquilon (manusia elang) | `monster_aquilon.glb` | Bagian 2, Manusia elang |
 | Aziza (peri kecil) | `monster_aziza.glb` | Bagian 3, Aziza |
 | Kitsune (rubah ekor sembilan) | `monster_kitsune.glb` | Bagian 3, Kitsune |
+| Banshee (wanita hantu) | `monster_banshee.glb` | Bagian 3, Banshee |
+
