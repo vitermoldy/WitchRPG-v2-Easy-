@@ -446,3 +446,4 @@ def b_tetrachiron(r):
         h.tube([hc + Vector((0.05 * k * s, 0.0, 0.1 * s)), hc + Vector((0.12 * k * s, 0.04, 0.18 * s)), hc + Vector((0.1 * k * s, 0.12, 0.22 * s))], [0.028 * s, 0.018 * s, 0.0], mat="horn", seg=5, n=2)
     wild_hair(h, hc, s, n=8, length=0.1, up=1.0)
     for sd, side in SIDES:
+        back_wing(r, "wing_" + side, (0.12 * sd, J["back"][1] - 0.02, J["z"]["waist"]), sd, "feather", 2.1, 1.2, raise_deg=10, sweep_deg=25, feathers=10, tilt=62,
