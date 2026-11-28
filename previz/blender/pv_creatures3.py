@@ -99,3 +99,4 @@ def b_aries(r):
                  neck_scale=0.7, body_mat="skin", leg_mat="fur", foot_mat="hoof")
     h = r.parts["head"]
     hc = V(J["head_c"])
+    h.ell(hc, (0.16, 0.2, 0.18), mat="bone")
