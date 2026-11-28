@@ -14,3 +14,4 @@ export class Landmarks {
     this.group.name = 'landmarks'
     const stone: THREE.Matrix4[] = []
     const moss: THREE.Matrix4[] = []
+    const petals: { m: THREE.Matrix4; c: THREE.Color }[] = []
