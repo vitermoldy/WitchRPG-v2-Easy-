@@ -160,3 +160,4 @@ def b_aziza(r):
     r.parts["torso"].ell(V(J["chest"]), (0.08, 0.06, 0.08), mat="cloth")
     for sd, side in SIDES:
         w = r.P("wing_" + side, (0.03 * sd, J["back"][1], J["z"]["sh"]), "torso")
+        root = Vector((0.03 * sd, J["back"][1] + 0.02, J["z"]["sh"]))
