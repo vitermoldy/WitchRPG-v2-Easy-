@@ -643,3 +643,4 @@ def b_leonis(r):
 
 
 def b_marinus(r):
+    """Sea satyr: a goat's horned head with whiskers and tusks, finned arms and back, and a long scaled fish
