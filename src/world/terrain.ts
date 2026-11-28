@@ -92,6 +92,7 @@ export class Terrain {
           // the far detail is cheap: a few extra a frame so the horizon fills in quickly
           this.ensure(c, 2)
           made++
+          want = 2
       }
       if (want !== c.lod) {
         if (c.lod >= 0 && c.meshes[c.lod]) c.meshes[c.lod]!.visible = false
