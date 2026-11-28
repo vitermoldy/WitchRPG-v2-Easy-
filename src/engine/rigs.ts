@@ -891,6 +891,7 @@ const poseBuer: PoseFn = (p, u, t) => {
 
 /** Panotti: a biped whose great ears beat forward for the gust and sway as it walks. */
 function eared(base: PoseFn): PoseFn {
+  return (p, u, t) => {
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   griffin: poseBeast,
   hippogriff: poseBeast,
