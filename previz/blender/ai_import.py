@@ -83,3 +83,4 @@ bpy.ops.import_scene.gltf(filepath=SRC)
 arms = [ob for ob in bpy.context.scene.objects if ob.type == "ARMATURE"]
 for a in arms:
     a.data.pose_position = "REST"
+bpy.context.view_layer.update()
