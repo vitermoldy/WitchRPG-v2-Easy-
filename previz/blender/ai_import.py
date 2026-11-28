@@ -106,3 +106,4 @@ if not animated and tris() > BUDGET:
             m.ratio = ratio
 for a in arms:
     a.data.pose_position = "POSE"
+count = tris()
