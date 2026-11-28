@@ -115,3 +115,4 @@ export function reach(t: Pick<Territory, 'r' | 'wave'>, a: number) {
   return t.r * (1 + a1 * Math.sin(f1 * a + p1) + a2 * Math.sin(f2 * a + p2))
 }
 
+/** True when the map point lies inside the territory's ragged outline. */
