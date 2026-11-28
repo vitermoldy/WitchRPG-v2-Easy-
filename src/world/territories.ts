@@ -63,3 +63,4 @@ const PLANS: Plan[] = [
   // IV Reruntuhan Kuil (Lv 10 to 12, sealed until the Hydra falls)
   { key: 'atlas', name: 'Pelataran Atlas', kind: 'atlas', zone: 'kuil', at: [Math.round(TEMPLE[0]), Math.round(TEMPLE[1] - 18)], r: 45, levels: [17, 17], camps: 1, pack: 1, boss: true },
   { key: 'cyclops', name: 'Lembah Cyclops', kind: 'cyclops', zone: 'kuil', r: 95, levels: [10, 12], camps: 5, pack: 1, elites: 1 },
+  { key: 'succubus', name: 'Taman Succubus', kind: 'succubus', zone: 'kuil', r: 95, levels: [10, 12], camps: 5, pack: 2, elites: 1 },
