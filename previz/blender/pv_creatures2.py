@@ -502,3 +502,4 @@ def b_satyr(r):
     h.limb(hc + Vector((0, -0.05, -0.03)), hc + Vector((0, -0.17, -0.1)), 0.06, 0.035, mat="skin")
     for k in (1, -1):
         h.ell(hc + Vector((0.04 * k, -0.09, 0.03)), (0.016, 0.01, 0.012), mat="eye", seg=8, rings=5)
+    beard(h, hc + Vector((0, -0.14, -0.12)), 0.12, 0.035)
