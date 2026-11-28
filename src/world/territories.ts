@@ -156,3 +156,4 @@ function place(): Territory[] {
 }
 
 /** Whether a territory fits: inside its zone and the map, apart from the others, off the landmarks it does not own. */
+function fits(t: Territory, zone: string, own: number, placed: Territory[], margin: Map<string, number>) {
