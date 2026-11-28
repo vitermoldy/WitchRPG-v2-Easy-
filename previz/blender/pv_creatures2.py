@@ -468,3 +468,4 @@ def b_triceps(r):
     h.tube([nb + Vector((-0.1, 0, 0)), nb + Vector((-0.2, -0.02, 0.2)), fox], [0.1, 0.09, 0.08], mat="fox", seg=8, n=3)
     dog_head(h, fox + Vector((0, -0.05, 0.03)), fwd=(-0.4, -1, 0.0), s=0.95, jaw_open=12, ears=True, teeth=False, mat="fox")
     drg = nb + Vector((0, -0.08, 0.75))
+    h.tube([nb, nb + Vector((0, 0.02, 0.35)), drg], [0.09, 0.08, 0.07], mat="dragon", seg=8, n=3)
