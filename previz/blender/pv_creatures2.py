@@ -696,3 +696,4 @@ def b_raia(r):
     nk = r.P("head", c + Vector((0, -0.55, 0.2)), "body")
     hb = c + Vector((0, -0.55, 0.2))
     hc = hb + Vector((0, -0.12, 0.55))
+    nk.tube([hb, hb + Vector((0, -0.08, 0.3)), hc], [0.22, 0.17, 0.15], mat="body", seg=10, n=3)
