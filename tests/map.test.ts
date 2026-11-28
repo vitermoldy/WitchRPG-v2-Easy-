@@ -165,3 +165,4 @@ describe('the south and the roaming packs (owner, 28 Nov 2026)', () => {
     for (const l of LANDMARKS) {
       expect(zoneAt(l.c[0], l.c[1]).key, l.key).toBe('pembuka')
       expect(ALTARS.some((a) => a.key === l.key), l.key).toBe(true)
+      expect(territoryAt(l.c[0], l.c[1]), l.key).toBeNull()
