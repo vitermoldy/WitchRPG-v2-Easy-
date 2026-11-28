@@ -79,3 +79,4 @@ const PLANS: Plan[] = [
   { key: 'marinus', name: 'Laguna Marinus', kind: 'marinus', zone: 'ganjil', at: LAGOON.c, r: 170, levels: [17, 18], camps: 5, pack: 2, elites: 1 },
   { key: 'satyr', name: 'Padang Satyr', kind: 'satyr', zone: 'ganjil', r: 160, levels: [16, 17], camps: 5, pack: 3, elites: 1 },
   { key: 'silenus', name: 'Kebun Silenus', kind: 'silenus', zone: 'ganjil', r: 160, levels: [16, 17], camps: 5, pack: 3, elites: 1 },
+  { key: 'blemmye', name: 'Dataran Blemmye', kind: 'blemmye', zone: 'ganjil', r: 160, levels: [16, 17], camps: 5, pack: 3, elites: 1 },
