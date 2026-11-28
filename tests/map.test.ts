@@ -177,3 +177,4 @@ describe('the south and the roaming packs (owner, 28 Nov 2026)', () => {
       expect(territoryAt(r.c[0], r.c[1]), `pengembara ${r.c}`).toBeNull()
       const t = TERRITORIES.find((x) => x.key === r.territory)!
       expect(Object.keys(r.pack)).toEqual([t.kind])
+      expect(UNITS[t.kind].boss, t.kind).toBeFalsy()
