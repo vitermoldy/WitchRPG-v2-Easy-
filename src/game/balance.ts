@@ -1118,6 +1118,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     cooldown: 2,
     stun: 80,
     attacks: [
+      { name: 'lecut belalai', strike: 'line', windup: 0.7, recover: 0.9, range: 7, minRange: 2, lungeSpeed: 7, lungeTime: 0.4, damage: 1.1 },
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
