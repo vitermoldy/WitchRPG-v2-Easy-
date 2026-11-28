@@ -87,6 +87,7 @@ export class Terrain {
           this.ensure(c, want)
           made++
         } else if (want === 0 && c.meshes[1]) want = 1
+        else if (c.meshes[2]) want = 2
       }
       if (want !== c.lod) {
         if (c.lod >= 0 && c.meshes[c.lod]) c.meshes[c.lod]!.visible = false
