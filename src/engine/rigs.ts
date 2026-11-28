@@ -1316,6 +1316,7 @@ export class Rigs {
   constructor(
     models: Partial<Record<UnitKind, THREE.Group>>,
     lods: Partial<Record<UnitKind, THREE.Group>> = {},
+    skins: Partial<Record<UnitKind, SkinSource>> = {},
     this.group.name = 'units'
     this.models = models
     this.lods = lods
