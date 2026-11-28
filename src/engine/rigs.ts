@@ -40,6 +40,7 @@ const VARIANT_SHARE = 0.25
 function wearsVariant(u: Unit) {
   if (u.team !== 'enemy' || !VARIANTS[u.kind]) return false
   if (RANDOM_VARIANTS.has(u.kind)) return ((Math.imul(u.id, 2654435761) >>> 0) / 4294967296) < VARIANT_SHARE
+  return !!u.elite
 /** Adds a per-instance emissive colour (hit flash, the violet glow of a body that can be raised). */
 function patchGlow(mat: THREE.MeshStandardMaterial) {
   mat.onBeforeCompile = (s) => {
