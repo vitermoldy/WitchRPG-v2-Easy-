@@ -546,3 +546,4 @@ def b_cracovia(r):
         ft = r.parts["foot_" + side]
         A = V(J["ankle_" + side])
         ft.poly([Vector((A.x, A.y, 0.03)), Vector((A.x + 0.11, A.y - 0.2, 0.01)), Vector((A.x, A.y - 0.24, 0.01)), Vector((A.x - 0.11, A.y - 0.2, 0.01))], mat="web")
+    tl = r.P("tail", V(J["hip"]) + Vector((0, 0.12, 0)), "pelvis")
