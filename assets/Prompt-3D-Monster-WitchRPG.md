@@ -143,3 +143,5 @@ File: `Screenshot 2026-11-28 114409.png`.
 Turn the attached antique woodcut into a 3D render of the same creature. Keep it 100% identical to the reference in pose, camera angle, proportions, anatomy and every detail; add nothing, remove nothing. Subject: a man with gigantic ears: each ear is a huge flap of skin hanging from the side of the head down past the knees, draping around the body like a cloak. Short hair, calm face, slim nude body, one arm hanging relaxed and the other hand holding the edge of an ear. Smooth, non-explicit groin. Mid-stride on a small rocky mound. Style: stylized 3D, ivory parchment-colored surfaces with black ink cross-hatching engraved into the texture, like an antique woodcut brought to life. Full body, single character, plain light-grey background, soft studio lighting, ultra-detailed, 4K.
 ```
 
+### 11. Blemmyae (manusia tanpa kepala)
+
