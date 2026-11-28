@@ -434,3 +434,4 @@ def b_tetrachiron(r):
     for side, s in (("L", 1), ("R", -1)):
         W2, d2 = extra_arm(r, J, side, s, 0.3, (80, 5, 10), H, 1.0)
         r.parts["hand2_" + side].ell(W2 + d2 * 0.06, H * 0.03, mat="skin")
+        r.parts["hand_" + side].ell(J["wr_" + side] + J["hand_dir_" + side] * 0.06, H * 0.032, mat="skin")
