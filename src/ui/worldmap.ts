@@ -301,6 +301,7 @@ export class WorldMap {
       const t0 = performance.now()
       while (this.baseRows < BASE && performance.now() - t0 < 8) this.baseRow()
     }
+    setTimeout(() => this.warm(), this.g.state === 'playing' ? 500 : 30)
   /** The valley itself, drawn once: zone tones, hill shading, water. */
   private baseLayer(): HTMLCanvasElement {
     if (this.base) return this.base
