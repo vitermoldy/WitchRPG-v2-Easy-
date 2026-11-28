@@ -123,3 +123,4 @@ def views(key):
     return sc
 
 
+if "--views" in argv:
