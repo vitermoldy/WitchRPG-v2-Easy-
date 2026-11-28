@@ -60,3 +60,4 @@ def tris():
         if ob.type == "MESH":
             me = ob.evaluated_get(deps).to_mesh()
             me.calc_loop_triangles()
+            n += len(me.loop_triangles)
