@@ -129,3 +129,4 @@ if "--views" in argv:
         log("pandang", k)
 if "--no-board" not in argv:
     C.render(board(), os.path.join(C.PREVIZ, "papan-makhluk-pt2.png"), PCT)
+    log("papan")
