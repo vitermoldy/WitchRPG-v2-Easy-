@@ -159,3 +159,4 @@ def b_aziza(r):
     r.parts["pelvis"].tube([V(J["hip"]) + Vector((0, 0, 0.12)), V(J["hip"]) + Vector((0, 0, -0.1)), V(J["hip"]) + Vector((0, -0.01, -0.3))], [0.09, 0.12, 0.16], mat="cloth", seg=10, n=2, cap=False)
     r.parts["torso"].ell(V(J["chest"]), (0.08, 0.06, 0.08), mat="cloth")
     for sd, side in SIDES:
+        w = r.P("wing_" + side, (0.03 * sd, J["back"][1], J["z"]["sh"]), "torso")
