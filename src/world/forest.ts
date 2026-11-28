@@ -177,6 +177,7 @@ export function scatterTile(ix: number, iz: number, step = 4, seed = 3): Tree[] 
   const out: Tree[] = []
   if (Math.abs((ix + 0.5) * TILE) > HALF + TILE / 2 || Math.abs((iz + 0.5) * TILE) > HALF + TILE / 2) return out
   const rnd = mulberry32(seed * 7919 + (ix + 64) * 131 + (iz + 64) * 17389)
+  const n = TILE / step
   for (let j = 0; j < n; j++) {
     for (let i = 0; i < n; i++) {
       const x = (i - n / 2 + 0.5) * step + (rnd() - 0.5) * step * 0.9
