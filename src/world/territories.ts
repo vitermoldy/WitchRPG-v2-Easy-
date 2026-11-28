@@ -39,3 +39,4 @@ const PLATEAU = 30
 const BLOB = 1.34
 
 const PLANS: Plan[] = [
+  // I Hutan Pembuka (Lv 1 to 3)
