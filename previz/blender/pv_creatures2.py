@@ -507,3 +507,4 @@ def b_satyr(r):
     pointed_ears(h, hc, s, length=0.12)
     for side, a, b in (("L", V(J["hip"]) + Vector((J["hw"], 0, 0)), J["knee_L"]), ("R", V(J["hip"]) + Vector((-J["hw"], 0, 0)), J["knee_R"])):
         fur_on(r.parts["thigh_" + side], a, b, 10, 0.075)
+        fur_on(r.parts["shin_" + side], J["knee_" + side], J["ankle_" + side], 6, 0.05)
