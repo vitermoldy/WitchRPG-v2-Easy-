@@ -57,6 +57,7 @@ export class WorldMap {
   private zoom = 1
   private cx = 0
   private cy = 0
+  private size = 0
   onClose: (() => void) | null = null
 
   constructor(g: Game) {
