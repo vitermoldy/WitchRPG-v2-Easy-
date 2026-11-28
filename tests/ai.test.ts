@@ -13,3 +13,4 @@ describe('models from the image-to-3D tool (owner, 28 Nov 2026)', () => {
     const keys = files.map(([, v]) => v.key)
     expect(new Set(keys).size).toBe(keys.length)
     for (const [name, v] of files) {
+      expect(name, name).toMatch(/^monster_[a-z_]+\.glb$/)
