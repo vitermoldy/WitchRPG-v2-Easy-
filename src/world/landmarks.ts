@@ -57,3 +57,4 @@ export class Landmarks {
         for (let k = 0; k < n; k++) {
           const a = (k / n) * Math.PI * 2
           const p = at(l, a, 16)
+          const lean = k % 5 === 2 ? 0.3 : 0
