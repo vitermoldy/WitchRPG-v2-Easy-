@@ -663,3 +663,4 @@ def b_marinus(r):
     h = r.parts["head"]
     hc = V(J["head_c"])
     s = head_ball(h, hc, H, "skin", k=1.1)
+    h.limb(hc + Vector((0, -0.06, -0.03)), hc + Vector((0, -0.2, -0.08)), 0.07, 0.05, mat="skin")
