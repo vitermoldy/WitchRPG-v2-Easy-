@@ -817,6 +817,7 @@ const poseWinged: PoseFn = (p, u, t) => {
     p.rot('thigh_L', 30)
     p.rot('thigh_R', 36)
     p.rot('shin_L', 40)
+    p.rot('shin_R', 35)
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   griffin: poseBeast,
   hippogriff: poseBeast,
