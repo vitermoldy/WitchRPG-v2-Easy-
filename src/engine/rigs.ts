@@ -1382,6 +1382,7 @@ export class Rigs {
     return b
   }
 
+  /** One unit drawn from an animated GLB: its own skinned copy, the clip for its state, glow on its materials. */
   /** How far below its feet a unit is drawn while it rises out of a pool, sinks in, or turns to ash. */
   private sink(u: Unit): number {
     if (u.state === 'rising') {
