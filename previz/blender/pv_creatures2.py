@@ -459,3 +459,4 @@ def b_triceps(r):
     a long scaly neck in the middle, an eagle head with a feathered neck on the right; the arm on the viewer's left
     ends in an open human hand, the other is raised and ends in bird talons; scaled all over, a feathery tuft at the
     hips, bird-of-prey talon feet."""
+    H = 2.6
