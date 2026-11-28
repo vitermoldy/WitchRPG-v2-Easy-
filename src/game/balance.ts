@@ -1591,8 +1591,7 @@ export const ELITE = {
   // and an elite of some kinds wears a colour variant (src/engine/rigs.ts)
   hp: 3.2,
   damage: 1.25,
-  scale: 1.15,
-  xp: 3,
+  scale: 1.2,
   /** Share of damage that still lands on a berlapis elite, unless it comes from a throw. */
   armor: 0.45,
   swift: { speed: 1.45, tempo: 0.7 },
