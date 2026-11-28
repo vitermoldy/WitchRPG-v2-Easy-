@@ -862,6 +862,7 @@ const poseRaia: PoseFn = (p, u, t) => {
 /** Buer: stands on two of its five legs; rolls on them like a wheel when it moves and when it charges. */
 const poseBuer: PoseFn = (p, u, t) => {
   if (common(p, u, t, ['leg0', 'leg1', 'leg2', 'leg3', 'leg4'])) return
+  const amp = Math.min(1, Math.hypot(u.vel.x, u.vel.z) / Math.max(1, u.speed * 0.4))
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   griffin: poseBeast,
   hippogriff: poseBeast,
