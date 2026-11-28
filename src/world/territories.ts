@@ -77,3 +77,4 @@ const PLANS: Plan[] = [
   { key: 'blackdragon', name: 'Kaldera Dragon Hitam', kind: 'blackdragon', zone: 'bara', r: 70, levels: [20, 20], camps: 1, pack: 1, boss: true },
   // VI Tanah Ganjil (Lv 16 to 18, sealed until the Hydra falls): the second batch
   { key: 'marinus', name: 'Laguna Marinus', kind: 'marinus', zone: 'ganjil', at: LAGOON.c, r: 170, levels: [17, 18], camps: 5, pack: 2, elites: 1 },
+  { key: 'satyr', name: 'Padang Satyr', kind: 'satyr', zone: 'ganjil', r: 160, levels: [16, 17], camps: 5, pack: 3, elites: 1 },
