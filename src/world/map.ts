@@ -240,6 +240,7 @@ export function heightMap(x: number, y: number): number {
   const gj = smooth(470 * SCALE, 580 * SCALE, y)
   if (gj > 0) {
     h += gj * 5 * fbm(x / 70, y / 70, 3, 7.0)
+    const lg = smooth(LAGOON.r * 1.2, LAGOON.r * 0.75, dist(x, y, LAGOON.c))
   // the mountain ring that closes the valley
   const ringD = Math.max(Math.abs(x), Math.abs(y))
   if (ringD > 380) {
