@@ -84,3 +84,4 @@ export class Landmarks {
           stems.push(m4(p.x, p.y + H / 2, p.z, w, H, w))
           caps.push({ m: m4(p.x, p.y + H, p.z, H * 0.45, H * 0.22, H * 0.45, rnd() * 3), c: colours[k % colours.length] })
           obstacles.add({ kind: CYL, x: p.x, y: p.y - 1, z: p.z, r: w * 0.6, h: H + 1, camOnly: false })
+          obstacles.add({ kind: SPHERE, x: p.x, y: p.y + H, z: p.z, r: H * 0.4, h: 0, camOnly: true })
