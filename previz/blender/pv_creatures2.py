@@ -521,3 +521,4 @@ def b_cracovia(r):
     sideways from the eyes and floppy ears; dog heads at the elbows and knees, two small fox heads on the chest,
     a second face on the belly (two eyes, the navel a mouth); clawed hands, webbed swan feet, and a long thin
     tail curving up over the head to a hook."""
+    H = 2.3
