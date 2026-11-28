@@ -110,3 +110,4 @@ def fur_on(part, a, b, n, r, mat="fur", out=0.6):
     axis = (b - a).normalized()
     side = axis.cross(Vector((0, 1, 0)))
     if side.length < 1e-3:
+        side = Vector((1, 0, 0))
