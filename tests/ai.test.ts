@@ -37,3 +37,4 @@ describe('models from the image-to-3D tool (owner, 28 Nov 2026)', () => {
     expect(UNITS.septiceps.name).toBe('Discordia')
     expect(UNITS.sirena.name).toBe('Ravenna')
   })
+})
