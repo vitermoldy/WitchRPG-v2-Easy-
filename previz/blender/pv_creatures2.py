@@ -290,3 +290,6 @@ def b_asmodeus(r):
     tb = V(Q["tail_base"])
     pts = [tb] + [tb + Vector((0.55 * math.cos(a), 0.9 + 0.55 * math.sin(a), -0.9 + 0.15 * a)) for a in [i * 0.8 for i in range(9)]]
     tl.tube(pts, [0.32 - 0.026 * i for i in range(len(pts))], mat="snake", seg=8, n=3)
+    snake_head(tl, pts[-1], (0.2, -0.8, 0.5), s=1.3, jaw=40, mat="snake")
+
+
