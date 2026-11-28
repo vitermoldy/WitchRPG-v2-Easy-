@@ -900,6 +900,8 @@ function eared(base: PoseFn): PoseFn {
     p.rot('ear_L', flap * 0.4, 0, -flap)
     p.rot('ear_R', flap * 0.4, 0, flap)
   }
+}
+
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   griffin: poseBeast,
   hippogriff: poseBeast,
