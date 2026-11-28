@@ -1313,6 +1313,7 @@ export class Rigs {
   private readonly skinned = new Map<Unit, SkinCopy>()
   private frame = 0
 
+  constructor(
     this.group.name = 'units'
     this.models = models
     this.lods = lods
