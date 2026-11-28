@@ -186,3 +186,4 @@ def b_septiceps(r):
     # behind the human legs: a bird of prey's leg and a wolf's leg, and the fox brush
     for name, x, mat in (("leg_bird", 0.25, "talon"), ("leg_wolf", -0.25, "fur")):
         lg = r.P(name, hp + Vector((x, 0.35, 0)), "pelvis")
+        a = hp + Vector((x, 0.35, 0))
