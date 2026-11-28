@@ -647,3 +647,4 @@ def b_marinus(r):
     tail that ends in a fan."""
     H = 2.3
     J = humanoid(r, H, bulk=1.05, legs=None, arm_pose={"L": (40, 40, 50), "R": (35, 55, 60)}, body_mat="skin")
+    hp = V(J["hip"])
