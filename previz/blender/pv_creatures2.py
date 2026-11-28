@@ -694,3 +694,4 @@ def b_raia(r):
             a = lerp(root_f, root_b, i / 5)
             w.tube([a, lerp(a, lerp(tip, back, i / 5), 1.0)], [0.025, 0.004], mat="accent", seg=4, n=1)
     nk = r.P("head", c + Vector((0, -0.55, 0.2)), "body")
+    hb = c + Vector((0, -0.55, 0.2))
