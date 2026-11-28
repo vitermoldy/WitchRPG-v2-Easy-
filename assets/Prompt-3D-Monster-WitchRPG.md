@@ -183,3 +183,5 @@ File: `Screenshot 2026-11-28 114448.png`.
 Turn the attached antique engraving into a 3D render of the same creature. Keep it 100% identical to the reference in pose, camera angle, proportions, anatomy and every detail; add nothing, remove nothing. Subject: the demon Asmodeus from the Dictionnaire Infernal, riding a beast. He has three heads side by side: a bull head with short horns on the viewer's left, a scowling bearded human face with fangs and an ornate spiked crown in the centre, breathing rays of fire, and a ram head with curled horns on the right. Large bat wings rise behind him. Muscular human arms, legs ending in rooster claws, a coiled serpent tail. He sits astride a crouching, scaly dragon-like beast with heavy clawed paws and a snarling lion-like face. Style: stylized 3D, ivory parchment-colored surfaces with black ink cross-hatching engraved into the texture, like an antique woodcut brought to life. Full body, single figure group, plain light-grey background, soft studio lighting, ultra-detailed, 4K.
 ```
 
+### 16. Iblis Laut
+
