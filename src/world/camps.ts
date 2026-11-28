@@ -4,6 +4,7 @@ import type { Game } from '../engine/game'
 import { COLOR } from '../engine/palette'
 import type { Unit } from '../engine/units'
 import { heightMap, inClearing, inWaterRect, LAKE, LANDMARKS, PLAY_HALF, SPOTS, toWorld, WATER_LEVEL, zoneAt } from './map'
+import { campSpots, steepest, territoryAt, TERRITORIES } from './territories'
 
 export interface CampDef {
   /** Map point (x east, y north). */
