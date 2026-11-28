@@ -91,6 +91,7 @@ Peta 5.000 x 5.000 m dengan enam zona; hutan dan medan dimuat bertahap di sekita
 | II Tebing Berangin (dataran tinggi timur, dua sayap) | 4 sampai 6 | Harpy, Centaur, Griffin, Hippogriff, Aquilon |
 | III Rawa Berkabut (barat) | 7 sampai 9 | Naga rawa, Minotaur, Duyung di telaganya, mini-boss Medusa dan Chimera; Hydra di Danau Hitam |
 | IV Reruntuhan Kuil | 10 sampai 12 | Cyclops, Succubus, Incubus, Aries |
+| V Lembah Bara | 13 sampai 15 | Phoenix, mini-boss Manticore |
 
 ### Boss dunia
 
