@@ -588,3 +588,6 @@ def b_blemmye(r):
         t.limb(ch + Vector((0.01 * k, -0.235, -0.04)), ch + Vector((0.11 * k, -0.225, -0.08)), 0.016, 0.006, mat="hair")
     t.cone(ch + Vector((0, -0.21, 0.08)), ch + Vector((0, -0.27, 0.0)), 0.04, mat="skin", seg=6)
     t.ell(ch + Vector((0, -0.21, -0.1)), (0.09, 0.03, 0.035), mat="mouth", seg=10, rings=5)
+    r.parts["pelvis"].tube([V(J["hip"]) + Vector((0, 0, 0.06)), V(J["hip"]) + Vector((0, 0, -0.15))], [J["hw"] * 1.7, J["hw"] * 1.8], mat="cloth", seg=10, n=1)
+
+
