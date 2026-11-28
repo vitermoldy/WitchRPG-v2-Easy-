@@ -126,3 +126,4 @@ def views(key):
 if "--views" in argv:
     for k in KEYS:
         C.render(views(k), os.path.join(TMP, f"pt2_{k}.png"), PCT)
+        log("pandang", k)
