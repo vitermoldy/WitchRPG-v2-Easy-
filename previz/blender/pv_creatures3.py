@@ -93,3 +93,4 @@ def b_duyung(r):
 
 def b_aries(r):
     """Stand-in for the ram-horned demon: great curled ram horns on a bony skull face, white bristles on the neck and
+    shoulders, a heavy body on goat legs (the owner designs the real body)."""
