@@ -66,3 +66,4 @@ export class Landmarks {
         stone.push(m4(c.x, c.y + 0.5, c.z, 3.2, 0.8, 2.0))
       } else if (l.kind === 'mere') {
         // flowers all round the pond, in four colours
+        const colours = ['#f2c8e0', '#ffd860', '#c8a8ff', '#ffffff'].map((h) => new THREE.Color(h))
