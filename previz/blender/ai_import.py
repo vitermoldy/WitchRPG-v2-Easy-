@@ -40,3 +40,4 @@ def mesh_bounds():
     deps = bpy.context.evaluated_depsgraph_get()
     lo = Vector((1e9, 1e9, 1e9))
     hi = Vector((-1e9, -1e9, -1e9))
+    for ob in bpy.context.scene.objects:
