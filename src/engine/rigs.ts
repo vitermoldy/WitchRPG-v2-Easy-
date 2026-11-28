@@ -1067,6 +1067,7 @@ class Rig implements Poser {
         const slot = variant && Object.keys(variant).find((k) => src.name.endsWith('.' + k))
         if (team === 'enemy' && slot) {
           mat.vertexColors = false
+          mat.color.set(variant![slot])
         patchGlow(mat)
         mats.set(src, mat)
       }
