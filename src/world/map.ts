@@ -104,6 +104,7 @@ export const PATHS: [number, number][][] = [
   [[30, 0], [140, -20], [230, -40]],
   [[45, 120], [180, 200], [280, 290]],
   // the wider map: south to the Hellhound meadow, west to the mere, across the plateau, and north into Tanah Ganjil
+  [[-25, -330], [-40, -440], [-45, -560], [-60, -700], [-75, -820]],
 export const CLEARINGS: [[number, number], number][] = [
   [SPOTS.hero, 22], [SPOTS.army, 16], [ALTAR, 16], [TEMPLE, 30], [SPOTS.minotaur, 18], [SPOTS.hydra, 20],
   ...ALTARS.slice(1).map((a): [[number, number], number] => [a.c, 12]),
