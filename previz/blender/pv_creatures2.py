@@ -129,3 +129,4 @@ def sword(part, W, d, length=1.1, mat="metal"):
     side.normalize()
     part.limb(W - d * 0.1, W + d * 0.12, 0.025, 0.025, mat="wood", seg=6, joints=False)
     part.limb(W + d * 0.12 - side * 0.13, W + d * 0.12 + side * 0.13, 0.02, 0.02, mat="gold", seg=6, joints=False)
+    tip = W + d * length
