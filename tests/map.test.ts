@@ -109,3 +109,4 @@ describe('every creature on its own ground (owner, 28 Nov 2026)', () => {
     }
   })
 
+  it('keeps one kind per camp, every camp inside its territory and the zone of its centre', () => {
