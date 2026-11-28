@@ -81,3 +81,4 @@ def b_duyung(r):
     K2.head_ball(h, hc, H, "skin")
     face(h, hc, H)
     long_hair(h, hc, H, 0.9, 0.11)
+    for k in (1, -1):
