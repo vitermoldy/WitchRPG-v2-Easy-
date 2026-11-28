@@ -763,3 +763,4 @@ ROSTER2 = [
     ("triceps", "Triceps", b_triceps, "Penyembur tiga kepala", "Jenderal", "VI Tanah Ganjil", (R + "114704.png", (40, 30, 570, 740))),
     ("buer", "Buer", b_buer, "Roda penggilas", "Jenderal", "VI Tanah Ganjil", (R + "114440.png", (20, 15, 670, 770))),
     ("septiceps", "Discordia", b_septiceps, "Boss Tanah Ganjil, 5 kepala 4 lengan", "Marsekal", "VI Tanah Ganjil", (R + "114251.png", (15, 15, 350, 500))),
+    ("asmodeus", "Asmodeus", b_asmodeus, "Boss akhir Tanah Ganjil", "Marsekal", "VI Tanah Ganjil", (R + "114448.png", (40, 20, 700, 715))),
