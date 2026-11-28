@@ -54,3 +54,4 @@ def mesh_bounds():
 
 
 def tris():
+    n = 0
