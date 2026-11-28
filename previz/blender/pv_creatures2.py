@@ -221,3 +221,4 @@ def b_septiceps(r):
     sword(sw, W2, Vector((0.05, -0.2, -1)), length=1.6)
 
 
+def b_asmodeus(r):
