@@ -61,3 +61,4 @@ const PLANS: Plan[] = [
   { key: 'medusa', name: 'Kolam Medusa', kind: 'medusa', zone: 'rawa', r: 100, levels: [9, 9], camps: 1, pack: 1 },
   { key: 'chimera', name: 'Sarang Chimera', kind: 'chimera', zone: 'rawa', r: 100, levels: [9, 9], camps: 1, pack: 1 },
   // IV Reruntuhan Kuil (Lv 10 to 12, sealed until the Hydra falls)
+  { key: 'atlas', name: 'Pelataran Atlas', kind: 'atlas', zone: 'kuil', at: [Math.round(TEMPLE[0]), Math.round(TEMPLE[1] - 18)], r: 45, levels: [17, 17], camps: 1, pack: 1, boss: true },
