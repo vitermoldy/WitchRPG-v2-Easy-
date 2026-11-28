@@ -355,3 +355,4 @@ def b_cornutus(r):
     into the chest, legs scaled like a fish from the knees down; the foot on the viewer's left is a bird's
     talon, the other a human foot."""
     H = 2.3
+    J = humanoid(r, H, bulk=1.2, legs="human", arm_pose={"L": (20, 15, 25), "R": (20, 15, 25)}, leg_pose={"L": (8, 6), "R": (-6, 4)},
