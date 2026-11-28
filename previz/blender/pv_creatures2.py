@@ -259,3 +259,4 @@ def b_asmodeus(r):
     for i in range(5):
         a = math.radians(-24 + 12 * i)
         o = hc + Vector((0, -0.16, -0.12))
+        h.cone(o, o + Vector((math.sin(a) * 0.5, -1.1, -0.35 + 0.08 * (i % 2))), 0.05, mat="fire", seg=5)
