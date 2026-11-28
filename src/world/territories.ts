@@ -32,3 +32,4 @@ export interface Territory {
   wave: [number, number, number, number, number, number]
 }
 
+/** zone: where it may stand; at: a fixed centre; maxY: its centre lies south of this map y. */
