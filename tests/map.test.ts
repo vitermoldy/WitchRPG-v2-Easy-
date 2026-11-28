@@ -105,3 +105,4 @@ describe('every creature on its own ground (owner, 28 Nov 2026)', () => {
     for (const kind of fighters) expect(TERRITORIES.filter((t) => t.kind === kind).length, kind).toBe(1)
     for (const t of TERRITORIES) {
       if (t.noCamps) continue
+      expect(campSpots(t).length, t.key).toBe(campCount(t))
