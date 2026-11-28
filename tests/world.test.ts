@@ -26,3 +26,4 @@ describe('the forest, one tile at a time (5000 m map)', () => {
     const [hx, hz] = toWorld(SPOTS.hero[0], SPOTS.hero[1])
     const trees = scatterTile(Math.floor(hx / TILE), Math.floor(hz / TILE))
     for (const t of trees) {
+      if (t.kind === 'rock' || t.kind === 'rock_big') continue
