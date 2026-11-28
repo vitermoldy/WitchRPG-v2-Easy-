@@ -157,3 +157,4 @@ describe('the south and the roaming packs (owner, 28 Nov 2026)', () => {
   it('fills the south with four new grounds and four places without monsters, each with an altar', async () => {
     const { LANDMARKS } = await import('../src/world/map')
     expect(LANDMARKS.length).toBe(4)
+    for (const kind of ['aziza', 'kitsune', 'sylph', 'banshee']) {
