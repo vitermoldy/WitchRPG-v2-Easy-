@@ -22,3 +22,4 @@ Ekspor GLB berisi tulang dan lima animasi. Nama animasi cukup mengandung kata in
 | Triceps (tiga kepala) | `monster_triceps.glb` | Bagian 1, no. 6 |
 | Cracovia (monster Kraków) | `monster_cracovia.glb` | Bagian 1, no. 9 |
 | Hippocentaurus (Centaurus aneh) | `monster_hippocentaurus.glb` | Bagian 1, no. 7 |
+| Manticore | `monster_manticore.glb` | Bagian 2, Manticore |
