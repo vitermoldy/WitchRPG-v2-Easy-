@@ -1433,6 +1433,8 @@ export class Rigs {
       if (glow) m.emissive.add(glow)
       if (flash) m.emissive.add(this.ember.setRGB(flash, flash * 0.85, flash * 0.75))
     })
+  }
+
   /** How far below its feet a unit is drawn while it rises out of a pool, sinks in, or turns to ash. */
   private sink(u: Unit): number {
     if (u.state === 'rising') {
