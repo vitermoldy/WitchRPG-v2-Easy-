@@ -240,3 +240,4 @@ COLORS3 = {
 R = "Prompt-3D-Monster-WitchRPG.md"
 ROSTER3 = [
     # no picture of their own on the board: the owner's prompt sheet describes them
+    ("silenus", "Silenus", b_silenus, "Penyundul, pengutuk", "Prajurit", "VI Tanah Ganjil", None),
