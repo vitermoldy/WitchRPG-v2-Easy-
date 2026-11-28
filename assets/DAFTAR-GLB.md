@@ -17,3 +17,4 @@ Ekspor GLB berisi tulang dan lima animasi. Nama animasi cukup mengandung kata in
 | Silvana (wanita liar) | `monster_silvana.glb` | Bagian 1, no. 12 |
 | Leonis (manusia singa) | `monster_leonis.glb` | Bagian 1, no. 13 |
 | Cornutus (Fig. XXVIII) | `monster_cornutus.glb` | Bagian 1, no. 2 |
+| Cacodaemon (naga-iblis bersayap) | `monster_cacodaemon.glb` | Bagian 1, no. 4 dan 18 |
