@@ -1829,6 +1829,7 @@ export const COMBAT = {
  * pack: each camp spawns this many times the creatures it lists (1.5 until 28 Nov 2026, then 2, owner: more
  * spawns). camps: camps of a ground with more than one, times this. roam: one wandering pack per this many
  * metres square of open ground between the grounds (owner: "padat"), of the nearest ground's kind.
+ */
 
 /** v2 open world: falling, and getting up again. */
 export const REVIVE = {
