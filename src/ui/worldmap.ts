@@ -312,6 +312,7 @@ export class WorldMap {
     c.width = c.height = BASE
     c.getContext('2d')!.putImageData(this.baseData!, 0, 0)
     this.base = c
+    return c
     const step = (EXTENT * 2) / BASE
     for (let j = 0; j < BASE; j++) {
       for (let i = 0; i < BASE; i++) {
