@@ -157,6 +157,7 @@ export class WorldMap {
     return this.dlg.open
   }
 
+  /** Zooms by a factor about a point of the view (0 to 1 across and down; the middle by default). */
   open() {
     if (!this.dlg.open) this.dlg.showModal()
     this.renderBosses()
