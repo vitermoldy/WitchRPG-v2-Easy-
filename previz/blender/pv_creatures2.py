@@ -701,3 +701,4 @@ def b_raia(r):
     nk.cone(hc + Vector((0, 0.02, 0.12)), hc + Vector((0, 0.1, 0.62)), 0.13, mat="body", seg=8)
     nk.ell(hc + Vector((0, -0.12, -0.06)), (0.1, 0.05, 0.07), mat="mouth", seg=10, rings=6)
     for k in (1, -1):
+        nk.ell(hc + Vector((0.07 * k, -0.12, 0.07)), 0.032, mat="eye", seg=8, rings=5)
