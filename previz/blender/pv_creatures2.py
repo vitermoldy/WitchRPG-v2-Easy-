@@ -148,3 +148,4 @@ def b_septiceps(r):
                  neck_scale=0.6, body_mat="skin", foot_mat="skin")
     for side, s in (("L", 1), ("R", -1)):
         extra_arm(r, J, side, s, 0.55, (25, 20, 40), H, 1.2)
+    h = r.parts["head"]
