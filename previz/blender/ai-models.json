@@ -6,3 +6,4 @@
   },
   "monster_silenus.glb": {
     "key": "silenus",
+    "rig": "tool"
