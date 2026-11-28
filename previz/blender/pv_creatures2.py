@@ -225,3 +225,4 @@ def b_asmodeus(r):
     """Asmodeus of the Dictionnaire Infernal (prompt no. 15): three heads side by side, a bull's with short horns
     (viewer's left), a scowling bearded king with fangs and a spiked crown breathing rays of fire, and a ram's
     with curled horns; great bat wings; muscular arms; rooster-clawed legs and a coiled serpent tail; astride a
+    crouching scaly beast with heavy clawed paws and a snarling lion face."""
