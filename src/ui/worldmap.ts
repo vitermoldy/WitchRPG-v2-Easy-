@@ -357,6 +357,7 @@ export class WorldMap {
       } else {
         zoneWeights(mx, my, w)
         for (let k = 0; k < w.length; k++) {
+          r += tones[k][0] * w[k]
         }
         const o = (j * BASE + i) * 4
         img.data[o] = Math.min(255, r)
