@@ -508,3 +508,4 @@ def b_satyr(r):
     for side, a, b in (("L", V(J["hip"]) + Vector((J["hw"], 0, 0)), J["knee_L"]), ("R", V(J["hip"]) + Vector((-J["hw"], 0, 0)), J["knee_R"])):
         fur_on(r.parts["thigh_" + side], a, b, 10, 0.075)
         fur_on(r.parts["shin_" + side], J["knee_" + side], J["ankle_" + side], 6, 0.05)
+    r.parts["pelvis"].ell(V(J["hip"]) + Vector((0, 0.02, 0.0)), (0.15, 0.12, 0.11), mat="fur")
