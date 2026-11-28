@@ -51,3 +51,4 @@ def lion_face(part, at, fwd=(0, -1, 0), s=1.0, mat="body", mane_mat="body2", man
     """A lion's face as the engravings draw it: round skull, short broad muzzle, flat nose, small round
     ears, and a ring of mane (mane scales its length; 0 for none)."""
     a, F = V(at), Vector(fwd).normalized()
+    side = F.cross(UP).normalized()
