@@ -68,3 +68,4 @@ def lion_face(part, at, fwd=(0, -1, 0), s=1.0, mat="body", mane_mat="body2", man
     if mane > 0:
         n = 18
         for i in range(n):
+            ang = 2 * math.pi * i / n
