@@ -308,6 +308,7 @@ export function zoneWeights(x: number, y: number, out: Float32Array<ArrayBufferL
     // a slow wobble per zone, so the borders wander instead of running as smooth arcs; added, not multiplied,
     // so far from every centre it cannot flip a zone into an island
     out[i] = dx * dx + dy * dy + 0.7 * fbm(x / 520, y / 520, 2, 41 + i * 17)
+    if (z.south !== undefined && y < z.south) out[i] += ((z.south - y) / (120 * SCALE)) ** 2
     sum += out[i]
   }
   for (let i = 0; i < ZONES.length; i++) out[i] /= Math.max(sum, 1e-9)
