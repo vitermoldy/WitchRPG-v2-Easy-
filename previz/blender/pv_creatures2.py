@@ -528,3 +528,4 @@ def b_cracovia(r):
     hc = V(J["head_c"]) + Vector((0, 0, 0.03))
     s = head_ball(h, hc, H, "skin", k=1.2)
     h.ell(hc + Vector((0, 0.02, 0.06)), (0.11 * s, 0.11 * s, 0.1 * s), mat="skin")
+    for k in (1, -1):
