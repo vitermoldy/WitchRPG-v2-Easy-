@@ -171,3 +171,4 @@ def b_septiceps(r):
         elif kind == "mask":
             h.ell(hc + Vector((0, 0.04, 0.08)), (0.15, 0.15, 0.12), mat="hair")
             h.ell(hc + Vector((0, -0.13, 0.0)), (0.13, 0.03, 0.15), mat="mask")
+        elif kind == "scream":
