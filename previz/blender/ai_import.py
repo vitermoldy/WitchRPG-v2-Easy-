@@ -113,3 +113,4 @@ clips = [a.name for a in bpy.data.actions]
 # the far shadow army: rest pose, no bones, about a fifth of the triangles
 for a in arms:
     a.data.pose_position = "REST"
+for ob in bpy.context.scene.objects:
