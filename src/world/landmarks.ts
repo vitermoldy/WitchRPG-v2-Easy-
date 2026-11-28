@@ -113,3 +113,4 @@ export class Landmarks {
       mesh.setColorAt(i, e.c)
     })
     mesh.receiveShadow = true
+    this.group.add(mesh)
