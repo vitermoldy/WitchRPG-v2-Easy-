@@ -371,6 +371,7 @@ export class WorldMap {
       img[o] = Math.min(255, r)
       img[o + 1] = Math.min(255, gg)
       img[o + 2] = Math.min(255, b)
+      img[o + 3] = 255
     }
     ctx.putImageData(img, 0, 0)
     this.base = c
