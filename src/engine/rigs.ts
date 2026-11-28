@@ -859,6 +859,7 @@ const poseRaia: PoseFn = (p, u, t) => {
   p.rot('head', 6 * Math.sin(t * 2 + u.id))
 }
 
+/** Buer: stands on two of its five legs; rolls on them like a wheel when it moves and when it charges. */
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   griffin: poseBeast,
   hippogriff: poseBeast,
