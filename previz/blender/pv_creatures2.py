@@ -543,3 +543,4 @@ def b_cracovia(r):
         dog_head(r.parts["forearm_" + side], V(J["el_" + side]) + Vector((0.07 * s_, 0.0, 0)), fwd=(s_, -0.2, 0.0), s=0.38, jaw_open=10, ears=True, teeth=False, mat="dog")
         dog_head(r.parts["shin_" + side], V(J["knee_" + side]) + Vector((0, -0.1, 0.0)), fwd=(0, -1, 0.0), s=0.4, jaw_open=10, ears=True, teeth=False, mat="dog")
         claws(r.parts["hand_" + side], J["wr_" + side], J["hand_dir_" + side], n=4, length=0.1)
+        ft = r.parts["foot_" + side]
