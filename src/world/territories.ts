@@ -33,3 +33,5 @@ export interface Territory {
 }
 
 /** zone: where it may stand; at: a fixed centre; maxY: its centre lies south of this map y. */
+type Plan = Omit<Territory, 'c' | 'wave'> & { zone: Zone['key']; at?: [number, number]; maxY?: number }
+
