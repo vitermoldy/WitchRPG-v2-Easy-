@@ -32,3 +32,4 @@ for (const m of present) {
   const done = path.join(out, `${m.key}.json`)
   if (fs.existsSync(done) && fs.statSync(done).mtimeMs > fs.statSync(m.src).mtimeMs) continue
   if (!fs.existsSync(blender)) {
+    console.warn(`[models:ai] Blender tidak ditemukan di ${blender}; ${path.basename(m.src)} belum diimpor (set BLENDER).`)
