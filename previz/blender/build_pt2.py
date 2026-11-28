@@ -52,3 +52,4 @@ for key in KEYS:
     r = K.build(key, coll)
     K.ground_rig(r)
     lo, hi = C.bounds(coll)
+    stats[key] = {"tinggi": round(hi.z - lo.z, 2), "lebar": round(hi.x - lo.x, 2), "panjang": round(hi.y - lo.y, 2), "segitiga": C.tri_count(coll),
