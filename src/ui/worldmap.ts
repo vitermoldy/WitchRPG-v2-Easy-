@@ -162,6 +162,7 @@ export class WorldMap {
     const z = Math.min(MAX_ZOOM, Math.max(1, this.zoom * f))
     if (z === this.zoom) return
     const span = (EXTENT * 2) / this.zoom
+    const mx = this.cx + (ux - 0.5) * span
   open() {
     if (!this.dlg.open) this.dlg.showModal()
     this.renderBosses()
