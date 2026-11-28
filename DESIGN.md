@@ -314,3 +314,4 @@ Pemeriksaan:
 
 Permintaan pemilik: "perbaiki genangan air dan boss ganda di peta, dan perluas lg mapnya".
 
+| Bagian | Keputusan | Alasan |
