@@ -49,3 +49,4 @@ def wild_hair(part, hc, s, n=16, length=0.3, mat="hair", up=0.4):
 
 def lion_face(part, at, fwd=(0, -1, 0), s=1.0, mat="body", mane_mat="body2", mane=1.0, jaw_open=12):
     """A lion's face as the engravings draw it: round skull, short broad muzzle, flat nose, small round
+    ears, and a ring of mane (mane scales its length; 0 for none)."""
