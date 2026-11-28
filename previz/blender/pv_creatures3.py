@@ -73,3 +73,4 @@ def b_aquilon(r):
 
 
 def b_duyung(r):
+    """The mermaid: long dark hair falling over her chest, pale skin, a dark scaled fish tail with a fan."""
