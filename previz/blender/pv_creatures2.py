@@ -637,3 +637,4 @@ def b_leonis(r):
     tail_tube(tl, pts, 0.035, 0.02, mat="skin")
     for s, side in SIDES:
         A = V(J["ankle_" + side])
+        for a in (-0.04, -0.015, 0.015, 0.04):
