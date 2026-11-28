@@ -366,3 +366,5 @@ Permintaan pemilik: "isi selatannya dengan daerah tambahan", lalu "perbanyak spa
 
 Pemeriksaan: tes 126 dari 126 lulus (tes baru: selatan, tempat dan altarnya, pengembara di luar daerah dengan jenis dan level daerah terdekat), build bersih. Di game: daerah Aziza, Kitsune, Sylph, Banshee, Imp, dan Hellhound hanya memunculkan jenisnya; keempat tempat tampil; pengembara bangun di dekatnya dan bergeser 15 sampai 23 m dalam 9 dtk. Performa (1080p, RTX, tiga run): titik awal 7,5 sampai 9,3 ms, Kuil 6,8 sampai 6,9, 200 bayangan 8,5 sampai 9,4; sekitar 1 sampai 1,5 ms di atas sebelumnya karena lebih banyak makhluk di sekitar. Muat 3,2 sampai 3,4 dtk.
 
+### Elite dan varian acak (28 Nov 2026)
+
