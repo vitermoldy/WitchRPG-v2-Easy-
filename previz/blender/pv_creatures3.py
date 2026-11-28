@@ -21,3 +21,4 @@ def b_silenus(r):
     h = r.parts["head"]
     hc = V(J["head_c"])
     s = K2.head_ball(h, hc, H, "skin", k=1.15)
+    face(h, hc, H * 1.15)
