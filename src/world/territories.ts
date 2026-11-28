@@ -208,3 +208,4 @@ export function campCount(t: Territory) {
   return t.camps > 1 ? Math.ceil(t.camps * CAMP.camps) : t.camps
 }
 
+/**
