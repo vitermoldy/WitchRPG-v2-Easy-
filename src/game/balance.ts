@@ -1453,6 +1453,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
       { name: 'pusaran', strike: 'ring', windup: 0.6, recover: 0.8, range: 3, ring: 2.2 },
     ],
   },
+  // Banshee: a pale ghost woman; screams along a line from afar, a cold touch up close.
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
