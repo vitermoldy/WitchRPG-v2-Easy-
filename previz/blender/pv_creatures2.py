@@ -662,3 +662,4 @@ def b_marinus(r):
         t.poly([b0, b0 + Vector((0, 0.0, -0.2)), b0 + Vector((0, 0.3, 0.05))], mat="fin")
     h = r.parts["head"]
     hc = V(J["head_c"])
+    s = head_ball(h, hc, H, "skin", k=1.1)
