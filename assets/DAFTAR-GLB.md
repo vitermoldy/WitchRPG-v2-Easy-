@@ -35,3 +35,4 @@ Ekspor GLB polos (tanpa rig dan animasi). Sampai saya rig, makhluk ini bergerak 
 
 | Makhluk | Nama file | Nomor di prompt |
 | --- | --- | --- |
+| Buer | `monster_buer.glb` | Bagian 1, no. 14 |
