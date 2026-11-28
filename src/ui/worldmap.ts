@@ -423,6 +423,7 @@ export class WorldMap {
       const inside = ([cx, cy]: [number, number]) => cx - w / 2 >= 0 && cx + w / 2 <= size && cy - h / 2 >= 0 && cy + h / 2 <= size
       const free = (t: [number, number]) => inside(t) && placed.every(([a, b, c, d]) => t[0] + w / 2 < a || t[0] - w / 2 > c || t[1] + h / 2 < b || t[1] - h / 2 > d)
       // nowhere free: the first spot that stays on the map (an optional label is left out instead)
+      const spot = tries.find(free) ?? (optional ? undefined : (tries.find(inside) ?? tries[0]))
       placed.push([cx - w / 2, cy - h / 2, cx + w / 2, cy + h / 2])
       ctx.lineWidth = 3
       ctx.strokeStyle = 'rgba(12, 8, 9, 0.8)'
