@@ -32,3 +32,4 @@ Game-ready 3D model of [SUBJECT], matching the reference image exactly in shape,
 
 **Negative prompt** (isi di kolom negative prompt kalau tool-nya punya; kalau tidak, tambahkan `Avoid:` lalu daftar ini di akhir prompt)
 
+```text
