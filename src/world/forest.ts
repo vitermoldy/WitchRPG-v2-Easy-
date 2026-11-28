@@ -272,8 +272,7 @@ export class Forest {
   /** Trees placed so far, for the debug readout. */
   count = 0
 
-  constructor(trees: Tree[], visibleRange = 330) {
-    this.trees = trees
+  constructor(obstacles: Obstacles, visibleRange = 330, loadRange = 640) {
     this.visibleRange = visibleRange
     const geos = geometries()
     let verts = 0
