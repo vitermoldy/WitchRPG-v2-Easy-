@@ -3,3 +3,4 @@ the right, like papan-makhluk.png of phase 0.
 
     blender -b --factory-startup -P previz/blender/build_pt2.py -- [--pct 100] [--only satyr,buer] [--views]
 
+--views also renders each block-out from four sides into previz/frames/pt2_<key>.png, for checking shapes."""
