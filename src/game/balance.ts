@@ -1262,6 +1262,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   // Hippocentaurus: the bloated centaur with crossed arms; swings both arms under a circle, kicks behind.
   hippocentaurus: {
     name: 'Hippocentaurus',
+    rank: 'ksatria',
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
