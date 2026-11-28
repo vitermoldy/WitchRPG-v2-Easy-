@@ -52,3 +52,4 @@ export class Landmarks {
           if (rnd() < 0.5) moss.push(m4(p.x, p.y + s * 0.55, p.z, s * 1.2, s * 0.25, s * 0.9, rnd() * 3))
         }
       } else if (l.kind === 'stones') {
+        // a ring of tall standing stones, two of them leaning, a flat altar stone in the middle
