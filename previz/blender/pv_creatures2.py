@@ -549,3 +549,6 @@ def b_cracovia(r):
     tl = r.P("tail", V(J["hip"]) + Vector((0, 0.12, 0)), "pelvis")
     hp = V(J["hip"])
     pts = [hp + Vector((0, 0.12, 0)), hp + Vector((0.15, 0.45, -0.2)), hp + Vector((0.35, 0.65, 0.2)), hp + Vector((0.4, 0.55, 0.9)), hp + Vector((0.25, 0.25, 1.35)), hp + Vector((0.1, -0.05, 1.3)), hp + Vector((0.05, -0.15, 1.15))]
+    tail_tube(tl, pts, 0.05, 0.012, mat="tail")
+
+
