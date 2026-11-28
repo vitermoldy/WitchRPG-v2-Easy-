@@ -350,3 +350,4 @@ def b_cacodaemon(r):
 
 
 def b_cornutus(r):
+    """The horned winged monster (prompt no. 2, Fig. XXVIII): a round grinning cat-like face with small round ears
