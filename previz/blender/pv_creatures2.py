@@ -567,3 +567,4 @@ def b_panotti(r):
         top = root + Vector((0.12 * sd, 0.06, 0.12))
         pts = [root, top, root + Vector((0.3 * sd, 0.12, -0.25)), root + Vector((0.33 * sd, 0.1, -0.8)), root + Vector((0.26 * sd, 0.05, -1.15)), root + Vector((0.16 * sd, 0.0, -1.25))]
         e.tube(pts, [0.03, 0.14, 0.26, 0.27, 0.18, 0.0], mat="ear", seg=12, n=3, squash=0.25)
+        e.tube([p + Vector((0, -0.03, 0)) for p in pts[1:5]], [0.09, 0.18, 0.19, 0.1], mat="ear_in", seg=10, n=3, squash=0.18)
