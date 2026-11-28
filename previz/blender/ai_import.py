@@ -92,3 +92,4 @@ root = bpy.data.objects.new(KEY, None)
 bpy.context.scene.collection.objects.link(root)
 for ob in list(bpy.context.scene.objects):
     if ob is not root and ob.parent is None:
+        ob.parent = root
