@@ -184,3 +184,4 @@ describe('the south and the roaming packs (owner, 28 Nov 2026)', () => {
       expect(steepest(r.c[0], r.c[1]), `pengembara ${r.c}`).toBeLessThan(MOVE.maxSlope)
     }
   })
+})
