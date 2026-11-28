@@ -294,6 +294,7 @@ export class Forest {
         const d = Math.hypot((ix + 0.5) * TILE - x, (iz + 0.5) * TILE - z)
         if (d < this.loadRange) want.push([d, ix, iz])
       }
+    }
     const ids = {} as Record<Kind, number>
     for (const k of Object.keys(geos) as Kind[]) ids[k] = this.mesh.addGeometry(geos[k])
     const m = new THREE.Matrix4()
