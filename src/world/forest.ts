@@ -305,6 +305,7 @@ export class Forest {
     this.cull(x, z)
   }
 
+  private load(ix: number, iz: number) {
     const ids = {} as Record<Kind, number>
     for (const k of Object.keys(geos) as Kind[]) ids[k] = this.mesh.addGeometry(geos[k])
     const m = new THREE.Matrix4()
