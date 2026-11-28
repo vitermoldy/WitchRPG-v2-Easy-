@@ -36,3 +36,4 @@ export class Landmarks {
         const R = 7
         for (let ring = 0; ring < 9; ring++) {
           const n = 14
+          for (let k = 0; k < n; k++) {
