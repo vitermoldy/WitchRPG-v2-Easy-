@@ -230,6 +230,7 @@ export function heightMap(x: number, y: number): number {
   if (swamp > 0) h = h * (1 - swamp) + swamp * (0.35 + 0.9 * fbm(x / 28, y / 28, 3, 3.0))
   // Danau Hitam, with a steep bank so the shore is a line, not a marsh
   const lake = smooth(LAKE.r * 1.05, LAKE.r * 0.85, dist(x, y, LAKE.c))
+  wet = Math.max(wet, lake)
   h = h * (1 - lake) + lake * -7
   // Lembah Bara: a burnt bowl with a rim
   const b = ZONES[4]
