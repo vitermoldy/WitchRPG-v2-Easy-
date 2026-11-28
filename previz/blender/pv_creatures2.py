@@ -235,3 +235,4 @@ def b_asmodeus(r):
     n = r.P("neck", nb, "body")
     n.limb(nb, hp, 0.45, 0.36, mat="body")
     lion_face(n, hp + Vector((0, -0.15, 0)), fwd=(-0.3, -1, -0.15), s=2.6, jaw_open=34, mat="body", mane_mat="body2", mane=0.6)
+    J = humanoid(r, 3.1, bulk=1.3, legs=None, off=(0, -1.0, 0.75), arm_pose={"L": (35, 40, 50), "R": (35, 45, 55)}, neck_scale=0.7, body_mat="skin")
