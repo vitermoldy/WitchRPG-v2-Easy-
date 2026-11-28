@@ -13,3 +13,5 @@ import os
 import sys
 
 import bpy
+from mathutils import Vector
+
