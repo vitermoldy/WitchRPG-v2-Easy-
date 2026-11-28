@@ -242,6 +242,7 @@ export class Camps {
           // left far behind: the pack goes back into the ground until she returns
           for (const u of alive) g.units.remove(u)
           camp.units = []
+          camp.offsets = []
           camp.state = 'idle'
           return
         }
