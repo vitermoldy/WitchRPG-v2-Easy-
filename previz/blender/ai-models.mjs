@@ -24,3 +24,5 @@ for (const [name, info] of files) {
   const src = path.join(assets, name)
   if (fs.existsSync(src)) present.push({ key: info.key, src, turn: info.turn ?? 0 })
 }
+for (const [key, src] of extra) present.push({ key, src: path.resolve(src), turn: 0 })
+
