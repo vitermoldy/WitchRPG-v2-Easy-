@@ -414,7 +414,7 @@ export class WorldMap {
     const label = (text: string, x: number, y: number, gap: number, color: string, optional = false) => {
       const w = ctx.measureText(text).width + 6
       const h = parseFloat(ctx.font.split('px')[0].split(' ').pop() ?? '12') + 4
-      const tries: [number, number][] = [[x, y - gap - h / 2], [x, y + gap + h / 2], [x + gap + w / 2, y], [x - gap - w / 2, y]]
+      // above, below, right, left of the mark, then the same one line further out
       const inside = ([cx, cy]: [number, number]) => cx - w / 2 >= 0 && cx + w / 2 <= size && cy - h / 2 >= 0 && cy + h / 2 <= size
       const free = (t: [number, number]) => inside(t) && placed.every(([a, b, c, d]) => t[0] + w / 2 < a || t[0] - w / 2 > c || t[1] + h / 2 < b || t[1] - h / 2 > d)
       // nowhere free: the first spot that stays on the map
