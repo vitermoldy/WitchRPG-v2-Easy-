@@ -504,3 +504,4 @@ def b_satyr(r):
         h.ell(hc + Vector((0.04 * k, -0.09, 0.03)), (0.016, 0.01, 0.012), mat="eye", seg=8, rings=5)
     beard(h, hc + Vector((0, -0.14, -0.12)), 0.12, 0.035)
     goat_horns(h, hc, s * 1.2, length=0.9)
+    pointed_ears(h, hc, s, length=0.12)
