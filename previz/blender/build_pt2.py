@@ -69,3 +69,4 @@ def board():
     rows = math.ceil(len(KEYS) / cols)
     Wt, Ht = cols * cw, head + rows * ch
     coll = C.collection("papan2", sc.collection)
+    card = C.mat_flat("kartu2", "#1d1a1f", 1.0)
