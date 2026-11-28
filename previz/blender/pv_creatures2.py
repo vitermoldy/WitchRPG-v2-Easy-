@@ -655,3 +655,4 @@ def b_marinus(r):
     tl.poly([tip, tip + Vector((0.05, 0.55, 0.55)), tip + Vector((0.0, 0.25, 0.0)), tip + Vector((0.05, 0.6, -0.35))], mat="fin")
     for i in range(5):
         p0 = lerp(pts[2], pts[5], i / 5)
+        tl.poly([p0 + Vector((0, 0, 0.18)), p0 + Vector((0, 0.35, 0.18)), p0 + Vector((0, 0.15, 0.45))], mat="fin")
