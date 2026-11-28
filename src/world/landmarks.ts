@@ -88,3 +88,4 @@ export class Landmarks {
         }
       }
     }
+    this.add(new THREE.BoxGeometry(1, 1, 1), new THREE.MeshStandardMaterial({ color: '#8a8478', roughness: 0.95 }), stone)
