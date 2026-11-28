@@ -249,3 +249,4 @@ def b_asmodeus(r):
         lg.cone(f, f + Vector((0, 0.18, -0.05)), 0.03, mat="claw", seg=5)
     h = r.parts["head"]
     hc = V(J["head_c"]) + Vector((0, 0, 0.05))
+    head_ball(h, hc, 3.1, "skin")
