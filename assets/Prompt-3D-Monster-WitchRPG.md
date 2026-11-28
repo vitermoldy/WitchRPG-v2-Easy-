@@ -14,3 +14,5 @@ Prompt teks saja tidak akan pernah menghasilkan 3D yang 100% mirip. Kuncinya: se
 4. **Kalau hasilnya melenceng,** generate ulang 2–4 kali, lalu tambah satu kalimat koreksi yang spesifik di akhir prompt, misalnya `The left foot must be a bird talon`. Jangan rombak seluruh prompt.
 5. **Kalau model mau dianimasikan (rigging),** pose netral (A-pose) jauh lebih mudah di-rig, tapi pose jadi tidak sama dengan gambar. Buat dua versi: satu persis seperti gambar untuk ilustrasi, satu A-pose untuk dipakai di game.
 
+## Template universal
+
