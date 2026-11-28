@@ -89,6 +89,7 @@ export const ROAM_DEFS: CampDef[] = (() => {
     }
   }
   return out
+})()
 
 export interface Camp {
   def: CampDef
