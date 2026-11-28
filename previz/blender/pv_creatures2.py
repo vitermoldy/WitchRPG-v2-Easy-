@@ -616,3 +616,6 @@ def b_silvana(r):
         for a in (-0.03, 0.0, 0.03):
             hd.cone(W + d * 0.4 + Vector((a, 0, 0)), W + d * 0.62 + Vector((a * 1.6, -0.04, 0.02)), 0.01, mat="claw", seg=4)
         fur_on(r.parts["shin_" + side], J["knee_" + side], J["ankle_" + side], 9, 0.06)
+    r.parts["pelvis"].ell(V(J["hip"]) + Vector((0, 0, -0.03)), (J["hw"] * 1.8, 0.14, 0.13), mat="fur")
+
+
