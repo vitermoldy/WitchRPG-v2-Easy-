@@ -43,3 +43,5 @@ Ekspor GLB polos (tanpa rig dan animasi). Sampai saya rig, makhluk ini bergerak 
 | Discordia (raksasa alegori) | `monster_discordia.glb` | Bagian 1, no. 1 |
 | Asmodeus | `monster_asmodeus.glb` | Bagian 1, no. 15 |
 | Aries (iblis tanduk domba) | `monster_aries.glb` | Bagian 2, Kepala iblis tanduk domba (badan rancanganmu) |
+| Sylph (roh angin berasap) | `monster_sylph.glb` | Bagian 3, Sylph |
+
