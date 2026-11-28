@@ -915,6 +915,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
       { name: 'nada suling', strike: 'line', windup: 0.7, recover: 0.7, range: 18, minRange: 5, shot: { speed: 26, gravity: 0, radius: 0.2 }, cooldown: 4 },
     ],
   },
+  // Blemmye: no head, the face in its chest; heavy fists under a circle and a shoulder charge along a line.
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
