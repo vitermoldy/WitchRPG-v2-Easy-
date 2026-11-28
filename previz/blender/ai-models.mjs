@@ -52,3 +52,4 @@ const manifest = {}
 for (const m of present) {
   const meta = path.join(out, `${m.key}.json`)
   if (fs.existsSync(meta) && fs.existsSync(path.join(out, `${m.key}.glb`))) manifest[m.key] = JSON.parse(fs.readFileSync(meta, 'utf8'))
+}
