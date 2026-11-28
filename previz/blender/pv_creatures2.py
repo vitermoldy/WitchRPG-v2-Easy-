@@ -258,3 +258,4 @@ def b_asmodeus(r):
     # rays of fire from the king's mouth
     for i in range(5):
         a = math.radians(-24 + 12 * i)
+        o = hc + Vector((0, -0.16, -0.12))
