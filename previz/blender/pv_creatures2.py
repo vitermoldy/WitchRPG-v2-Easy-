@@ -41,3 +41,4 @@ def claws(part, W, d, n=3, length=0.12, r=0.007, spread=0.025):
 
 def wild_hair(part, hc, s, n=16, length=0.3, mat="hair", up=0.4):
     for i in range(n):
+        a = 2 * math.pi * i / n
