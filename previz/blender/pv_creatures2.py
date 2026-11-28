@@ -716,3 +716,4 @@ def b_raia(r):
 COLORS2 = {
     "septiceps": {"skin": ("#c9977a", "#b08066"), "skin2": ("#b98a70", "#a0745c"), "fox": ("#b8582a", "#e8d2b8"), "hair": "#4a3428", "fur": ("#5a4a3c", "#7a6a58"),
                   "cloth": "#e6dcc0", "cloth2": "#7a2a24", "metal": "#c8ccd4", "wood": "#4a3020", "gold": "#c8a040",
+                  "mask": "#f2eee6", "cloth3": "#8a6a3a", "heart": "#a01c22", "page": "#f2ead6", "talon": "#c8a038", "claw": "#2a2420"},
