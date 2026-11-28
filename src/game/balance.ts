@@ -1297,6 +1297,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     lungeSpeed: 20,
     lungeTime: 0.8,
     fly: { height: 6 },
+    strike: 'line',
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
