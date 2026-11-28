@@ -1063,6 +1063,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   // Raia: the ray-dragon; low, fast, lashing dives along a line. A Hex Bolt brings it down.
   raia: {
     name: 'Raia',
+    rank: 'prajurit',
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
