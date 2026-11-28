@@ -245,3 +245,4 @@ def b_asmodeus(r):
         lg.limb(hpr + Vector((0.25 * s, 0, 0)), k, 0.17, 0.13, mat="skin")
         lg.limb(k, f, 0.12, 0.08, mat="scale")
         for ang in (-35, 0, 35):
+            lg.cone(f, f + Vector((math.sin(math.radians(ang)) * 0.25, -math.cos(math.radians(ang)) * 0.25, -0.1)), 0.035, mat="claw", seg=5)
