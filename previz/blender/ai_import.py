@@ -88,3 +88,4 @@ animated = bool(arms) and len(bpy.data.actions) > 0
 lo, hi = mesh_bounds()
 s = height / max(1e-6, hi.z - lo.z)
 centre = Vector(((lo.x + hi.x) / 2, (lo.y + hi.y) / 2, lo.z))
+root = bpy.data.objects.new(KEY, None)
