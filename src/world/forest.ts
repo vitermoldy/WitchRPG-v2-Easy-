@@ -346,6 +346,7 @@ export class Forest {
       const dz = Math.max(tile.z0 - z, 0, z - (tile.z0 + TILE))
       const near = dx * dx + dz * dz < r2
       tile.mesh.visible = near
+      if (!near) continue
     }
   }
 }
