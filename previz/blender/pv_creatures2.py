@@ -360,3 +360,4 @@ def b_cornutus(r):
     h = r.parts["head"]
     hc = V(J["head_c"])
     h.ell(hc, (0.13, 0.12, 0.13), mat="skin")
+    h.ell(hc + Vector((0, -0.08, -0.04)), (0.08, 0.05, 0.05), mat="skin")
