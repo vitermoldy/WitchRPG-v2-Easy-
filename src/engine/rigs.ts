@@ -1386,6 +1386,7 @@ export class Rigs {
   private skin(u: Unit, src: SkinSource, dt: number, glow: THREE.Color | null) {
     let copy = this.skinned.get(u)
     if (!copy) {
+      const root = cloneSkinned(src.scene) as THREE.Group
   /** How far below its feet a unit is drawn while it rises out of a pool, sinks in, or turns to ash. */
   private sink(u: Unit): number {
     if (u.state === 'rising') {
