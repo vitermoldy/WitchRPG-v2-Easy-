@@ -62,6 +62,7 @@ export const LANDMARKS: Landmark[] = [
   { key: 'jamur', name: 'Kebun Jamur', kind: 'mushrooms', c: [1150, -1750], r: 100 },
 ]
 const POND = LANDMARKS[1]
+/** The eastern lobe of the Tebing plateau: a second ellipse of the same cliff. */
 /**
  * Altars: heal, the point she rises at after a fall, and fast travel between the ones already lit
  * (like v1's altar). One by the start, one where the paths split, one on each new zone's path.
