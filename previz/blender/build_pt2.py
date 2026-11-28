@@ -35,3 +35,6 @@ if arg("--only"):
 TMP = os.path.join(C.PREVIZ, "frames")
 os.makedirs(TMP, exist_ok=True)
 t0 = time.time()
+VIEW = {"buer": -35, "raia": -30, "marinus": -60, "asmodeus": -40, "septiceps": -20, "panotti": -25, "blemmye": -20}
+
+
