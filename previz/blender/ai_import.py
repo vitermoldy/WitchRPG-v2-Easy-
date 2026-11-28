@@ -5,3 +5,4 @@
 The model is scaled to the height of the creature's block-out (public/models/<key>.glb), stood with its
 feet on the ground, centred over its feet and turned to face the way the game expects (glTF +Z, Blender
 -Y). A model without bones over the triangle budget is decimated. Writes public/models/ai/<key>.glb
+(with its animation clips when it is rigged), <key>_lod.glb (rest pose, decimated, for the far shadow
