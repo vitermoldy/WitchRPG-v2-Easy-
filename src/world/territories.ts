@@ -213,3 +213,4 @@ export function campCount(t: Territory) {
  * first near the centre, the rest on a ring), each nudged around until it finds ground it can stand on.
  * Deterministic, so the map and the tests see the same camps.
  */
+export function campSpots(t: Territory): [number, number][] {
