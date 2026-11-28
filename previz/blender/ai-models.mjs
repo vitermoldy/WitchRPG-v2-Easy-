@@ -54,3 +54,4 @@ for (const m of present) {
   if (fs.existsSync(meta) && fs.existsSync(path.join(out, `${m.key}.glb`))) manifest[m.key] = JSON.parse(fs.readFileSync(meta, 'utf8'))
 }
 fs.writeFileSync(path.join(out, 'manifest.json'), JSON.stringify(manifest, null, 1))
+// imports whose source is gone are removed, so they do not ship with the game
