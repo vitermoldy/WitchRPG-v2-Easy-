@@ -37,3 +37,4 @@ def b_hippocentaurus(r):
     b.ell((0, 0.1, Q["H"] - 0.4), (0.5, 1.45, 0.62))
     # a massive torso, the arms folded across the chest
     J = humanoid(r, 2.3, bulk=1.6, legs=None, off=(0, -1.35, 0.3), arm_pose={"L": (-35, 40, 55), "R": (-38, 45, 50)}, body_mat="skin")
+    h = r.parts["head"]
