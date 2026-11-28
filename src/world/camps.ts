@@ -22,10 +22,7 @@ export interface CampDef {
 }
 
 /**
- * Hutan Pembuka (Tier I, Lv 1 to 3): Imps and Hellhounds, the first camps along the path north of the
- * start clearing. Tebing Berangin (Tier II, Lv 4 to 6): Harpies and Centaurs on the plateau. Rawa
- * Berkabut (Tier III, Lv 7 to 9): Naga, Minotaurs, and the lairs of Medusa and the Chimera. Levels rise
- * with the distance from the start, inside each zone's band.
+ * Every camp, from the territories (src/world/territories.ts): each kind keeps its camps on its own
  */
 export const CAMP_DEFS: CampDef[] = [
   { c: [-20, -292], pack: { imp: 4 }, levels: [1, 1] },
