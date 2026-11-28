@@ -430,6 +430,7 @@ export class Game implements UnitHost {
     progress('Memanggil Ilyra dan makhluk hutan')
     // models from the owner's image-to-3D tool, imported by `npm run models:ai`, take the place of the block-outs
     const ai: Record<string, { animated: boolean }> = await fetch('./models/ai/manifest.json')
+      .then((r) => (r.ok ? r.json() : {}))
     ])
     this.ilyra = new IlyraModel(ilyra)
     // in first person her body is hidden from the view but still casts its shadow
