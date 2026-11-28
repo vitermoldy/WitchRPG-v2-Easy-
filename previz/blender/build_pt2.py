@@ -108,3 +108,4 @@ def board():
 
 
 def views(key):
+    """Front, side, back and three-quarter of one block-out, side by side."""
