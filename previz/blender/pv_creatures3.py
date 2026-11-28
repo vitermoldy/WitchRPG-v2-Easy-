@@ -151,3 +151,4 @@ def b_aziza(r):
     h = r.parts["head"]
     hc = V(J["head_c"])
     s = K2.head_ball(h, hc, H, "skin", k=1.25)
+    face(h, hc, H * 1.25)
