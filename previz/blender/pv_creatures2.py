@@ -409,3 +409,4 @@ def b_sirena(r):
     hp = V(J["hip"])
     t.tube([V(J["waist"]) + Vector((0, 0, 0.05)), hp + Vector((0, 0, 0.15))], [0.13, 0.15], mat="scale", seg=10, n=1)
     leg = r.P("thigh_L", hp, "pelvis")
+    pts = [hp + Vector((0, 0, 0.12)), hp + Vector((0, 0.02, -0.25)), hp + Vector((0, 0.04, -0.6)), hp + Vector((0, 0.02, -0.82))]
