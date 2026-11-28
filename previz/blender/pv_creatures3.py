@@ -197,3 +197,4 @@ def b_sylph(r):
     tl = r.P("tail", hp, "pelvis")
     for k in range(3):
         a = k * 2.1
+        pts = [hp + Vector((0, 0, 0.1))] + [hp + Vector((0.25 * math.cos(a + t), 0.25 * math.sin(a + t), -0.3 * t)) for t in [0.6, 1.4, 2.2, 3.0]]
