@@ -104,3 +104,6 @@ def board():
                color="#a49c97", rot=(90, 0, 0))
     C.camera(sc, "kamera.papan2", (Wt / 2, -100, -Ht / 2), rot=(90, 0, 0), ortho=Wt, clip=(1, 1000))
     C.render_settings(sc, res=(3840, int(3840 * Ht / Wt)), samples=32, bloom=0.25, vignette=False, transform="Standard")
+    return sc
+
+
