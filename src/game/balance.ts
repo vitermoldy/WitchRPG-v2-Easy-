@@ -1307,6 +1307,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     hp: 52,
     damage: 14,
     speed: 3.2,
+    radius: 0.6,
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
