@@ -499,3 +499,4 @@ def b_satyr(r):
     h = r.parts["head"]
     hc = V(J["head_c"])
     s = head_ball(h, hc, H, "skin", k=1.05)
+    h.limb(hc + Vector((0, -0.05, -0.03)), hc + Vector((0, -0.17, -0.1)), 0.06, 0.035, mat="skin")
