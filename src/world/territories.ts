@@ -215,3 +215,4 @@ export function campCount(t: Territory) {
  */
 export function campSpots(t: Territory): [number, number][] {
   const n = campCount(t)
+  if (n === 0) return []
