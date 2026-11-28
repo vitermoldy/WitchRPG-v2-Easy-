@@ -103,6 +103,7 @@ export class WorldMap {
       const span = (EXTENT * 2) / this.zoom
       this.cx -= ((e.clientX - drag.x) / this.size) * span
       this.cy += ((e.clientY - drag.y) / this.size) * span
+      drag = { x: e.clientX, y: e.clientY }
     $('map-sort').addEventListener('change', () => this.renderMonsters())
     $('map-all').addEventListener('click', () => {
       for (const m of this.monsters()) this.chosen.add(m.kind)
