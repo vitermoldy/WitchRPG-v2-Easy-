@@ -31,3 +31,4 @@ export class Landmarks {
       return { x, z, y: heightMap(mx, my) }
     }
     for (const l of LANDMARKS) {
+      if (l.kind === 'tower') {
