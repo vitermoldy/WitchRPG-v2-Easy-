@@ -136,6 +136,7 @@ export function water(): THREE.Mesh {
   const mat = new THREE.MeshPhongMaterial({ color: '#06090b', specular: '#3a4a52', shininess: 90 })
   const planes = WATER_RECTS.map(([x0, y0, x1, y1]) => {
     const geo = new THREE.PlaneGeometry(x1 - x0, y1 - y0, 1, 1)
+    geo.rotateX(-Math.PI / 2)
   m.name = 'water'
   m.receiveShadow = true
   return m
