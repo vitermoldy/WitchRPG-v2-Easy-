@@ -221,3 +221,4 @@ def b_banshee(r):
     r.parts["torso"].ell(V(J["chest"]), (0.17, 0.12, 0.16), mat="cloth")
 
 
+COLORS3 = {
