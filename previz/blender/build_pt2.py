@@ -116,3 +116,4 @@ def views(key):
     coll = C.collection(f"pandang.{key}.c", sc.collection)
     lo, hi = C.bounds(colls[key])
     size = max(hi.x - lo.x, hi.y - lo.y, hi.z - lo.z) * 1.15
+    for i, rot in enumerate((0, 90, 180, -40)):
