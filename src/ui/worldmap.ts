@@ -425,6 +425,7 @@ export class WorldMap {
       // nowhere free: the first spot that stays on the map (an optional label is left out instead)
       const spot = tries.find(free) ?? (optional ? undefined : (tries.find(inside) ?? tries[0]))
       if (!spot) return
+      const [cx, cy] = spot
       placed.push([cx - w / 2, cy - h / 2, cx + w / 2, cy + h / 2])
       ctx.lineWidth = 3
       ctx.strokeStyle = 'rgba(12, 8, 9, 0.8)'
