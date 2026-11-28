@@ -734,3 +734,4 @@ COLORS2 = {
                 "horn": "#e0d4b8", "claw": "#2a2420", "mouth": "#6a1a16", "nose": "#2a1c16"},
     "satyr": {"skin": ("#c8946a", "#b07c56"), "hair": "#3a2416", "fur": ("#4a3424", "#6a4c34"), "horn": "#5a4a3a", "hoof": "#1e1814", "wood": "#a07840"},
     "cracovia": {"fox": ("#c8642a", "#f0dcc0"), "skin": ("#d8a088", "#c08470"), "dog": ("#8a5a3a", "#e8dccc"), "leg": "#d08030", "web": "#e09848", "tail": ("#3a3030", "#5a4a44"), "claw": "#2a2420",
+                 "glow": "#ff7a2a", "mouth": "#5a1414", "nose": "#2a1a14", "horn": "#efe6d6"},
