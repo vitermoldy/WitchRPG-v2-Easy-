@@ -191,3 +191,5 @@ File: `Screenshot 2026-11-28 114627.png`.
 Turn the attached antique woodcut into a 3D render of the same creature. Keep it 100% identical to the reference in pose, camera angle, proportions, anatomy and every detail; add nothing, remove nothing. Subject: a sea demon with a goat-like demonic head, two long curved horns, pointed fin-like ears, bulging eyes and a wide fanged mouth with long whisker-like barbels. Muscular human torso with a sagging chest, two human arms, spiky fins along the forearms and the back. From the waist down, a long scaly fish tail with small side fins and a forked tail fin, curving up behind. Style: stylized 3D, ivory parchment-colored surfaces with black ink cross-hatching engraved into the texture, like an antique woodcut brought to life. Full body, single character, plain light-grey background, soft studio lighting, ultra-detailed, 4K.
 ```
 
+### 17. Naga dari Ikan Pari (Draco ex Raia)
+
