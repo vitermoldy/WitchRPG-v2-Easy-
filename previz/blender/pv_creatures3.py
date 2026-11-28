@@ -55,3 +55,4 @@ def b_aquilon(r):
     H = 2.4
     J = humanoid(r, H, bulk=1.15, legs="human", arm_pose={"L": (20, 15, 30), "R": (25, 60, 70)}, leg_pose={"L": (10, 8), "R": (-8, 6)},
                  body_mat="skin", shin_mat="armor", foot_mat="armor")
+    h = r.parts["head"]
