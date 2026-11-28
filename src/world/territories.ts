@@ -124,3 +124,4 @@ export function inside(t: Territory, x: number, y: number) {
 
 const WATERS = [LAGOON, MERE]
 
+/** Places every territory: landmarks first, then the big grounds of each zone, then the boss arenas. */
