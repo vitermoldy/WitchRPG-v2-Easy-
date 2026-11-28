@@ -169,6 +169,7 @@ export interface Tree {
 export const TILE = 260
 
 /**
+ * Every tree and rock of one tile (tile ix, iz covers world x from ix * TILE and world z from iz * TILE),
   const out: Tree[] = []
   for (let j = 0; j < n; j++) {
     for (let i = 0; i < n; i++) {
