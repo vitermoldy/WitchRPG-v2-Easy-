@@ -319,3 +319,4 @@ def b_buer(r):
 
 
 def b_cacodaemon(r):
+    """The winged dragon-demon (prompt nos. 4 and 18): a long snouted lizard-dog head with a toothy grin, a curled
