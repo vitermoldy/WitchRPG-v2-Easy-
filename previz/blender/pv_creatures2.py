@@ -126,3 +126,4 @@ def sword(part, W, d, length=1.1, mat="metal"):
     side = d.cross(Vector((0, 1, 0)))
     if side.length < 1e-3:
         side = Vector((1, 0, 0))
+    side.normalize()
