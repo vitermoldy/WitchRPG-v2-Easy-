@@ -376,3 +376,4 @@ def b_cornutus(r):
         t.limb(ch + Vector((a[0], 0, a[1])), ch + Vector((b[0], 0, b[1])), 0.012, 0.012, mat="accent", seg=5, joints=False)
     t.torus(ch + Vector((0, 0.01, -0.13)), 0.05, 0.01, normal=(0, 1, 0), mat="accent", seg=10, rseg=3)
     # the bird's talon on the creature's right (the viewer's left)
+    A = V(J["ankle_R"])
