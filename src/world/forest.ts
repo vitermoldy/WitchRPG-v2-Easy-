@@ -267,6 +267,7 @@ export class Forest {
   private readonly material = new THREE.MeshLambertMaterial({ vertexColors: true })
   private readonly obstacles: Obstacles
   private readonly visibleRange: number
+  /** Tiles whose middle lies within this distance are scattered and collided. */
 
   constructor(trees: Tree[], visibleRange = 330) {
     this.trees = trees
