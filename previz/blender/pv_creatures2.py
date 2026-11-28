@@ -175,3 +175,4 @@ def b_septiceps(r):
             wild_hair(h, hc, s, n=11, length=0.25)
             h.ell(hc + Vector((0, -0.12, -0.07)), (0.05, 0.03, 0.06), mat="mouth")
         else:
+            h.ell(hc + Vector((0, 0.06, -0.02)), (0.13, 0.1, 0.06), mat="hair")
