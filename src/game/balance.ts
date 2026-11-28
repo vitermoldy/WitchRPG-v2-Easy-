@@ -1168,6 +1168,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   },
   // Buer: the wheel of goat legs round a lion's head; rolls at her along a line, kicks with all five up close.
   buer: {
+    name: 'Buer',
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
