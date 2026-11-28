@@ -251,3 +251,4 @@ def b_asmodeus(r):
     hc = V(J["head_c"]) + Vector((0, 0, 0.05))
     head_ball(h, hc, 3.1, "skin")
     face(h, hc, 3.1)
+    h.ell(hc + Vector((0, -0.13, -0.12)), (0.1, 0.06, 0.06), mat="mouth")
