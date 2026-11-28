@@ -1280,6 +1280,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
       { name: 'terjang', strike: 'line', windup: 0.8, recover: 1.2, range: 14, minRange: 5, lungeSpeed: 15, lungeTime: 0.7, cooldown: 5 },
     ],
   },
+  // Aquilon: the eagle-headed warrior on the eastern plateau; circles high and dives spear first along a line.
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
