@@ -1123,6 +1123,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
       { name: 'mata api', strike: 'ring', windup: 1, recover: 0.9, range: 20, minRange: 7, ring: 1.8, shot: { speed: 18, gravity: 6, radius: 0.35 }, cooldown: 5 },
     ],
   },
+  // Tetrachiron: four fists and broad wings; a beating of fists under a circle, a wing gust around it, a charge.
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
