@@ -893,6 +893,7 @@ const poseBuer: PoseFn = (p, u, t) => {
 function eared(base: PoseFn): PoseFn {
   return (p, u, t) => {
     base(p, u, t)
+    if (u.state === 'dead') return
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   griffin: poseBeast,
   hippogriff: poseBeast,
