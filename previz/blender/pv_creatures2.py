@@ -241,3 +241,4 @@ def b_asmodeus(r):
     for s, side in SIDES:
         lg = r.P("rider_leg_" + side, hpr + Vector((0.25 * s, 0, 0)), "pelvis")
         k = hpr + Vector((0.85 * s, -0.4, -0.35))
+        f = hpr + Vector((0.95 * s, -0.1, -1.2))
