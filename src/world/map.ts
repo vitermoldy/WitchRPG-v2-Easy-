@@ -238,6 +238,7 @@ export function heightMap(x: number, y: number): number {
   h += -7 * smooth(b.r * 0.9, b.r * 0.2, db) + 6 * smooth(b.r * 0.7, b.r, db) * smooth(b.r * 1.4, b.r, db)
   // Tanah Ganjil: low rolling hills, and the shallow Marinus lagoon in its west
   const gj = smooth(470 * SCALE, 580 * SCALE, y)
+  if (gj > 0) {
   // the mountain ring that closes the valley
   const ringD = Math.max(Math.abs(x), Math.abs(y))
   if (ringD > 380) {
