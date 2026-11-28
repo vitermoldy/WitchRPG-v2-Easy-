@@ -537,3 +537,4 @@ def b_cracovia(r):
     t = r.parts["torso"]
     for k in (-1, 1):
         dog_head(t, V(J["chest"]) + Vector((0.12 * k, -0.2, 0.05)), fwd=(0.25 * k, -1, 0.0), s=0.42, jaw_open=12, ears=True, teeth=False, mat="fox")
+        t.ell(V(J["waist"]) + Vector((0.07 * k, -0.2, 0.06)), (0.03, 0.015, 0.02), mat="eye", seg=8, rings=5)
