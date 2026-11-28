@@ -110,3 +110,4 @@ def board():
 def views(key):
     """Front, side, back and three-quarter of one block-out, side by side."""
     sc = C.new_scene(f"pandang.{key}")
+    sc.world = C.sky_world(f"latar.{key}", "#2a2d36", "#2a2d36", "#2a2d36", 1.0)
