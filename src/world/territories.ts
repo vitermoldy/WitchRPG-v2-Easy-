@@ -206,3 +206,5 @@ export function campGround(t: Territory, x: number, y: number) {
 export function campCount(t: Territory) {
   if (t.noCamps) return 0
   return t.camps > 1 ? Math.ceil(t.camps * CAMP.camps) : t.camps
+}
+
