@@ -99,3 +99,4 @@ Turn the attached antique woodcut into a 3D render of the same creature. Keep it
 
 File: `Screenshot 2026-11-28 114704.png` (paling jelas, pakai ini). Figur bawah di `114315.png` adalah makhluk yang sama tapi terbalik kiri-kanan; kalau memakai file itu, tukar kata left dan right.
 
+```text
