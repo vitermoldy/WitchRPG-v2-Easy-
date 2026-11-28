@@ -150,3 +150,4 @@ function place(): Territory[] {
     if (!spot) throw new Error(`territory ${plan.key} found no room in ${zone}`)
     margin.set(plan.key, own)
     out.push({ ...rest, c: spot, wave })
+  }
