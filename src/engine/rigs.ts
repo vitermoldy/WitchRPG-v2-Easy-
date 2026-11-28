@@ -889,6 +889,7 @@ const poseBuer: PoseFn = (p, u, t) => {
   else for (let i = 0; i < 5; i++) p.rot('leg' + i, 5 * Math.sin(t * 2 + i * 1.7))
 }
 
+/** Panotti: a biped whose great ears beat forward for the gust and sway as it walks. */
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   griffin: poseBeast,
   hippogriff: poseBeast,
