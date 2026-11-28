@@ -136,3 +136,4 @@ def sword(part, W, d, length=1.1, mat="metal"):
 
 # ---------------------------------------------------------------- the batch
 
+def b_septiceps(r):
