@@ -13,3 +13,5 @@ import time
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 import bpy  # noqa: E402
+from mathutils import Vector  # noqa: E402
+
