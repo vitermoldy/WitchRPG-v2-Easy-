@@ -137,3 +137,5 @@ Turn the attached antique woodcut into a 3D render of the same creature. Keep it
 
 ### 10. Manusia Bertelinga Raksasa (Homo Fanesius auritus)
 
+File: `Screenshot 2026-11-28 114409.png`.
+
