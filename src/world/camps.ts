@@ -41,6 +41,8 @@ export const CAMP_DEFS: CampDef[] = TERRITORIES.flatMap((t) => {
       territory: t.key,
     }
   })
+})
+
 
 export interface Camp {
   def: CampDef
