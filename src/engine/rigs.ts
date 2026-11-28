@@ -950,6 +950,7 @@ const poseWhole: PoseFn = (p, u, t) => {
   if (common(p, u, t, [])) return
   const amp = Math.min(1.2, Math.hypot(u.vel.x, u.vel.z) / Math.max(1, u.speed))
   if (u.state === 'windup') {
+    const k = ease(u.t / (u.atk.windup * u.tempo))
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   griffin: poseBeast,
   hippogriff: poseBeast,
