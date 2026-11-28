@@ -41,3 +41,4 @@ for (const m of present) {
   const line = (run.stdout || '').split('\n').find((l) => l.startsWith('[ai]'))
   if (run.status !== 0 || !line) {
     console.error(`[models:ai] ${m.key} gagal:\n${(run.stderr || run.stdout || '').slice(-2000)}`)
+    failed = true
