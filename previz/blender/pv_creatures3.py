@@ -116,3 +116,4 @@ def b_aries(r):
 def b_manticore(r):
     """A lion beast with a shaggy mane and a lion face, dark ragged feathered wings, and a long scaled tail that ends
     in a small dragon head."""
+    Q = quad(r, 1.7, 2.7, 0.95, 1.0, 0.1, front="paw", hind="paw")
