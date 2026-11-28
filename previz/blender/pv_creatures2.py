@@ -149,3 +149,4 @@ def b_septiceps(r):
     for side, s in (("L", 1), ("R", -1)):
         extra_arm(r, J, side, s, 0.55, (25, 20, 40), H, 1.2)
     h = r.parts["head"]
+    base = V(J["neck"]) + Vector((0, 0.05, 0.05))
