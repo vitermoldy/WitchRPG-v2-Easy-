@@ -182,6 +182,7 @@ export class WorldMap {
   open() {
     if (!this.dlg.open) this.dlg.showModal()
     this.zoom = 1
+    this.cx = this.cy = 0
     this.renderBosses()
     this.renderMonsters()
     this.draw()
