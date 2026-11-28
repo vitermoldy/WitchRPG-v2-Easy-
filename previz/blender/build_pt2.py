@@ -28,3 +28,4 @@ def arg(name, default=None):
     return argv[argv.index(name) + 1] if name in argv else default
 
 
+PCT = int(arg("--pct", "100"))
