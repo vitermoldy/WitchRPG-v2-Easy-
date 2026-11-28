@@ -288,6 +288,7 @@ export class Forest {
     const cx = Math.floor(x / TILE)
     const cz = Math.floor(z / TILE)
     const want: [number, number, number][] = []
+    for (let iz = cz - r; iz <= cz + r; iz++) {
     const ids = {} as Record<Kind, number>
     for (const k of Object.keys(geos) as Kind[]) ids[k] = this.mesh.addGeometry(geos[k])
     const m = new THREE.Matrix4()
