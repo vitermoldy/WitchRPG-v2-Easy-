@@ -185,3 +185,4 @@ def b_kitsune(r):
 
 def b_sylph(r):
     """Sylph (poster, Bagian 3): a dark, wispy spirit of air and smoke; a body that fades into swirling
+    smoke instead of legs."""
