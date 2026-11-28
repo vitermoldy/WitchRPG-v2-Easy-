@@ -131,7 +131,7 @@ export class Atmosphere {
   }
 }
 
-/** Dark, glossy water over the swamp and Danau Hitam. */
+/** Dark, glossy water over the swamp with Danau Hitam, and over the Marinus lagoon: one plane each. */
 export function water(): THREE.Mesh {
   const [x0, y0, x1, y1] = WATER_RECT
   const geo = new THREE.PlaneGeometry(x1 - x0, y1 - y0, 1, 1)
