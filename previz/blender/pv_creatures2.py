@@ -270,3 +270,4 @@ def b_asmodeus(r):
     for s, kind in ((-1, "bull"), (1, "ram")):
         a = hc + Vector((0.42 * s, 0.08, -0.08))
         h.limb(V(J["neck"]) + Vector((0.12 * s, 0, 0)), a, 0.15, 0.12, mat=kind)
+        h.ell(a, (0.17, 0.22, 0.18), mat=kind)
