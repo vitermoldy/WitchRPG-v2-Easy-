@@ -40,3 +40,4 @@ for (const m of present) {
   const run = spawnSync(blender, ['-b', '--factory-startup', '-P', path.join(here, 'ai_import.py'), '--', m.key, m.src, String(m.turn)], { encoding: 'utf8' })
   const line = (run.stdout || '').split('\n').find((l) => l.startsWith('[ai]'))
   if (run.status !== 0 || !line) {
+    console.error(`[models:ai] ${m.key} gagal:\n${(run.stderr || run.stdout || '').slice(-2000)}`)
