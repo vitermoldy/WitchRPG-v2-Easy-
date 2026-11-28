@@ -123,3 +123,4 @@ def b_manticore(r):
     n.limb(nb, hp, 0.4, 0.34)
     K2.lion_face(n, hp + Vector((0, -0.12, 0)), fwd=(0, -1, -0.1), s=1.7, jaw_open=28, mat="body", mane_mat="body2")
     b = r.parts["body"]
+    for s in (1, -1):
