@@ -476,3 +476,4 @@ def b_triceps(r):
     for i in range(7):
         a = math.radians(-60 + 20 * i)
         base = eag + Vector((math.sin(a) * 0.12, 0.06, -0.12))
+        h.cone(base, base + Vector((math.sin(a) * 0.15, 0.08, -0.3)), 0.06, mat="eagle", seg=5)
