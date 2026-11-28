@@ -76,3 +76,4 @@ def lion_face(part, at, fwd=(0, -1, 0), s=1.0, mat="body", mane_mat="body2", man
 
 
 def back_wing(r, name, root, s, kind, span, chord, **kw):
+    """A wing on its own part (wing_L / wing_R), pivoted at its root on the back, so the game can beat it."""
