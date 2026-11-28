@@ -182,3 +182,4 @@ def b_septiceps(r):
     t.torus(V(J["waist"]) + Vector((0, 0, -0.1)), J["sw"] * 0.85, 0.07, mat="cloth", seg=18, rseg=4)
     t.tube([V(J["waist"]) + Vector((J["sw"] * 0.8, -0.2, -0.1)), hp + Vector((J["sw"] * 1.1, -0.45, -0.3)), hp + Vector((J["sw"] * 1.3, -0.4, -0.9))], 0.13, mat="cloth", seg=6, n=3, squash=0.3)
     p = r.parts["pelvis"]
+    p.tube([hp + Vector((0, 0, 0.18)), hp + Vector((0, 0, -0.15)), hp + Vector((0, -0.05, -0.5))], [0.5, 0.54, 0.4], mat="cloth2", seg=12, n=2)
