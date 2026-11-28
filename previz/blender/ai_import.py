@@ -84,3 +84,4 @@ arms = [ob for ob in bpy.context.scene.objects if ob.type == "ARMATURE"]
 for a in arms:
     a.data.pose_position = "REST"
 bpy.context.view_layer.update()
+animated = bool(arms) and len(bpy.data.actions) > 0
