@@ -94,6 +94,8 @@ Peta 5.000 x 5.000 m dengan enam zona; hutan dan medan dimuat bertahap di sekita
 | V Lembah Bara | 13 sampai 15 | Phoenix, mini-boss Manticore |
 | VI Tanah Ganjil (utara) | 16 sampai 18 | Satyr, Silenus, Blemmye, Panotti, Silvana, Leonis, Cornutus, Ravenna, Cacodaemon, Raia, Marinus di lagunanya, Cracovia, Hippocentaurus, Triceps, Tetrachiron, Buer |
 
+Selatan juga punya empat tempat tanpa monster, masing-masing dengan altar: Reruntuhan Menara, Telaga Bunga, Batu Tegak, dan Kebun Jamur. Di tanah kosong antar daerah berkeliaran kawanan pengembara (sekitar satu tiap 150 m) dari jenis daerah terdekat dan level zonanya.
+
 
 ### Boss dunia
 
