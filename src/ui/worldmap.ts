@@ -361,11 +361,7 @@ export class WorldMap {
           gg += tones[k][1] * w[k]
           b += tones[k][2] * w[k]
         }
-        const o = (j * BASE + i) * 4
-        img.data[o] = Math.min(255, r)
-        img.data[o + 1] = Math.min(255, gg)
-        img.data[o + 2] = Math.min(255, b)
-        img.data[o + 3] = 255
+        // light from the north-west: slopes facing it are brighter
       }
     }
     ctx.putImageData(img, 0, 0)
