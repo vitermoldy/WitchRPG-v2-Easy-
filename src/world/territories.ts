@@ -122,3 +122,5 @@ export function inside(t: Territory, x: number, y: number) {
   return d < reach(t, Math.atan2(y - t.c[1], x - t.c[0]))
 }
 
+const WATERS = [LAGOON, MERE]
+
