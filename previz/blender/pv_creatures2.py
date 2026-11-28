@@ -451,3 +451,6 @@ def b_tetrachiron(r):
     p = r.parts["pelvis"]
     fur_on(p, V(J["hip"]) + Vector((J["hw"] * 1.6, 0, 0.1)), V(J["hip"]) + Vector((-J["hw"] * 1.6, 0, 0.1)), 14, 0.12, mat="feather")
     fur_on(r.parts["thigh_L"], V(J["hip"]) + Vector((J["hw"], 0, 0)), J["knee_L"], 8, 0.09, mat="feather")
+    fur_on(r.parts["thigh_R"], V(J["hip"]) + Vector((-J["hw"], 0, 0)), J["knee_R"], 8, 0.09, mat="feather")
+
+
