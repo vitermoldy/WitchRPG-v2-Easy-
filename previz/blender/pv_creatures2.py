@@ -180,3 +180,4 @@ def b_septiceps(r):
     hp = V(J["hip"])
     # the banner of the vices round the waist, over the loincloth
     t.torus(V(J["waist"]) + Vector((0, 0, -0.1)), J["sw"] * 0.85, 0.07, mat="cloth", seg=18, rseg=4)
+    t.tube([V(J["waist"]) + Vector((J["sw"] * 0.8, -0.2, -0.1)), hp + Vector((J["sw"] * 1.1, -0.45, -0.3)), hp + Vector((J["sw"] * 1.3, -0.4, -0.9))], 0.13, mat="cloth", seg=6, n=3, squash=0.3)
