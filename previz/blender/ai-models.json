@@ -58,3 +58,4 @@
   },
   "monster_aquilon.glb": {
     "key": "aquilon",
+    "rig": "tool"
