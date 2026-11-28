@@ -35,6 +35,7 @@ export const ZONES: Zone[] = [
   { key: 'kuil', name: 'Reruntuhan Kuil', tier: 'IV', levels: [10, 12], c: s(40, 330), r: 200 * SCALE, fog: '#8f9096', sight: 210, ground: '#373a33', sky: '#9a9ca4' },
   { key: 'bara', name: 'Lembah Bara', tier: 'V', levels: [13, 15], c: s(330, 330), r: 195 * SCALE, fog: '#d8622c', sight: 230, ground: '#1d1917', sky: '#8a4a34' },
   // the second batch of creatures (owner, 28 Nov 2026): a long band of odd country north of the old valley
+  { key: 'ganjil', name: 'Tanah Ganjil', tier: 'VI', levels: [16, 18], c: s(0, 880), r: 280 * SCALE, rx: 900 * SCALE, south: 520 * SCALE, fog: '#a597bd', sight: 240, ground: '#38322a', sky: '#7e6f98' },
 ]
 
 export const LAKE = { c: [-330, 300] as [number, number], r: 95 }
