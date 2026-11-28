@@ -336,6 +336,7 @@ export class WorldMap {
     const step = (EXTENT * 2) / BASE
     const my = EXTENT - (j + 0.5) * step
     const row = (yy: number) => {
+      const out = new Float32Array(BASE + 2)
         }
         const o = (j * BASE + i) * 4
         img.data[o] = Math.min(255, r)
