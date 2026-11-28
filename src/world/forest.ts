@@ -165,11 +165,7 @@ export interface Tree {
   scale: number
 }
 
-/** Every tree and rock of the map, in world coordinates. Deterministic: the same forest every load. */
-export function scatter(size = 1260, step = 4, seed = 3): Tree[] {
-  const rnd = mulberry32(seed)
-  const n = Math.floor(size / step)
-  const w = new Float32Array(ZONES.length)
+/** Side of one forest tile (m): the forest is scattered, drawn and collided one tile at a time. */
   const out: Tree[] = []
   for (let j = 0; j < n; j++) {
     for (let i = 0; i < n; i++) {
