@@ -917,6 +917,7 @@ function fourArmed(base: PoseFn): PoseFn {
       lift = 30
       wing = -20
     }
+    p.rot('upperarm2_L', lift, 0, 10)
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   griffin: poseBeast,
   hippogriff: poseBeast,
