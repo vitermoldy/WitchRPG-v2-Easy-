@@ -1144,6 +1144,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
       { name: 'terjang', strike: 'line', windup: 0.8, recover: 1.3, range: 14, minRange: 5, lungeSpeed: 16, lungeTime: 0.7, cooldown: 6 },
     ],
   },
+  // Triceps: fox, dragon and eagle heads; dragon fire in front, a poisoned glob from the fox, the eagle's peck.
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
