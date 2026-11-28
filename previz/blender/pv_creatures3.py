@@ -226,3 +226,4 @@ COLORS3 = {
     "kitsune": {"body": ("#d8642a", "#f4e0c8"), "body2": ("#e8782e", "#f8e8d0"), "tip": "#ffffff", "claw": "#2a2420", "mouth": "#5a1a14", "nose": "#1e1410"},
     "sylph": {"smoke": ("#4a5468", "#6a7488"), "smoke2": ("#5a6478", "#8a94a8"), "glow": "#c8e0ff"},
     "banshee": {"skin": "#e4e6ea", "hair": "#141418", "cloth": ("#8a8e96", "#aeb2ba")},
+    "silenus": {"skin": ("#c99a74", "#b38260"), "hair": "#e8e2d8", "fur": ("#5a4632", "#7a6048"), "horn": "#4a3c30", "hoof": "#1e1814"},
