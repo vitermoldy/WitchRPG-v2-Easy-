@@ -732,3 +732,4 @@ COLORS2 = {
                     "leg": "#8a8070", "hoof": "#26201c", "horn": "#3a2e24"},
     "triceps": {"scale": ("#4a5a70", "#9aa8b6"), "fox": ("#c8642a", "#f0dcc0"), "dragon": ("#3e7a3a", "#b8c070"), "eagle": ("#5a3a22", "#f0ece0"), "accent": "#2c4a3e",
                 "horn": "#e0d4b8", "claw": "#2a2420", "mouth": "#6a1a16", "nose": "#2a1c16"},
+    "satyr": {"skin": ("#c8946a", "#b07c56"), "hair": "#3a2416", "fur": ("#4a3424", "#6a4c34"), "horn": "#5a4a3a", "hoof": "#1e1814", "wood": "#a07840"},
