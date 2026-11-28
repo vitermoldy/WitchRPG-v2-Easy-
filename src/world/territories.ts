@@ -175,3 +175,4 @@ function fits(t: Territory, zone: string, own: number, placed: Territory[], marg
     const x = cx + Math.cos(a) * rr
     const y = cy + Math.sin(a) * rr
     if (zoneAt(x, y).key !== zone) return false
+    if (t.minHeight !== undefined && heightMap(x, y) < t.minHeight + 2) return false
