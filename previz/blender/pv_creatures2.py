@@ -440,3 +440,4 @@ def b_tetrachiron(r):
     hc = V(J["head_c"])
     s = head_ball(h, hc, H, "skin", k=1.05)
     face(h, hc, H * 1.05)
+    beard(h, hc + Vector((0, -0.1, -0.11)), 0.2, 0.07)
