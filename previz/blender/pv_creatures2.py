@@ -439,3 +439,4 @@ def b_tetrachiron(r):
     h = r.parts["head"]
     hc = V(J["head_c"])
     s = head_ball(h, hc, H, "skin", k=1.05)
+    face(h, hc, H * 1.05)
