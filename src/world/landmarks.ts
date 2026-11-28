@@ -19,3 +19,4 @@ export class Landmarks {
     const caps: { m: THREE.Matrix4; c: THREE.Color }[] = []
     let seed = 7
     const rnd = () => {
+      seed = (seed * 1664525 + 1013904223) >>> 0
