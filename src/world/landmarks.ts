@@ -28,3 +28,4 @@ export class Landmarks {
       const mx = l.c[0] + Math.cos(a) * r
       const my = l.c[1] + Math.sin(a) * r
       const [x, z] = toWorld(mx, my)
+      return { x, z, y: heightMap(mx, my) }
