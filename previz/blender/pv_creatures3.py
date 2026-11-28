@@ -251,3 +251,5 @@ ROSTER3 = [
     ("kitsune", "Kitsune", b_kitsune, "Rubah ekor sembilan", "Prajurit", "I Hutan Pembuka (selatan)", None),
     ("sylph", "Sylph", b_sylph, "Roh angin, peniup", "Prajurit", "I Hutan Pembuka (selatan)", None),
     ("banshee", "Banshee", b_banshee, "Hantu penjerit", "Prajurit", "I Hutan Pembuka (selatan)", None),
+]
+
