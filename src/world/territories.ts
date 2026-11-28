@@ -196,3 +196,4 @@ export function campGround(t: Territory, x: number, y: number) {
   if (steepest(x, y) > MOVE.maxSlope * 0.6) return false
   const h = heightMap(x, y)
   if (inWaterRect(x, y) && WATER_LEVEL - h > MOVE.maxWade * 0.8) return false
+  if (Math.hypot(x - LAKE.c[0], y - LAKE.c[1]) < LAKE.r * 1.1) return false
