@@ -421,9 +421,7 @@ export class Game implements UnitHost {
     this.telegraphs = new Telegraphs(this.scene, (x, z) => this.height(x, z))
     progress('Menanam hutan')
     await frame()
-    const trees = scatter()
-    addColliders(trees, this.obstacles)
-    this.forest = new Forest(trees)
+    this.forest = new Forest(this.obstacles)
     this.scene.add(this.forest.mesh)
     progress('Memanggil Ilyra dan makhluk hutan')
     const [ilyra, ...creatures] = await Promise.all([
