@@ -44,3 +44,4 @@ def b_hippocentaurus(r):
     beard(h, hc + Vector((0, -0.08, -0.1)), 0.3, 0.1)
     long_hair(h, hc, 2.3, 0.4, 0.09)
     K2.fur_on(r.parts["torso"], V(J["chest"]) + Vector((0, -0.18, 0.15)), V(J["waist"]) + Vector((0, -0.16, -0.1)), 10, 0.07, mat="hair")
+    tl = r.P("tail", Q["tail_base"], "body")
