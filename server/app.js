@@ -23,6 +23,7 @@ const KINDS = new Set(['imp', 'hellhound', 'harpy', 'centaur', 'naga', 'minotaur
   // Easy, Tanah Ganjil (28 Nov 2026)
   'satyr', 'blemmye', 'panotti', 'silvana', 'leonis', 'cornutus', 'sirena', 'cacodaemon', 'raia', 'marinus', 'cracovia', 'tetrachiron', 'triceps', 'buer', 'septiceps', 'asmodeus',
   'silenus', 'hippocentaurus', 'aquilon', 'duyung', 'aries', 'manticore', 'blackdragon',
+  'aziza', 'kitsune', 'sylph', 'banshee'])
 const RANKS = new Set(['prajurit', 'ksatria', 'jenderal', 'marsekal'])
 const STATS = ['hex', 'spr', 'vit', 'agi', 'umb']
 const ALTARS = new Set(['pembuka', 'simpang', 'tebing', 'rawa', 'danau', 'kuil', 'bara'])
