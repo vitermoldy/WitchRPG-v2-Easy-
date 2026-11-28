@@ -147,3 +147,4 @@ function place(): Territory[] {
       const y = Math.round(maxY !== undefined ? maxY - rnd() * (PLAY_HALF + maxY) : z.c[1] + (rnd() * 2 - 1) * z.r * 2.2)
       if (fits({ ...rest, c: [x, y], wave }, zone, own, out, margin)) spot = [x, y]
     }
+    if (!spot) throw new Error(`territory ${plan.key} found no room in ${zone}`)
