@@ -595,3 +595,4 @@ def b_silvana(r):
     """The wild woman (prompt no. 12): a mane of long spiky black hair bursting out round a weary face, a stocky body
     with a round belly, two long rope-like breasts hanging to the thighs (one slung over the shoulder), thin arms
     with long crooked fingers, hairy shins. A grotesque, as in the woodcut."""
+    H = 2.15
