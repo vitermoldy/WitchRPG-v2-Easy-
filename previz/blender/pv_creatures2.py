@@ -484,3 +484,4 @@ def b_triceps(r):
     claws(r.parts["hand_L"], J["wr_L"], J["hand_dir_L"], n=4, length=0.14, r=0.012)
     p = r.parts["pelvis"]
     hp = V(J["hip"])
+    for i in range(7):
