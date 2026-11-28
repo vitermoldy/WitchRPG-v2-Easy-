@@ -394,7 +394,7 @@ export class WorldMap {
       return [px(mx), py(my)] as const
     }
     ctx.imageSmoothingEnabled = true
-    ctx.drawImage(this.baseLayer(), 0, 0, size, size)
+    const src = BASE / this.zoom
 
     // paths
     ctx.strokeStyle = 'rgba(232, 214, 176, 0.75)'
