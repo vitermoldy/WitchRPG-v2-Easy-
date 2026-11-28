@@ -479,6 +479,7 @@ export class WorldMap {
     ctx.font = `600 ${Math.max(10, size / 70)}px Figtree Variable, Figtree, system-ui, sans-serif`
     for (const l of LANDMARKS) {
       const x = px(l.c[0])
+      const y = py(l.c[1])
     // altars: teal diamonds, filled once lit
     const r = Math.max(4, size / 110)
     for (const a of ALTARS) {
