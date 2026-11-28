@@ -101,3 +101,4 @@ export class Landmarks {
     const mesh = new THREE.InstancedMesh(geo, mat, list.length)
     list.forEach((m, i) => mesh.setMatrixAt(i, m))
     mesh.castShadow = true
+    mesh.receiveShadow = true
