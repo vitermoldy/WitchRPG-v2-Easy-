@@ -1242,6 +1242,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   // Silenus: the plump old satyr; butts with his belly under a circle and points a curse onto her from afar.
   silenus: {
     name: 'Silenus',
+    rank: 'prajurit',
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
