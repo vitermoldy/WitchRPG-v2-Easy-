@@ -43,3 +43,4 @@ for (const m of present) {
     console.error(`[models:ai] ${m.key} gagal:\n${(run.stderr || run.stdout || '').slice(-2000)}`)
     failed = true
     continue
+  }
