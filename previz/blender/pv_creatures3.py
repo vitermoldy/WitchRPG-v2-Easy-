@@ -143,3 +143,4 @@ def b_blackdragon(r):
         h.cone(base, base + Vector((math.sin(a) * 0.7, 1.1, 0.9 + 0.3 * math.cos(a))), 0.09, mat="horn", seg=5)
 
 
+def b_aziza(r):
