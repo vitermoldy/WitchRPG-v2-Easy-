@@ -109,3 +109,5 @@ File: `Screenshot 2026-11-28 114323.png`, figur atas.
 
 ```text
 Turn the attached antique woodcut into a 3D render of the same creature. Keep it 100% identical to the reference in pose, camera angle, proportions, anatomy and every detail; add nothing, remove nothing. Subject: a bizarre centaur: a massive, hairy, bearded man's torso with a stern face and arms crossed over the chest, joined directly to the front of a very long, smooth, bloated horse body with no horse neck, standing on thin horse legs with hooves, with a long, wavy, flowing horse tail. Keep the odd, elongated proportions of the woodcut. Style: stylized 3D, ivory parchment-colored surfaces with black ink cross-hatching engraved into the texture, like an antique woodcut brought to life. Full body, single character, plain light-grey background, soft studio lighting, ultra-detailed, 4K.
+```
+
