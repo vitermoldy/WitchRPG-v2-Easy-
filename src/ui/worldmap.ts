@@ -323,6 +323,7 @@ export class WorldMap {
     const j = this.baseRows++
     if (!this.baseData) this.baseData = new ImageData(BASE, BASE)
     if (!this.baseTones) {
+      this.baseTones = ZONES.map((z) => {
     const step = (EXTENT * 2) / BASE
     for (let j = 0; j < BASE; j++) {
       for (let i = 0; i < BASE; i++) {
