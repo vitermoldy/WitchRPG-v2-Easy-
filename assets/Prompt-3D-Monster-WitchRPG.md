@@ -59,3 +59,4 @@ Ini 19 prompt siap tempel (18 monster) untuk 15 file di folder Monster pt2. Ukir
 
 File: `Screenshot 2026-11-28 114251.png`. Kalau tidak butuh dioramanya, hapus kalimat yang diawali `At his feet`.
 
+```text
