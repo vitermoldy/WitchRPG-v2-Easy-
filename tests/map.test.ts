@@ -120,3 +120,4 @@ describe('every creature on its own ground (owner, 28 Nov 2026)', () => {
     }
   })
 
+  it('gives every boss and mini-boss one camp, so the map lists each once', () => {
