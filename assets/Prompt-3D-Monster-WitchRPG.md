@@ -246,3 +246,4 @@ Gambar-gambar ini karya seniman atau studio modern (lukisan digital, poster kaos
 | Centaur pemanah | `z0jfasz4aizd1.jpeg` | a centaur archer: an old man with long white hair and beard, a muscular torso with leather straps and gold armbands, drawing a bow, on a brown horse body with a pale tail |
 | Minotaur | `z0jfasz4aizd1.jpeg` | a minotaur: a muscular bull-headed man with long horns, a leather belt and strap skirt, wrist bands, hooves and a double-headed axe in each hand |
 | Medusa | `z0jfasz4aizd1.jpeg` | Medusa: a green-skinned woman with snakes for hair, a white Greek dress with gold trim and a green snake tail for a lower body |
+| Cyclops | `z0jfasz4aizd1.jpeg` | a cyclops: a huge bald muscular man with one eye, leather straps crossing his chest, a belt with a skull buckle, a loincloth, sandals and a wooden club |
