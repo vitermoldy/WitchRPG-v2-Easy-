@@ -960,6 +960,7 @@ const poseWhole: PoseFn = (p, u, t) => {
     return
   }
   if (u.state === 'stagger') {
+    p.body(-0.05, 8, 9 * Math.sin(t * 3.2))
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   griffin: poseBeast,
   hippogriff: poseBeast,
