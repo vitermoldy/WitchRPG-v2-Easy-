@@ -28,3 +28,4 @@ def goat_horns(part, hc, s, mat="horn", length=1.0, spread=1.0):
                    hc + Vector((0.13 * k * s * spread, 0.2 * s * length, 0.24 * s * length))], [0.03 * s, 0.02 * s, 0.0], mat=mat, seg=6, n=3)
 
 
+def pointed_ears(part, hc, s, mat="skin", length=0.16):
