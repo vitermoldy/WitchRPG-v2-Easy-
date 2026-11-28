@@ -43,3 +43,5 @@ extra limbs, missing limbs, extra heads, extra fingers, changed pose, different 
 | A. Ukiran hidup | Paling setia ke ukiran kayu Monster pt2 (tetap hitam-putih/sepia) | `stylized 3D, ivory parchment-colored surfaces with black ink cross-hatching engraved into the texture, like an antique woodcut brought to life, subtle ink outlines` |
 | B. Dark fantasy realistis | Ukiran kayu yang ingin diberi warna alami | `realistic dark-fantasy creature, lifelike skin, fur, feathers and scales, natural believable colors, cinematic lighting` |
 | C. Ikuti lukisan asli | Gambar berwarna (Bagian 2 dan 3) | `semi-realistic painted fantasy 3D, keep the exact color palette of the reference` |
+| D. Aset RPG stylized | Kalau semua monster ingin seragam gayanya di game | `stylized hand-painted fantasy RPG game asset, slightly exaggerated proportions kept from the reference` |
+
