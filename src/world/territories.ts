@@ -28,3 +28,4 @@ export interface Territory {
   minHeight?: number
   /** Drawn by another system (the Hydra's lair): a name on the map, no camps. */
   noCamps?: boolean
+  /** The outline: two waves around the centre (frequency, amplitude, phase). */
