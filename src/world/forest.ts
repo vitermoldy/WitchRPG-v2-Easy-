@@ -283,6 +283,7 @@ export class Forest {
   }
 
   /** Scatters and collides at most `budget` missing tiles near her, nearest first. */
+  update(x: number, z: number, budget = 1) {
     const ids = {} as Record<Kind, number>
     for (const k of Object.keys(geos) as Kind[]) ids[k] = this.mesh.addGeometry(geos[k])
     const m = new THREE.Matrix4()
