@@ -28,6 +28,7 @@ export const VARIANTS: Partial<Record<UnitKind, Record<string, string>>> = {
   pegasus: { body: '#f4dce6', body2: '#4ac8b0', membrane: '#f8e6ee', accent: '#f0d2de' },
   // the dark blue Cerberus with glowing cyan eyes and mouths, after the blazing hound of the poster,
   cerberus: { body: '#1e2434', collar: '#0e1018', mouth: '#2ad8f0', nose: '#10141c' },
+  // and the Chimera with a red mane and a green snake
 /** Adds a per-instance emissive colour (hit flash, the violet glow of a body that can be raised). */
 function patchGlow(mat: THREE.MeshStandardMaterial) {
   mat.onBeforeCompile = (s) => {
