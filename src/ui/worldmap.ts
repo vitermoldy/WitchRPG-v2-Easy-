@@ -76,6 +76,7 @@ export class WorldMap {
         e.preventDefault()
         this.close()
       } else if (e.code === 'Equal' || e.code === 'NumpadAdd') {
+        e.preventDefault()
       }
     })
     $('map-sort').addEventListener('change', () => this.renderMonsters())
