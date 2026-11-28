@@ -250,6 +250,7 @@ export class Camps {
         if (camp.def.roam && !camp.roused) {
           camp.driftIn = (camp.driftIn ?? 4) - dt
           if (camp.driftIn <= 0) {
+            camp.driftIn = 5 + Math.random() * 6
         // rouse the whole pack when she or a shadow comes close, or one of them is hurt
         if (!camp.roused) {
           const close = (u: Unit) => {
