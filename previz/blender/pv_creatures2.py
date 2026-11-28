@@ -626,3 +626,4 @@ def b_leonis(r):
     H = 2.3
     J = humanoid(r, H, bulk=1.05, legs="human", arm_pose={"L": (18, 15, 25), "R": (15, 30, 40)}, leg_pose={"L": (18, 10), "R": (-12, 6)},
                  body_mat="skin", foot_mat="skin")
+    h = r.parts["head"]
