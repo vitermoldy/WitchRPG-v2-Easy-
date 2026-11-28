@@ -106,3 +106,4 @@ export class Landmarks {
   }
 
   private addColoured(geo: THREE.BufferGeometry, mat: THREE.MeshStandardMaterial, list: { m: THREE.Matrix4; c: THREE.Color }[]) {
+    if (!list.length) return
