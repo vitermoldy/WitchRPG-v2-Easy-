@@ -202,3 +202,4 @@ def b_septiceps(r):
                 lg.cone(f, tip, 0.05, mat="claw", seg=5)
     tl = r.P("tail", hp + Vector((0, 0.3, -0.1)), "pelvis")
     tail_tube(tl, [hp + Vector((0, 0.3, -0.1)), hp + Vector((0.1, 0.9, -0.8)), hp + Vector((0.05, 1.1, -1.8)), hp + Vector((-0.1, 0.9, -2.5))], 0.22, 0.12, mat="fur")
+    fur_on(tl, hp + Vector((0.05, 0.8, -0.6)), hp + Vector((0.0, 1.0, -2.3)), 12, 0.22)
