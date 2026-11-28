@@ -12,3 +12,5 @@ Prompt teks saja tidak akan pernah menghasilkan 3D yang 100% mirip. Kuncinya: se
    - **Jalur B, file model 3D untuk game** (.glb/.fbx/.obj): pakai tool image-to-3D, misalnya Meshy, Tripo, Rodin, atau Hunyuan3D. Di tool ini gambar adalah input utama dan teks hanya pelengkap, jadi pakai Template Model 3D.
 3. **Paling akurat: gabungkan A lalu B.** Ukiran kayu (folder Monster pt2) penuh garis arsiran yang sering membingungkan tool image-to-3D. Render dulu ke gambar 3D tampak depan lewat Jalur A, lalu masukkan hasil render itu ke Jalur B. Kalau tool-nya mendukung multi-view, buat juga tampak samping dan belakang dengan menambah kalimat `side view` atau `back view, same character`.
 4. **Kalau hasilnya melenceng,** generate ulang 2–4 kali, lalu tambah satu kalimat koreksi yang spesifik di akhir prompt, misalnya `The left foot must be a bird talon`. Jangan rombak seluruh prompt.
+5. **Kalau model mau dianimasikan (rigging),** pose netral (A-pose) jauh lebih mudah di-rig, tapi pose jadi tidak sama dengan gambar. Buat dua versi: satu persis seperti gambar untuk ilustrasi, satu A-pose untuk dipakai di game.
+
