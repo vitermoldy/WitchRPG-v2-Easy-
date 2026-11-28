@@ -43,3 +43,4 @@ def log(*a):
 
 
 for ob in list(bpy.data.objects):
+    bpy.data.objects.remove(ob)
