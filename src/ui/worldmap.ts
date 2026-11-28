@@ -480,6 +480,7 @@ export class WorldMap {
     for (const l of LANDMARKS) {
       const x = px(l.c[0])
       const y = py(l.c[1])
+      const q = Math.max(4, size / 120)
     // altars: teal diamonds, filled once lit
     const r = Math.max(4, size / 110)
     for (const a of ALTARS) {
