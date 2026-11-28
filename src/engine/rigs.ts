@@ -1238,6 +1238,7 @@ export interface SkinSource {
 
 type SkinRole = 'idle' | 'walk' | 'attack' | 'hit' | 'die'
 
+interface SkinCopy {
 interface CrowdBatch {
   parts: { geometry: THREE.BufferGeometry; material: THREE.Material; mesh: THREE.InstancedMesh }[]
   cap: number
