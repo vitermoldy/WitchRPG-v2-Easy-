@@ -284,3 +284,4 @@ Poster `images (7).jpg` berisi 35 makhluk kecil, kebanyakan berwujud manusia, bu
 | Djinn | a blue-skinned man with a dark beard, holding a staff topped with a teal crystal, his lower body turning into smoke |
 | Deva | a four-armed golden-skinned deity with a tall ornate golden crown, a blue sash and gold armbands |
 | Swan Maiden | a woman with long brown hair in a gown of white swan feathers, with white swan wings |
+| Thunderbird | a giant eagle with rainbow-colored plumage, wings spread wide |
