@@ -173,6 +173,7 @@ export class WorldMap {
   }
 
   /** Keeps the view on the map. */
+  private clampView() {
   open() {
     if (!this.dlg.open) this.dlg.showModal()
     this.renderBosses()
