@@ -137,3 +137,4 @@ def b_blackdragon(r):
     K.b_dragon(r)
     h = r.parts["head"]
     hc = V(r.parts["neck"].pivot) + Vector((0, -2.6, 2.9))
+    for i in range(9):
