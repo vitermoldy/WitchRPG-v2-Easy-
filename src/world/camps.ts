@@ -72,6 +72,7 @@ export const ROAM_DEFS: CampDef[] = (() => {
       if (steepest(px, py) > MOVE.maxSlope * 0.6) continue
       const zone = zoneAt(px, py).key
       let best: (typeof TERRITORIES)[number] | null = null
+      let bd = Infinity
 
 export interface Camp {
   def: CampDef
