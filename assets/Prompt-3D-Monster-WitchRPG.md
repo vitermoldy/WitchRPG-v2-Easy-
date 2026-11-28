@@ -233,3 +233,4 @@ Gambar-gambar ini karya seniman atau studio modern (lukisan digital, poster kaos
 | Succubus | `167518dd…jpg`, kanan | a succubus: a slender female demon with white hair, curved horns, a dark armored bodysuit, huge bat wings with torn holes and glowing green gems |
 | Lilith | `167518dd…jpg`, panel Lilith | Lilith: a woman with long dark hair in a flowing purple gown, dark bat wings, a red serpentine dragon coiled around her body, holding a red apple |
 | Samael | `167518dd…jpg`, panel Samael | Samael: a fallen angel with long white hair, a bare muscular torso, a red scarf, huge tattered pale wings and one arm raised holding a glowing blade |
+| Hydra laut | `images (1).jpg` | a hydra rising from a small patch of murky green water: several long serpent necks with dark green stripes, each head armored like a fish-dragon with spiky fin crests and fangs, dripping water |
