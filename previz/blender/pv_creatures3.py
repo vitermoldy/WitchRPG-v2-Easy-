@@ -15,3 +15,4 @@ def b_silenus(r):
     """The plump old satyr: small curved horns, a bearded face, a round pot belly, one hand pointing, shaggy goat legs."""
     H = 1.8
     J = humanoid(r, H, bulk=1.35, legs="hoof", arm_pose={"L": (20, 10, 15), "R": (35, 80, 5)}, leg_pose={"L": (10, 15), "R": (-8, 10)},
+                 body_mat="skin", leg_mat="fur", foot_mat="hoof")
