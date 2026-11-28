@@ -87,3 +87,4 @@ const PLANS: Plan[] = [
   { key: 'leonis', name: 'Gua Leonis', kind: 'leonis', zone: 'ganjil', r: 160, levels: [17, 18], camps: 5, pack: 2, elites: 1 },
   { key: 'cornutus', name: 'Tanduk Cornutus', kind: 'cornutus', zone: 'ganjil', r: 160, levels: [17, 18], camps: 5, pack: 2, elites: 1 },
   { key: 'cacodaemon', name: 'Menara Cacodaemon', kind: 'cacodaemon', zone: 'ganjil', r: 160, levels: [17, 18], camps: 5, pack: 2, elites: 1 },
+  { key: 'cracovia', name: 'Rimba Cracovia', kind: 'cracovia', zone: 'ganjil', r: 160, levels: [17, 18], camps: 5, pack: 2, elites: 1 },
