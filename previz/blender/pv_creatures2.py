@@ -512,3 +512,4 @@ def b_satyr(r):
     # the long pipe, from the mouth down past the hands
     m = hc + Vector((0, -0.16, -0.1))
     r.parts["head"].limb(m, m + Vector((0.0, -0.45, -0.55)), 0.018, 0.022, mat="wood", seg=6, joints=False)
+    tl = r.P("tail", V(J["hip"]) + Vector((0, 0.12, 0.05)), "pelvis")
