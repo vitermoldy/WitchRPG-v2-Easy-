@@ -335,6 +335,7 @@ export class WorldMap {
     const w = this.baseW
     const step = (EXTENT * 2) / BASE
     const my = EXTENT - (j + 0.5) * step
+    const row = (yy: number) => {
         }
         const o = (j * BASE + i) * 4
         img.data[o] = Math.min(255, r)
