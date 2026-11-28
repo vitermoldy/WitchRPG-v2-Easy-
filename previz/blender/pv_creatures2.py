@@ -378,3 +378,4 @@ def b_cornutus(r):
     # the bird's talon on the creature's right (the viewer's left)
     A = V(J["ankle_R"])
     ft = r.parts["foot_R"]
+    for ang in (-30, 0, 30):
