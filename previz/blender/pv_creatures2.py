@@ -127,3 +127,4 @@ def sword(part, W, d, length=1.1, mat="metal"):
     if side.length < 1e-3:
         side = Vector((1, 0, 0))
     side.normalize()
+    part.limb(W - d * 0.1, W + d * 0.12, 0.025, 0.025, mat="wood", seg=6, joints=False)
