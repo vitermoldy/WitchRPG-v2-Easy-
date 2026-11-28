@@ -82,3 +82,6 @@ def back_wing(r, name, root, s, kind, span, chord, **kw):
         bat_wing(w, root, s, span, chord, **kw)
     else:
         feather_wing(w, root, s, span, chord, **kw)
+    return w
+
+
