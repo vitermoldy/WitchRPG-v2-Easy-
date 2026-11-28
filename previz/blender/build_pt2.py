@@ -89,3 +89,4 @@ def board():
             C.text(coll, "model dari pemilik menyusul", (x0 + 2.3, 0, z0 - 2.4), size=0.26, color="#8f8a86", align="CENTER", rot=(90, 0, 0))
         lc = colls[k]
         lo, hi = C.bounds(lc)
+        rot = VIEW.get(k, -40)
