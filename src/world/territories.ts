@@ -55,3 +55,4 @@ const PLANS: Plan[] = [
   { key: 'aquilon', name: 'Puncak Aquilon', kind: 'aquilon', zone: 'tebing', r: 95, levels: [5, 6], camps: 4, pack: 2, elites: 1, minHeight: PLATEAU },
   // III Rawa Berkabut (Lv 7 to 9)
   { key: 'hydra', name: 'Danau Hitam', kind: 'hydra', zone: 'rawa', at: LAKE.c, r: LAKE.r, levels: [10, 10], camps: 0, pack: 0, noCamps: true, boss: true },
+  { key: 'duyung', name: 'Telaga Duyung', kind: 'duyung', zone: 'rawa', at: MERE.c, r: 150, levels: [8, 9], camps: 5, pack: 2, elites: 1 },
