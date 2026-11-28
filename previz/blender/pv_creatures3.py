@@ -208,3 +208,4 @@ def b_banshee(r):
     J = humanoid(r, H, bulk=0.75, legs=None, female=True, arm_pose={"L": (25, 40, 30), "R": (30, 55, 45)}, body_mat="skin")
     h = r.parts["head"]
     hc = V(J["head_c"])
+    K2.head_ball(h, hc, H, "skin")
