@@ -227,3 +227,4 @@ def b_asmodeus(r):
     with curled horns; great bat wings; muscular arms; rooster-clawed legs and a coiled serpent tail; astride a
     crouching scaly beast with heavy clawed paws and a snarling lion face."""
     Q = quad(r, 2.1, 4.0, 1.6, 1.55, 0.17, front="paw", hind="paw", body_mat="body")
+    b = r.parts["body"]
