@@ -24,3 +24,4 @@ import pv_shots as S  # noqa: E402
 argv = sys.argv[sys.argv.index("--") + 1:] if "--" in sys.argv else []
 
 
+def arg(name, default=None):
