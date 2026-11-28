@@ -233,3 +233,5 @@ export function campSpots(t: Territory): [number, number][] {
     if (spot) out.push(spot)
   }
   return out
+}
+
