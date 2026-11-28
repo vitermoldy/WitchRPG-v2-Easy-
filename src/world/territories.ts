@@ -58,3 +58,4 @@ const PLANS: Plan[] = [
   { key: 'duyung', name: 'Telaga Duyung', kind: 'duyung', zone: 'rawa', at: MERE.c, r: 150, levels: [8, 9], camps: 5, pack: 2, elites: 1 },
   { key: 'naga', name: 'Rawa Naga', kind: 'naga', zone: 'rawa', r: 180, levels: [7, 8], camps: 7, pack: 3 },
   { key: 'minotaur', name: 'Padang Minotaur', kind: 'minotaur', zone: 'rawa', r: 180, levels: [7, 9], camps: 7, pack: 2, elites: 1 },
+  { key: 'medusa', name: 'Kolam Medusa', kind: 'medusa', zone: 'rawa', r: 100, levels: [9, 9], camps: 1, pack: 1 },
