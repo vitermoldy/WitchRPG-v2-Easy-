@@ -279,3 +279,4 @@ Poster `images (7).jpg` berisi 35 makhluk kecil, kebanyakan berwujud manusia, bu
 | Griffin | a griffin lying down, with a golden eagle head and large brown wings on a lion body |
 | Deer Woman | a woman with long auburn hair, deer ears and large antlers, in a green dress with feathers in her hair |
 | Naga | a crowned four-armed deity seated on a coiled blue-and-white serpent, shaded by a hood of many cobra heads |
+| Xana | a woman with long golden hair in a flowing light-blue dress, floating, holding a small harp |
