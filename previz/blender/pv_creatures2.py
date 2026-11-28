@@ -692,3 +692,4 @@ def b_raia(r):
         w.poly([root_f, tip, back, root_b], mat="membrane")
         for i in range(6):
             a = lerp(root_f, root_b, i / 5)
+            w.tube([a, lerp(a, lerp(tip, back, i / 5), 1.0)], [0.025, 0.004], mat="accent", seg=4, n=1)
