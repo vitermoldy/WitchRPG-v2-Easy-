@@ -1272,6 +1272,7 @@ export function clipRoles(clips: THREE.AnimationClip[]): Partial<Record<SkinRole
     const role = words.find(([, re]) => re.test(clip.name))?.[0]
     if (role && !out[role]) out[role] = clip
   }
+  if (!out.idle && clips.length) out.idle = clips[0]
 interface CrowdBatch {
   parts: { geometry: THREE.BufferGeometry; material: THREE.Material; mesh: THREE.InstancedMesh }[]
   cap: number
