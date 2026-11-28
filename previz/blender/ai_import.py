@@ -18,3 +18,4 @@ from mathutils import Vector
 argv = sys.argv[sys.argv.index("--") + 1:]
 KEY, SRC = argv[0], argv[1]
 TURN = float(argv[2]) if len(argv) > 2 else 0.0
+ROOT = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", ".."))
