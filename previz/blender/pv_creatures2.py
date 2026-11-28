@@ -359,3 +359,4 @@ def b_cornutus(r):
                  body_mat="skin", shin_mat="scale", foot_mat="skin")
     h = r.parts["head"]
     hc = V(J["head_c"])
+    h.ell(hc, (0.13, 0.12, 0.13), mat="skin")
