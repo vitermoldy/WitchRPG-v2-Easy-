@@ -995,6 +995,7 @@ const POSES: Partial<Record<UnitKind, PoseFn>> = {
   aries: biped({ heavy: 0.8, reach: 1, sway: 2 }),
   manticore: poseBeast,
   blackdragon: poseBeast,
+  aziza: poseWinged,
   griffin: poseBeast,
   hippogriff: poseBeast,
   pegasus: poseBeast,
