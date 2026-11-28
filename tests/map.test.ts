@@ -172,3 +172,4 @@ describe('the south and the roaming packs (owner, 28 Nov 2026)', () => {
 
   it('scatters roaming packs over the open ground, of the kind and levels of the nearest ground of their zone', async () => {
     const { ROAM_DEFS } = await import('../src/world/camps')
+    expect(ROAM_DEFS.length).toBeGreaterThan(300)
