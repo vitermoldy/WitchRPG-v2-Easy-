@@ -113,3 +113,4 @@ def fur_on(part, a, b, n, r, mat="fur", out=0.6):
         side = Vector((1, 0, 0))
     side.normalize()
     fwd = axis.cross(side).normalized()
+    for i in range(n):
