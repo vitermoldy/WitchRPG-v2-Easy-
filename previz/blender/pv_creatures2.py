@@ -397,3 +397,4 @@ def b_sirena(r):
     h.cone(hc + Vector((0, -0.02, 0.1)), hc + Vector((0, 0.0, 0.2)), 0.02, mat="horn", seg=5)
     # the wings are the arms: feathers on the arm bones, the hands hidden in the feathers
     for sd, side in SIDES:
+        feather_wing(r.parts["upperarm_" + side], J["sh_" + side] + Vector((0, 0.03, 0)), sd, 1.7, 1.0, raise_deg=10, sweep_deg=8, tilt=60,
