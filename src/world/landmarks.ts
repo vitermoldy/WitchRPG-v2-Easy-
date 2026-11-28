@@ -102,3 +102,4 @@ export class Landmarks {
     list.forEach((m, i) => mesh.setMatrixAt(i, m))
     mesh.castShadow = true
     mesh.receiveShadow = true
+    this.group.add(mesh)
