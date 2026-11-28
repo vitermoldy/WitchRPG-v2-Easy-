@@ -56,3 +56,4 @@ for key in KEYS:
                   "bagian": sum(1 for o in coll.objects if o.type == "MESH")}
     colls[key] = coll
     log(key, stats[key])
+with open(os.path.join(TMP, "makhluk_pt2.json"), "w", encoding="utf-8") as fh:
