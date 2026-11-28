@@ -8,3 +8,5 @@ import { heightMap, LANDMARKS, toWorld, type Landmark } from './map'
  * one InstancedMesh per material for all four, with colliders for what she should not walk through.
  */
 export class Landmarks {
+  readonly group = new THREE.Group()
+
