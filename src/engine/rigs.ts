@@ -772,6 +772,7 @@ function serpentine(base: PoseFn, part: string): PoseFn {
 // ------------------------------------------------------------ Tanah Ganjil (Easy, 28 Nov 2026)
 
 /**
+ * Flyers with wings on their backs (Sirena, Cacodaemon): the wings beat while it hovers, fold back as it
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   griffin: poseBeast,
   hippogriff: poseBeast,
