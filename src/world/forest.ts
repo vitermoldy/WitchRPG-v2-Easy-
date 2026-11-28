@@ -303,6 +303,8 @@ export class Forest {
   prepare(x: number, z: number) {
     this.update(x, z, 1000)
     this.cull(x, z)
+  }
+
     const ids = {} as Record<Kind, number>
     for (const k of Object.keys(geos) as Kind[]) ids[k] = this.mesh.addGeometry(geos[k])
     const m = new THREE.Matrix4()
