@@ -387,3 +387,4 @@ def b_sirena(r):
     """The Monster of Ravenna (prompt no. 3): a slender youth with short hair, a calm face and one small horn on top;
     two large feathered wings grow from the shoulders in place of arms; a Y-shaped mark and a small cross on the
     chest; from the hips down fish scales tapering into a single leg with an eye on the knee and one talon foot."""
+    H = 1.95
