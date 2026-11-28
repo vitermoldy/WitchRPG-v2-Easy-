@@ -153,3 +153,4 @@ def b_aziza(r):
     s = K2.head_ball(h, hc, H, "skin", k=1.25)
     face(h, hc, H * 1.25)
     h.ell(hc + Vector((0, 0.02, 0.04)), (0.06, 0.065, 0.05), mat="hair")
+    for i in range(7):
