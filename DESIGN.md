@@ -341,3 +341,5 @@ Permintaan pemilik: "buat tempat monsternya abstrak, masa sederetan gitu, perlua
 | Daerah acak | 45 daerah ditempatkan acak berbiji tetap di zona masing-masing dengan garis berlekuk (`reach`) dan jarak antar daerah berbeda-beda; beberapa tetap di landmark (Imp di titik awal, Hydra, Atlas, Marinus di laguna, Duyung di telaga). Daerah yang tidak muat mengecil 10% per putaran. 176 kamp | Permintaan pemilik: tidak berderet. |
 | Mesin | Hutan dimuat per petak 260 m di sekitar Ilyra (640 m), medan jauh dibangun bertahap dan tidak digambar lewat 1.300 m, grid segel 16 m, gambar peta (M) diisi di latar saat game tidak dimainkan, zoom peta sampai 8x | Peta 25 kali luas peta asli tanpa muat dan frame lebih berat. |
 
+Pemeriksaan: tes 120 dari 120 lulus, build bersih. Di game: 45 daerah dikunjungi, masing-masing hanya memunculkan jenisnya, tanpa error; ke-7 makhluk baru dan varian elite tampil. Performa berdampingan dengan versi yang ter-commit (peta 1.000 m) di jam yang sama, tiga run: titik awal 6,4 sampai 7,2 ms (lama 6,0 sampai 6,8), Kuil 5,8 sampai 6,0 (lama 5,0 sampai 5,6), 200 bayangan 7,8 sampai 8,0 (lama 7,4 sampai 8,5); muat 2,6 sampai 2,7 dtk, sama.
+
