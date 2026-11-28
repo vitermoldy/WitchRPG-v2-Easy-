@@ -266,3 +266,4 @@ Poster `images (7).jpg` berisi 35 makhluk kecil, kebanyakan berwujud manusia, bu
 | Rainbow Serpent | a coiled serpent with rainbow-colored scales and a spiky frilled head |
 | Siren | a red-haired woman with huge brown bird wings and bird legs with talons, her long hair covering her chest |
 | Lamia | a dark-haired woman with a green crown and a teal armored top, her lower body fading into glowing green mist |
+| Valkyrie | an armored warrior woman in olive-green scale armor and a winged helmet, with a red cape |
