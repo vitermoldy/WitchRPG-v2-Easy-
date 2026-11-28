@@ -728,3 +728,4 @@ COLORS2 = {
                  "horn": "#2e2622", "claw": "#2a2420", "mouth": "#3a0e0a"},
     "sirena": {"sclera": "#f2eee6", "skin": "#e8c8b2", "hair": "#6a3a22", "membrane": ("#f0eee8", "#cfd2d8"), "accent": "#8a96a8", "scale": ("#2f8a86", "#a6d6cc"), "claw": "#2a2420",
                "claw2": "#d8a83a"},
+    "tetrachiron": {"skin": ("#c08a58", "#a87448"), "hair": "#2a1a10", "membrane": ("#5a3e2a", "#8a6a4a"), "accent": "#2e2016", "feather": ("#6a4a30", "#a08060"),
