@@ -212,3 +212,4 @@ def b_septiceps(r):
     lw.ell(W2 + Vector((0, -0.15, -0.05)), (0.09, 0.07, 0.1), mat="heart")
     # upper left (viewer's right): an open book; lower left: a sword hilt at the hip
     W, d = J["wr_L"], J["hand_dir_L"]
+    bk = r.parts["hand_L"]
