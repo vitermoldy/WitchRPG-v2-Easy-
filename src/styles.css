@@ -1830,6 +1830,8 @@ dialog::backdrop {
   touch-action: none;
 }
 
+}
+
 .map-side {
   display: flex;
   flex-direction: column;
