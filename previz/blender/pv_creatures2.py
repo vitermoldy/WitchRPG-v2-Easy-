@@ -526,3 +526,4 @@ def b_cracovia(r):
                  body_mat="skin", shin_mat="leg", foot_mat="leg")
     h = r.parts["head"]
     hc = V(J["head_c"]) + Vector((0, 0, 0.03))
+    s = head_ball(h, hc, H, "skin", k=1.2)
