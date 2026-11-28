@@ -24,3 +24,4 @@ describe('the forest, one tile at a time (5000 m map)', () => {
 
   it('keeps trees off the paths and the clearings, and leaves tiles past the terrain empty', () => {
     const [hx, hz] = toWorld(SPOTS.hero[0], SPOTS.hero[1])
+    const trees = scatterTile(Math.floor(hx / TILE), Math.floor(hz / TILE))
