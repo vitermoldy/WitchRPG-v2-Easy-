@@ -173,3 +173,4 @@ function fits(t: Territory, zone: string, own: number, placed: Territory[], marg
     const a = (i / 12) * Math.PI * 2
     const rr = i === 12 ? 0 : reach(t, a)
     const x = cx + Math.cos(a) * rr
+    const y = cy + Math.sin(a) * rr
