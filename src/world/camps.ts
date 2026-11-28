@@ -99,6 +99,7 @@ export interface Camp {
   units: Unit[]
   respawnAt: number
   roused: boolean
+  /** A roaming pack: where its members stand around the pack's centre, and when the centre moves next. */
 }
 
 const STONES = 7
