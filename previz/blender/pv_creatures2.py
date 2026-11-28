@@ -272,3 +272,4 @@ def b_asmodeus(r):
         h.limb(V(J["neck"]) + Vector((0.12 * s, 0, 0)), a, 0.15, 0.12, mat=kind)
         h.ell(a, (0.17, 0.22, 0.18), mat=kind)
         h.limb(a + Vector((0, -0.12, -0.02)), a + Vector((0.04 * s, -0.42, -0.1)), 0.13, 0.1, mat=kind)
+        h.ell(a + Vector((0.04 * s, -0.43, -0.1)), (0.1, 0.06, 0.08), mat="nose")
