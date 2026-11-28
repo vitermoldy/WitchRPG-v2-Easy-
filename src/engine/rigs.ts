@@ -1311,6 +1311,8 @@ export class Rigs {
   /** Kinds drawn from a rigged, animated GLB: one skinned copy per unit, its clips picked by the unit's state. */
   private readonly skins: Partial<Record<UnitKind, SkinSource>>
   private readonly skinned = new Map<Unit, SkinCopy>()
+  private frame = 0
+
     this.group.name = 'units'
     this.models = models
     this.lods = lods
