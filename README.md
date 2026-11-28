@@ -89,6 +89,7 @@ Peta 5.000 x 5.000 m dengan enam zona; hutan dan medan dimuat bertahap di sekita
 | --- | --- | --- |
 | I Hutan Pembuka (selatan) | 1 sampai 3 | Imp, Hellhound, dan di selatan jauh Aziza, Kitsune, Sylph, Banshee |
 | II Tebing Berangin (dataran tinggi timur, dua sayap) | 4 sampai 6 | Harpy, Centaur, Griffin, Hippogriff, Aquilon |
+| III Rawa Berkabut (barat) | 7 sampai 9 | Naga rawa, Minotaur, Duyung di telaganya, mini-boss Medusa dan Chimera; Hydra di Danau Hitam |
 
 ### Boss dunia
 
