@@ -22,3 +22,4 @@ export class Landmarks {
       seed = (seed * 1664525 + 1013904223) >>> 0
       return seed / 4294967296
     }
+    const m4 = (x: number, y: number, z: number, sx: number, sy: number, sz: number, ry = 0, rx = 0) =>
