@@ -369,6 +369,7 @@ export class WorldMap {
       }
       const o = (j * BASE + i) * 4
       img[o] = Math.min(255, r)
+      img[o + 1] = Math.min(255, gg)
     }
     ctx.putImageData(img, 0, 0)
     this.base = c
