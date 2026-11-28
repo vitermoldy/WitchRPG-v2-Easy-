@@ -100,6 +100,7 @@ export class Hud {
   territory(name: string | null, kind: string) {
     if (name === this.territoryKey) return
     this.territoryKey = name
+    if (name) this.message(kind ? `${name}: wilayah ${kind}.` : `${name}. Tidak ada monster di sini.`, 'info')
   /** Screen position of the locked target in pixels, or null when nothing is locked. */
   lock(at: { x: number; y: number } | null) {
     if (!at) {
