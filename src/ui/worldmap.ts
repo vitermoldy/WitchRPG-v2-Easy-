@@ -88,6 +88,7 @@ export class WorldMap {
       'wheel',
       (e) => {
         e.preventDefault()
+        const r = this.canvas.getBoundingClientRect()
     $('map-sort').addEventListener('change', () => this.renderMonsters())
     $('map-all').addEventListener('click', () => {
       for (const m of this.monsters()) this.chosen.add(m.kind)
