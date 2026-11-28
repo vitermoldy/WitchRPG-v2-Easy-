@@ -1259,6 +1259,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
       { name: 'tunjukan kutuk', strike: 'ring', windup: 1, recover: 0.9, range: 16, minRange: 5, ring: 2, damage: 0.8, effect: 'poison', shot: { speed: 12, gravity: 12, radius: 0.35 }, cooldown: 5 },
     ],
   },
+  // Hippocentaurus: the bloated centaur with crossed arms; swings both arms under a circle, kicks behind.
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
