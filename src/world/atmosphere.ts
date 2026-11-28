@@ -138,6 +138,7 @@ export function water(): THREE.Mesh {
     const geo = new THREE.PlaneGeometry(x1 - x0, y1 - y0, 1, 1)
     geo.rotateX(-Math.PI / 2)
     geo.translate((x0 + x1) / 2, 0, -(y0 + y1) / 2)
+    return geo
   m.name = 'water'
   m.receiveShadow = true
   return m
