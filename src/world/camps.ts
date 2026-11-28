@@ -49,6 +49,7 @@ export const CAMP_DEFS: CampDef[] = TERRITORIES.flatMap((t) => {
  * place, clearing and deep water, of the kind and level band of the nearest ground of its zone (bosses and
  * lairs aside). Away from the start clearing, so the first steps stay calm. Deterministic.
  */
+export const ROAM_DEFS: CampDef[] = (() => {
 
 export interface Camp {
   def: CampDef
