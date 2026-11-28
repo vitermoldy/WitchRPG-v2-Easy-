@@ -13,3 +13,4 @@ describe('the forest, one tile at a time (5000 m map)', () => {
     const b = scatterTile(3, -2)
     expect(a.length).toBeGreaterThan(50)
     expect(b).toEqual(a)
+    // every tree stands inside its own tile
