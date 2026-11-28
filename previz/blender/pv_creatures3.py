@@ -139,3 +139,4 @@ def b_blackdragon(r):
     hc = V(r.parts["neck"].pivot) + Vector((0, -2.6, 2.9))
     for i in range(9):
         a = math.radians(-70 + 17.5 * i)
+        base = hc + Vector((math.sin(a) * 0.45, 0.35, 0.35))
