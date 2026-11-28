@@ -237,3 +237,4 @@ COLORS3 = {
     "blackdragon": {"body": ("#1c1a1e", "#3a343a"), "membrane": "#2a242c", "accent": "#0e0c10", "horn": "#cfc6b4", "mouth": "#7a1a10"},
 }
 
+R = "Prompt-3D-Monster-WitchRPG.md"
