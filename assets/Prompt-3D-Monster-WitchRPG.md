@@ -292,3 +292,5 @@ Poster `images (7).jpg` berisi 35 makhluk kecil, kebanyakan berwujud manusia, bu
 | Aghoy | a spirit woman with long blonde hair in green leafy clothes, holding a wooden staff |
 | La Madremonte | a forest spirit woman covered head to toe in leaves and moss, with a leafy hat, holding a staff |
 
+## File yang dilewati
+
