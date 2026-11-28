@@ -75,3 +75,4 @@ def board():
     C.text(coll, "Kiri: gambar referensi pemilik (assets/Monster pt2). Kanan: block-out 3D yang mengikuti anatomi dan atributnya; warnanya dipilih per makhluk karena referensinya hitam putih.",
            (0.4, 0, -1.45), size=0.26, color="#b9b2ad", rot=(90, 0, 0))
     for i, k in enumerate(KEYS):
+        r_, c_ = divmod(i, cols)
