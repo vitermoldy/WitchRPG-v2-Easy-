@@ -731,3 +731,4 @@ COLORS2 = {
     "tetrachiron": {"skin": ("#c08a58", "#a87448"), "hair": "#2a1a10", "membrane": ("#5a3e2a", "#8a6a4a"), "accent": "#2e2016", "feather": ("#6a4a30", "#a08060"),
                     "leg": "#8a8070", "hoof": "#26201c", "horn": "#3a2e24"},
     "triceps": {"scale": ("#4a5a70", "#9aa8b6"), "fox": ("#c8642a", "#f0dcc0"), "dragon": ("#3e7a3a", "#b8c070"), "eagle": ("#5a3a22", "#f0ece0"), "accent": "#2c4a3e",
+                "horn": "#e0d4b8", "claw": "#2a2420", "mouth": "#6a1a16", "nose": "#2a1c16"},
