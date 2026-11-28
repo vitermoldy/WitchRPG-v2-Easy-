@@ -31,3 +31,4 @@ def b_silenus(r):
 
 def b_hippocentaurus(r):
     """The odd centaur of the woodcut: a hairy bearded torso with crossed arms joined straight onto a long, bloated
+    horse body with no horse neck, thin legs and a long wavy tail."""
