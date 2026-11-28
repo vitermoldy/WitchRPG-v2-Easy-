@@ -66,3 +66,4 @@ const PLANS: Plan[] = [
   { key: 'succubus', name: 'Taman Succubus', kind: 'succubus', zone: 'kuil', r: 95, levels: [10, 12], camps: 5, pack: 2, elites: 1 },
   { key: 'incubus', name: 'Lorong Incubus', kind: 'incubus', zone: 'kuil', r: 95, levels: [11, 12], camps: 5, pack: 2, elites: 1 },
   { key: 'aries', name: 'Lembah Aries', kind: 'aries', zone: 'kuil', r: 95, levels: [11, 12], camps: 5, pack: 2, elites: 1 },
+  { key: 'typhon', name: 'Bukit Typhon', kind: 'typhon', zone: 'kuil', r: 60, levels: [18, 18], camps: 1, pack: 1, boss: true },
