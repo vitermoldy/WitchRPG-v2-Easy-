@@ -64,3 +64,4 @@ export class Landmarks {
         }
         const c = at(l, 0, 0)
         stone.push(m4(c.x, c.y + 0.5, c.z, 3.2, 0.8, 2.0))
+      } else if (l.kind === 'mere') {
