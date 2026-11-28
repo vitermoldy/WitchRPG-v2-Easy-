@@ -115,6 +115,7 @@ export const PATHS: [number, number][][] = [
 PATHS.push(
   [[-142, -1558], [-700, -1500], [-1300, -1460]],
   [[-142, -1558], [-400, -1850], [-640, -2090]],
+  [[-142, -1558], [100, -1750], [250, -1820]],
 export const CLEARINGS: [[number, number], number][] = [
   [SPOTS.hero, 22], [SPOTS.army, 16], [ALTAR, 16], [TEMPLE, 30], [SPOTS.minotaur, 18], [SPOTS.hydra, 20],
   ...ALTARS.slice(1).map((a): [[number, number], number] => [a.c, 12]),
