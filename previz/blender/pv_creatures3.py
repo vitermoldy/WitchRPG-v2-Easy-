@@ -166,3 +166,4 @@ def b_aziza(r):
 
 
 def b_kitsune(r):
+    """Kitsune (poster, Bagian 3): a red-orange fox with nine flame-like tails tipped white."""
