@@ -238,3 +238,4 @@ COLORS3 = {
 }
 
 R = "Prompt-3D-Monster-WitchRPG.md"
+ROSTER3 = [
