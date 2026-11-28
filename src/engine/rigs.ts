@@ -1260,6 +1260,7 @@ function skinRole(u: Unit): SkinRole {
  * (Idle, Walking, Running, Attack, Punch, Hit Reaction, Dying, ...).
  */
 export function clipRoles(clips: THREE.AnimationClip[]): Partial<Record<SkinRole, THREE.AnimationClip>> {
+  const out: Partial<Record<SkinRole, THREE.AnimationClip>> = {}
 interface CrowdBatch {
   parts: { geometry: THREE.BufferGeometry; material: THREE.Material; mesh: THREE.InstancedMesh }[]
   cap: number
