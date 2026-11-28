@@ -724,3 +724,4 @@ COLORS2 = {
     "buer": {"body": ("#c99a50", "#e0c080"), "body2": ("#a8742c", "#d0a050"), "leg": ("#8a7a64", "#a89a82"), "hoof": "#2e2824", "horn": "#efe6d6", "mouth": "#6a1a14", "nose": "#3a2a20"},
     "cacodaemon": {"body": ("#5f6e4e", "#a8b08a"), "body2": "#8a9070", "membrane": ("#45452f", "#6e6a4c"), "accent": "#24241a", "horn": "#d6ccb0", "claw": "#2a2620",
                    "mouth": "#5a1414", "nose": "#1e1e16"},
+    "cornutus": {"skin": ("#9a5a48", "#80483a"), "hair": "#2a1a14", "membrane": ("#8c8c94", "#c8c8d0"), "accent": "#4a4a54", "scale": ("#6a6a40", "#9a9a6a"),
