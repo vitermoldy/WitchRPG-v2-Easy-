@@ -91,3 +91,4 @@ export class Landmarks {
     this.add(new THREE.BoxGeometry(1, 1, 1), new THREE.MeshStandardMaterial({ color: '#8a8478', roughness: 0.95 }), stone)
     this.add(new THREE.BoxGeometry(1, 1, 1), new THREE.MeshStandardMaterial({ color: '#4a6a34', roughness: 1 }), moss)
     this.add(new THREE.CylinderGeometry(0.5, 0.6, 1, 8), new THREE.MeshStandardMaterial({ color: '#e8e0cc', roughness: 0.9 }), stems)
+    this.addColoured(new THREE.IcosahedronGeometry(1, 0), new THREE.MeshStandardMaterial({ color: '#ffffff', roughness: 0.8 }), petals)
