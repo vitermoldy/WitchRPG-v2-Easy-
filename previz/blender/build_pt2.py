@@ -120,3 +120,6 @@ def views(key):
         C.instance(colls[key], coll, loc=(i * size, 0, 0), rot_z=rot)
     C.camera(sc, f"kamera.{key}", (1.5 * size, -100, (hi.z + lo.z) / 2), rot=(90, 0, 0), ortho=4 * size, clip=(1, 1000))
     C.render_settings(sc, res=(1600, 420), samples=16, bloom=0, vignette=False, transform="Standard")
+    return sc
+
+
