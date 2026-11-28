@@ -21,3 +21,4 @@ TURN = float(argv[2]) if len(argv) > 2 else 0.0
 ROOT = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", ".."))
 OUT = os.path.join(ROOT, "public", "models", "ai")
 BLOCKOUT = os.path.join(ROOT, "public", "models", f"{KEY}.glb")
+BOSSES = {"septiceps", "asmodeus", "blackdragon", "manticore"}
