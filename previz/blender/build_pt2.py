@@ -16,3 +16,4 @@ import bpy  # noqa: E402
 from mathutils import Vector  # noqa: E402
 
 import pv_common as C  # noqa: E402
+import pv_creatures as K  # noqa: E402
