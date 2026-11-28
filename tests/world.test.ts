@@ -50,3 +50,4 @@ describe('the forest, one tile at a time (5000 m map)', () => {
 })
 
 describe('the ground, built near her first', () => {
+  it('builds and shows the chunks around a spot at once, and draws nothing past the far edge', () => {
