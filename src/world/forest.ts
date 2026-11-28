@@ -315,6 +315,7 @@ export class Forest {
     }
     const mesh = new THREE.BatchedMesh(list.length, this.verts, 0, this.material)
     mesh.name = 'forest ' + key
+    mesh.castShadow = true
     const ids = {} as Record<Kind, number>
     for (const k of Object.keys(geos) as Kind[]) ids[k] = this.mesh.addGeometry(geos[k])
     const m = new THREE.Matrix4()
