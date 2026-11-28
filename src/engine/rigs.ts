@@ -1387,6 +1387,7 @@ export class Rigs {
     let copy = this.skinned.get(u)
     if (!copy) {
       const root = cloneSkinned(src.scene) as THREE.Group
+      const mats: THREE.MeshStandardMaterial[] = []
   /** How far below its feet a unit is drawn while it rises out of a pool, sinks in, or turns to ash. */
   private sink(u: Unit): number {
     if (u.state === 'rising') {
