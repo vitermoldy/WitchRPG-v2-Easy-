@@ -178,3 +178,4 @@ def b_kitsune(r):
     tb = V(Q["tail_base"])
     for k in range(9):
         a = math.radians(-60 + 15 * k)
+        pts = [tb, tb + Vector((math.sin(a) * 0.25, 0.3, 0.25)), tb + Vector((math.sin(a) * 0.55, 0.55, 0.55 + 0.1 * math.cos(a))), tb + Vector((math.sin(a) * 0.75, 0.6, 0.95))]
