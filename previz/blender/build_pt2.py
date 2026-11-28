@@ -33,3 +33,4 @@ KEYS = [row[0] for row in K2.ROSTER2 + K3.ROSTER3]
 if arg("--only"):
     KEYS = [k for k in KEYS if k in arg("--only").split(",")]
 TMP = os.path.join(C.PREVIZ, "frames")
+os.makedirs(TMP, exist_ok=True)
