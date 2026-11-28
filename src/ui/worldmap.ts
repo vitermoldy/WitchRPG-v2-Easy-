@@ -71,7 +71,7 @@ export class WorldMap {
     $('btn-map-close').addEventListener('click', () => this.close())
     this.dlg.addEventListener('close', () => this.onClose?.())
     this.dlg.addEventListener('keydown', (e) => {
-      if (e.code === 'KeyM' && !(e.target instanceof HTMLSelectElement)) {
+      if (e.target instanceof HTMLSelectElement) return
         e.preventDefault()
         this.close()
       }
