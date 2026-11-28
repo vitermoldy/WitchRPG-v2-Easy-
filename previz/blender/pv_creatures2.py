@@ -243,3 +243,4 @@ def b_asmodeus(r):
         k = hpr + Vector((0.85 * s, -0.4, -0.35))
         f = hpr + Vector((0.95 * s, -0.1, -1.2))
         lg.limb(hpr + Vector((0.25 * s, 0, 0)), k, 0.17, 0.13, mat="skin")
+        lg.limb(k, f, 0.12, 0.08, mat="scale")
