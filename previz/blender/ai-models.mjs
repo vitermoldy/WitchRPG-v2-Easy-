@@ -11,3 +11,4 @@ import { fileURLToPath } from 'node:url'
 const here = path.dirname(fileURLToPath(import.meta.url))
 const root = path.resolve(here, '..', '..')
 const assets = path.join(root, 'assets')
+const out = path.join(root, 'public', 'models', 'ai')
