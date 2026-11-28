@@ -352,6 +352,7 @@ export class WorldMap {
       let b = 0
       if (inWaterRect(mx, my) && h < WATER_LEVEL - 0.3) {
         r = 22
+        gg = 46
         }
         const o = (j * BASE + i) * 4
         img.data[o] = Math.min(255, r)
