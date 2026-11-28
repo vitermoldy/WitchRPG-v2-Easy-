@@ -140,3 +140,6 @@ def b_blackdragon(r):
     for i in range(9):
         a = math.radians(-70 + 17.5 * i)
         base = hc + Vector((math.sin(a) * 0.45, 0.35, 0.35))
+        h.cone(base, base + Vector((math.sin(a) * 0.7, 1.1, 0.9 + 0.3 * math.cos(a))), 0.09, mat="horn", seg=5)
+
+
