@@ -386,6 +386,7 @@ export class WorldMap {
     const ctx = cv.getContext('2d')!
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0)
     this.size = size
+    const span = (EXTENT * 2) / this.zoom
     const at = (wx: number, wz: number) => {
       const [mx, my] = toMap(wx, wz)
       return [px(mx), py(my)] as const
