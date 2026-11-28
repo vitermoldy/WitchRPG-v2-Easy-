@@ -268,3 +268,4 @@ Poster `images (7).jpg` berisi 35 makhluk kecil, kebanyakan berwujud manusia, bu
 | Lamia | a dark-haired woman with a green crown and a teal armored top, her lower body fading into glowing green mist |
 | Valkyrie | an armored warrior woman in olive-green scale armor and a winged helmet, with a red cape |
 | Selkie | a red-haired woman in a grey cloak sitting on a grey sealskin with a seal tail |
+| Mami Wata | a dark-skinned water spirit with a beaded headdress and beaded necklaces, holding a hand mirror, with a green fish tail |
