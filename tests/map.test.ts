@@ -98,3 +98,5 @@ describe('the forest valley', () => {
     expect(heightMap(t.c[0], t.c[1]) - heightMap(0, -280)).toBeGreaterThan(25)
   })
 })
+
+describe('every creature on its own ground (owner, 28 Nov 2026)', () => {
