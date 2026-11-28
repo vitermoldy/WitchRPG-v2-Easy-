@@ -602,3 +602,4 @@ def b_silvana(r):
     hc = V(J["head_c"])
     s = head_ball(h, hc, H, "skin")
     face(h, hc, H)
+    wild_hair(h, hc, s, n=18, length=0.42, up=0.3)
