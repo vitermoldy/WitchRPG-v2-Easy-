@@ -10,6 +10,7 @@ export const CHUNKS = Math.round((HALF * 2) / CHUNK)
 /** Vertex spacing per level of detail (metres) and the distance up to which each is used. */
 const LOD_STEP = [2, 5, 10]
 const LOD_RANGE = [190, 420, Infinity]
+/** Chunks farther than this from the camera are not drawn; the camera's far plane is 1200 m. */
 /** Skirts hang below every chunk edge so neighbours at different detail never show a gap. */
 const SKIRT = 5
 
