@@ -133,3 +133,4 @@ function place(): Territory[] {
     const rnd = rng(SEED + [...plan.key].reduce((s, ch) => (s * 31 + ch.charCodeAt(0)) >>> 0, 7))
     const wave: Territory['wave'] = plan.at
       ? [2, 0.12, rnd() * 6.28, 5, 0.06, rnd() * 6.28]
+      : [2 + Math.floor(rnd() * 2), 0.14 + rnd() * 0.08, rnd() * 6.28, 4 + Math.floor(rnd() * 2), 0.06 + rnd() * 0.06, rnd() * 6.28]
