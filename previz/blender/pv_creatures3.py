@@ -209,3 +209,4 @@ def b_banshee(r):
     h = r.parts["head"]
     hc = V(J["head_c"])
     K2.head_ball(h, hc, H, "skin")
+    face(h, hc, H)
