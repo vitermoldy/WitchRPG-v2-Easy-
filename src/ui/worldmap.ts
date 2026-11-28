@@ -460,6 +460,7 @@ export class WorldMap {
       for (let i = 0; i <= 48; i++) {
         const a = (i / 48) * Math.PI * 2
         const rr = (reach(t, a) / span) * size
+        const ox = x + Math.cos(a) * rr
     // altars: teal diamonds, filled once lit
     const r = Math.max(4, size / 110)
     for (const a of ALTARS) {
