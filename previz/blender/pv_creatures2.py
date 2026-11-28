@@ -754,3 +754,4 @@ ROSTER2 = [
     ("silvana", "Silvana", b_silvana, "Pencakar beracun", "Prajurit", "VI Tanah Ganjil", (R + "114425.png", (20, 10, 480, 780))),
     ("leonis", "Leonis", b_leonis, "Pendekar pedang", "Ksatria", "VI Tanah Ganjil", (R + "114433.png", (60, 15, 520, 715))),
     ("cornutus", "Cornutus", b_cornutus, "Peloncat bertanduk", "Ksatria", "VI Tanah Ganjil", (R + "114307.png", (5, 25, 210, 300))),
+    ("sirena", "Ravenna", b_sirena, "Penukik udara, sayap pengganti lengan", "Prajurit", "VI Tanah Ganjil", (R + "114307.png", (215, 25, 405, 300))),
