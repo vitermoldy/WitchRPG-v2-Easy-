@@ -35,6 +35,7 @@ const MIX: Record<string, [Partial<Record<Kind, number>>, number]> = {
   ganjil: [{ birch: 0.4, pine_warm: 0.25, dead: 0.2, pine: 0.15 }, 1.0],
 }
 
+/** The densest tree mix anywhere (the mountain ring grows 1.1). */
 // ------------------------------------------------------------ geometry
 
 const C = (h: string) => new THREE.Color(h)
