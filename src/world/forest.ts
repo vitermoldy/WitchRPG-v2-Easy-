@@ -262,6 +262,7 @@ export class Forest {
   /** Every tile mesh built so far, under one group for the scene. */
   readonly mesh = new THREE.Group()
   private readonly tiles = new Map<string, Tile>()
+  private readonly geos = geometries()
   private readonly visibleRange: number
 
   constructor(trees: Tree[], visibleRange = 330) {
