@@ -473,3 +473,4 @@ def b_triceps(r):
     eag = nb + Vector((0.3, -0.04, 0.4))
     h.tube([nb + Vector((0.1, 0, 0)), nb + Vector((0.22, -0.02, 0.22)), eag], [0.12, 0.11, 0.1], mat="eagle", seg=8, n=3)
     eagle_head(h, eag + Vector((0, -0.04, 0.05)), fwd=(0.4, -1, 0.0), s=1.1, mat="eagle")
+    for i in range(7):
