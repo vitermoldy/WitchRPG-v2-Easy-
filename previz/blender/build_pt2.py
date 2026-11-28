@@ -57,3 +57,6 @@ for key in KEYS:
     colls[key] = coll
     log(key, stats[key])
 with open(os.path.join(TMP, "makhluk_pt2.json"), "w", encoding="utf-8") as fh:
+    json.dump(stats, fh, indent=1)
+
+
