@@ -6,3 +6,5 @@ Importing this module registers the creatures with pv_creatures (COLORS, ROSTER_
 export_glb.py and build_pt2.py can build them like the first roster."""
 import math
 
+from mathutils import Vector
+
