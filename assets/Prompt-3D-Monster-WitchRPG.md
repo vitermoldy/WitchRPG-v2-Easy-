@@ -79,3 +79,5 @@ File: `Screenshot 2026-11-28 114307.png`, figur kanan atas.
 Turn the attached antique woodcut into a 3D render of the same creature. Keep it 100% identical to the reference in pose, camera angle, proportions, anatomy and every detail; add nothing, remove nothing. Subject: the Monster of Ravenna, a slender androgynous youth with short hair, a calm face and one small horn on top of the head. Two large feathered wings grow from the shoulders in place of arms. A Y-shaped mark and a small cross are carved on the chest. From the hips down the body is covered in overlapping fish scales and tapers into a single leg, with an eye on the knee, ending in one bird-of-prey talon foot. Standing on a small round mound. Style: stylized 3D, ivory parchment-colored surfaces with black ink cross-hatching engraved into the texture, like an antique woodcut brought to life. Full body, single character, plain light-grey background, soft studio lighting, ultra-detailed, 4K.
 ```
 
+### 4. Iblis Bersayap Bermoncong (Fig. XXVI)
+
