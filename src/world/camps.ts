@@ -314,6 +314,7 @@ export class Camps {
     return best
   }
 
+  /** Camps with a stone ring that are cleared now (roaming packs are not counted). */
   get cleared() {
     return this.camps.filter((c) => c.state === 'cleared').length
   }
