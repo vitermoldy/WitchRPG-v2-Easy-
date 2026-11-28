@@ -1368,6 +1368,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   },
   // Dragon Hitam: a boss of the open world at the edge of Lembah Bara (Lv 20); black fire ahead, tail behind, a pounce.
   blackdragon: {
+    name: 'Dragon Hitam',
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
