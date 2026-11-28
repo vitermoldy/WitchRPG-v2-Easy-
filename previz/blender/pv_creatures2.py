@@ -371,3 +371,4 @@ def b_cornutus(r):
                   mat="membrane", tip_mat="accent", arm="membrane")
     t = r.parts["torso"]
     ch = V(J["chest"]) + Vector((0, -0.2, 0.0))
+    for a, b in (((-0.07, 0.2), (0.07, 0.08)), ((0.07, 0.2), (-0.07, 0.08)), ((-0.12, 0.04), (-0.07, -0.06)), ((-0.07, -0.06), (-0.02, 0.04)),
