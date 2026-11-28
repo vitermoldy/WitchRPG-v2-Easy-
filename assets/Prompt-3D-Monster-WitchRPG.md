@@ -211,3 +211,5 @@ Turn the attached antique woodcut into a 3D render of the same creature. Keep it
 
 Tabel ini berisi 34 deskripsi untuk monster di file berwarna. Tempel teks kolom Subject ke `[SUBJECT]` di Template Render atau Template Model 3D, dan pakai gaya C supaya warnanya mengikuti gambar.
 
+Gambar-gambar ini karya seniman atau studio modern (lukisan digital, poster kaos, art game). Makhluk mitologinya milik umum, tapi menyalin desainnya 1:1 untuk game yang dirilis bisa melanggar hak cipta. Paling aman pakai sebagai referensi, lalu ubah sedikit warna, ornamen, atau posenya.
+
