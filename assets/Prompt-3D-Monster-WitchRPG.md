@@ -73,3 +73,5 @@ Turn the attached antique woodcut into a 3D render of the same creature. Keep it
 
 ### 3. Monster Ravenna (Fig. XXVII)
 
+File: `Screenshot 2026-11-28 114307.png`, figur kanan atas.
+
