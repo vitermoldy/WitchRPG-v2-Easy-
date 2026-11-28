@@ -96,3 +96,4 @@ export class Landmarks {
     this.addColoured(cap, new THREE.MeshStandardMaterial({ color: '#ffffff', roughness: 0.6, emissive: '#6a8a9a', emissiveIntensity: 0.5 }), caps)
   }
 
+  private add(geo: THREE.BufferGeometry, mat: THREE.Material, list: THREE.Matrix4[]) {
