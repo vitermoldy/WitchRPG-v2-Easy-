@@ -194,3 +194,4 @@ export function steepest(x: number, y: number) {
 export function campGround(t: Territory, x: number, y: number) {
   if (zoneAt(x, y).key !== zoneAt(t.c[0], t.c[1]).key) return false
   if (steepest(x, y) > MOVE.maxSlope * 0.6) return false
+  const h = heightMap(x, y)
