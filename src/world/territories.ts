@@ -49,3 +49,4 @@ const PLANS: Plan[] = [
   { key: 'banshee', name: 'Kabut Banshee', kind: 'banshee', zone: 'pembuka', maxY: -900, r: 170, levels: [3, 3], camps: 6, pack: 2, elites: 1 },
   // II Tebing Berangin (Lv 4 to 6), all on the plateau and its eastern lobe
   { key: 'harpy', name: 'Puncak Harpy', kind: 'harpy', zone: 'tebing', r: 95, levels: [4, 5], camps: 4, pack: 3, minHeight: PLATEAU },
+  { key: 'centaur', name: 'Padang Centaur', kind: 'centaur', zone: 'tebing', r: 95, levels: [4, 5], camps: 4, pack: 2, minHeight: PLATEAU },
