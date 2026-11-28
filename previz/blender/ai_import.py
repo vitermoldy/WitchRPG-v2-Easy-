@@ -114,3 +114,4 @@ clips = [a.name for a in bpy.data.actions]
 for a in arms:
     a.data.pose_position = "REST"
 for ob in bpy.context.scene.objects:
+    if ob.type == "MESH":
