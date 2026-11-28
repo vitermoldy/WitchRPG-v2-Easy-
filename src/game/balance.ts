@@ -1190,6 +1190,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   // for saved shadows); the sword under a circle, the cries ahead, a thrown dagger. Calls Satyrs.
   septiceps: {
     name: 'Discordia',
+    rank: 'marsekal',
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
