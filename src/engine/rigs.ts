@@ -1409,6 +1409,7 @@ export class Rigs {
     copy.root.rotation.set(0, u.yaw, 0)
     copy.root.scale.setScalar(u.scale)
     const role = skinRole(u)
+    if (role !== copy.role) {
   /** How far below its feet a unit is drawn while it rises out of a pool, sinks in, or turns to ash. */
   private sink(u: Unit): number {
     if (u.state === 'rising') {
