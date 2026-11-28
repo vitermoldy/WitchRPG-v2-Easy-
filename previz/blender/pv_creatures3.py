@@ -24,3 +24,4 @@ def b_silenus(r):
     face(h, hc, H * 1.15)
     beard(h, hc + Vector((0, -0.09, -0.09)), 0.22, 0.07)
     K2.goat_horns(h, hc, s * 1.1, length=0.8)
+    for side, a, b in (("L", V(J["hip"]) + Vector((J["hw"], 0, 0)), J["knee_L"]), ("R", V(J["hip"]) + Vector((-J["hw"], 0, 0)), J["knee_R"])):
