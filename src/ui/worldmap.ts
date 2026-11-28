@@ -453,6 +453,7 @@ export class WorldMap {
     for (const t of TERRITORIES) {
       if (t.boss) continue
       const x = px(t.c[0])
+      const y = py(t.c[1])
     // altars: teal diamonds, filled once lit
     const r = Math.max(4, size / 110)
     for (const a of ALTARS) {
