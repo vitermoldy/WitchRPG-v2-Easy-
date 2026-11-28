@@ -336,3 +336,4 @@ def b_cacodaemon(r):
         claws(r.parts["hand_" + side], J["wr_" + side], J["hand_dir_" + side], n=4, length=0.13)
         back_wing(r, "wing_" + side, (0.08 * s, J["back"][1], J["z"]["sh"] - 0.03), s, "bat", 1.9, 1.3, raise_deg=50, sweep_deg=30, bone="horn", arm="body")
         w = r.parts["wing_" + side]
+        for k in range(6):
