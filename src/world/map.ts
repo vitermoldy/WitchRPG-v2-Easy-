@@ -242,6 +242,7 @@ export function heightMap(x: number, y: number): number {
     h += gj * 5 * fbm(x / 70, y / 70, 3, 7.0)
     const lg = smooth(LAGOON.r * 1.2, LAGOON.r * 0.75, dist(x, y, LAGOON.c))
     if (lg > 0) h = h * (1 - lg) + lg * (0.05 + 0.75 * fbm(x / 22, y / 22, 3, 11.0))
+    wet = Math.max(wet, lg)
   // the mountain ring that closes the valley
   const ringD = Math.max(Math.abs(x), Math.abs(y))
   if (ringD > 380) {
