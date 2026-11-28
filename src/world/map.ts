@@ -111,6 +111,7 @@ export const PATHS: [number, number][][] = [
   [[-900, 778], [-650, 770], [-390, 780], [-130, 775], [0, 778], [130, 775], [390, 780], [650, 770], [900, 778]],
   [[0, 778], [0, 900], [0, 1030], [0, 1100]],
 ].map((line) => line.map(([x, y]) => s(x, y)))
+// the south: from the end of the Hellhound road to the four places
 export const CLEARINGS: [[number, number], number][] = [
   [SPOTS.hero, 22], [SPOTS.army, 16], [ALTAR, 16], [TEMPLE, 30], [SPOTS.minotaur, 18], [SPOTS.hydra, 20],
   ...ALTARS.slice(1).map((a): [[number, number], number] => [a.c, 12]),
