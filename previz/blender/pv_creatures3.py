@@ -242,3 +242,4 @@ ROSTER3 = [
     # no picture of their own on the board: the owner's prompt sheet describes them
     ("silenus", "Silenus", b_silenus, "Penyundul, pengutuk", "Prajurit", "VI Tanah Ganjil", None),
     ("hippocentaurus", "Hippocentaurus", b_hippocentaurus, "Petarung lengan bersilang", "Ksatria", "VI Tanah Ganjil", None),
+    ("aquilon", "Aquilon", b_aquilon, "Penukik bertombak", "Ksatria", "II Tebing Berangin", None),
