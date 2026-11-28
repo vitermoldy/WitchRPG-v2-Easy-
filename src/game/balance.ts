@@ -958,6 +958,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   },
   // Silvana: the wild woman; circles to her side, long poisoned nails, and a pounce along a line.
   silvana: {
+    name: 'Silvana',
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
