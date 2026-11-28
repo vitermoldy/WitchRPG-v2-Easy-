@@ -457,3 +457,4 @@ def b_tetrachiron(r):
 def b_triceps(r):
     """The three-headed monster (prompt no. 6, Fig. XXXII): a fox head on the viewer's left, a crested dragon head on
     a long scaly neck in the middle, an eagle head with a feathered neck on the right; the arm on the viewer's left
+    ends in an open human hand, the other is raised and ends in bird talons; scaled all over, a feathery tuft at the
