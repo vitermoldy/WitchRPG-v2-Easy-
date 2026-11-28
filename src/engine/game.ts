@@ -436,6 +436,7 @@ export class Game implements UnitHost {
     const [ilyra, ...loaded] = await Promise.all([
       loadAnimated('./models/ilyra.glb'),
       ...V2_KINDS.map((k) => loadAnimated(`${dir(k)}${k}.glb`)),
+      ...V2_KINDS.map((k) => loadAnimated(`${dir(k)}${k}_lod.glb`)),
     ])
     this.ilyra = new IlyraModel(ilyra)
     // in first person her body is hidden from the view but still casts its shadow
