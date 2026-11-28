@@ -181,3 +181,4 @@ describe('the south and the roaming packs (owner, 28 Nov 2026)', () => {
       expect(zoneAt(t.c[0], t.c[1]).key).toBe(zoneAt(r.c[0], r.c[1]).key)
       expect(r.levels[0]).toBeGreaterThanOrEqual(t.levels[0])
       expect(r.levels[1]).toBeLessThanOrEqual(t.levels[1])
+      expect(steepest(r.c[0], r.c[1]), `pengembara ${r.c}`).toBeLessThan(MOVE.maxSlope)
