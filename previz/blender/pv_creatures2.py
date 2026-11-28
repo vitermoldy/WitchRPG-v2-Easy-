@@ -583,3 +583,4 @@ def b_blemmye(r):
     for k in (1, -1):
         t.ell(V(J["sh_" + ("L" if k > 0 else "R")]) + Vector((-0.04 * k, 0, 0.06)), (0.13, 0.14, 0.12), mat="skin")
         t.ell(ch + Vector((0.09 * k, -0.2, 0.14)), (0.05, 0.03, 0.035), mat="sclera", seg=10, rings=6)
+        t.ell(ch + Vector((0.09 * k, -0.225, 0.14)), (0.024, 0.012, 0.024), mat="eye", seg=8, rings=5)
