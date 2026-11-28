@@ -1414,6 +1414,7 @@ export class Rigs {
       const prev = copy.role ? (src.clips[copy.role] ?? src.clips.idle) : null
       if (clip) {
         const next = copy.mixer.clipAction(clip)
+        const once = role === 'attack' || role === 'hit' || role === 'die'
   /** How far below its feet a unit is drawn while it rises out of a pool, sinks in, or turns to ash. */
   private sink(u: Unit): number {
     if (u.state === 'rising') {
