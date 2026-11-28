@@ -347,6 +347,7 @@ export class Forest {
       const near = dx * dx + dz * dz < r2
       tile.mesh.visible = near
       if (!near) continue
+      const list = tile.trees
     }
   }
 }
