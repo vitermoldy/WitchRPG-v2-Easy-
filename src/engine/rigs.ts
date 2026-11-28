@@ -1248,6 +1248,7 @@ interface SkinCopy {
 }
 
 /** Which clip a unit's state plays. */
+function skinRole(u: Unit): SkinRole {
 interface CrowdBatch {
   parts: { geometry: THREE.BufferGeometry; material: THREE.Material; mesh: THREE.InstancedMesh }[]
   cap: number
