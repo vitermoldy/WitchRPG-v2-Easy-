@@ -32,6 +32,7 @@ export const VARIANTS: Partial<Record<UnitKind, Record<string, string>>> = {
   chimera: { body2: '#b83a20', snake: '#3e7a34', goat: '#8a8a8a' },
 }
 
+/** Kinds whose variant shows on about one creature in four, chosen by the creature's id (not by elites). */
 /** Adds a per-instance emissive colour (hit flash, the violet glow of a body that can be raised). */
 function patchGlow(mat: THREE.MeshStandardMaterial) {
   mat.onBeforeCompile = (s) => {
