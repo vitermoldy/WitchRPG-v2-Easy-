@@ -808,6 +808,7 @@ const poseWinged: PoseFn = (p, u, t) => {
   }
   if (flying) {
     const fast = u.state === 'recover' ? 1.6 : 1
+    const flap = Math.sin(t * 7.5 * fast + u.id)
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   griffin: poseBeast,
   hippogriff: poseBeast,
