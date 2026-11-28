@@ -976,6 +976,7 @@ const POSES: Partial<Record<UnitKind, PoseFn>> = {
   cornutus: poseImp,
   blemmye: biped({ heavy: 0.5, reach: 1, sway: 3 }),
   panotti: eared(biped({ heavy: 0.1, reach: 0.7, sway: 4 })),
+  silvana: biped({ heavy: 0, reach: 0.9, sway: 9 }),
   griffin: poseBeast,
   hippogriff: poseBeast,
   pegasus: poseBeast,
