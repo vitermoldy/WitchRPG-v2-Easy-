@@ -559,3 +559,4 @@ def b_panotti(r):
     h = r.parts["head"]
     hc = V(J["head_c"])
     s = head_ball(h, hc, H, "skin")
+    face(h, hc, H)
