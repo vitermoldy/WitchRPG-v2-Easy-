@@ -153,3 +153,4 @@ def b_septiceps(r):
     heads = [(-1.0, 0.55, "profile", -1), (-0.5, 0.9, "fox", 0), (0.0, 1.1, "mask", 0), (0.5, 0.9, "scream", 0), (1.0, 0.55, "bald", 1)]
     for dx, up, kind, look in heads:
         top = base + Vector((dx * 0.8, -0.05, up * 0.8 + 0.3))
+        h.tube([base + Vector((dx * 0.15, 0, 0)), base + Vector((dx * 0.55, -0.02, up * 0.45 + 0.1)), top], [0.17, 0.13, 0.11], mat="skin", seg=8, n=3)
