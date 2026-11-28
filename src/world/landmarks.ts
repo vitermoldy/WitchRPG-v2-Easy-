@@ -34,3 +34,4 @@ export class Landmarks {
       if (l.kind === 'tower') {
         // a broken round tower: rings of blocks that thin out as they climb, and rubble around
         const R = 7
+        for (let ring = 0; ring < 9; ring++) {
