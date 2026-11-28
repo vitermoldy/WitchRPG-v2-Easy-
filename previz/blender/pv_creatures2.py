@@ -280,3 +280,4 @@ def b_asmodeus(r):
                 h.tube([a + Vector((0.1 * k, 0, 0.12)), a + Vector((0.3 * k, -0.05, 0.18)), a + Vector((0.36 * k, -0.12, 0.32))], [0.06, 0.045, 0.0], mat="horn", seg=6, n=3)
         else:
             for k in (-1, 1):
+                pts = [a + Vector((0.12 * k, 0.05, 0.1)) + Vector((0.18 * k * math.cos(t), 0.18 * math.sin(t), 0.12 * math.sin(t) - 0.05 * t)) for t in [i * 0.9 for i in range(7)]]
