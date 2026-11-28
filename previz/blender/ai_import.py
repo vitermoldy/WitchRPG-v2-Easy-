@@ -59,3 +59,4 @@ def tris():
     for ob in bpy.context.scene.objects:
         if ob.type == "MESH":
             me = ob.evaluated_get(deps).to_mesh()
+            me.calc_loop_triangles()
