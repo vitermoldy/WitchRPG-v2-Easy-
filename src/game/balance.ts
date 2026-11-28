@@ -1366,6 +1366,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
       { name: 'ekor kepala naga', strike: 'ring', windup: 0.8, recover: 0.9, range: 6, ring: 2.6, behind: true, damage: 0.9, effect: 'poison' },
     ],
   },
+  // Dragon Hitam: a boss of the open world at the edge of Lembah Bara (Lv 20); black fire ahead, tail behind, a pounce.
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
