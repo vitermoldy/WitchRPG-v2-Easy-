@@ -112,3 +112,4 @@ export class Landmarks {
       mesh.setMatrixAt(i, e.m)
       mesh.setColorAt(i, e.c)
     })
+    mesh.receiveShadow = true
