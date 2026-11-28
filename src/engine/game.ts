@@ -1067,6 +1067,7 @@ export class Game implements UnitHost {
       const here = territoryAt(mx, my)
       const place = here ? null : landmarkAt(mx, my)
       this.hud.territory(here ? here.name : place ? place.name : null, here ? UNITS[here.kind].name : '')
+    }
     this.hud.aim(this.rig.aim > 0.5 || this.rig.fp > 0.5)
     if (target) {
       const lp = lockPoint(target)
