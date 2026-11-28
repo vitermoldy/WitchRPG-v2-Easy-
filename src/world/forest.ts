@@ -277,8 +277,7 @@ export class Forest {
     this.visibleRange = visibleRange
     this.loadRange = loadRange
     this.mesh.name = 'forest'
-    this.mesh.castShadow = true
-    this.mesh.receiveShadow = true
+    let verts = 0
     const ids = {} as Record<Kind, number>
     for (const k of Object.keys(geos) as Kind[]) ids[k] = this.mesh.addGeometry(geos[k])
     const m = new THREE.Matrix4()
