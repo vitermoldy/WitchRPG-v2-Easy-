@@ -290,3 +290,5 @@ Poster `images (7).jpg` berisi 35 makhluk kecil, kebanyakan berwujud manusia, bu
 | Kinnari | a half-woman, half-bird creature with green wings, holding a bow |
 | Aziza | a small dark-skinned fairy with a flower crown and a brown dress, with translucent insect wings |
 | Aghoy | a spirit woman with long blonde hair in green leafy clothes, holding a wooden staff |
+| La Madremonte | a forest spirit woman covered head to toe in leaves and moss, with a leafy hat, holding a staff |
+
