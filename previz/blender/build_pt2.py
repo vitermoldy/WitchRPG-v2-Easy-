@@ -7,3 +7,4 @@ the right, like papan-makhluk.png of phase 0.
 import json
 import math
 import os
+import sys
