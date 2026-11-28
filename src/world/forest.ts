@@ -252,6 +252,7 @@ export function addColliders(trees: Tree[], obs: Obstacles) {
 }
 
 interface Tile {
+  mesh: THREE.BatchedMesh | null
 export class Forest {
   readonly mesh: THREE.BatchedMesh
   readonly trees: Tree[]
