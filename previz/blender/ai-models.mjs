@@ -21,3 +21,4 @@ const extra = process.argv.filter((a) => a.includes('=') && !a.startsWith('--'))
 const files = Object.entries(table).filter(([name]) => name.endsWith('.glb'))
 const present = []
 for (const [name, info] of files) {
+  const src = path.join(assets, name)
