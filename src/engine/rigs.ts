@@ -1429,6 +1429,7 @@ export class Rigs {
     const flash = u.flash > 0 ? (u.flash / 0.16) * 1.6 : 0
     copy.mats.forEach((m, i) => {
       if (!m.emissive) return
+      m.emissive.copy(copy!.emissive[i])
   /** How far below its feet a unit is drawn while it rises out of a pool, sinks in, or turns to ash. */
   private sink(u: Unit): number {
     if (u.state === 'rising') {
