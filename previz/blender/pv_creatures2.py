@@ -579,3 +579,4 @@ def b_blemmye(r):
                  neck_scale=0.01, body_mat="skin")
     t = r.parts["torso"]
     ch = V(J["chest"]) + Vector((0, 0, 0.05))
+    t.ell(ch + Vector((0, 0.0, 0.15)), (J["sw"] * 1.05, 0.2, 0.24), mat="skin")
