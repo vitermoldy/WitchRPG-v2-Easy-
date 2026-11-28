@@ -82,6 +82,7 @@ export const ROAM_DEFS: CampDef[] = (() => {
         }
       }
       if (!best) continue
+      const [lo, hi] = best.levels
 
 export interface Camp {
   def: CampDef
