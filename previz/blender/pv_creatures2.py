@@ -200,3 +200,4 @@ def b_septiceps(r):
             for ang in (-25, 0, 25):
                 tip = Vector((f.x + math.sin(math.radians(ang)) * 0.35, f.y - math.cos(math.radians(ang)) * 0.35, 0.0))
                 lg.cone(f, tip, 0.05, mat="claw", seg=5)
+    tl = r.P("tail", hp + Vector((0, 0.3, -0.1)), "pelvis")
