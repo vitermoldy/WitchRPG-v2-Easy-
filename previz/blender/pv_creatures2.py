@@ -677,3 +677,4 @@ def b_marinus(r):
         claws(r.parts["hand_" + side], J["wr_" + side], J["hand_dir_" + side], n=3, length=0.07)
 
 
+def b_raia(r):
