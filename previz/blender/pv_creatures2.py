@@ -62,3 +62,4 @@ def lion_face(part, at, fwd=(0, -1, 0), s=1.0, mat="body", mane_mat="body2", man
     if "mouth" in part.rig.pal:
         part.ell(m + F * 0.05 * s - UP * 0.07 * s, (0.07 * s, 0.03 * s, 0.025 * s), mat="mouth", seg=8, rings=5)
     for k in (-1, 1):
+        part.ell(a + F * 0.16 * s + UP * 0.07 * s + side * 0.075 * s * k, (0.03 * s, 0.02 * s, 0.022 * s), mat="eye", seg=8, rings=5)
