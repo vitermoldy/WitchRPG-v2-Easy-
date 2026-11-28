@@ -6,3 +6,4 @@ the right, like papan-makhluk.png of phase 0.
 --views also renders each block-out from four sides into previz/frames/pt2_<key>.png, for checking shapes."""
 import json
 import math
+import os
