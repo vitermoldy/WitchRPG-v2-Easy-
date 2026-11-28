@@ -299,6 +299,7 @@ export class WorldMap {
     if (this.base || this.baseRows >= BASE) return
     if (this.g.state !== 'playing') {
       const t0 = performance.now()
+      while (this.baseRows < BASE && performance.now() - t0 < 8) this.baseRow()
   /** The valley itself, drawn once: zone tones, hill shading, water. */
   private baseLayer(): HTMLCanvasElement {
     if (this.base) return this.base
