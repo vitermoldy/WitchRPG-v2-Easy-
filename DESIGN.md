@@ -351,3 +351,5 @@ Pemilik bertanya apa yang belum dikerjakan, lalu meminta semuanya dikerjakan.
 - **Hydra dan segel di peta 5.000 m:** segel menahan langkah dari Pembuka ke Kuil dan Tanah Ganjil dan selalu membolehkan keluar; witch Lv 12 membangunkan Hydra, kepala menyerang; Hydra tumbang, segel pecah, `bossKills` naik.
 - **Simpanan pemilik** (salinan `witch_rpg_v2_easy` di database buangan, dihapus sesudahnya): 21 dari 21 cek lulus. Witch Lv 16 dengan 126 bayangan masuk di altar terakhirnya (Lembah Bara) di posisi barunya; perjalanan cepat ke Tebing sekitar 0,2 dtk dan mendarat di tanah; bayangan jenis baru (Dragon Hitam, Silenus) dan altar baru tersimpan ke server dan kembali; keluar, masuk lagi, daftar akun, nama terpakai, server mati, dan layar 375 px seperti sebelumnya.
 - **Tes baru** (`tests/world.test.ts`): petak hutan selalu sama apa pun urutan dimuatnya, pohon tidak di jalan dan lapangan, petak di luar medan kosong, hutan dimuat bersama penabraknya, medan dekat langsung terbangun dan tidak ada yang digambar lewat 1.400 m.
+- **README** diperbarui. Tes 124 dari 124 lulus, build bersih.
+
