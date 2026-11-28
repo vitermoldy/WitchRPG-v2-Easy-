@@ -300,3 +300,4 @@ def b_buer(r):
     R = 1.02
     hub = r.P("hub", (0, 0, R), None)
     c = Vector((0, 0, R))
+    lion_face(hub, c + Vector((0, -0.12, 0.02)), fwd=(0, -1, -0.05), s=1.9, jaw_open=24, mat="body", mane_mat="body2", mane=0.75)
