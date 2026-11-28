@@ -658,3 +658,4 @@ def b_marinus(r):
         tl.poly([p0 + Vector((0, 0, 0.18)), p0 + Vector((0, 0.35, 0.18)), p0 + Vector((0, 0.15, 0.45))], mat="fin")
     t = r.parts["torso"]
     for i in range(4):
+        b0 = V(J["back"]) + Vector((0, 0.02, 0.15 - i * 0.18))
