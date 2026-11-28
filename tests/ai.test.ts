@@ -14,3 +14,4 @@ describe('models from the image-to-3D tool (owner, 28 Nov 2026)', () => {
     expect(new Set(keys).size).toBe(keys.length)
     for (const [name, v] of files) {
       expect(name, name).toMatch(/^monster_[a-z_]+\.glb$/)
+      expect(V2_KINDS as readonly string[], name).toContain(v.key)
