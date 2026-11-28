@@ -80,3 +80,4 @@ export class Landmarks {
         for (let k = 0; k < 34; k++) {
           const p = at(l, rnd() * Math.PI * 2, rnd() * l.r * 0.85)
           const H = 3 + rnd() * 6
+          const w = 0.35 + H * 0.06
