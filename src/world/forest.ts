@@ -300,6 +300,7 @@ export class Forest {
   }
 
   /** Loads every tile near a point at once (start, fast travel). */
+  prepare(x: number, z: number) {
     const ids = {} as Record<Kind, number>
     for (const k of Object.keys(geos) as Kind[]) ids[k] = this.mesh.addGeometry(geos[k])
     const m = new THREE.Matrix4()
