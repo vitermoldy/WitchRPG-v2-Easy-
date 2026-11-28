@@ -319,5 +319,6 @@ export class Camps {
     return this.camps.filter((c) => c.state === 'cleared' && !c.def.roam).length
   }
 
+  /** Camps with a stone ring. */
   }
 }
