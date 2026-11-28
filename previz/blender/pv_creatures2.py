@@ -383,3 +383,4 @@ def b_cornutus(r):
     ft.cone(A + Vector((0, 0, -0.02)), Vector((A.x, A.y + 0.14, 0.0)), 0.02, mat="claw", seg=5)
 
 
+def b_sirena(r):
