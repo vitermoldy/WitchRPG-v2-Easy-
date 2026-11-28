@@ -94,3 +94,5 @@ const PLANS: Plan[] = [
   { key: 'buer', name: 'Jalur Buer', kind: 'buer', zone: 'ganjil', r: 160, levels: [18, 18], camps: 5, pack: 1, elites: 1 },
   { key: 'septiceps', name: 'Takhta Discordia', kind: 'septiceps', zone: 'ganjil', r: 85, levels: [20, 20], camps: 1, pack: 1, boss: true },
   { key: 'asmodeus', name: 'Istana Asmodeus', kind: 'asmodeus', zone: 'ganjil', r: 85, levels: [21, 21], camps: 1, pack: 1, boss: true },
+]
+
