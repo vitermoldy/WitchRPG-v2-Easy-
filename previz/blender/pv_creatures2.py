@@ -690,3 +690,4 @@ def b_raia(r):
         tip = c + Vector((1.9 * sd, -0.15, 0.45))
         back = c + Vector((1.45 * sd, 0.75, 0.05))
         w.poly([root_f, tip, back, root_b], mat="membrane")
+        for i in range(6):
