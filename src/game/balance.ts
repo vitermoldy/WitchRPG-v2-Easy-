@@ -1830,6 +1830,7 @@ export const COMBAT = {
  * spawns). camps: camps of a ground with more than one, times this. roam: one wandering pack per this many
  * metres square of open ground between the grounds (owner: "padat"), of the nearest ground's kind.
  */
+export const CAMP = { wake: 80, sleep: 170, respawn: 120, aggro: 24, leash: 55, pack: 2, bossRespawn: 45, camps: 1.5, roam: 150, roamPack: [2, 4] as [number, number], roamDrift: 70 } as const
 
 /** v2 open world: falling, and getting up again. */
 export const REVIVE = {
