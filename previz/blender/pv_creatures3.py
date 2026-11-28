@@ -183,3 +183,4 @@ def b_kitsune(r):
         tl.ell(V(pts[-1]) + Vector((0, 0, -0.08)), (0.05, 0.05, 0.08), mat="tip")
 
 
+def b_sylph(r):
