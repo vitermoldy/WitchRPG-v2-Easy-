@@ -81,3 +81,4 @@ def board():
         bg.P("m").box((x0 + cw / 2, 1.0, z0 - ch / 2), (cw - 0.24, 0.02, ch - 0.24), mat="c")
         bg.parts["m"].box((x0 + 6.85, 0.9, z0 - 2.25), (4.5, 0.02, 3.95), mat="w")
         bg.finalize()
+        row = K.ROSTER_BY_KEY[k]
