@@ -43,3 +43,4 @@ describe('the forest, one tile at a time (5000 m map)', () => {
     const first = obs.shapes.length
     expect(forest.count).toBeGreaterThan(1000)
     expect(first).toBeGreaterThan(forest.count)
+    // a step further: the nearest missing tile comes in, one per update
