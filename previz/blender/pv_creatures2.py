@@ -674,3 +674,6 @@ def b_marinus(r):
         f = r.parts["forearm_" + side]
         E, W = V(J["el_" + side]), V(J["wr_" + side])
         f.poly([E, W, lerp(E, W, 0.5) + Vector((0.18 * sd, 0.12, -0.05))], mat="fin")
+        claws(r.parts["hand_" + side], J["wr_" + side], J["hand_dir_" + side], n=3, length=0.07)
+
+
