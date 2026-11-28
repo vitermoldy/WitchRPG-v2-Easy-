@@ -109,3 +109,4 @@ export class Landmarks {
     if (!list.length) return
     const mesh = new THREE.InstancedMesh(geo, mat, list.length)
     list.forEach((e, i) => {
+      mesh.setMatrixAt(i, e.m)
