@@ -255,6 +255,7 @@ export class Camps {
             const a = Math.random() * Math.PI * 2
             const r = Math.random() * CAMP.roamDrift
             const cx = ox + Math.cos(a) * r
+            const cz = oz + Math.sin(a) * r
         // rouse the whole pack when she or a shadow comes close, or one of them is hurt
         if (!camp.roused) {
           const close = (u: Unit) => {
