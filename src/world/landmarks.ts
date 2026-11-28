@@ -18,3 +18,4 @@ export class Landmarks {
     const stems: THREE.Matrix4[] = []
     const caps: { m: THREE.Matrix4; c: THREE.Color }[] = []
     let seed = 7
+    const rnd = () => {
