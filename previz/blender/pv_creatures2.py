@@ -205,3 +205,4 @@ def b_septiceps(r):
     fur_on(tl, hp + Vector((0.05, 0.8, -0.6)), hp + Vector((0.0, 1.0, -2.3)), 12, 0.22)
     # upper right (viewer's left): a heavy money sack; lower right: a dagger and a heart
     W, d = J["wr_R"], J["hand_dir_R"]
+    r.parts["hand_R"].ell(W + d * 0.3 + Vector((0, 0, -0.1)), (0.22, 0.2, 0.28), mat="cloth3")
