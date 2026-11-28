@@ -222,3 +222,4 @@ export function campSpots(t: Territory): [number, number][] {
     const ring = i === 0 ? 0.12 : i % 2 === 0 ? 0.4 : 0.7
     const stagger = i > 0 && i % 2 === 0 ? 0.35 : 0
     const a0 = i === 0 ? 0 : ((i - 1) / Math.max(1, n - 1)) * Math.PI * 2 + 0.4 + stagger
+    let spot: [number, number] | null = null
