@@ -150,3 +150,4 @@ def b_aziza(r):
     J = humanoid(r, H, bulk=0.75, legs="human", female=True, arm_pose={"L": (30, 30, 30), "R": (25, 20, 40)}, body_mat="skin")
     h = r.parts["head"]
     hc = V(J["head_c"])
+    s = K2.head_ball(h, hc, H, "skin", k=1.25)
