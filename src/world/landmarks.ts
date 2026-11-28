@@ -24,3 +24,4 @@ export class Landmarks {
     }
     const m4 = (x: number, y: number, z: number, sx: number, sy: number, sz: number, ry = 0, rx = 0) =>
       new THREE.Matrix4().compose(new THREE.Vector3(x, y, z), new THREE.Quaternion().setFromEuler(new THREE.Euler(rx, ry, 0)), new THREE.Vector3(sx, sy, sz))
+    const at = (l: Landmark, a: number, r: number) => {
