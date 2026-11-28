@@ -229,3 +229,4 @@ Gambar-gambar ini karya seniman atau studio modern (lukisan digital, poster kaos
 | Naga hitam | `images (4).jpg`, kanan bawah | a black dragon with a crown of long spikes, a long neck, dark ridged scales and folded membrane wings |
 | Imp | `167518dd…jpg`, panel Imp | an imp: a thin, pale humanoid with long limbs, bat wings with pink membranes and a long segmented tail ending in a barb, arched above its body |
 | Phoenix | `167518dd…jpg`, panel Phoenix | a phoenix: a firebird with crimson-orange feathers, wings spread wide and long flame-like tail plumes trailing embers |
+| Incubus | `167518dd…jpg`, kiri | an incubus: a tall male demon in dark spiked armor, long curved horns, pale grey skin, huge bat wings with torn holes and glowing green gems |
