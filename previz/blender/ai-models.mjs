@@ -44,3 +44,4 @@ for (const m of present) {
     failed = true
     continue
   }
+  console.log(line)
