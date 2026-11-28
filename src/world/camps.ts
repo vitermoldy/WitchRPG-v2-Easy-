@@ -251,6 +251,7 @@ export class Camps {
           camp.driftIn = (camp.driftIn ?? 4) - dt
           if (camp.driftIn <= 0) {
             camp.driftIn = 5 + Math.random() * 6
+            const [ox, oz] = toWorld(camp.def.c[0], camp.def.c[1])
         // rouse the whole pack when she or a shadow comes close, or one of them is hurt
         if (!camp.roused) {
           const close = (u: Unit) => {
