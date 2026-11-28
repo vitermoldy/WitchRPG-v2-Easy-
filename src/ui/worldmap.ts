@@ -441,7 +441,7 @@ export class WorldMap {
       placed.push([x - br, y - br, x + br, y + br])
     }
 
-    // zone names, and the seal over Reruntuhan Kuil and Lembah Bara while it holds
+    // zone names, and the seal over Reruntuhan Kuil, Lembah Bara and Tanah Ganjil while it holds
     ctx.font = `600 ${Math.max(11, size / 52)}px Figtree Variable, Figtree, system-ui, sans-serif`
     for (const z of ZONES) {
       const sealed = (z.key === 'kuil' || z.key === 'bara') && !g.seal.isOpen
