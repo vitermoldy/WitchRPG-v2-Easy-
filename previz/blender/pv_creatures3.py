@@ -228,3 +228,4 @@ COLORS3 = {
     "banshee": {"skin": "#e4e6ea", "hair": "#141418", "cloth": ("#8a8e96", "#aeb2ba")},
     "silenus": {"skin": ("#c99a74", "#b38260"), "hair": "#e8e2d8", "fur": ("#5a4632", "#7a6048"), "horn": "#4a3c30", "hoof": "#1e1814"},
     "hippocentaurus": {"body": ("#b89878", "#d8c0a0"), "skin": ("#c08a68", "#a87456"), "hair": "#3a2a20", "hoof": "#2a2420"},
+    "aquilon": {"skin": "#c8a078", "feather": ("#f2efe8", "#d8d2c4"), "accent": "#b0a080", "armor": ("#6a6e78", "#4a4e58"), "gold": "#d8b040",
