@@ -52,6 +52,7 @@ export const CAMP_DEFS: CampDef[] = TERRITORIES.flatMap((t) => {
 export const ROAM_DEFS: CampDef[] = (() => {
   let seed = 20261129
   const rnd = () => {
+    seed = (seed * 1664525 + 1013904223) >>> 0
 
 export interface Camp {
   def: CampDef
