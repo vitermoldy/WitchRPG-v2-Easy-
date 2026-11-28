@@ -367,6 +367,7 @@ export class WorldMap {
         gg *= shade
         b *= shade
       }
+      const o = (j * BASE + i) * 4
     }
     ctx.putImageData(img, 0, 0)
     this.base = c
