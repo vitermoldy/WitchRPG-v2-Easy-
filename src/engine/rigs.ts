@@ -17,6 +17,7 @@ const HEAD_LIES = 1
  * elites only): material slot of the block-out -> colour. The slot's two-tone shading gives way to the
  * plain colour.
  */
+export const VARIANTS: Partial<Record<UnitKind, Record<string, string>>> = {
 /** Adds a per-instance emissive colour (hit flash, the violet glow of a body that can be raised). */
 function patchGlow(mat: THREE.MeshStandardMaterial) {
   mat.onBeforeCompile = (s) => {
