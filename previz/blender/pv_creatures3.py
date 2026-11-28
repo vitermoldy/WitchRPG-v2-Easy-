@@ -19,3 +19,4 @@ def b_silenus(r):
     t = r.parts["torso"]
     t.ell(V(J["waist"]) + Vector((0, -0.12, -0.04)), (0.26, 0.24, 0.22), mat="skin")
     h = r.parts["head"]
+    hc = V(J["head_c"])
