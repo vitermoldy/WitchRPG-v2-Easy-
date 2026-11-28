@@ -96,6 +96,7 @@ Peta 5.000 x 5.000 m dengan enam zona; hutan dan medan dimuat bertahap di sekita
 
 Selatan juga punya empat tempat tanpa monster, masing-masing dengan altar: Reruntuhan Menara, Telaga Bunga, Batu Tegak, dan Kebun Jamur. Di tanah kosong antar daerah berkeliaran kawanan pengembara (sekitar satu tiap 150 m) dari jenis daerah terdekat dan level zonanya.
 
+Tiga zona pertama terbuka sejak awal; Kuil, Bara, dan Tanah Ganjil tersegel sampai Hydra kalah. Setiap daerah punya kamp elit di tepinya: makhluk 1,2 kali lebih besar, HP 3,2 kali, XP 4 kali, dengan satu sifat (Berlapis, Gesit, Meledak, atau Penjaga); elite Harpy, Griffin, dan Hellhound memakai warna varian, sedangkan sekitar 1 dari 4 Pegasus, Cerberus, dan Chimera berwarna varian. Altar menyala saat Ilyra mendekat: memulihkan HP dan mana, menjadi titik bangkit, dan menghubungkan perjalanan cepat. Kamp yang ditaklukkan padam dan berdiri lagi dua menit kemudian bila Ilyra sudah jauh. Unicorn berjaga di setiap altar dan Pegasus melayang di padang; keduanya satwa yang tidak menyerang dan tidak bisa diserang.
 
 ### Boss dunia
 
