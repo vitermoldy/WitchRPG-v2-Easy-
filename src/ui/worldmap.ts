@@ -75,6 +75,7 @@ export class WorldMap {
       if (e.code === 'KeyM') {
         e.preventDefault()
         this.close()
+      } else if (e.code === 'Equal' || e.code === 'NumpadAdd') {
       }
     })
     $('map-sort').addEventListener('change', () => this.renderMonsters())
