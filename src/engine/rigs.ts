@@ -939,6 +939,7 @@ const poseAsmodeus: PoseFn = (p, u, t) => {
   } else {
     p.rot('torso', 3 * Math.sin(t * 1.5 + u.id))
     p.rot('upperarm_L', 6 * Math.sin(t * 1.2), 0, 6)
+  }
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   griffin: poseBeast,
   hippogriff: poseBeast,
