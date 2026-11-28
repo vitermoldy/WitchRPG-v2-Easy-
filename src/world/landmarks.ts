@@ -75,3 +75,4 @@ export class Landmarks {
           petals.push({ m: m4(p.x, p.y + 0.25, p.z, s, s * 0.6, s, rnd() * 3), c: colours[Math.floor(rnd() * colours.length)] })
         }
       } else {
+        // giant mushrooms that glow faintly from under their caps
