@@ -112,6 +112,7 @@ Di balik segel, setiap boss menunggu sendirian di kampnya, dengan bar boss dan s
 | Samael | 19 | Lembah Bara, di bawah Rift | Pedang, tebasan maut, penghakiman; menghilang |
 | Dragon Hitam | 20 | Lembah Bara, kalderanya sendiri | Ekor, api hitam, bola api hitam, terkaman |
 | Discordia | 20 | Tanah Ganjil | Pedang, jeritan lima kepala, lempar belati; memanggil Satyr |
+| Asmodeus | 21 | Tanah Ganjil | Cakar, napas api singa, ekor ular beracun, terjangan; memanggil Cacodaemon |
 
 ### Hydra
 
