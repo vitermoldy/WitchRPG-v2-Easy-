@@ -134,3 +134,5 @@ def sword(part, W, d, length=1.1, mat="metal"):
     part.poly([base - side * 0.045, base + side * 0.045, tip - d * 0.15 + side * 0.035, tip, tip - d * 0.15 - side * 0.035], mat=mat)
 
 
+# ---------------------------------------------------------------- the batch
+
