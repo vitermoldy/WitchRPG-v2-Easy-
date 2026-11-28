@@ -122,3 +122,4 @@ for ob in bpy.context.scene.objects:
             d = ob.modifiers.new("lod", "DECIMATE")
             d.ratio = min(1.0, 2000 / max(1, count))
 bpy.context.view_layer.update()
+for ob in list(bpy.context.scene.objects):
