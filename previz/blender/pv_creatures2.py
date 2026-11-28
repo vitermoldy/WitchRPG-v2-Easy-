@@ -727,3 +727,4 @@ COLORS2 = {
     "cornutus": {"skin": ("#9a5a48", "#80483a"), "hair": "#2a1a14", "membrane": ("#8c8c94", "#c8c8d0"), "accent": "#4a4a54", "scale": ("#6a6a40", "#9a9a6a"),
                  "horn": "#2e2622", "claw": "#2a2420", "mouth": "#3a0e0a"},
     "sirena": {"sclera": "#f2eee6", "skin": "#e8c8b2", "hair": "#6a3a22", "membrane": ("#f0eee8", "#cfd2d8"), "accent": "#8a96a8", "scale": ("#2f8a86", "#a6d6cc"), "claw": "#2a2420",
+               "claw2": "#d8a83a"},
