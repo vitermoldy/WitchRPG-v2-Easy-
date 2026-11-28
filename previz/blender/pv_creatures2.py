@@ -614,3 +614,4 @@ def b_silvana(r):
         hd = r.parts["hand_" + side]
         hd.limb(W, W + d * 0.38, H * 0.02, H * 0.016, mat="skin")
         for a in (-0.03, 0.0, 0.03):
+            hd.cone(W + d * 0.4 + Vector((a, 0, 0)), W + d * 0.62 + Vector((a * 1.6, -0.04, 0.02)), 0.01, mat="claw", seg=4)
