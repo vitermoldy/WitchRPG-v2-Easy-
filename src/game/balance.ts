@@ -186,6 +186,7 @@ export const V2_KINDS = [
   'griffin', 'hippogriff', 'pegasus', 'unicorn', 'cerberus', 'lilith', 'dragon', 'typhon', 'samael', 'atlas',
   // Easy, Tanah Ganjil (owner, 28 Nov 2026: assets/Monster pt2)
   'satyr', 'blemmye', 'panotti', 'silvana', 'leonis', 'cornutus', 'sirena', 'cacodaemon', 'raia', 'marinus',
+  'cracovia', 'tetrachiron', 'triceps', 'buer', 'septiceps', 'asmodeus',
 ] as const
 /** The bosses of the open world, each in a camp of its own with a boss bar (the Hydra has its lair). */
 export const WORLD_BOSSES = ['cerberus', 'lilith', 'dragon', 'atlas', 'typhon', 'samael'] as const
