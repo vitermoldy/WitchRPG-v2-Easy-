@@ -151,3 +151,4 @@ function place(): Territory[] {
     margin.set(plan.key, own)
     out.push({ ...rest, c: spot, wave })
   }
+  // back in the order of the plan (zones, then kinds), for the map and the tests
