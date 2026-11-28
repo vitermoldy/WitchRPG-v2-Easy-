@@ -7,6 +7,7 @@
   "scripts": {
     "predev": "node previz/blender/ai-models.mjs --quiet",
     "dev": "vite",
+    "prebuild": "node previz/blender/ai-models.mjs --quiet",
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview",
     "test": "vitest run",
