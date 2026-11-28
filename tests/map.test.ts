@@ -162,3 +162,4 @@ describe('the south and the roaming packs (owner, 28 Nov 2026)', () => {
       expect(t.c[1], kind).toBeLessThan(-900)
       expect(zoneAt(t.c[0], t.c[1]).key, kind).toBe('pembuka')
     }
+    for (const l of LANDMARKS) {
