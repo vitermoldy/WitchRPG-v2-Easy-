@@ -209,3 +209,4 @@ export function campCount(t: Territory) {
 }
 
 /**
+ * Where the camps of a territory stand: a boss at the centre; others spread over the outline (the
