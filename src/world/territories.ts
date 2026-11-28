@@ -220,3 +220,4 @@ export function campSpots(t: Territory): [number, number][] {
   const out: [number, number][] = []
   for (let i = 0; i < n; i++) {
     const ring = i === 0 ? 0.12 : i % 2 === 0 ? 0.4 : 0.7
+    const stagger = i > 0 && i % 2 === 0 ? 0.35 : 0
