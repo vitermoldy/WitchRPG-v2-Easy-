@@ -249,6 +249,7 @@ export function heightMap(x: number, y: number): number {
     const dl = dist(x, y, l.c)
     if (dl > l.r * 1.5) continue
     const level = 3.0 + 4.0 * fbm(l.c[0] / 160, l.c[1] / 160) + (l.kind === 'stones' ? 3 : 0)
+    const flat = smooth(l.r * 1.5, l.r * 0.8, dl)
   // the mountain ring that closes the valley
   const ringD = Math.max(Math.abs(x), Math.abs(y))
   if (ringD > 380) {
