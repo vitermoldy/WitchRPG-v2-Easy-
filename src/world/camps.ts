@@ -145,7 +145,7 @@ export class Camps {
     const q = new THREE.Quaternion()
     const s = new THREE.Vector3()
     let i = 0
-    for (const camp of this.camps) {
+    for (const camp of ringed) {
       for (let k = 0; k < STONES; k++, i++) {
         const a = (k / STONES) * Math.PI * 2
         const x = camp.pos.x + Math.cos(a) * 2.2
