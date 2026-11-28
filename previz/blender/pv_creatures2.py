@@ -307,3 +307,4 @@ def b_buer(r):
         d = Vector((0.0, -math.sin(a), math.cos(a)))
         spread = (0.32 if i % 2 else -0.32) if i else 0.0
         side = Vector((spread, 0, 0))
+        leg = r.P(f"leg{i}", c + d * 0.25 + side * 0.4, "hub")
