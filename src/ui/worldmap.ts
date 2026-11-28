@@ -307,6 +307,7 @@ export class WorldMap {
   /** The valley itself, drawn once: zone tones, hill shading, water. */
   private baseLayer(): HTMLCanvasElement {
     if (this.base) return this.base
+    while (this.baseRows < BASE) this.baseRow()
     const c = document.createElement('canvas')
     c.width = c.height = BASE
     const ctx = c.getContext('2d')!
