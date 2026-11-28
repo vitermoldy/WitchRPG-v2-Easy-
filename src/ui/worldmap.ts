@@ -79,6 +79,7 @@ export class WorldMap {
         e.preventDefault()
         this.zoomBy(1.5)
       } else if (e.code === 'Minus' || e.code === 'NumpadSubtract') {
+        e.preventDefault()
       }
     })
     $('map-sort').addEventListener('change', () => this.renderMonsters())
