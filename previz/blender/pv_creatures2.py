@@ -464,3 +464,4 @@ def b_triceps(r):
                  neck_scale=0.5, body_mat="scale", foot_mat="claw")
     h = r.parts["head"]
     nb = V(J["neck"])
+    fox = nb + Vector((-0.28, -0.05, 0.38))
