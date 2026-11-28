@@ -245,6 +245,7 @@ export function heightMap(x: number, y: number): number {
     wet = Math.max(wet, lg)
   }
   // the places of the south: level ground round each, the flower pond shallow water
+  for (const l of LANDMARKS) {
   // the mountain ring that closes the valley
   const ringD = Math.max(Math.abs(x), Math.abs(y))
   if (ringD > 380) {
