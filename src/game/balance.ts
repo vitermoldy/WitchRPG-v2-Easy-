@@ -1241,6 +1241,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   // Easy, the third batch (owner, 28 Nov 2026: the prompt sheet). Placed by the theme of each zone.
   // Silenus: the plump old satyr; butts with his belly under a circle and points a curse onto her from afar.
   silenus: {
+    name: 'Silenus',
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
