@@ -19,3 +19,4 @@ Ekspor GLB berisi tulang dan lima animasi. Nama animasi cukup mengandung kata in
 | Cornutus (Fig. XXVIII) | `monster_cornutus.glb` | Bagian 1, no. 2 |
 | Cacodaemon (naga-iblis bersayap) | `monster_cacodaemon.glb` | Bagian 1, no. 4 dan 18 |
 | Tetrachiron (empat lengan) | `monster_tetrachiron.glb` | Bagian 1, no. 5 |
+| Triceps (tiga kepala) | `monster_triceps.glb` | Bagian 1, no. 6 |
