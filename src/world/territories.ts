@@ -30,3 +30,5 @@ export interface Territory {
   noCamps?: boolean
   /** The outline: two waves around the centre (frequency, amplitude, phase). */
   wave: [number, number, number, number, number, number]
+}
+
