@@ -642,3 +642,4 @@ def b_leonis(r):
     sword(r.parts["hand_R"], J["wr_R"] + J["hand_dir_R"] * 0.1, Vector((0.05, -0.15, -1)), length=1.15)
 
 
+def b_marinus(r):
