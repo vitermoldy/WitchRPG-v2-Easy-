@@ -883,6 +883,7 @@ const poseBuer: PoseFn = (p, u, t) => {
     p.body(-0.1, 0, 10 * Math.sin(t * 3))
     p.rot('hub', 20 * Math.sin(t * 2.4))
     return
+  }
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   griffin: poseBeast,
   hippogriff: poseBeast,
