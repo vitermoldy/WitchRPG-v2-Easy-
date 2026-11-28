@@ -50,3 +50,4 @@ for (const m of present) {
 // the manifest lists only models whose source is still there and whose import succeeded
 const manifest = {}
 for (const m of present) {
+  const meta = path.join(out, `${m.key}.json`)
