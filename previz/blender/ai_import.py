@@ -95,3 +95,4 @@ for ob in list(bpy.context.scene.objects):
         ob.parent = root
         ob.location -= centre
 root.scale = (s, s, s)
+root.rotation_euler = (0, 0, math.radians(TURN))
