@@ -9,3 +9,4 @@ feet on the ground, centred over its feet and turned to face the way the game ex
 army) and <key>.json ({"animated": bool, "clips": [...], "triangles": n})."""
 import json
 import math
+import os
