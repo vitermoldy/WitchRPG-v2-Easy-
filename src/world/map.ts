@@ -92,6 +92,7 @@ export const TEMPLE = s(40, 318)
 /** Where the previz shots stood; the start point is the hero clearing of render 01. */
 export const SPOTS = {
   hero: s(-34, -335),
+  // in front of the temple, at its old distance from the court
 }
 export const PATHS: [number, number][][] = [
   [[-10, -395], [-25, -330], [0, -230], [20, -120], [30, 0], [45, 120], [40, 250]],
