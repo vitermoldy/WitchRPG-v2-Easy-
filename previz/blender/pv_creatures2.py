@@ -613,3 +613,4 @@ def b_silvana(r):
         W, d = J["wr_" + side], J["hand_dir_" + side]
         hd = r.parts["hand_" + side]
         hd.limb(W, W + d * 0.38, H * 0.02, H * 0.016, mat="skin")
+        for a in (-0.03, 0.0, 0.03):
