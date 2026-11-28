@@ -53,3 +53,4 @@ export class Landmarks {
         }
       } else if (l.kind === 'stones') {
         // a ring of tall standing stones, two of them leaning, a flat altar stone in the middle
+        const n = 11
