@@ -619,3 +619,4 @@ def b_silvana(r):
     r.parts["pelvis"].ell(V(J["hip"]) + Vector((0, 0, -0.03)), (J["hw"] * 1.8, 0.14, 0.13), mat="fur")
 
 
+def b_leonis(r):
