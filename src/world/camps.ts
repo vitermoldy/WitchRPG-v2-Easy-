@@ -140,7 +140,7 @@ export class Camps {
     const stones = new THREE.InstancedMesh(stoneGeo, new THREE.MeshStandardMaterial({ color: 0x3b3633, roughness: 0.95 }), ringed.length * STONES)
     const shardGeo = new THREE.OctahedronGeometry(0.16, 0)
     shardGeo.scale(1, 2.4, 1)
-    this.shards = new THREE.InstancedMesh(shardGeo, new THREE.MeshBasicMaterial({ color: 0xffffff }), this.camps.length * STONES)
+    this.shards = new THREE.InstancedMesh(shardGeo, new THREE.MeshBasicMaterial({ color: 0xffffff }), ringed.length * STONES)
     const m = new THREE.Matrix4()
     const q = new THREE.Quaternion()
     const s = new THREE.Vector3()
