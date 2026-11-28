@@ -24,7 +24,7 @@ const FRAG = /* glsl */ `
 `
 
 /**
- * The seal on Reruntuhan Kuil and Lembah Bara. A grid of 8 m cells marks which ground belongs to a
+ * The seal on Reruntuhan Kuil, Lembah Bara and Tanah Ganjil. A grid of 16 m cells marks which ground belongs to a
  * sealed zone; while the seal holds, a step from open ground into sealed ground is refused (stepping
  * out is always allowed), and a curtain of light stands on every edge between the two.
  */
