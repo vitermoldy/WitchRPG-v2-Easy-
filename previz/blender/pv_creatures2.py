@@ -198,3 +198,4 @@ def b_septiceps(r):
         else:
             fur_on(lg, a, k, 12, 0.2)
             for ang in (-25, 0, 25):
+                tip = Vector((f.x + math.sin(math.radians(ang)) * 0.35, f.y - math.cos(math.radians(ang)) * 0.35, 0.0))
