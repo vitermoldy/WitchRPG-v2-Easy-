@@ -629,3 +629,4 @@ def b_leonis(r):
     h = r.parts["head"]
     hc = V(J["head_c"]) + Vector((0, 0.02, 0.0))
     lion_face(h, hc, fwd=(0, -1, -0.05), s=0.8, jaw_open=8, mat="skin", mane_mat="hair", mane=1.5)
+    t = r.parts["torso"]
