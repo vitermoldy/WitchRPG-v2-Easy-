@@ -23,3 +23,4 @@ def head_ball(part, hc, H, mat="skin", k=1.0):
 
 
 def goat_horns(part, hc, s, mat="horn", length=1.0, spread=1.0):
+    for k in (1, -1):
