@@ -460,3 +460,4 @@ def b_triceps(r):
     ends in an open human hand, the other is raised and ends in bird talons; scaled all over, a feathery tuft at the
     hips, bird-of-prey talon feet."""
     H = 2.6
+    J = humanoid(r, H, bulk=0.95, legs="bird", arm_pose={"L": (110, 20, 30), "R": (55, 20, 30)}, leg_pose={"L": (5, 10), "R": (-5, 10)},
