@@ -126,3 +126,4 @@ describe('every creature on its own ground (owner, 28 Nov 2026)', () => {
     }
   })
 
+  it('never lets two territories overlap, and keeps them on the playable map', () => {
