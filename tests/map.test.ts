@@ -47,6 +47,7 @@ describe('the forest valley', () => {
       expect(w.reduce((s, v) => s + v, 0)).toBeCloseTo(1, 5)
       expect(zoneAt(z.c[0], z.c[1]).key).toBe(z.key)
     }
+    // far out in the mountain ring the shares still add up to one (they used to round to zero there)
   })
 
   it('keeps every camp inside its zone and the zone level band (three levels per tier, as in v1)', () => {
