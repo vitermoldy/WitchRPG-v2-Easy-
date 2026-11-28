@@ -275,3 +275,4 @@ def b_asmodeus(r):
         h.ell(a + Vector((0.04 * s, -0.43, -0.1)), (0.1, 0.06, 0.08), mat="nose")
         for k in (-1, 1):
             h.ell(a + Vector((0.11 * k, -0.15, 0.06)), 0.03, mat="eye", seg=8, rings=5)
+        if kind == "bull":
