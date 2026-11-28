@@ -125,3 +125,4 @@ bpy.context.view_layer.update()
 for ob in list(bpy.context.scene.objects):
     if ob.type == "MESH" and ob.parent is not None and ob.parent.type == "ARMATURE":
         mw = ob.matrix_world.copy()
+        ob.parent = root
