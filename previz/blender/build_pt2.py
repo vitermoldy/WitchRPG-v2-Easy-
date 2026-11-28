@@ -112,3 +112,4 @@ def views(key):
     sc = C.new_scene(f"pandang.{key}")
     sc.world = C.sky_world(f"latar.{key}", "#2a2d36", "#2a2d36", "#2a2d36", 1.0)
     C.sun(sc, "kunci", (55, 0, -35), energy=3.2).data.use_shadow = False
+    C.sun(sc, "tepi", (60, 0, 150), "#b6c8ff", energy=2.0).data.use_shadow = False
