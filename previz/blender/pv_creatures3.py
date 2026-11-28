@@ -97,3 +97,4 @@ def b_aries(r):
     H = 3.0
     J = humanoid(r, H, bulk=1.45, legs="hoof", arm_pose={"L": (25, 25, 40), "R": (25, 30, 40)}, leg_pose={"L": (8, 15), "R": (-6, 12)},
                  neck_scale=0.7, body_mat="skin", leg_mat="fur", foot_mat="hoof")
+    h = r.parts["head"]
