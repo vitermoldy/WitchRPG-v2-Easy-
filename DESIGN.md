@@ -303,3 +303,5 @@ Permintaan pemilik: "itu ada monster pt2, lakukanlah hal yang sama, render, baru
 | Bobot zona | Dihitung terhadap zona terdekat. Sebelumnya `exp(-3d²)` habis ke nol jauh dari semua pusat, sehingga pegunungan jauh berwarna hitam di peta dan memakai campuran pohon zona terakhir | Muncul begitu peta diperluas. |
 | Server | `KINDS` dan `ALTARS` di `server/app.js` mengenal makhluk dan altar baru | Tanpa itu simpanan dengan bayangan baru ditolak. |
 
+Pemeriksaan:
+
