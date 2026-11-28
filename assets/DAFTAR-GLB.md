@@ -45,3 +45,5 @@ Ekspor GLB polos (tanpa rig dan animasi). Sampai saya rig, makhluk ini bergerak 
 | Aries (iblis tanduk domba) | `monster_aries.glb` | Bagian 2, Kepala iblis tanduk domba (badan rancanganmu) |
 | Sylph (roh angin berasap) | `monster_sylph.glb` | Bagian 3, Sylph |
 
+## Saran ekspor
+
