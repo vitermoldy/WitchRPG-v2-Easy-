@@ -171,6 +171,7 @@ export const TILE = 260
 /**
  * Every tree and rock of one tile (tile ix, iz covers world x from ix * TILE and world z from iz * TILE),
  * in world coordinates. Deterministic: each tile has its own seed, so it is the same forest every load
+ * whichever tile comes first. Tiles outside the terrain are empty.
   const out: Tree[] = []
   for (let j = 0; j < n; j++) {
     for (let i = 0; i < n; i++) {
