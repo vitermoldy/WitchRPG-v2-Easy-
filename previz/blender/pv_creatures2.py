@@ -699,3 +699,4 @@ def b_raia(r):
     nk.tube([hb, hb + Vector((0, -0.08, 0.3)), hc], [0.22, 0.17, 0.15], mat="body", seg=10, n=3)
     nk.ell(hc, (0.15, 0.14, 0.18), mat="body")
     nk.cone(hc + Vector((0, 0.02, 0.12)), hc + Vector((0, 0.1, 0.62)), 0.13, mat="body", seg=8)
+    nk.ell(hc + Vector((0, -0.12, -0.06)), (0.1, 0.05, 0.07), mat="mouth", seg=10, rings=6)
