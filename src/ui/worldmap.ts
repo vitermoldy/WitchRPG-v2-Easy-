@@ -56,6 +56,7 @@ export class WorldMap {
   /** The view: zoom and the map point at its centre (x east, y north). */
   private zoom = 1
   private cx = 0
+  private cy = 0
   onClose: (() => void) | null = null
 
   constructor(g: Game) {
