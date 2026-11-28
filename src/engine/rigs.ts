@@ -1326,8 +1326,7 @@ export class Rigs {
     this.whole = new Set(whole)
   }
 
-  private rig(kind: UnitKind, team: Team): Rig | null {
-    const key = kind + team
+  private rig(kind: UnitKind, team: Team, variant = false): Rig | null {
     let r = this.rigs.get(key)
     if (!r) {
       const model = this.models[kind]
