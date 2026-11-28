@@ -352,6 +352,7 @@ export class Forest {
         const t = list[i]
         const ex = t.x - x
         const ez = t.z - z
+        tile.mesh.setVisibleAt(i, ex * ex + ez * ez < r2)
     }
   }
 }
