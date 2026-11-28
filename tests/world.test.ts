@@ -12,3 +12,4 @@ describe('the forest, one tile at a time (5000 m map)', () => {
     scatterTile(-5, 7)
     const b = scatterTile(3, -2)
     expect(a.length).toBeGreaterThan(50)
+    expect(b).toEqual(a)
