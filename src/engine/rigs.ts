@@ -856,6 +856,7 @@ const poseRaia: PoseFn = (p, u, t) => {
   p.body(flying ? 0.2 * Math.sin(t * 4.2 + u.id + 1) : -0.5, flying ? 6 : 0, flying ? 10 * Math.sin(t * 1.2 + u.id) : 0)
   p.rot('wing_L', 0, 0, 30 * beat)
   p.rot('wing_R', 0, 0, -30 * beat)
+  p.rot('head', 6 * Math.sin(t * 2 + u.id))
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   griffin: poseBeast,
   hippogriff: poseBeast,
