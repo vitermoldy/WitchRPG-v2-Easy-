@@ -343,6 +343,7 @@ export class WorldMap {
     const up = row(my + step)
     const mid = row(my)
     const down = row(my - step)
+    const img = this.baseData.data
         }
         const o = (j * BASE + i) * 4
         img.data[o] = Math.min(255, r)
