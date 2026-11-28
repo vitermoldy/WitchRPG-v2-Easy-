@@ -332,3 +332,4 @@ def b_cacodaemon(r):
     pts = [hc + Vector((0.08, 0.05, 0.12)) + Vector((0.12 * math.cos(t), 0.1 + 0.12 * math.sin(t), 0.1 * math.sin(t))) for t in [i * 0.95 for i in range(6)]]
     h.tube(pts, [0.035 - 0.005 * i for i in range(6)], mat="horn", seg=5, n=2)
     wild_hair(h, hc + Vector((0, 0.05, 0.05)), 1.0, n=8, length=0.12, mat="body2", up=1.0)
+    for s, side in SIDES:
