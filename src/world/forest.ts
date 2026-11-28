@@ -211,7 +211,7 @@ export function scatterTile(ix: number, iz: number, step = 4, seed = 3): Tree[] 
         acc += w[zi]
         if (pick < acc) break
       }
-      const ring = smooth(440, 560, Math.max(Math.abs(x), Math.abs(y)))
+      const ring = smooth(RING[0], RING[0] + 120, Math.max(Math.abs(x), Math.abs(y)))
       const [mix, dens] = MIX[ZONES[zi].key]
       const density = dens * (1 - ring) + ring * 1.1
       if (keep >= (density / 100) * step * step) continue
