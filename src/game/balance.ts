@@ -1043,6 +1043,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   // Cacodaemon: the winged dog-headed demon; circles high and dives harder than the Sirena.
   cacodaemon: {
     name: 'Cacodaemon',
+    rank: 'ksatria',
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
