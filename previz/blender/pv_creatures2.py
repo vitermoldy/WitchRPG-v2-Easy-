@@ -213,3 +213,4 @@ def b_septiceps(r):
     # upper left (viewer's right): an open book; lower left: a sword hilt at the hip
     W, d = J["wr_L"], J["hand_dir_L"]
     bk = r.parts["hand_L"]
+    c = W + d * 0.2
