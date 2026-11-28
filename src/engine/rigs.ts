@@ -13,6 +13,7 @@ const NECK_PASSES = 3
 const HEAD_LIES = 1
 
 /**
+ * Colour variants worn by elites (owner, 28 Nov 2026: the colour variants of the reference pictures, on
 /** Adds a per-instance emissive colour (hit flash, the violet glow of a body that can be raised). */
 function patchGlow(mat: THREE.MeshStandardMaterial) {
   mat.onBeforeCompile = (s) => {
