@@ -115,3 +115,4 @@ def views(key):
     C.sun(sc, "tepi", (60, 0, 150), "#b6c8ff", energy=2.0).data.use_shadow = False
     coll = C.collection(f"pandang.{key}.c", sc.collection)
     lo, hi = C.bounds(colls[key])
+    size = max(hi.x - lo.x, hi.y - lo.y, hi.z - lo.z) * 1.15
