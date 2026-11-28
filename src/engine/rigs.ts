@@ -1389,6 +1389,7 @@ export class Rigs {
       const root = cloneSkinned(src.scene) as THREE.Group
       const mats: THREE.MeshStandardMaterial[] = []
       root.traverse((o) => {
+        const m = o as THREE.Mesh
   /** How far below its feet a unit is drawn while it rises out of a pool, sinks in, or turns to ash. */
   private sink(u: Unit): number {
     if (u.state === 'rising') {
