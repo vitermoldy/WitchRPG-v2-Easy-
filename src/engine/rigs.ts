@@ -1250,6 +1250,7 @@ interface SkinCopy {
 /** Which clip a unit's state plays. */
 function skinRole(u: Unit): SkinRole {
   if (u.state === 'dead' || u.state === 'ashes') return 'die'
+  if (u.state === 'windup' || u.state === 'strike' || u.state === 'recover') return 'attack'
 interface CrowdBatch {
   parts: { geometry: THREE.BufferGeometry; material: THREE.Material; mesh: THREE.InstancedMesh }[]
   cap: number
