@@ -904,6 +904,7 @@ function eared(base: PoseFn): PoseFn {
 
 /** Tetrachiron: the second pair of arms follows the first a beat behind; the wings spread to gust. */
 function fourArmed(base: PoseFn): PoseFn {
+  return (p, u, t) => {
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   griffin: poseBeast,
   hippogriff: poseBeast,
