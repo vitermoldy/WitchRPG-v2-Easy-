@@ -420,3 +420,6 @@ def b_sirena(r):
     for a in (-30, 0, 30):
         tip = Vector((A.x, A.y, 0.0)) + Vector((math.sin(math.radians(a)) * 0.2, -math.cos(math.radians(a)) * 0.2, 0.01))
         foot.cone(Vector((A.x, A.y - 0.02, 0.06)), tip, 0.022, mat="claw", seg=5)
+    foot.cone(Vector((A.x, A.y, 0.06)), Vector((A.x, A.y + 0.14, 0.0)), 0.02, mat="claw", seg=5)
+
+
