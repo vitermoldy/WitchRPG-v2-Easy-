@@ -956,6 +956,7 @@ const poseWhole: PoseFn = (p, u, t) => {
   }
   if (u.state === 'strike') {
     const k = Math.min(1, u.t / (u.atk.lungeTime ?? 0.3))
+    p.body(0.12 * Math.sin(Math.PI * k), 18 * Math.sin(Math.PI * k))
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   griffin: poseBeast,
   hippogriff: poseBeast,
