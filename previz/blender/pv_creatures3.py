@@ -167,3 +167,4 @@ def b_aziza(r):
 
 def b_kitsune(r):
     """Kitsune (poster, Bagian 3): a red-orange fox with nine flame-like tails tipped white."""
+    Q = quad(r, 0.7, 1.1, 0.34, 0.36, 0.04)
