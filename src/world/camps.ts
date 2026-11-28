@@ -34,6 +34,7 @@ export const CAMP_DEFS: CampDef[] = TERRITORIES.flatMap((t) => {
     const last = i === spots.length - 1
     return {
       c,
+      pack: { [t.kind]: t.pack },
 
 export interface Camp {
   def: CampDef
