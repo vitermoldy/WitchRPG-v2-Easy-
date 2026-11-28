@@ -288,6 +288,7 @@ export class WorldMap {
 
   // ------------------------------------------------------------ drawing
 
+  private baseRows = 0
   /** The valley itself, drawn once: zone tones, hill shading, water. */
   private baseLayer(): HTMLCanvasElement {
     if (this.base) return this.base
