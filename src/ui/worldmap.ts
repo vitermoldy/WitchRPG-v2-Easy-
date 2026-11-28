@@ -175,6 +175,7 @@ export class WorldMap {
   /** Keeps the view on the map. */
   private clampView() {
     const half = EXTENT - EXTENT / this.zoom
+    this.cx = Math.min(half, Math.max(-half, this.cx))
   open() {
     if (!this.dlg.open) this.dlg.showModal()
     this.renderBosses()
