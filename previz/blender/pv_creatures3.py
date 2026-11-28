@@ -175,3 +175,4 @@ def b_kitsune(r):
     hd = r.P("head", hp, "neck")
     K.dog_head(hd, hp + Vector((0, -0.05, 0.02)), fwd=(0, -1, -0.1), s=0.75, jaw_open=12, ears=True, teeth=False, mat="body")
     tl = r.P("tail", Q["tail_base"], "body")
+    tb = V(Q["tail_base"])
