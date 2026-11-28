@@ -320,5 +320,6 @@ export class Camps {
   }
 
   /** Camps with a stone ring. */
+  get total() {
   }
 }
