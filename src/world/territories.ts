@@ -190,3 +190,4 @@ export function steepest(x: number, y: number) {
   return worst
 }
 
+/** Can a camp of this territory stand here: same zone, firm or wadeable ground, not on an altar, the lake or a path. */
