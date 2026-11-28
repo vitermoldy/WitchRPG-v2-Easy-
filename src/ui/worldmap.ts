@@ -20,6 +20,7 @@ const KIND_COLOR: Partial<Record<UnitKind, string>> = {
   naga: '#6dff9a', minotaur: '#ff5c7a', cyclops: '#c9a27a', succubus: '#7dffcf', incubus: '#b6ff5c', phoenix: '#ffb04d',
   pegasus: '#ffffff', unicorn: '#d8f6ff',
   medusa: '#a8e070', chimera: '#e0a050',
+  // Tanah Ganjil
 }
 
 interface BossEntry {
