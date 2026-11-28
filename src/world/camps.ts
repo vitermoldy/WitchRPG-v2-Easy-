@@ -65,6 +65,7 @@ export const ROAM_DEFS: CampDef[] = (() => {
       const pick = rnd()
       if (Math.max(Math.abs(px), Math.abs(py)) > PLAY_HALF - 80) continue
       if (Math.hypot(px - SPOTS.hero[0], py - SPOTS.hero[1]) < 150) continue
+      if (territoryAt(px, py) || inClearing(px, py, 20)) continue
 
 export interface Camp {
   def: CampDef
