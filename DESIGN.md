@@ -353,3 +353,5 @@ Pemilik bertanya apa yang belum dikerjakan, lalu meminta semuanya dikerjakan.
 - **Tes baru** (`tests/world.test.ts`): petak hutan selalu sama apa pun urutan dimuatnya, pohon tidak di jalan dan lapangan, petak di luar medan kosong, hutan dimuat bersama penabraknya, medan dekat langsung terbangun dan tidak ada yang digambar lewat 1.400 m.
 - **README** diperbarui. Tes 124 dari 124 lulus, build bersih.
 
+### Selatan dan spawn lebih banyak (28 Nov 2026)
+
