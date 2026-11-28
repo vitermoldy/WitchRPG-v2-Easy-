@@ -714,3 +714,4 @@ def b_raia(r):
 # ---------------------------------------------------------------- colours (the sheets are black ink; chosen per creature)
 
 COLORS2 = {
+    "septiceps": {"skin": ("#c9977a", "#b08066"), "skin2": ("#b98a70", "#a0745c"), "fox": ("#b8582a", "#e8d2b8"), "hair": "#4a3428", "fur": ("#5a4a3c", "#7a6a58"),
