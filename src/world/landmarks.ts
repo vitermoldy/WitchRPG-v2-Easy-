@@ -10,3 +10,4 @@ import { heightMap, LANDMARKS, toWorld, type Landmark } from './map'
 export class Landmarks {
   readonly group = new THREE.Group()
 
+  constructor(obstacles: Obstacles) {
