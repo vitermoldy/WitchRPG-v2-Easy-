@@ -1314,6 +1314,7 @@ export class Rigs {
   private frame = 0
 
   constructor(
+    models: Partial<Record<UnitKind, THREE.Group>>,
     this.group.name = 'units'
     this.models = models
     this.lods = lods
