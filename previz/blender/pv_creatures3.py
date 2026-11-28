@@ -158,3 +158,4 @@ def b_aziza(r):
         h.ell(hc + Vector((math.cos(a) * 0.07, math.sin(a) * 0.06 + 0.01, 0.06)), 0.022, mat="flower" if i % 2 else "flower2", seg=8, rings=5)
     r.parts["pelvis"].tube([V(J["hip"]) + Vector((0, 0, 0.12)), V(J["hip"]) + Vector((0, 0, -0.1)), V(J["hip"]) + Vector((0, -0.01, -0.3))], [0.09, 0.12, 0.16], mat="cloth", seg=10, n=2, cap=False)
     r.parts["torso"].ell(V(J["chest"]), (0.08, 0.06, 0.08), mat="cloth")
+    for sd, side in SIDES:
