@@ -310,3 +310,5 @@ Pemeriksaan:
 - **Performa,** berdampingan dengan kode sebelumnya di jam yang sama, 1080p di RTX, median tiga run: titik awal 6,2 sampai 6,7 ms (dulu 6,2 sampai 6,4), Kuil 5,3 sampai 5,6 ms (dulu 5,2 sampai 5,3), awal dengan 200 bayangan 7,4 sampai 7,8 ms (dulu 7,6 sampai 7,8). Waktu muat 3,1 dtk (dulu 2,6).
 - **Catatan:** beberapa genangan kecil muncul di Tanah Ganjil barat karena persegi air diperluas sampai laguna (diperbaiki di bawah).
 
+### Perbaikan dan perluasan kedua (28 Nov 2026)
+
