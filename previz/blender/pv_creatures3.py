@@ -41,3 +41,4 @@ def b_hippocentaurus(r):
     hc = V(J["head_c"])
     K2.head_ball(h, hc, 2.3, "skin", k=1.1)
     face(h, hc, 2.5)
+    beard(h, hc + Vector((0, -0.08, -0.1)), 0.3, 0.1)
