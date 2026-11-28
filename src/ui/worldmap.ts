@@ -339,6 +339,7 @@ export class WorldMap {
       const out = new Float32Array(BASE + 2)
       for (let i = 0; i < BASE + 2; i++) out[i] = heightMap(-EXTENT + (i - 0.5) * step, yy)
       return out
+    }
         }
         const o = (j * BASE + i) * 4
         img.data[o] = Math.min(255, r)
