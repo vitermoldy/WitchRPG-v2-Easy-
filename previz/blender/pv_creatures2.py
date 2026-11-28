@@ -606,3 +606,4 @@ def b_silvana(r):
     h.ell(hc + Vector((0, 0.03, 0.04)), (0.1, 0.11, 0.1), mat="hair")
     t = r.parts["torso"]
     t.ell(V(J["waist"]) + Vector((0, -0.08, -0.04)), (0.2, 0.17, 0.17), mat="skin")
+    ch = V(J["chest"])
