@@ -494,6 +494,7 @@ export class Game implements UnitHost {
   placeAt(x: number, z: number, yaw: number) {
     // the forest and the near ground around a far spot (fast travel) come before she stands there
     this.forest.prepare(x, z)
+    this.terrain.prepare(new THREE.Vector3(x, 0, z))
     this.player.place(x, z, this.ground, yaw)
     this.obstacles.pushOut(this.player.pos, MOVE.radius, MOVE.height)
     this.player.pos.y = heightAt(this.player.pos.x, this.player.pos.z)
