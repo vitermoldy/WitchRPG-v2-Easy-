@@ -18,3 +18,4 @@ describe('the forest, one tile at a time (5000 m map)', () => {
       expect(t.x).toBeGreaterThanOrEqual(3 * TILE - 2)
       expect(t.x).toBeLessThan(4 * TILE + 2)
       expect(t.z).toBeGreaterThanOrEqual(-2 * TILE - 2)
+      expect(t.z).toBeLessThan(-1 * TILE + 2)
