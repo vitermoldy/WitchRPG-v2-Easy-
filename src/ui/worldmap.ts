@@ -329,6 +329,7 @@ export class WorldMap {
         // the zone's ground lifted toward its fog colour, so the zones read apart
         const mix = (a: number, b: number) => a * 0.55 + b * 0.45
         return [mix((g >> 16) & 255, (f >> 16) & 255), mix((g >> 8) & 255, (f >> 8) & 255), mix(g & 255, f & 255)]
+      })
     const step = (EXTENT * 2) / BASE
     for (let j = 0; j < BASE; j++) {
       for (let i = 0; i < BASE; i++) {
