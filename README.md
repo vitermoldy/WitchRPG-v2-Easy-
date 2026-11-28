@@ -55,7 +55,7 @@ Salin `.env.example` menjadi `.env` dan isi akun MySQL. Server membuat database 
 | Sentak mouse ke samping | Pindah lock-on ke makhluk di sisi itu |
 | B | Terbang atau mendarat. Di udara Spasi naik, C turun, Shift lebih cepat. Ilyra tidak bisa mendarat di air dalam |
 | P | Pandangan orang pertama atau dari belakang bahu; pilihan ini ikut tersimpan |
-| M | Peta: semua boss dan statusnya, altar, dan kamp monster yang dicentang. Game menunggu selama peta terbuka |
+| M | Peta: semua boss dan statusnya, altar, daerah tiap monster, dan kamp monster yang dicentang. Gulir atau + dan − untuk memperbesar, seret untuk menggeser. Game menunggu selama peta terbuka |
 | Tab | Ledger: bagi poin stat dan skill, lihat dan lepas bayangan. Game menunggu selama Ledger terbuka |
 | F di altar | Perjalanan cepat ke altar lain yang sudah menyala, atau buka Ledger |
 | Esc | Jeda: sensitivitas, volume, bayangan detail penuh, guncangan kamera |
