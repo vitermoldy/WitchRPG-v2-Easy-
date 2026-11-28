@@ -168,6 +168,7 @@ export class WorldMap {
     const next = (EXTENT * 2) / z
     this.cx = mx - (ux - 0.5) * next
     this.cy = my + (uy - 0.5) * next
+    this.clampView()
   open() {
     if (!this.dlg.open) this.dlg.showModal()
     this.renderBosses()
