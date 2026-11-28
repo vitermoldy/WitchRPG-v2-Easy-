@@ -380,3 +380,6 @@ def b_cornutus(r):
     ft = r.parts["foot_R"]
     for ang in (-30, 0, 30):
         ft.cone(A + Vector((0, 0, -0.02)), Vector((A.x + math.sin(math.radians(ang)) * 0.2, A.y - math.cos(math.radians(ang)) * 0.2, 0.0)), 0.025, mat="claw", seg=5)
+    ft.cone(A + Vector((0, 0, -0.02)), Vector((A.x, A.y + 0.14, 0.0)), 0.02, mat="claw", seg=5)
+
+
