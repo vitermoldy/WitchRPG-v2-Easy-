@@ -34,3 +34,4 @@ if arg("--only"):
     KEYS = [k for k in KEYS if k in arg("--only").split(",")]
 TMP = os.path.join(C.PREVIZ, "frames")
 os.makedirs(TMP, exist_ok=True)
+t0 = time.time()
