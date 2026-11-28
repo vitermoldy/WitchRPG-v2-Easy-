@@ -20,3 +20,4 @@ export interface Territory {
   /** How many camps, and how many creatures each lists (spawned times CAMP.pack). */
   camps: number
   pack: number
+  /** Elites in its last camp (the edge of the ground, PROMPT: "kamp elit ada di tepi zona"). */
