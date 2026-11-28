@@ -913,6 +913,7 @@ function fourArmed(base: PoseFn): PoseFn {
       const k = ease(u.t / (u.atk.windup * u.tempo))
       lift = -140 * k
       wing = u.atk.ring && u.atk.ring > 3 ? 35 * k : 10 * k
+    } else if (u.state === 'strike') {
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   griffin: poseBeast,
   hippogriff: poseBeast,
