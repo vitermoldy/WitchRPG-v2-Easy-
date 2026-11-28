@@ -43,3 +43,4 @@ def wild_hair(part, hc, s, n=16, length=0.3, mat="hair", up=0.4):
     for i in range(n):
         a = 2 * math.pi * i / n
         d = Vector((math.cos(a), 0.35 + 0.3 * math.sin(a * 2), math.sin(a) * 0.8 + up)).normalized()
+        base = hc + d * 0.08 * s
