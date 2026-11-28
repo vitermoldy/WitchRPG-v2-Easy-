@@ -221,3 +221,4 @@ Gambar-gambar ini karya seniman atau studio modern (lukisan digital, poster kaos
 | Unicorn | `167518dd…jpg`, panel Unicorn | a slender rearing horse with a blue-grey speckled coat, a long auburn mane and tail and a long spiral horn, on a dark rocky hill |
 | Harpy gelap | `167518dd…jpg`, panel Harpies | a harpy with a dark brown feathered body, huge spread wings, a woman's face and torso and bird-of-prey talons, seen from the front |
 | Harpy biru-putih | `z0jfasz4aizd1.jpeg` | a screaming harpy woman with a feathered crown, blue-and-white feathered wings with clawed hands, a short feather skirt and bird legs with talons |
+| Griffin cokelat | `167518dd…jpg`, panel Griffin | a griffin with a golden eagle head, huge brown spread wings and a tawny lion body, perched on a rock with its talons gripping it |
