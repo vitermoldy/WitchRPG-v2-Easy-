@@ -337,3 +337,4 @@ def b_cacodaemon(r):
         back_wing(r, "wing_" + side, (0.08 * s, J["back"][1], J["z"]["sh"] - 0.03), s, "bat", 1.9, 1.3, raise_deg=50, sweep_deg=30, bone="horn", arm="body")
         w = r.parts["wing_" + side]
         for k in range(6):
+            p = Vector((s * (0.45 + 0.17 * (k % 3)), J["back"][1] + 0.35 + 0.1 * (k // 3), J["z"]["sh"] + 0.5 - 0.35 * (k // 3) + 0.1 * (k % 3)))
