@@ -39,3 +39,6 @@ VIEW = {"buer": -35, "raia": -30, "marinus": -60, "asmodeus": -40, "septiceps": 
 
 
 def log(*a):
+    print(f"[pt2 {time.time() - t0:6.1f}s]", *a, flush=True)
+
+
