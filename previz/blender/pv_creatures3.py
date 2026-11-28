@@ -67,3 +67,4 @@ def b_aquilon(r):
                      mat="feather", tip_mat="accent", arm="feather")
     hd = r.parts["hand_R"]
     W, d = J["wr_R"], J["hand_dir_R"]
+    spear = Vector((0.05, -0.3, 1)).normalized()
