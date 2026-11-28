@@ -61,6 +61,7 @@ export const LANDMARKS: Landmark[] = [
   { key: 'batu', name: 'Batu Tegak', kind: 'stones', c: [-650, -2150], r: 80 },
   { key: 'jamur', name: 'Kebun Jamur', kind: 'mushrooms', c: [1150, -1750], r: 100 },
 ]
+const POND = LANDMARKS[1]
 /**
  * Altars: heal, the point she rises at after a fall, and fast travel between the ones already lit
  * (like v1's altar). One by the start, one where the paths split, one on each new zone's path.
