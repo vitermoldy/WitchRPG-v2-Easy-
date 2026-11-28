@@ -6,8 +6,7 @@ import { TERRITORIES } from './territories'
 
 /**
  * The forest, scattered like the previz (pv_world.py build_forest): a jittered 4 m grid, each spot
- * taking its zone's tree mix and density. All trees and rocks are one BatchedMesh, so the whole
- * forest is one draw call and every tree is frustum-culled on its own.
+ * taking its zone's tree mix and density. Trees and rocks come one tile of 260 m at a time: a tile is
  */
 type Kind = 'pine' | 'pine_tall' | 'pine_warm' | 'birch' | 'swamp' | 'dead' | 'burnt' | 'rock' | 'rock_big'
 
