@@ -942,6 +942,7 @@ const poseAsmodeus: PoseFn = (p, u, t) => {
   }
 }
 
+/**
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   griffin: poseBeast,
   hippogriff: poseBeast,
