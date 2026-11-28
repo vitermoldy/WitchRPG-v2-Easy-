@@ -611,3 +611,4 @@ def b_silvana(r):
     t.tube([ch + Vector((0.08, -0.12, 0.0)), ch + Vector((0.14, -0.12, 0.2)), V(J["sh_L"]) + Vector((0.0, 0.02, 0.06)), V(J["sh_L"]) + Vector((-0.05, 0.15, -0.25))], [0.05, 0.04, 0.035, 0.03], mat="skin", seg=6, n=3)
     for sd, side in SIDES:
         W, d = J["wr_" + side], J["hand_dir_" + side]
+        hd = r.parts["hand_" + side]
