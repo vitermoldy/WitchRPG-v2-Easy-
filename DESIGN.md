@@ -327,3 +327,5 @@ Pemeriksaan: tes 117 dari 117 lulus, build bersih. Di game (tanpa server): ke-36
 
 ### Peta 5.000 m, daerah acak, model dari tool AI (28 Nov 2026)
 
+Permintaan pemilik: "buat tempat monsternya abstrak, masa sederetan gitu, perluas lagi mapnya", lalu prompt karakter di `assets/Prompt-3D-Monster-WitchRPG.md`. Keputusan di bawah adalah jawaban pemilik atas pertanyaan yang diajukan dulu.
+
