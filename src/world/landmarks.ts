@@ -69,3 +69,4 @@ export class Landmarks {
         const colours = ['#f2c8e0', '#ffd860', '#c8a8ff', '#ffffff'].map((h) => new THREE.Color(h))
         for (let k = 0; k < 900; k++) {
           const a = rnd() * Math.PI * 2
+          const p = at(l, a, l.r * (0.8 + rnd() * 0.6))
