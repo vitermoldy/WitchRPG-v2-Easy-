@@ -55,6 +55,7 @@ export const ROAM_DEFS: CampDef[] = (() => {
     seed = (seed * 1664525 + 1013904223) >>> 0
     return seed / 4294967296
   }
+  const out: CampDef[] = []
 
 export interface Camp {
   def: CampDef
