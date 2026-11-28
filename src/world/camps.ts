@@ -45,6 +45,7 @@ export const CAMP_DEFS: CampDef[] = TERRITORIES.flatMap((t) => {
 
 /**
  * Packs roaming the open ground between the grounds (owner, 28 Nov 2026: more ordinary monsters about,
+ * fitting the place): one on every CAMP.roam metres of a jittered grid that lands outside every ground,
 
 export interface Camp {
   def: CampDef
