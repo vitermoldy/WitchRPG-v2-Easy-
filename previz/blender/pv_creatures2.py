@@ -580,3 +580,4 @@ def b_blemmye(r):
     t = r.parts["torso"]
     ch = V(J["chest"]) + Vector((0, 0, 0.05))
     t.ell(ch + Vector((0, 0.0, 0.15)), (J["sw"] * 1.05, 0.2, 0.24), mat="skin")
+    for k in (1, -1):
