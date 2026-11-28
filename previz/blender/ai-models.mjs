@@ -56,3 +56,4 @@ for (const m of present) {
 fs.writeFileSync(path.join(out, 'manifest.json'), JSON.stringify(manifest, null, 1))
 // imports whose source is gone are removed, so they do not ship with the game
 for (const f of fs.readdirSync(out)) {
+  const key = f.replace(/(_lod)?\.(glb|json)$/, '')
