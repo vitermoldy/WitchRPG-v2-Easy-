@@ -234,3 +234,4 @@ def b_asmodeus(r):
     hp = nb + Vector((-0.5, -0.45, -0.3))
     n = r.P("neck", nb, "body")
     n.limb(nb, hp, 0.45, 0.36, mat="body")
+    lion_face(n, hp + Vector((0, -0.15, 0)), fwd=(-0.3, -1, -0.15), s=2.6, jaw_open=34, mat="body", mane_mat="body2", mane=0.6)
