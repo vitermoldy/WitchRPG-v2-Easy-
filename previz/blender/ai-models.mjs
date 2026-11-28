@@ -38,3 +38,4 @@ for (const m of present) {
   }
   console.log(`[models:ai] mengimpor ${path.basename(m.src)} sebagai ${m.key}`)
   const run = spawnSync(blender, ['-b', '--factory-startup', '-P', path.join(here, 'ai_import.py'), '--', m.key, m.src, String(m.turn)], { encoding: 'utf8' })
+  const line = (run.stdout || '').split('\n').find((l) => l.startsWith('[ai]'))
