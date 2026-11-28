@@ -359,3 +359,4 @@ Permintaan pemilik: "isi selatannya dengan daerah tambahan", lalu "perbanyak spa
 
 | Bagian | Keputusan | Alasan |
 | --- | --- | --- |
+| Monster baru di selatan | Aziza (peri penyengat terbang, kawanan, Lv 1-2), Kitsune (rubah ekor sembilan, mengapit dan menerjang, Lv 1-2), Sylph (roh angin, tiupan ke lingkaran dari jauh, Lv 2-3), Banshee (hantu, jeritan sepanjang garis, Lv 3). Dari poster Bagian 3 prompt pemilik; block-out pengganti di `pv_creatures3.py`, nama file GLB-nya masuk `assets/DAFTAR-GLB.md` (Sylph sebagai bentuk aneh, dirig di Blender) | Usulan yang disetujui. |
