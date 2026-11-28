@@ -331,6 +331,7 @@ export class WorldMap {
         return [mix((g >> 16) & 255, (f >> 16) & 255), mix((g >> 8) & 255, (f >> 8) & 255), mix(g & 255, f & 255)]
       })
     }
+    const tones = this.baseTones
     const step = (EXTENT * 2) / BASE
     for (let j = 0; j < BASE; j++) {
       for (let i = 0; i < BASE; i++) {
