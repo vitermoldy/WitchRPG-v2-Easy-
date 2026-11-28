@@ -155,3 +155,4 @@ Turn the attached antique woodcut into a 3D render of the same creature. Keep it
 
 File: `Screenshot 2026-11-28 114425.png`.
 
+```text
