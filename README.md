@@ -86,6 +86,7 @@ Salin `.env.example` menjadi `.env` dan isi akun MySQL. Server membuat database 
 Peta 5.000 x 5.000 m dengan enam zona; hutan dan medan dimuat bertahap di sekitar Ilyra. Setiap jenis monster punya daerahnya sendiri (45 daerah, garis berlekuk, letaknya tersebar acak tapi selalu sama), dan kampnya hanya berisi jenis itu.
 
 | Zona | Level | Makhluk |
+| --- | --- | --- |
 
 ### Boss dunia
 
