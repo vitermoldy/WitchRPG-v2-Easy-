@@ -1346,6 +1346,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   // Manticore: mini-boss of Lembah Bara; claws, pounces along a line, and its dragon-headed tail bites behind.
   manticore: {
     name: 'Manticore',
+    rank: 'jenderal',
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
