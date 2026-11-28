@@ -1835,6 +1835,7 @@ dialog::backdrop {
 }
 
 .map-zoom {
+  position: absolute;
 }
 
 .map-side {
