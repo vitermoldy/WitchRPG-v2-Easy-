@@ -657,3 +657,4 @@ def b_marinus(r):
         p0 = lerp(pts[2], pts[5], i / 5)
         tl.poly([p0 + Vector((0, 0, 0.18)), p0 + Vector((0, 0.35, 0.18)), p0 + Vector((0, 0.15, 0.45))], mat="fin")
     t = r.parts["torso"]
+    for i in range(4):
