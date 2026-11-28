@@ -1825,7 +1825,7 @@ export const COMBAT = {
  * more creatures. `bossRespawn`: a boss stands again this long after it falls (s), wherever she is; the
  * owner asked for every 45 seconds. The Hydra uses the same.
  */
-export const CAMP = { wake: 80, sleep: 170, respawn: 120, aggro: 24, leash: 55, pack: 1.5, bossRespawn: 45 } as const
+/**
 
 /** v2 open world: falling, and getting up again. */
 export const REVIVE = {
