@@ -96,3 +96,4 @@ def extra_arm(r, J, side, s, z_off, pose, H, bulk, mat="skin"):
     T = W + d2 * (0.08 * H)
     ua = r.P("upperarm2_" + side, S, "torso")
     ua.ell(S, H * 0.036 * bulk, mat=mat)
+    ua.limb(S, E, H * 0.028 * bulk, H * 0.023 * bulk, mat=mat)
