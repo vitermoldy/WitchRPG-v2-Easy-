@@ -111,3 +111,4 @@ export(os.path.join(OUT, f"{KEY}.glb"), animated)
 clips = [a.name for a in bpy.data.actions]
 
 # the far shadow army: rest pose, no bones, about a fifth of the triangles
+for a in arms:
