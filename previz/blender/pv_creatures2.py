@@ -59,3 +59,4 @@ def lion_face(part, at, fwd=(0, -1, 0), s=1.0, mat="body", mane_mat="body2", man
     jd = F * math.cos(math.radians(jaw_open)) - UP * math.sin(math.radians(jaw_open))
     j0 = a + F * 0.08 * s - UP * 0.12 * s
     part.limb(j0, j0 + jd * 0.12 * s, 0.08 * s, 0.06 * s, mat=mat)
+    if "mouth" in part.rig.pal:
