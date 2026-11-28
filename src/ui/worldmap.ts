@@ -21,6 +21,7 @@ const KIND_COLOR: Partial<Record<UnitKind, string>> = {
   pegasus: '#ffffff', unicorn: '#d8f6ff',
   medusa: '#a8e070', chimera: '#e0a050',
   // Tanah Ganjil
+  satyr: '#ffc28a', blemmye: '#ff9a9a', panotti: '#ffb8d8', silvana: '#9ee6a0', leonis: '#ffcf6a', cornutus: '#ff7d5c',
 }
 
 interface BossEntry {
