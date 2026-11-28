@@ -242,3 +242,4 @@ Gambar-gambar ini karya seniman atau studio modern (lukisan digital, poster kaos
 | Manticore | `images (6).jpg`, kiri | a manticore: a lion-like beast standing on its hind legs with a shaggy mane and lion face, dark ragged feathered wings, clawed hands and a long scaly tail ending in a small dragon head |
 | Kepala iblis tanduk domba | `images (6).jpg`, kanan (hanya kepala yang terlihat) | a monstrous head and neck with huge curled ram horns, a bony skull-like face, a yellow eye, rows of jagged fangs and white bristly fur |
 | Manusia elang | `images (4).jpg`, kiri atas | an eagle-headed warrior: a muscular armored humanoid with a white-feathered eagle head, gold-trimmed armor and a flowing cape |
+| Putri duyung | `images (4).jpg`, kiri bawah | a mermaid with long dark hair covering her chest, pale skin and a dark scaly fish tail, sitting on a rock |
