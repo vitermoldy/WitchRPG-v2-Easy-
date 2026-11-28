@@ -59,3 +59,4 @@ for (const f of fs.readdirSync(out)) {
   const key = f.replace(/(_lod)?\.(glb|json)$/, '')
   if (f !== 'manifest.json' && !manifest[key]) fs.rmSync(path.join(out, f))
 }
+if (!quiet || Object.keys(manifest).length) console.log(`[models:ai] ${Object.keys(manifest).length} model dari tool AI dipakai: ${Object.keys(manifest).join(', ') || '(belum ada, semua memakai block-out)'}`)
