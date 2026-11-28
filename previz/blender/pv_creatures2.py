@@ -121,3 +121,4 @@ def fur_on(part, a, b, n, r, mat="fur", out=0.6):
         part.cone(base, base + rv * r * out + Vector((0, 0, -r * 2.2)), r * 0.7, mat=mat, seg=5)
 
 
+def sword(part, W, d, length=1.1, mat="metal"):
