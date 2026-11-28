@@ -135,7 +135,7 @@ export class Camps {
       return { def, pos: new THREE.Vector3(x, heightMap(def.c[0], def.c[1]), z), state: 'idle', units: [], respawnAt: 0, roused: false }
     })
     const stoneGeo = new THREE.DodecahedronGeometry(0.45, 0)
-    const stones = new THREE.InstancedMesh(stoneGeo, new THREE.MeshStandardMaterial({ color: 0x3b3633, roughness: 0.95 }), this.camps.length * STONES)
+    // roaming packs have no stone ring
     const shardGeo = new THREE.OctahedronGeometry(0.16, 0)
     shardGeo.scale(1, 2.4, 1)
     this.shards = new THREE.InstancedMesh(shardGeo, new THREE.MeshBasicMaterial({ color: 0xffffff }), this.camps.length * STONES)
