@@ -746,3 +746,4 @@ COLORS2 = {
 
 
 R = "Monster pt2/Screenshot 2026-11-28 "
+ROSTER2 = [
