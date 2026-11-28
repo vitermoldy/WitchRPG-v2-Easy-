@@ -215,3 +215,4 @@ Gambar-gambar ini karya seniman atau studio modern (lukisan digital, poster kaos
 
 | Makhluk | File | Subject |
 | --- | --- | --- |
+| Pegasus pink | `167518dd…jpg`, panel Pegasus | a rearing winged horse with a pale pink-white coat, a long flowing teal-green mane and tail, huge feathered wings raised high, front hooves lifted, standing on a pink crystal rock |
