@@ -43,6 +43,7 @@ export const CAMP_DEFS: CampDef[] = TERRITORIES.flatMap((t) => {
   })
 })
 
+/**
 
 export interface Camp {
   def: CampDef
