@@ -278,3 +278,4 @@ def b_asmodeus(r):
         if kind == "bull":
             for k in (-1, 1):
                 h.tube([a + Vector((0.1 * k, 0, 0.12)), a + Vector((0.3 * k, -0.05, 0.18)), a + Vector((0.36 * k, -0.12, 0.32))], [0.06, 0.045, 0.0], mat="horn", seg=6, n=3)
+        else:
