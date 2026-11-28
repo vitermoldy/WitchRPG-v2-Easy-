@@ -76,6 +76,7 @@ export class Terrain {
       const d = Math.hypot(c.centre.x - at.x, c.centre.z - at.z)
       if (d > DRAW) {
         if (c.lod >= 0 && c.meshes[c.lod]) c.meshes[c.lod]!.visible = false
+        c.lod = -1
       let want = LOD_RANGE.findIndex((r) => d < r)
       if (!c.meshes[want] && want < 2) {
         if (made < budget) {
