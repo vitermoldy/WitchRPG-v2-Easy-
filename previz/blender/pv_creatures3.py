@@ -136,3 +136,4 @@ def b_blackdragon(r):
     """The black dragon: the dragon's frame in black ridged scale, a crown of long spikes and a longer neck."""
     K.b_dragon(r)
     h = r.parts["head"]
+    hc = V(r.parts["neck"].pivot) + Vector((0, -2.6, 2.9))
