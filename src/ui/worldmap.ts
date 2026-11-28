@@ -111,6 +111,7 @@ export class WorldMap {
     this.canvas.addEventListener('pointerup', stop)
     this.canvas.addEventListener('pointercancel', stop)
     $('map-zoom-in').addEventListener('click', () => this.zoomBy(1.5))
+    $('map-zoom-out').addEventListener('click', () => this.zoomBy(1 / 1.5))
     $('map-sort').addEventListener('change', () => this.renderMonsters())
     $('map-all').addEventListener('click', () => {
       for (const m of this.monsters()) this.chosen.add(m.kind)
