@@ -31,3 +31,5 @@ Ekspor GLB berisi tulang dan lima animasi. Nama animasi cukup mengandung kata in
 
 ## Dikirim tanpa tulang, saya rig di Blender (9 makhluk)
 
+Ekspor GLB polos (tanpa rig dan animasi). Sampai saya rig, makhluk ini bergerak sebagai satu badan (bergoyang, condong, menerjang).
+
