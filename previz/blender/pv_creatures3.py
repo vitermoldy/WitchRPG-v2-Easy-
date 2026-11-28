@@ -198,3 +198,6 @@ def b_sylph(r):
     for k in range(3):
         a = k * 2.1
         pts = [hp + Vector((0, 0, 0.1))] + [hp + Vector((0.25 * math.cos(a + t), 0.25 * math.sin(a + t), -0.3 * t)) for t in [0.6, 1.4, 2.2, 3.0]]
+        tl.tube(pts, [0.16, 0.13, 0.1, 0.07, 0.0], mat="smoke2" if k else "smoke", seg=8, n=3)
+
+
