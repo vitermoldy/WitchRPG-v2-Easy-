@@ -263,6 +263,7 @@ export function heightMap(x: number, y: number): number {
     h = h * (1 - mr) + mr * (0.05 + 0.75 * fbm(x / 22, y / 22, 3, 13.0))
     wet = Math.max(wet, mr)
   }
+  // under the water planes only the swamp, the lake and the lagoon hold water: other hollows stay dry
   // the mountain ring that closes the valley
   const ringD = Math.max(Math.abs(x), Math.abs(y))
   if (ringD > 380) {
