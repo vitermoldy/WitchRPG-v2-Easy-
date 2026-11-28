@@ -739,3 +739,4 @@ COLORS2 = {
     "blemmye": {"skin": ("#a8704a", "#90603e"), "hair": "#2a1a12", "sclera": "#f2eadc", "mouth": "#4a1010", "cloth": "#5a6a3a"},
     "silvana": {"skin": ("#8a9478", "#76806a"), "hair": "#1e1e1a", "fur": ("#4a3a28", "#6a5440"), "claw": "#2a2620"},
     "leonis": {"skin": ("#d0a07a", "#b88864"), "hair": ("#b85a26", "#d88a40"), "claw": "#2a2420", "metal": "#c8ccd4", "wood": "#3a2a1c", "gold": "#c8a040",
+               "cloth": "#3a4a6a", "mouth": "#5a1a14", "nose": "#3a2418"},
