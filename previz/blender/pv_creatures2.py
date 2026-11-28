@@ -737,3 +737,4 @@ COLORS2 = {
                  "glow": "#ff7a2a", "mouth": "#5a1414", "nose": "#2a1a14", "horn": "#efe6d6"},
     "panotti": {"skin": ("#c8b494", "#b09c7c"), "hair": "#3a2c1e", "ear": ("#d4a294", "#b8857a"), "ear_in": "#c2706a", "cloth": "#6a5a40"},
     "blemmye": {"skin": ("#a8704a", "#90603e"), "hair": "#2a1a12", "sclera": "#f2eadc", "mouth": "#4a1010", "cloth": "#5a6a3a"},
+    "silvana": {"skin": ("#8a9478", "#76806a"), "hair": "#1e1e1a", "fur": ("#4a3a28", "#6a5440"), "claw": "#2a2620"},
