@@ -487,6 +487,8 @@ export class WorldMap {
       ctx.fillRect(x - q, y - q, q * 2, q * 2)
       ctx.strokeRect(x - q, y - q, q * 2, q * 2)
       label(l.name, x, y, q + 2, '#f4eee2')
+    }
+
     // altars: teal diamonds, filled once lit
     const r = Math.max(4, size / 110)
     for (const a of ALTARS) {
