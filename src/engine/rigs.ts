@@ -33,6 +33,7 @@ export const VARIANTS: Partial<Record<UnitKind, Record<string, string>>> = {
 }
 
 /** Kinds whose variant shows on about one creature in four, chosen by the creature's id (not by elites). */
+const RANDOM_VARIANTS = new Set<UnitKind>(['pegasus', 'cerberus', 'chimera'])
 /** Adds a per-instance emissive colour (hit flash, the violet glow of a body that can be raised). */
 function patchGlow(mat: THREE.MeshStandardMaterial) {
   mat.onBeforeCompile = (s) => {
