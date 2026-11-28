@@ -227,3 +227,4 @@ Gambar-gambar ini karya seniman atau studio modern (lukisan digital, poster kaos
 | Naga Timur | `167518dd…jpg`, panel Dragon | a long serpentine Eastern dragon with green-gold scales, a golden mane, antlers, whiskers and four small clawed legs, its body coiling in loops |
 | Naga merah | `167518dd…jpg`, panel berlabel Naga (isinya naga barat, bukan naga ular) | a red Western dragon with crimson scales, cream wing membranes, a spiky horned head and dorsal spikes, standing on four legs on a cliff |
 | Naga hitam | `images (4).jpg`, kanan bawah | a black dragon with a crown of long spikes, a long neck, dark ridged scales and folded membrane wings |
+| Imp | `167518dd…jpg`, panel Imp | an imp: a thin, pale humanoid with long limbs, bat wings with pink membranes and a long segmented tail ending in a barb, arched above its body |
