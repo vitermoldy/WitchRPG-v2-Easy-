@@ -288,3 +288,4 @@ Poster `images (7).jpg` berisi 35 makhluk kecil, kebanyakan berwujud manusia, bu
 | Huldra | a woman with long blonde hair in a green dress |
 | The Simurgh | a huge copper-brown mythical bird with spread wings and a long flowing tail |
 | Kinnari | a half-woman, half-bird creature with green wings, holding a bow |
+| Aziza | a small dark-skinned fairy with a flower crown and a brown dress, with translucent insect wings |
