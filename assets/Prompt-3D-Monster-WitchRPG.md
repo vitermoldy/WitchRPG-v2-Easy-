@@ -223,3 +223,4 @@ Gambar-gambar ini karya seniman atau studio modern (lukisan digital, poster kaos
 | Harpy biru-putih | `z0jfasz4aizd1.jpeg` | a screaming harpy woman with a feathered crown, blue-and-white feathered wings with clawed hands, a short feather skirt and bird legs with talons |
 | Griffin cokelat | `167518dd…jpg`, panel Griffin | a griffin with a golden eagle head, huge brown spread wings and a tawny lion body, perched on a rock with its talons gripping it |
 | Griffin putih-emas | `z0jfasz4aizd1.jpeg` | a rearing griffin with a white-and-gold eagle head, white wings, a golden lion body and a tufted tail, talons raised |
+| Hippogriff | `167518dd…jpg`, panel Hippogriff | a hippogriff: the front half a giant eagle with brown-gold feathers and talons, the back half a horse, wearing a bridle and saddle (rider optional) |
