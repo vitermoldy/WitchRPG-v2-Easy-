@@ -39,3 +39,4 @@ extra limbs, missing limbs, extra heads, extra fingers, changed pose, different 
 **Pilihan gaya untuk `[STYLE]`**
 
 | Gaya | Cocok untuk | Teks yang ditempel |
+| --- | --- | --- |
