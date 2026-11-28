@@ -104,3 +104,4 @@ if not animated and tris() > BUDGET:
         if ob.type == "MESH":
             m = ob.modifiers.new("budget", "DECIMATE")
             m.ratio = ratio
+for a in arms:
