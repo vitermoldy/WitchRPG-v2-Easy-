@@ -367,3 +367,4 @@ def b_cornutus(r):
         h.ell(hc + Vector((0.1 * k, 0.0, 0.11)), (0.04, 0.02, 0.04), mat="skin", seg=8, rings=5)
     h.cone(hc + Vector((0, -0.02, 0.12)), hc + Vector((0, 0.0, 0.24)), 0.025, mat="horn", seg=5)
     for sd, side in SIDES:
+        back_wing(r, "wing_" + side, (0.08 * sd, J["back"][1], J["z"]["sh"] - 0.05), sd, "feather", 1.9, 1.0, raise_deg=35, sweep_deg=20, feathers=9, tilt=58,
