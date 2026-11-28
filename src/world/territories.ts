@@ -145,3 +145,4 @@ function place(): Territory[] {
       // a ground kept to the south searches the whole width of the map south of its line
       const x = Math.round(maxY !== undefined ? (rnd() * 2 - 1) * PLAY_HALF : z.c[0] + (rnd() * 2 - 1) * span)
       const y = Math.round(maxY !== undefined ? maxY - rnd() * (PLAY_HALF + maxY) : z.c[1] + (rnd() * 2 - 1) * z.r * 2.2)
+      if (fits({ ...rest, c: [x, y], wave }, zone, own, out, margin)) spot = [x, y]
