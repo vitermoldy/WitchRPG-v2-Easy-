@@ -86,3 +86,4 @@ for a in arms:
 bpy.context.view_layer.update()
 animated = bool(arms) and len(bpy.data.actions) > 0
 lo, hi = mesh_bounds()
+s = height / max(1e-6, hi.z - lo.z)
