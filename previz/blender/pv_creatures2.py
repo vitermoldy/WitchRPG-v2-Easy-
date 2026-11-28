@@ -605,3 +605,4 @@ def b_silvana(r):
     wild_hair(h, hc, s, n=18, length=0.42, up=0.3)
     h.ell(hc + Vector((0, 0.03, 0.04)), (0.1, 0.11, 0.1), mat="hair")
     t = r.parts["torso"]
+    t.ell(V(J["waist"]) + Vector((0, -0.08, -0.04)), (0.2, 0.17, 0.17), mat="skin")
