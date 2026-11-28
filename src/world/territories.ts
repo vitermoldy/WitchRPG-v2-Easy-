@@ -38,3 +38,4 @@ type Plan = Omit<Territory, 'c' | 'wave'> & { zone: Zone['key']; at?: [number, n
 const PLATEAU = 30
 const BLOB = 1.34
 
+const PLANS: Plan[] = [
