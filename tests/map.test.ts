@@ -101,3 +101,4 @@ describe('the forest valley', () => {
 
 describe('every creature on its own ground (owner, 28 Nov 2026)', () => {
   it('gives every fighting kind exactly one territory, and every territory its camps', () => {
+    const fighters = V2_KINDS.filter((k) => !(FAUNA as readonly string[]).includes(k))
