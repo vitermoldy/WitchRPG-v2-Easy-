@@ -22,3 +22,4 @@ describe('the forest, one tile at a time (5000 m map)', () => {
     }
   })
 
+  it('keeps trees off the paths and the clearings, and leaves tiles past the terrain empty', () => {
