@@ -51,6 +51,7 @@ describe('the forest valley', () => {
     for (const [x, y] of [[-1100, -1100], [1100, 0], [-1150, 300], [0, -1150]]) {
       const w = zoneWeights(x, y)
       expect(w.reduce((s, v) => s + v, 0), `${x}, ${y}`).toBeCloseTo(1, 5)
+    }
   })
 
   it('keeps every camp inside its zone and the zone level band (three levels per tier, as in v1)', () => {
