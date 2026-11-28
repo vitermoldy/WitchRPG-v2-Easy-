@@ -260,3 +260,4 @@ Poster `images (7).jpg` berisi 35 makhluk kecil, kebanyakan berwujud manusia, bu
 | Unicorn | a white unicorn with a flowing white mane whose hind body becomes a long fish-like tail dissolving into sparkles |
 | Fairy | a slender fairy with dark hair in a flowing white dress, with large translucent grey insect wings |
 | Pegasus | a white winged horse with large feathered wings, its hind body dissolving into particles |
+| Phoenix | a phoenix with fiery red-orange feathers and wings spread wide |
