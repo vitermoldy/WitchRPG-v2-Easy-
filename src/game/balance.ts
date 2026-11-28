@@ -1186,6 +1186,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
       { name: 'tendangan lima kaki', strike: 'ring', windup: 0.7, recover: 1, range: 3.2, ring: 2.8 },
     ],
   },
+  // Boss of Tanah Ganjil: the allegory of discord, five heads on one giant (named Septiceps until 28 Nov 2026; the key stays
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
