@@ -101,3 +101,4 @@ def board():
         C.text(coll, S.fmt_m(stats[k]["tinggi"]), (x0 + cw - 0.42, -0.1, z0 - 4.72), size=0.3, color="#ffb866", align="RIGHT", rot=(90, 0, 0))
         C.text(coll, row[K.ROLE], (x0 + 0.42, -0.1, z0 - 5.08), size=0.22, color="#cfc6c0", rot=(90, 0, 0))
         C.text(coll, f"Rank Rite: {row[K.RANK]}      Zona: {row[K.ZONE]}      {stats[k]['segitiga']:,} segitiga".replace(",", "."), (x0 + 0.42, -0.1, z0 - 5.38), size=0.2,
+               color="#a49c97", rot=(90, 0, 0))
