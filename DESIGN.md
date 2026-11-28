@@ -331,3 +331,4 @@ Permintaan pemilik: "buat tempat monsternya abstrak, masa sederetan gitu, perlua
 
 | Bagian | Keputusan | Alasan |
 | --- | --- | --- |
+| Model makhluk | Pemilik membuat GLB dengan tool image-to-3D. Yang berbentuk manusia atau berkaki empat dirig dan dianimasikan di Meshy (idle, walk, attack, hit, die); yang aneh (Buer, Raia, Ravenna, Marinus, Duyung, Discordia, Asmodeus, Aries) dikirim polos untuk dirig di Blender. Nama file di `assets/DAFTAR-GLB.md` dan `previz/blender/ai-models.json` | Jawaban pemilik. |
