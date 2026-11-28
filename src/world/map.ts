@@ -299,7 +299,7 @@ export function inWaterRect(x: number, y: number) {
 
 /** Soft share of each zone at a map point; they add up to 1. */
 export function zoneWeights(x: number, y: number, out: Float32Array<ArrayBufferLike> = new Float32Array(ZONES.length)): Float32Array<ArrayBufferLike> {
-  let sum = 0
+  // measured against the nearest zone, so far from every centre the shares do not all round to zero
   for (let i = 0; i < ZONES.length; i++) {
     const z = ZONES[i]
     const d = dist(x, y, z.c) / z.r
