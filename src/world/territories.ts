@@ -138,3 +138,4 @@ function place(): Territory[] {
     const { zone, at, maxY, ...rest } = plan
     const z = ZONES.find((zz) => zz.key === zone)!
     let spot: [number, number] | null = at ?? null
+    const span = (z.rx ?? z.r) * 2.2
