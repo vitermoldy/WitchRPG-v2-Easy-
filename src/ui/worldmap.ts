@@ -169,6 +169,7 @@ export class WorldMap {
     this.cx = mx - (ux - 0.5) * next
     this.cy = my + (uy - 0.5) * next
     this.clampView()
+    this.draw()
   open() {
     if (!this.dlg.open) this.dlg.showModal()
     this.renderBosses()
