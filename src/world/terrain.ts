@@ -67,8 +67,6 @@ export class Terrain {
         this.chunks.push({ ix, iz, centre: new THREE.Vector3(cx, heightMap(cx, -cz), cz), meshes: [null, null, null], lod: -1 })
       }
     }
-    // the far detail of every chunk exists from the start, so nothing is ever missing on screen
-    for (const c of this.chunks) this.ensure(c, 2)
   }
 
   /** Picks each chunk's detail for the camera position; builds at most `budget` new meshes. */
