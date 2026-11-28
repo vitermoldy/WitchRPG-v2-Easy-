@@ -44,3 +44,4 @@ def mesh_bounds():
         if ob.type != "MESH":
             continue
         ev = ob.evaluated_get(deps)
+        me = ev.to_mesh()
