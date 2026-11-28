@@ -235,3 +235,4 @@ Gambar-gambar ini karya seniman atau studio modern (lukisan digital, poster kaos
 | Samael | `167518dd…jpg`, panel Samael | Samael: a fallen angel with long white hair, a bare muscular torso, a red scarf, huge tattered pale wings and one arm raised holding a glowing blade |
 | Hydra laut | `images (1).jpg` | a hydra rising from a small patch of murky green water: several long serpent necks with dark green stripes, each head armored like a fish-dragon with spiky fin crests and fangs, dripping water |
 | Hydra hijau | `z0jfasz4aizd1.jpeg` | a green hydra with five snake heads with red-orange fin crests on one four-legged reptile body with a long tail |
+| Cerberus biru menyala | `images (2).jpg` | a three-headed hellhound standing upright, dark blue-black armored hide with glowing cyan cracks and cyan eyes, open fanged mouths with long tongues and a snake for a tail |
