@@ -572,3 +572,4 @@ def b_panotti(r):
 
 
 def b_blemmye(r):
+    """Blemmye (prompt no. 11): no head and no neck; two eyes at the top of the torso, a nose, a mustache and a mouth in
