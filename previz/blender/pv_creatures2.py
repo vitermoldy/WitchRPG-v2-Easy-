@@ -623,3 +623,4 @@ def b_leonis(r):
     """The lion-faced humanoid (prompt no. 13): a small calm lion face in a huge spiky mane, a human body with a
     sagging chest and a round pot belly, one hand on a long straight sword planted point-down, a long thin tail
     curling on the ground, feet with long splayed claw-like toes."""
+    H = 2.3
