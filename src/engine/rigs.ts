@@ -865,6 +865,7 @@ const poseBuer: PoseFn = (p, u, t) => {
   const amp = Math.min(1, Math.hypot(u.vel.x, u.vel.z) / Math.max(1, u.speed * 0.4))
   if (u.state === 'windup') {
     const k = ease(u.t / (u.atk.windup * u.tempo))
+    if (u.atk.strike === 'line') {
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   griffin: poseBeast,
   hippogriff: poseBeast,
