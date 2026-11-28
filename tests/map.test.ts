@@ -124,3 +124,5 @@ describe('every creature on its own ground (owner, 28 Nov 2026)', () => {
     for (const kind of V2_KINDS.filter((k) => UNITS[k].boss && k !== 'hydra')) {
       expect(CAMP_DEFS.filter((c) => c.pack[kind]).length, kind).toBe(1)
     }
+  })
+
