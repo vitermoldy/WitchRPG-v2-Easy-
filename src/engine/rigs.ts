@@ -18,6 +18,7 @@ const HEAD_LIES = 1
  * plain colour.
  */
 export const VARIANTS: Partial<Record<UnitKind, Record<string, string>>> = {
+  // the dark harpy: brown feathers and wings
 /** Adds a per-instance emissive colour (hit flash, the violet glow of a body that can be raised). */
 function patchGlow(mat: THREE.MeshStandardMaterial) {
   mat.onBeforeCompile = (s) => {
