@@ -428,10 +428,7 @@ export class Game implements UnitHost {
       this.forest.prepare(hx, hz)
     }
     progress('Memanggil Ilyra dan makhluk hutan')
-    const [ilyra, ...creatures] = await Promise.all([
-      loadModel('./models/ilyra.glb'),
-      ...V2_KINDS.map((k) => loadModel(`./models/${k}.glb`)),
-      ...V2_KINDS.map((k) => loadModel(`./models/${k}_lod.glb`)),
+    // models from the owner's image-to-3D tool, imported by `npm run models:ai`, take the place of the block-outs
     ])
     this.ilyra = new IlyraModel(ilyra)
     // in first person her body is hidden from the view but still casts its shadow
