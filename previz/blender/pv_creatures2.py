@@ -531,3 +531,4 @@ def b_cracovia(r):
     for k in (1, -1):
         h.ell(hc + Vector((0.05 * k, -0.1, 0.03)), (0.032, 0.02, 0.025), mat="glow", seg=8, rings=5)
         h.cone(hc + Vector((0.07 * k, -0.09, 0.04)), hc + Vector((0.2 * k, -0.08, 0.08)), 0.025, mat="glow", seg=5)
+        h.tube([hc + Vector((0.12 * k * s, 0, 0.04)), hc + Vector((0.18 * k * s, 0.02, -0.06)), hc + Vector((0.17 * k * s, 0.03, -0.16))], [0.02, 0.05, 0.0], mat="skin", seg=6, n=2, squash=0.3)
