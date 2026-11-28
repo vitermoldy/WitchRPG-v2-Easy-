@@ -850,6 +850,7 @@ const poseRaia: PoseFn = (p, u, t) => {
     p.rot('wing_L', 0, 0, -20)
     p.rot('wing_R', 0, 0, 20)
     p.rot('head', 20)
+    return
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   griffin: poseBeast,
   hippogriff: poseBeast,
