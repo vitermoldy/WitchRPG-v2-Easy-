@@ -9,3 +9,4 @@ import { heightMap, inClearing, inWaterRect, LAGOON, LAKE, LANDMARKS, MERE, path
  * Hitam, Atlas at the temple, Marinus in the lagoon, the Duyung in the mere. Map coordinates: x east, y north.
  */
 export interface Territory {
+  key: string
