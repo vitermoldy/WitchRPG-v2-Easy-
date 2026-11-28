@@ -354,6 +354,7 @@ export class WorldMap {
         r = 22
         gg = 46
         b = 52
+      } else {
         }
         const o = (j * BASE + i) * 4
         img.data[o] = Math.min(255, r)
