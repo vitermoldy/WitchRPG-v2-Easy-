@@ -207,3 +207,5 @@ File: `Screenshot 2026-11-28 114708.png`.
 Turn the attached antique woodcut into a 3D render of the same creature. Keep it 100% identical to the reference in pose, camera angle, proportions, anatomy and every detail; add nothing, remove nothing. Subject: a winged dragon-demon standing upright on its hind legs: a long snouted lizard-like head with a slightly open mouth, a curled ram-like horn and a crest of curly hair. Two scrawny arms reaching forward with long hooked talons. Two small fleshy sacs hanging from the chest. One large membranous bat-like wing with dark spots and ribbed veins. Lean body, long thin legs with shaggy fur on the thighs, bird-of-prey talon feet, and a long thin tail curling down to the ground. Standing on a grassy mound. Style: stylized 3D, ivory parchment-colored surfaces with black ink cross-hatching engraved into the texture, like an antique woodcut brought to life. Full body, single character, plain light-grey background, soft studio lighting, ultra-detailed, 4K.
 ```
 
+## Bagian 2: Monster dari gambar berwarna
+
