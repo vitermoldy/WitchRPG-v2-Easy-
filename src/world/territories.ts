@@ -191,3 +191,4 @@ export function steepest(x: number, y: number) {
 }
 
 /** Can a camp of this territory stand here: same zone, firm or wadeable ground, not on an altar, the lake or a path. */
+export function campGround(t: Territory, x: number, y: number) {
