@@ -49,3 +49,4 @@ describe('the forest, one tile at a time (5000 m map)', () => {
   })
 })
 
+describe('the ground, built near her first', () => {
