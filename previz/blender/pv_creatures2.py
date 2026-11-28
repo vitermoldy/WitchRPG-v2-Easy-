@@ -419,3 +419,4 @@ def b_sirena(r):
     foot.limb(A, Vector((A.x, A.y - 0.02, 0.06)), 0.045, 0.035, mat="claw2")
     for a in (-30, 0, 30):
         tip = Vector((A.x, A.y, 0.0)) + Vector((math.sin(math.radians(a)) * 0.2, -math.cos(math.radians(a)) * 0.2, 0.01))
+        foot.cone(Vector((A.x, A.y - 0.02, 0.06)), tip, 0.022, mat="claw", seg=5)
