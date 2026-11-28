@@ -79,3 +79,4 @@ def back_wing(r, name, root, s, kind, span, chord, **kw):
     """A wing on its own part (wing_L / wing_R), pivoted at its root on the back, so the game can beat it."""
     w = r.P(name, root, "torso")
     if kind == "bat":
+        bat_wing(w, root, s, span, chord, **kw)
