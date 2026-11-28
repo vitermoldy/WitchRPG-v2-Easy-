@@ -258,6 +258,7 @@ export class Camps {
             const cz = oz + Math.sin(a) * r
             if (!g.ground.blocked(cx, cz)) {
               camp.units.forEach((u, k) => {
+                const off = camp.offsets?.[k] ?? [0, 0]
         // rouse the whole pack when she or a shadow comes close, or one of them is hurt
         if (!camp.roused) {
           const close = (u: Unit) => {
