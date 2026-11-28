@@ -1826,6 +1826,7 @@ dialog::backdrop {
 
 .map-view canvas {
   border-radius: var(--radius-sm);
+  cursor: grab;
 }
 
 .map-side {
