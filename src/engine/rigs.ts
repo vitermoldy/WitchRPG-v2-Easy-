@@ -869,6 +869,7 @@ const poseBuer: PoseFn = (p, u, t) => {
       // rocks back, then starts to turn
       p.rot('hub', -20 * k + 6 * Math.sin(t * 30) * k)
     } else {
+      for (let i = 0; i < 5; i++) p.rot('leg' + i, -25 * k)
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   griffin: poseBeast,
   hippogriff: poseBeast,
