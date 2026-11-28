@@ -722,3 +722,4 @@ COLORS2 = {
                  "wood": "#3a2a1c", "metal": "#b8bcc4", "cloth": "#9a1e1e", "claw": "#2a2420", "beakleg": "#d08a30",
                  "scale": ("#c8a050", "#e0c070"), "fire": "#ff9a30", "emissive": {"fire": ("#ff7a1a", 3.0)}},
     "buer": {"body": ("#c99a50", "#e0c080"), "body2": ("#a8742c", "#d0a050"), "leg": ("#8a7a64", "#a89a82"), "hoof": "#2e2824", "horn": "#efe6d6", "mouth": "#6a1a14", "nose": "#3a2a20"},
+    "cacodaemon": {"body": ("#5f6e4e", "#a8b08a"), "body2": "#8a9070", "membrane": ("#45452f", "#6e6a4c"), "accent": "#24241a", "horn": "#d6ccb0", "claw": "#2a2620",
