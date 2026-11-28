@@ -832,6 +832,7 @@ const poseWinged: PoseFn = (p, u, t) => {
   p.rot('shin_R', 25 + Math.max(0, 30 * Math.sin(u.walk * 1.4 + 1.2 + Math.PI)) * amp)
 }
 
+/** Raia: a ray that flies; the fins ripple, the whip tail sways, it noses down to dive. */
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   griffin: poseBeast,
   hippogriff: poseBeast,
