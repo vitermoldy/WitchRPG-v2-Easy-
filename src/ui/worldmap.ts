@@ -458,6 +458,7 @@ export class WorldMap {
       // the ragged outline of the ground, as the game tests it (territories.ts reach)
       ctx.beginPath()
       for (let i = 0; i <= 48; i++) {
+        const a = (i / 48) * Math.PI * 2
     // altars: teal diamonds, filled once lit
     const r = Math.max(4, size / 110)
     for (const a of ALTARS) {
