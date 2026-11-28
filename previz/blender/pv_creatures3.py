@@ -224,3 +224,4 @@ def b_banshee(r):
 COLORS3 = {
     "aziza": {"skin": ("#5a3a28", "#4a2e20"), "hair": "#1e1410", "flower": "#ffb0d0", "flower2": "#fff0a0", "cloth": "#7a5030", "wing": "#d8f0ff"},
     "kitsune": {"body": ("#d8642a", "#f4e0c8"), "body2": ("#e8782e", "#f8e8d0"), "tip": "#ffffff", "claw": "#2a2420", "mouth": "#5a1a14", "nose": "#1e1410"},
+    "sylph": {"smoke": ("#4a5468", "#6a7488"), "smoke2": ("#5a6478", "#8a94a8"), "glow": "#c8e0ff"},
