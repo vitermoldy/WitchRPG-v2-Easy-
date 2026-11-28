@@ -562,3 +562,4 @@ def b_panotti(r):
     face(h, hc, H)
     h.ell(hc + Vector((0, 0.02, 0.07)), (0.09, 0.1, 0.06), mat="hair")
     for sd, side in SIDES:
+        root = hc + Vector((0.085 * sd, 0.01, 0.06))
