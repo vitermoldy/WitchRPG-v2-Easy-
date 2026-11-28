@@ -1456,6 +1456,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   // Banshee: a pale ghost woman; screams along a line from afar, a cold touch up close.
   banshee: {
     name: 'Banshee',
+    rank: 'prajurit',
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
