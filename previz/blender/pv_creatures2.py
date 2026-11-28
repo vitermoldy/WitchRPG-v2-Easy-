@@ -759,3 +759,4 @@ ROSTER2 = [
     ("raia", "Raia", b_raia, "Penukik udara, ekor cambuk", "Prajurit", "VI Tanah Ganjil", (R + "114648.png", (20, 160, 745, 640))),
     ("marinus", "Marinus", b_marinus, "Penyembur laguna", "Ksatria", "VI Tanah Ganjil", (R + "114627.png", (10, 5, 865, 425))),
     ("cracovia", "Cracovia", b_cracovia, "Pelecut belalai", "Ksatria", "VI Tanah Ganjil", (R + "114352.png", (20, 40, 380, 520))),
+    ("tetrachiron", "Tetrachiron", b_tetrachiron, "Petarung empat lengan", "Jenderal", "VI Tanah Ganjil", (R + "114315.png", (60, 50, 340, 290))),
