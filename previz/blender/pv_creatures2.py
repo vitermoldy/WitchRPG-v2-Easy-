@@ -294,3 +294,4 @@ def b_asmodeus(r):
 
 
 def b_buer(r):
+    """Buer of the Dictionnaire Infernal (prompt no. 14): a lion's head with a thick shaggy mane, grimacing with the
