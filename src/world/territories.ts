@@ -18,3 +18,4 @@ export interface Territory {
   /** Level of its first camp and its last; the camps in between climb evenly. */
   levels: [number, number]
   /** How many camps, and how many creatures each lists (spawned times CAMP.pack). */
+  camps: number
