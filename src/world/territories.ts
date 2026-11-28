@@ -119,3 +119,4 @@ export function reach(t: Pick<Territory, 'r' | 'wave'>, a: number) {
 export function inside(t: Territory, x: number, y: number) {
   const d = Math.hypot(x - t.c[0], y - t.c[1])
   if (d > t.r * BLOB) return false
+  return d < reach(t, Math.atan2(y - t.c[1], x - t.c[0]))
