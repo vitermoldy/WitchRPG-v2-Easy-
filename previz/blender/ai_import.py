@@ -58,3 +58,4 @@ def tris():
     deps = bpy.context.evaluated_depsgraph_get()
     for ob in bpy.context.scene.objects:
         if ob.type == "MESH":
+            me = ob.evaluated_get(deps).to_mesh()
