@@ -288,6 +288,7 @@ export const WATER_RECTS: [number, number, number, number][] = [
   around(LAGOON),
   around(MERE),
   [POND.c[0] - POND.r, POND.c[1] - POND.r, POND.c[0] + POND.r, POND.c[1] + POND.r],
+]
 
 export function inWaterRect(x: number, y: number) {
   return x > WATER_RECT[0] && x < WATER_RECT[2] && y > WATER_RECT[1] && y < WATER_RECT[3]
