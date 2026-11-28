@@ -947,6 +947,7 @@ const poseAsmodeus: PoseFn = (p, u, t) => {
  * walks, rears back to wind up, lunges into the strike, reels when staggered, and falls when it dies.
  */
 const poseWhole: PoseFn = (p, u, t) => {
+  if (common(p, u, t, [])) return
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   griffin: poseBeast,
   hippogriff: poseBeast,
