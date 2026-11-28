@@ -98,3 +98,4 @@ export class Landmarks {
 
   private add(geo: THREE.BufferGeometry, mat: THREE.Material, list: THREE.Matrix4[]) {
     if (!list.length) return
+    const mesh = new THREE.InstancedMesh(geo, mat, list.length)
