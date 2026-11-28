@@ -27,3 +27,4 @@ os.makedirs(OUT, exist_ok=True)
 
 
 def clear():
+    for ob in list(bpy.data.objects):
