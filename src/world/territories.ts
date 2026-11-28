@@ -203,3 +203,4 @@ export function campGround(t: Territory, x: number, y: number) {
 }
 
 /** How many camps a ground keeps: a lone lair stays one, the others are multiplied by CAMP.camps (owner: more spawns). */
+export function campCount(t: Territory) {
