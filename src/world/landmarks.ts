@@ -121,3 +121,4 @@ const pos = (p: { x: number; y: number; z: number }) => ({ x: p.x, y: p.y - 1, z
 
 /** The place of the south that holds a map point, if any. */
 export function landmarkAt(x: number, y: number): Landmark | null {
+  return LANDMARKS.find((l) => Math.hypot(x - l.c[0], y - l.c[1]) < l.r) ?? null
