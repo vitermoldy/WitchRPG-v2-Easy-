@@ -14,3 +14,4 @@ from pv_creatures import SIDES, bat_wing, beard, dragon_head, eagle_head, face, 
 def b_silenus(r):
     """The plump old satyr: small curved horns, a bearded face, a round pot belly, one hand pointing, shaggy goat legs."""
     H = 1.8
+    J = humanoid(r, H, bulk=1.35, legs="hoof", arm_pose={"L": (20, 10, 15), "R": (35, 80, 5)}, leg_pose={"L": (10, 15), "R": (-8, 10)},
