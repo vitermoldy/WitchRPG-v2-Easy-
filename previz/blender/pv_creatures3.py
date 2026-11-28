@@ -187,3 +187,4 @@ def b_sylph(r):
     """Sylph (poster, Bagian 3): a dark, wispy spirit of air and smoke; a body that fades into swirling
     smoke instead of legs."""
     H = 2.0
+    J = humanoid(r, H, bulk=0.7, legs=None, female=True, arm_pose={"L": (55, 20, 30), "R": (50, 30, 40)}, body_mat="smoke")
