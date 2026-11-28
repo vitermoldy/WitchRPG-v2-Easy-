@@ -128,3 +128,4 @@ def b_manticore(r):
     tl = r.P("tail", Q["tail_base"], "body")
     tb = V(Q["tail_base"])
     pts = [tb, tb + Vector((0, 0.7, 0.4)), tb + Vector((0, 0.9, 1.3)), tb + Vector((0, 0.4, 2.0)), tb + Vector((0, -0.2, 2.1))]
+    tl.tube(pts, [0.14, 0.12, 0.1, 0.09, 0.08], mat="scale", seg=8, n=4)
