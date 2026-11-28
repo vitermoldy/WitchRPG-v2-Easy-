@@ -141,6 +141,7 @@ export function water(): THREE.Mesh {
     return geo
   })
   const m = new THREE.Mesh(mergeGeometries(planes), mat)
+  m.position.y = WATER_LEVEL
   m.name = 'water'
   m.receiveShadow = true
   return m
