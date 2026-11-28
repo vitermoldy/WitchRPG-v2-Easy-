@@ -145,3 +145,4 @@ describe('every creature on its own ground (owner, 28 Nov 2026)', () => {
       expect(UNITS[kind as keyof typeof UNITS].boss, kind).toBeFalsy()
     }
     for (const kind of ['septiceps', 'asmodeus'] as const) {
+      expect(UNITS[kind].boss).toBe(true)
