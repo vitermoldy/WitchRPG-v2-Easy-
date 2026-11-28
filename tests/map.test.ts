@@ -107,3 +107,5 @@ describe('every creature on its own ground (owner, 28 Nov 2026)', () => {
       if (t.noCamps) continue
       expect(campSpots(t).length, t.key).toBe(campCount(t))
     }
+  })
+
