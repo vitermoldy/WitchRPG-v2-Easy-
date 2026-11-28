@@ -325,3 +325,5 @@ Permintaan pemilik: "perbaiki genangan air dan boss ganda di peta, dan perluas l
 
 Pemeriksaan: tes 117 dari 117 lulus, build bersih. Di game (tanpa server): ke-36 daerah berkamp dikunjungi; masing-masing memunculkan jenisnya sendiri, tanpa error. Peta: Medusa dan Chimera sekali, zoom dan geser berfungsi. Performa di jam yang sama (1080p, RTX, tiga run): titik awal 6,5 sampai 6,8 ms, Kuil 5,4 sampai 5,9 ms, 200 bayangan 7,7 sampai 8,2 ms, sekitar 0,3 ms di atas peta 1.800 m. Muat sampai layar judul sekitar 3,2 dtk (menanam hutan 0,9 dtk, shader 0,9 dtk).
 
+### Peta 5.000 m, daerah acak, model dari tool AI (28 Nov 2026)
+
