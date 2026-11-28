@@ -497,3 +497,4 @@ def b_satyr(r):
     J = humanoid(r, H, bulk=0.9, legs="hoof", arm_pose={"L": (-12, 50, 35), "R": (-14, 58, 28)}, leg_pose={"L": (15, 20), "R": (-5, 15)},
                  body_mat="skin", leg_mat="fur", foot_mat="hoof")
     h = r.parts["head"]
+    hc = V(J["head_c"])
