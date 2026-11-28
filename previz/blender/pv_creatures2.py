@@ -766,3 +766,4 @@ ROSTER2 = [
     ("asmodeus", "Asmodeus", b_asmodeus, "Boss akhir Tanah Ganjil", "Marsekal", "VI Tanah Ganjil", (R + "114448.png", (40, 20, 700, 715))),
 ]
 
+# registered with the first roster, so K.build() and the GLB export know these keys
