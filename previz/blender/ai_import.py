@@ -3,3 +3,4 @@
     blender -b --factory-startup -P previz/blender/ai_import.py -- <key> <source.glb> [turn_degrees]
 
 The model is scaled to the height of the creature's block-out (public/models/<key>.glb), stood with its
+feet on the ground, centred over its feet and turned to face the way the game expects (glTF +Z, Blender
