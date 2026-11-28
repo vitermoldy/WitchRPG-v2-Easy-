@@ -100,3 +100,4 @@ bpy.context.view_layer.update()
 # a model without bones over the budget is thinned out
 if not animated and tris() > BUDGET:
     ratio = BUDGET / tris()
+    for ob in bpy.context.scene.objects:
