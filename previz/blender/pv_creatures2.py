@@ -388,3 +388,4 @@ def b_sirena(r):
     two large feathered wings grow from the shoulders in place of arms; a Y-shaped mark and a small cross on the
     chest; from the hips down fish scales tapering into a single leg with an eye on the knee and one talon foot."""
     H = 1.95
+    J = humanoid(r, H, bulk=0.75, legs=None, arm_pose={"L": (80, 10, 15), "R": (80, 10, 15)}, body_mat="skin")
