@@ -47,3 +47,4 @@ const PLANS: Plan[] = [
   { key: 'kitsune', name: 'Hutan Kitsune', kind: 'kitsune', zone: 'pembuka', maxY: -900, r: 170, levels: [1, 2], camps: 6, pack: 3, elites: 1 },
   { key: 'sylph', name: 'Padang Sylph', kind: 'sylph', zone: 'pembuka', maxY: -900, r: 170, levels: [2, 3], camps: 6, pack: 3, elites: 1 },
   { key: 'banshee', name: 'Kabut Banshee', kind: 'banshee', zone: 'pembuka', maxY: -900, r: 170, levels: [3, 3], camps: 6, pack: 2, elites: 1 },
+  // II Tebing Berangin (Lv 4 to 6), all on the plateau and its eastern lobe
