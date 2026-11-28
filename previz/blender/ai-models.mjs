@@ -16,3 +16,5 @@ const table = JSON.parse(fs.readFileSync(path.join(here, 'ai-models.json'), 'utf
 const blender = process.env.BLENDER || 'C:/Program Files/Blender Foundation/Blender 5.1/blender.exe'
 const quiet = process.argv.includes('--quiet')
 // --src key=path imports one file from elsewhere (for testing the pipeline)
+const extra = process.argv.filter((a) => a.includes('=') && !a.startsWith('--')).map((a) => a.split('='))
+
