@@ -131,3 +131,4 @@ function place(): Territory[] {
   const order = [...PLANS].sort((a, b) => Number(!!b.at) - Number(!!a.at) || Number(!!a.boss) - Number(!!b.boss) || b.r - a.r)
   for (const plan of order) {
     const rnd = rng(SEED + [...plan.key].reduce((s, ch) => (s * 31 + ch.charCodeAt(0)) >>> 0, 7))
+    const wave: Territory['wave'] = plan.at
