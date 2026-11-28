@@ -48,6 +48,7 @@ export const MERE = { c: s(-620, -40), r: 130 }
  * Places without monsters in the south of Hutan Pembuka (owner, 28 Nov 2026: fill the south, half new
  * monsters and half places to explore), each with an altar. Map coordinates as they stand (not scaled).
  */
+export interface Landmark {
 /**
  * Altars: heal, the point she rises at after a fall, and fast travel between the ones already lit
  * (like v1's altar). One by the start, one where the paths split, one on each new zone's path.
