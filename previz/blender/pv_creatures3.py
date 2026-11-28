@@ -249,3 +249,4 @@ ROSTER3 = [
     ("blackdragon", "Dragon Hitam", b_blackdragon, "Boss dunia", "Marsekal", "V Lembah Bara", None),
     ("aziza", "Aziza", b_aziza, "Peri penyengat, kawanan", "Prajurit", "I Hutan Pembuka (selatan)", None),
     ("kitsune", "Kitsune", b_kitsune, "Rubah ekor sembilan", "Prajurit", "I Hutan Pembuka (selatan)", None),
+    ("sylph", "Sylph", b_sylph, "Roh angin, peniup", "Prajurit", "I Hutan Pembuka (selatan)", None),
