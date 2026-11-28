@@ -129,3 +129,6 @@ def b_manticore(r):
     tb = V(Q["tail_base"])
     pts = [tb, tb + Vector((0, 0.7, 0.4)), tb + Vector((0, 0.9, 1.3)), tb + Vector((0, 0.4, 2.0)), tb + Vector((0, -0.2, 2.1))]
     tl.tube(pts, [0.14, 0.12, 0.1, 0.09, 0.08], mat="scale", seg=8, n=4)
+    dragon_head(tl, V(pts[-1]) + Vector((0, -0.15, 0)), fwd=(0, -1, -0.3), s=0.55, jaw_open=35, horns=True, mat="scale")
+
+
