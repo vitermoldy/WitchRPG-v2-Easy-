@@ -178,3 +178,5 @@ function fits(t: Territory, zone: string, own: number, placed: Territory[], marg
     if (t.minHeight !== undefined && heightMap(x, y) < t.minHeight + 2) return false
   }
   return true
+}
+
