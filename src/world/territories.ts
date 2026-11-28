@@ -12,3 +12,4 @@ export interface Territory {
   key: string
   name: string
   kind: V2Kind
+  c: [number, number]
