@@ -1262,6 +1262,7 @@ function skinRole(u: Unit): SkinRole {
 export function clipRoles(clips: THREE.AnimationClip[]): Partial<Record<SkinRole, THREE.AnimationClip>> {
   const out: Partial<Record<SkinRole, THREE.AnimationClip>> = {}
   const words: [SkinRole, RegExp][] = [
+    ['die', /die|death|dead|dying/i],
 interface CrowdBatch {
   parts: { geometry: THREE.BufferGeometry; material: THREE.Material; mesh: THREE.InstancedMesh }[]
   cap: number
