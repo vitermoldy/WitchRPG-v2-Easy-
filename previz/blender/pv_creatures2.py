@@ -104,3 +104,4 @@ def extra_arm(r, J, side, s, z_off, pose, H, bulk, mat="skin"):
     return W, d2
 
 
+def fur_on(part, a, b, n, r, mat="fur", out=0.6):
