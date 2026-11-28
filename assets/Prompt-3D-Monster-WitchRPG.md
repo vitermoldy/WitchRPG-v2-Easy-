@@ -22,3 +22,5 @@ Template ini bisa dipakai untuk gambar apa pun di folder. Ganti `[SUBJECT]` deng
 
 ```text
 Turn the attached 2D illustration into a 3D render of the same creature. Stay 100% faithful to the reference: identical pose, camera angle, silhouette, proportions, anatomy, number of heads, arms, legs, wings and tails, facial expression, markings and colors. Do not add, remove, redesign or improve any part. Subject: [SUBJECT]. Style: [STYLE]. Full body in frame, single character only, plain light-grey studio background, soft three-point lighting, physically based materials, ultra-detailed, 4K.
+```
+
