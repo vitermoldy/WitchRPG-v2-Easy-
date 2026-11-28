@@ -74,3 +74,4 @@
   },
   "monster_marinus.glb": {
     "key": "marinus",
+    "rig": "blender"
