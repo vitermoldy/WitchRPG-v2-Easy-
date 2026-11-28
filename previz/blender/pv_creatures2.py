@@ -343,3 +343,4 @@ def b_cacodaemon(r):
     t = r.parts["torso"]
     t.ell(V(J["chest"]) + Vector((0, -0.05, -0.1)), (0.13, 0.08, 0.18), mat="body2")
     for k in (-1, 1):
+        t.ell(V(J["chest"]) + Vector((0.06 * k, -0.12, -0.2)), (0.04, 0.04, 0.06), mat="body2")
