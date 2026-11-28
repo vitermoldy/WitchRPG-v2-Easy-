@@ -82,3 +82,4 @@ def board():
         bg.parts["m"].box((x0 + 6.85, 0.9, z0 - 2.25), (4.5, 0.02, 3.95), mat="w")
         bg.finalize()
         row = K.ROSTER_BY_KEY[k]
+        if row[K.REF]:
