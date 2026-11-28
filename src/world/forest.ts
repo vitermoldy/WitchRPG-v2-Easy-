@@ -181,8 +181,7 @@ export function scatterTile(ix: number, iz: number, step = 4, seed = 3): Tree[] 
   const w = new Float32Array(ZONES.length)
   for (let j = 0; j < n; j++) {
     for (let i = 0; i < n; i++) {
-      const x = (i - n / 2 + 0.5) * step + (rnd() - 0.5) * step * 0.9
-      const y = (j - n / 2 + 0.5) * step + (rnd() - 0.5) * step * 0.9
+      const x = ix * TILE + (i + 0.5) * step + (rnd() - 0.5) * step * 0.9
       const pick = rnd()
       const keep = rnd()
       const rockRoll = rnd()
