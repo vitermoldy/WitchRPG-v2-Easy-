@@ -87,3 +87,4 @@ export class Landmarks {
           obstacles.add({ kind: SPHERE, x: p.x, y: p.y + H, z: p.z, r: H * 0.4, h: 0, camOnly: true })
         }
       }
+    }
