@@ -1398,6 +1398,7 @@ export class Rigs {
         m.castShadow = u.team === 'enemy' && !u.spec.passive
         m.receiveShadow = u.team === 'enemy'
         m.frustumCulled = false
+      })
   /** How far below its feet a unit is drawn while it rises out of a pool, sinks in, or turns to ash. */
   private sink(u: Unit): number {
     if (u.state === 'rising') {
