@@ -148,3 +148,4 @@ function place(): Territory[] {
       if (fits({ ...rest, c: [x, y], wave }, zone, own, out, margin)) spot = [x, y]
     }
     if (!spot) throw new Error(`territory ${plan.key} found no room in ${zone}`)
+    margin.set(plan.key, own)
