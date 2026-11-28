@@ -620,3 +620,4 @@ def b_silvana(r):
 
 
 def b_leonis(r):
+    """The lion-faced humanoid (prompt no. 13): a small calm lion face in a huge spiky mane, a human body with a
