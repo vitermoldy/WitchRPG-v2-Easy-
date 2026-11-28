@@ -713,3 +713,4 @@ def b_raia(r):
 
 # ---------------------------------------------------------------- colours (the sheets are black ink; chosen per creature)
 
+COLORS2 = {
