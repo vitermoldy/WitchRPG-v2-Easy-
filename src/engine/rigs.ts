@@ -981,6 +981,7 @@ const POSES: Partial<Record<UnitKind, PoseFn>> = {
   triceps: biped({ heavy: 0.4, reach: 1, sway: 3 }),
   cracovia: serpentine(biped({ heavy: 0.6, reach: 1, sway: 3 }), 'tail'),
   tetrachiron: fourArmed(biped({ heavy: 0.5, reach: 1, sway: 3 })),
+  marinus: poseMedusa,
   griffin: poseBeast,
   hippogriff: poseBeast,
   pegasus: poseBeast,
