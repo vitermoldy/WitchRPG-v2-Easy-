@@ -486,3 +486,4 @@ def b_triceps(r):
     hp = V(J["hip"])
     for i in range(7):
         a = math.radians(-50 + 16 * i)
+        b0 = hp + Vector((math.sin(a) * 0.12, 0.15, 0.02))
