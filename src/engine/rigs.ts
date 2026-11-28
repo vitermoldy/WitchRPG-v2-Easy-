@@ -1419,6 +1419,7 @@ export class Rigs {
         next.setLoop(once ? THREE.LoopOnce : THREE.LoopRepeat, Infinity)
         next.clampWhenFinished = once
         // an attack clip is fitted to the creature's windup and strike, so the blow lands when the hit does
+        next.timeScale = role === 'attack' ? clip.duration / Math.max(0.3, (u.atk.windup + (u.atk.lungeTime ?? 0.3)) * u.tempo) : 1
   /** How far below its feet a unit is drawn while it rises out of a pool, sinks in, or turns to ash. */
   private sink(u: Unit): number {
     if (u.state === 'rising') {
