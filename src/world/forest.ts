@@ -263,6 +263,7 @@ export class Forest {
   readonly mesh = new THREE.Group()
   private readonly tiles = new Map<string, Tile>()
   private readonly geos = geometries()
+  private readonly verts: number
   private readonly visibleRange: number
 
   constructor(trees: Tree[], visibleRange = 330) {
