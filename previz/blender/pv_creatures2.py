@@ -233,3 +233,4 @@ def b_asmodeus(r):
     nb = V(Q["neck_base"])
     hp = nb + Vector((-0.5, -0.45, -0.3))
     n = r.P("neck", nb, "body")
+    n.limb(nb, hp, 0.45, 0.36, mat="body")
