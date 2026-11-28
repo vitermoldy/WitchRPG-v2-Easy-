@@ -26,3 +26,4 @@ describe('models from the image-to-3D tool (owner, 28 Nov 2026)', () => {
     const clip = (name: string) => new THREE.AnimationClip(name, 1, [])
     const roles = clipRoles([clip('Armature|Idle'), clip('Walking'), clip('Punch_Attack'), clip('Hit Reaction'), clip('Dying')])
     expect(roles.idle?.name).toBe('Armature|Idle')
+    expect(roles.walk?.name).toBe('Walking')
