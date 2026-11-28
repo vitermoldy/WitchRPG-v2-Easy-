@@ -652,3 +652,4 @@ def b_marinus(r):
     pts = [hp + Vector((0, 0, 0.08)), hp + Vector((0, 0.15, -0.5)), Vector((0, 0.7, 0.3)), Vector((0, 1.5, 0.25)), Vector((0.1, 2.3, 0.35)), Vector((0.15, 3.0, 0.75)), Vector((0.1, 3.4, 1.2))]
     tl.tube(pts, [0.24, 0.26, 0.24, 0.2, 0.15, 0.1, 0.06], mat="scale", seg=10, n=4)
     tip = V(pts[-1])
+    tl.poly([tip, tip + Vector((0.05, 0.55, 0.55)), tip + Vector((0.0, 0.25, 0.0)), tip + Vector((0.05, 0.6, -0.35))], mat="fin")
