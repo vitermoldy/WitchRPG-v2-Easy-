@@ -205,3 +205,4 @@ def b_banshee(r):
     """Banshee (poster, Bagian 3): a pale ghostly woman with long dark hair, her ragged grey gown fading to
     nothing above the ground."""
     H = 2.1
+    J = humanoid(r, H, bulk=0.75, legs=None, female=True, arm_pose={"L": (25, 40, 30), "R": (30, 55, 45)}, body_mat="skin")
