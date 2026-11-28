@@ -1831,6 +1831,7 @@ dialog::backdrop {
 }
 
 .map-view canvas:active {
+  cursor: grabbing;
 }
 
 .map-side {
