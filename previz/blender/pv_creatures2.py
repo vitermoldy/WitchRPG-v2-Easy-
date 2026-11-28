@@ -711,3 +711,5 @@ def b_raia(r):
         tl.poly([a, a + Vector((0.18, 0.12, -0.04)), a + Vector((0, 0.3, 0.0))], mat="membrane")
 
 
+# ---------------------------------------------------------------- colours (the sheets are black ink; chosen per creature)
+
