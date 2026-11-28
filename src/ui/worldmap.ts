@@ -461,6 +461,7 @@ export class WorldMap {
         const a = (i / 48) * Math.PI * 2
         const rr = (reach(t, a) / span) * size
         const ox = x + Math.cos(a) * rr
+        const oy = y - Math.sin(a) * rr
     // altars: teal diamonds, filled once lit
     const r = Math.max(4, size / 110)
     for (const a of ALTARS) {
