@@ -718,3 +718,4 @@ COLORS2 = {
                   "cloth": "#e6dcc0", "cloth2": "#7a2a24", "metal": "#c8ccd4", "wood": "#4a3020", "gold": "#c8a040",
                   "mask": "#f2eee6", "cloth3": "#8a6a3a", "heart": "#a01c22", "page": "#f2ead6", "talon": "#c8a038", "claw": "#2a2420"},
     "asmodeus": {"body": ("#6a2e2a", "#b07050"), "body2": "#3a1a16", "skin": "#c8946c", "hair": "#2a1c18", "bull": ("#3a2c24", "#5a4434"), "ram": ("#e2d6bc", "#c8b898"),
+                 "membrane": ("#3a2030", "#5a3a48"), "horn": "#d8ccb0", "gold": "#e0b040", "snake": ("#4a6a3a", "#c8c070"), "mouth": "#4a0e0a", "nose": "#2a1c18",
