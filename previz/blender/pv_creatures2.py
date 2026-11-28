@@ -540,3 +540,4 @@ def b_cracovia(r):
         t.ell(V(J["waist"]) + Vector((0.07 * k, -0.2, 0.06)), (0.03, 0.015, 0.02), mat="eye", seg=8, rings=5)
     t.ell(V(J["waist"]) + Vector((0, -0.21, -0.06)), (0.05, 0.02, 0.025), mat="mouth", seg=8, rings=5)
     for s_, side in SIDES:
+        dog_head(r.parts["forearm_" + side], V(J["el_" + side]) + Vector((0.07 * s_, 0.0, 0)), fwd=(s_, -0.2, 0.0), s=0.38, jaw_open=10, ears=True, teeth=False, mat="dog")
