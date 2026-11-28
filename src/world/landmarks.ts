@@ -7,3 +7,4 @@ import { heightMap, LANDMARKS, toWorld, type Landmark } from './map'
  * flowers, a circle of standing stones on a knoll, a grove of giant glowing mushrooms. Simple shapes,
  * one InstancedMesh per material for all four, with colliders for what she should not walk through.
  */
+export class Landmarks {
