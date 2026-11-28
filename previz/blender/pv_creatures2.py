@@ -437,3 +437,4 @@ def b_tetrachiron(r):
         r.parts["hand_" + side].ell(J["wr_" + side] + J["hand_dir_" + side] * 0.06, H * 0.032, mat="skin")
         fur_on(r.parts["torso"], V(J["sh_" + side]) + Vector((0, 0, 0.05)), V(J["sh_" + side]) + Vector((0.1 * s, 0, -0.1)), 6, 0.06, mat="feather")
     h = r.parts["head"]
+    hc = V(J["head_c"])
