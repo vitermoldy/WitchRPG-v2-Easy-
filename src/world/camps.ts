@@ -58,6 +58,7 @@ export const ROAM_DEFS: CampDef[] = (() => {
   const out: CampDef[] = []
   const step = CAMP.roam
   for (let y = -PLAY_HALF + step / 2; y < PLAY_HALF; y += step) {
+    for (let x = -PLAY_HALF + step / 2; x < PLAY_HALF; x += step) {
 
 export interface Camp {
   def: CampDef
