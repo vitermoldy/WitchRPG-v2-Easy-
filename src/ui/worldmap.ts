@@ -448,6 +448,7 @@ export class WorldMap {
       label(sealed ? `${z.name} (tersegel)` : z.name, px(z.c[0]), py(z.c[1]), 0, sealed ? '#ffbe73' : 'rgba(239, 230, 223, 0.92)')
     }
 
+    // every creature's ground: a thin ring in its colour and its name (owner, 28 Nov 2026)
     // altars: teal diamonds, filled once lit
     const r = Math.max(4, size / 110)
     for (const a of ALTARS) {
