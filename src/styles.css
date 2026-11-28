@@ -1844,6 +1844,7 @@ dialog::backdrop {
 
 .map-zoom .btn {
   min-width: 2.75rem;
+  min-height: 2.75rem;
 }
 
 .map-side {
