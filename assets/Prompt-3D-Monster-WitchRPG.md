@@ -294,3 +294,4 @@ Poster `images (7).jpg` berisi 35 makhluk kecil, kebanyakan berwujud manusia, bu
 
 ## File yang dilewati
 
+| File | Alasan |
