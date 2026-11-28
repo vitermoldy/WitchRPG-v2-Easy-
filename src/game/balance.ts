@@ -1414,6 +1414,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   // Kitsune: the nine-tailed fox; quick, circles to her side, bites and darts along a line.
   kitsune: {
     name: 'Kitsune',
+    rank: 'prajurit',
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
