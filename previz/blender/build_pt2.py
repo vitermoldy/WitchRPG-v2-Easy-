@@ -42,3 +42,4 @@ def log(*a):
     print(f"[pt2 {time.time() - t0:6.1f}s]", *a, flush=True)
 
 
+for ob in list(bpy.data.objects):
