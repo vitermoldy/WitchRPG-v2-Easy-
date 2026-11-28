@@ -16,6 +16,7 @@ const HEAD_LIES = 1
  * Colour variants worn by elites (owner, 28 Nov 2026: the colour variants of the reference pictures, on
  * elites only): material slot of the block-out -> colour. The slot's two-tone shading gives way to the
  * plain colour.
+ */
 /** Adds a per-instance emissive colour (hit flash, the violet glow of a body that can be raised). */
 function patchGlow(mat: THREE.MeshStandardMaterial) {
   mat.onBeforeCompile = (s) => {
