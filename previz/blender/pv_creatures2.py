@@ -485,3 +485,4 @@ def b_triceps(r):
     p = r.parts["pelvis"]
     hp = V(J["hip"])
     for i in range(7):
+        a = math.radians(-50 + 16 * i)
