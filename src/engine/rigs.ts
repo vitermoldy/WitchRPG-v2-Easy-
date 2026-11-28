@@ -1411,6 +1411,7 @@ export class Rigs {
     const role = skinRole(u)
     if (role !== copy.role) {
       const clip = src.clips[role] ?? src.clips.idle
+      const prev = copy.role ? (src.clips[copy.role] ?? src.clips.idle) : null
   /** How far below its feet a unit is drawn while it rises out of a pool, sinks in, or turns to ash. */
   private sink(u: Unit): number {
     if (u.state === 'rising') {
