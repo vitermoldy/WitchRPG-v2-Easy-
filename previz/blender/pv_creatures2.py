@@ -298,3 +298,4 @@ def b_buer(r):
     tongue out, no torso, five goat legs with cloven hooves radiating like spokes, shaggy tufts at the joints. It
     rolls like a wheel when it moves."""
     R = 1.02
+    hub = r.P("hub", (0, 0, R), None)
