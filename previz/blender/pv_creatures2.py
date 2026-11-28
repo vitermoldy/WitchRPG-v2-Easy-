@@ -35,3 +35,4 @@ def pointed_ears(part, hc, s, mat="skin", length=0.16):
 
 def claws(part, W, d, n=3, length=0.12, r=0.007, spread=0.025):
     for i in range(n):
+        a = (i - (n - 1) / 2) * spread
