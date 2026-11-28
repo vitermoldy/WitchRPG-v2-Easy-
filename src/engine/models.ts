@@ -12,6 +12,7 @@ export async function loadModel(url: string): Promise<THREE.Group> {
   return (await loadAnimated(url)).scene
 }
 
+/** A model with the animation clips it carries (a GLB rigged and animated in an image-to-3D tool). */
   const gltf = await loader.loadAsync(url)
   gltf.scene.traverse((o) => {
     const m = o as THREE.Mesh
