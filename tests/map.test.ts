@@ -134,3 +134,4 @@ describe('every creature on its own ground (owner, 28 Nov 2026)', () => {
         const b = TERRITORIES[j]
         expect(Math.hypot(a.c[0] - b.c[0], a.c[1] - b.c[1]), `${a.key} / ${b.key}`).toBeGreaterThanOrEqual(a.r + b.r)
       }
+    }
