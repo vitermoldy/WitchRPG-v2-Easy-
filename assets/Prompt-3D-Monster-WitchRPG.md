@@ -276,3 +276,4 @@ Poster `images (7).jpg` berisi 35 makhluk kecil, kebanyakan berwujud manusia, bu
 | Qilin | a qilin: a deer-like body covered in pale blue-gold scales, a dragon head with antlers and a golden mane |
 | Banshee | a pale ghostly woman with long dark hair, fading into shadow |
 | Fenghuang | a fenghuang: a pheasant-like bird with green, red and blue plumage and a long flowing tail |
+| Griffin | a griffin lying down, with a golden eagle head and large brown wings on a lion body |
