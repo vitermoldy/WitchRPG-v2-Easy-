@@ -227,3 +227,4 @@ COLORS3 = {
     "sylph": {"smoke": ("#4a5468", "#6a7488"), "smoke2": ("#5a6478", "#8a94a8"), "glow": "#c8e0ff"},
     "banshee": {"skin": "#e4e6ea", "hair": "#141418", "cloth": ("#8a8e96", "#aeb2ba")},
     "silenus": {"skin": ("#c99a74", "#b38260"), "hair": "#e8e2d8", "fur": ("#5a4632", "#7a6048"), "horn": "#4a3c30", "hoof": "#1e1814"},
+    "hippocentaurus": {"body": ("#b89878", "#d8c0a0"), "skin": ("#c08a68", "#a87456"), "hair": "#3a2a20", "hoof": "#2a2420"},
