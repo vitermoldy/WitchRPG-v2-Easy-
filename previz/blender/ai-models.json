@@ -2,3 +2,4 @@
   "_": "Models from the owner's image-to-3D tool. File in assets/ -> creature key in the game. rig: 'tool' = rigged and animated in the tool (idle, walk, attack, hit, die); 'blender' = sent without bones, rigged by hand later. turn: extra turn in degrees if a model faces the wrong way.",
   "monster_satyr.glb": {
     "key": "satyr",
+    "rig": "tool"
