@@ -638,3 +638,4 @@ def b_leonis(r):
     for s, side in SIDES:
         A = V(J["ankle_" + side])
         for a in (-0.04, -0.015, 0.015, 0.04):
+            r.parts["foot_" + side].cone(A + Vector((a, -0.09, -0.06)), A + Vector((a * 2.2, -0.24, -0.09)), 0.012, mat="claw", seg=4)
