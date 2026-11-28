@@ -174,3 +174,4 @@ describe('the south and the roaming packs (owner, 28 Nov 2026)', () => {
     const { ROAM_DEFS } = await import('../src/world/camps')
     expect(ROAM_DEFS.length).toBeGreaterThan(300)
     for (const r of ROAM_DEFS) {
+      expect(territoryAt(r.c[0], r.c[1]), `pengembara ${r.c}`).toBeNull()
