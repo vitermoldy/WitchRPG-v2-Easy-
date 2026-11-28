@@ -53,3 +53,4 @@ def mesh_bounds():
     return lo, hi
 
 
+def tris():
