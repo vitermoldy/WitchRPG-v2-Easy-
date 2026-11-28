@@ -72,3 +72,4 @@ def board():
     card = C.mat_flat("kartu2", "#1d1a1f", 1.0)
     well = C.mat_flat("sumur2", "#2a2d36", 1.0)
     C.text(coll, "Papan makhluk WitchRPG v2 (Easy), bagian 2: Tanah Ganjil", (0.4, 0, -0.85), size=0.62, color="#f4efe9", rot=(90, 0, 0))
+    C.text(coll, "Kiri: gambar referensi pemilik (assets/Monster pt2). Kanan: block-out 3D yang mengikuti anatomi dan atributnya; warnanya dipilih per makhluk karena referensinya hitam putih.",
