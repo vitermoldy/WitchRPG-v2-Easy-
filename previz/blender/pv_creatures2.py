@@ -403,3 +403,4 @@ def b_sirena(r):
     ch = V(J["chest"]) + Vector((0, -0.12, 0.0))
     t.limb(ch + Vector((0, 0, -0.06)), ch + Vector((0, 0, 0.03)), 0.008, 0.008, mat="accent", seg=4, joints=False)
     for k in (-1, 1):
+        t.limb(ch + Vector((0, 0, 0.03)), ch + Vector((0.04 * k, 0, 0.08)), 0.008, 0.008, mat="accent", seg=4, joints=False)
