@@ -366,3 +366,4 @@ def b_cornutus(r):
         h.ell(hc + Vector((0.045 * k, -0.11, 0.03)), (0.022, 0.014, 0.016), mat="eye", seg=8, rings=5)
         h.ell(hc + Vector((0.1 * k, 0.0, 0.11)), (0.04, 0.02, 0.04), mat="skin", seg=8, rings=5)
     h.cone(hc + Vector((0, -0.02, 0.12)), hc + Vector((0, 0.0, 0.24)), 0.025, mat="horn", seg=5)
+    for sd, side in SIDES:
