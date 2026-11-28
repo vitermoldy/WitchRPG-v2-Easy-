@@ -103,3 +103,4 @@ describe('every creature on its own ground (owner, 28 Nov 2026)', () => {
   it('gives every fighting kind exactly one territory, and every territory its camps', () => {
     const fighters = V2_KINDS.filter((k) => !(FAUNA as readonly string[]).includes(k))
     for (const kind of fighters) expect(TERRITORIES.filter((t) => t.kind === kind).length, kind).toBe(1)
+    for (const t of TERRITORIES) {
