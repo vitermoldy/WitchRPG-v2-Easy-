@@ -137,3 +137,4 @@ function place(): Territory[] {
     const own = 10 + rnd() * 40
     const { zone, at, maxY, ...rest } = plan
     const z = ZONES.find((zz) => zz.key === zone)!
+    let spot: [number, number] | null = at ?? null
