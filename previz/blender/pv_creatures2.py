@@ -349,3 +349,4 @@ def b_cacodaemon(r):
     tail_tube(tl, [hp + Vector((0, 0.08, 0)), hp + Vector((0.1, 0.45, -0.45)), hp + Vector((0.25, 0.7, -0.95)), hp + Vector((0.1, 1.0, -1.05)), hp + Vector((-0.1, 1.15, -0.8))], 0.07, 0.01)
 
 
+def b_cornutus(r):
