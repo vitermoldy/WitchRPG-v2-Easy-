@@ -11,3 +11,4 @@ Ekspor GLB berisi tulang dan lima animasi. Nama animasi cukup mengandung kata in
 | Makhluk | Nama file | Nomor di prompt |
 | --- | --- | --- |
 | Satyr (peniup suling) | `monster_satyr.glb` | Bagian 1, no. 8 (kanan) |
+| Silenus (satir gemuk) | `monster_silenus.glb` | Bagian 1, no. 8 (kiri) |
