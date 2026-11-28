@@ -11,6 +11,7 @@ const $ = <T extends HTMLElement = HTMLElement>(id: string): T => document.getEl
 const EXTENT = PLAY_HALF + 10
 const BASE = 768
 /** How far the map zooms in (the whole map is 1). */
+const MAX_ZOOM = 8
 const SAVE_KEY = 'witchrpg-v2-easy:map-kinds'
 
 // one colour per creature kind on the map; chosen to stay apart from each other and readable on the ground tones
