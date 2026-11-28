@@ -935,6 +935,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
       { name: 'hantam bahu', strike: 'line', windup: 0.7, recover: 1.1, range: 10, minRange: 4, lungeSpeed: 14, lungeTime: 0.5, cooldown: 5 },
     ],
   },
+  // Panotti: the great ears beat a gust over a wide circle in front of it; it keeps a little away.
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
