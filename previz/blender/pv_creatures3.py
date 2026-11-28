@@ -69,3 +69,6 @@ def b_aquilon(r):
     W, d = J["wr_R"], J["hand_dir_R"]
     spear = Vector((0.05, -0.3, 1)).normalized()
     hd.limb(W - spear * 0.9, W + spear * 1.6, 0.03, 0.03, mat="wood", seg=6, joints=False)
+    hd.cone(W + spear * 1.6, W + spear * 1.95, 0.06, mat="metal", seg=6)
+
+
