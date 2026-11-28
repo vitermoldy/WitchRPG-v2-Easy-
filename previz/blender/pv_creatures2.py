@@ -505,3 +505,4 @@ def b_satyr(r):
     beard(h, hc + Vector((0, -0.14, -0.12)), 0.12, 0.035)
     goat_horns(h, hc, s * 1.2, length=0.9)
     pointed_ears(h, hc, s, length=0.12)
+    for side, a, b in (("L", V(J["hip"]) + Vector((J["hw"], 0, 0)), J["knee_L"]), ("R", V(J["hip"]) + Vector((-J["hw"], 0, 0)), J["knee_R"])):
