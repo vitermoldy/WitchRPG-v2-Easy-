@@ -1125,6 +1125,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   },
   // Tetrachiron: four fists and broad wings; a beating of fists under a circle, a wing gust around it, a charge.
   tetrachiron: {
+    name: 'Tetrachiron',
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
