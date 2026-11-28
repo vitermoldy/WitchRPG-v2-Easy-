@@ -683,3 +683,4 @@ def b_raia(r):
     c = Vector((0, 0, 0.9))
     body = r.P("body", c, None)
     body.ell(c + Vector((0, 0.05, 0)), (0.42, 0.7, 0.28), mat="body")
+    body.ell(c + Vector((0, -0.05, -0.25)), (0.38, 0.42, 0.32), mat="body2")
