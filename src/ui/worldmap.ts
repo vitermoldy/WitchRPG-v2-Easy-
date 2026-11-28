@@ -114,6 +114,7 @@ export class WorldMap {
     $('map-zoom-out').addEventListener('click', () => this.zoomBy(1 / 1.5))
     $('map-zoom-fit').addEventListener('click', () => {
       this.zoom = 1
+      this.cx = this.cy = 0
     $('map-sort').addEventListener('change', () => this.renderMonsters())
     $('map-all').addEventListener('click', () => {
       for (const m of this.monsters()) this.chosen.add(m.kind)
