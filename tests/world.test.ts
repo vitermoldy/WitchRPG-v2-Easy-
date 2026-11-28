@@ -54,3 +54,4 @@ describe('the ground, built near her first', () => {
     const terrain = new Terrain()
     const [hx, hz] = toWorld(SPOTS.hero[0], SPOTS.hero[1])
     terrain.prepare(new THREE.Vector3(hx, 0, hz))
+    const shown = terrain.group.children.filter((m) => m.visible)
