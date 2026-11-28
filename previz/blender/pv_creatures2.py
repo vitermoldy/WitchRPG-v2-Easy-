@@ -462,3 +462,4 @@ def b_triceps(r):
     H = 2.6
     J = humanoid(r, H, bulk=0.95, legs="bird", arm_pose={"L": (110, 20, 30), "R": (55, 20, 30)}, leg_pose={"L": (5, 10), "R": (-5, 10)},
                  neck_scale=0.5, body_mat="scale", foot_mat="claw")
+    h = r.parts["head"]
