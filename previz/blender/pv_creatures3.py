@@ -253,3 +253,4 @@ ROSTER3 = [
     ("banshee", "Banshee", b_banshee, "Hantu penjerit", "Prajurit", "I Hutan Pembuka (selatan)", None),
 ]
 
+K.COLORS.update(COLORS3)
