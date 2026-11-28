@@ -228,3 +228,4 @@ def b_asmodeus(r):
     crouching scaly beast with heavy clawed paws and a snarling lion face."""
     Q = quad(r, 2.1, 4.0, 1.6, 1.55, 0.17, front="paw", hind="paw", body_mat="body")
     b = r.parts["body"]
+    b.ell(V(Q["chest"]) + Vector((0, -0.25, 0.05)), (0.8, 0.8, 0.85), mat="body")
