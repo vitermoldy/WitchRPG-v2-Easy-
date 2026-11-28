@@ -423,3 +423,4 @@ def b_sirena(r):
     foot.cone(Vector((A.x, A.y, 0.06)), Vector((A.x, A.y + 0.14, 0.0)), 0.02, mat="claw", seg=5)
 
 
+def b_tetrachiron(r):
