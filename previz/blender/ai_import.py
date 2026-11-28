@@ -76,3 +76,4 @@ def export(path, animations):
 clear()
 bpy.ops.import_scene.gltf(filepath=BLOCKOUT)
 lo, hi = mesh_bounds()
+height = hi.z - lo.z
