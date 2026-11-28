@@ -1068,6 +1068,7 @@ class Rig implements Poser {
         if (team === 'enemy' && slot) {
           mat.vertexColors = false
           mat.color.set(variant![slot])
+          if (slot === 'body_veins') mat.emissive.set(0x000000)
         patchGlow(mat)
         mats.set(src, mat)
       }
