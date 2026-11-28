@@ -98,3 +98,4 @@ root.scale = (s, s, s)
 root.rotation_euler = (0, 0, math.radians(TURN))
 bpy.context.view_layer.update()
 # a model without bones over the budget is thinned out
+if not animated and tris() > BUDGET:
