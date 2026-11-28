@@ -323,3 +323,5 @@ Permintaan pemilik: "perbaiki genangan air dan boss ganda di peta, dan perluas l
 | Batas zona | Pengaruh Tanah Ganjil memudar di selatan y 520 (`south`) | Elipsnya yang lebar sempat menjalar ke tepi barat dan timur sampai jauh ke selatan, jadi strip tipis zona tersegel di sisi peta. |
 | Peta (M) | Zoom 1 sampai 4 kali (gulir, + dan −, tombol), geser dengan seret, "Seluruh peta" kembali penuh; boss yang dipilih dari daftar ke tengah tampilan saat diperbesar. Lapisan dasar 640 piksel dengan satu sampel tinggi per piksel. Label mencoba posisi lebih jauh sebelum bertumpuk | Di 2.600 m nama daerah terlalu kecil tanpa zoom. |
 
+Pemeriksaan: tes 117 dari 117 lulus, build bersih. Di game (tanpa server): ke-36 daerah berkamp dikunjungi; masing-masing memunculkan jenisnya sendiri, tanpa error. Peta: Medusa dan Chimera sekali, zoom dan geser berfungsi. Performa di jam yang sama (1080p, RTX, tiga run): titik awal 6,5 sampai 6,8 ms, Kuil 5,4 sampai 5,9 ms, 200 bayangan 7,7 sampai 8,2 ms, sekitar 0,3 ms di atas peta 1.800 m. Muat sampai layar judul sekitar 3,2 dtk (menanam hutan 0,9 dtk, shader 0,9 dtk).
+
