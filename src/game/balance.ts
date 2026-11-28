@@ -1166,6 +1166,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
       { name: 'patuk elang', strike: 'ring', windup: 0.55, recover: 0.8, range: 3.2, ring: 1.8, lungeSpeed: 6, lungeTime: 0.3 },
     ],
   },
+  // Buer: the wheel of goat legs round a lion's head; rolls at her along a line, kicks with all five up close.
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
