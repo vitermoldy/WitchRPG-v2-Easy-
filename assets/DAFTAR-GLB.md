@@ -15,3 +15,4 @@ Ekspor GLB berisi tulang dan lima animasi. Nama animasi cukup mengandung kata in
 | Blemmye | `monster_blemmye.glb` | Bagian 1, no. 11 |
 | Panotti (bertelinga raksasa) | `monster_panotti.glb` | Bagian 1, no. 10 |
 | Silvana (wanita liar) | `monster_silvana.glb` | Bagian 1, no. 12 |
+| Leonis (manusia singa) | `monster_leonis.glb` | Bagian 1, no. 13 |
