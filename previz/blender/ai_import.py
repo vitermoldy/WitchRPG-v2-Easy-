@@ -105,3 +105,4 @@ if not animated and tris() > BUDGET:
             m = ob.modifiers.new("budget", "DECIMATE")
             m.ratio = ratio
 for a in arms:
+    a.data.pose_position = "POSE"
