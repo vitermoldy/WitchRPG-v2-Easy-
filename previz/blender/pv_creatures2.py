@@ -144,3 +144,4 @@ def b_septiceps(r):
     the two human legs a third taloned bird leg, a furry wolf leg and a bushy fox tail. The viewer's left is
     the creature's right (-X)."""
     H = 5.6
+    J = humanoid(r, H, bulk=1.3, legs="human", arm_pose={"L": (55, 45, 70), "R": (55, 35, 60)}, leg_pose={"L": (-10, 6), "R": (14, 8)},
