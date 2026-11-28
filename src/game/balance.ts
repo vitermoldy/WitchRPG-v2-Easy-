@@ -1001,6 +1001,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   },
   // Cornutus: horned and winged; leaps from afar onto a circle and claws up close.
   cornutus: {
+    name: 'Cornutus',
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
