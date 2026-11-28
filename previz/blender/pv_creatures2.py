@@ -334,3 +334,4 @@ def b_cacodaemon(r):
     wild_hair(h, hc + Vector((0, 0.05, 0.05)), 1.0, n=8, length=0.12, mat="body2", up=1.0)
     for s, side in SIDES:
         claws(r.parts["hand_" + side], J["wr_" + side], J["hand_dir_" + side], n=4, length=0.13)
+        back_wing(r, "wing_" + side, (0.08 * s, J["back"][1], J["z"]["sh"] - 0.03), s, "bat", 1.9, 1.3, raise_deg=50, sweep_deg=30, bone="horn", arm="body")
