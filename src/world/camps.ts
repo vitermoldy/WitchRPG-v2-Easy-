@@ -79,6 +79,7 @@ export const ROAM_DEFS: CampDef[] = (() => {
         if (d < bd) {
           bd = d
           best = t
+        }
 
 export interface Camp {
   def: CampDef
