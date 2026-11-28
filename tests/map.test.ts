@@ -143,3 +143,4 @@ describe('every creature on its own ground (owner, 28 Nov 2026)', () => {
       const t = TERRITORIES.find((x) => x.kind === kind)!
       expect(zoneAt(t.c[0], t.c[1]).key, kind).toBe('ganjil')
       expect(UNITS[kind as keyof typeof UNITS].boss, kind).toBeFalsy()
+    }
