@@ -866,6 +866,7 @@ const poseBuer: PoseFn = (p, u, t) => {
   if (u.state === 'windup') {
     const k = ease(u.t / (u.atk.windup * u.tempo))
     if (u.atk.strike === 'line') {
+      // rocks back, then starts to turn
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   griffin: poseBeast,
   hippogriff: poseBeast,
