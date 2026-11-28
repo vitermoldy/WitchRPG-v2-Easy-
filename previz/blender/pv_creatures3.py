@@ -230,3 +230,4 @@ COLORS3 = {
     "hippocentaurus": {"body": ("#b89878", "#d8c0a0"), "skin": ("#c08a68", "#a87456"), "hair": "#3a2a20", "hoof": "#2a2420"},
     "aquilon": {"skin": "#c8a078", "feather": ("#f2efe8", "#d8d2c4"), "accent": "#b0a080", "armor": ("#6a6e78", "#4a4e58"), "gold": "#d8b040",
                 "cloth": "#8a1e22", "metal": "#c8ccd4", "wood": "#4a3424", "horn": "#e0b040"},
+    "duyung": {"skin": "#ecd4c4", "hair": "#1e1614", "scale": ("#1e3a4a", "#5a8a8a"), "fin": "#2a6a6a"},
