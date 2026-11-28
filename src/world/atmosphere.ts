@@ -1,5 +1,5 @@
 import * as THREE from 'three'
-import { toMap, WATER_LEVEL, WATER_RECT, ZONES, zoneWeights } from './map'
+import { mergeGeometries } from 'three/examples/jsm/utils/BufferGeometryUtils.js'
 
 /** Top of the sky per zone: clear blue over the first three, grey over the ruins, smoke over the burning valley. */
 const ZENITH: Record<string, string> = { pembuka: '#47689a', tebing: '#47689a', rawa: '#4f6a82', kuil: '#565e6c', bara: '#3e1d17' }
