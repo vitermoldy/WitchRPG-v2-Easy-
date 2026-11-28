@@ -777,6 +777,7 @@ function serpentine(base: PoseFn, part: string): PoseFn {
  */
 const poseWinged: PoseFn = (p, u, t) => {
   if (common(p, u, t, ['upperarm_L', 'upperarm_R', 'thigh_L', 'thigh_R', 'wing_L', 'wing_R'])) return
+  const flying = u.flyer && u.alt > 0.8
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   griffin: poseBeast,
   hippogriff: poseBeast,
