@@ -73,3 +73,4 @@ def export(path, animations):
 
 
 # the height to match: the block-out's
+clear()
