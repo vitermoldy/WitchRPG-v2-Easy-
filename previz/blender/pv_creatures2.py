@@ -535,3 +535,4 @@ def b_cracovia(r):
     trunk = [hc + Vector((0, -0.11, -0.02)), hc + Vector((0, -0.28, -0.08)), hc + Vector((0, -0.42, -0.25)), hc + Vector((0, -0.45, -0.45)), hc + Vector((0, -0.38, -0.55))]
     h.tube(trunk, [0.055, 0.045, 0.035, 0.028, 0.02], mat="skin", seg=8, n=3)
     t = r.parts["torso"]
+    for k in (-1, 1):
