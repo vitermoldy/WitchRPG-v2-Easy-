@@ -1309,6 +1309,7 @@ export class Rigs {
   /** Kinds drawn from a model in one piece (an image-to-3D GLB without bones): whole-body motion only. */
   private readonly whole: Set<UnitKind>
   /** Kinds drawn from a rigged, animated GLB: one skinned copy per unit, its clips picked by the unit's state. */
+  private readonly skins: Partial<Record<UnitKind, SkinSource>>
     this.group.name = 'units'
     this.models = models
     this.lods = lods
