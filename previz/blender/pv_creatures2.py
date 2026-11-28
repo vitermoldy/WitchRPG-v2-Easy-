@@ -633,3 +633,4 @@ def b_leonis(r):
     t.ell(V(J["waist"]) + Vector((0, -0.1, -0.04)), (0.2, 0.18, 0.18), mat="skin")
     tl = r.P("tail", V(J["hip"]) + Vector((0, 0.12, -0.05)), "pelvis")
     hp = V(J["hip"])
+    pts = [hp + Vector((0, 0.12, -0.05)), hp + Vector((-0.15, 0.4, -0.4)), hp + Vector((-0.3, 0.45, -0.9)), hp + Vector((-0.1, 0.55, -1.15)), hp + Vector((0.2, 0.7, -1.12))]
