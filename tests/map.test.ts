@@ -114,3 +114,4 @@ describe('every creature on its own ground (owner, 28 Nov 2026)', () => {
       expect(Object.keys(camp.pack).length, `kamp ${camp.c}`).toBe(1)
       const t = TERRITORIES.find((x) => x.key === camp.territory)!
       expect(Object.keys(camp.pack)[0]).toBe(t.kind)
+      expect(Math.hypot(camp.c[0] - t.c[0], camp.c[1] - t.c[1]), `kamp ${camp.c}`).toBeLessThanOrEqual(t.r)
