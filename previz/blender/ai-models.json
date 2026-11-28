@@ -106,3 +106,4 @@
   },
   "monster_sylph.glb": {
     "key": "sylph",
+    "rig": "blender"
