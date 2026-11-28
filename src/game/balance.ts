@@ -1282,6 +1282,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   },
   // Aquilon: the eagle-headed warrior on the eastern plateau; circles high and dives spear first along a line.
   aquilon: {
+    name: 'Aquilon',
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
