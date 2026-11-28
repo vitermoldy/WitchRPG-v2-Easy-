@@ -943,6 +943,7 @@ const poseAsmodeus: PoseFn = (p, u, t) => {
 }
 
 /**
+ * A model in one piece (from an image-to-3D tool, not yet rigged): the body alone moves. It bobs as it
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   griffin: poseBeast,
   hippogriff: poseBeast,
