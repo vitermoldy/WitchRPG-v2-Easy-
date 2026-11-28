@@ -138,6 +138,7 @@ src/engine/   kamera (camera.ts), gerak (player.ts), rintangan (obstacles.ts), l
               model Ilyra dan animasinya (models.ts), efek dan suara dari v1 (fx.ts, audio.ts)
               proyektil makhluk: panah dan semburan (projectiles.ts), batu yang bisa dilempar (props.ts)
 src/world/    peta, zona, dan altar (map.ts, altars.ts), medan per chunk, hutan per petak, kabut dan langit, satwa (fauna.ts)
+              daerah tiap monster (territories.ts), kamp makhluk (camps.ts)
 src/data/     panggilan ke server akun (api.ts)
 src/ui/       HUD, Ledger dan panel altar (ledger.ts), gerbang masuk dan baris akun (account.ts), peta (worldmap.ts)
 server/       Express + MySQL: akun (auth.js dari v1), simpanan witch (app.js), tabel (db.js), npm run users dan set-user
