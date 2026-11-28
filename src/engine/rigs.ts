@@ -1307,6 +1307,7 @@ export class Rigs {
   private readonly s = new THREE.Vector3()
 
   /** Kinds drawn from a model in one piece (an image-to-3D GLB without bones): whole-body motion only. */
+  private readonly whole: Set<UnitKind>
     this.group.name = 'units'
     this.models = models
     this.lods = lods
