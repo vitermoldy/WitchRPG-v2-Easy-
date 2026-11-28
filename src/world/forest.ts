@@ -338,12 +338,7 @@ export class Forest {
 
   /** Hides trees past the fog so the GPU never draws what cannot be seen; far tiles are skipped whole. */
   cull(x: number, z: number) {
-    const r2 = this.visibleRange * this.visibleRange
-    for (let i = 0; i < this.trees.length; i++) {
-      const t = this.trees[i]
-      const dx = t.x - x
-      const dz = t.z - z
-      this.mesh.setVisibleAt(i, dx * dx + dz * dz < r2)
+    const range = this.visibleRange
     }
   }
 }
