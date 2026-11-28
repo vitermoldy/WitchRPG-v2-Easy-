@@ -118,3 +118,4 @@ for ob in bpy.context.scene.objects:
         for m in list(ob.modifiers):
             if m.type == "ARMATURE":
                 ob.modifiers.remove(m)
+        if not any(m.type == "DECIMATE" for m in ob.modifiers):
