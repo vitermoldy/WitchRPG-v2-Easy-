@@ -36,3 +36,4 @@ for (const m of present) {
     failed = true
     break
   }
+  console.log(`[models:ai] mengimpor ${path.basename(m.src)} sebagai ${m.key}`)
