@@ -1102,6 +1102,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
       { name: 'tanduk', strike: 'ring', windup: 0.6, recover: 0.8, range: 3.4, ring: 1.8, lungeSpeed: 8, lungeTime: 0.3 },
     ],
   },
+  // Cracovia: the Krakow monster; the trunk lashes along a line, the dog heads bite, the burning eyes spit fire.
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
