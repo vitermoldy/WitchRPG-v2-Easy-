@@ -1406,6 +1406,7 @@ export class Rigs {
     }
     copy.frame = this.frame
     copy.root.position.set(u.pos.x, u.pos.y - this.sink(u), u.pos.z)
+    copy.root.rotation.set(0, u.yaw, 0)
   /** How far below its feet a unit is drawn while it rises out of a pool, sinks in, or turns to ash. */
   private sink(u: Unit): number {
     if (u.state === 'rising') {
