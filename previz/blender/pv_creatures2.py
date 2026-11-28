@@ -428,3 +428,4 @@ def b_tetrachiron(r):
     and two short curved horns, four arms stretched out sideways in two pairs ending in fists, tufts of fur at
     the shoulders, two feathered wings spreading from the waist, the lower body wrapped in shaggy feathers, thin
     goat legs with cloven hooves."""
+    H = 2.5
