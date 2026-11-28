@@ -250,3 +250,4 @@ def b_asmodeus(r):
     h = r.parts["head"]
     hc = V(J["head_c"]) + Vector((0, 0, 0.05))
     head_ball(h, hc, 3.1, "skin")
+    face(h, hc, 3.1)
