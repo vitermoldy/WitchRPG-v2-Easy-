@@ -16,6 +16,7 @@ export interface CampDef {
   /** A boss of the open world: one creature, its own level, stands again after `CAMP.bossRespawn`. */
   boss?: boolean
   /** Key of the territory it belongs to (for a roaming pack: the nearest ground it takes its kind from). */
+  territory?: string
 }
 
 /**
