@@ -48,3 +48,4 @@ export class Landmarks {
         for (let k = 0; k < 40; k++) {
           const p = at(l, rnd() * Math.PI * 2, 10 + rnd() * 18)
           const s = 0.5 + rnd() * 1.1
+          stone.push(m4(p.x, p.y + s * 0.3, p.z, s * 1.4, s, s, rnd() * 3, rnd()))
