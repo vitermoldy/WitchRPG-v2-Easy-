@@ -1391,6 +1391,7 @@ export class Rigs {
       root.traverse((o) => {
         const m = o as THREE.Mesh
         if (!m.isMesh) return
+        const base = m.material as THREE.MeshStandardMaterial
   /** How far below its feet a unit is drawn while it rises out of a pool, sinks in, or turns to ash. */
   private sink(u: Unit): number {
     if (u.state === 'rising') {
