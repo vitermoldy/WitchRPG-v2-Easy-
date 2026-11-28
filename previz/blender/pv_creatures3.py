@@ -222,3 +222,4 @@ def b_banshee(r):
 
 
 COLORS3 = {
+    "aziza": {"skin": ("#5a3a28", "#4a2e20"), "hair": "#1e1410", "flower": "#ffb0d0", "flower2": "#fff0a0", "cloth": "#7a5030", "wing": "#d8f0ff"},
