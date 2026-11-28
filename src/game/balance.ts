@@ -1098,6 +1098,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     keepAway: 8,
     dive: 3,
     attacks: [
+      { name: 'semburan air asin', strike: 'ring', windup: 0.9, recover: 0.7, range: 20, minRange: 4, ring: 2.2, shot: { speed: 13, gravity: 12, radius: 0.4 } },
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
