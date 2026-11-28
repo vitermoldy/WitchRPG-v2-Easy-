@@ -325,6 +325,7 @@ export class WorldMap {
     if (!this.baseTones) {
       this.baseTones = ZONES.map((z) => {
         const g = parseInt(z.ground.slice(1), 16)
+        const f = parseInt(z.fog.slice(1), 16)
     const step = (EXTENT * 2) / BASE
     for (let j = 0; j < BASE; j++) {
       for (let i = 0; i < BASE; i++) {
