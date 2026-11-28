@@ -334,30 +334,7 @@ export class WorldMap {
     const tones = this.baseTones
     const w = this.baseW
     const step = (EXTENT * 2) / BASE
-    for (let j = 0; j < BASE; j++) {
-      for (let i = 0; i < BASE; i++) {
-        const mx = -EXTENT + (i + 0.5) * step
-        const my = EXTENT - (j + 0.5) * step
-        const h = heightMap(mx, my)
-        let r = 0
-        let gg = 0
-        let b = 0
-        if (inWaterRect(mx, my) && h < WATER_LEVEL - 0.3) {
-          r = 22
-          gg = 46
-          b = 52
-        } else {
-          zoneWeights(mx, my, w)
-          for (let k = 0; k < w.length; k++) {
-            r += tones[k][0] * w[k]
-            gg += tones[k][1] * w[k]
-            b += tones[k][2] * w[k]
-          }
-          // light from the north-west: slopes facing it are brighter
-          const shade = 1 + Math.max(-0.45, Math.min(0.45, ((heightMap(mx - step, my) - heightMap(mx + step, my)) + (heightMap(mx, my + step) - heightMap(mx, my - step))) * 0.05))
-          r *= shade
-          gg *= shade
-          b *= shade
+    const my = EXTENT - (j + 0.5) * step
         }
         const o = (j * BASE + i) * 4
         img.data[o] = Math.min(255, r)
