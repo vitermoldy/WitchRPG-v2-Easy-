@@ -81,6 +81,7 @@ export class Terrain {
       }
       let want = LOD_RANGE.findIndex((r) => d < r)
       if (!c.meshes[want]) {
+        // a chunk close by with nothing built yet (she just travelled) is made at once, whatever the budget
           this.ensure(c, want)
           made++
         } else {
