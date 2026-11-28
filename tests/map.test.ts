@@ -153,3 +153,4 @@ describe('every creature on its own ground (owner, 28 Nov 2026)', () => {
   })
 })
 
+describe('the south and the roaming packs (owner, 28 Nov 2026)', () => {
