@@ -140,6 +140,7 @@ export function water(): THREE.Mesh {
     geo.translate((x0 + x1) / 2, 0, -(y0 + y1) / 2)
     return geo
   })
+  const m = new THREE.Mesh(mergeGeometries(planes), mat)
   m.name = 'water'
   m.receiveShadow = true
   return m
