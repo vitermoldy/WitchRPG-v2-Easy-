@@ -207,3 +207,4 @@ def b_septiceps(r):
     W, d = J["wr_R"], J["hand_dir_R"]
     r.parts["hand_R"].ell(W + d * 0.3 + Vector((0, 0, -0.1)), (0.22, 0.2, 0.28), mat="cloth3")
     lw = r.parts["hand2_R"]
+    W2 = lw.pivot + (lw.pivot - r.parts["forearm2_R"].pivot).normalized() * 0.15
