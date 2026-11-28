@@ -109,3 +109,4 @@ def b_aries(r):
         h.tube(pts, [0.09 - 0.009 * i for i in range(9)], mat="horn", seg=7, n=2)
     t = r.parts["torso"]
     K2.fur_on(t, V(J["sh_L"]) + Vector((0, 0.05, 0.1)), V(J["sh_R"]) + Vector((0, 0.05, 0.1)), 16, 0.12, mat="bristle")
+    for side, a, b in (("L", V(J["hip"]) + Vector((J["hw"], 0, 0)), J["knee_L"]), ("R", V(J["hip"]) + Vector((-J["hw"], 0, 0)), J["knee_R"])):
