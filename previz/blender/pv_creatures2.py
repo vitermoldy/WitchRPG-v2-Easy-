@@ -703,3 +703,4 @@ def b_raia(r):
     for k in (1, -1):
         nk.ell(hc + Vector((0.07 * k, -0.12, 0.07)), 0.032, mat="eye", seg=8, rings=5)
         nk.ell(hc + Vector((0.07 * k, -0.1, 0.07)), 0.05, mat="body2", seg=8, rings=5)
+    tl = r.P("tail", c + Vector((0, 0.7, 0)), "body")
