@@ -42,3 +42,4 @@ def mesh_bounds():
     hi = Vector((-1e9, -1e9, -1e9))
     for ob in bpy.context.scene.objects:
         if ob.type != "MESH":
+            continue
