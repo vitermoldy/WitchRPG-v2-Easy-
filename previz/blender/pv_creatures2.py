@@ -454,3 +454,4 @@ def b_tetrachiron(r):
     fur_on(r.parts["thigh_R"], V(J["hip"]) + Vector((-J["hw"], 0, 0)), J["knee_R"], 8, 0.09, mat="feather")
 
 
+def b_triceps(r):
