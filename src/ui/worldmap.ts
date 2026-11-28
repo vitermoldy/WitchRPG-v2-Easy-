@@ -510,7 +510,7 @@ export class WorldMap {
     // the camps of the creatures she looks for (hollow while cleared), and the fauna
     const dot = Math.max(3.5, size / 150)
     for (const camp of g.camps.camps) {
-      if (camp.def.boss) continue
+      if (camp.def.boss || camp.def.roam) continue
       const kinds = (Object.keys(camp.def.pack) as UnitKind[]).filter((k) => this.chosen.has(k))
       kinds.forEach((k, i) => {
         const [x, y] = at(camp.pos.x, camp.pos.z)
