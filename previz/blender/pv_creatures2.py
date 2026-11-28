@@ -157,3 +157,4 @@ def b_septiceps(r):
         if kind == "fox":
             dog_head(h, top + Vector((0, -0.08, 0.06)), fwd=(-0.2, -1, 0.1), s=1.25, jaw_open=28, ears=True, teeth=True, mat="fox")
             continue
+        hc = top + Vector((0, -0.04, 0.16))
