@@ -119,3 +119,4 @@ def b_manticore(r):
     Q = quad(r, 1.7, 2.7, 0.95, 1.0, 0.1, front="paw", hind="paw")
     nb = V(Q["neck_base"])
     hp = nb + Vector((0, -0.25, 0.3))
+    n = r.P("neck", nb, "body")
