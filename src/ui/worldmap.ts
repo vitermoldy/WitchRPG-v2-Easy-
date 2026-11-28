@@ -321,6 +321,7 @@ export class WorldMap {
   /** One row of the valley picture: heights for the row and its neighbours, then colour and shade. */
   private baseRow() {
     const j = this.baseRows++
+    if (!this.baseData) this.baseData = new ImageData(BASE, BASE)
     const step = (EXTENT * 2) / BASE
     for (let j = 0; j < BASE; j++) {
       for (let i = 0; i < BASE; i++) {
