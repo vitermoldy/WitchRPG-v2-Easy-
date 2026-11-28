@@ -490,3 +490,4 @@ def b_triceps(r):
         p.tube([b0, b0 + Vector((math.sin(a) * 0.3, 0.35, 0.15)), b0 + Vector((math.sin(a) * 0.45, 0.45, -0.25))], [0.05, 0.04, 0.0], mat="accent", seg=5, n=3, squash=0.4)
 
 
+def b_satyr(r):
