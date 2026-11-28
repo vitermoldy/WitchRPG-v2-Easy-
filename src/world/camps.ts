@@ -101,6 +101,7 @@ export interface Camp {
   roused: boolean
   /** A roaming pack: where its members stand around the pack's centre, and when the centre moves next. */
   offsets?: [number, number][]
+  driftIn?: number
 }
 
 const STONES = 7
