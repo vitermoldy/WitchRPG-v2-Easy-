@@ -39,3 +39,4 @@ def b_hippocentaurus(r):
     J = humanoid(r, 2.3, bulk=1.6, legs=None, off=(0, -1.35, 0.3), arm_pose={"L": (-35, 40, 55), "R": (-38, 45, 50)}, body_mat="skin")
     h = r.parts["head"]
     hc = V(J["head_c"])
+    K2.head_ball(h, hc, 2.3, "skin", k=1.1)
