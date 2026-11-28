@@ -1394,6 +1394,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   // Aziza: a tiny forest fairy on insect wings; comes in swarms and stings along a short dive.
   aziza: {
     name: 'Aziza',
+    rank: 'prajurit',
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
