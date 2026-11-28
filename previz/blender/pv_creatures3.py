@@ -95,3 +95,4 @@ def b_aries(r):
     """Stand-in for the ram-horned demon: great curled ram horns on a bony skull face, white bristles on the neck and
     shoulders, a heavy body on goat legs (the owner designs the real body)."""
     H = 3.0
+    J = humanoid(r, H, bulk=1.45, legs="hoof", arm_pose={"L": (25, 25, 40), "R": (25, 30, 40)}, leg_pose={"L": (8, 15), "R": (-6, 12)},
