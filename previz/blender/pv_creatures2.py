@@ -179,3 +179,4 @@ def b_septiceps(r):
     t = r.parts["torso"]
     hp = V(J["hip"])
     # the banner of the vices round the waist, over the loincloth
+    t.torus(V(J["waist"]) + Vector((0, 0, -0.1)), J["sw"] * 0.85, 0.07, mat="cloth", seg=18, rseg=4)
