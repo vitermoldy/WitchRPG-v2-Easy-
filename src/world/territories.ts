@@ -180,3 +180,5 @@ function fits(t: Territory, zone: string, own: number, placed: Territory[], marg
   return true
 }
 
+export const TERRITORIES: Territory[] = place()
+
