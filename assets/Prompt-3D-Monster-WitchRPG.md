@@ -177,3 +177,5 @@ Turn the attached antique engraving into a 3D render of the same creature. Keep 
 
 ### 15. Asmodeus
 
+File: `Screenshot 2026-11-28 114448.png`.
+
