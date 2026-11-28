@@ -450,6 +450,7 @@ export class WorldMap {
 
     // every creature's ground: a thin ring in its colour and its name (owner, 28 Nov 2026)
     ctx.font = `500 ${Math.max(9, size / 78)}px Figtree Variable, Figtree, system-ui, sans-serif`
+    for (const t of TERRITORIES) {
     // altars: teal diamonds, filled once lit
     const r = Math.max(4, size / 110)
     for (const a of ALTARS) {
