@@ -123,3 +123,4 @@ def fur_on(part, a, b, n, r, mat="fur", out=0.6):
 
 def sword(part, W, d, length=1.1, mat="metal"):
     d = Vector(d).normalized()
+    side = d.cross(Vector((0, 1, 0)))
