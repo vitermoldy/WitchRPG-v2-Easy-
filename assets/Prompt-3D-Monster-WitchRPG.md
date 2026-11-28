@@ -113,3 +113,5 @@ Turn the attached antique woodcut into a 3D render of the same creature. Keep it
 
 ### 8. Dua Satir
 
+File: `Screenshot 2026-11-28 114323.png`, dua figur bawah. Buat satu per satu supaya tiap model terpisah.
+
