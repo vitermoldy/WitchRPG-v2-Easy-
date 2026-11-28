@@ -33,6 +33,7 @@ const KINDS: Kind[] = [
   { color: 0xb8b4ac, size: 0.07, vel: [0.1, -0.35, 0.05], wander: 0.15, blink: 0, alpha: 0.35 },
   { color: 0xffc070, size: 0.16, vel: [0.3, 1.4, 0.2], wander: 0.8, blink: 0.6, alpha: 1 },
   // Tanah Ganjil: pale violet flecks drifting slowly down, like ink dust off an old page
+  { color: 0xd8c8ff, size: 0.08, vel: [0.2, -0.15, 0.1], wander: 0.45, blink: 0.35, alpha: 0.6 },
 ]
 
 const MOTE_VERT = /* glsl */ `
