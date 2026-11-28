@@ -11,3 +11,4 @@ export class Landmarks {
   readonly group = new THREE.Group()
 
   constructor(obstacles: Obstacles) {
+    this.group.name = 'landmarks'
