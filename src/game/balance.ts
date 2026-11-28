@@ -973,6 +973,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     stun: 45,
     flank: true,
     attacks: [
+      { name: 'cakar beracun', strike: 'ring', windup: 0.6, recover: 0.8, range: 3.4, ring: 1.8, lungeSpeed: 8, lungeTime: 0.3, damage: 0.8, effect: 'poison' },
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
