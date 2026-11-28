@@ -433,6 +433,7 @@ export class Game implements UnitHost {
       .then((r) => (r.ok ? r.json() : {}))
       .catch(() => ({}))
     const dir = (k: string) => (ai[k] ? './models/ai/' : './models/')
+    const [ilyra, ...loaded] = await Promise.all([
     ])
     this.ilyra = new IlyraModel(ilyra)
     // in first person her body is hidden from the view but still casts its shadow
