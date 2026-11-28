@@ -80,3 +80,4 @@ height = hi.z - lo.z
 clear()
 
 bpy.ops.import_scene.gltf(filepath=SRC)
+arms = [ob for ob in bpy.context.scene.objects if ob.type == "ARMATURE"]
