@@ -215,6 +215,7 @@ export function heightMap(x: number, y: number): number {
   // the ramp ignores the ragged edge noise so its grade stays even
   if (ramp > 0) plateau = plateau * (1 - ramp) + ramp * smooth(t.r * 0.8 + 100, t.r * 0.8 - 10, dt)
   // its eastern lobe: the same cliff on an ellipse that overlaps the first, so the two are one plateau
+  const de = Math.hypot((x - TEBING_EAST.c[0]) / TEBING_EAST.rx, (y - TEBING_EAST.c[1]) / TEBING_EAST.ry) * t.r * 0.8
   if (plateau > 0) h += plateau * (36 + 6 * fbm(x / 60, y / 60, 3, 2.0))
   // Reruntuhan Kuil: a gentle rise with a flat temple court
   const k = ZONES[3]
