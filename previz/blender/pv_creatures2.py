@@ -552,3 +552,4 @@ def b_cracovia(r):
     tail_tube(tl, pts, 0.05, 0.012, mat="tail")
 
 
+def b_panotti(r):
