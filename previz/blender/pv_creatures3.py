@@ -50,3 +50,4 @@ def b_hippocentaurus(r):
         tail_tube(tl, [tb, tb + Vector((k, 0.45, 0.45)), tb + Vector((k * 2, 0.9, 0.2)), tb + Vector((k * 3, 1.25, 0.55)), tb + Vector((k * 3, 1.6, 0.3))], 0.09, 0.0, mat="hair")
 
 
+def b_aquilon(r):
