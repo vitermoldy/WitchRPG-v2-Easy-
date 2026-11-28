@@ -897,6 +897,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   // Satyr: quick on goat legs; leaps horns first under a circle, or blows a shrill note along a line from afar.
   satyr: {
     name: 'Satyr',
+    rank: 'prajurit',
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
