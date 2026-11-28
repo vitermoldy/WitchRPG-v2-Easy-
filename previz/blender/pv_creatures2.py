@@ -426,3 +426,4 @@ def b_sirena(r):
 def b_tetrachiron(r):
     """The four-armed winged monster (prompt no. 5, Fig. XXXI): a bearded man's face with two pointed animal ears
     and two short curved horns, four arms stretched out sideways in two pairs ending in fists, tufts of fur at
+    the shoulders, two feathered wings spreading from the waist, the lower body wrapped in shaggy feathers, thin
