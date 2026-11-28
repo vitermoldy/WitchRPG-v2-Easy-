@@ -47,3 +47,4 @@ export class Landmarks {
         obstacles.add({ kind: CYL, ...pos(at(l, 0, 0)), r: R + 1, h: 4, camOnly: false })
         for (let k = 0; k < 40; k++) {
           const p = at(l, rnd() * Math.PI * 2, 10 + rnd() * 18)
+          const s = 0.5 + rnd() * 1.1
