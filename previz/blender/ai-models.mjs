@@ -4,3 +4,4 @@
 // game takes it in place of the block-out. A model removed from assets/ drops out of the manifest and the
 // block-out comes back. Without Blender it says so and leaves everything as it was.
 import { spawnSync } from 'node:child_process'
+import fs from 'node:fs'
