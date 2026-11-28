@@ -61,3 +61,4 @@ describe('the ground, built near her first', () => {
     // nothing shown farther than 1400 m
     const box = new THREE.Box3()
     for (const m of shown) {
+      box.setFromObject(m)
