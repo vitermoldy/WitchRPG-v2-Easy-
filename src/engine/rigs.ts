@@ -1332,7 +1332,7 @@ export class Rigs {
     if (!r) {
       const model = this.models[kind]
       if (!model) return null
-      r = new Rig(model, kind, team, this.group, team === 'enemy' ? 32 : 64)
+      r = new Rig(model, kind, team, this.group, team === 'enemy' ? (variant ? 8 : 32) : 64, this.whole.has(kind), variant ? VARIANTS[kind] : undefined)
       this.rigs.set(key, r)
     }
     return r
