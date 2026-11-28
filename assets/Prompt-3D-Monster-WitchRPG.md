@@ -89,3 +89,5 @@ Turn the attached antique woodcut into a 3D render of the same creature. Keep it
 
 ### 5. Monster Bertangan Empat (Fig. XXXI)
 
+File: `Screenshot 2026-11-28 114315.png`, figur atas.
+
