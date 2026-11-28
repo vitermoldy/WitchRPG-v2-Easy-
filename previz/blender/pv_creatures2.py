@@ -708,3 +708,6 @@ def b_raia(r):
     tail_tube(tl, pts, 0.09, 0.01, mat="body")
     for i in range(1, 5):
         a = V(pts[i])
+        tl.poly([a, a + Vector((0.18, 0.12, -0.04)), a + Vector((0, 0.3, 0.0))], mat="membrane")
+
+
