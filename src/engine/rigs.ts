@@ -1242,6 +1242,7 @@ interface SkinCopy {
   root: THREE.Group
   mixer: THREE.AnimationMixer
   mats: THREE.MeshStandardMaterial[]
+  emissive: THREE.Color[]
 interface CrowdBatch {
   parts: { geometry: THREE.BufferGeometry; material: THREE.Material; mesh: THREE.InstancedMesh }[]
   cap: number
