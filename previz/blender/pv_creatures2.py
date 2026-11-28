@@ -686,3 +686,4 @@ def b_raia(r):
     body.ell(c + Vector((0, -0.05, -0.25)), (0.38, 0.42, 0.32), mat="body2")
     for sd, side in SIDES:
         w = r.P("wing_" + side, c + Vector((0.3 * sd, 0, 0.05)), "body")
+        root_f, root_b = c + Vector((0.32 * sd, -0.45, 0.08)), c + Vector((0.32 * sd, 0.55, 0.0))
