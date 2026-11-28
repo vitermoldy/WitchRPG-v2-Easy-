@@ -47,3 +47,4 @@ for ob in list(bpy.data.objects):
 lib = bpy.context.scene
 root = C.collection("Makhluk2", lib.collection)
 colls, stats = {}, {}
+for key in KEYS:
