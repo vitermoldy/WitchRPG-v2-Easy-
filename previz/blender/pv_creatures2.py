@@ -173,3 +173,4 @@ def b_septiceps(r):
             h.ell(hc + Vector((0, -0.13, 0.0)), (0.13, 0.03, 0.15), mat="mask")
         elif kind == "scream":
             wild_hair(h, hc, s, n=11, length=0.25)
+            h.ell(hc + Vector((0, -0.12, -0.07)), (0.05, 0.03, 0.06), mat="mouth")
