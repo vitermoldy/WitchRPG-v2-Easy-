@@ -35,6 +35,7 @@ npm run users    # daftar akun
 npm run set-user -- <username> <kata sandi>   # buat akun atau ganti kata sandinya
 npm run models   # buat ulang model GLB dari block-out Blender (butuh Blender 5.1)
 npm run models -- imp hellhound harpy --lod 0.22   # versi sederhana untuk kerumunan bayangan
+npm run models:ai   # impor model GLB dari tool AI di assets/ (juga otomatis sebelum dev dan build)
 ```
 
 Kalau game terasa berat di laptop dengan dua GPU, atur Chrome ke "High performance" di Windows: Settings, System, Display, Graphics.
