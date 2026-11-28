@@ -478,3 +478,4 @@ def b_triceps(r):
         base = eag + Vector((math.sin(a) * 0.12, 0.06, -0.12))
         h.cone(base, base + Vector((math.sin(a) * 0.15, 0.08, -0.3)), 0.06, mat="eagle", seg=5)
     # the open hand on the creature's right (viewer's left); talons on the raised left arm
+    W, d = J["wr_R"], J["hand_dir_R"]
