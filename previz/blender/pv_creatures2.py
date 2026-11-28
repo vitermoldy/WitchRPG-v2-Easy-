@@ -482,3 +482,4 @@ def b_triceps(r):
     for a in (-0.03, -0.01, 0.01, 0.03):
         r.parts["hand_R"].limb(W + d * 0.08 + Vector((a, 0, 0)), W + d * 0.16 + Vector((a * 1.6, -0.02, 0)), 0.01, 0.008, mat="scale", seg=5, joints=False)
     claws(r.parts["hand_L"], J["wr_L"], J["hand_dir_L"], n=4, length=0.14, r=0.012)
+    p = r.parts["pelvis"]
