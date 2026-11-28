@@ -212,3 +212,4 @@ def b_banshee(r):
     face(h, hc, H)
     long_hair(h, hc, H, 1.1, 0.12)
     hp = V(J["hip"])
+    tl = r.P("tail", hp, "pelvis")
