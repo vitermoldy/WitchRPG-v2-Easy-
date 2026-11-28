@@ -987,6 +987,7 @@ const POSES: Partial<Record<UnitKind, PoseFn>> = {
   raia: poseRaia,
   buer: poseBuer,
   septiceps: fourArmed(serpentine(biped({ heavy: 1, reach: 1, sway: 2 }), 'tail')),
+  asmodeus: poseAsmodeus,
   griffin: poseBeast,
   hippogriff: poseBeast,
   pegasus: poseBeast,
