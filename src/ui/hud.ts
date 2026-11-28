@@ -97,6 +97,7 @@ export class Hud {
   }
 
   /** The ground of one creature kind she has just stepped onto (src/world/territories.ts), or a place without monsters (kind empty). */
+  territory(name: string | null, kind: string) {
   /** Screen position of the locked target in pixels, or null when nothing is locked. */
   lock(at: { x: number; y: number } | null) {
     if (!at) {
