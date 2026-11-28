@@ -62,3 +62,4 @@ def b_aquilon(r):
     t.ell(V(J["chest"]) + Vector((0, -0.01, 0.0)), (J["sw"] * 1.05, H * 0.085, H * 0.11), mat="armor")
     t.torus(V(J["waist"]) + Vector((0, 0, 0.0)), J["sw"] * 0.75, 0.035, mat="gold", seg=16)
     t.poly([V(J["sh_L"]) + Vector((0, 0.1, 0.05)), V(J["sh_R"]) + Vector((0, 0.1, 0.05)), Vector((-0.45, 0.35, 0.25)), Vector((0.45, 0.35, 0.25))], mat="cloth")
+    for sd, side in SIDES:
