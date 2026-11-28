@@ -446,8 +446,7 @@ export class Sfx {
     const t = this.ctx!.currentTime
     const a = this.amb
     a.wind.gain.setTargetAtTime(0.05 + tebing * 0.1 + kuil * 0.03 + pembuka * 0.02, t, 0.8)
-    a.windF.frequency.setTargetAtTime(700 * pembuka + 1100 * tebing + 450 * rawa + 380 * kuil + 300 * bara, t, 0.8)
-    a.drone.gain.setTargetAtTime(0.0001 + bara * 0.08 + kuil * 0.015, t, 1)
+    a.windF.frequency.setTargetAtTime(700 * pembuka + 1100 * tebing + 450 * rawa + 380 * kuil + 300 * bara + 520 * ganjil, t, 0.8)
     a.insects.gain.setTargetAtTime(0.0001 + rawa * 0.025 * (0.6 + 0.4 * Math.sin(t * 7)), t, 0.1)
     const roll = (perSecond: number) => Math.random() < perSecond * dt
     if (roll(0.45 * pembuka + 0.12 * tebing)) this.bird(t)
