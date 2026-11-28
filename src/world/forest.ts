@@ -328,8 +328,7 @@ export class Forest {
       m.compose(new THREE.Vector3(t.x, t.y, t.z), q, new THREE.Vector3(t.scale, t.scale, t.scale))
       mesh.setMatrixAt(id, m)
     }
-    this.mesh.perObjectFrustumCulled = true
-    this.mesh.sortObjects = false
+    mesh.perObjectFrustumCulled = true
   }
 
   /** Hides trees past the fog so the GPU never draws what cannot be seen. */
