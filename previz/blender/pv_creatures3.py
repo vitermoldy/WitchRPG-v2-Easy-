@@ -255,3 +255,4 @@ ROSTER3 = [
 
 K.COLORS.update(COLORS3)
 for _row in ROSTER3:
+    K.ROSTER_BY_KEY[_row[0]] = _row
