@@ -884,6 +884,7 @@ const poseBuer: PoseFn = (p, u, t) => {
     p.rot('hub', 20 * Math.sin(t * 2.4))
     return
   }
+  // a wheel of about 1 m turns one radian per metre; walk counts 2.2 per metre
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   griffin: poseBeast,
   hippogriff: poseBeast,
