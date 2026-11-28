@@ -898,6 +898,7 @@ function eared(base: PoseFn): PoseFn {
     if (u.state === 'windup' && u.atk.ahead) flap = -60 * ease(u.t / (u.atk.windup * u.tempo))
     else if (u.state === 'strike' && u.atk.ahead) flap = 50
     p.rot('ear_L', flap * 0.4, 0, -flap)
+    p.rot('ear_R', flap * 0.4, 0, flap)
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   griffin: poseBeast,
   hippogriff: poseBeast,
