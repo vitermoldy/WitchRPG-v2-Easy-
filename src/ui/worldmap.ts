@@ -463,6 +463,7 @@ export class WorldMap {
         const ox = x + Math.cos(a) * rr
         const oy = y - Math.sin(a) * rr
         if (i) ctx.lineTo(ox, oy)
+        else ctx.moveTo(ox, oy)
     // altars: teal diamonds, filled once lit
     const r = Math.max(4, size / 110)
     for (const a of ALTARS) {
