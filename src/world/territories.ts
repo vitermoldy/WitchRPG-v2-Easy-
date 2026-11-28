@@ -25,3 +25,4 @@ export interface Territory {
   /** One creature alone, standing again after CAMP.bossRespawn. */
   boss?: boolean
   /** Camps must stand at least this high (the Tebing plateau). */
+  minHeight?: number
