@@ -837,6 +837,7 @@ const poseRaia: PoseFn = (p, u, t) => {
   if (common(p, u, t, ['wing_L', 'wing_R', 'tail'])) return
   const flying = u.flyer && u.alt > 0.8
   p.rot('tail', 6 * Math.sin(t * 3 + u.id), 22 * Math.sin(t * 2.2 + u.id))
+  if (u.state === 'windup') {
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   griffin: poseBeast,
   hippogriff: poseBeast,
