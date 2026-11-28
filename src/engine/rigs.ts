@@ -1236,6 +1236,8 @@ export interface SkinSource {
   clips: Partial<Record<SkinRole, THREE.AnimationClip>>
 }
 
+type SkinRole = 'idle' | 'walk' | 'attack' | 'hit' | 'die'
+
 interface CrowdBatch {
   parts: { geometry: THREE.BufferGeometry; material: THREE.Material; mesh: THREE.InstancedMesh }[]
   cap: number
