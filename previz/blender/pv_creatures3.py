@@ -180,3 +180,6 @@ def b_kitsune(r):
         a = math.radians(-60 + 15 * k)
         pts = [tb, tb + Vector((math.sin(a) * 0.25, 0.3, 0.25)), tb + Vector((math.sin(a) * 0.55, 0.55, 0.55 + 0.1 * math.cos(a))), tb + Vector((math.sin(a) * 0.75, 0.6, 0.95))]
         tl.tube(pts, [0.05, 0.08, 0.07, 0.0], mat="body2", seg=7, n=3)
+        tl.ell(V(pts[-1]) + Vector((0, 0, -0.08)), (0.05, 0.05, 0.08), mat="tip")
+
+
