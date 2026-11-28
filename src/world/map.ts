@@ -91,10 +91,7 @@ export const ALTARS: { key: string; name: string; c: [number, number] }[] = [
 export const TEMPLE = s(40, 318)
 /** Where the previz shots stood; the start point is the hero clearing of render 01. */
 export const SPOTS = {
-  hero: [-34, -335] as [number, number],
-  minotaur: [40, 282] as [number, number],
-  hydra: [-330 + 0.673 * 100, 300 - 0.74 * 100] as [number, number],
-  army: [128, -258] as [number, number],
+  hero: s(-34, -335),
 }
 export const PATHS: [number, number][][] = [
   [[-10, -395], [-25, -330], [0, -230], [20, -120], [30, 0], [45, 120], [40, 250]],
