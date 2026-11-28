@@ -108,6 +108,7 @@ export class WorldMap {
       this.draw()
     })
     const stop = () => (drag = null)
+    this.canvas.addEventListener('pointerup', stop)
     $('map-sort').addEventListener('change', () => this.renderMonsters())
     $('map-all').addEventListener('click', () => {
       for (const m of this.monsters()) this.chosen.add(m.kind)
