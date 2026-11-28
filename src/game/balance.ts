@@ -970,6 +970,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     windup: 0.6,
     recover: 0.8,
     cooldown: 1.8,
+    stun: 45,
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
