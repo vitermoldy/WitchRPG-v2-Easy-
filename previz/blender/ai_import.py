@@ -10,3 +10,5 @@ army) and <key>.json ({"animated": bool, "clips": [...], "triangles": n})."""
 import json
 import math
 import os
+import sys
+
