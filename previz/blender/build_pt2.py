@@ -102,3 +102,4 @@ def board():
         C.text(coll, row[K.ROLE], (x0 + 0.42, -0.1, z0 - 5.08), size=0.22, color="#cfc6c0", rot=(90, 0, 0))
         C.text(coll, f"Rank Rite: {row[K.RANK]}      Zona: {row[K.ZONE]}      {stats[k]['segitiga']:,} segitiga".replace(",", "."), (x0 + 0.42, -0.1, z0 - 5.38), size=0.2,
                color="#a49c97", rot=(90, 0, 0))
+    C.camera(sc, "kamera.papan2", (Wt / 2, -100, -Ht / 2), rot=(90, 0, 0), ortho=Wt, clip=(1, 1000))
