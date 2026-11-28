@@ -15,3 +15,4 @@ describe('the forest, one tile at a time (5000 m map)', () => {
     expect(b).toEqual(a)
     // every tree stands inside its own tile
     for (const t of a) {
+      expect(t.x).toBeGreaterThanOrEqual(3 * TILE - 2)
