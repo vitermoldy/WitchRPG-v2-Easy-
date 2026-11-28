@@ -78,6 +78,7 @@ export class Terrain {
         if (c.lod >= 0 && c.meshes[c.lod]) c.meshes[c.lod]!.visible = false
         c.lod = -1
         continue
+      }
       let want = LOD_RANGE.findIndex((r) => d < r)
       if (!c.meshes[want] && want < 2) {
         if (made < budget) {
