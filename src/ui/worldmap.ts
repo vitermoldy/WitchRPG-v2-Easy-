@@ -9,7 +9,7 @@ const $ = <T extends HTMLElement = HTMLElement>(id: string): T => document.getEl
 
 /** Half the width of the map drawn (m): a little past the playable edge. */
 const EXTENT = PLAY_HALF + 10
-const BASE = 320
+const BASE = 768
 const SAVE_KEY = 'witchrpg-v2-easy:map-kinds'
 
 // one colour per creature kind on the map; chosen to stay apart from each other and readable on the ground tones
