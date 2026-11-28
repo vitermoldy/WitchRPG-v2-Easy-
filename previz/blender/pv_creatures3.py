@@ -114,3 +114,4 @@ def b_aries(r):
 
 
 def b_manticore(r):
+    """A lion beast with a shaggy mane and a lion face, dark ragged feathered wings, and a long scaled tail that ends
