@@ -354,3 +354,4 @@ def b_cornutus(r):
     and one short horn on top, two feathered wings from the shoulders, an X above two V shapes and a crescent cut
     into the chest, legs scaled like a fish from the knees down; the foot on the viewer's left is a bird's
     talon, the other a human foot."""
+    H = 2.3
