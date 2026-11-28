@@ -475,3 +475,4 @@ def b_triceps(r):
     eagle_head(h, eag + Vector((0, -0.04, 0.05)), fwd=(0.4, -1, 0.0), s=1.1, mat="eagle")
     for i in range(7):
         a = math.radians(-60 + 20 * i)
+        base = eag + Vector((math.sin(a) * 0.12, 0.06, -0.12))
