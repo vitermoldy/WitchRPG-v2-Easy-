@@ -1207,6 +1207,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     summon: { every: 20, count: 2, max: 4 },
     summonKind: 'satyr',
     attacks: [
+      { name: 'pedang', strike: 'ring', windup: 0.9, recover: 1, range: 6, ring: 3.4 },
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
