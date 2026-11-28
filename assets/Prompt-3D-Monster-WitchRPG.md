@@ -26,3 +26,4 @@ Turn the attached 2D illustration into a 3D render of the same creature. Stay 10
 
 **Template Model 3D (Jalur B, image-to-3D)**
 
+```text
