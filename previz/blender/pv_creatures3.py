@@ -149,3 +149,4 @@ def b_aziza(r):
     H = 1.0
     J = humanoid(r, H, bulk=0.75, legs="human", female=True, arm_pose={"L": (30, 30, 30), "R": (25, 20, 40)}, body_mat="skin")
     h = r.parts["head"]
+    hc = V(J["head_c"])
