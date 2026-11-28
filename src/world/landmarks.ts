@@ -38,3 +38,4 @@ export class Landmarks {
           const n = 14
           for (let k = 0; k < n; k++) {
             if (ring > 2 && rnd() < ring / 11) continue
+            const a = (k / n) * Math.PI * 2 + ring * 0.11
