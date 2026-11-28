@@ -146,3 +146,4 @@ describe('every creature on its own ground (owner, 28 Nov 2026)', () => {
     }
     for (const kind of ['septiceps', 'asmodeus'] as const) {
       expect(UNITS[kind].boss).toBe(true)
+      const t = TERRITORIES.find((x) => x.kind === kind)!
