@@ -198,7 +198,7 @@ export function scatterTile(ix: number, iz: number, step = 4, seed = 3): Tree[] 
       const pd = pathDist(x, y)
       // rocks: small ones anywhere, big ones on the cliffs; none on or beside a path
       const rs = 0.6 + sc * 0.7
-      if (!nearLake && h > -1 && !inClearing(x, y)) {
+      const open = inClearing(x, y) || inArena(x, y)
         if (rockRoll < 0.012 && pd > 4 + SHAPE.rock.trunk * rs) out.push({ kind: 'rock', x, y: h - 0.3, z: -y, rot, scale: rs })
         else if (rockRoll < 0.027 && slope > 0.55 && pd > 4 + SHAPE.rock_big.trunk * rs) out.push({ kind: 'rock_big', x, y: h - 0.3, z: -y, rot, scale: rs })
       }
