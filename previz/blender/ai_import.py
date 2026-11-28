@@ -68,3 +68,4 @@ def tris():
 def export(path, animations):
     for ob in bpy.context.scene.objects:
         ob.select_set(True)
+    bpy.ops.export_scene.gltf(filepath=path, export_format="GLB", use_selection=True, export_yup=True, export_apply=not animations,
