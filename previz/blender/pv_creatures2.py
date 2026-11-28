@@ -53,3 +53,4 @@ def lion_face(part, at, fwd=(0, -1, 0), s=1.0, mat="body", mane_mat="body2", man
     a, F = V(at), Vector(fwd).normalized()
     side = F.cross(UP).normalized()
     part.ell(a, (0.2 * s, 0.19 * s, 0.2 * s), mat=mat)
+    m = a + F * 0.15 * s - UP * 0.05 * s
