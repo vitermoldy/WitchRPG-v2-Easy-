@@ -259,8 +259,7 @@ interface Tile {
 }
 
 export class Forest {
-  readonly mesh: THREE.BatchedMesh
-  readonly trees: Tree[]
+  /** Every tile mesh built so far, under one group for the scene. */
   private readonly visibleRange: number
 
   constructor(trees: Tree[], visibleRange = 330) {
