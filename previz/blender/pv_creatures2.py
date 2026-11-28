@@ -648,3 +648,4 @@ def b_marinus(r):
     H = 2.3
     J = humanoid(r, H, bulk=1.05, legs=None, arm_pose={"L": (40, 40, 50), "R": (35, 55, 60)}, body_mat="skin")
     hp = V(J["hip"])
+    tl = r.P("tail", hp, "pelvis")
