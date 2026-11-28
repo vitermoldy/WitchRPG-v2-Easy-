@@ -707,3 +707,4 @@ def b_raia(r):
     pts = [c + Vector((0, 0.7, 0)), c + Vector((0.05, 1.3, -0.1)), c + Vector((0.3, 1.9, -0.25)), c + Vector((0.15, 2.5, -0.15)), c + Vector((-0.2, 2.9, 0.05)), c + Vector((-0.1, 3.2, 0.25))]
     tail_tube(tl, pts, 0.09, 0.01, mat="body")
     for i in range(1, 5):
+        a = V(pts[i])
