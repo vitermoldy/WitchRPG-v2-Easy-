@@ -1,7 +1,7 @@
 import { FAUNA, UNITS, type UnitKind, type V2Kind } from '../game/balance'
 import type { Game } from '../engine/game'
 import { CAMP_DEFS } from '../world/camps'
-import { ALTARS, heightMap, inWaterRect, PATHS, PLAY_HALF, toMap, WATER_LEVEL, ZONES, zoneWeights } from '../world/map'
+import { ALTARS, heightMap, inWaterRect, LANDMARKS, PATHS, PLAY_HALF, toMap, WATER_LEVEL, ZONES, zoneWeights } from '../world/map'
 
 const $ = <T extends HTMLElement = HTMLElement>(id: string): T => document.getElementById(id) as T
 
