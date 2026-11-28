@@ -74,3 +74,4 @@ export class Landmarks {
           const s = 0.25 + rnd() * 0.25
           petals.push({ m: m4(p.x, p.y + 0.25, p.z, s, s * 0.6, s, rnd() * 3), c: colours[Math.floor(rnd() * colours.length)] })
         }
+      } else {
