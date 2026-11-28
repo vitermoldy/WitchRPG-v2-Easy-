@@ -78,6 +78,7 @@ export const ALTARS: { key: string; name: string; c: [number, number] }[] = [
   { key: 'kuil', name: 'Altar Reruntuhan Kuil', c: s(40, 236) },
   { key: 'bara', name: 'Altar Lembah Bara', c: s(268, 286) },
   // the wider map (owner, 28 Nov 2026): the southern meadow, the west of the swamp, the eastern plateau, Tanah Ganjil
+  { key: 'selatan', name: 'Altar Padang Selatan', c: s(-60, -700) },
 ]
 export const TEMPLE: [number, number] = [40, 318]
 /** Where the previz shots stood; the start point is the hero clearing of render 01. */
