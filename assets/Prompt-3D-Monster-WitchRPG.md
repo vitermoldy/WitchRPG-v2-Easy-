@@ -151,3 +151,5 @@ File: `Screenshot 2026-11-28 114414.png`.
 Turn the attached antique woodcut into a 3D render of the same creature. Keep it 100% identical to the reference in pose, camera angle, proportions, anatomy and every detail; add nothing, remove nothing. Subject: a Blemmyae, a headless man whose face sits on his chest: two eyes at the top of the torso, a nose, a mustache and a mouth in the middle of the chest. No neck, rounded shoulders, long dangling arms, stocky nude body with a non-explicit groin, walking with one leg forward, bare feet, on a flat oval patch of ground. Style: stylized 3D, ivory parchment-colored surfaces with black ink cross-hatching engraved into the texture, like an antique woodcut brought to life. Full body, single character, plain light-grey background, soft studio lighting, ultra-detailed, 4K.
 ```
 
+### 12. Wanita Liar Berambut Kusut
+
