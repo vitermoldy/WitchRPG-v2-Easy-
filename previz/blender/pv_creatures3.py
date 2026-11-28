@@ -245,3 +245,4 @@ ROSTER3 = [
     ("aquilon", "Aquilon", b_aquilon, "Penukik bertombak", "Ksatria", "II Tebing Berangin", None),
     ("duyung", "Duyung", b_duyung, "Penyanyi telaga", "Prajurit", "III Rawa Berkabut", None),
     ("aries", "Aries", b_aries, "Penyeruduk berat", "Ksatria", "IV Reruntuhan Kuil", None),
+    ("manticore", "Manticore", b_manticore, "Mini-boss Bara", "Jenderal", "V Lembah Bara", None),
