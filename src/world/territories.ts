@@ -100,3 +100,4 @@ const SEED = 20261128
 
 function rng(seed: number) {
   let a = seed >>> 0
+  return () => {
