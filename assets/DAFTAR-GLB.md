@@ -24,3 +24,4 @@ Ekspor GLB berisi tulang dan lima animasi. Nama animasi cukup mengandung kata in
 | Hippocentaurus (Centaurus aneh) | `monster_hippocentaurus.glb` | Bagian 1, no. 7 |
 | Manticore | `monster_manticore.glb` | Bagian 2, Manticore |
 | Dragon Hitam | `monster_dragon_hitam.glb` | Bagian 2, Naga hitam |
+| Aquilon (manusia elang) | `monster_aquilon.glb` | Bagian 2, Manusia elang |
