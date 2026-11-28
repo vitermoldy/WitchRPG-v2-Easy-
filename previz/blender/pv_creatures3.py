@@ -84,3 +84,4 @@ def b_duyung(r):
     for k in (1, -1):
         h.tube([hc + Vector((0.07 * k, -0.02, 0.0)), hc + Vector((0.1 * k, -0.08, -0.25)), hc + Vector((0.09 * k, -0.11, -0.55))], [0.05, 0.06, 0.0], mat="hair", seg=6, n=3, squash=0.5)
     hp = V(J["hip"])
+    tl = r.P("tail", hp, "pelvis")
