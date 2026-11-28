@@ -53,3 +53,4 @@ for key in KEYS:
     K.ground_rig(r)
     lo, hi = C.bounds(coll)
     stats[key] = {"tinggi": round(hi.z - lo.z, 2), "lebar": round(hi.x - lo.x, 2), "panjang": round(hi.y - lo.y, 2), "segitiga": C.tri_count(coll),
+                  "bagian": sum(1 for o in coll.objects if o.type == "MESH")}
