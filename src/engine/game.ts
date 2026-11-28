@@ -441,6 +441,7 @@ export class Game implements UnitHost {
     const creatures = loaded.map((x) => x.scene)
     const skins: Partial<Record<UnitKind, SkinSource>> = {}
     const whole: UnitKind[] = []
+    V2_KINDS.forEach((k, i) => {
     // in first person her body is hidden from the view but still casts its shadow
     this.atmosphere.sun.shadow.camera.layers.enable(IlyraModel.HIDDEN_LAYER)
     if (this.profile.settings.firstPerson) {
