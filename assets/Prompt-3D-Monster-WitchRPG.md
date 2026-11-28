@@ -197,3 +197,5 @@ File: `Screenshot 2026-11-28 114648.png`. Ini "Jenny Haniver", naga palsu dari i
 
 ```text
 Turn the attached antique engraving into a 3D render of the same creature. Keep it 100% identical to the reference in pose, camera angle, proportions, anatomy and every detail; add nothing, remove nothing. Subject: a small dragon made from a dried skate (a Jenny Haniver): broad, ribbed, fan-like ray wings spread wide on both sides; a short pointed conical head with two round eyes and a gaping, downturned mouth like a frightened face; a bulbous, pouch-like body with folded, wrinkled skin; a long thin whip tail with fringed spines and a small fin near the tip. Dry leathery texture. Style: stylized 3D, ivory parchment-colored surfaces with black ink cross-hatching engraved into the texture, like an antique woodcut brought to life. Full body, single character, plain light-grey background, soft studio lighting, ultra-detailed, 4K.
+```
+
