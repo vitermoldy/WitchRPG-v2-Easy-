@@ -76,3 +76,4 @@ def board():
            (0.4, 0, -1.45), size=0.26, color="#b9b2ad", rot=(90, 0, 0))
     for i, k in enumerate(KEYS):
         r_, c_ = divmod(i, cols)
+        x0, z0 = c_ * cw, -(head + r_ * ch)
