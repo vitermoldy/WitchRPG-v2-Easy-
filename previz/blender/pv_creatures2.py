@@ -238,3 +238,4 @@ def b_asmodeus(r):
     J = humanoid(r, 3.1, bulk=1.3, legs=None, off=(0, -1.0, 0.75), arm_pose={"L": (35, 40, 50), "R": (35, 45, 55)}, neck_scale=0.7, body_mat="skin")
     # his own legs astride the beast, ending in rooster claws
     hpr = V(J["hip"])
+    for s, side in SIDES:
