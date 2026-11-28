@@ -11,6 +11,7 @@ export const CHUNKS = Math.round((HALF * 2) / CHUNK)
 const LOD_STEP = [2, 5, 10]
 const LOD_RANGE = [190, 420, Infinity]
 /** Chunks farther than this from the camera are not drawn; the camera's far plane is 1200 m. */
+const DRAW = 1300
 /** Skirts hang below every chunk edge so neighbours at different detail never show a gap. */
 const SKIRT = 5
 
