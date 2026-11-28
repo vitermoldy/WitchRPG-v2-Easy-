@@ -11,3 +11,4 @@ describe('models from the image-to-3D tool (owner, 28 Nov 2026)', () => {
   it('names a file for each of the 27 creatures the owner makes, each a creature of the game, none twice', () => {
     expect(files.length).toBe(27)
     const keys = files.map(([, v]) => v.key)
+    expect(new Set(keys).size).toBe(keys.length)
