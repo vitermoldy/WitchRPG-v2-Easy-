@@ -83,6 +83,7 @@ export const ROAM_DEFS: CampDef[] = (() => {
       }
       if (!best) continue
       const [lo, hi] = best.levels
+      const level = lo + Math.floor(pick * (hi - lo + 1))
 
 export interface Camp {
   def: CampDef
