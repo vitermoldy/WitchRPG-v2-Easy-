@@ -267,3 +267,4 @@ Poster `images (7).jpg` berisi 35 makhluk kecil, kebanyakan berwujud manusia, bu
 | Siren | a red-haired woman with huge brown bird wings and bird legs with talons, her long hair covering her chest |
 | Lamia | a dark-haired woman with a green crown and a teal armored top, her lower body fading into glowing green mist |
 | Valkyrie | an armored warrior woman in olive-green scale armor and a winged helmet, with a red cape |
+| Selkie | a red-haired woman in a grey cloak sitting on a grey sealskin with a seal tail |
