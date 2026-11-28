@@ -475,6 +475,7 @@ export class WorldMap {
       label(t.name, x, y, 0, col, true)
     }
 
+    // the places without monsters in the south: a pale square and the name
     // altars: teal diamonds, filled once lit
     const r = Math.max(4, size / 110)
     for (const a of ALTARS) {
