@@ -129,3 +129,5 @@ Turn the attached antique woodcut into a 3D render of the same creature. Keep it
 
 ### 9. Monster Kraków
 
+File: `Screenshot 2026-11-28 114352.png`.
+
