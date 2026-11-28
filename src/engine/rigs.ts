@@ -1070,6 +1070,7 @@ class Rig implements Poser {
           mat.color.set(variant![slot])
           if (slot === 'body_veins') mat.emissive.set(0x000000)
           // the blazing Cerberus: its mouths glow
+          if (slot === 'mouth' && kind === 'cerberus') {
         patchGlow(mat)
         mats.set(src, mat)
       }
