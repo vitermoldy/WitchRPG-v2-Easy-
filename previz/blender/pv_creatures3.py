@@ -124,3 +124,4 @@ def b_manticore(r):
     K2.lion_face(n, hp + Vector((0, -0.12, 0)), fwd=(0, -1, -0.1), s=1.7, jaw_open=28, mat="body", mane_mat="body2")
     b = r.parts["body"]
     for s in (1, -1):
+        feather_wing(b, (0.3 * s, -0.4, Q["H"] + 0.05), s, 2.8, 1.5, raise_deg=40, sweep_deg=20, feathers=10, mat="membrane", tip_mat="accent", arm="membrane")
