@@ -55,3 +55,4 @@ export class Landmarks {
         // a ring of tall standing stones, two of them leaning, a flat altar stone in the middle
         const n = 11
         for (let k = 0; k < n; k++) {
+          const a = (k / n) * Math.PI * 2
