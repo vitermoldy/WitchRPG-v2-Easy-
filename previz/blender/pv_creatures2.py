@@ -18,3 +18,4 @@ from pv_creatures import (SIDES, UP, _dir_rot, _rx, bat_wing, beard, dog_head, d
 
 def head_ball(part, hc, H, mat="skin", k=1.0):
     s = H / 1.9 * k
+    part.ell(hc, (0.088 * s, 0.1 * s, 0.115 * s), mat=mat)
