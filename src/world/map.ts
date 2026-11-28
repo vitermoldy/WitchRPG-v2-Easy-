@@ -107,6 +107,7 @@ export const PATHS: [number, number][][] = [
   [[-25, -330], [-40, -440], [-45, -560], [-60, -700], [-75, -820]],
   [[-190, -20], [-420, -100], [-640, -180], [-900, -160]],
   [[230, -40], [420, -40], [600, -35]],
+  [[40, 345], [30, 450], [12, 545], [0, 660], [0, 778]],
 export const CLEARINGS: [[number, number], number][] = [
   [SPOTS.hero, 22], [SPOTS.army, 16], [ALTAR, 16], [TEMPLE, 30], [SPOTS.minotaur, 18], [SPOTS.hydra, 20],
   ...ALTARS.slice(1).map((a): [[number, number], number] => [a.c, 12]),
