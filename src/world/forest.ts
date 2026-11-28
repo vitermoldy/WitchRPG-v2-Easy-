@@ -307,6 +307,7 @@ export class Forest {
 
   private load(ix: number, iz: number) {
     const key = ix + ',' + iz
+    const list = scatterTile(ix, iz)
     const ids = {} as Record<Kind, number>
     for (const k of Object.keys(geos) as Kind[]) ids[k] = this.mesh.addGeometry(geos[k])
     const m = new THREE.Matrix4()
