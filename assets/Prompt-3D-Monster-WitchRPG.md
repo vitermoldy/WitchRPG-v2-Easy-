@@ -282,3 +282,4 @@ Poster `images (7).jpg` berisi 35 makhluk kecil, kebanyakan berwujud manusia, bu
 | Xana | a woman with long golden hair in a flowing light-blue dress, floating, holding a small harp |
 | Rusalka | a pale woman with long dark wet hair in a ragged grey-green gown |
 | Djinn | a blue-skinned man with a dark beard, holding a staff topped with a teal crystal, his lower body turning into smoke |
+| Deva | a four-armed golden-skinned deity with a tall ornate golden crown, a blue sash and gold armbands |
