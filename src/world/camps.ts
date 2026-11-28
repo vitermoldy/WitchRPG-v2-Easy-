@@ -24,6 +24,7 @@ export interface CampDef {
 /**
  * Every camp, from the territories (src/world/territories.ts): each kind keeps its camps on its own
  * ground, one kind per camp, the levels climbing from the first camp to the last (owner, 28 Nov 2026).
+ * Until then the camps were a hand-placed list with mixed packs.
  */
 export const CAMP_DEFS: CampDef[] = [
   { c: [-20, -292], pack: { imp: 4 }, levels: [1, 1] },
