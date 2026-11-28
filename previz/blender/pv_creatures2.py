@@ -345,3 +345,4 @@ def b_cacodaemon(r):
     for k in (-1, 1):
         t.ell(V(J["chest"]) + Vector((0.06 * k, -0.12, -0.2)), (0.04, 0.04, 0.06), mat="body2")
     tl = r.P("tail", (0, 0.06, J["z"]["hip"]), "pelvis")
+    hp = V(J["hip"])
