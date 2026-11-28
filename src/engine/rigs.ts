@@ -1256,6 +1256,7 @@ function skinRole(u: Unit): SkinRole {
 }
 
 /**
+ * Sorts a GLB's clips into roles by their names, the way image-to-3D tools tend to name them
 interface CrowdBatch {
   parts: { geometry: THREE.BufferGeometry; material: THREE.Material; mesh: THREE.InstancedMesh }[]
   cap: number
