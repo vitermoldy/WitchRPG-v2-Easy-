@@ -310,6 +310,7 @@ export class Forest {
     const list = scatterTile(ix, iz)
     addColliders(list, this.obstacles)
     if (!list.length) {
+      this.tiles.set(key, { mesh: null, trees: list, x0: ix * TILE, z0: iz * TILE })
     const ids = {} as Record<Kind, number>
     for (const k of Object.keys(geos) as Kind[]) ids[k] = this.mesh.addGeometry(geos[k])
     const m = new THREE.Matrix4()
