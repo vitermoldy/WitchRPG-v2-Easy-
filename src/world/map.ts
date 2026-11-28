@@ -123,10 +123,7 @@ export const CLEARINGS: [[number, number], number][] = [
   [SPOTS.hero, 22], [SPOTS.army, 16], [ALTAR, 16], [TEMPLE, 30], [SPOTS.minotaur, 18], [SPOTS.hydra, 20],
   ...ALTARS.slice(1).map((a): [[number, number], number] => [a.c, 12]),
 ]
-/** Half-size of the terrain (it runs past the playable map into the mountain ring). */
-export const HALF = 650
-/** The playable map is 1000 x 1000 m; the mountains past it are scenery. */
-export const PLAY_HALF = 470
+/** Half-size of the terrain (it runs past the playable map into the mountain ring); 44 chunks of 130 m. */
 
 export const toWorld = (x: number, y: number): [number, number] => [x, -y]
 export const toMap = (wx: number, wz: number): [number, number] => [wx, -wz]
