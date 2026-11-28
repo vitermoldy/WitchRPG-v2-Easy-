@@ -8,3 +8,4 @@ import { heightMap, inClearing, inWaterRect, LAGOON, LAKE, LANDMARKS, MERE, path
  * test sees the same map. A few grounds sit on a landmark: the Imps by the start, the Hydra in Danau
  * Hitam, Atlas at the temple, Marinus in the lagoon, the Duyung in the mere. Map coordinates: x east, y north.
  */
+export interface Territory {
