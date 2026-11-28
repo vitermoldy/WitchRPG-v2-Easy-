@@ -1268,6 +1268,7 @@ export function clipRoles(clips: THREE.AnimationClip[]): Partial<Record<SkinRole
     ['walk', /walk|run|move|fly/i],
     ['idle', /idle|stand|breath/i],
   ]
+  for (const clip of clips) {
 interface CrowdBatch {
   parts: { geometry: THREE.BufferGeometry; material: THREE.Material; mesh: THREE.InstancedMesh }[]
   cap: number
