@@ -203,3 +203,4 @@ def b_sylph(r):
 
 def b_banshee(r):
     """Banshee (poster, Bagian 3): a pale ghostly woman with long dark hair, her ragged grey gown fading to
+    nothing above the ground."""
