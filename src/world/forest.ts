@@ -166,6 +166,8 @@ export interface Tree {
 }
 
 /** Side of one forest tile (m): the forest is scattered, drawn and collided one tile at a time. */
+export const TILE = 260
+
   const out: Tree[] = []
   for (let j = 0; j < n; j++) {
     for (let i = 0; i < n; i++) {
