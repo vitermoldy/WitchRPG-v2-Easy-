@@ -62,6 +62,7 @@ export const ROAM_DEFS: CampDef[] = (() => {
       const px = Math.round(x + (rnd() - 0.5) * step * 0.6)
       const py = Math.round(y + (rnd() - 0.5) * step * 0.6)
       const size = rnd()
+      const pick = rnd()
 
 export interface Camp {
   def: CampDef
