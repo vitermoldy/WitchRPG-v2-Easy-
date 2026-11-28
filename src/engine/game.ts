@@ -424,6 +424,7 @@ export class Game implements UnitHost {
     this.forest = new Forest(this.obstacles)
     this.scene.add(this.forest.mesh)
     {
+      const [hx, hz] = toWorld(SPOTS.hero[0], SPOTS.hero[1])
     progress('Memanggil Ilyra dan makhluk hutan')
     const [ilyra, ...creatures] = await Promise.all([
       loadModel('./models/ilyra.glb'),
