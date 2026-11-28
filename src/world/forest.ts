@@ -278,6 +278,7 @@ export class Forest {
     this.loadRange = loadRange
     this.mesh.name = 'forest'
     let verts = 0
+    for (const k of Object.keys(this.geos) as Kind[]) verts += this.geos[k].attributes.position.count
     const ids = {} as Record<Kind, number>
     for (const k of Object.keys(geos) as Kind[]) ids[k] = this.mesh.addGeometry(geos[k])
     const m = new THREE.Matrix4()
