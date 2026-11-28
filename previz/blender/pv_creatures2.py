@@ -740,3 +740,4 @@ COLORS2 = {
     "silvana": {"skin": ("#8a9478", "#76806a"), "hair": "#1e1e1a", "fur": ("#4a3a28", "#6a5440"), "claw": "#2a2620"},
     "leonis": {"skin": ("#d0a07a", "#b88864"), "hair": ("#b85a26", "#d88a40"), "claw": "#2a2420", "metal": "#c8ccd4", "wood": "#3a2a1c", "gold": "#c8a040",
                "cloth": "#3a4a6a", "mouth": "#5a1a14", "nose": "#3a2418"},
+    "marinus": {"skin": ("#6a9a8a", "#a8c8b8"), "hair": "#2a4a44", "scale": ("#2a5a8a", "#9ac0d8"), "fin": "#3aa0a0", "horn": "#d8ccb0", "claw": "#1e2a2a"},
