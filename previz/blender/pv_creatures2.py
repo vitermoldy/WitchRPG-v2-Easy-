@@ -141,3 +141,4 @@ def b_septiceps(r):
     viewer's left: a brooding man in profile, a snarling fox, a man behind a pale mask, a screaming face with
     wild hair, a bald old man in profile), four arms (money sack and dagger with a heart on the viewer's left,
     an open book and a sword at the hip on the right), a banner round the waist over a loincloth, and behind
+    the two human legs a third taloned bird leg, a furry wolf leg and a bushy fox tail. The viewer's left is
