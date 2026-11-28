@@ -189,3 +189,4 @@ def b_septiceps(r):
         a = hp + Vector((x, 0.35, 0))
         k = hp + Vector((x * 1.3, 0.55, -1.3))
         f = Vector((x * 1.4, hp.y + 0.45, 0.15))
+        lg.limb(a, k, 0.26, 0.18, mat="fur" if mat == "fur" else "skin")
