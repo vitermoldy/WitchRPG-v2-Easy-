@@ -346,3 +346,6 @@ def b_cacodaemon(r):
         t.ell(V(J["chest"]) + Vector((0.06 * k, -0.12, -0.2)), (0.04, 0.04, 0.06), mat="body2")
     tl = r.P("tail", (0, 0.06, J["z"]["hip"]), "pelvis")
     hp = V(J["hip"])
+    tail_tube(tl, [hp + Vector((0, 0.08, 0)), hp + Vector((0.1, 0.45, -0.45)), hp + Vector((0.25, 0.7, -0.95)), hp + Vector((0.1, 1.0, -1.05)), hp + Vector((-0.1, 1.15, -0.8))], 0.07, 0.01)
+
+
