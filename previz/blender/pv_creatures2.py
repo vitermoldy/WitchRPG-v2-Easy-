@@ -624,3 +624,4 @@ def b_leonis(r):
     sagging chest and a round pot belly, one hand on a long straight sword planted point-down, a long thin tail
     curling on the ground, feet with long splayed claw-like toes."""
     H = 2.3
+    J = humanoid(r, H, bulk=1.05, legs="human", arm_pose={"L": (18, 15, 25), "R": (15, 30, 40)}, leg_pose={"L": (18, 10), "R": (-12, 6)},
