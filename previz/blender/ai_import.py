@@ -85,3 +85,4 @@ for a in arms:
     a.data.pose_position = "REST"
 bpy.context.view_layer.update()
 animated = bool(arms) and len(bpy.data.actions) > 0
+lo, hi = mesh_bounds()
