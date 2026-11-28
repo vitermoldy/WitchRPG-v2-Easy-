@@ -68,3 +68,4 @@ const PLANS: Plan[] = [
   { key: 'aries', name: 'Lembah Aries', kind: 'aries', zone: 'kuil', r: 95, levels: [11, 12], camps: 5, pack: 2, elites: 1 },
   { key: 'typhon', name: 'Bukit Typhon', kind: 'typhon', zone: 'kuil', r: 60, levels: [18, 18], camps: 1, pack: 1, boss: true },
   // V Lembah Bara (Lv 13 to 15, sealed until the Hydra falls)
+  { key: 'phoenix', name: 'Kawah Phoenix', kind: 'phoenix', zone: 'bara', r: 140, levels: [13, 15], camps: 7, pack: 2, elites: 2 },
