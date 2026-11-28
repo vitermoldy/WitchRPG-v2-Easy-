@@ -39,6 +39,7 @@ const MIX: Record<string, [Partial<Record<Kind, number>>, number]> = {
 const MAX_DENSITY = Math.max(1.1, ...Object.values(MIX).map(([, d]) => d))
 
 /** Boss arenas stay open ground, like the clearings. */
+const ARENAS = TERRITORIES.filter((t) => t.boss && !t.noCamps).map((t) => ({ c: t.c, r: t.r * 0.7 }))
 // ------------------------------------------------------------ geometry
 
 const C = (h: string) => new THREE.Color(h)
