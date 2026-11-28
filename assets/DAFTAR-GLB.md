@@ -47,3 +47,4 @@ Ekspor GLB polos (tanpa rig dan animasi). Sampai saya rig, makhluk ini bergerak 
 
 ## Saran ekspor
 
+- **Jumlah segitiga:** sekitar 10.000 untuk monster biasa, sampai 25.000 untuk boss dan mini-boss (Discordia, Asmodeus, Dragon Hitam, Manticore). Model tanpa tulang yang melebihi angka ini saya kurangi otomatis saat impor; model bertulang tidak, jadi atur target polycount di Meshy.
