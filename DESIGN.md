@@ -288,3 +288,5 @@ Pemeriksaan: tes 112 dari 112 lulus (2 baru di `tests/easy.test.ts`), build bers
 
 ## Easy: Tanah Ganjil dan daerah tiap monster (28 Nov 2026)
 
+Permintaan pemilik: "itu ada monster pt2, lakukanlah hal yang sama, render, baru terapkan di dalam game, buat daerahnya sendiri juga" dan "saya ingin setiap monster itu ada daerahnya sendiri, jadi perluas lah mapnya". Hanya di Easy; WitchRPG-v2 tidak berubah.
+
