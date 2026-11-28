@@ -665,3 +665,4 @@ def b_marinus(r):
     s = head_ball(h, hc, H, "skin", k=1.1)
     h.limb(hc + Vector((0, -0.06, -0.03)), hc + Vector((0, -0.2, -0.08)), 0.07, 0.05, mat="skin")
     for k in (1, -1):
+        h.ell(hc + Vector((0.045 * k, -0.1, 0.03)), (0.022, 0.015, 0.016), mat="eye", seg=8, rings=5)
