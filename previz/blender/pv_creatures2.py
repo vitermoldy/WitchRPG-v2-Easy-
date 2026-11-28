@@ -401,3 +401,4 @@ def b_sirena(r):
                      mat="membrane", tip_mat="accent", arm="membrane")
     t = r.parts["torso"]
     ch = V(J["chest"]) + Vector((0, -0.12, 0.0))
+    t.limb(ch + Vector((0, 0, -0.06)), ch + Vector((0, 0, 0.03)), 0.008, 0.008, mat="accent", seg=4, joints=False)
