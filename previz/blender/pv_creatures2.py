@@ -424,3 +424,4 @@ def b_sirena(r):
 
 
 def b_tetrachiron(r):
+    """The four-armed winged monster (prompt no. 5, Fig. XXXI): a bearded man's face with two pointed animal ears
