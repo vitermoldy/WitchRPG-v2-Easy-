@@ -295,6 +295,7 @@ export class WorldMap {
    * Fills the valley picture a few rows at a time while the game is not being played (title, pause,
    * menus), so the map rarely has to wait and play never pays for it.
    */
+  warm() {
   /** The valley itself, drawn once: zone tones, hill shading, water. */
   private baseLayer(): HTMLCanvasElement {
     if (this.base) return this.base
