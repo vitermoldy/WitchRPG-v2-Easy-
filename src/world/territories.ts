@@ -36,3 +36,5 @@ export interface Territory {
 type Plan = Omit<Territory, 'c' | 'wave'> & { zone: Zone['key']; at?: [number, number]; maxY?: number }
 
 const PLATEAU = 30
+const BLOB = 1.34
+
