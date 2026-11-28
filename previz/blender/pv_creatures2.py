@@ -25,3 +25,6 @@ def head_ball(part, hc, H, mat="skin", k=1.0):
 def goat_horns(part, hc, s, mat="horn", length=1.0, spread=1.0):
     for k in (1, -1):
         part.tube([hc + Vector((0.05 * k * s, -0.02 * s, 0.08 * s)), hc + Vector((0.1 * k * s * spread, 0.06 * s, 0.2 * s * length)),
+                   hc + Vector((0.13 * k * s * spread, 0.2 * s * length, 0.24 * s * length))], [0.03 * s, 0.02 * s, 0.0], mat=mat, seg=6, n=3)
+
+
