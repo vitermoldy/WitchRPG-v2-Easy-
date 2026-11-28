@@ -190,3 +190,4 @@ def b_sylph(r):
     J = humanoid(r, H, bulk=0.7, legs=None, female=True, arm_pose={"L": (55, 20, 30), "R": (50, 30, 40)}, body_mat="smoke")
     h = r.parts["head"]
     hc = V(J["head_c"])
+    K2.head_ball(h, hc, H, "smoke")
