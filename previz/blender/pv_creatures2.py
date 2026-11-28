@@ -524,3 +524,4 @@ def b_cracovia(r):
     H = 2.3
     J = humanoid(r, H, bulk=1.05, legs="bird", arm_pose={"L": (55, 10, 25), "R": (50, 10, 25)}, leg_pose={"L": (5, 10), "R": (-5, 10)},
                  body_mat="skin", shin_mat="leg", foot_mat="leg")
+    h = r.parts["head"]
