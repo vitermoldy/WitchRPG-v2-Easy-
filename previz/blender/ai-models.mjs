@@ -22,3 +22,4 @@ const files = Object.entries(table).filter(([name]) => name.endsWith('.glb'))
 const present = []
 for (const [name, info] of files) {
   const src = path.join(assets, name)
+  if (fs.existsSync(src)) present.push({ key: info.key, src, turn: info.turn ?? 0 })
