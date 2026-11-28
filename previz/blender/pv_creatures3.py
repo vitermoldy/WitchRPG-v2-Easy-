@@ -64,3 +64,4 @@ def b_aquilon(r):
     t.poly([V(J["sh_L"]) + Vector((0, 0.1, 0.05)), V(J["sh_R"]) + Vector((0, 0.1, 0.05)), Vector((-0.45, 0.35, 0.25)), Vector((0.45, 0.35, 0.25))], mat="cloth")
     for sd, side in SIDES:
         K2.back_wing(r, "wing_" + side, (0.1 * sd, J["back"][1], J["z"]["sh"] - 0.05), sd, "feather", 2.2, 1.1, raise_deg=35, sweep_deg=20, feathers=10, tilt=58,
+                     mat="feather", tip_mat="accent", arm="feather")
