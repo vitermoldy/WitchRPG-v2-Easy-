@@ -119,6 +119,7 @@ PATHS.push(
   [[100, -1750], [650, -1700], [1100, -1740]],
 )
 export const CLEARINGS: [[number, number], number][] = [
+  ...LANDMARKS.map((l): [[number, number], number] => [l.c, l.r * 0.9]),
   [SPOTS.hero, 22], [SPOTS.army, 16], [ALTAR, 16], [TEMPLE, 30], [SPOTS.minotaur, 18], [SPOTS.hydra, 20],
   ...ALTARS.slice(1).map((a): [[number, number], number] => [a.c, 12]),
 ]
