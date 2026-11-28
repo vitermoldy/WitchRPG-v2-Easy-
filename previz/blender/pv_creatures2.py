@@ -670,3 +670,4 @@ def b_marinus(r):
         h.cone(hc + Vector((0.09 * k * s, 0.0, 0.02)), hc + Vector((0.2 * k * s, 0.04, 0.12)), 0.03 * s, mat="fin", seg=5)
     goat_horns(h, hc, s * 1.6, length=1.3, spread=0.8)
     h.tube([hc + Vector((0, 0.05, 0.05)), hc + Vector((0, 0.13, -0.1)), hc + Vector((0, 0.12, -0.3))], [0.08, 0.07, 0.0], mat="hair", seg=6, n=3, squash=0.5)
+    for sd, side in SIDES:
