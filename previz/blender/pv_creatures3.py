@@ -16,3 +16,4 @@ def b_silenus(r):
     H = 1.8
     J = humanoid(r, H, bulk=1.35, legs="hoof", arm_pose={"L": (20, 10, 15), "R": (35, 80, 5)}, leg_pose={"L": (10, 15), "R": (-8, 10)},
                  body_mat="skin", leg_mat="fur", foot_mat="hoof")
+    t = r.parts["torso"]
