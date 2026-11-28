@@ -68,3 +68,4 @@ def board():
     cols, cw, ch, head = 4, 9.6, 5.6, 2.0
     rows = math.ceil(len(KEYS) / cols)
     Wt, Ht = cols * cw, head + rows * ch
+    coll = C.collection("papan2", sc.collection)
