@@ -345,3 +345,5 @@ Pemeriksaan: tes 120 dari 120 lulus, build bersih. Di game: 45 daerah dikunjungi
 
 ### Pemeriksaan susulan (28 Nov 2026)
 
+Pemilik bertanya apa yang belum dikerjakan, lalu meminta semuanya dikerjakan.
+
