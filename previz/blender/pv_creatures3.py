@@ -29,3 +29,4 @@ def b_silenus(r):
         K2.fur_on(r.parts["shin_" + side], J["knee_" + side], J["ankle_" + side], 6, 0.06)
 
 
+def b_hippocentaurus(r):
