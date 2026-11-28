@@ -148,3 +148,4 @@ describe('every creature on its own ground (owner, 28 Nov 2026)', () => {
       expect(UNITS[kind].boss).toBe(true)
       const t = TERRITORIES.find((x) => x.kind === kind)!
       expect(t.boss).toBe(true)
+      expect(t.levels[0]).toBeGreaterThan(18)
