@@ -159,8 +159,7 @@ describe('the open world (phase 7)', () => {
 
 describe('the seal on zones IV and V', () => {
   const seal = new Seal(false)
-  const kuil = toWorld(40, 330)
-  const pembuka = toWorld(0, -250)
+  const zone = (key: string) => ZONES.find((z) => z.key === key)!.c
 
   it('refuses a step from open ground into Reruntuhan Kuil, but never a step out', () => {
     expect(seal.sealedAt(kuil[0], kuil[1])).toBe(true)
