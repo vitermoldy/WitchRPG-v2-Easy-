@@ -1165,6 +1165,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
       { name: 'ludah rubah', strike: 'ring', windup: 0.9, recover: 0.8, range: 22, minRange: 6, ring: 2, damage: 0.8, effect: 'poison', shot: { speed: 13, gravity: 12, radius: 0.4 }, cooldown: 4 },
       { name: 'patuk elang', strike: 'ring', windup: 0.55, recover: 0.8, range: 3.2, ring: 1.8, lungeSpeed: 6, lungeTime: 0.3 },
     ],
+  },
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
