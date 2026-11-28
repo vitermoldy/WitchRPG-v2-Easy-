@@ -74,6 +74,7 @@ export class Terrain {
     let made = 0
     for (const c of this.chunks) {
       const d = Math.hypot(c.centre.x - at.x, c.centre.z - at.z)
+      if (d > DRAW) {
       let want = LOD_RANGE.findIndex((r) => d < r)
       if (!c.meshes[want] && want < 2) {
         if (made < budget) {
