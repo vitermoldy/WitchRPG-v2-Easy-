@@ -315,3 +315,6 @@ def b_buer(r):
         fur_on(leg, k0, k1, 8, 0.12, mat="body2")
         fur_on(leg, k1, k1 + (k2 - k1) * 0.3, 4, 0.08, mat="body2")
         leg.limb(k1, k2, 0.07, 0.05, mat="leg")
+        leg.limb(k2, c + d * (R + 0.07) + side, 0.07, 0.085, mat="hoof", joints=False)
+
+
