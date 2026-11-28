@@ -42,3 +42,4 @@ export class Landmarks {
             const p = at(l, a, R)
             const b = m4(p.x, p.y + 0.6 + ring * 1.2, p.z, 3.1, 1.2, 1.4, -a)
             stone.push(b)
+          }
