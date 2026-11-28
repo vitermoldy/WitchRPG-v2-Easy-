@@ -1588,6 +1588,7 @@ export const ELITE = {
   traits: ['berlapis', 'gesit', 'meledak', 'penjaga'] as EliteTrait[],
   label: { berlapis: 'Berlapis', gesit: 'Gesit', meledak: 'Meledak', penjaga: 'Penjaga' } as Record<EliteTrait, string>,
   // owner, 28 Nov 2026: tougher and better paid (hp 2.4 and xp 3 until then), about 1.2 times the size,
+  // and an elite of some kinds wears a colour variant (src/engine/rigs.ts)
   damage: 1.25,
   scale: 1.15,
   xp: 3,
