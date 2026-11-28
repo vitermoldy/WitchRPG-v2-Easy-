@@ -1428,6 +1428,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     stun: 30,
     flank: true,
     attacks: [
+      { name: 'terjang', strike: 'line', windup: 0.55, recover: 0.9, range: 8, minRange: 3, lungeSpeed: 14, lungeTime: 0.45 },
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
