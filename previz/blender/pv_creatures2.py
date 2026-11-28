@@ -444,3 +444,4 @@ def b_tetrachiron(r):
     pointed_ears(h, hc, s, length=0.16)
     for k in (1, -1):
         h.tube([hc + Vector((0.05 * k * s, 0.0, 0.1 * s)), hc + Vector((0.12 * k * s, 0.04, 0.18 * s)), hc + Vector((0.1 * k * s, 0.12, 0.22 * s))], [0.028 * s, 0.018 * s, 0.0], mat="horn", seg=5, n=2)
+    wild_hair(h, hc, s, n=8, length=0.1, up=1.0)
