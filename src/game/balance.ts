@@ -978,6 +978,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     ],
   },
   // Leonis: the lion-maned swordsman; cuts under a circle, thrusts along a line, roars around itself.
+  leonis: {
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
