@@ -894,6 +894,7 @@ function eared(base: PoseFn): PoseFn {
   return (p, u, t) => {
     base(p, u, t)
     if (u.state === 'dead') return
+    let flap = 6 * Math.sin(t * 1.6 + u.id)
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   griffin: poseBeast,
   hippogriff: poseBeast,
