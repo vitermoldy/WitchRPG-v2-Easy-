@@ -107,3 +107,4 @@ if not animated and tris() > BUDGET:
 for a in arms:
     a.data.pose_position = "POSE"
 count = tris()
+export(os.path.join(OUT, f"{KEY}.glb"), animated)
