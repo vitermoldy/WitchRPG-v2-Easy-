@@ -99,3 +99,4 @@ def extra_arm(r, J, side, s, z_off, pose, H, bulk, mat="skin"):
     ua.limb(S, E, H * 0.028 * bulk, H * 0.023 * bulk, mat=mat)
     fa = r.P("forearm2_" + side, E, "upperarm2_" + side)
     fa.limb(E, W, H * 0.023 * bulk, H * 0.017 * bulk, mat=mat)
+    hd = r.P("hand2_" + side, W, "forearm2_" + side)
