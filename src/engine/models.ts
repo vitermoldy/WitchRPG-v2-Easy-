@@ -23,7 +23,7 @@ export async function loadAnimated(url: string): Promise<{ scene: THREE.Group; c
     // emission strengths from Blender are tuned for its renderer; bloom here needs far less
     if (mat.emissive && mat.emissiveIntensity > 0 && mat.emissive.getHex() !== 0) mat.emissiveIntensity = Math.min(mat.emissiveIntensity, 3.5)
   })
-  return gltf.scene
+  return { scene: gltf.scene, clips: gltf.animations }
 }
 
 /** Bakes a static model into one geometry per material, for instanced crowds. */
