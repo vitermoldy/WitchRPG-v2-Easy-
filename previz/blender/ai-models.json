@@ -98,3 +98,4 @@
   },
   "monster_kitsune.glb": {
     "key": "kitsune",
+    "rig": "tool"
