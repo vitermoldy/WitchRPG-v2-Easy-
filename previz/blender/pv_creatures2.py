@@ -442,3 +442,4 @@ def b_tetrachiron(r):
     face(h, hc, H * 1.05)
     beard(h, hc + Vector((0, -0.1, -0.11)), 0.2, 0.07)
     pointed_ears(h, hc, s, length=0.16)
+    for k in (1, -1):
