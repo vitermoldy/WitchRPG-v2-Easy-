@@ -244,3 +244,4 @@ ROSTER3 = [
     ("hippocentaurus", "Hippocentaurus", b_hippocentaurus, "Petarung lengan bersilang", "Ksatria", "VI Tanah Ganjil", None),
     ("aquilon", "Aquilon", b_aquilon, "Penukik bertombak", "Ksatria", "II Tebing Berangin", None),
     ("duyung", "Duyung", b_duyung, "Penyanyi telaga", "Prajurit", "III Rawa Berkabut", None),
+    ("aries", "Aries", b_aries, "Penyeruduk berat", "Ksatria", "IV Reruntuhan Kuil", None),
