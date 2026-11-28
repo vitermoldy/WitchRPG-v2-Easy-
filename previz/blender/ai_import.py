@@ -129,3 +129,5 @@ for ob in list(bpy.context.scene.objects):
         ob.matrix_world = mw
 for a in arms:
     bpy.data.objects.remove(a)
+export(os.path.join(OUT, f"{KEY}_lod.glb"), False)
+
