@@ -188,3 +188,4 @@ def b_septiceps(r):
         lg = r.P(name, hp + Vector((x, 0.35, 0)), "pelvis")
         a = hp + Vector((x, 0.35, 0))
         k = hp + Vector((x * 1.3, 0.55, -1.3))
+        f = Vector((x * 1.4, hp.y + 0.45, 0.15))
