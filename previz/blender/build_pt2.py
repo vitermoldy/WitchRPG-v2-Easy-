@@ -124,3 +124,4 @@ def views(key):
 
 
 if "--views" in argv:
+    for k in KEYS:
