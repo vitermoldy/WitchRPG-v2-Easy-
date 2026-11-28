@@ -64,6 +64,7 @@ export const LANDMARKS: Landmark[] = [
 const POND = LANDMARKS[1]
 /** The eastern lobe of the Tebing plateau: a second ellipse of the same cliff. */
 export const TEBING_EAST = { c: s(660, -40), rx: 230 * SCALE, ry: 190 * SCALE }
+export const ALTAR = s(-10, -395)
 /**
  * Altars: heal, the point she rises at after a fall, and fast travel between the ones already lit
  * (like v1's altar). One by the start, one where the paths split, one on each new zone's path.
