@@ -188,3 +188,5 @@ export function steepest(x: number, y: number) {
   let worst = 0
   for (let a = 0; a < 8; a++) worst = Math.max(worst, Math.abs(heightMap(x + Math.cos(a * 0.785), y + Math.sin(a * 0.785)) - h))
   return worst
+}
+
