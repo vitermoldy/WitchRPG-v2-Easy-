@@ -109,3 +109,4 @@ function rng(seed: number) {
   }
 }
 
+/** How far the outline of a territory reaches in a direction (radians, map angle), in metres. */
