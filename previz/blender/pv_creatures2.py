@@ -520,3 +520,4 @@ def b_cracovia(r):
     """The Monster of Kraków (prompt no. 9): a bald round head with a long curved trunk, small flames jutting
     sideways from the eyes and floppy ears; dog heads at the elbows and knees, two small fox heads on the chest,
     a second face on the belly (two eyes, the navel a mouth); clawed hands, webbed swan feet, and a long thin
+    tail curving up over the head to a hook."""
