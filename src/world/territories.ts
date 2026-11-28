@@ -185,3 +185,4 @@ export const TERRITORIES: Territory[] = place()
 /** Highest rise over one metre around a point, the way her feet would feel it. */
 export function steepest(x: number, y: number) {
   const h = heightMap(x, y)
+  let worst = 0
