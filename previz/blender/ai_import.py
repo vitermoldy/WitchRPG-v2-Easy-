@@ -32,3 +32,6 @@ def clear():
     for coll in (bpy.data.meshes, bpy.data.armatures, bpy.data.actions, bpy.data.materials, bpy.data.images):
         for d in list(coll):
             if d.users == 0:
+                coll.remove(d)
+
+
