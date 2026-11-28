@@ -88,7 +88,7 @@ export const ALTARS: { key: string; name: string; c: [number, number] }[] = [
   // one by each place of the south
   ...LANDMARKS.map((l) => ({ key: l.key, name: `Altar ${l.name}`, c: [l.c[0], l.c[1] - (l.kind === 'mere' ? l.r * 1.3 : l.r * 0.55)] as [number, number] })),
 ]
-export const TEMPLE: [number, number] = [40, 318]
+export const TEMPLE = s(40, 318)
 /** Where the previz shots stood; the start point is the hero clearing of render 01. */
 export const SPOTS = {
   hero: [-34, -335] as [number, number],
