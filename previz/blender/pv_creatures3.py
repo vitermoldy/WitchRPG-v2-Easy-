@@ -126,3 +126,4 @@ def b_manticore(r):
     for s in (1, -1):
         feather_wing(b, (0.3 * s, -0.4, Q["H"] + 0.05), s, 2.8, 1.5, raise_deg=40, sweep_deg=20, feathers=10, mat="membrane", tip_mat="accent", arm="membrane")
     tl = r.P("tail", Q["tail_base"], "body")
+    tb = V(Q["tail_base"])
