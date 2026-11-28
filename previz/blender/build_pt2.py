@@ -48,3 +48,4 @@ lib = bpy.context.scene
 root = C.collection("Makhluk2", lib.collection)
 colls, stats = {}, {}
 for key in KEYS:
+    coll = C.collection(f"CR_{key}", root)
