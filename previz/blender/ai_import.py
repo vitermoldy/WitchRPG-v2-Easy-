@@ -23,3 +23,6 @@ OUT = os.path.join(ROOT, "public", "models", "ai")
 BLOCKOUT = os.path.join(ROOT, "public", "models", f"{KEY}.glb")
 BOSSES = {"septiceps", "asmodeus", "blackdragon", "manticore"}
 BUDGET = 25000 if KEY in BOSSES else 10000
+os.makedirs(OUT, exist_ok=True)
+
+
