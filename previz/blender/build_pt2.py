@@ -21,3 +21,6 @@ import pv_creatures2 as K2  # noqa: E402
 import pv_creatures3 as K3  # noqa: E402
 import pv_shots as S  # noqa: E402
 
+argv = sys.argv[sys.argv.index("--") + 1:] if "--" in sys.argv else []
+
+
