@@ -1318,6 +1318,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     keepAway: 9,
     dive: 3,
     attacks: [
+      { name: 'nyanyian', strike: 'line', windup: 0.8, recover: 0.7, range: 20, minRange: 4, shot: { speed: 22, gravity: 0, radius: 0.25 } },
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
