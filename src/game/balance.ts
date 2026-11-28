@@ -1387,6 +1387,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
       { name: 'ekor', strike: 'ring', windup: 0.8, recover: 0.9, range: 7, ring: 3, behind: true },
       { name: 'api hitam', strike: 'ring', windup: 1.2, recover: 1.1, range: 13, ring: 4, ahead: 6, damage: 1.2 },
       { name: 'bola api hitam', strike: 'ring', windup: 1.1, recover: 1, range: 32, minRange: 10, ring: 3.2, shot: { speed: 15, gravity: 10, radius: 0.8 }, cooldown: 4 },
+      { name: 'terkam', strike: 'line', windup: 1, recover: 1.6, range: 24, minRange: 8, damage: 1.4, lungeSpeed: 20, lungeTime: 0.9, cooldown: 7 },
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
