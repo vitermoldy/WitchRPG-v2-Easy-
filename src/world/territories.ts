@@ -112,3 +112,4 @@ function rng(seed: number) {
 /** How far the outline of a territory reaches in a direction (radians, map angle), in metres. */
 export function reach(t: Pick<Territory, 'r' | 'wave'>, a: number) {
   const [f1, a1, p1, f2, a2, p2] = t.wave
+  return t.r * (1 + a1 * Math.sin(f1 * a + p1) + a2 * Math.sin(f2 * a + p2))
