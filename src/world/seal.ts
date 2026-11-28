@@ -2,6 +2,7 @@ import * as THREE from 'three'
 import { heightMap, PLAY_HALF, toMap, zoneAt } from './map'
 
 const CELL = 16
+/** Zones that stay sealed until the Hydra has fallen (PROMPT: "Terbuka setelah Hydra kalah"); Tanah Ganjil too. */
 
 const VERT = /* glsl */ `
   varying vec2 vUv;
