@@ -8,6 +8,7 @@ import bpy
 from mathutils import Euler, Matrix, Vector
 
 # the repo this file lives in (the Easy copy must not write into WitchRPG-v2)
+ROOT = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", ".."))
 PREVIZ = ROOT + r"\previz"
 ASSETS = ROOT + r"\assets"
 FONT_PATH = r"C:\Windows\Fonts\bahnschrift.ttf"
