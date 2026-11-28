@@ -224,3 +224,4 @@ export function campSpots(t: Territory): [number, number][] {
     const a0 = i === 0 ? 0 : ((i - 1) / Math.max(1, n - 1)) * Math.PI * 2 + 0.4 + stagger
     let spot: [number, number] | null = null
     for (let k = 0; k < 60 && !spot; k++) {
+      const a = a0 + (k % 12) * 0.52
