@@ -279,8 +279,7 @@ export const heightAt = (wx: number, wz: number) => heightMap(wx, -wz)
 
 /** Water surface level over the swamp, Danau Hitam, the Marinus lagoon and the Duyung's mere. */
 export const WATER_LEVEL = 0
-/** The water plane covers this map rectangle (x0, y0, x1, y1). */
-export const WATER_RECT: [number, number, number, number] = [-560, -170, -90, 420]
+/** Lowest ground under a water plane away from the swamp, the lake and the lagoon (m). */
 
 export function inWaterRect(x: number, y: number) {
   return x > WATER_RECT[0] && x < WATER_RECT[2] && y > WATER_RECT[1] && y < WATER_RECT[3]
