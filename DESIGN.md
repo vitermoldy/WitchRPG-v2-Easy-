@@ -307,3 +307,4 @@ Pemeriksaan:
 
 - **Tes:** 116 dari 116 lulus (4 tes daerah baru dan bobot zona di jauh), typecheck dan build bersih.
 - **Di game** (tanpa server, witch Lv 20): 16 makhluk tampil, beranimasi, dan menyerang tanpa error. Di tiap daerah Tanah Ganjil hanya jenisnya yang muncul. Septiceps: bar boss Lv 20, tiga serangan dalam 16 dtk, memanggil 2 Satyr. Asmodeus: Lv 21, dua serangan dalam 16 dtk, memanggil 2 Cacodaemon. Keduanya tumbang dan kampnya padam.
+- **Performa,** berdampingan dengan kode sebelumnya di jam yang sama, 1080p di RTX, median tiga run: titik awal 6,2 sampai 6,7 ms (dulu 6,2 sampai 6,4), Kuil 5,3 sampai 5,6 ms (dulu 5,2 sampai 5,3), awal dengan 200 bayangan 7,4 sampai 7,8 ms (dulu 7,6 sampai 7,8). Waktu muat 3,1 dtk (dulu 2,6).
