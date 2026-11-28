@@ -211,3 +211,4 @@ def b_banshee(r):
     K2.head_ball(h, hc, H, "skin")
     face(h, hc, H)
     long_hair(h, hc, H, 1.1, 0.12)
+    hp = V(J["hip"])
