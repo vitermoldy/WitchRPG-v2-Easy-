@@ -70,6 +70,7 @@ export const ROAM_DEFS: CampDef[] = (() => {
       if (Math.hypot(px - LAKE.c[0], py - LAKE.c[1]) < LAKE.r * 1.4) continue
       if (inWaterRect(px, py) && WATER_LEVEL - heightMap(px, py) > MOVE.maxWade * 0.8) continue
       if (steepest(px, py) > MOVE.maxSlope * 0.6) continue
+      const zone = zoneAt(px, py).key
 
 export interface Camp {
   def: CampDef
