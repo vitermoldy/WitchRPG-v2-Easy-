@@ -48,6 +48,7 @@ export const CAMP_DEFS: CampDef[] = TERRITORIES.flatMap((t) => {
  * fitting the place): one on every CAMP.roam metres of a jittered grid that lands outside every ground,
  * place, clearing and deep water, of the kind and level band of the nearest ground of its zone (bosses and
  * lairs aside). Away from the start clearing, so the first steps stay calm. Deterministic.
+ */
 
 export interface Camp {
   def: CampDef
