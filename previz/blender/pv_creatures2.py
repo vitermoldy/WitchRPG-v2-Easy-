@@ -194,3 +194,4 @@ def b_septiceps(r):
         if mat == "talon":
             for ang in (-30, 0, 30):
                 tip = Vector((f.x + math.sin(math.radians(ang)) * 0.45, f.y - math.cos(math.radians(ang)) * 0.45, 0.0))
+                lg.cone(f, tip, 0.06, mat="claw", seg=5)
