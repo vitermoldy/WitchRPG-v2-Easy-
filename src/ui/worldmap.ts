@@ -355,6 +355,7 @@ export class WorldMap {
         gg = 46
         b = 52
       } else {
+        zoneWeights(mx, my, w)
         }
         const o = (j * BASE + i) * 4
         img.data[o] = Math.min(255, r)
