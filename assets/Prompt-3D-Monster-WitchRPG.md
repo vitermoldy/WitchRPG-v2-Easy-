@@ -93,3 +93,5 @@ File: `Screenshot 2026-11-28 114315.png`, figur atas.
 
 ```text
 Turn the attached antique woodcut into a 3D render of the same creature. Keep it 100% identical to the reference in pose, camera angle, proportions, anatomy and every detail; add nothing, remove nothing. Subject: a four-armed winged monster with a human head: a bearded man's face with two pointed animal ears and two short curved horns. Four human arms stretched out sideways in two pairs, each ending in a clenched fist, with tufts of fur at the shoulders. Two large feathered wings spread from the waist. The lower body is wrapped in shaggy feathers like a bird's, standing on two thin goat legs with cloven hooves on a small round mound. Style: stylized 3D, ivory parchment-colored surfaces with black ink cross-hatching engraved into the texture, like an antique woodcut brought to life. Full body, single character, plain light-grey background, soft studio lighting, ultra-detailed, 4K.
+```
+
