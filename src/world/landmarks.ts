@@ -68,3 +68,4 @@ export class Landmarks {
         // flowers all round the pond, in four colours
         const colours = ['#f2c8e0', '#ffd860', '#c8a8ff', '#ffffff'].map((h) => new THREE.Color(h))
         for (let k = 0; k < 900; k++) {
+          const a = rnd() * Math.PI * 2
