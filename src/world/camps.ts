@@ -28,6 +28,7 @@ export interface CampDef {
  */
 export const CAMP_DEFS: CampDef[] = TERRITORIES.flatMap((t) => {
   const spots = campSpots(t)
+  return spots.map((c, i): CampDef => {
 
 export interface Camp {
   def: CampDef
