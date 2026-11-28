@@ -13,3 +13,4 @@ from pv_creatures import SIDES, bat_wing, beard, dragon_head, eagle_head, face, 
 
 def b_silenus(r):
     """The plump old satyr: small curved horns, a bearded face, a round pot belly, one hand pointing, shaggy goat legs."""
+    H = 1.8
