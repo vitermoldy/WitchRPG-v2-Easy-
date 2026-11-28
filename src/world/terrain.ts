@@ -86,10 +86,7 @@ export class Terrain {
         if (made < budget || (bare && d < LOD_RANGE[1])) {
           this.ensure(c, want)
           made++
-        } else {
-          // use the closest detail already built until this one is made
-          want = c.meshes[1] && want === 0 ? 1 : 2
-        }
+        } else if (want === 0 && c.meshes[1]) want = 1
       }
       if (want !== c.lod) {
         if (c.lod >= 0 && c.meshes[c.lod]) c.meshes[c.lod]!.visible = false
