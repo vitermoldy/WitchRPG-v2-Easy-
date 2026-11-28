@@ -1051,7 +1051,7 @@ class Rig implements Poser {
     this.team = team
     this.passive = !!UNITS[kind]?.passive
     this.cap = cap
-    this.pose = POSES[kind] ?? (() => {})
+    this.pose = whole ? poseWhole : (POSES[kind] ?? (() => {}))
     const scene = model.clone(true)
     this.holder.add(scene)
     const mats = new Map<THREE.Material, THREE.MeshStandardMaterial>()
