@@ -679,3 +679,4 @@ def b_marinus(r):
 
 def b_raia(r):
     """Draco ex Raia: a dried ray made into a dragon, broad striated wing-fins, a hooded beaked head with a
+    gaping mouth, a round belly and a long whip tail with a fringe."""
