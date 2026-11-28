@@ -548,3 +548,4 @@ def b_cracovia(r):
         ft.poly([Vector((A.x, A.y, 0.03)), Vector((A.x + 0.11, A.y - 0.2, 0.01)), Vector((A.x, A.y - 0.24, 0.01)), Vector((A.x - 0.11, A.y - 0.2, 0.01))], mat="web")
     tl = r.P("tail", V(J["hip"]) + Vector((0, 0.12, 0)), "pelvis")
     hp = V(J["hip"])
+    pts = [hp + Vector((0, 0.12, 0)), hp + Vector((0.15, 0.45, -0.2)), hp + Vector((0.35, 0.65, 0.2)), hp + Vector((0.4, 0.55, 0.9)), hp + Vector((0.25, 0.25, 1.35)), hp + Vector((0.1, -0.05, 1.3)), hp + Vector((0.05, -0.15, 1.15))]
