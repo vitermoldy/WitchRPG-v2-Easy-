@@ -30,3 +30,4 @@ describe('models from the image-to-3D tool (owner, 28 Nov 2026)', () => {
     expect(roles.attack?.name).toBe('Punch_Attack')
     expect(roles.hit?.name).toBe('Hit Reaction')
     expect(roles.die?.name).toBe('Dying')
+    expect(clipRoles([clip('Take 001')]).idle?.name).toBe('Take 001')
