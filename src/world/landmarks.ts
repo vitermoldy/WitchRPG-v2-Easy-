@@ -61,3 +61,4 @@ export class Landmarks {
           stone.push(m4(p.x, p.y + 2.6, p.z, 1.6, 5.4, 1.1, -a, lean))
           obstacles.add({ kind: CYL, x: p.x, y: p.y - 1, z: p.z, r: 1.2, h: 7, camOnly: false })
           if (k % 3 === 0) stone.push(m4(p.x, p.y + 5.6, p.z, 2.6, 0.7, 1.2, -a + 0.3))
+        }
