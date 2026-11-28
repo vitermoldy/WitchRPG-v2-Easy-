@@ -103,3 +103,5 @@ export class Landmarks {
     mesh.castShadow = true
     mesh.receiveShadow = true
     this.group.add(mesh)
+  }
+
