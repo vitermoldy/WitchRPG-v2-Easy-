@@ -17,3 +17,4 @@ export class Landmarks {
     const petals: { m: THREE.Matrix4; c: THREE.Color }[] = []
     const stems: THREE.Matrix4[] = []
     const caps: { m: THREE.Matrix4; c: THREE.Color }[] = []
+    let seed = 7
