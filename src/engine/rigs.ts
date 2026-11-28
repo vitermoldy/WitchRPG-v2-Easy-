@@ -1065,6 +1065,7 @@ class Rig implements Poser {
       if (!mat) {
         mat = team === 'shadow' ? shadowMaterial(src, mesh.geometry) : src.clone()
         const slot = variant && Object.keys(variant).find((k) => src.name.endsWith('.' + k))
+        if (team === 'enemy' && slot) {
         patchGlow(mat)
         mats.set(src, mat)
       }
