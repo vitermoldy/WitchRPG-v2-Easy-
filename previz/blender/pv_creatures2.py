@@ -516,3 +516,4 @@ def b_satyr(r):
     tl.cone(V(J["hip"]) + Vector((0, 0.12, 0.05)), V(J["hip"]) + Vector((0, 0.3, 0.15)), 0.05, mat="fur", seg=5)
 
 
+def b_cracovia(r):
