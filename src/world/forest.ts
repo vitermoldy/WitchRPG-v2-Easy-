@@ -265,6 +265,7 @@ export class Forest {
   private readonly geos = geometries()
   private readonly verts: number
   private readonly material = new THREE.MeshLambertMaterial({ vertexColors: true })
+  private readonly obstacles: Obstacles
   private readonly visibleRange: number
 
   constructor(trees: Tree[], visibleRange = 330) {
