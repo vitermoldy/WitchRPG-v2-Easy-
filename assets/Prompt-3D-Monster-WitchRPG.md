@@ -49,3 +49,5 @@ Ukiran kayu aslinya tidak berwarna, jadi gaya B dan D membuat AI memilih warna s
 
 ## Bagian 1: Monster pt2 (ukiran kayu kuno)
 
+Ini 19 prompt siap tempel (18 monster) untuk 15 file di folder Monster pt2. Ukiran dan gravir abad ke-16 sampai ke-19 ini (antara lain dari buku Aldrovandi dan Dictionnaire Infernal) sudah domain publik, jadi aman ditiru persis untuk game.
+
