@@ -55,3 +55,5 @@ Ini 19 prompt siap tempel (18 monster) untuk 15 file di folder Monster pt2. Ukir
 - Untuk Jalur B (model 3D), salin teks setelah `Subject:` sampai sebelum `Style:` ke Template Model 3D.
 - Beberapa ukiran asli menampilkan tubuh telanjang. Prompt di sini membuat area kelamin polos supaya aman untuk game dan tidak ditolak tool AI.
 
+### 1. Raksasa Alegori Berkepala Banyak
+
