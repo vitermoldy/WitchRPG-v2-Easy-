@@ -357,3 +357,4 @@ Pemilik bertanya apa yang belum dikerjakan, lalu meminta semuanya dikerjakan.
 
 Permintaan pemilik: "isi selatannya dengan daerah tambahan", lalu "perbanyak spawn monster biasa di sekitar, monster biasanya sesuaikan sama lokasi". Pilihan pemilik atas pertanyaan: delapan daerah campuran, usulan makhluk dan tempat disetujui, spawn "keduanya" (pengembara dan kamp lebih banyak), kepadatan "padat".
 
+| Bagian | Keputusan | Alasan |
