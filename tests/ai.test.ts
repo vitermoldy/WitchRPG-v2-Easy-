@@ -17,3 +17,4 @@ describe('models from the image-to-3D tool (owner, 28 Nov 2026)', () => {
       expect(V2_KINDS as readonly string[], name).toContain(v.key)
       expect(['tool', 'blender'], name).toContain(v.rig)
     }
+    // the odd shapes the owner sends without bones
