@@ -21,3 +21,4 @@ export interface Territory {
   camps: number
   pack: number
   /** Elites in its last camp (the edge of the ground, PROMPT: "kamp elit ada di tepi zona"). */
+  elites?: number
