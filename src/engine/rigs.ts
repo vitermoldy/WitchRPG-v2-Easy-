@@ -1244,6 +1244,7 @@ interface SkinCopy {
   mats: THREE.MeshStandardMaterial[]
   emissive: THREE.Color[]
   role: SkinRole | ''
+  frame: number
 interface CrowdBatch {
   parts: { geometry: THREE.BufferGeometry; material: THREE.Material; mesh: THREE.InstancedMesh }[]
   cap: number
