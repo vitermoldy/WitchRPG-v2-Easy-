@@ -1083,6 +1083,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   // Marinus: the sea satyr in its lagoon; spits brine onto a circle, gores up close, dives when hurt.
   marinus: {
     name: 'Marinus',
+    rank: 'ksatria',
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
