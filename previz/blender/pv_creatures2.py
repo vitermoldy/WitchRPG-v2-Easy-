@@ -108,3 +108,4 @@ def fur_on(part, a, b, n, r, mat="fur", out=0.6):
     """Shaggy fur: tufts along a limb from a to b, pointing down and out."""
     a, b = V(a), V(b)
     axis = (b - a).normalized()
+    side = axis.cross(Vector((0, 1, 0)))
