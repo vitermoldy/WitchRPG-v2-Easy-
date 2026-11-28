@@ -77,3 +77,4 @@ def board():
     for i, k in enumerate(KEYS):
         r_, c_ = divmod(i, cols)
         x0, z0 = c_ * cw, -(head + r_ * ch)
+        bg = C.Rig(f"kartu2.{k}", {"c": card, "w": well}, coll)
