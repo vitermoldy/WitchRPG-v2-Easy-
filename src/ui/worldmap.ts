@@ -72,6 +72,7 @@ export class WorldMap {
     this.dlg.addEventListener('close', () => this.onClose?.())
     this.dlg.addEventListener('keydown', (e) => {
       if (e.target instanceof HTMLSelectElement) return
+      if (e.code === 'KeyM') {
         e.preventDefault()
         this.close()
       }
