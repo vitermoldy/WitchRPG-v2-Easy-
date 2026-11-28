@@ -42,3 +42,4 @@
   },
   "monster_cracovia.glb": {
     "key": "cracovia",
+    "rig": "tool"
