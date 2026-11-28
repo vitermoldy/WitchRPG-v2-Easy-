@@ -1322,6 +1322,7 @@ export class Rigs {
     this.group.name = 'units'
     this.models = models
     this.lods = lods
+    this.skins = skins
   }
 
   private rig(kind: UnitKind, team: Team): Rig | null {
