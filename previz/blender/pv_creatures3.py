@@ -231,3 +231,4 @@ COLORS3 = {
     "aquilon": {"skin": "#c8a078", "feather": ("#f2efe8", "#d8d2c4"), "accent": "#b0a080", "armor": ("#6a6e78", "#4a4e58"), "gold": "#d8b040",
                 "cloth": "#8a1e22", "metal": "#c8ccd4", "wood": "#4a3424", "horn": "#e0b040"},
     "duyung": {"skin": "#ecd4c4", "hair": "#1e1614", "scale": ("#1e3a4a", "#5a8a8a"), "fin": "#2a6a6a"},
+    "aries": {"skin": ("#5a3a34", "#3e2a26"), "bone": ("#e8e0cc", "#c8bea8"), "horn": "#3a3028", "bristle": "#f0ece4", "fur": ("#3a2a22", "#5a4436"), "hoof": "#1a1612"},
