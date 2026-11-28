@@ -554,3 +554,4 @@ def b_cracovia(r):
 
 def b_panotti(r):
     """Homo Fanesius auritus: ears so large they fall like a cloak to the knees."""
+    H = 2.0
