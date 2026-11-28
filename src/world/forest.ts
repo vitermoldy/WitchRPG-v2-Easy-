@@ -313,6 +313,7 @@ export class Forest {
       this.tiles.set(key, { mesh: null, trees: list, x0: ix * TILE, z0: iz * TILE })
       return
     }
+    const mesh = new THREE.BatchedMesh(list.length, this.verts, 0, this.material)
     const ids = {} as Record<Kind, number>
     for (const k of Object.keys(geos) as Kind[]) ids[k] = this.mesh.addGeometry(geos[k])
     const m = new THREE.Matrix4()
