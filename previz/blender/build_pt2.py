@@ -85,3 +85,4 @@ def board():
         if row[K.REF]:
             S.ref_plane(coll, f"ref2.{k}", row[K.REF][0], row[K.REF][1], (x0 + 2.4, 0, z0 - 2.25), 3.95)
         else:
+            C.text(coll, "Pengganti sementara:", (x0 + 2.3, 0, z0 - 2.0), size=0.26, color="#8f8a86", align="CENTER", rot=(90, 0, 0))
