@@ -151,3 +151,5 @@ describe('every creature on its own ground (owner, 28 Nov 2026)', () => {
       expect(t.levels[0]).toBeGreaterThan(18)
     }
   })
+})
+
