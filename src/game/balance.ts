@@ -1232,6 +1232,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     summon: { every: 22, count: 2, max: 4 },
     summonKind: 'cacodaemon',
     attacks: [
+      { name: 'cakar', strike: 'ring', windup: 0.8, recover: 0.9, range: 5.5, ring: 3 },
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
