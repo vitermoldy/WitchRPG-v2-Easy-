@@ -747,3 +747,4 @@ COLORS2 = {
 
 R = "Monster pt2/Screenshot 2026-11-28 "
 ROSTER2 = [
+    # key, name, builder, role, rank, zone, reference (file, crop x0 y0 x1 y1)
