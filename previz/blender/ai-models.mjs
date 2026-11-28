@@ -28,3 +28,4 @@ for (const [key, src] of extra) present.push({ key, src: path.resolve(src), turn
 
 fs.mkdirSync(out, { recursive: true })
 let failed = false
+for (const m of present) {
