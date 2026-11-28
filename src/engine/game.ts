@@ -470,6 +470,7 @@ export class Game implements UnitHost {
     this.scene.add(this.camps.group)
     this.altars = new Altars(this)
     this.scene.add(this.altars.group)
+    this.scene.add(new Landmarks(this.obstacles).group)
     this.props = new Props(this)
     this.scene.add(this.props.mesh)
     this.lair = new Lair(this)
