@@ -1073,6 +1073,7 @@ class Rig implements Poser {
           if (slot === 'mouth' && kind === 'cerberus') {
             mat.emissive.set(variant![slot])
             mat.emissiveIntensity = 1.6
+          }
         patchGlow(mat)
         mats.set(src, mat)
       }
