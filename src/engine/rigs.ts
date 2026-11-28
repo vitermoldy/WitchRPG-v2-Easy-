@@ -1482,6 +1482,7 @@ export class Rigs {
     // skinned copies of units no longer drawn in detail (gone, or joined the crowd) are let go
     for (const [u, copy] of this.skinned) {
       if (copy.frame === this.frame) continue
+      this.group.remove(copy.root)
 
     for (const b of this.crowd.values()) b.used = 0
     for (const [kind, n] of counts) this.batch(kind, n)
