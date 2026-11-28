@@ -247,6 +247,7 @@ export class Camps {
           return
         }
         // a calm roaming pack wanders: every few seconds its centre moves a little, within reach of where it began
+        if (camp.def.roam && !camp.roused) {
         // rouse the whole pack when she or a shadow comes close, or one of them is hurt
         if (!camp.roused) {
           const close = (u: Unit) => {
