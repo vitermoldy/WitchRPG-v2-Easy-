@@ -91,3 +91,4 @@ def b_duyung(r):
     tl.poly([tip, tip + Vector((0.3, 0.35, 0.35)), tip + Vector((0.0, 0.2, 0.05)), tip + Vector((-0.3, 0.35, 0.35))], mat="fin")
 
 
+def b_aries(r):
