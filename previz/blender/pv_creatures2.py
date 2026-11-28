@@ -646,3 +646,4 @@ def b_marinus(r):
     """Sea satyr: a goat's horned head with whiskers and tusks, finned arms and back, and a long scaled fish
     tail that ends in a fan."""
     H = 2.3
+    J = humanoid(r, H, bulk=1.05, legs=None, arm_pose={"L": (40, 40, 50), "R": (35, 55, 60)}, body_mat="skin")
