@@ -875,6 +875,7 @@ const poseBuer: PoseFn = (p, u, t) => {
     return
   }
   if (u.state === 'strike') {
+    if (u.atk.strike === 'line') p.rot('hub', (u.t * 1000) % 360)
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   griffin: poseBeast,
   hippogriff: poseBeast,
