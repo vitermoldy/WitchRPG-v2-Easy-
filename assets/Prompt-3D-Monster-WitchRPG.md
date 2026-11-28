@@ -105,3 +105,5 @@ Turn the attached antique woodcut into a 3D render of the same creature. Keep it
 
 ### 7. Centaurus
 
+File: `Screenshot 2026-11-28 114323.png`, figur atas.
+
