@@ -301,3 +301,5 @@ Permintaan pemilik: "itu ada monster pt2, lakukanlah hal yang sama, render, baru
 | Peta lebih luas | 1.000 x 1.000 m menjadi 1.800 x 1.800 m; cincin gunung pindah keluar. 106 kamp (dulu 57), sekitar 58 ribu pohon | Ruang untuk 16 daerah baru dan daerah lama yang dipisah. |
 | Hutan | Dipecah per petak 260 m (satu BatchedMesh tiap petak); petak di luar jarak pandang dilewati utuh. Sebar hutan melewati sel yang pasti kosong sebelum menghitung tinggi tanah | Peta 3 kali lebih luas tanpa frame lebih berat. |
 | Bobot zona | Dihitung terhadap zona terdekat. Sebelumnya `exp(-3d²)` habis ke nol jauh dari semua pusat, sehingga pegunungan jauh berwarna hitam di peta dan memakai campuran pohon zona terakhir | Muncul begitu peta diperluas. |
+| Server | `KINDS` dan `ALTARS` di `server/app.js` mengenal makhluk dan altar baru | Tanpa itu simpanan dengan bayangan baru ditolak. |
+
