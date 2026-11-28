@@ -448,3 +448,4 @@ def b_tetrachiron(r):
     for sd, side in SIDES:
         back_wing(r, "wing_" + side, (0.12 * sd, J["back"][1] - 0.02, J["z"]["waist"]), sd, "feather", 2.1, 1.2, raise_deg=10, sweep_deg=25, feathers=10, tilt=62,
                   mat="membrane", tip_mat="accent", arm="membrane")
+    p = r.parts["pelvis"]
