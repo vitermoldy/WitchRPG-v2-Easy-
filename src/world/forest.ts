@@ -341,6 +341,7 @@ export class Forest {
     const range = this.visibleRange
     const r2 = range * range
     for (const tile of this.tiles.values()) {
+      if (!tile.mesh) continue
     }
   }
 }
