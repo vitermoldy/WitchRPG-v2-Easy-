@@ -192,3 +192,4 @@ def b_septiceps(r):
         lg.limb(a, k, 0.26, 0.18, mat="fur" if mat == "fur" else "skin")
         lg.limb(k, f, 0.16, 0.11, mat=mat)
         if mat == "talon":
+            for ang in (-30, 0, 30):
