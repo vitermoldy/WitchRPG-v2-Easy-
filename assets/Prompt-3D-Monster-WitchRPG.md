@@ -261,3 +261,4 @@ Poster `images (7).jpg` berisi 35 makhluk kecil, kebanyakan berwujud manusia, bu
 | Fairy | a slender fairy with dark hair in a flowing white dress, with large translucent grey insect wings |
 | Pegasus | a white winged horse with large feathered wings, its hind body dissolving into particles |
 | Phoenix | a phoenix with fiery red-orange feathers and wings spread wide |
+| Veela | a woman with long wavy brown hair and a leafy crown in a white dress wrapped with green vines |
