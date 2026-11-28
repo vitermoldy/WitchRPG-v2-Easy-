@@ -8,3 +8,6 @@ from mathutils import Vector
 import pv_creatures as K
 import pv_creatures2 as K2
 from pv_common import V
+from pv_creatures import SIDES, bat_wing, beard, dragon_head, eagle_head, face, feather_wing, humanoid, lerp, long_hair, quad, snake_head, spikes, tail_tube
+
+
