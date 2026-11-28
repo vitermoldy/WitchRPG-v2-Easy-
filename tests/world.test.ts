@@ -60,3 +60,4 @@ describe('the ground, built near her first', () => {
     expect(near).toBe(true)
     // nothing shown farther than 1400 m
     const box = new THREE.Box3()
+    for (const m of shown) {
