@@ -126,6 +126,7 @@ export const CLEARINGS: [[number, number], number][] = [
 /** Half-size of the terrain (it runs past the playable map into the mountain ring); 44 chunks of 130 m. */
 export const HALF = 2860
 /** The playable map is 5000 x 5000 m (1000 until 28 Nov 2026, then 1800 and 2600); the mountains past it are scenery. */
+export const PLAY_HALF = 2500
 
 export const toWorld = (x: number, y: number): [number, number] => [x, -y]
 export const toMap = (wx: number, wz: number): [number, number] => [wx, -wz]
