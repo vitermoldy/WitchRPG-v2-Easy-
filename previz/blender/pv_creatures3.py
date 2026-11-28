@@ -33,3 +33,4 @@ def b_hippocentaurus(r):
     """The odd centaur of the woodcut: a hairy bearded torso with crossed arms joined straight onto a long, bloated
     horse body with no horse neck, thin legs and a long wavy tail."""
     Q = quad(r, 1.55, 2.9, 0.8, 1.05, 0.05, front="hoof", hind="hoof", foot_mat="hoof")
+    b = r.parts["body"]
