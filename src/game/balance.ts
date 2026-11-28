@@ -894,6 +894,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     ],
   },
   // v2 (Easy), Tanah Ganjil, the second batch (owner, 28 Nov 2026: assets/Monster pt2). Lv 16 to 18, each kind on its own ground.
+  // Satyr: quick on goat legs; leaps horns first under a circle, or blows a shrill note along a line from afar.
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
