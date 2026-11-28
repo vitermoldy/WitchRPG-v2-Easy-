@@ -273,6 +273,7 @@ export class Forest {
   count = 0
 
   constructor(obstacles: Obstacles, visibleRange = 330, loadRange = 640) {
+    this.obstacles = obstacles
     this.visibleRange = visibleRange
     const geos = geometries()
     let verts = 0
