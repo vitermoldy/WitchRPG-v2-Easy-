@@ -127,6 +127,7 @@ export const CLEARINGS: [[number, number], number][] = [
 export const HALF = 2860
 /** The playable map is 5000 x 5000 m (1000 until 28 Nov 2026, then 1800 and 2600); the mountains past it are scenery. */
 export const PLAY_HALF = 2500
+/** Where the mountain ring starts to rise (largest of |x| and |y|), and where it is full height. */
 
 export const toWorld = (x: number, y: number): [number, number] => [x, -y]
 export const toMap = (wx: number, wz: number): [number, number] => [wx, -wz]
