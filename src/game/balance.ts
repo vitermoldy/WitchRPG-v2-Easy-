@@ -1060,6 +1060,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     strike: 'line',
     stun: 50,
   },
+  // Raia: the ray-dragon; low, fast, lashing dives along a line. A Hex Bolt brings it down.
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
