@@ -96,6 +96,7 @@ export class Hud {
     this.bannerTime = 3.6
   }
 
+  /** The ground of one creature kind she has just stepped onto (src/world/territories.ts), or a place without monsters (kind empty). */
   /** Screen position of the locked target in pixels, or null when nothing is locked. */
   lock(at: { x: number; y: number } | null) {
     if (!at) {
