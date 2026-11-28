@@ -51,3 +51,4 @@ def b_hippocentaurus(r):
 
 
 def b_aquilon(r):
+    """The eagle-headed warrior: a white-feathered eagle head, gold-trimmed armour, a cape, wings to fly, a spear."""
