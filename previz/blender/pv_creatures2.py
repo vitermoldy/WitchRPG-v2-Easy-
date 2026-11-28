@@ -558,3 +558,4 @@ def b_panotti(r):
     J = humanoid(r, H, bulk=0.95, legs="human", arm_pose={"L": (20, 25, 20), "R": (15, 5, 15)}, leg_pose={"L": (12, 6), "R": (-10, 8)}, body_mat="skin")
     h = r.parts["head"]
     hc = V(J["head_c"])
+    s = head_ball(h, hc, H, "skin")
