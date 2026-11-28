@@ -1147,6 +1147,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   // Triceps: fox, dragon and eagle heads; dragon fire in front, a poisoned glob from the fox, the eagle's peck.
   triceps: {
     name: 'Triceps',
+    rank: 'jenderal',
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
