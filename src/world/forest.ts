@@ -203,7 +203,7 @@ export function scatterTile(ix: number, iz: number, step = 4, seed = 3): Tree[] 
         if (rockRoll < 0.012 && pd > 4 + SHAPE.rock.trunk * rs) out.push({ kind: 'rock', x, y: h - 0.3, z: -y, rot, scale: rs })
         else if (rockRoll < 0.027 && slope > 0.55 && pd > 4 + SHAPE.rock_big.trunk * rs) out.push({ kind: 'rock_big', x, y: h - 0.3, z: -y, rot, scale: rs })
       }
-      if (slope > 0.75 || h > 165 || nearLake || pd < 3.5 || inClearing(x, y)) continue
+      if (slope > 0.75 || h > 165 || nearLake || pd < 3.5 || open) continue
       zoneWeights(x, y, w)
       let zi = 0
       let acc = 0
