@@ -168,3 +168,4 @@ function fits(t: Territory, zone: string, own: number, placed: Territory[], marg
   if (Math.hypot(cx - SPOTS.hero[0], cy - SPOTS.hero[1]) < big + 150) return false
   if (Math.hypot(cx - TEMPLE[0], cy - TEMPLE[1]) < big + 60) return false
   for (const l of LANDMARKS) if (Math.hypot(cx - l.c[0], cy - l.c[1]) < l.r * 1.5 + big + 30) return false
+  // the whole outline lies in the zone (and on the plateau, for Tebing)
