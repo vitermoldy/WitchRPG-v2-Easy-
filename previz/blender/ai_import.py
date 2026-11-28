@@ -16,3 +16,4 @@ import bpy
 from mathutils import Vector
 
 argv = sys.argv[sys.argv.index("--") + 1:]
+KEY, SRC = argv[0], argv[1]
