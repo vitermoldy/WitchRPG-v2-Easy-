@@ -218,3 +218,6 @@ def b_banshee(r):
         a = 2 * math.pi * i / 10
         b0 = hp + Vector((math.cos(a) * 0.38, math.sin(a) * 0.38 + 0.1, -0.8))
         tl.poly([b0, b0 + Vector((math.cos(a) * 0.1, math.sin(a) * 0.1, -0.35)), b0 + Vector((math.cos(a + 0.4) * 0.12, math.sin(a + 0.4) * 0.12, 0))], mat="cloth")
+    r.parts["torso"].ell(V(J["chest"]), (0.17, 0.12, 0.16), mat="cloth")
+
+
