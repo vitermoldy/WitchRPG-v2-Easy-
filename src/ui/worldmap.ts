@@ -349,6 +349,7 @@ export class WorldMap {
       const h = mid[i + 1]
       let r = 0
       let gg = 0
+      let b = 0
         }
         const o = (j * BASE + i) * 4
         img.data[o] = Math.min(255, r)
