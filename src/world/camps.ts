@@ -50,6 +50,7 @@ export const CAMP_DEFS: CampDef[] = TERRITORIES.flatMap((t) => {
  * lairs aside). Away from the start clearing, so the first steps stay calm. Deterministic.
  */
 export const ROAM_DEFS: CampDef[] = (() => {
+  let seed = 20261129
 
 export interface Camp {
   def: CampDef
