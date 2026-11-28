@@ -3,3 +3,4 @@ old bestiary engravings in black ink, so the anatomy and props follow them close
 are chosen per creature (owner, phase 0: no look-alike colours). Modelled from primitives, never traced.
 
 Importing this module registers the creatures with pv_creatures (COLORS, ROSTER_BY_KEY), so
+export_glb.py and build_pt2.py can build them like the first roster."""
