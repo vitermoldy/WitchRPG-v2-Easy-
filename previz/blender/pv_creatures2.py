@@ -11,3 +11,6 @@ from mathutils import Vector
 import pv_creatures as K
 from pv_common import V
 from pv_creatures import (SIDES, UP, _dir_rot, _rx, bat_wing, beard, dog_head, dragon_head, eagle_head, face, feather_wing,
+                          humanoid, lerp, long_hair, quad, snake_head, spikes, tail_tube)
+
+
