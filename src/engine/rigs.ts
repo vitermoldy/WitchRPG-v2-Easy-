@@ -1401,6 +1401,7 @@ export class Rigs {
       })
       const mixer = new THREE.AnimationMixer(root)
       copy = { root, mixer, mats, emissive: mats.map((m) => m.emissive?.clone() ?? new THREE.Color()), role: '', frame: 0 }
+      this.group.add(root)
   /** How far below its feet a unit is drawn while it rises out of a pool, sinks in, or turns to ash. */
   private sink(u: Unit): number {
     if (u.state === 'rising') {
