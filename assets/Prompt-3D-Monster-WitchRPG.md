@@ -296,3 +296,4 @@ Poster `images (7).jpg` berisi 35 makhluk kecil, kebanyakan berwujud manusia, bu
 
 | File | Alasan |
 | --- | --- |
+| `Screenshot 2026-11-28 001731.png` | Bukan monster: kartu kutipan berisi foto orang sungguhan |
