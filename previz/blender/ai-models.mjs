@@ -26,3 +26,4 @@ for (const [name, info] of files) {
 }
 for (const [key, src] of extra) present.push({ key, src: path.resolve(src), turn: 0 })
 
+fs.mkdirSync(out, { recursive: true })
