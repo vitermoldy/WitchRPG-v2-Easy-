@@ -67,3 +67,4 @@ Turn the attached antique engraving into a 3D render of the same figure. Keep it
 
 File: `Screenshot 2026-11-28 114307.png`, figur kiri atas.
 
+```text
