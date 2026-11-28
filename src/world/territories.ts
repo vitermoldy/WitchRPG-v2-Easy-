@@ -74,3 +74,4 @@ const PLANS: Plan[] = [
   { key: 'lilith', name: 'Taman Lilith', kind: 'lilith', zone: 'bara', r: 65, levels: [16, 16], camps: 1, pack: 1, boss: true },
   { key: 'dragon', name: 'Sarang Dragon', kind: 'dragon', zone: 'bara', r: 65, levels: [17, 17], camps: 1, pack: 1, boss: true },
   { key: 'samael', name: 'Bawah Rift Samael', kind: 'samael', zone: 'bara', r: 65, levels: [19, 19], camps: 1, pack: 1, boss: true },
+  { key: 'blackdragon', name: 'Kaldera Dragon Hitam', kind: 'blackdragon', zone: 'bara', r: 70, levels: [20, 20], camps: 1, pack: 1, boss: true },
