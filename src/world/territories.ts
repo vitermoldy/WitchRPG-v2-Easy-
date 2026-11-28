@@ -198,3 +198,4 @@ export function campGround(t: Territory, x: number, y: number) {
   if (inWaterRect(x, y) && WATER_LEVEL - h > MOVE.maxWade * 0.8) return false
   if (Math.hypot(x - LAKE.c[0], y - LAKE.c[1]) < LAKE.r * 1.1) return false
   if (inClearing(x, y, 6) || pathDist(x, y) < 6) return false
+  if (t.minHeight !== undefined && h < t.minHeight) return false
