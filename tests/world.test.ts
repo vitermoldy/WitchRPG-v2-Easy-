@@ -28,3 +28,4 @@ describe('the forest, one tile at a time (5000 m map)', () => {
     for (const t of trees) {
       if (t.kind === 'rock' || t.kind === 'rock_big') continue
       const [mx, my] = toMap(t.x, t.z)
+      expect(pathDist(mx, my)).toBeGreaterThanOrEqual(3.5)
