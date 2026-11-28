@@ -67,3 +67,4 @@ def lion_face(part, at, fwd=(0, -1, 0), s=1.0, mat="body", mane_mat="body2", man
         part.ell(a + UP * 0.17 * s + side * 0.15 * s * k, (0.05 * s, 0.03 * s, 0.05 * s), mat=mat, seg=8, rings=5)
     if mane > 0:
         n = 18
+        for i in range(n):
