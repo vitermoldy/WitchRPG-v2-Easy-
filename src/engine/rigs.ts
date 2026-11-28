@@ -771,6 +771,7 @@ function serpentine(base: PoseFn, part: string): PoseFn {
 
 // ------------------------------------------------------------ Tanah Ganjil (Easy, 28 Nov 2026)
 
+/**
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   griffin: poseBeast,
   hippogriff: poseBeast,
