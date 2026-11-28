@@ -51,3 +51,4 @@ for key in KEYS:
     coll = C.collection(f"CR_{key}", root)
     r = K.build(key, coll)
     K.ground_rig(r)
+    lo, hi = C.bounds(coll)
