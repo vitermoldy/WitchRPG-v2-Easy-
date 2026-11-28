@@ -477,6 +477,7 @@ export class WorldMap {
 
     // the places without monsters in the south: a pale square and the name
     ctx.font = `600 ${Math.max(10, size / 70)}px Figtree Variable, Figtree, system-ui, sans-serif`
+    for (const l of LANDMARKS) {
     // altars: teal diamonds, filled once lit
     const r = Math.max(4, size / 110)
     for (const a of ALTARS) {
