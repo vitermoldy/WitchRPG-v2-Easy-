@@ -1120,6 +1120,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     attacks: [
       { name: 'lecut belalai', strike: 'line', windup: 0.7, recover: 0.9, range: 7, minRange: 2, lungeSpeed: 7, lungeTime: 0.4, damage: 1.1 },
       { name: 'gigitan anjing', strike: 'ring', windup: 0.6, recover: 0.8, range: 3, ring: 2 },
+      { name: 'mata api', strike: 'ring', windup: 1, recover: 0.9, range: 20, minRange: 7, ring: 1.8, shot: { speed: 18, gravity: 6, radius: 0.35 }, cooldown: 5 },
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
