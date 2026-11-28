@@ -83,6 +83,7 @@ export class Terrain {
       if (!c.meshes[want]) {
         // a chunk close by with nothing built yet (she just travelled) is made at once, whatever the budget
         const bare = !c.meshes[0] && !c.meshes[1] && !c.meshes[2]
+        if (made < budget || (bare && d < LOD_RANGE[1])) {
           this.ensure(c, want)
           made++
         } else {
