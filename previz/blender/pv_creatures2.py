@@ -254,3 +254,4 @@ def b_asmodeus(r):
     h.ell(hc + Vector((0, -0.13, -0.12)), (0.1, 0.06, 0.06), mat="mouth")
     for k in (-1, 1):
         h.cone(hc + Vector((0.04 * k, -0.15, -0.09)), hc + Vector((0.04 * k, -0.16, -0.17)), 0.016, mat="horn", seg=4)
+    beard(h, hc + Vector((0, -0.12, -0.16)), 0.45, 0.12, mat="hair")
