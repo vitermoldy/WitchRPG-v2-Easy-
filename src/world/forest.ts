@@ -323,6 +323,7 @@ export class Forest {
     const q = new THREE.Quaternion()
     const up = new THREE.Vector3(0, 1, 0)
     for (const t of list) {
+      const id = mesh.addInstance(ids[t.kind])
       q.setFromAxisAngle(up, t.rot)
       m.compose(new THREE.Vector3(t.x, t.y, t.z), q, new THREE.Vector3(t.scale, t.scale, t.scale))
       this.mesh.setMatrixAt(id, m)
