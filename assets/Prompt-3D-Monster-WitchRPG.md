@@ -270,3 +270,4 @@ Poster `images (7).jpg` berisi 35 makhluk kecil, kebanyakan berwujud manusia, bu
 | Selkie | a red-haired woman in a grey cloak sitting on a grey sealskin with a seal tail |
 | Mami Wata | a dark-skinned water spirit with a beaded headdress and beaded necklaces, holding a hand mirror, with a green fish tail |
 | Apsara | a dancing celestial woman in a flowing red-orange outfit with a tall golden crown and gold bracelets |
+| Iara | a woman with long green hair and a gold top, with a long green fish tail, sitting on a mossy rock |
