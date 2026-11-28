@@ -43,3 +43,4 @@ def mesh_bounds():
     for ob in bpy.context.scene.objects:
         if ob.type != "MESH":
             continue
+        ev = ob.evaluated_get(deps)
