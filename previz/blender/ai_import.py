@@ -108,3 +108,5 @@ for a in arms:
     a.data.pose_position = "POSE"
 count = tris()
 export(os.path.join(OUT, f"{KEY}.glb"), animated)
+clips = [a.name for a in bpy.data.actions]
+
