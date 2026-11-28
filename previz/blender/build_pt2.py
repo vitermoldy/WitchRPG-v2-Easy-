@@ -90,3 +90,4 @@ def board():
         lc = colls[k]
         lo, hi = C.bounds(lc)
         rot = VIEW.get(k, -40)
+        a = math.radians(rot)
