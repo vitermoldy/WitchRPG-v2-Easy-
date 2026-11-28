@@ -237,3 +237,4 @@ Gambar-gambar ini karya seniman atau studio modern (lukisan digital, poster kaos
 | Hydra hijau | `z0jfasz4aizd1.jpeg` | a green hydra with five snake heads with red-orange fin crests on one four-legged reptile body with a long tail |
 | Cerberus biru menyala | `images (2).jpg` | a three-headed hellhound standing upright, dark blue-black armored hide with glowing cyan cracks and cyan eyes, open fanged mouths with long tongues and a snake for a tail |
 | Cerberus ungu | `z0jfasz4aizd1.jpeg` | Cerberus: a three-headed lavender-grey dog with spiked collars and snarling red mouths, a muscular body on four legs |
+| Chimera emas | `images (5).jpg` | a chimera: a muscular, hunched golden-brown beast with a snarling goat-like head with long curved horns and a white mane, a second lion head below it, clawed feet and a long blue-and-gold cobra tail arching over its back with an open fanged mouth |
