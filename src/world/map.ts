@@ -277,7 +277,7 @@ export function heightMap(x: number, y: number): number {
 /** Ground height under a three.js world point. */
 export const heightAt = (wx: number, wz: number) => heightMap(wx, -wz)
 
-/** Water surface level over the swamp and Danau Hitam. */
+/** Water surface level over the swamp, Danau Hitam, the Marinus lagoon and the Duyung's mere. */
 export const WATER_LEVEL = 0
 /** The water plane covers this map rectangle (x0, y0, x1, y1). */
 export const WATER_RECT: [number, number, number, number] = [-560, -170, -90, 420]
