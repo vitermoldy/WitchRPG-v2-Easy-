@@ -273,3 +273,4 @@ Poster `images (7).jpg` berisi 35 makhluk kecil, kebanyakan berwujud manusia, bu
 | Iara | a woman with long green hair and a gold top, with a long green fish tail, sitting on a mossy rock |
 | Kitsune | a red-orange fox with nine flame-like tails with white tips |
 | Sylph | a dark, wispy, translucent air spirit made of swirling smoke |
+| Qilin | a qilin: a deer-like body covered in pale blue-gold scales, a dragon head with antlers and a golden mane |
