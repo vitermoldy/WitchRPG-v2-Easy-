@@ -26,7 +26,7 @@ const KINDS = new Set(['imp', 'hellhound', 'harpy', 'centaur', 'naga', 'minotaur
   'aziza', 'kitsune', 'sylph', 'banshee'])
 const RANKS = new Set(['prajurit', 'ksatria', 'jenderal', 'marsekal'])
 const STATS = ['hex', 'spr', 'vit', 'agi', 'umb']
-const ALTARS = new Set(['pembuka', 'simpang', 'tebing', 'rawa', 'danau', 'kuil', 'bara'])
+const ALTARS = new Set(['pembuka', 'simpang', 'tebing', 'rawa', 'danau', 'kuil', 'bara', 'selatan', 'rawa_barat', 'tebing_timur', 'ganjil', 'ganjil_barat', 'ganjil_timur', 'ganjil_utara', 'menara', 'telaga', 'batu', 'jamur'])
 const MAX_LEVEL = 30
 const MAX_SHADOWS = 2000
 
