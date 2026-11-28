@@ -179,3 +179,4 @@ describe('the south and the roaming packs (owner, 28 Nov 2026)', () => {
       expect(Object.keys(r.pack)).toEqual([t.kind])
       expect(UNITS[t.kind].boss, t.kind).toBeFalsy()
       expect(zoneAt(t.c[0], t.c[1]).key).toBe(zoneAt(r.c[0], r.c[1]).key)
+      expect(r.levels[0]).toBeGreaterThanOrEqual(t.levels[0])
