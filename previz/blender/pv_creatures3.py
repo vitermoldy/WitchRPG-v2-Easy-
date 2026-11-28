@@ -216,3 +216,4 @@ def b_banshee(r):
     tl.tube([hp + Vector((0, 0, 0.2)), hp, hp + Vector((0, 0.05, -0.5)), hp + Vector((0, 0.1, -0.85))], [0.16, 0.22, 0.34, 0.4], mat="cloth", seg=12, n=3, cap=False)
     for i in range(10):
         a = 2 * math.pi * i / 10
+        b0 = hp + Vector((math.cos(a) * 0.38, math.sin(a) * 0.38 + 0.1, -0.8))
