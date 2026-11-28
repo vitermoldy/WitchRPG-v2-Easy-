@@ -391,3 +391,4 @@ def b_sirena(r):
     J = humanoid(r, H, bulk=0.75, legs=None, arm_pose={"L": (80, 10, 15), "R": (80, 10, 15)}, body_mat="skin")
     h = r.parts["head"]
     hc = V(J["head_c"])
+    s = head_ball(h, hc, H, "skin")
