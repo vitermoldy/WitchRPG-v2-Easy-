@@ -219,3 +219,4 @@ Gambar-gambar ini karya seniman atau studio modern (lukisan digital, poster kaos
 | Pegasus putih (menyerbu) | `images (4).jpg`, kanan atas | a pure white winged horse charging toward the viewer, wings spread wide, mane flying |
 | Pegasus putih (melompat) | `z0jfasz4aizd1.jpeg` | a white winged horse leaping with wings raised high and a curly white mane and tail |
 | Unicorn | `167518dd…jpg`, panel Unicorn | a slender rearing horse with a blue-grey speckled coat, a long auburn mane and tail and a long spiral horn, on a dark rocky hill |
+| Harpy gelap | `167518dd…jpg`, panel Harpies | a harpy with a dark brown feathered body, huge spread wings, a woman's face and torso and bird-of-prey talons, seen from the front |
