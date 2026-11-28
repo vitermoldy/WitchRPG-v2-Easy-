@@ -509,3 +509,4 @@ def b_satyr(r):
         fur_on(r.parts["thigh_" + side], a, b, 10, 0.075)
         fur_on(r.parts["shin_" + side], J["knee_" + side], J["ankle_" + side], 6, 0.05)
     r.parts["pelvis"].ell(V(J["hip"]) + Vector((0, 0.02, 0.0)), (0.15, 0.12, 0.11), mat="fur")
+    # the long pipe, from the mouth down past the hands
