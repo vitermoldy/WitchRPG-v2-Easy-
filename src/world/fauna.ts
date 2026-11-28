@@ -25,7 +25,7 @@ const MEADOWS: [number, number][] = [
   [120, -300],
   [300, 100],
   [-20, 380],
-]
+].map(([x, y]) => [x * SCALE, y * SCALE])
 
 export class Fauna {
   readonly spots: Spot[]
