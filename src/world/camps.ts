@@ -27,6 +27,7 @@ export interface CampDef {
  * Until then the camps were a hand-placed list with mixed packs.
  */
 export const CAMP_DEFS: CampDef[] = TERRITORIES.flatMap((t) => {
+  const spots = campSpots(t)
 
 export interface Camp {
   def: CampDef
