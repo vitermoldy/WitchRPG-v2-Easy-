@@ -27,3 +27,4 @@ export class Landmarks {
     const at = (l: Landmark, a: number, r: number) => {
       const mx = l.c[0] + Math.cos(a) * r
       const my = l.c[1] + Math.sin(a) * r
+      const [x, z] = toWorld(mx, my)
