@@ -306,3 +306,4 @@ Permintaan pemilik: "itu ada monster pt2, lakukanlah hal yang sama, render, baru
 Pemeriksaan:
 
 - **Tes:** 116 dari 116 lulus (4 tes daerah baru dan bobot zona di jauh), typecheck dan build bersih.
+- **Di game** (tanpa server, witch Lv 20): 16 makhluk tampil, beranimasi, dan menyerang tanpa error. Di tiap daerah Tanah Ganjil hanya jenisnya yang muncul. Septiceps: bar boss Lv 20, tiga serangan dalam 16 dtk, memanggil 2 Satyr. Asmodeus: Lv 21, dua serangan dalam 16 dtk, memanggil 2 Cacodaemon. Keduanya tumbang dan kampnya padam.
