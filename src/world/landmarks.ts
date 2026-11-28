@@ -59,3 +59,4 @@ export class Landmarks {
           const p = at(l, a, 16)
           const lean = k % 5 === 2 ? 0.3 : 0
           stone.push(m4(p.x, p.y + 2.6, p.z, 1.6, 5.4, 1.1, -a, lean))
+          obstacles.add({ kind: CYL, x: p.x, y: p.y - 1, z: p.z, r: 1.2, h: 7, camOnly: false })
