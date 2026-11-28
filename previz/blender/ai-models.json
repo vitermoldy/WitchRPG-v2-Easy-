@@ -38,3 +38,4 @@
   },
   "monster_triceps.glb": {
     "key": "triceps",
+    "rig": "tool"
