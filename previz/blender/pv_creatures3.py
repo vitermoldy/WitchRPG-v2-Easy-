@@ -172,3 +172,4 @@ def b_kitsune(r):
     hp = nb + Vector((0, -0.18, 0.2))
     n = r.P("neck", nb, "body")
     n.limb(nb, hp, 0.13, 0.1)
+    hd = r.P("head", hp, "neck")
