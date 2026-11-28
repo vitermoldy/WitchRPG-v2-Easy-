@@ -58,6 +58,7 @@ export interface Landmark {
 export const LANDMARKS: Landmark[] = [
   { key: 'menara', name: 'Reruntuhan Menara', kind: 'tower', c: [-1350, -1450], r: 90 },
   { key: 'telaga', name: 'Telaga Bunga', kind: 'mere', c: [250, -1950], r: 100 },
+  { key: 'batu', name: 'Batu Tegak', kind: 'stones', c: [-650, -2150], r: 80 },
 /**
  * Altars: heal, the point she rises at after a fall, and fast travel between the ones already lit
  * (like v1's altar). One by the start, one where the paths split, one on each new zone's path.
