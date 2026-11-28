@@ -522,3 +522,4 @@ def b_cracovia(r):
     a second face on the belly (two eyes, the navel a mouth); clawed hands, webbed swan feet, and a long thin
     tail curving up over the head to a hook."""
     H = 2.3
+    J = humanoid(r, H, bulk=1.05, legs="bird", arm_pose={"L": (55, 10, 25), "R": (50, 10, 25)}, leg_pose={"L": (5, 10), "R": (-5, 10)},
