@@ -156,3 +156,4 @@ def b_septiceps(r):
         h.tube([base + Vector((dx * 0.15, 0, 0)), base + Vector((dx * 0.55, -0.02, up * 0.45 + 0.1)), top], [0.17, 0.13, 0.11], mat="skin", seg=8, n=3)
         if kind == "fox":
             dog_head(h, top + Vector((0, -0.08, 0.06)), fwd=(-0.2, -1, 0.1), s=1.25, jaw_open=28, ears=True, teeth=True, mat="fox")
+            continue
