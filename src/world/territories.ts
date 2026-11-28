@@ -53,3 +53,4 @@ const PLANS: Plan[] = [
   { key: 'griffin', name: 'Sarang Griffin', kind: 'griffin', zone: 'tebing', r: 95, levels: [5, 6], camps: 4, pack: 2, elites: 1, minHeight: PLATEAU },
   { key: 'hippogriff', name: 'Tebing Hippogriff', kind: 'hippogriff', zone: 'tebing', r: 95, levels: [5, 6], camps: 4, pack: 3, elites: 1, minHeight: PLATEAU },
   { key: 'aquilon', name: 'Puncak Aquilon', kind: 'aquilon', zone: 'tebing', r: 95, levels: [5, 6], camps: 4, pack: 2, elites: 1, minHeight: PLATEAU },
+  // III Rawa Berkabut (Lv 7 to 9)
