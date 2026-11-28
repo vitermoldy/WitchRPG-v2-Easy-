@@ -12,6 +12,7 @@ export interface Zone {
   r: number
   rx?: number
   /** Its share fades out south of this map y (Tanah Ganjil, so the wide ellipse keeps to the north). */
+  south?: number
   /** Fog colour and how far one can see in it (metres to about 4% visibility). */
   fog: string
   sight: number
