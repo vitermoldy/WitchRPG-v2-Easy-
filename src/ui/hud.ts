@@ -240,7 +240,7 @@ export class Hud {
     // where the nearest camp is
     const near = g.camps.nearest()
     this.set('camp-line', 'text', near ? `Kamp terdekat Lv ${near.camp.def.levels[0]}${near.camp.def.levels[1] !== near.camp.def.levels[0] ? ` sampai ${near.camp.def.levels[1]}` : ''}, ${Math.round(near.dist)} m` : 'Semua kamp ditaklukkan')
-    this.set('camp-count', 'text', `${g.camps.cleared} dari ${g.camps.camps.length} kamp ditaklukkan`)
+    this.set('camp-count', 'text', `${g.camps.cleared} dari ${g.camps.total} kamp ditaklukkan`)
     const unlit = g.altars.nearestUnlit()
     this.set('altar-line', 'text', unlit ? `${unlit.altar.name} belum menyala, ${Math.round(unlit.dist)} m` : '')
     this.updateBoss()
