@@ -70,3 +70,4 @@ export class Landmarks {
         for (let k = 0; k < 900; k++) {
           const a = rnd() * Math.PI * 2
           const p = at(l, a, l.r * (0.8 + rnd() * 0.6))
+          if (p.y < 0.2) continue
