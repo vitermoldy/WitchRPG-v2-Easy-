@@ -75,6 +75,7 @@ export const ROAM_DEFS: CampDef[] = (() => {
       let bd = Infinity
       for (const t of TERRITORIES) {
         if (t.boss || t.noCamps || UNITS[t.kind].boss || zoneAt(t.c[0], t.c[1]).key !== zone) continue
+        const d = Math.hypot(px - t.c[0], py - t.c[1])
 
 export interface Camp {
   def: CampDef
