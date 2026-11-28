@@ -12,3 +12,4 @@ export class Landmarks {
 
   constructor(obstacles: Obstacles) {
     this.group.name = 'landmarks'
+    const stone: THREE.Matrix4[] = []
