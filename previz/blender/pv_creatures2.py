@@ -152,3 +152,4 @@ def b_septiceps(r):
     base = V(J["neck"]) + Vector((0, 0.05, 0.05))
     heads = [(-1.0, 0.55, "profile", -1), (-0.5, 0.9, "fox", 0), (0.0, 1.1, "mask", 0), (0.5, 0.9, "scream", 0), (1.0, 0.55, "bald", 1)]
     for dx, up, kind, look in heads:
+        top = base + Vector((dx * 0.8, -0.05, up * 0.8 + 0.3))
