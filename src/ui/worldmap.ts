@@ -55,6 +55,7 @@ export class WorldMap {
   private focus: UnitKind | null = null
   /** The view: zoom and the map point at its centre (x east, y north). */
   private zoom = 1
+  private cx = 0
   onClose: (() => void) | null = null
 
   constructor(g: Game) {
