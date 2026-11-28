@@ -43,3 +43,4 @@ const PLANS: Plan[] = [
   { key: 'imp', name: 'Sarang Imp', kind: 'imp', zone: 'pembuka', at: [38, -551], r: 200, levels: [1, 3], camps: 9, pack: 4, elites: 1 },
   { key: 'hellhound', name: 'Padang Hellhound', kind: 'hellhound', zone: 'pembuka', r: 210, levels: [1, 3], camps: 9, pack: 3, elites: 1 },
   // the south (owner, 28 Nov 2026): four new weak creatures among the places of the south
+  { key: 'aziza', name: 'Taman Aziza', kind: 'aziza', zone: 'pembuka', maxY: -900, r: 170, levels: [1, 2], camps: 6, pack: 5, elites: 1 },
