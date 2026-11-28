@@ -75,3 +75,4 @@ def lion_face(part, at, fwd=(0, -1, 0), s=1.0, mat="body", mane_mat="body2", man
         part.ell(a - F * 0.12 * s, (0.27 * s, 0.2 * s, 0.28 * s), mat=mane_mat, seg=10, rings=7)
 
 
+def back_wing(r, name, root, s, kind, span, chord, **kw):
