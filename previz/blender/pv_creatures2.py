@@ -414,3 +414,4 @@ def b_sirena(r):
     knee = V(pts[2]) + Vector((0, -0.085, 0.02))
     leg.ell(knee, (0.035, 0.015, 0.022), mat="sclera", seg=8, rings=5)
     leg.ell(knee + Vector((0, -0.01, 0)), (0.015, 0.008, 0.015), mat="eye", seg=8, rings=5)
+    A = V(pts[-1])
