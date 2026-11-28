@@ -7,7 +7,7 @@ import bmesh
 import bpy
 from mathutils import Euler, Matrix, Vector
 
-ROOT = r"C:\MyRepo\WitchRPG-v2"
+# the repo this file lives in (the Easy copy must not write into WitchRPG-v2)
 PREVIZ = ROOT + r"\previz"
 ASSETS = ROOT + r"\assets"
 FONT_PATH = r"C:\Windows\Fonts\bahnschrift.ttf"
