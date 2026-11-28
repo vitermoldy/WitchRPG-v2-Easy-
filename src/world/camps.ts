@@ -321,5 +321,6 @@ export class Camps {
 
   /** Camps with a stone ring. */
   get total() {
+    return this.camps.filter((c) => !c.def.roam).length
   }
 }
