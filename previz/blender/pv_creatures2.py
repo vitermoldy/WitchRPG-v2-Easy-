@@ -187,3 +187,4 @@ def b_septiceps(r):
     for name, x, mat in (("leg_bird", 0.25, "talon"), ("leg_wolf", -0.25, "fur")):
         lg = r.P(name, hp + Vector((x, 0.35, 0)), "pelvis")
         a = hp + Vector((x, 0.35, 0))
+        k = hp + Vector((x * 1.3, 0.55, -1.3))
