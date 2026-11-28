@@ -293,3 +293,4 @@ Permintaan pemilik: "itu ada monster pt2, lakukanlah hal yang sama, render, baru
 | Bagian | Keputusan | Alasan |
 | --- | --- | --- |
 | Makhluk bagian 2 | 16 makhluk dari 15 gambar di `assets/Monster pt2` (dua gambar menampilkan makhluk yang sama): Satyr, Blemmye, Panotti, Silvana, Leonis, Cornutus, Sirena, Cacodaemon, Raia, Marinus, Cracovia, Tetrachiron, Triceps, Buer, dan dua boss, Septiceps (tujuh kepala) dan Asmodeus (tiga kepala di atas singa-naga). Nama diambil dari keterangan Latin di gambarnya atau dari tokohnya | Referensinya ukiran bestiari lama tanpa nama dalam bahasa kita. |
+| Render | Block-out di Blender seperti fase 0 (`pv_creatures2.py`), papan referensi lawan block-out di `previz/papan-makhluk-pt2.png`. Warnanya dipilih per makhluk, saling berbeda | Gambarnya hitam putih; keluhan fase 0 "warnanya hampir sama semua". |
