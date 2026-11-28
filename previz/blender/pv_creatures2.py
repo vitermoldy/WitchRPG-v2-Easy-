@@ -232,3 +232,4 @@ def b_asmodeus(r):
     spikes(b, [lerp(Q["withers"], (0, Q["L"] * 0.45, Q["H"] * 0.95), i / 7) + Vector((0, 0, 0.3)) for i in range(8)], 0.35, 0.08, mat="body2", tilt=(0, 0.6, 1))
     nb = V(Q["neck_base"])
     hp = nb + Vector((-0.5, -0.45, -0.3))
+    n = r.P("neck", nb, "body")
