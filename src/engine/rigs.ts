@@ -1483,6 +1483,7 @@ export class Rigs {
     for (const [u, copy] of this.skinned) {
       if (copy.frame === this.frame) continue
       this.group.remove(copy.root)
+      copy.mixer.stopAllAction()
 
     for (const b of this.crowd.values()) b.used = 0
     for (const [kind, n] of counts) this.batch(kind, n)
