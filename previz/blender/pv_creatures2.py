@@ -257,3 +257,4 @@ def b_asmodeus(r):
     beard(h, hc + Vector((0, -0.12, -0.16)), 0.45, 0.12, mat="hair")
     # rays of fire from the king's mouth
     for i in range(5):
+        a = math.radians(-24 + 12 * i)
