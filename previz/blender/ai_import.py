@@ -94,3 +94,4 @@ for ob in list(bpy.context.scene.objects):
     if ob is not root and ob.parent is None:
         ob.parent = root
         ob.location -= centre
+root.scale = (s, s, s)
