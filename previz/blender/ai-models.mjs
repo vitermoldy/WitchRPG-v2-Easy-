@@ -34,3 +34,4 @@ for (const m of present) {
   if (!fs.existsSync(blender)) {
     console.warn(`[models:ai] Blender tidak ditemukan di ${blender}; ${path.basename(m.src)} belum diimpor (set BLENDER).`)
     failed = true
+    break
