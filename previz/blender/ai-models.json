@@ -34,3 +34,4 @@
   },
   "monster_tetrachiron.glb": {
     "key": "tetrachiron",
+    "rig": "tool"
