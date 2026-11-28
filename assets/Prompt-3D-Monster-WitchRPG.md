@@ -161,3 +161,5 @@ Turn the attached antique woodcut into a 3D render of the same creature. Keep it
 
 ### 13. Manusia Singa Berpedang
 
+File: `Screenshot 2026-11-28 114433.png`.
+
