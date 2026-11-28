@@ -40,3 +40,4 @@ extra limbs, missing limbs, extra heads, extra fingers, changed pose, different 
 
 | Gaya | Cocok untuk | Teks yang ditempel |
 | --- | --- | --- |
+| A. Ukiran hidup | Paling setia ke ukiran kayu Monster pt2 (tetap hitam-putih/sepia) | `stylized 3D, ivory parchment-colored surfaces with black ink cross-hatching engraved into the texture, like an antique woodcut brought to life, subtle ink outlines` |
