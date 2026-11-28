@@ -145,3 +145,4 @@ def b_blackdragon(r):
 
 def b_aziza(r):
     """Aziza (poster, Bagian 3): a small dark-skinned fairy with a flower crown, a brown dress and four
+    translucent insect wings."""
