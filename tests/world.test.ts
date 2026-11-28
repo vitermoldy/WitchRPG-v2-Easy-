@@ -8,3 +8,4 @@ import { Terrain } from '../src/world/terrain'
 describe('the forest, one tile at a time (5000 m map)', () => {
   it('scatters the same trees in a tile whatever order the tiles come in', () => {
     const a = scatterTile(3, -2)
+    scatterTile(0, 0)
