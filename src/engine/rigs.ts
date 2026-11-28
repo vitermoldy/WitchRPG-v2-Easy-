@@ -23,6 +23,7 @@ export const VARIANTS: Partial<Record<UnitKind, Record<string, string>>> = {
   // the white-and-gold griffin
   griffin: { body: '#d8ac48', body2: '#f2eee6', membrane: '#f0ebe0', accent: '#c89a38' },
   // the lavender hellhound, after the purple Cerberus of the poster
+  hellhound: { body_veins: '#9a92ae', snake: '#7e7694', horn: '#f2f0ea', mouth: '#a01c22' },
 /** Adds a per-instance emissive colour (hit flash, the violet glow of a body that can be raised). */
 function patchGlow(mat: THREE.MeshStandardMaterial) {
   mat.onBeforeCompile = (s) => {
