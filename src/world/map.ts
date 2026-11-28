@@ -258,6 +258,7 @@ export function heightMap(x: number, y: number): number {
     }
   }
   // the Duyung's mere in the west of the swamp
+  const mr = smooth(MERE.r * 1.2, MERE.r * 0.75, dist(x, y, MERE.c))
   // the mountain ring that closes the valley
   const ringD = Math.max(Math.abs(x), Math.abs(y))
   if (ringD > 380) {
