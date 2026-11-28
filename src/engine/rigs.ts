@@ -928,6 +928,7 @@ function fourArmed(base: PoseFn): PoseFn {
 const poseAsmodeus: PoseFn = (p, u, t) => {
   poseBeast(p, u, t)
   if (u.state === 'dead') return
+  p.rot('tail', 0, 25 * Math.sin(t * 1.3 + u.id))
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   griffin: poseBeast,
   hippogriff: poseBeast,
