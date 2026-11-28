@@ -200,3 +200,5 @@ export function campGround(t: Territory, x: number, y: number) {
   if (inClearing(x, y, 6) || pathDist(x, y) < 6) return false
   if (t.minHeight !== undefined && h < t.minHeight) return false
   return true
+}
+
