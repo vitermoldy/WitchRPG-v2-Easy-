@@ -1212,6 +1212,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
       { name: 'lempar belati', strike: 'line', windup: 0.9, recover: 0.9, range: 26, minRange: 7, shot: { speed: 26, gravity: 0, radius: 0.35 }, cooldown: 4 },
     ],
   },
+  // The last boss of Tanah Ganjil: three heads on a winged rider grown out of a lion-dragon. A charge, lion fire, serpent tail. Calls Cacodaemons.
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
