@@ -1255,6 +1255,7 @@ function skinRole(u: Unit): SkinRole {
   return Math.hypot(u.vel.x, u.vel.z) > 0.4 ? 'walk' : 'idle'
 }
 
+/**
 interface CrowdBatch {
   parts: { geometry: THREE.BufferGeometry; material: THREE.Material; mesh: THREE.InstancedMesh }[]
   cap: number
