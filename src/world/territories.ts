@@ -136,3 +136,4 @@ function place(): Territory[] {
       : [2 + Math.floor(rnd() * 2), 0.14 + rnd() * 0.08, rnd() * 6.28, 4 + Math.floor(rnd() * 2), 0.06 + rnd() * 0.06, rnd() * 6.28]
     const own = 10 + rnd() * 40
     const { zone, at, maxY, ...rest } = plan
+    const z = ZONES.find((zz) => zz.key === zone)!
