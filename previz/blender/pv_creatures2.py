@@ -404,3 +404,4 @@ def b_sirena(r):
     t.limb(ch + Vector((0, 0, -0.06)), ch + Vector((0, 0, 0.03)), 0.008, 0.008, mat="accent", seg=4, joints=False)
     for k in (-1, 1):
         t.limb(ch + Vector((0, 0, 0.03)), ch + Vector((0.04 * k, 0, 0.08)), 0.008, 0.008, mat="accent", seg=4, joints=False)
+    t.limb(ch + Vector((-0.025, 0, -0.12)), ch + Vector((0.025, 0, -0.12)), 0.007, 0.007, mat="accent", seg=4, joints=False)
