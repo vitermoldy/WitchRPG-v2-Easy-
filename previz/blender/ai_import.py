@@ -132,3 +132,4 @@ for a in arms:
 export(os.path.join(OUT, f"{KEY}_lod.glb"), False)
 
 with open(os.path.join(OUT, f"{KEY}.json"), "w", encoding="utf-8") as fh:
+    json.dump({"animated": animated, "clips": clips, "triangles": count, "height": round(height, 2)}, fh, indent=1)
