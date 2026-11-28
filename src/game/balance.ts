@@ -1343,6 +1343,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
       { name: 'seruduk', strike: 'line', windup: 0.9, recover: 1.4, range: 16, minRange: 6, lungeSpeed: 16, lungeTime: 0.8, damage: 1.3, cooldown: 6 },
     ],
   },
+  // Manticore: mini-boss of Lembah Bara; claws, pounces along a line, and its dragon-headed tail bites behind.
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
