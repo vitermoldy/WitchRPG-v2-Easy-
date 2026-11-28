@@ -498,3 +498,4 @@ def b_satyr(r):
                  body_mat="skin", leg_mat="fur", foot_mat="hoof")
     h = r.parts["head"]
     hc = V(J["head_c"])
+    s = head_ball(h, hc, H, "skin", k=1.05)
