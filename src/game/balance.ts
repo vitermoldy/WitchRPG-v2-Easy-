@@ -999,6 +999,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
       { name: 'auman', strike: 'ring', windup: 1, recover: 1, range: 3.8, ring: 4, damage: 0.9, cooldown: 8 },
     ],
   },
+  // Cornutus: horned and winged; leaps from afar onto a circle and claws up close.
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
