@@ -608,3 +608,4 @@ def b_silvana(r):
     t.ell(V(J["waist"]) + Vector((0, -0.08, -0.04)), (0.2, 0.17, 0.17), mat="skin")
     ch = V(J["chest"])
     t.tube([ch + Vector((-0.08, -0.12, 0.0)), ch + Vector((-0.1, -0.16, -0.3)), ch + Vector((-0.08, -0.15, -0.65)), ch + Vector((-0.07, -0.14, -0.78))], [0.05, 0.04, 0.035, 0.03], mat="skin", seg=6, n=3)
+    t.tube([ch + Vector((0.08, -0.12, 0.0)), ch + Vector((0.14, -0.12, 0.2)), V(J["sh_L"]) + Vector((0.0, 0.02, 0.06)), V(J["sh_L"]) + Vector((-0.05, 0.15, -0.25))], [0.05, 0.04, 0.035, 0.03], mat="skin", seg=6, n=3)
