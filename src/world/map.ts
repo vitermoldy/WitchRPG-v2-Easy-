@@ -96,6 +96,7 @@ export const SPOTS = {
   minotaur: [TEMPLE[0], TEMPLE[1] - 36] as [number, number],
   // on the lake shore, as far from the water as before
   hydra: [LAKE.c[0] + 0.673 * 100, LAKE.c[1] - 0.74 * 100] as [number, number],
+  army: s(128, -258),
 }
 export const PATHS: [number, number][][] = [
   [[-10, -395], [-25, -330], [0, -230], [20, -120], [30, 0], [45, 120], [40, 250]],
