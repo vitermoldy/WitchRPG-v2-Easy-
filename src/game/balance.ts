@@ -176,6 +176,7 @@ export type UnitKind =
   | 'cyclops' | 'succubus' | 'incubus' | 'phoenix' | 'hydra' | 'hydraHead'
   | 'griffin' | 'hippogriff' | 'pegasus' | 'unicorn' | 'cerberus' | 'lilith' | 'dragon' | 'typhon' | 'samael' | 'atlas'
   | 'satyr' | 'blemmye' | 'panotti' | 'silvana' | 'leonis' | 'cornutus' | 'sirena' | 'cacodaemon' | 'raia' | 'marinus'
+  | 'cracovia' | 'tetrachiron' | 'triceps' | 'buer' | 'septiceps' | 'asmodeus'
 
 /** v2 creatures of the forest; the v1 kinds above stay for the v1 formula tests and later phases. */
 export const V2_KINDS = [
