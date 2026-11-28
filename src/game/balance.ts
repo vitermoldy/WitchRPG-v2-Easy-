@@ -1213,6 +1213,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     ],
   },
   // The last boss of Tanah Ganjil: three heads on a winged rider grown out of a lion-dragon. A charge, lion fire, serpent tail. Calls Cacodaemons.
+  asmodeus: {
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
