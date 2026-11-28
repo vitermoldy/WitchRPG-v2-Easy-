@@ -1327,6 +1327,7 @@ export class Rigs {
   }
 
   private rig(kind: UnitKind, team: Team, variant = false): Rig | null {
+    const key = kind + team + (variant ? 'v' : '')
     let r = this.rigs.get(key)
     if (!r) {
       const model = this.models[kind]
