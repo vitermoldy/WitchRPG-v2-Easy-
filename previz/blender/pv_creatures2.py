@@ -47,3 +47,4 @@ def wild_hair(part, hc, s, n=16, length=0.3, mat="hair", up=0.4):
         part.cone(base, base + d * length * s * (0.75 + 0.35 * math.sin(i * 1.7) ** 2), 0.045 * s, mat=mat, seg=5)
 
 
+def lion_face(part, at, fwd=(0, -1, 0), s=1.0, mat="body", mane_mat="body2", mane=1.0, jaw_open=12):
