@@ -17,6 +17,7 @@
     "users": "node server/users.js",
     "set-user": "node server/set-user.js",
     "models": "node previz/blender/models.mjs",
+    "models:ai": "node previz/blender/ai-models.mjs"
   },
   "dependencies": {
     "@fontsource-variable/figtree": "^5.3.0",
