@@ -1020,6 +1020,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     ],
   },
   // Ravenna (the Monster of Ravenna; named Sirena until 28 Nov 2026, the key stays): wings for arms, one taloned
+  // leg; hovers, cries, dives along a flashing line.
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
