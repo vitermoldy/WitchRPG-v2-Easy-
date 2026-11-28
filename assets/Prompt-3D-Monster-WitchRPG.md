@@ -247,3 +247,4 @@ Gambar-gambar ini karya seniman atau studio modern (lukisan digital, poster kaos
 | Minotaur | `z0jfasz4aizd1.jpeg` | a minotaur: a muscular bull-headed man with long horns, a leather belt and strap skirt, wrist bands, hooves and a double-headed axe in each hand |
 | Medusa | `z0jfasz4aizd1.jpeg` | Medusa: a green-skinned woman with snakes for hair, a white Greek dress with gold trim and a green snake tail for a lower body |
 | Cyclops | `z0jfasz4aizd1.jpeg` | a cyclops: a huge bald muscular man with one eye, leather straps crossing his chest, a belt with a skull buckle, a loincloth, sandals and a wooden club |
+| Atlas | `z0jfasz4aizd1.jpeg` | Atlas: a muscular old titan with white hair and beard in a white loincloth, carrying the globe on his shoulders |
