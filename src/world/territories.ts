@@ -160,3 +160,4 @@ function fits(t: Territory, zone: string, own: number, placed: Territory[], marg
   const [cx, cy] = t.c
   const big = t.r * BLOB
   if (Math.max(Math.abs(cx), Math.abs(cy)) + big > PLAY_HALF - 60) return false
+  for (const o of placed) {
