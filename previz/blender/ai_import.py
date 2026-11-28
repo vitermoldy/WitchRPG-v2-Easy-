@@ -127,3 +127,4 @@ for ob in list(bpy.context.scene.objects):
         mw = ob.matrix_world.copy()
         ob.parent = root
         ob.matrix_world = mw
+for a in arms:
