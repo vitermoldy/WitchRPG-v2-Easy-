@@ -138,3 +138,4 @@ def sword(part, W, d, length=1.1, mat="metal"):
 
 def b_septiceps(r):
     """Discordia, the allegory of discord (prompt no. 1): a muscular giant with five serpentine necks (from the
+    viewer's left: a brooding man in profile, a snarling fox, a man behind a pale mask, a screaming face with
