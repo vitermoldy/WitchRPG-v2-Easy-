@@ -91,3 +91,4 @@ const PLANS: Plan[] = [
   { key: 'hippocentaurus', name: 'Padang Hippocentaurus', kind: 'hippocentaurus', zone: 'ganjil', r: 160, levels: [17, 18], camps: 5, pack: 2, elites: 1 },
   { key: 'triceps', name: 'Sarang Triceps', kind: 'triceps', zone: 'ganjil', r: 160, levels: [18, 18], camps: 5, pack: 1, elites: 1 },
   { key: 'tetrachiron', name: 'Bukit Tetrachiron', kind: 'tetrachiron', zone: 'ganjil', r: 160, levels: [18, 18], camps: 5, pack: 1, elites: 1 },
+  { key: 'buer', name: 'Jalur Buer', kind: 'buer', zone: 'ganjil', r: 160, levels: [18, 18], camps: 5, pack: 1, elites: 1 },
