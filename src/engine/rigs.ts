@@ -969,6 +969,8 @@ const poseWhole: PoseFn = (p, u, t) => {
     return
   }
   p.body(0.06 * Math.abs(Math.sin(u.walk * 1.4)) * amp, 4 * amp, 3 * Math.sin(u.walk * 0.7) * amp)
+}
+
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   griffin: poseBeast,
   hippogriff: poseBeast,
