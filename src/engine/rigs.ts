@@ -1240,6 +1240,7 @@ type SkinRole = 'idle' | 'walk' | 'attack' | 'hit' | 'die'
 
 interface SkinCopy {
   root: THREE.Group
+  mixer: THREE.AnimationMixer
 interface CrowdBatch {
   parts: { geometry: THREE.BufferGeometry; material: THREE.Material; mesh: THREE.InstancedMesh }[]
   cap: number
