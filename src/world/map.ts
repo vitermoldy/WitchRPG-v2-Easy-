@@ -268,6 +268,7 @@ export function heightMap(x: number, y: number): number {
   // the mountain ring that closes the valley
   const ringD = Math.max(Math.abs(x), Math.abs(y))
   if (ringD > RING[0] - 60) {
+    const ring = smooth(RING[0], RING[1], ringD + 30 * fbm(x / 120, y / 120, 3, 4.0))
     if (ring > 0) h += ring * (110 + 70 * fbm(x / 90, y / 90, 4, 8.0))
   }
   return h
