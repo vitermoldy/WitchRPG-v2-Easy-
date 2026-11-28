@@ -102,3 +102,4 @@ def b_aries(r):
     h.ell(hc, (0.16, 0.2, 0.18), mat="bone")
     h.limb(hc + Vector((0, -0.12, -0.04)), hc + Vector((0, -0.32, -0.1)), 0.11, 0.07, mat="bone")
     h.ell(hc + Vector((0, -0.12, 0.05)), (0.035, 0.02, 0.025), mat="eye", seg=8, rings=5)
+    for i in range(5):
