@@ -330,3 +330,4 @@ def b_cacodaemon(r):
     hc = V(J["head_c"]) + Vector((0, -0.02, 0.0))
     dog_head(h, hc, fwd=(0, -1, 0.05), s=1.05, jaw_open=22, ears=True, teeth=True, mat="body")
     pts = [hc + Vector((0.08, 0.05, 0.12)) + Vector((0.12 * math.cos(t), 0.1 + 0.12 * math.sin(t), 0.1 * math.sin(t))) for t in [i * 0.95 for i in range(6)]]
+    h.tube(pts, [0.035 - 0.005 * i for i in range(6)], mat="horn", seg=5, n=2)
