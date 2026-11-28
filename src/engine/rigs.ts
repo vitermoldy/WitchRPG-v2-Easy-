@@ -25,6 +25,7 @@ export const VARIANTS: Partial<Record<UnitKind, Record<string, string>>> = {
   // the lavender hellhound, after the purple Cerberus of the poster
   hellhound: { body_veins: '#9a92ae', snake: '#7e7694', horn: '#f2f0ea', mouth: '#a01c22' },
   // kinds that are never elite wear theirs at random (owner): the pink Pegasus with a teal mane,
+  pegasus: { body: '#f4dce6', body2: '#4ac8b0', membrane: '#f8e6ee', accent: '#f0d2de' },
 /** Adds a per-instance emissive colour (hit flash, the violet glow of a body that can be raised). */
 function patchGlow(mat: THREE.MeshStandardMaterial) {
   mat.onBeforeCompile = (s) => {
