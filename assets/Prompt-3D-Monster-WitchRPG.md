@@ -257,3 +257,4 @@ Poster `images (7).jpg` berisi 35 makhluk kecil, kebanyakan berwujud manusia, bu
 | Makhluk | Subject |
 | --- | --- |
 | Mermaid | a mermaid with long golden hair and a red shell top, holding a conch shell, with a teal-green scaly fish tail |
+| Unicorn | a white unicorn with a flowing white mane whose hind body becomes a long fish-like tail dissolving into sparkles |
