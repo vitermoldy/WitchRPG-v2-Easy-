@@ -8,3 +8,4 @@ feet on the ground, centred over its feet and turned to face the way the game ex
 (with its animation clips when it is rigged), <key>_lod.glb (rest pose, decimated, for the far shadow
 army) and <key>.json ({"animated": bool, "clips": [...], "triangles": n})."""
 import json
+import math
