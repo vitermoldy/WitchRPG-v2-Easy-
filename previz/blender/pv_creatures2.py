@@ -210,3 +210,4 @@ def b_septiceps(r):
     W2 = lw.pivot + (lw.pivot - r.parts["forearm2_R"].pivot).normalized() * 0.15
     sword(lw, W2, Vector((0.1, -0.3, 1)), length=0.7)
     lw.ell(W2 + Vector((0, -0.15, -0.05)), (0.09, 0.07, 0.1), mat="heart")
+    # upper left (viewer's right): an open book; lower left: a sword hilt at the hip
