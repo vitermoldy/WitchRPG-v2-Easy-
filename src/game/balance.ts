@@ -1391,6 +1391,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     ],
   },
   // Easy, the south of Hutan Pembuka (owner, 28 Nov 2026: four new Lv 1 to 3 creatures from the poster of the prompt sheet).
+  // Aziza: a tiny forest fairy on insect wings; comes in swarms and stings along a short dive.
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
