@@ -27,6 +27,7 @@ const KIND_COLOR: Partial<Record<UnitKind, string>> = {
   // the third batch
   silenus: '#e8c49a', hippocentaurus: '#d8a070', aquilon: '#f4f0e0', duyung: '#5ad8c8', aries: '#c08aff',
   // the south
+  aziza: '#b8f070', kitsune: '#ff9a50', sylph: '#d0e8ff', banshee: '#e0d8f0',
 }
 
 interface BossEntry {
