@@ -873,6 +873,7 @@ const poseBuer: PoseFn = (p, u, t) => {
       p.body(0.25 * k)
     }
     return
+  }
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   griffin: poseBeast,
   hippogriff: poseBeast,
