@@ -72,3 +72,4 @@ const PLANS: Plan[] = [
   { key: 'manticore', name: 'Sarang Manticore', kind: 'manticore', zone: 'bara', r: 95, levels: [15, 15], camps: 1, pack: 1 },
   { key: 'cerberus', name: 'Gerbang Cerberus', kind: 'cerberus', zone: 'bara', r: 65, levels: [15, 15], camps: 1, pack: 1, boss: true },
   { key: 'lilith', name: 'Taman Lilith', kind: 'lilith', zone: 'bara', r: 65, levels: [16, 16], camps: 1, pack: 1, boss: true },
+  { key: 'dragon', name: 'Sarang Dragon', kind: 'dragon', zone: 'bara', r: 65, levels: [17, 17], camps: 1, pack: 1, boss: true },
