@@ -1324,6 +1324,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   },
   // Aries: the ram-horned demon of the temple ruins; gores under a circle, stamps around itself, charges.
   aries: {
+    name: 'Aries',
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
