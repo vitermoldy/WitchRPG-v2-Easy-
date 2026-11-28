@@ -167,6 +167,7 @@ export class WorldMap {
     this.zoom = z
     const next = (EXTENT * 2) / z
     this.cx = mx - (ux - 0.5) * next
+    this.cy = my + (uy - 0.5) * next
   open() {
     if (!this.dlg.open) this.dlg.showModal()
     this.renderBosses()
