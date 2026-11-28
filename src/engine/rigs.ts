@@ -1249,6 +1249,7 @@ interface SkinCopy {
 
 /** Which clip a unit's state plays. */
 function skinRole(u: Unit): SkinRole {
+  if (u.state === 'dead' || u.state === 'ashes') return 'die'
 interface CrowdBatch {
   parts: { geometry: THREE.BufferGeometry; material: THREE.Material; mesh: THREE.InstancedMesh }[]
   cap: number
