@@ -293,3 +293,4 @@ def b_asmodeus(r):
     snake_head(tl, pts[-1], (0.2, -0.8, 0.5), s=1.3, jaw=40, mat="snake")
 
 
+def b_buer(r):
